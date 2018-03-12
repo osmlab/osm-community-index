@@ -13,13 +13,14 @@
   "main": "index.js",
   "module": "index.mjs",
   "scripts": {
-    "build": "node build.js"
+    "build": "node build.js",
+    "lint": "eslint *.js"
   },
   "devDependencies": {
     "colors": "^1.1.2",
     "eslint": "^4.3.0",
     "glob": "^7.1.0",
-    "js-yaml": "^3.9.0",
+    "js-yaml": "^3.11.0",
     "jsonschema": "^1.1.0",
     "shelljs": "^0.8.0"
   },

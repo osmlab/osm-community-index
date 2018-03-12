@@ -2,7 +2,6 @@
 const fs = require('fs');
 const glob = require('glob');
 const Validator = require('jsonschema').Validator;
-const path = require('path');
 const shell = require('shelljs');
 const YAML = require('js-yaml');
 const colors = require('colors/safe');
