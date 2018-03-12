@@ -12,10 +12,18 @@
   ],
   "main": "index.js",
   "module": "index.mjs",
-  "dependencies": {},
+  "scripts": {
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "colors": "^1.1.2",
+    "eslint": "^4.3.0",
+    "glob": "^7.1.0",
+    "js-yaml": "^3.9.0",
+    "jsonschema": "^1.1.0",
+    "shelljs": "^0.8.0"
+  },
   "engines": {
     "node": ">=4.0.0"
-  },
-  "scripts": {
   }
 }

@@ -1,0 +1,57 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "properties": {
+        "type": {
+            "type": "string",
+            "enum": [
+                "Feature"
+            ]
+        },
+        "bbox": {
+            "$ref": "http://json.schemastore.org/geojson.json#/properties/bbox"
+        },
+        "geometry": {
+            "$ref": "http://json.schemastore.org/geojson.json#/definitions/geometry"
+        },
+        "properties": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "id",
+                "type",
+                "country_code",
+                "name",
+                "description",
+                "url"
+            ],
+            "properties": {
+                "id": {
+                    "description": "A unique identifier for the resource",
+                    "type": "string",
+                    "pattern": "^[-_.A-Za-z0-9]+$"
+                },
+                "type": {
+                    "description": "Freeform type of community resource (e.g. forum, slack, twitter)",
+                    "type": "string"
+                },
+                "country_code": {
+                    "description": "The ISO 3166-1 alpha-2 two letter country code in uppercase",
+                    "type": "string",
+                    "pattern": "^[A-Z]{2}$"
+                },
+                "name": {
+                    "description": "The display name for this community resource",
+                    "type": "string"
+                },
+                "description": {
+                    "description": "A short description of the community resource",
+                    "type": "string"
+                },
+                "url": {
+                    "description": "A url link for the community resource",
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
