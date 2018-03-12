@@ -1,0 +1,21 @@
+{
+  "name": "osm-community-index",
+  "version": "0.0.0",
+  "license": "ISC",
+  "repository": "osmlab/osm-community-index",
+  "author": "Bryan Housel <bryan@mapbox.com>",
+  "description": "An index of community resources for OpenStreetMap",
+  "keywords": [
+    "OSM",
+    "OpenStreetMap",
+    "community"
+  ],
+  "main": "index.js",
+  "module": "index.mjs",
+  "dependencies": {},
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+  }
+}
