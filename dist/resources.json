@@ -1,5 +1,16 @@
 {
   "resources": {
+    "Mapping-DC-meetup": {
+      "id": "Mapping-DC-meetup",
+      "featureId": "dc_metro",
+      "type": "meetup",
+      "name": "Mapping DC",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "Improve OpenStreetMap in the DC area",
+      "url": "https://mappingdc.org/",
+      "contacts": [{"name": "Brian DeRocher", "email": "brian@derocher.org"}]
+    },
     "OSM-US-Slack": {
       "id": "OSM-US-Slack",
       "featureId": "usa_full",
