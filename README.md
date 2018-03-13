@@ -22,14 +22,13 @@ These are `*.geojson` files found under the `features/` folder.
 Each feature file contains a single GeoJSON `Feature` for an area where a
 resource is active.
 
-Each feature must have a unique `id` property, for example `usa_full`.
+Each feature must have a unique `id` attribute, for example `usa_full`.
 
 ```js
 {
   "type": "Feature",
-  "properties": {
-    "id": "usa_full"
-  },
+  "id": "usa_full"
+  "properties": null,
   "geometry": {
     "type": "MultiPolygon",
     "coordinates": [
