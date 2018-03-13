@@ -1,0 +1,30 @@
+{
+    "title": "Feature",
+    "description": "A GeoJSON Feature",
+    "type": "object",
+    "required": ["type"],
+    "properties": {
+        "type": {
+            "type": "string",
+            "enum": ["Feature"]
+        },
+        "bbox": {
+            "$ref": "http://json.schemastore.org/geojson.json#/properties/bbox"
+        },
+        "geometry": {
+            "$ref": "http://json.schemastore.org/geojson.json#/definitions/geometry"
+        },
+        "properties": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id"],
+            "properties": {
+                "id": {
+                    "description": "A unique identifier for the polygon",
+                    "type": "string",
+                    "pattern": "^[-_.A-Za-z0-9]+$"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "title": "Resource",
+    "description": "An OpenStreetMap community resource",
+    "type": "object",
+    "required": [
+        "id",
+        "featureId",
+        "type",
+        "countryCode",
+        "name",
+        "description",
+        "url"
+    ],
+    "properties": {
+        "id": {
+            "description": "A unique identifier for the resource",
+            "type": "string",
+            "pattern": "^[-_.A-Za-z0-9]+$"
+        },
+        "featureId": {
+            "description": "A unique identifier for the polygon",
+            "type": "string",
+            "pattern": "^[-_.A-Za-z0-9]+$"
+        },
+        "type": {
+            "description": "Freeform type of community resource (e.g. forum, slack, twitter)",
+            "type": "string"
+        },
+        "countryCode": {
+            "description": "The ISO 3166-1 alpha-2 two letter country code in uppercase",
+            "type": "string",
+            "pattern": "^[A-Z]{2}$"
+        },
+        "name": {
+            "description": "The display name for this community resource",
+            "type": "string"
+        },
+        "description": {
+            "description": "A short description of the community resource",
+            "type": "string"
+        },
+        "url": {
+            "description": "A url link for the community resource",
+            "type": "string"
+        }
+    }
+}
