@@ -43,20 +43,26 @@ Each feature must have a unique `id` property, for example `usa_full`.
 
 These are `*.json` files found under the `resources/` folder.
 Each resource file contains a single JSON object with information about
-the resource.
+the community resource.
 
 Each resource must have a unique `id` property.
 The `featureId` property links the resource to a single feature.
 
 ```js
 {
-    "id": "OSM-US-Slack",
-    "featureId": "usa_full",
-    "type": "slack",
-    "countryCode": "US",
-    "name": "OpenStreetMap US Slack",
-    "description": "Sign up at {url}",
-    "url": "https://osmus-slack.herokuapp.com/"
+  "id": "OSM-US-Slack",
+  "featureId": "usa_full",
+  "type": "slack",
+  "countryCode": "US",
+  "name": "OpenStreetMap US Slack",
+  "description": "Sign up at {url}",
+  "url": "https://osmus-slack.herokuapp.com/",
+  "contacts": [
+    {
+      "name" : "Barney Rubble",
+      "email" : "b@rubble.com"
+    }
+  ]
 }
 ```
 

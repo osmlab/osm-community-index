@@ -1,9 +1,19 @@
 {
-    "id": "OSM-US-Slack",
-    "featureId": "usa_full",
-    "type": "slack",
-    "countryCode": "US",
-    "name": "OpenStreetMap US Slack",
-    "description": "Sign up at {url}",
-    "url": "https://osmus-slack.herokuapp.com/"
+  "id": "OSM-US-Slack",
+  "featureId": "usa_full",
+  "type": "slack",
+  "countryCode": "US",
+  "name": "OpenStreetMap US Slack",
+  "description": "Sign up at {url}",
+  "url": "https://osmus-slack.herokuapp.com/",
+  "contacts": [
+    {
+      "name": "Ian Dees",
+      "email": "ian@openstreetmap.us"
+    },
+    {
+      "name": "Clifford Snow",
+      "email": "clifford@snowandsnow.us"
+    }
+  ]
 }

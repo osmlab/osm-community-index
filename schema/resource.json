@@ -2,14 +2,15 @@
     "title": "Resource",
     "description": "An OpenStreetMap community resource",
     "type": "object",
+    "additionalProperties": false,
     "required": [
         "id",
         "featureId",
         "type",
-        "countryCode",
         "name",
         "description",
-        "url"
+        "url",
+        "contacts"
     ],
     "properties": {
         "id": {
@@ -42,6 +43,29 @@
         "url": {
             "description": "A url link for the community resource",
             "type": "string"
+        },
+        "contacts": {
+            "description": "People to contact about this community resource",
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+                "type": "object",
+                "required": [
+                    "name",
+                    "email"
+                ],
+                "properties": {
+                    "name": {
+                        "description": "The contact person's name",
+                        "type": "string"
+                    },
+                    "email": {
+                        "description": "The contact person's email address",
+                        "type": "string"
+                    }
+                }
+            }
         }
     }
 }
