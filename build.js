@@ -45,7 +45,7 @@ function generateFeatures() {
         var feature = JSON.parse(fs.readFileSync(file, 'utf8'));
         validateFile(file, feature, featureSchema);
 
-        var id = feature.properties.id;
+        var id = feature.id;
         features[id] = feature;
     });
 
