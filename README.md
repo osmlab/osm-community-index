@@ -53,7 +53,7 @@ The `featureId` property links the resource to a single feature.
   "id": "OSM-US-Slack",
   "featureId": "usa_full",
   "type": "slack",
-  "countryCode": "US",
+  "countryCode": "us",
   "name": "OpenStreetMap US Slack",
   "description": "Sign up at {url}",
   "url": "https://osmus-slack.herokuapp.com/",

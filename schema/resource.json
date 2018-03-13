@@ -27,11 +27,6 @@
             "description": "Freeform type of community resource (e.g. forum, slack, twitter)",
             "type": "string"
         },
-        "countryCode": {
-            "description": "The ISO 3166-1 alpha-2 two letter country code in uppercase",
-            "type": "string",
-            "pattern": "^[A-Z]{2}$"
-        },
         "name": {
             "description": "The display name for this community resource",
             "type": "string"
@@ -65,6 +60,24 @@
                         "type": "string"
                     }
                 }
+            }
+        },
+        "countryCodes": {
+            "description": "(optional) Array of ISO 3166-1 alpha-2 two letter country codes in lowercase",
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+                "type": "string",
+                "pattern": "^[a-z]{2}$"
+            }
+        },
+        "languageCodes": {
+            "description": "(optional) Array of ISO 639-1 alpha-2 two letter language codes in lowercase",
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+                "type": "string",
+                "pattern": "^[a-z]{2}$"
             }
         }
     }
