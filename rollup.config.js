@@ -4,7 +4,7 @@ export default {
     input: 'index.mjs',
     output: {
         name: 'oci',
-        file: 'index.js',
+        file: 'dist/index.js',
         format: 'umd'
     },
     plugins: [

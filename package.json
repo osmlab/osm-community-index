@@ -10,7 +10,7 @@
     "OpenStreetMap",
     "community"
   ],
-  "main": "index.js",
+  "main": "dist/index.js",
   "module": "index.mjs",
   "scripts": {
     "build": "node build.js && rollup -c",
