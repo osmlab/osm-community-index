@@ -3,6 +3,8 @@
 
 ## osm-community-index
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/osmlab/osm-community-index.svg)](https://greenkeeper.io/)
+
 :speech_balloon: An index of local community resources for OpenStreetMap.
 
 ### What is it?
