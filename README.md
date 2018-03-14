@@ -1,9 +1,9 @@
 [![npm version](https://badge.fury.io/js/osm-community-index.svg)](https://badge.fury.io/js/osm-community-index)
 [![Build Status](https://travis-ci.org/osmlab/osm-community-index.svg?branch=master)](https://travis-ci.org/osmlab/osm-community-index)
+[![Greenkeeper badge](https://badges.greenkeeper.io/osmlab/osm-community-index.svg)](https://greenkeeper.io/)
 
 ## osm-community-index
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/osmlab/osm-community-index.svg)](https://greenkeeper.io/)
 
 :speech_balloon: An index of local community resources for OpenStreetMap.
 
