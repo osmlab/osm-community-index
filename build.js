@@ -43,8 +43,10 @@ function generateFeatures() {
     var features = {};
     var files = {};
     glob.sync(__dirname + '/features/**/*.geojson').forEach(function(file) {
-        var feature = JSON.parse(fs.readFileSync(file, 'utf8'));
+        var contents = fs.readFileSync(file, 'utf8');
+        var feature = JSON.parse(contents);
         validateFile(file, feature, featureSchema);
+        prettifyFile(file, feature, contents);
 
         var id = feature.id;
         if (files[id]) {
@@ -64,8 +66,10 @@ function generateResources(tstrings) {
     var resources = {};
     var files = {};
     glob.sync(__dirname + '/resources/**/*.json').forEach(function(file) {
-        var resource = JSON.parse(fs.readFileSync(file, 'utf8'));
+        var contents = fs.readFileSync(file, 'utf8');
+        var resource = JSON.parse(contents);
         validateFile(file, resource, resourceSchema);
+        prettifyFile(file, resource, contents);
 
         var id = resource.id;
         if (files[id]) {
@@ -98,6 +102,13 @@ function validateFile(file, resource, schema) {
             }
         });
         process.exit(1);
+    }
+}
+
+function prettifyFile(file, object, contents) {
+    var pretty = prettyStringify(object);
+    if (pretty !== contents) {
+        fs.writeFileSync(file, pretty);
     }
 }
 
