@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/osm-community-index.svg)](https://badge.fury.io/js/osm-community-index)
+[![Build Status](https://travis-ci.org/osmlab/osm-community-index.svg?branch=master)](https://travis-ci.org/osmlab/osm-community-index)
 
 ## osm-community-index
 
