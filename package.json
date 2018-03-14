@@ -13,8 +13,9 @@
   "main": "index.js",
   "module": "index.mjs",
   "scripts": {
-    "build": "node build.js",
-    "lint": "eslint *.js"
+    "build": "node build.js && rollup -c",
+    "lint": "eslint build.js test/*.js",
+    "test": "npm run build && npm run lint && tap test/*.js"
   },
   "devDependencies": {
     "colors": "^1.1.2",
@@ -23,7 +24,10 @@
     "js-yaml": "^3.11.0",
     "json-stringify-pretty-compact": "^1.1.0",
     "jsonschema": "^1.1.0",
-    "shelljs": "^0.8.0"
+    "rollup": "~0.56.4",
+    "rollup-plugin-json": "2.2.0",
+    "shelljs": "^0.8.0",
+    "tap": "^11.0.0"
   },
   "engines": {
     "node": ">=4.0.0"
