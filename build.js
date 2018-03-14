@@ -41,12 +41,20 @@ function buildAll() {
 
 function generateFeatures() {
     var features = {};
+    var files = {};
     glob.sync(__dirname + '/features/**/*.geojson').forEach(function(file) {
         var feature = JSON.parse(fs.readFileSync(file, 'utf8'));
         validateFile(file, feature, featureSchema);
 
         var id = feature.id;
+        if (files[id]) {
+            console.error(colors.red('Error - Duplicate feature id: ') + colors.yellow(id));
+            console.error('  ' + colors.yellow(files[id]));
+            console.error('  ' + colors.yellow(file));
+            process.exit(1);
+        }
         features[id] = feature;
+        files[id] = file;
     });
 
     return features;
@@ -54,12 +62,20 @@ function generateFeatures() {
 
 function generateResources(tstrings) {
     var resources = {};
+    var files = {};
     glob.sync(__dirname + '/resources/**/*.json').forEach(function(file) {
         var resource = JSON.parse(fs.readFileSync(file, 'utf8'));
         validateFile(file, resource, resourceSchema);
 
         var id = resource.id;
+        if (files[id]) {
+            console.error(colors.red('Error - Duplicate resource id: ') + colors.yellow(id));
+            console.error('  ' + colors.yellow(files[id]));
+            console.error('  ' + colors.yellow(file));
+            process.exit(1);
+        }
         resources[id] = resource;
+        files[id] = file;
         tstrings[id] = {
             name: resource.name,
             description: resource.description
@@ -72,13 +88,13 @@ function generateResources(tstrings) {
 function validateFile(file, resource, schema) {
     var validationErrors = v.validate(resource, schema).errors;
     if (validationErrors.length) {
-        console.error(colors.red('Validation Error:'));
-        console.error(file + ': ');
+        console.error(colors.red('Error - Schema validation:'));
+        console.error('  ' + colors.yellow(file + ': '));
         validationErrors.forEach(function(error) {
             if (error.property) {
-                console.error(error.property + ' ' + error.message);
+                console.error('  ' + colors.yellow(error.property + ' ' + error.message));
             } else {
-                console.error(error);
+                console.error('  ' + colors.yellow(error));
             }
         });
         process.exit(1);
