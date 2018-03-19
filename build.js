@@ -22,7 +22,7 @@ function buildAll() {
     console.time(colors.green('data built'));
 
     // Start clean
-    shell.rm('-f', ['dist/*', 'i18n/en.yaml']);
+    shell.rm('-f', ['dist/*.json', 'dist/*.js', 'i18n/en.yaml']);
 
     var tstrings = {};   // translation strings
     var features = generateFeatures();
