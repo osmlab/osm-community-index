@@ -32,7 +32,7 @@
             "type": "string"
         },
         "description": {
-            "description": "A short description of the community resource",
+            "description": "One line description of the community resource",
             "type": "string"
         },
         "url": {
@@ -116,6 +116,10 @@
                 "type": "string",
                 "pattern": "^[a-z]{2}$"
             }
+        },
+        "extendedDescription": {
+            "description": "Longer description of the community resource",
+            "type": "string"
         }
     }
 }
