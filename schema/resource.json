@@ -57,6 +57,43 @@
                     },
                     "email": {
                         "description": "The contact person's email address",
+                        "type": "string",
+                        "format": "email"
+                    }
+                }
+            }
+        },
+        "events": {
+            "description": "Featured events for this resource",
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+                "type": "object",
+                "required": [
+                    "name",
+                    "description",
+                    "when",
+                    "where"
+                ],
+                "properties": {
+                    "name": {
+                        "description": "Name of the event",
+                        "type": "string"
+                    },
+                    "description": {
+                        "description": "One line description of the event",
+                        "type": "string"
+                    },
+                    "when": {
+                        "description": "When the event is (Should be a string parseable by Date.parse, and assumed to be local time zone for the event)",
+                        "type": "string"
+                    },
+                    "where": {
+                        "description": "Where the event is",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "A url link for the event",
                         "type": "string"
                     }
                 }
