@@ -14,33 +14,41 @@
     ],
     "properties": {
         "id": {
-            "description": "A unique identifier for the resource",
+            "description": "(required) A unique identifier for the resource",
             "type": "string",
             "pattern": "^[-_.A-Za-z0-9]+$"
         },
         "featureId": {
-            "description": "A unique identifier for the polygon",
+            "description": "(required) A unique identifier for the polygon",
             "type": "string",
             "pattern": "^[-_.A-Za-z0-9]+$"
         },
         "type": {
-            "description": "Freeform type of community resource (e.g. forum, slack, twitter)",
+            "description": "(required) Freeform type of community resource (e.g. forum, slack, twitter)",
             "type": "string"
         },
         "name": {
-            "description": "The display name for this community resource",
+            "description": "(required) The display name for this community resource",
             "type": "string"
         },
         "description": {
-            "description": "One line description of the community resource",
+            "description": "(required) One line description of the community resource",
+            "type": "string"
+        },
+        "extendedDescription": {
+            "description": "(optional) Longer description of the community resource",
             "type": "string"
         },
         "url": {
-            "description": "A url link for the community resource",
+            "description": "(required) A url link to visit the community resource",
+            "type": "string"
+        },
+        "signupUrl": {
+            "description": "(optional) A url link to sign up for the community resource",
             "type": "string"
         },
         "contacts": {
-            "description": "People to contact about this community resource",
+            "description": "(required) People to contact about this community resource",
             "type": "array",
             "minItems": 1,
             "uniqueItems": true,
@@ -64,7 +72,7 @@
             }
         },
         "events": {
-            "description": "Featured events for this resource",
+            "description": "(optional) Featured events for this resource",
             "type": "array",
             "uniqueItems": true,
             "items": {
@@ -116,10 +124,6 @@
                 "type": "string",
                 "pattern": "^[a-z]{2}$"
             }
-        },
-        "extendedDescription": {
-            "description": "Longer description of the community resource",
-            "type": "string"
         }
     }
 }
