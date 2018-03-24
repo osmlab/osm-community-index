@@ -27,14 +27,17 @@
             "type": "string"
         },
         "name": {
-            "description": "(required) The display name for this community resource",
+            "$comment": "Assumed to be in English, this value will be sent to Transifex for translation",
+            "description": "(required) Display name for this community resource",
             "type": "string"
         },
         "description": {
+            "$comment": "Assumed to be in English, this value will be sent to Transifex for translation",
             "description": "(required) One line description of the community resource",
             "type": "string"
         },
         "extendedDescription": {
+            "$comment": "Assumed to be in English, this value will be sent to Transifex for translation",
             "description": "(optional) Longer description of the community resource",
             "type": "string"
         },
@@ -82,25 +85,41 @@
                     "when",
                     "where"
                 ],
+                "dependencies": {
+                    "i18n": { "required": ["id"] }
+                },
                 "properties": {
+                    "i18n": {
+                        "enum": [ true ],
+                        "description": "(optional) if true, `name`, `description` and `where` will be translated",
+                        "type": "boolean"
+                    },
+                    "id": {
+                        "description": "(required if i18n=true) A unique identifier for the event",
+                        "type": "string",
+                        "pattern": "^[-_.A-Za-z0-9]+$"
+                    },
                     "name": {
-                        "description": "Name of the event",
+                        "$comment": "In local language by default, in English if `i18n=true`",
+                        "description": "(required) Name of the event",
                         "type": "string"
                     },
                     "description": {
-                        "description": "One line description of the event",
-                        "type": "string"
-                    },
-                    "when": {
-                        "description": "When the event is (Should be a string parseable by Date.parse, and assumed to be local time zone for the event)",
+                        "$comment": "In local language by default, in English if `i18n=true`",
+                        "description": "(required) One line description of the event",
                         "type": "string"
                     },
                     "where": {
-                        "description": "Where the event is",
+                        "$comment": "In local language by default, in English if `i18n=true`",
+                        "description": "(required) Where the event is",
+                        "type": "string"
+                    },
+                    "when": {
+                        "description": "(required) When the event is (Should be a string parseable by Date.parse, and assumed to be local time zone for the event)",
                         "type": "string"
                     },
                     "url": {
-                        "description": "A url link for the event",
+                        "description": "(optional) A url link for the event",
                         "type": "string"
                     }
                 }

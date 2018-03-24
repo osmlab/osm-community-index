@@ -8,7 +8,8 @@
     "required": ["id"],
     "properties": {
         "id": {
-            "type": "string"
+            "type": "string",
+            "pattern": "^[-_.A-Za-z0-9]+$"
         }
     }
 }

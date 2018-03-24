@@ -80,10 +80,42 @@ function generateResources(tstrings) {
         }
         resources[id] = resource;
         files[id] = file;
+
+        // collect translation strings for this resource
         tstrings[id] = {
             name: resource.name,
             description: resource.description
         };
+
+        if (resource.extendedDescription) {
+            tstrings[id].extendedDescription = resource.extendedDescription;
+        }
+
+        // collect strings from upcoming events (where `i18n=true`)
+        if (resource.events) {
+            var estrings = {};
+
+            for (var i = 0; i < resource.events.length; i++) {
+                var event = resource.events[i];
+                if (!event.i18n) continue;
+
+                if (estrings[event.id]) {
+                    console.error(colors.red('Error - Duplicate event id: ') + colors.yellow(event.id));
+                    console.error('  ' + colors.yellow(file));
+                    process.exit(1);
+                }
+
+                estrings[event.id] = {
+                    name: event.name,
+                    description: event.description,
+                    where: event.where
+                };
+            }
+
+            if (Object.keys(estrings).length) {
+                tstrings[id].events = estrings;
+            }
+        }
     });
 
     return resources;
