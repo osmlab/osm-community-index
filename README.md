@@ -5,11 +5,11 @@
 ## osm-community-index
 
 
-:speech_balloon: An index of local community resources for OpenStreetMap.
+:speech_balloon: An index of community resources for OpenStreetMap.
 
 ### What is it?
 
-This project is a list of resources for local users of OpenStreetMap.
+This project is a list of resources for users of OpenStreetMap.
 
 "Resources" can be links to forums, meetups, Slack groups, IRC channels,
 mailing lists, and so on.  Anything that mappers, especially beginners,
