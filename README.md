@@ -23,7 +23,7 @@ The source files for this index are stored in two kinds of files:
 * Under `features/` there are `.geojson` files to describe the areas where the communities are active
 * Under `resources/` there are `.json` files to describe the community resources
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for info about how to add your
+:point_right: See [CONTRIBUTING.md](CONTRIBUTING.md) for info about how to add your
 community resource to this index.
 
 ##### tl;dr
