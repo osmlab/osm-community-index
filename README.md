@@ -58,13 +58,11 @@ The `featureId` property links the resource to a single feature.
   "type": "slack",
   "countryCode": "us",
   "name": "OpenStreetMap US Slack",
-  "description": "Sign up at {url}",
-  "url": "https://osmus-slack.herokuapp.com/",
+  "description": "All are welcome! Sign up at {signupUrl}",
+  "signupUrl": "https://osmus-slack.herokuapp.com/",
+  "url": "https://osmus.slack.com",
   "contacts": [
-    {
-      "name" : "Barney Rubble",
-      "email" : "b@rubble.com"
-    }
+    {"name" : "Barney Rubble", "email" : "b@rubble.com"}
   ]
 }
 ```
@@ -93,3 +91,65 @@ The `featureId` property links the resource to a single feature.
   * `/dist/resources.json`
   * `/dist/resources.min.json`
 
+
+### Translations
+
+All community resources automatically support localization of the
+`name`, `description`, and `extendedDescription` text.  These fields
+should be written in US English.
+
+The description field also supports the following replacement tokens:
+* `{signupUrl}` - Will be replaced with the `signupURL`
+
+If a resource includes events, you can choose whether to write the
+`name`, `description`, and `where` fields in your local language, or
+write in US English and add `"i18n": true` to allow translation of these
+values (useful for events with a wider audience).
+
+```js
+{
+  "id": "OSM-US-Slack",
+  "name": "OpenStreetMap US Slack",
+  ...
+  "events": [
+    {
+      "id": "sotmus2017",
+      "i18n": true,
+      "name": "State of the Map US 2017",
+      "description": "Join the OpenStreetMap community at State of the Map US in Boulder, Colorado.",
+      "where": "Boulder, Colorado, USA",
+      "when": "2017-10-20",
+      "url": "https://2017.stateofthemap.us/"
+    }
+}
+```
+
+Translations are managed using the
+[Transifex](https://www.transifex.com/projects/p/id-editor/) platform.
+After signing up, you can go to [iD's project page](https://www.transifex.com/projects/p/id-editor/),
+select a language and click **Translate** to start translating.
+
+The translation strings for this project are located in a resource called
+[**community**](https://www.transifex.com/openstreetmap/id-editor/community/).
+
+#### Working with translation files
+
+To work with translation files,
+[install the Transifex Client](https://docs.transifex.com/client/introduction) software.
+
+The Transifex Client uses a file
+[`~/.transifex.rc`](https://docs.transifex.com/client/client-configuration#-transifexrc)
+to store your username and password.
+
+Note that you can also use a
+[Transifex API Token](https://docs.transifex.com/api/introduction#authentication)
+in place of your username and password.  In this usage, the username is `api`
+and the password is the generated API token.
+
+Once you have installed the client and setup the `~/.transifex.rc` file, you can
+use the following commands:
+
+* `tx push -s`  - upload latest source `/i18n/en.yaml` file to Transifex
+* `tx pull -a`  - download latest translation files to `/i18n/<lang>.yaml`
+
+For convenience you can also run these commands as `npm run txpush` or `npm run txpull`.

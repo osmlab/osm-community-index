@@ -15,7 +15,9 @@
   "scripts": {
     "build": "node build.js && rollup -c",
     "lint": "eslint build.js test/*.js",
-    "test": "npm run build && npm run lint && tap test/*.js"
+    "test": "npm run build && npm run lint && tap test/*.js",
+    "txpull": "tx pull -a",
+    "txpush": "tx push -s"
   },
   "devDependencies": {
     "colors": "^1.1.2",
