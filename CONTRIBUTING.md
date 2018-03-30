@@ -90,7 +90,8 @@ Here are the properties that a resource file can contain:
 * __`id`__ - (required) A unique identifier for the resource
 * __`featureId`__ - (optional) A unique identifier for the feature. This `featureId` matches
 the resource to a .geojson feature. If null, this is a global resource.
-* __`type`__ - (required) Freeform type of community resource (e.g. forum, slack, twitter)
+* __`type`__ - (required) Type of community resource. One of:<br/>
+["facebook", "forum", "mailinglist", "meetup", "reddit", "slack", "telegram", "twitter", "website"]
 * __`name`__ - (required) Display name for this community resource
 * __`description`__ - (required) One line description of the community resource
 * __`extendedDescription`__ - (optional) Longer description of the community resource
