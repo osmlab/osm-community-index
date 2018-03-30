@@ -9,13 +9,15 @@ There are 2 kinds of files in this project:
 
 To add your community resource:
 
-* Add a feature `.geojson` file if needed
-  * Worldwide resources do not need this
+* Add a **feature** `.geojson` file under `features/` folder
+  * This is a boundary around where the resource is active
   * You can use [geojson.io](http://geojson.io) to create these
-* Add a resource `.json` file
+* Add a **resource** `.json` file under `resources/` folder
+  * This contains info about what the resource is (slack, forum, mailinglist, facebook, etc.)
   * You can just copy and change an existing one
+  * Several resources can share the same `.geojson` feature
 * `npm run test`
-  * This will build and check for errors
+  * This will build and check for errors and make the files pretty
 
 
 ### Features
@@ -110,7 +112,7 @@ Each community resource must have at least one contact person:
 Resources may have events. These are optional.
 
 * __`i18n`__ - (optional) if true, `name`, `description` and `where` will be translated
-* __`id`__ - (required if i18n=true) A unique identifier for the event
+* __`id`__ - (required if `i18n=true`) A unique identifier for the event
 * __`name`__ - (required) Name of the event
 * __`description`__ - (required) One line description of the event
 * __`where`__ - (required) Where the event is
