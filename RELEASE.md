@@ -6,6 +6,7 @@
 - [ ] npm run test
 - [ ] npm run txpull
 - [ ] git add . && git commit -m 'npm run txpull'
+- [ ] Update `CHANGELOG.md`
 - [ ] Update version number in `package.json`
 - [ ] git add . && git commit -m 'vA.B.C'
 - [ ] git push origin master
