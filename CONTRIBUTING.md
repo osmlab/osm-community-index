@@ -101,8 +101,7 @@ the resource to a .geojson feature. If null, this is a global resource.
 * __`signupUrl`__ - (optional) A url link to sign up for the community resource
 * __`countryCodes`__ - (optional) Array of [two letter country codes](https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 where the community is active
-* __`languageCodes`__ - (optional) Array of [two letter language codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
-spoken by this community
+* __`languageCodes`__ - (optional) Array of [two letter](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) or [three letter](https://en.wikipedia.org/wiki/List_of_ISO_639-3_codes) spoken by this community
 
 Each community resource must have at least one contact person:
 

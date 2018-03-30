@@ -146,12 +146,12 @@
             }
         },
         "languageCodes": {
-            "description": "(optional) Array of ISO 639-1 alpha-2 two letter language codes in lowercase",
+            "description": "(optional) Array of ISO-639-1 (2 letter) or ISO-639-3 (3 letter) codes in lowercase",
             "type": "array",
             "uniqueItems": true,
             "items": {
                 "type": "string",
-                "pattern": "^[a-z]{2}$"
+                "pattern": "^[a-z]{2,3}$"
             }
         }
     }
