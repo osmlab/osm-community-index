@@ -55,4 +55,10 @@ community resource to this index.
 * Just `npm run test`
   * This will check the files for errors and make them pretty.
 
+### License
 
+osm-community-index is available under the [ISC License](https://opensource.org/licenses/ISC).
+See the [LICENSE.md](LICENSE.md) file for more details.
+
+This project also bundles some icons from [FontAwesome](https://fontawesome.com/).
+The icons are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).

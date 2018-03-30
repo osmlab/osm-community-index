@@ -1,5 +1,11 @@
 ## Release Checklist
 
+### Icons
+This project bundles some icons from FontAwesome, corresponding to the types of
+community resources.  Whenever the list of resource types changes:
+- [ ] Edit `build_icons.js`
+- [ ] npm run icons
+
 ### Update master branch
 - [ ] git checkout master
 - [ ] npm install
