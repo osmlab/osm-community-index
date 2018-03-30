@@ -23,8 +23,19 @@
             "pattern": "^[-_.A-Za-z0-9]+$"
         },
         "type": {
-            "description": "(required) Freeform type of community resource (e.g. forum, slack, twitter)",
-            "type": "string"
+            "description": "(required) Type of community resource",
+            "type": "string",
+            "enum": [
+                "facebook",
+                "forum",
+                "mailinglist",
+                "meetup",
+                "reddit",
+                "slack",
+                "telegram",
+                "twitter",
+                "website"
+            ]
         },
         "name": {
             "$comment": "Assumed to be in English, this value will be sent to Transifex for translation",
