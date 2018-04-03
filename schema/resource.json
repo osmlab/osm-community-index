@@ -26,9 +26,11 @@
             "description": "(required) Type of community resource",
             "type": "string",
             "enum": [
+                "discourse",
                 "facebook",
                 "forum",
                 "group",
+                "irc",
                 "mailinglist",
                 "meetup",
                 "reddit",
