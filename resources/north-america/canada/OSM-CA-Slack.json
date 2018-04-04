@@ -1,0 +1,17 @@
+{
+  "id": "OSM-CA-Slack",
+  "featureId": "canada_full",
+  "type": "slack",
+  "countryCodes": ["ca"],
+  "languageCodes": ["en"],
+  "name": "OSM-CA Slack",
+  "description": "All are welcome! Sign up at {signupUrl}.",
+  "signupUrl": "https://slackinviteosmcanada.herokuapp.com/",
+  "url": "https://osm-ca.slack.com/",
+  "contacts": [
+    {
+      "name": "OSM Canada mailing list",
+      "email": "talk-ca@openstreetmap.org"
+    }
+  ]
+}
