@@ -26,3 +26,6 @@ community resources.  Whenever the list of resource types changes:
 - [ ] git tag vA.B.C
 - [ ] git push origin -f release vA.B.C
 - [ ] npm publish
+
+Open https://github.com/osmlab/osm-community-index/tags
+Click "Add Release Notes" and link to the CHANGELOG
