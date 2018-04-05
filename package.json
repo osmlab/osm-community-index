@@ -17,6 +17,7 @@
     "icons": "node build_icons.js",
     "lint": "eslint *.js test/*.js",
     "test": "npm run build && npm run lint && tap test/*.js",
+    "stats": "node stats.js",
     "txpull": "tx pull -a",
     "txpush": "tx push -s"
   },
@@ -24,7 +25,9 @@
     "@fortawesome/fontawesome": "^1.1.5",
     "@fortawesome/fontawesome-free-brands": "^5.0.9",
     "@fortawesome/fontawesome-free-solid": "^5.0.9",
+    "bytes": "^3.0.0",
     "colors": "^1.1.2",
+    "easy-table": "^1.1.1",
     "eslint": "^4.3.0",
     "glob": "^7.1.0",
     "js-yaml": "^3.11.0",
