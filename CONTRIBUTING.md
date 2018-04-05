@@ -1,5 +1,7 @@
 ## Contributing
 
+*If you don't understand the explanation below, feel free to [post an Issue](https://github.com/osmlab/osm-community-index/issues/new) to describe your community resources. That page contains some pointers to help you fill in all the info we  need. You do need [a Github account](https://github.com/join) to be able to post an Issue.*
+
 There are 2 kinds of files in this project:
 
 * Under `features/` there are `.geojson` files to describe the areas where the communities are active
