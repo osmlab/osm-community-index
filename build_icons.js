@@ -5,6 +5,7 @@ const fs = require('fs');
 const fontawesome = require('@fortawesome/fontawesome');
 const faAt = require('@fortawesome/fontawesome-free-solid/faAt');
 const faComments = require('@fortawesome/fontawesome-free-solid/faComments');
+const faDiscord = require('@fortawesome/fontawesome-free-brands/faDiscord');
 const faDiscourse = require('@fortawesome/fontawesome-free-brands/faDiscourse');
 const faFacebook = require('@fortawesome/fontawesome-free-brands/faFacebook');
 const faKeyboard = require('@fortawesome/fontawesome-free-solid/faKeyboard');
@@ -19,12 +20,14 @@ buildAll();
 
 function buildAll() {
     var iconMap = {
+        discord: faDiscord,
         discourse: faDiscourse,
         facebook: faFacebook,
         forum: faComments,
         group: faUsers,
         irc: faKeyboard,
         mailinglist: faAt,
+        matrix: faComments,
         meetup: faMeetup,
         reddit: faReddit,
         slack: faSlack,

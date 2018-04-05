@@ -26,11 +26,13 @@
             "description": "(required) Type of community resource",
             "type": "string",
             "enum": [
+                "discord",
                 "discourse",
                 "facebook",
                 "forum",
                 "group",
                 "irc",
+                "matrix",
                 "mailinglist",
                 "meetup",
                 "reddit",
