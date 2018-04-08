@@ -2,6 +2,7 @@
 const colors = require('colors/safe');
 const fs = require('fs');
 const glob = require('glob');
+const rewind = require('geojson-rewind');
 const Validator = require('jsonschema').Validator;
 const shell = require('shelljs');
 const prettyStringify = require('json-stringify-pretty-compact');
@@ -44,7 +45,7 @@ function generateFeatures() {
     var files = {};
     glob.sync(__dirname + '/features/**/*.geojson').forEach(function(file) {
         var contents = fs.readFileSync(file, 'utf8');
-        var feature = JSON.parse(contents);
+        var feature = rewind(JSON.parse(contents), true);
         validateFile(file, feature, featureSchema);
         prettifyFile(file, feature, contents);
 
