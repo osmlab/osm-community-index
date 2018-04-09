@@ -92,12 +92,21 @@ function generateResources(tstrings) {
             tstrings[id].extendedDescription = resource.extendedDescription;
         }
 
-        // collect strings from upcoming events (where `i18n=true`)
+        // Validate event dates and collect strings from upcoming events (where `i18n=true`)
         if (resource.events) {
             var estrings = {};
 
             for (var i = 0; i < resource.events.length; i++) {
                 var event = resource.events[i];
+
+                // check date
+                var d = new Date(event.when);
+                if (isNaN(d.getTime())) {
+                    console.error(colors.red('Error - Bad date: ') + colors.yellow(event.when));
+                    console.error('  ' + colors.yellow(file));
+                    process.exit(1);
+                }
+
                 if (!event.i18n) continue;
 
                 if (estrings[event.id]) {
