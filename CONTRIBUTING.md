@@ -99,6 +99,7 @@ the resource to a .geojson feature. If null, this is a global resource.
   * "discourse"
   * "facebook"
   * "forum" - For example, on forum.openstreetmap.org
+  * "google-plus"
   * "group" - Generic catchall for anything with a `url` (such as a local OSM chapter page)
   * "irc" - `url` should be a clickable web join link, server details can go in `description`
   * "mailinglist" - `url` should be a link to the listinfo page, e.g. `https://lists.openstreetmap.org/listinfo/talk-us`
