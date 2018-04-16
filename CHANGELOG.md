@@ -1,5 +1,23 @@
 :warning: = Breaking change
 
+## 0.4.0
+##### 2018-Apr-16
+* Add communities:
+  * Germany (#69, #72)
+  * Rome and Lazio meetups (#68, #67)
+  * Austria (#64)
+  * Chile (#56, #57, #58, #59)
+  * OSM-CA Slack and OSM Ottawa meetup (#63, #51)
+  * Madagascar (#53)
+  * MapMinnesota (#55)
+  * Bangladesh, India, Indonesia, Mongolia, Nepal, Sri Lanka (#48)
+  * Brazil and Bahia (#47)
+  * Update Australia geojson and add mailing list (#45)
+* Add geojson-precision, drop precison of geojsons to 5 digits (#70)
+* Validate that event dates are pareseable (#62)
+* Fix winding order of all geojsons
+* Support types "discord" and "matrix" (e.g. riot chat) (#49)
+
 ## 0.3.0
 ##### 2018-Apr-03
 * Add several communities:
