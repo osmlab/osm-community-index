@@ -1,0 +1,1184 @@
+{
+  "resources": {
+    "osm-mg-facebook": {
+      "id": "osm-mg-facebook",
+      "featureId": "madagascar",
+      "type": "facebook",
+      "name": "OpenStreetMap Madagascar Facebook Group",
+      "countryCodes": ["mg"],
+      "languageCodes": ["mg", "fr"],
+      "description": "Malagasy Facebook group for people interested in OpenStreetMap.",
+      "url": "https://www.facebook.com/groups/1601381123461284/",
+      "contacts": [
+        {"name": "Brice Ramamonjy", "email": "rafaby21@gmail.com"},
+        {"name": "Dolly Andriatsiferana", "email": "privatemajory@gmail.com"}
+      ]
+    },
+    "talk-mg": {
+      "id": "talk-mg",
+      "featureId": "madagascar",
+      "type": "mailinglist",
+      "countryCodes": ["mg"],
+      "languageCodes": ["mg", "fr"],
+      "name": "Talk-mg Mailing List",
+      "description": "Place for OpenStreetMap contributors, communities and users in Madagascar to share and discuss.",
+      "url": "https://lists.openstreetmap.org/listinfo/talk-mg",
+      "contacts": [
+        {"name": "Brice Ramamonjy", "email": "rafaby21@gmail.com"},
+        {"name": "Dolly Andriatsiferana", "email": "privatemajory@gmail.com"}
+      ]
+    },
+    "OSM-BGD-facebook": {
+      "id": "OSM-BGD-facebook",
+      "featureId": "BGD",
+      "type": "facebook",
+      "name": "OpenStreetMap Bangladesh",
+      "description": "Improve OpenStreetMap in Bangladesh",
+      "extendedDescription": "Mapping in Bangladesh? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!",
+      "url": "https://www.facebook.com/groups/osmbd/",
+      "contacts": [
+        {"name": "Ahasanul Hoque", "email": "hoque.ahasan@gmail.com"}
+      ]
+    },
+    "OSM-India-facebook": {
+      "id": "OSM-India-facebook",
+      "featureId": "india_full",
+      "type": "facebook",
+      "name": "OpenStreetMap India - Participatory neighborhood mapping",
+      "description": "Improve OpenStreetMap in India",
+      "extendedDescription": "Mapping in India? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!",
+      "url": "https://www.facebook.com/groups/mappingindia/",
+      "contacts": [
+        {"name": "Jinal Foflia", "email": "fofliajinal@gmail.com"},
+        {"name": "Arun Ganesh", "email": "arun.planemad@gmail.com"}
+      ]
+    },
+    "OSM-india-mailinglist": {
+      "id": "OSM-india-mailinglist",
+      "featureId": "india_full",
+      "type": "mailinglist",
+      "name": "OpenStreetMap India Mailinglist",
+      "description": "Talk-in is the official Mailinglist for Indian Community",
+      "url": "https://lists.openstreetmap.org/listinfo/talk-in",
+      "contacts": [{"name": "Arun Ganesh", "email": "arun.planemad@gmail.com"}]
+    },
+    "OSM-india-twitter": {
+      "id": "OSM-india-twitter",
+      "featureId": "india_full",
+      "type": "twitter",
+      "name": "OpenStreetMap India Twitter",
+      "description": "We are just a tweet away: {url}",
+      "url": "https://twitter.com/osm_in",
+      "contacts": [{"name": "Jinal Foflia", "email": "fofliajinal@gmail.com"}]
+    },
+    "OSM-IDN-facebook": {
+      "id": "OSM-IDN-facebook",
+      "featureId": "IDN",
+      "type": "facebook",
+      "name": "OpenStreetMap Indonesia",
+      "description": "Improve OpenStreetMap in Indonesia",
+      "extendedDescription": "Mapping in Indonesia? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!",
+      "url": "https://www.facebook.com/groups/osm.id/",
+      "contacts": [
+        {"name": "Yantisa Akhadi", "email": "yantisa.akhadi@hotosm.org"}
+      ]
+    },
+    "OSM-japan-facebook": {
+      "id": "OSM-japan-facebook",
+      "featureId": "japan",
+      "type": "facebook",
+      "name": "OpenStreetMap Japan Community",
+      "countryCodes": ["jp"],
+      "languageCodes": ["jp"],
+      "description": "Mappers and OpenStreetMap users in Japan",
+      "url": "https://www.facebook.com/groups/osmjapan/",
+      "contacts": [{"name": "Satoshi IIDA", "email": "nyampire@gmail.com"}]
+    },
+    "OSM-japan-mailinglist": {
+      "id": "OSM-japan-mailinglist",
+      "featureId": "japan",
+      "type": "mailinglist",
+      "name": "OpenStreetMap Japan Mailinglist",
+      "countryCodes": ["jp"],
+      "languageCodes": ["jp"],
+      "description": "Talk-ja is an Official Mailinglist for Japanese Community",
+      "url": "https://lists.openstreetmap.org/listinfo/talk-ja",
+      "contacts": [{"name": "OSMF Japan", "email": "info@osmf.jp"}]
+    },
+    "OSM-japan-twitter": {
+      "id": "OSM-japan-twitter",
+      "featureId": "japan",
+      "type": "twitter",
+      "name": "OpenStreetMap Japan Twitter",
+      "countryCodes": ["jp"],
+      "languageCodes": ["jp"],
+      "description": "Hashtag on Twitter: {url}",
+      "url": "https://twitter.com/hashtag/osmjp",
+      "contacts": [{"name": "Satoshi IIDA", "email": "nyampire@gmail.com"}]
+    },
+    "OSM-MNG-facebook": {
+      "id": "OSM-MNG-facebook",
+      "featureId": "MNG",
+      "type": "facebook",
+      "name": "OpenStreetMap Mongolia",
+      "description": "Improve OpenStreetMap in Mongolia",
+      "extendedDescription": "Mapping in Mongolia? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!",
+      "url": "https://www.facebook.com/groups/OSM.Mongolia/",
+      "contacts": [{"name": " ", "email": "talk-mn@openstreetmap.org"}]
+    },
+    "OSM-Nepal-facebook": {
+      "id": "OSM-Nepal-facebook",
+      "featureId": "NPL",
+      "type": "facebook",
+      "name": "OpenStreetMap Nepal",
+      "description": "Improve OpenStreetMap in Nepal",
+      "extendedDescription": "Mapping in Nepal? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!",
+      "url": "https://www.facebook.com/groups/mapkathmandu/",
+      "contacts": [{"name": "Kshitiz Khanal", "email": "khanal1990@gmail.com"}]
+    },
+    "OSM-PH-facebook": {
+      "id": "OSM-PH-facebook",
+      "featureId": "philippines",
+      "type": "facebook",
+      "countryCodes": ["ph"],
+      "name": "OpenStreetMap PH Facebook",
+      "description": "Welcome to OpenStreetMap Philippines, where we encourage all fellow Filipinos to contribute to the OpenStreetMap project.",
+      "url": "https://www.facebook.com/OSMPH/",
+      "contacts": [
+        {"name": "Maning Sambale", "email": "emmanuel.sambale@gmail.com"},
+        {"name": "OSM PH Group", "email": "osm.pilipinas@gmail.com"}
+      ]
+    },
+    "OSM-PH-mailinglist": {
+      "id": "OSM-PH-mailinglist",
+      "featureId": "philippines",
+      "type": "mailinglist",
+      "countryCodes": ["ph"],
+      "name": "Talk-ph Mailing List",
+      "description": "A mailing list to discuss OpenStreetMap in the Philippines",
+      "url": "https://lists.openstreetmap.org/pipermail/talk-ph/",
+      "contacts": [
+        {"name": "Maning Sambale", "email": "emmanuel.sambale@gmail.com"},
+        {"name": "OSM PH Group", "email": "osm.pilipinas@gmail.com"}
+      ]
+    },
+    "OSM-PH-slack": {
+      "id": "OSM-PH-slack",
+      "featureId": "philippines",
+      "type": "slack",
+      "countryCodes": ["ph"],
+      "name": "OpenStreetMap PH Slack",
+      "description": "All are welcome! Sign up at {signupUrl}",
+      "signupUrl": "https://osmph-chat.herokuapp.com/",
+      "url": "https://osmph.slack.com",
+      "contacts": [
+        {"name": "Maning Sambale", "email": "emmanuel.sambale@gmail.com"},
+        {"name": "OSM PH Group", "email": "osm.pilipinas@gmail.com"}
+      ]
+    },
+    "OSM-PH-telegram": {
+      "id": "OSM-PH-telegram",
+      "featureId": "philippines",
+      "type": "telegram",
+      "countryCodes": ["ph"],
+      "name": "OpenStreetMap PH Telegram",
+      "description": "Un-official, Telegram local community of OpenStreetMap contributors and friends in the Philippines",
+      "url": "https://t.me/osmph",
+      "contacts": [
+        {"name": "Maning Sambale", "email": "emmanuel.sambale@gmail.com"},
+        {"name": "OSM PH Group", "email": "osm.pilipinas@gmail.com"}
+      ]
+    },
+    "OSM-RU-forum": {
+      "id": "OSM-RU-forum",
+      "type": "forum",
+      "featureId": "russia",
+      "countryCodes": ["ru"],
+      "languageCodes": ["ru"],
+      "name": "OpenStreetMap RU forum",
+      "description": "OpenStreetMap Russia web forum",
+      "url": "https://forum.openstreetmap.org/viewforum.php?id=21",
+      "contacts": [{"name": "Ilya Zverev", "email": "ilya@zverev.info"}]
+    },
+    "OSM-RU-telegram": {
+      "id": "OSM-RU-telegram",
+      "type": "telegram",
+      "featureId": "russia",
+      "countryCodes": ["ru"],
+      "languageCodes": ["ru"],
+      "name": "OpenStreetMap RU telegram",
+      "description": "OpenStreetMap Russia telegram chat",
+      "url": "https://t.me/ruosm",
+      "contacts": [{"name": "Ilya Zverev", "email": "ilya@zverev.info"}]
+    },
+    "OSM-LKA-facebook": {
+      "id": "OSM-LKA-facebook",
+      "featureId": "LKA",
+      "type": "facebook",
+      "name": "OpenStreetMap Sri Lanka",
+      "description": "Improve OpenStreetMap in Sri Lanka",
+      "extendedDescription": "Mapping in Sri Lanka? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!",
+      "url": "https://www.facebook.com/groups/142058222659672/",
+      "contacts": [
+        {"name": "Karan Suthakaran", "email": "karansuthakaran@yahoo.com"}
+      ]
+    },
+    "OSM-TW-facebook": {
+      "id": "OSM-TW-facebook",
+      "featureId": "taiwan",
+      "type": "facebook",
+      "name": "OpenStreetMap Taiwan Community",
+      "countryCodes": ["tw"],
+      "languageCodes": ["zh-tw"],
+      "description": "Facebook Group for Mappers and OpenStreetMap users to discuss matters about Taiwan.",
+      "url": "https://www.facebook.com/groups/OpenStreetMap.TW/",
+      "contacts": [
+        {
+          "name": "Nobody 沒有人 (Public mail)",
+          "email": "hiboard@openstreetmap.tw"
+        }
+      ]
+    },
+    "OSM-TW-mailinglist": {
+      "id": "OSM-TW-mailinglist",
+      "featureId": "taiwan",
+      "type": "mailinglist",
+      "name": "OpenStreetMap Taiwan Mailinglist",
+      "countryCodes": ["tw"],
+      "languageCodes": ["zh-tw", "en"],
+      "description": "Talk-tw is an Official Mailinglist for the Communities to dicuss matters about Taiwan",
+      "url": "https://lists.openstreetmap.org/listinfo/talk-tw",
+      "contacts": [
+        {
+          "name": "Nobody 沒有人 (Public email)",
+          "email": "hiboard@openstreetmap.tw"
+        }
+      ]
+    },
+    "at-mailinglist": {
+      "id": "at-mailinglist",
+      "featureId": "austria",
+      "type": "mailinglist",
+      "name": "Talk-at Mailing List",
+      "countryCodes": ["at"],
+      "languageCodes": ["de"],
+      "description": "Talk-at is the official mailing list for the Austrian OSM community",
+      "url": "https://lists.openstreetmap.org/listinfo/talk-at",
+      "contacts": [{"name": "AT community", "email": "info@openstreetmap.at"}]
+    },
+    "at-twitter": {
+      "id": "at-twitter",
+      "featureId": "austria",
+      "type": "twitter",
+      "name": "OpenStreetMap Austria Twitter",
+      "countryCodes": ["at"],
+      "languageCodes": ["de"],
+      "description": "OpenStreetMap Austria On Twitter: {url}",
+      "url": "https://twitter.com/osm_at",
+      "contacts": [{"name": "AT Community", "email": "info@openstreetmap.at"}]
+    },
+    "osm-at": {
+      "id": "osm-at",
+      "featureId": "austria",
+      "type": "group",
+      "countryCodes": ["at"],
+      "languageCodes": ["de"],
+      "name": "OpenStreetMap Austria",
+      "description": "The platform for information on OpenStreetMap in Austria",
+      "url": "https://www.openstreetmap.at/",
+      "contacts": [{"name": "AT community", "email": "info@openstreetmap.at"}]
+    },
+    "be-facebook": {
+      "id": "be-facebook",
+      "featureId": "belgium",
+      "type": "facebook",
+      "name": "OpenStreetMap BE Community",
+      "countryCodes": ["be"],
+      "languageCodes": ["en", "nl", "fr", "de"],
+      "description": "Mappers and OpenStreetMap facebook in Belgium",
+      "url": "https://www.facebook.com/groups/1419016881706058/",
+      "contacts": [{"name": "BE community", "email": "community@osm.be"}]
+    },
+    "be-forum": {
+      "id": "be-forum",
+      "type": "forum",
+      "featureId": "belgium",
+      "countryCodes": ["be"],
+      "languageCodes": ["en", "nl", "fr", "de"],
+      "name": "OpenStreetMap BE forum",
+      "description": "OpenStreetMap Belgium web forum",
+      "url": "https://forum.openstreetmap.org/viewforum.php?id=29",
+      "contacts": [{"name": "BE community", "email": "community@osm.be"}]
+    },
+    "be-irc": {
+      "id": "be-irc",
+      "featureId": "belgium",
+      "type": "irc",
+      "name": "OpenStreetMap Belgium IRC",
+      "countryCodes": ["be"],
+      "languageCodes": ["en", "nl", "fr", "de"],
+      "description": "Join #osmbe on irc.oftc.net (port 6667)",
+      "extendedDescription": "Join #osmbe on irc.oftc.net (port 6667), it is bridged with the matrix chat channel",
+      "url": "http://en.irc2go.com/webchat/?net=OFTC&room=osmbe",
+      "contacts": [{"name": "BE community", "email": "community@osm.be"}]
+    },
+    "be-mailinglist": {
+      "id": "be-mailinglist",
+      "featureId": "belgium",
+      "type": "mailinglist",
+      "name": "Talk-be Mailing List",
+      "countryCodes": ["be"],
+      "languageCodes": ["en", "nl", "fr", "de"],
+      "description": "Talk-be is the official mailing list for Belgian OSM community",
+      "url": "https://lists.openstreetmap.org/listinfo/talk-be",
+      "contacts": [{"name": "BE community", "email": "community@osm.be"}]
+    },
+    "be-matrix": {
+      "id": "be-matrix",
+      "featureId": "be_full",
+      "type": "matrix",
+      "countryCodes": ["be"],
+      "languageCodes": ["en", "nl", "fr", "de"],
+      "name": "OpenStreetMap BE Riot channel",
+      "description": "All mappers are welcome! Sign up at {signupUrl}",
+      "extendedDescription": "Multiple channels exists, for beginners to thematic channels, landuse and dev talk",
+      "signupUrl": "https://riot.im/app/#/register",
+      "url": "https://riot.im",
+      "contacts": [{"name": "BE community", "email": "community@osm.be"}]
+    },
+    "be-twitter": {
+      "id": "be-twitter",
+      "featureId": "belgium",
+      "type": "twitter",
+      "name": "OpenStreetMap Belgium Twitter",
+      "countryCodes": ["be"],
+      "languageCodes": ["en", "nl", "fr", "de"],
+      "description": "OSM Belgium On Twitter: {url}",
+      "url": "https://twitter.com/osm_be",
+      "contacts": [{"name": "BE community", "email": "community@osm.be"}]
+    },
+    "byosm": {
+      "id": "byosm",
+      "type": "telegram",
+      "featureId": "belarus",
+      "languageCodes": ["ru", "be", "en"],
+      "name": "OpenStreetMap Belarus",
+      "description": "OpenStreetMap Belarus telegram chat",
+      "url": "https://t.me/byosm",
+      "contacts": [{"name": "Darafei Praliaskouski", "email": "me@komzpa.net"}]
+    },
+    "talk-cz-mailinglist": {
+      "id": "talk-cz-mailinglist",
+      "featureId": "czechia",
+      "type": "mailinglist",
+      "name": "Talk-cz Mailing List",
+      "countryCodes": ["cz"],
+      "languageCodes": ["cs", "sk", "en"],
+      "description": "Talk-cz is the official mailing list for Czech community",
+      "url": "https://lists.openstreetmap.org/listinfo/talk-cz",
+      "contacts": [{"name": "osmcz", "email": "dev@openstreetmap.cz"}]
+    },
+    "de-forum": {
+      "id": "de-forum",
+      "featureId": "germany",
+      "type": "forum",
+      "countryCodes": ["de"],
+      "languageCodes": ["de"],
+      "name": "OpenStreetMap DE forum",
+      "description": "OpenStreetMap Germany web forum",
+      "url": "https://forum.openstreetmap.org/viewforum.php?id=14",
+      "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}]
+    },
+    "de-irc": {
+      "id": "de-irc",
+      "featureId": "germany",
+      "type": "irc",
+      "name": "OpenStreetMap Germany IRC",
+      "countryCodes": ["de"],
+      "languageCodes": ["de"],
+      "description": "Join #osm-de on irc.oftc.net (port 6667)",
+      "url": "http://de.irc2go.com/webchat/?net=OFTC&room=osm-de",
+      "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}]
+    },
+    "de-mailinglist": {
+      "id": "de-mailinglist",
+      "featureId": "germany",
+      "type": "mailinglist",
+      "name": "Talk-de Mailing List",
+      "countryCodes": ["de"],
+      "languageCodes": ["de"],
+      "description": "Talk-de is the official mailing list for the German OSM community",
+      "url": "https://lists.openstreetmap.org/listinfo/talk-de",
+      "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}]
+    },
+    "osm-de": {
+      "id": "osm-de",
+      "featureId": "germany",
+      "type": "group",
+      "countryCodes": ["de"],
+      "languageCodes": ["de"],
+      "name": "OpenStreetMap Germany",
+      "description": "The platform for information on OpenStreetMap in Germany",
+      "url": "https://www.openstreetmap.de/",
+      "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}]
+    },
+    "OSM-ES-telegram": {
+      "id": "OSM-ES-telegram",
+      "type": "telegram",
+      "featureId": "spain",
+      "languageCodes": ["es"],
+      "name": "@OSMes on Telegram",
+      "description": "OpenStreetMap Spain Telegram chat",
+      "url": "https://t.me/OSMes",
+      "contacts": [{"name": "Jorge Sanz", "email": "sanchi2@gmail.com"}]
+    },
+    "OSM-Rome-meetup": {
+      "id": "OSM-Rome-meetup",
+      "featureId": "IT_Roma_Capitale",
+      "type": "group",
+      "name": "Incontro Mappatori Romani",
+      "countryCodes": ["it"],
+      "languageCodes": ["it"],
+      "description": "Improve OpenStreetMap in the Rome area",
+      "extendedDescription": "We aim to be a resource for people to discuss and share knowledge on utilizing free geographic data sets especially OpenStreetMap, and Open geo-spatial software that manages, edits, and displays geographic data, and advocate for its use in Lazio.",
+      "url": "https://wiki.openstreetmap.org/wiki/Rome/Incontro",
+      "contacts": [
+        {"name": "Martin Koppenhoefer", "email": "dieterdreist@gmail.com"}
+      ]
+    },
+    "talk-it-lazio": {
+      "id": "talk-it-lazio",
+      "featureId": "IT_Lazio",
+      "type": "mailinglist",
+      "countryCodes": ["it"],
+      "languageCodes": ["it"],
+      "name": "OpenStreetMap IT Lazio",
+      "description": "All are welcome! Sign up at {signupUrl}",
+      "extendedDescription": "Mailinglist for Rome and Lazio area.",
+      "signupUrl": "https://lists.openstreetmap.org/listinfo/talk-it-lazio",
+      "url": "https://lists.openstreetmap.org/listinfo/talk-it-lazio",
+      "contacts": [
+        {"name": "Martin Koppenhoefer", "email": "dieterdreist@gmail.com"}
+      ]
+    },
+    "OSM-CA-Slack": {
+      "id": "OSM-CA-Slack",
+      "featureId": "canada_full",
+      "type": "slack",
+      "countryCodes": ["ca"],
+      "languageCodes": ["en", "fr"],
+      "name": "OSM-CA Slack",
+      "description": "All are welcome! Sign up at {signupUrl}.",
+      "signupUrl": "https://slackinviteosmcanada.herokuapp.com/",
+      "url": "https://osm-ca.slack.com/",
+      "contacts": [
+        {"name": "Denis Carriere", "email": "carriere.denis@gmail.com"}
+      ]
+    },
+    "OSM-Vancouver-meetup": {
+      "id": "OSM-Vancouver-meetup",
+      "featureId": "vancouver_metro",
+      "type": "meetup",
+      "name": "OpenStreetMap Vancouver",
+      "countryCodes": ["ca"],
+      "languageCodes": ["en"],
+      "description": "Mappers and OpenStreetMap users in the Vancouver, BC area",
+      "url": "https://www.meetup.com/OpenStreetMap-Vancouver/",
+      "contacts": [
+        {"name": "Paul Norman", "email": "penorman@mac.com"},
+        {"name": "Peter Chin", "email": "bpchin@gmail.com"}
+      ],
+      "events": [
+        {
+          "name": "April Metrotown Mappy Hour",
+          "description": "Mappy Hour is the time and place for discussion of OpenStreetMap, from surveying data to consuming data. Beginners welcome. Bring your questions.",
+          "when": "2018-04-27 18:30",
+          "where": "Firefighters' Public House, 6515 Bonsor Avenue, Burnaby, BC",
+          "url": "https://www.meetup.com/OpenStreetMap-Vancouver/events/qzsbsmyxgbkc/"
+        }
+      ]
+    },
+    "Bay-Area-OpenStreetMappers": {
+      "id": "Bay-Area-OpenStreetMappers",
+      "featureId": "sf_bay_area",
+      "type": "meetup",
+      "name": "Bay Area OpenStreetMappers",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "Improve OpenStreetMap in the Bay Area",
+      "extendedDescription": "This group is about growing the OpenStreetMap community here in the Bay Area. Our events are open to everyone, from open source enthusiasts, cyclists, GIS professionals, geocachers, and beyond. Anyone and everyone who is interested in maps, map making and free map data is welcome to join our group as well as attend our events.",
+      "url": "https://www.meetup.com/Bay-Area-OpenStreetMappers/",
+      "contacts": [{"name": "Ben Discoe", "email": "bdiscoe@gmail.com"}]
+    },
+    "Central-Pennsylvania-OSM": {
+      "id": "Central-Pennsylvania-OSM",
+      "featureId": "central_pa",
+      "type": "facebook",
+      "name": "Central Pennsylvania OSM",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "Online mapping community based out of State College, PA",
+      "url": "https://www.facebook.com/CentralPennsylvaniaOSM",
+      "contacts": [{"name": "Sterling Quinn", "email": "sdq107@psu.edu"}]
+    },
+    "Code-for-San-Jose-Slack": {
+      "id": "Code-for-San-Jose-Slack",
+      "featureId": "south_sf_bay_area",
+      "type": "slack",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "name": "Code for San Jose Slack",
+      "description": "All are welcome! Sign up at {signupUrl}, then join the #osm channel.",
+      "signupUrl": "https://slackin-c4sj.herokuapp.com/",
+      "url": "https://codeforsanjose.slack.com/",
+      "contacts": [
+        {
+          "name": "OSM Bay Area mailing list",
+          "email": "talk-us-sfbay@openstreetmap.org"
+        }
+      ]
+    },
+    "Dallas-Fort-Worth-OSM": {
+      "id": "Dallas-Fort-Worth-OSM",
+      "featureId": "dfw_metro",
+      "type": "group",
+      "name": "Dallas-Fort Worth OSM",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "The OpenStreetMap user group for Dallas-Fort Worth",
+      "extendedDescription": "Dallas, Fort Worth, and all the cities in between are abounding with creative and tech-savvy people. The vision for this usergroup is to find new ways to use the amazing resource of OSM.",
+      "url": "http://dfwosm.org/",
+      "contacts": [
+        {"name": "Andrew Matheny", "email": "andrewdmatheny@gmail.com"}
+      ]
+    },
+    "GeoPhilly": {
+      "id": "GeoPhilly",
+      "featureId": "philly_metro",
+      "type": "meetup",
+      "name": "GeoPhilly",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "Meetup for map enthusiasts in the Philadelphia area",
+      "extendedDescription": "GeoPhilly unites developers, geographers, data geeks, open source enthusiasts, civic hackers and map addicts in our shared love of maps and the stories they tell. If you use maps as part of your work or just want to learn more, this is the meetup for you!  Our events aim to be open, friendly, educational and social and range from happy hours to lightning talks or even workshops. Come create a diverse, inspiring geospatial community in the Philadelphia with us!",
+      "url": "https://www.meetup.com/GeoPhilly/",
+      "contacts": [{"name": "Dan Ford", "email": "dford@azavea.com"}]
+    },
+    "MapMinnesota": {
+      "id": "MapMinnesota",
+      "featureId": "minneapolis_st_paul_metro",
+      "type": "meetup",
+      "name": "MapMinnesota",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "Mappers and OpenStreetMap enthusiasts in the Twin Cities area",
+      "extendedDescription": "Connecting OpenStreetMap enthusiasts in Minnesota and the Twin Cities!",
+      "url": "https://www.meetup.com/Map-Minnesota/",
+      "contacts": [{"name": "Ian Dees", "email": "ian.dees@gmail.com"}]
+    },
+    "Mapping-DC-meetup": {
+      "id": "Mapping-DC-meetup",
+      "featureId": "dc_metro",
+      "type": "meetup",
+      "name": "Mapping DC",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "Improve OpenStreetMap in the DC area",
+      "extendedDescription": "We are a group of volunteer mappers who aim to improve the OpenStreetMap in the DC area. We also aim to teach others about the OSM ecosystem, data analytics, cartography, and GIS. We gather every other month at meetups to focus on one area of our city.",
+      "url": "https://mappingdc.org/",
+      "contacts": [{"name": "Brian DeRocher", "email": "brian@derocher.org"}],
+      "events": [
+        {
+          "name": "April Meetup",
+          "description": "Meets every other month on the 2nd Tuesday",
+          "when": "2018-04-10 18:00",
+          "where": "Capitol City Brewing Company, 1100 New York Ave NW, Washington, DC",
+          "url": "https://www.meetup.com/MappingDC/events/qqvnvhyxgbnb/"
+        },
+        {
+          "name": "June Meetup",
+          "description": "Meets every other month on the 2nd Tuesday",
+          "when": "2018-06-12 18:00",
+          "where": "Capitol City Brewing Company, 1100 New York Ave NW, Washington, DC",
+          "url": "https://www.meetup.com/MappingDC/events/qqvnvhyxjbqb/"
+        },
+        {
+          "name": "August Meetup",
+          "description": "Meets every other month on the 2nd Tuesday",
+          "when": "2018-08-14 18:00",
+          "where": "Capitol City Brewing Company, 1100 New York Ave NW, Washington, DC",
+          "url": "https://www.meetup.com/MappingDC/events/qqvnvhyxlbsb/"
+        },
+        {
+          "name": "October Meetup",
+          "description": "Meets every other month on the 2nd Tuesday",
+          "when": "2018-10-09 18:00",
+          "where": "Capitol City Brewing Company, 1100 New York Ave NW, Washington, DC",
+          "url": "https://www.meetup.com/MappingDC/events/qqvnvhyxnbmb/"
+        }
+      ]
+    },
+    "Maptime-ME-meetup": {
+      "id": "Maptime-ME-meetup",
+      "featureId": "portland_me",
+      "type": "meetup",
+      "name": "MaptimeME",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "Mappers and OpenStreetMap users, around Portland, ME",
+      "extendedDescription": "Maptime is, rather literally, time for mapmaking.  Our mission is to open the doors of cartographic possibility to anyone interested by creating a time and space for collaborative learning, exploration, and map creation using mapping tools and technologies.",
+      "url": "https://www.meetup.com/MaptimeME/",
+      "contacts": [{"name": "Malcolm Toon", "email": "malcolm@foreflight.com"}]
+    },
+    "OpenCleveland-meetup": {
+      "id": "OpenCleveland-meetup",
+      "featureId": "cleveland",
+      "type": "meetup",
+      "name": "Open Cleveland",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "Improve OpenStreetMap in the Cleveland area",
+      "extendedDescription": "Open Geo Cleveland aims to be a resource for people to discuss and share knowledge on utilizing free geographic data sets especially OpenStreetMap, and Open geo-spatial software that manages, edits, and displays geographic data, and advocate for its use in Northeast Ohio. We're also a maptime chapter =)",
+      "url": "https://www.meetup.com/open-cleveland/",
+      "contacts": [
+        {"name": "Will Skora", "email": "skorasaurus@gmail.com"},
+        {
+          "name": "Anastasia Diamond-Ortiz",
+          "email": "anastasia.diamond@gmail.com"
+        }
+      ],
+      "events": [
+        {
+          "name": "Wednesday Meetup / Hack Night",
+          "description": "Meets weekly - programming experience is not necessary!",
+          "when": "2018-04-18 18:00",
+          "where": "The Tech Hive, 6815 Euclid Ave, Cleveland, OH",
+          "url": "https://www.meetup.com/open-cleveland/events/lcjdnpyxgbxb/"
+        },
+        {
+          "name": "Wednesday Meetup / Hack Night",
+          "description": "Meets weekly - programming experience is not necessary!",
+          "when": "2018-04-25 18:00",
+          "where": "The Tech Hive, 6815 Euclid Ave, Cleveland, OH",
+          "url": "https://www.meetup.com/open-cleveland/events/lcjdnpyxgbhc/"
+        },
+        {
+          "name": "Wednesday Meetup / Hack Night",
+          "description": "Meets weekly - programming experience is not necessary!",
+          "when": "2018-05-02 18:00",
+          "where": "The Tech Hive, 6815 Euclid Ave, Cleveland, OH",
+          "url": "https://www.meetup.com/open-cleveland/events/lcjdnpyxhbdb/"
+        },
+        {
+          "name": "Wednesday Meetup / Hack Night",
+          "description": "Meets weekly - programming experience is not necessary!",
+          "when": "2018-05-09 18:00",
+          "where": "The Tech Hive, 6815 Euclid Ave, Cleveland, OH",
+          "url": "https://www.meetup.com/open-cleveland/events/lcjdnpyxhbmb/"
+        },
+        {
+          "name": "Wednesday Meetup / Hack Night",
+          "description": "Meets weekly - programming experience is not necessary!",
+          "when": "2018-05-16 18:00",
+          "where": "The Tech Hive, 6815 Euclid Ave, Cleveland, OH",
+          "url": "https://www.meetup.com/open-cleveland/events/lcjdnpyxhbvb/"
+        },
+        {
+          "name": "Wednesday Meetup / Hack Night",
+          "description": "Meets weekly - programming experience is not necessary!",
+          "when": "2018-05-23 18:00",
+          "where": "The Tech Hive, 6815 Euclid Ave, Cleveland, OH",
+          "url": "https://www.meetup.com/open-cleveland/events/lcjdnpyxhbfc/"
+        },
+        {
+          "name": "Wednesday Meetup / Hack Night",
+          "description": "Meets weekly - programming experience is not necessary!",
+          "when": "2018-05-30 18:00",
+          "where": "The Tech Hive, 6815 Euclid Ave, Cleveland, OH",
+          "url": "https://www.meetup.com/open-cleveland/events/lcjdnpyxhbnc/"
+        }
+      ]
+    },
+    "OSM-Boston": {
+      "id": "OSM-Boston",
+      "featureId": "boston_metro",
+      "type": "meetup",
+      "name": "OpenStreetMap Boston",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "Mappers and OpenStreetMap users in the Boston area",
+      "extendedDescription": "OpenStreetMap is the free and open, wiki-style map of the world, with hundreds of thousands of contributions every day from people like you. Editing the map is simple, and fun! Join us both indoors and outdoors in our effort to create the best map of the Boston area and the rest of the world!",
+      "url": "https://www.meetup.com/OpenStreetMap-Boston/",
+      "contacts": [{"name": "Lars Ahlzen", "email": "lars@ahlzen.com"}]
+    },
+    "OSM-Central-Salish-Sea": {
+      "id": "OSM-Central-Salish-Sea",
+      "featureId": "mt_vernon_wa",
+      "type": "meetup",
+      "name": "OpenStreetMap Central Salish Sea",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "Mappers and OpenStreetMap users around Mount Vernon, WA",
+      "extendedDescription": "OpenStreetMap is an map of the world made by people like you. It's a map that you build, that's given away for free like wikipedia. Check out osm.org for more. We meet all the time to talk maps, make maps and have fun!",
+      "url": "https://www.meetup.com/OpenStreetMap-Central-Salish-Sea/",
+      "contacts": [
+        {"name": "Clifford Snow", "email": "clifford@snowandsnow.us"}
+      ]
+    },
+    "OSM-Chattanooga": {
+      "id": "OSM-Chattanooga",
+      "featureId": "chattanooga",
+      "type": "facebook",
+      "name": "OSM Chattanooga",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "The OpenStreetMap user group for Chattanooga",
+      "url": "https://www.facebook.com/groups/123483951073256",
+      "contacts": [
+        {"name": "Jenny Park", "email": "tennessee@tpl.org"},
+        {"name": "Randal Hale", "email": "rjhale@northrivergeographic.com"}
+      ]
+    },
+    "OSM-Colorado": {
+      "id": "OSM-Colorado",
+      "featureId": "colorado",
+      "type": "meetup",
+      "name": "OpenStreetMap Colorado",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "Mappers and OpenStreetMap users in the state of Colorado, USA",
+      "extendedDescription": "OpenStreetMap (OSM) Colorado is a local collaboration of people interested in contributing their efforts to create free maps. We encourage all of our mappers to organize or suggest mapping events throughout the state. Meetup activities can be simple social mixers, OSM basic to advanced training, or community mapping parties.",
+      "url": "https://www.meetup.com/OSM-Colorado/",
+      "contacts": [
+        {"name": "Russell Deffner", "email": "russdeffner@gmail.com"}
+      ]
+    },
+    "OSM-NYC": {
+      "id": "OSM-NYC",
+      "featureId": "nyc_metro",
+      "type": "meetup",
+      "name": "OpenStreetMap NYC",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "Mappers and OpenStreetMap users, developers and enthusiasts in the New York Metropolitan area",
+      "url": "https://www.meetup.com/osm-nyc/",
+      "contacts": [{"name": "Jeff Ferzoco", "email": "jferzoco@carto.com"}]
+    },
+    "OSM-Portland": {
+      "id": "OSM-Portland",
+      "featureId": "portland_or",
+      "type": "meetup",
+      "name": "OpenStreetMap Portland",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "Mappers and OpenStreetMap users in the Portland area",
+      "extendedDescription": "OpenStreetMap (OSM) is a map of the world made by people like you. It's a map that you build, that's given away for free like wikipedia. Check out osm.org for more, and come join us at a meetup to talk maps, contribute to OSM, and have fun!",
+      "url": "https://www.meetup.com/OpenStreetMap-Portland/",
+      "contacts": [
+        {"name": "Madeline Steele", "email": "madeline.steele@gmail.com"}
+      ]
+    },
+    "OSM-Seattle": {
+      "id": "OSM-Seattle",
+      "featureId": "seattle",
+      "type": "meetup",
+      "name": "OpenStreetMap Seattle",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "Mappers and OpenStreetMap users in the Seattle area",
+      "url": "https://www.meetup.com/OpenStreetMap-Seattle/",
+      "contacts": [
+        {"name": "Clifford Snow", "email": "clifford@snowandsnow.us"},
+        {"name": "Chase Stephens", "email": "seattlefyi@gmail.com"},
+        {"name": "Paul McCombs", "email": "pablo@imperium.org"}
+      ]
+    },
+    "OSM-SoCal": {
+      "id": "OSM-SoCal",
+      "featureId": "la_metro",
+      "type": "meetup",
+      "name": "OpenStreetMap Southern California",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "Let's have some fun, contribute something to Los Angeles, and learn about mapping!",
+      "extendedDescription": "OpenStreetMap (OSM) Southern California is for anyone interested in mapping to get together to work with OpenStreetMap.  OpenStreetMap, the Wikipedia of maps, is a free open-source map of the world being created by more than 1,000,000 volunteers around the globe.  Everyone is welcome.  If you don't know OpenStreetMap, we'll teach you. If you have an idea for a mapping project or even a field trip that the group can do, great!",
+      "url": "https://www.meetup.com/OSM-Southern-California/",
+      "contacts": [
+        {"name": "Charlotte Wolter", "email": "techlady@techlady.com"}
+      ]
+    },
+    "OSM-South-Bay": {
+      "id": "OSM-South-Bay",
+      "featureId": "south_sf_bay_area",
+      "type": "meetup",
+      "name": "OSM South Bay",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "Map Nights hosted by Code for San Jose",
+      "extendedDescription": "Code for San Jose, the local Code for America brigade, hosts monthly Map Nights on Thursday nights in downtown San José. Meet fellow South Bay mappers, help out with local mapping projects, and hear about other civic tech projects. Programming and GIS skills are not required.",
+      "url": "https://www.meetup.com/Code-for-San-Jose/",
+      "contacts": [
+        {
+          "name": "OSM Bay Area mailing list",
+          "email": "talk-us-sfbay@openstreetmap.org"
+        }
+      ]
+    },
+    "OSM-Tampa-Bay": {
+      "id": "OSM-Tampa-Bay",
+      "featureId": "tampa_bay",
+      "type": "meetup",
+      "name": "OpenStreetMap Tampa Bay",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "Mappers and OpenStreetMap users in the Tampa Bay area",
+      "extendedDescription": "OSM Tampa Bay group for local residents to get together and build out the definitive map of Tampa Bay with OpenStreetMap, the free and editable map of the world.  If you're into maps, data, open source, GPS, hiking, cycling, et cetera, you'll love working with OpenStreetMap -- so join in! We'll get together and map and talk about new topics once-a-month or so.",
+      "url": "https://www.meetup.com/osmtampabay/",
+      "contacts": [
+        {"name": "Coleman McCormick", "email": "cmccormick@gmail.com"}
+      ]
+    },
+    "OSM-US-Slack": {
+      "id": "OSM-US-Slack",
+      "featureId": "usa_full",
+      "type": "slack",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "name": "OpenStreetMap US Slack",
+      "description": "All are welcome! Sign up at {signupUrl}",
+      "signupUrl": "https://osmus-slack.herokuapp.com/",
+      "url": "https://osmus.slack.com",
+      "contacts": [
+        {"name": "Ian Dees", "email": "ian@openstreetmap.us"},
+        {"name": "Clifford Snow", "email": "clifford@snowandsnow.us"}
+      ]
+    },
+    "OSM-US": {
+      "id": "OSM-US",
+      "featureId": "usa_full",
+      "type": "group",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "name": "OpenStreetMap US",
+      "description": "We help grow and improve OpenStreetMap in the United States.",
+      "extendedDescription": "We support OpenStreetMap by holding annual conferences, providing community resources, building partnerships, and by spreading the word. Join OpenStreetMap US here: {signupUrl}",
+      "signupUrl": "https://www.openstreetmap.us/join",
+      "url": "https://www.openstreetmap.us/",
+      "contacts": [
+        {"name": "Ian Dees", "email": "ian@openstreetmap.us"},
+        {"name": "Bryan Housel", "email": "bryan@openstreetmap.us"}
+      ]
+    },
+    "OSM-Utah": {
+      "id": "OSM-Utah",
+      "featureId": "salt_lake_city",
+      "type": "meetup",
+      "name": "OpenStreetMap Utah",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "Mappers and OpenStreetMap users in the Salt Lake City area",
+      "extendedDescription": "Activities may include things like Learn To Map workshops, mapping parties and outdoor data collection. The events will take place in the SLC area, at least initially.  We are looking for seasoned mappers as well as people new to OSM. Join and let's do some mapping!",
+      "url": "https://www.meetup.com/OpenStreetMap-Utah/",
+      "contacts": [{"name": "Martijn van Exel", "email": "m@rtijn.org"}]
+    },
+    "OSM-Wyoming": {
+      "id": "OSM-Wyoming",
+      "featureId": "wyoming",
+      "type": "meetup",
+      "name": "OpenStreetMap Wyoming",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "Mappers and OpenStreetMap users in the state of Wyoming",
+      "extendedDescription": "OpenStreetMap (OSM) Wyoming is a local collaboration of people interested in contributing their efforts to create free maps. We encourage all of our mappers to organize or suggest mapping events throughout the state. Meetup activities can be simple social mixers, OSM basic to advanced training, or community mapping parties.",
+      "url": "https://www.meetup.com/OSM-Wyoming/",
+      "contacts": [
+        {"name": "Russell Deffner", "email": "russdeffner@gmail.com"}
+      ]
+    },
+    "PHXGeo-meetup": {
+      "id": "PHXGeo-meetup",
+      "featureId": "phoenix",
+      "type": "meetup",
+      "name": "PHXGeo Meetup",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "Mappers and OpenStreetMap users in the Phoenix, AZ area",
+      "extendedDescription": "This is a meetup group for those in the Phoenix area who like maps, GIS, OpenStreetMap, cartography and anything in between.",
+      "url": "https://www.meetup.com/PHXGeo/",
+      "contacts": [{"name": "Ryan Arp", "email": "ryan@arpconsultinggroup.com"}]
+    },
+    "PHXGeo-twitter": {
+      "id": "PHXGeo-twitter",
+      "featureId": "phoenix",
+      "type": "twitter",
+      "name": "PHXGeo Twitter",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "Follow us on Twitter at {url}",
+      "url": "https://twitter.com/phxgeo",
+      "contacts": [{"name": "Ryan Arp", "email": "ryan@arpconsultinggroup.com"}]
+    },
+    "Western-Slope-facebook": {
+      "id": "Western-Slope-facebook",
+      "featureId": "grand_junction_co",
+      "type": "facebook",
+      "name": "Western Slope OSM Facebook",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "Mappers and OpenStreetMap users around Grand Junction, CO",
+      "url": "https://www.facebook.com/wsosm/",
+      "contacts": [{"name": "Aaron Young", "email": "aaron@kaartgroup.com"}]
+    },
+    "Western-Slope-meetup": {
+      "id": "Western-Slope-meetup",
+      "featureId": "grand_junction_co",
+      "type": "meetup",
+      "name": "Western Slope OSM Meetup",
+      "countryCodes": ["us"],
+      "languageCodes": ["en"],
+      "description": "Mappers and OpenStreetMap users around Grand Junction, CO",
+      "extendedDescription": "The goal of this group is to introduce OpenStreetMap to the community, develop a community of mappers, create the most amazing geodata possible using whatever method we can and finally strategize in order to get this data out into our community. Imagine accurate trail signage! Imagine further development of bike paths! Imagine anything you want, that's the joy of OpenStreetMap!",
+      "url": "https://www.meetup.com/Western-Slope-OpenStreetMap/",
+      "contacts": [{"name": "Aaron Young", "email": "aaron@kaartgroup.com"}]
+    },
+    "Maptime-Australia-Slack": {
+      "id": "Maptime-Australia-Slack",
+      "featureId": "australia_full",
+      "type": "slack",
+      "countryCodes": ["au"],
+      "languageCodes": ["en"],
+      "name": "Maptime Australia Slack",
+      "description": "Sign up at {signupUrl}",
+      "signupUrl": "https://bit.ly/maptimeau",
+      "url": "https://maptimeaustralia.slack.com",
+      "contacts": [
+        {"name": "David Dean", "email": "ddean@ieee.org"},
+        {"name": "Philip Mallis", "email": "philip.mallis@unimelb.edu.au"},
+        {"name": "Edoardo Neerhut", "email": "ed@mapillary.com"}
+      ]
+    },
+    "talk-au": {
+      "id": "talk-au",
+      "featureId": "australia_full",
+      "type": "mailinglist",
+      "countryCodes": ["au"],
+      "languageCodes": ["en"],
+      "name": "Talk-au Mailing List",
+      "description": "Place for Aussie mappers to chat",
+      "url": "https://lists.openstreetmap.org/listinfo/talk-au",
+      "contacts": [
+        {"name": "Ben Kelley", "email": "ben.kelley@gmail.com"},
+        {"name": "Steve Bennett", "email": "stevagewp@gmail.com"},
+        {"name": "Ian Sergeant", "email": "inas66+osm@gmail.com"}
+      ]
+    },
+    "OSM-AR-facebook": {
+      "id": "OSM-AR-facebook",
+      "featureId": "argentina",
+      "type": "facebook",
+      "name": "OpenStreetMap Argentina Facebook",
+      "countryCodes": ["ar"],
+      "languageCodes": ["es"],
+      "description": "Join the OpenStreetMap Argentina community on Facebook",
+      "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!",
+      "url": "https://www.facebook.com/OpenStreetMapArgentina/",
+      "contacts": [
+        {
+          "name": "OpenStreetMap Argentina",
+          "email": "openstreetmap.org.ar@gmail.com"
+        }
+      ]
+    },
+    "OSM-AR-forum": {
+      "id": "OSM-AR-forum",
+      "featureId": "argentina",
+      "type": "forum",
+      "name": "OpenStreetMap Argentina web forum",
+      "countryCodes": ["ar"],
+      "languageCodes": ["es"],
+      "description": "Join the OpenStreetMap Argentina web forum",
+      "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!",
+      "url": "https://forum.openstreetmap.org/viewforum.php?id=49",
+      "contacts": [
+        {
+          "name": "OpenStreetMap Argentina",
+          "email": "openstreetmap.org.ar@gmail.com"
+        }
+      ]
+    },
+    "OSM-AR-irc": {
+      "id": "OSM-AR-irc",
+      "featureId": "argentina",
+      "type": "irc",
+      "name": "OpenStreetMap Argentina IRC",
+      "countryCodes": ["ar"],
+      "languageCodes": ["es"],
+      "description": "Join #osm-ar on irc.oftc.net (port 6667)",
+      "url": "http://irc2go.com/webchat/?net=OFTC&room=osm-ar",
+      "contacts": [
+        {
+          "name": "OpenStreetMap Argentina",
+          "email": "openstreetmap.org.ar@gmail.com"
+        }
+      ]
+    },
+    "OSM-AR-mailinglist": {
+      "id": "OSM-AR-mailinglist",
+      "featureId": "argentina",
+      "type": "mailinglist",
+      "name": "Talk-ar Mailing List",
+      "countryCodes": ["ar"],
+      "languageCodes": ["es"],
+      "description": "A mailing list to discuss OpenStreetMap in Argentina",
+      "url": "https://lists.openstreetmap.org/pipermail/talk-ar/",
+      "contacts": [
+        {
+          "name": "OpenStreetMap Argentina",
+          "email": "openstreetmap.org.ar@gmail.com"
+        }
+      ]
+    },
+    "OSM-AR-telegram": {
+      "id": "OSM-AR-telegram",
+      "featureId": "argentina",
+      "type": "telegram",
+      "name": "OpenStreetMap Argentina Telegram",
+      "countryCodes": ["ar"],
+      "languageCodes": ["es"],
+      "description": "Join the OpenStreetMap Argentina community on Telegram",
+      "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!",
+      "url": "https://telegram.me/osm_ar",
+      "contacts": [
+        {
+          "name": "OpenStreetMap Argentina",
+          "email": "openstreetmap.org.ar@gmail.com"
+        }
+      ]
+    },
+    "OSM-AR-twitter": {
+      "id": "OSM-AR-twitter",
+      "featureId": "argentina",
+      "type": "twitter",
+      "name": "OpenStreetMap Argentina Twitter",
+      "countryCodes": ["ar"],
+      "languageCodes": ["es"],
+      "description": "Follow us on Twitter at {url}",
+      "url": "https://twitter.com/OpenStreetMapAr",
+      "contacts": [
+        {
+          "name": "OpenStreetMap Argentina",
+          "email": "openstreetmap.org.ar@gmail.com"
+        }
+      ]
+    },
+    "Bahia-telegram": {
+      "id": "Bahia-telegram",
+      "featureId": "bahia",
+      "type": "telegram",
+      "name": "OpenStreetMap Bahia Telegram Group",
+      "countryCodes": ["br"],
+      "languageCodes": ["pt"],
+      "description": "Join the OpenStreetMap Bahia community on Telegram",
+      "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!",
+      "url": "https://t.me/OSMBA",
+      "contacts": [{"name": "Wille Marcel", "email": "wille@wille.blog.br"}]
+    },
+    "OSM-br-mailinglist": {
+      "id": "OSM-br-mailinglist",
+      "featureId": "brazil",
+      "type": "mailinglist",
+      "name": "Talk-br Mailing List",
+      "countryCodes": ["br"],
+      "languageCodes": ["pt"],
+      "description": "A mailing list to discuss OpenStreetMap in Brazil",
+      "url": "https://lists.openstreetmap.org/pipermail/talk-br/",
+      "contacts": [{"name": "Arlindo Pereira", "email": "nighto@gmail.com"}]
+    },
+    "OSM-br-telegram": {
+      "id": "OSM-br-telegram",
+      "featureId": "brazil",
+      "type": "telegram",
+      "name": "OpenStreetMap Brasil Telegram",
+      "countryCodes": ["br"],
+      "languageCodes": ["pt"],
+      "description": "Join the OpenStreetMap Brasil community on Telegram",
+      "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!",
+      "url": "https://t.me/OSMBrasil_Comunidade",
+      "contacts": [{"name": "Vitor George", "email": "vitor.george@gmail.com"}]
+    },
+    "OSM-br-twitter": {
+      "id": "OSM-br-twitter",
+      "featureId": "brazil",
+      "type": "twitter",
+      "name": "OpenStreetMap Brasil Twitter",
+      "countryCodes": ["br"],
+      "languageCodes": ["pt"],
+      "description": "Follow us on Twitter at {url}",
+      "url": "https://twitter.com/OpenStreetMapBR",
+      "contacts": [{"name": "Wille Marcel", "email": "wille@wille.blog.br"}]
+    },
+    "OSM-CL-facebook": {
+      "id": "OSM-CL-facebook",
+      "featureId": "chile",
+      "type": "facebook",
+      "name": "OpenStreetMap Chile Facebook",
+      "countryCodes": ["cl"],
+      "languageCodes": ["es"],
+      "description": "Join the OpenStreetMap Chile community on Facebook",
+      "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!",
+      "url": "https://www.facebook.com/OpenStreetMap-Chile-145127198882915/",
+      "contacts": [
+        {"name": "Julio Costa", "email": "julio.costa@openstreetmap.cl"}
+      ]
+    },
+    "OSM-CL-mailinglist": {
+      "id": "OSM-CL-mailinglist",
+      "featureId": "chile",
+      "type": "mailinglist",
+      "name": "Talk-cl Mailing List",
+      "countryCodes": ["cl"],
+      "languageCodes": ["es"],
+      "description": "A mailing list to discuss OpenStreetMap in Chile",
+      "url": "https://lists.openstreetmap.org/pipermail/talk-cl/",
+      "contacts": [
+        {"name": "Julio Costa", "email": "julio.costa@openstreetmap.cl"}
+      ]
+    },
+    "OSM-CL-telegram": {
+      "id": "OSM-CL-telegram",
+      "featureId": "chile",
+      "type": "telegram",
+      "name": "OpenStreetMap Chile Telegram",
+      "countryCodes": ["cl"],
+      "languageCodes": ["es"],
+      "description": "Join the OpenStreetMap Chile community on Telegram",
+      "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!",
+      "url": "https://t.me/OSMcl",
+      "contacts": [
+        {"name": "Julio Costa", "email": "julio.costa@openstreetmap.cl"}
+      ]
+    },
+    "OSM-CL-twitter": {
+      "id": "OSM-CL-twitter",
+      "featureId": "chile",
+      "type": "twitter",
+      "name": "OpenStreetMap Chile Twitter",
+      "countryCodes": ["cl"],
+      "languageCodes": ["es"],
+      "description": "Follow us on Twitter at {url}",
+      "url": "https://twitter.com/osmCL",
+      "contacts": [
+        {"name": "Julio Costa", "email": "julio.costa@openstreetmap.cl"}
+      ]
+    },
+    "OSM-Reddit": {
+      "id": "OSM-Reddit",
+      "type": "reddit",
+      "languageCodes": ["en"],
+      "name": "OpenStreetMap on Reddit",
+      "description": "/r/openstreetmap/ is a great place to learn more about OpenStreetMap.  Ask us anything!",
+      "url": "https://www.reddit.com/r/openstreetmap/",
+      "contacts": [{"name": "Serge Wroclawski", "email": "emacsen@gmail.com"}]
+    }
+  }
+}
