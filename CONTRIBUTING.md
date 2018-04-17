@@ -1,5 +1,7 @@
 ## Contributing
 
+*If you don't understand the explanation below, feel free to [post an Issue](https://github.com/osmlab/osm-community-index/issues/new) to describe your community resources. That page contains some pointers to help you fill in all the info we  need. You do need [a Github account](https://github.com/join) to be able to post an Issue.*
+
 There are 2 kinds of files in this project:
 
 * Under `features/` there are `.geojson` files to describe the areas where the communities are active
@@ -93,12 +95,14 @@ Here are the properties that a resource file can contain:
 * __`featureId`__ - (optional) A unique identifier for the feature. This `featureId` matches
 the resource to a .geojson feature. If null, this is a global resource.
 * __`type`__ - (required) Type of community resource. The following types are supported:
+  * "discord"
   * "discourse"
   * "facebook"
   * "forum" - For example, on forum.openstreetmap.org
   * "group" - Generic catchall for anything with a `url` (such as a local OSM chapter page)
   * "irc" - `url` should be a clickable web join link, server details can go in `description`
   * "mailinglist" - `url` should be a link to the listinfo page, e.g. `https://lists.openstreetmap.org/listinfo/talk-us`
+  * "matrix" - e.g. [Riot Chat](https://matrix.org/docs/projects/client/riot.html)
   * "meetup"
   * "reddit"
   * "slack" - `url` should link to the Slack itself, and `signupUrl` can link to an inviter service (see example above)
