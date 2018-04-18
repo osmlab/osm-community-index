@@ -2,34 +2,13 @@
   "id": "OSM-PH-telegram",
   "featureId": "philippines",
   "type": "telegram",
-  "countryCodes": [
-    "ph"
-  ],
-  "language": [
-    "tl", "en"
-  ],
+  "countryCodes": ["ph"],
+  "languageCodes": ["tl", "en"],
   "name": "OpenStreetMap PH Telegram",
   "description": "Un-official, Telegram local community of OpenStreetMap contributors and friends in the Philippines",
   "url": "https://t.me/osmph",
   "contacts": [
-    {
-      "name": "Erwin Olario",
-      "email": "govvin@gmail.com"
-    },
-    {
-      "name": "OSM PH Group",
-      "email": "osm.pilipinas@gmail.com"
-    }
-  ],
-  "events": [
-    {
-      "id": "mapamore",
-      "i18n": true,
-      "name": "Map pa more!",
-      "description": "Community outreach activities, including mapa-thons, workshops, and conferences",
-      "where": "San Juan, Metro Manila, PH",
-      "when": "Last Saturday of every quarter",
-      "url": "https://ti.to/mapamore/"
-    }
+    {"name": "Erwin Olario", "email": "govvin@gmail.com"},
+    {"name": "OSM PH Group", "email": "osm.pilipinas@gmail.com"}
   ]
 }
