@@ -1,8 +1,39 @@
 :warning: = Breaking change
 
+## 0.4.1
+##### 2018-Apr-24
+* Add community resources:
+  * Brasilia Telegram (#112)
+  * Facebook, Twitter, OSMF, and help.openstreetmap.com (#103)
+  * Korean Telegram (#110)
+  * UK East and West Midlands meetups, talk-gb and irc channel (#102, #107)
+  * OSM Graz (#106)
+  * talk-it-trentino and talk-it-southtyrol mailing lists (#104, #105)
+  * Berlin, Germany (#100)
+  * Italy (#99)
+  * Bolivia (#98)
+  * Peru (#97)
+  * Austria web forum (#96)
+  * Sweden (#87, #95)
+  * Norway (#94)
+  * Updates to Argentina resources (#91, #92)
+  * Puducherry, India (#89)
+  * Malaysia (#86)
+  * Colombia (#85)
+  * Ghana (#84)
+  * France (#83)
+  * Spain talk-es (#81)
+  * Belgium meetup groups (#76)
+  * Myanmar (#75)
+* Add events:
+  * Brazilian meetups (#113)
+  * State of the Map World
+  * State of the Map Asia (#88)
+
+
 ## 0.4.0
 ##### 2018-Apr-16
-* Add communities:
+* Add community resources:
   * Germany (#69, #72)
   * Rome and Lazio meetups (#68, #67)
   * Austria (#64)
