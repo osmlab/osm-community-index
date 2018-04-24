@@ -12,13 +12,22 @@ zh_TW:
   OSM-India-facebook:
     name: 開放街圖印度 - 參與社區畫圖
     description: 改善印度的 OpenStreetMap
-    extendedDescription: '在印度畫地圖嗎？有問題，想要與社群互動？來  {Url} 加入我們，歡迎所有人。'
+    extendedDescription: '在印度畫地圖嗎？想要問問題，想要與社群連結？請加入 {Url}，所有人都歡迎噢！'
+    events:
+      sotmasia2018:
+        name: State of the Map Asia 2018
+        description: 加入 2018 開放街圖在印度的亞洲地區性的大會活動
+        where: '印度班加羅爾，印度管理學院'
   OSM-india-mailinglist:
     name: 開放街圖印度郵件論壇
     description: Talk-in 是印度社群的官方郵件論壇
   OSM-india-twitter:
     name: 開放街圖印度 Twitter
     description: '我們只是喜歡 tweet：{url}'
+  OSM-India-Puducherry-Facebook:
+    name: Free Software Hardware Movement - Facebook
+    description: 'FSHM Facebook 粉絲頁讓你知道社群活動'
+    extendedDescription: 'FSHM 組織跟自由軟體/硬體、科技、倡議和開放街圖的活動。FSHM Facebook 粉絲頁是最好跟他們活動保持聯繫的方式。'
   OSM-IDN-facebook:
     name: 開放街圖印尼
     description: 改進印尼的開放街圖
@@ -42,6 +51,38 @@ zh_TW:
     extendedDescription: '在尼泊爾畫地圖嗎？有問題，想要與社群互動？來 {Url} 加入我們，歡迎所有人。'
   OSM-PH-facebook:
     name: 開放街圖菲律賓 Facebook
+  OSM-TW-facebook:
+    name: 開放街圖台灣社群
+    description: 台灣社群專門討論有關台灣圖資的臉書社團
+  OSM-TW-mailinglist:
+    name: 開放街圖台灣郵件論壇
+    description: Talk-tw 是台灣社群專門討論有關台灣圖資的官方郵件論壇
+  at-twitter:
+    name: 開放街圖奧地利 Twitter
+    description: '開放街圖奧地利 Twitter：{url}'
+  osm-at:
+    name: 開放街圖奧地利
+    description: 開放街圖在奧地利交流資訊的平台
+  be-facebook:
+    name: 開放街圖比利時社群
+    description: 圖客和比利時開放街圖 Facebook
+  be-forum:
+    name: 開放街圖比利時論壇
+    description: 開放街圖比利時網頁論壇
+  be-mailinglist:
+    name: Talk-be 郵件論壇
+    description: 'Talk-be 是比利時社群的官方郵件論壇 '
+  be-matrix:
+    name: OpenStreetMap BE Riot channel
+    description: '歡迎所有圖客！在 {signupUrl} 註冊'
+    extendedDescription: '多個頻道存在，從初學者到主題頻道，土地利用和開發主題'
+  be-meetup:
+    name: 開放街圖比利時聚會
+    description: IRL 聚會由對開放街圖有興趣的人組成。
+    extendedDescription: '實體的聚會是與其他圖客碰面的好機會，能夠論論問題，學到很多事情，特別是歡迎新的貢獻者。'
+  be-twitter:
+    name: 開放街圖奧地利 Twitter
+    description: '開放街圖比利時 Twitter：{url} '
   byosm:
     name: 開放街圖白羅斯
     description: 開放街圖白羅斯 Telegram 聊天室
@@ -128,6 +169,22 @@ zh_TW:
   Maptime-Australia-Slack:
     name: Maptime Australia Slack
     description: '在 {signupUrl} 註冊'
+  Maptime-Bogota:
+    name: Maptime Bogotá
+    description: 我們是一群關心波哥大一帶開放街圖狀況的圖客。
+    extendedDescription: '學習在現場收集資料，然後在開放街圖上面數位位。你不需要有先備知識！你只要有心參與、學習以及好好玩。'
+  OSM-CO-facebook:
+    name: 開放街圖哥倫比亞 Facebook
+    description: 加入開放街圖哥倫比亞社群 Facebook
+  OSM-PE-telegram:
+    name: 開放街圖祕魯 Telegram
+    description: 加入開放街圖祕魯 Telegram 聊天室
+  OSM-PE-twitter:
+    name: 開放街圖祕魯 Twitter
+    description: '在 {url} 上追隨我們的 Twitter '
+  OSM-PE:
+    name: 開放街圖祕魯
+    description: 開放街圖社群的新聞和資源頁面
   OSM-Reddit:
     name: 在 Reddit 上的 OpenStreetMap
     description: /r/openstreetmap/ 是一個取得更多關於 OpenStreetMap 資訊的好地方。什麼事都能問！
