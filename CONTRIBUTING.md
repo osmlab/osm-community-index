@@ -33,7 +33,7 @@ Feature files look like this:
 ```js
 {
   "type": "Feature",
-  "id": "usa_full"
+  "id": "usa_full",
   "properties": {},
   "geometry": {
     "type": "MultiPolygon",
