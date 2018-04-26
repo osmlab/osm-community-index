@@ -13,7 +13,7 @@ To add your community resource:
 
 * Add a **feature** `.geojson` file under `features/` folder
   * This is a boundary around where the resource is active
-  * You can use [geojson.io](http://geojson.io) to create these
+  * You can use [geojson.io](http://geojson.io) to create these or you can generate it from an OSM Relation with [Polygon creation](http://polygons.openstreetmap.fr/) and afterwards simplify it with [Mapshaper](http://mapshaper.org/).
 * Add a **resource** `.json` file under `resources/` folder
   * This contains info about what the resource is (slack, forum, mailinglist, facebook, etc.)
   * You can just copy and change an existing one
@@ -33,7 +33,7 @@ Feature files look like this:
 ```js
 {
   "type": "Feature",
-  "id": "usa_full"
+  "id": "usa_full",
   "properties": {},
   "geometry": {
     "type": "MultiPolygon",
