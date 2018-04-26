@@ -13,7 +13,7 @@ To add your community resource:
 
 * Add a **feature** `.geojson` file under `features/` folder
   * This is a boundary around where the resource is active
-  * You can use [geojson.io](http://geojson.io) to create these or you can generate it from an OSM Relation with [Polygon creation](http://polygons.openstreetmap.fr/) and afterwards simplify it with [Mapshaper](http://mapshaper.org/).
+  * You can use [geojson.io](http://geojson.io) or other tools to create these.
 * Add a **resource** `.json` file under `resources/` folder
   * This contains info about what the resource is (slack, forum, mailinglist, facebook, etc.)
   * You can just copy and change an existing one
@@ -44,10 +44,18 @@ Feature files look like this:
 }
 ```
 
-You can use a site like [geojson.io](http://geojson.io) to create or modify these `.geojson` files.
+There are many online tools to create or modify these `.geojson` files. A workflow could be:
+
+1. Create the shape with [geojson.io](http://geojson.io) from scratch.
+
+or
+
+1. Generate a precise file with the [Polygon creation](http://polygons.openstreetmap.fr/) from an OSM Relation. 
+1. Simplify the file with [Mapshaper](http://mapshaper.org/). Beware that the simplification probably cuts some border areas.
+1. So load the file in [geojson.io](http://geojson.io) and include the border areas again and perhaps reduce the point count further. It is probably better to have the feature a bit larger than missing an area.
+1. Adjust the fileformat (remove the `"type": "FeatureCollection", "features": [{` in the first lines) by hand.
 
 Each feature must have a unique `id` property, for example `usa_full`.
-
 
 ### Resources
 
