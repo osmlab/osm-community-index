@@ -47,6 +47,16 @@ function generateFeatures() {
     glob.sync(__dirname + '/features/**/*.geojson').forEach(function(file) {
         var contents = fs.readFileSync(file, 'utf8');
         var feature = precision(rewind(JSON.parse(contents), true), 5);
+        var fc = feature.features;
+
+        // A FeatureCollection with a single feature inside (geojson.io likes to make these).
+        if (feature.type === 'FeatureCollection' && Array.isArray(fc) && fc.length === 1) {
+            if (feature.id && !fc[0].id) {
+                fc[0].id = feature.id;
+            }
+            feature = fc[0];
+        }
+
         validateFile(file, feature, featureSchema);
         prettifyFile(file, feature, contents);
 

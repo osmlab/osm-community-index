@@ -44,16 +44,17 @@ Feature files look like this:
 }
 ```
 
+note: A `FeatureCollection` containing a single `Feature` is ok too - the build script can handle this.
+
 There are many online tools to create or modify these `.geojson` files. A workflow could be:
 
 1. Create the shape with [geojson.io](http://geojson.io) from scratch.
 
 or
 
-1. Generate a precise file with the [Polygon creation](http://polygons.openstreetmap.fr/) from an OSM Relation. 
+1. Generate a precise file with the [Polygon creation](http://polygons.openstreetmap.fr/) from an OSM Relation.
 1. Simplify the file with [Mapshaper](http://mapshaper.org/). Beware that the simplification probably cuts some border areas.
 1. So load the file in [geojson.io](http://geojson.io) and include the border areas again and perhaps reduce the point count further. It is probably better to have the feature a bit larger than missing an area.
-1. Adjust the fileformat (remove the `"type": "FeatureCollection", "features": [{` in the first lines) by hand.
 
 Each feature must have a unique `id` property, for example `usa_full`.
 
