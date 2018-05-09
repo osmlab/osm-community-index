@@ -1,37 +1,17 @@
 {
-  "type": "FeatureCollection",
+  "type": "Feature",
   "id": "thailand_cnx",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              98.4375,
-              18.2319
-            ],
-            [
-              99.5306,
-              18.2319
-            ],
-            [
-              99.5306,
-              19.2255
-            ],
-            [
-              98.4375,
-              19.2255
-            ],
-            [
-              98.4375,
-              18.2319
-            ]
-          ]
-        ]
-      }
-    }
-  ]
+  "properties": {},
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [98.4375, 18.2319],
+        [98.4375, 19.2255],
+        [99.5306, 19.2255],
+        [99.5306, 18.2319],
+        [98.4375, 18.2319]
+      ]
+    ]
+  }
 }
