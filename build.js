@@ -28,7 +28,7 @@ function buildAll() {
 
     var tstrings = {};   // translation strings
     var features = generateFeatures();
-    var resources = generateResources(tstrings);
+    var resources = generateResources(tstrings, features);
 
     // Save individual data files
     fs.writeFileSync('dist/features.json', prettyStringify({ features: features }) );
@@ -47,6 +47,16 @@ function generateFeatures() {
     glob.sync(__dirname + '/features/**/*.geojson').forEach(function(file) {
         var contents = fs.readFileSync(file, 'utf8');
         var feature = precision(rewind(JSON.parse(contents), true), 5);
+        var fc = feature.features;
+
+        // A FeatureCollection with a single feature inside (geojson.io likes to make these).
+        if (feature.type === 'FeatureCollection' && Array.isArray(fc) && fc.length === 1) {
+            if (feature.id && !fc[0].id) {
+                fc[0].id = feature.id;
+            }
+            feature = fc[0];
+        }
+
         validateFile(file, feature, featureSchema);
         prettifyFile(file, feature, contents);
 
@@ -64,7 +74,7 @@ function generateFeatures() {
     return features;
 }
 
-function generateResources(tstrings) {
+function generateResources(tstrings, features) {
     var resources = {};
     var files = {};
     glob.sync(__dirname + '/resources/**/*.json').forEach(function(file) {
@@ -73,24 +83,32 @@ function generateResources(tstrings) {
         validateFile(file, resource, resourceSchema);
         prettifyFile(file, resource, contents);
 
-        var id = resource.id;
-        if (files[id]) {
-            console.error(colors.red('Error - Duplicate resource id: ') + colors.yellow(id));
-            console.error('  ' + colors.yellow(files[id]));
+        var resourceId = resource.id;
+        if (files[resourceId]) {
+            console.error(colors.red('Error - Duplicate resource id: ') + colors.yellow(resourceId));
+            console.error('  ' + colors.yellow(files[resourceId]));
             console.error('  ' + colors.yellow(file));
             process.exit(1);
         }
-        resources[id] = resource;
-        files[id] = file;
+
+        var featureId = resource.featureId;
+        if (featureId && !features[featureId]) {
+            console.error(colors.red('Error - Unknown feature id: ') + colors.yellow(featureId));
+            console.error('  ' + colors.yellow(file));
+            process.exit(1);
+        }
+
+        resources[resourceId] = resource;
+        files[resourceId] = file;
 
         // collect translation strings for this resource
-        tstrings[id] = {
+        tstrings[resourceId] = {
             name: resource.name,
             description: resource.description
         };
 
         if (resource.extendedDescription) {
-            tstrings[id].extendedDescription = resource.extendedDescription;
+            tstrings[resourceId].extendedDescription = resource.extendedDescription;
         }
 
         // Validate event dates and collect strings from upcoming events (where `i18n=true`)
@@ -124,7 +142,7 @@ function generateResources(tstrings) {
             }
 
             if (Object.keys(estrings).length) {
-                tstrings[id].events = estrings;
+                tstrings[resourceId].events = estrings;
             }
         }
     });
