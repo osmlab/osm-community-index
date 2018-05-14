@@ -1,5 +1,33 @@
 :warning: = Breaking change
 
+## 0.4.2
+##### 2018-May-14
+* Add community resources:
+  * Finland (#146)
+  * OSM Italy Telegram (#144)
+  * OSM Hungary Meetup (#143)
+  * OSM Belgium Maptime (#142)
+  * Albania (#141)
+  * Chiang Mai, Thailand Meetup (#139)
+  * Thailand (#138)
+  * OSM UK feature polygons (#137)
+  * OSM Paraguay Telegram (#134)
+  * OSM Ecuador Telegram (#133)
+  * OSM Cuba Telegram (#132)
+  * OSM Nicuragua Telegram (#131)
+  * OSM Colombia Telegram (#130)
+  * Several Belgium resources and improvements (#126, #125, #120)
+  * OSM.jp Website (#124)
+  * OSM Malaysia Facebook (#119)
+  * Germany Ostwestfalen mailing lists (#118)
+  * Hungary (#116)
+  * Denmark (#115)
+* Fixes:
+  * Replace irc2go links with irc.openstreetmap.org links (#136)
+  * Fix OSM Bangladesh url (#128)
+  * Fix OSM Berlin Meetup url (#122)
+  * Fix OSM Brazil Meetup time (#121)
+
 ## 0.4.1
 ##### 2018-Apr-24
 * Add community resources:
@@ -26,7 +54,7 @@
   * Belgium meetup groups (#76)
   * Myanmar (#75)
 * Add events:
-  * Brazilian meetups (#113)
+  * Brazilian meetups (#112)
   * State of the Map World
   * State of the Map Asia (#88)
 
