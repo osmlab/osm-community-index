@@ -6,6 +6,13 @@
 
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
+## 0.4.3
+##### 2018-May-14
+* Fixes:
+  * Fix Maptime Tirana polygon ([#147])
+
+[#147]: https://github.com/osmlab/osm-community-index/issues/147
+
 
 ## 0.4.2
 ##### 2018-May-14
