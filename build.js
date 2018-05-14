@@ -98,6 +98,12 @@ function generateResources(tstrings, features) {
             process.exit(1);
         }
 
+        if (!featureId && !/\/resources\/world/.test(file)) {
+            console.error(colors.red('Error - feature id is required for non-worldwide resource:'));
+            console.error('  ' + colors.yellow(file));
+            process.exit(1);
+        }
+
         resources[resourceId] = resource;
         files[resourceId] = file;
 
