@@ -1,9 +1,12 @@
 he:
   cape-coast-youthmappers:
+    name: הממפים הצעירים של אוניברסיטת קייפ קוסט
     description: 'ניתן לעקוב אחרינו בטוויטר: {url}'
+    extendedDescription: 'זה הכינוי הרשמי של אגף הממפים הצעירים באוניברסיטת קייפ קוסט, גאנה. אנו אוהבים מפות, נתונים פתוחים וגם לעזור לחלשים.'
   osm-gh-facebook:
     name: הפייסבוק של OpenStreetMap גאנה
     description: קבוצת פייסבוק לאנשים שמתעניינים ב־OpenStreetMap.
+    extendedDescription: 'ממפים בקהילת גאנה, מקדמים את OpenStreetMap ואת מיזמי צוות OpenStreetMap ההומניטרי (HOT) בגאנה. אפשר להצטרף אלינו.'
   osm-gh-twitter:
     name: הטוויטר של OpenStreetMap גאנה
     description: 'ניתן לעקוב אחרינו בטוויטר: {url}'
@@ -19,11 +22,16 @@ he:
   OSM-BGD-facebook:
     name: OpenStreetMap בנגלדש
     description: שיפור OpenStreetMap בבנגלדש
-    extendedDescription: 'מעניין אותך מיפוי בבנגלדש? יש לך שאלות? אולי ליצור קשר עם הקהילה המקומית? ניתן להצטרף אלינו ב־{Url}. כולם מוזמנים!'
+    extendedDescription: 'מעניין אותך מיפוי בבנגלדש? יש לך שאלות? אולי ליצור קשר עם הקהילה המקומית? ניתן להצטרף אלינו ב־{url}. כולם מוזמנים!'
   OSM-India-facebook:
     name: OpenStreetMap הודו - מיפוי שכונות התנדבותי
     description: שיפור OpenStreetMap בהודו
     extendedDescription: 'מעניין אותך מיפוי בהודו? יש לך שאלות? אולי ליצור קשר עם הקהילה המקומית? ניתן להצטרף אלינו ב־{url}. כולם מוזמנים!'
+    events:
+      sotmasia2018:
+        name: State of the Map Asia 2018
+        description: 'ניתן להצטרף לאירוע חוצה הגבולות של OpenStreetMap לשנת 2018: State of the Map Asia בהודו'
+        where: 'המכללה ההודית לניהול, בנגלור, הודו'
   OSM-india-mailinglist:
     name: קבוצת הדיוור של OpenStreetMap הודו
     description: Talk-in היא קבוצת הדיוור הרשמית של הקהילה ההודית
@@ -32,6 +40,8 @@ he:
     description: 'אנחנו במרחק ציוץ: {url}'
   OSM-India-Puducherry-Facebook:
     name: תנועת החומרה והתכנה החופשית - פייסבוק
+  OSM-India-Puducherry-Matrix:
+    name: תנועת החומרה והתכנה החופשית - Matrix
   OSM-IDN-facebook:
     name: OpenStreetMap אינדונזיה
     description: שיפור OpenStreetMap באינדונזיה
@@ -45,8 +55,15 @@ he:
   OSM-japan-twitter:
     name: הטוויטר של OpenStreetMap יפן
     description: 'תגית הקבץ בטוויטר: {url}'
+  OSM-japan-website:
+    name: OpenStreetMap יפן
+    description: ממפים ומשתמשים OpenStreetMap ביפן
   OSM-korea-telegram:
     name: ערוץ הטלגרם של OSM קוריאה
+    description: 'ערוץ בלתי רשמי לקהילות, משתמשי ותורמי OpenStreetMap בקוריאה לטובת שיתוף ודיונים.'
+  OSM-MY-facebook:
+    name: הפייסבוק של OpenStreetMap מלזיה
+    description: לשיחות על כל מה שקשור ב־OpenStreetMap!
   OSM-MY-forum:
     name: הפורום של OpenStreetMap מלזיה
     description: הפורום הרשמי של OpenStreetMap מלזיה
@@ -93,6 +110,21 @@ he:
   OSM-TW-mailinglist:
     name: קבוצת הדיוור של OpenStreetMap טאיוואן
     description: Talk-tw היא קבוצת הדיוור הרשמית לקהילות לטובת דיונים בנושא טאיוואן
+  OSM-TH-CNX-meetup:
+    name: מפגשי OSM צ׳אנג מאי
+    description: מפגשים בתדירות בלתי קבועה של קהילת OpenStreetMap של צ׳אנג מאי
+  OSM-TH-forum:
+    name: הפורום של OpenStreetMap תאילנד
+    description: הפורום המקוון של OpenStreetMap תאילנד
+  al-forum:
+    name: פורום OSM אלבניה
+    description: פורום OpenStreetMap אלבניה
+  al-maptime-tirana:
+    name: Maptime טירנה
+    description: אירועים חברתיים שמתגבשים סביב מיפוי - מתחילים מוזמנים בהחלט!
+  al-telegram:
+    name: ערוץ הטלגרם של OSM אלבניה
+    description: ערוץ הטלגרם של OpenStreetMap אלבניה
   at-forum:
     name: הפורום של OpenStreetMap אוסטריה
     description: הפורום הרשמי לשאלות על OpenStreetMap בתוך וסביב אוסטריה
@@ -102,41 +134,65 @@ he:
   at-twitter:
     name: הטוויטר של OpenStreetMap אוסטריה
     description: 'הטוויטר של OpenStreetMap אוסטריה: {url}'
+  osmgraz-meetup:
+    name: מפגש קהילת OSM גראץ
+    description: מפגש חודשי של קהילת OpenStreetMap בגראץ
+  osmgraz-twitter:
+    name: הטוויטר של קהילת OSM בגראץ
+    description: הטוויטר של קהילת OpenStreetMap בגראץ
   osm-at:
     name: OpenStreetMap אוסטריה
     description: מאגר למידע על OpenStreetMap באוסטריה
-  be-facebook:
-    name: קהילת OpenStreetMap בלגיה
-  be-forum:
-    description: הפורום המקוון של OpenStreetMap בלגיה
-  be-irc:
-    name: ה־IRC של OpenStreetMap בלגיה
-  be-matrix:
-    description: 'כל הממפים מוזמנים! ניתן להירשם בכתובת {signupUrl}'
-  be-twitter:
-    name: הטוויטר של OpenStreetMap בלגיה
-    description: 'OSM בלגיה בטוויטר: {url}'
   byosm:
     name: OpenStreetMap בלרוס
     description: קבוצת הטלגרם של OpenStreetMap בלארוס
+  be-facebook:
+    name: קהילת OpenStreetMap בלגיה
+    description: ממפים ומשתמשים ב־OpenStreetMap בבלגיה בפייסבוק
+  be-forum:
+    name: הפורום של OpenStreetMap בלגיה
+    description: הפורום המקוון של OpenStreetMap בלגיה
+  be-irc:
+    name: ה־IRC של OpenStreetMap בלגיה
+    description: 'ניתן להצטרף ל־‎#osmbe תחת irc.oftc.net (פתחה 6667)'
+    extendedDescription: 'ניתן להצטרף ל־‎#osmbe תחת irc.oftc.net (פתחה 6667), הוא מקושר לערוץ הצ׳אט ב־Matrix'
+  be-mailinglist:
+    name: קבוצת הדיוור Talk-be
+    description: Talk-be היא קבוצת הדיוור הרשמית של קהילת OSM הבלגית
+  be-maptime:
+    name: Maptime בלגיה
+    description: אירועים חברתיים סביב מיפוי - מתחילים מוזמנים!
+  be-matrix:
+    name: ערוץ ה־Matrix של OpenStreetMap בלגיה
+    description: כל הממפים מוזמנים!
+    extendedDescription: רוב הדיונים מתרחשים בערוץ „OpenStreetMap בלגיה”. ניתן לשאול כאן הכול! החדרים האחרים מתמקדים בנושאים נקודתיים.
+  be-meetup:
+    name: קבוצת המפגשים של OpenStreetMap בלגיה
+    description: מפגשים פנים אל פנים של כל מי שמעוניין ב־OpenStreetMap.
+  be-twitter:
+    name: הטוויטר של OpenStreetMap בלגיה
+    description: 'OSM בלגיה בטווויטר: ‎@osm_be'
   talk-cz-mailinglist:
     name: קבוצת הדיוור Talk-cz
     description: Talk-cz היא קבוצת הדיוור הרשמית של הקהילה הצ׳כית
-  de-berlin-mailinglist:
-    name: קבוצת הדיוור של ברלין
-    description: זאת רשימת הדיוור לקהילת OSM בברלין
-  de-berlin-telegram:
-    name: '‎@osmberlin בטלגרם'
-    description: הטלגרם של OpenStreetMap ברלין
-  de-berlin-twitter:
-    name: הטוויטר של OpenStreetMap ברלין
-    description: 'ניתן לעקוב אחרינו בטוויטר: {url}'
-  OSM-ES-mailinglist:
-    name: קבוצת הדיוור Talk-es
-    description: קבוצת דיוור לדיונים על OpenStreetMap בספרד
-  OSM-ES-telegram:
-    name: '@OSMes ב־Telegram'
-    description: הטלגרם של OpenStreetMap ספרד
+  dk-forum:
+    name: הפורום המקוון של OpenStreetMap דנמרק
+    description: הפורום המקוון של OpenStreetMap דנמרק
+  dk-irc:
+    name: OpenStreetMap דנמרק ב־IRC
+    description: 'ניתן להצטרף ל־‎#osm-dk תחת irc.oftc.net (פתחה 6667)'
+  dk-mailinglist:
+    name: קבוצת הדיוור Talk-dk
+    description: קבוצת דיוור לדיונים על OpenStreetMap בדנמרק
+  fi-forum:
+    name: פורום OpenStreetMap פינלנד
+    description: הפורום המקוון של OpenStreetMap פינלנד
+  fi-irc:
+    name: OpenStreetMap פינלנד ב־IRC
+    description: 'ניתן להצטרף ל־‎#osm-fi תחת irc.oftc.net (פתחה 6667)'
+  fi-mailinglist:
+    name: קבוצת הדיוור Talk-fi
+    description: Talk-fi היא קבוצת הדיוור הרשמית של קהילת OSM הפינית
   fr-facebook:
     name: הפייסבוק של OpenStreetMap צרפת
     description: הפייסבוק של OpenStreetMap צרפת
@@ -145,36 +201,167 @@ he:
     description: הפורום המקוון של OpenStreetMap צרפת
   fr-irc:
     name: OpenStreetMap צרפת ב־IRC
+    description: 'ניתן להצטרף ל־‎#osm-fr תחת irc.oftc.net (פתחה 6667)'
   fr-mailinglist:
     name: קבוצת הדיוור Talk-fr
     description: קבוצת הדיוור Talk-fr
   fr-twitter:
     name: הטוויטר של OpenStreetMap צרפת
     description: 'הטוויטר של OpenStreetMap צרפת: {url}'
-  gb-mailinglist:
-    name: קבוצת הדיוור Talk-gb
+  de-berlin-mailinglist:
+    name: קבוצת הדיוור של ברלין
+    description: זאת רשימת הדיוור לקהילת OSM בברלין
+  de-berlin-meetup:
+    name: קבוצת המפגשים של OpenStreetMap ברלין-ברנדנבורג
+    description: ממפי ומשתמשי OpenStreetMap באזור ברלין
+  de-berlin-telegram:
+    name: '‎@osmberlin בטלגרם'
+    description: הטלגרם של OpenStreetMap ברלין
+  de-berlin-twitter:
+    name: הטוויטר של OpenStreetMap ברלין
+    description: 'ניתן לעקוב אחרינו בטוויטר: {url}'
+  de-forum:
+    name: הפורום של OpenStreetMap גרמניה
+    description: הפורום המקוון של OpenStreetMap גרמניה
+  de-irc:
+    name: OpenStreetMap גרמניה ב־IRC
+    description: 'ניתן להצטרף ל־‎#osm-de תחת irc.oftc.net (פתחה 6667)'
+  de-mailinglist:
+    name: קבוצת הדיוור Talk-de
+    description: Talk-de היא קבוצת הדיוור הרשמית של קהילת OSM הגרמנית
+  de-ostwestfalen-lippe-mailinglist:
+    name: קבוצת הדיוור OWL
+    description: זאת רשימת הדיוור לקהילת OSM במזרח וסטפליה-ליפה
+  osm-de:
+    name: OpenStreetMap גרמניה
+    description: הפלטפורמה למידע על OpenStreetMap בגרמניה
+  hu-facebook:
+    name: הפייסבוק של OpenStreetMap הונגריה
+    description: ממפים וקבוצת פייסבוק של OpenStreetMap בהונגריה
+  hu-forum:
+    name: הפורום של OpenStreetMap הונגריה
+    description: הפורום המקוון של OpenStreetMap הונגריה
+  hu-meetup:
+    name: קבוצת המפגשים של OpenStreetMap הונגרי
+    description: הפלטפורמה לכינוס מפגשים בהונגריה
+  it-facebook:
+    name: הפייסבוק של OpenStreetMap איטליה
+    description: ניתן להצטרף לקהילה של OpenStreetMap איטליה בפייסבוק
+  it-irc:
+    name: ה־IRC של OpenStreetMap איטליה
+    description: 'ניתן להצטרף ל־‎#osm-it תחת irc.oftc.net (פתחה 6667)'
   it-mailinglist:
     name: קבוצת הדיוור Talk-it
     description: Talk-at היא קבוצת הדיוור הרשמית של קהילת OSM האיטלקית
+  it-telegram:
+    name: '‎@OpenStreetMapItalia בטלגרם'
+    description: הטלגרם של OpenStreetMap איטליה
   it-twitter:
     name: הטוויטר של OpenStreetMap איטליה
+    description: 'ניתן לעקוב אחרינו בטוויטר בכתובת {url}'
+  OSM-Rome-meetup:
+    name: מפגש המיפוי של רומא - Incontro Mappatori Romani
+    description: שיפור OpenStreetMap באזור רומא
+  South-Tyrol-Mailing-List:
+    name: קבוצת הדיוור של OpenStreetMap לדרום טירול
   talk-it-lazio:
+    name: OpenStreetMap לאציו, איטליה
     description: 'כולם מוזמנים! ניתן להירשם בכתובת {signupUrl}'
+    extendedDescription: קבוצת דיוור לאזורי רומא ולאציו.
+  Trentino-Mailing-List:
+    name: קבוצת הדיוור של OpenStreetMap טרנטינו
+  no-forum:
+    name: הפורום המקוון של OpenStreetMap נורווגיה
+    description: הפורום המקוון של OpenStreetMap נורווגיה
+  no-irc:
+    name: OpenStreetMap נורווגיה ב־IRC
+  no-mailinglist:
+    name: קבוצת הדיוור של OpenStreetMap נורווגיה
+  OSM-PL-facebook-group:
+    name: קבוצת הפייסבוק של OpenStreetMap פולין
+    description: קבוצה של ממפים ומשתמשים ב־OpenStreetMap בפולין
+  OSM-PL-forum:
+    name: הפורום של OpenStreetMap פולין
+    description: הפורום של קהילת OpenStreetMap הפולנית
+  OSM-ES-mailinglist:
+    name: קבוצת הדיוור Talk-es
+    description: קבוצת דיוור לדיונים על OpenStreetMap בספרד
+  OSM-ES-telegram:
+    name: '@OSMes ב־Telegram'
+    description: הטלגרם של OpenStreetMap ספרד
+  osm-se:
+    name: OpenStreetMap.se
+    description: אספקת שירותים ומידע על OSM עבור הקהילה המקומית בשוודיה
+  se-facebook:
+    name: הפייסבוק של OpenStreetMap שוודיה
+    description: הפייסבוק של OpenStreetMap נורווגיה
+  se-forum:
+    name: הפורום המקוון של OpenStreetMap שוודיה
+    description: הפורום המקוון של OpenStreetMap שוודיה
+  se-irc:
+    name: OpenStreetMap שוודיה ב־IRC
+    description: 'ניתן להצטרף ל־‎#osm.se תחת irc.oftc.net (פתחה 6667)'
   se-mailinglist:
     name: קבוצת הדיוור Talk-se
     description: קבוצת דיוור לדיונים על OpenStreetMap בשוודיה
   se-twitter:
     name: הטוויטר של OpenStreetMap שוודיה
     description: 'ניתן לעקוב אחרינו בטוויטר: {url}'
+  gb-mailinglist:
+    name: קבוצת הדיוור Talk-gb
+    description: Talk-gb היא קבוצת הדיוור הרשמית של קהילת OSM הבריטית (כולל צפון אירלנד)
+  gb-irc:
+    name: OpenStreetMap המלכה המאוחדת ב־IRC
+    description: 'ניתן להצטרף ל־‎#osm-gb תחת irc.oftc.net (פתחה 6667)'
+    extendedDescription: 'ניתן להצטרף ל־‎#osm-gb תחת irc.oftc.net (פתחה 6667), נא להתאזר בסבלנות ולחכות מספר דקות לאחר פרסום שאלה'
   OSM-CA-Slack:
+    name: ה־Slack של OSM קנדה
     description: 'כולם מוזמנים! ניתן להירשם בכתובת {signupUrl}.'
   OSM-Vancouver-meetup:
     name: OpenStreetMap ונקובר
+    description: 'ממפים ומשתמשים ב־OpenStreetMap בוונקובר, קולומביה הבריטית'
+  OSM-CU-telegram:
+    name: ערוץ הטלגרם של OSM קובה
+    description: הטלגרם של OpenStreetMap קובה
+  OSM-NI-telegram:
+    name: ערוץ הטלגרם של OSM ניקרגואה
+    description: הטלגרם של OpenStreetMap ניקרגואה
+  Bay-Area-OpenStreetMappers:
+    name: ממפי OpenStreetMap באזור מפרץ סן פרנסיסקו
+    description: שיפור OpenStreetMap באזור מפרץ סן פרנסיסקו
+  Central-Pennsylvania-OSM:
+    name: OSM מרכז פנסילבניה
+    description: 'קהילת מיפוי מקוון שבסיסה הוא בסטייט קולג׳, פנסילבניה'
+  Code-for-San-Jose-Slack:
+    name: קוד ל־Slack של סן חוזה
+    description: 'כולם מוזמנים! ניתן להירשם בכתובת {signupUrl} ואז להצטרף לערוץ ‎#osm.'
+  Dallas-Fort-Worth-OSM:
+    name: OSM דלאס-פורט וורת׳
+    description: קבוצת משתמשי OpenStreetMap בדלאס-פורט וורת׳
+    extendedDescription: 'דלאס, פורט וורת׳ וכל הערים שביניהן שופעות באנשים יצירתיים ומוכשרים טכנולוגית. החזון של קבוצת המשתמשים הזאת היא למצוא דרכים חדשות להשתמש במשאב המדהים שנקרא OSM.'
+  GeoPhilly:
+    name: GeoPhilly
+    description: קבוצת מפגשים לחובבי מפות באזור פילדלפיה
+  MapMinnesota:
+    name: MapMinnesota
+  Mapping-DC-meetup:
+    name: מיפוי וושינגטון הבירה
+    description: שיפור OpenStreetMap באיזור וושינגטון הבירה
+    extendedDescription: 'אנו קבוצה של ממפים מתנדבים שחותרים לשפר את OpenStreetMap באיזור וושינגטון הבירה. אנו גם חותרים ללמד אנשים נוספים על הסביבה המקיפה את OSM, ניתוח מידע, מיפוי ומערכות מידע גאוגרפיות. אנו נפגשים אחת לחודשיים כדי להתמקד על אזור מסוים בעיר שלנו.'
+  Maptime-ME-meetup:
+    name: MaptimeME
+    description: 'ממפים ומשתמשי OpenStreetMap סביב פורטלנד, מיין'
+    extendedDescription: 'Maptime כשמו כן הוא, זמן ליצירת מפות. המטרה שלנו היא לפתוח את הדלת לאפשרויות מגוונות ליצירת מפות לכל מי שמעוניין על ידי יצירת מקום ללמידה שיתופית, חקירה ויצירת מפות באמצעות כלים וטכנולוגיות למיפוי.'
   OpenCleveland-meetup:
+    name: קליבלנד פתוחה
     description: שיפור OpenStreetMap באזור קליבלנד
   OSM-Boston:
     name: OpenStreetMap בוסטון
     description: ממפים ומשתמשים ב־OpenStreetMap באזור בוסטון
+    extendedDescription: 'OpenStreetMap היא מפת העולם פתוחה בסגנון ויקי, מורכבת ממאות אלפי תרומות כל יום שנתרמות על ידי אנשים כמוך. עריכת המפה היא תהליך פשוט ומהנה! מזמינים אותך להצטרף אלינו בפעילויות הפנים והחוץ כחלק מהניסיון שלנו ליצור את המפה הטובה ביותר של אזור בוסטון ושאר העולם!'
+  OSM-Central-Salish-Sea:
+    description: 'ממפים ומשתמשי OpenStreetMap סביב מאונט ורנון, וירג׳יניה'
+    extendedDescription: 'OpenStreetMap היא מפת העולם שנוצרת על ידי אנשים כמוך. זו מפה בהרכבתך, שמוגשת לציבור בחינם כמו ויקיפדיה. כדאי לבקר ב־osm.org למידע נוסף. אנו נפגשים כל הזמן ומדברים על מפות, ממפים ונהנים!'
   OSM-Chattanooga:
     name: OSM צ׳טנוגה
     description: קבוצת משתמשי OpenStreetMap בצ׳טנוגה
@@ -191,6 +378,7 @@ he:
     description: ממפים ומשתמשים ב־OpenStreetMap באזור סיאטל
   OSM-SoCal:
     name: OpenStreetMap דרום קליפורניה
+    description: 'בואו נהנה, נתרום משהו ללוס אנג׳לס ונלמד על מיפוי!'
   OSM-Tampa-Bay:
     name: OpenStreetMap מפרץ טמפה
     description: ממפים ומשתמשים ב־OpenStreetMap באזור מפרץ טמפה
@@ -200,15 +388,26 @@ he:
   OSM-US:
     name: OpenStreetMap ארה״ב
     description: אנו מסייעים להצמיח ולשפר את OpenStreetMap בארצות הברית.
+    extendedDescription: 'אנו תומכים ב־OpenStreetMap על ידי אירוח של כנסים שנתיים, אספקת משאבים קהילתיים, בניית שותפויות והפצה ברבים. ניתן להצטרף ל־OpenStreetMap ארה״ב כאן: {signupUrl}'
   OSM-Utah:
     name: OpenStreetMap יוטה
     description: ממפים ומשתמשים ב־OpenStreetMap באזור סולט לייק סיטי
   OSM-Wyoming:
     name: OpenStreetMap ויומינג
     description: ממפים ומשתמשים ב־OpenStreetMap במדינת ויומינג
+  PHXGeo-meetup:
+    name: קבוצת המפגשים של PHXGeo
+    description: 'ממפי ומשתמשי OpenStreetMap באזור פיניקס, אריזונה'
+    extendedDescription: 'זו קבוצת מפגשים לאלו מאזור פיניקס שאוהבים מיפוי, נתונים גאוגרפיים, OpenStreetMap, חיבור מפות וכל מה שביניהם.'
   PHXGeo-twitter:
+    name: הטוויטר של PHXGeo
     description: 'ניתן לעקוב אחרינו בטוויטר בכתובת {url}'
+  Western-Slope-facebook:
+    description: 'ממפי ומשתמשי OpenStreetMap סביב גרנד ג׳נקשן, קולורדו'
+  Western-Slope-meetup:
+    description: 'ממפי ומשתמשי OpenStreetMap סביב גרנד ג׳נקשן, קולורדו'
   Maptime-Australia-Slack:
+    name: ה־Slack של Maptime אוסטרליה
     description: 'ניתן להירשם בכתובת {signupUrl}'
   talk-au:
     name: קבוצת הדיוור Talk-au
@@ -216,16 +415,38 @@ he:
   OSM-AR-facebook:
     name: הפייסבוק של OpenStreetMap ארגנטינה
     description: ניתן להצטרף לקהילה של OpenStreetMap ארגנטינה בפייסבוק
+    extendedDescription: חדשות מהקהילה המקומית
+  OSM-AR-forum:
+    name: הפורום המקוון של OpenStreetMap ארגנטינה
+    description: ניתן להצטרף לפורום המקוון של OpenStreetMap ארגנטינה
+    extendedDescription: מצוין לדיונים ארוכים או חשובים. זמן תגובה ארוך.
+  OSM-AR-irc:
+    name: OpenStreetMap ארגנטינה ב־IRC
+    description: 'ניתן להצטרף ל־‎#osm-ar תחת irc.oftc.net (פתחה 6667)'
+    extendedDescription: שם ניתן למצוא את המשתמש החנון ביותר בקהילה.
   OSM-AR-mailinglist:
     name: קבוצת הדיוור Talk-ar
     description: קבוצת דיוור היסטורית. כמעט לא בשימוש כיום.
   OSM-AR-telegram:
     name: הטלגרם של OpenStreetMap ארגנטינה
+    description: ניתן להצטרף לקהילת OpenStreetMap ארגנטינה בטלגרם
+    extendedDescription: 'הערוץ הפעיל ביותר בקהילה, מומלץ לשיחות ולקבלת תשובות לשאלות שלך במהרה. כולם מוזמנים!'
   OSM-AR-twitter:
     name: הטוויטר של OpenStreetMap ארגנטינה
     description: 'ניתן לעקוב אחרינו בטוויטר בכתובת {url}'
+    extendedDescription: חדשות מהקהילה המקומית ומ־OpenStreetMap באופן כללי.
+  OSM-BO-mailinglist:
+    name: קבוצת הדיוור Talk-bo
+    description: Talk-bo היא קבוצת הדיוור הרשמית של קהילת OpenStreetMap הבוליביאנית
+    extendedDescription: 'מעניין אותך מיפוי בבוליביה? יש לך שאלות? אולי ליצור קשר עם הקהילה המקומית? ניתן להצטרף אלינו ב־{url}. כולם מוזמנים!'
   Bahia-telegram:
+    name: קבוצת הטלגרם של OpenStreetMap באהיה
+    description: ניתן להצטרף לקהילת OpenStreetMap באהיה בטלגרם
     extendedDescription: 'ניתן להצטרף לקהילה שלנו כדי ללמוד עוד על OpenStreetMap, לשאול שאלות או להשתתף במפגשים שלנו. כולם מוזמנים!'
+  DF-telegram:
+    name: קבוצת הטלגרם של OpenStreetMap ברזיליה
+    description: ניתן להצטרף לקהילת OpenStreetMap ברזיליה בטלגרם
+    extendedDescription: 'ניתן להצטרף לקהילה וללמוד עוד על OpenStreetMap, לשאול שאלות או להשתתף במפגשים שלנו. כולם מוזמנים!'
   OSM-br-mailinglist:
     name: קבוצת הדיוור Talk-br
     description: קבוצת דיוור לדיונים על OpenStreetMap בברזיל
@@ -237,48 +458,82 @@ he:
     name: הטוויטר של OpenStreetMap ברזיל
     description: 'ניתן לעקוב אחרינו בטוויטר בכתובת {url}'
   OSM-CL-facebook:
-    name: הפייסבוק של OpenStreetMap ׳ילה
+    name: הפייסבוק של OpenStreetMap צ׳ילה
     description: ניתן להצטרף לקהילה של OpenStreetMap צ׳ילה בפייסבוק
+    extendedDescription: 'ניתן להצטרף לקהילה שלנו כדי ללמוד עוד על OpenStreetMap, לשאול שאלות או להשתתף במפגשים שלנו. כולם מוזמנים!'
   OSM-CL-mailinglist:
     name: קבוצת הדיוור Talk-cl
     description: קבוצת דיוור לדיונים על OpenStreetMap בצ׳ילה
   OSM-CL-telegram:
     name: הטלגרם של OpenStreetMap צ׳ילה
     description: ניתן להצטרף לקהילת OpenStreetMap צ׳ילה בטלגרם
+    extendedDescription: 'ניתן להצטרף לקהילה שלנו כדי ללמוד עוד על OpenStreetMap, לשאול שאלות או להשתתף במפגשים שלנו. כולם מוזמנים!'
   OSM-CL-twitter:
     name: הטוויטר של OpenStreetMap צ׳ילה
     description: 'ניתן לעקוב אחרינו בטוויטר בכתובת {url}'
+  Maptime-Bogota:
+    name: Maptime בוגוטה
+    description: אנו קבוצה של ממפים שמעוניים למפות ב־OpenStreetMap סביב בוגוטה.
+    extendedDescription: 'מידע על איסוף נתונים בשטח והמרתם לנתונים דיגיטליים ב־OpenStreetMap. אין צורך בידע קודם! נדרש רק רצון עז להשתתף, ללמוד וליהנות.'
   OSM-CO-facebook:
     name: הפייסבוק של OpenStreetMap קולומביה
+    description: ניתן להצטרף לקהילה של OpenStreetMap קולומביה בפייסבוק
+    extendedDescription: ניתן להצטרף לקהילה שלנו כדי ללמוד עוד על OpenStreetMap. כולם מוזמנים!
   OSM-CO-mailinglist:
     name: קבוצת הדיוור Talk-co
     description: קבוצת דיוור לדיונים על OpenStreetMap בקולומביה
+  OSM-CO-telegram:
+    name: ערוץ הטלגרם של OSM קולומביה
+    description: הטלגרם של OpenStreetMap קולומביה
   OSM-CO-twitter:
     name: הטוויטר של OpenStreetMap קולומביה
     description: 'ניתן לעקוב אחרינו בטוויטר בכתובת {url}'
   OSM-CO:
     name: OpenStreetMap קולומביה
+    description: חדשות על קהילת OpenStreetMap קולומביה ועל קרן OSMCo
+  OSM-EC-telegram:
+    name: ערוץ הטלגרם של OSM אקוודור
+    description: הטלגרם של OpenStreetMap אקוודור
+  OSM-PY-telegram:
+    name: ערוץ הטלגרם של OSM פרגוואי
+    description: הטלגרם של OpenStreetMap פרגוואי
   OSM-PE-facebook:
     name: הפייסבוק של OpenStreetMap פרו
     description: ניתן להצטרף לקהילה של OpenStreetMap פרו בפייסבוק
   OSM-PE-mailinglist:
     name: קבוצת הדיוור Talk-pe
     description: קבוצת הדיוור הרשמית ל־OpenStreetMap פרו
+  OSM-PE-matrix:
+    name: ערוץ ה־Matrix של OpenStreetMap פרו
+    description: ניתן לשוחח עם חברים נוספים בקהילת OpenStreetMap פרו דרך Matrix.
+  OSM-PE-telegram:
+    name: הטלגרם של OpenStreetMap פרו
+    description: ניתן להצטרף לקהילת OpenStreetMap פרו בטלגרם
   OSM-PE-twitter:
+    name: הטוויטר של OpenStreetMap פרו
     description: 'ניתן לעקוב אחרינו בטוויטר בכתובת {url}'
   OSM-PE:
     name: OpenStreetMap פרו
+    description: חדשות ומשאבים לקהילת OpenStreetMap פרו
   OSM-Facebook:
     name: OpenStreetMap בפייסבוק
+    description: ניתן לעשות לנו ‚לייק’ בפייסבוק כדי לקבל חדשות ועדכונים על OpenStreetMap.
   OSM-help:
     name: העזרה של OpenStreetMap
+    description: ניתן לשאול שאלות ולקבל תשובות באתר השאלות והתשובות בשיתוף קהילת OSM.
+    extendedDescription: '{url} מיועד לכל מי שצריך עזרה עם OpenStreetMap.  בין אם עזרה לממפים מתחילים או שאלה טכנית, אנחנו כאן כדי לעזור!'
   OSM-Reddit:
     name: OpenStreetMap ב־Reddit
+    description: /r/openstreetmap/ הוא מקום נהדר ללמוד עוד על OpenStreetMap.  מצפים לשאלות שלכם בכל נושא שהוא!
   OSM-Twitter:
     name: הטוויטר של OpenStreetMap
     description: 'ניתן לעקוב אחרינו בטוויטר בכתובת {url}'
   OSMF:
     name: קרן OpenStreetMap
+    description: OSMF הוא ארגון בריטי ללא מטרות רווח שתומך במיזם OpenStreetMap
+    extendedDescription: 'OSMF תומך ב־OpenStreetMap על ידי תרומה, תחזוקת השרתים שעליהם פועלת מערכת OSM, ארגון הכנס State of the Map ותיאום בין המתנדבים שדואגים ש־OSM ימשיך להכות גלים. ניתן להראות את תמיכתך ולתת את קולך ל־OpenStreetMap על ידי הצטרפות לחברות ב־OSMF דרך כאן: {signupUrl}'
     events:
       sotm2018:
+        name: State of the Map 2018
+        description: 'מזמינים אותך להצטרף אלינו ל־3 ימים במילאנו שבאיטליה לכנס השנתי הכלל עולמי של OpenStreetMap, שמקבץ יחד את כל הקהילה לטובת קשרים חברתיים, שיתוף ולמידה.'
         where: 'מילאנו, איטליה'

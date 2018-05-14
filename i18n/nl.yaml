@@ -10,15 +10,16 @@ nl:
   talk-gh:
     name: Talk-gh mailinglijst
   osm-mg-facebook:
-    name: Facebook
-    description: Neem deel aan de OpenStreetMap Madagascar community op Facebook
+    name: OpenStreetMap Madagascar-Facebookgroep
+    description: Malagasi-Facebookgroep voor mensen geïnteresseerd in OpenStreetMap.
   talk-mg:
-    name: Talk-mg Mailinglijst
-    description: 'Plek voor OpenStreetMap bijdragers, gemeenschappen en gebruikers in Madagascar om te delen en te discussiëren.'
+    name: Talk-mg-mailinglijst
+    description: 'Plek voor OpenStreetMap-bijdragers, -gemeenschappen en -gebruikers in Madagascar om te delen en voor overleg.'
   OSM-BGD-facebook:
     name: OpenStreetMap Bangladesh
     description: Verbeter OpenStreetMap in Bangladesh
   OSM-India-facebook:
+    name: OpenStreetMap India
     description: Verbeter OpenStreetMap in India
     events:
       sotmasia2018:
@@ -93,20 +94,40 @@ nl:
     description: 'Volg ons op Twitter: {url}'
   osm-at:
     name: OpenStreetMap Oostenrijk
-  be-facebook:
-    description: Neem deel aan de OpenStreetMap België community op Facebook
-  be-mailinglist:
-    name: Talk-be Mailinglijst
-    description: Talk-be is de officiële Mailinglijst voor België
-  be-twitter:
-    name: OpenStreetMap België Twitter
-    description: 'Volg ons op Twitter: {url}'
   byosm:
     name: OpenStreetMap Wit-Rusland
     description: OpenStreetMap Wit-Rusland op Telegram
+  be-facebook:
+    name: OpenStreetMap BE
+    description: Mappers en OpenStreetMap op Facebook in België
+  be-forum:
+    name: OpenStreetMap BE forum
+    description: Webforum van OpenStreetMap in België
+  be-irc:
+    name: OpenStreetMap België IRC
+    description: 'Kom erbij op #osmbe op irc.oftc.net (poort 6667)'
+    extendedDescription: 'Kom erbij op #osmbe op irc.oftc.net (poort 6667), het kanaal is gekoppeld aan de Matrix-chatruimte'
+  be-mailinglist:
+    name: Talk-be-mailinglijst
+    description: Talk-be is de officiële mailinglijst voor de Belgische OpenStreetMapgemeenschap
+  be-matrix:
+    name: OpenStreetMap BE Matrix-kanaal
+    description: Alle mappers zijn welkom!
+  be-meetup:
+    name: OpenStreetMap België Meetup
+    description: Bijeenkomsten in het echte leven van iedereen die geïnteresseerd is in OpenStreetMap
+    extendedDescription: 'Fysieke bijeenkomsten zijn fantastisch om andere mappers te leren kennen, hen vragen te stellen, en veel bij te leren. In het bijzonder zijn nieuwe bijdragers van harte welkom!'
+  be-twitter:
+    name: OpenStreetMap België Twitter
   talk-cz-mailinglist:
     name: Talk-cz Mailinglijst
     description: Talk-cz is de officiële Mailinglijst voor Tsjechië
+  fr-facebook:
+    name: OpenStreetMap Frankrijk Facebook-pagina
+    description: OpenStreetMap Frankrijk Facebook-pagina
+  fr-twitter:
+    name: OpenStreetMap Frankrijk op Twitter
+    description: 'OpenStreetMap Frankrijk op Twitter: {url}'
   de-irc:
     name: OpenStreetMap Duitsland IRC
   de-mailinglist:
@@ -115,15 +136,6 @@ nl:
   osm-de:
     name: OpenStreetMap Duitsland
     description: Het platform voor informatie over OpenStreetMap in Duitsland
-  OSM-ES-telegram:
-    name: 'Telegram'
-    description: OpenStreetMap Spanje op Telegram
-  fr-facebook:
-    name: OpenStreetMap Frankrijk Facebook-pagina
-    description: OpenStreetMap Frankrijk Facebook-pagina
-  fr-twitter:
-    name: OpenStreetMap Frankrijk op Twitter
-    description: 'OpenStreetMap Frankrijk op Twitter: {url}'
   OSM-Rome-meetup:
     name: Incontro Mappatori Romani
     description: Verbeter OpenStreetMap in Rome
@@ -132,6 +144,9 @@ nl:
     extendedDescription: Mailinglijst voor Rome en Lazio.
   OSM-PL-facebook-group:
     name: OpenStreetMap Polen Facebook-groep
+  OSM-ES-telegram:
+    name: 'Telegram'
+    description: OpenStreetMap Spanje op Telegram
   se-facebook:
     name: OpenStreetMap Zweden Facebook-pagina
     description: OpenStreetMap Zweden op Facebook
