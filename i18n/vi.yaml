@@ -21,6 +21,7 @@ vi:
   OSM-BGD-facebook:
     name: OpenStreetMap Bangladesh
     description: Cải thiện OpenStreetMap tại Bangladesh
+    extendedDescription: 'Bạn có lập bản đồ tại Bangladesh? Bạn có thắc mắc, muốn liên hệ với cộng đồng tại đây? Mời bạn tham gia tại {url}.'
   OSM-India-facebook:
     name: OpenStreetMap Ấn Độ – tham gia lập bản đồ hàng xóm
     description: Cải thiện OpenStreetMap tại Ấn Độ
@@ -53,6 +54,9 @@ vi:
   OSM-japan-twitter:
     name: Twitter OpenStreetMap Nhật Bản
     description: 'Thẻ băm tại Twitter: {url}'
+  OSM-japan-website:
+    name: OpenStreetMap Nhật Bản
+    description: Những người lập bản đồ và người dùng OpenStreetMap ở Nhật Bản
   OSM-korea-telegram:
     name: Kênh Telegram OSM Hàn Quốc
     description: 'Kênh không chính chức cho phép những người đóng góp, cộng đồng, và người dùng OpenStreetMap tại Hàn Quốc chia sẻ và thảo luận.'
@@ -105,6 +109,22 @@ vi:
   OSM-TW-mailinglist:
     name: Danh sách thư OpenStreetMap Đài Loan
     description: talk-tw là danh sách thư chính thức của cộng đồng Đài Loan
+  OSM-TH-CNX-meetup:
+    name: Họp mặt OSM Chiềng Mai
+  OSM-TH-facebook:
+    name: Nhóm Facebook OpenStreetMap Thái Lan
+    description: Nhóm Facebook dành cho những người OpenStreetMap tại Thái Lan
+  OSM-TH-forum:
+    name: Diễn đàn OpenStreetMap Thái Lan
+    description: Diễn đàn Web của OpenStreetMap Thái Lan
+  al-forum:
+    name: Diễn đàn OSM Albania
+    description: Diễn đàn OpenStreetMap Albania
+  al-maptime-tirana:
+    name: Maptime Tirana
+  al-telegram:
+    name: Kênh Telegram OSM Albania
+    description: Kênh Telegram OpenStreetMap Albania
   at-forum:
     name: Diễn đàn OpenStreetMap Áo
     description: Diễn đàn chính thức dành cho các câu hỏi về OpenStreetMap trong và chung quanh nước Áo
@@ -139,6 +159,8 @@ vi:
   be-mailinglist:
     name: Danh sách thư talk-be
     description: talk-be là danh sách thư chính thức của cộng đồng OSM tại Bỉ
+  be-maptime:
+    name: Maptime Bỉ
   be-matrix:
     name: Kênh Matrix OpenStreetMap Bỉ
     description: Mời mọi người tham gia!
@@ -147,8 +169,18 @@ vi:
     description: Họp mặt dành cho mọi người quan tâm đến OpenStreetMap
   be-twitter:
     name: Twitter OpenStreetMap Bỉ
+    description: 'OSM Bỉ tại Twitter: @osm_be'
+  czech-community:
+    name: Cộng đồng OSM Séc
+    description: 'Trang bản đồ và thông tin liên lạc với thành viên OSM tại Séc'
+  osmcz-facebook:
+    name: OpenStreetMap Séc tại Facebook
+    description: Theo dõi cộng đồng Séc tại Facebook – có cả bản dịch WeeklyOSM!
+  osmcz-twitter:
+    name: Twitter Séc @osmcz
+    description: Theo dõi cộng đồng Séc tại Twitter – có cả bản dịch WeeklyOSM!
   talk-cz-mailinglist:
-    name: Danh sách thư talk-cz
+    name: Danh sách thư Séc (talk-cz)
     description: talk-cz là danh sách thư chính thức của cộng đồng Séc
   dk-forum:
     name: Diễn đàn Web của OpenStreetMap Đan Mạch
@@ -159,6 +191,15 @@ vi:
   dk-mailinglist:
     name: Danh sách thư talk-dk
     description: Danh sách thư để thảo luận về OpenStreetMap tại Đan Mạch
+  fi-forum:
+    name: Diễn đàn OpenStreetMap Phần Lan
+    description: Diễn đàn Web của OpenStreetMap Phần Lan
+  fi-irc:
+    name: IRC OpenStreetMap Phần Lan
+    description: 'Hãy tham gia #osm-fi tại irc.oftc.net (cổng 6667)'
+  fi-mailinglist:
+    name: Danh sách thư talk-fi
+    description: talk-fi là danh sách thư chính thức của cộng đồng Phần Lan
   fr-facebook:
     name: Trang Facebook của OpenStreetMap Pháp
     description: Trang Facebook của OpenStreetMap Pháp
@@ -198,6 +239,9 @@ vi:
   de-ostwestfalen-lippe-mailinglist:
     name: Danh sách OWL
     description: Đây là danh sách thư của cộng đồng OSM tại Ostwestfalen-Lippe
+  de-telegram:
+    name: Telegram OpenStreetMap Đức
+    description: 'Hãy tham gia siêu nhóm Telegram của OpenStreetMap Đức tại {url}'
   osm-de:
     name: OpenStreetMap Đức
     description: Trang thông tin về OpenStreetMap tại Đức
@@ -209,6 +253,7 @@ vi:
     description: Diễn đàn Web của OpenStreetMap Hungary
   hu-meetup:
     name: Họp mặt OpenStreetMap Hungary
+    description: Trang tổ chức cuộc họp mặt tại Hungary
   it-facebook:
     name: Facebook OpenStreetMap Ý
     description: Hãy tham gia cộng đồng OpenStreetMap Ý tại Facebook
@@ -218,6 +263,9 @@ vi:
   it-mailinglist:
     name: Danh sách thư talk-it
     description: talk-it là danh sách thư chính thức của cộng đồng Ý
+  it-telegram:
+    name: '@OpenStreetMapItalia tại Telegram'
+    description: Trò chuyện Telegram của OpenStreetMap Ý
   it-twitter:
     name: Twitter OpenStreetMap Ý
     description: 'Theo dõi chúng tôi trên Twitter: {url}'
@@ -291,6 +339,12 @@ vi:
   OSM-Vancouver-meetup:
     name: OpenStreetMap Vancouver
     description: 'Những người lập bản đồ và người dùng OpenStreetMap ở vùng Vancouver, British Columbia'
+  OSM-CU-telegram:
+    name: OSM Cuba tại Telegram
+    description: Trò chuyện Telegram của OpenStreetMap Cuba
+  OSM-NI-telegram:
+    name: OSM Nicaragua tại Telegram
+    description: Trò chuyện Telegram của OpenStreetMap Nicaragua
   Bay-Area-OpenStreetMappers:
     name: Cộng đồng OpenStreetMap tại Khu vực vịnh
     description: Cải thiện OpenStreetMap tại Khu vực Vịnh San Francisco
@@ -406,6 +460,7 @@ vi:
     description: 'Hãy tham gia #osm-ar tại irc.oftc.net (cổng 6667)'
   OSM-AR-mailinglist:
     name: Danh sách thư talk-ar
+    description: Danh sách thư lịch sử, ít dùng ngày nay
   OSM-AR-telegram:
     name: Telegram OpenStreetMap Argentina
     description: Hãy tham gia cộng đồng OpenStreetMap Argentina tại Telegram
@@ -458,12 +513,21 @@ vi:
   OSM-CO-mailinglist:
     name: Danh sách thư talk-co
     description: Danh sách thư để thảo luận về OpenStreetMap tại Colombia
+  OSM-CO-telegram:
+    name: OSM Colombia tại Telegram
+    description: Trò chuyện Telegram của OpenStreetMap Colombia
   OSM-CO-twitter:
     name: Twitter OpenStreetMap Colombia
     description: 'Theo dõi chúng tôi trên Twitter: {url}'
   OSM-CO:
     name: OpenStreetMap Colombia
     description: Tin tức về cộng đồng OpenStreetMap Colombia và Quỹ OSMCo
+  OSM-EC-telegram:
+    name: OSM Ecuador tại Telegram
+    description: Trò chuyện Telegram của OpenStreetMap Ecuador
+  OSM-PY-telegram:
+    name: OSM Paraguay tại Telegram
+    description: Trò chuyện Telegram của OpenStreetMap Paraguay
   OSM-PE-facebook:
     name: Facebook OpenStreetMap Peru
     description: Hãy tham gia cộng đồng OpenStreetMap Peru tại Facebook
@@ -492,6 +556,9 @@ vi:
   OSM-Reddit:
     name: OpenStreetMap tại Reddit
     description: /r/openstreetmap/ là nơi để tìm hiểu thêm về OpenStreetMap. Có thắc mắc thì hỏi ở đây!
+  OSM-Telegram:
+    name: Telegram OpenStreetMap
+    description: 'Hãy tham gia siêu nhóm Telegram của OpenStreetMap toàn cầu tại {url}'
   OSM-Twitter:
     name: Twitter OpenStreetMap
     description: 'Theo dõi chúng tôi trên Twitter: {url}'

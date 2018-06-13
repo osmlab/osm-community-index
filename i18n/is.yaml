@@ -1,7 +1,20 @@
 is:
+  cape-coast-youthmappers:
+    description: 'Fylgstu með okkur á Twitter: {url}'
+  osm-gh-twitter:
+    name: OpenStreetMap Ghana á Twitter
+    description: 'Fylgstu með okkur á Twitter: {url}'
+  talk-gh:
+    name: Talk-gh póstlistinn
+  talk-mg:
+    name: Talk-mg póstlistinn
+  OSM-BGD-facebook:
+    name: OpenStreetMap Bangladesh
   OSM-India-facebook:
     name: OpenStreetMap India - Kortagerð með þáttöku nágranna
     description: Bætum OpenStreetMap-gögn á Indlandi
+  OSM-india-twitter:
+    name: Twitter-hópur OpenStreetMap Indland
   OSM-japan-facebook:
     name: OpenStreetMap Japan samfélagið
     description: Kortagerðarfólk og notendur OpenStreetMap í Japan
@@ -35,15 +48,41 @@ is:
   OSM-TW-mailinglist:
     name: Póstlisti OpenStreetMap Tævan
     description: Talk-ja er opinber póstlisti tævanska OSM-hópsins
+  at-twitter:
+    name: Twitter-hópur OpenStreetMap í Austurríki
+    description: 'Twitter-hópur OpenStreetMap í Austurríki: {url}'
+  osmgraz-twitter:
+    name: Twitter-hópur OpenStreetMap í Graz
+    description: Twitter-hópur OpenStreetMap í Graz
   byosm:
     name: OpenStreetMap Hvítarússland
     description: Telegram-hópur OpenStreetMap Hvítarússlands
+  be-twitter:
+    name: Twitter-hópur OpenStreetMap í Belgíu
+    description: 'Twitter-hópur OpenStreetMap í Belgíu: @osm_be'
   talk-cz-mailinglist:
-    name: Talk-cz póstlistinn
     description: Talk-ja er opinber póstlisti tékkneska OSM-hópsins
+  fr-twitter:
+    name: Twitter-hópur OpenStreetMap í Frakklandi
+    description: 'Twitter-hópur OpenStreetMap í Frakklandi: {url}'
+  de-berlin-twitter:
+    name: Twitter-hópur OpenStreetMap í Berlín
+    description: 'Fylgstu með okkur á Twitter: {url}'
+  de-mailinglist:
+    name: Talk-de póstlistinn
+  it-twitter:
+    name: Twitter-hópur OpenStreetMap á Ítalíu
+    description: 'Fylgstu með okkur á Twitter á {url}'
   OSM-ES-telegram:
     name: '@OSMes á Telegram'
     description: Telegram-hópur OpenStreetMap Spánn
+  se-facebook:
+    name: OpenStreetMap Sweden Facebook
+  se-mailinglist:
+    name: Talk-se póstlistinn
+  se-twitter:
+    name: Twitter-hópur OpenStreetMap í Svíþjóð
+    description: 'Fylgstu með okkur á Twitter: {url}'
   OSM-Vancouver-meetup:
     name: OpenStreetMap Vancouver
     description: 'Kortagerðarfólk og notendur OpenStreetMap í Vancouver, BC-svæðinu'
@@ -114,6 +153,7 @@ is:
   PHXGeo-meetup:
     description: 'Kortagerðarfólk og notendur OpenStreetMap á Phoenix, AZ-svæðinu'
   PHXGeo-twitter:
+    name: Twitter-hópur PHXGeo
     description: 'Fylgstu með okkur á Twitter á {url}'
   Western-Slope-facebook:
     description: 'Kortagerðarfólk og notendur OpenStreetMap í kringum Grand Junction, CO'
@@ -124,6 +164,7 @@ is:
   OSM-AR-facebook:
     name: Facebook-hópur OpenStreetMap Argentína
     description: Gakktu til liðs við OpenStreetMap Argentína hópinn á Facebook
+    extendedDescription: Fréttir frá fólki á staðnum
   OSM-AR-forum:
     name: Vefspjall (forum) OpenStreetMap Argentína
     description: Gakktu til liðs við OpenStreetMap Argentína vefspjallið
@@ -138,6 +179,39 @@ is:
   OSM-AR-twitter:
     name: Twitter-hópur OpenStreetMap Argentína
     description: 'Fylgstu með okkur á Twitter á {url}'
+  OSM-br-twitter:
+    name: Twitter-hópur OpenStreetMap í Brasilíu
+    description: 'Fylgstu með okkur á Twitter á {url}'
+  OSM-CL-twitter:
+    name: Twitter-hópur OpenStreetMap í Síle
+    description: 'Fylgstu með okkur á Twitter á {url}'
+  OSM-CO-mailinglist:
+    name: Talk-co póstlistinn
+  OSM-CO-twitter:
+    name: Twitter-hópur OpenStreetMap í Kólumbíu
+    description: 'Fylgstu með okkur á Twitter á {url}'
+  OSM-PE-mailinglist:
+    name: Talk-pe póstlistinn
+  OSM-PE-telegram:
+    name: Telegram-hópur OpenStreetMap í Perú
+  OSM-PE-twitter:
+    name: Twitter-hópur OpenStreetMap í Perú
+    description: 'Fylgstu með okkur á Twitter á {url}'
+  OSM-PE:
+    name: OpenStreetMap í Perú
+  OSM-Facebook:
+    name: OpenStreetMap á Facebook
+  OSM-help:
+    name: Aðstoð með OpenStreetMap
   OSM-Reddit:
     name: OpenStreetMap á Reddit
     description: /r/openstreetmap/ er góður staður til að læra meira um OpenStreetMap.  Spurðu okkur um allt milli himins og jarðar!
+  OSM-Twitter:
+    name: Twitter-hópur OpenStreetMap
+    description: 'Fylgstu með okkur á Twitter á {url}'
+  OSMF:
+    name: OpenStreetMap sjálfseignarstofnunin
+    events:
+      sotm2018:
+        name: Ástand landakortsins 2018
+        where: 'Mílanó, Ítalíu'
