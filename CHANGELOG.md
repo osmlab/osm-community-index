@@ -6,6 +6,27 @@
 
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
+
+## 0.4.4
+##### 2018-Jun-13
+
+* Add community resources:
+  * Czech web, Facebook, Twitter ([#156])
+  * German Telegram supergroup ([#155])
+  * OSM global Telegram supergroup ([#154])
+  * Thailand Facebook page ([#153])
+* Fixes:
+  * Fix contact email address for OSM Korea Telegram contact ([#151])
+  * Simplified Maptime Albania-Tirana polygon ([#149])
+
+[#156]: https://github.com/osmlab/osm-community-index/issues/156
+[#155]: https://github.com/osmlab/osm-community-index/issues/155
+[#154]: https://github.com/osmlab/osm-community-index/issues/154
+[#153]: https://github.com/osmlab/osm-community-index/issues/153
+[#151]: https://github.com/osmlab/osm-community-index/issues/151
+[#149]: https://github.com/osmlab/osm-community-index/issues/149
+
+
 ## 0.4.3
 ##### 2018-May-14
 * Fixes:
