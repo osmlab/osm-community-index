@@ -44,9 +44,20 @@ function buildAll() {
 function generateFeatures() {
     var features = {};
     var files = {};
+    process.stdout.write('Features:');
     glob.sync(__dirname + '/features/**/*.geojson').forEach(function(file) {
         var contents = fs.readFileSync(file, 'utf8');
-        var feature = precision(rewind(JSON.parse(contents), true), 5);
+        var parsed;
+        try {
+            parsed = JSON.parse(contents);
+        } catch (jsonParseError)
+        {
+            console.error(colors.red('Error - ' + jsonParseError.message + ' in:'));
+            console.error('  ' + colors.yellow(file));
+            process.exit(1);
+        }
+
+        var feature = precision(rewind(parsed, true), 5);
         var fc = feature.features;
 
         // A FeatureCollection with a single feature inside (geojson.io likes to make these).
@@ -69,7 +80,11 @@ function generateFeatures() {
         }
         features[id] = feature;
         files[id] = file;
+
+        process.stdout.write(colors.green('✓'));
     });
+
+    process.stdout.write(Object.keys(files).length + '\n');
 
     return features;
 }
@@ -77,9 +92,19 @@ function generateFeatures() {
 function generateResources(tstrings, features) {
     var resources = {};
     var files = {};
+    process.stdout.write('Resources:');
     glob.sync(__dirname + '/resources/**/*.json').forEach(function(file) {
         var contents = fs.readFileSync(file, 'utf8');
-        var resource = JSON.parse(contents);
+
+        var resource;
+        try {
+            resource = JSON.parse(contents);
+        } catch (jsonParseError) {
+            console.error(colors.red('Error - ' + jsonParseError.message + ' in:'));
+            console.error('  ' + colors.yellow(file));
+            process.exit(1);
+        }
+
         validateFile(file, resource, resourceSchema);
         prettifyFile(file, resource, contents);
 
@@ -151,7 +176,11 @@ function generateResources(tstrings, features) {
                 tstrings[resourceId].events = estrings;
             }
         }
+
+        process.stdout.write(colors.green('✓'));
     });
+
+    process.stdout.write(Object.keys(files).length + '\n');
 
     return resources;
 }
