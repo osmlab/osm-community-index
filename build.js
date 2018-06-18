@@ -44,6 +44,7 @@ function buildAll() {
 function generateFeatures() {
     var features = {};
     var files = {};
+    process.stdout.write('Features:');
     glob.sync(__dirname + '/features/**/*.geojson').forEach(function(file) {
         var contents = fs.readFileSync(file, 'utf8');
         var parsed;
@@ -79,7 +80,11 @@ function generateFeatures() {
         }
         features[id] = feature;
         files[id] = file;
+
+        process.stdout.write(colors.green('✓'));
     });
+
+    process.stdout.write(Object.keys(files).length + '\n');
 
     return features;
 }
@@ -87,6 +92,7 @@ function generateFeatures() {
 function generateResources(tstrings, features) {
     var resources = {};
     var files = {};
+    process.stdout.write('Resources:');
     glob.sync(__dirname + '/resources/**/*.json').forEach(function(file) {
         var contents = fs.readFileSync(file, 'utf8');
 
@@ -170,7 +176,11 @@ function generateResources(tstrings, features) {
                 tstrings[resourceId].events = estrings;
             }
         }
+
+        process.stdout.write(colors.green('✓'));
     });
+
+    process.stdout.write(Object.keys(files).length + '\n');
 
     return resources;
 }
