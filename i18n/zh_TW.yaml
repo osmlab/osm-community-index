@@ -117,6 +117,9 @@ zh_TW:
     name: OSM 清邁聚會
     description: 開放街圖清邁社群不定期聚會
     extendedDescription: '清邁開放街圖社群每隔幾個月的時候的聚會，歡迎接洽以及找尋 {url} 下次聚會時間'
+  OSM-TH-facebook:
+    name: '開放街圖泰國 Facebook '
+    description: 泰國開放街圖的 Facebook 社團。
   OSM-TH-forum:
     name: 開放街圖泰國論壇
     description: '開放街圖泰國網頁論壇 '
@@ -125,6 +128,11 @@ zh_TW:
     description: 開放街圖阿爾巴尼亞論壇
   al-maptime-tirana:
     name: Maptime Tirana
+    description: 與畫地圖相關的社交活動-尤其歡迎新手！
+    extendedDescription: 'Maptime 是開放給所有等級和知識程度的學習環境，提供給初學者的國際教育支援。Maptime 同時具有彈性和架構的環境，創造畫地圖的教學、工作坊，分享共同目標的進行中計畫，以及獨立/協同的工作時間。'
+  al-telegram:
+    name: '開放街圖阿爾巴尼亞 Telegram 頻道 '
+    description: '開放街圖阿爾巴尼亞 Telegram 頻道 '
   at-forum:
     name: 開放街圖奧地利論壇
     description: 開放街圖在奧地利問答的官方論壇
@@ -161,16 +169,39 @@ zh_TW:
     description: 'Talk-be 是比利時社群的官方郵件論壇 '
   be-maptime:
     name: Maptime Belgium
+    description: 圍繞畫地圖的社交活動 - 尤其歡迎新手！
+    extendedDescription: 'Maptime 是開放給所有等級和知識程度的學習環境，提供給初學者的國際教育支援。Maptime 同時具有彈性和架構的環境，創造畫地圖的教學、工作坊，分享共同目標的進行中計畫，以及獨立/協同的工作時間。'
   be-matrix:
     name: OpenStreetMap BE Matrix channel
     description: 歡迎所有圖客！
+    extendedDescription: 大部分討論都在 "OpenStreetMap Belgium"  頻道。你可以在這裡問任何問題！其他頻道則會針對特定主題。
   be-meetup:
     name: 開放街圖比利時聚會
     description: 實體聚會中見到每一位對開放街圖有興趣的人
     extendedDescription: '實體的聚會是與其他圖客碰面的好機會，能夠論論問題，學到很多事情，特別是歡迎新的貢獻者。'
   be-twitter:
     name: 開放街圖比利時 Twitter
+    description: '開放街圖比利時 Twitter：@osm_be'
+  hr-facebook:
+    name: 開放街圖克羅埃西亞 Facebook 社團
+    description: 開放街圖克羅埃西亞 Facebook 社團
+  hr-irc:
+    name: 開放街圖克羅埃西亞 IRC
+    description: '在 irc.freenode.org (port 6667) 上面加入 #osm-ㄐ'
+  hr-mailinglist:
+    name: Talk-hr 郵件論壇
+    description: Talk-hr 郵件論壇
+  czech-community:
+    name: 捷克開放街圖社群
+    description: '捷克開放街圖成員的地圖入口以及聯繫地方'
+  osmcz-facebook:
+    name: 開放街圖捷克在 Facebook
+    description: 追蹤捷克開放街圖 Facebook -  包括翻譯 WeeklyOSM！
+  osmcz-twitter:
+    name: 捷克 Twitter @osmcz
+    description: 追蹤捷克開放街圖 Twitter -  包括翻譯 WeeklyOSM！
   talk-cz-mailinglist:
+    name: '捷克郵件論壇 (Talk-cz ) '
     description: 'Talk-cz 是捷克社群的官方郵件論壇 '
   dk-forum:
     name: 開放街圖丹麥網頁論壇
@@ -181,6 +212,15 @@ zh_TW:
   dk-mailinglist:
     name: Talk-dk 郵件論壇
     description: 討論開放街圖在丹麥事物的郵件論壇
+  fi-forum:
+    name: 開放街圖芬蘭論壇
+    description: 開放街圖芬蘭網路論壇
+  fi-irc:
+    name: 開放街圖芬蘭 IRC
+    description: '在 irc.oftc.net (port 6667) 上面加入 #osm-fl'
+  fi-mailinglist:
+    name: Talk-fl 郵件論壇
+    description: 'Talk-fl 是芬蘭社群的官方郵件論壇 '
   fr-facebook:
     name: 開放街圖法國 Facebook 頁面
     description: 開放街圖法國 Facebook 頁面
@@ -220,9 +260,23 @@ zh_TW:
   de-ostwestfalen-lippe-mailinglist:
     name: OWL 郵件論壇
     description: 這是東威斯特法倫 - 利普開放街圖社群的郵件論壇
+  de-telegram:
+    name: 開放街圖德國 Telegram
+    description: '加入開放街圖德國 Telegram 超級聊天室 {url}'
   osm-de:
     name: 開放街圖德國
     description: 開放街圖在德國交流資訊的平台
+  hu-facebook:
+    name: 開放街圖匈牙利在 Facebook
+    description: 匈牙利的圖客和開放街圖 Facebook 頁面
+  hu-forum:
+    name: 開放街圖匈牙利論壇
+    description: 開放街圖匈牙利網頁論壇
+  hu-meetup:
+    name: 開放街圖匈牙利 Meetup
+    description: 匈牙利舉行聚會的平台
+  it-facebook:
+    name: 開放街圖義大利 Facebook
   OSM-ES-mailinglist:
     name: Talk-es 郵件論壇
     description: 討論開放街圖在西班牙事物的郵件論壇
