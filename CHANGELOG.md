@@ -7,6 +7,20 @@
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+## 0.4.5
+##### 2018-Jun-25
+
+* Add community resources:
+  * Slovenia ([#161])
+  * Croatia ([#158])
+* Add events:
+  * State of the Map US 2018 ([#164])
+
+[#164]: https://github.com/osmlab/osm-community-index/issues/164
+[#161]: https://github.com/osmlab/osm-community-index/issues/161
+[#158]: https://github.com/osmlab/osm-community-index/issues/158
+
+
 ## 0.4.4
 ##### 2018-Jun-13
 
@@ -117,8 +131,8 @@
   * Myanmar ([#75])
 * Add events:
   * Brazilian meetups ([#112])
-  * State of the Map World
-  * State of the Map Asia ([#88])
+  * State of the Map World 2018
+  * State of the Map Asia 2018 ([#88])
 
 [#112]: https://github.com/osmlab/osm-community-index/issues/112
 [#110]: https://github.com/osmlab/osm-community-index/issues/110
