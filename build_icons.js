@@ -8,6 +8,7 @@ const faComments = require('@fortawesome/fontawesome-free-solid/faComments');
 const faDiscord = require('@fortawesome/fontawesome-free-brands/faDiscord');
 const faDiscourse = require('@fortawesome/fontawesome-free-brands/faDiscourse');
 const faFacebook = require('@fortawesome/fontawesome-free-brands/faFacebook');
+const faGithub = require('@fortawesome/fontawesome-free-brands/faGithub');
 const faKeyboard = require('@fortawesome/fontawesome-free-solid/faKeyboard');
 const faMeetup = require('@fortawesome/fontawesome-free-brands/faMeetup');
 const faReddit = require('@fortawesome/fontawesome-free-brands/faReddit');
@@ -24,6 +25,7 @@ function buildAll() {
         discourse: faDiscourse,
         facebook: faFacebook,
         forum: faComments,
+        github: faGithub,
         group: faUsers,
         irc: faKeyboard,
         mailinglist: faAt,
