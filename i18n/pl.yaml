@@ -19,9 +19,14 @@ pl:
     description: Ulepsz OpenStreetMap w Bangladeszu
   OSM-India-facebook:
     description: Ulepsz OpenStreetMap w Indiach
+    events:
+      sotmasia2018:
+        name: State of the Map Azja 2018
   OSM-india-mailinglist:
     name: Lista dyskusyjna OpenStreetMap Indie
     description: Talk-in  to oficjalna mailingowa lista dyskusyjna społeczności OSM w Indiach
+  OSM-india-twitter:
+    name: OpenStreetMap India Twitter
   OSM-IDN-facebook:
     name: OpenStreetMap Indonezja
     description: Ulepsz OpenStreetMap w Indonezji
@@ -64,8 +69,12 @@ pl:
   be-mailinglist:
     name: Lista dyskusyjna Talk-be
     description: 'Talk-be to oficjalna mailingowa lista dyskusyjna belgijskiej społeczności OSM '
+  be-maptime:
+    name: Maptime Belgia
   be-matrix:
     description: Wszyscy mapujący są mile widziani!
+  hr-facebook:
+    description: OpenStreetMap Chorwacja - grupa Facebookowa
   czech-community:
     name: Czeska społeczność OSM
   talk-cz-mailinglist:
@@ -92,6 +101,9 @@ pl:
     name: Lista dyskusyjna OWL
   osm-de:
     name: OpenStreetMap Niemcy
+    description: Miejsce z informacjami o OpenStreetMap w Niemczech
+  hu-facebook:
+    name: OpenStreetMap Węgry na Facebook'u
   it-mailinglist:
     name: Lista dyskusyjna Talk-it
   it-twitter:
@@ -100,12 +112,19 @@ pl:
     name: Lista dyskusyjna OpenStreetMap dla Południowego Tyrolu
   no-mailinglist:
     name: Lista dyskusyjna OpenStreetMap Norwegia
+    description: 'Lista dyskusyjna dla mapujących i użytkownków OpenStreetMap w Norwegii'
   OSM-PL-facebook-group:
     name: OpenStreetMap Polska na Facebooku
     description: Mapujący i użytkownicy OpenStreetMap w Polsce
   OSM-PL-forum:
     name: Forum OpenStreetMap Polska
     description: Forum dyskusyjne polskiej społeczności OpenStreetMap
+  si-forum:
+    name: Forum OpenStreetMap Słowenia
+    description: Forum społeczności OpenStreetMap w Słowenii
+  si-mailinglist:
+    name: Mailingowa lista dyskusyjna OpenStreetMap Słowenia
+    description: Mejlowa lista dyskusyjna społeczności OpenStreetMap w Słowenii
   OSM-ES-mailinglist:
     name: Lista dyskusyjna Talk-es
   osm-se:
@@ -152,6 +171,10 @@ pl:
     name: OpenStreetMap US Slack
   OSM-US:
     name: OpenStreetMap US
+    events:
+      sotmus2018:
+        name: State of the Map US 2018
+        where: 'Detroit, Michigan'
   OSM-Utah:
     name: OpenStreetMap Utah
   OSM-Wyoming:
@@ -182,7 +205,7 @@ pl:
   OSM-CO-mailinglist:
     name: Lista dyskusyjna Talk-co
   OSM-CO-twitter:
-    name: OpenStreetMap KolumbiaTwitter
+    name: OpenStreetMap Kolumbia Twitter
     description: 'Obserwuj nas na Twitterze: {url}'
   OSM-CO:
     name: OpenStreetMap Kolumbia
@@ -205,6 +228,9 @@ pl:
   OSM-Reddit:
     name: OpenStreetMap  na Reddit
     description: /r/openstreetmap/ jest wspaniałym miejscem by dowiedzieć się więcej o OpenStreetMap.
+  OSM-Telegram:
+    name: OpenStreetMap na Telegramie
+    description: 'Dołącz od globalnej grupy OpenStreetMap na Telegramie na {url}'
   OSM-Twitter:
     name: OpenStreetMap Twitter
     description: 'Obserwuj nas na Twitterze: {url}'
@@ -213,3 +239,5 @@ pl:
     events:
       sotm2018:
         name: State of the Map 2018
+        description: 'Mediolan, Włochy'
+        where: 'Mediolan, Włochy'

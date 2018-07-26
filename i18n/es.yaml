@@ -2,7 +2,7 @@ es:
   cape-coast-youthmappers:
     name: Universidad de Cape Coast YouthMappers
     description: 'Síguenos en Twitter en {url}'
-    extendedDescription: 'Este es el identificador oficial del capítulo de Jóvenes Cartografistas de la Universidad de Cape Coast, Ghana. Nos encantan los mapas, los datos abiertos y ayudar a los vulnerables.'
+    extendedDescription: 'Este es el identificador oficial del capítulo de Jóvenes Cartografistas de la Universidad de Cape Coast, Ghana. Nos encantan los mapas, los datos abiertos y ayudar a las personas vulnerables.'
   osm-gh-facebook:
     name: OpenStreetMap Ghana en Facebook
     description: Grupo de Facebook para personas interesadas en OpenStreetMap.
@@ -183,6 +183,15 @@ es:
   be-twitter:
     name: Twitter OpenStreetMap Bélgica
     description: 'OSM Bélgica en Twitter: @osm_be'
+  hr-facebook:
+    name: Grupo de Facebook de OpenStreetMap de Croacia
+    description: Grupo de Facebook de OpenStreetMap de Croacia
+  hr-irc:
+    name: OpenStreetMap Croacia en IRC
+    description: 'Únete a #osm-hr en irc.freenode.org (puerto 6667)'
+  hr-mailinglist:
+    name: Lista de correo Talk-hr
+    description: Lista de correo Talk-hr
   czech-community:
     name: Comunidad checa OSM
     description: 'Portal de mapas, sitio web y contactos sobre miembros de OSM en Chequia'
@@ -311,6 +320,12 @@ es:
   OSM-PL-forum:
     name: Foro de OpenStreetMap Polonia
     description: Foro de la comunidad polaca OpenStreetMap
+  si-forum:
+    name: Foro de OpenStreetMap Eslovenia
+    description: Foro de la comunidad OpenStreetMap en Eslovenia
+  si-mailinglist:
+    name: Lista de correo de OpenStreetMap en Eslovenia
+    description: Lista de correo de la comunidad de OpenStreetMap en Eslovenia
   OSM-ES-mailinglist:
     name: Lista de correo Talk-es
     description: Una lista de correo para discutir OpenStreetMap en España
@@ -392,6 +407,9 @@ es:
     name: MaptimeME
     description: 'Mapeadores y usuarios de OpenStreetMap, en Portland, ME'
     extendedDescription: 'Maptime es, literalmente, el momento de hacer mapas. Nuestra misión es abrir las puertas de la posibilidad cartográfica a cualquier persona interesada creando un tiempo y espacio para el aprendizaje colaborativo, la exploración y la creación de mapas utilizando herramientas y tecnologías de mapeo.'
+  us-ma-mailinglist:
+    name: Lista de correo de Talk-us-massachusetts
+    description: Lista de correo de la comunidad OSM de Massachusetts
   OpenCleveland-meetup:
     name: Open Cleveland
     description: Mejore OpenStreetMap en el área de Cleveland
@@ -414,6 +432,10 @@ es:
   OSM-NYC:
     name: OpenStreetMap NYC
     description: 'Mapeadores y usuarios de OpenStreetMap, desarrolladores y entusiastas en el área Metropolitana de Nueva York'
+  OSM-Portland-forum:
+    name: Grupo de Google de OpenStreetMap PDX
+    description: Foro y lista de correo para usuarios de OpenStreetMap en el área de Portland
+    extendedDescription: 'Este grupo es para facilitar las mejoras en OpenStreetMap en el área de Portland, Oregon, para dar soporte a aplicaciones como Open Trip Planner.'
   OSM-Portland:
     name: OpenStreetMap Portland
     description: Mapeadores y usuarios de OpenStreetMap en el área de Portland
@@ -440,6 +462,11 @@ es:
     name: OpenStreetMap EE.UU.
     description: Ayudamos a crecer y mejorar OpenStreetMap en los Estados Unidos.
     extendedDescription: 'Apoyamos OpenStreetMap celebrando conferencias anuales, proporcionando recursos comunitarios, creando alianzas y dando a conocer. Únase a OpenStreetMap EE.UU. aquí: {signupUrl}'
+    events:
+      sotmus2018:
+        name: State of the Map EE.UU. 2018
+        description: 'Únase a la comunidad de OpenStreetMap en State of the Map EE.UU. en Detroit, Michigan. Conéctese con otros mapeadores, empresas, agencias gubernamentales y organizaciones sin fines de lucro, todos colaborando en torno al mapa del mundo libre y editable.'
+        where: 'Detroit, Michigan'
   OSM-Utah:
     name: OpenStreetMap Utah
     description: Editores y usuarios de OpenStreetMap en el área de Salt Lake City

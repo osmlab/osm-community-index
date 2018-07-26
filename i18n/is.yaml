@@ -61,7 +61,17 @@ is:
     name: Twitter-hópur OpenStreetMap í Belgíu
     description: 'Twitter-hópur OpenStreetMap í Belgíu: @osm_be'
   talk-cz-mailinglist:
-    description: Talk-ja er opinber póstlisti tékkneska OSM-hópsins
+    name: Tékkneski póstlistinn (talk-cz)
+    description: Talk-cz er opinber póstlisti tékkneska OSM-hópsins
+  dk-forum:
+    name: Vefspjall (forum) OpenStreetMap Danmörk
+    description: Vefspjall (forum) OpenStreetMap Danmörk
+  dk-irc:
+    name: IRC-rás OpenStreetMap Danmörk
+    description: 'Taktu þátt á #osm-dk á irc.oftc.net (gátt 6667)'
+  dk-mailinglist:
+    name: Talk-dk póstlistinn
+    description: Póstlisti til að ræða OpenStreetMap í Danmörku
   fr-twitter:
     name: Twitter-hópur OpenStreetMap í Frakklandi
     description: 'Twitter-hópur OpenStreetMap í Frakklandi: {url}'
@@ -78,8 +88,16 @@ is:
     description: Telegram-hópur OpenStreetMap Spánn
   se-facebook:
     name: OpenStreetMap Sweden Facebook
+    description: OpenStreetMap í Svíþjóð á Facebook
+  se-forum:
+    name: Vefspjall (forum) OpenStreetMap Svíþjóð
+    description: Vefspjall (forum) OpenStreetMap Svíþjóð
+  se-irc:
+    name: IRC-rás OpenStreetMap Svíþjóð
+    description: 'Taktu þátt á #osm-se á irc.oftc.net (gátt 6667)'
   se-mailinglist:
     name: Talk-se póstlistinn
+    description: Póstlisti til að ræða OpenStreetMap í Svíþjóð
   se-twitter:
     name: Twitter-hópur OpenStreetMap í Svíþjóð
     description: 'Fylgstu með okkur á Twitter: {url}'
@@ -179,12 +197,24 @@ is:
   OSM-AR-twitter:
     name: Twitter-hópur OpenStreetMap Argentína
     description: 'Fylgstu með okkur á Twitter á {url}'
+  Bahia-telegram:
+    extendedDescription: 'Gakktu til liðs við teymið til að læra meira um OpenStreetMap, spyrja spurninga eða taka þátt í fundum. Allir eru velkomnir!'
+  DF-telegram:
+    extendedDescription: 'Gakktu til liðs við teymið til að læra meira um OpenStreetMap, spyrja spurninga eða taka þátt í fundum. Allir eru velkomnir!'
+  OSM-br-telegram:
+    extendedDescription: 'Gakktu til liðs við teymið til að læra meira um OpenStreetMap, spyrja spurninga eða taka þátt í fundum. Allir eru velkomnir!'
   OSM-br-twitter:
     name: Twitter-hópur OpenStreetMap í Brasilíu
     description: 'Fylgstu með okkur á Twitter á {url}'
+  OSM-CL-facebook:
+    extendedDescription: 'Gakktu til liðs við teymið til að læra meira um OpenStreetMap, spyrja spurninga eða taka þátt í fundum. Allir eru velkomnir!'
+  OSM-CL-telegram:
+    extendedDescription: 'Gakktu til liðs við teymið til að læra meira um OpenStreetMap, spyrja spurninga eða taka þátt í fundum. Allir eru velkomnir!'
   OSM-CL-twitter:
     name: Twitter-hópur OpenStreetMap í Síle
     description: 'Fylgstu með okkur á Twitter á {url}'
+  OSM-CO-facebook:
+    extendedDescription: Gakktu til liðs við teymið til að læra meira um OpenStreetMap. Allir eru velkomnir!
   OSM-CO-mailinglist:
     name: Talk-co póstlistinn
   OSM-CO-twitter:
@@ -206,6 +236,8 @@ is:
   OSM-Reddit:
     name: OpenStreetMap á Reddit
     description: /r/openstreetmap/ er góður staður til að læra meira um OpenStreetMap.  Spurðu okkur um allt milli himins og jarðar!
+  OSM-Telegram:
+    name: Telegram fyrir OpenStreetMap
   OSM-Twitter:
     name: Twitter-hópur OpenStreetMap
     description: 'Fylgstu með okkur á Twitter á {url}'
