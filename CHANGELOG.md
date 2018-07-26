@@ -7,6 +7,17 @@
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+## 0.4.6
+##### 2018-Jul-26
+
+* Add community resources:
+  * Talk-us-massachusetts mailing list ([#168])
+  * Portland, Oregon Google group ([#167])
+
+[#168]: https://github.com/osmlab/osm-community-index/issues/168
+[#167]: https://github.com/osmlab/osm-community-index/issues/167
+
+
 ## 0.4.5
 ##### 2018-Jun-25
 
