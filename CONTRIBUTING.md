@@ -1,5 +1,7 @@
 ## Contributing
 
+*If you don't understand the explanation below, feel free to [post an Issue](https://github.com/osmlab/osm-community-index/issues/new) to describe your community resources. That page contains some pointers to help you fill in all the info we  need. You do need [a Github account](https://github.com/join) to be able to post an Issue.*
+
 There are 2 kinds of files in this project:
 
 * Under `features/` there are `.geojson` files to describe the areas where the communities are active
@@ -11,7 +13,7 @@ To add your community resource:
 
 * Add a **feature** `.geojson` file under `features/` folder
   * This is a boundary around where the resource is active
-  * You can use [geojson.io](http://geojson.io) to create these
+  * You can use [geojson.io](http://geojson.io) or other tools to create these.
 * Add a **resource** `.json` file under `resources/` folder
   * This contains info about what the resource is (slack, forum, mailinglist, facebook, etc.)
   * You can just copy and change an existing one
@@ -31,7 +33,7 @@ Feature files look like this:
 ```js
 {
   "type": "Feature",
-  "id": "usa_full"
+  "id": "usa_full",
   "properties": {},
   "geometry": {
     "type": "MultiPolygon",
@@ -42,10 +44,19 @@ Feature files look like this:
 }
 ```
 
-You can use a site like [geojson.io](http://geojson.io) to create or modify these `.geojson` files.
+note: A `FeatureCollection` containing a single `Feature` is ok too - the build script can handle this.
+
+There are many online tools to create or modify these `.geojson` files. A workflow could be:
+
+1. Create the shape with [geojson.io](http://geojson.io) from scratch.
+
+or
+
+1. Generate a precise file with the [Polygon creation](http://polygons.openstreetmap.fr/) from an OSM Relation.
+1. Simplify the file with [Mapshaper](http://mapshaper.org/). Beware that the simplification probably cuts some border areas.
+1. So load the file in [geojson.io](http://geojson.io) and include the border areas again and perhaps reduce the point count further. It is probably better to have the feature a bit larger than missing an area.
 
 Each feature must have a unique `id` property, for example `usa_full`.
-
 
 ### Resources
 
@@ -57,7 +68,7 @@ Resource files look like this:
 
 ```js
 {
-  "id": "OSM-US-Slack",
+  "id": "OSM-US-slack",
   "featureId": "usa_full",
   "type": "slack",
   "countryCodes": ["us"],
@@ -92,8 +103,20 @@ Here are the properties that a resource file can contain:
 * __`id`__ - (required) A unique identifier for the resource
 * __`featureId`__ - (optional) A unique identifier for the feature. This `featureId` matches
 the resource to a .geojson feature. If null, this is a global resource.
-* __`type`__ - (required) Type of community resource. One of:<br/>
-`["facebook", "forum", "group", "mailinglist", "meetup", "reddit", "slack", "telegram", "twitter"]`
+* __`type`__ - (required) Type of community resource. The following types are supported:
+  * "discord"
+  * "discourse"
+  * "facebook"
+  * "forum" - For example, on forum.openstreetmap.org
+  * "group" - Generic catchall for anything with a `url` (such as a local OSM chapter page)
+  * "irc" - `url` should be a clickable web join link, server details can go in `description`
+  * "mailinglist" - `url` should be a link to the listinfo page, e.g. `https://lists.openstreetmap.org/listinfo/talk-us`
+  * "matrix" - e.g. [Riot Chat](https://matrix.org/docs/projects/client/riot.html)
+  * "meetup"
+  * "reddit"
+  * "slack" - `url` should link to the Slack itself, and `signupUrl` can link to an inviter service (see example above)
+  * "telegram"
+  * "twitter"
 * __`name`__ - (required) Display name for this community resource
 * __`description`__ - (required) One line description of the community resource
 * __`extendedDescription`__ - (optional) Longer description of the community resource

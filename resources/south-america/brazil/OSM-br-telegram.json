@@ -1,0 +1,30 @@
+{
+  "id": "OSM-br-telegram",
+  "featureId": "brazil",
+  "type": "telegram",
+  "name": "OpenStreetMap Brasil Telegram",
+  "countryCodes": ["br"],
+  "languageCodes": ["pt"],
+  "description": "Join the OpenStreetMap Brasil community on Telegram",
+  "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!",
+  "url": "https://t.me/OSMBrasil_Comunidade",
+  "contacts": [{"name": "Vitor George", "email": "vitor.george@gmail.com"}],
+  "events": [
+    {
+      "id": "webinar_mundogeo",
+      "name": "Webinar: OpenStreetMap em Prefeituras e Empresas",
+      "description": "Participe do webinar sobre como utilizar o OpenStreeMap em prefeituras e empresas.",
+      "where": "Online",
+      "when": "2018-05-02 14:30",
+      "url": "http://mundogeo.com/webinar/webinar.html"
+    },
+    {
+      "id": "mundogeo",
+      "name": "Painel OpenStreetMap no MundoGeo #connect",
+      "description": "Participe do painel sobre o OpenStreetMap no MundoGeo #connect.",
+      "where": "São Paulo, SP, Brasil",
+      "when": "2018-05-16 11:00",
+      "url": "http://mundogeoconnect.com/2018/atividades-especiais/"
+    }
+  ]
+}

@@ -2,6 +2,8 @@
 const colors = require('colors/safe');
 const fs = require('fs');
 const glob = require('glob');
+const precision = require('geojson-precision');
+const rewind = require('geojson-rewind');
 const Validator = require('jsonschema').Validator;
 const shell = require('shelljs');
 const prettyStringify = require('json-stringify-pretty-compact');
@@ -26,7 +28,7 @@ function buildAll() {
 
     var tstrings = {};   // translation strings
     var features = generateFeatures();
-    var resources = generateResources(tstrings);
+    var resources = generateResources(tstrings, features);
 
     // Save individual data files
     fs.writeFileSync('dist/features.json', prettyStringify({ features: features }) );
@@ -42,9 +44,30 @@ function buildAll() {
 function generateFeatures() {
     var features = {};
     var files = {};
+    process.stdout.write('Features:');
     glob.sync(__dirname + '/features/**/*.geojson').forEach(function(file) {
         var contents = fs.readFileSync(file, 'utf8');
-        var feature = JSON.parse(contents);
+        var parsed;
+        try {
+            parsed = JSON.parse(contents);
+        } catch (jsonParseError)
+        {
+            console.error(colors.red('Error - ' + jsonParseError.message + ' in:'));
+            console.error('  ' + colors.yellow(file));
+            process.exit(1);
+        }
+
+        var feature = precision(rewind(parsed, true), 5);
+        var fc = feature.features;
+
+        // A FeatureCollection with a single feature inside (geojson.io likes to make these).
+        if (feature.type === 'FeatureCollection' && Array.isArray(fc) && fc.length === 1) {
+            if (feature.id && !fc[0].id) {
+                fc[0].id = feature.id;
+            }
+            feature = fc[0];
+        }
+
         validateFile(file, feature, featureSchema);
         prettifyFile(file, feature, contents);
 
@@ -57,46 +80,83 @@ function generateFeatures() {
         }
         features[id] = feature;
         files[id] = file;
+
+        process.stdout.write(colors.green('✓'));
     });
+
+    process.stdout.write(Object.keys(files).length + '\n');
 
     return features;
 }
 
-function generateResources(tstrings) {
+function generateResources(tstrings, features) {
     var resources = {};
     var files = {};
+    process.stdout.write('Resources:');
     glob.sync(__dirname + '/resources/**/*.json').forEach(function(file) {
         var contents = fs.readFileSync(file, 'utf8');
-        var resource = JSON.parse(contents);
-        validateFile(file, resource, resourceSchema);
-        prettifyFile(file, resource, contents);
 
-        var id = resource.id;
-        if (files[id]) {
-            console.error(colors.red('Error - Duplicate resource id: ') + colors.yellow(id));
-            console.error('  ' + colors.yellow(files[id]));
+        var resource;
+        try {
+            resource = JSON.parse(contents);
+        } catch (jsonParseError) {
+            console.error(colors.red('Error - ' + jsonParseError.message + ' in:'));
             console.error('  ' + colors.yellow(file));
             process.exit(1);
         }
-        resources[id] = resource;
-        files[id] = file;
+
+        validateFile(file, resource, resourceSchema);
+        prettifyFile(file, resource, contents);
+
+        var resourceId = resource.id;
+        if (files[resourceId]) {
+            console.error(colors.red('Error - Duplicate resource id: ') + colors.yellow(resourceId));
+            console.error('  ' + colors.yellow(files[resourceId]));
+            console.error('  ' + colors.yellow(file));
+            process.exit(1);
+        }
+
+        var featureId = resource.featureId;
+        if (featureId && !features[featureId]) {
+            console.error(colors.red('Error - Unknown feature id: ') + colors.yellow(featureId));
+            console.error('  ' + colors.yellow(file));
+            process.exit(1);
+        }
+
+        if (!featureId && !/\/resources\/world/.test(file)) {
+            console.error(colors.red('Error - feature id is required for non-worldwide resource:'));
+            console.error('  ' + colors.yellow(file));
+            process.exit(1);
+        }
+
+        resources[resourceId] = resource;
+        files[resourceId] = file;
 
         // collect translation strings for this resource
-        tstrings[id] = {
+        tstrings[resourceId] = {
             name: resource.name,
             description: resource.description
         };
 
         if (resource.extendedDescription) {
-            tstrings[id].extendedDescription = resource.extendedDescription;
+            tstrings[resourceId].extendedDescription = resource.extendedDescription;
         }
 
-        // collect strings from upcoming events (where `i18n=true`)
+        // Validate event dates and collect strings from upcoming events (where `i18n=true`)
         if (resource.events) {
             var estrings = {};
 
             for (var i = 0; i < resource.events.length; i++) {
                 var event = resource.events[i];
+
+                // check date
+                var d = new Date(event.when);
+                if (isNaN(d.getTime())) {
+                    console.error(colors.red('Error - Bad date: ') + colors.yellow(event.when));
+                    console.error('  ' + colors.yellow(file));
+                    process.exit(1);
+                }
+
                 if (!event.i18n) continue;
 
                 if (estrings[event.id]) {
@@ -113,10 +173,14 @@ function generateResources(tstrings) {
             }
 
             if (Object.keys(estrings).length) {
-                tstrings[id].events = estrings;
+                tstrings[resourceId].events = estrings;
             }
         }
+
+        process.stdout.write(colors.green('✓'));
     });
+
+    process.stdout.write(Object.keys(files).length + '\n');
 
     return resources;
 }
