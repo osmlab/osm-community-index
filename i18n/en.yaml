@@ -613,9 +613,23 @@ en:
   OSM-PE:
     name: OpenStreetMap Peru
     description: News and resources for the OpenStreetMap Peru community
+  LATAM-Facebook:
+    name: OpenStreetMap Latam Facebook
+    description: OpenStreetMap Latam on Facebook
   LATAM-Telegram:
-    name: OpenStreetMap LATAM Telegram
+    name: OpenStreetMap Latam Telegram
     description: OpenStreetMap Telegram for Latin America
+  LATAM-Twitter:
+    name: OpenStreetMap Latam Twitter
+    description: 'Follow us on Twitter at {url}'
+  osm-latam:
+    name: OpenStreetMap Latam
+    description: Supporting OpenStreetMap in Latin America
+    events:
+      sotm-latam-2018:
+        name: State of the Map Latam 2018
+        description: 'State of the Map Latam is the annual conference for all mappers and users of OpenStreetMap in Latin America. The program includes talks, panels, workshops, and mapathons related to OpenStreetMap.'
+        where: 'Buenos Aires, Argentina'
   OSM-Facebook:
     name: OpenStreetMap on Facebook
     description: Like us on Facebook for news and updates about OpenStreetMap.
