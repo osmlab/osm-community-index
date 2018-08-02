@@ -76,7 +76,7 @@ Resource files look like this:
   "name": "OpenStreetMap US Slack",
   "description": "All are welcome! Sign up at {signupUrl}",
   "extendedDescription": "OpenStreetMap is built by a community of mappers that..."
-  "signupUrl": "https://osmus-slack.herokuapp.com/",
+  "signupUrl": "https://slack.openstreetmap.us/",
   "url": "https://osmus.slack.com",
   "contacts": [
     {
