@@ -7,6 +7,26 @@
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+## 0.4.7
+##### 2018-Aug-26
+
+* Add community resources:
+  * OSM Rio Grande Telegram Group ([#176])
+  * OSM LATAM ([#171], [#172])
+  * Iceland ([#170])
+  * Botswana ([#170])
+* Add events:
+  * State of the Map LATAM 2018
+* Updates:
+  * Update OSM-US Slack join URL ([#169])
+
+[#176]: https://github.com/osmlab/osm-community-index/issues/176
+[#172]: https://github.com/osmlab/osm-community-index/issues/172
+[#171]: https://github.com/osmlab/osm-community-index/issues/171
+[#170]: https://github.com/osmlab/osm-community-index/issues/170
+[#169]: https://github.com/osmlab/osm-community-index/issues/169
+
+
 ## 0.4.6
 ##### 2018-Jul-26
 
