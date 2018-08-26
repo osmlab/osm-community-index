@@ -1,4 +1,10 @@
 lv:
+  bw-facebook:
+    name: Kartējam Botsvanu Facebookā
+    description: OpenStreetMap Botsvana lapa
+  bw-twitter:
+    name: Kartējam Botsvanu Twitteris
+    description: Twitteris priekš OpenStreetMap Botswanā
   cape-coast-youthmappers:
     name: Cape Coasta universitātes YouthMappers
     description: 'Seko mums Twitterī: {url}'
@@ -258,6 +264,7 @@ lv:
     description: Talk-de ir Oficiāls E-Pasta saraksts Vācijas OSM kopienai
   de-ostwestfalen-lippe-mailinglist:
     name: OWL e-pasta saraksts
+    description: Šis ir e-pasta saraksts Ostwestfalen-Lippe OSM kopienai
   de-telegram:
     name: OpenStreetMap Vācijas Telegram
     description: 'Pievienojies OpenStreetMap Vācijas Telegram supergrupai šeit: {url}'
@@ -273,6 +280,15 @@ lv:
   hu-meetup:
     name: OpenStreetMap Ungārijas saiets
     description: Platforma saietu organizēšanai Ungārijā
+  is-facebook:
+    name: OSM Islande Facebookā
+    description: OpenStreetMap Islandes lapa
+  is-mailinglist:
+    name: Talk-is E-pasta saraksts
+    description: Talk-is ir oficiāls E-Pasta saraksts Islandiešu OSM kopienai.
+  is-twitter:
+    name: OSM Islande Twitterī
+    description: Twitteris priekš OpenStreetMap Islandē
   it-facebook:
     name: 'OpenStreetMap Itālijas Facebooks '
     description: Pievinojies OpenStreetMap Itālijas kopienai Facebookā
@@ -291,6 +307,7 @@ lv:
   OSM-Rome-meetup:
     name: Incontro Mappatori Romani
     description: Uzlabo OpenStreetMap Romas apkārtnē
+    extendedDescription: 'Mēs mērķējam būt resurss kur cilvēki var diskutēt un dalīties ar zināšanām par brīvu ģeogrāfisku datu izmantošanu, itsevišķi OpenStreetMap un Atvērtu ģeotelpisko programmatūru, kas uztur rediģējumus un parāda ģeogrāfiskos datus. Mēs stipri atbalstam to izmantošanu Lazio.'
   South-Tyrol-Mailing-List:
     name: OpenStreetMap Dienvidtiroles e-pasta saraksts
     description: OpenStreetMap Itālijas reģionālais saziņas saraksts Dienvidtirolei
@@ -346,9 +363,16 @@ lv:
   se-twitter:
     name: OpenStreetMap Zviedrija Twitterī
     description: 'Seko mums Twitterī: {url}'
+  Nottingham-OSM-pub-meetup:
+    name: Austrummidlendas (Notingemas) Ikmēneša bāra saiets
+    description: Sociālais saiets priekš Austrummidlendas  kartētājiem un lietotājiem
   gb-mailinglist:
     name: Talk-gb E-pasta saraksts
+  mappa-mercia-group:
+    name: Mappa Mercia vietējā grupa
+    description: Mājas OpenStreetMap entuziastiem Midlendā
   gb-irc:
+    name: OpenStreetMap Apvienotās Karalistes IRC
     description: 'Pievienojies #osm-gb kanālam irc.oftc.net serverī (6667 ports)'
     extendedDescription: 'Pievienojies #osm-gb kanālam irc.oftc.net serverī (6667 ports), Lūdzu esi pacietīgs un pagaidi pāris minūtes pirms uzdod jautājumu'
   OSM-CA-Slack:
@@ -360,8 +384,28 @@ lv:
   OSM-CU-telegram:
     name: OSM Kubas Telegram
     description: OpenStreetMap Kubas Telegram čats
+  OSM-NI-telegram:
+    name: OSM Nikaragva Telegrammā
+    description: OpenStreetMap Nikaragvas Telegram čats
+  Bay-Area-OpenStreetMappers:
+    name: Līča rajona OpenStreetMappers
+    description: Uzlabo OpenStreetMap Sanfrancisko līča rajonā.
   Central-Pennsylvania-OSM:
     name: Centrālās Pensilvānijas OSM
+  Code-for-San-Jose-Slack:
+    name: Kods priekš Sanhosē Slack
+    description: 'Visi ir laipni aicināti! Piesakies {signupUrl}, tad pievienojies #osm kanālam.'
+  GeoPhilly:
+    name: GeoPhilly
+    description: Saiets karšu entuziastiem Filadelfijas apkārtnē
+    extendedDescription: 'GeoPhilly apvieno izstrādātājus, ģeogrāfus, datu nūģus, atvērtā pirmkoda entuziastus, civilos hakerus un karšu atkarīgos kopējā karšu mīlestībā  un to izteiktajiem stāstiem. Ja tu izmanto kartes savā darbā, vai vienkārši gribi uzzināt vairāk, tad šis saiets ir priekš tevis! Mūsu pasākumu mērķis ir būt atvērtiem, draudzīgiem, izglītojošiem un sociāliem, un tie iet no laimīgām stundām līdz ātrām runām un pat darbnīcām. Nāc un izveido diversu, iedvesmojošu kopienu Filadelfijā kopā ar mums!'
+  MapMinnesota:
+    name: MapMinesota
+    description: Kartētāji un OpenStreetMap lietotāji Mineapolisas—Sentpolas apkārtnē
+    extendedDescription: Savieno OpenStreetMap entuziastus Minesotā un Mineapolisā—Sentpolā.
+  Mapping-DC-meetup:
+    name: Kartēšana DC
+    description: Uzlabo OpenStreetMap Vašingtonas apkārtnē
   Maptime-ME-meetup:
     name: MaptimeME
   PHXGeo-twitter:

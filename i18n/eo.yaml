@@ -1,10 +1,185 @@
 eo:
+  bw-facebook:
+    name: Mapping Botswana ĉe Facebook
+    description: Facebook-paĝo pri OpenStreetMap en Bocvano
+  bw-twitter:
+    name: Mapping Botswana ĉe Twitter
+    description: Twitter-paĝo pri OpenStreetMap en Bocvano
+  cape-coast-youthmappers:
+    name: UCC YouthMappers
+    description: 'Sekvu nin ĉe Twitter: {url}'
+    extendedDescription: 'Oficiala Twitter-paĝo pri sekcio de Junaj Mapigistoj de Universitato de Cape Coast, Ganao. Ni ŝatas mapojn, malfermajn datumojn kaj helpi al senfortuloj.'
+  osm-gh-facebook:
+    name: OpenStreetMap Ghana ĉe Facebook
+    description: Facebook-grupo por homoj interesantaj pri OpenStreetMap.
+    extendedDescription: 'Mapigistoj de Ganao, promociantaj OpenStreetMap kaj HOT-projektojn (Humanitarian OpenStreetMap Team) en Ganao. Aliĝu nin.'
+  osm-gh-twitter:
+    name: OpenStreetMap Ghana ĉe Twitter
+    description: 'Sekvu nin ĉe Twitter: {url}'
+  talk-gh:
+    name: Dissendolisto talk-gh
+    description: Talk-gh estas oficiala dissendolisto por OSM-komunumo en Ganao.
+  osm-mg-facebook:
+    name: Facebook-grupo OpenStreetMap Madagascar
+    description: Facebook-grupo por homoj interesantaj pri OpenStreetMap en Madagaskaro
+  talk-mg:
+    name: Dissendolisto talk-mg
+    description: 'Loko por mapigistoj, komunumoj kaj uzantoj de OpenStreetMap en Madagaskaro por kunhavigi kaj diskuti.'
+  OSM-BGD-facebook:
+    name: OpenStreetMap Bangladesh
+    description: Plibonigi OpenStreetMap en Bangladeŝo
+    extendedDescription: 'Ĉu vi mapigas en Bangladeŝo? Ĉu vi havas demandojn aŭ volas kuniĝi al tiu ĉi komunumo? Aliĝu al ni ĉe {url}. Bonvenon ĉiuj!'
+  OSM-India-facebook:
+    name: OpenStreetMap India - Participatory neighborhood mapping
+    description: Plibonigi OpenStreetMap en Barato
+    extendedDescription: 'Ĉu vi mapigas en Barato? Ĉu vi havas demandojn aŭ volas kuniĝi al tiu ĉi komunumo? Aliĝu al ni ĉe {url}. Bonvenon ĉiuj!'
+    events:
+      sotmasia2018:
+        name: State of the Map Asia 2018
+        description: Kunigu al regiona okazaĵo “State of the Map Asia 2018” en Barato
+        where: 'Indian Institute of Management, Bengaluro, Barato'
+  OSM-india-mailinglist:
+    name: Dissendolisto OpenStreetMap India
+    description: Talk-in estas oficiala dissendolisto por OSM-komunumo en Barato
+  OSM-india-twitter:
+    name: OpenStreetMap India ĉe Twitter
+    description: 'Apenaŭ unu pepaĵo de vi: {url}'
+  OSM-India-Puducherry-Facebook:
+    name: Free Software Hardware Movement - Facebook
+    description: 'Facebook-paĝo de FSHM por informoj pri komunumaj okazaĵoj kaj agado'
+    extendedDescription: 'FSHM organizas okazaĵojn rilatajn al libera programaro/aparataro, teĥnologio, aktivismo kaj OpenStreetMap. Ĝia FB-paĝo estas la plej bona loko por esti ĝisdata pri ĝiaj okazaĵoj.'
+  OSM-India-Puducherry-Matrix:
+    name: Free Software Hardware Movement - Matrix
+    description: 'Riot-grupo de FSHM por diskuti, kunhavigi kaj samtempigi mapigan agadon kaj okazaĵojn proksime de Pondiĉero'
+    extendedDescription: 'Anoj de FSHM-komunumo diskonigas siajn agadojn kaj spertojn de OSM-mapado per la grupo de Riot.im, tiu ĉi grupo estas ankaŭ uzata por diskuti aferojn rilatajn al libera programaro/aparataro, teĥnologio kaj aktivismo.'
+  OSM-IDN-facebook:
+    name: OpenStreetMap Indonesia
+    description: Plibonigi OpenStreetMap en Indonezio
+    extendedDescription: 'Ĉu vi mapigas en Indonezio? Ĉu vi havas demandojn aŭ volas kuniĝi al tiu ĉi komunumo? Aliĝu al ni ĉe {Url}. Bonvenon ĉiuj!'
+  OSM-japan-facebook:
+    name: OpenStreetMap Japan Community
+    description: Mapigistoj kaj uzantoj de OpenStreetMap en Japanujo
+  OSM-japan-mailinglist:
+    name: Dissendolisto OpenStreetMap Japanujo
+    description: Talk-ja estas oficiala dissendolisto por OSM-komunumo en Japanujo
+  OSM-japan-twitter:
+    name: OpenStreetMap Japanujo ĉe Twitter
+    description: 'Kradvorto ĉe Twitter: {url}'
+  OSM-japan-website:
+    name: OpenStreetMap Japan
+    description: Mapigistoj kaj uzantoj de OpenStreetMap en Japanujo
+  OSM-korea-telegram:
+    name: Telegram-kanalo OSM Korea
+    description: 'Neoficiala kanalo por kontribuantoj, komunumoj kaj uzantoj de OpenStreetMap en Koreujo por kunhavigi kaj diskuti'
+  OSM-MY-facebook:
+    name: OpenStreetMap Malaysia ĉe Facebook
+    description: Por babili pri ĉio rilata al OpenStreetMap!
+  OSM-MY-forum:
+    name: Forumo OpenStreetMap Malaysia
+    description: Oficiala forumo OpenStreetMap Malajzio
+  OSM-MY-matrix:
+    name: Riot-kanalo OpenStreetMap Malaysia
+    description: 'Ĉiuj mapigistoj estas akceptindaj! Aniĝu ĉe {signupUrl}'
+  OSM-MNG-facebook:
+    name: OpenStreetMap Mongolia
+    description: Plibonigi OpenStreetMap en Mongolujo
+    extendedDescription: 'Ĉu vi mapigas en Mongolujo? Ĉu vi havas demandojn aŭ volas kuniĝi al tiu ĉi komunumo? Aliĝu al ni ĉe {Url}. Bonvenon ĉiuj!'
+  OSM-MMR-facebook:
+    name: OpenStreetMap Myanmar
+    description: Plibonigi OpenStreetMap en Mjanmao/Birmo
+    extendedDescription: 'Ĉu vi mapigas en Mjanmao/Birmo? Ĉu vi havas demandojn aŭ volas kuniĝi al tiu ĉi komunumo? Aliĝu al ni ĉe {Url}. Bonvenon ĉiuj!'
+  OSM-Nepal-facebook:
+    name: OpenStreetMap Nepal
+    description: Plibonigi OpenStreetMap en Nepalo
+    extendedDescription: 'Ĉu vi mapigas en Nepalo? Ĉu vi havas demandojn aŭ volas kuniĝi al tiu ĉi komunumo? Aliĝu al ni ĉe {Url}. Bonvenon ĉiuj!'
+  OSM-PH-facebook:
+    name: OpenStreetMap Philippines ĉe Facebook
+    description: 'Bonvenon al OpenStreetMap Philippines – tie ĉi ni instigas ĉiujn filipinanojn al kontribui al la projekto OpenStreetMap.'
+  OSM-PH-mailinglist:
+    name: Dissendolisto talk-ph
+    description: Dissendolisto por diskuti pri OpenStreetMap en Filipinoj
+  OSM-PH-slack:
+    name: OpenStreetMap PH ĉe Slack
+    description: 'Bonvenon al ĉiuj! Aliĝu al ni ĉe {signupUrl}'
+  OSM-PH-telegram:
+    name: OpenStreetMap PH ĉe Telegram
+    description: 'Neoficiala loka komunumo ĉe Telegramo por kontribuantoj kaj ŝatantoj de OpenStreetMap en Filipinoj'
+  OSM-RU-forum:
+    name: Forumo OpenStreetMap RU
+    description: Forum-sekcio OpenStreetMap Rusujo
+  OSM-RU-telegram:
+    name: OpenStreetMap RU ĉe Telegram
+    description: Telegram-grupo OpenStreetMap Rusujo
+  OSM-LKA-facebook:
+    name: OpenStreetMap Sri Lanka
+    description: Plibonigi OpenStreetMap en Srilanko
+    extendedDescription: 'Ĉu vi mapigas en Srilanko? Ĉu vi havas demandojn aŭ volas kuniĝi al tiu ĉi komunumo? Aliĝu al ni ĉe {Url}. Bonvenon ĉiuj!'
+  OSM-TW-facebook:
+    name: OpenStreetMap Taiwan
+    description: Facebook-grupo por mapigistoj kaj uzantoj de OpenStreetMap por diskuti aferojn pri Tajvano.
+  OSM-TW-mailinglist:
+    name: Dissendolisto OpenStreetMap Tajvano
+    description: Talk-tw estas oficiala dissendolisto por diskuti OSM-rilatajn aferojn pri Tajvano
+  OSM-TH-CNX-meetup:
+    name: OSM-renkonto en Ĉiang Mai
+    description: Neregulaj renkontoj de OpenStreetMap-komunumo en Ĉiang Mai
+    extendedDescription: 'Anoj de la OpenStreetMap-komunumo renkontiĝas je kelkaj monatoj en Ĉiang Mai. Sekvu nin ĉe {url} por scii pri la sekva renkontiĝo'
+  OSM-TH-facebook:
+    name: Facebook-grupo OpenStreetMap TH
+    description: Facebook-grupo por mapigistoj en Tajlando
+  OSM-TH-forum:
+    name: Forumo OpenStreetMap TH
+    description: Forum-sekcio OpenStreetMap Tajlando
+  al-forum:
+    name: Forumo OpenStreetMap Albanujo
+    description: Forum-sekcio OpenStreetMap Albanujo
+  al-maptime-tirana:
+    name: Maptime Tirana
+    description: Sociaj okazaĵoj organizitaj por mapigi – komencantoj estas akceptindaj!
+    extendedDescription: 'Maptime estas malferma lernada medio por ĉiuj niveloj de scio, kiu precipe preparita por komencantoj. Maptime estas kaj fleksebla kaj strukturebla, liverante lokon por mapigaj gvidiloj, instruadoj, nunaj projektoj kun difinita komuna celo, per aŭ individua aŭ kolektiva laboro.'
+  al-telegram:
+    name: Telegram-kanalo OSM Albanujo
+    description: Telegram-grupo OpenStreetMap Albanujo
+  at-forum:
+    name: Forumo OpenStreetMap Österreich
+    description: La oficiala forumo por aferoj pri OpenStreetMap en Aŭstrujo
+  at-mailinglist:
+    name: Dissendolisto talk-at
+    description: Talk-at estas oficiala dissendolisto por OSM-komunumo en Aŭstrujo
+  at-twitter:
+    name: OpenStreetMap AT ĉe Twitter
+    description: 'OpenStreetMap Aŭstrujo ĉe Twitter: {url}'
+  osmgraz-meetup:
+    name: Kunveno en Graz
+    description: Ĉiumonata renkonto de OpenStreetMap-komunumo en Graz
   OSM-PL-facebook-group:
     name: Facebook-grupo OpenStreetMap Polska
     description: Grupo por mapigistoj kaj uzantoj de OpenStreetMap en Polujo.
   OSM-PL-forum:
     name: Forum-sekcio OpenStreetMap Polska
     description: Diskutejo por pola komunumo de OpenStreetMap
+  OSM-US:
+    events:
+      sotmus2018:
+        name: State of the Map US 2018
+        description: 'Kunigu al la OpenStreetMap-komunumo ĉe «State of the Map US» en Detrojto, Miĉigano. Aliĝu al aliaj mapigistoj, komerco, organizaĵoj registaraj kaj ne-profit-celaj – ĉiuj kunlaborantaj pri libera kaj redaktebla mapo de la mondo.'
+  LATAM-Facebook:
+    name: OpenStreetMap Latam Facebook
+    description: OpenStreetMap Latam ĉe Facebook
+  LATAM-Telegram:
+    name: OpenStreetMap Latam Telegram
+    description: Telegram-grupo por OpenStreetMap en Latinameriko
+  LATAM-Twitter:
+    name: OpenStreetMap Latam Twitter
+    description: 'Sekvu nin ĉe Twitter ĉe {url}'
+  osm-latam:
+    name: OpenStreetMap Latam
+    description: Subteni OpenStreetMap en Latinameriko
+    events:
+      sotm-latam-2018:
+        name: State of the Map Latam 2018
+        description: 'State of the Map Latam estas ĉiujara konferenco por ĉiuj uzantoj kaj mapigistoj de OpenStreetMap en Latinameriko, La programo enhavas parolojn, panelajn diskutojn, laboroj kaj kunajn mapigadojn rilatajn al OepnStreetMap.'
+        where: 'Bonaero, Argentino'
   OSM-Facebook:
     name: OpenStreetMap ĉe Facebook
     description: Ŝatu nin ĉe Facebook por akiri novaĵojn pri OpenStreetMap.
@@ -28,5 +203,5 @@ eo:
     events:
       sotm2018:
         name: State of the Map 2018
-        description: 'Kunigu nin por 3 tagoj en Milano, Italujo por la ĉiujaran internacian konferencon pri OpenStreetMap por kunigi ĉiujn en la komunumo por sociumi, diskonigi kaj lerni.'
+        description: 'Kunigu nin por 3 tagoj en Milano, Italujo por la ĉiujara internacia konferenco pri OpenStreetMap por kunigi ĉiujn en la komunumo por sociumi, diskonigi kaj lerni.'
         where: 'Milano, Italujo'

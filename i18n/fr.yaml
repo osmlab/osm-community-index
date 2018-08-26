@@ -1,7 +1,13 @@
 fr:
+  bw-facebook:
+    name: Mapping Botswana sur Facebook
+    description: Page OpenStreetMap au Botswana
+  bw-twitter:
+    name: Mapping Botswana sur Twitter
+    description: Fil Twitter OpenStreetMap au Botswana
   cape-coast-youthmappers:
     name: YouthMappers de l'université de Cape Coast
-    description: 'Suivez-nous sur Twitter: {url}'
+    description: 'Suivez-nous sur Twitter : {url}'
     extendedDescription: 'C''est le compte officiel du cahpitre Youth Mappers de l''université de Cape Coast, au Ghana. Nous aimons les cartes, la donnée libre et aider les communautés vulnérables.'
   osm-gh-facebook:
     name: OpenStreetMap Ghana sur Facebook
@@ -9,7 +15,7 @@ fr:
     extendedDescription: 'Cartographes de la communauté du Ghana qui promeuvent les projets OpenStreetMap et Humanitarian OpenStreetMap Team (HOT) au Ghana. Rejoignez-nous.'
   osm-gh-twitter:
     name: OpenStreetMap Ghana sur Twitter
-    description: 'Suivez-nous sur Twitter: {url}'
+    description: 'Suivez-nous sur Twitter : {url}'
   talk-gh:
     name: Liste de diffusion Talk-gh
     description: Talk-gh est la liste de diffusion officielle de la communauté d'OSM au Ghana.
@@ -58,7 +64,7 @@ fr:
     description: Talk-ja est la liste de diffusion officielle pour la communauté OSM du Japon
   OSM-japan-twitter:
     name: Fil Twitter d'OpenStreetMap Japon
-    description: 'Hashtag sur Twitter: {url}'
+    description: 'Hashtag sur Twitter : {url}'
   OSM-japan-website:
     name: OpenStreetMap Japon
     description: Cartographes et utilisateurs d'OpenStreetMap au Japon
@@ -142,7 +148,7 @@ fr:
     description: Talk-at est la liste de diffusion officielle pour la communauté OSM d'Autriche
   at-twitter:
     name: Fil Twitter d'OpenStreetMap Autriche
-    description: 'OpenStreetMap Autriche sur Twitter: {url}'
+    description: 'OpenStreetMap Autriche sur Twitter : {url}'
   osmgraz-meetup:
     name: Rencontres OSM communautaires de Graz
     description: Rencontres mensuelles de la communauté OpenStreetMap à Graz
@@ -182,7 +188,7 @@ fr:
     extendedDescription: 'Les rencontres physiques sont un bon moyen de rencontrer d''autres cartographes, leur poser des questions et apprendre plein de choses. Les nouveaux contributeurs sont particulièrement les bienvenus !'
   be-twitter:
     name: Fil Twitter d'OpenStreetMap Belgique
-    description: 'OSM Belgique sur Twitter: @osm_be'
+    description: 'OSM Belgique sur Twitter : @osm_be'
   hr-facebook:
     name: Groupe Facebook d'OpenStreetMap Croatie
     description: Groupe Facebook d'OpenStreetMap Croatie
@@ -200,7 +206,7 @@ fr:
     description: Suivez la communauté tchèque sur Facebook - dont la traduction des HebdoOSM !
   osmcz-twitter:
     name: Twitter tchèque @osmcz
-    description: Suivez la communauté tchèque sur Twitter - dont la traduction des HebdoOSM !
+    description: Suivez la communauté tchèque sur Twitter — dont la traduction des HebdoOSM !
   talk-cz-mailinglist:
     name: Liste de diffusion tchèque (talk-cz)
     description: Talk-cz est la liste de diffusion officielle pour la communauté tchèque
@@ -236,7 +242,7 @@ fr:
     description: Liste de diffusion Talk-fr
   fr-twitter:
     name: OpenStreetMap France sur Twitter
-    description: 'OpenStreetMap France sur Twitter: {url}'
+    description: 'OpenStreetMap France sur Twitter : {url}'
   de-berlin-mailinglist:
     name: Liste de diffusion pour Berlin
     description: Il s'agit de la liste de diffusion pour la communauté berlinoise d'OSM
@@ -248,7 +254,7 @@ fr:
     description: Chat Telegram d'OpenStreetMap Berlin
   de-berlin-twitter:
     name: Fil Twitter d'OpenStreetMap Berlin
-    description: 'Suivez-nous sur Twitter: {url}'
+    description: 'Suivez-nous sur Twitter : {url}'
   de-forum:
     name: Forum d'OpenStreetMap DE
     description: Forum web d'OpenStreetMap Allemagne
@@ -276,6 +282,15 @@ fr:
   hu-meetup:
     name: Réunion d'OpenStreetMap Hongrie
     description: La plate-forme pour l'organisation des réunions en Hongrie
+  is-facebook:
+    name: OSM Islande sur Facebook
+    description: Page OpenStreetMap en Islande
+  is-mailinglist:
+    name: Liste de diffusion Talk-is
+    description: Talk-is est la liste de diffusion officielle pour la communauté OSM islandaise
+  is-twitter:
+    name: OSM Islande sur Twitter
+    description: Fil Twitter d'OpenStreetMap en Islande
   it-facebook:
     name: Facebook d'OpenStreetMap Italie
     description: Rejoignez la communauté italienne d'OpenStreetMap sur Facebook
@@ -349,7 +364,7 @@ fr:
     description: Une liste de diffusion pour discuter d'OpenStreetMap en Suède
   se-twitter:
     name: OpenStreetMap Suède sur Twitter
-    description: 'Suivez-nous sur Twitter: {url}'
+    description: 'Suivez-nous sur Twitter : {url}'
   Nottingham-OSM-pub-meetup:
     name: Rencontres mensuelles dans un pub de East Midlands (Nottingham)
     description: Rassemblement social pour les cartographes et les utilisateur d'East Midlands
@@ -598,6 +613,23 @@ fr:
   OSM-PE:
     name: OpenStreetMap Pérou
     description: Nouvelles et ressources pour la communauté d'OpenStreetMap au Pérou
+  LATAM-Facebook:
+    name: Facebook d'OpenStreetMap Amérique Latine
+    description: OpenStreetMap Amérique Latine sur Facebook
+  LATAM-Telegram:
+    name: Télégram d'OpenStreetMap Amérique Latine
+    description: Télégram OpenStreetMap pour l'Amérique Latine
+  LATAM-Twitter:
+    name: Fil Twitter d'OpenStreetMap Amérique Latine
+    description: 'Suivez-nous sur Twitter à l''adresse {url}'
+  osm-latam:
+    name: OpenStreetMap Amérique Latine
+    description: Supporte OpenStreetMap en Amérique Latine
+    events:
+      sotm-latam-2018:
+        name: State of the Map Latam 2018
+        description: 'Le State of the Map Latam est la conférence annuelle pour tous les cartographes et les utilisateurs d''OpenStreetMap en Amérique Latine. Le programme comprend des présentations, des tables rondes, des ateliers et des mapathons sur le thème d''OpenStreetMap.'
+        where: 'Buenos Aires, Argentine'
   OSM-Facebook:
     name: OpenStreetMap sur Facebook
     description: Mettez-nous un « j'aime » sur Facebook pour recevoir des nouvelles d'OpenStreetMap.

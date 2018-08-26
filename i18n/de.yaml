@@ -1,4 +1,10 @@
 de:
+  bw-facebook:
+    name: Botswana Mappen auf Facebook
+    description: Website von OpenStreetMap in Botswana
+  bw-twitter:
+    name: Botswana Mappen auf Twitter
+    description: Botswana Mappen auf Twitter
   cape-coast-youthmappers:
     name: Universität von Cape Coast YouthMappers
     description: 'Folge uns auf Twitter: {url}'
@@ -276,6 +282,15 @@ de:
   hu-meetup:
     name: OpenStreetMap Ungarn Treffen
     description: Die Plattform um Treffen in Ungarn zu organisieren
+  is-facebook:
+    name: OSM Island auf Facebook
+    description: Website von OpenStreetMap in Island
+  is-mailinglist:
+    name: Talk-is Mailing Liste
+    description: Talk-is ist die offizielle Mailing Liste für die isländische OSM Gemeinschaft
+  is-twitter:
+    name: OSM Island auf Twittter
+    description: Twitter von OpenStreetMap in Island
   it-facebook:
     name: OpenStreetMap Italien Facebook
     description: Beteilige dich an der OpenStreetMap Italien Gemeinschaft auf Facebook
@@ -290,7 +305,7 @@ de:
     description: OpenStreetMap Italien Telegram chat
   it-twitter:
     name: OpenStreetMap Italien Twitter
-    description: 'Folge uns auf Twitter auf {url}'
+    description: 'Folge uns auf Twitter {url}'
   OSM-Rome-meetup:
     name: Einführung für Mapper in Rom
     description: Verbessere in Rom und Umgebung
@@ -540,6 +555,10 @@ de:
   OSM-br-twitter:
     name: OpenStreetMap Brasilien Twitter
     description: 'Folge uns auf Twitter {url}'
+  RS-telegram:
+    name: OpenStreetMap Rio Grande do Sul Telegram Group
+    description: Beteilige dich an der OpenStreetMap Rio Grande do Sul Gemeinschaft auf Telegram
+    extendedDescription: 'Beteilige dich an der Gemeinschaft um mehr über OpenStreetMap zu lernen, zu fragen oder an unseren Treffen teilzunehmen. Alle sind willkommen!'
   OSM-CL-facebook:
     name: OpenStreetMap Chile Facebook
     description: Beteiligte dich an der OpenStreetMap Chile Gemeinschaft auf Facebook
@@ -594,10 +613,27 @@ de:
     description: Beteilige dich bei OpenStreetMap Peru Gemeinschaft in Telegram
   OSM-PE-twitter:
     name: OpenStreetMap Peru Twitter
-    description: 'Folge uns auf Twitter unter {url}'
+    description: 'Folge uns auf Twitter {url}'
   OSM-PE:
     name: OpenStreetMap Peru
     description: Neuigkeiten und Quellen für die OpenStreetMap Peru Gemeinschaft
+  LATAM-Facebook:
+    name: OpenStreetMap Lateinamerika Facebook
+    description: OpenStreetMap Lateinamerika auf Facebook
+  LATAM-Telegram:
+    name: OpenStreetMap Lateinamerika auf  Telegram
+    description: OpenStreetMap Telegram für Lateinamerika
+  LATAM-Twitter:
+    name: OpenStreetMap Lateinamerika auf Twitter
+    description: 'Folge uns auf Twitter {url}'
+  osm-latam:
+    name: OpenStreetMap Lateinamerika
+    description: Unterstützung für OpenStreetMap in Lateinamerika
+    events:
+      sotm-latam-2018:
+        name: State of the Map Lateinamerika 2018
+        description: 'State of the Lateinamerika ist die jährliche Konferenz für alle Mapper und Benutzer von OpenStreetMap in Lateinamerika. Das Programm beinhaltet Gespräche, Panels, Workshop und Mapathon für OpenStreetMap.'
+        where: 'Buenos Aires, Argentinien'
   OSM-Facebook:
     name: OpenStreetMap auf Facebook
     description: Like uns auf Facebook für Nachrichten und Updates über OpenStreetMap.
@@ -613,7 +649,7 @@ de:
     description: 'Beteilige dich an der globalen OpenStreetMap Telegram Supergruppe auf {url}'
   OSM-Twitter:
     name: OpenStreetMap Twitter
-    description: 'Folge uns auf Twitter unter {url}'
+    description: 'Folge uns auf Twitter {url}'
   OSMF:
     name: OpenStreetMap Foundation (OSM Stiftung)
     description: OSMF ist eine gemeinnützige Organisation im Sitz im Vereinigten Königreichm die das OpenStreetMap Projekt unterstützt

@@ -1,4 +1,10 @@
 sv:
+  bw-facebook:
+    name: Kartlägg Botswana på Facebook
+    description: Sida om OpenStreetMap i Botswana
+  bw-twitter:
+    name: Kartlägg Botswana på Twitter
+    description: Twitter om OpenStreetMap i Botswana
   cape-coast-youthmappers:
     name: University of Cape Coast YouthMappers
     description: 'Följ oss på Twitter: {url}'
@@ -24,7 +30,7 @@ sv:
     description: Förbättra OpenStreetMap i Bangladesh
     extendedDescription: 'Kartlägger i Bangladesh? Har du frågor, vill du ansluta till gemenskapen här? Anslut dig på {url}. Alla är välkomna!'
   OSM-India-facebook:
-    name: OpenStreetMap Indien - Användarstödd kartläggning av grannskapet
+    name: OpenStreetMap Indien – Användarstödd kartläggning av grannskapet
     description: Förbättra OpenStreetMap i Indien
     extendedDescription: 'Kartlägger i Indien? Har du frågor, vill komma i kontakt med gemenskapen här? Gå med på {url}. Alla är välkomna!'
     events:
@@ -39,11 +45,11 @@ sv:
     name: OpenStreetMap Indien på Twitter
     description: 'Vi är bara ett tweet iväg: {url}'
   OSM-India-Puducherry-Facebook:
-    name: Rörelsen för fri mjukvara och hårdvara - Facebook
+    name: Rörelsen för fri mjukvara och hårdvara – Facebook
     description: 'Facebook-sidan FSHM för att få veta om evenemang och aktiviteter'
     extendedDescription: 'FSHM organiserar evenemang relaterade till gratis mjukvara/hårdvara, teknologi, aktivism och OpenStreetMap. Dess Facebook-sida är det bästa vägen att hålla kontakten med dess evenemang.'
   OSM-India-Puducherry-Matrix:
-    name: Rörelsen för fri mjukvara och hårdvara - Matrix
+    name: Rörelsen för fri mjukvara och hårdvara – Matrix
     description: 'FSHM:s Riot-grupp för att diskutera, dela och uppdatera om kartläggningsaktiviteter och evenemang i och omkring Puducherry'
     extendedDescription: 'FSHM:s medlemmar delar sina kartläggningsuppdateringar / -erfarenheter i OSM genom Riot.im-gruppen, denna grupp används även för att diskutera saker relaterade till fri mjukvara / hårdvara, teknologi och aktivism.'
   OSM-IDN-facebook:
@@ -129,7 +135,7 @@ sv:
     description: Forum för OpenStreetMap Albanien
   al-maptime-tirana:
     name: Maptime Tirana
-    description: Sociala evenemang organiserade runt kartläggning - nybörjare är varmt välkomna!
+    description: Sociala evenemang organiserade runt kartläggning – nybörjare är varmt välkomna!
     extendedDescription: 'Maptime är en öppen inlärningsmiljö för alla kunskapsnivåer, och erbjuder riktat pedagogiskt stöd till nybörjaren. Maptime är både flexibel och strukturerad, vilket skapar möjlighet för kartläggningsguider, workshops, pågående projekt med gemensamt mål samt arbetstid för oberoende projekt eller samarbetande.'
   al-telegram:
     name: Telegram-kanal för OSM Albanien
@@ -170,7 +176,7 @@ sv:
     description: Talk-be är den officiella e-postlistan för den belgiska OSM-gemenskapen
   be-maptime:
     name: Maptime Belgien
-    description: Sociala evenemang organiserade runt kartläggning - nybörjare är varmt välkomna!
+    description: Sociala evenemang organiserade runt kartläggning – nybörjare är varmt välkomna!
     extendedDescription: 'Maptime är en öppen inlärningsmiljö för alla kunskapsnivåer, och erbjuder riktat pedagogiskt stöd till nybörjaren. Maptime är både flexibel och strukturerad, vilket skapar möjlighet för kartläggningsguider, workshops, pågående projekt med gemensamt mål samt arbetstid för oberoende projekt eller samarbetande.'
   be-matrix:
     name: Matrix-kanal för OpenStreetMap BE
@@ -197,10 +203,10 @@ sv:
     description: 'Kartportal, webbplats och kontaktuppgifter för OSM-medlemmar i Tjeckien'
   osmcz-facebook:
     name: OpenStreetMap CZ på Facebook
-    description: Följ tjeckiska gemenskapen på Facebook - inklusive översatt WeeklyOSM!
+    description: Följ tjeckiska gemenskapen på Facebook – inklusive översatt WeeklyOSM!
   osmcz-twitter:
     name: Tjeckiska twitter @osmcz
-    description: Följ tjeckiska gemenskapen på Twitter - inklusive översatt WeeklyOSM!
+    description: Följ tjeckiska gemenskapen på Twitter – inklusive översatt WeeklyOSM!
   talk-cz-mailinglist:
     name: Tjeckisk e-postlista (talk-cz)
     description: Talk-cz är den officiella e-postlistan för den tjeckiska gemenskapen
@@ -276,6 +282,15 @@ sv:
   hu-meetup:
     name: OpenStreetMap Ungern på Meetup
     description: Plattformen för att organisera träffar i Ungen
+  is-facebook:
+    name: OSM Island på Facebook
+    description: Sida om OpenStreetMap på Island
+  is-mailinglist:
+    name: E-postlistan Talk-is
+    description: Talk-is är den officiella e-postlistan för den isländska OSM-gemenskapen
+  is-twitter:
+    name: OSM Island på Twitter
+    description: Twitter om OpenStreetMap på Island
   it-facebook:
     name: OpenStreetMap Italien på Facebook
     description: Anslut till gemenskapen i OpenStreetMap Italien via Facebook
@@ -456,7 +471,7 @@ sv:
     description: Kartläggare och OpenStreetMap-användare runt Tampa Bay
     extendedDescription: 'Gruppen OSM Tampa Bay är till för att lokalinvånare ska förenas och bygga upp den optimala kartan över Tampa Bay med OpenStreetMap, den fria och redigerbara kartan över världen. Om du gillar kartor, data, open source, GPS, vandring, cykling, etc., kommer du att älska att arbeta med OpenStreetMap
 
-      -- så gå med! Vi kommer samman, kartlägger och pratar om nya ämnen ungefär en gång i månaden.'
+      – så gå med! Vi kommer samman, kartlägger och pratar om nya ämnen ungefär en gång i månaden.'
   OSM-US-Slack:
     name: OpenStreetMap US på Slack
     description: 'Alla är välkomna! Registrera dig på {signupUrl}'
@@ -537,11 +552,15 @@ sv:
     description: En e-postlista för att diskutera OpenStreetMap i Brasilien
   OSM-br-telegram:
     name: Telegram för OpenStreetMap Brasilien
-    description: Anslut till gemenskapen på OpenStreetMap Brasilien via Telegram
+    description: Anslut till gemenskapen i OpenStreetMap Brasilien via Telegram
     extendedDescription: 'Anslut till gemenskapen för att lära dig mer om OpenStreetMap, ställa frågor eller delta på våra möten. Alla är välkomna!'
   OSM-br-twitter:
     name: OpenStreetMap Brasilien på Twitter
     description: 'Följ oss på Twitter på {url}'
+  RS-telegram:
+    name: Telegram-grupp för OpenStreetMap Rio Grande do Sul
+    description: Anslut till gemenskapen i OpenStreetMap Rio Grande do Sul via Telegram
+    extendedDescription: 'Anslut till gemenskapen för att lära dig mer om OpenStreetMap, ställa frågor eller delta på våra möten. Alla är välkomna!'
   OSM-CL-facebook:
     name: OpenStreetMap Chile på Facebook
     description: Anslut till gemenskapen i OpenStreetMap Child via Facebook
@@ -600,6 +619,23 @@ sv:
   OSM-PE:
     name: OpenStreetMap Peru
     description: Nyheter och resurser för OpenStreetMap Peru-gemenskapen
+  LATAM-Facebook:
+    name: OpenStreetMap Latam på Facebook
+    description: OpenStreetMap Latam på Facebook
+  LATAM-Telegram:
+    name: Telegram för OpenStreetMap Latam
+    description: OpenStreetMap-Telegram för Latinamerika
+  LATAM-Twitter:
+    name: OpenStreetMap Latam på Twitter
+    description: 'Följ oss på Twitter på {url}'
+  osm-latam:
+    name: OpenStreetMap Latam
+    description: Stöder OpenStreetMap i Latinamerika
+    events:
+      sotm-latam-2018:
+        name: State of the Map Latam 2018
+        description: 'State of the Map Latam är en årlig konferens för alla kartläggare och användare av OpenStreetMap i Latinamerika. Programmet innehåller föreläsningar, paneldebatter, workshops och mapathons relaterade till OpenStreetMap.'
+        where: 'Buenos Aires, Argentina'
   OSM-Facebook:
     name: OpenStreetMap på Facebook
     description: Gilla oss på Facebook för nyheter och uppdateringar om OpenStreetMap
