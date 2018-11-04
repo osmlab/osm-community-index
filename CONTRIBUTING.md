@@ -22,6 +22,14 @@ To add your community resource:
   * This will build and check for errors and make the files pretty
 
 
+### Installing
+
+* Clone this project, for example:
+  `git clone git@github.com:osmlab/osm-community-index.git`
+* `cd` into the project folder,
+* Run `npm install` to install libraries
+
+
 ### Features
 
 These are `*.geojson` files found under the `features/` folder.
