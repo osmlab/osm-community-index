@@ -4,8 +4,43 @@
 # A.B.C
 ##### YYYY-MMM-DD
 
+* Add community resources:
+* Add events:
+* Updates:
+
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
+
+## 0.4.8
+##### 2018-Nov-26
+
+* Add community resources:
+  * Add Kosovo Telegram group ([#194])
+  * Add Maptime HRVA Twitter ([#191])
+  * Add polygons for several Indian states ([#186], [#187], [#188], [#189], [#190])
+  * Add link to IRC channel ([#181])
+  * Add link to Discord ([#183])
+* Updates:
+  * Fix croatia.geojson from LineString to Polygon ([#195])
+  * Update Puducherry, India OSM community's mailing list ([#185])
+  * Switch IRC links to use webchat.oftc.net ([#136], [#184])
+  * Fix OSM-LATAM bounding polygon ([iD#5282])
+
+[#194]: https://github.com/osmlab/osm-community-index/issues/194
+[#191]: https://github.com/osmlab/osm-community-index/issues/191
+[#190]: https://github.com/osmlab/osm-community-index/issues/190
+[#189]: https://github.com/osmlab/osm-community-index/issues/189
+[#188]: https://github.com/osmlab/osm-community-index/issues/188
+[#187]: https://github.com/osmlab/osm-community-index/issues/187
+[#186]: https://github.com/osmlab/osm-community-index/issues/186
+[#183]: https://github.com/osmlab/osm-community-index/issues/183
+[#181]: https://github.com/osmlab/osm-community-index/issues/181
+[#195]: https://github.com/osmlab/osm-community-index/issues/195
+[#185]: https://github.com/osmlab/osm-community-index/issues/185
+[#184]: https://github.com/osmlab/osm-community-index/issues/184
+[#136]: https://github.com/osmlab/osm-community-index/issues/136
+[iD#5282]: https://github.com/openstreetmap/iD/issues/5282
+
 
 ## 0.4.7
 ##### 2018-Aug-26
