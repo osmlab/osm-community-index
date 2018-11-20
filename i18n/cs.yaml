@@ -13,14 +13,17 @@ cs:
   OSM-BGD-facebook:
     name: OpenStreetMap Bangladéš
     description: Vylepšete OpenStreetMap v Bangladéši
+    extendedDescription: 'Mapujete v Bangladéši? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {url}. Všichni jsou vítáni!'
   OSM-India-facebook:
     description: Vylepšete OpenStreetMap v Indii
+    extendedDescription: 'Mapujete v Indii? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {url}. Všichni jsou vítáni!'
   OSM-india-twitter:
     name: Twitter OpenStreetMap Indie
     description: 'Zrovna jsme vytweetli: {url}'
   OSM-IDN-facebook:
     name: OpenStreetMap Indonésie
     description: Vylepšete OpenStreetMap v Indonésii
+    extendedDescription: 'Mapujete v Indonésii? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {Url}. Všichni jsou vítáni!'
   OSM-japan-facebook:
     name: Japonská komunita OpenStreetMap
     description: Mapovači a uživatelé OpenStreetMap v Japonsku
@@ -43,17 +46,23 @@ cs:
   OSM-MNG-facebook:
     name: OpenStreetMap Mongolsko
     description: Vylepšete OpenStreetMap v Mongolsku
+    extendedDescription: 'Mapujete v Mongolsku? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {Url}. Všichni jsou vítáni!'
   OSM-MMR-facebook:
     name: OpenStreetMap Myanmar
     description: Vylepšete OpenStreetMap v Myanmaru
+    extendedDescription: 'Mapujete v Myanmaru? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {Url}. Všichni jsou vítáni!'
   OSM-Nepal-facebook:
     name: OpenStreetMap Nepál
     description: Vylepšete OpenStreetMap v Nepálu
+    extendedDescription: 'Mapujete v Nepálu? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {Url}. Všichni jsou vítáni!'
   OSM-LKA-facebook:
     name: OpenStreetMap Srí Lanka
     description: Vylepšete OpenStreetMap na Srí Lance
+    extendedDescription: 'Mapujete na Srí Lance? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {Url}. Všichni jsou vítáni!'
   OSM-TW-facebook:
     name: Tchajwanská komunita OpenStreetMap
+  OSM-TH-facebook:
+    description: Skupina Facebook pro OpenStreetMappers v Thajsku
   al-forum:
     name: Albánské fórum OSM
     description: Albánské fórum OpenStreetMap
@@ -66,13 +75,18 @@ cs:
     name: OpenStreetMap Bělorusko
   be-facebook:
     description: Mapovači a uživatelé OpenStreetMap v Belgii
+  hr-facebook:
+    name: OpenStreetMap Chorvatsko Facebook skupina
+    description: OpenStreetMap Chorvatsko Facebook skupina
   czech-community:
     name: Česká OSM komunita
     description: 'Mapový portál, webové stránky a kontakty na členy OSM v ČR'
   osmcz-facebook:
     name: OpenStreetMap CZ na Facebooku
+    description: Sledujte českou komunitu na Facebooku - včetně přeložené WeeklyOSM!
   osmcz-twitter:
     name: Český twitter @osmcz
+    description: Sledujte českou komunitu na Twitteru - včetně přeloženého WeeklyOSM!
   talk-cz-mailinglist:
     name: Český mailing list (talk-cz)
     description: Talk-cz je hlavní komunikační kanál české komunity
@@ -87,12 +101,20 @@ cs:
     description: 'Sledujte nás na Twitteru: {url}'
   hu-facebook:
     description: Mapovači a uživatelé OpenStreetMap v Maďarsku
+  is-twitter:
+    name: OSM Island na Twitteru
   it-facebook:
     name: Facebook OpenStreetMap Itálie
   it-twitter:
     description: 'Sledujte nás na Twitteru na {url}'
   OSM-Rome-meetup:
     description: Vylepšete OpenStreetMap na území Říma
+  osm-se:
+    name: OpenStreetMap.se
+  se-twitter:
+    description: 'Sledujte nás na Twitteru: {url}'
+  OSM-Vancouver-meetup:
+    name: OpenStreetMap Vancouver
   Bay-Area-OpenStreetMappers:
     name: Bay Area OpenStreetMappers
     description: Vylepšete OpenStreetMap v Bay Area
@@ -105,14 +127,18 @@ cs:
   Mapping-DC-meetup:
     name: Mapování DC
     description: Vylepšete OpenStreetMap na území DC
+  MaptimeHRVA-twitter:
+    description: 'Sledujte nás na Twitteru na {url}'
   OpenCleveland-meetup:
     description: Vylepšete OpenStreetMap na území Clevelandu
   OSM-Boston:
+    name: OpenStreetMap Boston
     description: Mapovači a uživatelé OpenStreetMap na území Bostonu
   OSM-Chattanooga:
     name: OSM Chattanooga
     description: Uživatelská skupina OpenStreetMap pro Chatanoogu
   OSM-Colorado:
+    name: OpenStreetMap Colorado
     description: 'Mapovači a uživatelé OpenStreetMap ve státě Colorado, USA'
   OSM-NYC:
     name: OpenStreetMap NYC
@@ -126,13 +152,50 @@ cs:
   OSM-US-Slack:
     name: OpenStreetMap US Slack
     description: 'Všichni jsou vítaní! Přihlaste se na {signupUrl}'
+  OSM-US:
+    events:
+      sotmus2018:
+        where: 'Detroit, Michigan'
   OSM-Utah:
+    name: OpenStreetMap Utah
     description: Mapovači a uživatelé OpenStreetMap na území Salt Lake City
   OSM-Wyoming:
+    name: OpenStreetMap Wyoming
     description: Mapovači a uživatelé OpenStreetMap ve státě Wyoming
+  PHXGeo-twitter:
+    description: 'Sledujte nás na Twitteru na {url}'
   Maptime-Australia-Slack:
     name: Maptime Australia Slack
     description: 'Přihlaste se na {signupUrl}'
+  OSM-AR-twitter:
+    description: 'Sledujte nás na Twitteru na {url}'
+  OSM-br-twitter:
+    description: 'Sledujte nás na Twitteru na {url}'
+  RS-telegram:
+    extendedDescription: 'Připojte se ke komunitě, abyste se dozvěděli více o OpenStreetMap, klást otázky nebo se účastnit našich setkání. Každý je vítán!'
+  OSM-CL-twitter:
+    description: 'Sledujte nás na Twitteru na {url}'
+  OSM-CO-twitter:
+    description: 'Sledujte nás na Twitteru na {url}'
+  OSM-CO:
+    name: OpenStreetMap Kolumbie
+  OSM-PE-twitter:
+    description: 'Sledujte nás na Twitteru na {url}'
+  OSM-PE:
+    name: OpenStreetMap Peru
+  LATAM-Twitter:
+    description: 'Sledujte nás na Twitteru na {url}'
+  osm-latam:
+    name: OpenStreetMap Latam
+    events:
+      sotm-latam-2018:
+        where: 'Buenos Aires, Argentina'
+  OSM-Facebook:
+    name: OpenStreetMap na Facebooku
+  OSM-IRC:
+    name: OpenStreetMap IRC
   OSM-Reddit:
     name: OpenStreetMap na Redditu
     description: /r/openstreetmap/ je vynikající místo, kde lze zjistit více o OpenStreetMap. Zeptejte se nás na cokoliv!
+  OSM-Twitter:
+    description: 'Sledujte nás na Twitteru na {url}'

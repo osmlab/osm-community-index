@@ -1,8 +1,12 @@
 ko:
+  cape-coast-youthmappers:
+    description: '트위터에서 팔로우하기: {url}'
   osm-gh-facebook:
-    description: OpenStreetMap에 관심 있는 사람들을 위한 Facebook그룹.
+    description: OpenStreetMap에 관심 있는 사람들을 위한 Facebook 그룹.
   osm-gh-twitter:
-    description: '트위터에서 우리를 팔로우해주세요: {url}'
+    description: '트위터에서 팔로우하기: {url}'
+  OSM-IDN-facebook:
+    name: OpenStreetMap 인도네시아
   OSM-japan-facebook:
     name: OpenStreetMap 일본 커뮤니티
     description: 일본의 OpenStreetMap 사용자와 맵퍼들
@@ -11,11 +15,18 @@ ko:
     description: Talk-ja는 일본 커뮤니티의 공식 메일링리스트입니다.
   OSM-japan-twitter:
     name: OpenStreetMap 일본 트위터
+  OSM-japan-website:
+    name: OpenStreetMap 일본
+    description: 일본의 OpenStreetMap 사용자와 맵퍼들
   OSM-korea-telegram:
     name: OSM 한국 텔레그램 채널
     description: 'OpenStreetMap 한국 사용자들이 정보를 공유하고 토론하는 비공식 채널입니다.'
+  OSM-Facebook:
+    name: OpenStreetMap 페이스북
   OSM-Reddit:
     description: /r/openstreetmap/ 은 OpenStreetMap에 대해서 물어보기에 가장 좋은 곳입니다. 무엇이든지 물어보세요!
+  OSM-Telegram:
+    name: OpenStreetMap 텔레그램
   OSM-Twitter:
     name: OpenStreetMap 트위터
   OSMF:

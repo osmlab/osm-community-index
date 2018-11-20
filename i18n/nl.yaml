@@ -41,6 +41,10 @@ nl:
   OSM-india-mailinglist:
     name: OpenStreetMap India Mailinglijst
     description: Talk-in is de officiële Mailinglijst voor de India
+  OSM-India-Puducherry-Mailing-List:
+    name: Free Software Hardware Movement – Mailinglijst
+    description: FSHM Puducherry mailinglijst voor het bespreken van mappen in Puducherry.
+    extendedDescription: 'FSHM organiseert evenementen gerelateerd aan gratis software/hardware, technologie, activisme en OpenStreetmap.'
   OSM-india-twitter:
     name: OpenStreetMap India Twitter
     description: 'Volg ons op Twitter: {url}'
@@ -306,11 +310,18 @@ nl:
   OSM-Rome-meetup:
     name: Incontro Mappatori Romani
     description: Verbeter OpenStreetMap in Rome
+  South-Tyrol-Mailing-List:
+    name: OpenStreetMap maillijst voor Zuid-Tirol
   talk-it-lazio:
     name: OpenStreetMap IT Lazio
+    description: 'Iedereen is welkom! Meld je aan bij {signupUrl}'
     extendedDescription: Mailinglijst voor Rome en Lazio.
+  Trentino-Mailing-List:
+    name: OpenStreetMap maillijst voor Trentino
   OSM-PL-facebook-group:
     name: OpenStreetMap Polen Facebook-groep
+  si-mailinglist:
+    name: OpenStreetMap Slovenië maillijst
   OSM-ES-telegram:
     name: '@OSMes op Telegram'
     description: OpenStreetMap Spanje op Telegram
@@ -320,6 +331,8 @@ nl:
   se-twitter:
     name: OpenStreetMap Zweden op Twitter
     description: 'Volg ons op Twitter: {url}'
+  gb-irc:
+    name: OpenStreetMap Verenigd Koninkrijk IRC
   OSM-CA-Slack:
     name: Slack
   OSM-Vancouver-meetup:
@@ -372,6 +385,10 @@ nl:
     name: Slack
   OSM-US:
     name: OpenStreetMap Verenigde Staten
+    events:
+      sotmus2018:
+        name: State of the Map US 2018
+        where: 'Detroit, Michigan'
   OSM-Utah:
     name: OpenStreetMap Utah
   OSM-Wyoming:
@@ -414,12 +431,14 @@ nl:
   OSM-CL-facebook:
     name: Facebook
     description: Neem deel aan de OpenStreetMap Chili community op Facebook
+    extendedDescription: 'Sluit je aan bij onze gemeenschap om meer te leren over OpenStreetMap, om vragen te stellen of om deel te nemen aan onze besprekingen. Iedereen is welkom!'
   OSM-CL-mailinglist:
     name: Talk-cl Mailinglijst
     description: Talk-cl is de officiële Mailinglijst voor Chili
   OSM-CL-telegram:
     name: OpenStreetMap Chili Telegram
     description: OpenStreetMap Chili op Telegram
+    extendedDescription: 'Sluit je aan bij onze gemeenschap om meer te leren over OpenStreetMap, om vragen te stellen of om deel te nemen aan onze besprekingen. Iedereen is welkom!'
   OSM-CL-twitter:
     name: OpenStreetMap Chili Twitter
     description: 'Volg ons op Twitter: {url}'
@@ -441,8 +460,14 @@ nl:
     name: OSM Paraguay op Telegram
   OSM-PE-telegram:
     name: OpenStreetMap Peru Telegram
+  OSM-Facebook:
+    name: OpenStreetMap op Facebook
   OSM-Reddit:
     name: OpenStreetMap op Reddit
     description: Op /r/openstreetmap/ vind een levendige dialoog plaats over OpenStreetMap. Hier kun je alles vragen!
   OSM-Telegram:
     name: OpenStreetMap Telegram
+  OSMF:
+    events:
+      sotm2018:
+        where: 'Milaan, Italië'
