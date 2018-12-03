@@ -116,15 +116,20 @@ the resource to a .geojson feature. If null, this is a global resource.
   * "discourse"
   * "facebook"
   * "forum" - For example, on forum.openstreetmap.org
-  * "group" - Generic catchall for anything with a `url` (such as a local OSM chapter page)
+  * "github"
+  * "group" - A site for a local group with a `url` (such as a local OSM chapter page)
   * "irc" - `url` should be a clickable web join link, server details can go in `description`
   * "mailinglist" - `url` should be a link to the listinfo page, e.g. `https://lists.openstreetmap.org/listinfo/talk-us`
   * "matrix" - e.g. [Riot Chat](https://matrix.org/docs/projects/client/riot.html)
   * "meetup"
+  * "osm" - a local OpenStreetMap page
   * "reddit"
   * "slack" - `url` should link to the Slack itself, and `signupUrl` can link to an inviter service (see example above)
   * "telegram"
   * "twitter"
+  * "url" - Generic catchall for anything with a `url`
+  * "wiki" - An OpenStreetMap [wiki project page](https://wiki.openstreetmap.org/wiki/List_of_territory_based_projects)
+  * "youtube"
 * __`name`__ - (required) Display name for this community resource
 * __`description`__ - (required) One line description of the community resource
 * __`extendedDescription`__ - (optional) Longer description of the community resource

@@ -8,13 +8,16 @@ const faComments = require('@fortawesome/free-solid-svg-icons/faComments').faCom
 const faDiscord = require('@fortawesome/free-brands-svg-icons/faDiscord').faDiscord;
 const faDiscourse = require('@fortawesome/free-brands-svg-icons/faDiscourse').faDiscourse;
 const faFacebook = require('@fortawesome/free-brands-svg-icons/faFacebook').faFacebook;
+const faGithub = require('@fortawesome/free-brands-svg-icons/faGithub').faGithub;
 const faKeyboard = require('@fortawesome/free-solid-svg-icons/faKeyboard').faKeyboard;
+const faLink = require('@fortawesome/free-solid-svg-icons/faLink').faLink;
 const faMeetup = require('@fortawesome/free-brands-svg-icons/faMeetup').faMeetup;
 const faReddit = require('@fortawesome/free-brands-svg-icons/faReddit').faReddit;
 const faSlack = require('@fortawesome/free-brands-svg-icons/faSlack').faSlack;
 const faTelegram = require('@fortawesome/free-brands-svg-icons/faTelegram').faTelegram;
 const faTwitter = require('@fortawesome/free-brands-svg-icons/faTwitter').faTwitter;
 const faUsers = require('@fortawesome/free-solid-svg-icons/faUsers').faUsers;
+const faYoutube = require('@fortawesome/free-brands-svg-icons/faYoutube').faYoutube;
 
 buildAll();
 
@@ -24,6 +27,7 @@ function buildAll() {
         discourse: faDiscourse,
         facebook: faFacebook,
         forum: faComments,
+        github: faGithub,
         group: faUsers,
         irc: faKeyboard,
         mailinglist: faAt,
@@ -32,7 +36,9 @@ function buildAll() {
         reddit: faReddit,
         slack: faSlack,
         telegram: faTelegram,
-        twitter: faTwitter
+        twitter: faTwitter,
+        url: faLink,
+        youtube: faYoutube
     };
 
     console.log('building icons');
