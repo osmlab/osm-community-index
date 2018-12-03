@@ -11,6 +11,22 @@
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+## 0.5.0
+##### 2018-Dec-03
+
+* New features:
+  * Add support for new community types `github`, `osm`, `wiki`, `youtube` ([#200])
+* Add resources:
+  * Add resources for OSM India ([#198], [#199])
+* Remove resources:
+  * Remove Maptime Belgium ([#197])
+
+[#200]: https://github.com/osmlab/osm-community-index/issues/200
+[#199]: https://github.com/osmlab/osm-community-index/issues/199
+[#198]: https://github.com/osmlab/osm-community-index/issues/198
+[#197]: https://github.com/osmlab/osm-community-index/issues/197
+
+
 ## 0.4.8
 ##### 2018-Nov-26
 
