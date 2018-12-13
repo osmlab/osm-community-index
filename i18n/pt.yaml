@@ -1,6 +1,6 @@
 pt:
   bw-facebook:
-    name: A mapear Botsuana no Facebook
+    name: A cartografar Botsuana no Facebook
     description: Página do OpenStreetMap no Botsuana
   bw-twitter:
     name: A mapear Botsuana no Twitter
@@ -8,25 +8,79 @@ pt:
   cape-coast-youthmappers:
     name: Universidade dos YouthMappers de Cabo Corso
     description: 'Siga-nos no Twitter: {url}'
+    extendedDescription: 'Esta é a descrição oficial do capítulo Youth Mappers da Universidade de Cape Coast, no Gana. adoramos mapas, os dados abertos e ajudar os mais vulneráveis.'
   osm-gh-facebook:
     name: OpenStreetMap Gana no Facebook
     description: Grupo no Facebook para pessoas interessadas no OpenStreetMap.
+    extendedDescription: 'A comunidade de cartógrafos do Gana está a promover os projetos OpenStreetMap e Humanitarian OpenStreetMap Team (HOT) no Gana. Junte-se a nós.'
   osm-gh-twitter:
     name: OpenStreetMap Gana no Twitter
     description: 'Segue-nos no Twitter: {url}'
   talk-gh:
     name: Lista de Discussão Talk-gh
+    description: Talk-gh é a lista de discussão oficial da comunidade OMS do Ghana.
+  osm-mg-facebook:
+    name: Grupo Facebook do OpenStreetMap Madagascar
+    description: Grupo malgaxe no Facebook para pessoas interessadas no OpenStreetMap.
   talk-mg:
     name: Lista de Discussão Talk-mg
+    description: 'Lugar para os contribuidores, comunidades e utilizadores do OpenStreetMap em Madagáscar partilharem e discutirem.'
+  OSM-BGD-facebook:
+    name: OpenStreetMap Bangladesh
+    description: Melhorar o OpenStreetMap no Bangladesh
+    extendedDescription: 'A cartografar no Bangladesh? Tem dúvidas, quer se conectar com a comunidade daqui? Junte-se a nós em {url}. São todos bem vindos!'
+  OSM-India-facebook:
+    name: OpenStreetMap Índia - Cartografia participativa dos bairros
+    description: Melhorar o OpenStreetMap na Índia
+    extendedDescription: 'A cartografar na Índia? Tem dúvidas, quer se conectar com a comunidade daqui? Junte-se a nós em {url}. São todos bem vindos!'
+    events:
+      sotmasia2018:
+        name: Estado do Mapa Ásia 2018
+        description: Junte-se ao evento regional do Estado do Mapa do OpenStreetMap 2018 na Índia
+        where: 'Instituto Indiano de Administração, Bangalore, Índia'
+  osm-india-forum:
+    name: Fórum do OpenStreetMap na Índia
+    description: Web fórum do OpenStreetMap Índia
+  osm-india-github:
+    name: GitHub do OpenStreetMap Índia
+    description: 'Codifique connosco: {url}'
   OSM-india-mailinglist:
     name: Lista de Discussão do OpenStreetMap na Índia
     description: Talk-in é a lista de discussão oficial para a comunidade indiana
+  osm-india-telegram:
+    name: Telegram do OpenStreetMap Índia
+    description: 'Junte-se à família: {url}'
   OSM-india-twitter:
+    name: Twitter do OpenStreetMap Índia
     description: 'Estamos a um tweet de distância: {url}'
+  osm-india-website:
+    name: OpenStreetMap Índia
+    description: Cartógrafos e utilizadores do OpenStreetMap na Índia
+  osm-india-wiki:
+    name: Wikiproject OpenStreetMap Índia
+    description: 'Tudo o que precisa de saber sobre a cartografia na Índia: {url}'
+  osm-india-youtube:
+    name: Youtube do OpenStreetMap Índia
+    description: 'Subscreva o nosso canal: {url}'
+  OSM-India-Puducherry-Facebook:
+    name: Movimento de Hardware de Software Livre - Facebook
+    description: 'Página do Facebook da FSHM para saber sobre eventos da comunidade e as atividades'
+    extendedDescription: 'O FSHM organiza eventos relacionados a software / hardware livre, tecnologia, ativismo e OpenStreetMap. A página do FB é a melhor maneira de manter-se a par dos eventos.'
+  OSM-Puducherry-Mailing-List:
+    name: Movimento de Hardware de Software Livre - Lista de discussão
+    description: Lista de discussão do FSHM Puducherry para discutir o cartografia em Puducherry e outras coisas.
+    extendedDescription: 'O FSHM organiza eventos relacionados a software / hardware livre, tecnologia, ativismo e OpenStreetMap.'
+  OSM-India-Puducherry-Matrix:
+    name: Movimento de Hardware de Software Livre - Matriz
+    description: 'Grupo motim FSHM para discutir, partilhar e atualizar atividades de cartografia, eventos e em redor de Puducherry'
+    extendedDescription: 'Os membros da comunidade FSHM partilham as suas atualizações e experiências do OSM através do grupo riot.im. Esse grupo também é usado para discutir assuntos relacionados com software livre, hardware, tecnologias e ativismo.'
   OSM-IDN-facebook:
     name: OpenStreetMap Indonésia
+    description: Melhore o OpenStreetMap na Indonésia
+    extendedDescription: 'A cartografar na Indonésia? Tem dúvidas, quer se conectar com a comunidade daqui? Junte-se a nós em {Url}. São todos bem vindos!'
   OSM-japan-facebook:
     name: Comunidade do OpenStreetMap Japão
+    description: Cartógrafos e utilizadores do OpenStreetMap no Japão
   OSM-japan-mailinglist:
     name: Lista de Discussão do OpenStreetMap Japão
     description: Talk-ja é a lista de discussão oficial para a comunidade japonesa
@@ -36,6 +90,12 @@ pt:
   OSM-japan-website:
     name: OpenStreetMap Japão
     description: Mapeadores e utilizadores do OpenStreetMap no Japão
+  OSM-korea-telegram:
+    name: Canal Telegram do OSM Coreia
+    description: 'Canal não oficial para contribuidores do OpenStreetMap, comunidades e utilizadores na Coreia para partilhar e discutir'
+  OSM-MY-facebook:
+    name: OpenStreetMap Malásia no Facebook
+    description: Para conversar sobre qualquer coisa relacionada ao OpenStreetMap!
   OSM-MNG-facebook:
     name: OpenStreetMap Mongólia
   OSM-PH-mailinglist:
@@ -75,10 +135,40 @@ pt:
     description: Conversa Telegram do OpenStreetMap Espanha
   gb-mailinglist:
     name: Lista de Discussão Talk-gb
+  Bay-Area-OpenStreetMappers:
+    name: OpenStreetMappers de Bay
+    description: Melhorar o OpenStreetMap na área de Bay
+  Central-Pennsylvania-OSM:
+    name: OSM Pensilvânia central
+    description: 'Comunidade de mapeamento online baseada no Colégio Estadual, PA'
+  Dallas-Fort-Worth-OSM:
+    name: OSM de Dallas-Fort Worth
+    extendedDescription: 'Dallas, Fort Worth e todas as cidades entre essas cidades estão cheias de pessoas criativas e com conhecimento de tecnologia. A visão deste grupo de utilizadores é de encontrar novas maneiras de usar o incrível recurso OSM.'
   GeoPhilly:
     name: GeoPhilly
   Mapping-DC-meetup:
     name: Mapping DC
+    description: Melhore o OpenStreetMap na área de DC
+    extendedDescription: 'Somos um grupo de cartógrafos voluntários que visam melhorar o OpenStreetMap na área de Washington. Também queremos ensinar aos outros sobre o ecossistema OSM, análise de dados, cartografia e GIS. Reunimos-nos a cada dois meses em reuniões para nos concentrar-mos numa área da nossa cidade.'
+  OSM-Chattanooga:
+    name: OSM Chattanooga
+    description: O grupo de utilizadores do OpenStreetMap para o Chattanooga
+  OSM-NYC:
+    name: OpenStreetMap Nova York
+    description: 'Cartógrafos e utilizadores do OpenStreetMap, desenvolvedores e entusiastas da área metropolitana de Nova York'
+  OSM-Portland:
+    name: OpenStreetMap Portland
+    description: Cartógrafos e utilizadores do OpenStreetMap na área de Portland
+    extendedDescription: 'OpenStreetMap (OSM) é um mapa do mundo criado por pessoas como tu. Este é um mapa que tu constróis, que é distribuído gratuitamente como a Wikipedia. Visita osm.org para mais informações e encontra-nos numa reunião para discutir mapas, contribuir para o OSM e para te divertires!'
+  OSM-South-Bay:
+    name: OSM South Bay
+  OSM-US-Slack:
+    name: OpenStreetMap US Slack
+    description: 'Sejam todos bem-vindos! Registem-se em {signupUrl}'
+  OSM-Utah:
+    extendedDescription: 'As atividades podem incluir workshops como aprender a cartografar, cartografar partes e coleta de dados ao ar livre. Os eventos ocorrerão na área do SLC, pelo menos no começo. Estamos à procura de cartógrafos experientes, bem como recém-chegados ao OSM. Junta-te a nós e cartografa!'
+  Maptime-Australia-Slack:
+    description: 'Registe-se em {signupUrl}'
   talk-au:
     name: Lista de Discussão Talk-au
   OSM-AR-mailinglist:
@@ -146,6 +236,7 @@ pt:
     name: Ajuda OpenStreetMap
   OSM-Reddit:
     name: OpenStreetMap no Reddit
+    description: /r/openstreetmap/ é um ótimo lugar para aprender mais sobre o OpenStreetMap. Pergunte-nos qualquer coisa!
   OSMF:
     events:
       sotm2018:
