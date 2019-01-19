@@ -112,6 +112,7 @@ Here are the properties that a resource file can contain:
 * __`featureId`__ - (optional) A unique identifier for the feature. This `featureId` matches
 the resource to a .geojson feature. If null, this is a global resource.
 * __`type`__ - (required) Type of community resource. The following types are supported:
+  * "aparat"
   * "discord"
   * "discourse"
   * "facebook"
