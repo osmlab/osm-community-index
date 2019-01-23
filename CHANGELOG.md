@@ -11,6 +11,26 @@
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+## 0.6.0
+##### 2019-Jan-23
+
+* New Features:
+  * Add support for `aparat` community type ([#212])
+
+* Add Resources:
+  * Add Norwegian Telegram ([#213])
+  * Add Iran resources: Telegram, Aparat, Forum ([#210])
+  * A few renames: "Korea" -> "South Korea",  "Srilanka" -> "Sri Lanka" ([#205], [#206])
+  * OSM Asia community ([#203])
+
+[#213]: https://github.com/osmlab/osm-community-index/issues/213
+[#212]: https://github.com/osmlab/osm-community-index/issues/212
+[#210]: https://github.com/osmlab/osm-community-index/issues/210
+[#206]: https://github.com/osmlab/osm-community-index/issues/206
+[#205]: https://github.com/osmlab/osm-community-index/issues/205
+[#203]: https://github.com/osmlab/osm-community-index/issues/203
+
+
 ## 0.5.0
 ##### 2018-Dec-03
 
