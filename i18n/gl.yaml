@@ -1,15 +1,42 @@
 gl:
+  bw-facebook:
+    name: Cartografado de Botswana no Facebook
+    description: Páxina do OpenStreetMap en Botswana
+  bw-twitter:
+    name: Cartografado de Botswana no Twitter
+    description: Twitter do OpenStreetMap en Botswana
+  cape-coast-youthmappers:
+    name: Universidade de Cape Coast YouthMappers
+    description: 'Séguenos no Twitter: {url}'
+    extendedDescription: 'Este é o identificador oficial do capítulo de Xoves Cartógrafos da Universidade de Cape Coast, Ghana. Encantannos os mapas, os datos abertos e axudar ás persoas vulnerábeis.'
   osm-gh-facebook:
     name: OpenStreetMap Ghana no Facebook
     description: Grupo do Facebook pra a xente interesada de xeito activo no OpenStreetMap.
+    extendedDescription: 'Cartógrafos na comunidade de Ghana, promocionando os proxectos do OpenStreetMap e Humanitarian OpenStreetMap Team (HOT) en Ghana. Únete a nós.'
   osm-gh-twitter:
+    name: OpenStreetMap Ghana no Twitter
     description: 'Séguenos no Twitter: {url}'
+  talk-gh:
+    name: Listaxe de correo Talk-gh
+    description: Talk-gh é a listaxe de correo oficial da comunidade do OSM de Ghana.
   osm-mg-facebook:
     name: Grupo de Facebook do OpenStreetMap na illa de Madagascar
+    description: Grupo do Facebook de Malgache para xente interesada no OpenStreetMap
+  talk-mg:
+    name: Listaxe de correo Talk-mg
+    description: 'Lugar para contribuíntes, comunidades e usuarios do OpenStreetMap en Madagascar para compartir e debater.'
+  OSM-BGD-facebook:
+    name: OpenStreetMap Bangladesh
+    description: Mellore o OpenStreetMap en Bangladesh
+    extendedDescription: 'Cartografando en Bangladesh? Ten algunha pregunta, desexa conectarse ca comunidade aquí? Únase a nós en {url}. Todos son benvidos!'
   OSM-India-facebook:
+    name: OpenStreetMap India - Cartografado participativo do bairro
+    description: Mellore o OpenStreetMap na India
+    extendedDescription: 'Cartografando na India? Ten preguntas, desexa conectarse ca comunidade aquí? Únase a nós en {url}. Todos son benvidos!'
     events:
       sotmasia2018:
         name: Estado do Mapa, Asia 2018
+        description: Únase ó acontecemento rexional do OpenStreetMap 2018 no State of the Map Asia na India
   OSM-india-twitter:
     description: 'Estamos só a un chío de distancia: {url}'
   OSM-MY-facebook:
@@ -32,10 +59,16 @@ gl:
     description: Unha listaxe de correo para debater sobre o OpenStreetMap en España
   OSM-ES-telegram:
     name: '@OSMes no Telegram'
-    description: Parola de Telegram do OpenStreetMap España
+    description: Grupo de Telegram do OpenStreetMap España
   se-facebook:
     name: Facebook do OpenStreetMap Suecia
     description: OpenStreetMap Suecia no Facebook
+  GeoPhilly:
+    name: GeoPhilly
+  MapMinnesota:
+    name: MapMinnesota
+  OSM-NYC:
+    name: OpenStreetMap Nova York
   OSM-SoCal:
     extendedDescription: 'O OpenStreetMap (OSM) Southern California é para todos aquilos interesados ​​en cartografar para traballar xuntos co OpenStreetMap. O OpenStreetMap, a Wikipedia de mapas, é un mapa de código aberto e de balde creado por máis de 1.000.000 de voluntarios en todo o mundo. Todos son benvidos. Se non coñece o OpenStreetMap, ensinarémoslle. Se ten unha idea para un proxecto de cartografado ou incluso unha andaina ou roteiro que o grupo poida facer, xenial!'
   Maptime-Australia-Slack:
@@ -67,6 +100,9 @@ gl:
   OSM-help:
     name: Axuda de OpenStreetMap
     description: Fai unha pregunta e obtén respostas no sitio de cuestións e respostas xestionado pola comunidade do OSM.
+  OSM-IRC:
+    name: IRC do OpenStreetMap
+    description: 'Únete a #osm en irc.oftc.net (porto 6667)'
   OSM-Reddit:
     name: OpenStreetMap no Reddit
     description: /r/openstreetmap/ é un bo sitio para aprender máis sobre OpenStreetMap. Pregúntanos calquera cousa!

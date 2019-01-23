@@ -41,9 +41,18 @@ nl:
   OSM-india-mailinglist:
     name: OpenStreetMap India Mailinglijst
     description: Talk-in is de officiële Mailinglijst voor de India
+  osm-india-telegram:
+    name: OpenStreetMap India Telegram
   OSM-india-twitter:
     name: OpenStreetMap India Twitter
     description: 'Volg ons op Twitter: {url}'
+  osm-india-website:
+    name: OpenStreetMap India
+    description: Mappers en OpenStreetMap-gebruikers in India
+  osm-india-wiki:
+    name: OpenStreetMap-Wikiproject India
+  osm-india-youtube:
+    name: OpenStreetMap India Youtube
   OSM-India-Puducherry-Facebook:
     name: Free Software Hardware Movement – Facebook
     description: 'FSHM Facebook-pagina om op de hoogte te blijven van community-evenementen, -activiteiten'
@@ -66,9 +75,6 @@ nl:
   OSM-japan-website:
     name: OpenStreetMap Japan
     description: Mappers en OpenStreetMap gebruikers in Japan
-  OSM-korea-telegram:
-    name: OSM Korea Telegram-kanaal
-    description: 'Onofficiëel Kanaal voor OpenStreetMap bijdragers, gemeenschappen en gebruikers in Korea om te delen en discussiëren.'
   OSM-MY-facebook:
     name: OpenStreetMap Malaysia op Facebook
     description: Om te chatten over alles gerelateerd aan OpenStreetMap!
@@ -108,10 +114,6 @@ nl:
   OSM-RU-telegram:
     name: Telegram
     description: OpenStreetMap Rusland op Telegram
-  OSM-LKA-facebook:
-    name: OpenStreetMap Sri Lanka
-    description: Verbeter OpenStreetMap in Sri Lanka
-    extendedDescription: 'Map je in Sri Lanka? Heb je vragen, wil je in contact treden met de community hier? Kom erbij op {Url}. Iedereen is welkom!'
   OSM-TW-facebook:
     name: OpenStreetMap Taiwan
     description: Neem deel aan de OpenStreetMap Taiwan community op Facebook
@@ -310,8 +312,16 @@ nl:
     extendedDescription: Mailinglijst voor Rome en Lazio.
   Trentino-Mailing-List:
     name: OpenStreetMap maillijst voor Trentino
+  kosovo-telegram:
+    name: OpenStreetMap Kosovo op Telegram
+  no-forum:
+    description: OpenStreetMap Noorwegen webforum
+  no-irc:
+    name: OpenStreetMap Noorwegen op IRC
   OSM-PL-facebook-group:
     name: OpenStreetMap Polen Facebook-groep
+  OSM-PL-forum:
+    name: OpenStreetMap Polen forum
   si-mailinglist:
     name: OpenStreetMap Slovenië maillijst
   OSM-ES-telegram:
@@ -331,8 +341,10 @@ nl:
     name: OpenStreetMap Vancouver
   OSM-CU-telegram:
     name: OSM Cuba op Telegram
+    description: OpenStreetMap Cuba Telegram-chat
   OSM-NI-telegram:
     name: OSM Nicaragua op Telegram
+    description: OpenStreetMap Nicaragua Telegram-chat
   Bay-Area-OpenStreetMappers:
     name: Bay Area OpenStreetMappers
     description: Verbeter OpenStreetMap in de Bay Area
@@ -349,6 +361,8 @@ nl:
   Mapping-DC-meetup:
     name: Mapping DC
     description: Verbeter OpenStreetMap in District Columbia
+  MaptimeHRVA-twitter:
+    description: 'Volg ons op Twitter via {url}'
   OpenCleveland-meetup:
     name: Open Cleveland
     description: Verbeter OpenStreetMap in de regio Cleveland
@@ -392,6 +406,8 @@ nl:
     description: 'Volg ons op Twitter: {url}'
   Western-Slope-facebook:
     name: Facebook
+  Western-Slope-meetup:
+    name: Western Slope OSM-meetup
   Maptime-Australia-Slack:
     name: Slack
   talk-au:
@@ -399,6 +415,7 @@ nl:
   OSM-AR-facebook:
     name: Facebook
     description: Neem deel aan de OpenStreetMap Argentinië community op Facebook
+    extendedDescription: Nieuws van de lokale gemeenschap
   OSM-AR-irc:
     name: OpenStreetMap Argentinië IRC
   OSM-AR-mailinglist:
@@ -410,6 +427,7 @@ nl:
     name: OpenStreetMap Argentinië Twitter
     description: 'Volg ons op Twitter: {url}'
   Bahia-telegram:
+    name: OpenStreetMap Bahia Telegram-group
     description: OpenStreetMap Bahia op Telegram
   DF-telegram:
     name: OpenStreetMap Brasília Telegram-groep
@@ -423,6 +441,8 @@ nl:
   OSM-br-twitter:
     name: OpenStreetMap Brazilië Twitter
     description: 'Volg ons op Twitter: {url}'
+  RS-telegram:
+    name: OpenStreetMap Rio Grande do Sul Telegram-group
   OSM-CL-facebook:
     name: Facebook
     description: Neem deel aan de OpenStreetMap Chili community op Facebook
@@ -444,6 +464,7 @@ nl:
     description: Wordt lid van de OpenStreetMap Colombia community op Facebook
   OSM-CO-telegram:
     name: OSM Colombia op Telegram
+    description: OpenStreetMap Colombia Telegram-chat
   OSM-CO-twitter:
     name: OpenStreetMap Colombia Twitter
     description: 'Volg ons op Twitter at {url}'
@@ -451,10 +472,16 @@ nl:
     name: OpenStreetMap Colombia
   OSM-EC-telegram:
     name: OSM Ecuador op Telegram
+    description: OpenStreetMap Ecuador Telegram-chat
   OSM-PY-telegram:
     name: OSM Paraguay op Telegram
+    description: OpenStreetMap Paraguay Telegram-chat
   OSM-PE-telegram:
     name: OpenStreetMap Peru Telegram
+    description: Word lid van de OpenStreetMap-gemeenschap Peru op Telegram
+  LATAM-Telegram:
+    name: OpenStreetMap Latam Telegram
+    description: OpenStreetMap Telegram voor Latijns Amerika
   OSM-Facebook:
     name: OpenStreetMap op Facebook
   OSM-help:
@@ -464,6 +491,7 @@ nl:
     description: Op /r/openstreetmap/ vind een levendige dialoog plaats over OpenStreetMap. Hier kun je alles vragen!
   OSM-Telegram:
     name: OpenStreetMap Telegram
+    description: 'Word lid van de OpenStreetMap Telegram global supergroup at {url}'
   OSM-Twitter:
     name: OpenStreetMap Twitter
     description: 'Volg ons op Twitter at {url}'

@@ -37,21 +37,54 @@ vi:
         name: State of the Map châu Á 2018
         description: Tham dự sự kiện khắp miền OpenStreetMap năm 2018, State of the Map châu Á tại Ấn Độ
         where: 'Học viện Quản lý Ấn Độ, Bengaluru, Ấn Độ'
+  osm-india-forum:
+    name: Diễn đàn OpenStreetMap Ấn Độ
+    description: Diễn đàn Web của OpenStreetMap Ấn Độ
+  osm-india-github:
+    name: GitHub OpenStreetMap Ấn Độ
+    description: 'Hãy cùng lập trình: {url}'
   OSM-india-mailinglist:
     name: Danh sách thư OpenStreetMap Ấn Độ
     description: talk-in là danh sách thư chính thức của cộng đồng Ấn Độ
+  osm-india-telegram:
+    name: Telegram OpenStreetMap Ấn Độ
+    description: 'Trò chuyện với chúng ta: {url}'
   OSM-india-twitter:
     name: Twitter OpenStreetMap Ấn Độ
     description: 'Chúng tôi chỉ cách bạn một tweet: {url}'
+  osm-india-website:
+    name: OpenStreetMap Ấn Độ
+    description: Những người lập bản đồ và người dùng OpenStreetMap ở Ấn Độ
+  osm-india-wiki:
+    name: WikiProject OpenStreetMap Ấn Độ
+    description: 'Mọi điều cần biết để lập bản đồ tại Ấn Độ: {url}'
+  osm-india-youtube:
+    name: YouTube OpenStreetMap Ấn Độ
+    description: 'Đăng ký kênh của chúng ta: {url}'
   OSM-India-Puducherry-Facebook:
     name: Phong trào Phần cứng Phần mềm Nguồn mở – Facebook
     description: 'Trang Facebook của FSHM cho biết về sự kiện và hành động của cộng đồng'
+  OSM-Puducherry-Mailing-List:
+    name: Phong trào Phần cứng Phần mềm Nguồn mở – danh sách thư
+    description: Danh sách thư Puducherry FSHM để thảo luận về lập bản đồ tại Puducherry và những thứ khác.
   OSM-India-Puducherry-Matrix:
     name: Phong trào Phần cứng Phần mềm Nguồn mở – Matrix
+    description: 'Nhóm Riot FSHM để thảo luận, chia sẻ, cho biết tin tức về các hoạt động lập bản đồ và sự kiện chung quanh Puducherry.'
   OSM-IDN-facebook:
     name: OpenStreetMap Indonesia
     description: Cải thiện OpenStreetMap tại Indonesia
     extendedDescription: 'Bạn có lập bản đồ tại Indonesia? Bạn có thắc mắc, muốn liên hệ với cộng đồng tại đây? Mời bạn tham gia tại {Url}.'
+  osm-iran-aparat:
+    name: Aparat OpenStreetMap Iran
+    description: 'Đăng ký kênh của chúng ta tại {url}'
+    extendedDescription: Kho video đầy đủ về OpenStreetMap, chủ yếu trong tiếng Ba Tư.
+  osm-iran-forum:
+    name: Diễn đàn Web của OpenStreetMap Iran
+    description: Diễn đàn Web của OpenStreetMap Iran
+    extendedDescription: Diễn đàn Web dành cho người dùng OpenStreetMap tại Iran. Hãy thoải mái hỏi han và thảo luận với người khác!
+  osm-iran-telegram:
+    name: Telegram OpenStreetMap Iran
+    description: 'Mời bạn tham gia kênh Telegram của chúng ta tại {url}. Chúng ta cũng có siêu nhóm dành cho người OSM quan tâm đến Iran; có liên kết trong lời miêu tả kênh.'
   OSM-japan-facebook:
     name: Cộng đồng OpenStreetMap Nhật Bản
     description: Những người lập bản đồ và người dùng OpenStreetMap ở Nhật Bản
@@ -64,9 +97,6 @@ vi:
   OSM-japan-website:
     name: OpenStreetMap Nhật Bản
     description: Những người lập bản đồ và người dùng OpenStreetMap ở Nhật Bản
-  OSM-korea-telegram:
-    name: Kênh Telegram OSM Hàn Quốc
-    description: 'Kênh không chính chức cho phép những người đóng góp, cộng đồng, và người dùng OpenStreetMap tại Hàn Quốc chia sẻ và thảo luận.'
   OSM-MY-facebook:
     name: OpenStreetMap Malaysia tại Facebook
     description: Trò chuyện về bất cứ mọi điều có liên quan đến OpenStreetMap!
@@ -88,6 +118,12 @@ vi:
     name: OpenStreetMap Nepal
     description: Cải thiện OpenStreetMap tại Nepal
     extendedDescription: 'Bạn có lập bản đồ tại Nepal? Bạn có thắc mắc, muốn liên hệ với cộng đồng tại đây? Mời bạn tham gia tại {Url}.'
+  OSM-Asia-mailinglist:
+    name: Danh sách thư OpenStreetMap châu Á
+    description: talk-in là danh sách thư chính thức của cộng đồng châu Á
+  osm-asia-telegram:
+    name: Telegram OpenStreetMap châu Á
+    description: 'Trò chuyện với chúng ta: {url}'
   OSM-PH-facebook:
     name: Facebook OpenStreetMap Philippines
     description: 'OpenStreetMap Philippines khuyến khích mọi người Philippines đóng góp vào dự án OpenStreetMap.'
@@ -106,7 +142,10 @@ vi:
   OSM-RU-telegram:
     name: Telegram OpenStreetMap Nga
     description: Trò chuyện Telegram của OpenStreetMap Nga
-  OSM-LKA-facebook:
+  OSM-south-korea-telegram:
+    name: Telegram OSM Hàn Quốc
+    description: 'Kênh không chính chức cho phép những người đóng góp, cộng đồng, và người dùng OpenStreetMap tại Hàn Quốc chia sẻ và thảo luận.'
+  OSM-sri-lanka-facebook:
     name: OpenStreetMap Sri Lanka
     description: Cải thiện OpenStreetMap tại Sri Lanka
     extendedDescription: 'Bạn có lập bản đồ tại Sri Lanka? Bạn có thắc mắc, muốn liên hệ với cộng đồng tại đây? Mời bạn tham gia tại {Url}.'
@@ -412,6 +451,7 @@ vi:
     description: 'Những người lập bản đồ và người dùng OpenStreetMap ở vùng Portland, Maine'
     extendedDescription: 'Maptime đúng là thì giờ để lập bản đồ. Chúng ta nhằm mục đích mở cửa bản đồ học để cho mọi người có quan tâm có thể lập bản đồ, bằng cách để dành thì giờ và không gian để cộng tác tìm hiểu, khám phá, và lập bản đồ dùng công cụ và công nghệ bản đồ.'
   MaptimeHRVA-twitter:
+    name: Twitter MaptimeHRVA
     description: 'Theo dõi chúng tôi trên Twitter: {url}'
   us-ma-mailinglist:
     name: Danh sách thư talk-us-massachusetts

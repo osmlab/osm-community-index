@@ -38,12 +38,30 @@ it:
         name: State of the Map Asia 2018
         description: Unisciti a State of the Map Asia di OpenStreetMap, un evento che si terrà in India nel 2018
         where: 'Indian Institute of Management, Bangalore, India'
+  osm-india-forum:
+    name: Forum di OpenStreetMap dell’India
+    description: Forum web di OpenStreetMap dell’India
+  osm-india-github:
+    name: GitHub di OpenStreetMap dell’India
+    description: 'Programma con noi: {url}'
   OSM-india-mailinglist:
     name: Mailinglist di OpenStreetMap dell’India
     description: Talk-in è la mailinglist ufficiale della comunità indiana
+  osm-india-telegram:
+    name: Telegram di OpenStreetMap dell’India
+    description: 'Unisciti alla nostra famiglia: {url}'
   OSM-india-twitter:
     name: Twitter di OpenStreetMap dell’India
     description: 'Siamo solo ad un cinguettio di distanza: {url}'
+  osm-india-website:
+    name: OpenStreetMap dell’India
+    description: Mappatori e utenti OpenStreetMap in India
+  osm-india-wiki:
+    name: Wikiproject di OpenStreetMap dell’India
+    description: 'Tutto quello che c’è da sapere sulla mappatura in India: {url}'
+  osm-india-youtube:
+    name: Youtube di OpenStreetMap dell’India
+    description: 'Iscriviti al nostro canale: {url}'
   OSM-India-Puducherry-Facebook:
     name: Movimento del software e hardware liberi su Facebook
     description: 'Pagina Facebook di FSHM per conoscere gli eventi e le attività della comunità'
@@ -68,9 +86,6 @@ it:
   OSM-japan-website:
     name: OpenStreetMap del Giappone
     description: Mappatori e utenti di OpenStreetMap in Giappone
-  OSM-korea-telegram:
-    name: Canale Telegram  di OSM della Corea
-    description: 'Canale non ufficiale per discutere e condividere per i contribuenti, le comunità e gli utenti di OpenStreetMap in Corea.'
   OSM-MY-facebook:
     name: OpenStreetMap della Malaysia su Facebook
     description: Per chiacchierare su tutto ciò che è inerente a OpenStreetMap!
@@ -92,6 +107,12 @@ it:
     name: OpenStreetMap del Nepal
     description: Migliora OpenStreetMap in Nepal
     extendedDescription: 'Stai mappando in Nepal? Hai domande o vuoi connetterti alla comunità locale? Unisciti a noi su {Url}. Tutti sono i benvenuti!'
+  OSM-Asia-mailinglist:
+    name: 'Mailinglist di OpenStreetMap dell''Asia '
+    description: Talk-asia è la mailinglist ufficiale della comunità asiatica
+  osm-asia-telegram:
+    name: Telegram di OpenStreetMap dell’Asia
+    description: 'Unisciti alla nostra famiglia: {url}'
   OSM-PH-facebook:
     name: Facebook di OpenStreetMap delle Filippine
     description: 'Benvenuta/o in OpenStreetMap delle Filippine, un posto dove i nostri amici filippini vengono incoraggiati a contribuire al progetto OpenStreetMap.'
@@ -110,10 +131,11 @@ it:
   OSM-RU-telegram:
     name: Telegram di OpenStreetMap della Russia
     description: Chat Telegram di OpenStreetMap della Russia
-  OSM-LKA-facebook:
+  OSM-south-korea-telegram:
+    name: Telegram di OSM della Corea del Sud
+  OSM-sri-lanka-facebook:
     name: OpenStreetMap dello Sri Lanka
     description: Migliora OpenStreetMap nello Sri Lanka
-    extendedDescription: 'Stai mappando lo Sri Lanka? Hai domande o vuoi connetterti alla comunità locale? Unisciti a noi su {Url}. Tutti sono i benvenuti!'
   OSM-TW-facebook:
     name: Comunità di OpenStreetMap di Taiwan
     description: Gruppo di Facebook per mappatori e utenti OpenStreetMap che vogliono discutere su argomenti inerenti Taiwan.
@@ -648,7 +670,7 @@ it:
     extendedDescription: '{url} è per tutti quelli che hanno bisogno di aiuto con OpenStreetMap. Sia che tu sia un principiante o che tu abbia una domanda tecnica, siamo qui per aiutarti!'
   OSM-IRC:
     name: IRC OpenStreetMap
-    description: 'Entra in #osm su irc.oftc.net (porta 6667('
+    description: 'Entra in #osm su irc.oftc.net (porta 6667)'
   OSM-Reddit:
     name: OpenStreetMap su Reddit
     description: /r/openstreetmap/ è il posto perfetto per imparare di più su OpenStreetMap. Chiedici di tutto!

@@ -62,9 +62,6 @@ uk:
   OSM-japan-website:
     name: OpenStreetMap Японія
     description: Учасники та користувачі OpenStreetMap в Японії
-  OSM-korea-telegram:
-    name: OSM Korea канал в Telegram
-    description: 'Неофіційний канал для учасників OpenStreetMap в Кореї, для спілкування та обміну досвідом.'
   OSM-MY-facebook:
     name: OpenStreetMap Малайзія у Facebook
     description: Для спілкування про все, що пов'язано з OpenStreetMap!
@@ -104,10 +101,6 @@ uk:
   OSM-RU-telegram:
     name: OpenStreetMap RU telegram
     description: OpenStreetMap Russia канал telegram
-  OSM-LKA-facebook:
-    name: OpenStreetMap Шрі-Ланка
-    description: Покращити OpenStreetMap у Шрі-Ланці
-    extendedDescription: 'Мапите у Шрі-Ланці? Маєте питання, бажаєте зв''язатись зі спільнотою? Приєднуйтесь до нас за адресою {Url}. Ласкаво просимо!'
   OSM-TW-facebook:
     name: 'Тайванська спільнота OpenStreetMap '
     description: Група Facebook для маперів та користувачів OpenStreetMap для обговорення питань пов'язаних з Тайванем.
@@ -398,6 +391,8 @@ uk:
     extendedDescription: 'Ми є групою маперів-волонтерів, які прагнуть вдосконалити OpenStreetMap в окрузі Колумбія. Ми також намагаємось поширити інформацію про екосистему OSM, аналізі даних, картографію та ГІС серед зацікавлених осіб. Ми збираємося щомісяця на зустрічах, щоб покращити якусь частину нашого міста.'
   OpenCleveland-meetup:
     description: Покращити OpenStreetMap навколо Клівленда
+  OSM-US-Slack:
+    description: 'Запрошуємо всіх! Зареєструйтеся на {signupUrl}'
   OSM-US:
     description: Ми допомагаємо розвивати та вдосконалювати OpenStreetMap у Сполучених Штатах.
   PHXGeo-twitter:
@@ -461,6 +456,11 @@ uk:
   OSM-PE:
     name: OpenStreetMap Перу
     description: Новини та ресурси для спільноти OpenStreetMap в Перу
+  LATAM-Twitter:
+    description: 'Приєднуйтесь до нас у Twitter: {url}'
+  OSM-Discord:
+    name: OpenStreetMap Discord
+    description: Зв'яжіться з іншими маперами за допомогою Discord
   OSM-Facebook:
     name: OpenStreetMap у Facebook
     description: Вподобайте нашу сторінку на Facebook, щоб отримувати новини про OpenStreetMap.
@@ -468,6 +468,9 @@ uk:
     name: OpenStreetMap Help
     description: Поставте питання та отримайте відповіді на веб-сайті із запитаннями і відповідями що підтримується спільнотою OSM.
     extendedDescription: '{url} для всіх, хто потребує допомоги в OpenStreetMap. Неважливо, або ви новачок в мапінгу або вам потрібна відповідь на суто технічне питання, ми тут, щоб допомогти вам!'
+  OSM-IRC:
+    name: OpenStreetMap IRC
+    description: 'Приєднуйтесь до #osm на irc.oftc.net (port 6667)'
   OSM-Reddit:
     name: OpenStreetMap на Reddit
     description: /r/openstreetmap/ чудове місце, щоб дізнатись більше про OpenStreetMap. Можете питати про будь-що!
