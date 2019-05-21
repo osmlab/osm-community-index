@@ -11,6 +11,23 @@
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+## 0.7.0
+##### 2019-May-21
+
+* New Features:
+  * Add all YouthMappers chapters, and support for `youthmappers` community type ([#224], [#152])
+
+* Add Resources:
+  * Add OpenStreetMap Slovenia Twitter ([#226])
+
+* Add events:
+  * State of the Map US 2019
+
+[#226]: https://github.com/osmlab/osm-community-index/issues/226
+[#224]: https://github.com/osmlab/osm-community-index/issues/224
+[#152]: https://github.com/osmlab/osm-community-index/issues/152
+
+
 ## 0.6.0
 ##### 2019-Jan-23
 
