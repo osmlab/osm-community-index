@@ -5,10 +5,18 @@ de:
   bw-twitter:
     name: Mapping Botswana auf Twitter
     description: OpenStreetMap in Botswana auf Twitter
+  ym-Centre-Universitaire-de-Recherche-et-dApplication-en-Tldtection-CURAT-de-lUniversit-Felix-Houphouet-Boigny:
+    name: YouthMappers CURAT
+    description: YouthMappers Ortsverband an dem Universitätszentrum für Forschung und Anwendung in der Fernerkundung (CURAT) an der Felix Houphouet Boigny Universität
+    extendedDescription: Das Ziel unseres Ortsverbanden ist es die Zusammenarbeit für freie Karten zu fördern und die Benutzung von Open StreetMap Daten für Forschung und ihre Anwendung in der Umsetzung von Werkzeugen zur Entscheidungsfindung. Wir helfen Stundenten ihre eigenen Daten für ihre Forschung herzustellen.
+  ym-The-Gambia-YMCA-University-of-the-Gambia:
+    name: Connected YouthMappers
+    description: YouthMappers Ortsverband an der Gambia YMCA / Universität von Gambia
+    extendedDescription: Connected YouthMappers besteht aus engagierten jungen Gambianern, die sich bemühen, die nationale Entwicklung zu verändern und zu unterstützen.
   cape-coast-youthmappers:
     name: Universität von Cape Coast YouthMappers
     description: 'Folge uns auf Twitter: {url}'
-    extendedDescription: 'Das ist der offizielle Handle für die Gruppe junger Mapper der Universität von Cape Coast, Ghana. Wir lieben Karten, offene Daten und Unterstützung für die Schutzlosen.'
+    extendedDescription: 'Das ist der offizielle Handle für den Ortsverband der Youth Mappers der Universität von Cape Coast, Ghana. Wir lieben Karten, offene Daten und Unterstützung für die Schutzlosen.'
   osm-gh-facebook:
     name: OpenStreetMap Ghana auf Facebook
     description: Facebook Gruppe für Menschen mit Interesse an OpenStreetMap.
@@ -19,12 +27,165 @@ de:
   talk-gh:
     name: Talk-gh Mailing Liste
     description: Talk-gh ist die offizielle Mailingliste für die OSM Community in Ghana.
+  ym-Kwame-Nkrumah-University-of-Science-and-Technology:
+    name: Kwame Nkrumah Universität für Wissenschaft und Technologie YouthMappers
+    description: YouthMappers Ortsverband an der Kwame Nkrumah Universität für Wissenschaft und Technologie
+  ym-University-of-Cape-Coast:
+    name: UCC Geographische Gesellschaft
+    description: YouthMappers Ortsverband an der Universität von Cape Coast
+    extendedDescription: Wir sind eine Gesellschaft, die alle Studenten umfasst, die in der Abteilung für Geographie und Raumplanung der Universität von Cape Coast Geographie studiert haben und studieren. Unser Hauptziel ist es, das Interesse an der Disziplin innerhalb und außerhalb des Unterrichts zu fördern. Unser Motto lautet "Wir verstehen die Erde und ihre Bewohner."
+  ym-University-of-Energy-and-Natural-Resources:
+    name: Öko-Klub
+    description: YouthMappers Ortsverband an der Universität für Energie und natürliche Ressourcen
+    extendedDescription: Allen Bürgern eine solide Aufklärung über die sich verschlechternde Umwelt bieten und die Wiederherstellung der Umwelt für das Überleben der Menschen auf äußerste Weise zu nutzen.
+  ym-University-of-Ghana:
+    name: Ghana Universität YouthMappers
+    description: YouthMappers Ortsverband an der Universität von Ghana
+    extendedDescription: 'UG YouthMappers besteht aus Graduierten und Studenten, die über Kenntnisse und Fähigkeiten im Bereich GIS und Fernerkundung verfügen. Der Club besteht aus einem energiegeladenen Team, das soziale Probleme angehen und Umweltprobleme durch Mapping abschwächen kann. Unsere Grundprinzipien sind Hilfe zur Selbsthilfe, Ermächtigung und Zusammenarbeit.'
+  ym-University-of-Mines-and-Technology:
+    name: UMaT YouthMappers
+    description: YouthMappers Ortsverband an der Universität für Bergbau und Technologie
+    extendedDescription: UMaT YouthMappers ist eine Gruppe Freiwilliger, die den Studenten die Möglichkeit geben möchten, ihre Fähigkeiten im Bereich Kartierung und Erstellung offener geografischer Daten und Analysen zu verbessern, um lokal definierten Entwicklungsherausforderungen weltweit zu begegnen.
+  ym-General-Lansana-Conte-University:
+    name: YouthMappers Allgemeine Lansana Conte Universität
+    description: YouthMappers Ortsverband an der Allgemeinen Lansana Conte Universität
+    extendedDescription: Die YouthMappers der Allgemeine Lansana Conte Universität sind eine gemeinnützige Gemeinschaft, die bereit ist, einen Beitrag zu Map Guinea und anderen Teilen der Welt zu leisten. Wir fördern die Nutzung von GIS und Open Data, um Tools zur Entscheidungsunterstützung zu erstellen. Wir arbeiten auch daran, Föähigkeiten unter den Studenten und den lokalen Gemeinschaften aufzubauen.
+  ym-Institute-of-Science-and-Veterinary-Medicine:
+    name: YouthMappers ISSMV Dalaba
+    description: YouthMappers Ortsverband am Institut für Wissenschaft und Veterinärmedizin
+    extendedDescription: YouthMappers ISSMV Dabala ist eine gemeinnützige Organisation, die sich für die Förderung der humanitären Kartierung und die Nutzung offener Quellen und offener Daten zur Errichtung von Expertensystemen in Guinea einsetzt.
+  ym-Universit-de-NZrkor:
+    name: Youthmappers à N'Zérékoré
+    description: YouthMappers Ortsverband an der Universität von N'Zérékoré
+    extendedDescription: YouthMappers ist eine Gruppe, die es ermöglicht, Binnenstaaten zu kartieren und bei Katastrophen oder Epidemien Entscheidungen zu treffen. Es erlaubt auch die Erzeugung und Verwendung von Daten in freiem Zugriff.
+  ym-Dedan-Kimathi-University-of-Technology:
+    name: GDEV
+    description: YouthMappers Ortsverband an der Technischen Universität Dedan Kimathi
+    extendedDescription: 'ie GDEV ist eine Gruppe enthusiastischer GIS-Gruppe an der DeKUT, deren Ziel es ist, Studierenden zu helfen, sich gegenseitig in geografischen Angelegenheiten auszutauschen und voneinander zu lernen'
+  ym-Jomo-Kenyatta-University-of-Agriculture-and-Technology:
+    name: Verein der Studenten der Geomatik
+    description: YouthMappers Ortsverband an der Jomo Kenyatta Universität für Landwirtschaft und Technologie
+    extendedDescription: 'Der Verein der Studenten der Geomatik (AGES) zielt darauf ab, GIS-Produkte und -Dienstleistungen zu fördern und Studenten in der Verwendung derselben zu schulen. Er fördert nicht nur den Austausch zwischen Studenten und Praktikern, sondern bietet auch eine Plattform für den Austausch neuer Ideen für die Durchführung neuer GIS sowie für Vermessungsveranstaltungen und Schulungen an der Universität.'
+  ym-Karatina-University:
+    name: Nature Club Karatina University
+    description: YouthMappers Ortsverband an der Karatina Universität
+    extendedDescription: 'Dieser Ortsverband möchte alle GIS-Enthusiasten zusammenbirngen. Dies inkludiert Umweltexperten, Tierxperten und Wasser- und Tourismusbeauftragte, um nur einige zu nennen. Das Hauptziel ist es, eine Plattform zu bieten, auf der die Schüler voneinander lernen und dabei verstehen können, wie sie die GIS-Fähigkeiten in ihre verschiedenen Karrierewege integrieren und Lösungen für verschiedene umweltbezogene Herausforderungen bieten können.'
+  ym-Kenyatta-University:
+    name: Kenyatta University GIS-Club
+    description: YouthMappers Ortsverband an der Kenyatta Universität
+    extendedDescription: 'Der GIS-Club der Kenyatta University (KUGISC) wurde am 28. Oktober 2016 mit über 200 Studenten und Mitarbeitern aller Fakultäten innerhalb des Campus als Mitglieder gegründet. Wir verpflichten uns, Mitglieder mit räumlichen Kenntnissen, Fähigkeiten und Fachkenntnissen zu unterstützen, die zum Verständnis der Erde erforderlich sind. Wir helfen bei der Kartierung von Ressourcen innerhalb der Universität, indem wir Geodaten in ihre Projekte integrieren und Felddaten sammeln.'
+  ym-Moi-University:
+    name: Geographie-Studentenverein
+    description: YouthMappers Ortsverband an der Moi Universität
+    extendedDescription: "Der Geographie-Studentenverein der Moi University (GEOSAMU) erforscht, entdeckt und zielt darauf ab, die gesamte Welt durch die jungen Geo-Spatial-Analysten zu entwickeln. GEOSAMU ist Teil der Geographischen Abteilung."
+  ym-Technical-University-of-Kenya:
+    name: Raumbezogene Wissenschaft Studentenverein
+    description: YouthMappers Ortsverband an der Technischen Universität von Kenya
+    extendedDescription: Es handelt sich um eine auf geografischen Informationen basierende Gruppe mit sehr leidenschaftlichen Studenten in den relevanten Studienbereichen. Wir schulen die Mitglieder in Bezug auf neue Trends auf dem Markt und sind auf dem neuesten Stand der Technik
+  ym-University-of-Nairobi:
+    name: Raumbezogene Wissenschaft Studentenverein
+    description: YouthMappers Ortsverband an der Universität von Nairobi
+    extendedDescription: 'UN-Studenten arbeiten mit der lokalen OSM-Community, Map Kibera und GrouthTruth zusammen, um mehr über offene Kartierungen zu erfahren und Daten für den Bedarf in ihren städtischen Gemeinden bereitzustellen.'
+  ym-African-Methodist-Episcopal-University:
+    name: YouthMappers-AMEU
+    description: YouthMappers Ortsverband an der African Methodist Episcopal Universität
+  ym-Cuttington-University:
+    name: Cuttington Universität YouthMappers
+    description: YouthMappers Ortsverband an der Cuttington Universität
+    extendedDescription: 'Die YouthMappers der Cuttington Universitäz, Suakoko und des Landkreises Bong umfassten Studenten aus drei verschiedenen Abteilungen. nämlich die Abteilung für Naturressourcenmanagement „DONRM“, die Abteilung für Umweltwissenschaften und die Abteilung für Naturwissenschaften. Seit der Gründung im Februar 2017 besteht die Gesamtzahl aus 20 Studenten, wobei jede Abteilung aus 5 Studenten besteht.'
+  ym-Grand-Gedeh-County-Community-College:
+    name: YouthMappers am Grand Gedeh County Community College
+    description: YouthMappers Ortsverband am Grand Gedeh County Community College
+    extendedDescription: Die Youth Mappers von GGCCC verfolgen die einzige Absicht, Orte in und um Liberia zu platzieren, die nicht auf der Karte stehen. Wir versammeln Jugendliche vom College des Grand Gedeh Community College, um sich zu einer gemeinsamen Aufgabe zu machen und diese Orte geografisch sichtbar zu machen.
+  ym-Nimba-County-Community-College:
+    name: Nimba County Community College Youth Mappers
+    description: YouthMappers Ortsverband am Nimba County Community College
+  ym-Stella-Maris-Polytechnic:
+    name: YouthMappers-SMP
+    description: YouthMappers Ortsverband am Stella Maris Polytechnic
+  ym-University-of-Liberia-YouthMappers:
+    name: Universität von Liberia YouthMappers
+    description: YouthMappers Ortsverband an der Universität von Liberia
+    extendedDescription: 'Die YouthMappers der University of Liberia ist eine Unterorganisation der Global YouthMappers. Wir sind eine Non-Profit-Organisation, die sich auf die Kartierung von Liberia und die Welt im Allgemeinen konzentriert. Der Zweck dieser Organisation besteht darin, technisches und räumliches Wissen als Mittel zur Erstellung und Entwicklung von Karten zu nutzen. Sammlung und Analyse von Daten zur Bewältigung lokaler und weltweiter Herausforderungen. Unser Ziel ist es, Studenten die Möglichkeit zu bieten, Interesse und Fähigkeiten in den Bereichen Mapping zu entwickeln. Wir stellen uns eine vereinte Studentengemeinschaft vor, die kooperativ und aktiv ist und bereit ist, mit den YouthMappers der Universität von Liberia zusammenzuarbeiten, um das Leben anderer zu verbessern.'
   osm-mg-facebook:
     name: OpenStreetMap Madagaskar Facebook Gruppe
     description: Madagaskar Facebook Gruppe für Menschen mit Interesse an OpenStreetMap.
   talk-mg:
     name: Talk-mg Mailingliste
     description: 'Ort für OpenStreetMap-Mitwirkende, Communitys und Benutzer in Madagaskar um sich auszutauschen und zu diskutieren.'
+  ym-University-of-Malawi:
+    name: Chanco Malawi YouthMappers
+    description: YouthMappers Ortsverband an der Universität von Malawi
+    extendedDescription: Chanco Malawi YouthMappers ist die Studentenorganisation für das Chancellor College der University of Malawi. Die Studenten konzentrieren sich auf das Mapping für Malawis Entwicklungs- und Wissenschaftsbedürfnisse.
+  ym-Universit-des-Sciences-Sociale-et-de-Gestion-de-Bamako:
+    name: Student im HoPE-Labor
+    description: YouthMappers Ortsverband an der Universität für Sozialwissenschaften und Management in Bamako
+  ym-Universidade-Eduardo-Mondlane:
+    name: Comunidade YouthMappers Mozambique
+    description: YouthMappers Ortsverband an der Eduardo Mondlane Universität
+    extendedDescription: 'Wir sind eine Studentengruppe, die sich der mosambikanischen Gesellschaft anschließen möchte, um eine widerstandsfähige Gemeinschaft humanitärer Kartierungen zu schaffen. Die Gemeinde beabsichtigt, die physische Besetzung unseres Landes abzubilden und offene geografische Daten zu erstellen, die der Öffentlichkeit zugänglich sind und in mehreren Bereichen ohne damit verbundene Kosten verwendet werden können.'
+  ym-Namibia-University-of-Science-and-Technology:
+    name: Geoinformationstechnik Stundentenverein
+    description: YouthMappers Ortsverband an der Namibia Universität für Wissenschaft und Technologie
+  ym-Abia-State-University:
+    name: AbsuMappersTeam
+    description: YouthMappers Ortsverband an der Staatlichen Universität von Abia
+    extendedDescription: 'Das AbsuMappersTeam ist ein freiwilliges Team von Kartenliebhabern, das zur Lösung von Problemen Openstreetmap, GIS und andere Open Source-Geodaten-Technologien verwendet. Es ist ein Spezialist für die Reaktion auf Katastrophen mithilfe von OpenStreetMap Es ist eine Gemeinschaft von Freiwilligen für die Erstellung von Geodaten, das Sammeln und Mapping von Felddaten. Das Team wurde von Victor N. Sonntag (der Teammentor) und Professor JUOgbonna, dem Teamkoordinator und Berater der Fakultät, gegründet. AbsuMapperTeam ist eine Tochtergesellschaft von UniiqueMappersTeam-Port Harcourt. Das Team steht für nachhaltige Entwicklung unter Verwendung von Geospatial-Technologie'
+  ym-Ahmadu-Bello-University:
+    name: ABU Geomappers
+    description: YouthMappers Ortsverband an der Ahmadu Bello Universität
+    extendedDescription: 'Wir sind eine Gruppe datengetriebener humanitärer Mapper, die sich der Aufgabe widmen, humanitäre Dienste als Reaktion auf Katastrophen und Abmilderung zu leisten. Wir sind froh, unser Know-how und unser Wissen durch Mapping einbringen und durch Training und Zusammenarbeit zur Verbreitung von #OpenEvangelism beitragen zu können.'
+  ym-Federal-School-of-Surveys:
+    name: OyoMappersTeam (OMT) Oyo
+    description: YouthMappers Ortsverband an der Federal School of Surveys
+  ym-Federal-University-of-Technology-Akure:
+    name: YouthMappers Futa Space Club
+    description: 'YouthMappers Ortsverband an der Staatlichen Technischen Universität Akure'
+    extendedDescription: "Unsere Mission ist es, die nächste Generation von Weltraumführern aufzubauen. Die Aktivitäten umfassen Forschung und Kapazitätsaufbau in den Bereichen Fernerkundung, GIS, Klimawandel, Astronomie, Kosmologie, Weltraumtechnik, Globale Navigation, Robotik und Weltraumbildung."
+  ym-Ignatius-Ajuru-University-of-Education:
+    name: IgnatiusMappersTeam (IMT)
+    description: YouthMappers Ortsverband an der Pädagogischen Universität Ignatius Ajuru
+    extendedDescription: Wir sind ein YouthMappers-Kapitel der Ignatius Ajuru Pädagogischen Universität, das an der Crowdsourcing-Kartierung unserer Umgebung und der Fernkartierung widerstandsfähiger Gemeinschaften beteiligt ist. Wir sind ein Team von Freiwilligen, die Openstreetmap und andere offene Geospatial-Quellen für das Mapping verwenden.
+  ym-University-of-Nigeria-Nsukka:
+    name: LionMappersTeam (LMT) Nsukka
+    description: 'YouthMappers Ortsverband an der Nsukka Universität von Nigeria'
+    extendedDescription: 'Das LionMappersTeam ist ein Mitglied des YouthMappers Network. Das einzige Ziel besteht darin, Mitgliedern die Möglichkeit zu geben, ihre Fähigkeiten im Bereich Kartografie zu erlernen und zu verbessern und offene geografische Daten und Analysen zu erstellen, die lokal definierten Herausforderungen auf globaler Ebene begegnen. Es handelt sich um ein Team von Freiwilligen für das Crowdsourcing-Mapping und für die Bereitstellung von geografischen Informationen mithilfe von Openstreetmap, Citizen Science und anderen Geoinformationstechnologien für Forschung, Schulung und Reaktion auf widerstandsfähige gesellschaftliche Herausforderungen. Wir sind an GIS- und Remote-Sensing-Anwendungen und an der Forschung beteiligt. GIS- und Citizen-Wissenschaft, Feld-Mapping, Schulungsworkshops und Schulbesuche an Gymnasien.'
+  ym-University-of-Port-Harcourt:
+    name: UniqueMappersTeam (UMT) Port Harcourt
+    description: YouthMappers Ortsverband an der Universität von Port Harcourt
+    extendedDescription: 'UniqueMappersTeam (UMT) Port Harcourt ist eine Aktionsgruppe und ein Team von Freiwilligen für ein kollaboratives Online-Mapping, mit dem Mitglieder geschult werden und die Mitglieder mit Trend-Mapping-Fähigkeiten befähigt werden können, um offene Geodaten und Analysen zu erstellen, die auf lokal definierte Herausforderungen für die Geoinformation eingehen, und humanitäre Kartierungsdienste bereitzustellen für belastbare Gemeinden im Niger-Delta, Nigeria und anderswo. Wir unterstützen Crowdsoucred-Mapping und die Bereitstellung von Geoinformationen mithilfe der OpenStreetMap (OSM) -Plattform und anderer zugänglicher Plattformen für schnelles Response-Mapping, Disaster-Mapping, Geo-Intelligence-Mapping, Kartenaktualisierungen und Schulungen Campus-Kapitel des Humanitarian OpenStreetMap-Teams (HOT). Es ist ein Projektteam von YouthMappers, das Mitgliedern die Möglichkeit bietet, ihre Fähigkeiten in Geoinformatik zu erlernen und zu verbessern, um globale Möglichkeiten im Bereich Mapping und Geoinformation zu erkunden.'
+  ym-University-of-Nigeria-Enugu-Campus:
+    name: LionMappersTeam (LMT) Enugu
+    description: 'YouthMappers Ortsverband an der Universität von Nigerie, Enugu Campus'
+    extendedDescription: 'Das LionMappersTeam (LMT) Enugu Campus ist ein Teil des YouthMappers Network. Das einzige Ziel ist, Mitgliedern die Möglichkeit zu geben, ihre Fähigkeiten im Bereich der Geoinformatik zu erlernen und zu verbessern sowie offene geografische Daten und Analysen zu erstellen, die lokal definierten Herausforderungen auf globaler Ebene begegnen. Es handelt sich um ein Team von Freiwilligen für die Bereitstellung von Crowdsourced-Mapping und Geoinformationen unter Verwendung von Openstreetmap, Citizen Science und anderer Geospatial-Technologie für Forschung, Schulung und Reaktion auf widerstandsfähige gesellschaftliche Herausforderungen. Wir sind in den Bereichen Web-Kartografie, GIS und Fernerkundung und Forschung involviert. Wir beschäftigen uns mit Freiwilligen Geografischen Informationen. GIS und Gerechtigkeit und Citizen Science. Zu unseren Hauptaktivitäten zählen Online-Crowdsourcing-Kartografie, Field Mapping, Schulungsworkshops und Schulungen zu High School sowie humanitärer Katastrophenhilfe.'
+  ym-Insititue-d-Enseignement-Superieur-de-Ruhengeri:
+    name: YouthMappers INES Ruhengeri
+    description: YouthMappers Ortsverband am Institut für Hochschulbildung in Ruhengeri
+    extendedDescription: Wir sind Studenten aus den Bereichen Landverwaltung und Landesvermessung von INES-Ruhengeri. Wir sind daran beteiligt, Aktivitäten zu kartieren, die Veränderungen in Richtung nachhaltige Entwicklung in unserer Gemeinschaft bewirken.
+  ym-University-of-Rwanda-Huye-Campus:
+    name: Ruanda YouthMappers
+    description: YouthMappers Ortsverband an der Universität von Rwanda - Huye Campus
+    extendedDescription: 'Aufgrund des Engagements und des Zwecks der Förderung des Mappings sowie der Informationen aus den öffentlichen Gesprächen von YouthMappers haben wir uns als Studenten in der Geographie-Abteilung organisiert, die sich beim Mapping dazu verpflichten, ein Kapitel unseres Campus zu gründen. Wir wurden von unserem Moderator Dr. Gaspard Rwanyiziri (Direktor von CGIS-Ruanda) und verschiedenen Dozentenmentoren unterstützt.'
+  ym-Institut-Suprieur-de-Management-Kolda:
+    name: Die Frauenführer von ISM / Kolda
+    description: YouthMappers Ortsverband am Höheren Institut für Management Kolda
+    extendedDescription: iDie Frauenführer von ISM / Koldast eine rein weibliche Mapping-Gruppe im südlichen Senegal,  die Kolda und die umliegenden Dörfer auf die Karte setzen und die Verwendung von OSM besser verstehen soll.
+  ym-Universit-Gaston-Berger:
+    name: YouthMappers UGB
+    description: YouthMappers Ortsver and an der Universität Gaston Berger
+    extendedDescription: YouthMappers UGB besteht aus jungen Studenten und Forschern, die sich leidenschaftlich mit Mapping beschäftigen. Unser Ziel ist es, die Fähigkeiten der Schüler auf dem Gebiet der Kartografie zu verbessern und an der Erstellung offener Geodaten mitzuwirken, die den Entwicklungsherausforderungen auf der ganzen Welt und insbesondere in Afrika entsprechen.
+  ym-Fourah-Bay-College:
+    name: Vereinigung der Geographie-Stundierenden
+  ym-Ardhi-University:
+    name: ARU Mapper
+  ym-Institute-of-Finance-Management:
+    name: IFM mappers
+  ym-Sokoine-University-of-Agriculture:
+    name: SMCoSE YouthMappers
+  ym-Gulu-University:
+    name: CSGU Mappers
+  ym-Kumi-University:
+    name: Ever Last YouthMappers
   OSM-BGD-facebook:
     name: OpenStreetMap Bangladesch
     description: Verbessere OpenStreetMap in Bangladesch
@@ -324,7 +485,7 @@ de:
     name: Talk-is Mailing Liste
     description: Talk-is ist die offizielle Mailing Liste für die isländische OSM Gemeinschaft
   is-twitter:
-    name: OSM Island auf Twittter
+    name: OSM Island auf Twitter
     description: Twitter von OpenStreetMap in Island
   it-facebook:
     name: OpenStreetMap Italien Facebook
@@ -472,7 +633,7 @@ de:
   OpenCleveland-meetup:
     name: Open Cleveland
     description: Verbessere OpenStreetMap in Cleveland, USA
-    extendedDescription: 'Open Geo Cleveland zielt darauf ab es Menschen zu ermöglichen über geographischen Daten und insbesondere OpenStreetMap zu diskutieren und Wissen zu teilen, ebenso Offene Geospatial Software zum managen, editieren und anzeigen von geographischen Daten sowie Engagement zur Nutzung in Nordost Ohio, USA. Wir sind eine Untergruppe von maptime =)'
+    extendedDescription: 'Open Geo Cleveland zielt darauf ab es Menschen zu ermöglichen über geographischen Daten und insbesondere OpenStreetMap zu diskutieren und Wissen zu teilen, ebenso Offene Geospatial Software zum managen, editieren und anzeigen von geographischen Daten sowie Engagement zur Nutzung in Nordost Ohio, USA. Wir sind ein Ortsverband von maptime =)'
   OSM-Boston:
     name: OpenStreetMap Boston
     description: Mapper und OpenStreetMap Benutzer in Boston, USA
@@ -521,11 +682,6 @@ de:
     name: OpenStreetMap US
     description: Wir helfen dabei OpenStreetMap in den USA zu verbessern.
     extendedDescription: 'Wir unterstützen OpenStreetMap durch eine jährliche Konferenz, Unterstützung von lokalen OSM-Gruppen, Aufbau von Partnerschaft und durch Verbreitung des Vorteilen von OSM. Beteiligte sich an OpenStreetMap US hier: {signupUrl}'
-    events:
-      sotmus2018:
-        name: State of the Map US 2018
-        description: 'Beteilge dich an der nationalen OpenStreetMap Gemeinschaft bei der State of the Map US in Detroit, Michigan. Triff andere Mapper, Firmen, Regierungsbehörden und gemeinnützige Organisationen, die zusammen mit der freien und editierbare Karte der Welt arbeiten.'
-        where: 'Detroit, Michigan'
   OSM-Utah:
     name: OpenStreetMap Utah
     description: Mapper und OpenStreetMap Benutzer in Salt Lake City, USA

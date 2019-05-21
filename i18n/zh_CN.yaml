@@ -81,6 +81,10 @@ zh_CN:
     extendedDescription: '在尼泊尔绘图？有任何疑问，想要与当地的社区交流？在 {Url} 加入我们。欢迎所有人！'
   OSM-Asia-mailinglist:
     name: OpenStreetMap 亚洲邮件列表
+    description: Talk-asia 是亚洲社区的官方邮件列表
+  osm-asia-telegram:
+    name: OpenStreetMap 亚洲 Telegram
+    description: '加入我们的大家庭：{url}'
   OSM-PH-facebook:
     name: OpenStreetMap 菲律宾 Facebook
   OSM-PH-mailinglist:
@@ -362,6 +366,9 @@ zh_CN:
     name: OpenStreetMap 帮助
     description: 在 OSM 社区驱动的问答网站上提问并得到解答。
     extendedDescription: '{url} 为所有人提供关于 OpenStreetMap 的帮助。无论您是新手绘图者或者有任何技术问题，都来找我们帮助吧！'
+  OSM-IRC:
+    name: OpenStreetMap IRC
+    description: '在 irc.oftc.net (端口 6667) 加入 #osm'
   OSM-Reddit:
     name: OpenStreetMap Reddit 社区
     description: /r/openstreetmap/ 是了解更多关于 OpenStreetMap 的好地方。来尽管问我们吧！
@@ -374,6 +381,7 @@ zh_CN:
   OSMF:
     name: OpenStreetMap 基金会 (OSMF)
     description: OSMF 是总部位于英国的非营利组织，用于支持 OpenStreetMap 项目。
+    extendedDescription: 'OSMF 通过筹款、维护为网站提供动力的服务器、组织年度 State of the Map 会议以及协调维护网站的志愿者来支持 OpenStreetMap。您可以通过点击该链接成为 OSMF 的一员以展示您的支持并为 OpenStreetMap 的未来发声：{signupUrl}'
     events:
       sotm2018:
         name: State of the Map 2018

@@ -66,6 +66,10 @@ it:
     name: Movimento del software e hardware liberi su Facebook
     description: 'Pagina Facebook di FSHM per conoscere gli eventi e le attività della comunità'
     extendedDescription: 'FSHM organizza eventi che riguardano il software e l’hardware liberi, la tecnologia, l’attivismo e OpenStreetMap. La sua pagina Facebook è il posto migliore per rimanere in contatto con i suoi eventi.'
+  OSM-Puducherry-Mailing-List:
+    name: Movimento del software e hardware liberi - mailinglist
+    description: Mailinglist di FSHM a Pondicherry per discutere di mappatura a Pondicherry e altro.
+    extendedDescription: 'FSHM organizza eventi relativi al software/hardware liberi, tecnologia, attivismo e OpenStreetMap.'
   OSM-India-Puducherry-Matrix:
     name: Movimento del software e hardware liberi su Matrix
     description: 'Gruppo FSHM di Riot per discutere, condividere e aggiornare le attività di mappatura, gli eventi si terranno nei dintorni di Pondicherry'
@@ -74,6 +78,17 @@ it:
     name: OpenStreetMap dell’Indonesia
     description: Migliora OpenStreetMap in Indonesia
     extendedDescription: 'Stai mappando in Indonesia? Hai domande o vuoi connetterti alla comunità locale? Unisci a a noi su {Url}. Tutti sono i benvenuti!'
+  osm-iran-aparat:
+    name: OpenStreetMap dell’Iran su Aparat
+    description: 'Iscriviti al nostro canale all’indirizzo {url}'
+    extendedDescription: Una buona risorsa per video su qualsiasi argomento relativo a OpenStreetMap. Principalmente in lingua persiana.
+  osm-iran-forum:
+    name: Forum web di OpenStreetMap dell’Iran
+    description: Forum web di OpenStreetMap dell’Iran
+    extendedDescription: Un forum web per gli utenti di OpenStreetMap in Iran. Sentiti libero di chiedere e discutere con gli altri!
+  osm-iran-telegram:
+    name: Telegram di OpenStreetMap dell’Iran
+    description: 'Ti invitiamo a unirti al nostro canale Telegram all’indirizzo {url}. Abbiamo anche un supergruppo con molti utenti OSM interessati all’Iran. Trovi il link nella biografia del canale.'
   OSM-japan-facebook:
     name: Comunità OpenStreetMap del Giappone
     description: Mappatori e utenti OpenStreetMap del Giappone
@@ -133,9 +148,11 @@ it:
     description: Chat Telegram di OpenStreetMap della Russia
   OSM-south-korea-telegram:
     name: Telegram di OSM della Corea del Sud
+    description: 'Canale non ufficiale dei contributori di OpenStreetMap, le comunità e gli utenti della Corea del Sud per condividere e discutere.'
   OSM-sri-lanka-facebook:
     name: OpenStreetMap dello Sri Lanka
     description: Migliora OpenStreetMap nello Sri Lanka
+    extendedDescription: 'Mappi in Sri Lanka? Hai delle domande oppure vuoi unirti alla comunità locale? Unisciti a noi all’indirizzo {Url}. Tutti sono i benvenuti!'
   OSM-TW-facebook:
     name: Comunità di OpenStreetMap di Taiwan
     description: Gruppo di Facebook per mappatori e utenti OpenStreetMap che vogliono discutere su argomenti inerenti Taiwan.
@@ -307,7 +324,7 @@ it:
     name: Mailinglist talk-is
     description: Talk-is è la mailinglist ufficiale della comunità OSM islandese
   is-twitter:
-    name: OSM Islanda su Twitter
+    name: OSM Islansa su Twitter
     description: Twitter di OpenStreetMap in Islanda
   it-facebook:
     name: Facebook di OpenStreetMap dell’Italia
@@ -350,6 +367,9 @@ it:
   no-mailinglist:
     name: Mailinglist di OpenStreetMap della Norvegia
     description: 'Mailinglist per mappatori e utenti di OpenStreetMap, sviluppatori ed appassionati in Norvegia'
+  no-telegram:
+    name: '@OSM_no su Telegram'
+    description: Chat Telegram di OpenStreetMap della Norvegia
   OSM-PL-facebook-group:
     name: Gruppo Facebook di OpenStreetMap della Polonia
     description: Gruppo per mappatori e utenti di OpenStreetMap in Polonia
@@ -501,11 +521,6 @@ it:
     name: OpenStreetMap degli Stati Uniti
     description: Aiutiamo a crescere e migliorare OpenStreetMap negli Stati Uniti.
     extendedDescription: 'Supportiamo OpenStreetMap organizzando conferenze annuali, producendo risorse per la comunità, costruendo relazioni e diffondendo la voce. Unisciti a OpenStreetMap degli Stati Uniti qui: {signupUrl}'
-    events:
-      sotmus2018:
-        name: State of the Map Stati Uniti 2018
-        description: 'Unisciti alla comunità di OpenStreetMap per lo State of the Map degli Stati Uniti che si terrà a Detroit nello stato del Michigan. Entra in contatto con gli altri mappatori, le aziende, le agenzie governative e quelle no-profit, tutti insieme per collaborare alla mappa del mondo libera e modificabile.'
-        where: 'Detroit, Michigan'
   OSM-Utah:
     name: OpenStreetMap dello Utah
     description: Mappaori e utenti OpenStreetMap dell’area di Salt Lake City

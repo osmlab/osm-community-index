@@ -49,7 +49,7 @@ he:
     description: Talk-in היא קבוצת הדיוור הרשמית של הקהילה ההודית
   osm-india-telegram:
     name: OpenStreetMap הודו טלגרם
-    description: 'תצטרף למשפחתנו {url}'
+    description: 'מוזמנים למשפחה: {url}'
   OSM-india-twitter:
     name: הטוויטר של OpenStreetMap הודו
     description: 'אנחנו במרחק ציוץ: {url}'
@@ -61,7 +61,7 @@ he:
     description: 'כל מה שאתה צריך לדעת על מיפוי בהודו {url}'
   osm-india-youtube:
     name: OpenStreetMap הודו יוטוב
-    description: 'תצטרף לערוץ שלנו ב {url}'
+    description: 'מוזמנים לערוץ שלנו: {url}'
   OSM-India-Puducherry-Facebook:
     name: תנועת החומרה והתכנה החופשית - פייסבוק
     description: 'עמוד הפייסבוק של FSHM נועד לעדכון על אירועים ופעילויות של הקהילה'
@@ -78,6 +78,17 @@ he:
     name: OpenStreetMap אינדונזיה
     description: שיפור OpenStreetMap באינדונזיה
     extendedDescription: 'מעניין אותך מיפוי באינדונזיה? יש לך שאלות? אולי ליצור קשר עם הקהילה המקומית? ניתן להצטרף אלינו ב־{Url}. כולם מוזמנים!'
+  osm-iran-aparat:
+    name: ה־Aparat של OpenStreetMap איראן
+    description: 'מוזמנים לערוץ שלנו בכתובת {url}'
+    extendedDescription: משאב טוב של סרטונים על כל מה שקשור ב־OpenStreetMap. בעיקר בפרסית.
+  osm-iran-forum:
+    name: הפורום המקוון של OpenStreetMap איראן
+    description: הפורום המקוון של OpenStreetMap איראן
+    extendedDescription: פורום מקוון למשתמשי OpenStreetMap באיראן. אפשר לשאול שאלות ולדון עם אחרים באופן חופשי!
+  osm-iran-telegram:
+    name: הטלגרם של OpenStreetMap איראן
+    description: 'מזמינים אותך להצטרף לערוץ הטלגרם שלנו בכתובת {url}. יש לנו גם קבוצת על של משתמשי OSM רבים שמתעניינים באיראן. ניתן למצוא את הקישור אליה בביוגרפיה של הערוץ.'
   OSM-japan-facebook:
     name: קהילת OpenStreetMap יפן
     description: ממפים ומשתמשים OpenStreetMap ביפן
@@ -116,7 +127,7 @@ he:
     description: Talk-asia היא קבוצת הדיוור הרשמית של הקהילה האסיאתית
   osm-asia-telegram:
     name: OSM אסיה טלגרם
-    description: 'תצטרף למשפחתנו {url}'
+    description: 'מוזמנים למשפחה: {url}'
   OSM-PH-facebook:
     name: הפייסבוק של OpenStreetMap PH (הפיליפינים)
     description: 'ברוך בואך ל־OpenStreetMap הפיליפינים, פה אנו מעודדים את כל הפיליפינים באשר הם לתרום למיזם OpenStreetMap.'
@@ -356,6 +367,9 @@ he:
   no-mailinglist:
     name: קבוצת הדיוור של OpenStreetMap נורווגיה
     description: 'קבוצת דיוור לממפי, משתמשי, מפתחי וחובבי OpenStreetMap בנורווגיה'
+  no-telegram:
+    name: '‎@OSM_no בטלגרם'
+    description: הטלגרם של OpenStreetMap נורבגיה
   OSM-PL-facebook-group:
     name: קבוצת הפייסבוק של OpenStreetMap פולין
     description: קבוצה של ממפים ומשתמשים ב־OpenStreetMap בפולין
@@ -507,11 +521,6 @@ he:
     name: OpenStreetMap ארה״ב
     description: אנו מסייעים להצמיח ולשפר את OpenStreetMap בארצות הברית.
     extendedDescription: 'אנו תומכים ב־OpenStreetMap על ידי אירוח של כנסים שנתיים, אספקת משאבים קהילתיים, בניית שותפויות והפצה ברבים. ניתן להצטרף ל־OpenStreetMap ארה״ב כאן: {signupUrl}'
-    events:
-      sotmus2018:
-        name: State of the Map ארה״ב 2018
-        description: 'ניתן להצטרף לקהילת OpenStreetMap ב־State of the Map ארה״ב שייערך בדטרויט, מישיגן. ניתן להתחבר עם ממפים, בעלי עסקים, סוכנויות ממשלתיות וארגונים ללא מטרות רווח, כולם משתפים פעולה סביב מפת העולם הפתוחה שניתן לערוך.'
-        where: 'דטרויט, מישיגן'
   OSM-Utah:
     name: OpenStreetMap יוטה
     description: ממפים ומשתמשים ב־OpenStreetMap באזור סולט לייק סיטי
@@ -534,6 +543,8 @@ he:
     name: קבוצת המפגשים של OSM וסטרן סלופ
     description: 'ממפי ומשתמשי OpenStreetMap סביב גרנד ג׳נקשן, קולורדו'
     extendedDescription: 'מטרת הקבוצה הזאת היא להפגיש את הקהילה עם OpenStreetMap, לפתח קהילת ממפים, ליצור את הנתונים הגאוגרפיים המרשימים ביותר שניתן באמצעות כל שיטה שאפשר למצוא כדי לבנות אסטרטגיה לקבל את המידע הזה לתוך הקהילה שלנו. איך נשמע לך תיחום שבילים מדויק? אולי פיתוח נוסף של שבילי אופניים? כל מה שרק מעניין אותך, זה היופי ב־OpenStreetMap!'
+  ym-University-of-California-Davis:
+    name: מועדון המיפוי
   Maptime-Australia-Slack:
     name: ה־Slack של Maptime אוסטרליה
     description: 'ניתן להירשם בכתובת {signupUrl}'

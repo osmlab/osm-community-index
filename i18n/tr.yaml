@@ -1,4 +1,6 @@
 tr:
+  bw-facebook:
+    description: Botswana'daki OpenStreetMap Sayfası
   cape-coast-youthmappers:
     name: Cape Coast Üniversitesi YouthMappers
     description: 'Bizi Twitter''dan takip edin: {url}'
@@ -6,6 +8,7 @@ tr:
   osm-gh-facebook:
     name: OpenStreetMap Gana Facebook'ta
     description: OpenStreetMap ile ilgilenen kişilerin Faceboo grubu.
+    extendedDescription: 'Gana topluluğundaki haritacılar, Gana''daki OpenStreetMap ve Humanitarian OpenStreetMap Team (HOT) projelerini tanıtıyor. Bize katılın.'
   osm-gh-twitter:
     name: OpenStreetMap Gana Twitter'da
     description: 'Bizi Twitter''dan takip edin: {url}'
@@ -29,13 +32,32 @@ tr:
     events:
       sotmasia2018:
         name: 'Asya 2018 Haritanın Durumu '
+        description: Hindistan’daki Harita Asya 2018 OpenStreetMap bölge çapında etkinliğe katılın
         where: 'Hint Enstitüsü Yönetimi, Bangalore, Hindistan'
+  osm-india-forum:
+    name: OpenStreetMap Hindistan forumu
+    description: OpenStreetMap Hindistan internet forumu
+  osm-india-github:
+    name: OpenStreetMap Hindistan GitHub
+    description: 'Bizimle birlikte kodlayın: {url}'
   OSM-india-mailinglist:
     name: OpenStreetMap Hindistan Posta Listesi
     description: Konuşma, Hindistan Topluluğu için resmi Posta Listesi
+  osm-india-telegram:
+    name: OpenStreetMap Hindistan Telegram
+    description: 'Ailemize katılın: {url}'
   OSM-india-twitter:
     name: OpenStreetMap Hindistan Twitter'ı
     description: 'Sadece bir tweet uzağındayız: {url}'
+  osm-india-website:
+    name: OpenStreetMap Hindistan
+    description: Hindistan'daki Haritacılar ve OpenStreetMap kullanıcıları
+  osm-india-wiki:
+    name: OpenStreetMap Wikiproject Hindistan
+    description: 'Hindistan''da haritalama hakkında bilmeniz gereken her şey: {url}'
+  osm-india-youtube:
+    name: OpenStreetMap Hindistan Youtube
+    description: 'Kanalımıza abone olun: {url}'
   OSM-India-Puducherry-Facebook:
     description: 'Topluluk etkinlikleri, aktiviteleri hakkında bilgi edinmek için FSHM Facebook sayfası'
     extendedDescription: 'FSHM, özgür yazılım / donanım, teknoloji, aktivizm ve OpenStreetMap ile ilgili etkinlikler düzenlemektedir. FB sayfası, etkinlikleriyle iletişim kurmanın en iyi yoludur.'
@@ -46,6 +68,8 @@ tr:
     name: OpenStreetMap Endonezya
     description: Endonezya'da OpenStreetMap'ı geliştirin
     extendedDescription: 'Endonezya''da haritalama mı? Sorularınız var mı, buradan toplumla bağlantı kurmak mı istiyorsunuz? {Url} adresinden bize katılın. Hoşgeldiniz!'
+  osm-iran-aparat:
+    description: '{url} adresinden kanalımıza abone olun'
   OSM-japan-facebook:
     name: OpenStreetMap Japonya Topluluğu
     description: Japonya'daki Mappers ve OpenStreetMap kullanıcıları
