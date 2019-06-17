@@ -11,6 +11,19 @@
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+## 0.8.0
+##### 2019-Jun-17
+
+* Update Resources:
+  * Maptime Australia -> Maptime Oceania, add talk-nz ([#232])
+
+* Add Resources:
+  * Add OpenStreetMap Uruguay ([#227])
+
+[#232]: https://github.com/osmlab/osm-community-index/issues/232
+[#227]: https://github.com/osmlab/osm-community-index/issues/227
+
+
 ## 0.7.0
 ##### 2019-May-21
 
