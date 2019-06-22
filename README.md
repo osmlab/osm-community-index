@@ -5,7 +5,7 @@
 ## osm-community-index
 
 
-:speech_balloon: An index of community resources for OpenStreetMap.
+:speech_balloon: An index of community resources for OpenStreetMap. You can see this index in easy to browse form at [https://community.osm.be/](https://community.osm.be/).
 
 ### What is it?
 
