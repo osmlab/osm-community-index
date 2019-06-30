@@ -205,10 +205,26 @@ fr:
   ym-Open-University-of-Tanzania:
     name: Jeunes cartographes de l'Open University of Tanzania
     description: Groupe des jeunes cartographes de l'Open University of Tanzania
+  ym-University-of-Dar-es-Salaam:
+    name: YouthMappers à l'Université de Dar es Salaam
+    description: Chapitre YouthMappers à l'Université de Dar es Salaam
+  ym-Busitema-University:
+    description: Chapitre YouthMappers à l'Université de Busitema
+  ym-Gulu-University:
+    description: Chapitre YouthMappers à l'Université de Gulu
+  ym-Kumi-University:
+    description: Chapitre YouthMappers à l'Université de Kumi
+  ym-Makerere-University:
+    description: Chapitre YouthMappers à l'Université de Makerere
+  ym-St.-Augustine-International-University:
+    name: YouthMappers à l'Université Internationale de St Augustine
+    description: Chapitre YouthMappers à l'Université Internationale de St. Augustine
   OSM-BGD-facebook:
     name: OpenStreetMap Bangladesh
     description: Améliorez OpenStreetMap au Bangladesh
     extendedDescription: 'Vous cartographiez au Bangladesh ? Vous avez des questions, souhaitez entrer en contact avec la communauté ici ? Rejoignez-nous sur {url}. Vous êtes tous les bienvenus !'
+  ym-Khulna-University:
+    name: OpenStreetMap
   OSM-India-facebook:
     name: OpenStreetMap Inde - cartographie participative du voisinage
     description: Améliorez OpenStreetMap en Inde
@@ -535,9 +551,14 @@ fr:
   Trentino-Mailing-List:
     name: Liste de diffusion OpenStreetMap pour le Trentin
     description: Liste de discussion OpenStreetMap Italie régionale pour Trentino.
+  ym-Yarmouk-University:
+    name: YouthMappers à YU
   kosovo-telegram:
     name: OpenStreetMap Kosovo sur Telegram
     description: Groupe Telegram public semi-officiel pour tout le Kosovo.  Nous accueillons tous les cartographes de n'importe où dans toutes les langues.
+  ym-Universit-Mohammed-V-Rabat:
+    name: Brahmapoutre à Rabat
+    description: Chapitre YouthMappers à l'Université Mohammed V de Rabat
   no-forum:
     name: Forum web d'OpenStreetMap Norvège
     description: Forum web d'OpenStreetMap Norvège
@@ -562,12 +583,18 @@ fr:
   si-mailinglist:
     name: Liste de diffusion d'OpenStreetMap Slovénie
     description: Liste de diffusion de la communauté OpenStreetMap en Slovénie
+  si-twitter:
+    name: Fil Twitter d'OpenStreetMap Slovénie
+    description: 'Suivez OpenStreetMap Slovénie sur Twitter : {url}'
   OSM-ES-mailinglist:
     name: Liste de diffusion Talk-es
     description: Une liste de diffusion pour discuter d'OpenStreetMap en Espagne
   OSM-ES-telegram:
     name: '@OSMes sur Telegram'
     description: Chat Telegram d'OpenStreetMap Espagne
+  ym-Universidad-Autonoma-de-Madrid:
+    name: YouthMappers à l'UAM
+    description: Chapitre YouthMappers à l'Université Autonome de Madrid
   osm-se:
     name: OpenStreetMap.se
     description: Des nouvelles de la communauté OpenStreetMap suédoise
@@ -601,6 +628,10 @@ fr:
     name: IRC d'OpenStreetMap Royaume-Uni
     description: 'Rejoignez #osm-gb sur irc.oftc.net (port 6667)'
     extendedDescription: 'Rejoignez #osm-gb sur irc.oftc.net (port 6667), soyez patient SVP et attendez quelques minutes si vous posez une question'
+  ym-University-of-Exeter:
+    description: Chapitre YouthMappers à l'Université d'Exeter
+  ym-University-of-Warwick:
+    description: Chapitre YouthMappers à l'Université de Warwick
   OSM-CA-Slack:
     name: Slack OSM-CA
     description: 'Vous êtes tous les bienvenus ! Enregistrez-vous sur {signupUrl}.'
@@ -701,6 +732,9 @@ fr:
     name: OpenStreetMap États-Unis
     description: Nous aidons OpenStreetMap à grandir et à s'améliorer aux États-Unis.
     extendedDescription: 'Nous soutenons OpenStreetMap en organisant des conférences annuelles, en fournissant des moyens à la communauté, en établissant des partenariats, et en relayant les informations. Rejoignez OpenStreetMap États-Unis ici: {signupUrl}'
+    events:
+      sotmus2019:
+        name: State of the Map USA 2019
   OSM-Utah:
     name: OpenStreetMap Utah
     description: Cartographes et utilisateurs d'OpenStreetMap dans la région de Salt Lake City
@@ -723,12 +757,23 @@ fr:
     name: Recontres de Wester Slope OSM
     description: 'Cartographes et utilisateurs d''OpenStreetMap autour de Grand Junction, CO'
     extendedDescription: 'Le but de ce groupe est de présenter OpenStreetMap aux communautés, développer une communauté de cartographes, créer la meilleure donnée géographique possible par n''importe quel moyen et finalement d''élaborer une stratégie pour communiquer cette donnée aux communautés. Imaginez des panneaux indicatifs sur les chemins de randonnées ! Imaginez un meilleur développement des voies cyclables ! Imaginez tout ce que vous voulez, c''est le plaisir d''OpenStreetMap !'
-  Maptime-Australia-Slack:
-    name: Slack de Maptime Australia
-    description: 'Enregistrez-vous sur {signupUrl}'
+  ym-Kansas-State-University:
+    description: Chapitre YouthMappers à l'Université d’État du Kansas
+  ym-Miami-University:
+    description: Chapitre YouthMappers à l'Université de Miami
+  ym-University-of-South-Carolina:
+    description: Chapitre YouthMappers à l'Université de Caroline du Sud
+  ym-University-of-Vermont:
+    description: Chapitre YouthMappers à l'Université du Vermont
+  ym-University-of-Wyoming:
+    description: Chapitre YouthMappers à l'Université du Wyoming
   talk-au:
     name: Liste de diffusion talk-au
     description: Lieu de discussion pour les cartographes australiens
+  Maptime-Oceania-Slack:
+    description: 'Enregistrez-vous sur {signupUrl}'
+  talk-nz:
+    name: Liste de diffusion Talk-nz
   OSM-AR-facebook:
     name: Page Facebook d'OpenStreetMap Argentine
     description: Rejoignez la communauté d'OpenStreetMap Argentine sur Facebook
@@ -812,6 +857,10 @@ fr:
   OSM-CO:
     name: OpenStreetMap Colombie
     description: Des nouvelles de la communauté d'OpenStreetMap Colombie et de la fondation OSMCo
+  ym-Universidad-de-La-Guajira:
+    description: Chapitre YouthMappers à l'Université de La Guajira
+  ym-Universidad-Distrital-Francisco-Jose-de-Caldas:
+    name: YouthMappers à Bogota
   OSM-EC-telegram:
     name: OSM Équateur sur Telegram
     description: Chat Telegram d'OpenStreetMap Équateur
@@ -836,6 +885,16 @@ fr:
   OSM-PE:
     name: OpenStreetMap Pérou
     description: Nouvelles et ressources pour la communauté d'OpenStreetMap au Pérou
+  uy-forum:
+    name: Forum OpenStreetMap UY
+    description: Forum web d'OpenStreetMap Uruguay
+  uy-irc:
+    name: IRC d'OpenStreetMap Uruguay
+    description: 'Rejoignez #osmuruguay sur irc.freenode.org (port 6667)'
+    extendedDescription: 'Rejoignez #osmuruguay sur irc.freenode.org'
+  uy-mailinglist:
+    name: Liste de diffusion talk-uy
+    description: Talk-uy est la liste de diffusion officielle pour la communauté uruguayenne d'OSM
   LATAM-Facebook:
     name: Facebook d'OpenStreetMap Amérique Latine
     description: OpenStreetMap Amérique Latine sur Facebook
