@@ -4,12 +4,23 @@
 # A.B.C
 ##### YYYY-MMM-DD
 
-* Add community resources:
+* Add resources:
 * Add events:
 * Updates:
 
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
+
+# 0.9.0
+##### 2019-Jun-30
+
+* Add resources:
+  * Add Resources for OSM Portugal ([#235])
+* Updates:
+  * Fix URL for NYU Mobile Health YouthMappers ([#238])
+
+[#238]: https://github.com/osmlab/osm-community-index/issues/238
+[#235]: https://github.com/osmlab/osm-community-index/issues/235
 
 ## 0.8.0
 ##### 2019-Jun-17
