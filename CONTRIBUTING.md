@@ -122,7 +122,7 @@ the resource to a .geojson feature. If null, this is a global resource.
   * "irc" - `url` should be a clickable web join link, server details can go in `description`
   * "mailinglist" - `url` should be a link to the listinfo page, e.g. `https://lists.openstreetmap.org/listinfo/talk-us`
   * "matrix" - e.g. [Riot Chat](https://matrix.org/docs/projects/client/riot.html)
-  * "meetup"
+  * "meetup" - For resources whose `url` points to a meetup.com group. Will display their logo in iD.
   * "osm" - a local OpenStreetMap page
   * "reddit"
   * "slack" - `url` should link to the Slack itself, and `signupUrl` can link to an inviter service (see example above)
