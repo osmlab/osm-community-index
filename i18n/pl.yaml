@@ -27,6 +27,7 @@ pl:
     name: Eco-Club
   ym-University-of-Ghana:
     name: YouthMappers z Uniwersytetu w Ghanie
+    description: Oddział YouthMappers na Uniwersytecie w Ghanie
   ym-University-of-Mines-and-Technology:
     name: YouthMappers UMaT
   ym-Institute-of-Science-and-Veterinary-Medicine:
@@ -35,6 +36,8 @@ pl:
     name: Youthmappers z N'Zérékoré
   ym-Dedan-Kimathi-University-of-Technology:
     name: GDEV
+  ym-University-of-Nairobi:
+    description: Oddział YouthMappers na Uniwersytecie w Nairobi
   ym-African-Methodist-Episcopal-University:
     name: YouthMappers-AMEU
   ym-Stella-Maris-Polytechnic:
@@ -45,6 +48,8 @@ pl:
   talk-mg:
     name: Lista dyskusyjna Talk-mg
     description: 'Miejsce rozmów twórców, społeczności i użytkowników OpenStreetMap na Madagaskarze.'
+  ym-University-of-Malawi:
+    description: Oddział YouthMappers na Uniwersytecie w Malawi
   ym-Ignatius-Ajuru-University-of-Education:
     name: IgnatiusMappersTeam (IMT)
   ym-University-of-Nigeria-Nsukka:
@@ -53,6 +58,9 @@ pl:
     name: UniqueMappersTeam (UMT) Port Harcourt
   ym-University-of-Nigeria-Enugu-Campus:
     name: LionMappersTeam (LMT) Enugu
+  osm-africa-telegram:
+    name: OpenStreetMap Afryka na Telegramie
+    description: Kanał OpenStreetMap Afryka na Telegramie
   ym-Insititue-d-Enseignement-Superieur-de-Ruhengeri:
     name: YouthMappers z INES Ruhengeri
   ym-University-of-Rwanda-Huye-Campus:
@@ -61,14 +69,26 @@ pl:
     name: Njala Freetown YouthMappers
   ym-Njala-University-Njala-Campus:
     name: 'YouthMappers Njala University, Njala Campus'
+  ym-University-of-Pretoria:
+    description: Oddział YouthMappers na Uniwersytecie w Pretorii
   ym-Sokoine-University-of-Agriculture:
     name: SMCoSE YouthMappers
   ym-University-of-Dar-es-Salaam:
     name: YouthMappers na Uniwersytecie Dar es Salaam
+  ym-The-University-of-Zambia:
+    description: Oddział YouthMappers na Uniwersytecie w Zambii
+  ym-University-of-Zimbabwe:
+    name: UZMappers
+    description: Oddział YouthMappers na Uniwersytecie w Zimbabwe
+  osm-afghanistan-facebook:
+    name: OpenStreetMap Afganistan
+    description: Ulepsz OpenStreetMap w Afganistanie
   OSM-BGD-facebook:
     name: OpenStreetMap Bangladesz
     description: Ulepsz OpenStreetMap w Bangladeszu
     extendedDescription: 'Mapujesz w Bangladeszu? Masz pytania lub chcesz dołączyć do naszej społeczności? Wejdź na {url}. Zapraszamy wszystkich!'
+  ym-Khulna-University:
+    name: OpenStreetMap
   OSM-India-facebook:
     name: OpenStreetMap Indie – Uczestniczący w mapowaniu sąsiedztwa
     description: Ulepsz OpenStreetMap w Indiach
@@ -118,6 +138,10 @@ pl:
     name: OpenStreetMap Indonezja
     description: Ulepsz OpenStreetMap w Indonezji
     extendedDescription: 'Mapujesz w Indonezji? Masz pytania lub chcesz dołączyć do naszej społeczności? Wejdź na {url}. Zapraszamy wszystkich!'
+  ym-Universitas-Negeri-Makassar:
+    name: Kontur Geografi
+  ym-University-Muhammadiyah-Surakarta:
+    name: SpaceTime
   osm-iran-aparat:
     name: OpenStreetMap Iran Aparat
     description: 'Subskrybuj nasz kanał: {url}'
@@ -162,6 +186,8 @@ pl:
     name: OpenStreetMap Nepal
     description: Ulepsz OpenStreetMap w Nepalu
     extendedDescription: 'Mapujesz w Nepalu? Masz pytania lub chcesz dołączyć do naszej społeczności? Wejdź na {url}. Zapraszamy wszystkich!'
+  ym-Kathmandu-University:
+    description: Oddział YouthMappers na Uniwersytecie w Katmandu
   OSM-Asia-mailinglist:
     name: Lista dyskusyjna OpenStreetMap Azja
     description: Talk-asia to oficjalna lista dyskusyjna azjatyckiej społeczności
@@ -248,8 +274,8 @@ pl:
     description: Forum www OpenStreetMap Belgia
   be-irc:
     name: OpenStreetMap Belgia na IRC
-    description: 'Dołącz do #osmbe na irc.oftc.net (port 6667)'
-    extendedDescription: 'Dołącz do #osmbe na irc.oftc.net (port 6667), który jest połączony z kanałem Matrixa'
+    description: 'Wejdź na kanał #osmbe na irc.oftc.net (port 6667)'
+    extendedDescription: 'Wejdź na kanał #osmbe na irc.oftc.net (port 6667), który jest połączony z kanałem Matrixa'
   be-mailinglist:
     name: Lista dyskusyjna Talk-be
     description: Talk-be to oficjalna lista dyskusyjna belgijskiej społeczności OSM
@@ -269,7 +295,7 @@ pl:
     description: OpenStreetMap Chorwacja na Facebooku
   hr-irc:
     name: OpenStreetMap Chorwacja na IRC
-    description: 'Dołącz do #osm-hr na irc.freenode.org (port 6667)'
+    description: 'Wejdź na kanał do #osm-hr na irc.freenode.org (port 6667)'
   hr-mailinglist:
     name: Lista dyskusyjna Talk-hr
     description: Lista dyskusyjna Talk-hr
@@ -290,16 +316,18 @@ pl:
     description: Forum www OpenStreetMap Dania
   dk-irc:
     name: OpenStreetMap Dania na IRC
-    description: 'Dołącz do #osm-dk na irc.oftc.net (port 6667)'
+    description: 'Wejdź na kanał #osm-dk na irc.oftc.net (port 6667)'
   dk-mailinglist:
     name: Lista dyskusyjna Talk-dk
     description: Lista dyskusyjna OpenStreetMap w Danii
+  ym-Queen-Mary-University-of-London:
+    description: Oddział YouthMappers na Queen Mary University of London
   fi-forum:
     name: Forum OpenStreetMap FI
     description: Forum www OpenStreetMap Finlandia
   fi-irc:
     name: OpenStreetMap Finlandia na IRC
-    description: 'Dołącz do #osm-fi na irc.oftc.net (port 6667)'
+    description: 'Wejdź na kanał #osm-fi na irc.oftc.net (port 6667)'
   fi-mailinglist:
     name: Lista dyskusyjna Talk-fi
     description: Talk-fi to oficjalna lista dyskusyjna fińskiej społeczności OSM
@@ -311,7 +339,7 @@ pl:
     description: Forum www OpenStreetMap Francja
   fr-irc:
     name: OpenStreetMap Francja na IRC
-    description: 'Dołącz do #osm-fr na irc.oftc.net (port 6667)'
+    description: 'Wejdź na kanał #osm-fr na irc.oftc.net (port 6667)'
   fr-mailinglist:
     name: Lista dyskusyjna Talk-fr
     description: Lista dyskusyjna Talk-fr
@@ -335,7 +363,7 @@ pl:
     description: Forum www OpenStreetMap Niemcy
   de-irc:
     name: OpenStreetMap Niemcy na IRC
-    description: 'Dołącza do #osm-de na irc.oftc.net (port 6667)'
+    description: 'Wejdź na kanał #osm-de na irc.oftc.net (port 6667)'
   de-mailinglist:
     name: Lista dyskusyjna Talk-de
     description: Talk-de to oficjalna lista dyskusyjna niemieckiej społeczności OSM
@@ -348,6 +376,8 @@ pl:
   osm-de:
     name: OpenStreetMap Niemcy
     description: Platofrma z informacjami o OpenStreetMap w Niemczech
+  ym-Heidelberg-University:
+    description: Oddział YouthMappers na Uniwersytecie w Heidelbergu
   hu-facebook:
     name: OpenStreetMap HU na Facebooku
     description: Mapujący i OpenStreetMap Węgry na Facebooku
@@ -362,7 +392,7 @@ pl:
     description: Strona OpenStreetMap na Islandii
   is-mailinglist:
     name: Lista dyskusyjna Talk-is
-    description: Talk-be to oficjalna lista dyskusyjna islandzkiej społeczności OSM
+    description: Talk-is to oficjalna lista dyskusyjna islandzkiej społeczności OSM
   is-twitter:
     name: OSM Islandia na Twitterze
     description: OpenStreetMap Islandia na Twitterze
@@ -371,10 +401,10 @@ pl:
     description: Dołącz do społeczności OpenStreetMap Włochy na Facebooku
   it-irc:
     name: OpenStreetMap Włochy na IRC
-    description: 'Dołącz do #osm-it na irc.oftc.net (port 6667)'
+    description: 'Wejdź na kanał #osm-it na irc.oftc.net (port 6667)'
   it-mailinglist:
     name: Lista dyskusyjna Talk-it
-    description: Talk-at  to oficjalna lista dyskusyjna włoskiej społeczności OSM
+    description: Talk-it to oficjalna lista dyskusyjna włoskiej społeczności OSM
   it-telegram:
     name: '@OpenStreetMapItalia na Telegramie'
     description: Kanał OpenStreetMap Włochy na Telegramie
@@ -395,9 +425,15 @@ pl:
   Trentino-Mailing-List:
     name: Lista dyskusyjna OpenStreetMap dla Trydentu
     description: Regionalna lista dyskusyjna OpenStreetMap Włochy dla Trydentu
+  ym-Politecnico-di-Milano:
+    name: PoliMappers
+    description: Oddział YouthMappers na Politechnice w Milanie
   kosovo-telegram:
-    name: OpenStreetMap Kosowa na Telegramie
+    name: OpenStreetMap Kosowo na Telegramie
     description: Półoficjalna grupa publiczna na Telegramie dla Kosowa i okolic. Zapraszamy wszystkich mapujących z dowolnego kraju i z dowolnym językiem.
+  lu-mailinglist:
+    name: Lista dyskusyjna Talk-lu
+    description: Oficjalna lista dyskusyjna luksemburskiej społeczności OSM
   no-forum:
     name: Forum www OpenStreetMap Norwegia
     description: Forum www OpenStreetMap Norwegia
@@ -416,6 +452,12 @@ pl:
   OSM-PL-forum:
     name: Forum OpenStreetMap Polska
     description: Forum dyskusyjne polskiej społeczności OpenStreetMap
+  pt-mailinglist:
+    name: Lista dyskusyjna Talk-pt
+    description: Talk-pt to oficjalna lista dyskusyjna portugalskiej społeczności OSM
+  pt-telegram:
+    name: OpenStreetMap Portugalia na Telegramie
+    description: 'Grupa na Telegramie portugalskiej społeczności OpenStreetMap {url}'
   si-forum:
     name: Forum OpenStreetMap Słowenia
     description: Forum społeczności OpenStreetMap w Słowenii
@@ -431,6 +473,8 @@ pl:
   OSM-ES-telegram:
     name: '@OSMes na Telegramie'
     description: Kanał OpenStreetMap Hiszpania na Telegramie
+  ym-Universidad-Politcnica-de-Madrid:
+    description: Oddział YouthMappers na Politechnice w Madrycie
   osm-se:
     name: OpenStreetMap.se
     description: Zapewniaj usługi OSM i informacje dla lokalnej społeczności w Szwecji
@@ -442,7 +486,7 @@ pl:
     description: Forum www OpenStreetMap Szwecja
   se-irc:
     name: OpenStreetMap Szwecja na IRC
-    description: 'Dołącz do #osm.se na irc.oftc.net (port 6667)'
+    description: 'Wejdź na kanał #osm.se na irc.oftc.net (port 6667)'
   se-mailinglist:
     name: Lista dyskusyjna Talk-se
     description: Lista dyskusyjna OpenStreetMap w Szwecji
@@ -462,8 +506,12 @@ pl:
     extendedDescription: 'Mappa Mercia jest projektem rozwoju OpenStreetMap w West Midlands w UK. Organizujemy różne wydarzenia, uczymy i wspieramy lokalne organizacje, które chcą się podzielić z nami swoimi danymi.'
   gb-irc:
     name: OpenStreetMap Zjednoczone Królestwo na IRC
-    description: 'Dołącz do #osm-gb na irc.oftc.net (port 6667)'
-    extendedDescription: 'Dołącz do #osm-gb na irc.oftc.net (port 6667), prosimy o cierpliwość i chwilę oczekiwania po zadaniu pytania'
+    description: 'Wejdź na kanał #osm-gb na irc.oftc.net (port 6667)'
+    extendedDescription: 'Wejdź na kanał #osm-gb na irc.oftc.net (port 6667), prosimy o cierpliwość i chwilę oczekiwania po zadaniu pytania'
+  ym-University-of-Exeter:
+    description: Oddział YouthMappers na Uniwersytecie w Exeter
+  ym-University-of-Warwick:
+    description: Oddział YouthMappers na Uniwersytecie w Warwick
   OSM-CA-Slack:
     name: OSM-CA na Slacku
     description: 'Zapraszamy wszystkich! Zarejestruj się tutaj {signupUrl}'
@@ -478,6 +526,8 @@ pl:
     description: Kanał OpenStreetMap Nikaragua na Telegramie
   ym-Universidad-Nacional-de-Ingenieria:
     name: Yeka Street MGA
+  ym-University-of-Panama:
+    description: Oddział YouthMappers na Uniwersytecie w Panamie
   Bay-Area-OpenStreetMappers:
     name: Mapujący OpenStreetMap z Bay Area
     description: Ulepsz OpenStreetMap w Bay Area
@@ -593,15 +643,42 @@ pl:
     name: Spotkania OSM Western Slope
     description: 'Mapujący i użytkownicy OpenStreetMap z okolic Grand Junction'
     extendedDescription: 'Celem tej grupy jest przedstawienie OpenStreetMap społeczności, utworzenie wspólnoty mapujących, stworzenie najbardziej niesamowitych danych geograficznych używając wszystkich dostępnych metod, które znamy i ostatecznie zintegrowanie tego wszystkiego, aby przedstawić nasze osiągnięcia. Wyobraź sobie dokładne oznakowania szlaków! Wyobraź sobie dalszy rozwój ścieżek rowerowych! Wyobraź sobie cokolwiek chcesz! To jest właśnie radość z OpenStreetMap!'
+  ym-George-Mason-University:
+    name: Mason Mappers
+    description: Oddział YouthMappers na George Mason University
+  ym-Kansas-State-University:
+    description: Oddział YouthMappers na Uniwersytecie Stanowym Kansas
+  ym-Miami-University:
+    description: Oddział YouthMappers na Uniwersytecie Miami w Oxford, Ohio
+  ym-Montgomery-College:
+    name: GeoMC
+  ym-New-York-University:
+    description: Oddział YouthMappers na Uniwersytecie Nowojorskim
+  ym-State-University-of-New-York-Geneseo:
+    name: Stowarzyszenie SUNY Geneseo GIS
+  ym-SUNY-at-Fredonia:
+    name: Geoventurers
+  ym-The-Pennsylvania-State-University:
+    description: Oddział YouthMappers na Uniwersytecie Stanowym Pensylwanii
   ym-University-of-California-Davis:
     name: Mapping Club
+  ym-University-of-Chicago:
+    description: Oddział YouthMappers na Uniwersytecie Chicagowskim
   ym-University-of-Southern-California:
     name: SC Mappers
   ym-UW-Madison:
     name: BadgerMaps
+  ym-Vassar-College:
+    name: Hudson Valley Mappers
+  ym-Western-Michigan-University:
+    name: Geography Club
+  geogeeks_perth_meetup:
+    name: Spotkania GeoGeeks Perth
   talk-au:
     name: Lista dyskusyjna Talk-au
     description: Miejsce rozmów mapujących z Aussie
+  talk-nz:
+    name: Lista dyskusyjna Talk-nz
   OSM-AR-facebook:
     name: OpenStreetMap Argentyna na Facebooku
     description: Dołącz do społeczności OpenStreetMap Argentyna na Facebooku
@@ -612,7 +689,7 @@ pl:
     extendedDescription: Idealne dla długich i ważnych dyskusji. Długi czas odpowiedzi.
   OSM-AR-irc:
     name: OpenStreetMap Argentyna na IRC
-    description: 'Dołącz do #osm-ar na irc.oftc.net (port 6667)'
+    description: 'Wejdź na kanał #osm-ar na irc.oftc.net (port 6667)'
     extendedDescription: Możesz znaleźć największego geeka w społeczności.
   OSM-AR-mailinglist:
     name: Lista dyskusyjna Talk-ar
@@ -637,6 +714,9 @@ pl:
     name: Grupa OpenStreetMap Brazylia na Telegramie
     description: Dołącz do społeczności OpenStreetMap Brazylia na Telegramie
     extendedDescription: 'Dołącz do społeczności, aby dowiedzieć się więcej o OpenStreetMap, zadawać pytania i brać udział w naszych spotkaniach. Zapraszamy wszystkich!'
+  OSM-br-discord:
+    name: OpenStreetMap Brazylia na Discord
+    description: Dołącz do społeczności OpenStreetMap Brazylia na Discord
   OSM-br-mailinglist:
     name: Lista dyskusyjna Talk-br
     description: Lista dyskusyjna OpenStreetMap w Brazylii
@@ -685,6 +765,12 @@ pl:
   OSM-CO:
     name: OpenStreetMap Kolumbia
     description: Wiadomości z kolumbijskiej społeczności OpenStreetMap i fundacji OSMCo
+  ym-Universidad-de-Antioquia:
+    name: Geomatica UDEA
+  ym-Universidad-de-La-Guajira:
+    name: Grupo Mesh
+  ym-Universidad-Nacional-de-Colombia:
+    name: Grupo UN
   OSM-EC-telegram:
     name: OSM Ekwador na Telegramie
     description: Kanał OpenStreetMap Ekwador na Telegramie
@@ -709,6 +795,25 @@ pl:
   OSM-PE:
     name: OpenStreetMap Peru
     description: Wiadomości i zasoby z peruwiańskiej społeczności OpenStreetMap
+  uy-forum:
+    name: Forum OpenStreetMap UY
+    description: Forum OpenStreetMap Urugwaj
+  uy-irc:
+    name: OpenStreetMap Urugwaj na IRC
+    description: 'Wejdź na kanał #osmuruguay na irc.freenode.org (port 6667)'
+    extendedDescription: 'Wejdź na kanał #osmuruguay na irc.freenode.org'
+  uy-mailinglist:
+    name: Lista dyskusyjna Talk-uy
+    description: Talk-uy to oficjalna lista dyskusyjna urugwajskiej społeczności OSM
+  ve-forum:
+    name: Forum OpenStreetMap VE
+    description: Forum www OpenStreetMap Wenezuela
+  ve-mailinglist:
+    name: Lista dyskusyjna Talk-ve
+    description: Talk-ve to oficjalna lista dyskusyjna wenezuelskiej społeczności OSM
+  ve-telegram:
+    name: OSM Wenezuela na Telegramie
+    description: Dołącz do społeczności OpenStreetMap Wenezuela na Telegramie
   LATAM-Facebook:
     name: OpenStreetMap Latam na Facebooku
     description: OpenStreetMap Latam na Facebooku
@@ -738,7 +843,7 @@ pl:
     extendedDescription: '{url} jest dla wszystkich, którzy potrzebują pomocy z OpenStreetMap. Nieważne, czy dopiero zaczynasz, czy masz tylko pytanie techniczne, jesteśmy tutaj, by ci pomóc!'
   OSM-IRC:
     name: IRC OpenStreetMap
-    description: 'Dołącz do #osm na serwerze irc.oftc.net (port 6667)'
+    description: 'Wejdź na kanał #osm na irc.oftc.net (port 6667)'
   OSM-Reddit:
     name: OpenStreetMap  na Reddit
     description: /r/openstreetmap/ jest wspaniałym miejscem by dowiedzieć się więcej o OpenStreetMap.
