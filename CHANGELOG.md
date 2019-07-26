@@ -11,11 +11,31 @@
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 0.10.0
+##### 2019-Jul-26
+
+* Add resources:
+  * Add resources for OSM Nicaragua ([#246])
+  * Add GeoGeeks Western Australia and GeoGeeks Perth ([#243], [#244])
+  * Add resources for OSM Venezuela ([#242])
+  * Add resources for OSM Luxembourg ([#239])
+
+* Updates:
+  * Fix Chile boundary multipolygon
+
+[#239]: https://github.com/osmlab/osm-community-index/issues/239
+[#242]: https://github.com/osmlab/osm-community-index/issues/242
+[#243]: https://github.com/osmlab/osm-community-index/issues/243
+[#244]: https://github.com/osmlab/osm-community-index/issues/244
+[#246]: https://github.com/osmlab/osm-community-index/issues/246
+
+
 # 0.9.0
 ##### 2019-Jun-30
 
 * Add resources:
-  * Add Resources for OSM Portugal ([#235])
+  * Add resources for OSM Portugal ([#235])
+
 * Updates:
   * Fix URL for NYU Mobile Health YouthMappers ([#238])
 
