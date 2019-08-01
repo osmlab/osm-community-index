@@ -11,6 +11,15 @@
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 0.11.0
+##### 2019-Aug-01
+
+* Distribute `combined.geojson` containing all resources and features
+(useful for displaying everything on a map, re: [#79])
+
+[#79]: https://github.com/osmlab/osm-community-index/issues/79
+
+
 # 0.10.0
 ##### 2019-Jul-26
 
