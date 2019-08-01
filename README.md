@@ -4,7 +4,6 @@
 
 ## osm-community-index
 
-
 :speech_balloon: An index of community resources for OpenStreetMap. You can see this index in easy to browse form at [https://community.osm.be/](https://community.osm.be/).
 
 ### What is it?
@@ -18,6 +17,7 @@ might find interesting or helpful.
 
 ### About the index
 
+#### Source files
 The source files for this index are stored in two kinds of files:
 
 * Under `features/` there are `.geojson` files to describe the areas where the communities are active
@@ -25,6 +25,17 @@ The source files for this index are stored in two kinds of files:
 
 :point_right: See [CONTRIBUTING.md](CONTRIBUTING.md) for info about how to add your
 community resource to this index.
+
+
+#### Distributed Files
+
+Several files are published under `dist/`
+
+* `features.json` - An object containing all the features
+* `resources.json` - An object containing all the resources
+* `combined.geojson` - A GeoJSON file containing a FeatureCollection of all Features, each with available resources included as `properties`.
+* `index.js` - a commonjs module which exports the `features` and `resources` objects
+
 
 ##### tl;dr
 

@@ -13,7 +13,7 @@ const geojsonSchema = require('./schema/geojson.json');
 const featureSchema = require('./schema/feature.json');
 const resourceSchema = require('./schema/resource.json');
 
-var v = new Validator();
+let v = new Validator();
 v.addSchema(geojsonSchema, 'http://json.schemastore.org/geojson.json');
 
 buildAll();
@@ -26,11 +26,14 @@ function buildAll() {
     // Start clean
     shell.rm('-f', ['dist/*.json', 'dist/*.js', 'i18n/en.yaml']);
 
-    var tstrings = {};   // translation strings
-    var features = generateFeatures();
-    var resources = generateResources(tstrings, features);
+    let tstrings = {};   // translation strings
+    const features = generateFeatures();
+    const resources = generateResources(tstrings, features);
+    const combined = generateCombined(features, resources);
 
     // Save individual data files
+    fs.writeFileSync('dist/combined.geojson', prettyStringify(combined) );
+    fs.writeFileSync('dist/combined.min.geojson', JSON.stringify(combined) );
     fs.writeFileSync('dist/features.json', prettyStringify({ features: features }) );
     fs.writeFileSync('dist/features.min.json', JSON.stringify({ features: features }) );
     fs.writeFileSync('dist/resources.json', prettyStringify({ resources: resources }) );
@@ -42,12 +45,12 @@ function buildAll() {
 
 
 function generateFeatures() {
-    var features = {};
-    var files = {};
+    let features = {};
+    let files = {};
     process.stdout.write('Features:');
     glob.sync(__dirname + '/features/**/*.geojson').forEach(function(file) {
-        var contents = fs.readFileSync(file, 'utf8');
-        var parsed;
+        const contents = fs.readFileSync(file, 'utf8');
+        let parsed;
         try {
             parsed = JSON.parse(contents);
         } catch (jsonParseError)
@@ -57,8 +60,8 @@ function generateFeatures() {
             process.exit(1);
         }
 
-        var feature = precision(rewind(parsed, true), 5);
-        var fc = feature.features;
+        let feature = precision(rewind(parsed, true), 5);
+        let fc = feature.features;
 
         // A FeatureCollection with a single feature inside (geojson.io likes to make these).
         if (feature.type === 'FeatureCollection' && Array.isArray(fc) && fc.length === 1) {
@@ -71,7 +74,7 @@ function generateFeatures() {
         validateFile(file, feature, featureSchema);
         prettifyFile(file, feature, contents);
 
-        var id = feature.id;
+        const id = feature.id;
         if (files[id]) {
             console.error(colors.red('Error - Duplicate feature id: ') + colors.yellow(id));
             console.error('  ' + colors.yellow(files[id]));
@@ -90,13 +93,13 @@ function generateFeatures() {
 }
 
 function generateResources(tstrings, features) {
-    var resources = {};
-    var files = {};
+    let resources = {};
+    let files = {};
     process.stdout.write('Resources:');
     glob.sync(__dirname + '/resources/**/*.json').forEach(function(file) {
-        var contents = fs.readFileSync(file, 'utf8');
+        let contents = fs.readFileSync(file, 'utf8');
 
-        var resource;
+        let resource;
         try {
             resource = JSON.parse(contents);
         } catch (jsonParseError) {
@@ -108,7 +111,7 @@ function generateResources(tstrings, features) {
         validateFile(file, resource, resourceSchema);
         prettifyFile(file, resource, contents);
 
-        var resourceId = resource.id;
+        let resourceId = resource.id;
         if (files[resourceId]) {
             console.error(colors.red('Error - Duplicate resource id: ') + colors.yellow(resourceId));
             console.error('  ' + colors.yellow(files[resourceId]));
@@ -116,7 +119,7 @@ function generateResources(tstrings, features) {
             process.exit(1);
         }
 
-        var featureId = resource.featureId;
+        let featureId = resource.featureId;
         if (featureId && !features[featureId]) {
             console.error(colors.red('Error - Unknown feature id: ') + colors.yellow(featureId));
             console.error('  ' + colors.yellow(file));
@@ -144,13 +147,13 @@ function generateResources(tstrings, features) {
 
         // Validate event dates and collect strings from upcoming events (where `i18n=true`)
         if (resource.events) {
-            var estrings = {};
+            let estrings = {};
 
-            for (var i = 0; i < resource.events.length; i++) {
-                var event = resource.events[i];
+            for (let i = 0; i < resource.events.length; i++) {
+                let event = resource.events[i];
 
                 // check date
-                var d = new Date(event.when);
+                const d = new Date(event.when);
                 if (isNaN(d.getTime())) {
                     console.error(colors.red('Error - Bad date: ') + colors.yellow(event.when));
                     console.error('  ' + colors.yellow(file));
@@ -185,8 +188,63 @@ function generateResources(tstrings, features) {
     return resources;
 }
 
+
+// Generate a combined GeoJSON FeatureCollection
+// containing all the features w/ resources stored in properties
+//
+// {
+//   type: 'FeatureCollection',
+//   features: [
+//     {
+//       type: 'Feature',
+//       id: 'ghana',
+//       geometry: { ... },
+//       properties: {
+//         'osm-gh-facebook': { ... },
+//         'osm-gh-twitter': { ... },
+//         'talk-gh': { ... }
+//       }
+//     }, {
+//       type: 'Feature',
+//       id: 'madagascar',
+//       geometry: { ... },
+//       properties: {
+//         'osm-mg-facebook': { ... },
+//         'osm-mg-twitter': { ... },
+//         'talk-mg': { ... }
+//       }
+//     },
+//     ...
+//   ]
+// }
+//
+//
+function generateCombined(features, resources) {
+    let keepFeatures = {};
+    Object.keys(resources).forEach(resourceId => {
+        const resource = resources[resourceId];
+        const featureId = resource.featureId;
+        if (!featureId) return;  // note: this will exclude worldwide resources
+
+        const origFeature = features[featureId];
+        if (!origFeature) return;
+
+        let keepFeature = keepFeatures[featureId];
+        if (!keepFeature) {
+            keepFeature = deepClone(origFeature);
+            keepFeature.properties = {};
+            keepFeatures[featureId] = keepFeature;
+        }
+
+        keepFeature.properties[resourceId] = deepClone(resource);
+    });
+
+    return { type: 'FeatureCollection', features: Object.values(keepFeatures) };
+}
+
+
 function validateFile(file, resource, schema) {
-    var validationErrors = v.validate(resource, schema).errors;
+    const validationErrors = v.validate(resource, schema).errors;
     if (validationErrors.length) {
         console.error(colors.red('Error - Schema validation:'));
         console.error('  ' + colors.yellow(file + ': '));
@@ -202,9 +260,13 @@ function validateFile(file, resource, schema) {
 }
 
 function prettifyFile(file, object, contents) {
-    var pretty = prettyStringify(object);
+    const pretty = prettyStringify(object);
     if (pretty !== contents) {
         fs.writeFileSync(file, pretty);
     }
+}
+
+function deepClone(obj) {
+    return JSON.parse(JSON.stringify(obj));
 }
 
