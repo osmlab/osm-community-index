@@ -51,7 +51,7 @@ Several files are published under `dist/`
 
 #### Prerequisites
 
-* [Node.js](https://nodejs.org/) version 4 or newer
+* [Node.js](https://nodejs.org/) version 8 or newer
 * [`git`](https://www.atlassian.com/git/tutorials/install-git/) for your platform
 
 #### Installing
