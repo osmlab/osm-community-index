@@ -11,6 +11,15 @@
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 0.12.0
+##### 2019-Aug-26
+
+* Refine the outlines of UPRI and FeuTech YouthMappers regions [#248], [#249])
+
+[#248]: https://github.com/osmlab/osm-community-index/issues/248
+[#249]: https://github.com/osmlab/osm-community-index/issues/249
+
+
 # 0.11.0
 ##### 2019-Aug-01
 
