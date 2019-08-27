@@ -94,6 +94,11 @@
                 }
             }
         },
+        "order": {
+            "$comment": "When several resources with same geography are present, this controls the display order.",
+            "description": "(optional) Suggested sort order for this resource (default = 0, higher numbers display more prominently)",
+            "type": "number"
+        },
         "events": {
             "description": "(optional) Featured events for this resource",
             "type": "array",

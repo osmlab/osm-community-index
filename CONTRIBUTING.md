@@ -86,6 +86,7 @@ Resource files look like this:
   "extendedDescription": "OpenStreetMap is built by a community of mappers that..."
   "signupUrl": "https://slack.openstreetmap.us/",
   "url": "https://osmus.slack.com",
+  "order": 4,
   "contacts": [
     {
       "name" : "Barney Rubble",
@@ -94,13 +95,13 @@ Resource files look like this:
   ],
   "events": [
     {
-      "id": "sotmus2017",
+      "id": "sotmus2019",
       "i18n": true,
-      "name": "State of the Map US 2017",
-      "description": "Join the OpenStreetMap community at State of the Map US in Boulder, Colorado.",
-      "where": "Boulder, Colorado, USA",
-      "when": "2017-10-20",
-      "url": "https://2017.stateofthemap.us/"
+      "name": "State of the Map US 2019",
+      "description": "Join the OpenStreetMap community at State of the Map US in Minneapolis, Minnesota.",
+      "where": "Minneapolis, Minnesota",
+      "when": "2019-sep-05",
+      "url": "https://2019.stateofthemap.us/"
     }
   ]
 }
@@ -139,6 +140,7 @@ the resource to a .geojson feature. If null, this is a global resource.
 * __`countryCodes`__ - (optional) Array of [two letter country codes](https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 where the community is active
 * __`languageCodes`__ - (optional) Array of [two letter](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) or [three letter](https://en.wikipedia.org/wiki/List_of_ISO_639-3_codes) spoken by this community
+* __`order`__ - (optional) When several resources with same geography are present, this adjusts the display order (default = 0, higher numbers display more prominently)
 
 Each community resource must have at least one contact person:
 
@@ -188,13 +190,13 @@ values (useful for events with a wider audience).
   ...
   "events": [
     {
-      "id": "sotmus2017",
+      "id": "sotmus2019",
       "i18n": true,
-      "name": "State of the Map US 2017",
-      "description": "Join the OpenStreetMap community at State of the Map US in Boulder, Colorado.",
-      "where": "Boulder, Colorado, USA",
-      "when": "2017-10-20",
-      "url": "https://2017.stateofthemap.us/"
+      "name": "State of the Map US 2019",
+      "description": "Join the OpenStreetMap community at State of the Map US in Minneapolis, Minnesota.",
+      "where": "Minneapolis, Minnesota",
+      "when": "2019-sep-05",
+      "url": "https://2019.stateofthemap.us/"
     }
 }
 ```
