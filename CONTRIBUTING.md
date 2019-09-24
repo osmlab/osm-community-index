@@ -22,6 +22,14 @@ To add your community resource:
   * This will build and check for errors and make the files pretty
 
 
+### Installing
+
+* Clone this project, for example:
+  `git clone git@github.com:osmlab/osm-community-index.git`
+* `cd` into the project folder,
+* Run `npm install` to install libraries
+
+
 ### Features
 
 These are `*.geojson` files found under the `features/` folder.
@@ -78,6 +86,7 @@ Resource files look like this:
   "extendedDescription": "OpenStreetMap is built by a community of mappers that..."
   "signupUrl": "https://slack.openstreetmap.us/",
   "url": "https://osmus.slack.com",
+  "order": 4,
   "contacts": [
     {
       "name" : "Barney Rubble",
@@ -86,13 +95,13 @@ Resource files look like this:
   ],
   "events": [
     {
-      "id": "sotmus2017",
+      "id": "sotmus2019",
       "i18n": true,
-      "name": "State of the Map US 2017",
-      "description": "Join the OpenStreetMap community at State of the Map US in Boulder, Colorado.",
-      "where": "Boulder, Colorado, USA",
-      "when": "2017-10-20",
-      "url": "https://2017.stateofthemap.us/"
+      "name": "State of the Map US 2019",
+      "description": "Join the OpenStreetMap community at State of the Map US in Minneapolis, Minnesota.",
+      "where": "Minneapolis, Minnesota",
+      "when": "2019-sep-05",
+      "url": "https://2019.stateofthemap.us/"
     }
   ]
 }
@@ -104,19 +113,25 @@ Here are the properties that a resource file can contain:
 * __`featureId`__ - (optional) A unique identifier for the feature. This `featureId` matches
 the resource to a .geojson feature. If null, this is a global resource.
 * __`type`__ - (required) Type of community resource. The following types are supported:
+  * "aparat"
   * "discord"
   * "discourse"
   * "facebook"
   * "forum" - For example, on forum.openstreetmap.org
-  * "group" - Generic catchall for anything with a `url` (such as a local OSM chapter page)
+  * "github"
+  * "group" - A site for a local group with a `url` (such as a local OSM chapter page)
   * "irc" - `url` should be a clickable web join link, server details can go in `description`
   * "mailinglist" - `url` should be a link to the listinfo page, e.g. `https://lists.openstreetmap.org/listinfo/talk-us`
   * "matrix" - e.g. [Riot Chat](https://matrix.org/docs/projects/client/riot.html)
-  * "meetup"
+  * "meetup" - For resources whose `url` points to a meetup.com group. Will display their logo in iD.
+  * "osm" - a local OpenStreetMap page
   * "reddit"
   * "slack" - `url` should link to the Slack itself, and `signupUrl` can link to an inviter service (see example above)
   * "telegram"
   * "twitter"
+  * "url" - Generic catchall for anything with a `url`
+  * "wiki" - An OpenStreetMap [wiki project page](https://wiki.openstreetmap.org/wiki/List_of_territory_based_projects)
+  * "youtube"
 * __`name`__ - (required) Display name for this community resource
 * __`description`__ - (required) One line description of the community resource
 * __`extendedDescription`__ - (optional) Longer description of the community resource
@@ -125,6 +140,7 @@ the resource to a .geojson feature. If null, this is a global resource.
 * __`countryCodes`__ - (optional) Array of [two letter country codes](https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 where the community is active
 * __`languageCodes`__ - (optional) Array of [two letter](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) or [three letter](https://en.wikipedia.org/wiki/List_of_ISO_639-3_codes) spoken by this community
+* __`order`__ - (optional) When several resources with same geography are present, this adjusts the display order (default = 0, higher numbers display more prominently)
 
 Each community resource must have at least one contact person:
 
@@ -174,13 +190,13 @@ values (useful for events with a wider audience).
   ...
   "events": [
     {
-      "id": "sotmus2017",
+      "id": "sotmus2019",
       "i18n": true,
-      "name": "State of the Map US 2017",
-      "description": "Join the OpenStreetMap community at State of the Map US in Boulder, Colorado.",
-      "where": "Boulder, Colorado, USA",
-      "when": "2017-10-20",
-      "url": "https://2017.stateofthemap.us/"
+      "name": "State of the Map US 2019",
+      "description": "Join the OpenStreetMap community at State of the Map US in Minneapolis, Minnesota.",
+      "where": "Minneapolis, Minnesota",
+      "when": "2019-sep-05",
+      "url": "https://2019.stateofthemap.us/"
     }
 }
 ```

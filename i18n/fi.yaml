@@ -1,13 +1,40 @@
 fi:
+  osm-gh-twitter:
+    description: 'Seuraa Twitter-tiliämme osoitteessa {url}'
   OSM-BGD-facebook:
     name: OpenStreetMap Bangladesh
     description: Paranna Bangladeshin OpenStreetMapia
   OSM-India-facebook:
     description: Paranna Intian OpenStreetMapia
+  fi-forum:
+    name: OpenStreetMap Suomen keskustelualue
+    description: OpenStreetMap Suomen keskustelualue verkossa
+  fi-irc:
+    name: OpenStreetMap Suomen irc-kanava
+    description: 'Osallistu #osm-fi-kanavalle osoitteessa irc.oftc.net (portti 6667)'
+  fi-mailinglist:
+    name: Talk-fi-sähköpostituslista
+    description: Talk-fi on Suomen OSM-yhteisön virallinen sähköpostituslista
+  de-mailinglist:
+    description: Talk-de on Saksan OSM-yhteisön virallinen sähköpostituslista
+  it-mailinglist:
+    description: Talk-it on Italian OSM-yhteisön virallinen sähköpostituslista
   it-twitter:
     description: 'Seuraa Twitter-tiliämme osoitteessa {url}'
+  osm-se:
+    description: OSM-palvelut ja -neuvonta Ruotsin paikallisyhteisölle
   se-facebook:
-    description: OpenStreetMap Ruotsi Facebookissa
+    name: OpenStreetMap Ruotsi Facebookissa
+    description: OpenStreetMap Ruotsin Facebook-sivu
+  se-forum:
+    name: OpenStreetMap Ruotsin keskustelualue verkossa
+    description: OpenStreetMap Ruotsin keskustelualue verkossa
+  se-irc:
+    name: 'OpenStreetMap Ruotsin irc-kanava '
+  se-mailinglist:
+    description: OpenStreetMapin postituslista avointa keskustelua varten
+  se-twitter:
+    name: OpenStreetMap Ruotsi Twitterissä
   PHXGeo-twitter:
     description: 'Seuraa Twitter-tiliämme osoitteessa {url}'
   OSM-AR-twitter:

@@ -26,19 +26,25 @@
             "description": "(required) Type of community resource",
             "type": "string",
             "enum": [
+                "aparat",
                 "discord",
                 "discourse",
                 "facebook",
                 "forum",
+                "github",
                 "group",
                 "irc",
                 "matrix",
                 "mailinglist",
                 "meetup",
+                "osm",
                 "reddit",
                 "slack",
                 "telegram",
-                "twitter"
+                "twitter",
+                "wiki",
+                "youthmappers",
+                "youtube"
             ]
         },
         "name": {
@@ -87,6 +93,11 @@
                     }
                 }
             }
+        },
+        "order": {
+            "$comment": "When several resources with same geography are present, this controls the display order.",
+            "description": "(optional) Suggested sort order for this resource (default = 0, higher numbers display more prominently)",
+            "type": "number"
         },
         "events": {
             "description": "(optional) Featured events for this resource",

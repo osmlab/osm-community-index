@@ -1,4 +1,16 @@
 zh_CN:
+  bw-facebook:
+    name: 在 Facebook 上的 Mapping Botswana
+    description: OpenStreetMap in Botswana 的页面
+  bw-twitter:
+    name: 在 Twitter 上的 Mapping Botswana
+    description: OpenStreetMap in Botswana 的 Twitter
+  ym-Centre-Universitaire-de-Recherche-et-dApplication-en-Tldtection-CURAT-de-lUniversit-Felix-Houphouet-Boigny:
+    name: YouthMappers CURAT
+    extendedDescription: 我们分会目的是推广自由画地图的协同使用，以及在研究与决策应用时运用开放街图资料，帮助学生产生他们研究时自己的资料。
+  ym-The-Gambia-YMCA-University-of-the-Gambia:
+    name: YouthMappers 接触
+    description: Connected YouthMappers 由年轻甘比亚组成，希望能改变和协助国家发展
   cape-coast-youthmappers:
     name: 海岸角大学 YouthMappers
     description: '在 Twitter 上关注我们：{url}'
@@ -38,6 +50,8 @@ zh_CN:
   OSM-india-twitter:
     name: OpenStreetMap 印度 Twitter
     description: '我们之间仅差一条推文：{url}'
+  osm-india-website:
+    name: OpenStreetMap 印度
   OSM-India-Puducherry-Facebook:
     name: 自由软硬件运动 (FSHM) - Facebook
     description: '在 FSHM Facebook 主页上了解更多社区事件和活动'
@@ -77,6 +91,12 @@ zh_CN:
     name: OpenStreetMap 尼泊尔
     description: 改进位于尼泊尔的 OpenStreetMap
     extendedDescription: '在尼泊尔绘图？有任何疑问，想要与当地的社区交流？在 {Url} 加入我们。欢迎所有人！'
+  OSM-Asia-mailinglist:
+    name: OpenStreetMap 亚洲邮件列表
+    description: Talk-asia 是亚洲社区的官方邮件列表
+  osm-asia-telegram:
+    name: OpenStreetMap 亚洲 Telegram
+    description: '加入我们的大家庭：{url}'
   OSM-PH-facebook:
     name: OpenStreetMap 菲律宾 Facebook
   OSM-PH-mailinglist:
@@ -94,10 +114,6 @@ zh_CN:
   OSM-RU-telegram:
     name: OpenStreetMap 俄罗斯 Telegram
     description: OpenStreetMap 俄罗斯 Telegram 交流
-  OSM-LKA-facebook:
-    name: OpenStreetMap 斯里兰卡
-    description: 改进位于斯里兰卡的 OpenStreetMap
-    extendedDescription: '在斯里兰卡绘图？有任何疑问，想要与当地的社区交流？在 {Url} 加入我们。欢迎所有人！'
   OSM-TW-facebook:
     name: OpenStreetMap 台湾社区
     description: 绘图者和 OpenStreetMap 用户用以讨论中国台湾省事务的 Facebook 小组。
@@ -260,9 +276,6 @@ zh_CN:
     description: '在 Twitter 上关注我们：{url}'
   Western-Slope-facebook:
     name: 西坡 OSM Facebook
-  Maptime-Australia-Slack:
-    name: Maptime 澳大利亚 Slack
-    description: '在 {signupUrl} 上注册'
   talk-au:
     name: Talk-au 邮件列表
     description: 澳大利亚绘图者交流的地方
@@ -352,6 +365,9 @@ zh_CN:
   OSM-PE:
     name: OpenStreetMap 秘鲁
     description: 关于 OpenStreetMap 秘鲁社区的新闻和资源
+  OSM-Discord:
+    name: OpenStreetMap Discord
+    description: 通过 Discord 与其他绘图者联系
   OSM-Facebook:
     name: OpenStreetMap Facebook 主页
     description: 在 Facebook 上喜欢我们并接收关于 OpenStreetMap 新闻和更新。
@@ -359,6 +375,9 @@ zh_CN:
     name: OpenStreetMap 帮助
     description: 在 OSM 社区驱动的问答网站上提问并得到解答。
     extendedDescription: '{url} 为所有人提供关于 OpenStreetMap 的帮助。无论您是新手绘图者或者有任何技术问题，都来找我们帮助吧！'
+  OSM-IRC:
+    name: OpenStreetMap IRC
+    description: '在 irc.oftc.net (端口 6667) 加入 #osm'
   OSM-Reddit:
     name: OpenStreetMap Reddit 社区
     description: /r/openstreetmap/ 是了解更多关于 OpenStreetMap 的好地方。来尽管问我们吧！
@@ -371,6 +390,7 @@ zh_CN:
   OSMF:
     name: OpenStreetMap 基金会 (OSMF)
     description: OSMF 是总部位于英国的非营利组织，用于支持 OpenStreetMap 项目。
+    extendedDescription: 'OSMF 通过筹款、维护为网站提供动力的服务器、组织年度 State of the Map 会议以及协调维护网站的志愿者来支持 OpenStreetMap。您可以通过点击该链接成为 OSMF 的一员以展示您的支持并为 OpenStreetMap 的未来发声：{signupUrl}'
     events:
       sotm2018:
         name: State of the Map 2018
