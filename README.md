@@ -59,7 +59,7 @@ Several files are published under `dist/`
 * Clone this project, for example:
   `git clone git@github.com:osmlab/osm-community-index.git`
 * `cd` into the project folder,
-* Run `npm install` to install libraries
+* Run `npm install --only=dev` to install libraries
 
 #### Building
 
