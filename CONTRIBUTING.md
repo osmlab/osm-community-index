@@ -142,7 +142,7 @@ where the community is active
 * __`languageCodes`__ - (optional) Array of [two letter](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) or [three letter](https://en.wikipedia.org/wiki/List_of_ISO_639-3_codes) spoken by this community
 * __`order`__ - (optional) When several resources with same geography are present, this adjusts the display order (default = 0, higher numbers display more prominently)
 
-Each community resource must have at least one contact person:
+Each community resource should have at least one contact person. This is optional:
 
 * __`name`__ - (required) The contact person's name
 * __`email`__ - (required) The contact person's email address

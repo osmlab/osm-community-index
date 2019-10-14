@@ -8,8 +8,7 @@
         "type",
         "name",
         "description",
-        "url",
-        "contacts"
+        "url"
     ],
     "properties": {
         "id": {
@@ -71,7 +70,7 @@
             "type": "string"
         },
         "contacts": {
-            "description": "(required) People to contact about this community resource",
+            "description": "(optional) People to contact about this community resource",
             "type": "array",
             "minItems": 1,
             "uniqueItems": true,
