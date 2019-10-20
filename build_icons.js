@@ -22,39 +22,34 @@ const faYoutube = require('@fortawesome/free-brands-svg-icons/faYoutube').faYout
 buildAll();
 
 function buildAll() {
-    var faIconMap = {
-        discord: faDiscord,
-        discourse: faDiscourse,
-        facebook: faFacebook,
-        forum: faComments,
-        github: faGithub,
-        group: faUsers,
-        irc: faKeyboard,
-        mailinglist: faAt,
-        matrix: faComments,
-        meetup: faMeetup,
-        reddit: faReddit,
-        slack: faSlack,
-        telegram: faTelegram,
-        twitter: faTwitter,
-        url: faLink,
-        youtube: faYoutube
-    };
+  const faIconMap = {
+    discord: faDiscord,
+    discourse: faDiscourse,
+    facebook: faFacebook,
+    forum: faComments,
+    github: faGithub,
+    group: faUsers,
+    irc: faKeyboard,
+    mailinglist: faAt,
+    matrix: faComments,
+    meetup: faMeetup,
+    reddit: faReddit,
+    slack: faSlack,
+    telegram: faTelegram,
+    twitter: faTwitter,
+    url: faLink,
+    youtube: faYoutube
+  };
 
-    console.log('building icons');
-    console.time(colors.green('icons built'));
+  console.log('building icons');
+  console.time(colors.green('icons built'));
 
-    for (var key in faIconMap) {
-        var val = faIconMap[key];
-        var file = 'dist/img/' + key + '.svg';
-        console.log(colors.yellow(file));
-        fs.writeFileSync(file, fontawesome.icon(val).html);
-    }
+  for (let key in faIconMap) {
+    const val = faIconMap[key];
+    const file = 'dist/img/' + key + '.svg';
+    console.log(colors.yellow(file));
+    fs.writeFileSync(file, fontawesome.icon(val).html);
+  }
 
-    var youthmappers = fs.readFileSync('svg/youthmappers.svg');
-    var ymFile = 'dist/img/youthmappers.svg';
-    console.log(colors.yellow(ymFile));
-    fs.writeFileSync(ymFile, youthmappers);
-
-    console.timeEnd(colors.green('icons built'));
+  console.timeEnd(colors.green('icons built'));
 }
