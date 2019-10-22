@@ -110,39 +110,43 @@ Resource files look like this:
 Here are the properties that a resource file can contain:
 
 * __`id`__ - (required) A unique identifier for the resource.
-* __`featureId`__ - (optional) A unique identifier for the feature. This `featureId` matches
-the resource to a .geojson feature. If null, this is a global resource.
-* __`type`__ - (required) Type of community resource. The following types are supported:
-  * "aparat" - <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/aparat.svg"/> </sub> an [Aparat](https://www.aparat.com/) video channel.
-  * "discord" - <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/discord.svg"/> </sub> a [Discord](https://discordapp.com/) chat channel.
-  * "discourse" - <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/discourse.svg"/> </sub> a [Discourse](https://www.discourse.org/) forum.
-  * "facebook" - <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/facebook.svg"/> </sub> a [Facebook](https://facebook.com) group.
-  * "forum" - <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/forum.svg"/> </sub> a generic web forum (e.g. a group on https://forum.openstreetmap.org/).
-  * "github" - <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/github.svg"/> </sub> a [GitHub](https://github.com) organization or repository.
-  * "group" - <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/group.svg"/> </sub> a generic non-OpenStreetMap local group with a `url` (e.g. [Maptime](http://maptime.io/) chapter).
-  * "irc" - <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/irc.svg"/> </sub> an IRC channel.  `url` should be a clickable web join link, server details can go in `description`.
-  * "mailinglist" - <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/mailinglist.svg"/> </sub> a mailing list.  `url` should be a link to the listinfo page, e.g. `https://lists.openstreetmap.org/listinfo/talk-us`.
-  * "matrix" - <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/matrix.svg"/> </sub> e.g. [Riot Chat](https://matrix.org/docs/projects/client/riot.html).
-  * "meetup" - <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/meetup.svg"/> </sub> a [Meetup](https://www.meetup.com/) group.
-  * "osm" - <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/osm.svg"/> </sub> a url for an OpenStreetMap group.
-  * "osm-lc" - <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/osm-lc.svg"/> </sub> a url for an official OpenStreetMap [Local Chapter](https://wiki.openstreetmap.org/wiki/Foundation/Local_Chapters).
-  * "reddit" - <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/reddit.svg"/> </sub> a subreddit on [Reddit](http://reddit.com).
-  * "slack" - <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/slack.svg"/> </sub> a [Slack](https://slack.com) workspace. `url` should link to the workspace itself, and `signupUrl` can link to an inviter service (see example above).
-  * "telegram" - <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/telegram.svg"/> </sub> a [Telegram](https://telegram.org/) channel.
-  * "twitter" - <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/twitter.svg"/> </sub> a [Twitter](https://twitter.com) account.
-  * "url" - <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/url.svg"/> </sub> a generic catchall for anything with a `url`.
-  * "wiki" - <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/wiki.svg"/> </sub> an OpenStreetMap [wiki project page](https://wiki.openstreetmap.org/wiki/List_of_territory_based_projects)
-  * "youthmappers" - <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/youthmappers.svg"/> </sub> a [YouthMappers](https://www.youthmappers.org/) chapter.
-  * "youtube" - <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/youtube.svg"/> </sub> a [YouTube](https://youtube.com) channel.
+* __`featureId`__ - (optional) A unique identifier for the feature. This `featureId` matches the resource to a .geojson feature. If null, this is a global resource.
+* __`type`__ - (required) Type of community resource (see below for list).
 * __`name`__ - (required) Display name for this community resource
 * __`description`__ - (required) One line description of the community resource
 * __`extendedDescription`__ - (optional) Longer description of the community resource
 * __`url`__ - (required) A url link to visit the community resource
 * __`signupUrl`__ - (optional) A url link to sign up for the community resource
-* __`countryCodes`__ - (optional) Array of [two letter country codes](https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
-where the community is active
+* __`countryCodes`__ - (optional) Array of [two letter country codes](https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) where the community is active
 * __`languageCodes`__ - (optional) Array of [two letter](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) or [three letter](https://en.wikipedia.org/wiki/List_of_ISO_639-3_codes) spoken by this community
 * __`order`__ - (optional) When several resources with same geography are present, this adjusts the display order (default = 0, higher numbers display more prominently)
+
+
+Each resource must have a `type`. The following values are supported:
+
+Type | Icon | Description
+---- | ---- | -----------
+ `aparat` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/aparat.svg"/> </sub> | An [Aparat](https://www.aparat.com/) video channel.
+ `discord` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/discord.svg"/> </sub> | A [Discord](https://discordapp.com/) chat channel.
+ `discourse` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/discourse.svg"/> </sub> | A [Discourse](https://www.discourse.org/) forum.
+ `facebook` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/facebook.svg"/> </sub> | A [Facebook](https://facebook.com) group.
+ `forum` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/forum.svg"/> </sub> | A generic web forum (e.g. a group on https://forum.openstreetmap.org/).
+ `github` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/github.svg"/> </sub> | A [GitHub](https://github.com) organization or repository.
+ `group` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/group.svg"/> </sub> | A generic non-OpenStreetMap local group with a `url` (e.g. [Maptime](http://maptime.io/) chapter).
+ `irc` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/irc.svg"/> </sub> | An IRC channel.  `url` should be a clickable web join link, server details can go in `description`.
+ `mailinglist` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/mailinglist.svg"/> </sub> | A mailing list.  `url` should be a link to the listinfo page, e.g. `https://lists.openstreetmap.org/listinfo/talk-us`.
+ `matrix` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/matrix.svg"/> </sub> | A [Matrix](https://matrix.org/) chat, e.g. [Riot Chat](https://matrix.org/docs/projects/client/riot.html).
+ `meetup` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/meetup.svg"/> </sub> | A [Meetup](https://www.meetup.com/) group.
+ `osm` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/osm.svg"/> </sub> | A url for an OpenStreetMap group.
+ `osm-lc` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/osm-lc.svg"/> </sub> | A url for an official OpenStreetMap [Local Chapter](https://wiki.openstreetmap.org/wiki/Foundation/Local_Chapters).
+ `reddit` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/reddit.svg"/> </sub> | A subreddit on [Reddit](http://reddit.com).
+ `slack` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/slack.svg"/> </sub> | A [Slack](https://slack.com) workspace. `url` should link to the workspace itself, and `signupUrl` can link to an inviter service (see example above).
+ `telegram` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/telegram.svg"/> </sub> | A [Telegram](https://telegram.org/) channel.
+ `twitter` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/twitter.svg"/> </sub> | A [Twitter](https://twitter.com) account.
+ `url` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/url.svg"/> </sub> | A generic catchall for anything with a `url`.
+ `wiki` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/wiki.svg"/> </sub> | An OpenStreetMap [wiki project page](https://wiki.openstreetmap.org/wiki/List_of_territory_based_projects)
+ `youthmappers` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/youthmappers.svg"/> </sub> | A [YouthMappers](https://www.youthmappers.org/) chapter.
+ `youtube` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/youtube.svg"/> </sub> | A [YouTube](https://youtube.com) channel.
 
 Each community resource should have at least one contact person. This is optional:
 
