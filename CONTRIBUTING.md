@@ -125,7 +125,7 @@ Here are the properties that a resource file can contain:
 Each resource must have a `type`. The following values are supported:
 
 Type | Icon | Description
----- | ---- | -----------
+:--- | :--- | :----------
  `aparat` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/aparat.svg"/> </sub> | An [Aparat](https://www.aparat.com/) video channel.
  `discord` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/discord.svg"/> </sub> | A [Discord](https://discordapp.com/) chat channel.
  `discourse` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/discourse.svg"/> </sub> | A [Discourse](https://www.discourse.org/) forum.
