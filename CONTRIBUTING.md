@@ -109,29 +109,31 @@ Resource files look like this:
 
 Here are the properties that a resource file can contain:
 
-* __`id`__ - (required) A unique identifier for the resource
+* __`id`__ - (required) A unique identifier for the resource.
 * __`featureId`__ - (optional) A unique identifier for the feature. This `featureId` matches
 the resource to a .geojson feature. If null, this is a global resource.
 * __`type`__ - (required) Type of community resource. The following types are supported:
-  * "aparat"
-  * "discord"
-  * "discourse"
-  * "facebook"
-  * "forum" - For example, on forum.openstreetmap.org
-  * "github"
-  * "group" - A site for a local group with a `url` (such as a local OSM chapter page)
-  * "irc" - `url` should be a clickable web join link, server details can go in `description`
-  * "mailinglist" - `url` should be a link to the listinfo page, e.g. `https://lists.openstreetmap.org/listinfo/talk-us`
-  * "matrix" - e.g. [Riot Chat](https://matrix.org/docs/projects/client/riot.html)
-  * "meetup" - For resources whose `url` points to a meetup.com group. Will display their logo in iD.
-  * "osm" - a local OpenStreetMap page
-  * "reddit"
-  * "slack" - `url` should link to the Slack itself, and `signupUrl` can link to an inviter service (see example above)
-  * "telegram"
-  * "twitter"
-  * "url" - Generic catchall for anything with a `url`
-  * "wiki" - An OpenStreetMap [wiki project page](https://wiki.openstreetmap.org/wiki/List_of_territory_based_projects)
-  * "youtube"
+  * "aparat" - an [Aparat](https://www.aparat.com/) video channel.
+  * "discord" - a [Discord](https://discordapp.com/) chat channel.
+  * "discourse" - a [Discourse](https://www.discourse.org/) forum.
+  * "facebook" - a [Facebook](https://facebook.com) group.
+  * "forum" - a generic web forum (e.g. a group on https://forum.openstreetmap.org/).
+  * "github" - a [GitHub](https://github.com) organization or repository.
+  * "group" - a generic non-OpenStreetMap local group with a `url` (e.g. [Maptime](http://maptime.io/) chapter).
+  * "irc" - an IRC channel.  `url` should be a clickable web join link, server details can go in `description`.
+  * "mailinglist" - a mailing list.  `url` should be a link to the listinfo page, e.g. `https://lists.openstreetmap.org/listinfo/talk-us`.
+  * "matrix" - e.g. [Riot Chat](https://matrix.org/docs/projects/client/riot.html).
+  * "meetup" - a [Meetup](https://www.meetup.com/) group.
+  * "osm" - a url for an OpenStreetMap group.
+  * "osm-lc" - a url for an official OpenStreetMap [Local Chapter](https://wiki.openstreetmap.org/wiki/Foundation/Local_Chapters).
+  * "reddit" - a subreddit on [Reddit](http://reddit.com).
+  * "slack" - a [Slack](https://slack.com) workspace. `url` should link to the workspace itself, and `signupUrl` can link to an inviter service (see example above).
+  * "telegram" - a [Telegram](https://telegram.org/) channel.
+  * "twitter" - a [Twitter](https://twitter.com) account.
+  * "url" - a generic catchall for anything with a `url`.
+  * "wiki" - an OpenStreetMap [wiki project page](https://wiki.openstreetmap.org/wiki/List_of_territory_based_projects)
+  * "youthmappers" - a [YouthMappers](https://www.youthmappers.org/) chapter.
+  * "youtube" - a [YouTube](https://youtube.com) channel.
 * __`name`__ - (required) Display name for this community resource
 * __`description`__ - (required) One line description of the community resource
 * __`extendedDescription`__ - (optional) Longer description of the community resource
