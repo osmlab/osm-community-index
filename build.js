@@ -34,9 +34,9 @@ function buildAll() {
     // Save individual data files
     fs.writeFileSync('dist/combined.geojson', prettyStringify(combined) );
     fs.writeFileSync('dist/combined.min.geojson', JSON.stringify(combined) );
-    fs.writeFileSync('dist/features.json', prettyStringify({ features: features }) );
+    fs.writeFileSync('dist/features.json', prettyStringify({ features: features }, { maxLength: 9999 }));
     fs.writeFileSync('dist/features.min.json', JSON.stringify({ features: features }) );
-    fs.writeFileSync('dist/resources.json', prettyStringify({ resources: resources }) );
+    fs.writeFileSync('dist/resources.json', prettyStringify({ resources: resources }, { maxLength: 9999 }));
     fs.writeFileSync('dist/resources.min.json', JSON.stringify({ resources: resources }) );
     fs.writeFileSync('i18n/en.yaml', YAML.safeDump({ en: tstrings }, { lineWidth: -1 }) );
 
@@ -260,7 +260,7 @@ function validateFile(file, resource, schema) {
 }
 
 function prettifyFile(file, object, contents) {
-    const pretty = prettyStringify(object);
+    const pretty = prettyStringify(object, { maxLength: 100 });
     if (pretty !== contents) {
         fs.writeFileSync(file, pretty);
     }
