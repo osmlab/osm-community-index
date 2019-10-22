@@ -2,12 +2,15 @@
 const colors = require('colors/safe');
 const fs = require('fs');
 const glob = require('glob');
-const precision = require('geojson-precision');
-const rewind = require('geojson-rewind');
+
 const Validator = require('jsonschema').Validator;
 const shell = require('shelljs');
 const prettyStringify = require('json-stringify-pretty-compact');
 const YAML = require('js-yaml');
+
+const calcArea = require('@mapbox/geojson-area');
+const precision = require('geojson-precision');
+const rewind = require('geojson-rewind');
 
 const geojsonSchema = require('./schema/geojson.json');
 const featureSchema = require('./schema/feature.json');
@@ -70,6 +73,12 @@ function generateFeatures() {
             }
             feature = fc[0];
         }
+
+        // calculate area and set a property for it
+        let props = feature.properties || {};
+        let area = calcArea.geometry(feature.geometry) / 1e6;   // m² to km²
+        props.area = Number(area.toFixed(2));
+        feature.properties = props;
 
         validateFile(file, feature, featureSchema);
         prettifyFile(file, feature, contents);
@@ -200,18 +209,24 @@ function generateResources(tstrings, features) {
 //       id: 'ghana',
 //       geometry: { ... },
 //       properties: {
-//         'osm-gh-facebook': { ... },
-//         'osm-gh-twitter': { ... },
-//         'talk-gh': { ... }
+//         'area': 297118.3,
+//         'resources': {
+//           'osm-gh-facebook': { ... },
+//           'osm-gh-twitter': { ... },
+//           'talk-gh': { ... }
+//         }
 //       }
 //     }, {
 //       type: 'Feature',
 //       id: 'madagascar',
 //       geometry: { ... },
 //       properties: {
-//         'osm-mg-facebook': { ... },
-//         'osm-mg-twitter': { ... },
-//         'talk-mg': { ... }
+//         'area': 964945.85,
+//         'resources': {
+//           'osm-mg-facebook': { ... },
+//           'osm-mg-twitter': { ... },
+//           'talk-mg': { ... }
+//         }
 //       }
 //     },
 //     ...
@@ -232,11 +247,11 @@ function generateCombined(features, resources) {
         let keepFeature = keepFeatures[featureId];
         if (!keepFeature) {
             keepFeature = deepClone(origFeature);
-            keepFeature.properties = {};
+            keepFeature.properties.resources = {};
             keepFeatures[featureId] = keepFeature;
         }
 
-        keepFeature.properties[resourceId] = deepClone(resource);
+        keepFeature.properties.resources[resourceId] = deepClone(resource);
     });
 
     return { type: 'FeatureCollection', features: Object.values(keepFeatures) };

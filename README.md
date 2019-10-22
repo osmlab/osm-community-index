@@ -37,7 +37,7 @@ Several files are published under `dist/`
 
 * `features.json` - An object containing all the features
 * `resources.json` - An object containing all the resources
-* `combined.geojson` - A GeoJSON file containing a FeatureCollection of all Features, each with available resources included as `properties`.
+* `combined.geojson` - A GeoJSON file containing a FeatureCollection of all Features, each with available resources included in a `resources` property.
 * `index.js` - a commonjs module which exports the `features` and `resources` objects
 
 

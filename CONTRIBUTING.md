@@ -32,9 +32,7 @@ To add your community resource:
 
 ### Features
 
-These are `*.geojson` files found under the `features/` folder.
-Each feature file contains a single GeoJSON `Feature` for an area where a
-community resource is active.
+These are `*.geojson` files found under the `features/` folder. Each feature file contains a single GeoJSON `Feature` for a region where a community resource is active.
 
 Feature files look like this:
 
@@ -42,7 +40,7 @@ Feature files look like this:
 {
   "type": "Feature",
   "id": "usa_full",
-  "properties": {},
+  "properties": { "area": 11645277.77 },
   "geometry": {
     "type": "MultiPolygon",
     "coordinates": [
@@ -52,7 +50,7 @@ Feature files look like this:
 }
 ```
 
-note: A `FeatureCollection` containing a single `Feature` is ok too - the build script can handle this.
+Note:  A `FeatureCollection` containing a single `Feature` is ok too - the build script can handle this.
 
 There are many online tools to create or modify these `.geojson` files. A workflow could be:
 
@@ -65,6 +63,9 @@ or
 1. So load the file in [geojson.io](http://geojson.io) and include the border areas again and perhaps reduce the point count further. It is probably better to have the feature a bit larger than missing an area.
 
 Each feature must have a unique `id` property, for example `usa_full`.
+
+You do not need to supply an `area` property.  The `npm run build` script will calculate the `area` property automatically.
+
 
 ### Resources
 
