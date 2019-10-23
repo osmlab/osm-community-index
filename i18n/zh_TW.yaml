@@ -65,11 +65,6 @@ zh_TW:
     name: 開放街圖印度 - 參與社區畫圖
     description: 改善印度的 OpenStreetMap
     extendedDescription: '在印度畫地圖嗎？想要問問題，想要與社群連結？請加入 {Url}，所有人都歡迎噢！'
-    events:
-      sotmasia2018:
-        name: State of the Map Asia 2018
-        description: 加入 2018 開放街圖在印度的亞洲地區性的大會活動
-        where: '印度班加羅爾，印度管理學院'
   osm-india-forum:
     name: 開放街圖印度論壇
     description: 開放街圖印度網頁論壇
@@ -178,9 +173,6 @@ zh_TW:
   OSM-RU-telegram:
     name: 開放街圖 RU Telegram
     description: 開放街圖俄羅斯 Telegram 聊天群組
-  OSM-south-korea-telegram:
-    name: OSM 南韓 Telegram
-    description: '南韓的開放街圖貢獻者、社群與使用者的分享與討論的非官方頻道。'
   OSM-sri-lanka-facebook:
     name: 開放街圖斯里蘭卡
     description: 在斯里蘭卡改善開放街圖
@@ -233,7 +225,6 @@ zh_TW:
     name: 開放街圖白羅斯
     description: 開放街圖白羅斯 Telegram 聊天室
   be-facebook:
-    name: 開放街圖比利時社群
     description: 比利時圖客和開放街圖 Facebook
   be-forum:
     name: 開放街圖比利時論壇
@@ -270,7 +261,6 @@ zh_TW:
     description: '捷克開放街圖成員的地圖入口以及聯繫地方'
   osmcz-facebook:
     name: 開放街圖捷克在 Facebook
-    description: 追蹤捷克開放街圖 Facebook -  包括翻譯 WeeklyOSM！
   osmcz-twitter:
     name: 捷克 Twitter @osmcz
     description: 追蹤捷克開放街圖 Twitter -  包括翻譯 WeeklyOSM！
@@ -442,17 +432,16 @@ zh_TW:
     name: East Midlands (諾丁漢) 酒吧每月聚會
     description: East Midlands 圖客和使用者的社交聚會
     extendedDescription: '一開始 2011 年 3 月時有一群人在諾丁罕開始聚會，後來則大多在德比，以及不時在東密德蘭的其他地方。大多是社交性質的聚會，但也是相當好詢問有關地方 OSM 或是一般性質問題。在夏季時我們通常會趁有日光時在聚會場地附近出外畫地圖，這群人有個特別興趣，就是繪製公共空間，不時會為了畫地圖而聚會。'
-  gb-mailinglist:
-    name: Talk-gb 郵件論壇
-    description: 'Talk-gb 是大英國協 (包括北愛爾蘭) 社群的官方郵件論壇 '
-  mappa-mercia-group:
-    name: Mappa Mercia 地方社群
-    description: 英格蘭中部區一帶開放街圖熱情參與者的園地
-    extendedDescription: 'Mappa Mercia 計畫宗旨是幫忙英國英格蘭中部區開放街圖的成長，我們運行社群活動，提供訓練和支援當地組織，最終希望能夠開放他們的資料。'
   gb-irc:
     name: 開放街圖聯合王國 IRC
     description: '在 irc.oftc.net (port 6667) 上面加入 #osm-gb'
     extendedDescription: '在 irc.oftc.net (port 6667) 加入 #osm-gb，如果你問了問題，請耐心等候數分鐘等待回應'
+  gb-mailinglist:
+    name: Talk-gb 郵件論壇
+  mappa-mercia-group:
+    name: Mappa Mercia 地方社群
+    description: 英格蘭中部區一帶開放街圖熱情參與者的園地
+    extendedDescription: 'Mappa Mercia 計畫宗旨是幫忙英國英格蘭中部區開放街圖的成長，我們運行社群活動，提供訓練和支援當地組織，最終希望能夠開放他們的資料。'
   OSM-CA-Slack:
     name: OSM-CA Slack
     description: '歡迎所有人加入！在 {signupUrl} 註冊。'
@@ -517,9 +506,6 @@ zh_TW:
     name: 開放街圖科羅拉多
     description: '在美國科羅拉多州的圖客與開放街圖使用者'
     extendedDescription: '開放街圖 (OpenStreetMap, OSM) 科羅拉多是一個喜歡貢獻他們的心力建立自由地圖的一群地區協作夥伴。我們鼓勵我們所有的圖客組織或建議橫跨整個州的製圖活動。會面活動可以是簡單的社交活動、OSM 基礎到進階訓練，或是社群製圖派對。'
-  OSM-NYC:
-    name: OpenStreetMap NYC
-    description: '在紐約都會區的圖客與 OpenStreetMap 使用者、開發者與愛好者'
   OSM-Portland-forum:
     name: 開放街圖 PDX Google 群組
     description: 波特蘭一帶開放街圖使用者活動的論壇和郵件論壇
@@ -694,11 +680,6 @@ zh_TW:
   osm-latam:
     name: OpenStreetMap Latam
     description: 支援在拉丁美洲的開放街圖
-    events:
-      sotm-latam-2018:
-        name: State of the Map Latam 2018
-        description: 'State of the Map Latam 是拉丁美洲開放街圖圖客和使用者的年度大會，大會有包括演講、論壇、工作坊和圖客趴等開放街圖有關的活動。'
-        where: '阿根庭布宜諾艾利斯'
   OSM-Discord:
     name: OpenStreetMap Discord
     description: 透過 Discord 與其他製圖者取得聯繫
@@ -725,8 +706,3 @@ zh_TW:
     name: 開放街圖基金會
     description: 開放街圖基金會是位於英國，支持開放街圖計劃的非營利組織
     extendedDescription: '開放街圖基金會藉由募款，維持開放街圖背後的伺服器，舉行年度 State of the Map 大會，以及協調志工維持開放街圖運作，支援開放街圖計畫。你可以在這裡藉由加入開放街圖基金會成為會員：{signupUrl}，顯示你的支持，還有在開放街圖中帶進你的聲音，指導開放街圖的發展方向。'
-    events:
-      sotm2018:
-        name: State of the Map 2018
-        description: '加入我們這三天在義大利米蘭的年度全球尺度的開放街圖大會，讓社群中的每一個人彼此社交、分享和學習。'
-        where: '義大利米蘭'

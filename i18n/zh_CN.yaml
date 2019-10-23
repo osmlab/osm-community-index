@@ -25,6 +25,8 @@ zh_CN:
   talk-gh:
     name: Talk-gh 邮件列表
     description: Talk-gh 是为加纳 OSM 社区准备的官方邮件列表
+  ym-University-of-Cape-Coast:
+    name: UCC地理学协会
   osm-mg-facebook:
     name: OpenStreetMap 马达加斯加 Facebook 小组
     description: 为对 OpenStreetMap 感兴趣的用户准备的马达加斯加 Facebook 小组。
@@ -39,11 +41,6 @@ zh_CN:
     name: OpenStreetMap 印度 - 共同参与的街区绘图
     description: 改进位于印度的 OpenStreetMap
     extendedDescription: '在印度绘图？有任何疑问，想要与当地的社区交流？在 {Url} 加入我们。欢迎所有人！'
-    events:
-      sotmasia2018:
-        name: State of the Map 亚洲 2018
-        description: 加入位于印度的 State of the Map 亚洲的2018年 OpenStreetMap 地区活动。
-        where: '印度管理学院，印度班加罗尔'
   OSM-india-mailinglist:
     name: OpenStreetMap 印度邮件列表
     description: Talk-in 是为印度社区准备的官方邮件列表
@@ -137,8 +134,6 @@ zh_CN:
   byosm:
     name: OpenStreetMap 白俄罗斯
     description: OpenStreetMap 白俄罗斯 Telegram 交流
-  be-facebook:
-    name: OpenStreetMap 比利时社区
   be-forum:
     name: OpenStreetMap 比利时论坛
     description: OpenStreetMap 比利时网络论坛
@@ -246,12 +241,11 @@ zh_CN:
     name: 东米德兰（诺丁汉）月度酒吧见面会
     description: 东米德兰绘图者和用户的社交聚会
     extendedDescription: '该小组自2011年3月开始举行会议，地点最初在诺丁汉，近几年在德比，或不时在东米德兰的其他地方举行。这些虽是社交聚会，但却是来询问涉及地区或只是普通的 OSM 特定问题的好地方。在夏季，我们通常会在会场附近进行一小时的小型测绘。整个团队都对关于公共优先权的测绘有着特殊的兴趣，并且不时为此而召开绘图会议。'
-  gb-mailinglist:
-    name: Talk-gb 邮件列表
-    description: Talk-gb 是英国(包括北爱尔兰) OSM 社区的主要交流论坛
   gb-irc:
     name: OpenStreetMap 英国 IRC
     description: '在 irc.oftc.net (端口 6667) 加入 #osm-gb'
+  gb-mailinglist:
+    name: Talk-gb 邮件列表
   OSM-CA-Slack:
     name: OSM-CA Slack
     description: '欢迎所有人加入！在 {signupUrl} 上注册。'
@@ -391,8 +385,3 @@ zh_CN:
     name: OpenStreetMap 基金会 (OSMF)
     description: OSMF 是总部位于英国的非营利组织，用于支持 OpenStreetMap 项目。
     extendedDescription: 'OSMF 通过筹款、维护为网站提供动力的服务器、组织年度 State of the Map 会议以及协调维护网站的志愿者来支持 OpenStreetMap。您可以通过点击该链接成为 OSMF 的一员以展示您的支持并为 OpenStreetMap 的未来发声：{signupUrl}'
-    events:
-      sotm2018:
-        name: State of the Map 2018
-        description: '加入我们为期3天在意大利米兰举办的年度全球 OpenStreetMap 会议，与社区中的每个人相聚并进行交流、分享和学习。'
-        where: '意大利米兰'

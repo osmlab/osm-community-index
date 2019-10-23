@@ -19,6 +19,8 @@ it:
   talk-gh:
     name: Mailinglist talk-gh
     description: Talk-gh è la mailinglist ufficiale della comunità OSM del Ghana.
+  ym-University-of-Ghana:
+    name: Giovani mappatori dell'Università del Ghana
   osm-mg-facebook:
     name: Gruppo Facebook di OpenStreetMap del Madagascar
     description: Gruppo Facebook malgascio per persone interessate a OpenStreetMap.
@@ -33,11 +35,6 @@ it:
     name: OpenStreetMap India - mappatura di quartiere partecipativa
     description: Miglioriamo OpenStreetMap in India
     extendedDescription: 'Mappi in India? Hai domande o vuoi connetterti alla comunità locale? Unisciti a noi su {url}. Tutti sono i benvenuti!'
-    events:
-      sotmasia2018:
-        name: State of the Map Asia 2018
-        description: Unisciti a State of the Map Asia di OpenStreetMap, un evento che si terrà in India nel 2018
-        where: 'Indian Institute of Management, Bangalore, India'
   osm-india-forum:
     name: Forum di OpenStreetMap dell’India
     description: Forum web di OpenStreetMap dell’India
@@ -146,9 +143,6 @@ it:
   OSM-RU-telegram:
     name: Telegram di OpenStreetMap della Russia
     description: Chat Telegram di OpenStreetMap della Russia
-  OSM-south-korea-telegram:
-    name: Telegram di OSM della Corea del Sud
-    description: 'Canale non ufficiale dei contributori di OpenStreetMap, le comunità e gli utenti della Corea del Sud per condividere e discutere.'
   OSM-sri-lanka-facebook:
     name: OpenStreetMap dello Sri Lanka
     description: Migliora OpenStreetMap nello Sri Lanka
@@ -201,7 +195,6 @@ it:
     name: OpenStreetMap della Bielorussia
     description: Chat Telegram di OpenStreetMap della Bielorussia
   be-facebook:
-    name: Comunità belga di OpenStreetMap
     description: Facebook dei mappatori e OpenStreetMap in Belgio
   be-forum:
     name: Forum belga di OpenStreetMap
@@ -238,7 +231,6 @@ it:
     description: 'Portale delle mappe, sito web e contatti fra i membri di OSM nella Repubblica Ceca'
   osmcz-facebook:
     name: OpenStreetMap della Repubblica Ceca su Facebook
-    description: Segui la comunità ceca su Facebook - include la versione tradotta del settimanale WeeklyOSM!
   osmcz-twitter:
     name: Twitter della Repubblica Ceca @osmcz
     description: Segui la comunità ceca su Twitter - include la versione tradotta del settimanale WeeklyOSM!
@@ -410,17 +402,16 @@ it:
     name: Meetup mensili pubblici di Nottingham e East Midlands
     description: Incontri sociali per i mappatori e utenti delle East Midlands
     extendedDescription: 'Un gruppo che da marzo 2011 si riunisce, inizialmente a Nottingham, più recentemente a Derby e di tanto in tanto da qualche altra parte nelle East Midlands. Si tratta di incontri sociali, ma sono anche dei momenti eccellenti per venire a fare delle domande specifiche su OSM nella nostra zona o in generale. Nei mesi estivi facciamo solitamente delle sessioni leggere di mappatura nei dintorni del punto d’incontro. Il gruppo ha come interesse speciale quello di mappare le precedenze nelle strade pubbliche e di tanto in tanto ci incontriamo proprio per questo scopo.'
-  gb-mailinglist:
-    name: Mailinglist talk-gb
-    description: Talk-gb è la principale piattaforma di comunicazione della comunità OSM britannica (Irlanda del Nord inclusa)
-  mappa-mercia-group:
-    name: Gruppo locale Mappa Mercia
-    description: Un posto per gli appassionati di OpenStreetMap nelle Midlands
-    extendedDescription: 'Mappa Mercia è un progetto per sviluppare OpenStreetMap nelle West Midlands nel Regno Unito. Organizziamo eventi per la comunità,  lezioni e supportiamo gli enti locali che vogliano rendere aperti i dati in loro possesso.'
   gb-irc:
     name: Canale IRC di OpenStreetMap del Regno Unito
     description: 'Entra in #osm-gb su irc.oftc.net (porta 6667)'
     extendedDescription: 'Entra in #osm-gb su irc.oftc.net (porta 6667), cerca di essere paziente e aspetta almeno qualche minuto se chiedi qualcosa'
+  gb-mailinglist:
+    name: Mailinglist talk-gb
+  mappa-mercia-group:
+    name: Gruppo locale Mappa Mercia
+    description: Un posto per gli appassionati di OpenStreetMap nelle Midlands
+    extendedDescription: 'Mappa Mercia è un progetto per sviluppare OpenStreetMap nelle West Midlands nel Regno Unito. Organizziamo eventi per la comunità,  lezioni e supportiamo gli enti locali che vogliano rendere aperti i dati in loro possesso.'
   OSM-CA-Slack:
     name: Slack di OSM-CA
     description: 'Tutti sono i benvenuti! Iscriviti su {signupUrl}.'
@@ -485,9 +476,6 @@ it:
     name: OpenStreetMap del Colorado
     description: 'Mappatori e utenti OpenStreetMap dello stato del Colorado, USA'
     extendedDescription: 'OpenStreetMap (OSM) del Colorado è una collaborazione locale di persone interessate a usare le proprie forze per creare mappe libere. Noi incoraggiamo i nostri mappatori ad organizzare e suggerire eventi di mappatura ovunque nel nostro stato. Attività di incontro come per esempio semplici riunioni, lezioni di OSM dal principiante all’intermedio oppure feste di mappatura in compagnia.'
-  OSM-NYC:
-    name: OpenStreetMap NYC
-    description: 'Mappatori e utenti OpenStreetMap, sviluppatori e appassionati nell''area Metropolitana di New York'
   OSM-Portland-forum:
     name: Gruppo Google di OpenStreetMap PDX
     description: Forum e mailinglist degli utenti di OpenStreetMap nell’area di Portland
@@ -662,11 +650,6 @@ it:
   osm-latam:
     name: OpenStreetMap dell’America Latina
     description: Sosteniamo OpenStreetMap in America Latina
-    events:
-      sotm-latam-2018:
-        name: State of the Map America Latina 2018
-        description: 'State of the Map America Latina è la conferenza annuale per tutti i mappatori e gli utenti di OpenStreetMap in America Latina. Il programma include discussioni, gruppi, lezioni e mapathon riguardanti OpenStreetMap.'
-        where: 'Buenos Aires, Argentina'
   OSM-Discord:
     name: Discord OpenStreetMap
     description: Entra in contatto con gli altri mappatori attraverso Discord
@@ -693,8 +676,3 @@ it:
     name: OpenStreetMap Foundation
     description: OSMF è una organizzazione non a scopo di lucro che ha sede nel Regno Unito e che supporta il progetto OpenStreetMap
     extendedDescription: 'OSMF supporta OpenStreetMap con la raccolta fondi, la manutenzione dei server che danno energia a OSM, l’organizzazione dell’annuale conferenza State of the Map e la coordinazione dei volontari che tengono in vita OSM. Puoi dare il tuo contributo e avere una voce in capitolo nella direzione di OpenStreetMap unendoti alla OSMF come membro andando a questo indirizzo: {signupUrl}'
-    events:
-      sotm2018:
-        name: State of the Map 2018
-        description: 'Unisciti a noi per 3 giorni a Milano (Italia), alla conferenza mondiale annuale di OpenStreetMap, in cui tutti i membri della comunità potranno incontrarsi per socializzare, condividere ed imparare.'
-        where: 'Milano, Italia'

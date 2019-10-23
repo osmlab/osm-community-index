@@ -35,11 +35,6 @@ uk:
     name: OpenStreetMap Індія - участь в мапінгу поселень
     description: Покращити OpenStreetMap в Індії
     extendedDescription: 'Мапите в Індії? Маєте питання чи бажаєте поспілкуватись зі спільнотою тут? Приєднуйтесь до нас - {url}. Ласкаво просимо!'
-    events:
-      sotmasia2018:
-        name: State of the Map Азія 2018
-        description: Відвідайте регіональну конференцію State of the Map 2018 в Індії
-        where: 'Індійський інститут управління, Бангалор, Індія'
   osm-india-forum:
     name: Форум OpenStreetMap Індія
     description: Форум OpenStreetMap Індія
@@ -148,9 +143,6 @@ uk:
   OSM-RU-telegram:
     name: OpenStreetMap RU telegram
     description: OpenStreetMap Russia канал telegram
-  OSM-south-korea-telegram:
-    name: OSM South Korea канал в Telegram
-    description: 'Неофіційний канал для учасників OpenStreetMap в Південній Кореї, для спілкування та обміну досвідом.'
   OSM-sri-lanka-facebook:
     name: OpenStreetMap Шрі-Ланка
     description: Покращити OpenStreetMap у Шрі-Ланці
@@ -203,7 +195,6 @@ uk:
     name: OpenStreetMap Білорусь
     description: OpenStreetMap Belarus канал telegram
   be-facebook:
-    name: Спільнота OpenStreetMap BE
     description: Мапери та OpenStreetMap Бельгія у Facebook
   be-forum:
     name: Форум OpenStreetMap BE
@@ -240,7 +231,6 @@ uk:
     description: 'Портал з мапою, вебсайт та контакти з іншими учасниками OSM в Чехії'
   osmcz-facebook:
     name: OpenStreetMap Чехія у Facebook
-    description: Стежте за подіями чеської спільноти у Facebook - включаючи переклади WeeklyOSM!
   osmcz-twitter:
     name: Twitter Чехія OSM @osmcz
     description: Стежте за подіями чеської спільноти у Twitter - включаючи переклади WeeklyOSM!
@@ -408,21 +398,39 @@ uk:
   se-twitter:
     name: OpenStreetMap Швеція у Twitter
     description: 'Приєднуйтесь до нас у Twitter: {url}'
+  ua-facebook:
+    name: OpenStreetMap Україна в Facebook
+    description: Приєднуйтесь до спільноти OpenStreetMap Україна у Facebook
+  ua-forum:
+    name: Форум OpenStreetMap Україна
+    description: Форум української спільноти OpenStreetMap
+  ua-github:
+    name: OpenStreetMap Україна у GitHub
+    description: GitHub OpenStreetMap Україна
+  ua-slack:
+    name: Slack OpenStreetMap Україна
+    description: Приєднуйтесь до спільноти OpenStreetMap Україна в Slack
+  ua-telegram:
+    description: OpenStreetMap Україна чат в Telegram
+  ua-twitter:
+    description: 'OpenStreetMap Україна в Twitter: {url}'
+  ua-osm:
+    name: Веб-сайт OpenStreetMap Україна
+    description: Відвідайте веб-сайт OpenStreetMap Україна
   Nottingham-OSM-pub-meetup:
     name: Іст-Мідлендс (Ноттінгем) Щомісячні зустрічі в пабі
     description: Збори для мапперів та користувачів Східного Мідлендса
     extendedDescription: 'Група організовує зустрічі з березня 2011 року, спочатку в Ноттінгемі, і нещодавно в Дербі, і час від часу в інших місцях Східного Мідлендса. Це збори для приємного спільного проведення часу та обговорення питань пов''язаних з OSM. В літні місяці ми зазвичай проводимо невеличкий огляд території та мапінг, впродовж години, досліджуючи місцевість навколо місця зустрічі. Група в цілому особливо зацікавлена ​​в тому, щоб позначати дорожню інфраструктуру для всіх учасників руху, і час від часу проводить збори з цією метою.'
-  gb-mailinglist:
-    name: Talk-gb Список розсилки
-    description: Talk-gb - це основне місце спілкування для британської (включаючи Північну Ірландію) спільноти OSM
-  mappa-mercia-group:
-    name: Місцева група Mappa Mercia
-    description: Місце для ентузіастів OpenStreetMap у Мідлендс
-    extendedDescription: 'Mappa Mercia - це проект з розвитку OpenStreetMap у Вест-Мідлендс, Великобританія. Ми проводимо спільні заходи, проводимо навчання та підтримуємо місцеві організації, які бажають зробити свої дані відкритими.'
   gb-irc:
     name: OpenStreetMap United Kingdom IRC
     description: 'Приєднуйтесь до #osm-gb на irc.oftc.net (port 6667)'
     extendedDescription: 'Приєднуйтесь до #osm-gb на irc.oftc.net (порт 6667), будь ласка, будьте терплячі та зачекайте кілька хвилин, після того як ви поставите питання'
+  gb-mailinglist:
+    name: Talk-gb Список розсилки
+  mappa-mercia-group:
+    name: Місцева група Mappa Mercia
+    description: Місце для ентузіастів OpenStreetMap у Мідлендс
+    extendedDescription: 'Mappa Mercia - це проект з розвитку OpenStreetMap у Вест-Мідлендс, Великобританія. Ми проводимо спільні заходи, проводимо навчання та підтримуємо місцеві організації, які бажають зробити свої дані відкритими.'
   OSM-CA-Slack:
     name: OSM-CA Slack
     description: 'Запрошуємо всіх! Зареєструйтеся на {signupUrl}'
@@ -579,8 +587,3 @@ uk:
     name: Фундація OpenStreetMap
     description: OSMF, зареєстрована у Великий Британії, неприбуткова організація, що опікується проектом OpenStreetMap
     extendedDescription: 'OSMF підтримує OpenStreetMap організовуючи збір коштів, опікуючись роботою серверів, на яких розташовано OSM, організовуючи щорічні конференції State of the Map, координуючи зусилля волонтерів, що допомагають роботі OSM. Ви можете також показати свою підтримку та мати вплив на подальший розвиток проекту, ставши членом OSMF: {signupUrl}'
-    events:
-      sotm2018:
-        name: State of the Map 2018
-        description: 'Приєднайтесь до нас в Мілані, Італія на 3 дні на щорічній всесвітній конференції OpenStreetMap, на якій збираються представники спільноти для спілкування, обміну досвідом та навчання.'
-        where: 'Мілан, Італія'

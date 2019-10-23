@@ -7,6 +7,7 @@ pt_BR:
     description: Twitter do OpenStreetMap no Botsuana
   ym-Centre-Universitaire-de-Recherche-et-dApplication-en-Tldtection-CURAT-de-lUniversit-Felix-Houphouet-Boigny:
     name: YouthMappers CURAT
+    extendedDescription: Nosso foco é promover o uso do livre mapeamento colaborativo e o uso de dados do openstreetmap no campo de pesquisa e suas aplicações na implementação de ferramentos para criador de decisão. Ajuda estudantes produzirem as próprias informações de sua pesquisa.
   ym-The-Gambia-YMCA-University-of-the-Gambia:
     name: YouthMappers conectado
   cape-coast-youthmappers:
@@ -26,9 +27,12 @@ pt_BR:
   ym-Kwame-Nkrumah-University-of-Science-and-Technology:
     description: YouthMappers na Universidade de Ciência e Tecnologia de Kwame Nkrumah
   ym-University-of-Cape-Coast:
+    name: Sociedade Geográfica da UCC
     extendedDescription: Somos uma sociedade que engloba todos os estudantes que estão lendo e lendo geografia no Departamento de Geografia e Planejamento Regional da Universidade de Cape Coast. Nosso principal objetivo é promover o interesse pela disciplina dentro e fora da sala de aula. Nosso lema é "Nós compreendemos a Terra e seus habitantes".
   ym-University-of-Energy-and-Natural-Resources:
     name: Clube Ecológico
+  ym-University-of-Ghana:
+    name: Universidade de Ghana YouthMappers
   ym-Dedan-Kimathi-University-of-Technology:
     name: GDEV
   osm-mg-facebook:
@@ -45,11 +49,6 @@ pt_BR:
     name: OpenStreetMap Índia - Mapeamento de vizinhança participativa
     description: Melhore o OpenStreetMap na Índia
     extendedDescription: 'Mapeando na Índia? Tem dúvidas, quer conectar-se com a comunidade aqui?  Junte-se a nós em {url}.  Todos são bem-vindos!'
-    events:
-      sotmasia2018:
-        name: State of the Map Asia 2018
-        description: Junte-se ao evento regional do Estado do Mapa do OpenStreetMap 2018 na Índia
-        where: 'Instituto Indiano de Administração, Bangalore, Índia'
   osm-india-forum:
     name: Fórum do OpenStreetMap na Índia
     description: Web fórum do OpenStreetMap Índia
@@ -142,8 +141,6 @@ pt_BR:
   OSM-RU-telegram:
     name: Telegram do OpenStreetMap RU
     description: Bate-papo do OpenStreetMap Rússia no Telegram
-  OSM-south-korea-telegram:
-    name: Telegram do OpenStreetMap Coréia do Sul
   OSM-TW-mailinglist:
     name: Lista de Discussão Taiwan
   OSM-TH-CNX-meetup:
@@ -294,6 +291,7 @@ pt_BR:
     name: Lista de discussão do OpenStreetMap para o Trentino
   kosovo-telegram:
     name: OpenStreetMap Kosovo no Telegram
+    description: Grupo público semi-oficial do Telegram de Kosovo. Saudamos com todos os mapeadores de qualquer lugar e em qualquer idioma.
   no-forum:
     name: Web Forum do OpenStreetMap Noruega
     description: Web forum do OpenStreetMap Noruega
@@ -327,12 +325,12 @@ pt_BR:
   se-twitter:
     name: OpenStreetMap Suécia no Twitter
     description: 'Siga-nos no Twitter: {url}'
-  gb-mailinglist:
-    name: Lista de Discussão Talk-gb
   gb-irc:
     name: IRC OpenStreetMap Reino Unido
     description: 'Junte-se à #osm-gb no irc.oftc.net (porta 6667)'
     extendedDescription: 'Junte-se à #osm-gb no irc.oftc.net (porta 6667), por favor seja paciente e aguarde alguns minutos se fizer uma pergunta'
+  gb-mailinglist:
+    name: Lista de Discussão Talk-gb
   OSM-CA-Slack:
     name: Slack do OSM-CA
     description: 'Todos são bem-vindos! Inscreva-se em {signupUrl}'
@@ -377,10 +375,8 @@ pt_BR:
     description: O grupo de usuários do OpenStreetMap para o Chattanooga
   OSM-Colorado:
     name: OpenStreetMap Colorado
+    description: 'Mapeadores e usuários do OpenStreetMap no estado do Colorado, EUA'
     extendedDescription: 'OpenStreetMap (OSM) Colorado é uma colaboração local de pessoas interessadas em contribuir com seus esforços para criar mapas gratuitos. Encorajamos todos os nossos mapeadores a organizar ou sugerir o mapeamento de eventos em todo o estado. As atividades do Meetup podem ser simples mixers sociais, treinamento básico e avançado do OSM ou partes de mapeamento da comunidade.'
-  OSM-NYC:
-    name: OpenStreetMap NYC
-    description: 'Usuários e Mapeadores do OpenStreetMap, desenvolvedores e entusiastas da área metropolitana de Nova York'
   OSM-Portland-forum:
     description: Fórum e lista de discussão para usuários do OpenStreetMap na área de Portland
   OSM-Portland:
@@ -395,6 +391,8 @@ pt_BR:
   OSM-South-Bay:
     name: OSM South Bay
     description: Noites do Mapa hospedado por Code for San Jose
+  OSM-Tampa-Bay:
+    description: Mapeadores e usuários do OpenStreetMap em Tampa Bay
   OSM-US-Slack:
     name: Slack do OpenStreetMap US
     description: 'Todos são bem-vindos! Inscreva-se em {signupUrl}'
@@ -407,6 +405,10 @@ pt_BR:
     name: OpenStreetMap Wyoming
   PHXGeo-twitter:
     description: 'Siga-nos no Twitter em {url}'
+  Western-Slope-facebook:
+    description: 'Editores e usuários do OpenStreetMap em Grand Junction, CO'
+  Western-Slope-meetup:
+    description: 'Mapeadores e usuários do OpenStreetMap em Grand Junction, CO'
   ym-Western-Michigan-University:
     name: Clube de Geografia
   talk-au:
@@ -528,11 +530,6 @@ pt_BR:
   osm-latam:
     name: OpenStreetMap Latam
     description: Suportando o OpenStreetMap na América Latina
-    events:
-      sotm-latam-2018:
-        name: State of the Map Latam 2018
-        description: 'State of the Map Latam é a conferência anual para todos os mapeadores e usuários do OpenStreetMap na América Latina.  O programa inclui palestras, painéis, oficinas e mapatonas relacionadas ao OpenStreetMap.'
-        where: 'Buenos Aires, Argentina'
   OSM-Discord:
     name: OpenStreetMap no Discord
     description: Entre em contato com outros mapeadores via Discord
@@ -559,8 +556,3 @@ pt_BR:
     name: Fundação OpenStreetMap
     description: OSMF é uma fundação sem fins lucrativos baseada no Reino Unido que suporta o projeto OpenStreetMap
     extendedDescription: 'OSMF suporta o OpenStreetMap levantando fundos, mantendo os servidores onde reside o OSM, organizando a conferência anual State of the Map, e coordenando os voluntários que mantém o OSM no ar.  Você pode mostrar seu suporte e ter uma voz na direção do OpenStreetMap associando-se como um membro aqui: {signupUrl}'
-    events:
-      sotm2018:
-        name: State of the Map 2018
-        description: 'Participe da conferência global do OpenStreetMap em Milão (Itália), evento que irá reunir por três dias toda a comunidade OSM para socializar, compartilhar e aprender juntos.'
-        where: 'Milão, Itália'

@@ -146,6 +146,10 @@ es:
     name: IgnatiusMappersTeam (IMT)
     description: Capítulo de YouthMappers en la Universidad de Educación Ignatius Ajuru
     extendedDescription: Somos un Capítulo de Jóvenes de la Universidad de Educación de Ignatius Ajuru involucrado en la creación de mapas de nuestro entorno de participación colectiva y en el mapeo remoto de comunidades resilientes. Somos un equipo de voluntarios que utiliza openstreetmap y otra fuente geoespacial abierta para el mapeo.
+  ym-University-of-Nigeria-Enugu-Campus:
+    name: LionMappersTeam (LMT) Enugu
+    description: 'Capítulo de los YouthMappers en la Universidad de Nigeria, Campus Enugu'
+    extendedDescription: 'El LionMappersTeam (LMT) Enugu Campus es un afiliado de YouthMappers Network, con el único objetivo de brindar a los miembros la oportunidad de aprender y mejorar sus habilidades en el campo de la geoinformática y crear datos geográficos abiertos y análisis que aborden los desafíos definidos localmente a nivel mundial. Es un equipo de voluntarios para la provisión de información geográfica y de mapas de colaboración colectiva que utiliza Openstreetmap, Citizen Science y otras tecnologías geoespaciales para la investigación, la capacitación y la respuesta a los desafíos de la comunidad resistente. Participamos en aplicaciones de cartografía web, SIG y teledetección e investigación. Nos apasiona la información geográfica voluntaria. El SIG participativo y la ciencia ciudadana. Nuestras actividades principales incluyen cartografía en línea, cartografía de campo, talleres de capacitación y divulgación a la escuela secundaria, así como Mapeo de Respuesta Humanitaria / Desastres.'
   ym-University-of-Nigeria-Nsukka:
     name: LionMappersTeam (LMT) Nsukka
     description: 'El capítulo de YouthMappers en la Universidad de Nigeria, Nsukka'
@@ -154,10 +158,6 @@ es:
     name: UniqueMappersTeam (UMT) Port Harcourt
     description: Capítulo de los YouthMappers en la Universidad de Port Harcourt
     extendedDescription: 'UniqueMappersTeam (UMT) Port Harcourt es un grupo de acción y un equipo de voluntarios para mapeo colaborativo en línea dirigido a entrenar y capacitar a los miembros con habilidades de mapeo para crear datos geoespaciales abiertos y análisis que aborden los desafíos definidos localmente para la geoinformación y para brindar servicios de mapeo humanitario a las comunidades resilientes en el Delta del Níger, Nigeria y en otros lugares. Promovemos el voluntariado de mapeo colaborativo y la información Geográfica utilizando la plataforma OpenStreetMap (OSM) y otras plataformas accesibles para Mapeo de Respuesta Rápida, Mapeo de Desastres, Mapeo de Inteligencia Geográfica, actualizaciones de mapas y capacitación. Es un afiliado Capítulo de Campus del Equipo Humanitario OpenStreetMap (HOT). Es un equipo de proyecto-y-tarea de YouthMappers que brinda a los miembros la oportunidad de aprender y mejorar sus habilidades en Geoinformática para explorar oportunidades globales en el campo del Mapeo y la Geoinformación.'
-  ym-University-of-Nigeria-Enugu-Campus:
-    name: LionMappersTeam (LMT) Enugu
-    description: 'Capítulo de los YouthMappers en la Universidad de Nigeria, Campus Enugu'
-    extendedDescription: 'El LionMappersTeam (LMT) Enugu Campus es un afiliado de YouthMappers Network, con el único objetivo de brindar a los miembros la oportunidad de aprender y mejorar sus habilidades en el campo de la geoinformática y crear datos geográficos abiertos y análisis que aborden los desafíos definidos localmente a nivel mundial. Es un equipo de voluntarios para la provisión de información geográfica y de mapas de colaboración colectiva que utiliza Openstreetmap, Citizen Science y otras tecnologías geoespaciales para la investigación, la capacitación y la respuesta a los desafíos de la comunidad resistente. Participamos en aplicaciones de cartografía web, SIG y teledetección e investigación. Nos apasiona la información geográfica voluntaria. El SIG participativo y la ciencia ciudadana. Nuestras actividades principales incluyen cartografía en línea, cartografía de campo, talleres de capacitación y divulgación a la escuela secundaria, así como Mapeo de Respuesta Humanitaria / Desastres.'
   osm-africa-telegram:
     name: Telegram de OpenStreetMap África
     description: Telegram de OpenStreetMap África
@@ -293,7 +293,6 @@ es:
     name: 'YouthMappers en IRS, Universidad de Jahangirnagar'
     description: El capítulo de YouthMappers en la Universidad de Jahangirnagar
   ym-Khulna-University:
-    name: OpenStreetMap
     description: El capítulo de YouthMappers en la Universidad de Khulna
     extendedDescription: "Los estudiantes y profesores de KU de múltiples disciplinas tienen experiencia en la creación de datos abiertos para OSM para abordar los desafíos locales de desarrollo, incluida la seguridad alimentaria y otros temas."
   ym-Rajshahi-University-of-Engineering-Technology:
@@ -308,11 +307,6 @@ es:
     name: OpenStreetMap India - Mapeo participativo del barrio
     description: Mejore OpenStreetMap en India
     extendedDescription: '¿Mapeando en India? ¿Tiene preguntas, quiere conectarse con la comunidad aquí? Únase a nosotros en {url}. ¡Todos son bienvenidos!'
-    events:
-      sotmasia2018:
-        name: State of the Map Asia 2018
-        description: Únase al evento regional OpenStreetMap 2018 en el State of the Map Asia en India
-        where: 'Instituto Indio de Administración, Bangalore, India'
   osm-india-forum:
     name: Foro de OpenStreetMap India
     description: Foro web de OpenStreetMap India
@@ -386,6 +380,12 @@ es:
   OSM-japan-website:
     name: OpenStreetMap Japón
     description: Mapeadores y usuarios de OpenStreetMap en Japón
+  OSM-Korea-mailinglist:
+    name: Lista de correo de OpenStreetMap Korea
+    description: Talk-ko es la  lista de correo oficial para que las comunidades discutan asuntos sobre Corea
+  OSM-Korea-telegram:
+    name: Telegram de OSM Korea
+    description: 'Grupo no oficial para contribuyentes, comunidades y usuarios de OpenStreetMap en Corea para compartir y discutir.'
   OSM-MY-facebook:
     name: OpenStreetMap Malaysia en Facebook
     description: ¡Para conversar sobre cualquier cosa relacionada con OpenStreetMap!
@@ -451,9 +451,6 @@ es:
   OSM-RU-telegram:
     name: Telegram de OpenStreetMap RU
     description: Chat de telegram de OpenStreetMap Rusia
-  OSM-south-korea-telegram:
-    name: Telegram de OSM Corea del Sur
-    description: 'Canal no oficial para colaboradores de OpenStreetMap, comunidades y usuarios en Corea del Sur para compartir y discutir.'
   OSM-sri-lanka-facebook:
     name: OpenStreetMap Sri Lanka
     description: Mejorar OpenStreetMap en Sri Lanka
@@ -506,7 +503,6 @@ es:
     name: OpenStreetMap Belarús
     description: Grupo de telegram de OpenStreetMap Belarús
   be-facebook:
-    name: Comunidad OpenStreetMap BE
     description: Mapeadores y OpenStreetMap en Facebook en Bélgica
   be-forum:
     name: Foro de OpenStreetMap BE
@@ -543,7 +539,6 @@ es:
     description: 'Portal de mapas, sitio web y contactos sobre miembros de OSM en Chequia'
   osmcz-facebook:
     name: OpenStreetMap CZ en Facebook
-    description: ¡Siga a la comunidad checa en Facebook, incluido el WeeklyOSM traducido!
   osmcz-twitter:
     name: Twitter checo @osmcz
     description: ¡Siga a la comunidad checa en Twitter, incluido el WeeklyOSM traducido!
@@ -559,10 +554,6 @@ es:
   dk-mailinglist:
     name: Lista de correo Talk-dk
     description: Una lista de correo para discutir OpenStreetMap en Dinamarca
-  ym-Queen-Mary-University-of-London:
-    name: Queen Mary YouthMappers
-    description: Capítulo de los YouthMappers en la Universidad Queen Mary de Londres
-    extendedDescription: Este capítulo formará parte de las actividades de la Sociedad de Geografía Queen Mary
   fi-forum:
     name: Foro de OpenStreetMap FI
     description: Foro web de OpenStreetMap Finlandia
@@ -672,10 +663,6 @@ es:
     name: PoliMappers
     description: Capítulo de YouthMappers en el Politécnico de Milán
     extendedDescription: PoliMappers es una asociación de estudiantes voluntarios con sede en el Politecnico di Milano. La misión del grupo es capacitar y motivar a la próxima generación de mapeadores voluntarios y hacer mapeos utilizando software gratuito y de código abierto dentro de la universidad, así como en las escuelas primarias y secundarias.
-  ym-Yarmouk-University:
-    name: YouthMappers en YU
-    description: El capítulo de YouthMappers en la Universidad de Yarmuk
-    extendedDescription: 'El capítulo de YouthMappers en YU es el primer grupo de mapeo en la región de Medio Oriente y África del Norte donde los refugiados, la sequía y la pobreza son crisis en aumento y en urgente necesidad de actividades de mapeo humanitarias para mitigar las consecuencias de tales crisis. Se alienta a YU Mappers a utilizar datos abiertos para abordar los desafíos en la región de MENA a fin de brindar alivio y desarrollo a áreas específicas dentro de la región.'
   kosovo-telegram:
     name: OpenStreetMap Kosovo en Telegram
     description: Grupo público de Telegram semi-oficial sobre Kosovo. Damos la bienvenida a todos los mapeadores de cualquier lugar en cualquier idioma.
@@ -708,7 +695,6 @@ es:
     name: Lista de correo de Talk-pt
     description: Talk-pt es la lista de correo oficial de la comunidad OSM portuguesa
   pt-telegram:
-    name: Telegram de OpenStreetMap en Portugal
     description: 'Grupo de Telegram de la comunidad portuguesa de OpenStreetMap {url}'
   si-forum:
     name: Foro de OpenStreetMap Eslovenia
@@ -719,6 +705,14 @@ es:
   si-twitter:
     name: Twitter de OpenStreetMap Eslovenia
     description: 'Sigue a OpenStreetMap Eslovenia en Twitter: {url}'
+  Galicia-Telegram:
+    name: Telegram de OpenStreetMap Galicia
+    description: Telegram de OpenStreetMap para Galicia
+  Galicia-Twitter:
+    name: Twitter de OpenStreetMap Galicia
+  galicia-wiki:
+    name: Wikiproyecto de OpenStreetMap Galicia
+    description: 'Todo lo que necesitas saber sobre el mapeo en Galicia: {url} (las herramientas del mundo OSM también están disponibles en gallego, ¡anímate!)'
   OSM-ES-mailinglist:
     name: Lista de correo Talk-es
     description: Una lista de correo para discutir OpenStreetMap en España
@@ -758,17 +752,31 @@ es:
     name: Reunión mensual pub de East Midlands (Nottingham)
     description: Reunión social de mapeadores y usuarios de East Midlands
     extendedDescription: 'Un grupo se ha estado reuniendo desde marzo de 2011, inicialmente en Nottingham, y más recientemente en Derby, y de vez en cuando en otras partes de East Midlands. Estas son reuniones sociales, pero son un excelente lugar para venir y hacer preguntas específicas sobre OSM, ya sea en el área o en general. En los meses de verano usualmente hacemos un mapeo ligero durante una hora en las cercanías de nuestro lugar de reunión. El grupo como un todo tiene un interés especial en el mapeo de los derechos de paso públicos y de vez en cuando tiene reuniones de mapeo para este propósito.'
-  gb-mailinglist:
-    name: Lista de correo de Talk-gb
-    description: Talk-gb es la lista de comunicación principal para la comunidad OSM británica (incluida Irlanda del Norte)
-  mappa-mercia-group:
-    name: Grupo local Mappa Mercia
-    description: Un hogar para entusiastas de OpenStreetMap en las Midlands
-    extendedDescription: 'Mappa Mercia es un proyecto para hacer crecer OpenStreetMap en West Midlands, Reino Unido. Organizamos eventos comunitarios, proporcionamos capacitación y apoyamos a las organizaciones locales que desean abrir sus datos.'
   gb-irc:
     name: IRC de OpenStreetMap Reino Unido
     description: 'Únase a #osm-gb en irc.oftc.net (puerto 6667)'
     extendedDescription: 'Únase a #osm-gb en irc.oftc.net (puerto 6667), sea paciente y espere unos minutos si hace una pregunta'
+  uk-localchapter:
+    name: OpenStreetMap Reino Unido
+    description: El Capítulo local oficial para el Reino Unido (incluida Irlanda del Norte)
+    extendedDescription: 'Apoyamos OpenStreetMap mediante la organización de eventos, el suministro de recursos a la comunidad, la creación de asociaciones y la difusión. Únase a OpenStreetMap Reino Unido aquí: {signupUrl}'
+  uk-london-twitter:
+    name: OpenStreetMap Londres en Twitter
+    description: 'OpenStreetMap Londres en Twitter: {url}'
+  gb-mailinglist:
+    name: Lista de correo de Talk-gb
+    description: Talk-gb es la lista principal de foros de comunicación para la comunidad OSM del Reino Unido (incluida Irlanda del Norte)
+  mappa-mercia-group:
+    name: Grupo local Mappa Mercia
+    description: Un hogar para entusiastas de OpenStreetMap en las Midlands
+    extendedDescription: 'Mappa Mercia es un proyecto para hacer crecer OpenStreetMap en West Midlands, Reino Unido. Organizamos eventos comunitarios, proporcionamos capacitación y apoyamos a las organizaciones locales que desean abrir sus datos.'
+  uk-twitter:
+    name: OpenStreetMap Reino Unido en Twitter
+    description: 'OpenStreetMap Reino Unido en Twitter: {url}'
+  ym-Queen-Mary-University-of-London:
+    name: Queen Mary YouthMappers
+    description: Capítulo de los YouthMappers en la Universidad Queen Mary de Londres
+    extendedDescription: Este capítulo formará parte de las actividades de la Sociedad de Geografía Queen Mary
   ym-University-of-Exeter:
     name: University of Exeter British Red Cross Missing Maps
     description: Capítulo de los YouthMappers en la Universidad de Exeter
@@ -777,6 +785,10 @@ es:
     name: Universidad de Warwick Resilience Mapping Society
     description: Capítulo de los YouthMappers de la Universidad de Warwick
     extendedDescription: Somos un grupo de cartógrafos entusiastas basados ​​en la Universidad de Warwick. Nuestro objetivo es hacer que la gente se entusiasme con el mapeo humanitario y ayudarles a comprender el impacto que esta actividad tiene en el campo. Estamos estrechamente alineados con Missing Maps y Doctors Without Borders UK y nos enfocamos en las tareas HOT en nuestras actividades y talleres de mapeo. Nuestros mapatones están listados en la página de Missing Maps cada vez que están programados.
+  ym-Yarmouk-University:
+    name: YouthMappers en YU
+    description: El capítulo de YouthMappers en la Universidad de Yarmuk
+    extendedDescription: 'El capítulo de YouthMappers en YU es el primer grupo de mapeo en la región de Medio Oriente y África del Norte donde los refugiados, la sequía y la pobreza son crisis en aumento y en urgente necesidad de actividades de mapeo humanitarias para mitigar las consecuencias de tales crisis. Se alienta a YU Mappers a utilizar datos abiertos para abordar los desafíos en la región de MENA a fin de brindar alivio y desarrollo a áreas específicas dentro de la región.'
   ym-Sacred-Heart-Junior-College:
     name: YouthMappers en el  Sacred Heart Junior College
     description: Capítulo de los YouthMappers en el Sacred Heart Junior College
@@ -881,9 +893,6 @@ es:
     name: OpenStreetMap Colorado
     description: 'Editores y usuarios de OpenStreetMap en el Estado de Colorado, EE.UU.'
     extendedDescription: 'OpenStreetMap (OSM) Colorado es una colaboración local de personas interesadas en contribuir con sus esfuerzos para crear mapas gratuitos. Alentamos a todos nuestros cartógrafos a organizar o sugerir eventos de mapeo en todo el estado. Los encuentros pueden ser simples reuniones sociales, entrenamiento básico a avanzado de OSM o actividades de mapeo comunitario.'
-  OSM-NYC:
-    name: OpenStreetMap NYC
-    description: 'Mapeadores y usuarios de OpenStreetMap, desarrolladores y entusiastas en el área Metropolitana de Nueva York'
   OSM-Portland-forum:
     name: Grupo de Google de OpenStreetMap PDX
     description: Foro y lista de correo para usuarios de OpenStreetMap en el área de Portland
@@ -914,15 +923,6 @@ es:
     name: OpenStreetMap EE.UU.
     description: Ayudamos a crecer y mejorar OpenStreetMap en los Estados Unidos.
     extendedDescription: 'Apoyamos OpenStreetMap celebrando conferencias anuales, proporcionando recursos comunitarios, creando alianzas y dando a conocer. Únase a OpenStreetMap EE.UU. aquí: {signupUrl}'
-    events:
-      sotmus2019-cfs:
-        name: Proponer una charla para SotM-US 2019
-        description: 'Hacemos un llamado a todos los miembros de la comunidad de OpenStreetMap para que compartan sus ideas y propuestas de sesión para State of the Map US 2019. Ya sea que sea nuevo en OSM o haya sido un colaborador principal desde el principio, ¡Queremos saber de usted!'
-        where: 'Minneapolis, Minnesota'
-      sotmus2019:
-        name: State of the Map US 2019
-        description: 'Únase a la comunidad OpenStreetMap en State of the Map US en Minneapolis, Minnesota. Conéctese con otros mapeadores, empresas, agencias gubernamentales y organizaciones sin fines de lucro, todos colaborando en torno al mapa gratuito y editable del mundo.'
-        where: 'Minneapolis, Minnesota'
   OSM-Utah:
     name: OpenStreetMap Utah
     description: Editores y usuarios de OpenStreetMap en el área de Salt Lake City
@@ -1282,11 +1282,6 @@ es:
   osm-latam:
     name: OpenStreetMap Latam
     description: Soporte de OpenStreetMap en América Latina
-    events:
-      sotm-latam-2018:
-        name: State of the Map Latam 2018
-        description: 'State of the Map Latam es la conferencia anual para todos los creadores de mapas y usuarios de OpenStreetMap en América Latina. El programa incluye charlas, paneles, talleres y mapatones relacionados con OpenStreetMap.'
-        where: 'Buenos Aires, Argentina'
   OSM-Discord:
     name: Discord de OpenStreetMap
     description: Póngase en contacto con otros mapeadores a través de Discord
@@ -1313,8 +1308,3 @@ es:
     name: Fundación OpenStreetMap
     description: OSMF es una organización sin fines de lucro con sede en el Reino Unido que respalda el proyecto OpenStreetMap
     extendedDescription: 'OSMF apoya a OpenStreetMap mediante la recaudación de fondos, el mantenimiento de los servidores que impulsan OSM, la organización de la conferencia anual State of the Map y la coordinación de los voluntarios que mantienen OSM en funcionamiento. Puede mostrar su apoyo y tener una voz en la dirección de OpenStreetMap uniéndose como miembro de OSMF aquí: {signupUrl}'
-    events:
-      sotm2018:
-        name: State of the Map 2018
-        description: 'Únase a nosotros durante 3 días en Milán, Italia, para la conferencia anual mundial de OpenStreetMap, que reúne a todos en la comunidad para socializar, compartir y aprender.'
-        where: 'Milán, Italia'
