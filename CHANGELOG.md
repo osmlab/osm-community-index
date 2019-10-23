@@ -51,6 +51,7 @@
 [#266]: https://github.com/osmlab/osm-community-index/issues/266
 [#267]: https://github.com/osmlab/osm-community-index/issues/267
 [#268]: https://github.com/osmlab/osm-community-index/issues/268
+[#269]: https://github.com/osmlab/osm-community-index/issues/269
 [#270]: https://github.com/osmlab/osm-community-index/issues/270
 [#271]: https://github.com/osmlab/osm-community-index/issues/271
 [#274]: https://github.com/osmlab/osm-community-index/issues/274
