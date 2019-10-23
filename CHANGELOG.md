@@ -4,17 +4,56 @@
 # A.B.C
 ##### YYYY-MMM-DD
 
-* Add resources:
-* Add events:
-* Updates:
+* Added resources:
+* Added events:
+* Updated:
 
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 1.0.0
+##### 2019-Oct-23
+
+* New:
+  * Features now include an automatically calculated `area` property, making it easier for downstream projects to sort resources by area ([#286])
+    * :warning: This new property breaks backward compatibility of the `combined.geojson` files.
+  * Add an `osm-lc` type and `osm-lc.svg` icon for official OSM Local Chapters (see [#1])
+  * Resources now support an `order` property, to allow communities to control how their resources are sorted ([#114])
+  * Resource `contacts` property is now optional
+
+* Added resources:
+  * Several Telegram groups: OSM Africa, Bosnia-Herzegovina, Japan, Taiwan, DE-Hamburg, France, Netherlands, Israel, Saudi Arabia ([#220])
+  * Map Kibera, OSM Kenya ([#278], [#279])
+  * OSM Ukraine ([#277])
+  * OSM Ireland ([#275], [#282])
+  * OSM Scotland ([#271], [#283])
+  * OSM Galicia ([#265], [#266], [#267], [#268])
+  * OSM Netherlands ([#264], [#270], [#274])
+  * OSM Switzerland ([#262], [#263], [#284])
+  * OSM Belgium ([#255], [#256], [#257], [#258], [#259], [#260], [#269])
+
+* Added events:
+  * SOTM Asia 2019 ([#280], [#281])
+
+* Removed resources:
+  * OSM NYC ([#252])
+
+* Updated:
+  * Simplify several features and cleanup seams:  India, Venezuela, France, Netherlands, Galicia, Belgium, Switzerland, Luxembourg, Iceland, Portugal, Asia/Africa border
+  * Simplify all of the YouthMappers chapter circular boundaries
+  * Make a `middle-east` folder and move Jordan, Saudi Arabia, Israel into it
+  * Fix name of Khulna University YouthMappers (was just named "OpenStreetMap" before)
+  * Fix typo `nugeria` -> `nigeria`
+  * Cleanup and simplify YouthMappers logo ([#285])
+  * Include Sardinia in Italy feature ([#261])
+  * Korean resources now use a single polygon including both North and South ([#254])
+
+
 # 0.12.0
 ##### 2019-Aug-26
 
-* Refine the outlines of UPRI and FeuTech YouthMappers regions [#248], [#249])
+* Updates:
+  * Refine the outlines of UPRI and FeuTech YouthMappers regions [#248], [#249])
 
 [#248]: https://github.com/osmlab/osm-community-index/issues/248
 [#249]: https://github.com/osmlab/osm-community-index/issues/249
