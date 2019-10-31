@@ -6,7 +6,7 @@
 
 :speech_balloon: An index of community resources for OpenStreetMap.
 
-* View the map of OpenStreetMap communities: https://mikelmaron.github.io/map-demos/osm-community-index/
+* View the map of OpenStreetMap communities: https://openstreetmap.community
 * Or search and filter the community resources: https://community.osm.be/
 
 
