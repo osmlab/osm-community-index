@@ -143,15 +143,10 @@ function generateResources(tstrings, features) {
     }
 
     if (resource.includeLocations) {
-      let test = resource.includeLocations[0];
-      console.log('  ' + colors.yellow(file));
-      console.log('  Testing: ' + colors.yellow(test));
-      let found = CC.feature(resource.includeLocations[0]);
-      if (found) {
-        console.log('  Found: ' + colors.yellow(found.properties.nameEn));
-      } else {
-        console.log('  No Match!');
-      }
+      validateLocations(resource.includeLocations, file, features);
+    }
+    if (resource.excludeLocations) {
+      validateLocations(resource.excludeLocations, file, features);
     }
 
     resources[resourceId] = resource;
@@ -208,6 +203,72 @@ function generateResources(tstrings, features) {
   process.stdout.write(Object.keys(files).length + '\n');
 
   return resources;
+}
+
+
+function validateLocations(locations, file, features) {
+  locations.forEach(location => {
+    if (Array.isArray(location)) {   // a [lon,lat] coordinate pair?
+      if (location.length === 2 && Number.isFinite(location[0]) && Number.isFinite(location[1]) &&
+        location[0] >= -180 && location[0] <= 180 && location[1] >= -90 && location[1] <= 90
+      ) {
+        console.log('  Lon,Lat: ' + colors.yellow(location));
+      } else {
+        console.error(colors.red('Error - Invalid location: ') + colors.yellow(location));
+        console.error('  ' + colors.yellow(file));
+        process.exit(1);
+      }
+
+    } else if (/^\S+\.geojson$/i.test(location)) {   // a .geojson filename?
+      if (features[location]) {
+        console.log('  GeoJSON: ' + colors.yellow(location));
+      } else {
+        console.error(colors.red('Error - Invalid location: ') + colors.yellow(location));
+        console.error('  ' + colors.yellow(file));
+        process.exit(1);
+      }
+
+    } else {    // a country-coder string?
+      let found = CC.feature(location);
+      if (found) {
+        console.log('  Country Coder: ' + colors.yellow(found.properties.nameEn));
+      } else {
+        console.error(colors.red('Error - Invalid location: ') + colors.yellow(location));
+        console.error('  ' + colors.yellow(file));
+        process.exit(1);
+      }
+    }
+  });
+}
+
+
+function validateFile(file, resource, schema) {
+  const validationErrors = v.validate(resource, schema).errors;
+  if (validationErrors.length) {
+    console.error(colors.red('Error - Schema validation:'));
+    console.error('  ' + colors.yellow(file + ': '));
+    validationErrors.forEach(error => {
+      if (error.property) {
+        console.error('  ' + colors.yellow(error.property + ' ' + error.message));
+      } else {
+        console.error('  ' + colors.yellow(error));
+      }
+    });
+    process.exit(1);
+  }
+}
+
+
+function prettifyFile(file, object, contents) {
+  const pretty = prettyStringify(object, { maxLength: 100 });
+  if (pretty !== contents) {
+    fs.writeFileSync(file, pretty);
+  }
+}
+
+
+function deepClone(obj) {
+  return JSON.parse(JSON.stringify(obj));
 }
 
 
@@ -269,34 +330,3 @@ function generateCombined(features, resources) {
 
   return { type: 'FeatureCollection', features: Object.values(keepFeatures) };
 }
-
-
-function validateFile(file, resource, schema) {
-  const validationErrors = v.validate(resource, schema).errors;
-  if (validationErrors.length) {
-    console.error(colors.red('Error - Schema validation:'));
-    console.error('  ' + colors.yellow(file + ': '));
-    validationErrors.forEach(error => {
-      if (error.property) {
-        console.error('  ' + colors.yellow(error.property + ' ' + error.message));
-      } else {
-        console.error('  ' + colors.yellow(error));
-      }
-    });
-    process.exit(1);
-  }
-}
-
-
-function prettifyFile(file, object, contents) {
-  const pretty = prettyStringify(object, { maxLength: 100 });
-  if (pretty !== contents) {
-    fs.writeFileSync(file, pretty);
-  }
-}
-
-
-function deepClone(obj) {
-  return JSON.parse(JSON.stringify(obj));
-}
-
