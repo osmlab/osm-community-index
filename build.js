@@ -2,6 +2,7 @@
 const colors = require('colors/safe');
 const fs = require('fs');
 const glob = require('glob');
+const path = require('path');
 
 const CC = require('country-coder');
 const Validator = require('jsonschema').Validator;
@@ -52,6 +53,7 @@ function generateFeatures() {
   let features = {};
   let files = {};
   process.stdout.write('Features:');
+
   glob.sync(__dirname + '/features/**/*.geojson').forEach(file => {
     const contents = fs.readFileSync(file, 'utf8');
     let parsed;
@@ -68,9 +70,6 @@ function generateFeatures() {
 
     // A FeatureCollection with a single feature inside (geojson.io likes to make these).
     if (feature.type === 'FeatureCollection' && Array.isArray(fc) && fc.length === 1) {
-      if (feature.id && !fc[0].id) {
-        fc[0].id = feature.id;
-      }
       feature = fc[0];
     }
 
@@ -80,12 +79,15 @@ function generateFeatures() {
     props.area = Number(area.toFixed(2));
     feature.properties = props;
 
+    // use the filename as the feature.id
+    const id = path.basename(file, '.geojson').toLowerCase();
+    feature.id = id;
+
     validateFile(file, feature, featureSchema);
     prettifyFile(file, feature, contents);
 
-    const id = feature.id;
     if (files[id]) {
-      console.error(colors.red('Error - Duplicate feature id: ') + colors.yellow(id));
+      console.error(colors.red('Error - Duplicate filenames: ') + colors.yellow(id));
       console.error('  ' + colors.yellow(files[id]));
       console.error('  ' + colors.yellow(file));
       process.exit(1);
@@ -220,7 +222,8 @@ function validateLocations(locations, file, features) {
       }
 
     } else if (/^\S+\.geojson$/i.test(location)) {   // a .geojson filename?
-      if (features[location]) {
+      let featureId = location.replace('.geojson', '');
+      if (features[featureId]) {
         console.log('  GeoJSON: ' + colors.yellow(location));
       } else {
         console.error(colors.red('Error - Invalid location: ') + colors.yellow(location));
@@ -229,9 +232,9 @@ function validateLocations(locations, file, features) {
       }
 
     } else {    // a country-coder string?
-      let found = CC.feature(location);
-      if (found) {
-        console.log('  Country Coder: ' + colors.yellow(found.properties.nameEn));
+      let ccmatch = CC.feature(location);
+      if (ccmatch) {
+        console.log('  Country Coder: ' + colors.yellow(ccmatch.properties.nameEn));
       } else {
         console.error(colors.red('Error - Invalid location: ') + colors.yellow(location));
         console.error('  ' + colors.yellow(file));
