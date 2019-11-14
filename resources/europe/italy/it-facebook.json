@@ -1,10 +1,10 @@
 {
   "id": "it-facebook",
-  "featureId": "italy",
   "type": "facebook",
-  "name": "OpenStreetMap Italy Facebook",
+  "includeLocations": ["italy.geojson"],
   "countryCodes": ["it"],
   "languageCodes": ["it"],
+  "name": "OpenStreetMap Italy Facebook",
   "description": "Join the OpenStreetMap Italy community on Facebook",
   "url": "https://www.facebook.com/OpenStreetMap.Italia/",
   "contacts": [

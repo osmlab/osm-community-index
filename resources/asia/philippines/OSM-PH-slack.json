@@ -1,12 +1,12 @@
 {
   "id": "OSM-PH-slack",
-  "featureId": "philippines",
   "type": "slack",
+  "includeLocations": ["philippines.geojson"],
   "countryCodes": ["ph"],
   "name": "OpenStreetMap PH Slack",
   "description": "All are welcome! Sign up at {signupUrl}",
-  "signupUrl": "https://osmph-chat.herokuapp.com/",
   "url": "https://osmph.slack.com",
+  "signupUrl": "https://osmph-chat.herokuapp.com/",
   "contacts": [
     {"name": "Maning Sambale", "email": "emmanuel.sambale@gmail.com"},
     {"name": "OSM PH Group", "email": "osm.pilipinas@gmail.com"}

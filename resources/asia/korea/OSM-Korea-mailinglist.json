@@ -1,10 +1,10 @@
 {
   "id": "OSM-Korea-mailinglist",
-  "featureId": "korea",
   "type": "mailinglist",
-  "name": "OpenStreetMap Korea Mailinglist",
+  "includeLocations": ["korea.geojson"],
   "countryCodes": ["kp", "kr"],
-  "languageCodes": ["ko", "en"],
+  "languageCodes": ["en", "ko"],
+  "name": "OpenStreetMap Korea Mailinglist",
   "description": "Talk-ko is an Official Mailinglist for the Communities to dicuss matters about Korea",
   "url": "https://lists.openstreetmap.org/listinfo/talk-ko",
   "contacts": [{"name": "Talk-ko-owner", "email": "talk-ko-owner@openstreetmap.org"}],

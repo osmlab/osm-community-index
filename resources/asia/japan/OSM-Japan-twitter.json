@@ -1,10 +1,10 @@
 {
   "id": "OSM-japan-twitter",
-  "featureId": "japan",
   "type": "twitter",
-  "name": "OpenStreetMap Japan Twitter",
+  "includeLocations": ["japan.geojson"],
   "countryCodes": ["jp"],
   "languageCodes": ["ja"],
+  "name": "OpenStreetMap Japan Twitter",
   "description": "Hashtag on Twitter: {url}",
   "url": "https://twitter.com/hashtag/osmjp",
   "contacts": [{"name": "Satoshi IIDA", "email": "nyampire@gmail.com"}]

@@ -1,7 +1,7 @@
 {
   "id": "osm-africa-telegram",
-  "featureId": "africa_full",
   "type": "telegram",
+  "includeLocations": ["africa_full.geojson"],
   "name": "OpenStreetMap Africa Telegram",
   "description": "OpenStreetMap Telegram for Africa",
   "url": "https://t.me/OSMAfrica",

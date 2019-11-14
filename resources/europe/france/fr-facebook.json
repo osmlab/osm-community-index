@@ -1,10 +1,10 @@
 {
   "id": "fr-facebook",
-  "featureId": "france",
   "type": "facebook",
-  "name": "OpenStreetMap France Facebook page",
+  "includeLocations": ["france.geojson"],
   "countryCodes": ["fr"],
   "languageCodes": ["fr"],
+  "name": "OpenStreetMap France Facebook page",
   "description": "OpenStreetMap France Facebook page",
   "url": "https://www.facebook.com/osmfr",
   "contacts": [{"name": "OpenStreetMap France", "email": "contact@openstreetmap.fr"}],

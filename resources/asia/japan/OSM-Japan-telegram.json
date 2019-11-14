@@ -1,10 +1,10 @@
 {
   "id": "OSM-Japan-telegram",
-  "featureId": "japan",
   "type": "telegram",
-  "name": "OpenStreetMap Japan Telegram",
+  "includeLocations": ["japan.geojson"],
   "countryCodes": ["jp"],
   "languageCodes": ["ja"],
+  "name": "OpenStreetMap Japan Telegram",
   "description": "A Telegram group for the OSM Japan community: {url}",
   "url": "https://t.me/osmjapan",
   "contacts": [{"name": "OSMF Japan", "email": "info@osmf.jp"}],

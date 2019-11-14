@@ -1,10 +1,10 @@
 {
   "id": "MaptimeHRVA-twitter",
-  "featureId": "hrva",
   "type": "twitter",
-  "name": "MaptimeHRVA Twitter",
+  "includeLocations": ["hrva.geojson"],
   "countryCodes": ["us"],
   "languageCodes": ["en"],
+  "name": "MaptimeHRVA Twitter",
   "description": "Follow us on Twitter at {url}",
   "url": "https://twitter.com/maptimehrva",
   "contacts": [{"name": "Jonah Adkins", "email": "jonahadkins@gmail.com"}]

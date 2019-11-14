@@ -1,10 +1,10 @@
 {
   "id": "OSM-AR-facebook",
-  "featureId": "argentina",
   "type": "facebook",
-  "name": "OpenStreetMap Argentina Facebook",
+  "includeLocations": ["argentina.geojson"],
   "countryCodes": ["ar"],
   "languageCodes": ["es"],
+  "name": "OpenStreetMap Argentina Facebook",
   "description": "Join the OpenStreetMap Argentina community on Facebook",
   "extendedDescription": "News from the local community",
   "url": "https://www.facebook.com/OpenStreetMapArgentina/",

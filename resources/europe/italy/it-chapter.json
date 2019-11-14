@@ -1,10 +1,10 @@
 {
   "id": "it-chapter",
-  "featureId": "italy",
   "type": "osm-lc",
-  "name": "OpenStreetMap Italy Local Chapter",
+  "includeLocations": ["italy.geojson"],
   "countryCodes": ["it"],
   "languageCodes": ["it"],
+  "name": "OpenStreetMap Italy Local Chapter",
   "description": "We help grow and improve OpenStreetMap in Italy.",
   "url": "https://www.wikimedia.it/",
   "contacts": [

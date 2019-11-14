@@ -1,9 +1,9 @@
 {
   "id": "is-twitter",
   "type": "twitter",
-  "featureId": "iceland",
+  "includeLocations": ["iceland.geojson"],
   "countryCodes": ["is"],
-  "languageCodes": ["is", "en"],
+  "languageCodes": ["en", "is"],
   "name": "OSM Iceland on Twitter",
   "description": "Twitter of OpenStreetMap in Iceland",
   "url": "https://twitter.com/openstreetmapis",

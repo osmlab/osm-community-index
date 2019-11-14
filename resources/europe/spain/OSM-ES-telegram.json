@@ -1,7 +1,7 @@
 {
   "id": "OSM-ES-telegram",
   "type": "telegram",
-  "featureId": "spain",
+  "includeLocations": ["spain.geojson"],
   "languageCodes": ["es"],
   "name": "@OSMes on Telegram",
   "description": "OpenStreetMap Spain Telegram chat",

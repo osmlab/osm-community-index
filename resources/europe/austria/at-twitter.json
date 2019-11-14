@@ -1,10 +1,10 @@
 {
   "id": "at-twitter",
-  "featureId": "austria",
   "type": "twitter",
-  "name": "OpenStreetMap Austria Twitter",
+  "includeLocations": ["austria.geojson"],
   "countryCodes": ["at"],
   "languageCodes": ["de"],
+  "name": "OpenStreetMap Austria Twitter",
   "description": "OpenStreetMap Austria On Twitter: {url}",
   "url": "https://twitter.com/osm_at",
   "contacts": [{"name": "AT Community", "email": "info@openstreetmap.at"}]

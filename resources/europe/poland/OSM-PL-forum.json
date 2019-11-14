@@ -1,9 +1,9 @@
 {
   "id": "OSM-PL-forum",
   "type": "forum",
-  "featureId": "poland",
+  "includeLocations": ["poland.geojson"],
   "countryCodes": ["pl"],
-  "languageCodes": ["pl", "en"],
+  "languageCodes": ["en", "pl"],
   "name": "OpenStreetMap Poland Forum",
   "description": "Forum of Polish OpenStreetMap community",
   "url": "https://forum.openstreetmap.org/viewforum.php?id=23",

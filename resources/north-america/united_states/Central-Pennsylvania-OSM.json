@@ -1,10 +1,10 @@
 {
   "id": "Central-Pennsylvania-OSM",
-  "featureId": "central_pa",
   "type": "facebook",
-  "name": "Central Pennsylvania OSM",
+  "includeLocations": ["central_pa.geojson"],
   "countryCodes": ["us"],
   "languageCodes": ["en"],
+  "name": "Central Pennsylvania OSM",
   "description": "Online mapping community based out of State College, PA",
   "url": "https://www.facebook.com/CentralPennsylvaniaOSM",
   "contacts": [{"name": "Sterling Quinn", "email": "sdq107@psu.edu"}],

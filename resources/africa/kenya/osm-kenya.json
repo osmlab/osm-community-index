@@ -1,13 +1,13 @@
 {
   "id": "osm-kenya",
-  "featureId": "kenya",
   "type": "twitter",
-  "name": "OSM Kenya",
+  "includeLocations": ["kenya.geojson"],
   "countryCodes": ["ke"],
   "languageCodes": ["en"],
+  "name": "OSM Kenya",
   "description": "OSM Kenya is a community of OSM contributors and users",
-  "url": "https://twitter.com/OSMKenya",
   "extendedDescription": "OSM is a local community for individuals interested in OpenStreetMap including organizations, developers, and YouthMappers chapters in the country.",
+  "url": "https://twitter.com/OSMKenya",
   "contacts": [{"name": "OSM Kenya", "email": "osmkenya@gmail.com"}],
   "order": 4
 }

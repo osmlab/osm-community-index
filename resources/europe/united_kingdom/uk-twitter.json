@@ -1,10 +1,10 @@
 {
   "id": "uk-twitter",
-  "featureId": "united_kingdom",
   "type": "twitter",
-  "name": "OpenStreetMap UK on Twitter",
+  "includeLocations": ["united_kingdom.geojson"],
   "countryCodes": ["gb"],
   "languageCodes": ["en"],
+  "name": "OpenStreetMap UK on Twitter",
   "description": "OpenStreetMap UK on Twitter: {url}",
   "url": "https://twitter.com/osmuk",
   "contacts": [{"name": "OpenStreetMap UK", "email": "board@osmuk.org"}],

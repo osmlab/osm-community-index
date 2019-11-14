@@ -1,7 +1,7 @@
 {
   "id": "OSM-CU-telegram",
   "type": "telegram",
-  "featureId": "cuba",
+  "includeLocations": ["cuba.geojson"],
   "countryCodes": ["cu"],
   "languageCodes": ["es"],
   "name": "OSM Cuba on Telegram",

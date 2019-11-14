@@ -1,10 +1,10 @@
 {
   "id": "de-berlin-telegram",
-  "featureId": "de-berlin-brandenburg",
   "type": "telegram",
-  "name": "@osmberlin on Telegram",
+  "includeLocations": ["de-berlin-brandenburg.geojson"],
   "countryCodes": ["de"],
   "languageCodes": ["de"],
+  "name": "@osmberlin on Telegram",
   "description": "OpenStreetMap Berlin Telegram chat",
   "url": "https://t.me/osmberlin",
   "contacts": [{"name": "Christopher Lorenz", "email": "osm@lorenz.lu"}]

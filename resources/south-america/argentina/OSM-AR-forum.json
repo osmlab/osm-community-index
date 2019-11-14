@@ -1,10 +1,10 @@
 {
   "id": "OSM-AR-forum",
-  "featureId": "argentina",
   "type": "forum",
-  "name": "OpenStreetMap Argentina web forum",
+  "includeLocations": ["argentina.geojson"],
   "countryCodes": ["ar"],
   "languageCodes": ["es"],
+  "name": "OpenStreetMap Argentina web forum",
   "description": "Join the OpenStreetMap Argentina web forum",
   "extendedDescription": "Ideal for long or important discussions. Slow response time.",
   "url": "https://forum.openstreetmap.org/viewforum.php?id=49",

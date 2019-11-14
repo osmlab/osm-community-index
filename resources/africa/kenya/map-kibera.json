@@ -1,13 +1,13 @@
 {
   "id": "map-kibera",
-  "featureId": "nairobi",
   "type": "group",
-  "name": "Map Kibera Trust",
+  "includeLocations": ["nairobi.geojson"],
   "countryCodes": ["ke"],
   "languageCodes": ["en"],
+  "name": "Map Kibera Trust",
   "description": "Map Kibera is a registered organization working in Kenya",
-  "url": "https://mapkibera.org/",
   "extendedDescription": "Map Kibera Trust’s mission is to increase influence and representation of marginalized communities through the creative use of digital tools for action.",
+  "url": "https://mapkibera.org/",
   "contacts": [{"name": "Map Kibera", "email": "contact@mapkibera.org"}],
   "order": 4
 }

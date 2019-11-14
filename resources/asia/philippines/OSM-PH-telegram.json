@@ -1,9 +1,9 @@
 {
   "id": "OSM-PH-telegram",
-  "featureId": "philippines",
   "type": "telegram",
+  "includeLocations": ["philippines.geojson"],
   "countryCodes": ["ph"],
-  "languageCodes": ["tl", "en"],
+  "languageCodes": ["en", "tl"],
   "name": "OpenStreetMap PH Telegram",
   "description": "Un-official, Telegram local community of OpenStreetMap contributors and friends in the Philippines",
   "url": "https://t.me/osmph",

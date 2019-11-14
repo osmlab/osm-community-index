@@ -1,7 +1,7 @@
 {
   "id": "no-telegram",
   "type": "telegram",
-  "featureId": "norway",
+  "includeLocations": ["norway.geojson"],
   "countryCodes": ["no"],
   "languageCodes": ["no"],
   "name": "@OSM_no on Telegram",

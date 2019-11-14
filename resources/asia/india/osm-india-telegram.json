@@ -1,7 +1,7 @@
 {
   "id": "osm-india-telegram",
-  "featureId": "india_full",
   "type": "telegram",
+  "includeLocations": ["india_full.geojson"],
   "name": "OpenStreetMap India Telegram",
   "description": "Join our family: {url}",
   "url": "https://t.me/OSMIndia",

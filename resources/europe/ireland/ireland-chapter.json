@@ -1,10 +1,10 @@
 {
   "id": "ireland-chapter",
-  "featureId": "ireland",
   "type": "osm-lc",
-  "name": "OpenStreetMap Ireland Local Chapter",
+  "includeLocations": ["ireland.geojson"],
   "countryCodes": ["gb", "ie"],
   "languageCodes": ["en"],
+  "name": "OpenStreetMap Ireland Local Chapter",
   "description": "We help grow and improve OpenStreetMap in Ireland.",
   "extendedDescription": "OpenStreetMap Ireland provides an advocate voice for the OpenStreetMap project on the island of Ireland, in addition to interacting with other open initiatives.",
   "url": "https://www.openstreetmap.ie/",

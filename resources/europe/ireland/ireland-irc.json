@@ -1,10 +1,10 @@
 {
   "id": "ireland-irc",
-  "featureId": "ireland",
   "type": "irc",
-  "name": "OpenStreetMap Ireland IRC",
+  "includeLocations": ["ireland.geojson"],
   "countryCodes": ["gb", "ie"],
   "languageCodes": ["en"],
+  "name": "OpenStreetMap Ireland IRC",
   "description": "Join #osm-ie on irc.oftc.net (port 6667)",
   "extendedDescription": "Join #osm-ie on irc.oftc.net (port 6667), please be patient and wait for a few minutes if you ask a question",
   "url": "https://webchat.oftc.net/?channels=osm-ie",

@@ -1,10 +1,10 @@
 {
   "id": "talk-gh",
-  "featureId": "ghana",
   "type": "mailinglist",
-  "name": "Talk-gh Mailing List",
+  "includeLocations": ["ghana.geojson"],
   "countryCodes": ["gh"],
   "languageCodes": ["en"],
+  "name": "Talk-gh Mailing List",
   "description": "Talk-gh is the official mailing list for Ghana OSM community.",
   "url": "https://lists.openstreetmap.org/listinfo/talk-gh",
   "contacts": [{"name": "Enock Seth Nyamador", "email": "kwadzo459@gmail.com"}],

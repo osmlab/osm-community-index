@@ -1,9 +1,9 @@
 {
   "id": "OSM-PY-telegram",
   "type": "telegram",
-  "featureId": "paraguay",
-  "languageCodes": ["es"],
+  "includeLocations": ["paraguay.geojson"],
   "countryCodes": ["py"],
+  "languageCodes": ["es"],
   "name": "OSM Paraguay on Telegram",
   "description": "OpenStreetMap Paraguay Telegram chat",
   "url": "https://telegram.me/osm_py",

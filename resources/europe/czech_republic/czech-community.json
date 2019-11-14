@@ -1,10 +1,10 @@
 {
   "id": "czech-community",
-  "featureId": "czechia",
   "type": "osm",
-  "name": "Czech OSM community",
+  "includeLocations": ["czechia.geojson"],
   "countryCodes": ["cz"],
-  "languageCodes": ["cs", "sk", "en"],
+  "languageCodes": ["cs", "en", "sk"],
+  "name": "Czech OSM community",
   "description": "Map portal, website and contacts on OSM members in Czechia",
   "url": "https://openstreetmap.cz/komunita",
   "contacts": [{"name": "osmcz", "email": "dev@openstreetmap.cz"}]

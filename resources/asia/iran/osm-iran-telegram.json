@@ -1,7 +1,7 @@
 {
   "id": "osm-iran-telegram",
-  "featureId": "iran",
   "type": "telegram",
+  "includeLocations": ["iran.geojson"],
   "countryCodes": ["ir"],
   "languageCodes": ["fa"],
   "name": "OpenStreetMap Iran Telegram",

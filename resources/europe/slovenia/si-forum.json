@@ -1,9 +1,9 @@
 {
   "id": "si-forum",
   "type": "forum",
-  "featureId": "slovenia",
+  "includeLocations": ["slovenia.geojson"],
   "countryCodes": ["si"],
-  "languageCodes": ["sl", "en"],
+  "languageCodes": ["en", "sl"],
   "name": "OpenStreetMap Slovenia Forum",
   "description": "Forum of OpenStreetMap community in Slovenia",
   "url": "https://forum.openstreetmap.org/viewforum.php?id=58",

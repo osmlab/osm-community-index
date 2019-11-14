@@ -1,8 +1,8 @@
 {
   "id": "Galicia-Telegram",
-  "featureId": "galicia",
   "type": "telegram",
-  "languageCodes": ["gl", "es"],
+  "includeLocations": ["galicia.geojson"],
+  "languageCodes": ["es", "gl"],
   "name": "OpenStreetMap Galicia Telegram",
   "description": "OpenStreetMap Telegram for Galicia",
   "url": "https://t.me/joinchat/AAHZsRBs-mY3hrquk2kpig"

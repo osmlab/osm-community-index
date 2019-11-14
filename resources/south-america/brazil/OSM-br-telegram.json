@@ -1,10 +1,10 @@
 {
   "id": "OSM-br-telegram",
-  "featureId": "brazil",
   "type": "telegram",
-  "name": "OpenStreetMap Brasil Telegram",
+  "includeLocations": ["brazil.geojson"],
   "countryCodes": ["br"],
   "languageCodes": ["pt"],
+  "name": "OpenStreetMap Brasil Telegram",
   "description": "Join the OpenStreetMap Brasil community on Telegram",
   "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!",
   "url": "https://t.me/OSMBrasil_Comunidade",

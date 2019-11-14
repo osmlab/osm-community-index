@@ -1,10 +1,10 @@
 {
   "id": "OSM-PE-facebook",
-  "featureId": "peru",
   "type": "facebook",
-  "name": "OpenStreetMap Peru Facebook",
+  "includeLocations": ["peru.geojson"],
   "countryCodes": ["pe"],
   "languageCodes": ["es"],
+  "name": "OpenStreetMap Peru Facebook",
   "description": "Join the OpenStreetMap Peru community on Facebook",
   "url": "https://www.facebook.com/Osmpe",
   "contacts": [

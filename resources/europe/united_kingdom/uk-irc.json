@@ -1,10 +1,10 @@
 {
   "id": "gb-irc",
-  "featureId": "united_kingdom",
   "type": "irc",
-  "name": "OpenStreetMap United Kingdom IRC",
+  "includeLocations": ["united_kingdom.geojson"],
   "countryCodes": ["gb"],
-  "languageCodes": ["en", "cy"],
+  "languageCodes": ["cy", "en"],
+  "name": "OpenStreetMap United Kingdom IRC",
   "description": "Join #osm-gb on irc.oftc.net (port 6667)",
   "extendedDescription": "Join #osm-gb on irc.oftc.net (port 6667), please be patient and wait for a few minutes if you ask a question",
   "url": "https://webchat.oftc.net/?channels=osm-gb",

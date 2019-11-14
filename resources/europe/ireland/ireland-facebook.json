@@ -1,10 +1,10 @@
 {
   "id": "ireland-facebook",
-  "featureId": "ireland",
   "type": "facebook",
-  "name": "OpenStreetMap Ireland Facebook group",
+  "includeLocations": ["ireland.geojson"],
   "countryCodes": ["gb", "ie"],
   "languageCodes": ["en"],
+  "name": "OpenStreetMap Ireland Facebook group",
   "description": "OpenStreetMap Ireland Facebook page",
   "url": "https://www.facebook.com/groups/OpenStreetMapIreland",
   "order": 3

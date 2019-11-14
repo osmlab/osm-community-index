@@ -1,10 +1,10 @@
 {
   "id": "si-twitter",
-  "featureId": "slovenia",
   "type": "twitter",
-  "name": "OpenStreetMap Slovenia Twitter",
+  "includeLocations": ["slovenia.geojson"],
   "countryCodes": ["si"],
-  "languageCodes": ["sl", "en"],
+  "languageCodes": ["en", "sl"],
+  "name": "OpenStreetMap Slovenia Twitter",
   "description": "Follow OpenStreetMap Slovenia On Twitter: {url}",
   "url": "https://twitter.com/OpenStreetMapSi",
   "contacts": [{"name": "OpenStreetMap Slovenia", "email": "talk-si@openstreetmap.org"}]

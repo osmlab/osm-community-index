@@ -1,12 +1,13 @@
 {
   "id": "OSM-BGD-facebook",
-  "featureId": "bangladesh",
   "type": "facebook",
+  "includeLocations": ["bangladesh.geojson"],
   "name": "OpenStreetMap Bangladesh",
   "description": "Improve OpenStreetMap in Bangladesh",
   "extendedDescription": "Mapping in Bangladesh? Have questions, want to connect with the community here? Join us at {url}. All are welcome!",
   "url": "https://www.facebook.com/groups/osmbd/",
   "contacts": [{"name": "Ahasanul Hoque", "email": "hoque.ahasan@gmail.com"}],
+  "order": 3,
   "events": [
     {
       "id": "sotmasia2019",
@@ -17,6 +18,5 @@
       "when": "2019-11-01",
       "url": "http://stateofthemap.asia/"
     }
-  ],
-  "order": 3
+  ]
 }

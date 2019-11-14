@@ -17,11 +17,6 @@
       "type": "string",
       "pattern": "^[-_.A-Za-z0-9]+$"
     },
-    "featureId": {
-      "description": "(required) A unique identifier for the polygon",
-      "type": "string",
-      "pattern": "^[-_.A-Za-z0-9]+$"
-    },
     "type": {
       "description": "(required) Type of community resource",
       "type": "string",

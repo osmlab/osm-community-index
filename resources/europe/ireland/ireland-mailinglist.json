@@ -1,10 +1,10 @@
 {
   "id": "ireland-mailinglist",
-  "featureId": "ireland",
   "type": "mailinglist",
-  "name": "Talk-ie Mailing List",
+  "includeLocations": ["ireland.geojson"],
   "countryCodes": ["gb", "ie"],
   "languageCodes": ["en"],
+  "name": "Talk-ie Mailing List",
   "description": "Talk-ie is the mailing list for the Irish OSM community",
   "url": "https://lists.openstreetmap.org/listinfo/talk-ie",
   "order": 2

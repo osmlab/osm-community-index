@@ -1,10 +1,10 @@
 {
   "id": "osm-gh-facebook",
-  "featureId": "ghana",
   "type": "facebook",
-  "name": "OpenStreetMap Ghana on Facebook",
+  "includeLocations": ["ghana.geojson"],
   "countryCodes": ["gh"],
   "languageCodes": ["en"],
+  "name": "OpenStreetMap Ghana on Facebook",
   "description": "Facebook group for people interested in OpenStreetMap.",
   "extendedDescription": "Mappers in Ghana community, promoting OpenStreetMap and Humanitarian OpenStreetMap Team (HOT) projects in Ghana. Join us.",
   "url": "https://www.facebook.com/OSMGhana/",

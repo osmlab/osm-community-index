@@ -1,10 +1,10 @@
 {
   "id": "hr-mailinglist",
-  "featureId": "croatia",
   "type": "mailinglist",
-  "name": "Talk-hr Mailing List",
+  "includeLocations": ["croatia.geojson"],
   "countryCodes": ["hr"],
   "languageCodes": ["hr"],
+  "name": "Talk-hr Mailing List",
   "description": "Talk-hr mailing list",
   "url": "https://lists.openstreetmap.org/listinfo/talk-hr",
   "contacts": [{"name": "OpenStreetMap Croatia", "email": "info@osm-hr.org"}],

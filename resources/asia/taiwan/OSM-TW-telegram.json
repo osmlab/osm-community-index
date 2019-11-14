@@ -1,10 +1,10 @@
 {
   "id": "OSM-TW-telegram",
-  "featureId": "taiwan",
   "type": "telegram",
-  "name": "OpenStreetMap Taiwan Telegram",
+  "includeLocations": ["taiwan.geojson"],
   "countryCodes": ["tw"],
   "languageCodes": ["zh-tw"],
+  "name": "OpenStreetMap Taiwan Telegram",
   "description": "A Telegram group for the OSM Taiwan community: {url}",
   "url": "https://t.me/OSMTaiwan",
   "contacts": [{"name": "Nobody 沒有人 (Public mail)", "email": "hiboard@openstreetmap.tw"}],

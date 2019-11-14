@@ -1,10 +1,10 @@
 {
   "id": "fr-mailinglist",
-  "featureId": "france",
   "type": "mailinglist",
-  "name": "Talk-fr Mailing List",
+  "includeLocations": ["france.geojson"],
   "countryCodes": ["fr"],
   "languageCodes": ["fr"],
+  "name": "Talk-fr Mailing List",
   "description": "Talk-fr mailing list",
   "url": "https://lists.openstreetmap.org/listinfo/talk-fr",
   "contacts": [{"name": "OpenStreetMap France", "email": "contact@openstreetmap.fr"}],

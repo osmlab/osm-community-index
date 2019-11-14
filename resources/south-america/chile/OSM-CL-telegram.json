@@ -1,10 +1,10 @@
 {
   "id": "OSM-CL-telegram",
-  "featureId": "chile",
   "type": "telegram",
-  "name": "OpenStreetMap Chile Telegram",
+  "includeLocations": ["chile.geojson"],
   "countryCodes": ["cl"],
   "languageCodes": ["es"],
+  "name": "OpenStreetMap Chile Telegram",
   "description": "Join the OpenStreetMap Chile community on Telegram",
   "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!",
   "url": "https://t.me/OSMcl",

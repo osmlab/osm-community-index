@@ -1,10 +1,10 @@
 {
   "id": "OSM-AR-twitter",
-  "featureId": "argentina",
   "type": "twitter",
-  "name": "OpenStreetMap Argentina Twitter",
+  "includeLocations": ["argentina.geojson"],
   "countryCodes": ["ar"],
   "languageCodes": ["es"],
+  "name": "OpenStreetMap Argentina Twitter",
   "description": "Follow us on Twitter at {url}",
   "extendedDescription": "News from the local community and OpenStreetMap in general.",
   "url": "https://twitter.com/OpenStreetMapAr",

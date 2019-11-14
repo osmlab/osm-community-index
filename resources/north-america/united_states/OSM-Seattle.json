@@ -1,10 +1,10 @@
 {
   "id": "OSM-Seattle",
-  "featureId": "seattle",
   "type": "meetup",
-  "name": "OpenStreetMap Seattle",
+  "includeLocations": ["seattle.geojson"],
   "countryCodes": ["us"],
   "languageCodes": ["en"],
+  "name": "OpenStreetMap Seattle",
   "description": "Mappers and OpenStreetMap users in the Seattle area",
   "url": "https://www.meetup.com/OpenStreetMap-Seattle/",
   "contacts": [

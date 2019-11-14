@@ -4,7 +4,7 @@ const fs = require('fs');
 const glob = require('glob');
 const path = require('path');
 
-const CC = require('country-coder');
+const CountryCoder = require('country-coder');
 const Validator = require('jsonschema').Validator;
 const shell = require('shelljs');
 const prettyStringify = require('json-stringify-pretty-compact');
@@ -34,11 +34,11 @@ function buildAll() {
   let tstrings = {};   // translation strings
   const features = generateFeatures();
   const resources = generateResources(tstrings, features);
-  const combined = generateCombined(features, resources);
+  // const combined = generateCombined(features, resources);
 
   // Save individual data files
-  fs.writeFileSync('dist/combined.geojson', prettyStringify(combined) );
-  fs.writeFileSync('dist/combined.min.geojson', JSON.stringify(combined) );
+  // fs.writeFileSync('dist/combined.geojson', prettyStringify(combined) );
+  // fs.writeFileSync('dist/combined.min.geojson', JSON.stringify(combined) );
   fs.writeFileSync('dist/features.json', prettyStringify({ features: features }, { maxLength: 9999 }));
   fs.writeFileSync('dist/features.min.json', JSON.stringify({ features: features }) );
   fs.writeFileSync('dist/resources.json', prettyStringify({ resources: resources }, { maxLength: 9999 }));
@@ -83,6 +83,14 @@ function generateFeatures() {
     const id = path.basename(file, '.geojson').toLowerCase();
     feature.id = id;
 
+    // sort keys
+    let obj = {};
+    if (feature.type) { obj.type = feature.type; }
+    if (feature.id) { obj.id = feature.id; }
+    if (feature.properties) { obj.properties = feature.properties; }
+    if (feature.geometry) { obj.geometry = feature.geometry; }
+    feature = obj;
+
     validateFile(file, feature, featureSchema);
     prettifyFile(file, feature, contents);
 
@@ -108,6 +116,7 @@ function generateResources(tstrings, features) {
   let resources = {};
   let files = {};
   process.stdout.write('Resources:');
+
   glob.sync(__dirname + '/resources/**/*.json').forEach(file => {
     let contents = fs.readFileSync(file, 'utf8');
 
@@ -120,6 +129,24 @@ function generateResources(tstrings, features) {
       process.exit(1);
     }
 
+    // sort keys
+    let obj = {};
+    if (resource.id) { obj.id = resource.id; }
+    if (resource.type) { obj.type = resource.type; }
+    if (resource.includeLocations) { obj.includeLocations = resource.includeLocations; }
+    if (resource.excludeLocations) { obj.excludeLocations = resource.excludeLocations; }
+    if (resource.countryCodes) { obj.countryCodes = resource.countryCodes.sort(); }
+    if (resource.languageCodes) { obj.languageCodes = resource.languageCodes.sort(); }
+    if (resource.name) { obj.name = resource.name; }
+    if (resource.description) { obj.description = resource.description; }
+    if (resource.extendedDescription) { obj.extendedDescription = resource.extendedDescription }
+    if (resource.url) { obj.url = resource.url; }
+    if (resource.signupUrl) { obj.signupUrl = resource.signupUrl; }
+    if (resource.contacts) { obj.contacts = resource.contacts; }
+    if (resource.order) { obj.order = resource.order; }
+    if (resource.events) { obj.events = resource.events; }
+    resource = obj;
+
     validateFile(file, resource, resourceSchema);
     prettifyFile(file, resource, contents);
 
@@ -127,19 +154,6 @@ function generateResources(tstrings, features) {
     if (files[resourceId]) {
       console.error(colors.red('Error - Duplicate resource id: ') + colors.yellow(resourceId));
       console.error('  ' + colors.yellow(files[resourceId]));
-      console.error('  ' + colors.yellow(file));
-      process.exit(1);
-    }
-
-    let featureId = resource.featureId;
-    if (featureId && !features[featureId]) {
-      console.error(colors.red('Error - Unknown feature id: ') + colors.yellow(featureId));
-      console.error('  ' + colors.yellow(file));
-      process.exit(1);
-    }
-
-    if (!featureId && !/\/resources\/world/.test(file)) {
-      console.error(colors.red('Error - feature id is required for non-worldwide resource:'));
       console.error('  ' + colors.yellow(file));
       process.exit(1);
     }
@@ -232,7 +246,7 @@ function validateLocations(locations, file, features) {
       }
 
     } else {    // a country-coder string?
-      let ccmatch = CC.feature(location);
+      let ccmatch = CountryCoder.feature(location);
       if (ccmatch) {
         console.log('  Country Coder: ' + colors.yellow(ccmatch.properties.nameEn));
       } else {

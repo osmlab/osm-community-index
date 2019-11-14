@@ -1,10 +1,10 @@
 {
   "id": "OSM-PE-telegram",
-  "featureId": "peru",
   "type": "telegram",
-  "name": "OpenStreetMap Peru Telegram",
+  "includeLocations": ["peru.geojson"],
   "countryCodes": ["pe"],
   "languageCodes": ["es"],
+  "name": "OpenStreetMap Peru Telegram",
   "description": "Join the OpenStreetMap Peru community on Telegram",
   "url": "https://telegram.me/osmPe",
   "contacts": [

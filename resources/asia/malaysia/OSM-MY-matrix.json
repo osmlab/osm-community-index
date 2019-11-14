@@ -1,12 +1,12 @@
 {
   "id": "OSM-MY-matrix",
-  "featureId": "malaysia",
   "type": "matrix",
+  "includeLocations": ["malaysia.geojson"],
   "countryCodes": ["my"],
-  "languageCodes": ["ms", "en"],
+  "languageCodes": ["en", "ms"],
   "name": "OpenStreetMap Malaysia Riot channel",
   "description": "All mappers are welcome! Sign up at {signupUrl}",
-  "signupUrl": "https://riot.im/app/#/register",
   "url": "https://riot.im/app/#/room/#OpenstreetmapMalaysia:matrix.org",
+  "signupUrl": "https://riot.im/app/#/register",
   "contacts": [{"name": "Ahmad Amsyar", "email": "OfficiallyAhmad@protonmail.ch"}]
 }

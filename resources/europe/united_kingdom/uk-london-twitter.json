@@ -1,10 +1,10 @@
 {
   "id": "uk-london-twitter",
-  "featureId": "london",
   "type": "twitter",
-  "name": "OpenStreetMap London on Twitter",
+  "includeLocations": ["london.geojson"],
   "countryCodes": ["gb"],
   "languageCodes": ["en"],
+  "name": "OpenStreetMap London on Twitter",
   "description": "OpenStreetMap London on Twitter: {url}",
   "url": "https://twitter.com/OSMLondon",
   "contacts": [{"name": "Harry Wood", "email": "mail@harrywood.co.uk"}],

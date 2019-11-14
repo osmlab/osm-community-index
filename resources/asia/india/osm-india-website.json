@@ -1,9 +1,9 @@
 {
   "id": "osm-india-website",
-  "featureId": "india_full",
   "type": "osm",
-  "name": "OpenStreetMap India",
+  "includeLocations": ["india_full.geojson"],
   "countryCodes": ["in"],
+  "name": "OpenStreetMap India",
   "description": "Mappers and OpenStreetMap users in India",
   "url": "https://openstreetmap.in/",
   "contacts": [{"name": " OpenStreetMap India", "email": "openstreetmapindia@gmail.com"}]

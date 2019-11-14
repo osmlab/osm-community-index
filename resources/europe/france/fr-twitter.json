@@ -1,10 +1,10 @@
 {
   "id": "fr-twitter",
-  "featureId": "france",
   "type": "twitter",
-  "name": "OpenStreetMap France on Twitter",
+  "includeLocations": ["france.geojson"],
   "countryCodes": ["fr"],
   "languageCodes": ["fr"],
+  "name": "OpenStreetMap France on Twitter",
   "description": "OpenStreetMap France on Twitter: {url}",
   "url": "https://twitter.com/osm_fr",
   "contacts": [{"name": "OpenStreetMap France", "email": "contact@openstreetmap.fr"}]

@@ -1,11 +1,11 @@
 {
   "id": "ym-University-of-Warwick",
   "type": "youthmappers",
+  "includeLocations": ["university-of-warwick.geojson"],
+  "countryCodes": ["uk"],
   "name": "University of Warwick Resilience Mapping Society",
   "description": "YouthMappers chapter at University of Warwick",
-  "featureId": "university-of-warwick",
-  "contacts": [{"name": "Organizer", "email": "p.ulbrich@warwick.ac.uk"}],
   "extendedDescription": "We are a group of enthusiastic mappers based at Warwick University. Our aim is to get people excited about humanitarian mapping and help them understand the impact this activity has on the field. We are closely aligned with Missing Maps and Doctors Without Borders UK and focus on HOT tasks in our mapping activities and workshops. Our mapathons are listed on the Missing Maps page whenever they are scheduled.",
-  "countryCodes": ["uk"],
-  "url": "mailto:p.ulbrich@warwick.ac.uk"
+  "url": "mailto:p.ulbrich@warwick.ac.uk",
+  "contacts": [{"name": "Organizer", "email": "p.ulbrich@warwick.ac.uk"}]
 }
