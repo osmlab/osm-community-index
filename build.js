@@ -139,7 +139,7 @@ function generateResources(tstrings, features) {
     if (resource.languageCodes) { obj.languageCodes = resource.languageCodes.sort(); }
     if (resource.name) { obj.name = resource.name; }
     if (resource.description) { obj.description = resource.description; }
-    if (resource.extendedDescription) { obj.extendedDescription = resource.extendedDescription }
+    if (resource.extendedDescription) { obj.extendedDescription = resource.extendedDescription; }
     if (resource.url) { obj.url = resource.url; }
     if (resource.signupUrl) { obj.signupUrl = resource.signupUrl; }
     if (resource.contacts) { obj.contacts = resource.contacts; }
