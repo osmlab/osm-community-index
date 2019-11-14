@@ -146,17 +146,7 @@ function generateResources(tstrings, features) {
       let test = resource.includeLocations[0];
       console.log('  ' + colors.yellow(file));
       console.log('  Testing: ' + colors.yellow(test));
-      let found;
-      if (test === '001') {
-        found = {
-          type: 'Feature',
-          properties: {
-            nameEn: 'World'
-          }
-        };
-      } else {
-        found = CC.feature(resource.includeLocations[0]);
-      }
+      let found = CC.feature(resource.includeLocations[0]);
       if (found) {
         console.log('  Found: ' + colors.yellow(found.properties.nameEn));
       } else {
