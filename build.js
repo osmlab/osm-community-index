@@ -21,10 +21,6 @@ const resourceSchema = require('./schema/resource.json');
 let v = new Validator();
 v.addSchema(geojsonSchema, 'http://json.schemastore.org/geojson.json');
 
-
-const execSync = require('child_process').execSync;
-let _ymlocs = {};
-
 buildAll();
 
 
@@ -87,22 +83,6 @@ function generateFeatures() {
     const id = path.basename(file, '.geojson').toLowerCase();
     feature.id = id;
 
-
-// YOUTHMAPPERS
-let geom = feature.geometry;
-if (geom.coordinates[0].length === 9 && props.area > 1765 && props.area < 1770) {
-  let centroid = [0, 0];
-  for (let j = 0; j < 8; j++) { // skip last
-    centroid[0] += geom.coordinates[0][j][0];
-    centroid[1] += geom.coordinates[0][j][1];
-  }
-  centroid[0] /= 8;
-  centroid[1] /= 8;
-  _ymlocs[id] = { centroid: centroid, featfile: file };
-  // console.log('YouthMappers?  ' + id + ' centroid ' + centroid);
-}
-
-
     // sort keys
     let obj = {};
     if (feature.type) { obj.type = feature.type; }
@@ -148,19 +128,6 @@ function generateResources(tstrings, features) {
       console.error('  ' + colors.yellow(file));
       process.exit(1);
     }
-
-
-// YOUTHMAPPERS
-let loc = resource.includeLocations[0].replace('.geojson', '');
-let found = _ymlocs[loc];
-if (resource.type === 'youthmappers' && found) {
-  // console.log('YouthMappers');
-  // console.log(' centroid ' + centroid);
-  // console.log(' centroid ' + featfile);
-  resource.includeLocations = [ found.centroid ];
-  execSync('git rm "' + found.featfile + '"');
-}
-
 
     // sort keys
     let obj = {};
