@@ -6,6 +6,7 @@
   "required": [
     "id",
     "type",
+    "includeLocations",
     "name",
     "description",
     "url"
@@ -42,6 +43,50 @@
         "youthmappers",
         "youtube"
       ]
+    },
+    "includeLocations": {
+      "$comment": "See country-coder documentation for compatible values: https://github.com/ideditor/country-coder#readme",
+      "description": "(required) Array of locations where the resource is available",
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "anyOf": [
+          { "$ref": "#/definitions/locationCode" },
+          { "$ref": "#/definitions/coordinatePair" },
+          { "$ref": "#/definitions/geojsonFilename" }
+        ]
+      }
+    },
+    "excludeLocations": {
+      "$comment": "See country-coder documentation for compatible values: https://github.com/ideditor/country-coder#readme",
+      "description": "(optional) Array of locations where the resource is unavailable (after applying includeLocations)",
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "anyOf": [
+          { "$ref": "#/definitions/locationCode" },
+          { "$ref": "#/definitions/coordinatePair" },
+          { "$ref": "#/definitions/geojsonFilename" }
+        ]
+      }
+    },
+    "countryCodes": {
+      "description": "(optional) Array of ISO 3166-1 alpha-2 two letter country codes in lowercase",
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]{2}$"
+      }
+    },
+    "languageCodes": {
+      "description": "(optional) Array of ISO-639-1 (2 letter) or ISO-639-3 (3 letter) codes in lowercase",
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]{2,3}(-[a-zA-Z]{2})?$"
+      }
     },
     "name": {
       "$comment": "Assumed to be in English, this value will be sent to Transifex for translation",
@@ -145,50 +190,6 @@
             "type": "string"
           }
         }
-      }
-    },
-    "countryCodes": {
-      "description": "(optional) Array of ISO 3166-1 alpha-2 two letter country codes in lowercase",
-      "type": "array",
-      "uniqueItems": true,
-      "items": {
-        "type": "string",
-        "pattern": "^[a-z]{2}$"
-      }
-    },
-    "includeLocations": {
-      "$comment": "See country-coder documentation for compatible values: https://github.com/ideditor/country-coder#readme",
-      "description": "(optional) Array of locations where the resource is available",
-      "type": "array",
-      "uniqueItems": true,
-      "items": {
-        "anyOf": [
-          { "$ref": "#/definitions/locationCode" },
-          { "$ref": "#/definitions/coordinatePair" },
-          { "$ref": "#/definitions/geojsonFilename" }
-        ]
-      }
-    },
-    "excludeLocations": {
-      "$comment": "See country-coder documentation for compatible values: https://github.com/ideditor/country-coder#readme",
-      "description": "(optional) Array of locations where the resource is unavailable (after applying includeLocations)",
-      "type": "array",
-      "uniqueItems": true,
-      "items": {
-        "anyOf": [
-          { "$ref": "#/definitions/locationCode" },
-          { "$ref": "#/definitions/coordinatePair" },
-          { "$ref": "#/definitions/geojsonFilename" }
-        ]
-      }
-    },
-    "languageCodes": {
-      "description": "(optional) Array of ISO-639-1 (2 letter) or ISO-639-3 (3 letter) codes in lowercase",
-      "type": "array",
-      "uniqueItems": true,
-      "items": {
-        "type": "string",
-        "pattern": "^[a-z]{2,3}(-[a-zA-Z]{2})?$"
       }
     }
   },
