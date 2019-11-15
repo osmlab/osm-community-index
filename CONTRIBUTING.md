@@ -75,12 +75,9 @@ Here are the properties that a resource file can contain:
 * __`id`__ - (required) A unique identifier for the resource.
 * __`type`__ - (required) Type of community resource (see below for list).
 * __`includeLocations`__ - (required) Array of locations where the resource is active.  May contain any of these:
-  * Any string recognized by the [country-coder library](https://github.com/ideditor/country-coder#readme). These should be [ISO 3166-1 2 or 3 letter country codes or UN M.49 numeric codes](https://en.wikipedia.org/wiki/List_of_countries_by_United_Nations_geoscheme).
-  Example: `"de"`
-  * Any filename for a `.geojson` file saved under the `/features` folder
-  Example: `"de-hamburg.geojson"`
-  * A `[longitude, latitude]` coordinate pair.  A 15km radius circle will be computed around this point.
-  Example: `[8.67039, 49.41882]`
+  * Strings recognized by the [country-coder library](https://github.com/ideditor/country-coder#readme). These should be [ISO 3166-1 2 or 3 letter country codes or UN M.49 numeric codes](https://en.wikipedia.org/wiki/List_of_countries_by_United_Nations_geoscheme).<br/>_Example: `"de"`_
+  * Filenames for `.geojson` files saved under the `/features` folder<br/>_Example: `"de-hamburg.geojson"`_
+  * Points as `[longitude, latitude]` coordinate pairs.  A 15km radius circle will be computed around the point.<br/>_Example: `[8.67039, 49.41882]`_
 * __`excludeLocations`__ - (optional) Array of locations to exclude from `includeLocations` (specified in the same format):
 * __`name`__ - (required) Display name for this community resource
 (in English, will be sent to Transifex for translation to other languages)
