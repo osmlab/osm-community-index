@@ -21,9 +21,6 @@ const resourceSchema = require('./schema/resource.json');
 let v = new Validator();
 v.addSchema(geojsonSchema, 'http://json.schemastore.org/geojson.json');
 
-const execSync = require('child_process').execSync;
-let _featurefiles = {};
-
 buildAll();
 
 
@@ -111,7 +108,6 @@ function generateFeatures() {
 
   process.stdout.write(Object.keys(files).length + '\n');
 
-_featurefiles = files;
   return features;
 }
 
@@ -120,8 +116,6 @@ function generateResources(tstrings, features) {
   let resources = {};
   let files = {};
   process.stdout.write('Resources:');
-
-let _removals = new Set();
 
   glob.sync(__dirname + '/resources/**/*.json').forEach(file => {
     let contents = fs.readFileSync(file, 'utf8');
@@ -134,27 +128,6 @@ let _removals = new Set();
       console.error('  ' + colors.yellow(file));
       process.exit(1);
     }
-
-
-
-// TRIVIAL GEOJSON -> COUNTRY-CODER REPLACEMENTS
-let loc = resource.includeLocations[0];
-if (!Array.isArray(loc) && !/^\S+\.geojson$/i.test(loc)) {
-  let id = loc.replace('.geojson', '');
-  let foundFile = _featurefiles[id];
-  if (foundFile) {
-    let ccmatch = CountryCoder.feature(id.replace('_full', ''));
-    if (ccmatch) {
-      let replacement = ccmatch.properties.iso1A2 || ccmatch.properties.m49;
-      console.log('  Country Coder Match: '
-        + id + ' -> '
-        + ccmatch.properties.nameEn + ' (' + replacement + ')'
-      );
-      resource.includeLocations[0] = replacement.toLowerCase();
-      _removals.add(foundFile);
-    }
-  }
-}
 
     // sort keys
     let obj = {};
@@ -244,12 +217,6 @@ if (!Array.isArray(loc) && !/^\S+\.geojson$/i.test(loc)) {
   });
 
   process.stdout.write(Object.keys(files).length + '\n');
-
-
-_removals.forEach(foundFile => {
-  console.log(' REMOVE "' + foundFile + '"');
-  execSync('git rm "' + foundFile + '"');
-});
 
   return resources;
 }
