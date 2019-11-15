@@ -79,6 +79,11 @@ function generateFeatures() {
     props.area = Number(area.toFixed(2));
     feature.properties = props;
 
+    if (props.area < 2000) {   // warn if this feature is so small it would better be represented as a point.
+      console.error(colors.yellow('Warning - small area (' + props.area + ').  Use a point `includeLocation` instead.'));
+      console.error('  ' + colors.yellow(file));
+    }
+
     // use the filename as the feature.id
     const id = path.basename(file, '.geojson').toLowerCase();
     feature.id = id;
