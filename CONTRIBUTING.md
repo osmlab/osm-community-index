@@ -4,20 +4,20 @@
 
 There are 2 kinds of files in this project:
 
-* Under `features/` there are `.geojson` files to describe the areas where the communities are active
 * Under `resources/` there are `.json` files to describe the community resources
+* Under `features/` there are `.geojson` files to describe the areas where the communities are active
 
 ##### tl;dr
 
 To add your community resource:
 
-* Add a **feature** `.geojson` file under `features/` folder
-  * This is a boundary around where the resource is active
-  * You can use [geojson.io](http://geojson.io) or other tools to create these.
-* Add a **resource** `.json` file under `resources/` folder
+* (required) Add a **resource** `.json` file under `resources/` folder
   * This contains info about what the resource is (slack, forum, mailinglist, facebook, etc.)
   * You can just copy and change an existing one
-  * Several resources can share the same `.geojson` feature
+  * Each resource needs an `includeLocations` property to say where it is active.
+* (optional) Add a **feature** `.geojson` file under `features/` folder
+  * This is a boundary around where the resource is active
+  * You can use [geojson.io](http://geojson.io) or other tools to create these.
 * `npm run test`
   * This will build and check for errors and make the files pretty
 
@@ -30,56 +30,18 @@ To add your community resource:
 * Run `npm install` to install libraries
 
 
-### Features
-
-These are `*.geojson` files found under the `features/` folder. Each feature file contains a single GeoJSON `Feature` for a region where a community resource is active.
-
-Feature files look like this:
-
-```js
-{
-  "type": "Feature",
-  "id": "usa_full",
-  "properties": { "area": 11645277.77 },
-  "geometry": {
-    "type": "MultiPolygon",
-    "coordinates": [
-      ...
-    ]
-  }
-}
-```
-
-Note:  A `FeatureCollection` containing a single `Feature` is ok too - the build script can handle this.
-
-There are many online tools to create or modify these `.geojson` files. A workflow could be:
-
-1. Create the shape with [geojson.io](http://geojson.io) from scratch.
-
-or
-
-1. Generate a precise file with the [Polygon creation](http://polygons.openstreetmap.fr/) from an OSM Relation.
-1. Simplify the file with [Mapshaper](http://mapshaper.org/). Beware that the simplification probably cuts some border areas.
-1. So load the file in [geojson.io](http://geojson.io) and include the border areas again and perhaps reduce the point count further. It is probably better to have the feature a bit larger than missing an area.
-
-Each feature must have a unique `id` property, for example `usa_full`.
-
-You do not need to supply an `area` property.  The `npm run build` script will calculate the `area` property automatically.
-
-
 ### Resources
 
 These are `*.json` files found under the `resources/` folder.
-Each resource file contains a single JSON object with information about
-the community resource.
+Each resource file contains a single JSON object with information about the community resource.
 
 Resource files look like this:
 
 ```js
 {
   "id": "OSM-US-slack",
-  "featureId": "usa_full",
   "type": "slack",
+  "includeLocations": ["us"],
   "countryCodes": ["us"],
   "languageCodes": ["en"],
   "name": "OpenStreetMap US Slack",
@@ -111,14 +73,24 @@ Resource files look like this:
 Here are the properties that a resource file can contain:
 
 * __`id`__ - (required) A unique identifier for the resource.
-* __`featureId`__ - (optional) A unique identifier for the feature. This `featureId` matches the resource to a .geojson feature. If null, this is a global resource.
 * __`type`__ - (required) Type of community resource (see below for list).
+* __`includeLocations`__ - (required) Array of locations where the resource is active.  May contain any of these:
+  * Any string recognized by the [country-coder library](https://github.com/ideditor/country-coder#readme). These should be [ISO 3166-1 2 or 3 letter country codes or UN M.49 numeric codes](https://en.wikipedia.org/wiki/List_of_countries_by_United_Nations_geoscheme).
+  Example: `"de"`
+  * Any filename for a `.geojson` file saved under the `/features` folder
+  Example: `"de-hamburg.geojson"`
+  * A `[longitude, latitude]` coordinate pair.  A 15km radius circle will be computed around this point.
+  Example: `[8.67039, 49.41882]`
+* __`excludeLocations`__ - (optional) Array of locations to exclude from `includeLocations` (specified in the same format):
 * __`name`__ - (required) Display name for this community resource
+(in English, will be sent to Transifex for translation to other languages)
 * __`description`__ - (required) One line description of the community resource
+(in English, will be sent to Transifex for translation to other languages)
 * __`extendedDescription`__ - (optional) Longer description of the community resource
+(in English, will be sent to Transifex for translation to other languages)
 * __`url`__ - (required) A url link to visit the community resource
 * __`signupUrl`__ - (optional) A url link to sign up for the community resource
-* __`countryCodes`__ - (optional) Array of [two letter country codes](https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) where the community is active
+* __`countryCodes`__ - (optional) Array of [two letter country codes](https://en.wikipedia.org/wiki/List_of_countries_by_United_Nations_geoscheme) where the community is active
 * __`languageCodes`__ - (optional) Array of [two letter](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) or [three letter](https://en.wikipedia.org/wiki/List_of_ISO_639-3_codes) spoken by this community
 * __`order`__ - (optional) When several resources with same geography are present, this adjusts the display order (default = 0, higher numbers display more prominently)
 
@@ -163,6 +135,39 @@ Resources may have events. These are optional.
 * __`where`__ - (required) Where the event is
 * __`when`__ - (required) When the event is (Should be a string parseable by Date.parse, and assumed to be local time zone for the event)
 * __`url`__ - (optional) A url link for the event
+
+
+### Features
+
+These are `*.geojson` files found under the `features/` folder. Each feature file contains a single GeoJSON `Feature` for a region where a community resource is active.
+
+Feature files look like this:
+
+```js
+{
+  "type": "Feature",
+  "id": "boston_metro",
+  "properties": {"area": 6992.97},
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [...]
+  }
+}
+```
+
+Note:  A `FeatureCollection` containing a single `Feature` is ok too - the build script can handle this.
+
+There are many online tools to create or modify these `.geojson` files. A workflow could be:
+
+1. Create the shape with [geojson.io](http://geojson.io) from scratch.
+
+or
+
+1. Generate a precise file with the [Polygon creation](http://polygons.openstreetmap.fr/) from an OSM Relation.
+1. Simplify the file with [Mapshaper](http://mapshaper.org/). Beware that the simplification probably cuts some border areas.
+1. So load the file in [geojson.io](http://geojson.io) and include the border areas again and perhaps reduce the point count further. It is probably better to have the feature a bit larger than missing an area.
+
+You do not need to supply an `area` property or `id` property.  The `npm run build` script will calculate these automatically.
 
 
 ### Building
