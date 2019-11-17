@@ -14,6 +14,8 @@ const calcArea = require('@mapbox/geojson-area');
 const precision = require('geojson-precision');
 const rewind = require('geojson-rewind');
 
+const locationToFeature = require('./lib/locationToFeature.js');
+
 const geojsonSchema = require('./schema/geojson.json');
 const featureSchema = require('./schema/feature.json');
 const resourceSchema = require('./schema/resource.json');
@@ -227,36 +229,11 @@ function generateResources(tstrings, features) {
 
 function validateLocations(locations, file, features) {
   locations.forEach(location => {
-    if (Array.isArray(location)) {   // a [lon,lat] coordinate pair?
-      if (location.length === 2 && Number.isFinite(location[0]) && Number.isFinite(location[1]) &&
-        location[0] >= -180 && location[0] <= 180 && location[1] >= -90 && location[1] <= 90
-      ) {
-        // console.log('  Lon,Lat: ' + colors.yellow(location));
-      } else {
-        console.error(colors.red('Error - Invalid location: ') + colors.yellow(location));
-        console.error('  ' + colors.yellow(file));
-        process.exit(1);
-      }
-
-    } else if (/^\S+\.geojson$/i.test(location)) {   // a .geojson filename?
-      let featureId = location.replace('.geojson', '');
-      if (features[featureId]) {
-        // console.log('  GeoJSON: ' + colors.yellow(location));
-      } else {
-        console.error(colors.red('Error - Invalid location: ') + colors.yellow(location));
-        console.error('  ' + colors.yellow(file));
-        process.exit(1);
-      }
-
-    } else {    // a country-coder string?
-      let ccmatch = CountryCoder.feature(location);
-      if (ccmatch) {
-        // console.log('  Country Coder: ' + colors.yellow(ccmatch.properties.nameEn));
-      } else {
-        console.error(colors.red('Error - Invalid location: ') + colors.yellow(location));
-        console.error('  ' + colors.yellow(file));
-        process.exit(1);
-      }
+    let feature = locationToFeature(location, features);
+    if (!feature) {
+      console.error(colors.red('Error - Invalid location: ') + colors.yellow(location));
+      console.error('  ' + colors.yellow(file));
+      process.exit(1);
     }
   });
 }
