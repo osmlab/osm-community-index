@@ -4,7 +4,6 @@ const fs = require('fs');
 const glob = require('glob');
 const path = require('path');
 
-const CountryCoder = require('country-coder');
 const Validator = require('jsonschema').Validator;
 const shell = require('shelljs');
 const prettyStringify = require('json-stringify-pretty-compact');
@@ -14,6 +13,7 @@ const calcArea = require('@mapbox/geojson-area');
 const precision = require('geojson-precision');
 const rewind = require('geojson-rewind');
 
+const isValidLocation = require('./lib/isValidLocation.js');
 const locationToFeature = require('./lib/locationToFeature.js');
 
 const geojsonSchema = require('./schema/geojson.json');
@@ -36,11 +36,11 @@ function buildAll() {
   let tstrings = {};   // translation strings
   const features = generateFeatures();
   const resources = generateResources(tstrings, features);
-  // const combined = generateCombined(features, resources);
+  const combined = generateCombined(features, resources);
 
   // Save individual data files
-  // fs.writeFileSync('dist/combined.geojson', prettyStringify(combined) );
-  // fs.writeFileSync('dist/combined.min.geojson', JSON.stringify(combined) );
+  fs.writeFileSync('dist/combined.geojson', prettyStringify(combined) );
+  fs.writeFileSync('dist/combined.min.geojson', JSON.stringify(combined) );
   fs.writeFileSync('dist/features.json', prettyStringify({ features: features }, { maxLength: 9999 }));
   fs.writeFileSync('dist/features.min.json', JSON.stringify({ features: features }) );
   fs.writeFileSync('dist/resources.json', prettyStringify({ resources: resources }, { maxLength: 9999 }));
@@ -229,8 +229,7 @@ function generateResources(tstrings, features) {
 
 function validateLocations(locations, file, features) {
   locations.forEach(location => {
-    let feature = locationToFeature(location, features);
-    if (!feature) {
+    if (!isValidLocation(location, features)) {
       console.error(colors.red('Error - Invalid location: ') + colors.yellow(location));
       console.error('  ' + colors.yellow(file));
       process.exit(1);
@@ -307,22 +306,23 @@ function deepClone(obj) {
 //
 function generateCombined(features, resources) {
   let keepFeatures = {};
+
   Object.keys(resources).forEach(resourceId => {
     const resource = resources[resourceId];
-    const featureId = resource.featureId;
-    if (!featureId) return;  // note: this will exclude worldwide resources
 
-    const origFeature = features[featureId];
-    if (!origFeature) return;
+    resource.includeLocations.forEach(location => {
+      const featureId = location.toString();
+      const origFeature = locationToFeature(location, features).feature;
 
-    let keepFeature = keepFeatures[featureId];
-    if (!keepFeature) {
-      keepFeature = deepClone(origFeature);
-      keepFeature.properties.resources = {};
-      keepFeatures[featureId] = keepFeature;
-    }
+      let keepFeature = keepFeatures[featureId];
+      if (!keepFeature) {
+        keepFeature = deepClone(origFeature);
+        keepFeature.properties.resources = {};
+        keepFeatures[featureId] = keepFeature;
+      }
 
-    keepFeature.properties.resources[resourceId] = deepClone(resource);
+      keepFeature.properties.resources[resourceId] = deepClone(resource);
+    });
   });
 
   return { type: 'FeatureCollection', features: Object.values(keepFeatures) };
