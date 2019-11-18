@@ -22,6 +22,7 @@
     "txpush": "tx push -s"
   },
   "dependencies": {
+    "@mapbox/geojson-area": "^0.2.2",
     "circle-to-polygon": "^1.0.2",
     "country-coder": "^2.1.0",
     "geojson-precision": "^0.4.0"
@@ -30,7 +31,6 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
-    "@mapbox/geojson-area": "^0.2.2",
     "bytes": "^3.0.0",
     "colors": "^1.1.2",
     "easy-table": "^1.1.1",

@@ -144,7 +144,7 @@ Feature files look like this:
 {
   "type": "Feature",
   "id": "boston_metro",
-  "properties": {"area": 6992.97},
+  "properties": {},
   "geometry": {
     "type": "Polygon",
     "coordinates": [...]
@@ -163,8 +163,6 @@ or
 1. Generate a precise file with the [Polygon creation](http://polygons.openstreetmap.fr/) from an OSM Relation.
 1. Simplify the file with [Mapshaper](http://mapshaper.org/). Beware that the simplification probably cuts some border areas.
 1. So load the file in [geojson.io](http://geojson.io) and include the border areas again and perhaps reduce the point count further. It is probably better to have the feature a bit larger than missing an area.
-
-You do not need to supply an `area` property or `id` property.  The `npm run build` script will calculate these automatically.
 
 
 ### Building

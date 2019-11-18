@@ -75,14 +75,11 @@ function generateFeatures() {
       feature = fc[0];
     }
 
-    // calculate area and set a property for it
-    let props = feature.properties || {};
+    // warn if this feature is so small it would better be represented as a point.
     let area = calcArea.geometry(feature.geometry) / 1e6;   // m² to km²
-    props.area = Number(area.toFixed(2));
-    feature.properties = props;
-
-    if (props.area < 2000) {   // warn if this feature is so small it would better be represented as a point.
-      console.warn(colors.yellow('Warning - small area (' + props.area + ').  Use a point `includeLocation` instead.'));
+    area = Number(area.toFixed(2));
+    if (area < 2000) {
+      console.warn(colors.yellow('Warning - small area (' + area + ' km²).  Use a point `includeLocation` instead.'));
       console.warn('  ' + colors.yellow(file));
     }
 
@@ -303,7 +300,6 @@ function deepClone(obj) {
 //   ]
 // }
 //
-//
 function generateCombined(features, resources) {
   let keepFeatures = {};
 
@@ -312,15 +308,10 @@ function generateCombined(features, resources) {
 
     resource.includeLocations.forEach(location => {
       const featureId = location.toString();
-      const origFeature = locationToFeature(location, features).feature;
-
       let keepFeature = keepFeatures[featureId];
       if (!keepFeature) {
+        const origFeature = locationToFeature(location, features).feature;
         keepFeature = deepClone(origFeature);
-
-        let area = calcArea.geometry(keepFeature.geometry) / 1e6;   // m² to km²
-        keepFeature.properties = keepFeatures.properties || {};
-        keepFeature.properties.area = keepFeature.properties.area || Number(area.toFixed(2));
         keepFeature.properties.resources = {};
         keepFeatures[featureId] = keepFeature;
       }
