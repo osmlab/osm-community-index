@@ -1,10 +1,10 @@
 {
   "id": "OSM-Ottawa-meetup",
-  "featureId": "ottawa_gatineau",
   "type": "meetup",
-  "name": "OpenStreetMap Ottawa",
+  "includeLocations": ["ottawa_gatineau.geojson"],
   "countryCodes": ["ca"],
   "languageCodes": ["en", "fr"],
+  "name": "OpenStreetMap Ottawa",
   "description": "Mappers and OpenStreetMap users in the Ottawa area",
   "url": "https://www.meetup.com/openstreetmap-ottawa/",
   "contacts": [

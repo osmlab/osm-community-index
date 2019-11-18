@@ -37609,6 +37609,16 @@
         "emojiFlag": "🇨🇦",
         "area": 15444104.37,
         "resources": {
+          "OSM-CA-mailinglist": {
+            "id": "OSM-CA-mailinglist",
+            "type": "mailinglist",
+            "includeLocations": ["ca"],
+            "countryCodes": ["ca"],
+            "languageCodes": ["en", "fr"],
+            "name": "OSM-CA mailing list",
+            "description": "A mailing list to discuss OpenStreetMap in Canada.",
+            "url": "https://lists.openstreetmap.org/listinfo/talk-ca"
+          },
           "OSM-CA-Slack": {
             "id": "OSM-CA-Slack",
             "type": "slack",
@@ -37940,6 +37950,45 @@
     },
     {
       "type": "Feature",
+      "id": "ottawa_gatineau",
+      "properties": {
+        "area": 4073.81,
+        "resources": {
+          "OSM-Ottawa-meetup": {
+            "id": "OSM-Ottawa-meetup",
+            "type": "meetup",
+            "includeLocations": ["ottawa_gatineau.geojson"],
+            "countryCodes": ["ca"],
+            "languageCodes": ["en", "fr"],
+            "name": "OpenStreetMap Ottawa",
+            "description": "Mappers and OpenStreetMap users in the Ottawa area",
+            "url": "https://www.meetup.com/openstreetmap-ottawa/",
+            "contacts": [
+              {"name": "Denis Carriere", "email": "carriere.denis@gmail.com"},
+              {"name": "John Marshall", "email": "rps333@gmail.com"}
+            ]
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-76.23413, 45.50827],
+            [-76.12839, 45.55829],
+            [-75.26184, 45.58041],
+            [-75.13412, 45.39652],
+            [-75.42938, 45.32512],
+            [-75.35385, 45.17816],
+            [-75.82489, 44.93564],
+            [-76.34537, 45.36855],
+            [-76.23413, 45.50827]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "vancouver_metro",
       "properties": {
         "area": 3553.36,
@@ -37971,6 +38020,45 @@
             [-122.24, 49.27],
             [-122.2, 49],
             [-123.32, 49]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "-73.5787,45.50608",
+      "properties": {
+        "id": "-73.5787,45.50608",
+        "area": 1963.5,
+        "resources": {
+          "ym-McGill-University": {
+            "id": "ym-McGill-University",
+            "type": "youthmappers",
+            "includeLocations": [[-73.5787, 45.50608]],
+            "countryCodes": ["ca"],
+            "name": "Open Mapping Group McGill: A Member of the McGill Undergraduate Geography Society",
+            "description": "YouthMappers chapter at McGill University",
+            "extendedDescription": "The Open Mapping Group McGill: A Member of McGill Undergraduate Geography Society (OMG McGill) aims to connect students with open geospatial data and technologies to enhance resilience, community-building, and learning through mapping–on campus, in Montreal, in Canada, and abroad.",
+            "url": "mailto:omg.mcgill@gmail.com",
+            "contacts": [{"name": "Organizer", "email": "omg.mcgill@gmail.com"}]
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-73.579, 45.731],
+            [-73.768, 45.688],
+            [-73.884, 45.575],
+            [-73.883, 45.436],
+            [-73.766, 45.324],
+            [-73.579, 45.282],
+            [-73.391, 45.324],
+            [-73.274, 45.436],
+            [-73.274, 45.575],
+            [-73.39, 45.688],
+            [-73.579, 45.731]
           ]
         ]
       }
@@ -40308,45 +40396,6 @@
             [-96.316, 39.233],
             [-96.421, 39.346],
             [-96.592, 39.389]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "-73.5787,45.50608",
-      "properties": {
-        "id": "-73.5787,45.50608",
-        "area": 1963.5,
-        "resources": {
-          "ym-McGill-University": {
-            "id": "ym-McGill-University",
-            "type": "youthmappers",
-            "includeLocations": [[-73.5787, 45.50608]],
-            "countryCodes": ["ca"],
-            "name": "Open Mapping Group McGill: A Member of the McGill Undergraduate Geography Society",
-            "description": "YouthMappers chapter at McGill University",
-            "extendedDescription": "The Open Mapping Group McGill: A Member of McGill Undergraduate Geography Society (OMG McGill) aims to connect students with open geospatial data and technologies to enhance resilience, community-building, and learning through mapping–on campus, in Montreal, in Canada, and abroad.",
-            "url": "mailto:omg.mcgill@gmail.com",
-            "contacts": [{"name": "Organizer", "email": "omg.mcgill@gmail.com"}]
-          }
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-73.579, 45.731],
-            [-73.768, 45.688],
-            [-73.884, 45.575],
-            [-73.883, 45.436],
-            [-73.766, 45.324],
-            [-73.579, 45.282],
-            [-73.391, 45.324],
-            [-73.274, 45.436],
-            [-73.274, 45.575],
-            [-73.39, 45.688],
-            [-73.579, 45.731]
           ]
         ]
       }
