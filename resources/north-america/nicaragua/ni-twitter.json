@@ -1,10 +1,10 @@
 {
   "id": "ni-twitter",
-  "featureId": "nicaragua",
   "type": "twitter",
-  "name": "OpenStreetMap Nicaragua Twitter",
+  "includeLocations": ["ni"],
   "countryCodes": ["ni"],
   "languageCodes": ["es"],
+  "name": "OpenStreetMap Nicaragua Twitter",
   "description": "OSM Nicaragua on Twitter: @osm_ni",
   "url": "https://twitter.com/osm_ni",
   "contacts": [{"name": "NI Community", "email": "talk-ni-owner@openstreetmap.org"}]

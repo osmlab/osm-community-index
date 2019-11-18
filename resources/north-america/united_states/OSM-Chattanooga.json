@@ -1,10 +1,10 @@
 {
   "id": "OSM-Chattanooga",
-  "featureId": "chattanooga",
   "type": "facebook",
-  "name": "OSM Chattanooga",
+  "includeLocations": ["chattanooga.geojson"],
   "countryCodes": ["us"],
   "languageCodes": ["en"],
+  "name": "OSM Chattanooga",
   "description": "The OpenStreetMap user group for Chattanooga",
   "url": "https://www.facebook.com/groups/123483951073256",
   "contacts": [

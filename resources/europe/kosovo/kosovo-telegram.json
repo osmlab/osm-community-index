@@ -1,9 +1,9 @@
 {
   "id": "kosovo-telegram",
   "type": "telegram",
-  "featureId": "kosovo",
+  "includeLocations": ["xk"],
   "countryCodes": ["xk"],
-  "languageCodes": ["sq", "sr", "en"],
+  "languageCodes": ["en", "sq", "sr"],
   "name": "OpenStreetMap Kosovo on Telegram",
   "description": "Semi-official all-Kosovo Telegram public group. We welcome all mappers from anywhere in any language.",
   "url": "https://t.me/osmkosovo",

@@ -1,9 +1,9 @@
 {
   "id": "fr-telegram",
-  "featureId": "france",
   "type": "telegram",
-  "name": "OpenStreetMap France on Telegram",
+  "includeLocations": ["fr"],
   "countryCodes": ["fr"],
+  "name": "OpenStreetMap France on Telegram",
   "description": "A Telegram group for the OSM France community: {url}",
   "url": "https://t.me/osmfr",
   "contacts": [{"name": "OpenStreetMap France", "email": "contact@openstreetmap.fr"}],

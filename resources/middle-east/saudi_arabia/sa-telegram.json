@@ -1,9 +1,9 @@
 {
   "id": "sa-telegram",
-  "featureId": "saudi_arabia",
   "type": "telegram",
-  "name": "OSM Saudi Arabia on Telegram",
+  "includeLocations": ["sa"],
   "countryCodes": ["sa"],
+  "name": "OSM Saudi Arabia on Telegram",
   "description": "A Telegram group for the OpenStreetMap community in Saudi Arabia: {url}",
   "url": "https://t.me/OSMSaudi",
   "order": 5

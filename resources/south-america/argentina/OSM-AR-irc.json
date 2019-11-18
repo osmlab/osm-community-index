@@ -1,10 +1,10 @@
 {
   "id": "OSM-AR-irc",
-  "featureId": "argentina",
   "type": "irc",
-  "name": "OpenStreetMap Argentina IRC",
+  "includeLocations": ["ar"],
   "countryCodes": ["ar"],
   "languageCodes": ["es"],
+  "name": "OpenStreetMap Argentina IRC",
   "description": "Join #osm-ar on irc.oftc.net (port 6667)",
   "extendedDescription": "You may find the most geeky user in the community.",
   "url": "https://webchat.oftc.net/?channels=osm-ar",

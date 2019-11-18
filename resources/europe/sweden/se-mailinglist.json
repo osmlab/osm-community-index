@@ -1,10 +1,10 @@
 {
   "id": "se-mailinglist",
-  "featureId": "sweden",
   "type": "mailinglist",
-  "name": "Talk-se Mailing List",
+  "includeLocations": ["se"],
   "countryCodes": ["se"],
   "languageCodes": ["sv"],
+  "name": "Talk-se Mailing List",
   "description": "A mailing list to discuss OpenStreetMap in Sweden",
   "url": "https://lists.openstreetmap.org/listinfo/talk-se",
   "contacts": [{"name": "Talk-se-owner", "email": "talk-se-owner@openstreetmap.org"}],

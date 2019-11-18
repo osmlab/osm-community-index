@@ -1,10 +1,10 @@
 {
   "id": "OSM-japan-mailinglist",
-  "featureId": "japan",
   "type": "mailinglist",
-  "name": "OpenStreetMap Japan Mailinglist",
+  "includeLocations": ["jp"],
   "countryCodes": ["jp"],
   "languageCodes": ["ja"],
+  "name": "OpenStreetMap Japan Mailinglist",
   "description": "Talk-ja is an Official Mailinglist for Japanese Community",
   "url": "https://lists.openstreetmap.org/listinfo/talk-ja",
   "contacts": [{"name": "OSMF Japan", "email": "info@osmf.jp"}],

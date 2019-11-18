@@ -1,9 +1,9 @@
 {
   "id": "ua-forum",
-  "featureId": "ukraine",
   "type": "forum",
+  "includeLocations": ["ua"],
   "countryCodes": ["ua"],
-  "languageCodes": ["uk", "ru", "en"],
+  "languageCodes": ["en", "ru", "uk"],
   "name": "OpenStreetMap Ukraine Forum",
   "description": "Forum of OpenStreetMap community in Ukraine",
   "url": "https://forum.openstreetmap.org/viewforum.php?id=40",

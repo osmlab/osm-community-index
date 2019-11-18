@@ -1,12 +1,12 @@
 {
   "id": "osm-afghanistan-facebook",
-  "featureId": "afghanistan",
   "type": "facebook",
+  "includeLocations": ["af"],
+  "countryCodes": ["af"],
+  "languageCodes": ["en", "fa", "ps"],
   "name": "OpenStreetMap Afghanistan",
   "description": "Improve OpenStreetMap in Afghanistan",
   "url": "https://www.facebook.com/groups/321292812113316/",
-  "countryCodes": ["af"],
-  "languageCodes": ["en", "ps", "fa"],
   "contacts": [{"name": "Walker Kosmidou-Bradley", "email": "walker.t.bradley@gmail.com"}],
   "order": 3
 }

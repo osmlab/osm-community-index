@@ -1,10 +1,10 @@
 {
   "id": "de-ostwestfalen-lippe-mailinglist",
-  "featureId": "de-ostwestfalen-lippe",
   "type": "mailinglist",
-  "name": "OWL Mailing List",
+  "includeLocations": ["de-ostwestfalen-lippe.geojson"],
   "countryCodes": ["de"],
   "languageCodes": ["de"],
+  "name": "OWL Mailing List",
   "description": "This is the mailing list for the Ostwestfalen-Lippe OSM community",
   "url": "https://gt.owl.de/mailman/listinfo/osm",
   "contacts": [{"name": "Florian Lohoff", "email": "osm-owner@gt.owl.de"}],

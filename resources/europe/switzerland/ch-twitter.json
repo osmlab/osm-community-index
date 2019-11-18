@@ -1,10 +1,10 @@
 {
   "id": "ch-twitter",
-  "featureId": "switzerland",
   "type": "twitter",
-  "name": "OpenStreetMap Switzerland Twitter",
+  "includeLocations": ["ch"],
   "countryCodes": ["ch"],
   "languageCodes": ["de", "en", "fr", "it"],
+  "name": "OpenStreetMap Switzerland Twitter",
   "description": "Follow us on Twitter: {url}",
   "url": "https://twitter.com/SwissOSM",
   "contacts": [{"name": "Swiss OpenStreetMap Association", "email": "board@sosm.ch"}]

@@ -1,10 +1,10 @@
 {
   "id": "is-chapter",
-  "featureId": "iceland",
   "type": "osm-lc",
-  "name": "OpenStreetMap Iceland Local Chapter",
+  "includeLocations": ["is"],
   "countryCodes": ["is"],
-  "languageCodes": ["is", "en"],
+  "languageCodes": ["en", "is"],
+  "name": "OpenStreetMap Iceland Local Chapter",
   "description": "We help grow and improve OpenStreetMap in Iceland.",
   "url": "https://www.hlidskjalf.is/",
   "contacts": [{"name": "Talk-is-owner", "email": "talk-is-owner@openstreetmap.org"}],

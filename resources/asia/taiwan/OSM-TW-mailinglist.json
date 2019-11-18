@@ -1,10 +1,10 @@
 {
   "id": "OSM-TW-mailinglist",
-  "featureId": "taiwan",
   "type": "mailinglist",
-  "name": "OpenStreetMap Taiwan Mailinglist",
+  "includeLocations": ["tw"],
   "countryCodes": ["tw"],
-  "languageCodes": ["zh-tw", "en"],
+  "languageCodes": ["en", "zh-tw"],
+  "name": "OpenStreetMap Taiwan Mailinglist",
   "description": "Talk-tw is an Official Mailinglist for the Communities to dicuss matters about Taiwan",
   "url": "https://lists.openstreetmap.org/listinfo/talk-tw",
   "contacts": [{"name": "Nobody 沒有人 (Public email)", "email": "hiboard@openstreetmap.tw"}],

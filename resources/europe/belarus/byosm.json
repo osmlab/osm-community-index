@@ -1,8 +1,8 @@
 {
   "id": "byosm",
   "type": "telegram",
-  "featureId": "belarus",
-  "languageCodes": ["ru", "be", "en"],
+  "includeLocations": ["by"],
+  "languageCodes": ["be", "en", "ru"],
   "name": "OpenStreetMap Belarus",
   "description": "OpenStreetMap Belarus telegram chat",
   "url": "https://t.me/byosm",

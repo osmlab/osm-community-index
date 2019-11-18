@@ -1,9 +1,9 @@
 {
   "id": "il-telegram",
-  "featureId": "israel",
   "type": "telegram",
-  "name": "OSM Israel on Telegram",
+  "includeLocations": ["il"],
   "countryCodes": ["il"],
+  "name": "OSM Israel on Telegram",
   "description": "A Telegram group for the OpenStreetMap community in Israel: {url}",
   "url": "https://t.me/OSM_Israel",
   "order": 5

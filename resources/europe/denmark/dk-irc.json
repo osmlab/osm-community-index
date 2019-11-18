@@ -1,10 +1,10 @@
 {
   "id": "dk-irc",
-  "featureId": "denmark",
   "type": "irc",
-  "name": "OpenStreetMap Denmark IRC",
+  "includeLocations": ["dk"],
   "countryCodes": ["dk"],
   "languageCodes": ["da"],
+  "name": "OpenStreetMap Denmark IRC",
   "description": "Join #osm-dk on irc.oftc.net (port 6667)",
   "url": "https://webchat.oftc.net/?channels=osm-dk",
   "contacts": [{"name": "Talk-dk-owner", "email": "talk-dk-owner@openstreetmap.org"}],

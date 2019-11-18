@@ -24,8 +24,8 @@ might find interesting or helpful.
 #### Source files
 The source files for this index are stored in two kinds of files:
 
-* Under `features/` there are `.geojson` files to describe the areas where the communities are active
 * Under `resources/` there are `.json` files to describe the community resources
+* Under `features/` there are `.geojson` files to describe the areas where the communities are active
 
 :point_right: See [CONTRIBUTING.md](CONTRIBUTING.md) for info about how to add your
 community resource to this index.
@@ -43,20 +43,22 @@ Several files are published under `dist/`
 
 ##### tl;dr
 
-* Add a **feature** `.geojson` file under `features/` folder
-  * This is a boundary around where the resource is active
-  * You can use [geojson.io](http://geojson.io) to create these
-* Add a **resource** `.json` file under `resources/` folder
+* (required) Add a **resource** `.json` file under `resources/` folder
   * This contains info about what the resource is (slack, forum, mailinglist, facebook, etc.)
   * You can just copy and change an existing one
-  * Several resources can share the same `.geojson` feature
+  * Each resource needs an `includeLocations` property to define where it is active.
+* (optional) Add a **feature** `.geojson` file under `features/` folder
+  * This is a boundary around where the resource is active
+  * You can use [geojson.io](http://geojson.io) or other tools to create these.
 * `npm run test`
   * This will build and check for errors and make the files pretty
+
 
 #### Prerequisites
 
 * [Node.js](https://nodejs.org/) version 8 or newer
 * [`git`](https://www.atlassian.com/git/tutorials/install-git/) for your platform
+
 
 #### Installing
 
@@ -65,10 +67,12 @@ Several files are published under `dist/`
 * `cd` into the project folder,
 * Run `npm install` to install libraries
 
+
 #### Building
 
 * Just `npm run test`
   * This will check the files for errors and make them pretty.
+
 
 ### License
 

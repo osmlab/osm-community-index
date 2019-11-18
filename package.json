@@ -21,23 +21,29 @@
     "txpull": "tx pull -a",
     "txpush": "tx push -s"
   },
+  "dependencies": {
+    "@mapbox/geojson-area": "^0.2.2",
+    "circle-to-polygon": "^1.0.2",
+    "country-coder": "^2.1.0",
+    "geojson-precision": "^0.4.0"
+  },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
-    "@mapbox/geojson-area": "^0.2.2",
     "bytes": "^3.0.0",
     "colors": "^1.1.2",
     "easy-table": "^1.1.1",
     "eslint": "^6.0.0",
-    "geojson-precision": "^0.4.0",
     "geojson-rewind": "^0.3.1",
     "glob": "^7.1.5",
     "js-yaml": "^3.13.1",
     "json-stringify-pretty-compact": "^1.1.0",
     "jsonschema": "^1.1.0",
     "rollup": "^1.25.1",
+    "rollup-plugin-commonjs": "^10.0.0",
     "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.0.4",
     "shelljs": "^0.8.0",
     "tap": "^14.8.2"
   },

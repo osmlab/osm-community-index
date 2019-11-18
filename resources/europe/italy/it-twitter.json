@@ -1,10 +1,10 @@
 {
   "id": "it-twitter",
-  "featureId": "italy",
   "type": "twitter",
-  "name": "OpenStreetMap Italy Twitter",
+  "includeLocations": ["it"],
   "countryCodes": ["it"],
   "languageCodes": ["it"],
+  "name": "OpenStreetMap Italy Twitter",
   "description": "Follow us on Twitter at {url}",
   "url": "https://twitter.com/OpenStreetMapIt",
   "contacts": [

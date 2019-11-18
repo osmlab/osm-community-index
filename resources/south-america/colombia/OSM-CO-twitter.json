@@ -1,10 +1,10 @@
 {
   "id": "OSM-CO-twitter",
-  "featureId": "colombia",
   "type": "twitter",
-  "name": "OpenStreetMap Colombia Twitter",
+  "includeLocations": ["co"],
   "countryCodes": ["co"],
   "languageCodes": ["es"],
+  "name": "OpenStreetMap Colombia Twitter",
   "description": "Follow us on Twitter at {url}",
   "url": "https://twitter.com/OpenStreetMapCo",
   "contacts": [{"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}]

@@ -1,10 +1,10 @@
 {
   "id": "OSM-PE-twitter",
-  "featureId": "peru",
   "type": "twitter",
-  "name": "OpenStreetMap Peru Twitter",
+  "includeLocations": ["pe"],
   "countryCodes": ["pe"],
   "languageCodes": ["es"],
+  "name": "OpenStreetMap Peru Twitter",
   "description": "Follow us on Twitter at {url}",
   "url": "https://twitter.com/osmpe",
   "contacts": [

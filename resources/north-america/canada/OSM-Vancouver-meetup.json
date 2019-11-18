@@ -1,10 +1,10 @@
 {
   "id": "OSM-Vancouver-meetup",
-  "featureId": "vancouver_metro",
   "type": "meetup",
-  "name": "OpenStreetMap Vancouver",
+  "includeLocations": ["vancouver_metro.geojson"],
   "countryCodes": ["ca"],
   "languageCodes": ["en"],
+  "name": "OpenStreetMap Vancouver",
   "description": "Mappers and OpenStreetMap users in the Vancouver, BC area",
   "url": "https://www.meetup.com/OpenStreetMap-Vancouver/",
   "contacts": [

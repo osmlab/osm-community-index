@@ -1,10 +1,10 @@
 {
   "id": "ni-mailinglist",
-  "featureId": "nicaragua",
   "type": "mailinglist",
-  "name": "Talk-ni Mailing List",
+  "includeLocations": ["ni"],
   "countryCodes": ["ni"],
   "languageCodes": ["es"],
+  "name": "Talk-ni Mailing List",
   "description": "Talk-ni is the official mailing list for the Nicaraguan OSM community",
   "url": "https://lists.openstreetmap.org/listinfo/talk-ni",
   "contacts": [{"name": "NI Community", "email": "talk-ni-owner@openstreetmap.org"}],

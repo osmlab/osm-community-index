@@ -1,10 +1,10 @@
 {
   "id": "PHXGeo-twitter",
-  "featureId": "phoenix",
   "type": "twitter",
-  "name": "PHXGeo Twitter",
+  "includeLocations": ["phoenix.geojson"],
   "countryCodes": ["us"],
   "languageCodes": ["en"],
+  "name": "PHXGeo Twitter",
   "description": "Follow us on Twitter at {url}",
   "url": "https://twitter.com/phxgeo",
   "contacts": [{"name": "Ryan Arp", "email": "ryan@arpconsultinggroup.com"}]

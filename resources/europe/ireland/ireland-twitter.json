@@ -1,10 +1,10 @@
 {
   "id": "ireland-twitter",
-  "featureId": "ireland",
   "type": "twitter",
-  "name": "OpenStreetMap IE on Twitter",
+  "includeLocations": ["ie"],
   "countryCodes": ["gb", "ie"],
   "languageCodes": ["en"],
+  "name": "OpenStreetMap IE on Twitter",
   "description": "OpenStreetMap IE on Twitter: {url}",
   "url": "https://twitter.com/osm_ie",
   "order": 5

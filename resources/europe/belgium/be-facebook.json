@@ -1,12 +1,11 @@
 {
   "id": "be-facebook",
-  "featureId": "belgium",
   "type": "facebook",
-  "name": "OpenStreetMap BE Facebook Community",
+  "includeLocations": ["be"],
   "countryCodes": ["be"],
-  "languageCodes": ["en", "nl", "fr", "de"],
+  "languageCodes": ["de", "en", "fr", "nl"],
+  "name": "OpenStreetMap BE Facebook Community",
   "description": "Mappers and OpenStreetMap on Facebook in Belgium",
   "url": "https://www.facebook.com/groups/1419016881706058/",
-  "contacts": [{"name": "BE community", "email": "community@osm.be"}],
-  "order": 0
+  "contacts": [{"name": "BE community", "email": "community@osm.be"}]
 }

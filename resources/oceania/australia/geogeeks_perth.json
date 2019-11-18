@@ -1,12 +1,11 @@
 {
   "id": "geogeeks_perth_meetup",
-  "featureId": "western_australia",
   "type": "group",
+  "includeLocations": ["western_australia.geojson"],
   "countryCodes": ["au"],
   "languageCodes": ["en"],
   "name": "GeoGeeks Perth Meetup",
   "description": "Perth-based meetup group for people interested in mapping, geospatial data, and open source. We'll be working on anything that involves a sense of place.",
   "url": "https://geogeeks.org",
-  "contacts": [{"name": "GeoGeeks Perth", "email": "geogeeks.perth@gmail.com"}],
-  "order": 0
+  "contacts": [{"name": "GeoGeeks Perth", "email": "geogeeks.perth@gmail.com"}]
 }

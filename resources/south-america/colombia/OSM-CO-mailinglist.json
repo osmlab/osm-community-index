@@ -1,10 +1,10 @@
 {
   "id": "OSM-CO-mailinglist",
-  "featureId": "colombia",
   "type": "mailinglist",
-  "name": "Talk-co Mailing List",
+  "includeLocations": ["co"],
   "countryCodes": ["co"],
   "languageCodes": ["es"],
+  "name": "Talk-co Mailing List",
   "description": "A mailing list to discuss OpenStreetMap in Colombia",
   "url": "https://lists.openstreetmap.org/pipermail/talk-co/",
   "contacts": [{"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}],

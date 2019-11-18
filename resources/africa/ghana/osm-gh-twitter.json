@@ -1,10 +1,10 @@
 {
   "id": "osm-gh-twitter",
-  "featureId": "ghana",
   "type": "twitter",
-  "name": "OpenStreetMap Ghana on Twitter",
+  "includeLocations": ["gh"],
   "countryCodes": ["gh"],
   "languageCodes": ["en"],
+  "name": "OpenStreetMap Ghana on Twitter",
   "description": "Follow us on Twitter: {url}",
   "url": "https://twitter.com/osmghana",
   "contacts": [{"name": "Enock Seth Nyamador", "email": "kwadzo459@gmail.com"}]
