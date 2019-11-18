@@ -9,6 +9,9 @@ test('locationToFeature', t => {
       let result = oci.locationToFeature([0, 0]);
       t.notEqual(result, null);
       t.equal(result.type, 'point');
+      t.type(result.feature, 'object');
+      t.type(result.feature.properties, 'object');
+      t.match(result.feature.properties, { area: /\d+/ });  // has a numeric area property
       t.end();
     });
     t.test('an invalid [lon,lat] coordinate pair returns a null match', t => {
@@ -25,6 +28,9 @@ test('locationToFeature', t => {
       let result = oci.locationToFeature('philly_metro.geojson', oci.features);
       t.notEqual(result, null);
       t.equal(result.type, 'geojson');
+      t.type(result.feature, 'object');
+      t.type(result.feature.properties, 'object');
+      t.match(result.feature.properties, { area: /\d+/ });  // has a numeric area property
       t.end();
     });
     t.test('an invalid `.geojson` filename in this project returns a null match', t => {
@@ -41,6 +47,9 @@ test('locationToFeature', t => {
       let result = oci.locationToFeature('gb');
       t.notEqual(result, null);
       t.equal(result.type, 'countrycoder');
+      t.type(result.feature, 'object');
+      t.type(result.feature.properties, 'object');
+      t.match(result.feature.properties, { area: /\d+/ });  // has a numeric area property
       t.end();
     });
     t.test('an invalid country coder feature identifier returns a null match', t => {
