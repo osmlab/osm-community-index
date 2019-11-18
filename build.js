@@ -317,6 +317,10 @@ function generateCombined(features, resources) {
       let keepFeature = keepFeatures[featureId];
       if (!keepFeature) {
         keepFeature = deepClone(origFeature);
+
+        let area = calcArea.geometry(keepFeature.geometry) / 1e6;   // m² to km²
+        keepFeature.properties = keepFeatures.properties || {};
+        keepFeature.properties.area = keepFeature.properties.area || Number(area.toFixed(2));
         keepFeature.properties.resources = {};
         keepFeatures[featureId] = keepFeature;
       }
