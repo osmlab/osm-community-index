@@ -41,8 +41,12 @@ function buildAll() {
     youtube: faYoutube
   };
 
-  console.log('building icons');
-  console.time(colors.green('icons built'));
+  const START = '🏗   ' + colors.yellow('Building icons...');
+  const END = '👍  ' + colors.green('icons built');
+
+  console.log('');
+  console.log(START);
+  console.time(END);
 
   for (let key in faIconMap) {
     const val = faIconMap[key];
@@ -51,5 +55,5 @@ function buildAll() {
     fs.writeFileSync(file, fontawesome.icon(val).html);
   }
 
-  console.timeEnd(colors.green('icons built'));
+  console.timeEnd(END);
 }
