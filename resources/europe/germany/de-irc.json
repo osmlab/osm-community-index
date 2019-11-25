@@ -1,11 +1,12 @@
 {
   "id": "de-irc",
-  "featureId": "germany",
   "type": "irc",
-  "name": "OpenStreetMap Germany IRC",
+  "includeLocations": ["de"],
   "countryCodes": ["de"],
   "languageCodes": ["de"],
+  "name": "OpenStreetMap Germany IRC",
   "description": "Join #osm-de on irc.oftc.net (port 6667)",
   "url": "https://webchat.oftc.net/?channels=osm-de",
-  "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}]
+  "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}],
+  "order": -4
 }

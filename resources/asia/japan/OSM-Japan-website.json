@@ -1,10 +1,10 @@
 {
   "id": "OSM-japan-website",
-  "featureId": "japan",
-  "type": "group",
-  "name": "OpenStreetMap Japan",
+  "type": "osm",
+  "includeLocations": ["jp"],
   "countryCodes": ["jp"],
-  "languageCodes": ["jp"],
+  "languageCodes": ["ja"],
+  "name": "OpenStreetMap Japan",
   "description": "Mappers and OpenStreetMap users in Japan",
   "url": "https://openstreetmap.jp/",
   "contacts": [{"name": "Satoshi IIDA", "email": "nyampire@gmail.com"}]

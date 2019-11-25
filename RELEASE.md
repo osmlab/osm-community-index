@@ -21,6 +21,7 @@ community resources.  Whenever the list of resource types changes:
 - [ ] git checkout release
 - [ ] git reset --hard master
 - [ ] npm run build
+- [ ] npm run dist
 - [ ] git add -f dist/*
 - [ ] git commit -m 'Check in build'
 - [ ] git tag vA.B.C

@@ -1,12 +1,13 @@
 {
   "id": "PHXGeo-meetup",
-  "featureId": "phoenix",
   "type": "meetup",
-  "name": "PHXGeo Meetup",
+  "includeLocations": ["phoenix.geojson"],
   "countryCodes": ["us"],
   "languageCodes": ["en"],
+  "name": "PHXGeo Meetup",
   "description": "Mappers and OpenStreetMap users in the Phoenix, AZ area",
   "extendedDescription": "This is a meetup group for those in the Phoenix area who like maps, GIS, OpenStreetMap, cartography and anything in between.",
   "url": "https://www.meetup.com/PHXGeo/",
-  "contacts": [{"name": "Ryan Arp", "email": "ryan@arpconsultinggroup.com"}]
+  "contacts": [{"name": "Ryan Arp", "email": "ryan@arpconsultinggroup.com"}],
+  "order": 5
 }

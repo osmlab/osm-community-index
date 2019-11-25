@@ -1,11 +1,12 @@
 {
   "id": "hr-facebook",
-  "featureId": "croatia",
   "type": "facebook",
-  "name": "OpenStreetMap Croatia Facebook group",
+  "includeLocations": ["hr"],
   "countryCodes": ["hr"],
   "languageCodes": ["hr"],
+  "name": "OpenStreetMap Croatia Facebook group",
   "description": "OpenStreetMap Croatia Facebook group",
   "url": "https://www.facebook.com/groups/541098862671461",
-  "contacts": [{"name": "OpenStreetMap Croatia", "email": "info@osm-hr.org"}]
+  "contacts": [{"name": "OpenStreetMap Croatia", "email": "info@osm-hr.org"}],
+  "order": 3
 }

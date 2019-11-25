@@ -1,13 +1,12 @@
 {
   "id": "se-forum",
   "type": "forum",
-  "featureId": "sweden",
+  "includeLocations": ["se"],
   "countryCodes": ["se"],
   "languageCodes": ["sv"],
   "name": "OpenStreetMap Sweden Web Forum",
   "description": "OpenStreetMap Sweden web forum",
   "url": "https://forum.openstreetmap.org/viewforum.php?id=4",
-  "contacts": [
-    {"name": "Talk-se-owner", "email": "talk-se-owner@openstreetmap.org"}
-  ]
+  "contacts": [{"name": "Talk-se-owner", "email": "talk-se-owner@openstreetmap.org"}],
+  "order": -2
 }

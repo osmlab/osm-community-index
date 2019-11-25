@@ -1,11 +1,12 @@
 {
   "id": "OSM-br-mailinglist",
-  "featureId": "brazil",
   "type": "mailinglist",
-  "name": "Talk-br Mailing List",
+  "includeLocations": ["br"],
   "countryCodes": ["br"],
   "languageCodes": ["pt"],
+  "name": "Talk-br Mailing List",
   "description": "A mailing list to discuss OpenStreetMap in Brazil",
   "url": "https://lists.openstreetmap.org/pipermail/talk-br/",
-  "contacts": [{"name": "Arlindo Pereira", "email": "nighto@gmail.com"}]
+  "contacts": [{"name": "Arlindo Pereira", "email": "nighto@gmail.com"}],
+  "order": -3
 }

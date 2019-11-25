@@ -1,10 +1,11 @@
 {
   "id": "osm-india-forum",
-  "featureId": "india_full",
   "type": "forum",
+  "includeLocations": ["in"],
   "countryCodes": ["in"],
   "name": "OpenStreetMap India forum",
   "description": "OpenStreetMap India web forum",
   "url": "https://forum.openstreetmap.org/viewforum.php?id=65",
-  "contacts": [{"name": "OpenStreetMap India", "email": "openstreetmapindia@gmail.com"}]
+  "contacts": [{"name": "OpenStreetMap India", "email": "openstreetmapindia@gmail.com"}],
+  "order": -2
 }

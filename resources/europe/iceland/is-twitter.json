@@ -1,13 +1,11 @@
 {
   "id": "is-twitter",
   "type": "twitter",
-  "featureId": "iceland",
+  "includeLocations": ["is"],
   "countryCodes": ["is"],
-  "languageCodes": ["is", "en"],
-  "name": "OSM Iceland on Twittter",
+  "languageCodes": ["en", "is"],
+  "name": "OSM Iceland on Twitter",
   "description": "Twitter of OpenStreetMap in Iceland",
   "url": "https://twitter.com/openstreetmapis",
-  "contacts": [
-    {"name": "Talk-is-owner", "email": "talk-is-owner@openstreetmap.org"}
-  ]
+  "contacts": [{"name": "Talk-is-owner", "email": "talk-is-owner@openstreetmap.org"}]
 }

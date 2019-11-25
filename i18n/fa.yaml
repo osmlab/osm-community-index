@@ -1,19 +1,31 @@
 fa:
-  cape-coast-youthmappers:
-    description: 'ما را در توییتر دنبال کنید: {url}'
   OSM-IDN-facebook:
     description: بهبود OpenStreetMap در اندونزی
+  osm-iran-aparat:
+    name: اوپن‌استریت‌مپ ایران در آپارات
+    description: 'کانال آپارات ما را در {url} دنبال کنید'
+    extendedDescription: این کانال منبع خوبی از فیلم‌های آموزشی دربارهٔ اوپن‌استریت‌مپ برای فارسی‌زبانان است.
+  osm-iran-forum:
+    name: انجمن اوپن‌استریت‌مپ ایران
+    description: انجمن اینترنتی اوپن‌استریت‌مپ ایران
+    extendedDescription: یک انجمن اینترنتی برای کاربران اوپن‌استریت‌مپ ایران. سؤال بپرسید و با دیگران گفت‌وگو کنید!
+  osm-iran-telegram:
+    name: اوپن‌استریت‌مپ ایران در تلگرام
+    description: 'از شما دعوت می‌کنیم به کانال تلگرامی اوپن‌استریت مپ ایران به نشانی {url} بیپوندید. کاربران اوپن‌استریت‌مپ ایران یک گروه تلگرامی نیز دارند که لینک آن را در توضیحات کانال خواهید یافت. خوش آمدید!'
   OSM-japan-facebook:
     name: انجمن OpenStreetMap ژاپن
     description: نقشه برداران و کاربران OpenStreetMap در ژاپن
   OSM-japan-twitter:
-    description: 'هشتگ در توییتر'
+    description: 'هشتگ در توییتر: {url}'
   OSM-Nepal-facebook:
     name: OpenStreetMap نپال
     description: بهبود OpenStreetMap در نپال
-  OSM-LKA-facebook:
-    name: OpenStreetMap  سری لانکا
-    description: بهبود OpenStreetMap   در سری لانکا
+  OSM-Asia-mailinglist:
+    name: فهرست پستی اوپن‌استریت‌مپ آسیا
+    description: «talk-asia» فهرست پستی رسمی برای جامعهٔ آسیاست
+  osm-asia-telegram:
+    name: تلگرام اوپن‌استریت‌مپ آسیا
+    description: 'همراهمان شوید: {url}'
   Central-Pennsylvania-OSM:
     name: پنسیلوانیا مرکزی OSM
     description: 'جامعه نقشه برداری آنلاین بر اساس کالج ایالتی، پنسیلوانیا'
@@ -26,14 +38,33 @@ fa:
   OSM-Chattanooga:
     name: OSM چاتانوگا
     description: گروه کاربران OpenStreetMap برای چاتانوگا
-  OSM-NYC:
-    name: OpenStreetMap نیویورک
   OSM-Portland:
     name: پورتلند OpenStreetMap
   OSM-US-Slack:
     description: 'همگی خوش آمدید! ثبت نام کنید در {signupUrl}'
-  Maptime-Australia-Slack:
-    description: 'ثبت نام کنید در {signupUrl}'
+  OSM-Discord:
+    name: اوپن‌استریت‌مپ در دیسکورد
+    description: از طریق دیسکورد با سایر نقشه‌کش‌ها آشنا شوید
+  OSM-Facebook:
+    name: اوپن‌استریت‌مپ در فیسبوک
+    description: اخبار و نوشته‌های اوپن‌استریت‌مپی ما را در فیسبوک دنبال کنید!
+  OSM-help:
+    name: راهنمای پرسش‌پاسخی اوپن‌استریت‌مپ
+    description: در وبسایت پرسش و پاسخی OSM سوال بپرسید و جواب بگیرید. این وبسایت را جامعهٔ اوپن‌استریت‌مپ اداره می‌کند.
+    extendedDescription: 'هر کسی که در ارتباط با اوپن‌استریت‌مپ نیازمند راهنمایی باشد می‌تواند به {url} مراجعه کند. چه یک نقشه‌کش تازه‌وارد باشید یا کسی که پرسشی فنی دارد، ما اینجا هستیم تا به شما کمک کنیم!'
+  OSM-IRC:
+    name: اوپن‌استریت‌مپ در آی‌آرسی
+    description: 'در irc.oftc.net به #osm بپیوندید (پورت 6667)'
   OSM-Reddit:
-    name: OpenStreetMap در ردیت
-    description: /r/openstreetmap/ یک مکان عالی برای کسب اطلاعات بیشتر در مورد OpenStreetMap است. از ما چیزی بپرسید!
+    name: اوپن‌استریت‌مپ در ردیت
+    description: /r/openstreetmap/ یک مکان عالی برای کسب اطلاعات بیشتر دربارهٔ اوپن‌استریت‌مپ است. هر چه که می‌خواهید بپرسید!
+  OSM-Telegram:
+    name: اوپن‌استریت‌مپ در تلگرام
+    description: 'به ابَرگروه جهانی اوپن‌استریت‌مپ در تلگرام بپیوندید: {url}'
+  OSM-Twitter:
+    name: توییتر اوپن‌استریت‌مپ
+    description: 'ما را در توییتر دنبال کنید: {url}'
+  OSMF:
+    name: بنیاد اوپن‌استریت‌مپ
+    description: بنیاد اوپن‌استریت‌مپ بنیادی ناسودبر در بریتانیاست که از پروژهٔ اوپن‌استریت‌مپ پشتیبانی می‌کند
+    extendedDescription: 'بنیاد OSM با جذب منابع مالی، نگهداری میزبان‌های OSM، سامان‌دادن نشست سالانهٔ State of the Map و ایجاد هماهنگی بین مشتاقان بقای این پروژه، از اوپن‌استریت‌مپ پشتیبانی می‌کند. شما نیز می‌توانید از طریق پیوند زیر به عضویت OSMF درآیید تا حمایت خود را ابراز کرده و در جهت‌گیری‌های اوپن‌استریت‌مپ نقش داشته باشید: {signupUrl}'

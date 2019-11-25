@@ -1,14 +1,13 @@
 {
   "id": "OSM-BO-mailinglist",
-  "featureId": "bolivia",
   "type": "mailinglist",
-  "name": "Talk-bo Mailing List",
+  "includeLocations": ["bo"],
   "countryCodes": ["bo"],
   "languageCodes": ["es"],
+  "name": "Talk-bo Mailing List",
   "description": "Talk-bo is the official mailing list for the Bolivian OpenStreetMap community",
   "extendedDescription": "Mapping in Bolivia? Have questions, want to connect with the community here? Join us at {url}. All are welcome!",
   "url": "https://lists.openstreetmap.org/pipermail/talk-bo/",
-  "contacts": [
-    {"name": "Marco Antonio", "email": "marcoantoniofrias@gmail.com"}
-  ]
+  "contacts": [{"name": "Marco Antonio", "email": "marcoantoniofrias@gmail.com"}],
+  "order": -3
 }

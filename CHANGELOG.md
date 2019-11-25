@@ -4,12 +4,206 @@
 # A.B.C
 ##### YYYY-MMM-DD
 
-* Add community resources:
-* Add events:
-* Updates:
+* Added resources:
+* Added events:
+* Updated:
 
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
+
+# 1.0.0
+##### 2019-Oct-23
+
+* New:
+  * Features now include an automatically calculated `area` property, making it easier for downstream projects to sort resources by area ([#286])
+    * :warning: This new property breaks backward compatibility of the `combined.geojson` files.
+  * Add an `osm-lc` type and `osm-lc.svg` icon for official OSM Local Chapters (see [#1])
+  * Resources now support an `order` property, to allow communities to control how their resources are sorted ([#114])
+  * Resource `contacts` property is now optional
+
+[#286]: https://github.com/osmlab/osm-community-index/issues/286
+[#114]: https://github.com/osmlab/osm-community-index/issues/114
+[#1]: https://github.com/osmlab/osm-community-index/issues/1
+
+* Added resources:
+  * Several Telegram groups: OSM Africa, Bosnia-Herzegovina, Japan, Taiwan, DE-Hamburg, France, Netherlands, Israel, Saudi Arabia ([#220])
+  * Map Kibera, OSM Kenya ([#278], [#279])
+  * OSM Ukraine ([#277])
+  * OSM Ireland ([#275], [#282])
+  * OSM Scotland ([#271], [#283])
+  * OSM Galicia ([#265], [#266], [#267], [#268])
+  * OSM Netherlands ([#264], [#270], [#274])
+  * OSM Switzerland ([#262], [#263], [#284])
+  * OSM Belgium ([#255], [#256], [#257], [#258], [#259], [#260], [#269])
+
+[#220]: https://github.com/osmlab/osm-community-index/issues/220
+[#255]: https://github.com/osmlab/osm-community-index/issues/255
+[#256]: https://github.com/osmlab/osm-community-index/issues/256
+[#257]: https://github.com/osmlab/osm-community-index/issues/257
+[#258]: https://github.com/osmlab/osm-community-index/issues/258
+[#259]: https://github.com/osmlab/osm-community-index/issues/259
+[#260]: https://github.com/osmlab/osm-community-index/issues/260
+[#261]: https://github.com/osmlab/osm-community-index/issues/261
+[#262]: https://github.com/osmlab/osm-community-index/issues/262
+[#263]: https://github.com/osmlab/osm-community-index/issues/263
+[#264]: https://github.com/osmlab/osm-community-index/issues/264
+[#265]: https://github.com/osmlab/osm-community-index/issues/265
+[#266]: https://github.com/osmlab/osm-community-index/issues/266
+[#267]: https://github.com/osmlab/osm-community-index/issues/267
+[#268]: https://github.com/osmlab/osm-community-index/issues/268
+[#269]: https://github.com/osmlab/osm-community-index/issues/269
+[#270]: https://github.com/osmlab/osm-community-index/issues/270
+[#271]: https://github.com/osmlab/osm-community-index/issues/271
+[#274]: https://github.com/osmlab/osm-community-index/issues/274
+[#275]: https://github.com/osmlab/osm-community-index/issues/275
+[#277]: https://github.com/osmlab/osm-community-index/issues/277
+[#278]: https://github.com/osmlab/osm-community-index/issues/278
+[#279]: https://github.com/osmlab/osm-community-index/issues/279
+[#282]: https://github.com/osmlab/osm-community-index/issues/282
+[#283]: https://github.com/osmlab/osm-community-index/issues/283
+[#284]: https://github.com/osmlab/osm-community-index/issues/284
+
+* Added events:
+  * SOTM Asia 2019 ([#280], [#281])
+
+[#280]: https://github.com/osmlab/osm-community-index/issues/280
+[#281]: https://github.com/osmlab/osm-community-index/issues/281
+
+* Removed resources:
+  * OSM NYC ([#252])
+
+[#252]: https://github.com/osmlab/osm-community-index/issues/252
+
+* Updated:
+  * Simplify several features and cleanup seams:  India, Venezuela, France, Netherlands, Galicia, Belgium, Switzerland, Luxembourg, Iceland, Portugal, Asia/Africa border
+  * Simplify all of the YouthMappers chapter circular boundaries
+  * Make a `middle-east` folder and move Jordan, Saudi Arabia, Israel into it
+  * Fix name of Khulna University YouthMappers (was just named "OpenStreetMap" before)
+  * Fix typo `nugeria` -> `nigeria`
+  * Cleanup and simplify YouthMappers logo ([#285])
+  * Include Sardinia in Italy feature ([#261])
+  * Korean resources now use a single polygon including both North and South ([#254])
+
+[#254]: https://github.com/osmlab/osm-community-index/issues/254
+[#261]: https://github.com/osmlab/osm-community-index/issues/261
+[#285]: https://github.com/osmlab/osm-community-index/issues/285
+
+
+# 0.12.0
+##### 2019-Aug-26
+
+* Updates:
+  * Refine the outlines of UPRI and FeuTech YouthMappers regions [#248], [#249])
+
+[#248]: https://github.com/osmlab/osm-community-index/issues/248
+[#249]: https://github.com/osmlab/osm-community-index/issues/249
+
+
+# 0.11.0
+##### 2019-Aug-01
+
+* Distribute `combined.geojson` containing all resources and features
+(useful for displaying everything on a map, re: [#79])
+
+[#79]: https://github.com/osmlab/osm-community-index/issues/79
+
+
+# 0.10.0
+##### 2019-Jul-26
+
+* Add resources:
+  * Add resources for OSM Nicaragua ([#246])
+  * Add GeoGeeks Western Australia and GeoGeeks Perth ([#243], [#244])
+  * Add resources for OSM Venezuela ([#242])
+  * Add resources for OSM Luxembourg ([#239])
+
+* Updates:
+  * Fix Chile boundary multipolygon
+
+[#239]: https://github.com/osmlab/osm-community-index/issues/239
+[#242]: https://github.com/osmlab/osm-community-index/issues/242
+[#243]: https://github.com/osmlab/osm-community-index/issues/243
+[#244]: https://github.com/osmlab/osm-community-index/issues/244
+[#246]: https://github.com/osmlab/osm-community-index/issues/246
+
+
+# 0.9.0
+##### 2019-Jun-30
+
+* Add resources:
+  * Add resources for OSM Portugal ([#235])
+
+* Updates:
+  * Fix URL for NYU Mobile Health YouthMappers ([#238])
+
+[#238]: https://github.com/osmlab/osm-community-index/issues/238
+[#235]: https://github.com/osmlab/osm-community-index/issues/235
+
+## 0.8.0
+##### 2019-Jun-17
+
+* Update Resources:
+  * Maptime Australia -> Maptime Oceania, add talk-nz ([#232])
+
+* Add Resources:
+  * Add OpenStreetMap Uruguay ([#227])
+
+[#232]: https://github.com/osmlab/osm-community-index/issues/232
+[#227]: https://github.com/osmlab/osm-community-index/issues/227
+
+
+## 0.7.0
+##### 2019-May-21
+
+* New Features:
+  * Add all YouthMappers chapters, and support for `youthmappers` community type ([#224], [#152])
+
+* Add Resources:
+  * Add OpenStreetMap Slovenia Twitter ([#226])
+
+* Add events:
+  * State of the Map US 2019
+
+[#226]: https://github.com/osmlab/osm-community-index/issues/226
+[#224]: https://github.com/osmlab/osm-community-index/issues/224
+[#152]: https://github.com/osmlab/osm-community-index/issues/152
+
+
+## 0.6.0
+##### 2019-Jan-23
+
+* New Features:
+  * Add support for `aparat` community type ([#212])
+
+* Add Resources:
+  * Add Norwegian Telegram ([#213])
+  * Add Iran resources: Telegram, Aparat, Forum ([#210])
+  * A few renames: "Korea" -> "South Korea",  "Srilanka" -> "Sri Lanka" ([#205], [#206])
+  * OSM Asia community ([#203])
+
+[#213]: https://github.com/osmlab/osm-community-index/issues/213
+[#212]: https://github.com/osmlab/osm-community-index/issues/212
+[#210]: https://github.com/osmlab/osm-community-index/issues/210
+[#206]: https://github.com/osmlab/osm-community-index/issues/206
+[#205]: https://github.com/osmlab/osm-community-index/issues/205
+[#203]: https://github.com/osmlab/osm-community-index/issues/203
+
+
+## 0.5.0
+##### 2018-Dec-03
+
+* New features:
+  * Add support for new community types `github`, `osm`, `wiki`, `youtube` ([#200])
+* Add resources:
+  * Add resources for OSM India ([#198], [#199])
+* Remove resources:
+  * Remove Maptime Belgium ([#197])
+
+[#200]: https://github.com/osmlab/osm-community-index/issues/200
+[#199]: https://github.com/osmlab/osm-community-index/issues/199
+[#198]: https://github.com/osmlab/osm-community-index/issues/198
+[#197]: https://github.com/osmlab/osm-community-index/issues/197
+
 
 ## 0.4.8
 ##### 2018-Nov-26

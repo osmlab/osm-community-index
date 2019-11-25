@@ -1,11 +1,12 @@
 {
   "id": "de-berlin-meetup",
-  "featureId": "de-berlin-brandenburg",
   "type": "meetup",
-  "name": "OpenStreetMap Berlin-Brandenburg Meetup",
+  "includeLocations": ["de-berlin-brandenburg.geojson"],
   "countryCodes": ["de"],
   "languageCodes": ["de"],
+  "name": "OpenStreetMap Berlin-Brandenburg Meetup",
   "description": "Mappers and OpenStreetMap users in the Berlin area",
   "url": "https://www.meetup.com/OSM-Berlin-Brandenburg/",
-  "contacts": [{"name": "Christopher Lorenz", "email": "osm@lorenz.lu"}]
+  "contacts": [{"name": "Christopher Lorenz", "email": "osm@lorenz.lu"}],
+  "order": 5
 }

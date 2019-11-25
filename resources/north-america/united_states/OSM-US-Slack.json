@@ -1,15 +1,16 @@
 {
   "id": "OSM-US-Slack",
-  "featureId": "usa_full",
   "type": "slack",
+  "includeLocations": ["us"],
   "countryCodes": ["us"],
   "languageCodes": ["en"],
   "name": "OpenStreetMap US Slack",
   "description": "All are welcome! Sign up at {signupUrl}",
-  "signupUrl": "https://slack.openstreetmap.us/",
   "url": "https://osmus.slack.com",
+  "signupUrl": "https://slack.openstreetmap.us/",
   "contacts": [
     {"name": "Ian Dees", "email": "ian@openstreetmap.us"},
     {"name": "Clifford Snow", "email": "clifford@snowandsnow.us"}
-  ]
+  ],
+  "order": 4
 }

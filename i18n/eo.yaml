@@ -33,11 +33,6 @@ eo:
     name: OpenStreetMap India - Participatory neighborhood mapping
     description: Plibonigi OpenStreetMap en Barato
     extendedDescription: 'Ĉu vi mapigas en Barato? Ĉu vi havas demandojn aŭ volas kuniĝi al tiu ĉi komunumo? Aliĝu al ni ĉe {url}. Bonvenon ĉiuj!'
-    events:
-      sotmasia2018:
-        name: State of the Map Asia 2018
-        description: Kunigu al regiona okazaĵo “State of the Map Asia 2018” en Barato
-        where: 'Indian Institute of Management, Bengaluro, Barato'
   OSM-india-mailinglist:
     name: Dissendolisto OpenStreetMap India
     description: Talk-in estas oficiala dissendolisto por la OSM-komunumo en Barato
@@ -68,9 +63,6 @@ eo:
   OSM-japan-website:
     name: OpenStreetMap Japan
     description: Mapigistoj kaj uzantoj de OpenStreetMap en Japanujo
-  OSM-korea-telegram:
-    name: Telegram-kanalo OSM Korea
-    description: 'Neoficiala kanalo por kontribuantoj, komunumoj kaj uzantoj de OpenStreetMap en Koreujo por kunhavigi kaj diskuti'
   OSM-MY-facebook:
     name: OpenStreetMap Malaysia ĉe Facebook
     description: Por babili pri ĉio rilata al OpenStreetMap!
@@ -110,10 +102,6 @@ eo:
   OSM-RU-telegram:
     name: OpenStreetMap RU ĉe Telegram
     description: Telegram-grupo OpenStreetMap Rusujo
-  OSM-LKA-facebook:
-    name: OpenStreetMap Sri Lanka
-    description: Plibonigi OpenStreetMap en Srilanko
-    extendedDescription: 'Ĉu vi mapigas en Srilanko? Ĉu vi havas demandojn aŭ volas kuniĝi al tiu ĉi komunumo? Aliĝu al ni ĉe {Url}. Bonvenon ĉiuj!'
   OSM-TW-facebook:
     name: OpenStreetMap Taiwan
     description: Facebook-grupo por mapigistoj kaj uzantoj de OpenStreetMap por diskuti aferojn pri Tajvano.
@@ -162,7 +150,6 @@ eo:
     name: OpenStreetMap Беларусь
     description: Talegram-grupo OpenStreetMap Belorusujo
   be-facebook:
-    name: Facebook-grupo OpenStreetMap Belgujo
     description: OpenStreetMap Belgujo ĉe Facebook
   be-forum:
     name: Forumo OpenStreetMap BE
@@ -174,10 +161,6 @@ eo:
   be-mailinglist:
     name: Dissendolisto talk-be
     description: Talk-be estas oficiala dissendolisto por la OSM-komunumo en Belgujo
-  be-maptime:
-    name: Maptime Belgium
-    description: Sociaj okazaĵoj organizitaj por mapigi – komencantoj estas akceptindaj!
-    extendedDescription: 'Maptime estas malferma lernada medio por ĉiuj niveloj de scio, kiu estas precipe preparita por komencantoj. Maptime estas kaj fleksebla kaj strukturebla, liverante lokon por mapigaj gvidiloj, instruadoj, nunaj projektoj kun difinita komuna celo, per aŭ individua aŭ kolektiva laboro.'
   be-matrix:
     name: Matrix-kanalo OpenStreetMap BE
     description: Ĉiuj mapigistoj estas akceptindaj!
@@ -203,7 +186,6 @@ eo:
     description: 'Mapo, retejo kaj kontakto al OSM-mapigistoj en Ĉeĥujo'
   osmcz-facebook:
     name: OpenStreetMap CZ ĉe Facebook
-    description: Sekvu la Ĉeĥan komunumon ĉe Facebook – inkluzivante tradukitan WeeklyOSM!
   osmcz-twitter:
     name: Ĉeĥa Twitter-kanalo @osmcz
     description: Sekvu la Ĉeĥan komunumon ĉe Facebook – inkluzivante tradukitan WeeklyOSM!
@@ -369,17 +351,16 @@ eo:
     name: Ĉiumonata taverna renkontiĝo en East Midlands (Nottingham)
     description: Sociaj renkontiĝoj por uzantoj kaj mapigistoj en East Midlands
     extendedDescription: 'La grupo renkontiĝas de post marto 2011, komence en Nottingham kaj lastatempe en Derby kaj iam ie en East Midlands. Tiuj ĉi renkontiĝoj estas sociaj, sed ili estas bonegaj okazoj por demandi pri OpenStreetMap aŭ loke aŭ ĝenerale. Somere ni kutime iomete mapigas proksime de renkontejo. La grupo specife interesiĝas pri mapigi publikajn alirajn vojojn kaj renkontiĝoj de tempo al tempo temas pri tio.'
-  gb-mailinglist:
-    name: Dissendolisto talk-gb
-    description: Talk-gb estas ĉefa komunika dissendolisto por OSM-komunumo en Britujo (inkluzive Nord-Irlandon)
-  mappa-mercia-group:
-    name: Loka grupo Mappa Mercia
-    description: Hejmo de OpenStreetMap-ŝatantoj en Midlands
-    extendedDescription: 'Mappa Mercia estas projekto por disvastigi OpenStreetMap en West Midlands, Britujo. Ni organizas komunumajn eventojn, instruas kaj subtenas lokajn organizaĵojn, kiuj volas malfermi siajn datumojn.'
   gb-irc:
     name: OpenStreetMap United Kingdom IRC
     description: 'Aliĝu al #osm-gb ĉe irc.oftc.net (pordo 6667)'
     extendedDescription: 'Aliĝu al #osm-gb ĉe irc.oftc.net (pordo 6667), bonvolu esti pacienca kaj atendi kelkajn minutojn post demandi'
+  gb-mailinglist:
+    name: Dissendolisto talk-gb
+  mappa-mercia-group:
+    name: Loka grupo Mappa Mercia
+    description: Hejmo de OpenStreetMap-ŝatantoj en Midlands
+    extendedDescription: 'Mappa Mercia estas projekto por disvastigi OpenStreetMap en West Midlands, Britujo. Ni organizas komunumajn eventojn, instruas kaj subtenas lokajn organizaĵojn, kiuj volas malfermi siajn datumojn.'
   OSM-CA-Slack:
     name: OSM-CA Slack
     description: 'Bonvenon ĉiuj! Aliĝu al ni ĉe {signupUrl}.'
@@ -389,9 +370,6 @@ eo:
   OSM-CU-telegram:
     name: OSM Cuba ĉe Telegram
     description: Telegram-kanalo OpenStreetMap Kubo
-  OSM-NI-telegram:
-    name: OSM Nicaragua ĉe Telegram
-    description: Telegram-kanalo OpenStreetMap Nikaragvo
   Bay-Area-OpenStreetMappers:
     name: Bay Area OpenStreetMappers
     description: Plibonigi OpenStreetMap en la regiono apud Golfo de San-Francisko
@@ -451,11 +429,6 @@ eo:
     name: OpenStreetMap US
     description: Ni helpas disvastigi kaj plibonigi OpenStreetMap en Usono.
     extendedDescription: 'Nie subtenas OpenStreetMap per organizi ĉiujaran konferencon, liverante rimedojn por la komunumo, gajnante akompanantojn kaj diskonigante la ideon. Aliĝu al OpenStreetMap US tie ĉi: {signupUrl}'
-    events:
-      sotmus2018:
-        name: State of the Map US 2018
-        description: 'Kunigu al la OpenStreetMap-komunumo ĉe «State of the Map US» en Detrojto, Miĉigano. Aliĝu al aliaj mapigistoj, komerco, organizaĵoj registaraj kaj ne-profit-celaj – ĉiuj kunlaborantaj pri libera kaj redaktebla mapo de la mondo.'
-        where: 'Detrojto, Miĉigano'
   LATAM-Facebook:
     name: OpenStreetMap Latam Facebook
     description: OpenStreetMap Latam ĉe Facebook
@@ -468,11 +441,6 @@ eo:
   osm-latam:
     name: OpenStreetMap Latam
     description: Subteni OpenStreetMap en Latinameriko
-    events:
-      sotm-latam-2018:
-        name: State of the Map Latam 2018
-        description: 'State of the Map Latam estas ĉiujara konferenco por ĉiuj uzantoj kaj mapigistoj de OpenStreetMap en Latinameriko, La programo enhavas parolojn, panelajn diskutojn, laboroj kaj kunajn mapigadojn rilatajn al OepnStreetMap.'
-        where: 'Bonaero, Argentino'
   OSM-Discord:
     name: OpenStreetMap ĉe Discord
     description: Kontaktu kun aliaj mapigistoj per Discord
@@ -499,8 +467,3 @@ eo:
     name: Fondaĵo OpenStreetMap
     description: OSMF estas ne-profit-cela organizaĵo en Britujo, kiu subtenas la projekton OpenStreetMap
     extendedDescription: 'OSMF subtenas OpenStreetMap per regali, prizorgi servilojn gastigatajn OSM, organizi la ĉiujaran konferencon “State of the Map” kaj kunordigi volontulojn, kiuj evoluigas la mapon. Vi povas oferi vian helpon kaj havi opinion pri direkto de la projekto OpenStreetMap per aniĝi OSMF tie ĉi: {signupUrl}'
-    events:
-      sotm2018:
-        name: State of the Map 2018
-        description: 'Kunigu nin por 3 tagoj en Milano, Italujo por la ĉiujara internacia konferenco pri OpenStreetMap por kunigi ĉiujn en la komunumo por sociumi, diskonigi kaj lerni.'
-        where: 'Milano, Italujo'

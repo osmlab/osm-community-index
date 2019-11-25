@@ -1,11 +1,12 @@
 {
   "id": "OSM-TH-forum",
-  "featureId": "thailand_full",
   "type": "forum",
+  "includeLocations": ["th"],
   "countryCodes": ["th"],
   "languageCodes": ["en", "th"],
   "name": "OpenStreetMap TH forum",
   "description": "OpenStreetMap Thailand web forum",
   "url": "https://forum.openstreetmap.org/viewforum.php?id=46",
-  "contacts": [{"name": "Stephan Knauss", "email": "osm@stephans-server.de"}]
+  "contacts": [{"name": "Stephan Knauss", "email": "osm@stephans-server.de"}],
+  "order": -2
 }

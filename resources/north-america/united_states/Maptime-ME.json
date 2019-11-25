@@ -1,12 +1,13 @@
 {
   "id": "Maptime-ME-meetup",
-  "featureId": "portland_me",
   "type": "meetup",
-  "name": "MaptimeME",
+  "includeLocations": ["portland_me.geojson"],
   "countryCodes": ["us"],
   "languageCodes": ["en"],
+  "name": "MaptimeME",
   "description": "Mappers and OpenStreetMap users, around Portland, ME",
   "extendedDescription": "Maptime is, rather literally, time for mapmaking.  Our mission is to open the doors of cartographic possibility to anyone interested by creating a time and space for collaborative learning, exploration, and map creation using mapping tools and technologies.",
   "url": "https://www.meetup.com/MaptimeME/",
-  "contacts": [{"name": "Malcolm Toon", "email": "malcolm@foreflight.com"}]
+  "contacts": [{"name": "Malcolm Toon", "email": "malcolm@foreflight.com"}],
+  "order": 5
 }

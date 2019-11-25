@@ -31,11 +31,6 @@ lv:
     name: OpenStreetMap Indija - Apkārtnes kartēšana
     description: Uzlabo OpenStreetMap Indijā
     extendedDescription: 'Kartē indijā? Ir jautājumi, gribi sazināties ar mūsu kopienu? Pievienojies {url}. Visi ir gaidīti!'
-    events:
-      sotmasia2018:
-        name: State of the Map Āzija 2018
-        description: Pievienojies 2018. gada OpenStreetMap State of the Map Asia konferencei Indijā.
-        where: 'Indijas Vadības Institūts, Bengalūru, Indija'
   OSM-india-mailinglist:
     name: OpenStreetMap Indijas Adresātu Saraksts
     description: Talk-in ir Oficiāls E-Pasta saraksts Indiešu OSM kopienai.
@@ -66,9 +61,6 @@ lv:
   OSM-japan-website:
     name: OpenStreetMap Japāna
     description: Kartētāji un OpenStreetMap lietotāji Japānā
-  OSM-korea-telegram:
-    name: OSM Korejas Telegram Kanāls
-    description: 'Neoficiāls Kanāls priekš OpenStreetMap kartētājiem, kopienām un lietotājiem Korejā, kur dalīties un diskutēt.'
   OSM-MY-facebook:
     name: OpenStreetMap Malaizija Facebookā
     description: Čatam par jebko, kas ir saistīts ar OpenStreetMap!
@@ -108,10 +100,6 @@ lv:
   OSM-RU-telegram:
     name: OpenStreetMap RU telegram
     description: OpenStreetMap Krievijas telegram čats
-  OSM-LKA-facebook:
-    name: OpenStreetMap Šrilanka
-    description: Uzlabo OpenStreetMap Šrilankā
-    extendedDescription: 'Kartē Šrilankā? Ir jautājumi, vai gribi sazināties ar mūsu kopienu? Pievienojies {Url}. Visi ir gaidīti!'
   OSM-TW-facebook:
     name: OpenStreetMap Taivānas Kopiena
     description: Facebook grupa OpenStreetMap kartētājiem, lai diskutētu par notikumiem Taivānā.
@@ -160,7 +148,6 @@ lv:
     name: OpenStreetMap Baltkrievija
     description: OpenStreetMap Baltkrievijas telegram čats
   be-facebook:
-    name: OpenStreetMap BE Kopiena
     description: Kartētāji un OpenStreetMap lietotāju Facebook Beļģijā
   be-forum:
     name: OpenStreetMap BE forums
@@ -172,10 +159,6 @@ lv:
   be-mailinglist:
     name: Talk-mg E-pasta saraksts
     description: Talk-be ir Oficiāls E-Pasta saraksts Beļģijas OSM kopienai.
-  be-maptime:
-    name: Maptime Beļģija
-    description: Ap kartēšanu organizēti sociālie notikumi - iesācēji laipni lūgti!
-    extendedDescription: 'Maptime ir atvērta mācību vide visiem zināšanu līmeņiem, dodot mācību atbalstu iesācējiem. Maptime ir gan elastīgs, gan strukturēts, veidojot vietu kartēšanas konsultācijām, darbnīcām, ejošiem projektiem ar vienu mērķi un neatkarīgam/sadarbīgam darba laikam.'
   be-matrix:
     name: OpenStreetMap BE Matrix kanāls
     description: Visi kartētāji laipni aicināti!
@@ -201,7 +184,6 @@ lv:
     description: 'Kartes portāls, mājaslapa un kontakinformācija OSM biedriem Čehijā'
   osmcz-facebook:
     name: OpenStreetMap CZ Facebookā
-    description: Seko Čehu kopienai Facebook - ieskaitot tulkotu WeeklyOSM!
   osmcz-twitter:
     name: Čehu twitteris @osmcz
     description: Seko Čehu kopienai Twitterī - ieskaitot tulkotu WeeklyOSM!
@@ -287,7 +269,6 @@ lv:
     name: Talk-is E-pasta saraksts
     description: Talk-is ir oficiāls E-Pasta saraksts Islandiešu OSM kopienai.
   is-twitter:
-    name: OSM Islande Twitterī
     description: Twitteris priekš OpenStreetMap Islandē
   it-facebook:
     name: 'OpenStreetMap Itālijas Facebooks '
@@ -366,15 +347,15 @@ lv:
   Nottingham-OSM-pub-meetup:
     name: Austrummidlendas (Notingemas) Ikmēneša bāra saiets
     description: Sociālais saiets priekš Austrummidlendas  kartētājiem un lietotājiem
+  gb-irc:
+    name: OpenStreetMap Apvienotās Karalistes IRC
+    description: 'Pievienojies #osm-gb kanālam irc.oftc.net serverī (6667 ports)'
+    extendedDescription: 'Pievienojies #osm-gb kanālam irc.oftc.net serverī (6667 ports), Lūdzu esi pacietīgs un pagaidi pāris minūtes pirms uzdod jautājumu'
   gb-mailinglist:
     name: Talk-gb E-pasta saraksts
   mappa-mercia-group:
     name: Mappa Mercia vietējā grupa
     description: Mājas OpenStreetMap entuziastiem Midlendā
-  gb-irc:
-    name: OpenStreetMap Apvienotās Karalistes IRC
-    description: 'Pievienojies #osm-gb kanālam irc.oftc.net serverī (6667 ports)'
-    extendedDescription: 'Pievienojies #osm-gb kanālam irc.oftc.net serverī (6667 ports), Lūdzu esi pacietīgs un pagaidi pāris minūtes pirms uzdod jautājumu'
   OSM-CA-Slack:
     name: OSM-CA Slack
     description: 'Visi ir laipni aicināti! Piesakies {signupUrl}'
@@ -384,9 +365,6 @@ lv:
   OSM-CU-telegram:
     name: OSM Kubas Telegram
     description: OpenStreetMap Kubas Telegram čats
-  OSM-NI-telegram:
-    name: OSM Nikaragva Telegrammā
-    description: OpenStreetMap Nikaragvas Telegram čats
   Bay-Area-OpenStreetMappers:
     name: Līča rajona OpenStreetMappers
     description: Uzlabo OpenStreetMap Sanfrancisko līča rajonā.
@@ -411,9 +389,6 @@ lv:
   OSM-Colorado:
     name: OpenStreetMap Kolorādo
     description: 'Kartētāji un OpenStreetMap lietotāji ASV Kolorādo štatā'
-  OSM-NYC:
-    name: OpenStreetMap NYC
-    description: 'Kartētāji, OpenStreetMap lietotāji, izstrādātāji un entuziasti Ņujorkas Metropolitēna apkārtnē'
   PHXGeo-meetup:
     name: PHXGeo Saiets
   PHXGeo-twitter:
@@ -428,15 +403,31 @@ lv:
     description: 'Seko mums Twitterī: {url}'
   OSM-BO-mailinglist:
     name: Talk-bo E-pasta saraksts
+    extendedDescription: 'Kartē Bolīvijā? Ir jautājumi, gribi sazināties ar mūsu kopienu? Pievienojies {url}. Visi ir gaidīti!'
+  Bahia-telegram:
+    description: Pievienojies OpenStreetMap Baijas kopienai Telegram
+    extendedDescription: 'Pievienojies kopienai lai uzzinātu vairāk par OpenStreetMap, uzdod jautājumus vai piedalies saietos. Visi ir gaidīti!'
   OSM-br-mailinglist:
     name: Talk-br E-pasta saraksts
+  OSM-br-telegram:
+    description: Pievienojies OpenStreetMap Brazīlijas kopienai Telegram
+    extendedDescription: 'Pievienojies kopienai lai uzzinātu vairāk par OpenStreetMap, uzdod jautājumus vai piedalies saietos. Visi ir gaidīti!'
   OSM-br-twitter:
     description: 'Seko mums Twitterī: {url}'
+  RS-telegram:
+    description: Pievienojies OpenStreetMap Rio Grande do Sul kopienai Telegram
+  OSM-CL-facebook:
+    description: Pievienojies OpenStreetMap Čīles kopienai Feisbookā
+    extendedDescription: 'Pievienojies kopienai lai uzzinātu vairāk par OpenStreetMap, uzdod jautājumus vai piedalies saietos. Visi ir gaidīti!'
   OSM-CL-mailinglist:
     name: Talk-cl E-pasta saraksts
+  OSM-CL-telegram:
+    description: Pievienojies OpenStreetMap Čīles kopienai Telegram
+    extendedDescription: 'Pievienojies kopienai lai uzzinātu vairāk par OpenStreetMap, uzdod jautājumus vai piedalies saietos. Visi ir gaidīti!'
   OSM-CL-twitter:
     description: 'Seko mums Twitterī: {url}'
   OSM-CO-facebook:
+    description: Pievienojies OpenStreetMap Kolumbijas kopienai Feisbookā
     extendedDescription: Pievienojies kopienai lai uzzinātu vairāk par OpenStreetMap. Visi ir gaidīti!
   OSM-CO-mailinglist:
     name: Talk-co E-pasta liste
@@ -472,6 +463,9 @@ lv:
   OSM-PE:
     name: OpenStreetMap Peru
     description: Jaunumi un resursi OpenStreetMap Peru kopienai
+  OSM-Discord:
+    name: OpenStreetMap Discords
+    description: Sazinies ar citiem kartētājiem Discordā
   OSM-Facebook:
     name: OpenStreetMap Facebookā.
     description: Spied patīk facebookā, lai saņemtu ziņas un atjauninājumus par OpenStreetMap.
@@ -492,8 +486,3 @@ lv:
     name: OpenStreetMap Fonds
     description: OSMF ir Lielbritānijā bāzēta bezpeļņas organizācija, kas atbalsta OpenStreetMap Projektu
     extendedDescription: 'OSMF atbalsta OpenStreetMap vācot līdzekļus, uzturot serverus kas nodrošina OSM, organizējot ikgadējo State of the Map konferenci, kā arī koordinējot brīvprātīgos, kas uztur un atjaunina OSM. Tu vari parādīt atbalstu un izpaust savu balsi OpenStreetMap virzienā paliekot par OSMF biedru šeit: {signupUrl}'
-    events:
-      sotm2018:
-        name: State of the Map 2018
-        description: 'Pievienojies mums 3 dienām Milānā, Itālijā Ikgadējai OpenStreetMap konferecei, kas apvieno kopienu, ļauj socializēties, dalīties un mācīties.'
-        where: 'Milāna, Itālija'

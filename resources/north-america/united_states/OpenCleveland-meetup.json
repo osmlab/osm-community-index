@@ -1,10 +1,10 @@
 {
   "id": "OpenCleveland-meetup",
-  "featureId": "cleveland",
   "type": "meetup",
-  "name": "Open Cleveland",
+  "includeLocations": ["cleveland.geojson"],
   "countryCodes": ["us"],
   "languageCodes": ["en"],
+  "name": "Open Cleveland",
   "description": "Improve OpenStreetMap in the Cleveland area",
   "extendedDescription": "Open Geo Cleveland aims to be a resource for people to discuss and share knowledge on utilizing free geographic data sets especially OpenStreetMap, and Open geo-spatial software that manages, edits, and displays geographic data, and advocate for its use in Northeast Ohio. We're also a maptime chapter =)",
   "url": "https://www.meetup.com/open-cleveland/",
@@ -12,55 +12,5 @@
     {"name": "Will Skora", "email": "skorasaurus@gmail.com"},
     {"name": "Anastasia Diamond-Ortiz", "email": "anastasia.diamond@gmail.com"}
   ],
-  "events": [
-    {
-      "name": "Wednesday Meetup / Hack Night",
-      "description": "Meets weekly - programming experience is not necessary!",
-      "when": "2018-04-18 18:00",
-      "where": "The Tech Hive, 6815 Euclid Ave, Cleveland, OH",
-      "url": "https://www.meetup.com/open-cleveland/events/lcjdnpyxgbxb/"
-    },
-    {
-      "name": "Wednesday Meetup / Hack Night",
-      "description": "Meets weekly - programming experience is not necessary!",
-      "when": "2018-04-25 18:00",
-      "where": "The Tech Hive, 6815 Euclid Ave, Cleveland, OH",
-      "url": "https://www.meetup.com/open-cleveland/events/lcjdnpyxgbhc/"
-    },
-    {
-      "name": "Wednesday Meetup / Hack Night",
-      "description": "Meets weekly - programming experience is not necessary!",
-      "when": "2018-05-02 18:00",
-      "where": "The Tech Hive, 6815 Euclid Ave, Cleveland, OH",
-      "url": "https://www.meetup.com/open-cleveland/events/lcjdnpyxhbdb/"
-    },
-    {
-      "name": "Wednesday Meetup / Hack Night",
-      "description": "Meets weekly - programming experience is not necessary!",
-      "when": "2018-05-09 18:00",
-      "where": "The Tech Hive, 6815 Euclid Ave, Cleveland, OH",
-      "url": "https://www.meetup.com/open-cleveland/events/lcjdnpyxhbmb/"
-    },
-    {
-      "name": "Wednesday Meetup / Hack Night",
-      "description": "Meets weekly - programming experience is not necessary!",
-      "when": "2018-05-16 18:00",
-      "where": "The Tech Hive, 6815 Euclid Ave, Cleveland, OH",
-      "url": "https://www.meetup.com/open-cleveland/events/lcjdnpyxhbvb/"
-    },
-    {
-      "name": "Wednesday Meetup / Hack Night",
-      "description": "Meets weekly - programming experience is not necessary!",
-      "when": "2018-05-23 18:00",
-      "where": "The Tech Hive, 6815 Euclid Ave, Cleveland, OH",
-      "url": "https://www.meetup.com/open-cleveland/events/lcjdnpyxhbfc/"
-    },
-    {
-      "name": "Wednesday Meetup / Hack Night",
-      "description": "Meets weekly - programming experience is not necessary!",
-      "when": "2018-05-30 18:00",
-      "where": "The Tech Hive, 6815 Euclid Ave, Cleveland, OH",
-      "url": "https://www.meetup.com/open-cleveland/events/lcjdnpyxhbnc/"
-    }
-  ]
+  "order": 5
 }

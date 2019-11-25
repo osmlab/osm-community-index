@@ -1,16 +1,12 @@
 {
   "id": "OSM-AR-mailinglist",
-  "featureId": "argentina",
   "type": "mailinglist",
-  "name": "Talk-ar Mailing List",
+  "includeLocations": ["ar"],
   "countryCodes": ["ar"],
   "languageCodes": ["es"],
+  "name": "Talk-ar Mailing List",
   "description": "Historic mailing list. Almost unused today.",
   "url": "https://lists.openstreetmap.org/pipermail/talk-ar/",
-  "contacts": [
-    {
-      "name": "OpenStreetMap Argentina",
-      "email": "openstreetmap.org.ar@gmail.com"
-    }
-  ]
+  "contacts": [{"name": "OpenStreetMap Argentina", "email": "openstreetmap.org.ar@gmail.com"}],
+  "order": -3
 }

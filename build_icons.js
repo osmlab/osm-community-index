@@ -8,42 +8,52 @@ const faComments = require('@fortawesome/free-solid-svg-icons/faComments').faCom
 const faDiscord = require('@fortawesome/free-brands-svg-icons/faDiscord').faDiscord;
 const faDiscourse = require('@fortawesome/free-brands-svg-icons/faDiscourse').faDiscourse;
 const faFacebook = require('@fortawesome/free-brands-svg-icons/faFacebook').faFacebook;
+const faGithub = require('@fortawesome/free-brands-svg-icons/faGithub').faGithub;
 const faKeyboard = require('@fortawesome/free-solid-svg-icons/faKeyboard').faKeyboard;
+const faLink = require('@fortawesome/free-solid-svg-icons/faLink').faLink;
 const faMeetup = require('@fortawesome/free-brands-svg-icons/faMeetup').faMeetup;
 const faReddit = require('@fortawesome/free-brands-svg-icons/faReddit').faReddit;
 const faSlack = require('@fortawesome/free-brands-svg-icons/faSlack').faSlack;
 const faTelegram = require('@fortawesome/free-brands-svg-icons/faTelegram').faTelegram;
 const faTwitter = require('@fortawesome/free-brands-svg-icons/faTwitter').faTwitter;
 const faUsers = require('@fortawesome/free-solid-svg-icons/faUsers').faUsers;
+const faYoutube = require('@fortawesome/free-brands-svg-icons/faYoutube').faYoutube;
 
 buildAll();
 
 function buildAll() {
-    var iconMap = {
-        discord: faDiscord,
-        discourse: faDiscourse,
-        facebook: faFacebook,
-        forum: faComments,
-        group: faUsers,
-        irc: faKeyboard,
-        mailinglist: faAt,
-        matrix: faComments,
-        meetup: faMeetup,
-        reddit: faReddit,
-        slack: faSlack,
-        telegram: faTelegram,
-        twitter: faTwitter
-    };
+  const faIconMap = {
+    discord: faDiscord,
+    discourse: faDiscourse,
+    facebook: faFacebook,
+    forum: faComments,
+    github: faGithub,
+    group: faUsers,
+    irc: faKeyboard,
+    mailinglist: faAt,
+    matrix: faComments,
+    meetup: faMeetup,
+    reddit: faReddit,
+    slack: faSlack,
+    telegram: faTelegram,
+    twitter: faTwitter,
+    url: faLink,
+    youtube: faYoutube
+  };
 
-    console.log('building icons');
-    console.time(colors.green('icons built'));
+  const START = '🏗   ' + colors.yellow('Building icons...');
+  const END = '👍  ' + colors.green('icons built');
 
-    for (var key in iconMap) {
-        var val = iconMap[key];
-        var file = 'dist/img/' + key + '.svg';
-        console.log(colors.yellow(file));
-        fs.writeFileSync(file, fontawesome.icon(val).html);
-    }
+  console.log('');
+  console.log(START);
+  console.time(END);
 
-    console.timeEnd(colors.green('icons built'));
+  for (let key in faIconMap) {
+    const val = faIconMap[key];
+    const file = 'dist/img/' + key + '.svg';
+    console.log(colors.yellow(file));
+    fs.writeFileSync(file, fontawesome.icon(val).html);
+  }
+
+  console.timeEnd(END);
 }

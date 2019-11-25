@@ -1,10 +1,10 @@
 {
   "id": "OSM-PE",
-  "featureId": "peru",
-  "type": "group",
-  "name": "OpenStreetMap Peru",
+  "type": "osm",
+  "includeLocations": ["pe"],
   "countryCodes": ["ar"],
   "languageCodes": ["es"],
+  "name": "OpenStreetMap Peru",
   "description": "News and resources for the OpenStreetMap Peru community",
   "url": "http://osmpe.ourproject.org/",
   "contacts": [

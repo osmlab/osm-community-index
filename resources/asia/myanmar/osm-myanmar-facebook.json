@@ -1,7 +1,7 @@
 {
   "id": "OSM-MMR-facebook",
-  "featureId": "MMR",
   "type": "facebook",
+  "includeLocations": ["mm"],
   "name": "OpenStreetMap Myanmar",
   "description": "Improve OpenStreetMap in Myanmar",
   "extendedDescription": "Mapping in Myanmar? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!",
@@ -10,5 +10,6 @@
     {"name": "Yan Naung Oak", "email": "yan@phandeeyar.org"},
     {"name": "Patrick Oswald", "email": "patrickoswald.omm@gmail.com"},
     {"name": "Set Khaing Oo", "email": "setkhaing@phandeeyar.org"}
-  ]
+  ],
+  "order": 3
 }

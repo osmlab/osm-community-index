@@ -1,13 +1,12 @@
 {
   "id": "OSM-MY-facebook",
-  "featureId": "malaysia",
   "type": "facebook",
+  "includeLocations": ["my"],
   "countryCodes": ["my"],
-  "languageCodes": ["ms", "en"],
+  "languageCodes": ["en", "ms"],
   "name": "OpenStreetMap Malaysia on Facebook",
   "description": "For chat about anything related to OpenStreetMap!",
   "url": "https://www.facebook.com/groups/openstreetmapMY/",
-  "contacts": [
-    {"name": "Mohd Saidin", "email": "projekopenstreetmap@hotmail.com"}
-  ]
+  "contacts": [{"name": "Mohd Saidin", "email": "projekopenstreetmap@hotmail.com"}],
+  "order": 3
 }

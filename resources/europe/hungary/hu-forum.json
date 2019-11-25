@@ -1,11 +1,12 @@
 {
   "id": "hu-forum",
-  "featureId": "hungary",
   "type": "forum",
+  "includeLocations": ["hu"],
   "countryCodes": ["hu"],
   "languageCodes": ["hu"],
   "name": "OpenStreetMap HU forum",
   "description": "OpenStreetMap Hungary web forum",
   "url": "https://groups.google.com/forum/#!forum/openstreetmap-hungary",
-  "contacts": [{"name": "Ferenc Veres", "email": "info@openstreetmap.hu"}]
+  "contacts": [{"name": "Ferenc Veres", "email": "info@openstreetmap.hu"}],
+  "order": -2
 }

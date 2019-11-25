@@ -1,11 +1,12 @@
 {
   "id": "osmcz-facebook",
-  "featureId": "czechia",
   "type": "facebook",
-  "name": "OpenStreetMap CZ on Facebook",
+  "includeLocations": ["cz"],
   "countryCodes": ["cz"],
-  "languageCodes": ["cs", "sk", "en"],
-  "description": "Follow czech community on Facebook - including translated WeeklyOSM!",
+  "languageCodes": ["cs", "en", "sk"],
+  "name": "OpenStreetMap CZ on Facebook",
+  "description": "Follow Czech community on Facebook - including translated WeeklyOSM!",
   "url": "https://www.facebook.com/osmcz",
-  "contacts": [{"name": "osmcz", "email": "dev@openstreetmap.cz"}]
+  "contacts": [{"name": "osmcz", "email": "dev@openstreetmap.cz"}],
+  "order": 3
 }

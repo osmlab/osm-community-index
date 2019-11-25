@@ -1,13 +1,11 @@
 {
   "id": "bw-twitter",
   "type": "twitter",
-  "featureId": "botswana",
+  "includeLocations": ["bw"],
   "countryCodes": ["bw"],
   "languageCodes": ["en", "tn"],
   "name": "Mapping Botswana on Twitter",
   "description": "Twitter of OpenStreetMap in Botswana",
   "url": "https://twitter.com/mappingbotswana",
-  "contacts": [
-    {"name": "info@openstreetmap.org.bw", "email": "info@openstreetmap.org.bw"}
-  ]
+  "contacts": [{"name": "info@openstreetmap.org.bw", "email": "info@openstreetmap.org.bw"}]
 }

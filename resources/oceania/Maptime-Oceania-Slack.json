@@ -1,0 +1,17 @@
+{
+  "id": "Maptime-Oceania-Slack",
+  "type": "slack",
+  "includeLocations": ["009"],
+  "countryCodes": ["au", "nz"],
+  "languageCodes": ["en"],
+  "name": "Maptime Oceania Slack",
+  "description": "Sign up at {signupUrl}",
+  "url": "https://maptimeoceania.slack.com",
+  "signupUrl": "https://bit.ly/maptimeau",
+  "contacts": [
+    {"name": "David Dean", "email": "ddean@ieee.org"},
+    {"name": "Philip Mallis", "email": "philip.mallis@unimelb.edu.au"},
+    {"name": "Edoardo Neerhut", "email": "ed@mapillary.com"}
+  ],
+  "order": 3
+}

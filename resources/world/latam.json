@@ -1,21 +1,10 @@
 {
   "id": "osm-latam",
-  "featureId": "latam",
-  "type": "group",
+  "type": "osm",
+  "includeLocations": ["419"],
   "languageCodes": ["es", "pt"],
   "name": "OpenStreetMap Latam",
   "description": "Supporting OpenStreetMap in Latin America",
   "url": "https://osmlatam.org/",
-  "contacts": [{"name": "OSM LATAM", "email": "info@osmlatam.org"}],
-  "events": [
-    {
-      "id": "sotm-latam-2018",
-      "i18n": true,
-      "name": "State of the Map Latam 2018",
-      "description": "State of the Map Latam is the annual conference for all mappers and users of OpenStreetMap in Latin America. The program includes talks, panels, workshops, and mapathons related to OpenStreetMap.",
-      "where": "Buenos Aires, Argentina",
-      "when": "2018-sep-24",
-      "url": "https://state.osmlatam.org/"
-    }
-  ]
+  "contacts": [{"name": "OSM LATAM", "email": "info@osmlatam.org"}]
 }

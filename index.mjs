@@ -1,5 +1,12 @@
+/* DATA */
 import { features } from './dist/features.json';
-export { features };
-
 import { resources } from './dist/resources.json';
-export { resources };
+
+/* CODE */
+import locationToFeature from './lib/locationToFeature.js';
+import isValidLocation from './lib/isValidLocation.js';
+
+export {
+  features, resources,
+  locationToFeature, isValidLocation
+};

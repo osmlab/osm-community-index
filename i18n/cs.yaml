@@ -1,4 +1,6 @@
 cs:
+  bw-facebook:
+    description: Stránka OpenStreetMap v Botswaně
   cape-coast-youthmappers:
     name: YouthMappers univerzity v Cape Coast
     description: 'Sledujte nás na Twitteru: {url}'
@@ -8,22 +10,63 @@ cs:
   osm-gh-twitter:
     name: OpenStreetMap Ghana na Twitteru
     description: 'Sledujte nás na Twitteru: {url}'
+  ym-Dedan-Kimathi-University-of-Technology:
+    extendedDescription: 'GDEV je skupina nadšené skupiny GIS na DeKUT, jejímž cílem je pomáhat studentům sdílet, zapojovat se a učit se jeden od druhého v geoprostorových věcech'
+  ym-Karatina-University:
+    extendedDescription: 'Tato kapitola si klade za cíl shromáždit všechny nadšence GIS. Patří mezi ně odborníci na životní prostředí, odborníci na zvěř a rostlinstvo, vodní a turističtí průvodci. Jejím hlavním cílem je poskytnout platformu, kde se studenti mohou učit jeden od druhého, a přitom porozumět tomu, jak integrovat dovednosti GIS do svých různých profesních cest, a poskytnout řešení různých environmentálních problémů.'
   osm-mg-facebook:
     name: Facebooková skupina OpenStreetMap Madagaskar
+  ym-Universidade-Eduardo-Mondlane:
+    name: Mládežnická komunita YouthMappers v Mozambiku
+  ym-Ahmadu-Bello-University:
+    extendedDescription: 'Jsme skupina datových humanitárních mapovačů, kteří se věnují poskytování humanitárních služeb při reakci na katastrofy a při zmírňování následků. Jsme rádi, že můžeme přispět svými odbornostmi a znalostmi prostřednictvím mapování a pomoci šířit #OpenEvangelism prostřednictvím školení a spolupráce.'
+  ym-University-of-Nigeria-Enugu-Campus:
+    description: 'Oddělení YouthMappers na University of Nigeria, Enugu Campus'
+  ym-University-of-Pretoria:
+    description: Oddělení YouthMappers na University of Pretoria
+  ym-Institute-of-Rural-Development-Planning:
+    description: Oddělení YouthMappers v Institutu pro plánování rozvoje venkova
+  ym-University-of-Dar-es-Salaam:
+    description: Sekce YouthMappers na University of Dar es Salaam
+  ym-Kumi-University:
+    description: Sekce YouthMappers na Kumi University
+  ym-University-of-Zimbabwe:
+    name: UZMappers
   OSM-BGD-facebook:
     name: OpenStreetMap Bangladéš
     description: Vylepšete OpenStreetMap v Bangladéši
     extendedDescription: 'Mapujete v Bangladéši? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {url}. Všichni jsou vítáni!'
+  ym-Dhaka-University:
+    extendedDescription: Je velkým privilegiem pro studenty University of Dhaka mapovat pro humanitární účely. Naše sekce dává studentům příležitost pomáhat lidem a používat mapování pro humanitární účely.
   OSM-India-facebook:
     description: Vylepšete OpenStreetMap v Indii
     extendedDescription: 'Mapujete v Indii? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {url}. Všichni jsou vítáni!'
+  osm-india-forum:
+    name: OpenStreetMap India forum
+  osm-india-github:
+    name: OpenStreetMap India GitHub
+  osm-india-telegram:
+    name: OpenStreetMap India Telegram
   OSM-india-twitter:
     name: Twitter OpenStreetMap Indie
     description: 'Zrovna jsme vytweetli: {url}'
+  osm-india-website:
+    name: OpenStreetMap India
+  osm-india-wiki:
+    name: OpenStreetMap Wikiproject India
+    description: 'Vše, co potřebujete vědět o mapování v Indii: {url}'
+  osm-india-youtube:
+    name: OpenStreetMap India Youtube
   OSM-IDN-facebook:
     name: OpenStreetMap Indonésie
     description: Vylepšete OpenStreetMap v Indonésii
     extendedDescription: 'Mapujete v Indonésii? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {Url}. Všichni jsou vítáni!'
+  ym-University-Muhammadiyah-Surakarta:
+    extendedDescription: 'SpaceTime je komunitní mapování na Geografické fakultě univerzity Muhammadiyah v Surakartě. SpaceTime založili Bruce Maldy Pratama, Mukhlis Akbar a Irfandi Fauzi. Jsou aktivními studenty na Geografické fakultě Muhammadijáhu Surakarty.'
+  osm-iran-forum:
+    description: OpenStreetMap Iran web forum
+  osm-iran-telegram:
+    name: OpenStreetMap Iran Telegram
   OSM-japan-facebook:
     name: Japonská komunita OpenStreetMap
     description: Mapovači a uživatelé OpenStreetMap v Japonsku
@@ -33,8 +76,6 @@ cs:
   OSM-japan-website:
     name: OpenStreetMap Japonsko
     description: Mapovači a uživatelé OpenStreetMap v Japonsku
-  OSM-korea-telegram:
-    name: Telegramový kanál OSM Korea
   OSM-MY-facebook:
     name: OpenStreetMap Malajsie na Facebooku
     description: Pro chatování o čemkoliv ohledně OpenStreetMap!
@@ -55,10 +96,10 @@ cs:
     name: OpenStreetMap Nepál
     description: Vylepšete OpenStreetMap v Nepálu
     extendedDescription: 'Mapujete v Nepálu? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {Url}. Všichni jsou vítáni!'
-  OSM-LKA-facebook:
-    name: OpenStreetMap Srí Lanka
-    description: Vylepšete OpenStreetMap na Srí Lance
-    extendedDescription: 'Mapujete na Srí Lance? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {Url}. Všichni jsou vítáni!'
+  OSM-Asia-mailinglist:
+    name: OpenStreetMap Asia Mailinglist
+  OSM-sri-lanka-facebook:
+    name: OpenStreetMap Sri Lanka
   OSM-TW-facebook:
     name: Tchajwanská komunita OpenStreetMap
   OSM-TH-facebook:
@@ -83,7 +124,6 @@ cs:
     description: 'Mapový portál, webové stránky a kontakty na členy OSM v ČR'
   osmcz-facebook:
     name: OpenStreetMap CZ na Facebooku
-    description: Sledujte českou komunitu na Facebooku - včetně přeložené WeeklyOSM!
   osmcz-twitter:
     name: Český twitter @osmcz
     description: Sledujte českou komunitu na Twitteru - včetně přeloženého WeeklyOSM!
@@ -101,8 +141,6 @@ cs:
     description: 'Sledujte nás na Twitteru: {url}'
   hu-facebook:
     description: Mapovači a uživatelé OpenStreetMap v Maďarsku
-  is-twitter:
-    name: OSM Island na Twitteru
   it-facebook:
     name: Facebook OpenStreetMap Itálie
   it-twitter:
@@ -113,6 +151,8 @@ cs:
     name: OpenStreetMap.se
   se-twitter:
     description: 'Sledujte nás na Twitteru: {url}'
+  ym-University-of-Exeter:
+    extendedDescription: 'Jsme tým nadšených geografů s komplexní znalostí GIS. Jsme nadšeni podporou britské společnosti Červeného kříže různými snahami o humanitární pomoc. Jsme také důležitými učiteli o významu mapování vzdáleně zaznamenaných dat ao tom, jak to pomáhá v terénu. Naše mapathony mají tematické akademické zaměření, které upozorňují na různý výzkum GIS v našem geografickém oddělení, a zároveň fungují jako události zvyšující povědomí o zaměstnatelnosti, které používáme k pozvání řečníků, aby hovořili o své kariéře v GIS / Britském Červeném kříži.'
   OSM-Vancouver-meetup:
     name: OpenStreetMap Vancouver
   Bay-Area-OpenStreetMappers:
@@ -140,8 +180,6 @@ cs:
   OSM-Colorado:
     name: OpenStreetMap Colorado
     description: 'Mapovači a uživatelé OpenStreetMap ve státě Colorado, USA'
-  OSM-NYC:
-    name: OpenStreetMap NYC
   OSM-Portland:
     name: OpenStreetMap Portland
     description: Mapovači a uživatelé OpenStreetMap na území Portlandu
@@ -152,10 +190,6 @@ cs:
   OSM-US-Slack:
     name: OpenStreetMap US Slack
     description: 'Všichni jsou vítaní! Přihlaste se na {signupUrl}'
-  OSM-US:
-    events:
-      sotmus2018:
-        where: 'Detroit, Michigan'
   OSM-Utah:
     name: OpenStreetMap Utah
     description: Mapovači a uživatelé OpenStreetMap na území Salt Lake City
@@ -164,9 +198,14 @@ cs:
     description: Mapovači a uživatelé OpenStreetMap ve státě Wyoming
   PHXGeo-twitter:
     description: 'Sledujte nás na Twitteru na {url}'
-  Maptime-Australia-Slack:
-    name: Maptime Australia Slack
-    description: 'Přihlaste se na {signupUrl}'
+  ym-California-University-of-Pennsylvania:
+    name: CalU PA GIS Club
+  ym-Miami-University:
+    extendedDescription: 'Cílem GPS na Miami University je vytvořit úzce propojenou komunitu plánovačů a geografů, kteří se chtějí bavit, dozvědět se více o kariéře a vysokoškolském vzdělávání ve svém oboru, síti a spolupracovat s profesionály se skutečnými  zkušenostmi.'
+  ym-State-University-of-New-York-Geneseo:
+    description: Oddělení YouthMappers na Státní univerzitě v New Yorku Geneseo
+  ym-University-of-Northern-Colorado:
+    name: UNCO Geography and GIS Club
   OSM-AR-twitter:
     description: 'Sledujte nás na Twitteru na {url}'
   OSM-br-twitter:
@@ -187,9 +226,6 @@ cs:
     description: 'Sledujte nás na Twitteru na {url}'
   osm-latam:
     name: OpenStreetMap Latam
-    events:
-      sotm-latam-2018:
-        where: 'Buenos Aires, Argentina'
   OSM-Facebook:
     name: OpenStreetMap na Facebooku
   OSM-IRC:

@@ -1,11 +1,12 @@
 {
   "id": "be-forum",
   "type": "forum",
-  "featureId": "belgium",
+  "includeLocations": ["be"],
   "countryCodes": ["be"],
-  "languageCodes": ["en", "nl", "fr", "de"],
+  "languageCodes": ["de", "en", "fr", "nl"],
   "name": "OpenStreetMap BE forum",
   "description": "OpenStreetMap Belgium web forum",
   "url": "https://forum.openstreetmap.org/viewforum.php?id=29",
-  "contacts": [{"name": "BE community", "email": "community@osm.be"}]
+  "contacts": [{"name": "BE community", "email": "community@osm.be"}],
+  "order": 3
 }

@@ -1,13 +1,12 @@
 {
   "id": "dk-mailinglist",
-  "featureId": "denmark",
   "type": "mailinglist",
-  "name": "Talk-dk Mailing List",
+  "includeLocations": ["dk"],
   "countryCodes": ["dk"],
   "languageCodes": ["da"],
+  "name": "Talk-dk Mailing List",
   "description": "A mailing list to discuss OpenStreetMap in Denmark",
   "url": "https://lists.openstreetmap.org/listinfo/talk-dk",
-  "contacts": [
-    {"name": "Talk-dk-owner", "email": "talk-dk-owner@openstreetmap.org"}
-  ]
+  "contacts": [{"name": "Talk-dk-owner", "email": "talk-dk-owner@openstreetmap.org"}],
+  "order": -3
 }

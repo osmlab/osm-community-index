@@ -1,13 +1,12 @@
 {
   "id": "si-forum",
   "type": "forum",
-  "featureId": "slovenia",
+  "includeLocations": ["si"],
   "countryCodes": ["si"],
-  "languageCodes": ["sl", "en"],
+  "languageCodes": ["en", "sl"],
   "name": "OpenStreetMap Slovenia Forum",
   "description": "Forum of OpenStreetMap community in Slovenia",
   "url": "https://forum.openstreetmap.org/viewforum.php?id=58",
-  "contacts": [
-    {"name": "OpenStreetMap Slovenia", "email": "talk-si@openstreetmap.org"}
-  ]
+  "contacts": [{"name": "OpenStreetMap Slovenia", "email": "talk-si@openstreetmap.org"}],
+  "order": -2
 }

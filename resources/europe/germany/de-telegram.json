@@ -1,10 +1,10 @@
 {
   "id": "de-telegram",
-  "featureId": "germany",
   "type": "telegram",
-  "name": "OpenStreetMap Germany Telegram",
+  "includeLocations": ["de"],
   "countryCodes": ["de"],
   "languageCodes": ["de"],
+  "name": "OpenStreetMap Germany Telegram",
   "description": "Join the OpenStreetMap Germany Telegram supergroup at {url}",
   "url": "https://t.me/OSM_de",
   "contacts": [{"name": "Max N", "email": "abonnements@revolwear.com"}]

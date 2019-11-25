@@ -1,12 +1,13 @@
 {
   "id": "OSM-CO-facebook",
-  "featureId": "colombia",
   "type": "facebook",
-  "name": "OpenStreetMap Colombia Facebook",
+  "includeLocations": ["co"],
   "countryCodes": ["co"],
   "languageCodes": ["es"],
+  "name": "OpenStreetMap Colombia Facebook",
   "description": "Join the OpenStreetMap Colombia community on Facebook",
   "extendedDescription": "Join the community to learn more about OpenStreetMap. Everyone is welcome!",
   "url": "https://www.facebook.com/groups/OsmCol/",
-  "contacts": [{"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}]
+  "contacts": [{"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}],
+  "order": 3
 }
