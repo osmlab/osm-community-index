@@ -31,15 +31,6 @@ en:
     name: GeoPhilly
     description: Meetup for map enthusiasts in the Philadelphia area
     extendedDescription: 'GeoPhilly unites developers, geographers, data geeks, open source enthusiasts, civic hackers and map addicts in our shared love of maps and the stories they tell. If you use maps as part of your work or just want to learn more, this is the meetup for you!  Our events aim to be open, friendly, educational and social and range from happy hours to lightning talks or even workshops. Come create a diverse, inspiring geospatial community in the Philadelphia with us!'
-  LATAM-Facebook:
-    name: OpenStreetMap Latam Facebook
-    description: OpenStreetMap Latam on Facebook
-  LATAM-Telegram:
-    name: OpenStreetMap Latam Telegram
-    description: OpenStreetMap Telegram for Latin America
-  LATAM-Twitter:
-    name: OpenStreetMap Latam Twitter
-    description: 'Follow us on Twitter at {url}'
   MapMinnesota:
     name: MapMinnesota
     description: Mappers and OpenStreetMap enthusiasts in the Twin Cities area
@@ -693,6 +684,27 @@ en:
   kosovo-telegram:
     name: OpenStreetMap Kosovo on Telegram
     description: Semi-official all-Kosovo Telegram public group. We welcome all mappers from anywhere in any language.
+  latam-facebook:
+    name: OpenStreetMap Latin America Facebook
+    description: Mappers and OpenStreetMap on Facebook in Latin America
+  latam-irc:
+    name: OpenStreetMap Latin America IRC
+    description: 'Join #osm-latam on irc.oftc.net (port 6667)'
+  latam-mailinglist:
+    name: Talk-latam Mailing List
+    description: Talk-latam is the official mailing list for the Latinamerican OpenStreetMap community
+  latam-matrix:
+    name: OpenStreetMap Latin America Matrix
+    description: 'Chat with other members of the Latinamerican OSM community, it is bridged with the Telegram chat'
+  latam-telegram:
+    name: OpenStreetMap Latin America Telegram
+    description: 'Chat with other members of the Latinamerican OSM community, it is bridged with the Matrix chat'
+  latam-twitter:
+    name: OpenStreetMap Latin America Twitter
+    description: 'OpenStreetMap Latin America on Twitter: {url}'
+  latam-wiki:
+    name: OpenStreetMap Wikiproject Latin America
+    description: Everything you need to know about mapping in Latin America
   lu-mailinglist:
     name: Talk-lu Mailing List
     description: Official mailing list for the Luxembourgish OSM community
@@ -804,9 +816,6 @@ en:
   osm-kerala-wiki:
     name: OpenStreetMap Kerala
     description: 'Want to know more about Kerala Mapping: {url}'
-  osm-latam:
-    name: OpenStreetMap Latam
-    description: Supporting OpenStreetMap in Latin America
   osm-mg-facebook:
     name: OpenStreetMap Madagascar Facebook Group
     description: Malagasy Facebook group for people interested in OpenStreetMap.
