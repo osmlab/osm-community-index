@@ -1,10 +1,11 @@
 {
-  "id": "LATAM-Telegram",
+  "id": "latam-telegram",
   "type": "telegram",
   "includeLocations": ["419"],
-  "languageCodes": ["es", "pt"],
-  "name": "OpenStreetMap Latam Telegram",
-  "description": "OpenStreetMap Telegram for Latin America",
-  "url": "https://t.me/OSMLatam",
-  "contacts": [{"name": "OSM LATAM", "email": "info@osmlatam.org"}]
+  "languageCodes": ["en", "es", "pt"],
+  "name": "OpenStreetMap Latin America Telegram",
+  "description": "Chat with other members of the Latinamerican OSM community, it is bridged with the Matrix chat",
+  "url": "https://t.me/osmlatam",
+  "contacts": [{"name": "OSM LATAM Community", "email": "info@osmlatam.org"}],
+  "order": 3
 }
