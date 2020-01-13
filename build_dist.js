@@ -1,13 +1,12 @@
 /* eslint-disable no-console */
 const colors = require('colors/safe');
 const fs = require('fs');
-const locationToFeature = require('./lib/locationToFeature.js');
+const LocationConflation = require('@ideditor/location-conflation');
 const prettyStringify = require('json-stringify-pretty-compact');
 const shell = require('shelljs');
 
-const features = require('./dist/features.json').features;
+const featureCollection = require('./dist/features.json');
 const resources = require('./dist/resources.json').resources;
-
 
 buildAll();
 
@@ -24,16 +23,16 @@ function buildAll() {
   shell.rm('-f', [
     'dist/combined.geojson',
     'dist/combined.min.geojson',
-    'dist/features.min.geojson',
-    'dist/resources.min.geojson'
+    'dist/features.min.json',
+    'dist/resources.min.json'
   ]);
 
-  const combined = generateCombined(features, resources);
+  const combined = generateCombined(resources, featureCollection);
 
   // Save individual data files
   fs.writeFileSync('dist/combined.geojson', prettyStringify(combined) );
   fs.writeFileSync('dist/combined.min.geojson', JSON.stringify(combined) );
-  fs.writeFileSync('dist/features.min.json', JSON.stringify({ features: features }) );
+  fs.writeFileSync('dist/features.min.json', JSON.stringify(featureCollection) );
   fs.writeFileSync('dist/resources.min.json', JSON.stringify({ resources: resources }) );
 
   console.timeEnd(END);
@@ -80,8 +79,9 @@ function deepClone(obj) {
 //   ]
 // }
 //
-function generateCombined(features, resources) {
+function generateCombined(resources, featureCollection) {
   let keepFeatures = {};
+  const loco = new LocationConflation(featureCollection);
 
   Object.keys(resources).forEach(resourceId => {
     const resource = resources[resourceId];
@@ -90,7 +90,7 @@ function generateCombined(features, resources) {
       const featureId = location.toString();
       let keepFeature = keepFeatures[featureId];
       if (!keepFeature) {
-        const origFeature = locationToFeature(location, features).feature;
+        const origFeature = loco.locationToFeature(location).feature;
         keepFeature = deepClone(origFeature);
         keepFeature.properties.resources = {};
         keepFeatures[featureId] = keepFeature;

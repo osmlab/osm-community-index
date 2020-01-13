@@ -3,7 +3,7 @@ const calcArea = require('@mapbox/geojson-area');
 const colors = require('colors/safe');
 const fs = require('fs');
 const glob = require('glob');
-const isValidLocation = require('./lib/isValidLocation.js');
+const LocationConflation = require('@ideditor/location-conflation');
 const path = require('path');
 const precision = require('geojson-precision');
 const prettyStringify = require('json-stringify-pretty-compact');
@@ -37,12 +37,14 @@ function buildAll() {
     'i18n/en.yaml'
   ]);
 
+  // Features
   let tstrings = {};   // translation strings
-  const features = generateFeatures();
-  const resources = generateResources(tstrings, features);
+  const features = collectFeatures();
+  const featureCollection = { type: 'FeatureCollection', features: features };
+  fs.writeFileSync('dist/features.json', prettyStringify(featureCollection, { maxLength: 9999 }));
 
-  // Save individual data files
-  fs.writeFileSync('dist/features.json', prettyStringify({ features: sort(features) }, { maxLength: 9999 }));
+  // Resources
+  const resources = collectResources(tstrings, featureCollection);
   fs.writeFileSync('dist/resources.json', prettyStringify({ resources: sort(resources) }, { maxLength: 9999 }));
   fs.writeFileSync('i18n/en.yaml', YAML.safeDump({ en: sort(tstrings) }, { lineWidth: -1 }) );
 
@@ -50,8 +52,8 @@ function buildAll() {
 }
 
 
-function generateFeatures() {
-  let features = {};
+function collectFeatures() {
+  let features = [];
   let files = {};
   process.stdout.write('📦  Features: ');
 
@@ -83,7 +85,7 @@ function generateFeatures() {
     }
 
     // use the filename as the feature.id
-    const id = path.basename(file, '.geojson').toLowerCase();
+    const id = path.basename(file).toLowerCase();
     feature.id = id;
 
     // sort properties
@@ -103,7 +105,7 @@ function generateFeatures() {
       console.error('  ' + colors.yellow(file));
       process.exit(1);
     }
-    features[id] = feature;
+    features.push(feature);
     files[id] = file;
 
     process.stdout.write(colors.green('✓'));
@@ -115,9 +117,10 @@ function generateFeatures() {
 }
 
 
-function generateResources(tstrings, features) {
+function collectResources(tstrings, featureCollection) {
   let resources = {};
   let files = {};
+  const loco = new LocationConflation(featureCollection);
   process.stdout.write('📦  Resources: ');
 
   glob.sync(__dirname + '/resources/**/*.json').forEach(file => {
@@ -151,10 +154,22 @@ function generateResources(tstrings, features) {
     resource = obj;
 
     validateFile(file, resource, resourceSchema);
-    validateLocations(resource.includeLocations, file, features);
-    if (resource.excludeLocations) {
-      validateLocations(resource.excludeLocations, file, features);
-    }
+
+    (resource.includeLocations || []).forEach(location => {
+      if (!loco.isValidLocation(location)) {
+        console.error(colors.red('Error - Invalid include location: ') + colors.yellow(location));
+        console.error('  ' + colors.yellow(file));
+        process.exit(1);
+      }
+    });
+
+    (resource.excludeLocations || []).forEach(location => {
+      if (!loco.isValidLocation(location)) {
+        console.error(colors.red('Error - Invalid exclude location: ') + colors.yellow(location));
+        console.error('  ' + colors.yellow(file));
+        process.exit(1);
+      }
+    });
 
     prettifyFile(file, resource, contents);
 
@@ -220,17 +235,6 @@ function generateResources(tstrings, features) {
   process.stdout.write(' ' + Object.keys(files).length + '\n');
 
   return resources;
-}
-
-
-function validateLocations(locations, file, features) {
-  locations.forEach(location => {
-    if (!isValidLocation(location, features)) {
-      console.error(colors.red('Error - Invalid location: ') + colors.yellow(location));
-      console.error('  ' + colors.yellow(file));
-      process.exit(1);
-    }
-  });
 }
 
 

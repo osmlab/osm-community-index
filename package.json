@@ -23,19 +23,18 @@
     "txpush": "tx push -s"
   },
   "dependencies": {
-    "@ideditor/country-coder": "^3.0.1",
-    "@mapbox/geojson-area": "^0.2.2",
-    "circle-to-polygon": "^1.0.2",
-    "geojson-precision": "^0.4.0"
+    "@ideditor/location-conflation": "0.1.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@mapbox/geojson-area": "^0.2.2",
     "bytes": "^3.0.0",
     "colors": "^1.1.2",
     "easy-table": "^1.1.1",
     "eslint": "^6.0.0",
+    "geojson-precision": "^0.4.0",
     "geojson-rewind": "^0.3.1",
     "glob": "^7.1.5",
     "js-yaml": "^3.13.1",
