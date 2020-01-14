@@ -1,8 +1,7 @@
 {
   "id": "uy-irc",
   "type": "irc",
-  "includeLocations": ["uy"],
-  "countryCodes": ["uy"],
+  "locationSet": {"include": ["uy"]},
   "languageCodes": ["es"],
   "name": "OpenStreetMap Uruguay on IRC",
   "description": "Join #osmuruguay on irc.freenode.org (port 6667)",

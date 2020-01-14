@@ -1,8 +1,7 @@
 {
   "id": "OSM-Korea-telegram",
   "type": "telegram",
-  "includeLocations": ["kp", "kr"],
-  "countryCodes": ["kp", "kr"],
+  "locationSet": {"include": ["kp", "kr"]},
   "languageCodes": ["en", "ko"],
   "name": "OSM Korea Telegram",
   "description": "Unofficial Group for OpenStreetMap contributors, communities, and users in Korea to share and discuss.",

@@ -1,8 +1,7 @@
 {
   "id": "osm-afghanistan-facebook",
   "type": "facebook",
-  "includeLocations": ["af"],
-  "countryCodes": ["af"],
+  "locationSet": {"include": ["af"]},
   "languageCodes": ["en", "fa", "ps"],
   "name": "OpenStreetMap Afghanistan",
   "description": "Improve OpenStreetMap in Afghanistan",

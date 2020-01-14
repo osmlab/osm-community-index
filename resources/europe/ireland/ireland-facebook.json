@@ -1,8 +1,7 @@
 {
   "id": "ireland-facebook",
   "type": "facebook",
-  "includeLocations": ["ie"],
-  "countryCodes": ["gb", "ie"],
+  "locationSet": {"include": ["ie"]},
   "languageCodes": ["en"],
   "name": "OpenStreetMap Ireland Facebook group",
   "description": "OpenStreetMap Ireland Facebook page",

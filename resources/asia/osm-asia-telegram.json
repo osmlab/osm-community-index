@@ -1,7 +1,7 @@
 {
   "id": "osm-asia-telegram",
   "type": "telegram",
-  "includeLocations": ["142"],
+  "locationSet": {"include": ["142"]},
   "name": "OpenStreetMap Asia Telegram",
   "description": "Join our family: {url}",
   "url": "https://t.me/OpenStreetMapAsia",

@@ -1,8 +1,7 @@
 {
   "id": "md-telegram",
   "type": "telegram",
-  "includeLocations": ["md"],
-  "countryCodes": ["md"],
+  "locationSet": {"include": ["md"]},
   "languageCodes": ["mo", "ro", "ru"],
   "name": "@OSMMoldova on Telegram",
   "description": "OpenStreetMap Moldova Telegram chat",

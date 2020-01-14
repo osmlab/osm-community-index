@@ -1,8 +1,7 @@
 {
   "id": "de-berlin-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["de-berlin-brandenburg.geojson"],
-  "countryCodes": ["de"],
+  "locationSet": {"include": ["de-berlin-brandenburg.geojson"]},
   "languageCodes": ["de"],
   "name": "Berlin Mailing List",
   "description": "This is the mailing list for the Berlin OSM community",

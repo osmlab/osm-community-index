@@ -1,8 +1,7 @@
 {
   "id": "OSM-Tampa-Bay",
   "type": "meetup",
-  "includeLocations": ["tampa_bay.geojson"],
-  "countryCodes": ["us"],
+  "locationSet": {"include": ["tampa_bay.geojson"]},
   "languageCodes": ["en"],
   "name": "OpenStreetMap Tampa Bay",
   "description": "Mappers and OpenStreetMap users in the Tampa Bay area",

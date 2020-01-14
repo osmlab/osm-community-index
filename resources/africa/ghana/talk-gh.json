@@ -1,8 +1,7 @@
 {
   "id": "talk-gh",
   "type": "mailinglist",
-  "includeLocations": ["gh"],
-  "countryCodes": ["gh"],
+  "locationSet": {"include": ["gh"]},
   "languageCodes": ["en"],
   "name": "Talk-gh Mailing List",
   "description": "Talk-gh is the official mailing list for Ghana OSM community.",

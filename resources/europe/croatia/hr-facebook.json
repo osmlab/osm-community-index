@@ -1,8 +1,7 @@
 {
   "id": "hr-facebook",
   "type": "facebook",
-  "includeLocations": ["hr"],
-  "countryCodes": ["hr"],
+  "locationSet": {"include": ["hr"]},
   "languageCodes": ["hr"],
   "name": "OpenStreetMap Croatia Facebook group",
   "description": "OpenStreetMap Croatia Facebook group",

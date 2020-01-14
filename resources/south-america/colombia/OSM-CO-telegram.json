@@ -1,8 +1,7 @@
 {
   "id": "OSM-CO-telegram",
   "type": "telegram",
-  "includeLocations": ["co"],
-  "countryCodes": ["co"],
+  "locationSet": {"include": ["co"]},
   "languageCodes": ["es"],
   "name": "OSM Colombia on Telegram",
   "description": "OpenStreetMap Colombia Telegram chat",

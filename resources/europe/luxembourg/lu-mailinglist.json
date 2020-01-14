@@ -1,8 +1,7 @@
 {
   "id": "lu-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["lu"],
-  "countryCodes": ["lu"],
+  "locationSet": {"include": ["lu"]},
   "languageCodes": ["de", "en", "fr", "lb"],
   "name": "Talk-lu Mailing List",
   "description": "Official mailing list for the Luxembourgish OSM community",

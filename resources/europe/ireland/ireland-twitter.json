@@ -1,8 +1,7 @@
 {
   "id": "ireland-twitter",
   "type": "twitter",
-  "includeLocations": ["ie"],
-  "countryCodes": ["gb", "ie"],
+  "locationSet": {"include": ["ie"]},
   "languageCodes": ["en"],
   "name": "OpenStreetMap IE on Twitter",
   "description": "OpenStreetMap IE on Twitter: {url}",

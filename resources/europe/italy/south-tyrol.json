@@ -1,8 +1,7 @@
 {
   "id": "South-Tyrol-Mailing-List",
   "type": "mailinglist",
-  "includeLocations": ["south-tyrol.geojson"],
-  "countryCodes": ["it"],
+  "locationSet": {"include": ["south-tyrol.geojson"]},
   "languageCodes": ["de", "en", "it", "lld"],
   "name": "OpenStreetMap mailing list for South Tyrol",
   "description": "OpenStreetMap Italy regional talk list for South Tyrol",

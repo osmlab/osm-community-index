@@ -1,8 +1,7 @@
 {
   "id": "OSM-PE-facebook",
   "type": "facebook",
-  "includeLocations": ["pe"],
-  "countryCodes": ["pe"],
+  "locationSet": {"include": ["pe"]},
   "languageCodes": ["es"],
   "name": "OpenStreetMap Peru Facebook",
   "description": "Join the OpenStreetMap Peru community on Facebook",

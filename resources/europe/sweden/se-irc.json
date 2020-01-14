@@ -1,8 +1,7 @@
 {
   "id": "se-irc",
   "type": "irc",
-  "includeLocations": ["se"],
-  "countryCodes": ["se"],
+  "locationSet": {"include": ["se"]},
   "languageCodes": ["sv"],
   "name": "OpenStreetMap Sweden IRC",
   "description": "Join #osm.se on irc.oftc.net (port 6667)",

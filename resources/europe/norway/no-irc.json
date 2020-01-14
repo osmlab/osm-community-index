@@ -1,8 +1,7 @@
 {
   "id": "no-irc",
   "type": "irc",
-  "includeLocations": ["no"],
-  "countryCodes": ["no"],
+  "locationSet": {"include": ["no"]},
   "languageCodes": ["no"],
   "name": "OpenStreetMap Norway on IRC",
   "description": "Chat room for mappers and OpenStreetMap users, developers and enthusiasts in Norway",

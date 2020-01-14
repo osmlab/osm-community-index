@@ -1,8 +1,7 @@
 {
   "id": "OSM-CA-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["ca"],
-  "countryCodes": ["ca"],
+  "locationSet": {"include": ["ca"]},
   "languageCodes": ["en", "fr"],
   "name": "OSM-CA mailing list",
   "description": "A mailing list to discuss OpenStreetMap in Canada.",

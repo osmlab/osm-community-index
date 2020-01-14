@@ -1,8 +1,7 @@
 {
   "id": "at-forum",
   "type": "forum",
-  "includeLocations": ["at"],
-  "countryCodes": ["at"],
+  "locationSet": {"include": ["at"]},
   "languageCodes": ["de", "en"],
   "name": "OpenStreetMap Austria Forum",
   "description": "The official forum for OpenStreetMap questions in and around Austria",

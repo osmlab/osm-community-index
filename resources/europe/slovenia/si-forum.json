@@ -1,8 +1,7 @@
 {
   "id": "si-forum",
   "type": "forum",
-  "includeLocations": ["si"],
-  "countryCodes": ["si"],
+  "locationSet": {"include": ["si"]},
   "languageCodes": ["en", "sl"],
   "name": "OpenStreetMap Slovenia Forum",
   "description": "Forum of OpenStreetMap community in Slovenia",

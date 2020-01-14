@@ -1,7 +1,7 @@
 {
   "id": "latam-telegram",
   "type": "telegram",
-  "includeLocations": ["419"],
+  "locationSet": {"include": ["419"]},
   "languageCodes": ["en", "es", "pt"],
   "name": "OpenStreetMap Latin America Telegram",
   "description": "Chat with other members of the Latinamerican OSM community, it is bridged with the Matrix chat",

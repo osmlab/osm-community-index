@@ -1,8 +1,7 @@
 {
   "id": "it-facebook",
   "type": "facebook",
-  "includeLocations": ["it"],
-  "countryCodes": ["it"],
+  "locationSet": {"include": ["it"]},
   "languageCodes": ["it"],
   "name": "OpenStreetMap Italy Facebook",
   "description": "Join the OpenStreetMap Italy community on Facebook",

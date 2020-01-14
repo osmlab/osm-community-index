@@ -1,8 +1,7 @@
 {
   "id": "ireland-telegram",
   "type": "telegram",
-  "includeLocations": ["ie"],
-  "countryCodes": ["gb", "ie"],
+  "locationSet": {"include": ["ie"]},
   "languageCodes": ["en"],
   "name": "OSM Ireland on Telegram",
   "description": "OpenStreetMap Ireland Telegram chat",

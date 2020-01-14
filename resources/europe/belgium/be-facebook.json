@@ -1,8 +1,7 @@
 {
   "id": "be-facebook",
   "type": "facebook",
-  "includeLocations": ["be"],
-  "countryCodes": ["be"],
+  "locationSet": {"include": ["be"]},
   "languageCodes": ["de", "en", "fr", "nl"],
   "name": "OpenStreetMap BE Facebook Community",
   "description": "Mappers and OpenStreetMap on Facebook in Belgium",

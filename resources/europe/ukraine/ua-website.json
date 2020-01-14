@@ -1,8 +1,7 @@
 {
   "id": "ua-osm",
   "type": "osm",
-  "includeLocations": ["ua"],
-  "countryCodes": ["ua"],
+  "locationSet": {"include": ["ua"]},
   "languageCodes": ["uk"],
   "name": "OpenStreetMap Website Ukraine",
   "description": "OpenStreetMap website in Ukraine",

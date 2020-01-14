@@ -1,8 +1,7 @@
 {
   "id": "is-twitter",
   "type": "twitter",
-  "includeLocations": ["is"],
-  "countryCodes": ["is"],
+  "locationSet": {"include": ["is"]},
   "languageCodes": ["en", "is"],
   "name": "OSM Iceland on Twitter",
   "description": "Twitter of OpenStreetMap in Iceland",

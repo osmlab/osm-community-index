@@ -1,8 +1,7 @@
 {
   "id": "OSM-CL-telegram",
   "type": "telegram",
-  "includeLocations": ["cl"],
-  "countryCodes": ["cl"],
+  "locationSet": {"include": ["cl"]},
   "languageCodes": ["es"],
   "name": "OpenStreetMap Chile Telegram",
   "description": "Join the OpenStreetMap Chile community on Telegram",

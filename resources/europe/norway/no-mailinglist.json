@@ -1,8 +1,7 @@
 {
   "id": "no-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["no"],
-  "countryCodes": ["no"],
+  "locationSet": {"include": ["no"]},
   "languageCodes": ["no"],
   "name": "OpenStreetMap Norway mailing list",
   "description": "Mailing list for mappers and OpenStreetMap users, developers and enthusiasts in Norway",

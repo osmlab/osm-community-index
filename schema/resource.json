@@ -6,7 +6,6 @@
   "required": [
     "id",
     "type",
-    "includeLocations",
     "name",
     "description",
     "url"
@@ -44,39 +43,39 @@
         "youtube"
       ]
     },
-    "includeLocations": {
-      "$comment": "See country-coder documentation for compatible values: https://github.com/ideditor/country-coder#readme",
-      "description": "(required) Array of locations where the resource is available",
-      "type": "array",
-      "uniqueItems": true,
-      "items": {
-        "anyOf": [
-          { "$ref": "#/definitions/locationCode" },
-          { "$ref": "#/definitions/coordinatePair" },
-          { "$ref": "#/definitions/geojsonFilename" }
-        ]
-      }
-    },
-    "excludeLocations": {
-      "$comment": "See country-coder documentation for compatible values: https://github.com/ideditor/country-coder#readme",
-      "description": "(optional) Array of locations where the resource is unavailable (after applying includeLocations)",
-      "type": "array",
-      "uniqueItems": true,
-      "items": {
-        "anyOf": [
-          { "$ref": "#/definitions/locationCode" },
-          { "$ref": "#/definitions/coordinatePair" },
-          { "$ref": "#/definitions/geojsonFilename" }
-        ]
-      }
-    },
-    "countryCodes": {
-      "description": "(optional) Array of ISO 3166-1 alpha-2 two letter country codes in lowercase",
-      "type": "array",
-      "uniqueItems": true,
-      "items": {
-        "type": "string",
-        "pattern": "^[a-z]{2}$"
+    "locationSet": {
+      "$comment": "See location-conflation documentation for compatible values: https://github.com/ideditor/location-conflation#readme",
+      "description": "(required) included and excluded locations for this resource",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "include"
+      ],
+      "properties": {
+        "include": {
+          "description": "(required) locations included",
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "anyOf": [
+              { "$ref": "#/definitions/countryCoder" },
+              { "$ref": "#/definitions/coordinatePair" },
+              { "$ref": "#/definitions/geojsonFilename" }
+            ]
+          }
+        },
+        "exclude": {
+          "description": "(optional) locations excluded",
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "anyOf": [
+              { "$ref": "#/definitions/countryCoder" },
+              { "$ref": "#/definitions/coordinatePair" },
+              { "$ref": "#/definitions/geojsonFilename" }
+            ]
+          }
+        }
       }
     },
     "languageCodes": {
@@ -195,7 +194,7 @@
   },
 
   "definitions": {
-    "locationCode": {
+    "countryCoder": {
       "$comment": "See country-coder documentation for compatible values: https://github.com/ideditor/country-coder#readme",
       "description": "A country code (ISO 3166-1, United Nations M49, or anything recognized by country-coder)",
       "type": "string"

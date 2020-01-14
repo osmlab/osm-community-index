@@ -1,8 +1,7 @@
 {
   "id": "osmcz-facebook",
   "type": "facebook",
-  "includeLocations": ["cz"],
-  "countryCodes": ["cz"],
+  "locationSet": {"include": ["cz"]},
   "languageCodes": ["cs", "en", "sk"],
   "name": "OpenStreetMap CZ on Facebook",
   "description": "Follow Czech community on Facebook - including translated WeeklyOSM!",

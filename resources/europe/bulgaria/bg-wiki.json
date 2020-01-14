@@ -1,8 +1,7 @@
 {
   "id": "bg-wiki",
   "type": "wiki",
-  "includeLocations": ["bg"],
-  "countryCodes": ["bg"],
+  "locationSet": {"include": ["bg"]},
   "languageCodes": ["bg", "en"],
   "name": "OpenStreetMap Wikiproject Bulgaria",
   "description": "Wikiproject page for Bulgaria",

@@ -1,8 +1,7 @@
 {
   "id": "be-forum",
   "type": "forum",
-  "includeLocations": ["be"],
-  "countryCodes": ["be"],
+  "locationSet": {"include": ["be"]},
   "languageCodes": ["de", "en", "fr", "nl"],
   "name": "OpenStreetMap BE forum",
   "description": "OpenStreetMap Belgium web forum",

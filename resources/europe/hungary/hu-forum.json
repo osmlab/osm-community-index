@@ -1,8 +1,7 @@
 {
   "id": "hu-forum",
   "type": "forum",
-  "includeLocations": ["hu"],
-  "countryCodes": ["hu"],
+  "locationSet": {"include": ["hu"]},
   "languageCodes": ["hu"],
   "name": "OpenStreetMap HU forum",
   "description": "OpenStreetMap Hungary web forum",

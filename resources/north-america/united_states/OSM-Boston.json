@@ -1,8 +1,7 @@
 {
   "id": "OSM-Boston",
   "type": "meetup",
-  "includeLocations": ["boston_metro.geojson"],
-  "countryCodes": ["us"],
+  "locationSet": {"include": ["boston_metro.geojson"]},
   "languageCodes": ["en"],
   "name": "OpenStreetMap Boston",
   "description": "Mappers and OpenStreetMap users in the Boston area",

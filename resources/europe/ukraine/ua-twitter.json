@@ -1,8 +1,7 @@
 {
   "id": "ua-twitter",
   "type": "twitter",
-  "includeLocations": ["ua"],
-  "countryCodes": ["ua"],
+  "locationSet": {"include": ["ua"]},
   "languageCodes": ["uk"],
   "name": "OpenStreetMap UA Twitter",
   "description": "OpenStreetMap Ukraine on Twitter: {url}",

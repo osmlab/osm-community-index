@@ -1,8 +1,7 @@
 {
   "id": "OSM-br-twitter",
   "type": "twitter",
-  "includeLocations": ["br"],
-  "countryCodes": ["br"],
+  "locationSet": {"include": ["br"]},
   "languageCodes": ["pt"],
   "name": "OpenStreetMap Brasil Twitter",
   "description": "Follow us on Twitter at {url}",

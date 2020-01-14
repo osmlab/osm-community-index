@@ -1,8 +1,7 @@
 {
   "id": "sk-twitter",
   "type": "twitter",
-  "includeLocations": ["sk"],
-  "countryCodes": ["sk"],
+  "locationSet": {"include": ["sk"]},
   "languageCodes": ["sk"],
   "name": "OpenStreetMap Freemap Slovensko on Twitter",
   "description": "OpenStreetMap Freemap Slovensko on Twitter: {url}",

@@ -1,8 +1,7 @@
 {
   "id": "OSM-MY-facebook",
   "type": "facebook",
-  "includeLocations": ["my"],
-  "countryCodes": ["my"],
+  "locationSet": {"include": ["my"]},
   "languageCodes": ["en", "ms"],
   "name": "OpenStreetMap Malaysia on Facebook",
   "description": "For chat about anything related to OpenStreetMap!",

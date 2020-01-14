@@ -1,8 +1,7 @@
 {
   "id": "OpenCleveland-meetup",
   "type": "meetup",
-  "includeLocations": ["cleveland.geojson"],
-  "countryCodes": ["us"],
+  "locationSet": {"include": ["cleveland.geojson"]},
   "languageCodes": ["en"],
   "name": "Open Cleveland",
   "description": "Improve OpenStreetMap in the Cleveland area",

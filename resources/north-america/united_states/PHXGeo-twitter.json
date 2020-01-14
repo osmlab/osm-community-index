@@ -1,8 +1,7 @@
 {
   "id": "PHXGeo-twitter",
   "type": "twitter",
-  "includeLocations": ["phoenix.geojson"],
-  "countryCodes": ["us"],
+  "locationSet": {"include": ["phoenix.geojson"]},
   "languageCodes": ["en"],
   "name": "PHXGeo Twitter",
   "description": "Follow us on Twitter at {url}",

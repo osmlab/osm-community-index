@@ -1,8 +1,7 @@
 {
   "id": "bi-vc-cvl_wiki",
   "type": "osm",
-  "includeLocations": ["bi-vc-cvl.geojson"],
-  "countryCodes": ["it"],
+  "locationSet": {"include": ["bi-vc-cvl.geojson"]},
   "languageCodes": ["it"],
   "name": "OSMers BI-VC-CVL",
   "description": "Mappers of northern Piedmont",

@@ -1,8 +1,7 @@
 {
   "id": "si-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["si"],
-  "countryCodes": ["si"],
+  "locationSet": {"include": ["si"]},
   "languageCodes": ["en", "sl"],
   "name": "OpenStreetMap Slovenia mailing list",
   "description": "Mailing list of OpenStreetMap community in Slovenia",

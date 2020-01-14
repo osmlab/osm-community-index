@@ -1,7 +1,7 @@
 {
   "id": "byosm",
   "type": "telegram",
-  "includeLocations": ["by"],
+  "locationSet": {"include": ["by"]},
   "languageCodes": ["be", "en", "ru"],
   "name": "OpenStreetMap Belarus",
   "description": "OpenStreetMap Belarus telegram chat",

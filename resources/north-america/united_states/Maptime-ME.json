@@ -1,8 +1,7 @@
 {
   "id": "Maptime-ME-meetup",
   "type": "meetup",
-  "includeLocations": ["portland_me.geojson"],
-  "countryCodes": ["us"],
+  "locationSet": {"include": ["portland_me.geojson"]},
   "languageCodes": ["en"],
   "name": "MaptimeME",
   "description": "Mappers and OpenStreetMap users, around Portland, ME",

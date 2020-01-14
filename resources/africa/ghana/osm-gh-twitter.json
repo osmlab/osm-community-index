@@ -1,8 +1,7 @@
 {
   "id": "osm-gh-twitter",
   "type": "twitter",
-  "includeLocations": ["gh"],
-  "countryCodes": ["gh"],
+  "locationSet": {"include": ["gh"]},
   "languageCodes": ["en"],
   "name": "OpenStreetMap Ghana on Twitter",
   "description": "Follow us on Twitter: {url}",

@@ -1,8 +1,7 @@
 {
   "id": "be-matrix",
   "type": "matrix",
-  "includeLocations": ["be"],
-  "countryCodes": ["be"],
+  "locationSet": {"include": ["be"]},
   "languageCodes": ["de", "en", "fr", "nl"],
   "name": "OpenStreetMap BE Matrix channel",
   "description": "All mappers are welcome!",

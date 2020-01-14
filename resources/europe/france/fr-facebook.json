@@ -1,8 +1,7 @@
 {
   "id": "fr-facebook",
   "type": "facebook",
-  "includeLocations": ["fr"],
-  "countryCodes": ["fr"],
+  "locationSet": {"include": ["fr"]},
   "languageCodes": ["fr"],
   "name": "OpenStreetMap France Facebook page",
   "description": "OpenStreetMap France Facebook page",

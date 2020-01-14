@@ -1,8 +1,7 @@
 {
   "id": "OSM-Rome-meetup",
   "type": "group",
-  "includeLocations": ["roma-capitale.geojson"],
-  "countryCodes": ["it"],
+  "locationSet": {"include": ["roma-capitale.geojson"]},
   "languageCodes": ["it"],
   "name": "Incontro Mappatori Romani",
   "description": "Improve OpenStreetMap in the Rome area",

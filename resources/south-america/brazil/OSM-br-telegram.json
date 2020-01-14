@@ -1,8 +1,7 @@
 {
   "id": "OSM-br-telegram",
   "type": "telegram",
-  "includeLocations": ["br"],
-  "countryCodes": ["br"],
+  "locationSet": {"include": ["br"]},
   "languageCodes": ["pt"],
   "name": "OpenStreetMap Brasil Telegram",
   "description": "Join the OpenStreetMap Brasil community on Telegram",

@@ -1,7 +1,7 @@
 {
   "id": "OSM-india-twitter",
   "type": "twitter",
-  "includeLocations": ["in"],
+  "locationSet": {"include": ["in"]},
   "name": "OpenStreetMap India Twitter",
   "description": "We are just a tweet away: {url}",
   "url": "https://twitter.com/osm_in",

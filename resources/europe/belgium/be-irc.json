@@ -1,8 +1,7 @@
 {
   "id": "be-irc",
   "type": "irc",
-  "includeLocations": ["be"],
-  "countryCodes": ["be"],
+  "locationSet": {"include": ["be"]},
   "languageCodes": ["de", "en", "fr", "nl"],
   "name": "OpenStreetMap Belgium IRC",
   "description": "Join #osmbe on irc.oftc.net (port 6667)",

@@ -1,8 +1,7 @@
 {
   "id": "OSM-CO-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["co"],
-  "countryCodes": ["co"],
+  "locationSet": {"include": ["co"]},
   "languageCodes": ["es"],
   "name": "Talk-co Mailing List",
   "description": "A mailing list to discuss OpenStreetMap in Colombia",

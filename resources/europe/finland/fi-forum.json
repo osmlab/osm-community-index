@@ -1,8 +1,7 @@
 {
   "id": "fi-forum",
   "type": "forum",
-  "includeLocations": ["fi"],
-  "countryCodes": ["fi"],
+  "locationSet": {"include": ["fi"]},
   "languageCodes": ["fi"],
   "name": "OpenStreetMap FI forum",
   "description": "OpenStreetMap Finland web forum",

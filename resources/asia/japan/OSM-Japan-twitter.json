@@ -1,8 +1,7 @@
 {
   "id": "OSM-japan-twitter",
   "type": "twitter",
-  "includeLocations": ["jp"],
-  "countryCodes": ["jp"],
+  "locationSet": {"include": ["jp"]},
   "languageCodes": ["ja"],
   "name": "OpenStreetMap Japan Twitter",
   "description": "Hashtag on Twitter: {url}",

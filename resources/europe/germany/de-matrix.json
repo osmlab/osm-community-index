@@ -1,8 +1,7 @@
 {
   "id": "de-matrix",
   "type": "matrix",
-  "includeLocations": ["de"],
-  "countryCodes": ["de"],
+  "locationSet": {"include": ["de"]},
   "languageCodes": ["de"],
   "name": "OpenStreetMap Germany Matrix",
   "description": "Join #osm-de:matrix.org at https://riot.im/app/#/room/%23osm-de:matrix.org",

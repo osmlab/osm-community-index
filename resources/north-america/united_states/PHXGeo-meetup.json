@@ -1,8 +1,7 @@
 {
   "id": "PHXGeo-meetup",
   "type": "meetup",
-  "includeLocations": ["phoenix.geojson"],
-  "countryCodes": ["us"],
+  "locationSet": {"include": ["phoenix.geojson"]},
   "languageCodes": ["en"],
   "name": "PHXGeo Meetup",
   "description": "Mappers and OpenStreetMap users in the Phoenix, AZ area",

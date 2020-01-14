@@ -1,8 +1,7 @@
 {
   "id": "al-telegram",
   "type": "telegram",
-  "includeLocations": ["al"],
-  "countryCodes": ["al"],
+  "locationSet": {"include": ["al"]},
   "languageCodes": ["en", "sq"],
   "name": "OSM Albania Telegram channel",
   "description": "OpenStreetMap Albania Telegram channel",

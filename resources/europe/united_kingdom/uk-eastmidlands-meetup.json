@@ -1,8 +1,7 @@
 {
   "id": "Nottingham-OSM-pub-meetup",
   "type": "group",
-  "includeLocations": ["east_midlands.geojson"],
-  "countryCodes": ["gb"],
+  "locationSet": {"include": ["east_midlands.geojson"]},
   "languageCodes": ["en"],
   "name": "East Midlands (Nottingham) Monthly pub meet-up",
   "description": "Social gathering for East Midlands mappers and users",

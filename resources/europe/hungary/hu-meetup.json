@@ -1,8 +1,7 @@
 {
   "id": "hu-meetup",
   "type": "meetup",
-  "includeLocations": ["hu"],
-  "countryCodes": ["hu"],
+  "locationSet": {"include": ["hu"]},
   "languageCodes": ["hu"],
   "name": "OpenStreetMap Hungary Meetup",
   "description": "The platform for organizing meetups in Hungary",

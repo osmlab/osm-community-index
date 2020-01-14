@@ -1,8 +1,7 @@
 {
   "id": "OSM-AR-telegram",
   "type": "telegram",
-  "includeLocations": ["ar"],
-  "countryCodes": ["ar"],
+  "locationSet": {"include": ["ar"]},
   "languageCodes": ["es"],
   "name": "OpenStreetMap Argentina Telegram",
   "description": "Join the OpenStreetMap Argentina community on Telegram",

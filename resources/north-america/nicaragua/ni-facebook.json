@@ -1,8 +1,7 @@
 {
   "id": "ni-facebook",
   "type": "facebook",
-  "includeLocations": ["ni"],
-  "countryCodes": ["ni"],
+  "locationSet": {"include": ["ni"]},
   "languageCodes": ["es"],
   "name": "OpenStreetMap NI Community",
   "description": "Mappers and OpenStreetMap on Facebook in Nicaragua",

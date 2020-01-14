@@ -1,7 +1,7 @@
 {
   "id": "es-twitter",
   "type": "twitter",
-  "includeLocations": ["es"],
+  "locationSet": {"include": ["es"]},
   "languageCodes": ["es"],
   "name": "OpenStreetMap España Twitter",
   "description": "Follow us on Twitter at {url}",

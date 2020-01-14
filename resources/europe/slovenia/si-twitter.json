@@ -1,8 +1,7 @@
 {
   "id": "si-twitter",
   "type": "twitter",
-  "includeLocations": ["si"],
-  "countryCodes": ["si"],
+  "locationSet": {"include": ["si"]},
   "languageCodes": ["en", "sl"],
   "name": "OpenStreetMap Slovenia Twitter",
   "description": "Follow OpenStreetMap Slovenia On Twitter: {url}",

@@ -1,8 +1,7 @@
 {
   "id": "OSM-PH-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["ph"],
-  "countryCodes": ["ph"],
+  "locationSet": {"include": ["ph"]},
   "name": "Talk-ph Mailing List",
   "description": "A mailing list to discuss OpenStreetMap in the Philippines",
   "url": "https://lists.openstreetmap.org/pipermail/talk-ph/",

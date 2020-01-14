@@ -1,8 +1,7 @@
 {
   "id": "osm-india-forum",
   "type": "forum",
-  "includeLocations": ["in"],
-  "countryCodes": ["in"],
+  "locationSet": {"include": ["in"]},
   "name": "OpenStreetMap India forum",
   "description": "OpenStreetMap India web forum",
   "url": "https://forum.openstreetmap.org/viewforum.php?id=65",

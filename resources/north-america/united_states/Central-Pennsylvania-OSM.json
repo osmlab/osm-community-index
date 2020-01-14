@@ -1,8 +1,7 @@
 {
   "id": "Central-Pennsylvania-OSM",
   "type": "facebook",
-  "includeLocations": ["central_pa.geojson"],
-  "countryCodes": ["us"],
+  "locationSet": {"include": ["central_pa.geojson"]},
   "languageCodes": ["en"],
   "name": "Central Pennsylvania OSM",
   "description": "Online mapping community based out of State College, PA",

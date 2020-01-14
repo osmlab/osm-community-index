@@ -1,8 +1,7 @@
 {
   "id": "is-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["is"],
-  "countryCodes": ["is"],
+  "locationSet": {"include": ["is"]},
   "languageCodes": ["en", "is"],
   "name": "Talk-is Mailing List",
   "description": "Talk-is is the official mailing list for the Icelandic OSM community",

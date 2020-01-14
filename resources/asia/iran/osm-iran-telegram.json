@@ -1,8 +1,7 @@
 {
   "id": "osm-iran-telegram",
   "type": "telegram",
-  "includeLocations": ["ir"],
-  "countryCodes": ["ir"],
+  "locationSet": {"include": ["ir"]},
   "languageCodes": ["fa"],
   "name": "OpenStreetMap Iran Telegram",
   "description": "You're welcome to join our Telegram channel at {url}. We also have a supergroup of many OSMers interested in Iran. Find its link in bio of channel.",

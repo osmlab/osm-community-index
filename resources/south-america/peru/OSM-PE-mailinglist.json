@@ -1,8 +1,7 @@
 {
   "id": "OSM-PE-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["pe"],
-  "countryCodes": ["pe"],
+  "locationSet": {"include": ["pe"]},
   "languageCodes": ["es"],
   "name": "Talk-pe Mailing List",
   "description": "The official mailing list for the OpenStreetMap Peru community",

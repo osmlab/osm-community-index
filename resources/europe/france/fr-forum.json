@@ -1,8 +1,7 @@
 {
   "id": "fr-forum",
   "type": "forum",
-  "includeLocations": ["fr"],
-  "countryCodes": ["fr"],
+  "locationSet": {"include": ["fr"]},
   "languageCodes": ["fr"],
   "name": "OpenStreetMap France web forum",
   "description": "OpenStreetMap France web forum",

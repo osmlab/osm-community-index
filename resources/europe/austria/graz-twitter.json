@@ -1,8 +1,7 @@
 {
   "id": "osmgraz-twitter",
   "type": "twitter",
-  "includeLocations": [[15.4461, 47.0556]],
-  "countryCodes": ["at"],
+  "locationSet": {"include": [[15.4461, 47.0556]]},
   "languageCodes": ["de", "en"],
   "name": "OSM community Graz on twitter",
   "description": "OpenStreetMap community in Graz on twitter",

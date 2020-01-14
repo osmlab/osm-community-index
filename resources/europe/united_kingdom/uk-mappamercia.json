@@ -1,8 +1,7 @@
 {
   "id": "mappa-mercia-group",
   "type": "group",
-  "includeLocations": ["england-west-midlands.geojson"],
-  "countryCodes": ["gb"],
+  "locationSet": {"include": ["england-west-midlands.geojson"]},
   "languageCodes": ["en"],
   "name": "Mappa Mercia local group",
   "description": "A home for OpenStreetMap enthusiasts in the Midlands",

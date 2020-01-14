@@ -1,8 +1,7 @@
 {
   "id": "OSM-Portland",
   "type": "meetup",
-  "includeLocations": ["portland_or.geojson"],
-  "countryCodes": ["us"],
+  "locationSet": {"include": ["portland_or.geojson"]},
   "languageCodes": ["en"],
   "name": "OpenStreetMap Portland",
   "description": "Mappers and OpenStreetMap users in the Portland area",

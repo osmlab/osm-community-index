@@ -1,8 +1,7 @@
 {
   "id": "OSM-TH-facebook",
   "type": "facebook",
-  "includeLocations": ["th"],
-  "countryCodes": ["th"],
+  "locationSet": {"include": ["th"]},
   "languageCodes": ["en", "th"],
   "name": "OpenStreetMap TH Facebook group",
   "description": "Facebook group for OpenStreetMappers in Thailand",

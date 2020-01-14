@@ -1,8 +1,7 @@
 {
   "id": "osm-mg-facebook",
   "type": "facebook",
-  "includeLocations": ["mg"],
-  "countryCodes": ["mg"],
+  "locationSet": {"include": ["mg"]},
   "languageCodes": ["fr", "mg"],
   "name": "OpenStreetMap Madagascar Facebook Group",
   "description": "Malagasy Facebook group for people interested in OpenStreetMap.",

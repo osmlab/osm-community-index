@@ -1,8 +1,7 @@
 {
   "id": "Dallas-Fort-Worth-OSM",
   "type": "osm",
-  "includeLocations": ["dfw_metro.geojson"],
-  "countryCodes": ["us"],
+  "locationSet": {"include": ["dfw_metro.geojson"]},
   "languageCodes": ["en"],
   "name": "Dallas-Fort Worth OSM",
   "description": "The OpenStreetMap user group for Dallas-Fort Worth",

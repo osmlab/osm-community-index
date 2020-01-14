@@ -1,8 +1,7 @@
 {
   "id": "se-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["se"],
-  "countryCodes": ["se"],
+  "locationSet": {"include": ["se"]},
   "languageCodes": ["sv"],
   "name": "Talk-se Mailing List",
   "description": "A mailing list to discuss OpenStreetMap in Sweden",

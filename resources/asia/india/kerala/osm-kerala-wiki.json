@@ -1,7 +1,7 @@
 {
   "id": "osm-kerala-wiki",
   "type": "wiki",
-  "includeLocations": ["india_kerala.geojson"],
+  "locationSet": {"include": ["india_kerala.geojson"]},
   "name": "OpenStreetMap Kerala",
   "description": "Want to know more about Kerala Mapping: {url}",
   "url": "https://wiki.openstreetmap.org/wiki/Kerala",

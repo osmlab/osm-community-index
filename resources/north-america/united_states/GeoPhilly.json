@@ -1,8 +1,7 @@
 {
   "id": "GeoPhilly",
   "type": "meetup",
-  "includeLocations": ["philly_metro.geojson"],
-  "countryCodes": ["us"],
+  "locationSet": {"include": ["philly_metro.geojson"]},
   "languageCodes": ["en"],
   "name": "GeoPhilly",
   "description": "Meetup for map enthusiasts in the Philadelphia area",

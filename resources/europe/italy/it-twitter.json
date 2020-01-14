@@ -1,8 +1,7 @@
 {
   "id": "it-twitter",
   "type": "twitter",
-  "includeLocations": ["it"],
-  "countryCodes": ["it"],
+  "locationSet": {"include": ["it"]},
   "languageCodes": ["it"],
   "name": "OpenStreetMap Italy Twitter",
   "description": "Follow us on Twitter at {url}",

@@ -1,8 +1,7 @@
 {
   "id": "it-telegram",
   "type": "telegram",
-  "includeLocations": ["it"],
-  "countryCodes": ["it"],
+  "locationSet": {"include": ["it"]},
   "languageCodes": ["it"],
   "name": "@OpenStreetMapItalia on Telegram",
   "description": "OpenStreetMap Italy Telegram chat",

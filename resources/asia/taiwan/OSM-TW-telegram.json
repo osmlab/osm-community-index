@@ -1,8 +1,7 @@
 {
   "id": "OSM-TW-telegram",
   "type": "telegram",
-  "includeLocations": ["tw"],
-  "countryCodes": ["tw"],
+  "locationSet": {"include": ["tw"]},
   "languageCodes": ["zh-tw"],
   "name": "OpenStreetMap Taiwan Telegram",
   "description": "A Telegram group for the OSM Taiwan community: {url}",

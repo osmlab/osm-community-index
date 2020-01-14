@@ -1,8 +1,7 @@
 {
   "id": "Trentino-Mailing-List",
   "type": "mailinglist",
-  "includeLocations": ["trentino.geojson"],
-  "countryCodes": ["it"],
+  "locationSet": {"include": ["trentino.geojson"]},
   "languageCodes": ["it"],
   "name": "OpenStreetMap mailing list for Trentino",
   "description": "OpenStreetMap Italy regional talk list for Trentino",

@@ -1,8 +1,7 @@
 {
   "id": "Mapping-DC-meetup",
   "type": "meetup",
-  "includeLocations": ["dc_metro.geojson"],
-  "countryCodes": ["us"],
+  "locationSet": {"include": ["dc_metro.geojson"]},
   "languageCodes": ["en"],
   "name": "Mapping DC",
   "description": "Improve OpenStreetMap in the DC area",

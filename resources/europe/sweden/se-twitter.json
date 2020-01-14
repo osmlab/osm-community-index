@@ -1,8 +1,7 @@
 {
   "id": "se-twitter",
   "type": "twitter",
-  "includeLocations": ["se"],
-  "countryCodes": ["se"],
+  "locationSet": {"include": ["se"]},
   "languageCodes": ["sv"],
   "name": "OpenStreetMap Sweden on Twitter",
   "description": "Follow us on Twitter: {url}",

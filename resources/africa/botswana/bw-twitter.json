@@ -1,8 +1,7 @@
 {
   "id": "bw-twitter",
   "type": "twitter",
-  "includeLocations": ["bw"],
-  "countryCodes": ["bw"],
+  "locationSet": {"include": ["bw"]},
   "languageCodes": ["en", "tn"],
   "name": "Mapping Botswana on Twitter",
   "description": "Twitter of OpenStreetMap in Botswana",

@@ -1,8 +1,7 @@
 {
   "id": "OSM-BO-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["bo"],
-  "countryCodes": ["bo"],
+  "locationSet": {"include": ["bo"]},
   "languageCodes": ["es"],
   "name": "Talk-bo Mailing List",
   "description": "Talk-bo is the official mailing list for the Bolivian OpenStreetMap community",

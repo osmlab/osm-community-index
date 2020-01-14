@@ -1,8 +1,7 @@
 {
   "id": "osm-ni",
   "type": "group",
-  "includeLocations": ["ni"],
-  "countryCodes": ["ni"],
+  "locationSet": {"include": ["ni"]},
   "languageCodes": ["es"],
   "name": "MapaNica.net",
   "description": "Provide OSM services and information for the local community in Nicaragua",

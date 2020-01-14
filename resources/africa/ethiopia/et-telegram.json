@@ -1,8 +1,7 @@
 {
   "id": "et-telegram",
   "type": "telegram",
-  "includeLocations": ["et"],
-  "countryCodes": ["et"],
+  "locationSet": {"include": ["et"]},
   "name": "@OpenStreetMapEthiopia on Telegram",
   "description": "OpenStreetMap Ethiopia Telegram chat",
   "url": "https://t.me/openstreetmapethiopia",

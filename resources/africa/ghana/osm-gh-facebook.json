@@ -1,8 +1,7 @@
 {
   "id": "osm-gh-facebook",
   "type": "facebook",
-  "includeLocations": ["gh"],
-  "countryCodes": ["gh"],
+  "locationSet": {"include": ["gh"]},
   "languageCodes": ["en"],
   "name": "OpenStreetMap Ghana on Facebook",
   "description": "Facebook group for people interested in OpenStreetMap.",

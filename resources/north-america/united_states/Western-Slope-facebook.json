@@ -1,8 +1,7 @@
 {
   "id": "Western-Slope-facebook",
   "type": "facebook",
-  "includeLocations": ["grand_junction_co.geojson"],
-  "countryCodes": ["us"],
+  "locationSet": {"include": ["grand_junction_co.geojson"]},
   "languageCodes": ["en"],
   "name": "Western Slope OSM Facebook",
   "description": "Mappers and OpenStreetMap users around Grand Junction, CO",

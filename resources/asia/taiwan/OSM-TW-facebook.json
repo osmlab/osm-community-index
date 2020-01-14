@@ -1,8 +1,7 @@
 {
   "id": "OSM-TW-facebook",
   "type": "facebook",
-  "includeLocations": ["tw"],
-  "countryCodes": ["tw"],
+  "locationSet": {"include": ["tw"]},
   "languageCodes": ["zh-tw"],
   "name": "OpenStreetMap Taiwan Community",
   "description": "Facebook Group for Mappers and OpenStreetMap users to discuss matters about Taiwan.",

@@ -1,8 +1,7 @@
 {
   "id": "uk-twitter",
   "type": "twitter",
-  "includeLocations": ["gb"],
-  "countryCodes": ["gb"],
+  "locationSet": {"include": ["gb"]},
   "languageCodes": ["en"],
   "name": "OpenStreetMap UK on Twitter",
   "description": "OpenStreetMap UK on Twitter: {url}",

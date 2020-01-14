@@ -1,8 +1,7 @@
 {
   "id": "OSM-CL-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["cl"],
-  "countryCodes": ["cl"],
+  "locationSet": {"include": ["cl"]},
   "languageCodes": ["es"],
   "name": "Talk-cl Mailing List",
   "description": "A mailing list to discuss OpenStreetMap in Chile",

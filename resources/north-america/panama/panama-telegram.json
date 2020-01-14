@@ -1,8 +1,7 @@
 {
   "id": "panama-telegram",
   "type": "telegram",
-  "includeLocations": ["pa"],
-  "countryCodes": ["pa"],
+  "locationSet": {"include": ["pa"]},
   "languageCodes": ["es"],
   "name": "OSM Panama on Telegram",
   "description": "OpenStreetMap Panama Telegram chat",

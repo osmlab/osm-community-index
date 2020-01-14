@@ -1,8 +1,7 @@
 {
   "id": "bg-forum",
   "type": "forum",
-  "includeLocations": ["bg"],
-  "countryCodes": ["bg"],
+  "locationSet": {"include": ["bg"]},
   "languageCodes": ["bg", "en"],
   "name": "OpenStreetMap Bulgaria Forum",
   "description": "Forum of OpenStreetMap community in Bulgaria",

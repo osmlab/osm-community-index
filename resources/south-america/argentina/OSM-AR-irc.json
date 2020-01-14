@@ -1,8 +1,7 @@
 {
   "id": "OSM-AR-irc",
   "type": "irc",
-  "includeLocations": ["ar"],
-  "countryCodes": ["ar"],
+  "locationSet": {"include": ["ar"]},
   "languageCodes": ["es"],
   "name": "OpenStreetMap Argentina IRC",
   "description": "Join #osm-ar on irc.oftc.net (port 6667)",

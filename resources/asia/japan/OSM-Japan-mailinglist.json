@@ -1,8 +1,7 @@
 {
   "id": "OSM-japan-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["jp"],
-  "countryCodes": ["jp"],
+  "locationSet": {"include": ["jp"]},
   "languageCodes": ["ja"],
   "name": "OpenStreetMap Japan Mailinglist",
   "description": "Talk-ja is an Official Mailinglist for Japanese Community",

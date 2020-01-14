@@ -1,7 +1,7 @@
 {
   "id": "OSM-Facebook",
   "type": "facebook",
-  "includeLocations": ["001"],
+  "locationSet": {"include": ["001"]},
   "languageCodes": ["en"],
   "name": "OpenStreetMap on Facebook",
   "description": "Like us on Facebook for news and updates about OpenStreetMap.",

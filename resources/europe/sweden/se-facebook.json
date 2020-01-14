@@ -1,8 +1,7 @@
 {
   "id": "se-facebook",
   "type": "facebook",
-  "includeLocations": ["se"],
-  "countryCodes": ["se"],
+  "locationSet": {"include": ["se"]},
   "languageCodes": ["sv"],
   "name": "OpenStreetMap Sweden Facebook",
   "description": "OpenStreetMap Sweden on Facebook",

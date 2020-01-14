@@ -1,8 +1,7 @@
 {
   "id": "OSM-PE-twitter",
   "type": "twitter",
-  "includeLocations": ["pe"],
-  "countryCodes": ["pe"],
+  "locationSet": {"include": ["pe"]},
   "languageCodes": ["es"],
   "name": "OpenStreetMap Peru Twitter",
   "description": "Follow us on Twitter at {url}",

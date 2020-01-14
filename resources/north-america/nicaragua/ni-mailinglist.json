@@ -1,8 +1,7 @@
 {
   "id": "ni-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["ni"],
-  "countryCodes": ["ni"],
+  "locationSet": {"include": ["ni"]},
   "languageCodes": ["es"],
   "name": "Talk-ni Mailing List",
   "description": "Talk-ni is the official mailing list for the Nicaraguan OSM community",

@@ -1,8 +1,7 @@
 {
   "id": "osm-india-website",
   "type": "osm",
-  "includeLocations": ["in"],
-  "countryCodes": ["in"],
+  "locationSet": {"include": ["in"]},
   "name": "OpenStreetMap India",
   "description": "Mappers and OpenStreetMap users in India",
   "url": "https://openstreetmap.in/",

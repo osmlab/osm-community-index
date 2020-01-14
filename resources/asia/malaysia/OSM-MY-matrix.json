@@ -1,8 +1,7 @@
 {
   "id": "OSM-MY-matrix",
   "type": "matrix",
-  "includeLocations": ["my"],
-  "countryCodes": ["my"],
+  "locationSet": {"include": ["my"]},
   "languageCodes": ["en", "ms"],
   "name": "OpenStreetMap Malaysia Riot channel",
   "description": "All mappers are welcome! Sign up at {signupUrl}",

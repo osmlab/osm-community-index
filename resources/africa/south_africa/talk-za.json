@@ -1,8 +1,7 @@
 {
   "id": "talk-za",
   "type": "mailinglist",
-  "includeLocations": ["za"],
-  "countryCodes": ["za"],
+  "locationSet": {"include": ["za"]},
   "languageCodes": ["en"],
   "name": "Talk-za Mailing List",
   "description": "Talk-za is the official mailing list for South African OSM community.",

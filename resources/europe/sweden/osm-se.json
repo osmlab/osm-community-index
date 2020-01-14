@@ -1,8 +1,7 @@
 {
   "id": "osm-se",
   "type": "osm",
-  "includeLocations": ["se"],
-  "countryCodes": ["se"],
+  "locationSet": {"include": ["se"]},
   "languageCodes": ["sv"],
   "name": "OpenStreetMap.se",
   "description": "Provide OSM services and information for the local community in Sweden",

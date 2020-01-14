@@ -1,8 +1,7 @@
 {
   "id": "ireland-irc",
   "type": "irc",
-  "includeLocations": ["ie"],
-  "countryCodes": ["gb", "ie"],
+  "locationSet": {"include": ["ie"]},
   "languageCodes": ["en"],
   "name": "OpenStreetMap Ireland IRC",
   "description": "Join #osm-ie on irc.oftc.net (port 6667)",

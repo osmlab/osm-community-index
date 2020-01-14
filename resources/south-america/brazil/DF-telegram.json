@@ -1,8 +1,7 @@
 {
   "id": "DF-telegram",
   "type": "telegram",
-  "includeLocations": ["brasilia_df.geojson"],
-  "countryCodes": ["br"],
+  "locationSet": {"include": ["brasilia_df.geojson"]},
   "languageCodes": ["pt"],
   "name": "OpenStreetMap Brasília Telegram Group",
   "description": "Join the OpenStreetMap Brasília community on Telegram",

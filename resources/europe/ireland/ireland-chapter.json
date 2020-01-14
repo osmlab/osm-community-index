@@ -1,8 +1,7 @@
 {
   "id": "ireland-chapter",
   "type": "osm-lc",
-  "includeLocations": ["ie"],
-  "countryCodes": ["gb", "ie"],
+  "locationSet": {"include": ["ie"]},
   "languageCodes": ["en"],
   "name": "OpenStreetMap Ireland Local Chapter",
   "description": "We help grow and improve OpenStreetMap in Ireland.",

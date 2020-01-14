@@ -1,8 +1,7 @@
 {
   "id": "ua-forum",
   "type": "forum",
-  "includeLocations": ["ua"],
-  "countryCodes": ["ua"],
+  "locationSet": {"include": ["ua"]},
   "languageCodes": ["en", "ru", "uk"],
   "name": "OpenStreetMap Ukraine Forum",
   "description": "Forum of OpenStreetMap community in Ukraine",

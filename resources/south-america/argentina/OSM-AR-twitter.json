@@ -1,8 +1,7 @@
 {
   "id": "OSM-AR-twitter",
   "type": "twitter",
-  "includeLocations": ["ar"],
-  "countryCodes": ["ar"],
+  "locationSet": {"include": ["ar"]},
   "languageCodes": ["es"],
   "name": "OpenStreetMap Argentina Twitter",
   "description": "Follow us on Twitter at {url}",

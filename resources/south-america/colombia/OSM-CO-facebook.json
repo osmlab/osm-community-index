@@ -1,8 +1,7 @@
 {
   "id": "OSM-CO-facebook",
   "type": "facebook",
-  "includeLocations": ["co"],
-  "countryCodes": ["co"],
+  "locationSet": {"include": ["co"]},
   "languageCodes": ["es"],
   "name": "OpenStreetMap Colombia Facebook",
   "description": "Join the OpenStreetMap Colombia community on Facebook",

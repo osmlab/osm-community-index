@@ -1,8 +1,7 @@
 {
   "id": "OSM-Colorado",
   "type": "meetup",
-  "includeLocations": ["colorado.geojson"],
-  "countryCodes": ["us"],
+  "locationSet": {"include": ["colorado.geojson"]},
   "languageCodes": ["en"],
   "name": "OpenStreetMap Colorado",
   "description": "Mappers and OpenStreetMap users in the state of Colorado, USA",

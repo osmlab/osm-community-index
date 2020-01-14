@@ -1,8 +1,7 @@
 {
   "id": "osm-iran-forum",
   "type": "forum",
-  "includeLocations": ["ir"],
-  "countryCodes": ["ir"],
+  "locationSet": {"include": ["ir"]},
   "languageCodes": ["fa"],
   "name": "OpenStreetMap Iran web forum",
   "description": "OpenStreetMap Iran web forum",

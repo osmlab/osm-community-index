@@ -1,8 +1,7 @@
 {
   "id": "at-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["at"],
-  "countryCodes": ["at"],
+  "locationSet": {"include": ["at"]},
   "languageCodes": ["de"],
   "name": "Talk-at Mailing List",
   "description": "Talk-at is the official mailing list for the Austrian OSM community",

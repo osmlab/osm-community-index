@@ -1,8 +1,7 @@
 {
   "id": "is-facebook",
   "type": "facebook",
-  "includeLocations": ["is"],
-  "countryCodes": ["is"],
+  "locationSet": {"include": ["is"]},
   "languageCodes": ["en", "is"],
   "name": "OSM Iceland on Facebook",
   "description": "Page of OpenStreetMap in Iceland",

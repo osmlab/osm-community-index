@@ -1,8 +1,7 @@
 {
   "id": "ni-telegram",
   "type": "telegram",
-  "includeLocations": ["ni"],
-  "countryCodes": ["ni"],
+  "locationSet": {"include": ["ni"]},
   "languageCodes": ["es"],
   "name": "OSM Nicaragua on Telegram",
   "description": "OpenStreetMap Nicaragua Telegram chat",

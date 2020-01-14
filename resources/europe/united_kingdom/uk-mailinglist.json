@@ -1,8 +1,7 @@
 {
   "id": "gb-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["gb"],
-  "countryCodes": ["gb"],
+  "locationSet": {"include": ["gb"]},
   "languageCodes": ["en"],
   "name": "Talk-gb Mailing List",
   "description": "Talk-gb is the main communication forum list for the UK (including Northern Ireland) OSM community",

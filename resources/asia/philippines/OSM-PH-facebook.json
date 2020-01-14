@@ -1,8 +1,7 @@
 {
   "id": "OSM-PH-facebook",
   "type": "facebook",
-  "includeLocations": ["ph"],
-  "countryCodes": ["ph"],
+  "locationSet": {"include": ["ph"]},
   "name": "OpenStreetMap PH Facebook",
   "description": "Welcome to OpenStreetMap Philippines, where we encourage all fellow Filipinos to contribute to the OpenStreetMap project.",
   "url": "https://www.facebook.com/OSMPH/",

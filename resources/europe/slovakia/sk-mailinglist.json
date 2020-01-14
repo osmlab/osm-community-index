@@ -1,8 +1,7 @@
 {
   "id": "mailinglist-sk-googlegroups",
   "type": "mailinglist",
-  "includeLocations": ["sk"],
-  "countryCodes": ["sk"],
+  "locationSet": {"include": ["sk"]},
   "languageCodes": ["cz", "en", "sk"],
   "name": "Slovak mailing list on google groups",
   "description": "Official mailing list for Slovak community",

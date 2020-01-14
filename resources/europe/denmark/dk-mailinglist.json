@@ -1,8 +1,7 @@
 {
   "id": "dk-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["dk"],
-  "countryCodes": ["dk"],
+  "locationSet": {"include": ["dk"]},
   "languageCodes": ["da"],
   "name": "Talk-dk Mailing List",
   "description": "A mailing list to discuss OpenStreetMap in Denmark",

@@ -1,8 +1,7 @@
 {
   "id": "fr-twitter",
   "type": "twitter",
-  "includeLocations": ["fr"],
-  "countryCodes": ["fr"],
+  "locationSet": {"include": ["fr"]},
   "languageCodes": ["fr"],
   "name": "OpenStreetMap France on Twitter",
   "description": "OpenStreetMap France on Twitter: {url}",

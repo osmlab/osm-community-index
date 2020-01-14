@@ -1,8 +1,7 @@
 {
   "id": "OSM-PE",
   "type": "osm",
-  "includeLocations": ["pe"],
-  "countryCodes": ["ar"],
+  "locationSet": {"include": ["pe"]},
   "languageCodes": ["es"],
   "name": "OpenStreetMap Peru",
   "description": "News and resources for the OpenStreetMap Peru community",

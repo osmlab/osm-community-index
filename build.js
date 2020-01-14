@@ -137,11 +137,15 @@ function collectResources(tstrings, featureCollection) {
 
     // sort properties and array values
     let obj = {};
-    if (resource.id)                  { obj.id = resource.id; }
-    if (resource.type)                { obj.type = resource.type; }
-    if (resource.includeLocations)    { obj.includeLocations = resource.includeLocations; }
-    if (resource.excludeLocations)    { obj.excludeLocations = resource.excludeLocations; }
-    if (resource.countryCodes)        { obj.countryCodes = resource.countryCodes.sort(); }
+    if (resource.id)    { obj.id = resource.id; }
+    if (resource.type)  { obj.type = resource.type; }
+
+    if (resource.locationSet) {
+      obj.locationSet = {};
+      if (resource.locationSet.include) { obj.locationSet.include = resource.locationSet.include; }
+      if (resource.locationSet.exclude) { obj.locationSet.exclude = resource.locationSet.exclude; }
+    }
+
     if (resource.languageCodes)       { obj.languageCodes = resource.languageCodes.sort(); }
     if (resource.name)                { obj.name = resource.name; }
     if (resource.description)         { obj.description = resource.description; }
@@ -155,7 +159,7 @@ function collectResources(tstrings, featureCollection) {
 
     validateFile(file, resource, resourceSchema);
 
-    (resource.includeLocations || []).forEach(location => {
+    (resource.locationSet.include || []).forEach(location => {
       if (!loco.isValidLocation(location)) {
         console.error(colors.red('Error - Invalid include location: ') + colors.yellow(location));
         console.error('  ' + colors.yellow(file));
@@ -163,7 +167,7 @@ function collectResources(tstrings, featureCollection) {
       }
     });
 
-    (resource.excludeLocations || []).forEach(location => {
+    (resource.locationSet.exclude || []).forEach(location => {
       if (!loco.isValidLocation(location)) {
         console.error(colors.red('Error - Invalid exclude location: ') + colors.yellow(location));
         console.error('  ' + colors.yellow(file));

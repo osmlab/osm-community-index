@@ -1,8 +1,7 @@
 {
   "id": "OSM-South-Bay",
   "type": "meetup",
-  "includeLocations": ["south_sf_bay_area.geojson"],
-  "countryCodes": ["us"],
+  "locationSet": {"include": ["south_sf_bay_area.geojson"]},
   "languageCodes": ["en"],
   "name": "OSM South Bay",
   "description": "Map Nights hosted by Code for San Jose",

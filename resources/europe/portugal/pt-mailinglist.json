@@ -1,8 +1,7 @@
 {
   "id": "pt-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["pt"],
-  "countryCodes": ["pt"],
+  "locationSet": {"include": ["pt"]},
   "languageCodes": ["pt"],
   "name": "Talk-pt Mailing List",
   "description": "Talk-pt is the official mailing list for the Portuguese OSM community",

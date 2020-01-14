@@ -46,7 +46,7 @@ Several files are published under `dist/`
 * (required) Add a **resource** `.json` file under `resources/` folder
   * This contains info about what the resource is (slack, forum, mailinglist, facebook, etc.)
   * You can just copy and change an existing one
-  * Each resource needs an `includeLocations` property to define where it is active.
+  * Each resource needs a `locationSet` property to define where it is active.
 * (optional) Add a **feature** `.geojson` file under `features/` folder
   * This is a boundary around where the resource is active
   * You can use [geojson.io](http://geojson.io) or other tools to create these.

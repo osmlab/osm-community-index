@@ -1,8 +1,7 @@
 {
   "id": "is-chapter",
   "type": "osm-lc",
-  "includeLocations": ["is"],
-  "countryCodes": ["is"],
+  "locationSet": {"include": ["is"]},
   "languageCodes": ["en", "is"],
   "name": "OpenStreetMap Iceland Local Chapter",
   "description": "We help grow and improve OpenStreetMap in Iceland.",

@@ -1,7 +1,7 @@
 {
   "id": "latam-facebook",
   "type": "facebook",
-  "includeLocations": ["419"],
+  "locationSet": {"include": ["419"]},
   "languageCodes": ["en", "es", "pt"],
   "name": "OpenStreetMap Latin America Facebook",
   "description": "Mappers and OpenStreetMap on Facebook in Latin America",

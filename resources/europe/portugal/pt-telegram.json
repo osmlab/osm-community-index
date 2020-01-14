@@ -1,8 +1,7 @@
 {
   "id": "pt-telegram",
   "type": "telegram",
-  "includeLocations": ["pt"],
-  "countryCodes": ["pt"],
+  "locationSet": {"include": ["pt"]},
   "languageCodes": ["pt"],
   "name": "OpenStreetMap Portugal on Telegram",
   "description": "Telegram Group of the Portuguese OpenStreetMap community {url}",

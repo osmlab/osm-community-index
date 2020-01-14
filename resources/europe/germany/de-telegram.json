@@ -1,8 +1,7 @@
 {
   "id": "de-telegram",
   "type": "telegram",
-  "includeLocations": ["de"],
-  "countryCodes": ["de"],
+  "locationSet": {"include": ["de"]},
   "languageCodes": ["de"],
   "name": "OpenStreetMap Germany Telegram",
   "description": "Join the OpenStreetMap Germany Telegram supergroup at {url}",

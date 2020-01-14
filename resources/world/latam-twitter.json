@@ -1,7 +1,7 @@
 {
   "id": "latam-twitter",
   "type": "twitter",
-  "includeLocations": ["419"],
+  "locationSet": {"include": ["419"]},
   "languageCodes": ["en", "es", "pt"],
   "name": "OpenStreetMap Latin America Twitter",
   "description": "OpenStreetMap Latin America on Twitter: {url}",

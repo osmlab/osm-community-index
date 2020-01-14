@@ -1,8 +1,7 @@
 {
   "id": "MaptimeHRVA-twitter",
   "type": "twitter",
-  "includeLocations": ["hrva.geojson"],
-  "countryCodes": ["us"],
+  "locationSet": {"include": ["hrva.geojson"]},
   "languageCodes": ["en"],
   "name": "MaptimeHRVA Twitter",
   "description": "Follow us on Twitter at {url}",

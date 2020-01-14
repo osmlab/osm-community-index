@@ -1,8 +1,7 @@
 {
   "id": "us-ma-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["massachusetts.geojson"],
-  "countryCodes": ["us"],
+  "locationSet": {"include": ["massachusetts.geojson"]},
   "languageCodes": ["en"],
   "name": "Talk-us-massachusetts Mailing List",
   "description": "Email mailing list for the Massachusetts OSM community",

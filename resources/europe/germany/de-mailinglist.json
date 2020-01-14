@@ -1,8 +1,7 @@
 {
   "id": "de-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["de"],
-  "countryCodes": ["de"],
+  "locationSet": {"include": ["de"]},
   "languageCodes": ["de"],
   "name": "Talk-de Mailing List",
   "description": "Talk-de is the official mailing list for the German OSM community",

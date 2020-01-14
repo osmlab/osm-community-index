@@ -1,8 +1,7 @@
 {
   "id": "md-googlegroup",
   "type": "forum",
-  "includeLocations": ["md"],
-  "countryCodes": ["md"],
+  "locationSet": {"include": ["md"]},
   "languageCodes": ["mo", "ro", "ru"],
   "name": "OSM Moldova Google Group",
   "description": "OpenStreetMap Moldova Google Group",

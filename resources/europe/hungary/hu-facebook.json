@@ -1,8 +1,7 @@
 {
   "id": "hu-facebook",
   "type": "facebook",
-  "includeLocations": ["hu"],
-  "countryCodes": ["hu"],
+  "locationSet": {"include": ["hu"]},
   "languageCodes": ["hu"],
   "name": "OpenStreetMap HU on Facebook",
   "description": "Mappers and OpenStreetMap Facebook in Hungary",

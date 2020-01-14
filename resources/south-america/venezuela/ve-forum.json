@@ -1,8 +1,7 @@
 {
   "id": "ve-forum",
   "type": "forum",
-  "includeLocations": ["ve"],
-  "countryCodes": ["ve"],
+  "locationSet": {"include": ["ve"]},
   "languageCodes": ["es"],
   "name": "OpenStreetMap VE Forum",
   "description": "OpenStreetMap Venezuela web forum",

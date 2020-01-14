@@ -1,8 +1,7 @@
 {
   "id": "OSM-US",
   "type": "group",
-  "includeLocations": ["us"],
-  "countryCodes": ["us"],
+  "locationSet": {"include": ["us"]},
   "languageCodes": ["en"],
   "name": "OpenStreetMap US",
   "description": "We help grow and improve OpenStreetMap in the United States.",

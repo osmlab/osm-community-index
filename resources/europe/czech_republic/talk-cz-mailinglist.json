@@ -1,8 +1,7 @@
 {
   "id": "talk-cz-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["cz"],
-  "countryCodes": ["cz"],
+  "locationSet": {"include": ["cz"]},
   "languageCodes": ["cs", "en", "sk"],
   "name": "Czech mailing list (talk-cz)",
   "description": "Talk-cz is the official mailing list for Czech community",

@@ -1,8 +1,7 @@
 {
   "id": "RS-telegram",
   "type": "telegram",
-  "includeLocations": ["riograndedosul.geojson"],
-  "countryCodes": ["br"],
+  "locationSet": {"include": ["riograndedosul.geojson"]},
   "languageCodes": ["pt"],
   "name": "OpenStreetMap Rio Grande do Sul Telegram Group",
   "description": "Join the OpenStreetMap Rio Grande do Sul community on Telegram",

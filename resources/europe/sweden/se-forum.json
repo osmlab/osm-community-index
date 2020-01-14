@@ -1,8 +1,7 @@
 {
   "id": "se-forum",
   "type": "forum",
-  "includeLocations": ["se"],
-  "countryCodes": ["se"],
+  "locationSet": {"include": ["se"]},
   "languageCodes": ["sv"],
   "name": "OpenStreetMap Sweden Web Forum",
   "description": "OpenStreetMap Sweden web forum",

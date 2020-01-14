@@ -1,8 +1,7 @@
 {
   "id": "cape-coast-youthmappers",
   "type": "twitter",
-  "includeLocations": ["cape_coast_gh.geojson"],
-  "countryCodes": ["gh"],
+  "locationSet": {"include": ["cape_coast_gh.geojson"]},
   "languageCodes": ["en"],
   "name": "University of Cape Coast YouthMappers",
   "description": "Follow us on Twitter: {url}",

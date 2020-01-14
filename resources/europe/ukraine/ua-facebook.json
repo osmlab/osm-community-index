@@ -1,8 +1,7 @@
 {
   "id": "ua-facebook",
   "type": "facebook",
-  "includeLocations": ["ua"],
-  "countryCodes": ["ua"],
+  "locationSet": {"include": ["ua"]},
   "languageCodes": ["uk"],
   "name": "OpenStreetMap Ukraine Facebook group",
   "description": "Join the OpenStreetMap Ukraine community on Facebook",

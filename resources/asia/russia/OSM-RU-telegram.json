@@ -1,8 +1,7 @@
 {
   "id": "OSM-RU-telegram",
   "type": "telegram",
-  "includeLocations": ["ru"],
-  "countryCodes": ["ru"],
+  "locationSet": {"include": ["ru"]},
   "languageCodes": ["ru"],
   "name": "OpenStreetMap RU telegram",
   "description": "OpenStreetMap Russia telegram chat",

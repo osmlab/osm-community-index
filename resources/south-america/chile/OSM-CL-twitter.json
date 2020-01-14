@@ -1,8 +1,7 @@
 {
   "id": "OSM-CL-twitter",
   "type": "twitter",
-  "includeLocations": ["cl"],
-  "countryCodes": ["cl"],
+  "locationSet": {"include": ["cl"]},
   "languageCodes": ["es"],
   "name": "OpenStreetMap Chile Twitter",
   "description": "Follow us on Twitter at {url}",

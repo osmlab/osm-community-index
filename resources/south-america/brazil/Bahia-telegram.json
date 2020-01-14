@@ -1,8 +1,7 @@
 {
   "id": "Bahia-telegram",
   "type": "telegram",
-  "includeLocations": ["bahia.geojson"],
-  "countryCodes": ["br"],
+  "locationSet": {"include": ["bahia.geojson"]},
   "languageCodes": ["pt"],
   "name": "OpenStreetMap Bahia Telegram Group",
   "description": "Join the OpenStreetMap Bahia community on Telegram",

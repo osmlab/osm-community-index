@@ -1,8 +1,7 @@
 {
   "id": "no-telegram",
   "type": "telegram",
-  "includeLocations": ["no"],
-  "countryCodes": ["no"],
+  "locationSet": {"include": ["no"]},
   "languageCodes": ["no"],
   "name": "@OSM_no on Telegram",
   "description": "OpenStreetMap Norway Telegram chat",

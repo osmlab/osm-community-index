@@ -1,8 +1,7 @@
 {
   "id": "it-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["it"],
-  "countryCodes": ["it"],
+  "locationSet": {"include": ["it"]},
   "languageCodes": ["it"],
   "name": "Talk-it Mailing List",
   "description": "Talk-it is the official mailing list for the Italian OSM community",

@@ -1,8 +1,7 @@
 {
   "id": "Maptime-Bogota",
   "type": "meetup",
-  "includeLocations": ["bogota.geojson"],
-  "countryCodes": ["co"],
+  "locationSet": {"include": ["bogota.geojson"]},
   "languageCodes": ["es"],
   "name": "Maptime Bogotá",
   "description": "We're a group of mappers interested in mapping in OpenStreetMap around Bogotá.",

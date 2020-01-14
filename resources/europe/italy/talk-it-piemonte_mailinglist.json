@@ -1,8 +1,7 @@
 {
   "id": "talk-it-piemonte_mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["piemonte.geojson"],
-  "countryCodes": ["it"],
+  "locationSet": {"include": ["piemonte.geojson"]},
   "languageCodes": ["it"],
   "name": "OSM Italy regional talk list for Piemonte",
   "description": "All are welcome! Sign up at {signupUrl}",

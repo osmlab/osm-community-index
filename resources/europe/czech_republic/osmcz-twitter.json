@@ -1,8 +1,7 @@
 {
   "id": "osmcz-twitter",
   "type": "twitter",
-  "includeLocations": ["cz"],
-  "countryCodes": ["cz"],
+  "locationSet": {"include": ["cz"]},
   "languageCodes": ["cs", "en", "sk"],
   "name": "Czech twitter @osmcz",
   "description": "Follow czech community on Twitter - including translated WeeklyOSM!",

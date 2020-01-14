@@ -1,8 +1,7 @@
 {
   "id": "OSM-CL-facebook",
   "type": "facebook",
-  "includeLocations": ["cl"],
-  "countryCodes": ["cl"],
+  "locationSet": {"include": ["cl"]},
   "languageCodes": ["es"],
   "name": "OpenStreetMap Chile Facebook",
   "description": "Join the OpenStreetMap Chile community on Facebook",

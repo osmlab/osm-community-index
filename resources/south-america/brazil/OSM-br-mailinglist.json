@@ -1,8 +1,7 @@
 {
   "id": "OSM-br-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["br"],
-  "countryCodes": ["br"],
+  "locationSet": {"include": ["br"]},
   "languageCodes": ["pt"],
   "name": "Talk-br Mailing List",
   "description": "A mailing list to discuss OpenStreetMap in Brazil",

@@ -1,8 +1,7 @@
 {
   "id": "ch-twitter",
   "type": "twitter",
-  "includeLocations": ["ch"],
-  "countryCodes": ["ch"],
+  "locationSet": {"include": ["ch"]},
   "languageCodes": ["de", "en", "fr", "it"],
   "name": "OpenStreetMap Switzerland Twitter",
   "description": "Follow us on Twitter: {url}",

@@ -1,8 +1,7 @@
 {
   "id": "OSM-PH-slack",
   "type": "slack",
-  "includeLocations": ["ph"],
-  "countryCodes": ["ph"],
+  "locationSet": {"include": ["ph"]},
   "name": "OpenStreetMap PH Slack",
   "description": "All are welcome! Sign up at {signupUrl}",
   "url": "https://osmph.slack.com",

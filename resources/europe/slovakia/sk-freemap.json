@@ -1,8 +1,7 @@
 {
   "id": "sk-freemap",
   "type": "osm",
-  "includeLocations": ["sk", "cz", "hu"],
-  "countryCodes": ["sk"],
+  "locationSet": {"include": ["sk"]},
   "languageCodes": ["cz", "hu", "sk"],
   "name": "OpenStreetMap Website Freemap Slovakia",
   "description": "OpenStreetMap map website with tools in Slovakia and surrounding regions",

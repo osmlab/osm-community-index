@@ -1,8 +1,7 @@
 {
   "id": "OSM-TH-forum",
   "type": "forum",
-  "includeLocations": ["th"],
-  "countryCodes": ["th"],
+  "locationSet": {"include": ["th"]},
   "languageCodes": ["en", "th"],
   "name": "OpenStreetMap TH forum",
   "description": "OpenStreetMap Thailand web forum",

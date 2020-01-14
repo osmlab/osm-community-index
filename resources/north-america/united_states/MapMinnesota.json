@@ -1,8 +1,7 @@
 {
   "id": "MapMinnesota",
   "type": "meetup",
-  "includeLocations": ["minneapolis_st_paul_metro.geojson"],
-  "countryCodes": ["us"],
+  "locationSet": {"include": ["minneapolis_st_paul_metro.geojson"]},
   "languageCodes": ["en"],
   "name": "MapMinnesota",
   "description": "Mappers and OpenStreetMap enthusiasts in the Twin Cities area",

@@ -1,8 +1,7 @@
 {
   "id": "OSM-PE-matrix",
   "type": "matrix",
-  "includeLocations": ["pe"],
-  "countryCodes": ["pe"],
+  "locationSet": {"include": ["pe"]},
   "languageCodes": ["es"],
   "name": "OpenStreetMap Peru Matrix Chat",
   "description": "Chat with other members of the OpenStreetMap Peru community in Matrix.",

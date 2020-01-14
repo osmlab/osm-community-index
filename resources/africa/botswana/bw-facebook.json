@@ -1,8 +1,7 @@
 {
   "id": "bw-facebook",
   "type": "facebook",
-  "includeLocations": ["bw"],
-  "countryCodes": ["bw"],
+  "locationSet": {"include": ["bw"]},
   "languageCodes": ["en", "tn"],
   "name": "Mapping Botswana on Facebook",
   "description": "Page of OpenStreetMap in Botswana",

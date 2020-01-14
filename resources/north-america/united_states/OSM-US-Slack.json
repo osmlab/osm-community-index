@@ -1,8 +1,7 @@
 {
   "id": "OSM-US-Slack",
   "type": "slack",
-  "includeLocations": ["us"],
-  "countryCodes": ["us"],
+  "locationSet": {"include": ["us"]},
   "languageCodes": ["en"],
   "name": "OpenStreetMap US Slack",
   "description": "All are welcome! Sign up at {signupUrl}",

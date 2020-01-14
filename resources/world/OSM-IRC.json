@@ -1,7 +1,7 @@
 {
   "id": "OSM-IRC",
   "type": "irc",
-  "includeLocations": ["001"],
+  "locationSet": {"include": ["001"]},
   "languageCodes": ["en"],
   "name": "OpenStreetMap IRC",
   "description": "Join #osm on irc.oftc.net (port 6667)",

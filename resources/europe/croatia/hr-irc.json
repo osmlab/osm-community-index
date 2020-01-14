@@ -1,8 +1,7 @@
 {
   "id": "hr-irc",
   "type": "irc",
-  "includeLocations": ["hr"],
-  "countryCodes": ["hr"],
+  "locationSet": {"include": ["hr"]},
   "languageCodes": ["hr"],
   "name": "OpenStreetMap Croatia on IRC",
   "description": "Join #osm-hr on irc.freenode.org (port 6667)",

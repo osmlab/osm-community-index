@@ -1,7 +1,7 @@
 {
   "id": "osm-kerala-telegram",
   "type": "telegram",
-  "includeLocations": ["india_kerala.geojson"],
+  "locationSet": {"include": ["india_kerala.geojson"]},
   "name": "OpenStreetMap Kerala Telegram",
   "description": "We map Kerala together. Join our telegram group. {url}",
   "url": "https://t.me/osmkerala",

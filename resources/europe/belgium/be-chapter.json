@@ -1,8 +1,7 @@
 {
   "id": "be-chapter",
   "type": "osm-lc",
-  "includeLocations": ["be"],
-  "countryCodes": ["be"],
+  "locationSet": {"include": ["be"]},
   "languageCodes": ["de", "en", "fr", "nl"],
   "name": "OpenStreetMap Belgium Local Chapter",
   "description": "We help grow and improve OpenStreetMap in Belgium.",

@@ -1,8 +1,7 @@
 {
   "id": "OSM-AR-facebook",
   "type": "facebook",
-  "includeLocations": ["ar"],
-  "countryCodes": ["ar"],
+  "locationSet": {"include": ["ar"]},
   "languageCodes": ["es"],
   "name": "OpenStreetMap Argentina Facebook",
   "description": "Join the OpenStreetMap Argentina community on Facebook",

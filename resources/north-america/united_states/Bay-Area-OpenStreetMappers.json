@@ -1,8 +1,7 @@
 {
   "id": "Bay-Area-OpenStreetMappers",
   "type": "meetup",
-  "includeLocations": ["sf_bay_area.geojson"],
-  "countryCodes": ["us"],
+  "locationSet": {"include": ["sf_bay_area.geojson"]},
   "languageCodes": ["en"],
   "name": "Bay Area OpenStreetMappers",
   "description": "Improve OpenStreetMap in the Bay Area",

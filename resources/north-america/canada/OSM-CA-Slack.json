@@ -1,8 +1,7 @@
 {
   "id": "OSM-CA-Slack",
   "type": "slack",
-  "includeLocations": ["ca"],
-  "countryCodes": ["ca"],
+  "locationSet": {"include": ["ca"]},
   "languageCodes": ["en", "fr"],
   "name": "OSM-CA Slack",
   "description": "All are welcome! Sign up at {signupUrl}.",

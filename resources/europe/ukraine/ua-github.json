@@ -1,8 +1,7 @@
 {
   "id": "ua-github",
   "type": "github",
-  "includeLocations": ["ua"],
-  "countryCodes": ["ua"],
+  "locationSet": {"include": ["ua"]},
   "languageCodes": ["en", "uk"],
   "name": "OpenStreetMap Ukraine on GitHub",
   "description": "OpenStreetMap Ukraine GitHub",

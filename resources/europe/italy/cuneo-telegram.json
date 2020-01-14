@@ -1,8 +1,7 @@
 {
   "id": "cuneo-telegram",
   "type": "telegram",
-  "includeLocations": ["cuneo.geojson"],
-  "countryCodes": ["it"],
+  "locationSet": {"include": ["cuneo.geojson"]},
   "languageCodes": ["it"],
   "name": "OpenStreetMap Cuneo Mappers",
   "description": "OpenStreetMap Cuneo Telegram chat",

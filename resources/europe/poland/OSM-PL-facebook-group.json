@@ -1,8 +1,7 @@
 {
   "id": "OSM-PL-facebook-group",
   "type": "facebook",
-  "includeLocations": ["pl"],
-  "countryCodes": ["pl"],
+  "locationSet": {"include": ["pl"]},
   "languageCodes": ["pl"],
   "name": "OpenStreetMap Poland Facebook group",
   "description": "Group for mappers and users of OpenStreetMap in Poland",

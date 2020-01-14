@@ -52,7 +52,7 @@ function deepClone(obj) {
 //   features: [
 //     {
 //       type: 'Feature',
-//       id: 'ghana',
+//       id: 'GH',
 //       geometry: { ... },
 //       properties: {
 //         'area': 297118.3,
@@ -64,7 +64,7 @@ function deepClone(obj) {
 //       }
 //     }, {
 //       type: 'Feature',
-//       id: 'madagascar',
+//       id: 'MG',
 //       geometry: { ... },
 //       properties: {
 //         'area': 964945.85,
@@ -85,19 +85,22 @@ function generateCombined(resources, featureCollection) {
 
   Object.keys(resources).forEach(resourceId => {
     const resource = resources[resourceId];
+    const feature = loco.resolveLocationSet(resource.locationSet);
 
-    resource.includeLocations.forEach(location => {
-      const featureId = location.toString();
-      let keepFeature = keepFeatures[featureId];
-      if (!keepFeature) {
-        const origFeature = loco.locationToFeature(location).feature;
-        keepFeature = deepClone(origFeature);
-        keepFeature.properties.resources = {};
-        keepFeatures[featureId] = keepFeature;
-      }
+    // country coder features don't have ids..
+    let id = feature.id;
+    if (!id) {
+      const props = feature.properties;
+      id = (props.iso1A2 || props.iso1N3 || props.m49).toString();
+    }
 
-      keepFeature.properties.resources[resourceId] = deepClone(resource);
-    });
+    let keepFeature = keepFeatures[id];
+    if (!keepFeature) {
+      keepFeature = deepClone(feature);
+      keepFeature.properties.resources = {};
+      keepFeatures[id] = keepFeature;
+    }
+    keepFeature.properties.resources[resourceId] = deepClone(resource);
   });
 
   return { type: 'FeatureCollection', features: Object.values(keepFeatures) };

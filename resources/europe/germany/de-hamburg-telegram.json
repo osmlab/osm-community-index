@@ -1,8 +1,7 @@
 {
   "id": "de-hamburg-telegram",
   "type": "telegram",
-  "includeLocations": ["de-hamburg.geojson"],
-  "countryCodes": ["de"],
+  "locationSet": {"include": ["de-hamburg.geojson"]},
   "languageCodes": ["de"],
   "name": "OSM Hamburg on Telegram",
   "description": "OpenStreetMap Hamburg Telegram chat: {url}",

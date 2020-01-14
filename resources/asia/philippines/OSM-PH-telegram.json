@@ -1,8 +1,7 @@
 {
   "id": "OSM-PH-telegram",
   "type": "telegram",
-  "includeLocations": ["ph"],
-  "countryCodes": ["ph"],
+  "locationSet": {"include": ["ph"]},
   "languageCodes": ["en", "tl"],
   "name": "OpenStreetMap PH Telegram",
   "description": "Un-official, Telegram local community of OpenStreetMap contributors and friends in the Philippines",

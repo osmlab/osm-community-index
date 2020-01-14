@@ -1,8 +1,7 @@
 {
   "id": "uk-localchapter",
   "type": "osm-lc",
-  "includeLocations": ["gb"],
-  "countryCodes": ["gb"],
+  "locationSet": {"include": ["gb"]},
   "languageCodes": ["en"],
   "name": "OpenStreetMap UK",
   "description": "The official Local Chapter for the UK (including Northern Ireland).",

@@ -1,8 +1,7 @@
 {
   "id": "no-forum",
   "type": "forum",
-  "includeLocations": ["no"],
-  "countryCodes": ["no"],
+  "locationSet": {"include": ["no"]},
   "languageCodes": ["no"],
   "name": "OpenStreetMap Norway Web Forum",
   "description": "OpenStreetMap Norway web forum",

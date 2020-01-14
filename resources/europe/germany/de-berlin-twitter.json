@@ -1,8 +1,7 @@
 {
   "id": "de-berlin-twitter",
   "type": "twitter",
-  "includeLocations": ["de-berlin-brandenburg.geojson"],
-  "countryCodes": ["de"],
+  "locationSet": {"include": ["de-berlin-brandenburg.geojson"]},
   "languageCodes": ["de"],
   "name": "OpenStreetMap Berlin Twitter",
   "description": "Follow us on Twitter: {url}",

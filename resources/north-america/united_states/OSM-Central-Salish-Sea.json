@@ -1,8 +1,7 @@
 {
   "id": "OSM-Central-Salish-Sea",
   "type": "meetup",
-  "includeLocations": ["mt_vernon_wa.geojson"],
-  "countryCodes": ["us"],
+  "locationSet": {"include": ["mt_vernon_wa.geojson"]},
   "languageCodes": ["en"],
   "name": "OpenStreetMap Central Salish Sea",
   "description": "Mappers and OpenStreetMap users around Mount Vernon, WA",

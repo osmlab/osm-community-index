@@ -1,8 +1,7 @@
 {
   "id": "OSM-japan-website",
   "type": "osm",
-  "includeLocations": ["jp"],
-  "countryCodes": ["jp"],
+  "locationSet": {"include": ["jp"]},
   "languageCodes": ["ja"],
   "name": "OpenStreetMap Japan",
   "description": "Mappers and OpenStreetMap users in Japan",

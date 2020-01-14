@@ -1,8 +1,7 @@
 {
   "id": "OSM-CZ-telegram",
   "type": "telegram",
-  "includeLocations": ["cz"],
-  "countryCodes": ["cz"],
+  "locationSet": {"include": ["cz"]},
   "languageCodes": ["cs", "en", "sk"],
   "name": "OpenStreetMap CZ Telegram",
   "description": "A Telegram group for the OSM Czech community: {url}",

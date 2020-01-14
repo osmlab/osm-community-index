@@ -1,8 +1,7 @@
 {
   "id": "OSM-AR-forum",
   "type": "forum",
-  "includeLocations": ["ar"],
-  "countryCodes": ["ar"],
+  "locationSet": {"include": ["ar"]},
   "languageCodes": ["es"],
   "name": "OpenStreetMap Argentina web forum",
   "description": "Join the OpenStreetMap Argentina web forum",

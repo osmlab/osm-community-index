@@ -1,8 +1,7 @@
 {
   "id": "talk-nz",
   "type": "mailinglist",
-  "includeLocations": ["nz"],
-  "countryCodes": ["nz"],
+  "locationSet": {"include": ["nz"]},
   "languageCodes": ["en"],
   "name": "Talk-nz Mailing List",
   "description": "New Zealand's OSM community talk",

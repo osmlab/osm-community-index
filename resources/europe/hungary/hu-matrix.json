@@ -1,8 +1,7 @@
 {
   "id": "hu-matrix",
   "type": "matrix",
-  "includeLocations": ["hu"],
-  "countryCodes": ["hu"],
+  "locationSet": {"include": ["hu"]},
   "languageCodes": ["en", "hu"],
   "name": "OpenStreetMap HU matrix room",
   "description": "OpenStreetMap Hungary matrix chat",

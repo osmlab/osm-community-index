@@ -1,7 +1,7 @@
 {
   "id": "OSM-Discord",
   "type": "discord",
-  "includeLocations": ["001"],
+  "locationSet": {"include": ["001"]},
   "languageCodes": ["en"],
   "name": "OpenStreetMap Discord",
   "description": "Get in touch with other mappers via Discord",

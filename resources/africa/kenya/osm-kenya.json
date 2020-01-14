@@ -1,8 +1,7 @@
 {
   "id": "osm-kenya",
   "type": "twitter",
-  "includeLocations": ["ke"],
-  "countryCodes": ["ke"],
+  "locationSet": {"include": ["ke"]},
   "languageCodes": ["en"],
   "name": "OSM Kenya",
   "description": "OSM Kenya is a community of OSM contributors and users",

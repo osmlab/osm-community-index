@@ -1,8 +1,7 @@
 {
   "id": "OSM-Korea-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["kp", "kr"],
-  "countryCodes": ["kp", "kr"],
+  "locationSet": {"include": ["kp", "kr"]},
   "languageCodes": ["en", "ko"],
   "name": "OpenStreetMap Korea Mailinglist",
   "description": "Talk-ko is an Official Mailinglist for the Communities to dicuss matters about Korea",

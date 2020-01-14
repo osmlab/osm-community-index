@@ -1,8 +1,7 @@
 {
   "id": "uy-mailinglist",
   "type": "mailinglist",
-  "includeLocations": ["uy"],
-  "countryCodes": ["uy"],
+  "locationSet": {"include": ["uy"]},
   "languageCodes": ["es"],
   "name": "Talk-uy Mailing List",
   "description": "Talk-uy is the official mailing list for the Uruguayan OSM community",

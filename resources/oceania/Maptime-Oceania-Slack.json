@@ -1,8 +1,7 @@
 {
   "id": "Maptime-Oceania-Slack",
   "type": "slack",
-  "includeLocations": ["009"],
-  "countryCodes": ["au", "nz"],
+  "locationSet": {"include": ["009"]},
   "languageCodes": ["en"],
   "name": "Maptime Oceania Slack",
   "description": "Sign up at {signupUrl}",

@@ -1,8 +1,7 @@
 {
   "id": "nl-telegram",
   "type": "telegram",
-  "includeLocations": ["nl"],
-  "countryCodes": ["nl"],
+  "locationSet": {"include": ["nl"]},
   "languageCodes": ["nl"],
   "name": "Netherlands OpenStreetMap Telegram",
   "description": "A Telegram group for the OSM Netherlands community: {url}",

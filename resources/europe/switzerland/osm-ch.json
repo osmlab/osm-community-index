@@ -1,8 +1,7 @@
 {
   "id": "osm-ch",
   "type": "osm-lc",
-  "includeLocations": ["ch"],
-  "countryCodes": ["ch"],
+  "locationSet": {"include": ["ch"]},
   "languageCodes": ["de", "en", "fr", "it"],
   "name": "OpenStreetMap Switzerland",
   "description": "The platform for information on OpenStreetMap in Switzerland",

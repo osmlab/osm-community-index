@@ -1,8 +1,7 @@
 {
   "id": "OSM-Utah",
   "type": "meetup",
-  "includeLocations": ["salt_lake_city.geojson"],
-  "countryCodes": ["us"],
+  "locationSet": {"include": ["salt_lake_city.geojson"]},
   "languageCodes": ["en"],
   "name": "OpenStreetMap Utah",
   "description": "Mappers and OpenStreetMap users in the Salt Lake City area",

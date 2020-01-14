@@ -1,8 +1,7 @@
 {
   "id": "OSM-br-discord",
   "type": "discord",
-  "includeLocations": ["br"],
-  "countryCodes": ["br"],
+  "locationSet": {"include": ["br"]},
   "languageCodes": ["pt"],
   "name": "OpenStreetMap Brasil Discord",
   "description": "Join the OpenStreetMap Brasil community on Discord",

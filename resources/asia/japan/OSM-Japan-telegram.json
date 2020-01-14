@@ -1,8 +1,7 @@
 {
   "id": "OSM-Japan-telegram",
   "type": "telegram",
-  "includeLocations": ["jp"],
-  "countryCodes": ["jp"],
+  "locationSet": {"include": ["jp"]},
   "languageCodes": ["ja"],
   "name": "OpenStreetMap Japan Telegram",
   "description": "A Telegram group for the OSM Japan community: {url}",

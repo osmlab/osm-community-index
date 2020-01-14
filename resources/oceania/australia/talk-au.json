@@ -1,8 +1,7 @@
 {
   "id": "talk-au",
   "type": "mailinglist",
-  "includeLocations": ["au"],
-  "countryCodes": ["au"],
+  "locationSet": {"include": ["au"]},
   "languageCodes": ["en"],
   "name": "Talk-au Mailing List",
   "description": "Place for Aussie mappers to chat",

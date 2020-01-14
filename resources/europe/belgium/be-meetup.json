@@ -1,8 +1,7 @@
 {
   "id": "be-meetup",
   "type": "meetup",
-  "includeLocations": ["be"],
-  "countryCodes": ["be"],
+  "locationSet": {"include": ["be"]},
   "languageCodes": ["de", "en", "fr", "nl"],
   "name": "OpenStreetMap Belgium Meetup",
   "description": "Real life meetups of everyone who is interested in OpenStreetMap",

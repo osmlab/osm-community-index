@@ -1,8 +1,7 @@
 {
   "id": "Code-for-San-Jose-Slack",
   "type": "slack",
-  "includeLocations": ["south_sf_bay_area.geojson"],
-  "countryCodes": ["us"],
+  "locationSet": {"include": ["south_sf_bay_area.geojson"]},
   "languageCodes": ["en"],
   "name": "Code for San Jose Slack",
   "description": "All are welcome! Sign up at {signupUrl}, then join the #osm channel.",

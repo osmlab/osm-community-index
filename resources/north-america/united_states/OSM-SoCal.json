@@ -1,8 +1,7 @@
 {
   "id": "OSM-SoCal",
   "type": "meetup",
-  "includeLocations": ["la_metro.geojson"],
-  "countryCodes": ["us"],
+  "locationSet": {"include": ["la_metro.geojson"]},
   "languageCodes": ["en"],
   "name": "OpenStreetMap Southern California",
   "description": "Let's have some fun, contribute something to Los Angeles, and learn about mapping!",

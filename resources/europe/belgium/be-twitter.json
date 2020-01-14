@@ -1,8 +1,7 @@
 {
   "id": "be-twitter",
   "type": "twitter",
-  "includeLocations": ["be"],
-  "countryCodes": ["be"],
+  "locationSet": {"include": ["be"]},
   "languageCodes": ["de", "en", "fr", "nl"],
   "name": "OpenStreetMap Belgium Twitter",
   "description": "OSM Belgium on Twitter: @osm_be",

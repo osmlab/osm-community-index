@@ -1,8 +1,7 @@
 {
   "id": "nl-forum",
   "type": "forum",
-  "includeLocations": ["nl"],
-  "countryCodes": ["nl"],
+  "locationSet": {"include": ["nl"]},
   "languageCodes": ["nl"],
   "name": "Netherlands OpenStreetMap forum",
   "description": "OpenStreetMap Netherlands web forum",

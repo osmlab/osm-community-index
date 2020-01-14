@@ -1,8 +1,7 @@
 {
   "id": "uy-forum",
   "type": "forum",
-  "includeLocations": ["uy"],
-  "countryCodes": ["uy"],
+  "locationSet": {"include": ["uy"]},
   "languageCodes": ["es"],
   "name": "OpenStreetMap UY forum",
   "description": "OpenStreetMap Uruguay web forum",
