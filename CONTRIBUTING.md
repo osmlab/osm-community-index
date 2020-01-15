@@ -89,7 +89,7 @@ Here are the properties that a resource file can contain:
 
 #### locationSet
 
-Each resource must have a `locationSet` that defines the included and excluded locations.
+Each resource must have a `locationSet` to define where the resource is active.
 
 ```js
 "locationSet": {
@@ -98,10 +98,10 @@ Each resource must have a `locationSet` that defines the included and excluded l
 }
 ```
 
-* The "locations" can be any of the following:
-  * Codes recognized by the [country-coder library](https://github.com/ideditor/country-coder#readme). These should be [ISO 3166-1 2 or 3 letter country codes or UN M.49 numeric codes](https://en.wikipedia.org/wiki/List_of_countries_by_United_Nations_geoscheme).<br/>_Example: `"de"`_
-  * Points as `[longitude, latitude]` coordinate pairs.  A 25km radius circle will be computed around the point.<br/>_Example: `[8.67039, 49.41882]`_
-  * Filenames for `.geojson` features. If you want to use your own features, you'll need to add these under the `features/` folder.  Each `Feature` must have an `id` that ends in `.geojson`.<br/>_Example: `"de-hamburg.geojson"`_<br/>Tip: You can use [geojson.io](http://geojson.io) or other tools to create these.
+The "locations" can be any of the following:
+* Codes recognized by the [country-coder library](https://github.com/ideditor/country-coder#readme). These should be [ISO 3166-1 2 or 3 letter country codes or UN M.49 numeric codes](https://en.wikipedia.org/wiki/List_of_countries_by_United_Nations_geoscheme).<br/>_Example: `"de"`_
+* Points as `[longitude, latitude]` coordinate pairs.  A 25km radius circle will be computed around the point.<br/>_Example: `[8.67039, 49.41882]`_
+* Filenames for `.geojson` features. If you want to use your own features, you'll need to add these under the `features/` folder.  Each `Feature` must have an `id` that ends in `.geojson`.<br/>_Example: `"de-hamburg.geojson"`_<br/>Tip: You can use [geojson.io](http://geojson.io) or other tools to create these.
 
 See [location-conflation](https://github.com/ideditor/location-conflation#readme) project for details and examples.
 
