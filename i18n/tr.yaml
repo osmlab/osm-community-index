@@ -1,70 +1,82 @@
 tr:
-  bw-facebook:
-    description: Botswana'daki OpenStreetMap Sayfası
-  cape-coast-youthmappers:
-    name: Cape Coast Üniversitesi YouthMappers
-    description: 'Bizi Twitter''dan takip edin: {url}'
-    extendedDescription: 'Bu, Gana''daki Cape Coast Üniversitesi''nin Gençlik Haritacıları bölümünün resmi tanıtıcısıdır. haritaları seviyoruz, verileri açıyoruz ve savunmasızlığa yardımcı oluyoruz.'
-  osm-gh-facebook:
-    name: OpenStreetMap Gana Facebook'ta
-    description: OpenStreetMap ile ilgilenen kişilerin Faceboo grubu.
-    extendedDescription: 'Gana topluluğundaki haritacılar, Gana''daki OpenStreetMap ve Humanitarian OpenStreetMap Team (HOT) projelerini tanıtıyor. Bize katılın.'
-  osm-gh-twitter:
-    name: OpenStreetMap Gana Twitter'da
-    description: 'Bizi Twitter''dan takip edin: {url}'
-  talk-gh:
-    name: Talk-gh E-posta listesi
-    description: Talk-gh, Gana OSM topluluğunun resmi posta listesidir.
-  osm-mg-facebook:
-    name: OpenStreetMap Madagaskar Facebook Grubu
-    description: OpenStreetMap ile ilgilenen insanlar için Malagasy Facebook grubu.
-  talk-mg:
-    name: Talk-mg E-posta listesi
-    description: 'Paylaşmak ve tartışmak için Madagaskar''daki OpenStreetMap katılımcıları, toplulukları ve kullanıcıları için yer.'
+  Galicia-Twitter:
+    description: 'Bizi Twitter''da {url} adresinden takip edin'
+  MaptimeHRVA-twitter:
+    description: 'Bizi Twitter''da {url} adresinden takip edin'
+  OSM-AR-facebook:
+    description: Facebook'ta OpenStreetMap Arjantin topluluğuna katılın
+  OSM-AR-irc:
+    name: OpenStreetMap Arjantin IRC
+    description: '#osm-ar''a irc.oftc.net''den Katılın (port 6667)'
+  OSM-AR-twitter:
+    description: 'Bizi Twitter''da {url} adresinden takip edin'
+  OSM-Asia-mailinglist:
+    name: OpenStreetMap Asya Posta Listesi
+    description: Talk-Asia, Asya Topluluğunun Resmî Posta Listesidir
   OSM-BGD-facebook:
     name: OpenStreetMap Bangladeş
-    description: Bangladeşteki OpenStreetMap'ı geliştirin
+    description: Bangladeş'teki OpenStreetMap'ı geliştirin
     extendedDescription: 'Bangladeş''te Haritalama Sorularınız var mı, buradan toplumla bağlantı kurmak mı istiyorsunuz? {Url} adresinden bize katılın. Hoşgeldiniz!'
-  OSM-India-facebook:
-    name: OpenStreetMap Hindistan - Katılımcı mahalle haritalaması
-    description: Hindistan'da OpenStreetMap'i geliştirin
-    extendedDescription: 'Hindistan''da haritalama mı? Sorularınız var mı, buradan toplumla bağlantı kurmak mı istiyorsunuz? {Url} adresinden bize katılın. Hoşgeldiniz!'
-  osm-india-forum:
-    name: OpenStreetMap Hindistan forumu
-    description: OpenStreetMap Hindistan internet forumu
-  osm-india-github:
-    name: OpenStreetMap Hindistan GitHub
-    description: 'Bizimle birlikte kodlayın: {url}'
-  OSM-india-mailinglist:
-    name: OpenStreetMap Hindistan Posta Listesi
-    description: Konuşma, Hindistan Topluluğu için resmi Posta Listesi
-  osm-india-telegram:
-    name: OpenStreetMap Hindistan Telegram
-    description: 'Ailemize katılın: {url}'
-  OSM-india-twitter:
-    name: OpenStreetMap Hindistan Twitter'ı
-    description: 'Sadece bir tweet uzağındayız: {url}'
-  osm-india-website:
-    name: OpenStreetMap Hindistan
-    description: Hindistan'daki Haritacılar ve OpenStreetMap kullanıcıları
-  osm-india-wiki:
-    name: OpenStreetMap Wikiproject Hindistan
-    description: 'Hindistan''da haritalama hakkında bilmeniz gereken her şey: {url}'
-  osm-india-youtube:
-    name: OpenStreetMap Hindistan Youtube
-    description: 'Kanalımıza abone olun: {url}'
+  OSM-CL-facebook:
+    description: Facebook'ta OpenStreetMap Şili topluluğuna katılın
+  OSM-CL-twitter:
+    description: 'Bizi Twitter''da {url} adresinden takip edin'
+  OSM-CO-twitter:
+    description: 'Bizi Twitter''da {url} adresinden takip edin'
+  OSM-Discord:
+    name: OpenStreetMap Discord
+    description: Discord ile diğer haritacılarla iletişim kurun
+  OSM-Facebook:
+    name: Facebook'ta OpenStreetMap
+    description: OpenStreetMap ile ilgili haberler ve güncellemeler için bizi Facebook'ta beğenin.
+  OSM-IDN-facebook:
+    name: OpenStreetMap Endonezya
+    description: Endonezya'da OpenStreetMap'ı geliştirin
+    extendedDescription: 'Endonezya''da haritalama mı? Sorularınız var mı, buradan toplumla bağlantı kurmak mı istiyorsunuz? {Url} adresinden bize katılın. Hoşgeldiniz!'
+  OSM-IRC:
+    name: OpenStreetMap IRC
+    description: '#osm''ye irc.oftc.net''den Katılın (port 6667)'
   OSM-India-Puducherry-Facebook:
     description: 'Topluluk etkinlikleri, aktiviteleri hakkında bilgi edinmek için FSHM Facebook sayfası'
     extendedDescription: 'FSHM, özgür yazılım / donanım, teknoloji, aktivizm ve OpenStreetMap ile ilgili etkinlikler düzenlemektedir. FB sayfası, etkinlikleriyle iletişim kurmanın en iyi yoludur.'
   OSM-India-Puducherry-Matrix:
     description: 'FSHM Riot grubu, Puducherry''deki ve çevresindeki haritalama etkinliklerini, olaylarını tartışmak, paylaşmak ve güncellemek için'
     extendedDescription: 'FSHM topluluk üyeleri kendi OSM haritalama güncellemelerini / deneyimlerini Riot.im grubu aracılığıyla paylaşıyor, bu grup aynı zamanda özgür yazılım / donanım, teknoloji ve aktivizm ile ilgili konuları tartışmak için de kullanılıyor.'
-  OSM-IDN-facebook:
-    name: OpenStreetMap Endonezya
-    description: Endonezya'da OpenStreetMap'ı geliştirin
-    extendedDescription: 'Endonezya''da haritalama mı? Sorularınız var mı, buradan toplumla bağlantı kurmak mı istiyorsunuz? {Url} adresinden bize katılın. Hoşgeldiniz!'
-  osm-iran-aparat:
-    description: '{url} adresinden kanalımıza abone olun'
+  OSM-India-facebook:
+    name: OpenStreetMap Hindistan - Katılımcı mahalle haritalaması
+    description: Hindistan'da OpenStreetMap'i geliştirin
+    extendedDescription: 'Hindistan''da haritalama mı? Sorularınız var mı, buradan toplumla bağlantı kurmak mı istiyorsunuz? {Url} adresinden bize katılın. Hoşgeldiniz!'
+  OSM-MY-facebook:
+    name: Facebook'ta OpenStreetMap Malezya
+    description: OpenStreetMap ile ilgili herhangi bir şey hakkında sohbet için!
+  OSM-MY-forum:
+    name: OpenStreetMap Malezya Forumu
+    description: Resmi OpenStreetMap Malezya Forumu
+  OSM-PE-twitter:
+    description: 'Bizi Twitter''da {url} adresinden takip edin'
+  OSM-Reddit:
+    name: Reddit'te OpenStreetMap
+    description: /r/openstreetmap/ OpenStreetMap hakkında daha fazla bilgi edinmek için harika bir yerdir. Bize her şeyi sor!
+  OSM-Telegram:
+    name: OpenStreetMap Telegram
+    description: '{url} adresindeki OpenStreetMap Telegram global üst grubuna katıl'
+  OSM-Twitter:
+    name: OpenStreetMap Twitter
+    description: 'Bizi Twitter''da {url} adresinden takip edin'
+  OSM-br-discord:
+    name: OpenStreetMap Brezilya Discord
+  OSM-br-twitter:
+    description: 'Bizi Twitter''da {url} adresinden takip edin'
+  OSM-help:
+    name: OpenStreetMap Yardım
+    description: Bir soru sorun ve OSM'nin topluluk odaklı soru ve cevap sitesinde yanıt alın.
+    extendedDescription: '{url}, OpenStreetMap konusunda yardıma ihtiyacı olan herkes içindir. İster yeni başlayan bir haritacı olun, isterse teknik bir sorunuz olsun, yardım etmek için buradayız!'
+  OSM-india-mailinglist:
+    name: OpenStreetMap Hindistan Posta Listesi
+    description: Konuşma, Hindistan Topluluğu için resmi Posta Listesi
+  OSM-india-twitter:
+    name: OpenStreetMap Hindistan Twitter'ı
+    description: 'Sadece bir tweet uzağındayız: {url}'
   OSM-japan-facebook:
     name: OpenStreetMap Japonya Topluluğu
     description: Japonya'daki Mappers ve OpenStreetMap kullanıcıları
@@ -76,9 +88,98 @@ tr:
   OSM-japan-website:
     name: OpenStreetMap Japonya
     description: Japonya'daki Mappers ve OpenStreetMap kullanıcıları
-  OSM-MY-facebook:
-    name: Facebook'ta OpenStreetMap Malezya
-    description: OpenStreetMap ile ilgili herhangi bir şey hakkında sohbet için!
-  OSM-MY-forum:
-    name: OpenStreetMap Malezya Forumu
-    description: Resmi OpenStreetMap Malezya Forumu
+  OSMF:
+    name: OpenStreetMap Vakfı
+    description: OSMF, OpenStreetMap Projesini destekleyen, İngiltere merkezli, kâr amacı gütmeyen bir kuruluştur
+    extendedDescription: 'OSMF, fon toplama, OSM''ye güç sağlayan sunucuları koruyarak, yıllık Harita Durumu konferansını organize ederek ve OSM''yi çalıştıran gönüllüleri koordine ederek OpenStreetMap''i destekler. Buradan OSMF üyesi olarak katılarak desteğinizi gösterebilir ve OpenStreetMap yönünde bir ses alabilirsiniz: {signupUrl}'
+  PHXGeo-twitter:
+    description: 'Bizi Twitter''da {url} adresinden takip edin'
+  al-twitter:
+    description: 'Bizi Twitter''da {url} adresinden takip edin'
+  be-facebook:
+    description: Facebook'ta Belçika'daki Haritacılar ve OpenStreetMap
+  be-irc:
+    name: OpenStreetMap Belçika IRC
+    description: '#osmbe''ye irc.oftc.net''den Katılın (port 6667)'
+  bw-facebook:
+    description: Botswana'daki OpenStreetMap Sayfası
+  cape-coast-youthmappers:
+    name: Cape Coast Üniversitesi YouthMappers
+    description: 'Bizi Twitter''dan takip edin: {url}'
+    extendedDescription: 'Bu, Gana''daki Cape Coast Üniversitesi''nin Gençlik Haritacıları bölümünün resmi tanıtıcısıdır. haritaları seviyoruz, verileri açıyoruz ve savunmasızlığa yardımcı oluyoruz.'
+  ch-irc:
+    name: OpenStreetMap İsviçre IRC
+    description: '#osm-ch''ye irc.oftc.net''den Katılın (port 6667)'
+  de-irc:
+    name: OpenStreetMap Almanya IRC
+    description: '#osm-de''ye irc.oftc.net''den Katılın (port 6667)'
+  dk-irc:
+    name: OpenStreetMap Danimarka IRC
+    description: '#osm-dk''ye irc.oftc.net''den Katılın (port 6667)'
+  es-twitter:
+    description: 'Bizi Twitter''da {url} adresinden takip edin'
+  fi-irc:
+    name: OpenStreetMap Finlandiya IRC
+    description: '#osm-fi''ye irc.oftc.net''den Katılın (port 6667)'
+  fr-irc:
+    name: OpenStreetMap Fransa IRC
+    description: '#osm-fr''ye irc.oftc.net''den Katılın (port 6667)'
+  gb-irc:
+    name: OpenStreetMap Birleşik Krallık IRC
+    description: '#osm-gb''ye irc.oftc.net''den Katılın (port 6667)'
+  hr-irc:
+    name: OpenStreetMap Hırvatistan IRC
+  ireland-irc:
+    name: OpenStreetMap İrlanda IRC
+    description: '#osm-ie''ye irc.oftc.net''den Katılın (port 6667)'
+  it-irc:
+    name: OpenStreetMap İtalya IRC
+    description: '#osm-it''e irc.oftc.net''den Katılın (port 6667)'
+  it-twitter:
+    description: 'Bizi Twitter''da {url} adresinden takip edin'
+  no-irc:
+    name: OpenStreetMap Norveç IRC
+  osm-asia-telegram:
+    name: OpenStreetMap Asya Telegram
+    description: 'Ailemize katılın: {url}'
+  osm-gh-facebook:
+    name: OpenStreetMap Gana Facebook'ta
+    description: OpenStreetMap ile ilgilenen kişilerin Faceboo grubu.
+    extendedDescription: 'Gana topluluğundaki haritacılar, Gana''daki OpenStreetMap ve Humanitarian OpenStreetMap Team (HOT) projelerini tanıtıyor. Bize katılın.'
+  osm-gh-twitter:
+    name: OpenStreetMap Gana Twitter'da
+    description: 'Bizi Twitter''dan takip edin: {url}'
+  osm-india-forum:
+    name: OpenStreetMap Hindistan forumu
+    description: OpenStreetMap Hindistan internet forumu
+  osm-india-github:
+    name: OpenStreetMap Hindistan GitHub
+    description: 'Bizimle birlikte kodlayın: {url}'
+  osm-india-telegram:
+    name: OpenStreetMap Hindistan Telegram
+    description: 'Ailemize katılın: {url}'
+  osm-india-website:
+    name: OpenStreetMap Hindistan
+    description: Hindistan'daki Haritacılar ve OpenStreetMap kullanıcıları
+  osm-india-wiki:
+    name: OpenStreetMap Wikiproject Hindistan
+    description: 'Hindistan''da haritalama hakkında bilmeniz gereken her şey: {url}'
+  osm-india-youtube:
+    name: OpenStreetMap Hindistan Youtube
+    description: 'Kanalımıza abone olun: {url}'
+  osm-iran-aparat:
+    description: '{url} adresinden kanalımıza abone olun'
+  osm-mg-facebook:
+    name: OpenStreetMap Madagaskar Facebook Grubu
+    description: OpenStreetMap ile ilgilenen insanlar için Malagasy Facebook grubu.
+  se-irc:
+    name: OpenStreetMap İsveç IRC
+    description: '#osm.se''ye irc.oftc.net''den Katılın (port 6667)'
+  talk-gh:
+    name: Talk-gh E-posta listesi
+    description: Talk-gh, Gana OSM topluluğunun resmi posta listesidir.
+  talk-mg:
+    name: Talk-mg E-posta listesi
+    description: 'Paylaşmak ve tartışmak için Madagaskar''daki OpenStreetMap katılımcıları, toplulukları ve kullanıcıları için yer.'
+  uy-irc:
+    name: OpenStreetMap Uruguay IRC
