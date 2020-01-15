@@ -10,6 +10,87 @@
 
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
+# 2.0.0
+##### 2020-Jan-15
+
+* Updated:
+  * :warning: Build environment now requires Node 10 or greater.
+  * :warning: New approach to specifying locations introduces some breaking changes but shrinks the data significantly. See [CONTRIBUTING.md](CONTRIBUTING.md) for details.  ([#298], [#291])
+    * Resource files now use a `locationSet` property to make it easier to specify where the resources are included and excluded.
+    * Removed: `countryCodes` properties
+    * Removed: `featureId` properties and most `.geojson` files (everything that was just a country or a circular point is now gone, as it can be calculated)
+    * This approach leverages code from [country-coder](https://github.com/ideditor/country-coder) and [location-conflation](https://github.com/ideditor/location-conflation) projects.
+    * `dist/features.json` is now a FeatureCollection that only contains the _custom_ boundaries.
+  * You can now view the community index data on a map at http://openstreetmap.community
+
+[#291]: https://github.com/osmlab/osm-community-index/issues/291
+[#298]: https://github.com/osmlab/osm-community-index/issues/298
+
+* Added resources:
+  * Many Telegram channels from the OSM wiki ([#220])
+  * OSM Italy Piemonte resources ([#313])
+  * AASTU Youth Mappers and OSM Ethiopia Telegram ([#321], [#317])
+  * Mapeado Colaborativo, Geoinquietos Zaragoza ([#325])
+  * Moldova OSM Telegram group and Google Groups group ([#326])
+  * OSM Latin America Resources ([#324])
+  * OSM Viersen meetup ([#320])
+  * OSM South Africa Twitter and Mailing List ([#318])
+  * OSM Slovak resources ([#310])
+  * OSM Germany Matrix ([#308], [#307])
+  * OSM Kerala resources ([#288], [#290], [#304])
+  * OSM Bulgaria resources ([#303])
+  * MappingWR Waterloo ([#302])
+  * OSM Spain and OSM Albania Twitter accounts ([#301])
+  * OSM China Telegram ([#294])
+  * OSM Hungary Matrix ([#299])
+
+[#220]: https://github.com/osmlab/osm-community-index/issues/220
+[#288]: https://github.com/osmlab/osm-community-index/issues/288
+[#290]: https://github.com/osmlab/osm-community-index/issues/290
+[#294]: https://github.com/osmlab/osm-community-index/issues/294
+[#299]: https://github.com/osmlab/osm-community-index/issues/299
+[#301]: https://github.com/osmlab/osm-community-index/issues/301
+[#302]: https://github.com/osmlab/osm-community-index/issues/302
+[#303]: https://github.com/osmlab/osm-community-index/issues/303
+[#304]: https://github.com/osmlab/osm-community-index/issues/304
+[#307]: https://github.com/osmlab/osm-community-index/issues/307
+[#308]: https://github.com/osmlab/osm-community-index/issues/308
+[#310]: https://github.com/osmlab/osm-community-index/issues/310
+[#313]: https://github.com/osmlab/osm-community-index/issues/313
+[#317]: https://github.com/osmlab/osm-community-index/issues/317
+[#318]: https://github.com/osmlab/osm-community-index/issues/318
+[#320]: https://github.com/osmlab/osm-community-index/issues/320
+[#321]: https://github.com/osmlab/osm-community-index/issues/321
+[#324]: https://github.com/osmlab/osm-community-index/issues/324
+[#325]: https://github.com/osmlab/osm-community-index/issues/325
+[#326]: https://github.com/osmlab/osm-community-index/issues/326
+
+* Updated resources:
+  * OSM Kosovo ([#312], [#323])
+  * Fixed location of Rio Grande do Sol ([#315])
+  * Fixed typo and boundary polygon for UK East Midlands ([#314])
+  * Update contact and add Telegram for OSM Ghana ([#306])
+  * Fixed boundary polygon for Northern Scotland ([#297])
+  * Fixed several Canadian resources ([#296])
+  * Fixed language codes `ua`->`uk` for Ukranian ([#292])
+  * Bump OSM Poland forum priority ([#287])
+
+[#287]: https://github.com/osmlab/osm-community-index/issues/287
+[#292]: https://github.com/osmlab/osm-community-index/issues/292
+[#296]: https://github.com/osmlab/osm-community-index/issues/296
+[#297]: https://github.com/osmlab/osm-community-index/issues/297
+[#306]: https://github.com/osmlab/osm-community-index/issues/306
+[#312]: https://github.com/osmlab/osm-community-index/issues/312
+[#314]: https://github.com/osmlab/osm-community-index/issues/314
+[#315]: https://github.com/osmlab/osm-community-index/issues/315
+[#323]: https://github.com/osmlab/osm-community-index/issues/323
+
+* Added events:
+  * State of the Map 2020 ([#322], [#319])
+
+[#322]: https://github.com/osmlab/osm-community-index/issues/322
+[#319]: https://github.com/osmlab/osm-community-index/issues/319
+
 
 # 1.0.0
 ##### 2019-Oct-23
