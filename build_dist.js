@@ -87,19 +87,13 @@ function generateCombined(resources, featureCollection) {
     const resource = resources[resourceId];
     const feature = loco.resolveLocationSet(resource.locationSet);
 
-    // country coder features don't have ids..
-    let id = feature.id;
-    if (!id) {
-      const props = feature.properties;
-      id = (props.iso1A2 || props.iso1N3 || props.m49).toString();
-    }
-
-    let keepFeature = keepFeatures[id];
+    let keepFeature = keepFeatures[feature.id];
     if (!keepFeature) {
       keepFeature = deepClone(feature);
       keepFeature.properties.resources = {};
-      keepFeatures[id] = keepFeature;
+      keepFeatures[feature.id] = keepFeature;
     }
+
     keepFeature.properties.resources[resourceId] = deepClone(resource);
   });
 
