@@ -5,21 +5,20 @@
 There are 2 kinds of files in this project:
 
 * Under `resources/` there are `.json` files to describe the community resources
-* Under `features/` there are `.geojson` files to describe the areas where the communities are active
+* Under `features/` there are custom `.geojson` files
 
-##### tl;dr
+### tl;dr
 
-To add your community resource:
+To add your community resource to the index:
 
-* (required) Add a **resource** `.json` file under `resources/` folder
-  * This contains info about what the resource is (slack, forum, mailinglist, facebook, etc.)
-  * You can just copy and change an existing one
-  * Each resource needs a `locationSet` property to say where it is active.
-* (optional) Add a **feature** `.geojson` file under `features/` folder
-  * This is a boundary around where the resource is active
-  * You can use [geojson.io](http://geojson.io) or other tools to create these.
-* `npm run test`
-  * This will build and check for errors and make the files pretty
+* Add resource `.json` files under the `resources/` folder
+  * Each file contains info about what the resource is (slack, forum, mailinglist, facebook, etc.)
+  * Each file also contains info about which locations the resource is active. The locations can be country or region codes, points, or custom `.geojson` files in the `features/*` folder.
+  * You can copy and change an existing file to get started.
+* run `npm run test`
+  * This will check the files for errors and make them pretty.
+  * If you don't have Node installed, you can skip this step and we will do it for you.
+* If there are no errors, submit a pull request.
 
 
 ### Installing
@@ -41,9 +40,7 @@ Resource files look like this:
 {
   "id": "OSM-US-slack",
   "type": "slack",
-  "locationSet": {
-    "include": ["us"]
-  }
+  "locationSet": { "include": ["us"] }
   "languageCodes": ["en"],
   "name": "OpenStreetMap US Slack",
   "description": "All are welcome! Sign up at {signupUrl}",
@@ -86,16 +83,30 @@ Here are the properties that a resource file can contain:
 * __`signupUrl`__ - (optional) A url link to sign up for the community resource
 * __`languageCodes`__ - (optional) Array of [two letter](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) or [three letter](https://en.wikipedia.org/wiki/List_of_ISO_639-3_codes) spoken by this community
 * __`order`__ - (optional) When several resources with same geography are present, this adjusts the display order (default = 0, higher numbers display more prominently)
+* __`contacts`__ - (optional) Contact information for people who are responsible for the resource.
+* __`events`__ - (optional) Upcoming events that the resource wants to promote (see below for details).
 
 
-Each resource must have a `locationSet`. The following values are supported:
+#### locationSet
 
-* __`include`__ - (required) Array of locations where the resource is active.  May contain any of these:
-  * Strings recognized by the [country-coder library](https://github.com/ideditor/country-coder#readme). These should be [ISO 3166-1 2 or 3 letter country codes or UN M.49 numeric codes](https://en.wikipedia.org/wiki/List_of_countries_by_United_Nations_geoscheme).<br/>_Example: `"de"`_
-  * Filenames for `.geojson` files saved under the `/features` folder<br/>_Example: `"de-hamburg.geojson"`_
+Each resource must have a `locationSet` that defines the included and excluded locations.
+
+```js
+"locationSet": {
+  "include": [ Array of locations ],   // required
+  "exclude": [ Array of locations ]    // optional
+}
+```
+
+* The "locations" can be any of the following:
+  * Codes recognized by the [country-coder library](https://github.com/ideditor/country-coder#readme). These should be [ISO 3166-1 2 or 3 letter country codes or UN M.49 numeric codes](https://en.wikipedia.org/wiki/List_of_countries_by_United_Nations_geoscheme).<br/>_Example: `"de"`_
   * Points as `[longitude, latitude]` coordinate pairs.  A 25km radius circle will be computed around the point.<br/>_Example: `[8.67039, 49.41882]`_
-* __`exclude`__ - (optional) Array of locations to exclude from `include` (specified in the same format):
+  * Filenames for `.geojson` features. If you want to use your own features, you'll need to add these under the `features/` folder.  Each `Feature` must have an `id` that ends in `.geojson`.<br/>_Example: `"de-hamburg.geojson"`_<br/>Tip: You can use [geojson.io](http://geojson.io) or other tools to create these.
 
+See [location-conflation](https://github.com/ideditor/location-conflation#readme) project for details and examples.
+
+
+#### type
 
 Each resource must have a `type`. The following values are supported:
 
@@ -123,12 +134,18 @@ Type | Icon | Description
  `youthmappers` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/youthmappers.svg"/> </sub> | A [YouthMappers](https://www.youthmappers.org/) chapter.
  `youtube` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/youtube.svg"/> </sub> | A [YouTube](https://youtube.com) channel.
 
-Each community resource should have at least one contact person. This is optional:
+
+#### contacts
+
+Each community resource should have at least one contact person. This is optional.
 
 * __`name`__ - (required) The contact person's name
 * __`email`__ - (required) The contact person's email address
 
-Resources may have events. These are optional.
+
+#### events
+
+Resources may have upcoming events. These are optional.
 
 * __`i18n`__ - (optional) if true, `name`, `description` and `where` will be translated
 * __`id`__ - (required if `i18n=true`) A unique identifier for the event
@@ -141,7 +158,7 @@ Resources may have events. These are optional.
 
 ### Features
 
-These are `*.geojson` files found under the `features/` folder. Each feature file contains a single GeoJSON `Feature` for a region where a community resource is active.
+These are optional `*.geojson` files found under the `features/` folder. Each feature file contains a single GeoJSON `Feature` for a region where a community resource is active.
 
 Feature files look like this:
 
@@ -159,15 +176,8 @@ Feature files look like this:
 
 Note:  A `FeatureCollection` containing a single `Feature` is ok too - the build script can handle this.
 
-There are many online tools to create or modify these `.geojson` files. A workflow could be:
-
-1. Create the shape with [geojson.io](http://geojson.io) from scratch.
-
-or
-
-1. Generate a precise file with the [Polygon creation](http://polygons.openstreetmap.fr/) from an OSM Relation.
-1. Simplify the file with [Mapshaper](http://mapshaper.org/). Beware that the simplification probably cuts some border areas.
-1. So load the file in [geojson.io](http://geojson.io) and include the border areas again and perhaps reduce the point count further. It is probably better to have the feature a bit larger than missing an area.
+There are many online tools to create or modify these `.geojson` files.
+Drawing a simple shape with [geojson.io](http://geojson.io) works great.
 
 
 ### Building

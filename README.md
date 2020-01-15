@@ -21,37 +21,39 @@ might find interesting or helpful.
 
 ### About the index
 
+#### tl;dr
+
+To add your community resource to the index:
+
+* Add resource `.json` files under the `resources/` folder
+  * Each file contains info about what the resource is (slack, forum, mailinglist, facebook, etc.)
+  * Each file also contains info about which locations the resource is active. The locations can be country or region codes, points, or custom `.geojson` files in the `features/*` folder.
+  * You can copy and change an existing file to get started.
+* run `npm run test`
+  * This will check the files for errors and make them pretty.
+  * If you don't have Node installed, you can skip this step and we will do it for you.
+* If there are no errors, submit a pull request.
+
+:point_right: See [CONTRIBUTING.md](CONTRIBUTING.md) for full details about how to add a community resource to this index.
+
+
 #### Source files
+
 The source files for this index are stored in two kinds of files:
 
 * Under `resources/` there are `.json` files to describe the community resources
-* Under `features/` there are `.geojson` files to describe the areas where the communities are active
-
-:point_right: See [CONTRIBUTING.md](CONTRIBUTING.md) for info about how to add your
-community resource to this index.
+* Under `features/` there are custom `.geojson` files
 
 
 #### Distributed Files
 
-Several files are published under `dist/`
+Several files are published under `dist/`.  These are generated - do not edit them.
 
-* `features.json` - An object containing all the features
-* `resources.json` - An object containing all the resources
+* `features.json` - A GeoJSON FeatureCollection containing _only_ the custom Features
+* `resources.json` - A JSON object containing all the resources
 * `combined.geojson` - A GeoJSON file containing a FeatureCollection of all Features, each with available resources included in a `resources` property.
-* `index.js` - a commonjs module which exports the `features` and `resources` objects
-
-
-##### tl;dr
-
-* (required) Add a **resource** `.json` file under `resources/` folder
-  * This contains info about what the resource is (slack, forum, mailinglist, facebook, etc.)
-  * You can just copy and change an existing one
-  * Each resource needs a `locationSet` property to define where it is active.
-* (optional) Add a **feature** `.geojson` file under `features/` folder
-  * This is a boundary around where the resource is active
-  * You can use [geojson.io](http://geojson.io) or other tools to create these.
-* `npm run test`
-  * This will build and check for errors and make the files pretty
+* `index.js` - a CommonJS module which exports the `features` and `resources` objects
+* `img/*` - SVG logos for all the resource types
 
 
 #### Prerequisites
