@@ -12477,43 +12477,6 @@
     },
     {
       "type": "Feature",
-      "id": "vancouver_metro.geojson",
-      "properties": {
-        "id": "vancouver_metro.geojson",
-        "area": 3553.36,
-        "resources": {
-          "OSM-Vancouver-meetup": {
-            "id": "OSM-Vancouver-meetup",
-            "type": "meetup",
-            "locationSet": {"include": ["vancouver_metro.geojson"]},
-            "languageCodes": ["en"],
-            "name": "OpenStreetMap Vancouver",
-            "description": "Mappers and OpenStreetMap users in the Vancouver, BC area",
-            "url": "https://www.meetup.com/OpenStreetMap-Vancouver/",
-            "contacts": [
-              {"name": "Paul Norman", "email": "penorman@mac.com"},
-              {"name": "Peter Chin", "email": "bpchin@gmail.com"}
-            ],
-            "order": 5
-          }
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-123.32, 49],
-            [-123.45, 49.38],
-            [-123.26, 49.47],
-            [-122.24, 49.27],
-            [-122.2, 49],
-            [-123.32, 49]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "wyoming.geojson",
       "properties": {
         "id": "wyoming.geojson",
