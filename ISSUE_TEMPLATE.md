@@ -18,7 +18,7 @@ example:  "slack", "forum", "mailing list", "facebook", something else?
 ### URL link to the resource
 
 <!--
-example:  "https://osmus-slack.herokuapp.com/"
+example:  "https://slack.openstreetmap.us/"
 -->
 
 ### Points of contact

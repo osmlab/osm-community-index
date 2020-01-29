@@ -1,0 +1,12 @@
+{
+  "id": "OSM-CA-Slack",
+  "type": "slack",
+  "locationSet": {"include": ["ca"]},
+  "languageCodes": ["en", "fr"],
+  "name": "OSM-CA Slack",
+  "description": "All are welcome! Sign up at {signupUrl}.",
+  "url": "https://osm-ca.slack.com/",
+  "signupUrl": "https://slackinviteosmcanada.herokuapp.com/",
+  "contacts": [{"name": "Denis Carriere", "email": "carriere.denis@gmail.com"}],
+  "order": 4
+}

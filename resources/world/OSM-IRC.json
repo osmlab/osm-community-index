@@ -1,0 +1,11 @@
+{
+  "id": "OSM-IRC",
+  "type": "irc",
+  "locationSet": {"include": ["001"]},
+  "languageCodes": ["en"],
+  "name": "OpenStreetMap IRC",
+  "description": "Join #osm on irc.oftc.net (port 6667)",
+  "url": "https://webchat.oftc.net/?channels=osm",
+  "contacts": [{"name": "Harry Wood", "email": "mail@harrywood.co.uk"}],
+  "order": -4
+}
