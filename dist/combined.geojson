@@ -2462,7 +2462,8 @@
             [-1.1222, 52.36367],
             [-1.95817, 53.27605],
             [-1.88, 53.86],
-            [-0.96, 54.06]
+            [-0.96, 54.06],
+            [-0.37, 53.85]
           ]
         ]
       }
@@ -13054,7 +13055,13 @@
       "geometry": {
         "type": "Polygon",
         "coordinates": [
-          [[-53.8, -26.3], [-48.6, -28.9], [-53.1, -34], [-57.7, -30.2]]
+          [
+            [-53.8, -26.3],
+            [-48.6, -28.9],
+            [-53.1, -34],
+            [-57.7, -30.2],
+            [-53.8, -26.3]
+          ]
         ]
       }
     },
@@ -17473,6 +17480,126 @@
     },
     {
       "type": "Feature",
+      "id": "fr-35.geojson",
+      "properties": {
+        "id": "fr-35.geojson",
+        "area": 8708.63,
+        "resources": {
+          "fr-35-wiki": {
+            "id": "fr-35-wiki",
+            "type": "osm",
+            "locationSet": {"include": ["fr-35.geojson"]},
+            "languageCodes": ["fr"],
+            "name": "OpenStreetMap Rennes Wiki page",
+            "description": "Wiki page of Rennes OSM local group",
+            "url": "https://wiki.openstreetmap.org/wiki/Rennes",
+            "order": 8
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-1.02722, 48.31973],
+            [-1.07666, 48.26674],
+            [-1.00525, 47.99176],
+            [-1.13159, 47.94946],
+            [-1.25519, 47.76148],
+            [-1.4447, 47.82238],
+            [-1.65894, 47.70422],
+            [-2.01599, 47.64133],
+            [-2.12036, 47.55058],
+            [-2.22198, 47.65799],
+            [-2.18079, 47.95682],
+            [-2.31812, 47.99911],
+            [-2.33734, 48.17891],
+            [-2.16156, 48.32887],
+            [-2.1698, 48.64924],
+            [-1.89514, 48.75438],
+            [-1.5271, 48.64017],
+            [-1.41724, 48.46199],
+            [-1.26617, 48.56207],
+            [-1.05743, 48.53116],
+            [-1.02722, 48.31973]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fr-bzh-historique.geojson",
+      "properties": {
+        "id": "fr-bzh-historique.geojson",
+        "area": 56712.2,
+        "resources": {
+          "fr-bzh-mailinglist": {
+            "id": "fr-bzh-mailinglist",
+            "type": "mailinglist",
+            "locationSet": {"include": ["fr-bzh-historique.geojson"]},
+            "languageCodes": ["br", "fr"],
+            "name": "Talk-fr-bzh Mailing List",
+            "description": "Talk-fr-bzh mailing list",
+            "url": "https://lists.openstreetmap.org/listinfo/talk-fr-bzh",
+            "order": 3
+          },
+          "fr-bzh-twitter": {
+            "id": "fr-bzh-twitter",
+            "type": "twitter",
+            "locationSet": {"include": ["fr-bzh-historique.geojson"]},
+            "languageCodes": ["br", "fr"],
+            "name": "OSM-BZH on Twitter",
+            "description": "OpenStreetMap BZH on Twitter: {url}",
+            "url": "https://twitter.com/osm_bzh",
+            "order": 6
+          },
+          "fr-bzh-website": {
+            "id": "fr-bzh-website",
+            "type": "osm",
+            "locationSet": {"include": ["fr-bzh-historique.geojson"]},
+            "languageCodes": ["br", "fr"],
+            "name": "OpenStreetMap BZH Website",
+            "description": "The map which speaks Breton",
+            "url": "https://www.openstreetmap.bzh/"
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-1.04919, 48.50751],
+            [-1.05194, 48.49113],
+            [-1.0437, 48.3526],
+            [-1.09039, 48.25943],
+            [-1.01074, 48.01749],
+            [-1.25244, 47.78548],
+            [-1.00799, 47.61172],
+            [-0.91187, 47.37417],
+            [-1.32385, 47.34813],
+            [-1.08215, 47.26618],
+            [-1.04919, 47.01397],
+            [-1.36505, 47.0589],
+            [-1.41724, 46.96338],
+            [-1.71387, 46.87709],
+            [-2.27417, 47.11874],
+            [-3.35083, 47.08322],
+            [-3.7738, 47.46709],
+            [-5.31189, 47.77071],
+            [-5.50415, 48.55116],
+            [-4.82849, 48.8882],
+            [-3.51013, 49.02166],
+            [-2.13684, 48.91708],
+            [-1.57104, 48.68189],
+            [-1.42822, 48.47838],
+            [-1.26343, 48.56207],
+            [-1.04919, 48.50751]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "properties": {
         "iso1A2": "FR",
         "iso1A3": "FRA",
@@ -19612,27 +19739,15 @@
     },
     {
       "type": "Feature",
+      "id": "ireland.geojson",
       "properties": {
-        "iso1A2": "IE",
-        "iso1A3": "IRL",
-        "iso1N3": "372",
-        "wikidata": "Q27",
-        "nameEn": "Ireland",
-        "groups": ["154", "150", "EU", "001"],
-        "driveSide": "left",
-        "callingCodes": ["353"],
-        "id": "IE",
-        "m49": "372",
-        "isoStatus": "official",
-        "level": "country",
-        "roadSpeedUnit": "km/h",
-        "emojiFlag": "🇮🇪",
-        "area": 270044.11,
+        "id": "ireland.geojson",
+        "area": 162376.71,
         "resources": {
           "ireland-chapter": {
             "id": "ireland-chapter",
             "type": "osm-lc",
-            "locationSet": {"include": ["ie"]},
+            "locationSet": {"include": ["ireland.geojson"]},
             "languageCodes": ["en"],
             "name": "OpenStreetMap Ireland Local Chapter",
             "description": "We help grow and improve OpenStreetMap in Ireland.",
@@ -19643,7 +19758,7 @@
           "ireland-facebook": {
             "id": "ireland-facebook",
             "type": "facebook",
-            "locationSet": {"include": ["ie"]},
+            "locationSet": {"include": ["ireland.geojson"]},
             "languageCodes": ["en"],
             "name": "OpenStreetMap Ireland Facebook group",
             "description": "OpenStreetMap Ireland Facebook page",
@@ -19653,7 +19768,7 @@
           "ireland-irc": {
             "id": "ireland-irc",
             "type": "irc",
-            "locationSet": {"include": ["ie"]},
+            "locationSet": {"include": ["ireland.geojson"]},
             "languageCodes": ["en"],
             "name": "OpenStreetMap Ireland IRC",
             "description": "Join #osm-ie on irc.oftc.net (port 6667)",
@@ -19664,7 +19779,7 @@
           "ireland-mailinglist": {
             "id": "ireland-mailinglist",
             "type": "mailinglist",
-            "locationSet": {"include": ["ie"]},
+            "locationSet": {"include": ["ireland.geojson"]},
             "languageCodes": ["en"],
             "name": "Talk-ie Mailing List",
             "description": "Talk-ie is the mailing list for the Irish OSM community",
@@ -19674,7 +19789,7 @@
           "ireland-telegram": {
             "id": "ireland-telegram",
             "type": "telegram",
-            "locationSet": {"include": ["ie"]},
+            "locationSet": {"include": ["ireland.geojson"]},
             "languageCodes": ["en"],
             "name": "OSM Ireland on Telegram",
             "description": "OpenStreetMap Ireland Telegram chat",
@@ -19684,7 +19799,7 @@
           "ireland-twitter": {
             "id": "ireland-twitter",
             "type": "twitter",
-            "locationSet": {"include": ["ie"]},
+            "locationSet": {"include": ["ireland.geojson"]},
             "languageCodes": ["en"],
             "name": "OpenStreetMap IE on Twitter",
             "description": "OpenStreetMap IE on Twitter: {url}",
@@ -19694,76 +19809,21 @@
         }
       },
       "geometry": {
-        "type": "MultiPolygon",
+        "type": "Polygon",
         "coordinates": [
           [
-            [
-              [-6.26218, 54.09785],
-              [-5.83481, 53.87749],
-              [-5.37267, 53.63269],
-              [-5.79914, 52.03902],
-              [-22.01468, 48.19557],
-              [-7.93366, 55.84142],
-              [-6.79943, 55.54107],
-              [-6.71944, 55.27952],
-              [-6.9734, 55.19878],
-              [-7.2471, 55.06933],
-              [-7.34464, 55.04688],
-              [-7.4033, 55.00391],
-              [-7.40004, 54.94498],
-              [-7.44404, 54.9403],
-              [-7.4473, 54.87003],
-              [-7.47626, 54.83084],
-              [-7.54508, 54.79401],
-              [-7.54671, 54.74606],
-              [-7.64449, 54.75265],
-              [-7.75041, 54.7103],
-              [-7.83352, 54.73854],
-              [-7.93293, 54.66603],
-              [-7.70315, 54.62077],
-              [-7.8596, 54.53671],
-              [-7.99812, 54.54427],
-              [-8.04538, 54.48941],
-              [-8.179, 54.46763],
-              [-8.04555, 54.36292],
-              [-7.87101, 54.29299],
-              [-7.8596, 54.21779],
-              [-7.81397, 54.20159],
-              [-7.69501, 54.20731],
-              [-7.55812, 54.12239],
-              [-7.4799, 54.12239],
-              [-7.44567, 54.1539],
-              [-7.32834, 54.11475],
-              [-7.30553, 54.11869],
-              [-7.34005, 54.14698],
-              [-7.29157, 54.17191],
-              [-7.28017, 54.16714],
-              [-7.29687, 54.1354],
-              [-7.29493, 54.12013],
-              [-7.26316, 54.13863],
-              [-7.25012, 54.20063],
-              [-7.14908, 54.22732],
-              [-7.19145, 54.31296],
-              [-7.02034, 54.4212],
-              [-6.87775, 54.34682],
-              [-6.85179, 54.29176],
-              [-6.81583, 54.22791],
-              [-6.74575, 54.18788],
-              [-6.70175, 54.20218],
-              [-6.6382, 54.17071],
-              [-6.66264, 54.0666],
-              [-6.62842, 54.03503],
-              [-6.47849, 54.06947],
-              [-6.36605, 54.07234],
-              [-6.36279, 54.11248],
-              [-6.32694, 54.09337],
-              [-6.29003, 54.11278],
-              [-6.26218, 54.09785]
-            ]
+            [-5, 54.4],
+            [-5.372, 53.633],
+            [-5.79, 52.05],
+            [-9.19, 50.9],
+            [-11.15, 51.23],
+            [-11, 54.14],
+            [-7.88, 55.94],
+            [-6.1, 55.5],
+            [-5, 54.4]
           ]
         ]
-      },
-      "id": "IE"
+      }
     },
     {
       "type": "Feature",
@@ -27666,7 +27726,7 @@
             "name": "Mason Mappers",
             "description": "YouthMappers chapter at George Mason University",
             "extendedDescription": "Mason Mappers Student Society is a humanitarian mapping student organization in the George Mason University GGS Department, and its goal is to promote education and knowledge in geo-technologies, geo-info science, to foster good global stewardship and engage in professional development while building a positive, interactive geo-community, as well as shaping students into leaders of tomorrow.",
-            "url": "Facebook.com/MasonMappers",
+            "url": "https://masonmappers.weebly.com",
             "contacts": [
               {"name": "Organizer", "email": "masonmappers@gmail.com"}
             ]
