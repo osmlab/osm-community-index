@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 const bytes = require('bytes');
 const colors = require('colors/safe');
 const fs = require('fs');

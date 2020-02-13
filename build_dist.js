@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 const colors = require('colors/safe');
 const fs = require('fs');
 const LocationConflation = require('@ideditor/location-conflation');
@@ -52,7 +51,7 @@ function deepClone(obj) {
 //   features: [
 //     {
 //       type: 'Feature',
-//       id: 'GH',
+//       id: 'Q117',
 //       geometry: { ... },
 //       properties: {
 //         'area': 297118.3,
@@ -64,7 +63,7 @@ function deepClone(obj) {
 //       }
 //     }, {
 //       type: 'Feature',
-//       id: 'MG',
+//       id: 'Q1019',
 //       geometry: { ... },
 //       properties: {
 //         'area': 964945.85,

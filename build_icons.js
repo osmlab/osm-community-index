@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 const colors = require('colors/safe');
 const fs = require('fs');
 

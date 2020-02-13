@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 const calcArea = require('@mapbox/geojson-area');
 const colors = require('colors/safe');
 const fs = require('fs');
@@ -57,13 +56,13 @@ function collectFeatures() {
   let files = {};
   process.stdout.write('📦  Features: ');
 
-  glob.sync(__dirname + '/features/**/*.geojson').forEach(file => {
+  glob.sync('features/**/*.geojson').forEach(file => {
     const contents = fs.readFileSync(file, 'utf8');
     let parsed;
     try {
       parsed = JSON.parse(contents);
     } catch (jsonParseError) {
-      console.error(colors.red('Error - ' + jsonParseError.message + ' in:'));
+      console.error(colors.red(`Error - ${jsonParseError.message} in:`));
       console.error('  ' + colors.yellow(file));
       process.exit(1);
     }
@@ -80,7 +79,7 @@ function collectFeatures() {
     let area = calcArea.geometry(feature.geometry) / 1e6;   // m² to km²
     area = Number(area.toFixed(2));
     if (area < 2000) {
-      console.warn(colors.yellow('Warning - small area (' + area + ' km²).  Use a point `includeLocation` instead.'));
+      console.warn(colors.yellow(`Warning - small area (${area} km²).  Use a point 'includeLocation' instead.`));
       console.warn('  ' + colors.yellow(file));
     }
 
@@ -123,14 +122,14 @@ function collectResources(tstrings, featureCollection) {
   const loco = new LocationConflation(featureCollection);
   process.stdout.write('📦  Resources: ');
 
-  glob.sync(__dirname + '/resources/**/*.json').forEach(file => {
+  glob.sync('resources/**/*.json').forEach(file => {
     let contents = fs.readFileSync(file, 'utf8');
 
     let resource;
     try {
       resource = JSON.parse(contents);
     } catch (jsonParseError) {
-      console.error(colors.red('Error - ' + jsonParseError.message + ' in:'));
+      console.error(colors.red(`Error - ${jsonParseError.message} in:`));
       console.error('  ' + colors.yellow(file));
       process.exit(1);
     }
@@ -160,7 +159,7 @@ function collectResources(tstrings, featureCollection) {
     validateFile(file, resource, resourceSchema);
 
     (resource.locationSet.include || []).forEach(location => {
-      if (!loco.isValidLocation(location)) {
+      if (!loco.validateLocation(location)) {
         console.error(colors.red('Error - Invalid include location: ') + colors.yellow(location));
         console.error('  ' + colors.yellow(file));
         process.exit(1);
@@ -168,7 +167,7 @@ function collectResources(tstrings, featureCollection) {
     });
 
     (resource.locationSet.exclude || []).forEach(location => {
-      if (!loco.isValidLocation(location)) {
+      if (!loco.validateLocation(location)) {
         console.error(colors.red('Error - Invalid exclude location: ') + colors.yellow(location));
         console.error('  ' + colors.yellow(file));
         process.exit(1);
