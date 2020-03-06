@@ -18643,32 +18643,32 @@
           "gr-forum": {
             "id": "gr-forum",
             "type": "forum",
-            "locationSet": {"include": ["el"]},
+            "locationSet": {"include": ["gr"]},
             "languageCodes": ["el"],
             "name": "OpenStreetMap GR forum",
             "description": "OpenStreetMap Greece web forum",
             "url": "https://forum.openstreetmap.org/viewforum.php?id=27",
-            "order": -2
+            "order": 1
           },
           "gr-mailinglist": {
             "id": "gr-mailinglist",
             "type": "mailinglist",
-            "locationSet": {"include": ["el"]},
+            "locationSet": {"include": ["gr"]},
             "languageCodes": ["el"],
             "name": "Talk-gr Mailing List",
             "description": "Talk-de is the official mailing list for the Greek OSM community",
             "url": "https://lists.openstreetmap.org/listinfo/talk-gr",
-            "order": -3
+            "order": 3
           },
           "gr-matrix": {
             "id": "gr-matrix",
             "type": "matrix",
-            "locationSet": {"include": ["el"]},
+            "locationSet": {"include": ["gr"]},
             "languageCodes": ["el"],
             "name": "OpenStreetMap Greece Matrix",
             "description": "Join #osm-gr:matrix.org at https://riot.im/app/#/room/%23osm-gr:matrix.org",
             "url": "https://riot.im/app/#/room/%23osm-gr:matrix.org",
-            "order": 4
+            "order": 2
           }
         }
       },
