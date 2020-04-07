@@ -1,4 +1,12 @@
-:warning: = Breaking change
+# What's New
+
+**osm-community-index** is an open source project. You can submit bug reports, help out,
+or learn more by visiting our project page on GitHub:  :octocat: https://github.com/osmlab/osm-community-index
+
+Please star our project on GitHub to show your support! :star:
+
+_Breaking changes, which may affect downstream projects, are marked with a_ :warning:
+
 
 <!--
 # A.B.C
