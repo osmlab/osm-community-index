@@ -7364,6 +7364,17 @@
             "contacts": [{"name": "OSMF Japan", "email": "info@osmf.jp"}],
             "order": -3
           },
+          "OSM-japan-slack": {
+            "id": "OSM-japan-slack",
+            "type": "slack",
+            "locationSet": {"include": ["jp"]},
+            "languageCodes": ["ja"],
+            "name": "OpenStreetMap Japan Slack",
+            "description": "A Slack workspace for the OSM Japan community {signupUrl}",
+            "url": "osm-japan.slack.com",
+            "signupUrl": "https://join.slack.com/t/osm-japan/shared_invite/zt-d0my5ek2-SRxGCIsPPIyaOWkJOZ4EMg",
+            "contacts": [{"name": "OSMF Japan", "email": "info@osmf.jp"}]
+          },
           "OSM-japan-twitter": {
             "id": "OSM-japan-twitter",
             "type": "twitter",
@@ -16469,6 +16480,55 @@
         "type": "Polygon",
         "coordinates": [
           [[9.6, 53.8], [10.4, 53.8], [10.4, 53.3], [9.6, 53.3], [9.6, 53.8]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "de-mecklenburg-vorpommern.geojson",
+      "properties": {
+        "id": "de-mecklenburg-vorpommern.geojson",
+        "area": 29742.03,
+        "resources": {
+          "de-mv-mailinglist": {
+            "id": "de-mv-mailinglist",
+            "type": "mailinglist",
+            "locationSet": {"include": ["de-mecklenburg-vorpommern.geojson"]},
+            "languageCodes": ["de"],
+            "name": "Mecklenburg-Vorpommern Mailing List",
+            "description": "This is the mailing list for the OSM community of Mecklenburg-Vorpommern",
+            "url": "https://lists.openstreetmap.de/listinfo/meckpomm",
+            "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}],
+            "order": -3
+          },
+          "de-mv-twitter": {
+            "id": "de-mv-twitter",
+            "type": "twitter",
+            "locationSet": {"include": ["de-mecklenburg-vorpommern.geojson"]},
+            "languageCodes": ["de"],
+            "name": "OpenStreetMap Mecklenburg-Vorpommern Twitter",
+            "description": "Follow us on Twitter: {url}",
+            "url": "https://twitter.com/osmmv"
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [10.94238, 54.01745],
+            [12.09045, 54.46365],
+            [13.83179, 54.95239],
+            [14.34814, 53.42263],
+            [13.74939, 53.48805],
+            [12.89246, 53.18958],
+            [12.09045, 53.35055],
+            [11.48621, 53.11711],
+            [10.61829, 53.38005],
+            [10.94238, 53.68695],
+            [10.75562, 53.77469],
+            [10.94238, 54.01745]
+          ]
         ]
       }
     },
