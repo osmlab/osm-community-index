@@ -131,6 +131,7 @@ Type | Icon | Description
  `twitter` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/twitter.svg"/> </sub> | A [Twitter](https://twitter.com) account.
  `url` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/url.svg"/> </sub> | A generic catchall for anything with a `url`.
  `wiki` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/wiki.svg"/> </sub> | An OpenStreetMap [wiki project page](https://wiki.openstreetmap.org/wiki/List_of_territory_based_projects)
+ `xmpp` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/xmpp.svg"/> </sub> | An XMPP/Jabber channel.  `url` should be a clickable web join link, server details can go in `description`.
  `youthmappers` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/youthmappers.svg"/> </sub> | A [YouthMappers](https://www.youthmappers.org/) chapter.
  `youtube` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@master/dist/img/youtube.svg"/> </sub> | A [YouTube](https://youtube.com) channel.
 

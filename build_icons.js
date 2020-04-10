@@ -37,6 +37,7 @@ function buildAll() {
     telegram: faTelegram,
     twitter: faTwitter,
     url: faLink,
+    xmpp: faKeyboard,
     youtube: faYoutube
   };
 
@@ -49,7 +50,7 @@ function buildAll() {
 
   for (let key in faIconMap) {
     const val = faIconMap[key];
-    const file = 'dist/img/' + key + '.svg';
+    const file = `dist/img/${key}.svg`;
     console.log(colors.yellow(file));
     fs.writeFileSync(file, fontawesome.icon(val).html);
   }
