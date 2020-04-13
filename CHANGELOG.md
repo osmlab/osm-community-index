@@ -18,6 +18,44 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
+
+# 2.1.0
+##### 2020-Apr-13
+
+* Support new resource type `xmpp` ([#347])
+* Added resources:
+  * Croatia forum, wiki, website ([#346])
+  * OSM Japan Slack ([#343])
+  * Mailing list and Twitter for DE:Mecklenburg-Western Pomerania ([#342])
+  * OSM Greek resources ([#339])
+  * Talk-tz mailing list (Tanzania) ([#337])
+  * Talk-africa mailing list ([#335])
+  * OSM FR-BZH + FR-35 channels ([#330])
+* Updated:
+  * Fix boundaries of Isle of Man, Guernsey, and Jersey ([#333])
+  * Add a custom geojson for Ireland, and use it for Irish resources ([#332])
+  * Update URL for YouthMappers George Mason University ([#331])
+  * Fix UK East Midlands and Brazil Riograndedosul geojsons ([#329])
+  * Fix Ukraine boundary ([#328])
+* Removed:
+  * OSM-Vancouver-meetup ([#327])
+
+[#327]: https://github.com/osmlab/osm-community-index/issues/327
+[#328]: https://github.com/osmlab/osm-community-index/issues/328
+[#329]: https://github.com/osmlab/osm-community-index/issues/329
+[#330]: https://github.com/osmlab/osm-community-index/issues/330
+[#331]: https://github.com/osmlab/osm-community-index/issues/331
+[#332]: https://github.com/osmlab/osm-community-index/issues/332
+[#333]: https://github.com/osmlab/osm-community-index/issues/333
+[#335]: https://github.com/osmlab/osm-community-index/issues/335
+[#337]: https://github.com/osmlab/osm-community-index/issues/337
+[#339]: https://github.com/osmlab/osm-community-index/issues/339
+[#342]: https://github.com/osmlab/osm-community-index/issues/342
+[#343]: https://github.com/osmlab/osm-community-index/issues/343
+[#346]: https://github.com/osmlab/osm-community-index/issues/346
+[#347]: https://github.com/osmlab/osm-community-index/issues/347
+
+
 # 2.0.0
 ##### 2020-Jan-15
 
