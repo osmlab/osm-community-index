@@ -382,7 +382,7 @@
             "languageCodes": ["es", "gl"],
             "name": "OpenStreetMap Galicia Telegram",
             "description": "OpenStreetMap Telegram for Galicia",
-            "url": "https://t.me/joinchat/AAHZsRBs-mY3hrquk2kpig"
+            "url": "https://t.me/osmgalicia"
           },
           "Galicia-Twitter": {
             "id": "Galicia-Twitter",
@@ -392,6 +392,15 @@
             "name": "OpenStreetMap Galicia Twitter",
             "description": "Follow us on Twitter at {url}",
             "url": "https://twitter.com/osmgalicia"
+          },
+          "Galicia-Xeoinquedos-Twitter": {
+            "id": "Galicia-Xeoinquedos-Twitter",
+            "type": "twitter",
+            "locationSet": {"include": ["galicia.geojson"]},
+            "languageCodes": ["es", "gl"],
+            "name": "Geoinquetos on Twitter",
+            "description": "Follow us on Twitter at {url}",
+            "url": "https://twitter.com/xeoinquedos"
           },
           "galicia-wiki": {
             "id": "galicia-wiki",
@@ -19047,6 +19056,19 @@
             ],
             "order": 3
           },
+          "hr-forum": {
+            "id": "hr-forum",
+            "type": "forum",
+            "locationSet": {"include": ["hr"]},
+            "languageCodes": ["hr"],
+            "name": "OSM Croaria Forum",
+            "description": "OpenStreetMap Croatia Forum",
+            "url": "https://forum.openstreetmap.org/viewforum.php?id=51",
+            "contacts": [
+              {"name": "OpenStreetMap Croatia", "email": "info@osm-hr.org"}
+            ],
+            "order": -2
+          },
           "hr-irc": {
             "id": "hr-irc",
             "type": "irc",
@@ -19071,7 +19093,30 @@
             "contacts": [
               {"name": "OpenStreetMap Croatia", "email": "info@osm-hr.org"}
             ],
-            "order": -3
+            "order": 3
+          },
+          "hr-wiki": {
+            "id": "hr-wiki",
+            "type": "wiki",
+            "locationSet": {"include": ["hr"]},
+            "languageCodes": ["hr"],
+            "name": "OpenStreetMap Wikiproject Croatia",
+            "description": "Wikiproject page for Croatia",
+            "url": "https://wiki.openstreetmap.org/wiki/Croatia",
+            "order": 1
+          },
+          "osm-hr": {
+            "id": "osm-hr",
+            "type": "osm",
+            "locationSet": {"include": ["hr"]},
+            "languageCodes": ["hr"],
+            "name": "OpenStreetMap Croatia",
+            "description": "The platform for information on OpenStreetMap in Croatia",
+            "url": "https://osm-hr.org/",
+            "contacts": [
+              {"name": "OpenStreetMap Croatia", "email": "info@osm-hr.org"}
+            ],
+            "order": 3
           }
         }
       },
