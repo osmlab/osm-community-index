@@ -19,7 +19,7 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
-# 2.1.0
+# 2.1.1
 ##### 2020-Apr-13
 
 * Support new resource type `xmpp` ([#347])
