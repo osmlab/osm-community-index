@@ -106,11 +106,13 @@
     },
     "url": {
       "description": "(required) A url link to visit the community resource",
-      "type": "string"
+      "type": "string",
+      "pattern": "(https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*))|(mailto:.+)"
     },
     "signupUrl": {
       "description": "(optional) A url link to sign up for the community resource",
-      "type": "string"
+      "type": "string",
+      "pattern": "(https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*))|(mailto:.+)"
     },
     "contacts": {
       "description": "(optional) People to contact about this community resource",
@@ -188,7 +190,8 @@
           },
           "url": {
             "description": "(optional) A url link for the event",
-            "type": "string"
+            "type": "string",
+            "pattern": "(https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*))|(mailto:.+)"
           }
         }
       }
