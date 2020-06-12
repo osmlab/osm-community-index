@@ -13,6 +13,7 @@
   "main": "dist/index.js",
   "module": "index.mjs",
   "scripts": {
+    "all": "run-s build dist",
     "build": "node build.js && rollup -c",
     "dist": "node build_dist.js",
     "icons": "node build_icons.js",
@@ -28,8 +29,8 @@
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
     "@ideditor/location-conflation": "0.3.0",
     "@mapbox/geojson-area": "^0.2.2",
-    "@rollup/plugin-commonjs": "^11.0.2",
-    "@rollup/plugin-json": "^4.0.2",
+    "@rollup/plugin-commonjs": "^13.0.0",
+    "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^8.0.1",
     "bytes": "^3.1.0",
     "colors": "^1.4.0",
@@ -41,6 +42,7 @@
     "js-yaml": "^3.13.1",
     "json-stringify-pretty-compact": "^2.0.0",
     "jsonschema": "^1.2.5",
+    "npm-run-all": "^4.0.0",
     "rollup": "^2.15.0",
     "shelljs": "^0.8.3",
     "tap": "^14.10.6"
