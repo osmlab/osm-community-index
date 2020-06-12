@@ -653,12 +653,12 @@
         "id": "dc_metro.geojson",
         "area": 3371.08,
         "resources": {
-          "Mapping-DC-meetup": {
-            "id": "Mapping-DC-meetup",
+          "MappingDC-meetup": {
+            "id": "MappingDC-meetup",
             "type": "meetup",
             "locationSet": {"include": ["dc_metro.geojson"]},
             "languageCodes": ["en"],
-            "name": "Mapping DC",
+            "name": "MappingDC",
             "description": "Improve OpenStreetMap in the DC area",
             "extendedDescription": "We are a group of volunteer mappers who aim to improve the OpenStreetMap in the DC area. We also aim to teach others about the OSM ecosystem, data analytics, cartography, and GIS. We gather every other month at meetups to focus on one area of our city.",
             "url": "https://mappingdc.org/",
@@ -7380,7 +7380,7 @@
             "languageCodes": ["ja"],
             "name": "OpenStreetMap Japan Slack",
             "description": "A Slack workspace for the OSM Japan community {signupUrl}",
-            "url": "osm-japan.slack.com",
+            "url": "https://osm-japan.slack.com/",
             "signupUrl": "https://join.slack.com/t/osm-japan/shared_invite/zt-d0my5ek2-SRxGCIsPPIyaOWkJOZ4EMg",
             "contacts": [{"name": "OSMF Japan", "email": "info@osmf.jp"}]
           },
@@ -9396,6 +9396,15 @@
               {"name": "Ryszard Mikke", "email": "ryszard.mikke@gmail.com"}
             ],
             "order": 10
+          },
+          "OSM-PL-github": {
+            "id": "OSM-PL-github",
+            "type": "github",
+            "locationSet": {"include": ["pl"]},
+            "languageCodes": ["en", "pl"],
+            "name": "OpenStreetMap Polska on GitHub",
+            "description": "GitHub organization for Polish OpenStreetMap community",
+            "url": "https://github.com/osm-pl"
           }
         }
       },
@@ -15421,6 +15430,19 @@
             "description": "Follow us on Twitter: {url}",
             "url": "https://twitter.com/osmberlin",
             "contacts": [
+              {"name": "Christopher Lorenz", "email": "osm@lorenz.lu"}
+            ]
+          },
+          "de-berlin-xmpp": {
+            "id": "de-berlin-xmpp",
+            "type": "xmpp",
+            "locationSet": {"include": ["de-berlin-brandenburg.geojson"]},
+            "languageCodes": ["de"],
+            "name": "OpenStreetMap Berlin-Brandenburg XMPP",
+            "description": "Join our XMPP Multi-User Chat: {url}",
+            "url": "https://conversations.im/j/osm-bb@rooms.dismail.de",
+            "contacts": [
+              {"name": "Bernd", "email": "bergaufsee@dismail.de"},
               {"name": "Christopher Lorenz", "email": "osm@lorenz.lu"}
             ]
           }
@@ -28420,7 +28442,7 @@
             "name": "YouthMappers General Lansana Conte University",
             "description": "YouthMappers chapter at General Lansana Conte University",
             "extendedDescription": "The YouthMappers of the University General Lansana Conté is a non profit community willing to contribute to Map Guinea and others part of the world. We are promoting the use of GIS and Open data to build decision support tools. We also work to build capacities among the students and local communities.",
-            "url": "www.uglc.org",
+            "url": "http://www.uglc.org/",
             "contacts": [{"name": "Organizer", "email": "condefa3@gmail.com"}]
           }
         }
@@ -28730,7 +28752,7 @@
             "name": "YouthMappers at INES Ruhengeri",
             "description": "YouthMappers chapter at Insititue d' Enseignement Superieur de Ruhengeri",
             "extendedDescription": "We are students from Land Administration and Management and Land survey Departments from INES-Ruhengeri. We are engaged in mapping activities that create the changes toward sustainable development in our community.",
-            "url": "www.ines.ac.rw",
+            "url": "https://www.ines.ac.rw/",
             "contacts": [
               {"name": "Organizer", "email": "dufitesaie91@yahoo.com"}
             ]
@@ -28927,7 +28949,7 @@
             "locationSet": {"include": [[32.89851, -2.51658]]},
             "name": "Youth Mappers Chapter at Institute of Rural Development Planning - Lake Zone Centre",
             "description": "YouthMappers chapter at Institute of Rural Development Planning Mwanza",
-            "url": "www.facebook.com/IYMLZC/",
+            "url": "https://www.facebook.com/IYMLZC/",
             "contacts": [
               {"name": "Organizer", "email": "shabanimagawila@gmail.com"}
             ]
@@ -29238,7 +29260,7 @@
             "name": "Geomatics Engineering Society,GES",
             "description": "YouthMappers chapter at Kathmandu University",
             "extendedDescription": "Geomatics Engineering Society (GES) established in 2008 A.D is a departmental club under Department of Civil and Geomatics Engineering (DCGE) at Kathmandu University. GES acts as a platform to develop the skills of students apart from their educational activities by focusing on activities like technical trainings, seminars, talk programs and interaction with experts from related field, sports activities etc.",
-            "url": "ku.edu.np/ges",
+            "url": "https://ku.edu.np/ges",
             "contacts": [{"name": "Organizer", "email": "ges@ku.edu.np"}]
           }
         }
@@ -30534,7 +30556,7 @@
             "name": "YouthMappers at The Citadel",
             "description": "YouthMappers chapter at The Citadel",
             "extendedDescription": "This chapter is also a Rotaract Club, which is an affiliate of Rotary International. Multiple members, as well as leadership have expressed an interest in YouthMappers and we would like to affiliate our Citadel Rotaract Club with YouthMappers.",
-            "url": "Mailto:cstokes5@citadel.edu",
+            "url": "mailto:cstokes5@citadel.edu",
             "contacts": [{"name": "Organizer", "email": "cstokes5@citadel.edu"}]
           }
         }
@@ -31347,7 +31369,7 @@
             "name": "Comunidade YouthMappers Moçambique",
             "description": "YouthMappers chapter at Universidade Eduardo Mondlane",
             "extendedDescription": "We are a student group that intends to join Mozambican society to create a resilient community of humanitarian mapping. The community intend to map the physical occupation of our Country and create open geographic data, accessible to the public and able to be used in several areas without associated costs.",
-            "url": "www.facebook.com/Moz-YouthMappers",
+            "url": "https://www.facebook.com/Moz-YouthMappers",
             "contacts": [
               {"name": "Organizer", "email": "moz.youthmappers1@hotmail.com"}
             ]
@@ -32091,7 +32113,7 @@
             "name": "Geospatial Engineering Students Association",
             "description": "YouthMappers chapter at University of Nairobi",
             "extendedDescription": "UN students are working with the local OSM community, Map Kibera, and GrouthTruth to learn about open mapping and contribute data for needs in their urban communities.",
-            "url": "www.geospatial.uonbi.ac.ke",
+            "url": "http://www.geospatial.uonbi.ac.ke/",
             "contacts": [
               {"name": "Organizer", "email": "contact@mapkibera.org"}
             ]
@@ -32211,7 +32233,7 @@
             "name": "UNT Geography Club",
             "description": "YouthMappers chapter at University of North Texas",
             "extendedDescription": "The Geography Club is a student organization at University of North Texas that welcomes all students who are interested in geography. The objective of the Geography Club is to promote interest in Geography, the Major and the Geography Department along with fellowship among students and faculty. The club also seeks to represent student needs and wants in regard to the study of geography and to provide a forum for the presentation of innovative ideas to the benefit of the University community.",
-            "url": "Mailto:reeseramsey@my.unt.edu",
+            "url": "mailto:reeseramsey@my.unt.edu",
             "contacts": [
               {"name": "Organizer", "email": "reeseramsey@my.unt.edu"}
             ]
@@ -32251,7 +32273,7 @@
             "name": "UNCO Geography and GIS Club",
             "description": "YouthMappers chapter at University of Northern Colorado",
             "extendedDescription": "Official Geography and GIS Club chapter affiliated with the University of Northern Colorado where our aim is to learn, share and connect with those around us. #MakingSenseOfTheWorld",
-            "url": "www.facebook.com/groups/476365076071166/",
+            "url": "https://www.facebook.com/groups/476365076071166/",
             "contacts": [
               {"name": "Organizer", "email": "uncogeoggisclub@gmail.com"}
             ]
