@@ -1,0 +1,13 @@
+{
+  "id": "de-berlin-xmpp",
+  "type": "xmpp",
+  "locationSet": {"include": ["de-berlin-brandenburg.geojson"]},
+  "languageCodes": ["de"],
+  "name": "OpenStreetMap Berlin-Brandenburg XMPP",
+  "description": "Join our XMPP Multi-User Chat: {url}",
+  "url": "https://conversations.im/j/osm-bb@rooms.dismail.de",
+  "contacts": [
+    {"name": "Bernd", "email": "bergaufsee@dismail.de"},
+    {"name": "Christopher Lorenz", "email": "osm@lorenz.lu"}
+  ]
+}
