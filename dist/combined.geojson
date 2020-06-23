@@ -16516,6 +16516,55 @@
     },
     {
       "type": "Feature",
+      "id": "[8.3966,49.0149]",
+      "properties": {
+        "id": "[8.3966,49.0149]",
+        "area": 1963.5,
+        "resources": {
+          "de-karlsruhe-mailinglist": {
+            "id": "de-karlsruhe-mailinglist",
+            "type": "mailinglist",
+            "locationSet": {"include": [[8.3966, 49.0149]]},
+            "languageCodes": ["de"],
+            "name": "Karlsruhe Mailing List",
+            "description": "This is the mailing list for the OSM community of Karlsruhe area",
+            "url": "https://lists.openstreetmap.de/listinfo/karlsruhe",
+            "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}],
+            "order": -2
+          },
+          "de-karlsruhe-meetup": {
+            "id": "de-karlsruhe-meetup",
+            "type": "meetup",
+            "locationSet": {"include": [[8.3966, 49.0149]]},
+            "languageCodes": ["de"],
+            "name": "OpenStreetMap Karlsruhe Meetup",
+            "description": "Mappers and OpenStreetMap users in the Karlsruhe area",
+            "url": "https://wiki.openstreetmap.org/wiki/Karlsruhe",
+            "order": 5
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [8.397, 49.239],
+            [8.195, 49.196],
+            [8.07, 49.084],
+            [8.071, 48.945],
+            [8.196, 48.833],
+            [8.397, 48.79],
+            [8.597, 48.833],
+            [8.722, 48.945],
+            [8.723, 49.084],
+            [8.599, 49.196],
+            [8.397, 49.239]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "de-mecklenburg-vorpommern.geojson",
       "properties": {
         "id": "de-mecklenburg-vorpommern.geojson",
@@ -16607,6 +16656,193 @@
             [8.31076, 51.72252],
             [8.12645, 51.86844],
             [8.04337, 52.05756]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "de-baden-wuerttemberg.geojson",
+      "properties": {
+        "id": "de-baden-wuerttemberg.geojson",
+        "area": 38480.87,
+        "resources": {
+          "de-stuttgart-mailinglist": {
+            "id": "de-stuttgart-mailinglist",
+            "type": "mailinglist",
+            "locationSet": {"include": ["de-baden-wuerttemberg.geojson"]},
+            "languageCodes": ["de"],
+            "name": "Stuttgart and Baden-Wuerttemberg Mailing List",
+            "description": "This is the mailing list for the OSM community of Stuttgart and whole Baden-Wuerttemberg",
+            "url": "https://lists.openstreetmap.de/listinfo/stuttgart",
+            "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}],
+            "order": -3
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [8.67782, 49.62628],
+            [8.94493, 49.50826],
+            [9.32121, 49.77417],
+            [9.68444, 49.79545],
+            [10.14587, 49.49935],
+            [10.47546, 48.9243],
+            [10.48782, 48.67464],
+            [10.0415, 48.30603],
+            [10.15411, 48.08817],
+            [10.13763, 47.65891],
+            [9.59243, 47.57837],
+            [9.12689, 47.66908],
+            [8.88519, 47.65428],
+            [8.7355, 47.69035],
+            [8.68743, 47.7661],
+            [8.51165, 47.77256],
+            [8.41964, 47.69589],
+            [8.43749, 47.66168],
+            [8.61739, 47.67925],
+            [8.64074, 47.65058],
+            [8.58032, 47.59319],
+            [8.41552, 47.5654],
+            [7.91015, 47.54409],
+            [7.8923, 47.58579],
+            [7.68768, 47.52833],
+            [7.62588, 47.55984],
+            [7.68802, 47.57166],
+            [7.65472, 47.5962],
+            [7.60734, 47.57652],
+            [7.51258, 47.67186],
+            [7.56957, 48.07991],
+            [7.8305, 48.64742],
+            [8.27819, 49.00364],
+            [8.49517, 49.43777],
+            [8.43475, 49.43687],
+            [8.41003, 49.56976],
+            [8.45947, 49.59736],
+            [8.67782, 49.62628]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "de-stuttgart-meetup.geojson",
+      "properties": {
+        "id": "de-stuttgart-meetup.geojson",
+        "area": 3320.88,
+        "resources": {
+          "de-stuttgart-meetup": {
+            "id": "de-stuttgart-meetup",
+            "type": "meetup",
+            "locationSet": {"include": ["de-stuttgart-meetup.geojson"]},
+            "languageCodes": ["de"],
+            "name": "OpenStreetMap Stuttgart Meetup",
+            "description": "Mappers and OpenStreetMap users in the Stuttgart area",
+            "url": "https://wiki.openstreetmap.org/wiki/Stuttgart/Stammtisch",
+            "contacts": [
+              {"name": "Dietmar Seifert", "email": "ostrmap@diesei.de"}
+            ],
+            "order": 5
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [8.8742, 49.05092],
+            [9.51209, 49.08061],
+            [9.68238, 48.98652],
+            [9.76615, 48.83308],
+            [9.49973, 48.72766],
+            [9.59655, 48.61066],
+            [9.58282, 48.5357],
+            [9.46746, 48.51114],
+            [9.14131, 48.60612],
+            [8.77189, 48.49476],
+            [8.74854, 48.60294],
+            [8.80004, 48.59523],
+            [8.80073, 48.77746],
+            [8.92776, 48.87058],
+            [8.8742, 49.05092]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[9.9869,48.3916]",
+      "properties": {
+        "id": "[9.9869,48.3916]",
+        "area": 1963.5,
+        "resources": {
+          "de-ulm_neuulm-meetup": {
+            "id": "de-ulm_neuulm-meetup",
+            "type": "meetup",
+            "locationSet": {"include": [[9.9869, 48.3916]]},
+            "languageCodes": ["de"],
+            "name": "OpenStreetMap Ulm Neu-Ulm Meetup",
+            "description": "Mappers and OpenStreetMap users in the Ulm and Neu-Ulm area",
+            "url": "https://wiki.openstreetmap.org/wiki/Ulm_Neu-Ulm/Stammtisch",
+            "order": 5
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.987, 48.616],
+            [9.787, 48.573],
+            [9.665, 48.461],
+            [9.666, 48.322],
+            [9.789, 48.21],
+            [9.987, 48.167],
+            [10.185, 48.21],
+            [10.308, 48.322],
+            [10.309, 48.461],
+            [10.186, 48.573],
+            [9.987, 48.616]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[9.9097,48.5462]",
+      "properties": {
+        "id": "[9.9097,48.5462]",
+        "area": 1963.5,
+        "resources": {
+          "de-ulmeralb-meetup": {
+            "id": "de-ulmeralb-meetup",
+            "type": "meetup",
+            "locationSet": {"include": [[9.9097, 48.5462]]},
+            "languageCodes": ["de"],
+            "name": "OpenStreetMap Ulmer Alb Meetup",
+            "description": "Mappers and OpenStreetMap users in the Ulmer Alb area",
+            "url": "https://wiki.openstreetmap.org/wiki/Ulmer_Alb",
+            "order": 5
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.91, 48.771],
+            [9.71, 48.728],
+            [9.587, 48.615],
+            [9.588, 48.476],
+            [9.711, 48.364],
+            [9.91, 48.322],
+            [10.108, 48.364],
+            [10.232, 48.476],
+            [10.233, 48.615],
+            [10.11, 48.728],
+            [9.91, 48.771]
           ]
         ]
       }
