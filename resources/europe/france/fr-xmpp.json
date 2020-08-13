@@ -1,0 +1,11 @@
+{
+  "id": "fr-xmpp",
+  "type": "XMPP",
+  "locationSet": {"include": ["fr"]},
+  "languageCodes": ["fr"],
+  "name": "OpenStreetMap France on XMPP",
+  "description": "Join osm-fr@chat.jabberfr.org",
+  "url": "xmpp:osm-fr@chat.jabberfr.org",
+  "contacts": [{"name": "OpenStreetMap France", "email": "contact@openstreetmap.fr"}],
+  "order": -4
+}
