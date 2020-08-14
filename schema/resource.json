@@ -106,13 +106,11 @@
     },
     "url": {
       "description": "(required) A url link to visit the community resource",
-      "type": "string",
-      "pattern": "(https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*))|(mailto:.+)"
+      "type": "string"
     },
     "signupUrl": {
       "description": "(optional) A url link to sign up for the community resource",
-      "type": "string",
-      "pattern": "(https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*))|(mailto:.+)"
+      "type": "string"
     },
     "contacts": {
       "description": "(optional) People to contact about this community resource",
