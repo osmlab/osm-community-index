@@ -86,8 +86,9 @@ map.on('load', function() {
 
   // change info window on click
   map.on('click', function (e) {
-    var communities = [];
     var hits = map.queryRenderedFeatures(e.point, { layers: ['osm-community-index'] });
+    var seen = {};   // to ignore duplicate results from queryRenderedFeatures - #360
+    var communities = [];
 
     // gather the communities from the result
     hits.forEach(function(hit) {
@@ -98,6 +99,9 @@ map.on('load', function() {
       } catch (e) { }
 
       for (var k in resources) {
+        if (seen[k]) continue;
+        seen[k] = true;
+
         var community = resources[k];
         communities.push({
           'area': props.area || Infinity,
