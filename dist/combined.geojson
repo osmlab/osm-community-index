@@ -15543,8 +15543,8 @@
             "locationSet": {"include": ["de"]},
             "languageCodes": ["de"],
             "name": "OpenStreetMap Germany Matrix",
-            "description": "Join #osm-de:matrix.org at https://riot.im/app/#/room/%23osm-de:matrix.org",
-            "url": "https://riot.im/app/#/room/%23osm-de:matrix.org",
+            "description": "Join #osm-de:matrix.org at https://matrix.to/#/!JoceisEAQRNMtpWVGm:matrix.org?via=matrix.org&via=fairydust.space&via=tchncs.de",
+            "url": "https://matrix.to/#/!JoceisEAQRNMtpWVGm:matrix.org?via=matrix.org&via=fairydust.space&via=tchncs.de",
             "contacts": [
               {
                 "name": "Christopher Rossbach",
@@ -17703,6 +17703,22 @@
                 "email": "contact@openstreetmap.fr"
               }
             ]
+          },
+          "fr-xmpp": {
+            "id": "fr-xmpp",
+            "type": "xmpp",
+            "locationSet": {"include": ["fr"]},
+            "languageCodes": ["fr"],
+            "name": "OpenStreetMap France on XMPP",
+            "description": "Join osm-fr@chat.jabberfr.org",
+            "url": "xmpp:osm-fr@chat.jabberfr.org",
+            "contacts": [
+              {
+                "name": "OpenStreetMap France",
+                "email": "contact@openstreetmap.fr"
+              }
+            ],
+            "order": -4
           }
         }
       },
