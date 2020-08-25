@@ -84,7 +84,7 @@ function generateCombined(resources, featureCollection) {
 
   Object.keys(resources).forEach(resourceId => {
     const resource = resources[resourceId];
-    const feature = loco.resolveLocationSet(resource.locationSet);
+    const feature = loco.resolveLocationSet(resource.locationSet).feature;
 
     let keepFeature = keepFeatures[feature.id];
     if (!keepFeature) {

@@ -158,21 +158,13 @@ function collectResources(tstrings, featureCollection) {
 
     validateFile(file, resource, resourceSchema);
 
-    (resource.locationSet.include || []).forEach(location => {
-      if (!loco.validateLocation(location)) {
-        console.error(colors.red('Error - Invalid include location: ') + colors.yellow(location));
-        console.error('  ' + colors.yellow(file));
-        process.exit(1);
-      }
-    });
-
-    (resource.locationSet.exclude || []).forEach(location => {
-      if (!loco.validateLocation(location)) {
-        console.error(colors.red('Error - Invalid exclude location: ') + colors.yellow(location));
-        console.error('  ' + colors.yellow(file));
-        process.exit(1);
-      }
-    });
+    try {
+      loco.validateLocationSet(resource.locationSet);
+    } catch (err) {
+      console.error(colors.red(`Error - ${err.message} in:`));
+      console.error('  ' + colors.yellow(file));
+      process.exit(1);
+    }
 
     prettifyFile(file, resource, contents);
 
