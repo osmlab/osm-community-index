@@ -21621,6 +21621,34 @@
         "emojiFlag": "🇱🇺",
         "area": 2596.02,
         "resources": {
+          "lu-github": {
+            "id": "lu-github",
+            "type": "github",
+            "locationSet": {"include": ["lu"]},
+            "languageCodes": ["de", "en", "fr", "lb"],
+            "name": "OpenStreetMap LU on GitHub",
+            "description": "Everyone is welcome!",
+            "extendedDescription": "OSM Luxembourg on GitHub",
+            "url": "https://github.com/osmlu",
+            "contacts": [
+              {"name": "OSM Luxembourg", "email": "contact@openstreetmap.lu"}
+            ],
+            "order": 6
+          },
+          "lu-irc": {
+            "id": "lu-irc",
+            "type": "irc",
+            "locationSet": {"include": ["lu"]},
+            "languageCodes": ["de", "en", "fr", "lb"],
+            "name": "OpenStreetMap LU IRC channel",
+            "description": "Join #osm-lu on irc.oftc.net (port 6667).",
+            "extendedDescription": "Feel free to join our IRC Room, it is bridged with Matrix. Let's bring the community together.",
+            "url": "https://webchat.oftc.net/?channels=osm-lu",
+            "contacts": [
+              {"name": "OSM Luxembourg", "email": "contact@openstreetmap.lu"}
+            ],
+            "order": 4
+          },
           "lu-mailinglist": {
             "id": "lu-mailinglist",
             "type": "mailinglist",
@@ -21630,12 +21658,22 @@
             "description": "Official mailing list for the Luxembourgish OSM community",
             "url": "https://lists.openstreetmap.org/listinfo/talk-lu",
             "contacts": [
-              {
-                "name": "David Morais Ferreira",
-                "email": "contact@openstreetmap.lu"
-              }
+              {"name": "OSM Luxembourg", "email": "contact@openstreetmap.lu"}
             ],
-            "order": -3
+            "order": 2
+          },
+          "lu-matrix": {
+            "id": "lu-matrix",
+            "type": "matrix",
+            "locationSet": {"include": ["lu"]},
+            "languageCodes": ["de", "en", "fr", "lb"],
+            "name": "OpenStreetMap LU Matrix channel",
+            "description": "Everyone is welcome!",
+            "extendedDescription": "Feel free to join our Matrix Chat Room! Let's bring the community together.",
+            "url": "https://app.element.io/#/room/#osmlu:matrix.org",
+            "contacts": [
+              {"name": "OSM Luxembourg", "email": "contact@openstreetmap.lu"}
+            ]
           }
         }
       },
