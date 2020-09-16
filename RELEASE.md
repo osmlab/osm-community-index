@@ -6,8 +6,8 @@ community resources.  Whenever the list of resource types changes:
 - [ ] Edit `build_icons.js`
 - [ ] npm run icons
 
-### Update master branch, tag and publish
-- [ ] git checkout master
+### Update main branch, tag and publish
+- [ ] git checkout main
 - [ ] npm install
 - [ ] npm run test
 - [ ] npm run dist
@@ -17,12 +17,12 @@ community resources.  Whenever the list of resource types changes:
 - [ ] Update version number in `package.json`
 - [ ] git add . && git commit -m 'vA.B.C'
 - [ ] git tag vA.B.C
-- [ ] git push origin master vA.B.C
+- [ ] git push origin main vA.B.C
 - [ ] npm publish
 
 ### Update release branch  (legacy - maybe stop doing this?)
 - [ ] git checkout release
-- [ ] git merge master
+- [ ] git merge main
 - [ ] git push origin release
 
 Open https://github.com/osmlab/osm-community-index/tags
