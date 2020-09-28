@@ -11137,7 +11137,7 @@
         "resources": {
           "OSM-US": {
             "id": "OSM-US",
-            "type": "group",
+            "type": "osm-lc",
             "locationSet": {"include": ["us"]},
             "languageCodes": ["en"],
             "name": "OpenStreetMap US",
@@ -17481,6 +17481,43 @@
     },
     {
       "type": "Feature",
+      "id": "[5.7019,45.1816]",
+      "properties": {
+        "id": "[5.7019,45.1816]",
+        "area": 1963.5,
+        "resources": {
+          "fr-38-wiki": {
+            "id": "fr-38-wiki",
+            "type": "osm",
+            "locationSet": {"include": [[5.7019, 45.1816]]},
+            "languageCodes": ["fr"],
+            "name": "OpenStreetMap Grenoble Wiki page",
+            "description": "Wiki page of Grenoble OSM local group",
+            "url": "https://wiki.openstreetmap.org/wiki/Grenoble_groupe_local"
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [5.702, 45.406],
+            [5.514, 45.363],
+            [5.399, 45.251],
+            [5.399, 45.112],
+            [5.515, 45],
+            [5.702, 44.957],
+            [5.889, 45],
+            [6.005, 45.112],
+            [6.005, 45.251],
+            [5.89, 45.363],
+            [5.702, 45.406]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "fr-bzh-historique.geojson",
       "properties": {
         "id": "fr-bzh-historique.geojson",
@@ -20059,7 +20096,7 @@
             "name": "Talk-ie Mailing List",
             "description": "Talk-ie is the mailing list for the Irish OSM community",
             "url": "https://lists.openstreetmap.org/listinfo/talk-ie",
-            "order": 2
+            "order": 4
           },
           "ireland-telegram": {
             "id": "ireland-telegram",
@@ -20069,7 +20106,7 @@
             "name": "OSM Ireland on Telegram",
             "description": "OpenStreetMap Ireland Telegram chat",
             "url": "https://t.me/joinchat/BDLI7w9jCWm7Bwm2T06jwQ?fbclid=IwAR1ltY85Y7_4_CZhhwLOsLLppzis1MOVRRy897epT99JuZ9ZHZF8wpDRIfk",
-            "order": 4
+            "order": 5
           },
           "ireland-twitter": {
             "id": "ireland-twitter",
@@ -20079,7 +20116,7 @@
             "name": "OpenStreetMap IE on Twitter",
             "description": "OpenStreetMap IE on Twitter: {url}",
             "url": "https://twitter.com/osm_ie",
-            "order": 5
+            "order": 2
           }
         }
       },
