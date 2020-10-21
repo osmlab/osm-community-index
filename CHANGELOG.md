@@ -19,6 +19,50 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 2.1.2
+##### 2020-Oct-21
+* Added:
+  * OSM Malta IRC room ([#374])
+  * OSM Italy, Lombardy region ([#372],[#373],[#378])
+  * OSM Iraq mailing list ([#370])
+  * OSM France, Grenoble region ([#369])
+  * OSM Luxembourg resources ([#367])
+  * XMPP chat for France ([#362])
+  * Germany, state Baden-Wuerttemberg resources ([#356])
+  * Poland Github ([#350])
+  * XMPP chat for Berlin / Germany ([#349])
+* Updated:
+  * Use matrix.to links for Matrix chat ([#365],[#366],[#375],[#376],[#377])
+  * Updated descriptions and links for Philippine channels ([#371])
+  * Adjust ranking of Irish community resources ([#368])
+  * OSM-US is an official local chapter now
+  * Correct typo 'OSM Croaria' -> 'OSM Croatia'
+  * MappingDC is one word
+  * Add missing HTTP(S) to URL ([#351])
+* Removed:
+  * osmcz-telegram ([#361])
+
+[#349]: https://github.com/osmlab/osm-community-index/issues/349
+[#350]: https://github.com/osmlab/osm-community-index/issues/350
+[#351]: https://github.com/osmlab/osm-community-index/issues/351
+[#356]: https://github.com/osmlab/osm-community-index/issues/356
+[#361]: https://github.com/osmlab/osm-community-index/issues/361
+[#362]: https://github.com/osmlab/osm-community-index/issues/362
+[#365]: https://github.com/osmlab/osm-community-index/issues/365
+[#366]: https://github.com/osmlab/osm-community-index/issues/366
+[#367]: https://github.com/osmlab/osm-community-index/issues/367
+[#368]: https://github.com/osmlab/osm-community-index/issues/368
+[#369]: https://github.com/osmlab/osm-community-index/issues/369
+[#370]: https://github.com/osmlab/osm-community-index/issues/370
+[#371]: https://github.com/osmlab/osm-community-index/issues/371
+[#372]: https://github.com/osmlab/osm-community-index/issues/372
+[#373]: https://github.com/osmlab/osm-community-index/issues/373
+[#374]: https://github.com/osmlab/osm-community-index/issues/374
+[#375]: https://github.com/osmlab/osm-community-index/issues/375
+[#376]: https://github.com/osmlab/osm-community-index/issues/376
+[#377]: https://github.com/osmlab/osm-community-index/issues/377
+[#378]: https://github.com/osmlab/osm-community-index/issues/378
+
 # 2.1.1
 ##### 2020-Apr-13
 
