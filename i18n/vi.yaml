@@ -27,18 +27,29 @@ vi:
   Galicia-Twitter:
     name: Twitter OpenStreetMap Galicia
     description: 'Theo dõi chúng tôi trên Twitter: {url}'
+  Galicia-Xeoinquedos-Twitter:
+    name: Geoinquetos trên Twitter
+    description: 'Theo dõi chúng tôi trên Twitter: {url}'
   GeoPhilly:
     name: GeoPhilly
     description: Cuộc họp mặt cho những người hâm mộ bản đồ ở khu vực Philadelphia
     extendedDescription: 'GeoPhilly liên hiệp các nhà phát triển, nhà địa lý học, người hâm mộ về dữ liệu và dữ liệu mở, “civic hacker”, và người nghiện bản đồ để bày tỏ say mê bản đồ và chia sẻ các câu chuyện trong bản đồ. Nếu bạn sử dụng bản đồ trong việc làm hoặc chỉ muốn tìm hiểu thêm, bạn nên tham gia cuộc họp mặt này! Chúng ta cố gắng tổ chức các sự kiện mở rộng, thân thiện, cùng giáo dục cùng giải trí, bao gồm họp mặt tại quán rượu, bài thuyết trình nhanh chóng, và workshop. Mời bạn cùng xây dựng một cộng đồng không gian địa lý đa dạng văn hóa và gây cảm hứng tại Philadelphia!'
+  MapColabora-mailinglist:
+    name: Mapeado Colaborativo / Geoinquietos Zaragoza
+    description: Danh sách thư Mapeado Colaborativo / Geoinquietos Zaragoza
+  MapColabora-meetup:
+    name: Mapeado Colaborativo / Geoinquietos Zaragoza
+    description: Trang Meetup của Mapeado Colaborativo / Geoinquietos Zaragoza
+  MapColabora-twitter:
+    name: Mapeado Colaborativo / Geoinquietos Zaragoza
+    description: Tài khoản Twitter của Mapeado Colaborativo / Geoinquietos Zaragoza
   MapMinnesota:
     name: MapMinnesota
     description: Những người lập bản đồ và người hâm mộ OpenStreetMap ở vùng Thành phố Đôi
     extendedDescription: Nơi liên hệ của những người hâm mộ OpenStreetMap ở Minnesota và vùng Thành phố Đôi!
-  Mapping-DC-meetup:
-    name: Mapping DC
+  MappingDC-meetup:
+    name: MappingDC
     description: Cải thiện OpenStreetMap tại khu vực Washington, D.C.
-    extendedDescription: 'Chúng ta tình nguyện xây dựng bản đồ OpenStreetMap tại khu vực Washington, D.C. Nhóm này cũng nhằm mục đích dạy người khác về hệ sinh thái OSM, môn phân tích dữ liệu, bản đồ học, và GIS. Chúng ta họp mặt hai tháng một lần để tập trung chú ý vào một phần của thành phố này.'
   MappingWR:
     name: MappingWR
   Maptime-Bogota:
@@ -107,6 +118,9 @@ vi:
   OSM-CA-mailinglist:
     name: Danh sách thư OSM-CA
     description: Danh sách thư để thảo luận về OpenStreetMap tại Canada
+  OSM-CA-telegram:
+    name: '@osmca tại Telegram'
+    description: Trò chuyện Telegram của OpenStreetMap Canada
   OSM-CL-facebook:
     name: Facebook OpenStreetMap Chile
     description: Hãy tham gia cộng đồng OpenStreetMap Chile tại Facebook
@@ -143,9 +157,6 @@ vi:
   OSM-CU-telegram:
     name: OSM Cuba tại Telegram
     description: Trò chuyện Telegram của OpenStreetMap Cuba
-  OSM-CZ-telegram:
-    name: Telegram OpenStreetMap Séc
-    description: 'Nhóm Telegram dành cho cộng đồng OSM Séc: {url}'
   OSM-Central-Salish-Sea:
     name: OpenStreetMap Biển Salish Trung
     description: 'Những người lập bản đồ và người dùng OpenStreetMap ở vùng Mount Vernon, Washington'
@@ -261,6 +272,9 @@ vi:
   OSM-PL-forum:
     name: Diễn đàn OpenStreetMap Ba Lan
     description: Diễn đàn của cộng đồng OpenStreetMap Ba Lan
+  OSM-PL-github:
+    name: OpenStreetMap Ba Lan tại GitHub
+    description: Tổ chức GitHub của cộng đồng OpenStreetMap Ba Lan
   OSM-PY-telegram:
     name: OSM Paraguay tại Telegram
     description: Trò chuyện Telegram của OpenStreetMap Paraguay
@@ -339,9 +353,6 @@ vi:
     name: OpenStreetMap Utah
     description: Những người lập bản đồ và người dùng OpenStreetMap ở vùng Thành phố Salt Lake
     extendedDescription: 'Các hoạt động có thể bao gồm những thứ như hội thảo Tập vẽ bản đồ, tiệc lập bản đồ, và buổi thu thập dữ liệu ngoài trời. Các sự kiện ban đầu sẽ diễn ra trong khu vực Thành phố Salt Lake. Chúng tôi đang tìm kiếm những người lập bản đồ có kinh nghiệm cũng như những người mới biết đến OSM. Tham gia và hãy cùng lập bản đồ!'
-  OSM-Vancouver-meetup:
-    name: OpenStreetMap Vancouver
-    description: 'Những người lập bản đồ và người dùng OpenStreetMap ở vùng Vancouver, British Columbia'
   OSM-Wyoming:
     name: OpenStreetMap Wyoming
     description: Những người lập bản đồ và người dùng OpenStreetMap ở tiểu bang Wyoming, Hoa Kỳ
@@ -375,6 +386,9 @@ vi:
   OSM-japan-mailinglist:
     name: Danh sách thư OpenStreetMap Nhật Bản
     description: talk-ja là danh sách thư chính thức của cộng đồng Nhật Bản
+  OSM-japan-slack:
+    name: Slack OpenStreetMap Nhật Bản
+    description: 'Không gian làm việc Slack dành cho cộng đồng OSM Nhật Bản: {signupUrl}'
   OSM-japan-twitter:
     name: Twitter OpenStreetMap Nhật Bản
     description: 'Thẻ băm tại Twitter: {url}'
@@ -495,6 +509,8 @@ vi:
   ch-twitter:
     name: Twitter OpenStreetMap Thụy Sĩ
     description: 'Theo dõi chúng tôi trên Twitter: {url}'
+  cuneo-telegram:
+    description: Trò chuyện Telegram của OpenStreetMap Cuneo
   czech-community:
     name: Cộng đồng OSM Séc
     description: 'Trang bản đồ và thông tin liên lạc với thành viên OSM tại Séc'
@@ -510,6 +526,9 @@ vi:
   de-berlin-twitter:
     name: Twitter OpenStreetMap Berlin
     description: 'Theo dõi chúng tôi trên Twitter: {url}'
+  de-berlin-xmpp:
+    name: Kênh XMPP OpenStreetMap Berlin-Brandenburg
+    description: 'Tham gia phòng trò chuyện nhiều người dùng XMPP của chúng ta: {url}'
   de-forum:
     name: Diễn đàn OpenStreetMap Đức
     description: Diễn đàn Web của OpenStreetMap Đức
@@ -519,18 +538,43 @@ vi:
   de-irc:
     name: IRC OpenStreetMap Đức
     description: 'Hãy tham gia #osm-de tại irc.oftc.net (cổng 6667)'
+  de-karlsruhe-mailinglist:
+    name: Danh sách thư Karlsruhe
+    description: Đây là danh sách thư của cộng đồng OSM tại vùng Karlsruhe
+  de-karlsruhe-meetup:
+    name: Họp mặt OpenStreetMap Karlsruhe
+    description: Những người lập bản đồ và người dùng OpenStreetMap ở vùng Karlsruhe
   de-mailinglist:
     name: Danh sách thư talk-de
     description: talk-de là danh sách thư chính thức của cộng đồng Đức
   de-matrix:
     name: Matrix OpenStreetMap Đức
-    description: 'Hãy tham gia #osm-de:matrix.org tại https://riot.im/app/#/room/%23osm-de:matrix.org'
+  de-mv-mailinglist:
+    name: Danh sách thư Mecklenburg-Vorpommern
+    description: Đây là danh sách thư của cộng đồng OSM tại Mecklenburg-Vorpommern
+  de-mv-twitter:
+    name: Twitter OpenStreetMap Mecklenburg-Vorpommern
+    description: 'Theo dõi chúng tôi tại Twitter: {url}'
   de-ostwestfalen-lippe-mailinglist:
     name: Danh sách OWL
     description: Đây là danh sách thư của cộng đồng OSM tại Ostwestfalen-Lippe
+  de-stuttgart-mailinglist:
+    name: Danh sách thư Stuttgart và Baden-Württemberg
+    description: Đây là danh sách thư của cộng đồng OSM tại Stuttgart và toàn bộ Baden-Württemberg
+  de-stuttgart-meetup:
+    name: Họp mặt OpenStreetMap Stuttgart
+    description: Những người lập bản đồ và người dùng OpenStreetMap ở vùng Stuttgart
   de-telegram:
     name: Telegram OpenStreetMap Đức
     description: 'Hãy tham gia siêu nhóm Telegram của OpenStreetMap Đức tại {url}'
+  de-ulm_neuulm-meetup:
+    name: Họp mặt OpenStreetMap Ulm và Neu-Ulm
+    description: Những người lập bản đồ và người dùng OpenStreetMap ở vùng Ulm và Neu-Ulm
+  de-ulmeralb-meetup:
+    name: Họp mặt OpenStreetMap Ulmer Alb
+    description: Những người lập bản đồ và người dùng OpenStreetMap ở vùng Ulmer Alb
+  de-viersen-meetup:
+    name: Họp mặt OpenStreetMap Viersen
   dk-forum:
     name: Diễn đàn Web của OpenStreetMap Đan Mạch
     description: Diễn đàn Web của OpenStreetMap Đan Mạch
@@ -543,6 +587,9 @@ vi:
   es-twitter:
     name: Twitter OpenStreetMap Tây Ban Nha
     description: 'Theo dõi chúng tôi trên Twitter: {url}'
+  et-telegram:
+    name: '@OpenStreetMapEthiopia tại Telegram'
+    description: Trò chuyện Telegram của OpenStreetMap Ethiopia
   fi-forum:
     name: Diễn đàn OpenStreetMap Phần Lan
     description: Diễn đàn Web của OpenStreetMap Phần Lan
@@ -552,6 +599,18 @@ vi:
   fi-mailinglist:
     name: Danh sách thư talk-fi
     description: talk-fi là danh sách thư chính thức của cộng đồng Phần Lan
+  fr-35-wiki:
+    name: Trang Wiki OpenStreetMap Rennes
+    description: Trang wiki của nhóm địa phương OSM tại Rennes
+  fr-bzh-mailinglist:
+    name: Danh sách thư talk-fr-bzh
+    description: Danh sách thư talk-fr-bzh
+  fr-bzh-twitter:
+    name: OSM-BZH tại Twitter
+    description: 'OpenStreetMap BZH tại Twitter: {url}'
+  fr-bzh-website:
+    name: Trang chủ OpenStreetMap BZH
+    description: Bản đồ nói tiếng Breton
   fr-chapter:
     name: Chi nhánh Địa phương OpenStreetMap Pháp
     description: Chúng ta giúp phát triển và cải thiện OpenStreetMap tại Pháp.
@@ -583,15 +642,35 @@ vi:
   gb-mailinglist:
     name: Danh sách thư talk-gb
     description: talk-gb là danh sách thư chính thức của cộng đồng OSM tại Vương quốc Liên hiệp Anh và Bắc Ireland
+  geogeeks_perth_meetup:
+    name: Họp mặt GeoGeeks tại Perth
+  gr-forum:
+    name: Diễn đàn OpenStreetMap Hy Lạp
+    description: Diễn đàn Web của OpenStreetMap Hy Lạp
+  gr-mailinglist:
+    name: Danh sách thư talk-gr
+    description: talk-gr là danh sách thư chính thức của cộng đồng Hy Lạp
+  gr-matrix:
+    name: Matrix OpenStreetMap Hy Lạp
+    description: 'Tham gia #osm-gr:matrix.org tại https://riot.im/app/#/room/%23osm-gr:matrix.org'
+  guatemala-telegram:
+    name: OSM Guatemala tại Telegram
+    description: Trò chuyện Telegram của OpenStreetMap Guatemala
   hr-facebook:
     name: Nhóm Facebook OpenStreetMap Croatia
     description: Nhóm Facebook OpenStreetMap Croatia
+  hr-forum:
+    name: Diễn đàn OSM Croatia
+    description: Diễn đàn OpenStreetMap Croatia
   hr-irc:
     name: OpenStreetMap Croatia trên IRC
     description: 'Hãy tham gia #osm-hr tại irc.oftc.net (cổng 6667)'
   hr-mailinglist:
     name: Danh sách thư talk-hr
     description: Danh sách thư talk-hr
+  hr-wiki:
+    name: Dự án Wiki OpenStreetMap Croatia
+    description: Trang wiki về dự án Croatia
   hu-facebook:
     name: OpenStreetMap Hungary tại Facebook
     description: Nhóm Facebook của những người lập bản đồ và người dùng OpenStreetMap ở Hungary
@@ -656,8 +735,33 @@ vi:
   it-twitter:
     name: Twitter OpenStreetMap Ý
     description: 'Theo dõi chúng tôi trên Twitter: {url}'
+  kazakhstan-telegram:
+    name: OSM Kazakhstan tại Telegram
+    description: Trò chuyện Telegram của OpenStreetMap Kazakhstan
+  kosovo-matrix:
+    name: OpenStreetMap Kosovo trên Matrix (nối liền với kênh Telegram)
   kosovo-telegram:
     name: OpenStreetMap Kosovo tại Telegram
+  latam-facebook:
+    name: Facebook OpenStreetMap Mỹ Latinh
+    description: Nhóm Facebook của những người lập bản đồ OpenStreetMap ở Mỹ Latinh
+  latam-irc:
+    name: IRC OpenStreetMap Mỹ Latinh
+    description: 'Hãy tham gia #osm-latam tại irc.oftc.net (cổng 6667)'
+  latam-mailinglist:
+    name: Danh sách thư talk-latam
+    description: talk-latam là danh sách thư chính thức của cộng đồng OSM tại Mỹ Latinh
+  latam-matrix:
+    name: Matrix OpenStreetMap Mỹ Latinh
+  latam-telegram:
+    name: Telegram OpenStreetMap Mỹ Latinh
+    description: 'Trò chuyện với cộng đồng OpenStreetMap Mỹ Latinh. Kênh được đồng bộ hóa với Matrix.'
+  latam-twitter:
+    name: Twitter OpenStreetMap Mỹ Latinh
+    description: 'OpenStreetMap Mỹ Latinh tại Twitter: {url}'
+  latam-wiki:
+    name: Dự án Wiki OpenStreetMap Mỹ Latinh
+    description: Mọi điều cần biết để lập bản đồ tại Mỹ Latinh
   lu-mailinglist:
     name: Danh sách thư talk-lu
     description: Danh sách thư chính thức của cộng đồng OSM tại Luxembourg
@@ -669,6 +773,12 @@ vi:
   mappa-mercia-group:
     name: Nhóm địa phương Mappa Mercia
     description: Nơi tụ tập những người hâm mộ OpenStreetMap tại Midlands
+  md-googlegroup:
+    name: Nhóm Google OSM Moldova
+    description: Nhóm Google OpenStreetMap Moldova
+  md-telegram:
+    name: '@OSMMoldova tại Telegram'
+    description: Trò chuyện Telegram của OpenStreetMap Moldova
   ni-facebook:
     name: Cộng đồng OpenStreetMap Nicaragua
     description: Nhóm Facebook của những người lập bản đồ OpenStreetMap ở Nicaragua
@@ -727,6 +837,9 @@ vi:
   osm-gh-twitter:
     name: OpenStreetMap Ghana tại Twitter
     description: 'Theo dõi chúng tôi trên Twitter: {url}'
+  osm-hr:
+    name: OpenStreetMap Croatia
+    description: Trang thông tin về OpenStreetMap tại Croatia
   osm-india-forum:
     name: Diễn đàn OpenStreetMap Ấn Độ
     description: Diễn đàn Web của OpenStreetMap Ấn Độ
@@ -772,6 +885,9 @@ vi:
   osm-se:
     name: OpenStreetMap.se
     description: Cung cấp dịch vụ và thông tin về OpenStreetMap cho cộng đồng địa phương tại Thụy Điển
+  osm-za-twitter:
+    name: OpenStreetMap Nam Phi tại Twitter
+    description: 'Theo dõi chúng tôi trên Twitter: {url}'
   osmcz-facebook:
     name: OpenStreetMap Séc tại Facebook
     description: Theo dõi cộng đồng Séc tại Facebook – có cả bản dịch WeeklyOSM!
@@ -784,12 +900,21 @@ vi:
   osmgraz-twitter:
     name: Cộng đồng OSM tại Graz tại Twitter
     description: Cộng đồng OpenStreetMap tại Graz tại twitter
+  panama-telegram:
+    name: OSM Panama tại Telegram
+    description: Trò chuyện Telegram của OpenStreetMap Panama
   pt-mailinglist:
     name: Danh sách thư talk-pt
     description: talk-pt là danh sách thư chính thức của cộng đồng OSM Bồ Đào Nha
   pt-telegram:
     name: Telegram OpenStreetMap Bồ Đào Nha
     description: 'Nhóm Telegram dành cho cộng đồng OSM Bồ Đào Nha: {url}'
+  romania-facebook:
+    name: Nhóm Facebook OpenStreetMap Romania
+    description: Nhóm dành cho những người lập bản đồ và người dùng OpenStreetMap ở Romania
+  romania-telegram:
+    name: '@OSMRomania tại Telegram'
+    description: Trò chuyện Telegram của OpenStreetMap Romania
   sa-telegram:
     name: OSM Ả Rập Saudi tại Telegram
     description: 'Nhóm Telegram dành cho cộng đồng OpenStreetMap tại Ả Rập Saudi: {url}'
@@ -808,6 +933,9 @@ vi:
   se-mailinglist:
     name: Danh sách thư talk-se
     description: Danh sách thư để thảo luận về OpenStreetMap tại Thụy Điển
+  se-telegram:
+    name: OSM Thụy Điển tại Telegram
+    description: Trò chuyện Telegram của OpenStreetMap Thụy Điển
   se-twitter:
     name: OpenStreetMap Thụy Điển tại Twitter
     description: 'Theo dõi chúng tôi trên Twitter: {url}'
@@ -830,6 +958,9 @@ vi:
   sk-twitter:
     name: OpenStreetMap Freemap Slovakia tại Twitter
     description: 'OpenStreetMap Freemap Slovakia tại Twitter: {url}'
+  talk-africa:
+    name: Danh sách thư talk-africa
+    description: talk-africa là danh sách thư chính thức của cộng đồng OSM châu Phi.
   talk-au:
     name: Danh sách thư talk-au
     description: Nơi trò chuyện của những người Úc lập bản đồ
@@ -843,12 +974,22 @@ vi:
     name: OpenStreetMap Ý-Lazio
     description: 'Mời bạn tham gia tại {signupUrl}'
     extendedDescription: Danh sách thư cho khu vực Rôma và Lazio.
+  talk-it-piemonte_mailinglist:
+    name: Danh sách thư OSM Ý thảo luận về Piemonte
+    description: 'Mời bạn tham gia tại {signupUrl}'
+    extendedDescription: Danh sách thư cho khu vực Piemonte.
   talk-mg:
     name: Danh sách thư talk-mg
     description: 'Nơi để những người đóng góp, cộng đồng, và người dùng OpenStreetMap chia sẻ và thảo luận.'
   talk-nz:
     name: Danh sách thư talk-nz
     description: Thảo luận cộng đồng OSM tại New Zealand
+  talk-tz:
+    name: Danh sách thư talk-tz
+    description: talk-tz là danh sách thư chính thức của cộng đồng Tanzania.
+  talk-za:
+    name: Danh sách thư talk-za
+    description: talk-za là danh sách thư chính thức của cộng đồng OSM Nam Phi.
   ua-facebook:
     name: Nhóm Facebook OpenStreetMap Ukraina
     description: Hãy tham gia cộng đồng OpenStreetMap Ukraina tại Facebook
@@ -893,6 +1034,9 @@ vi:
   uy-mailinglist:
     name: Danh sách thư talk-uy
     description: talk-uy là danh sách thư chính thức của cộng đồng OSM Uruguay
+  uzbekistan-telegram:
+    name: OSM Uzbekistan tại Telegram
+    description: Trò chuyện Telegram của OpenStreetMap Uzbekistan
   ve-forum:
     name: Diễn đàn OpenStreetMap Venezuela
     description: Diễn đàn Web của OpenStreetMap Venezuela
@@ -902,11 +1046,14 @@ vi:
   ve-telegram:
     name: Telegram OpenStreetMap Venezuela
     description: Hãy tham gia cộng đồng OpenStreetMap Venezuela tại Telegram
+  ym-AASTU:
+    description: Nhánh YouthMappers tại Đại học Khoa học và Công nghệ Addis Ababa
   ym-Abia-State-University:
     name: AbsuMappersTeam
     description: Nhánh YouthMappers tại Đại học Quốc gia Abia
   ym-African-Methodist-Episcopal-University:
     name: YouthMappers-AMEU
+    description: Nhánh YouthMappers tại Đại học Giáo hội Chính thống châu Phi
   ym-Ahmadu-Bello-University:
     description: Nhánh YouthMappers tại Đại học Ahmadu Bello
   ym-Ardhi-University:
@@ -924,6 +1071,9 @@ vi:
   ym-Central-Washington-University:
     name: Câu lạc bộ Địa lý
     description: Nhánh YouthMappers tại Đại học Trung Washington
+  ym-Centre-Universitaire-de-Recherche-et-dApplication-en-Tldtection-CURAT-de-lUniversit-Felix-Houphouet-Boigny:
+    name: YouthMappers tại CURAT
+    description: Nhánh YouthMappers tại Trung tâm Đại học Nghiên cứu về Ứng dụng Viễn thám (CURAT) tại Đại học Felix Houphouet Boigny
   ym-Clemson-University:
     description: Nhánh YouthMappers tại Đại học Clemson
   ym-College-of-William-and-Mary:
@@ -944,6 +1094,17 @@ vi:
   ym-Eastern-University:
     name: YouthMappers tại Đại học Miền Đông
     description: Nhánh YouthMappers tại Đại học Miền Đông
+  ym-Far-Eastern-University-Institute-of-Technology:
+    description: Nhánh YouthMappers tại Viện Công nghệ Đại học Viễn Đông
+  ym-Federal-School-of-Surveys:
+    description: Nhánh YouthMappers tại Trường Khảo sát Liên bang
+  ym-Federal-University-of-Technology-Akure:
+    description: 'Nhánh YouthMappers tại Đại học Công nghệ Liên bang tại Akure'
+  ym-Fourah-Bay-College:
+    description: Nhánh YouthMappers tại Trường cao đẳng Fourah Bay
+  ym-General-Lansana-Conte-University:
+    name: YouthMappers Đại học Tướng Lansana Conté
+    description: Nhánh YouthMappers tại Đại học Tướng Lansana Conté
   ym-George-Mason-University:
     description: Nhánh YouthMappers tại Đại học George Mason
   ym-Grand-Gedeh-County-Community-College:
@@ -959,7 +1120,23 @@ vi:
   ym-Ignatius-Ajuru-University-of-Education:
     description: Nhánh YouthMappers tại Đại học Giáo dục Ignatius Ajuru
   ym-Indiana-University-of-Pennsylvania:
+    name: Câu lạc bộ Khoa học Không gian Địa lý
     description: Nhánh YouthMappers tại Đại học Indiana tiểu bang Pennsylvania
+  ym-Insititue-d-Enseignement-Superieur-de-Ruhengeri:
+    description: Nhánh YouthMappers tại viện Đại học Ruhengeri
+  ym-Institut-Suprieur-de-Management-Kolda:
+    description: Nhánh YouthMappers tại Đại học Quản lý Kolda
+  ym-Institute-of-Crisis-Management-Studies:
+    description: Nhánh YouthMappers tại Học viện Quản lý Khủng hoảng
+  ym-Institute-of-Finance-Management:
+    description: Nhánh YouthMappers tại Đại học Quản trị Tài chính
+  ym-Institute-of-Rural-Development-Planning:
+    name: Nhánh YouthMappers tại Mipango
+    description: Nhánh YouthMappers tại Học viện Quy hoạch Phát triển Nông thôn
+  ym-Institute-of-Rural-Development-Planning-Mwanza:
+    description: Nhánh YouthMappers tại Học viện Quy hoạch Phát triển Nông thôn tại Mwanza
+  ym-Institute-of-Science-and-Veterinary-Medicine:
+    description: Nhánh YouthMappers tại Đại học Khoa học và Thú y
   ym-Istanbul-Technical-University:
     description: Nhánh YouthMappers tại Đại học Công nghệ Istanbul
   ym-Jacksonville-State-University:
@@ -969,11 +1146,15 @@ vi:
   ym-Jomo-Kenyatta-University-of-Agriculture-and-Technology:
     description: Nhánh YouthMappers tại Đại học Nông nghiệp và Công nghệ Jomo Kenyatta
   ym-Kansas-State-University:
+    name: 'Gamma Theta Upsilon: Nhánh Beta Psi'
     description: Nhánh YouthMappers tại Đại học Tiểu bang Kansas
   ym-Karatina-University:
+    name: Câu lạc bộ Thiên nhiên tại Đại học Karatina
     description: Nhánh YouthMappers tại Đại học Karatina
   ym-Kathmandu-University:
+    name: 'Hội Kỹ thuật Địa tin học'
     description: Nhánh YouthMappers tại Đại học Kathmandu
+    extendedDescription: 'Hội Kỹ thuật Địa tin học (Geomatics Engineering Society, GES) được sáng lập năm 2008 SCN là câu lạc bộ thuộc Khoa Kỹ thuật Xây dựng Dân dụng và Địa tin học (Department of Civil and Geomatics Engineering, DCGE) tại Đại học Kathmandu. GES là nền tảng nhằm mục đích đào tạo sinh viên, chú trọng các hoạt động bổ sung như đào tạo kỹ thuật, seminar, chương trình hội thảo, đôi tác với nhà chuyên môn trong các lĩnh vực liên quan, hoạt động thể thao, v.v.'
   ym-Kenyatta-University:
     name: Câu lạc bộ Hệ thống thông tin địa lý Đại học Kenyatta
     description: Nhánh YouthMappers tại Đại học Kenyatta
@@ -994,6 +1175,7 @@ vi:
   ym-Miami-University:
     description: Nhánh YouthMappers tại Đại học Miami
   ym-Moi-University:
+    name: Hội Sinh viên Địa lý
     description: Nhánh YouthMappers tại Đại học Moi
   ym-Monroe-Community-College:
     description: Nhánh YouthMappers tại Trường cao đẳng Cộng đồng Monroe
@@ -1036,12 +1218,15 @@ vi:
     name: YouthMappers tại Trường cao đẳng Thánh Tâm
     description: Nhánh YouthMappers tại Trường cao đẳng Thánh Tâm
   ym-Sherubtse-College:
+    name: Hội Địa lý
     description: Nhánh YouthMappers tại Trường cao đẳng Sherubtse
   ym-Sokoine-University-of-Agriculture:
     description: Nhánh YouthMappers tại Đại học Nông nghiệp Sokoine
   ym-St.-Augustine-International-University:
     name: YouthMappers tại Đại học Quốc tế St. Augustine
     description: Nhánh YouthMappers tại Đại học Quốc tế St. Augustine
+  ym-St.-Mawaggali-Trades-Training-Institute:
+    description: Nhánh YouthMappers tại Học viện Đào tạo Thương mại Thánh Mawaggali
   ym-State-University-of-New-York-Geneseo:
     description: Nhánh YouthMappers tại Đại học Tiểu bang New York tại Geneseo
   ym-Stella-Maris-Polytechnic:
@@ -1060,6 +1245,7 @@ vi:
   ym-The-Johns-Hopkins-University-SAIS:
     description: 'Nhánh YouthMappers tại Học viện Nghiên cứu Quốc tế Cao cấp tại Đại học Johns Hopkins'
   ym-The-Pennsylvania-State-University:
+    name: Liên minh GIS Đại học Tiểu bang Pennsylvania
     description: Nhánh YouthMappers tại Đại học Tiểu bang Pennsylvania
   ym-The-University-of-Zambia:
     description: Nhánh YouthMappers tại Đại học Zambia
@@ -1087,12 +1273,51 @@ vi:
     description: Nhánh YouthMappers tại Đại học Bách khoa Madrid
   ym-Universidad-de-Antioquia:
     description: Nhánh YouthMappers tại Đại học Antioquia
+  ym-Universidad-de-Costa-Rica:
+    name: YouthMappers tại Đại học Costa Rica
+    description: Nhánh YouthMappers tại Đại học Costa Rica
+  ym-Universidad-de-La-Guajira:
+    description: Nhánh YouthMappers tại Đại học La Guajira
+  ym-Universidad-de-Los-Andes:
+    description: Nhánh YouthMappers tại Đại học Dãy Andes
+  ym-Universidad-de-Puerto-Rico-Rio-Piedras:
+    description: Nhánh YouthMappers tại Đại học Puerto Rico tại Río Piedras
   ym-Universidad-de-San-Buenaventura:
     name: YouthMappers San Buenaventura
     description: Nhánh YouthMappers tại Đại học San Buenaventura
+  ym-Universidade-Eduardo-Mondlane:
+    name: Cộng đồng YouthMappers Mozambique
+    description: Nhánh YouthMappers tại Đại học Eduardo Mondlane
+  ym-Universit-Gaston-Berger:
+    description: Nhánh YouthMappers tại Đại học Gaston Berger
+  ym-Universit-Mohammed-V-Rabat:
+    description: Nhánh YouthMappers tại Đại học Mohammed V tại Rabat
+  ym-Universit-de-NZrkor:
+    description: Nhánh YouthMappers tại Đại học N’Zérékoré
+  ym-Universit-des-Sciences-Sociale-et-de-Gestion-de-Bamako:
+    description: Nhánh YouthMappers tại Đại học Khoa học Xã hội và Quản lý Bamako
+  ym-Universitas-Negeri-Makassar:
+    description: Nhánh YouthMappers tại Đại học Quốc gia Makassar
+  ym-University-Muhammadiyah-Surakarta:
+    description: Nhánh YouthMappers tại Đại học Muhammadiyah tại Surakarta
+  ym-University-of-California-Davis:
+    name: Câu lạc bộ Lập bản đồ
+    description: 'Nhánh YouthMappers tại Đại học California tại Davis'
+  ym-University-of-Cape-Coast:
+    description: Nhánh YouthMappers tại Đại học Cape Coast
+  ym-University-of-Central-Florida:
+    description: Nhánh YouthMappers tại Đại học Trung Florida
   ym-University-of-Chicago:
     name: Hội Tobler
     description: Nhánh YouthMappers tại Đại học Chicago
+  ym-University-of-Dar-es-Salaam:
+    description: Nhánh YouthMappers tại Đại học Dar es Salaam
+  ym-University-of-Energy-and-Natural-Resources:
+    description: Nhánh YouthMappers tại Đại học Năng lượng và Tài nguyên Thiên nhiên
+  ym-University-of-Exeter:
+    description: Nhánh YouthMappers tại Đại học Exeter
+  ym-University-of-Ghana:
+    description: Nhánh YouthMappers tại Đại học Ghana
   ym-University-of-Liberia-YouthMappers:
     name: YouthMappers Đại học Liberia
     description: Nhánh YouthMappers tại Đại học Liberia
@@ -1102,23 +1327,62 @@ vi:
   ym-University-of-Maryland-College-Park:
     name: Câu lạc bộ Địa lý
     description: Nhánh YouthMappers tại Đại học Maryland tại College Park
+  ym-University-of-Mines-and-Technology:
+    description: Nhánh YouthMappers tại Đại học Mỏ và Công nghệ George Grant
+  ym-University-of-Nairobi:
+    description: Nhánh YouthMappers tại Đại học Nairobi
+  ym-University-of-Nigeria-Enugu-Campus:
+    description: 'Nhánh YouthMappers tại Đại học Nigeria tại Enugu'
+  ym-University-of-Nigeria-Nsukka:
+    description: 'Nhánh YouthMappers tại Đại học Nigeria tại Nsukka'
   ym-University-of-North-Texas:
     name: Câu lạc bộ Đại lý UNT
     description: Nhánh YouthMappers tại Đại học Bắc Texas
   ym-University-of-Northern-Colorado:
     name: Câu lạc bộ Địa lý và Hệ thống thông tin địa lý UNCO
     description: Nhánh YouthMappers tại Đại học Bắc Colorado
+  ym-University-of-Oregon:
+    description: Nhánh YouthMappers tại Đại học Oregon
+  ym-University-of-Panama:
+    description: Nhánh YouthMappers tại Đại học Panama
+  ym-University-of-Port-Harcourt:
+    description: Nhánh YouthMappers tại Đại học Port Harcourt
+  ym-University-of-Pretoria:
+    description: Nhánh YouthMappers tại Đại học Pretoria
+  ym-University-of-Redlands:
+    description: Nhánh YouthMappers tại Đại học Redlands
   ym-University-of-Rwanda-Huye-Campus:
     name: YouthMappers Rwanda
+    description: Nhánh YouthMappers tại Đại học Rwanda tại Huye
   ym-University-of-South-Carolina:
     name: Hội Sinh viên Sau đại học vì Địa lý
     description: Nhánh YouthMappers tại Đại học Nam Carolina
+  ym-University-of-Southern-California:
+    description: Nhánh YouthMappers tại Đại học Nam California
+  ym-University-of-Vermont:
+    description: Nhánh YouthMappers tại Đại học Vermont
   ym-University-of-Victoria:
     name: Hội Sinh viên Địa lý
     description: Nhánh YouthMappers tại Đại học Victoria
+  ym-University-of-Warwick:
+    description: Nhánh YouthMappers tại Đại học Warwick
+  ym-University-of-Wyoming:
+    description: Nhánh YouthMappers tại Đại học Wyoming
+  ym-University-of-Zimbabwe:
+    description: Nhánh YouthMappers tại Đại học Zimbabwe
+  ym-University-of-the-Philippines-Resilience-Institute:
+    description: Nhánh YouthMappers tại Học viện Tính chống chịu tại Đại học Philippines
+  ym-University-of-the-West-Indies-Mona-Campus:
+    description: 'Nhánh YouthMappers tại Đại học Tây Ấn tại Mona'
+  ym-Vassar-College:
+    description: Nhánh YouthMappers tại Trường cao đẳng Vassar
+  ym-Villanova-University:
+    description: Nhánh YouthMappers tại Đại học Villanova
   ym-West-Virginia-University:
     name: Maptime Morgantown
     description: Nhánh YouthMappers tại Đại học Tây Virginia
   ym-Western-Michigan-University:
     name: Câu lạc bộ Địa lý
     description: Nhánh YouthMappers tại Đại học Tây Michigan
+  ym-Yarmouk-University:
+    description: Nhánh YouthMappers tại Đại học Yarmouk

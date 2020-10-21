@@ -1,15 +1,54 @@
 tr:
+  Bahia-telegram:
+    name: OpenStreetMap Bahia Telegram Grubu
+    description: Telegram'da OpenStreetMap Bahia topluluğuna katılın
+    extendedDescription: 'OpenStreetMap hakkında daha fazlasını öğrenmek, soru sormak ve toplantılarımıza katılmak için topluluğa katılın'
+  Bay-Area-OpenStreetMappers:
+    description: Körfez Bölgesi'nde OpenStreetMapp'i iyileştir
+  DF-telegram:
+    description: 'Telegram''da OpenStreetMap Brasília Topluluğuna Katılın '
+  Dallas-Fort-Worth-OSM:
+    description: Dallas-Fort Worth için OpenStreetMap kullanıcı grubu
+    extendedDescription: 'Dallas, Fort Worth ve aradaki tüm şehirler, yaratıcı ve teknolojiye meraklı insanlarla dolu. Bu kullanıcı grubunun vizyonu, OSM''nin muhteşem kaynağını kullanmanın yeni yollarını bulmak.'
+  Galicia-Telegram:
+    name: OpenStreetMap Galiçya Telegram
+    description: ' Galiçya için OpenStreetMap Telegram'
   Galicia-Twitter:
+    name: OpenStreetMap Galiçya Twitter
     description: 'Bizi Twitter''da {url} adresinden takip edin'
+  Galicia-Xeoinquedos-Twitter:
+    description: 'Bizi Twitter''da {url} adresinden takip edin'
+  GeoPhilly:
+    description: Philadelphia çevresinde harita meraklıları için buluşma
+  MappingDC-meetup:
+    description: Kolumbiya Bölgesi'inde OpenStreetMap'i geliştirin
+  MappingWR:
+    description: Waterloo Bölgesi çevresinde düşük karbonlu rotaları bulmayı kolaylaştırmak.
+  Maptime-Bogota:
+    description: Biz, Bogotá çevresinde haritalama yapmakla ilgilenen bir grup haritacıyız.
+    extendedDescription: 'Sahada veri toplamayı ve OpenStreetMap''te dijitalleştirmeyi öğrenin.  Önceden bilgi sahibi olmak gerekli değil! Sadece katılmak, öğrenmek ve eğlenmek için istekli olmalısınız. '
   MaptimeHRVA-twitter:
     description: 'Bizi Twitter''da {url} adresinden takip edin'
+  Nottingham-OSM-pub-meetup:
+    extendedDescription: 'Başlangıçta Nottingham''da ve daha yakın zamanda Derby''de ve zaman zaman East Midlands''de başka yerlerde Mart 2011''den beri bir grup toplanıyor. Bunlar sosyal toplanmalar olmakla birlikte gelip OSM hakkında veya genel sorular sormak için harika bir yer. Yaz aylarında genellikle buluşma yerimizin yakınında bir saat boyunca biraz ışık haritalaması yapıyoruz. Grubun tamamı kamusal geçiş haklarının haritalandırılmasına özel bir ilgisi duyuyor ve zaman zaman bu amaçla haritalama toplantıları düzenliyor.'
   OSM-AR-facebook:
     description: Facebook'ta OpenStreetMap Arjantin topluluğuna katılın
+    extendedDescription: Yerel halktan haberler
+  OSM-AR-forum:
+    description: OpenStreetMap Arjantin internet forumuna katılın
+    extendedDescription: Uzun veya önemli tartışmalar için ideal. Yavaş yanıtlama süresi.
   OSM-AR-irc:
     name: OpenStreetMap Arjantin IRC
     description: '#osm-ar''a irc.oftc.net''den Katılın (port 6667)'
+  OSM-AR-mailinglist:
+    description: Tarihi e-posta listesi. Günümüzde neredeyse kullanılmıyor.
+  OSM-AR-telegram:
+    description: Telegram'da OpenStreetMap topluluğuna katılın
+    extendedDescription: 'Topluluktaki en aktif kanal, sohbet etmek ve sorularınıza anında cevap almak için ideal. Herkese açıktır!'
   OSM-AR-twitter:
+    name: OpenStreetMap Arjantin Twitter
     description: 'Bizi Twitter''da {url} adresinden takip edin'
+    extendedDescription: Yerel topluluk ve OpenStreetMap hakkında genel haberler
   OSM-Asia-mailinglist:
     name: OpenStreetMap Asya Posta Listesi
     description: Talk-Asia, Asya Topluluğunun Resmî Posta Listesidir
@@ -17,15 +56,27 @@ tr:
     name: OpenStreetMap Bangladeş
     description: Bangladeş'teki OpenStreetMap'ı geliştirin
     extendedDescription: 'Bangladeş''te Haritalama Sorularınız var mı, buradan toplumla bağlantı kurmak mı istiyorsunuz? {Url} adresinden bize katılın. Hoşgeldiniz!'
+  OSM-Boston:
+    name: Boston OpenStreetMap
+    description: 'Boston bölgesindeki haritacılar ve OpenStreetMap kullanıcıları '
+  OSM-CA-mailinglist:
+    description: Kanada'da OpenStreetMap'i tartışmak için bir e-posta listesi
   OSM-CL-facebook:
     description: Facebook'ta OpenStreetMap Şili topluluğuna katılın
+    extendedDescription: 'OpenStreetMap hakkında daha çok şey öğrenmek, soru sormak veya toplantılarımıza katılmak için topluluğumza katılın. Herkese açıktır!'
+  OSM-CL-mailinglist:
+    description: Şili'de OpenStreetMap'i tartışmak için bir e-posta listesi
   OSM-CL-twitter:
     description: 'Bizi Twitter''da {url} adresinden takip edin'
+  OSM-CO-mailinglist:
+    description: Kolombiya'da OpenStreetMap'i tartışmak için bir e-posta listesi
   OSM-CO-twitter:
     description: 'Bizi Twitter''da {url} adresinden takip edin'
   OSM-Discord:
     name: OpenStreetMap Discord
     description: Discord ile diğer haritacılarla iletişim kurun
+  OSM-ES-mailinglist:
+    description: İspanya'da OpenStreetMap'i tartışmak için bir e-posta listesi
   OSM-Facebook:
     name: Facebook'ta OpenStreetMap
     description: OpenStreetMap ile ilgili haberler ve güncellemeler için bizi Facebook'ta beğenin.
@@ -52,11 +103,15 @@ tr:
   OSM-MY-forum:
     name: OpenStreetMap Malezya Forumu
     description: Resmi OpenStreetMap Malezya Forumu
+  OSM-PE-mailinglist:
+    description: Peru OpenStreetMap topluluğu resmi e-posta listesi
   OSM-PE-twitter:
     description: 'Bizi Twitter''da {url} adresinden takip edin'
   OSM-Reddit:
     name: Reddit'te OpenStreetMap
     description: /r/openstreetmap/ OpenStreetMap hakkında daha fazla bilgi edinmek için harika bir yerdir. Bize her şeyi sor!
+  OSM-TW-mailinglist:
+    name: Tayvan OpenStreetMap e-posta listesi
   OSM-Telegram:
     name: OpenStreetMap Telegram
     description: '{url} adresindeki OpenStreetMap Telegram global üst grubuna katıl'
@@ -101,6 +156,8 @@ tr:
   be-irc:
     name: OpenStreetMap Belçika IRC
     description: '#osmbe''ye irc.oftc.net''den Katılın (port 6667)'
+  be-twitter:
+    name: OpenStreetMap Belçika Twitter
   bw-facebook:
     description: Botswana'daki OpenStreetMap Sayfası
   cape-coast-youthmappers:
@@ -110,6 +167,8 @@ tr:
   ch-irc:
     name: OpenStreetMap İsviçre IRC
     description: '#osm-ch''ye irc.oftc.net''den Katılın (port 6667)'
+  de-berlin-mailinglist:
+    name: Berlin E-posta Listesi
   de-irc:
     name: OpenStreetMap Almanya IRC
     description: '#osm-de''ye irc.oftc.net''den Katılın (port 6667)'
@@ -181,5 +240,7 @@ tr:
   talk-mg:
     name: Talk-mg E-posta listesi
     description: 'Paylaşmak ve tartışmak için Madagaskar''daki OpenStreetMap katılımcıları, toplulukları ve kullanıcıları için yer.'
+  uy-forum:
+    name: OpenStreetMap UY forum
   uy-irc:
     name: OpenStreetMap Uruguay IRC

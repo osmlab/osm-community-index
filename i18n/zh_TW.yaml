@@ -21,18 +21,39 @@ zh_TW:
     name: 達拉斯—沃斯堡 OSM
     description: 達拉斯—沃斯堡的 OpenStreetMap 使用者群組
     extendedDescription: '達拉斯、沃斯堡與其間的所有城市都充滿了極具創造力且技術精湛的人才。這個使用者群組的願景是找出新的方法來使用 OSM 上的驚人資源。'
+  Galicia-Telegram:
+    name: 開放街圖加利西亞 Telegram
+    description: 開放街圖加利西亞 Telegram
+  Galicia-Twitter:
+    name: 開放街圖加利西亞 Twitter
+    description: '在{url}於 Twitter 追隨我們'
+  Galicia-Xeoinquedos-Twitter:
+    name: Twitter 上的 Geoinquetos
+    description: '在 {url} 於 Twitter 上追蹤我們'
   GeoPhilly:
     name: GeoPhilly
     description: 費城地區的地圖愛好者聚會
     extendedDescription: 'GeoPhilly 將開發者、地理學家、資料極客、開放原始碼愛好者、公民駭客與地圖愛好者聯合起來，並將我們對地圖的熱愛與他們的故事連結起來。如果你在工作中會用到地圖，或僅僅只是想要了解更多，這就是為你而辦的聚會！我們的活動旨在開放、友好、教育與社交，從歡樂時光到閃電講，甚至是工作坊都有。跟我們一起在費城建立一個多元化且激勵人心的地理空間社群！'
+  MapColabora-mailinglist:
+    name: 協作製圖/薩拉戈薩
+    description: 協作製圖/薩拉戈薩的郵件論壇
+  MapColabora-meetup:
+    name: 協作製圖/薩拉戈薩
+    description: 協作製圖/薩拉戈薩聚會頁面
+  MapColabora-twitter:
+    name: 協作製圖/薩拉戈薩地理資訊
+    description: 協作製圖/薩拉戈薩地理信息Twitter帳戶
   MapMinnesota:
     name: MapMinnesota
     description: 在雙城區一帶的圖客與開放街圖使用者
     extendedDescription: 接觸明尼蘇達和雙城區一帶開放街圖熱情參與者！
-  Mapping-DC-meetup:
-    name: Mapping DC
-    description: 改善華府區域的 OpenStreetMap
+  MappingDC-meetup:
+    name: MappingDC
+    description: 改善華府區域的 OpenStreetMap 資料
     extendedDescription: '我們是一群致力於改善華府區域的 OpenStreetMap 的群組。我們也努力教導其他人關於 OSM 的生態系、資料分析、製圖與 GIS。我們每隔一個月聚會一次，每次僅聚焦在我們的城市中的一個地區。'
+  MappingWR:
+    name: MappingWR
+    description: 讓滑鐵盧地區的低碳路徑更容易探索。
   Maptime-Bogota:
     name: Maptime Bogotá
     description: 我們是一群關心波哥大一帶開放街圖狀況的圖客。
@@ -41,6 +62,9 @@ zh_TW:
     name: MaptimeME
     description: '緬因州波特蘭區域的圖客與 OpenStreetMap 使用者'
     extendedDescription: '以字面來說，Maptime 是畫地圖的時間，我們的宗旨是開創一扇讓任何能製作地圖的時間和空問，大家共同學習，探索和運用製作地圖工具和技術製作地圖。'
+  Maptime-Oceania-Slack:
+    name: Maptime Oceania Slack
+    description: '在 {signupUrl} 註冊'
   MaptimeHRVA-twitter:
     name: MaptimeHRVA Twitter
     description: '在 {url} 於 Twitter 上追蹤我們'
@@ -78,10 +102,18 @@ zh_TW:
     name: 開放街圖孟加拉
     description: 改進孟加拉的開放街圖
     extendedDescription: '在孟加拉畫地圖嗎？想要問問題，想要與社群連結？請加入 {url}，所有人都歡迎噢！ '
+    events:
+      sotmasia2019:
+        name: State of the Map Asia 2019
+        description: 加入 2019 開放街圖在達卡的亞洲地區性的大會活動
+        where: '孟加拉達卡 Krishibid Institution Bangladesh '
   OSM-BO-mailinglist:
     name: Talk-bo 郵件論壇
     description: 'Talk-bo 是玻利維亞社群的官方郵件論壇 '
     extendedDescription: '在玻利維亞畫地圖嗎？想要問問題，想要與社群連結？請加入 {Url}，所有人都歡迎噢！'
+  OSM-BiH-telegram:
+    name: 開放街圖 BIH Telegram
+    description: 'OSM 波士尼亞與赫塞哥維納社群的 Telegram 群組：{url}'
   OSM-Boston:
     name: 開放街圖波士頓
     description: 波士頓的圖客與開放街圖使用者
@@ -89,6 +121,12 @@ zh_TW:
   OSM-CA-Slack:
     name: OSM-CA Slack
     description: '歡迎所有人加入！在 {signupUrl} 註冊。'
+  OSM-CA-mailinglist:
+    name: OSM-CA 郵件論壇
+    description: 討論開放街圖在加拿大事物的郵件論壇
+  OSM-CA-telegram:
+    name: 'Telegram 上的 @osmca'
+    description: 開放街圖加拿大的 Telegram 聊天室
   OSM-CL-facebook:
     name: 開放街圖智利 Facebook
     description: 加入開放街圖智利社群 Facebook
@@ -103,6 +141,9 @@ zh_TW:
   OSM-CL-twitter:
     name: 開放街圖智利 Twitter
     description: '在 {url} 上追隨我們的 Twitter'
+  OSM-CN-telegram:
+    name: 開放街圖中國的 Telegram
+    description: 'OSM 中國社群的 Telegram 群組：{url}'
   OSM-CO:
     name: 開放街圖哥倫比亞
     description: 開放街圖哥倫比亞社群和 OSMCo 基金會的消息
@@ -167,6 +208,19 @@ zh_TW:
     name: 開放街圖印度 - 參與社區畫圖
     description: 改善印度的 OpenStreetMap
     extendedDescription: '在印度畫地圖嗎？想要問問題，想要與社群連結？請加入 {Url}，所有人都歡迎噢！'
+  OSM-Japan-telegram:
+    name: 開放街圖日本 Telegram
+    description: 'OSM 日本社群的 Telegram 群組：{url}'
+  OSM-Kerala-facebook:
+    name: 開放街圖喀拉拉 - 參與社區畫圖
+    description: 改進喀拉拉一帶的開放街圖資料
+    extendedDescription: '在喀拉拉畫地圖嗎？有問題，想要與社群互動？來 {url} 加入我們，歡迎所有人。'
+  OSM-Korea-mailinglist:
+    name: 開放街圖南韓郵件論壇
+    description: Talk-ko 是南韓社群專門討論有關台灣圖資的官方郵件論壇
+  OSM-Korea-telegram:
+    name: OSM 南韓 Telegram
+    description: '南韓開放街圖貢獻者、社群和使用者分享和討論的非官方頻道。'
   OSM-MMR-facebook:
     name: 開放街圖緬甸
     description: 改進緬甸的開放街圖
@@ -188,6 +242,9 @@ zh_TW:
     name: 開放街圖尼泊爾
     description: 改進尼泊爾的開放街圖
     extendedDescription: '在尼泊爾畫地圖嗎？有問題，想要與社群互動？來 {Url} 加入我們，歡迎所有人。'
+  OSM-Ottawa-meetup:
+    name: 開放街圖渥太華
+    description: 在渥太華的圖客與開放街圖使用者
   OSM-PE:
     name: 開放街圖祕魯
     description: 開放街圖社群的新聞和資源頁面
@@ -224,6 +281,9 @@ zh_TW:
   OSM-PL-forum:
     name: 開放街圖波蘭論壇
     description: 開放街圖波蘭社群的論壇
+  OSM-PL-github:
+    name: 開放街圖波蘭 GitHub
+    description: 開放街圖波蘭社群的 GithHub 組織
   OSM-PY-telegram:
     name: OSM 巴拉圭在 Telegram
     description: 開放街圖厄瓜多 Telegram 聊天室
@@ -279,6 +339,9 @@ zh_TW:
   OSM-TW-mailinglist:
     name: 開放街圖台灣郵件論壇
     description: Talk-tw 是台灣社群專門討論有關台灣圖資的官方郵件論壇
+  OSM-TW-telegram:
+    name: 開放街圖台灣社群 Telegram 群組
+    description: 'OSM 台灣社群的 Telegram 群組：{url}'
   OSM-Tampa-Bay:
     name: 開放街圖坦帕灣
     description: 坦帕灣的圖客與開放街圖使用者
@@ -300,13 +363,13 @@ zh_TW:
     name: 開放街圖猶他
     description: 在鹽湖城區域的圖客與開放街圖使用者
     extendedDescription: '我們可能會舉辦的活動有：學習製圖工作坊、製圖派對與戶外資料蒐集。活動將會在鹽湖城區舉辦，至少一開始是這樣。我們正在尋找經驗豐富的圖客與 OSM 新手。加入我們，一起來製圖吧！'
-  OSM-Vancouver-meetup:
-    name: 開放街圖溫哥華
-    description: '英屬哥倫比亞溫哥華一帶的圖客與開放街圖使用者'
   OSM-Wyoming:
     name: 開放街圖懷俄明
     description: 在懷俄明州的圖客與開放街圖使用者
     extendedDescription: '開放街圖 (OpenStreetMap, OSM) 懷俄明是一個喜歡貢獻他們的心力建立自由地圖的一群地區協作夥伴。我們鼓勵我們所有的圖客組織或建議橫跨整個州的製圖活動。會面活動可以是簡單的社交活動、OSM 基礎到進階訓練，或是社群製圖派對。'
+  OSM-br-discord:
+    name: 開放街圖巴西 Discord
+    description: 加入開放街圖巴西 Discord 社群
   OSM-br-mailinglist:
     name: Talk-br 郵件論壇
     description: 討論開放街圖在巴西事物的郵件論壇
@@ -333,6 +396,9 @@ zh_TW:
   OSM-japan-mailinglist:
     name: 開放街圖日本郵件論壇
     description: Talk-ja 是日本社群官方的郵件論壇
+  OSM-japan-slack:
+    name: 開放街圖日本 Slack
+    description: 'OSM 日本社群的 Slack 群組 {signupUrl}'
   OSM-japan-twitter:
     name: 開放街圖日本 Twitter
     description: 'Twitter 的標籤：{url}'
@@ -347,6 +413,11 @@ zh_TW:
     name: 開放街圖基金會
     description: 開放街圖基金會是位於英國，支持開放街圖計劃的非營利組織
     extendedDescription: '開放街圖基金會藉由募款，維持開放街圖背後的伺服器，舉行年度 State of the Map 大會，以及協調志工維持開放街圖運作，支援開放街圖計畫。你可以在這裡藉由加入開放街圖基金會成為會員：{signupUrl}，顯示你的支持，還有在開放街圖中帶進你的聲音，指導開放街圖的發展方向。'
+    events:
+      sotm2020:
+        name: State of the Map 2020
+        description: '加入我們這三天在南非開普敦的年度全球尺度的開放街圖大會，讓社群中的每一個人彼此社交、分享和學習。'
+        where: '南非開普敦'
   OpenCleveland-meetup:
     name: Open Cleveland
     description: 改善克里夫蘭區域的 OpenStreetMap
@@ -385,6 +456,9 @@ zh_TW:
   al-telegram:
     name: '開放街圖阿爾巴尼亞 Telegram 頻道 '
     description: '開放街圖阿爾巴尼亞 Telegram 頻道 '
+  al-twitter:
+    name: 開放街圖阿拉巴馬 Twitter
+    description: '在 {url} 上追隨我們的 Twitter '
   at-forum:
     name: 開放街圖奧地利論壇
     description: 開放街圖在奧地利問答的官方論壇
@@ -394,7 +468,12 @@ zh_TW:
   at-twitter:
     name: 開放街圖奧地利 Twitter
     description: '開放街圖奧地利 Twitter：{url}'
+  be-chapter:
+    name: 開放街圖比利時在地分會
+    description: 我們協助比利時的開放街圖成長茁壯並改善它。
+    extendedDescription: '如果你想要改進和茁壯比利時的地圖社群，讓更多人瘋狂的參與畫地圖，OpenStreetMap 比利時就是最好的地方了！'
   be-facebook:
+    name: 開放街圖比利時 Facebook 社群
     description: 比利時圖客和開放街圖 Facebook
   be-forum:
     name: 開放街圖比利時論壇
@@ -417,6 +496,16 @@ zh_TW:
   be-twitter:
     name: 開放街圖比利時 Twitter
     description: '開放街圖比利時 Twitter：@osm_be'
+  bg-forum:
+    name: 開放街圖保加利亞論壇
+    description: 開放街圖保加利亞社群的論壇
+  bg-wiki:
+    name: 開放街圖維基專案保加利亞
+    description: 開放街圖維基專案保加利亞頁面
+  bi-vc-cvl_wiki:
+    name: OSMers BI-VL-CVL
+    description: 北皮埃蒙特的圖客
+    extendedDescription: '除了每月的聚會之外，我們還有 WhatsApp 群組。'
   bw-facebook:
     name: 在 Facebook 上的 Mapping Botswana
     description: OpenStreetMap in Botswana 專頁
@@ -430,6 +519,18 @@ zh_TW:
     name: University of Cape Coast YouthMappers
     description: '追隨我們的 Twitter： {url} '
     extendedDescription: '這是迦納 University of Cape Coast Youth Mappers 分會的官方頻道，我們愛地圖、開放資料和幫助別人。'
+  ch-irc:
+    name: 開放街圖瑞士 IRC
+    description: '在 irc.oftc.net (port 6667) 加入 #osm-ch'
+  ch-mailinglist:
+    name: 開放街圖瑞士郵件論壇
+    description: 瑞士的郵件論壇
+  ch-twitter:
+    name: 開放街圖瑞士 Twitter
+    description: '追隨我們的 Twitter： {url} '
+  cuneo-telegram:
+    name: 開放街圖庫內奧圖客
+    description: 開放街圖庫內奧 Telegram 聊天室
   czech-community:
     name: 捷克開放街圖社群
     description: '捷克開放街圖成員的地圖入口以及聯繫地方'
@@ -445,21 +546,57 @@ zh_TW:
   de-berlin-twitter:
     name: 開放街圖柏林 Twitter
     description: '追隨我們的 Twitter： {url}'
+  de-berlin-xmpp:
+    name: OpenStreetMap Berlin-Brandenburg XMPP
+    description: '加入我們 XMPP 多使用者群組聊天：{url}'
   de-forum:
     name: OpenStreetMap DE forum
     description: 開放街圖德國網頁論壇
+  de-hamburg-telegram:
+    name: OSM 漢堡在 Telegram
+    description: '開放街圖漢堡 Telegram 聊天室：{url}'
   de-irc:
     name: OpenStreetMap Germany IRC
     description: '在 irc.oftc.net (port 6667) 上面加入 #osm-de'
+  de-karlsruhe-mailinglist:
+    name: 卡爾斯魯爾郵件論壇
+    description: 這是卡爾斯魯爾地區開放街圖社群的郵件論壇
+  de-karlsruhe-meetup:
+    name: 開放街圖卡爾斯魯爾聚會
+    description: 在卡爾斯魯爾的圖客與開放街圖使用者
   de-mailinglist:
     name: Talk-de 郵件論壇
     description: 'Talk-de 是德國開放街圖社群的郵件論壇 '
+  de-matrix:
+    name: 開放街圖德國 Matrix
+    description: '在 https://matrix.to/#/!JoceisEAQRNMtpWVGm:matrix.org?via=matrix.org&via=fairydust.space&via=tchncs.de 加入 #osm-de:matrix.org '
+  de-mv-mailinglist:
+    name: 梅克倫堡-西波美拉尼亞郵件論壇
+    description: 這是梅克倫堡-西波美拉尼亞開放街圖社群的郵件論壇
+  de-mv-twitter:
+    name: 開放街圖梅克倫堡-西波美拉尼亞 Twitter
+    description: '追隨我們的 Twitter： {url} '
   de-ostwestfalen-lippe-mailinglist:
     name: OWL 郵件論壇
     description: 這是東威斯特法倫 - 利普開放街圖社群的郵件論壇
+  de-stuttgart-mailinglist:
+    name: 斯徒加特和巴登-符騰堡邦郵件論壇
+    description: 這是斯徒加特和巴登-符騰堡邦地區開放街圖社群的郵件論壇
+  de-stuttgart-meetup:
+    name: 開放街圖斯徒加特聚會
+    description: 在斯徒加特的圖客與開放街圖使用者
   de-telegram:
     name: 開放街圖德國 Telegram
     description: '加入開放街圖德國 Telegram 超級聊天室 {url}'
+  de-ulm_neuulm-meetup:
+    name: 開放街圖烏姆、新烏姆聚會
+    description: 烏姆和新烏姆區域的圖客與 OpenStreetMap 使用者
+  de-ulmeralb-meetup:
+    name: 開放街圖 Ulmer Alb 聚會
+    description: Ulmer Alb一帶的圖客與開放街圖使用者
+  de-viersen-meetup:
+    name: 開放街圖菲爾森聚會
+    description: OSM 菲爾森和門興格拉德巴赫社群與使用者聚會
   dk-forum:
     name: 開放街圖丹麥網頁論壇
     description: 開放街圖丹麥的網頁論壇
@@ -469,6 +606,12 @@ zh_TW:
   dk-mailinglist:
     name: Talk-dk 郵件論壇
     description: 討論開放街圖在丹麥事物的郵件論壇
+  es-twitter:
+    name: 開放街圖西班牙 Twitter
+    description: '在 {url} 上追隨我們的 Twitter '
+  et-telegram:
+    name: '@OpenStreetMapEthiopia 在 Telegram'
+    description: 開放街圖伊索匹亞 Telegram 聊天室
   fi-forum:
     name: 開放街圖芬蘭論壇
     description: 開放街圖芬蘭網路論壇
@@ -478,6 +621,21 @@ zh_TW:
   fi-mailinglist:
     name: Talk-fl 郵件論壇
     description: 'Talk-fl 是芬蘭社群的官方郵件論壇 '
+  fr-35-wiki:
+    name: 開放街圖雷恩 Wiki 頁面
+    description: OSM 雷恩在地社群的 Wiki 頁面
+  fr-bzh-mailinglist:
+    name: Talk-fr-bzh 郵件論壇
+    description: Talk-fr-bzh 的郵件論壇
+  fr-bzh-twitter:
+    name: 在 Twittter 上的 OSM-BZH
+    description: '開放街圖 BHZ Twitter：{url}'
+  fr-bzh-website:
+    name: 開放街圖 BZH 網站
+    description: 說布列塔尼語的地圖
+  fr-chapter:
+    name: 開放街圖法國在地分會
+    description: 我們協助法國的開放街圖成長茁壯並改善它。
   fr-facebook:
     name: 開放街圖法國 Facebook 頁面
     description: 開放街圖法國 Facebook 頁面
@@ -490,33 +648,94 @@ zh_TW:
   fr-mailinglist:
     name: Talk-fr 郵件論壇
     description: Talk-fr 郵件論壇
+  fr-telegram:
+    name: 開放街圖法國 Telegram
+    description: 'OSM 法國社群的 Telegram 群組：{url}'
   fr-twitter:
     name: 開放街圖法國 Twitter
     description: '開放街圖法國 Twitter：{url}'
+  fr-xmpp:
+    name: 開放街圖法國 XMPP
+    description: 加入 osm-fr@chat.jabberfr.org
+  galicia-wiki:
+    name: 開放街圖維基專案加利西亞
+    description: '您必須知道的在加利西亞製圖的所有事情：{url}'
   gb-irc:
     name: 開放街圖聯合王國 IRC
     description: '在 irc.oftc.net (port 6667) 上面加入 #osm-gb'
     extendedDescription: '在 irc.oftc.net (port 6667) 加入 #osm-gb，如果你問了問題，請耐心等候數分鐘等待回應'
   gb-mailinglist:
     name: Talk-gb 郵件論壇
+    description: 'Talk-gb 是大英國協 (包括北愛爾蘭) 社群的主要溝通郵件論壇 '
+  geogeeks_perth_meetup:
+    name: GeoGeeks Perth Meetup
+    description: '針對畫地圖、地理空間資料和開放原始碼有興趣的伯斯聚會群組，只要是牽涉到一點地理都是我們關心的範圍。'
+  gr-forum:
+    name: 開放街圖 GR 論壇
+    description: 開放街圖希臘網頁論壇
+  gr-mailinglist:
+    name: Talk-gr 郵件論壇
+    description: 'Talk-gr 是德國開放街圖社群的郵件論壇 '
+  gr-matrix:
+    name: 開放街圖希臘 Matrix
+    description: '到 https://riot.im/app/#/room/%23osm-gr:matrix.org 上加入 #osm-gr:matrix.org'
+  guatemala-telegram:
+    name: OSM 瓜地馬拉在 Telegram
+    description: 開放街圖瓜地馬拉 Telegram 聊天室
   hr-facebook:
     name: 開放街圖克羅埃西亞 Facebook 社團
     description: 開放街圖克羅埃西亞 Facebook 社團
+  hr-forum:
+    name: 開放街圖克羅埃西亞論壇
+    description: 開放街圖克羅埃西亞論壇
   hr-irc:
     name: 開放街圖克羅埃西亞 IRC
-    description: '在 irc.freenode.org (port 6667) 上面加入 #osm-ㄐ'
+    description: '在 irc.freenode.org (port 6667) 上面加入 #osm-hr'
   hr-mailinglist:
     name: Talk-hr 郵件論壇
     description: Talk-hr 郵件論壇
+  hr-wiki:
+    name: 開放街圖維基專案克羅埃西亞
+    description: 開放街圖維基專案克羅埃西亞頁面
   hu-facebook:
     name: 開放街圖匈牙利在 Facebook
     description: 匈牙利的圖客和開放街圖 Facebook 頁面
   hu-forum:
     name: 開放街圖匈牙利論壇
     description: 開放街圖匈牙利網頁論壇
+  hu-matrix:
+    name: 開放街圖匈牙利 Matrix
+    description: OpenStreetMap 匈牙利 Matrix 頻道
+    extendedDescription: 有關地圖主題的開放街圖聊天群組，為 OSM 社群支援論壇其中之一
   hu-meetup:
     name: 開放街圖匈牙利 Meetup
     description: 匈牙利舉行聚會的平台
+  il-telegram:
+    name: OSM 以色列在 Telegram
+    description: 'OSM 以色列社群的 Telegram 群組：{url}'
+  ireland-chapter:
+    name: 開放街圖愛爾蘭在地分會
+    description: 我們協助愛爾蘭的開放街圖成長茁壯並改善它。
+    extendedDescription: '開放街圖愛爾蘭提供整個愛爾蘭島有關開放街圖計畫的聲音，並且與其他開放倡議的組織互動。'
+  ireland-facebook:
+    name: 開放街圖愛爾蘭 Facebook 社團
+    description: 開放街圖愛爾蘭 Facebook 頁面
+  ireland-irc:
+    name: 開放街圖愛爾蘭 IRC
+    description: '在 irc.oftc.net (port 6667) 上面加入 #osm-ie'
+    extendedDescription: '在 irc.oftc.net (port 6667) 加入 #osm-ie，如果你問了問題，請耐心等候數分鐘等待回應'
+  ireland-mailinglist:
+    name: Talk-ie 郵件論壇
+    description: Talk-ie 是愛爾蘭開放街圖社群的郵件論壇
+  ireland-telegram:
+    name: OSM 愛爾蘭在 Telegram
+    description: 開放街圖愛爾蘭 Telegram 聊天室
+  ireland-twitter:
+    name: 開放街圖 IE Twitter
+    description: '開放街圖 IE Twitter：{url}'
+  is-chapter:
+    name: 開放街圖冰島在地分會
+    description: 我們協助冰島的開放街圖成長茁壯並改善它。
   is-facebook:
     name: 在 Facebook 上的 OSM Iceland
     description: OpenStreetMap in Iceland 專頁
@@ -526,6 +745,9 @@ zh_TW:
   is-twitter:
     name: 在 Twittter 上的 OSM Iceland
     description: OpenStreetMap in Iceland 的 Twitter
+  it-chapter:
+    name: 開放街圖義大利在地分會
+    description: 我們協助義大利的開放街圖成長茁壯並改善它。
   it-facebook:
     name: 開放街圖義大利 Facebook
     description: 加入開放街圖義大利社群 Facebook
@@ -541,13 +763,74 @@ zh_TW:
   it-twitter:
     name: 開放街圖義大利 Twitter
     description: '在 {url} 上追隨我們的 Twitter'
+  kazakhstan-telegram:
+    name: OSM 哈薩克在 Telegram
+    description: 開放街圖哈薩克的 Telegram 聊天室
+  kosovo-matrix:
+    name: 在 Matrix 上的科索沃開放街圖 (與 Telegram 連通)
+    description: 半官方的全科索沃公開群組。我們歡迎從任何地方來，說任何語言的製圖者。
   kosovo-telegram:
     name: 在 Telegram 上的科索沃開放街圖
     description: 半官方的全科索沃 Telegram 公開群組。我們歡迎從任何地方來，說任何語言的製圖者。
+  latam-facebook:
+    name: 開放街圖拉丁美洲 Facebook
+    description: 拉丁美洲圖客和開放街圖 Facebook
+  latam-irc:
+    name: 開放街圖拉丁美洲 IRC
+    description: '在 irc.oftc.net (port 6667) 上面加入 #osm-latam'
+  latam-mailinglist:
+    name: Talk-latam 郵件論壇
+    description: 'Talk-latam 是拉丁美洲社群的官方郵件論壇 '
+  latam-matrix:
+    name: 開放街圖拉丁美洲 Matrix
+    description: '在開放街圖拉丁美洲社群的成員聊天，與 Telegram 聊天室連通。'
+  latam-telegram:
+    name: 開放街圖拉丁美洲 Telegram
+    description: '在開放街圖拉丁美洲社群的成員聊天，與 Matrix 聊天室連通。'
+  latam-twitter:
+    name: 開放街圖拉丁美洲 Twitter
+    description: '開放街圖拉丁美洲 Twitter：{url}'
+  latam-wiki:
+    name: 開放街圖維基專案拉丁美洲
+    description: 您必須知道的在拉丁美洲製圖的所有事情
+  lu-mailinglist:
+    name: Talk-lu 郵件論壇
+    description: 蘆森堡的官方郵件論壇
+  mailinglist-sk-googlegroups:
+    name: 在 Google 群組的斯洛伐克郵件論壇
+    description: 斯洛伐克的官方郵件論壇
+  map-kibera:
+    name: Map Kibera Trust
+    description: Map Kibera 是在肯亞活動的註冊組織
+    extendedDescription: Map Kibera Trust 的任務透過用創意方式採用數位工具，來增進破碎的社群的影響力與代表性。
   mappa-mercia-group:
     name: Mappa Mercia 地方社群
     description: 英格蘭中部區一帶開放街圖熱情參與者的園地
     extendedDescription: 'Mappa Mercia 計畫宗旨是幫忙英國英格蘭中部區開放街圖的成長，我們運行社群活動，提供訓練和支援當地組織，最終希望能夠開放他們的資料。'
+  md-googlegroup:
+    name: 開放街圖摩爾多瓦 Google 群組
+    description: 開放街圖摩爾多瓦的 Google 群組
+  md-telegram:
+    name: '在 Telegram 上的 @OSMMoldova'
+    description: 開放街圖摩爾多瓦Telegram 聊天室
+  ni-facebook:
+    name: 開放街圖尼加拉瓜社群
+    description: 尼加拉瓜圖客和開放街圖 Facebook
+  ni-mailinglist:
+    name: Talk-ni 郵件論壇
+    description: 'Talk-ni 是尼加拉瓜社群的官方郵件論壇 '
+  ni-telegram:
+    name: OSM 尼加拉瓜在 Telegram
+    description: 開放街圖尼加拉瓜 Telegram 聊天室
+  ni-twitter:
+    name: 開放街圖尼加拉瓜 Twitter
+    description: '開放街圖尼加拉瓜 Twitter: @osm_ni'
+  nl-forum:
+    name: 開放街圖荷蘭網路論壇
+    description: '開放街圖荷蘭的網頁論壇 '
+  nl-telegram:
+    name: 開放街圖荷蘭 Telegram
+    description: 'OSM 荷蘭社群的 Telegram 群組：{url}'
   no-forum:
     name: 開放街圖挪威網頁論壇
     description: 開放街圖挪威的網頁論壇
@@ -560,12 +843,21 @@ zh_TW:
   no-telegram:
     name: '在 Telegram 上的 @OSM_no'
     description: 開放街圖挪威 Telegram 聊天室
+  osm-afghanistan-facebook:
+    name: 開放街圖阿富汗
+    description: 改善阿富汗的 OpenStreetMap
+  osm-africa-telegram:
+    name: 開放街圖非洲 Telegram
+    description: 討論非洲相關議題的開放街圖 Telegram 群組
   osm-asia-telegram:
     name: 開放街圖亞洲 Telegram
     description: '加入我們這個大家庭：{url}'
   osm-at:
     name: 開放街圖奧地利
     description: 開放街圖在奧地利交流資訊的平台
+  osm-ch:
+    name: 開放街圖瑞士
+    description: 開放街圖在瑞士交流資訊的平台
   osm-de:
     name: 開放街圖德國
     description: 開放街圖在德國交流資訊的平台
@@ -573,9 +865,15 @@ zh_TW:
     name: 開放街圖迦納 Facebook
     description: 迦納對開放街圖有興趣的人參與的 Facebook 社團。
     extendedDescription: ' 迦納社群中的圖客，推廣迦納開放街圖和人道救援開放街圖計畫。加入我們吧！'
+  osm-gh-telegram:
+    name: 開放街圖迦納 Telegram
+    description: 開放街圖迦納 Telegram 聊天室
   osm-gh-twitter:
     name: 開放街圖迦納 Twitter
     description: '追隨我們的 Twitter： {url} '
+  osm-hr:
+    name: 開放街圖克羅埃西亞
+    description: 開放街圖在克羅埃西亞交流資訊的平台
   osm-india-forum:
     name: 開放街圖印度論壇
     description: 開放街圖印度網頁論壇
@@ -605,14 +903,31 @@ zh_TW:
   osm-iran-telegram:
     name: 開放街圖伊朗 Telegram
     description: '觀迎加入 Telegram 頻道  {url}，我們伊朗的開放街圖參與者也有超級群組，請到我們的頻道關於部分找到連結。'
+  osm-kenya:
+    name: OSM 肯亞
+    description: OSM 肯亞是 OSM 貢獻者與使用者的社群
+    extendedDescription: 'OSM 肯亞是對開放街圖有興趣的個人的社群，包括國境內的組織、開發者、以及 YouthMappers 分會。'
+  osm-kerala-telegram:
+    name: 開放街圖喀拉拉邦 Telegram
+    description: '我們一起畫喀拉拉邦，加入我們的 telegram 群。{url}'
+  osm-kerala-wiki:
+    name: 開放街圖喀拉拉邦
+    description: '想要更瞭解在喀拉拉邦畫地圖的事情：{url}'
   osm-mg-facebook:
     name: 開放街圖馬達加斯加 Facebook 社團
     description: 馬達加斯加對開放街圖有興趣的人參與的 Facebook 社團。
+  osm-ni:
+    name: MapaNica.net
+    description: 提供尼加拉瓜在地社群 OSM 服務和資訊
   osm-se:
     name: OpenStreetMap.se
     description: 提供瑞典在地社群 OSM 服務和資訊
+  osm-za-twitter:
+    name: 開放街圖南非 Twitter
+    description: '追隨我們的 Twitter： {url}'
   osmcz-facebook:
     name: 開放街圖捷克在 Facebook
+    description: 追蹤捷克開放街圖 Facebook -  包括翻譯 WeeklyOSM！
   osmcz-twitter:
     name: 捷克 Twitter @osmcz
     description: 追蹤捷克開放街圖 Twitter -  包括翻譯 WeeklyOSM！
@@ -622,6 +937,27 @@ zh_TW:
   osmgraz-twitter:
     name: OSM community Graz Twitter
     description: 開放街圖格拉茨社群的 Twitter
+  panama-telegram:
+    name: OSM 巴拿馬在 Telegram
+    description: 開放街圖巴拿馬的 Telegram 聊天室
+  pt-mailinglist:
+    name: Talk-pt 郵件論壇
+    description: 'Talk-pt 是葡萄牙開放街圖社群的官方郵件論壇 '
+  pt-telegram:
+    name: 開放街圖葡萄牙在 Telegram
+    description: '開放街圖葡萄牙社群的 Telegram 群 {url}'
+  romania-facebook:
+    name: 開放街圖羅馬尼亞 Facebook 社團
+    description: 羅馬尼亞的開放街圖圖客和使用者社團
+  romania-telegram:
+    name: '在 Telegram 上的 @OSMRomania '
+    description: 開放街圖羅馬尼亞 Telegram 聊天室
+  sa-telegram:
+    name: OSM 沙烏地阿拉伯在 Telegram
+    description: 'OSM 沙烏地阿拉伯社群的 Telegram 群組：{url}'
+  scotland-twitter:
+    name: 開放街圖阿爾巴 Twitter
+    description: '開放街圖阿爾巴 Twitter：{url}'
   se-facebook:
     name: 開放街圖瑞典 Facebook
     description: 開放街圖瑞典的 Facebook
@@ -634,6 +970,9 @@ zh_TW:
   se-mailinglist:
     name: Talk-se 郵件論壇
     description: 討論開放街圖在瑞典事物的郵件論壇
+  se-telegram:
+    name: OSM 瑞典在 Telegram
+    description: 開放街圖瑞典 Telegram 聊天室
   se-twitter:
     name: 開放街圖瑞典 Twitter
     description: '追隨我們的 Twitter： {url} '
@@ -643,6 +982,24 @@ zh_TW:
   si-mailinglist:
     name: 開放街圖斯洛維尼亞郵件論壇
     description: 開放街圖在斯洛維尼亞的郵件論壇
+  si-twitter:
+    name: 開放街圖斯洛維尼亞 Twitter
+    description: '追隨開放街圖斯洛維尼亞的 Twitter： {url}'
+  sk-facebook:
+    name: Freemap.sk 斯洛伐克社群的 Facebook 頁面
+    description: Freemap.sk 斯洛伐克社群的 Facebook 頁面
+  sk-freemap:
+    name: 開放街圖斯洛伐克的網站
+    description: 斯洛伐克以及週邊區域的開放街圖工具網站
+  sk-freemap-wiki:
+    name: 開放街圖自由斯洛伐克的 Wiki
+    description: 斯洛伐克圖客和社群的開放街圖 Wiki
+  sk-twitter:
+    name: 開放街圖自由地圖斯洛維尼 Twitter
+    description: '開放街圖自由地圖斯洛維尼 Twitter：{url}'
+  talk-africa:
+    name: Talk-africa 郵件論壇
+    description: 'Talk-africa 是非洲社群的官方郵件論壇 '
   talk-au:
     name: Talk-au 郵件論壇
     description: 讓澳洲圖客聊天的園地
@@ -656,12 +1013,91 @@ zh_TW:
     name: 開放街圖義大利拉吉歐
     description: '歡迎所有人加入！在 {signupUrl} 註冊'
     extendedDescription: 羅馬和拉吉歐區域的郵件論壇
+  talk-it-piemonte_mailinglist:
+    name: 開放街圖義大利皮埃蒙特地區的郵件論壇
+    description: '歡迎所有人加入！在 {signupUrl} 註冊'
+    extendedDescription: 皮埃蒙特區域的郵件論壇
   talk-mg:
     name: Talk-m 郵件論壇
     description: '馬達加斯加開放街圖貢獻者、社群和使用者分享和討論的園地'
+  talk-nz:
+    name: Talk-nz 郵件論壇
+    description: 紐西蘭 OSM 社群聊天群
+  talk-tz:
+    name: Talk-tz 郵件論壇
+    description: 'Talk-tz  是坦尚尼亞社群的官方郵件論壇 '
+  talk-za:
+    name: Talk-za 郵件論壇
+    description: 'Talk-za 是南非社群的官方郵件論壇 '
+  ua-facebook:
+    name: 開放街圖烏克蘭 Facebook 社團
+    description: 加入開放街圖烏克蘭社群 Facebook
+  ua-forum:
+    name: 開放街圖烏克蘭蘭論壇
+    description: 開放街圖烏克蘭社群的論壇
+  ua-github:
+    name: 開放街圖烏克蘭 GitHub
+    description: 開放街圖：烏克蘭 GitHub
+  ua-osm:
+    name: 開放街圖烏克蘭網站
+    description: 開放街圖烏克蘭的網站
+  ua-slack:
+    name: 開放街圖烏克蘭 Slack
+    description: 加入開放街圖烏克蘭社群的 Slack
+  ua-telegram:
+    name: 'Telegram 上的 @osmUA'
+    description: 開放街圖烏克蘭 Telegram 聊天室
+  ua-twitter:
+    name: 開放街圖 UA Twitter
+    description: '開放街圖烏克蘭 Twitter：{url}'
+  uk-localchapter:
+    name: 開放街圖英國
+    description: 大英國協 (包括北愛爾蘭) 的正式地區分會。
+    extendedDescription: '我們透過舉辦活動、提供社群資源、建立合作關係以及推廣來支援開放街圖。在此加入開放街圖美國：{signupUrl}'
+  uk-london-twitter:
+    name: 開放街圖倫敦 Twitter
+    description: '開放街圖倫敦 Twitter：{url}'
+  uk-twitter:
+    name: 開放街圖 UK Twitter
+    description: '開放街圖 UK Twitter：{url}'
   us-ma-mailinglist:
     name: Talk-us 麻塞諸塞州郵件論壇
     description: 麻塞諸塞州 OSM 社群 email 郵件論壇
+  uy-forum:
+    name: 開放街圖烏拉圭論壇
+    description: 開放街圖烏拉圭的網頁論壇
+  uy-irc:
+    name: 開放街圖烏拉圭的 IRC
+    description: '在 irc.freenode.org (port 6667) 上面加入 #osmuruguay'
+    extendedDescription: '在 irc.freenode.org 上面加入 #osmuruguay'
+  uy-mailinglist:
+    name: Talk-uy 郵件論壇
+    description: 'Talk-uy 是烏拉圭社群的官方郵件論壇 '
+  uzbekistan-telegram:
+    name: OSM 烏茲別克在 Telegram
+    description: 開放街圖烏茲別克的 Telegram 聊天室
+  ve-forum:
+    name: 開放街圖委內瑞拉論壇
+    description: 開放街圖委內瑞拉的網頁論壇
+  ve-mailinglist:
+    name: Talk-ve 郵件論壇
+    description: 'Talk-ve 是委內瑞拉社群的官方郵件論壇 '
+  ve-telegram:
+    name: 開放街圖委內瑞拉 Telegram
+    description: 加入開放街圖委內瑞拉 Telegram
+  ym-AASTU:
+    name: AASTU Youth Mappers
+    description: 年輕圖客阿迪斯阿貝巴科技大學分會
+    extendedDescription: '地理工程學生會 (Association of Geomatics Engineering Students, AGES) 主旨為推廣 GIS 產品與服務，同時也訓練學生使用。不只要推廣學生與產業的社會化連結，還要在大學中提供新 GIS 與探勘活動，以及訓練課程的交換新點子的平台。'
+  ym-Abia-State-University:
+    name: Absu 圖客小組
+    description: 年輕圖客阿比亞州立大學分會
+  ym-Busitema-University:
+    name: Good Mappers
+  ym-California-University-of-Pennsylvania:
+    name: CalU PA GIS 社團
+  ym-Central-Washington-University:
+    name: 地理社團
   ym-Centre-Universitaire-de-Recherche-et-dApplication-en-Tldtection-CURAT-de-lUniversit-Felix-Houphouet-Boigny:
     name: YouthMappers CURAT
     description: YouthMappers chapter at Centre Universitaire de Recherche et d'Application en Télédétection (CURAT) de l'Université Felix Houphouet Boigny
@@ -669,6 +1105,21 @@ zh_TW:
   ym-Dedan-Kimathi-University-of-Technology:
     name: GDEV
     description: YouthMappers chapter at Dedan Kimathi University of Technology
+  ym-Dhaka-College:
+    name: 年輕圖客達卡大學
+    description: 達卡大學的年輕圖客分會
+    extendedDescription: "年輕圖客達卡大學是由學生參與，採用人道行動幫助繪製世界脆弱地區的地圖。年輕圖客給予學生機會，藉由人道動機的繪製地圖來幫助人民。而開放地理資料能用在教育、導航和其他人道目的。祝繪製地圖快樂。"
+  ym-Dhaka-University:
+    name: 開放街圖年輕圖客
+    description: 達卡大學的年輕圖客分會
+    extendedDescription: 達卡大學的學生能夠以人道目的來參與繪地圖是相當榮幸的事情，我們分會給予學生機會來用人道動機畫地圖來幫助人民。
+  ym-Eastern-University:
+    name: 東方大學的年輕圖客
+    description: 東方大學的年輕圖客分會
+    extendedDescription: '孟加拉東方大學的年輕圖客，成立時就在人道危機時協助人民。學生們就是世界各處其他的圖客，承諾要幫助人民，使用地圖在教育、導航和其他人道目的。'
+  ym-Far-Eastern-University-Institute-of-Technology:
+    name: '年輕菲律賓電腦社 '
+    description: 東方科技大學的年輕圖客分會
   ym-General-Lansana-Conte-University:
     name: YouthMappers General Lansana Conte University
   ym-Institute-of-Science-and-Veterinary-Medicine:
@@ -679,6 +1130,8 @@ zh_TW:
   ym-Kenyatta-University:
     name: Kenyatta University GIS Club
     description: YouthMappers chapter at Kenyatta University
+  ym-Sherubtse-College:
+    name: 地理協會
   ym-The-Gambia-YMCA-University-of-the-Gambia:
     name: YouthMappers 接觸
     description: YouthMappers chapter at The Gambia YMCA / University of the Gambia
@@ -694,3 +1147,5 @@ zh_TW:
     description: YouthMappers chapter at University of Ghana
   ym-University-of-Mines-and-Technology:
     name: YouthMappers chapter at University of Ghana
+  ym-University-of-Southern-California:
+    name: SC 圖客

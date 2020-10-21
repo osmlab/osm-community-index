@@ -27,6 +27,9 @@ pl:
   Galicia-Twitter:
     name: OpenStreetMap Galicja na Twitterze
     description: 'Obserwuj nas na Twitterze: {url}'
+  Galicia-Xeoinquedos-Twitter:
+    name: Geoinquetos na Twitterze
+    description: 'Obserwuj nas na Twitterze: {url}'
   GeoPhilly:
     name: GeoPhilly
     description: Spotkania dla entuzjastów map z okolic Filadelfii
@@ -44,9 +47,9 @@ pl:
     name: MapMinnesota
     description: Mapujący i fani OpenStreetMap z okolic Twin Cities
     extendedDescription: Łączy fanów OpenStreetMap z Minnesoty i Twin Cities!
-  Mapping-DC-meetup:
-    name: Mapowanie DC
-    description: Ulepsz OpenStreetMap w okolicach DC
+  MappingDC-meetup:
+    name: MappingDC
+    description: Ulepsz OpenStreetMap w okolicach Waszyngtonu
     extendedDescription: 'Jesteśmy grupą mapujących wolontariuszy, którzy chcą ulepszyć OpenStreetMap w okolicach Waszyngtonu. Mamy również na celu uczyć innych ekosystemu OSM, analizowania danych, kartografii oraz GIS. Zbieramy się na comiesięcznych spotkaniach, aby skupić się na wybranych obszarach naszego miasta.'
   MappingWR:
     name: MappingWR
@@ -160,9 +163,6 @@ pl:
   OSM-CU-telegram:
     name: OSM Kuba na Telegramie
     description: Kanał OpenStreetMap Kuba na Telegramie
-  OSM-CZ-telegram:
-    name: OpenStreetMap CZ na Telegramie
-    description: 'Grupa na Telegramie czeskiej społeczności OpenStreetMap: {url}'
   OSM-Central-Salish-Sea:
     name: OpenStreetMap Central Salish Sea
     description: 'Mapujący i użytkownicy OpenStreetMap z okolic Mount Vernon'
@@ -281,6 +281,9 @@ pl:
   OSM-PL-forum:
     name: Forum OpenStreetMap Polska
     description: Forum dyskusyjne polskiej społeczności OpenStreetMap
+  OSM-PL-github:
+    name: OpenStreetMap Polska na GitHub
+    description: Polska społeczność OpenStreetMap na GitHub
   OSM-PY-telegram:
     name: OSM Paragwaj na Telegramie
     description: Kanał OpenStreetMap Paragwaj na Telegramie
@@ -360,9 +363,6 @@ pl:
     name: OpenStreetMap Utah
     description: Mapujący i użytkownicy OpenStreetMap z okolic Salt Lake City
     extendedDescription: 'Na działalność mogą składać się takie rzeczy, jak warsztaty Naucz Się Mapować, imprezy mapowania i zbieranie danych w terenie. Wydarzenia, przynajmniej na razie, będą miały miejsce w okolicach SLC. Szukamy wprawionych mapujących, jak również nowych ludzi. Dołącz do nas i zacznij mapować!'
-  OSM-Vancouver-meetup:
-    name: OpenStreetMap Vancouver
-    description: 'Mapujący i użytkownicy OpenStreetMap z okolic Vancouver'
   OSM-Wyoming:
     name: OpenStreetMap Wyoming
     description: Mapujący i użytkownicy OpenStreetMap ze stanu Wyoming
@@ -396,6 +396,9 @@ pl:
   OSM-japan-mailinglist:
     name: Lista dyskusyjna OpenStreetMap Japonia
     description: Talk-ja to oficjalna lista dyskusyjna japońskiej społeczności
+  OSM-japan-slack:
+    name: OpenStreetMap Japonia na Slacku
+    description: 'Miejsce na Slacku japońskiej społeczności OSM {signupUrl}'
   OSM-japan-twitter:
     name: OpenStreetMap Japonia na Twitterze
     description: 'Hashtag na Twitterze: {url}'
@@ -485,7 +488,7 @@ pl:
   be-matrix:
     name: Kanał OpenStreetMap BE na Matriksie
     description: Wszyscy mapujący są mile widziani!
-    extendedDescription: Większość rozmów ma miejsce na kanale "OpenStreetMap Belgia". Możesz tam zapytać o wszystko! Inne pokoje są używane dla specyficznych tematów.
+    extendedDescription: Większość rozmów ma miejsce na kanale „OpenStreetMap Belgia”. Możesz tam zapytać o wszystko! Inne pokoje są używane dla specyficznych tematów.
   be-meetup:
     name: Spotkania OpenStreetMap Belgia
     description: Spotkania dla wszystkich zainteresowanych OpenStreetMap
@@ -543,6 +546,9 @@ pl:
   de-berlin-twitter:
     name: OpenStreetMap Berlin na Twitterze
     description: 'Obserwuj nas na Twitterze: {url}'
+  de-berlin-xmpp:
+    name: OpenStreetMap Berlin-Brandenburg XMPP
+    description: 'Wejdź na nasz chat XMPP: {url}'
   de-forum:
     name: Forum OpenStreetMap DE
     description: Forum www OpenStreetMap Niemcy
@@ -552,18 +558,42 @@ pl:
   de-irc:
     name: OpenStreetMap Niemcy na IRC
     description: 'Wejdź na kanał #osm-de na irc.oftc.net (port 6667)'
+  de-karlsruhe-mailinglist:
+    name: Lista dyskusyjna Karlsruhe
+    description: Lista dyskusyjna społeczności OSM z Karlsruhe
+  de-karlsruhe-meetup:
+    name: Spotkania OpenStreetMap Karlsruhe
+    description: Mapujący i użytkownicy OpenStreetMap z okolic Karlsruhe
   de-mailinglist:
     name: Lista dyskusyjna Talk-de
     description: Talk-de to oficjalna lista dyskusyjna niemieckiej społeczności OSM
   de-matrix:
     name: Kanał OpenStreetMap Niemcy na Matriksie
-    description: 'Wejdź na kanał #osm-de:matrix.org na https://riot.im/app/#/room/osm-de:matrix.org'
+    description: 'Wejdź na kanał #osm-de:matrix.org na https://matrix.to/#/!JoceisEAQRNMtpWVGm:matrix.org?via=matrix.org&via=fairydust.space&via=tchncs.de'
+  de-mv-mailinglist:
+    name: Lista dyskusyjna Mecklenburg-Vorpommern
+    description: Lista dyskusyjna społeczności OSM z Meklemburgii-Pomorza Przedniego
+  de-mv-twitter:
+    name: OpenStreetMap Mecklenburg-Vorpommern na Twitterze
+    description: 'Obserwuj nas na Twitterze: {url}'
   de-ostwestfalen-lippe-mailinglist:
     name: Lista dyskusyjna OWL
     description: To oficjalna lista dyskusyjna społeczności OSM Ostwestfalen-Lippe
+  de-stuttgart-mailinglist:
+    name: Lista dyskusyjna Stuttgart i Badenia-Wirtembergia
+    description: Lista dyskusyjna społeczności OSM ze Stuttgartu i Badenii-Wirtembergii
+  de-stuttgart-meetup:
+    name: Spotkania OpenStreetMap Stuttgart
+    description: Mapujący i użytkownicy OpenStreetMap z okolic Stuttgartu
   de-telegram:
     name: OpenStreetMap Niemcy na Telegramie
     description: 'Dołącz do grupy OpenStreetMap Niemcy na Telegramie: {url}'
+  de-ulm_neuulm-meetup:
+    name: Spotkania OpenStreetMap Ulm i Neu-Ulm
+    description: Mapujący i użytkownicy OpenStreetMap z okolic Ulm i Neu-Ulm
+  de-ulmeralb-meetup:
+    name: Spotkania OpenStreetMap Ulmer Alb
+    description: Mapujący i użytkownicy OpenStreetMap z okolic miasta Ulm
   de-viersen-meetup:
     name: Spotkania OpenStreetMap Viersen
     description: Spotkania społeczności i użytkowników OSM z Viersen i Mönchengladbach
@@ -591,6 +621,18 @@ pl:
   fi-mailinglist:
     name: Lista dyskusyjna Talk-fi
     description: Talk-fi to oficjalna lista dyskusyjna fińskiej społeczności OSM
+  fr-35-wiki:
+    name: OpenStreetMap Rennes na Wiki
+    description: Strona na Wiki lokalnej grupy Rennes OSM
+  fr-bzh-mailinglist:
+    name: Lista dyskusyjna Talk-fr-bzh
+    description: Lista dyskusyjna Talk-fr-bzh
+  fr-bzh-twitter:
+    name: OSM-BZH na Twitterze
+    description: 'OpenStreetMap BZH na Twitterze: {url}'
+  fr-bzh-website:
+    name: Strona OpenStreetMap BZH
+    description: Mapa w języku bretońskim
   fr-chapter:
     name: Oddział lokalny OpenStreetMap Francja
     description: Pomagamy rozwijać i ulepszać OpenStreetMap we Francji.
@@ -612,6 +654,9 @@ pl:
   fr-twitter:
     name: OpenStreetMap Francja na Twitterze
     description: 'OpenStreetMap Francja na Twitterze: {url}'
+  fr-xmpp:
+    name: OpenStreetMap Francja na XMPP
+    description: Dołącz osm-fr@chat.jabberfr.org
   galicia-wiki:
     name: OpenStreetMap Wikiprojekt Galicja
     description: 'Wszystko, co powinniście wiedzieć o mapowaniu w Galicji: {url}'
@@ -624,18 +669,33 @@ pl:
     description: Talk-gb to główna lista dyskusyjna brytyjskiej (łącznie z Irlandią Północną) społeczności OSM
   geogeeks_perth_meetup:
     name: Spotkania GeoGeeks Perth
+  gr-forum:
+    name: Forum OpenStreetMap GR
+    description: Forum www OpenStreetMap Grecja
+  gr-mailinglist:
+    name: Lista dyskusyjna Talk-gr
+    description: Talk-gr to oficjalna lista dyskusyjna greckiej społeczności OSM
+  gr-matrix:
+    name: Kanał OpenStreetMap Grecja na Matriksie
+    description: 'Wejdź na kanał #osm-gr:matrix.org na https://riot.im/app/#/room/osm-gr:matrix.org'
   guatemala-telegram:
     name: OSM Gwatemala na Telegramie
     description: Kanał OpenStreetMap Gwatemala na Telegramie
   hr-facebook:
     name: OpenStreetMap Chorwacja na Facebooku
     description: OpenStreetMap Chorwacja na Facebooku
+  hr-forum:
+    name: Forum OSM Chorwacja
+    description: Forum OpenStreetMap Chorwacja
   hr-irc:
     name: OpenStreetMap Chorwacja na IRC
     description: 'Wejdź na kanał do #osm-hr na irc.freenode.org (port 6667)'
   hr-mailinglist:
     name: Lista dyskusyjna Talk-hr
     description: Lista dyskusyjna Talk-hr
+  hr-wiki:
+    name: OpenStreetMap Wikiprojekt Chorwacja
+    description: Strona Wikiprojektu dla Chorwacji
   hu-facebook:
     name: OpenStreetMap HU na Facebooku
     description: Mapujący i OpenStreetMap Węgry na Facebooku
@@ -731,9 +791,21 @@ pl:
   latam-wiki:
     name: OpenStreetMap Wikiprojekt Ameryka Łacińska
     description: Wszystko, co powinniście wiedzieć o mapowaniu w Ameryce Łacińskiej
+  lu-github:
+    name: OpenStreetMap LU na GitHub
+    description: Zapraszamy wszystkich!
+    extendedDescription: OSM Luksemburg na GitHub
+  lu-irc:
+    name: OpenStreetMap LU na IRC
+    description: 'Wejdź na kanał #osm-lu na irc.oftc.net (port 6667)'
+    extendedDescription: 'Zapraszamy na nasz kanał IRC, który jest połączony z Matriksem. Połączmy społeczność.'
   lu-mailinglist:
     name: Lista dyskusyjna Talk-lu
     description: Oficjalna lista dyskusyjna luksemburskiej społeczności OSM
+  lu-matrix:
+    name: Kanał OpenStreetMap LU na Matriksie
+    description: Zapraszamy wszystkich!
+    extendedDescription: Zapraszamy na nasz czat na Matriksie! Połączmy społeczność.
   mailinglist-sk-googlegroups:
     name: Słowacka lista dyskusyjna na Google Groups
     description: Oficjalna lista dyskusyjna słowackiej społeczności
@@ -809,6 +881,9 @@ pl:
   osm-gh-twitter:
     name: OpenStreetMap Ghana na Twitterze
     description: 'Obserwuj nas na Twitterze: {url}'
+  osm-hr:
+    name: OpenStreetMap Chorwacja
+    description: Platforma z informacjami o OpenStreetMap w Chorwacji
   osm-india-forum:
     name: Hinduskie forum OpenStreetMap
     description: Hinduskie forum OpenStreetMap
@@ -932,6 +1007,9 @@ pl:
   sk-twitter:
     name: OpenStreetMap Słowacja na Twitterze
     description: 'OpenStreetMap Słowacja na Twitterze: {url}'
+  talk-africa:
+    name: Lista dyskusyjna Talk-africa
+    description: Talk-africa to oficjalna lista dyskusyjna afrykańskiej społeczności OSM
   talk-au:
     name: Lista dyskusyjna Talk-au
     description: Miejsce rozmów mapujących z Australii
@@ -954,6 +1032,10 @@ pl:
     description: 'Miejsce rozmów twórców, społeczności i użytkowników OpenStreetMap na Madagaskarze.'
   talk-nz:
     name: Lista dyskusyjna Talk-nz
+    description: Lista dyskusyjna nowozelandzkiej społeczności OSM
+  talk-tz:
+    name: Lista dyskusyjna Talk-tz
+    description: Talk-tz to oficjalna lista dyskusyjna tanzańskiej społeczności OSM
   talk-za:
     name: Lista dyskusyjna Talk-za
     description: Talk-za to oficjalna lista dyskusyjna południowoafrykańskiej społeczności OSM
@@ -1034,9 +1116,11 @@ pl:
   ym-Ball-State-University:
     name: Gamma Theta Upsilon – oddział Iota Omega
     description: Oddział YouthMappers na Ball State University
+    extendedDescription: 'Nasz oddział jest bardzo aktywny. Skupiamy się głównie na wydarzeniach, zbieraniu funduszy i wycieczkach. Obecnie staramy się opracować więcej aktywności związanych z mapowaniem, aby przyciągnąć innych studentów, którzy mogliby być zainteresowani mapowaniem.'
   ym-Busitema-University:
     name: Good Mappers
     description: Oddział YouthMappers na Busitema University
+    extendedDescription: Good Mappers to zespół studentów z Busitema University. Jego głównym celem jest stworzenie społeczności doświadczonych mapujących, którzy będą współtworzyć mapę świata.
   ym-California-University-of-Pennsylvania:
     name: CalU PA GIS Club
     description: Oddział YouthMappers na California University of Pennsylvania
@@ -1045,6 +1129,7 @@ pl:
     description: Oddział YouthMappers na California University of Pennsylvania
   ym-Centre-Universitaire-de-Recherche-et-dApplication-en-Tldtection-CURAT-de-lUniversit-Felix-Houphouet-Boigny:
     name: YouthMappers CURAT
+    description: Oddział YouthMappers w Uniwersyteckim Centrum Badań i Zastosowań Teledetekcji (CURAT) Uniwersytetu Felix Houphouet Boigny
   ym-Clemson-University:
     name: Mapujący z Clemson
     description: Oddział YouthMappers na Uniwersytecie w Clemson
@@ -1121,6 +1206,7 @@ pl:
     name: Oddział YouthMappers Mipango
     description: YouthMappers na Institute of Rural Development Planning
   ym-Institute-of-Rural-Development-Planning-Mwanza:
+    name: Oddział YouthMappers na Institute of Rural Development Planning – Lake Zone Centre
     description: Oddział YouthMappers na Institute of Rural Development Planning w Mwanza
   ym-Institute-of-Science-and-Veterinary-Medicine:
     name: YouthMappers ISSMV Dalaba
@@ -1144,6 +1230,7 @@ pl:
     name: Nature Club Karatina University
     description: Oddział YouthMappers na Uniwersytecie w Karantinie
   ym-Kathmandu-University:
+    name: 'Geomatics Engineering Society (GES)'
     description: Oddział YouthMappers na Uniwersytecie w Katmandu
   ym-Kenyatta-University:
     name: Kenyatta University GIS Club
@@ -1154,6 +1241,7 @@ pl:
   ym-Kumi-University:
     name: Ever Last YouthMappers
     description: Oddział YouthMappers na Kumi University
+    extendedDescription: "To energiczna grupa studentów zorganizowana na wydziale Nauki i Informatyki."
   ym-Kwame-Nkrumah-University-of-Science-and-Technology:
     name: YouthMappers na Kwame Nkrumah University of Science and Technology
     description: Oddział YouthMappers na Kwame Nkrumah University of Science and Technology
@@ -1164,8 +1252,10 @@ pl:
     name: MUST Street Mappers
     description: Oddział YouthMappers na Mbarara University of Science and Technology
   ym-McGill-University:
+    name: 'Open Mapping Group McGill jest członkiem McGill Undergraduate Geography Society'
     description: Oddział YouthMappers na Uniwersytecie McGilla
   ym-Miami-University:
+    name: Geography and Planning Society
     description: Oddział YouthMappers na Uniwersytecie Miami w Oxford, Ohio
   ym-Moi-University:
     name: Stowarzyszenie Studentów Geografii
@@ -1180,6 +1270,7 @@ pl:
     name: Społeczność Studentów Technologii Geoinformacyjnych
     description: Oddział YouthMappers na Politechnice Namibijskiej (NUST)
   ym-New-York-University:
+    name: NYU mHealth Initiative Mapping Corps
     description: Oddział YouthMappers na Uniwersytecie Nowojorskim
   ym-Nimba-County-Community-College:
     name: YouthMappers na Nimba County Community College
@@ -1191,6 +1282,7 @@ pl:
     name: 'YouthMappers Njala University, Njala Campus'
     description: 'Oddział YouthMappers na Njala University, kampus Njala'
   ym-Ohio-Wesleyan-University:
+    name: Environment and Wildlife Club
     description: Oddział YouthMappers na Ohio Wesleyan University
   ym-Oklahoma-State-University:
     name: Geography Club
@@ -1204,6 +1296,7 @@ pl:
   ym-Queen-Mary-University-of-London:
     name: Queen Mary YouthMappers
     description: Oddział YouthMappers na Queen Mary University of London
+    extendedDescription: Ten oddział będzie częścią działalności Towarzystwa Geograficznego Queen Mary.
   ym-Rajshahi-University-of-Engineering-Technology:
     name: YouthMappers na RUET
     description: Oddział YouthMappers na Rajshahi University of Engineering & Technology
@@ -1225,6 +1318,7 @@ pl:
   ym-St.-Mawaggali-Trades-Training-Institute:
     name: MawaggaliMappers
     description: Oddział YouthMappers na St. Mawaggali Trades Training Institute
+    extendedDescription: Jesteśmy oddziałem YouthMappers w St. Mawaggali Trades Training Institute w Choma, Zambia. Chcemy pomóc w różnych zadaniach humanitarnych, żeby służyć mieszkańcom przez tworzenie map.
   ym-State-University-of-New-York-Geneseo:
     name: Stowarzyszenie SUNY Geneseo GIS
     description: Oddział YouthMappers na State University of New York w Geneseo
@@ -1243,7 +1337,9 @@ pl:
   ym-The-Gambia-YMCA-University-of-the-Gambia:
     name: Connected YouthMappers
     description: Oddział YouthMappers na The Gambia YMCA / University of the Gambia
+    extendedDescription: Connected YouthMappers składa się z oddanych młodych Gambijczyków, którzy dążą do zmian i wspierają rozwój narodowy.
   ym-The-George-Washington-University:
+    name: Humanitarian Mapping Society
     description: Oddział YouthMappers na George Washington University
   ym-The-Johns-Hopkins-University-SAIS:
     name: SAIS YouthMappers
@@ -1255,6 +1351,7 @@ pl:
     name: YouthMappers Unza
     description: Oddział YouthMappers na Uniwersytecie w Zambii
   ym-Tribhuvan-University:
+    name: Geomatics Engineering Students Association
     description: Oddział YouthMappers na Tribhuvan University
   ym-UW-Madison:
     name: BadgerMaps
@@ -1287,6 +1384,7 @@ pl:
   ym-Universidad-de-Antioquia:
     name: Geomatica UDEA
     description: Oddział YouthMappers na Uniwersytecie Antioquia
+    extendedDescription: 'Jesteśmy grupą zainteresowaną geodanymi i mapowaniem wspólnie z innymi w naszym kraju i w sieci YouthMappers.'
   ym-Universidad-de-Costa-Rica:
     name: YouthMappers na Universidad de Costa Rica
     description: Oddział YouthMappers na Universidad de Costa Rica
@@ -1302,6 +1400,7 @@ pl:
   ym-Universidad-de-San-Buenaventura:
     name: YouthMappers San Buenaventura
     description: Oddział YouthMappers na Uniwersytecie San Buenaventura w Kolumbii
+    extendedDescription: Z przyjemnością dołączamy YouthMappers w celu mapowania dla lepszego świata i społeczności.
   ym-Universidade-Eduardo-Mondlane:
     name: Społeczność YouthMappers w Mozambiku
     description: Oddział YouthMappers na Uniwersytecie Eduarda Mondlanego
@@ -1330,8 +1429,10 @@ pl:
     name: Towarzystwo Geograficzne UCC
     description: Oddział YouthMappers na Uniwersytecie w Cape Coast
   ym-University-of-Central-Florida:
+    name: Geospatial Information Society
     description: Oddział YouthMappers na University of Central Florida
   ym-University-of-Chicago:
+    name: Tobler Society
     description: Oddział YouthMappers na Uniwersytecie Chicagowskim
   ym-University-of-Dar-es-Salaam:
     name: YouthMappers na Uniwersytecie Dar es Salaam
@@ -1340,6 +1441,7 @@ pl:
     name: Eco-Club
     description: Oddział YouthMappers na Uniwersytecie Energii i Zasobów Naturalnych
   ym-University-of-Exeter:
+    name: University of Exeter British Red Cross Missing Maps
     description: Oddział YouthMappers na Uniwersytecie w Exeter
   ym-University-of-Ghana:
     name: YouthMappers z Uniwersytetu w Ghanie
@@ -1390,13 +1492,16 @@ pl:
     name: Rwanda YouthMappers
     description: Oddział YouthMappers na Uniwersytecie Rwandyjskim, kampus Huye
   ym-University-of-South-Carolina:
+    name: Stowarzyszenie Absolwentów Geografii
     description: Oddział YouthMappers na Uniwersytecie w Południowej Karolinie
   ym-University-of-Southern-California:
     name: SC Mappers
     description: Oddział YouthMappers na Uniwersytet Południowej Kalifornii
   ym-University-of-Vermont:
+    name: University of Vermont Humanitarian Mapping Club
     description: Oddział YouthMappers na Uniwersytecie Vermontu
   ym-University-of-Victoria:
+    name: Towarzystwo Studentów Geografii
     description: Oddział YouthMappers na University of Victoria
   ym-University-of-Warwick:
     name: Społeczność mapujących z University of Warwick
@@ -1411,6 +1516,7 @@ pl:
     name: YouthMappers w Resilience Institute na Uniwersytecie Filipińskim
     description: Oddział YouthMappers w Resilience Institute na Uniwersytecie Filipińskim
   ym-University-of-the-West-Indies-Mona-Campus:
+    name: Libraries Outreach – ODL
     description: 'Oddział YouthMappers na University of the West Indies, Mona Campus'
   ym-Vassar-College:
     name: Hudson Valley Mappers

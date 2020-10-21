@@ -27,6 +27,9 @@ es:
   Galicia-Twitter:
     name: Twitter de OpenStreetMap Galicia
     description: 'Síguenos en Twitter en {url}'
+  Galicia-Xeoinquedos-Twitter:
+    name: Xeoinquedos en Twitter
+    description: 'Síguenos en Twitter en {url}'
   GeoPhilly:
     name: GeoPhilly
     description: Encuentro para entusiastas del mapa en el área de Filadelfia
@@ -44,10 +47,10 @@ es:
     name: MapMinnesota
     description: Mapeadores y entusiastas de OpenStreetMap en el área de Twin Cities
     extendedDescription: ¡Conecta a los entusiastas de OpenStreetMap en Minnesota y Twin Cities!
-  Mapping-DC-meetup:
-    name: Mapeando DC
+  MappingDC-meetup:
+    name: MappingDC
     description: Mejore OpenStreetMap en el área de DC
-    extendedDescription: 'Somos un grupo de cartógrafos voluntarios que buscan mejorar OpenStreetMap en el área de DC. También pretendemos enseñar a otros sobre el ecosistema OSM, análisis de datos, cartografía y SIG. Nos reunimos cada dos meses para enfocarnos en un área de nuestra ciudad.'
+    extendedDescription: 'Somos un grupo de mapeadores voluntarios que tienen como objetivo mejorar OpenStreetMap en el área de DC. También pretendemos enseñar a otros sobre el ecosistema OSM, análisis de datos, cartografía y SIG. Nos reunimos cada dos meses en reuniones para centrarnos en un área de nuestra ciudad.'
   MappingWR:
     name: MappingWR
     description: Haciendo que las rutas bajas en carbono alrededor de la región de Waterloo sean fáciles de encontrar.
@@ -160,9 +163,6 @@ es:
   OSM-CU-telegram:
     name: OSM Cuba en Telegram
     description: Chat de Telegram de OpenStreetMap Cuba
-  OSM-CZ-telegram:
-    name: Telegram de OpenStreetMap CZ
-    description: 'Un grupo de Telegram para la comunidad checa de OSM: {url}'
   OSM-Central-Salish-Sea:
     name: OpenStreetMap Central Salish Sea
     description: 'Mapeadores y usuarios de OpenStreetMap alrededor de Mount Vernon, WA'
@@ -281,6 +281,9 @@ es:
   OSM-PL-forum:
     name: Foro de OpenStreetMap Polonia
     description: Foro de la comunidad polaca OpenStreetMap
+  OSM-PL-github:
+    name: OpenStreetMap Polaco en GitHub
+    description: Organización GitHub para la comunidad polaca de OpenStreetMap
   OSM-PY-telegram:
     name: OSM Paraguay en Telegram
     description: Chat de Telegram de OpenStreetMap Paraguay
@@ -360,9 +363,6 @@ es:
     name: OpenStreetMap Utah
     description: Editores y usuarios de OpenStreetMap en el área de Salt Lake City
     extendedDescription: 'Las actividades pueden incluir cosas como talleres para Aprender a Hacer Mapas, actividades de mapeo y recolección de datos al aire libre. Los eventos tendrán lugar en el área de SLC, al menos inicialmente. Estamos buscando mapeadores experimentados, así como personas nuevas en OSM. ¡Únase y mapeemos juntos!'
-  OSM-Vancouver-meetup:
-    name: OpenStreetMap Vancouver
-    description: 'Mapeadores y usuarios de OpenStreetMap en el área de Vancouver, BC'
   OSM-Wyoming:
     name: OpenStreetMap Wyoming
     description: Editores y usuarios de OpenStreetMap en el área de Wyoming
@@ -396,6 +396,9 @@ es:
   OSM-japan-mailinglist:
     name: Lista de correo de OpenStreetMap Japón
     description: Talk-ja es una lista de correo oficial para la Comunidad Japonesa
+  OSM-japan-slack:
+    name: OpenStreetMap Japón Slack
+    description: 'Un grupo de trabajo en Slack para la comunidad de OSM Japón {signupUrl}'
   OSM-japan-twitter:
     name: Twitter de OpenStreetMap Japón
     description: 'Hashtag en Twitter: {url}'
@@ -543,6 +546,9 @@ es:
   de-berlin-twitter:
     name: Twitter de OpenStreetMap Berlín
     description: 'Síguenos en Twitter: {url}'
+  de-berlin-xmpp:
+    name: OpenStreetMap Berlín-Brandenburg XMPP
+    description: 'Únase a nuestro chat multiusuario XMPP: {url}'
   de-forum:
     name: Foro de OpenStreetMap DE
     description: Foro web de OpenStreetMap Alemania
@@ -552,18 +558,42 @@ es:
   de-irc:
     name: IRC de OpenStreetMap Alemania
     description: 'Únase a #osm-de en irc.oftc.net (puerto 6667)'
+  de-karlsruhe-mailinglist:
+    name: Lista de correo de Karlsruhe
+    description: Esta es la lista de correo de la comunidad OSM del área de Karlsruhe
+  de-karlsruhe-meetup:
+    name: Meetup de OpenStreetMap Karlsruhe
+    description: Mapeadores y usuarios de OpenStreetMap en el área de Karlsruhe
   de-mailinglist:
     name: Lista de correo Talk-de
     description: Talk-de es la lista de correo oficial para la comunidad alemana de OSM
   de-matrix:
     name: Matrix de OpenStreetMap Alemania
-    description: 'Únase a #osm-de: matrix.org en https://riot.im/app/#/room/%23osm-de:matrix.org'
+    description: 'Únase a #osm-de:matrix.org en https://matrix.to/#/!JoceisEAQRNMtpWVGm:matrix.org?via=matrix.org&via=fairydust.space&via=tchncs.de'
+  de-mv-mailinglist:
+    name: Lista de correo de Mecklenburg-Vorpommern
+    description: Esta es la lista de correo de la comunidad de OSM de Mecklenburg-Vorpommern
+  de-mv-twitter:
+    name: Twitter de OpenStreetMap Mecklenburg-Vorpommern
+    description: 'Síguenos en Twitter: {url}'
   de-ostwestfalen-lippe-mailinglist:
     name: Lista de correo OWL
     description: Esta es la lista de correo de la comunidad Ostwestfalen-Lippe de OSM
+  de-stuttgart-mailinglist:
+    name: Lista de correo de Stuttgart y Baden-Wuerttemberg
+    description: Esta es la lista de correo de la comunidad OSM del área de Stuttgart y todo Baden-Wuerttemberg
+  de-stuttgart-meetup:
+    name: Meetup de OpenStreetMap Stuttgart
+    description: Mapeadores y usuarios de OpenStreetMap en el área de Stuttgart
   de-telegram:
     name: Telegram de OpenStreetMap Alemania
     description: 'Únase al supergrupo de Telegram de OpenStreetMap Alemania en {url}'
+  de-ulm_neuulm-meetup:
+    name: Meetup de OpenStreetMap Ulm Neu-Ulm
+    description: Mapeadores y usuarios de OpenStreetMap en el área de Ulm y Neu-Ulm
+  de-ulmeralb-meetup:
+    name: Meetup de OpenStreetMap Ulmer Alb
+    description: Mapeadores y usuarios de OpenStreetMap en el área de Ulmer Alb
   de-viersen-meetup:
     name: Meetup de OpenStreetMap Viersen
     description: Reunión de la comunidad y usuarios de OSM Kreis Viersen y Mönchengladbach
@@ -591,6 +621,18 @@ es:
   fi-mailinglist:
     name: Lista de correo de Talk-fi
     description: Talk-fi es la lista de correo oficial para la comunidad finlandesa de OSM
+  fr-35-wiki:
+    name: Página de Wiki OpenStreetMap Rennes
+    description: Página wiki del grupo local Rennes OSM
+  fr-bzh-mailinglist:
+    name: Lista de correo Talk-fr-bzh
+    description: Lista de correo Talk-fr-bzh
+  fr-bzh-twitter:
+    name: OSM-BZH en Twitter
+    description: 'OpenStreetMap BZH en Twitter: {url}'
+  fr-bzh-website:
+    name: Sitio web de OpenStreetMap BZH
+    description: El mapa que habla bretón
   fr-chapter:
     name: Capítulo local de OpenStreetMap Francia
     description: Ayudamos a crecer y mejorar OpenStreetMap en Francia
@@ -612,6 +654,9 @@ es:
   fr-twitter:
     name: OpenStreetMap Francia en Twitter
     description: 'OpenStreetMap Francia en Twitter: {url}'
+  fr-xmpp:
+    name: OpenStreetMap Francia en XMPP
+    description: Únase a osm-fr@chat.jabberfr.org
   galicia-wiki:
     name: Wikiproyecto de OpenStreetMap Galicia
     description: 'Todo lo que necesitas saber sobre el mapeo en Galicia: {url} (las herramientas del mundo OSM también están disponibles en gallego, ¡anímate!)'
@@ -625,18 +670,33 @@ es:
   geogeeks_perth_meetup:
     name: Grupo de Meetup de GeoGeeks Perth
     description: 'Grupo de reuniones basado en Perth para personas interesadas en mapas, datos geoespaciales y código abierto. Estaremos trabajando en cualquier cosa que implique un sentido de lugar.'
+  gr-forum:
+    name: Foro de OpenStreetMap GR
+    description: Foro web de OpenStreetMap Grecia
+  gr-mailinglist:
+    name: Lista de correo Talk-gr
+    description: Talk-gr es la lista de correo oficial para la comunidad griega de OSM
+  gr-matrix:
+    name: Matrix de OpenStreetMap Grecia
+    description: 'Únase a #osm-gr:matrix.org en https://riot.im/app/#/room/%23osm-gr:matrix.org'
   guatemala-telegram:
     name: OSM Guatemala en Telegram
     description: Chat de Telegram de OpenStreetMap Guatemala
   hr-facebook:
     name: Grupo de Facebook de OpenStreetMap de Croacia
     description: Grupo de Facebook de OpenStreetMap de Croacia
+  hr-forum:
+    name: Foro de OSM de Croacia
+    description: Foro de OpenStreetMap Croacia
   hr-irc:
     name: OpenStreetMap Croacia en IRC
     description: 'Únete a #osm-hr en irc.freenode.org (puerto 6667)'
   hr-mailinglist:
     name: Lista de correo Talk-hr
     description: Lista de correo Talk-hr
+  hr-wiki:
+    name: Wikiproyecto de OpenStreetMap Croacia
+    description: Página de Wikiproyecto para Croacia
   hu-facebook:
     name: Facebook de OpenStreetMap HU
     description: Facebook de Mapeadores y OpenStreetMap en Hungría
@@ -733,9 +793,21 @@ es:
   latam-wiki:
     name: OpenStreetMap Wikiproject Latinoamérica
     description: Todo lo que necesitas saber sobre mapeo en Latinoamérica
+  lu-github:
+    name: OpenStreetMap LU en GitHub
+    description: ¡Todos son bienvenidos!
+    extendedDescription: OSM Luxemburgo en GitHub
+  lu-irc:
+    name: Canal IRC de OpenStreetMap LU
+    description: 'Únase a #osm-lu en irc.oftc.net (puerto 6667).'
+    extendedDescription: 'Siéntase libre de unirse a nuestra Sala de IRC, está conectada con Matrix. Unamos a la comunidad.'
   lu-mailinglist:
     name: Lista de correo de Talk-lu
     description: Lista de correo oficial para la comunidad OSM de Luxemburgo
+  lu-matrix:
+    name: Canal de Matrix de LU de OpenStreetMap
+    description: ¡Todos son bienvenidos!
+    extendedDescription: ¡No dude en unirse a nuestra sala de chat Matrix! Unamos a la comunidad.
   mailinglist-sk-googlegroups:
     name: Lista de correo eslovaca en grupos de google
     description: Lista de correo oficial para la comunidad eslovaca
@@ -811,6 +883,9 @@ es:
   osm-gh-twitter:
     name: OpenStreetMap Ghana en Twitter
     description: 'Síguenos en Twitter: {url}'
+  osm-hr:
+    name: OpenStreetMap Croacia
+    description: La plataforma de información sobre OpenStreetMap en Croacia
   osm-india-forum:
     name: Foro de OpenStreetMap India
     description: Foro web de OpenStreetMap India
@@ -934,6 +1009,9 @@ es:
   sk-twitter:
     name: OpenStreetMap Freemap Eslovaquia en Twitter
     description: 'OpenStreetMap Freemap Eslovaquia en Twitter: {url}'
+  talk-africa:
+    name: Lista de correo Talk-africa
+    description: Talk-africa es la lista de correo oficial para la comunidad africana de OSM.
   talk-au:
     name: Lista de correo Talk-au
     description: Lugar para que los mapeadores australianos chateen
@@ -957,6 +1035,9 @@ es:
   talk-nz:
     name: Lista de correo de Talk-nz
     description: Charla comunitaria OSM de Nueva Zelanda
+  talk-tz:
+    name: Lista de correo Talk-tz
+    description: Talk-tz es la lista de correo oficial para la comunidad OSM de Tanzania.
   talk-za:
     name: Lista de correo Talk-za
     description: Talk-za es la lista de correo oficial para la comunidad sudafricana de OSM

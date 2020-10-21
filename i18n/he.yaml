@@ -27,18 +27,33 @@ he:
   Galicia-Twitter:
     name: הטוויטר של OpenStreetMap גליסיה
     description: 'ניתן לעקוב אחרינו בטוויטר בכתובת {url}'
+  Galicia-Xeoinquedos-Twitter:
+    name: Geoinquetos בטוויטר
+    description: 'ניתן לעקוב אחרינו בטוויטר בכתובת {url}'
   GeoPhilly:
     name: GeoPhilly
     description: קבוצת מפגשים לחובבי מפות באזור פילדלפיה
     extendedDescription: 'GeoPhilly היא קבוצה של מפתחים, מומחי גאוגרפיה, גיקים של מידע, חובבי קוד פתוח, האקרים אזרחיים ומכורי מפות שמתאגדים סביב אהבתם המשותפת למפות ולסיפורים שהן מספרות. אם מפות משמשות אותך כחלק מהעבודה שלך או שפשוט מעניין אותך לדעת יותר, המפגש הזה מיועד לך! האירועים שלנו מתוכננים להיות פתוחים, ידידותיים, חינוכיים וחברתיים, החל מהרמת כוסית דרך הרצאות בזק ואפילו סדנאות. מזמינים אותך ליצור קהילה גאו־‏מרחבית מגוונת ומעוררת השראה בפילדלפיה ביחד אתנו!'
+  MapColabora-mailinglist:
+    name: מיפוי שיתופי / ממפי סרגוסה
+    description: מיפוי שיתופי / רשימת הדיוור של ממפי סרגוסה
+  MapColabora-meetup:
+    name: מיפוי שיתופי / ממפי סרגוסה
+    description: מיפוי שיתופי / עמוד ה־Meetup של ממפי סרגוסה
+  MapColabora-twitter:
+    name: מיפוי שיתופי / ממפי סרגוסה
+    description: מיפוי שיתופי / חשבון הטוויטר של ממפי סרגוסה
   MapMinnesota:
     name: MapMinnesota
     description: ממפי וחובבי OpenStreetMap באזור טווין סיטיז
     extendedDescription: חיבור חובבי OpenStreetMap באזורי מינסוטה וטווין סיטיז!
-  Mapping-DC-meetup:
-    name: מיפוי וושינגטון הבירה
-    description: שיפור OpenStreetMap באיזור וושינגטון הבירה
-    extendedDescription: 'אנו קבוצה של ממפים מתנדבים שחותרים לשפר את OpenStreetMap באיזור וושינגטון הבירה. אנו גם חותרים ללמד אנשים נוספים על הסביבה המקיפה את OSM, ניתוח מידע, מיפוי ומערכות מידע גאוגרפיות. אנו נפגשים אחת לחודשיים כדי להתמקד על אזור מסוים בעיר שלנו.'
+  MappingDC-meetup:
+    name: MappingDC
+    description: שיפור OpenStreetMap באיזור DC
+    extendedDescription: 'אנחנו קבוצה של ממפים מתנדבים שחותרים לשפר את OpenStreetMap באיזור DC. אנו גם מוכוונים ללמד אחרים על המערכת שעוטפת את OSM, ניתוח הנתונים, רישום מפות ומערכות גאו אינפורמציה. אנו נפגשים אחת לחודשיים כדי להתמקד באזור אחד בעיר שלנו.'
+  MappingWR:
+    name: MappingWR
+    description: מסייעים בהנגשת המסלולים מופחתי הפחמן באזור ווטרלו.
   Maptime-Bogota:
     name: Maptime בוגוטה
     description: אנו קבוצה של ממפים שמעוניים למפות ב־OpenStreetMap סביב בוגוטה.
@@ -48,10 +63,11 @@ he:
     description: 'ממפים ומשתמשי OpenStreetMap סביב פורטלנד, מיין'
     extendedDescription: 'Maptime כשמו כן הוא, זמן ליצירת מפות. המטרה שלנו היא לפתוח את הדלת לאפשרויות מגוונות ליצירת מפות לכל מי שמעוניין על ידי יצירת מקום ללמידה שיתופית, חקירה ויצירת מפות באמצעות כלים וטכנולוגיות למיפוי.'
   Maptime-Oceania-Slack:
+    name: ה־Slack של Maptime אוסיאניה
     description: 'ניתן להירשם בכתובת {signupUrl}'
   MaptimeHRVA-twitter:
     name: MaptimeHRVA טוייטר
-    description: 'עקוב אחרינו בטוייטר {url}'
+    description: 'ניתן לעקוב אחרינו בטוויטר בכתובת {url}'
   Nottingham-OSM-pub-meetup:
     name: קבוצת המפגשים החודשיים של מזרח המידלנדס (נוטינגהם)
     description: מפגשים חברתיים לממפי ומשתמשי מזרח המידלנדס
@@ -86,10 +102,18 @@ he:
     name: OpenStreetMap בנגלדש
     description: שיפור OpenStreetMap בבנגלדש
     extendedDescription: 'מעניין אותך מיפוי בבנגלדש? יש לך שאלות? אולי ליצור קשר עם הקהילה המקומית? ניתן להצטרף אלינו ב־{url}. כולם מוזמנים!'
+    events:
+      sotmasia2019:
+        name: State of the Map Asia 2019
+        description: 'ניתן להצטרף לאירוע חוצה הגבולות של OpenStreetMap לשנת 2019: State of the Map Asia בדאקה'
+        where: 'מכון קרישביד שבבנגלדש (KIB), דאקה, בנגלדש'
   OSM-BO-mailinglist:
     name: קבוצת הדיוור Talk-bo
     description: Talk-bo היא קבוצת הדיוור הרשמית של קהילת OpenStreetMap הבוליביאנית
     extendedDescription: 'מעניין אותך מיפוי בבוליביה? יש לך שאלות? אולי ליצור קשר עם הקהילה המקומית? ניתן להצטרף אלינו ב־{url}. כולם מוזמנים!'
+  OSM-BiH-telegram:
+    name: הטלגרם של  BIH OpenStreetMap
+    description: 'קבוצת טלגרם לקהילת OSM בבוסניה והרצגובינה: {url}'
   OSM-Boston:
     name: OpenStreetMap בוסטון
     description: ממפים ומשתמשים ב־OpenStreetMap באזור בוסטון
@@ -97,6 +121,12 @@ he:
   OSM-CA-Slack:
     name: ה־Slack של OSM קנדה
     description: 'כולם מוזמנים! ניתן להירשם בכתובת {signupUrl}.'
+  OSM-CA-mailinglist:
+    name: קבוצת הדיוור OSM-CA
+    description: קבוצת דיוור לדיונים על OpenStreetMap בקנדה
+  OSM-CA-telegram:
+    name: '‎@osmca בטלגרם '
+    description: הטלגרם של OpenStreetMap קנדה
   OSM-CL-facebook:
     name: הפייסבוק של OpenStreetMap צ׳ילה
     description: ניתן להצטרף לקהילה של OpenStreetMap צ׳ילה בפייסבוק
@@ -111,6 +141,9 @@ he:
   OSM-CL-twitter:
     name: הטוויטר של OpenStreetMap צ׳ילה
     description: 'ניתן לעקוב אחרינו בטוויטר בכתובת {url}'
+  OSM-CN-telegram:
+    name: הטלגרם של OpenStreetMap בסין
+    description: 'קבוצת טלגרם לקהילת OSM בסין: {url}'
   OSM-CO:
     name: OpenStreetMap קולומביה
     description: חדשות על קהילת OpenStreetMap קולומביה ועל קרן OSMCo
@@ -175,6 +208,19 @@ he:
     name: OpenStreetMap הודו - מיפוי שכונות התנדבותי
     description: שיפור OpenStreetMap בהודו
     extendedDescription: 'מעניין אותך מיפוי בהודו? יש לך שאלות? אולי ליצור קשר עם הקהילה המקומית? ניתן להצטרף אלינו ב־{url}. כולם מוזמנים!'
+  OSM-Japan-telegram:
+    name: הטלגרם של OpenStreetMap ביפן
+    description: 'קבוצת טלגרם לקהילת OSM יפן: {url}'
+  OSM-Kerala-facebook:
+    name: OpenStreetMap קרלה - מיפוי שכונות התנדבותי
+    description: שיפור OpenStreetMap בנקראלה
+    extendedDescription: 'מעניין אותך מיפוי בקרלה? יש לך שאלות? אולי ליצור קשר עם הקהילה המקומית? ניתן להצטרף אלינו ב־{url}. כולם מוזמנים!'
+  OSM-Korea-mailinglist:
+    name: OpenStreetMap קוריאה רשימת תפוצה
+    description: Talk-ko היא קבוצת הדיוור הרשמית לקהילות לטובת דיונים בנושא קוריאה
+  OSM-Korea-telegram:
+    name: ערוץ הטלגרם של OSM דרום קוריאה
+    description: 'קבוצה בלתי רשמית לקהילות, משתמשי ותורמי OpenStreetMap בקוריאה לטובת שיתוף ודיונים.'
   OSM-MMR-facebook:
     name: OpenStreetMap מיאנמר
     description: שיפור OpenStreetMap במיאנמר
@@ -196,6 +242,9 @@ he:
     name: OpenStreetMap נפאל
     description: שיפור OpenStreetMap בנפאל
     extendedDescription: 'מעניין אותך מיפוי בנפאל? יש לך שאלות? אולי ליצור קשר עם הקהילה המקומית? ניתן להצטרף אלינו ב־{Url}. כולם מוזמנים!'
+  OSM-Ottawa-meetup:
+    name: אוטווה OpenStreetMap
+    description: ממפים ומשתמשים ב־OpenStreetMap באזור אוטווה
   OSM-PE:
     name: OpenStreetMap פרו
     description: חדשות ומשאבים לקהילת OpenStreetMap פרו
@@ -232,6 +281,9 @@ he:
   OSM-PL-forum:
     name: הפורום של OpenStreetMap פולין
     description: הפורום של קהילת OpenStreetMap הפולנית
+  OSM-PL-github:
+    name: OpenStreetMap פולין ב־GitHub
+    description: ארגון GitHub לקהילת OpenStreetMap הפולנית
   OSM-PY-telegram:
     name: ערוץ הטלגרם של OSM פרגוואי
     description: הטלגרם של OpenStreetMap פרגוואי
@@ -287,6 +339,9 @@ he:
   OSM-TW-mailinglist:
     name: קבוצת הדיוור של OpenStreetMap טאיוואן
     description: Talk-tw היא קבוצת הדיוור הרשמית לקהילות לטובת דיונים בנושא טאיוואן
+  OSM-TW-telegram:
+    name: הטלגרם של OpenStreetMap טייון
+    description: 'קבוצת טלגרם לקהילת OSM טיוון: {url}'
   OSM-Tampa-Bay:
     name: OpenStreetMap מפרץ טמפה
     description: ממפים ומשתמשים ב־OpenStreetMap באזור מפרץ טמפה
@@ -308,13 +363,13 @@ he:
     name: OpenStreetMap יוטה
     description: ממפים ומשתמשים ב־OpenStreetMap באזור סולט לייק סיטי
     extendedDescription: 'פעילויות עשויות לכלול דברים כגון סדנאות הדרכה למיפוי, מסיבות מיפוי ואיסוף נתונים באוויר הפתוח. האירועים מתקיימים באזור סולט לייק סיטי, לפחות בתחילת הדרך. אנו מחפשים ממפים מנוסים לצד מתחילים ב־OSM. מזמינים אותך להצטרף אלינו ופשוט למפות!'
-  OSM-Vancouver-meetup:
-    name: OpenStreetMap ונקובר
-    description: 'ממפים ומשתמשים ב־OpenStreetMap בוונקובר, קולומביה הבריטית'
   OSM-Wyoming:
     name: OpenStreetMap ויומינג
     description: ממפים ומשתמשים ב־OpenStreetMap במדינת ויומינג
     extendedDescription: 'OpenStreetMap (OSM) ויומינג היא שיתוף פעולה מקומי בין אנשים שמתעניינים ברתימת מאמציהם ליצירת מפות חופשיות. אנו מעודדים את כל הממפים לארגן או להציע אירועי מיפוי בכל רחבי המדינה. פעילויות במפגשים יכול להיות סתם מפגש חברתי, תרגול OSM ממתחילים ועד מתקדמים או מסיבות מיפוי קהילתיות.'
+  OSM-br-discord:
+    name: הדיסקורד של OpenStreetMap ברזיל
+    description: ניתן להצטרף לקהילת OpenStreetMap ברזיל בדיסקורד
   OSM-br-mailinglist:
     name: קבוצת הדיוור Talk-br
     description: קבוצת דיוור לדיונים על OpenStreetMap בברזיל
@@ -341,6 +396,9 @@ he:
   OSM-japan-mailinglist:
     name: קבוצת הדיוור של OpenStreetMap יפן
     description: Talk-ja היא קבוצת הדיוור הרשמית של הקהילה היפנית
+  OSM-japan-slack:
+    name: ה־Slack של OpenStreetMap יפן
+    description: 'מרחב עבודה ב־Slack עבור קהילת OSM היפנית {signupUrl}'
   OSM-japan-twitter:
     name: הטוויטר של OpenStreetMap יפן
     description: 'תגית הקבץ בטוויטר: {url}'
@@ -357,6 +415,8 @@ he:
     extendedDescription: 'OSMF תומך ב־OpenStreetMap על ידי תרומה, תחזוקת השרתים שעליהם פועלת מערכת OSM, ארגון הכנס State of the Map ותיאום בין המתנדבים שדואגים ש־OSM ימשיך להכות גלים. ניתן להראות את תמיכתך ולתת את קולך ל־OpenStreetMap על ידי הצטרפות לחברות ב־OSMF דרך כאן: {signupUrl}'
     events:
       sotm2020:
+        name: State of the Map 2020
+        description: 'מזמינים אותך להצטרף אלינו ל־3 ימים בקייפ טאון שבדרום אפריקה לכנס השנתי הכלל עולמי של OpenStreetMap, שמקבץ יחד את כל הקהילה לטובת קשרים חברתיים, שיתוף ולמידה.'
         where: 'קייפטאון, דרום אפריקה'
   OpenCleveland-meetup:
     name: קליבלנד פתוחה
@@ -409,7 +469,9 @@ he:
     name: הטוויטר של OpenStreetMap אוסטריה
     description: 'הטוויטר של OpenStreetMap אוסטריה: {url}'
   be-chapter:
+    name: הקבוצה המקומית  של OpenStreetMap בלגיה
     description: אנו מסייעים לפתח ולטפח את OpenStreetMap בבלגיה.
+    extendedDescription: 'אם מעניין אותך לסייע בפיתוח ובטיפוח קהילת המיפוי בבלגיה, כדי להמשיך ולעודד אנשים להשתגע על מיפוי, OpenStreetMap בלגיה היא המקום המתאים עבורך!'
   be-facebook:
     name: קהילת הפייסבוק של OpenStreetMap בלגיה
     description: ממפים ומשתמשים ב־OpenStreetMap בבלגיה בפייסבוק
@@ -436,6 +498,14 @@ he:
     description: 'OSM בלגיה בטווויטר: ‎@osm_be'
   bg-forum:
     name: הפורום של OpenStreetMap בולגריה
+    description: הפורום של קהילת OpenStreetMap בבולגריה
+  bg-wiki:
+    name: OpenStreetMap Wikiproject בולגריה
+    description: עמוד Wikiproject לבולגריה
+  bi-vc-cvl_wiki:
+    name: פעילי OSM במחוזות BI-VC-CVL שבאיטליה
+    description: ממפים של צפון פיאדמונט
+    extendedDescription: 'בנוסף למפגשים החודשיים, יש לנו גם קבוצת WhatsApp.'
   bw-facebook:
     name: מיפוי בוטסואנה בפייסבוק
     description: העמוד של OpenStreetMap בבוטסואנה
@@ -449,8 +519,18 @@ he:
     name: הממפים הצעירים של אוניברסיטת קייפ קוסט
     description: 'ניתן לעקוב אחרינו בטוויטר: {url}'
     extendedDescription: 'זה הכינוי הרשמי של אגף הממפים הצעירים באוניברסיטת קייפ קוסט, גאנה. אנו אוהבים מפות, נתונים פתוחים וגם לעזור לחלשים.'
+  ch-irc:
+    name: OpenStreetMap שווייץ ב־IRC
+    description: 'ניתן להצטרף ל־‎#osm-ch תחת irc.oftc.net (פתחה 6667)'
+  ch-mailinglist:
+    name: קבוצת הדיוור של Openstreetmap שווייץ/שוויץ/שוייץ/שויץ/שווייצריה בכל השפות המקומיות
+    description: OpenStreetMap שוויץ רשימת תפוצה
   ch-twitter:
+    name: הטוויטר של OpenStreetMap שוויץ
     description: 'ניתן לעקוב אחרינו בטוויטר: {url}'
+  cuneo-telegram:
+    name: ממפים של OpenStreetMap קונאו
+    description: הטלגרם של OpenStreetMap קונאו
   czech-community:
     name: קהילת OSM הצ׳כית
     description: 'פורטל המפה, האתר ופרטי הקשר של חברי OSM בצ׳כיה'
@@ -466,6 +546,9 @@ he:
   de-berlin-twitter:
     name: הטוויטר של OpenStreetMap ברלין
     description: 'ניתן לעקוב אחרינו בטוויטר: {url}'
+  de-berlin-xmpp:
+    name: 'ה־XMPP של OpenStreetMap ברלין-ברנדנבורג '
+    description: 'ניתן להצטרף לקבוצת הצ׳אט מרובת המשתתפים שלנו ב־XMPP:‏ {url}'
   de-forum:
     name: הפורום של OpenStreetMap גרמניה
     description: הפורום המקוון של OpenStreetMap גרמניה
@@ -475,17 +558,45 @@ he:
   de-irc:
     name: OpenStreetMap גרמניה ב־IRC
     description: 'ניתן להצטרף ל־‎#osm-de תחת irc.oftc.net (פתחה 6667)'
+  de-karlsruhe-mailinglist:
+    name: קבוצת הדיוור של קרלסרוהה
+    description: זו קבוצת הדיוור לקהילת OSM באזור קרלסרוהה
+  de-karlsruhe-meetup:
+    name: קבוצת המפגשים של OpenStreetMap קרלסרוהה
+    description: ממפים ומשתמשים ב־OpenStreetMap באזור קרלסרוהה
   de-mailinglist:
     name: קבוצת הדיוור Talk-de
     description: Talk-de היא קבוצת הדיוור הרשמית של קהילת OSM הגרמנית
   de-matrix:
     name: ה־Matrix של OpenStreetMap גרמניה
+    description: 'ניתן להצטרף ל־‎#osm-de:matrix.org דרך https://matrix.to/#/!JoceisEAQRNMtpWVGm:matrix.org?via=matrix.org&via=fairydust.space&via=tchncs.de'
+  de-mv-mailinglist:
+    name: קבוצת הדיוור של מקלנבורג-מערב פומרניה
+    description: זאת רשימת הדיוור לקהילת OSM במקלנבורג-מערב פומרניה
+  de-mv-twitter:
+    name: הטוויטר של OpenStreetMap במקלנבורג-מערב פומרניה
+    description: 'ניתן לעקוב אחרינו בטוויטר: {url}'
   de-ostwestfalen-lippe-mailinglist:
     name: קבוצת הדיוור OWL
     description: זאת רשימת הדיוור לקהילת OSM במזרח וסטפליה-ליפה
+  de-stuttgart-mailinglist:
+    name: קבוצת הדיוור של שטוטגרט ובאדן-וירטמברג
+    description: זו קבוצת הדיוור לקהילת OSM בשטוטגרט ובכל באדן-וירטמברג
+  de-stuttgart-meetup:
+    name: קבוצת המפגשים של OpenStreetMap שטוטגרט
+    description: ממפים ומשתמשים ב־OpenStreetMap באזור שטוטגרט
   de-telegram:
     name: הטלגרם של OpenStreetMap גרמניה
     description: 'ניתן להצטרף לקבוצת העל של OpenStreetMap גרמניה בטלגרם בכתובת {url}'
+  de-ulm_neuulm-meetup:
+    name: קבוצת המפגשים של OpenStreetMap אולם ונוי-אולם
+    description: ממפים ומשתמשים ב־OpenStreetMap באזור אולם ונוי-אולם
+  de-ulmeralb-meetup:
+    name: קבוצת המפגשים של OpenStreetMap אולמר אלב
+    description: ממפי ומשתמשי OpenStreetMap באזור אולמר אלב
+  de-viersen-meetup:
+    name: קבוצת המפגשים של OpenStreetMap וירסן
+    description: קהילה ומפגש משתמשי OSM במחוז וירסן ובמנשנגלדבך
   dk-forum:
     name: הפורום המקוון של OpenStreetMap דנמרק
     description: הפורום המקוון של OpenStreetMap דנמרק
@@ -495,6 +606,12 @@ he:
   dk-mailinglist:
     name: קבוצת הדיוור Talk-dk
     description: קבוצת דיוור לדיונים על OpenStreetMap בדנמרק
+  es-twitter:
+    name: הטוויטר של OpenStreetMap ספרד
+    description: 'עקוב אחרינו בטוייטר {url}'
+  et-telegram:
+    name: '‎@OpenStreetMapEthiopia בטלגרם'
+    description: הטלגרם של OpenStreetMap אתיופיה
   fi-forum:
     name: פורום OpenStreetMap פינלנד
     description: הפורום המקוון של OpenStreetMap פינלנד
@@ -504,6 +621,21 @@ he:
   fi-mailinglist:
     name: קבוצת הדיוור Talk-fi
     description: Talk-fi היא קבוצת הדיוור הרשמית של קהילת OSM הפינית
+  fr-35-wiki:
+    name: עמוד הוויקי של OpenStreetMap רן
+    description: עמוד הוויקי של קבוצת ה־OSM המקומית של רן
+  fr-bzh-mailinglist:
+    name: קבוצת הדיוור Talk-fr-bzh
+    description: קבוצת הדיוור Talk-fr-bzh
+  fr-bzh-twitter:
+    name: OSM-BZH בטוויטר
+    description: 'OpenStreetMap BZH בטוויטר: {url}'
+  fr-bzh-website:
+    name: האתר של OpenStreetMap BZH
+    description: המפה שדוברת ברטון
+  fr-chapter:
+    name: הקבוצה המקומית של OpenStreetMap צרפת
+    description: אנו מסייעים לפתח ולטפח את OpenStreetMap בצרפת.
   fr-facebook:
     name: הפייסבוק של OpenStreetMap צרפת
     description: הפייסבוק של OpenStreetMap צרפת
@@ -522,6 +654,9 @@ he:
   fr-twitter:
     name: הטוויטר של OpenStreetMap צרפת
     description: 'הטוויטר של OpenStreetMap צרפת: {url}'
+  fr-xmpp:
+    name: OpenStreetMap צרפת ב־XMPP
+    description: ניתן להצטרף אל osm-fr@chat.jabberfr.org
   galicia-wiki:
     name: OpenStreetMap Wikiproject גליסיה
     description: 'כל מה שצריך לדעת על מיפוי בגליסיה: {url}'
@@ -531,33 +666,76 @@ he:
     extendedDescription: 'ניתן להצטרף ל־‎#osm-gb תחת irc.oftc.net (פתחה 6667), נא להתאזר בסבלנות ולחכות מספר דקות לאחר פרסום שאלה'
   gb-mailinglist:
     name: קבוצת הדיוור Talk-gb
+    description: Talk-gb היא קבוצת הדיוור הרשמית של קהילת OSM של הממלכה המאוחדת (כולל צפון אירלנד)
+  geogeeks_perth_meetup:
+    name: קבוצת המפגשים של הגאוגיקים בפרת׳
+    description: 'קבוצת מפגשים מאזור פרת׳ לאנשים שמתעניינים במיפוי, נתונים גאומרחביים וקוד פתוח. אנו נעבוד על כל דבר שקשור במיקום.'
+  gr-forum:
+    name: הפורום של OpenStreetMap יוון
+    description: הפורום המקוון של OpenStreetMap יוון
+  gr-mailinglist:
+    name: קבוצת הדיוור Talk-gr
+    description: Talk-gr היא קבוצת הדיוור הרשמית של קהילת OSM היוונית
+  gr-matrix:
+    name: ה־Matrix של OpenStreetMap יוון
+    description: 'ניתן להצטרף אל ‎#osm-gr:matrix.org ב־https://riot.im/app/#/room/%23osm-gr:matrix.org'
+  guatemala-telegram:
+    name: ערוץ הטלגרם של OSM גואטמלה
+    description: הטלגרם של OpenStreetMap גואטמלה
   hr-facebook:
     name: קבוצת הפייסבוק של OpenStreetMap קרואטיה
     description: קבוצת הפייסבוק של OpenStreetMap קרואטיה
+  hr-forum:
+    name: פורום OSM קרואטיה
+    description: הפורום של OpenStreetMap קרואטיה
   hr-irc:
     name: OpenStreetMap קרואטיה ב־IRC
     description: 'ניתן להצטרף ל־‎#osm-hr תחת irc.oftc.net (פתחה 6667)'
   hr-mailinglist:
     name: קבוצת הדיוור Talk-hr
     description: קבוצת הדיוור Talk-hr
+  hr-wiki:
+    name: OpenStreetMap Wikiproject קרואטיה
+    description: עמוד Wikiproject לקרואטיה
   hu-facebook:
     name: הפייסבוק של OpenStreetMap הונגריה
     description: ממפים וקבוצת פייסבוק של OpenStreetMap בהונגריה
   hu-forum:
     name: הפורום של OpenStreetMap הונגריה
     description: הפורום המקוון של OpenStreetMap הונגריה
+  hu-matrix:
+    name: חדר ה־Matrix של OpenStreetMap הונגריה
+    description: ערוץ ה־Matrix של OpenStreetMap הונגריה
+    extendedDescription: שיחה בנושאי מפות סביב OpenStreetMap. אחד מפורומי התמיכה של קהילת OSM.
   hu-meetup:
-    name: קבוצת המפגשים של OpenStreetMap הונגרי
+    name: קבוצת המפגשים של OpenStreetMap הונגריה
     description: הפלטפורמה לכינוס מפגשים בהונגריה
   il-telegram:
     name: ערוץ הטלגרם של OSM ישראל
     description: 'קבוצת טלגרם לקהילת OpenStreetMap ישראל: {url}'
+  ireland-chapter:
+    name: הקבוצה המקומית של OpenStreetMap גואטמלה
+    description: אנו מסייעים לפתח ולטפח את OpenStreetMap באירלנד.
+    extendedDescription: 'OpenStreetMap אירלנד מהווה שופר למיזם OpenStreetMap באי האירי, תוך שיתוף פעולה עם יוזמות פתוחות נוספות.'
+  ireland-facebook:
+    name: קבוצת הפייסבוק של OpenStreetMap אירלנד
+    description: עמוד הפייסבוק של OpenStreetMap אירלנד
+  ireland-irc:
+    name: OpenStreetMap אירלנד ב־IRC
+    description: 'ניתן להצטרף ל־‎#osm-fi תחת irc.oftc.net (פתחה 6667)'
+    extendedDescription: 'ניתן להצטרף ל־‎#osm-ie תחת irc.oftc.net (פתחה 6667), נא להתאזר בסבלנות ולחכות מספר דקות לאחר פרסום שאלה'
+  ireland-mailinglist:
+    name: קבוצת הדיוור Talk-ie
+    description: Talk-ie היא קבוצת הדיוור הרשמית של קהילת OSM האירית
   ireland-telegram:
     name: ערוץ הטלגרם של OSM אירלנד
     description: הטלגרם של OpenStreetMap אירלנד
   ireland-twitter:
     name: הטוויטר של OpenStreetMap אירלנד
     description: 'הטוויטר של OpenStreetMap אירלנד: {url}'
+  is-chapter:
+    name: הקבוצה המקומית של OpenStreetMap אירלנד
+    description: אנו מסייעים לפתח ולטפח את OpenStreetMap באיסלנד.
   is-facebook:
     name: OSM איסלנד בפייסבוק
     description: העמוד של OpenStreetMap באיסלנד
@@ -567,6 +745,9 @@ he:
   is-twitter:
     name: OSM איסלנד בטוויטר
     description: הטוויטר של OpenStreetMap באיסלנד
+  it-chapter:
+    name: הקבוצה המקומית של OpenStreetMap איטליה
+    description: אנו מסייעים לפתח ולטפח את OpenStreetMap באיטליה.
   it-facebook:
     name: הפייסבוק של OpenStreetMap איטליה
     description: ניתן להצטרף לקהילה של OpenStreetMap איטליה בפייסבוק
@@ -575,42 +756,91 @@ he:
     description: 'ניתן להצטרף ל־‎#osm-it תחת irc.oftc.net (פתחה 6667)'
   it-mailinglist:
     name: קבוצת הדיוור Talk-it
-    description: Talk-at היא קבוצת הדיוור הרשמית של קהילת OSM האיטלקית
+    description: Talk-it היא קבוצת הדיוור הרשמית של קהילת OSM האיטלקית
   it-telegram:
     name: '‎@OpenStreetMapItalia בטלגרם'
     description: הטלגרם של OpenStreetMap איטליה
   it-twitter:
     name: הטוויטר של OpenStreetMap איטליה
     description: 'ניתן לעקוב אחרינו בטוויטר בכתובת {url}'
+  kazakhstan-telegram:
+    name: ערוץ הטלגרם של OSM קזחסטן
+    description: הטלגרם של OpenStreetMap קזחסטן
+  kosovo-matrix:
+    name: OpenStreetMap קוסובו ב־Matrix (עם גישור לקבוצה בטלגרם)
+    description: קבוצה ציבורית חצי רשמית לכלל קוסובו. אנו מזמינים את כל הממפים מכל מקום ובכל שפה.
   kosovo-telegram:
     name: OpenStreetMap קוסובו בטלגרם
     description: קבוצת טלגרם ציבורית חצי רשמית לכלל קוסובו. אנו מזמינים את כל הממפים מכל מקום ובכל שפה.
   latam-facebook:
     name: ' הפייסבוק של OpenStreetMap אמריקה הלטינית'
+    description: ממפים ומשתמשים ב־OpenStreetMap באמריקה הלטינית בפייסבוק
   latam-irc:
     name: OpenStreetMap אמריקה הלטינית ב־IRC
     description: 'ניתן להצטרף ל־‎#osm-latam תחת irc.oftc.net (פתחה 6667)'
   latam-mailinglist:
     name: קבוצת הדיוור Talk-latam
+    description: Talk-latam היא קבוצת הדיוור הרשמית של קהילת OpenStreetMap הלטינו אמריקאית
   latam-matrix:
     name: ערוץ ה־Matrix של OpenStreetMap אמריקה הלטינית
+    description: 'ניתן לשוחח עם חברים נוספים בקהילת OpenStreetMap של אמריקה הלטינית דרך טלגרם.'
   latam-telegram:
     name: הטלגרם של OpenStreetMap אמריקה הלטינית
+    description: 'ניתן לשוחח עם חברים נוספים בקהילת OpenStreetMap של אמריקה הלטינית, מגושר לערוץ ב־Matrix'
   latam-twitter:
+    name: הטוויטר של OpenStreetMap אמריקה הלטינית
     description: 'הטוויטר של OpenStreetMap אמריקה הלטינית: {url}'
   latam-wiki:
     name: OpenStreetMap Wikiproject אמריקה הלטינית
     description: כל מה שצריך לדעת על מיפוי באמריקה הלטינית {url}
+  lu-github:
+    name: OpenStreetMap לוקסמבורג ב־GitHub
+    description: כולם מוזמנים!
+    extendedDescription: OSM לוקסמבורג ב־GitHub
+  lu-irc:
+    name: ערוץ ה־IRC של OpenStreetMap לוקסמבורג
+    description: 'ניתן להצטרף ל־‎#osm-lu תחת irc.oftc.net (פתחה 6667)'
+    extendedDescription: 'מזמינים אותך להצטרף לחדר ה־IRC שלנו. הוא מגושר ל־Matrix. יחד נגבש את הקהילה.'
+  lu-mailinglist:
+    name: קבוצת הדיוור Talk-lu
+    description: קבוצת הדיוור הרשימת של קהילת OSM הלוקסמבורגית
+  lu-matrix:
+    name: ערוץ ה־Matrix של OpenStreetMap לוקסמבורג
+    description: כולם מוזמנים!
+    extendedDescription: מזמינים אותך להצטרף לחדר ה־Matrix שלנו! יחד נגבש את הקהילה.
+  mailinglist-sk-googlegroups:
+    name: רשימת הדיוור הסלובקית ב־google groups
+    description: רשימת הדיוור הרשמית של הקהילה הסלובקית
+  map-kibera:
+    description: מיפוי קיברה (Map Kibera) הוא ארגון רשום שפועל בקניה
   mappa-mercia-group:
     name: הקבוצה המקומית Mappa Mercia
     description: בית לחובבי OpenStreetMap במידלנדס
     extendedDescription: 'מיזם Mappa Mercia מיועד לטפל את OpenStreetMap במערב המידלנדס, אנגליה. אנו מגבשים אירועים קהילתיים, מספקים הכשרה ותומכים בארגונים מקומיים שרוצים לפתוח את הנתונים שלהם.'
+  md-googlegroup:
+    name: קבוצת ה־Google של OSM במולדובה
+    description: קבוצת ה־Google של OpenStreetMap במולדובה
+  md-telegram:
+    name: '‎@OSMMoldova בטלגרם'
+    description: הטלגרם של OpenStreetMap מולדובה
+  ni-facebook:
+    name: קהילת OpenStreetMap ניקרגואה
+    description: ממפים ומשתמשים ב־OpenStreetMap בניקרגואה בפייסבוק
+  ni-mailinglist:
+    name: קבוצת הדיוור Talk-ni
+    description: Talk-ni היא קבוצת הדיוור הרשמית של קהילת OSM של ניקרגואה
   ni-telegram:
     name: ערוץ הטלגרם של OSM ניקרגואה
     description: הטלגרם של OpenStreetMap ניקרגואה
   ni-twitter:
     name: הטוויטר של OpenStreetMap ניקרגואה
     description: 'OSM ניקרגואה בטווויטר: ‎@osm_ni'
+  nl-forum:
+    name: הפורום של OpenStreetMap הולנד
+    description: הפורום המקוון של OpenStreetMap הולנד
+  nl-telegram:
+    name: הטלגרם של OpenStreetMap הולנד
+    description: 'קבוצת טלגרם לקהילת OSM הולנד: {url}'
   no-forum:
     name: הפורום המקוון של OpenStreetMap נורווגיה
     description: הפורום המקוון של OpenStreetMap נורווגיה
@@ -626,12 +856,18 @@ he:
   osm-afghanistan-facebook:
     name: OpenStreetMap אפגניסטן
     description: שיפור OpenStreetMap באפגניסטן
+  osm-africa-telegram:
+    name: טלגרם של OpenStreetMap עבור אפריקה
+    description: טלגרם של OpenStreetMap עבור אפריקה
   osm-asia-telegram:
     name: OSM אסיה טלגרם
     description: 'מוזמנים למשפחה: {url}'
   osm-at:
     name: OpenStreetMap אוסטריה
     description: מאגר למידע על OpenStreetMap באוסטריה
+  osm-ch:
+    name: OpenStreetMap שווייץ
+    description: הפלטפורמה למידע על OpenStreetMap בשווייץ
   osm-de:
     name: OpenStreetMap גרמניה
     description: הפלטפורמה למידע על OpenStreetMap בגרמניה
@@ -639,9 +875,15 @@ he:
     name: הפייסבוק של OpenStreetMap גאנה
     description: קבוצת פייסבוק לאנשים שמתעניינים ב־OpenStreetMap.
     extendedDescription: 'ממפים בקהילת גאנה, מקדמים את OpenStreetMap ואת מיזמי צוות OpenStreetMap ההומניטרי (HOT) בגאנה. אפשר להצטרף אלינו.'
+  osm-gh-telegram:
+    name: הטלגרם של OpenStreetMap גהנה
+    description: קהילת הטלגרם של OpenStreetMap גהנה
   osm-gh-twitter:
     name: הטוויטר של OpenStreetMap גאנה
     description: 'ניתן לעקוב אחרינו בטוויטר: {url}'
+  osm-hr:
+    name: OpenStreetMap קרואטיה
+    description: הפלטפורמה למידע על OpenStreetMap בקרואטיה
   osm-india-forum:
     name: OpenStreetMap פורום הודו
     description: OpenStreetMap פורום הודו
@@ -673,19 +915,29 @@ he:
     description: 'מזמינים אותך להצטרף לערוץ הטלגרם שלנו בכתובת {url}. יש לנו גם קבוצת על של משתמשי OSM רבים שמתעניינים באיראן. ניתן למצוא את הקישור אליה בביוגרפיה של הערוץ.'
   osm-kenya:
     name: OSM קניה
+    description: OSM קניה היא קהילה של מתנדבים ומשתמשים ב־OSM
+    extendedDescription: 'OSM היא קהילה מקומית עבור עצמאיים שמתעניינים ב־OpenStreetMap כולל ארגונים, מפתחים וקבוצות ממפים צעירים מקומיות ברחבי המדינה.'
   osm-kerala-telegram:
     name: הטלגרם של OpenStreetMap קרלה
     description: 'אנחנו ממפים את קרלה ביחד. מזמינים אותך להצטרף לקבוצת הטלגרם שלנו. {url}'
   osm-kerala-wiki:
     name: OpenStreetMap קרלה
+    description: 'למידע נוסף על המיפוי של קרלה: {url}'
   osm-mg-facebook:
     name: 'קבוצת הפייסבוק של OpenStreetMap במדגסקר '
     description: קבוצת פייסבוק במלגשי לאנשים שמתעניינים ב־OpenStreetMap.
+  osm-ni:
+    name: 'MapaNica.net '
+    description: אספקת שירותים ומידע על OSM עבור הקהילה המקומית בניקרגואה
   osm-se:
     name: OpenStreetMap.se
     description: אספקת שירותים ומידע על OSM עבור הקהילה המקומית בשוודיה
+  osm-za-twitter:
+    name: הטוויטר של OpenStreetMap סקוטלנד בגאלית סקוטית
+    description: 'ניתן לעקוב אחרינו בטוויטר: {url}'
   osmcz-facebook:
     name: הפייסבוק של OpenStreetMap צ׳כיה
+    description: ניתן לעקוב אחר הקהילה הצ׳כית בפייסבוק - כולל ה־WeeklyOSM המתורגם!
   osmcz-twitter:
     name: הטוויטר של הקהילה הצ׳כית ‎@osmcz
     description: ניתן לעקוב אחר הקהילה הצ׳כית בטוויטר - כולל ה־WeeklyOSM המתורגם!
@@ -695,6 +947,27 @@ he:
   osmgraz-twitter:
     name: הטוויטר של קהילת OSM בגראץ
     description: הטוויטר של קהילת OpenStreetMap בגראץ
+  panama-telegram:
+    name: ערוץ הטלגרם של OSM פנמה
+    description: צ'אט הטלגרם של OSM פנמה
+  pt-mailinglist:
+    name: קבוצת הדיוור Talk-pt
+    description: Talk-pt היא קבוצת הדיוור הרשמית של קהילת OSM הפורטוגלית
+  pt-telegram:
+    name: הטלגרם של OpenStreetMap פורטוגל
+    description: 'קבוצת טלגרם לקהילת OpenStreetMap פורטוגל: {url}'
+  romania-facebook:
+    name: קבוצת הפייסבוק של OpenStreetMap רומניה
+    description: קבוצה של ממפים ומשתמשים ב־OpenStreetMap ברומניה
+  romania-telegram:
+    name: '‎@OSMRomania בטלגרם'
+    description: הטלגרם של OpenStreetMap רומניה
+  sa-telegram:
+    name: ‎OSM ערב הסעודית בטלגרם
+    description: 'קבוצת טלגרם לקהילת OpenStreetMap ערב הסעודית: {url}'
+  scotland-twitter:
+    name: הטוויטר של OpenStreetMap סקוטלנד בגאלית סקוטית
+    description: 'הטוויטר של OpenStreetMap סקוטלנד בגאלית סקוטית: {url}'
   se-facebook:
     name: הפייסבוק של OpenStreetMap שוודיה
     description: הפייסבוק של OpenStreetMap נורווגיה
@@ -707,6 +980,9 @@ he:
   se-mailinglist:
     name: קבוצת הדיוור Talk-se
     description: קבוצת דיוור לדיונים על OpenStreetMap בשוודיה
+  se-telegram:
+    name: OSM Sweden בטלגרם
+    description: צ'אט הטלגרם של OpenStreetMap שוודיה
   se-twitter:
     name: הטוויטר של OpenStreetMap שוודיה
     description: 'ניתן לעקוב אחרינו בטוויטר: {url}'
@@ -716,6 +992,21 @@ he:
   si-mailinglist:
     name: קבוצת הדיוור של OpenStreetMap סלובניה
     description: קבוצת דיוור על OpenStreetMap בסלובניה
+  si-twitter:
+    name: הטוויטר של OpenStreetMap סלובניה
+    description: 'ניתן לעקוב אחר הטוויטר של OpenStreetMap סלובניה: {url}'
+  sk-facebook:
+    name: עמוד הפייסבוק של קהילת Freemap.sk הסלובקית
+    description: עמוד הפייסבוק של קהילת Freemap.sk הסלובקית
+  sk-freemap:
+    name: אתר ה־OpenStreetMap של Freemap סלובקיה
+    description: האתר של מפת OpenStreetMap עם כלים בסלובקיה והאזורים העוטפים
+  sk-freemap-wiki:
+    name: ויקי OpenStreetMap של Freemap סלובקיה
+    description: ויקי של OpenStreetMap לקהילה ולממפים הסלובקים
+  talk-africa:
+    name: קבוצת הדיוור Talk-africa
+    description: Talk-africa היא קבוצת הדיוור הרשמית של קהילת OSM האפריקאית.
   talk-au:
     name: קבוצת הדיוור Talk-au
     description: מקום לשיחות בין ממפים אוסטרליים
@@ -729,9 +1020,28 @@ he:
     name: OpenStreetMap לאציו, איטליה
     description: 'כולם מוזמנים! ניתן להירשם בכתובת {signupUrl}'
     extendedDescription: קבוצת דיוור לאזורי רומא ולאציו.
+  talk-it-piemonte_mailinglist:
+    name: קבוצת הדיונים האזורית של OSM איטליה לאזור פיימונטה
+    description: 'כולם מוזמנים! ניתן להירשם בכתובת {signupUrl}'
+    extendedDescription: קבוצת דיוור לאזור פיימונטה.
   talk-mg:
     name: קבוצת הדיוור Talk-mg
     description: 'מקום לתורמים, קהילות ומשתמשי OpenStreetMap במדגסקר לשתף ולדון זה עם זה.'
+  talk-nz:
+    name: קבוצת הדיוור Talk-nz
+    description: השיח הקהילתי של OSM ניו־זילנד
+  talk-tz:
+    name: קבוצת הדיוור Talk-tz
+    description: Talk-tz היא קבוצת הדיוור הרשמית של קהילת OSM הטנזנית.
+  talk-za:
+    name: קבוצת הדיוור Talk-za
+    description: Talk-za היא קבוצת הדיוור הרשמית של קהילת OSM הדרום אפריקאית.
+  ua-facebook:
+    name: קבוצת הפייסבוק של OpenStreetMap אוקראינה
+    description: ניתן להצטרף לקהילה של OpenStreetMap אוקראינה בפייסבוק
+  ua-forum:
+    name: הפורום של OpenStreetMap אוקראינה
+    description: הפורום של קהילת OpenStreetMap באוקראינה
   ua-github:
     name: OpenStreetMap אוקראינה ב־GitHub
     description: ה־GitHub של OpenStreetMap אוקראינה
@@ -749,11 +1059,414 @@ he:
     description: 'OpenStreetMap אוקראינה בטוויטר: {url}'
   uk-localchapter:
     name: OpenStreetMap הממלכה המאוחדת
+    description: הקבוצה המקומית של הממלכה המאוחדת (כולל צפון אירלנד)
+    extendedDescription: 'אנו תומכים ב־OpenStreetMap על ידי אירוח כנסים, אספקת משאבים קהילתיים, בניית שותפויות והפצה ברבים. ניתן להצטרף ל־OpenStreetMap הממלכה המאוחדת כאן: {signupUrl}'
   uk-london-twitter:
     name: הטוויטר של OpenStreetMap לונדון
     description: 'הטוויטר של OpenStreetMap לונדון: {url}'
+  uk-twitter:
+    name: הטוויטר של OpenStreetMap בריטניה
+    description: 'הטוויטר של OpenStreetMap בריטניה: {url}'
   us-ma-mailinglist:
     name: קבוצת הדיוור Talk-us-massachusetts
     description: רשימת דיוור בדוא״ל לקהילת OSM במסצ׳וסטס
+  uy-forum:
+    name: הפורום של OpenStreetMap אורוגוואי
+    description: הפורום המקוון של OpenStreetMap אורוגוואי
+  uy-irc:
+    name: OpenStreetMap אורוגוואי ב־IRC
+    description: 'ניתן להצטרף ל־‎#osmuruguay תחת irc.freenode.org (פתחה 6667)'
+    extendedDescription: 'ניתן להצטרף ל־‎#osmuruguay תחת irc.freenode.org'
+  uy-mailinglist:
+    name: קבוצת הדיוור Talk-uy
+    description: Talk-uy היא קבוצת הדיוור הרשמית של קהילת OSM האורוגוואיית
+  uzbekistan-telegram:
+    name: OSM אוזבקיסטן בטלגרם
+    description: הטלגרם של OpenStreetMap אוזבקיסטן
+  ve-forum:
+    name: הפורום של OpenStreetMap ונצואלה
+    description: הפורום המקוון של OpenStreetMap ונצואלה
+  ve-mailinglist:
+    name: קבוצת הדיוור Talk-ve
+    description: Talk-ve היא קבוצת הדיוור הרשמית של קהילת OSM הוונצואלית
+  ve-telegram:
+    name: הטלגרם של OpenStreetMap ונצואלה
+    description: ניתן להצטרף לקהילת OpenStreetMap ונצואלה בטלגרם
+  ym-AASTU:
+    name: ממפים צערים בAASTU
+    description: ממפים צעירים אוניברסיטת Addis Ababa Science and Technology University
+  ym-Abia-State-University:
+    name: AbsuMappersTeam
+    description: ממפים צעירים בAbia State University
+  ym-African-Methodist-Episcopal-University:
+    name: ממפים צעירים-AMEU
+    description: ממפים צעירים African Methodist Episcopal University
+  ym-Ahmadu-Bello-University:
+    name: ABU Geomappers
+    description: ממפים צעירים אוניברסיטת אהמדו באלו
+  ym-Ardhi-University:
+    name: ממפים ARU
+    description: ממפים צעירים אוניברסיטת ארדהי
+  ym-Asian-University-for-Women:
+    name: ממפים צעירים AUW
+    description: ממפים צעירים אוניברסיטת אסיה לנשים
+  ym-Ball-State-University:
+    name: Gamma Theta Upsilon- Iota Omega Chapter
+    description: ממפים צעירים אוניברסיטת בל סטיית
+  ym-Busitema-University:
+    name: ממפים טובים
+    description: ממפים צעירים אוניברסיטת בוסיטמה
+  ym-California-University-of-Pennsylvania:
+    name: מועדון GIS CalU PA 
+    description: ממפים צעירים אוניברסיטת קליפורניה של פנסילבניה
+  ym-Central-Washington-University:
+    name: מועדון גיאוגרפיה
+    description: ממפים צעירים אוניברסיטת מרכז וושינגטון
+  ym-Centre-Universitaire-de-Recherche-et-dApplication-en-Tldtection-CURAT-de-lUniversit-Felix-Houphouet-Boigny:
+    name: ממפים צעירים CURAT
+  ym-Clemson-University:
+    name: ממפי קלמסון
+    description: ממפים צעירים באוניברסיטת קלמסון
+  ym-College-of-William-and-Mary:
+    name: בכל רחבי המפה!
+    description: ממפים צעירים ב College of William and Mary
+  ym-Cornell-University:
+    name: ארגון מיפוי
+    description: ממפים צעירים באוניברסיטת קורנל
+    extendedDescription: 'הסטודנטים והפקולטה בקורנל משתמשים בנתונים פתוחים ובקוד פתוח כדי לענות על אתרים בקנה מידה מקומי, ארצי ובינלאומי. מטרת העשייה היא לקדם את היעדים האקדמיים והאישיים שלנו בפיתוח מיומנויות משלנו סביב גאו-אינפורמטיקה (GIS) ובקיאות מרחבית.'
+  ym-Cuttington-University:
+    name: ממפים צעירים אוניברסיטת קטינגטון
+    description: ממפים צעירים אוניברסיטת קטינגטון
+  ym-Dedan-Kimathi-University-of-Technology:
+    name: GDEV
+    description: ממפים צעירים אוניברסיטת קימאת'י לטכנולוגיה
+  ym-Dhaka-College:
+    name: ממפים צעירים בDaka College
+    description: ממפים צעירים בDaka College
+  ym-Dhaka-University:
+    name: ממפים צעירים OSM
+    description: ממפים צעירים אוניברסיטת דהאקא
+  ym-Eastern-University:
+    name: ממפים צעירים  Eastern University
+    description: ממפים צעירים  Eastern University
+  ym-Far-Eastern-University-Institute-of-Technology:
+    description: ממפים צעירים  Far Eastern University -Institute of Technology
+  ym-Federal-School-of-Surveys:
+    description: ממפים צעירים ב Federal School of Surveys
+  ym-Federal-University-of-Technology-Akure:
+    name: ממפים צעירים בFuta Space Club
+    description: 'ממפים צעירים בFederal University of Technology, Akure'
+  ym-Fourah-Bay-College:
+    name: ארגון מיפוי סטודנטים
+    description: ממפים צעירים בFourah Bay College
+  ym-General-Lansana-Conte-University:
+    name: ממפים צעירים בGeneral Lansana Conte University
+    description: ממפים צעירים בGeneral Lansana Conte University
+  ym-George-Mason-University:
+    name: ממפי Mason University
+    description: 'ממפים צעירים בGeorge Mason University
+
+      '
+  ym-Grand-Gedeh-County-Community-College:
+    name: ממפים צעירים Grand Gedeh County Community College
+    description: ממפים צעירים Grand Gedeh County Community College
+  ym-Gujarat-University:
+    name: CCIM באחמדאבד
+    description: ממפים צעירים אוניברסיטת גוג'ארת
+  ym-Gulu-University:
+    name: ממפים בCSGU
+    description: ממפים צעירים בCSGU
+  ym-Heidelberg-University:
+    name: ממפי אסונות היידלברג
+    description: ממפים צעירים היידלברג
+  ym-Ignatius-Ajuru-University-of-Education:
+    name: IgnatiusMappersTeam (IMT)
+    description: ממפים צעירים בIgnatius Ajuru University of Education
+  ym-Indiana-University-of-Pennsylvania:
+    name: מועדון מדי גאוספציאלי
+    description: ממפים צעירים אוניברסיטת אינדיאנה של פנסילבניה
+  ym-Insititue-d-Enseignement-Superieur-de-Ruhengeri:
+    name: ממפים צעירים INES Ruhengeri
+    description: ממפים צעירים בInsititue d' Enseignement Superieur de Ruhengeri
+  ym-Institut-Suprieur-de-Management-Kolda:
+    description: ממפים צעירים בInstitut Supérieur de Management Kolda
+  ym-Institute-of-Crisis-Management-Studies:
+    name: ממפים צעירים ב Institute of Crisis Management Studies
+    description: ממפים צעירים ב Institute of Crisis Management Studies
+  ym-Institute-of-Finance-Management:
+    name: ממפי IFM
+    description: ממפים צעירים בInstitute of Finance Management
+  ym-Institute-of-Rural-Development-Planning:
+    name: ממפים צעירים מיפאנגו
+    description: ממפים צעירים בInstitute of Rural Development Planning
+  ym-Institute-of-Rural-Development-Planning-Mwanza:
+    name: ממפים צעירים בInstitute of Rural Development Planning
+    description: ממפים צעירים בInstitute of Rural Development Planning Mwanza
+  ym-Institute-of-Science-and-Veterinary-Medicine:
+    name: ממפים צעירים-ISSMV Dalaba
+    description: ממפים צעירים ב Institute of Science and Veterinary Medicine
+  ym-Istanbul-Technical-University:
+    name: ממפים צעירים ITU
+    description: ממפים צעירים אוניברסיטה טכנולוגית איסטנבול
+  ym-Jacksonville-State-University:
+    description: ' ממפים צעירים אוניברסיטת ג''קסוןוויל'
+  ym-Jahangirnagar-University:
+    name: 'ממפים צעירים אוניברסיטת IRS ג''הנגרינגר'
+    description: ממפים צעירים אוניברסיטת ג'הנגרינגר
+  ym-Jomo-Kenyatta-University-of-Agriculture-and-Technology:
+    description: ממפים צעירים אוניברסיטת ג'ומו קניטה חקלאות ואנרגיה
+  ym-Kansas-State-University:
+    description: ממפים צעירים אוניברסיטת קנסס סטיית
+  ym-Karatina-University:
+    description: ממפים צעירים אוניברסיטת קטרינה
+  ym-Kathmandu-University:
+    description: ממפים צעירים אוניברסיטת קטמנדו
+  ym-Kenyatta-University:
+    name: אוניברסיטת קניטה מועדון GIS
+    description: ממפים צעירים אוניברסיטת קניטה
+  ym-Khulna-University:
+    name: ממפים צעירים אוניברסיטת חולנה
+    description: ממפים צעירים אוניברסיטת קונלה
+  ym-Kumi-University:
+    name: ממפים צעירים Ever Last
+    description: ממפים צעירים אוניברסיטת קומי
+  ym-Kwame-Nkrumah-University-of-Science-and-Technology:
+    name: ממפים צעירים ב Kwame Nkrumah University of Science and Technology
+    description: ממפים צעירים אוניברסיטת מדע וטכנולוגיה קוונה נקרומה
+  ym-Makerere-University:
+    name: ממפים צעירים גאו
+    description: ממפים צעירים אוניברסיטת מקרירי
+  ym-Mbarara-University-of-Science-and-Technology:
+    name: ממפים MUST Street
+    description: ממפים צעירים אוניברסיטת מדע וטכנולוגיה מבארארא
+  ym-McGill-University:
+    description: ממפים צעירים אוניברסיטת מקגיל
+  ym-Miami-University:
+    description: ממפים צעירים אוניברסיטת מיאמי
+  ym-Moi-University:
+    description: ממפים צעירים אוניברסיטת מוי
+  ym-Monroe-Community-College:
+    description: ממפים צעירים מכללת מונרו
+  ym-Montgomery-College:
+    name: GeoMC
+    description: ממפים צעירים מכללת מונטגומרי
+  ym-Namibia-University-of-Science-and-Technology:
+    description: ממפים צעירים אוניברסיטת נמיביה למדע וטכנולוגיה
+  ym-New-York-University:
+    description: ממפים צעירים אוניברסיטת ניו יורק
+  ym-Nimba-County-Community-College:
+    description: ממפים צעירים Nimba County Community College
+  ym-Njala-University-Freetown-Campus:
+    description: 'ממפים צעירים אוניברסיטת נג''אלה, קמפוס פריטאון'
+  ym-Njala-University-Njala-Campus:
+    name: 'ממפים צעירים אוניברסיטת נג''אלה, קמפוס נג''אלה'
+    description: 'ממפים צעירים אוניברסיטת נג''אלה, קמפוס נג''אלה'
+  ym-Ohio-Wesleyan-University:
+    description: ממפים צעירים אוניברסיטת אוהיו ווסליין
+  ym-Oklahoma-State-University:
+    name: מועדון גיאוגרפיה
+    description: ממפים צעירים אוניברסיטת אוקלוהומה
+  ym-Open-University-of-Tanzania:
+    name: ממפים צעירים אוניברסיטה פתוחה טנזניה
+    description: פרק ממפים צעירים אוניברסיטת טנזניה
+  ym-Politecnico-di-Milano:
+    name: PoliMappers
+    description: ממפים צעירים Politecnico di Milano
+  ym-Queen-Mary-University-of-London:
+    description: ממפים צעירים ב Queen Mary University of London
+  ym-Rajshahi-University-of-Engineering-Technology:
+    name: ממפים צעירים RUET
+    description: ממפים צעירים בRajshahi University of Engineering & Technology
+  ym-SUNY-at-Fredonia:
+    name: Geoventurers
+    description: ממפים צעירים בSUNY at Fredonia
+  ym-Sacred-Heart-Junior-College:
+    name: ממפים צעירים בSacred Heart Junior College
+    description: ממפים צעירים בSacred Heart Junior College
+  ym-Sherubtse-College:
+    name: ארגון מיפוי
+    description: ממפים צעירים בSherubtse College
+  ym-Sokoine-University-of-Agriculture:
+    name: ממפים צעירים SMCoSE
+    description: ממפים צעירים בSokoine University of Agriculture
+  ym-St.-Augustine-International-University:
+    name: ממפים צעירים בSt Augustine International University
+    description: ממפים צעירים בSt Augustine International University
+  ym-St.-Mawaggali-Trades-Training-Institute:
+    name: MawaggaliMappers
+    description: ממפים צעירים בSt. Mawaggali Trades Training Institute
+  ym-State-University-of-New-York-Geneseo:
+    description: ממפים צעירים ב State University of New York Geneseo
+  ym-Stella-Maris-Polytechnic:
+    name: ממפים צעירים-SMP
+    description: ממפים צעירים בStella Maris Polytechnic
+  ym-Technical-University-of-Kenya:
+    description: ממפים צעירים בTechnical University of Kenya
+  ym-Texas-Tech-University:
+    name: ממפים צעירים TTU
+    description: ממפים צעירים Texas Tech University
+  ym-The-Citadel:
+    name: ממפים צעירים בסיטדל
+    description: ממפים צעירים בסיטדל
+  ym-The-Gambia-YMCA-University-of-the-Gambia:
+    name: ממפים צעירים מחוברים
+    description: ממפים צעירים ב Gambia YMCA / University of the Gambia
+  ym-The-George-Washington-University:
+    name: ארגון מיפוי הומניטרי
+    description: ממפים צעירים בThe George Washington University
+  ym-The-Johns-Hopkins-University-SAIS:
+    name: ממפים צעירים SAIS
+    description: 'ממפים צעירים בThe Johns Hopkins University, SAIS'
+  ym-The-Pennsylvania-State-University:
+    description: ממפים צעירים Pennsylvania State University
+  ym-The-University-of-Zambia:
+    name: ממפים צעירים UNZA
+    description: ממפים צעירים ב University of Zambia
+  ym-Tribhuvan-University:
+    description: ממפים צעירים Tribhuvan University
+  ym-UW-Madison:
+    name: מפות בדג'ר
+    description: ממפים צעירים בUW-Madison
+  ym-Uganda-Christian-University-Mbale-Campus:
+    name: ממפים לחיים
+    description: ממפים צעירים ב Uganda Christian University Mbale Campus
+  ym-Uganda-Pentecostal-University:
+    description: ממפים צעירים Uganda Christian University Mbale Campus
+  ym-Universidad-Autonoma-de-Madrid:
+    name: ממפים צעירים UAM
+    description: ממפים צעירים בUganda Christian University Mbale Campus
+  ym-Universidad-Distrital-Francisco-Jose-de-Caldas:
+    name: ממפים צעירים בוגוטה
+    description: ממפים צעירים Universidad Distrital Francisco Jose de Caldas
+  ym-Universidad-Nacional-Autnoma-de-Honduras:
+    description: ממפים צעירים Universidad Nacional Autónoma de Honduras
+  ym-Universidad-Nacional-de-Colombia:
+    name: Grupo UN
+    description: ממפים צעירים Universidad Nacional de Colombia
+  ym-Universidad-Nacional-de-Ingenieria:
+    name: Yeka Street MGA
+    description: ממפים צעירים Universidad Nacional de Ingenieria
+  ym-Universidad-Politcnica-de-Madrid:
+    description: ממפים צעירים Universidad Politécnica de Madrid
+  ym-Universidad-de-La-Guajira:
+    description: ממפים צעירים בUniversidad de La Guajira
+  ym-Universidad-de-Los-Andes:
+    description: ממפים צעירים בUniversidad de Los Andes
+  ym-Universidad-de-Puerto-Rico-Rio-Piedras:
+    name: ממפים צעירים UPR
+  ym-Universidad-de-San-Buenaventura:
+    name: ממפים צעירים San Buenaventura
+    description: ממפים צעירים San Buenaventura
+  ym-Universidade-Eduardo-Mondlane:
+    description: ממפים צעירים בUniversidade Eduardo Mondlane
+  ym-Universit-Gaston-Berger:
+    name: ממפים צעירים UGB
+    description: ממפים צעירים בUniversité Gaston Berger
+  ym-Universit-Mohammed-V-Rabat:
+    description: ממפים צעירים בUniversité Mohammed V Rabat
+  ym-Universit-de-NZrkor:
+    name: ממפים צעירים N'Zérékoré
+    description: ממפים צעירים בUniversité de N'Zérékoré
+  ym-Universit-des-Sciences-Sociale-et-de-Gestion-de-Bamako:
+    description: ממפים צעירים Université des Sciences Sociale et de Gestion de Bamako
+  ym-Universitas-Negeri-Makassar:
+    description: ממפים צעירים בUniversitas Negeri Makassar
+  ym-University-Muhammadiyah-Surakarta:
+    name: זמן-חלל
+    description: ממפים צעירים בUniversity Muhammadiyah Surakarta
   ym-University-of-California-Davis:
     name: מועדון המיפוי
+    description: 'ממפים צעירים UC Davis'
+  ym-University-of-Cape-Coast:
+    description: ממפים צעירים ב University of Cape Coast
+  ym-University-of-Central-Florida:
+    name: אגודת המידע הגאומרחבי
+    description: ממפים צעירים בUniversity of Central Florida
+  ym-University-of-Chicago:
+    description: ממפים צעירים ב University of Chicago
+  ym-University-of-Dar-es-Salaam:
+    name: ממפים צעירים בUniversity of Dar es Salaam
+    description: ממפים צעירים בUniversity of Dar es Salaam
+  ym-University-of-Energy-and-Natural-Resources:
+    name: Eco-Club
+    description: ממפים צעירים בUniversity of Energy and Natural Resources
+  ym-University-of-Exeter:
+    description: ממפים צעירים ב University of Exeter
+  ym-University-of-Ghana:
+    name: הממפים הצעירים של University of Ghana
+    description: ממפים צעירים ב University of Ghana
+  ym-University-of-Liberia-YouthMappers:
+    name: הממפים הצעירים של University of Liberia
+    description: 'ממפים צעירים בt University of Liberia '
+  ym-University-of-Malawi:
+    name: 'ממפים צעירים Chanco Malawi '
+    description: ממפים צעירים ב  University of Malawi
+  ym-University-of-Maryland-College-Park:
+    name: מועדון גיאוגרפיה
+    description: ממפים צעירים בUniversity of Maryland - College Park
+  ym-University-of-Mines-and-Technology:
+    name: ממפים צעירים ב University of Mines and Technology
+    description: ממפים צעירים ב University of  Mines and Technology
+  ym-University-of-Nairobi:
+    description: ממפים צעירים ב University of Nairobi
+  ym-University-of-Nigeria-Enugu-Campus:
+    description: 'ממפים צעירים בUniversity of Nigeria, Enugu Campus'
+  ym-University-of-Nigeria-Nsukka:
+    description: 'ממפים צעירים בNigeria, Nsukka'
+  ym-University-of-North-Texas:
+    name: מועדון גיאוגרפיה UNT
+    description: ממפים צעירים ב  University of North Texas
+  ym-University-of-Northern-Colorado:
+    description: ממפים צעירים ב University of Northern Colorado
+  ym-University-of-Oregon:
+    name: מפה ע"י צפון מערב
+    description: ממפים צעירים ב University of Oregon
+  ym-University-of-Panama:
+    name: ממפים צעירים UP
+    description: ממפים צעירים ב University of Panama
+  ym-University-of-Port-Harcourt:
+    description: ממפים צעירים ב University of Port Harcourt
+  ym-University-of-Pretoria:
+    name: מרכז למדעי גיאואינפורמציה
+    description: ממפים צעירים ב University of Pretoria
+  ym-University-of-Redlands:
+    name: URSpatial Geo-Thinkers
+    description: ממפים צעירים בUniversity of Redlands
+  ym-University-of-Rwanda-Huye-Campus:
+    name: ממפים צעירים רוואנדה
+    description: ממפים צעירים ב University of Rwanda - Huye Campus
+  ym-University-of-South-Carolina:
+    description: ממפים צעירים ב University of Southern Carolina
+  ym-University-of-Southern-California:
+    name: ממפים SC
+    description: ממפים צעירים בUniversity of Southern California
+  ym-University-of-Vermont:
+    description: ממפים צעירים ב University of Vermont
+  ym-University-of-Victoria:
+    name: ארגון סטודנטים ממפים
+    description: ממפים צעירים ב University of Victoria
+  ym-University-of-Warwick:
+    description: ממפים צעירים ב University of Warwick
+  ym-University-of-Wyoming:
+    description: ממפים צעירים ב University of Wyoming
+  ym-University-of-Zimbabwe:
+    name: UZMappers
+  ym-University-of-the-Philippines-Resilience-Institute:
+    name: ממפים צעירים ב University of the Philippines Resilience Institute
+    description: ממפים צעירים ב University of the Philippines Resilience Institute
+  ym-University-of-the-West-Indies-Mona-Campus:
+    description: 'ממפים צעירים בUniversity of the West Indies, Mona Campus'
+  ym-Vassar-College:
+    name: ממפי עמק הדסון
+    description: ממפים צעירים בVasar College
+  ym-Villanova-University:
+    description: ממפים צעירים Villanova University
+  ym-West-Virginia-University:
+    name: Maptime Morgantown
+    description: ממפים צעירים בWest Virginia University
+  ym-Western-Michigan-University:
+    name: מועדון גיאוגרפיה
+    description: ממפים צעירים בWestern Michigan University
+  ym-Yarmouk-University:
+    name: ממפים צעירים YU
+    description: ממפים צעירים בYarmouk University
