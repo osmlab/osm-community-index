@@ -6065,7 +6065,7 @@
             "name": "Free Software Hardware Movement - Matrix",
             "description": "FSHM Riot group to discuss, share and update mapping activities, events in and around Puducherry",
             "extendedDescription": "FSHM community members share their OSM mapping updates / experiences through the Riot.im group, this group is also used to discuss things related to free software / hardware, technology and activism.",
-            "url": "https://riot.im/app/#/room/#fshm:matrix.org",
+            "url": "https://matrix.to/#/#fshm:matrix.org",
             "contacts": [
               {
                 "name": "Kamalavelan",
@@ -8132,9 +8132,8 @@
             "locationSet": {"include": ["my"]},
             "languageCodes": ["en", "ms"],
             "name": "OpenStreetMap Malaysia Riot channel",
-            "description": "All mappers are welcome! Sign up at {signupUrl}",
-            "url": "https://riot.im/app/#/room/#OpenstreetmapMalaysia:matrix.org",
-            "signupUrl": "https://riot.im/app/#/register",
+            "description": "All mappers are welcome! Sign up at {url}",
+            "url": "https://matrix.to/#/#OpenstreetmapMalaysia:matrix.org",
             "contacts": [
               {"name": "Ahmad Amsyar", "email": "OfficiallyAhmad@protonmail.ch"}
             ]
@@ -13272,7 +13271,7 @@
             "name": "OpenStreetMap BE Matrix channel",
             "description": "All mappers are welcome!",
             "extendedDescription": "Most talk is happening at the \"OpenStreetMap Belgium\" channel. You can ask anything there! The other rooms are for specific subjects.",
-            "url": "https://riot.im/app/#/group/+osmbe:matrix.org",
+            "url": "https://matrix.to/#/+osmbe:matrix.org",
             "contacts": [{"name": "BE community", "email": "community@osm.be"}],
             "order": 6
           },
@@ -15533,8 +15532,8 @@
             "locationSet": {"include": ["de"]},
             "languageCodes": ["de"],
             "name": "OpenStreetMap Germany Matrix",
-            "description": "Join #osm-de:matrix.org at https://matrix.to/#/!JoceisEAQRNMtpWVGm:matrix.org?via=matrix.org&via=fairydust.space&via=tchncs.de",
-            "url": "https://matrix.to/#/!JoceisEAQRNMtpWVGm:matrix.org?via=matrix.org&via=fairydust.space&via=tchncs.de",
+            "description": "Join #osm-de:matrix.org at {url}",
+            "url": "https://matrix.to/#/#osm-de:matrix.org",
             "contacts": [
               {
                 "name": "Christopher Rossbach",
@@ -19038,8 +19037,8 @@
             "locationSet": {"include": ["gr"]},
             "languageCodes": ["el"],
             "name": "OpenStreetMap Greece Matrix",
-            "description": "Join #osm-gr:matrix.org at https://riot.im/app/#/room/%23osm-gr:matrix.org",
-            "url": "https://riot.im/app/#/room/%23osm-gr:matrix.org",
+            "description": "Join #osm-gr:matrix.org at {url}",
+            "url": "https://matrix.to/#/#osm-gr:matrix.org",
             "order": 2
           }
         }
@@ -19733,7 +19732,7 @@
             "name": "OpenStreetMap HU matrix room",
             "description": "OpenStreetMap Hungary matrix chat",
             "extendedDescription": "OpenStreetMap chat on map topics. One of the OSM community support forums.",
-            "url": "https://riot.grin.hu/#/room/#osm:grin.hu",
+            "url": "https://matrix.to/#/#osm:grin.hu",
             "contacts": [
               {"name": "Peter 'grin' Gervai", "email": "grin@grin.hu"}
             ]
@@ -21069,7 +21068,7 @@
             "languageCodes": ["en", "sq", "sr"],
             "name": "OpenStreetMap Kosovo on Matrix (bridged with the one in Telegram)",
             "description": "Semi-official all-Kosovo public group. We welcome all mappers from anywhere in any language.",
-            "url": "https://riot.im/app/#/room/#osmkosovo:matrix.org"
+            "url": "https://matrix.to/#/#osmkosovo:matrix.org"
           },
           "kosovo-telegram": {
             "id": "kosovo-telegram",
@@ -21644,7 +21643,7 @@
       "id": "lombardia.geojson",
       "properties": {
         "id": "lombardia.geojson",
-        "area": 26649.82,
+        "area": 28353.91,
         "resources": {
           "lombardia-telegram": {
             "id": "lombardia-telegram",
@@ -21686,38 +21685,44 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [9.4812, 46.52108],
-            [9.49768, 46.41514],
-            [9.60754, 46.37346],
-            [9.99207, 46.40756],
-            [10.02502, 46.63058],
-            [10.25574, 46.64944],
-            [10.42603, 46.58907],
-            [10.59082, 46.56264],
-            [10.6897, 46.41135],
-            [10.57983, 46.04655],
-            [10.55786, 45.84028],
-            [10.85999, 45.85941],
-            [10.67322, 45.61019],
-            [10.69519, 45.45628],
-            [11.22253, 45.1433],
-            [11.48071, 44.9337],
-            [10.69519, 44.92592],
-            [10.62378, 44.88312],
-            [9.95911, 45.0386],
-            [9.19556, 45.10842],
-            [8.65173, 44.992],
-            [8.48694, 45.30194],
-            [8.54736, 45.3753],
-            [8.79456, 45.41388],
-            [8.64624, 45.6294],
-            [8.54736, 45.75986],
-            [8.53638, 45.90912],
-            [8.73413, 46.13036],
-            [8.86597, 46.11133],
-            [9.04175, 46.13417],
-            [9.28345, 46.52108],
-            [9.4812, 46.52108]
+            [9.48395, 46.5173],
+            [9.50043, 46.41135],
+            [9.61029, 46.36967],
+            [9.99482, 46.40377],
+            [10.02777, 46.62681],
+            [10.25849, 46.64567],
+            [10.42878, 46.58529],
+            [10.59357, 46.55886],
+            [10.69245, 46.40756],
+            [10.58258, 46.04274],
+            [10.56061, 45.83645],
+            [10.86274, 45.85558],
+            [10.67597, 45.60635],
+            [10.69794, 45.45243],
+            [11.22528, 45.13943],
+            [11.48346, 44.92981],
+            [11.05774, 44.89674],
+            [10.69794, 44.92203],
+            [10.62653, 44.87923],
+            [9.96186, 45.03472],
+            [9.42215, 45.03083],
+            [9.33014, 44.65498],
+            [9.16809, 44.64912],
+            [8.8797, 45.03277],
+            [8.68813, 44.98399],
+            [8.5326, 45.14427],
+            [8.48179, 45.2988],
+            [8.55011, 45.37144],
+            [8.79731, 45.41002],
+            [8.70804, 45.51741],
+            [8.64899, 45.62556],
+            [8.55011, 45.75603],
+            [8.53913, 45.9053],
+            [8.73688, 46.12655],
+            [8.86872, 46.10752],
+            [9.0445, 46.13036],
+            [9.2862, 46.5173],
+            [9.48395, 46.5173]
           ]
         ]
       }
@@ -21790,7 +21795,7 @@
             "name": "OpenStreetMap LU Matrix channel",
             "description": "Everyone is welcome!",
             "extendedDescription": "Feel free to join our Matrix Chat Room! Let's bring the community together.",
-            "url": "https://app.element.io/#/room/#osmlu:matrix.org",
+            "url": "https://matrix.to/#/#osmlu:matrix.org",
             "contacts": [
               {"name": "OSM Luxembourg", "email": "contact@openstreetmap.lu"}
             ]
@@ -22491,6 +22496,55 @@
         ]
       },
       "id": "Q217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iso1A2": "MT",
+        "iso1A3": "MLT",
+        "iso1N3": "470",
+        "wikidata": "Q233",
+        "nameEn": "Malta",
+        "groups": ["039", "150", "EU", "001"],
+        "driveSide": "left",
+        "callingCodes": ["356"],
+        "id": "Q233",
+        "m49": "470",
+        "isoStatus": "official",
+        "level": "country",
+        "roadSpeedUnit": "km/h",
+        "emojiFlag": "🇲🇹",
+        "area": 12382.46,
+        "resources": {
+          "mt-irc": {
+            "id": "mt-irc",
+            "type": "irc",
+            "locationSet": {"include": ["mt"]},
+            "languageCodes": ["en", "mt"],
+            "name": "OpenStreetMap Malta IRC",
+            "description": "Join #osm-mt on irc.oftc.net (port 6667)",
+            "extendedDescription": "Join #osm-mt on irc.oftc.net (port 6667), please be patient and wait for a few minutes if you ask a question",
+            "url": "https://webchat.oftc.net/?channels=osm-mt",
+            "contacts": [
+              {"name": "Kyle Pullicino", "email": "kyle@pullicino.eu"}
+            ]
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [15.70991, 35.79901],
+              [14.07544, 36.41525],
+              [13.27636, 35.20764],
+              [15.70991, 35.79901]
+            ]
+          ]
+        ]
+      },
+      "id": "Q233"
     },
     {
       "type": "Feature",

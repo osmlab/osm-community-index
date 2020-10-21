@@ -237,7 +237,7 @@ en:
     description: Official OpenStreetMap Malaysia Forum
   OSM-MY-matrix:
     name: OpenStreetMap Malaysia Riot channel
-    description: 'All mappers are welcome! Sign up at {signupUrl}'
+    description: 'All mappers are welcome! Sign up at {url}'
   OSM-Nepal-facebook:
     name: OpenStreetMap Nepal
     description: Improve OpenStreetMap in Nepal
@@ -569,7 +569,7 @@ en:
     description: Talk-de is the official mailing list for the German OSM community
   de-matrix:
     name: OpenStreetMap Germany Matrix
-    description: 'Join #osm-de:matrix.org at https://matrix.to/#/!JoceisEAQRNMtpWVGm:matrix.org?via=matrix.org&via=fairydust.space&via=tchncs.de'
+    description: 'Join #osm-de:matrix.org at {url}'
   de-mv-mailinglist:
     name: Mecklenburg-Vorpommern Mailing List
     description: This is the mailing list for the OSM community of Mecklenburg-Vorpommern
@@ -681,7 +681,7 @@ en:
     description: Talk-gr is the official mailing list for the Greek OSM community
   gr-matrix:
     name: OpenStreetMap Greece Matrix
-    description: 'Join #osm-gr:matrix.org at https://riot.im/app/#/room/%23osm-gr:matrix.org'
+    description: 'Join #osm-gr:matrix.org at {url}'
   guatemala-telegram:
     name: OSM Guatemala on Telegram
     description: OpenStreetMap Guatemala Telegram chat
@@ -831,6 +831,10 @@ en:
   md-telegram:
     name: '@OSMMoldova on Telegram'
     description: OpenStreetMap Moldova Telegram chat
+  mt-irc:
+    name: OpenStreetMap Malta IRC
+    description: 'Join #osm-mt on irc.oftc.net (port 6667)'
+    extendedDescription: 'Join #osm-mt on irc.oftc.net (port 6667), please be patient and wait for a few minutes if you ask a question'
   ni-facebook:
     name: OpenStreetMap NI Community
     description: Mappers and OpenStreetMap on Facebook in Nicaragua
