@@ -2,12 +2,11 @@
   "id": "OSM-PH-mailinglist",
   "type": "mailinglist",
   "locationSet": {"include": ["ph"]},
-  "name": "Talk-ph Mailing List",
-  "description": "A mailing list to discuss OpenStreetMap in the Philippines",
-  "url": "https://lists.openstreetmap.org/pipermail/talk-ph/",
-  "contacts": [
-    {"name": "Maning Sambale", "email": "emmanuel.sambale@gmail.com"},
-    {"name": "OSM PH Group", "email": "osm.pilipinas@gmail.com"}
-  ],
-  "order": -3
+  "languageCodes": ["en", "tl"],
+  "name": "talk-ph Mailing List",
+  "description": "Official and publicly-archived channel of the OSM Philippines community",
+  "extendedDescription": "Official and publicly-archived communications channel for the OSM Philippines community that is hosted by the OSM Foundation and used for announcements and general community discussions.",
+  "url": "https://lists.openstreetmap.org/listinfo/talk-ph/",
+  "contacts": [{"name": "OSM PH core team", "email": "osm.pilipinas@gmail.com"}],
+  "order": 2
 }
