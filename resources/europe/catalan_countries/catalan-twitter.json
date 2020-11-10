@@ -1,0 +1,14 @@
+{
+  "id": "cat-twitter",
+  "type": "twitter",
+  "locationSet": {"include": ["catalan_countries.geojson"]},
+  "languageCodes": ["ca"],
+  "name": "OpenStreetMap Catalan Countries on Twitter",
+  "description": "Follow us on Twitter @OSMcatala",
+  "url": "https://twitter.com/OSMcatala",
+  "order": 7,
+  "contacts": [
+    {"name": "Carlos Sánchez", "email": "erielkhan@gmail.com"},
+    {"name": "Jose Luis Infante", "email": "jlinfante@llefia.org"}
+  ]
+}
