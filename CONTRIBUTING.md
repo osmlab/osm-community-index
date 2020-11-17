@@ -99,7 +99,9 @@ Each resource must have a `locationSet` to define where the resource is active.
 ```
 
 The "locations" can be any of the following:
-* Codes recognized by the [country-coder library](https://github.com/ideditor/country-coder#readme). These should be [ISO 3166-1 2 or 3 letter country codes or UN M.49 numeric codes](https://en.wikipedia.org/wiki/List_of_countries_by_United_Nations_geoscheme).<br/>_Example: `"de"`_
+* Codes recognized by the [country-coder library](https://github.com/ideditor/country-coder#readme). These can be [ISO 3166-1 2 or 3 letter country codes, UN M.49 numeric codes](https://en.wikipedia.org/wiki/List_of_countries_by_United_Nations_geoscheme), or Wikidata QIDs.<br/>
+You can view the complete list of supported codes on https://ideditor.codes<br/>
+_Examples: `"de", "conus", "Q35"`_
 * Points as `[longitude, latitude]` coordinate pairs.  A 25km radius circle will be computed around the point.<br/>_Example: `[8.67039, 49.41882]`_
 * Filenames for `.geojson` features. If you want to use your own features, you'll need to add these under the `features/` folder.  Each `Feature` must have an `id` that ends in `.geojson`.<br/>_Example: `"de-hamburg.geojson"`_<br/>Tip: You can use [geojson.io](http://geojson.io) or other tools to create these.
 
