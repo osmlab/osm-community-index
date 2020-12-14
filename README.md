@@ -1,5 +1,5 @@
+[![build](https://github.com/osmlab/osm-community-index/workflows/build/badge.svg)](https://github.com/osmlab/osm-community-index/actions?query=workflow%3A%22build%22)
 [![npm version](https://badge.fury.io/js/osm-community-index.svg)](https://badge.fury.io/js/osm-community-index)
-[![Build Status](https://travis-ci.org/osmlab/osm-community-index.svg?branch=main)](https://travis-ci.org/osmlab/osm-community-index)
 
 
 ## osm-community-index
