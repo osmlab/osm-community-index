@@ -4,7 +4,7 @@ const LocationConflation = require('@ideditor/location-conflation');
 const prettyStringify = require('json-stringify-pretty-compact');
 const shell = require('shelljs');
 
-const featureCollection = require('./dist/features.json');
+const featureCollection = require('./dist/featureCollection.json');
 const resources = require('./dist/resources.json').resources;
 
 buildAll();
@@ -20,18 +20,16 @@ function buildAll() {
 
   // Start clean
   shell.rm('-f', [
-    'dist/combined.geojson',
-    'dist/combined.min.geojson',
-    'dist/features.min.json',
-    'dist/resources.min.json'
+    'dist/completeFeatureCollection*',
+    'dist/*.min.json'
   ]);
 
   const combined = generateCombined(resources, featureCollection);
 
   // Save individual data files
-  fs.writeFileSync('dist/combined.geojson', prettyStringify(combined) );
-  fs.writeFileSync('dist/combined.min.geojson', JSON.stringify(combined) );
-  fs.writeFileSync('dist/features.min.json', JSON.stringify(featureCollection) );
+  fs.writeFileSync('dist/completeFeatureCollection.geojson', prettyStringify(combined) );
+  fs.writeFileSync('dist/completeFeatureCollection.min.geojson', JSON.stringify(combined) );
+  fs.writeFileSync('dist/featureCollection.min.json', JSON.stringify(featureCollection) );
   fs.writeFileSync('dist/resources.min.json', JSON.stringify({ resources: resources }) );
 
   console.timeEnd(END);
@@ -89,7 +87,11 @@ function generateCombined(resources, featureCollection) {
     let keepFeature = keepFeatures[feature.id];
     if (!keepFeature) {
       keepFeature = deepClone(feature);
-      keepFeature.properties.resources = {};
+      keepFeature.properties = {
+        id: feature.properties.id,
+        area: feature.properties.area,
+        resources: {}
+      };
       keepFeatures[feature.id] = keepFeature;
     }
 

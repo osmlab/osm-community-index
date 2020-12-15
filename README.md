@@ -4,7 +4,7 @@
 
 ## osm-community-index
 
-:speech_balloon: An index of community resources for OpenStreetMap.
+💬 An index of community resources for OpenStreetMap.
 
 * View the map of OpenStreetMap communities: https://openstreetmap.community
 * Or search and filter the community resources: https://community.osm.be/
@@ -34,8 +34,6 @@ To add your community resource to the index:
   * If you don't have Node installed, you can skip this step and we will do it for you.
 * If there are no errors, submit a pull request.
 
-:point_right: See [CONTRIBUTING.md](CONTRIBUTING.md) for full details about how to add a community resource to this index.
-
 
 #### Source files
 
@@ -44,15 +42,20 @@ The source files for this index are stored in two kinds of files:
 * Under `resources/` there are `.json` files to describe the community resources
 * Under `features/` there are custom `.geojson` files
 
+👉 See [CONTRIBUTING.md](CONTRIBUTING.md) for full details about how to add a community resource to this index.
+
 
 #### Distributed Files
 
 Several files are published under `dist/`.  These are generated - do not edit them.
 
-* `features.json` - A GeoJSON FeatureCollection containing _only_ the custom Features
-* `resources.json` - A JSON object containing all the resources
-* `combined.geojson` - A GeoJSON file containing a FeatureCollection of all Features, each with available resources included in a `resources` property.
+* `resources.json` - A JSON object containing _only_ the community resources
+* `featureCollection.json` - A GeoJSON FeatureCollection containing _only_ the custom Features
+* `completeFeatureCollection.json` - A GeoJSON FeatureCollection of _all_ Features, each with available resources included in a `resources` property.
 * `img/*` - SVG logos for all the resource types
+
+🧐: "Why use `.json` instead of `.geojson` as the file extension for generated GeoJSON files?"<br/>
+🤓: "So you can `require` or `import` them as modules into other JavaScript code if you want."<br/>
 
 
 #### Prerequisites

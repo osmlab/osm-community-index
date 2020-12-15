@@ -31,7 +31,7 @@ function buildAll() {
 
   // Start clean
   shell.rm('-f', [
-    'dist/features.json',
+    'dist/featureCollection.json',
     'dist/resources.json',
     'i18n/en.yaml'
   ]);
@@ -40,7 +40,7 @@ function buildAll() {
   let tstrings = {};   // translation strings
   const features = collectFeatures();
   const featureCollection = { type: 'FeatureCollection', features: features };
-  fs.writeFileSync('dist/features.json', prettyStringify(featureCollection, { maxLength: 9999 }));
+  fs.writeFileSync('dist/featureCollection.json', prettyStringify(featureCollection, { maxLength: 9999 }));
 
   // Resources
   const resources = collectResources(tstrings, featureCollection);
