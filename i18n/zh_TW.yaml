@@ -28,7 +28,6 @@ zh_TW:
     name: 開放街圖加利西亞 Twitter
     description: '在{url}於 Twitter 追隨我們'
   Galicia-Xeoinquedos-Twitter:
-    name: Twitter 上的 Geoinquetos
     description: '在 {url} 於 Twitter 上追蹤我們'
   GeoPhilly:
     name: GeoPhilly
@@ -237,7 +236,6 @@ zh_TW:
     description: 官方開放街圖馬來西亞論壇
   OSM-MY-matrix:
     name: OpenStreetMap 馬來西亞 Riot channel
-    description: '歡迎所有圖客！在 {signupUrl} 註冊'
   OSM-Nepal-facebook:
     name: 開放街圖尼泊爾
     description: 改進尼泊爾的開放街圖
@@ -263,18 +261,8 @@ zh_TW:
   OSM-PE-twitter:
     name: 開放街圖祕魯 Twitter
     description: '在 {url} 上追隨我們的 Twitter '
-  OSM-PH-facebook:
-    name: 開放街圖菲律賓 Facebook
-    description: '歡迎來到開放街圖菲律賓，我們歡迎所有菲律賓人貢獻一己之力到開放街圖計畫。'
-  OSM-PH-mailinglist:
-    name: Talk-ph 郵件論壇
-    description: 討論開放街圖在菲律賓事物的郵件論壇
-  OSM-PH-slack:
-    name: 開放街圖 PH Slack
-    description: '歡迎所有人加入！在 {signupUrl} 註冊'
   OSM-PH-telegram:
     name: 開放街圖 PH Telegram
-    description: '非官方的菲律賓貢獻者和友好者的 Telegram 群組。'
   OSM-PL-facebook-group:
     name: 開放街圖波蘭 Facebook 社團
     description: 波蘭的開放街圖圖客和使用者社團
@@ -569,7 +557,6 @@ zh_TW:
     description: 'Talk-de 是德國開放街圖社群的郵件論壇 '
   de-matrix:
     name: 開放街圖德國 Matrix
-    description: '在 https://matrix.to/#/!JoceisEAQRNMtpWVGm:matrix.org?via=matrix.org&via=fairydust.space&via=tchncs.de 加入 #osm-de:matrix.org '
   de-mv-mailinglist:
     name: 梅克倫堡-西波美拉尼亞郵件論壇
     description: 這是梅克倫堡-西波美拉尼亞開放街圖社群的郵件論壇
@@ -678,7 +665,6 @@ zh_TW:
     description: 'Talk-gr 是德國開放街圖社群的郵件論壇 '
   gr-matrix:
     name: 開放街圖希臘 Matrix
-    description: '到 https://riot.im/app/#/room/%23osm-gr:matrix.org 上加入 #osm-gr:matrix.org'
   guatemala-telegram:
     name: OSM 瓜地馬拉在 Telegram
     description: 開放街圖瓜地馬拉 Telegram 聊天室
@@ -793,9 +779,21 @@ zh_TW:
   latam-wiki:
     name: 開放街圖維基專案拉丁美洲
     description: 您必須知道的在拉丁美洲製圖的所有事情
+  lu-github:
+    name: 開放街圖盧森堡 GitHub
+    description: 歡迎所有人！
+    extendedDescription: 開放街圖盧森堡的 GitHub
+  lu-irc:
+    name: OpenStreetMap 盧森堡 ICR 頻道
+    description: '在 irc.oftc.net 上加入 #osm-lu（連接埠 6667）。'
+    extendedDescription: '歡迎加入 ICR 頻道空間，此頻道已經與 Matrix 互連，整合整個社群。'
   lu-mailinglist:
     name: Talk-lu 郵件論壇
     description: 蘆森堡的官方郵件論壇
+  lu-matrix:
+    name: OpenStreetMap LU Matrix 頻道
+    description: 歡迎所有人！
+    extendedDescription: 歡迎加入 ICR 頻道空間，整合整個社群。
   mailinglist-sk-googlegroups:
     name: 在 Google 群組的斯洛伐克郵件論壇
     description: 斯洛伐克的官方郵件論壇

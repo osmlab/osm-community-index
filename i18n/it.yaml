@@ -21,6 +21,8 @@ it:
     name: OSM Dallas-Fort Worth
     description: Gruppo OpenStreetMap di Dallas-Fort Worth
     extendedDescription: 'Dallas, Fort Work, e tutte le città limitrofe abbondano di persone creative ed esperte di tecnologia. La nostra vision è quella di cercare in questo gruppo nuove vie di utilizzare le fantastiche risorse offerte da OSM.'
+  Galicia-Twitter:
+    description: 'Seguici su Twitter a {url}'
   GeoPhilly:
     name: GeoPhilly
     description: Meetup per appassionati di mappe nella zona di Philadelphia
@@ -37,6 +39,8 @@ it:
     name: MaptimeME
     description: 'Mappatori e utenti OpenStreetMap nei dintorni di Portland, Maine'
     extendedDescription: 'Maptime è letteralmente tempo per la mappatura. La nostra missione è quella di aprire le porte della cartografia a chiunque sia interessato, creando un posto e dei momenti per l’apprendimento collaborativo, l’esplorazione, la creazione di mappe usando strumenti e tecnologie per la mappatura.'
+  Maptime-Oceania-Slack:
+    description: 'Registrati all''indirizzo {signupUrl}'
   MaptimeHRVA-twitter:
     name: Twitter di MaptimeHRVA
     description: 'Seguici su Twitter all’indirizzo {url}'
@@ -179,7 +183,6 @@ it:
     description: Forum web ufficiale di OpenStreetMap della Malaysia
   OSM-MY-matrix:
     name: Canale Riot di OpenStreetMap della Malaysia
-    description: 'Tutti i mappatori sono i benvenuti! Iscriviti su {signupUrl}'
   OSM-Nepal-facebook:
     name: OpenStreetMap del Nepal
     description: Migliora OpenStreetMap in Nepal
@@ -202,18 +205,8 @@ it:
   OSM-PE-twitter:
     name: Twitter di OpenStreetMap del Perù
     description: 'Seguici su Twitter all’indirizzo {url}'
-  OSM-PH-facebook:
-    name: Facebook di OpenStreetMap delle Filippine
-    description: 'Benvenuta/o in OpenStreetMap delle Filippine, un posto dove i nostri amici filippini vengono incoraggiati a contribuire al progetto OpenStreetMap.'
-  OSM-PH-mailinglist:
-    name: Mailing list Talk-ph
-    description: Una mailinglist per discutere OpenStreetMap nelle Filippine
-  OSM-PH-slack:
-    name: Slack di OpenStreetMap delle Filippine
-    description: 'Tutti sono i benvenuti! Registrati su {signupUrl}'
   OSM-PH-telegram:
     name: Telegram di OpenStreetMap delle Filippine
-    description: 'Non ufficiale, comunità locale su Telegram di utenti OpenStreetMap e amici nelle Filippine.'
   OSM-PL-facebook-group:
     name: Gruppo Facebook di OpenStreetMap della Polonia
     description: Gruppo per mappatori e utenti di OpenStreetMap in Polonia
@@ -352,8 +345,8 @@ it:
     name: Twitter PHXGeo
     description: 'Seguici su Twitter all’indirizzo {url}'
   RS-telegram:
-    name: Gruppo Telegram di Rio Grande do SUl
-    description: Unisciti alla comunità di Rio Grande do Sul su Telegram
+    name: Gruppo Telegram di OpenStreetMap Rio Grande do Sul
+    description: Unisciti alla comunità OpenStreetMap di Rio Grande do Sul su Telegram
     extendedDescription: 'Unisciti alla comunità per saperne di più su OpenStreetMap, fare domande e partecipare alle nostre riunioni. Chiunque è il benvenuto!'
   South-Tyrol-Mailing-List:
     name: Mailinglist di OpenStreetMap del Sud Tirolo
@@ -423,6 +416,8 @@ it:
     name: Giovani mappatori dell’università di Cape Coast
     description: 'Seguici su Twitter: {url}'
     extendedDescription: 'Questo è il punto d’incontro del capitolo dei Giovani Mappatori dell’università di Cape Coast in Ghana. Amiamo le mappe, i dati aperti e aiutare i più vulnerabili.'
+  cuneo-telegram:
+    description: Chat Telegram di OpenStreetMap Cuneo
   czech-community:
     name: Comunità OSM della Repubblica Ceca
     description: 'Portale delle mappe, sito web e contatti fra i membri di OSM nella Repubblica Ceca'

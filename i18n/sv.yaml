@@ -28,7 +28,6 @@ sv:
     name: OpenStreetMap Galicien på Twitter
     description: 'Följ oss på Twitter på {url}'
   Galicia-Xeoinquedos-Twitter:
-    name: Geoinquetos på Twitter
     description: 'Följ oss på Twitter på {url}'
   GeoPhilly:
     name: GeoPhilly
@@ -237,7 +236,6 @@ sv:
     description: Officiellt  forum för OpenStreetMap Malaysia
   OSM-MY-matrix:
     name: Riot-kanal för OpenStreetMap Malaysia
-    description: 'Alla kartläggare är välkomna! Registrera dig på {signupUrl}'
   OSM-Nepal-facebook:
     name: OpenStreetMap Nepal
     description: Förbättra OpenStreetMap i Nepal
@@ -263,18 +261,8 @@ sv:
   OSM-PE-twitter:
     name: OpenStreetMap Peru på Twitter
     description: 'Följ oss på Twitter på {url}'
-  OSM-PH-facebook:
-    name: OpenStreetMap PH på Facebook
-    description: 'Välkommen till OpenStreetMap Filippinerna, där vi uppmuntrar alla filippiner att bidra till OpenStreetMap-projektet.'
-  OSM-PH-mailinglist:
-    name: E-postlistan Talk-ph
-    description: En epostlista för att diskutera OpenStreetMap på Filippinerna
-  OSM-PH-slack:
-    name: OpenStreetMap PH på Slack
-    description: 'Alla är välkomna! Registrera dig på {signupUrl}'
   OSM-PH-telegram:
     name: Telegram för OpenStreetMap PH
-    description: 'Inofficiell, lokal gemenskap på Telegram för OpenStreetMaps bidragsgivare och vänner på Filippinerna'
   OSM-PL-facebook-group:
     name: OpenStreetMap Polens Facebook-grupp
     description: Grupp för kartläggare och användare av OpenStreetMap i Polen
@@ -571,7 +559,6 @@ sv:
     description: Talk-de är den officiella e-postlistan för den tyska OSM-gemenskapen
   de-matrix:
     name: OpenStreetMap Tyskland-Matrix
-    description: 'Gå med #osm-de:matrix.org via https://matrix.to/#/!JoceisEAQRNMtpWVGm:matrix.org?via=matrix.org&via=fairydust.space&via=tchncs.de'
   de-mv-mailinglist:
     name: E-postlistan Mecklenburg-Vorpommern
     description: Detta är e-postlistan för Mecklenburg-Vorpommern OSM-gemenskap
@@ -680,7 +667,6 @@ sv:
     description: Talk-gr är den officiella e-postlistan för den grekiska OSM-gemenskapen
   gr-matrix:
     name: Matrix för OpenStreetMap Grekland
-    description: 'Anslut #osm-gr:matrix.org på https://riot.im/app/#/room/%23osm-gr:matrix.org'
   guatemala-telegram:
     name: OSM Guatemala på Telegram
     description: Telegram-chatt för OpenStreetMap Guatemala
@@ -1314,33 +1300,44 @@ sv:
   ym-Montgomery-College:
     name: GeoMC
     description: YouthMappers-filial vid Montgomery College
+    extendedDescription: 'GeoMC:s uppdrag är att ge studenter praktisk erfarenhet av att tillämpa geospatiala verktyg, samla in data och projektledning. De flesta av våra studenter har en bakgrund inom GIS och har huvudämnen inom geografi. Medlemmarna i vårt filial kommer från olika bakgrunder och vi arbetar alla tillsammans för att få en positiv inverkan i världen.'
   ym-Namibia-University-of-Science-and-Technology:
     name: Geoinformation Technology Student Society
     description: YouthMappers-filial vid Namibia University of Science and Technology
   ym-New-York-University:
     name: NYU mHealth Initiative Mapping Corps
     description: YouthMappers-filial vid New York University
+    extendedDescription: 'Forskningsinitiativet för mobil hälsa eller ”mHealth” i NYU fokuserar på utveckling av system som länkar människor - vanligtvis via sina telefoner - till de platser de bor och och rör sig i, och stöder därmed ny forskning om hur telefoner och kartor kan utnyttjas för att förstå beteendemässigt beslutsfattande och i slutändan hälsoresultat.'
   ym-Nimba-County-Community-College:
     name: Nimba County Community College Youth Mappers
     description: YouthMappers-filial vid Nimba County Community College
   ym-Njala-University-Freetown-Campus:
     name: Njala Freetown YouthMappers
     description: 'YouthMappers-filial vid Njala University, Freetown Campus'
+    extendedDescription: 'Vi är studenter på Njala University Freetown Campus och studerar informationsteknik under institutionen för fysik och datavetenskap, och vi finns på Henry Street Freetown, Sierra Leone.'
   ym-Njala-University-Njala-Campus:
     name: 'YouthMappers Njala University, Njala Campus'
     description: 'YouthMappers-filial vid Njala University, Njala Campus'
   ym-Ohio-Wesleyan-University:
     name: Environment and Wildlife Club
     description: YouthMappers-filial vid Ohio Wesleyan University
+    extendedDescription: 'Environment and Wildlife Club tittar på miljöfrågor på campus, i Delaware och till och med nationellt! Vi skapar campus- och samhällsprojekt, utforskar och njuter av friluftsliv, arbetar frivilligt och försöker främja miljöarbete i alla aspekter av våra liv.'
   ym-Oklahoma-State-University:
     name: Geography Club
     description: YouthMappers-filial vid Oklahoma State University
   ym-Open-University-of-Tanzania:
     name: Youth Mappers vid Open University of Tanzania
     description: YouthMappers-filial vid Open University of Tanzania
+    extendedDescription: |-
+        Youth Mappers vid Open University of Tanzania
+
+        Har grundats av medlemmar och studenter vid Open University of Tanzania på Institutionen för geografi som huvudsakligen behöver förbättra sin karriär och hjälpa unga genom gemensamma och partnerskapsprojekt med lokala samhällsgrupper så som Mikoko Scout Group (www.msg.or.tz ) och starta samarbete med internationella högskolor och universitet för utbytesprogram relaterde till geografistudier då några program som utarbetats av Mikoko Scout Group som kommer att länka lokala universitet och andra universitet av samma intresse genom International Nature & Environmental Youth Camp 2019 (www.campsite.msg.or.tz/nature.html)
+
+        Vår filial kommer snart att erkännas som ett ungdomsnätverksprogram som ger studenter möjlighet att studera och genomföra forskningsstudier på lokal nivå.
   ym-Politecnico-di-Milano:
     name: PoliMappers
     description: YouthMappers-filial vid Politecnico di Milano
+    extendedDescription: PoliMappers är en frivillig studentförening baserad på Politecnico di Milano. Gruppens uppdrag är att utbilda och motivera nästa generation frivilliga kartläggare och att göra kartläggning med gratis programvara med öppen källkod inom universitetet samt grundskolor och gymnasier.
   ym-Queen-Mary-University-of-London:
     name: Queen Mary YouthMappers
     description: YouthMappers-filial vid Queen Mary University of London
@@ -1348,18 +1345,22 @@ sv:
   ym-Rajshahi-University-of-Engineering-Technology:
     name: YouthMappers vid RUET
     description: YouthMappers-filial vid Rajshahi University of Engineering & Technology
+    extendedDescription: '"YouthMappers at RUET" är en humanitär kartläggningsgrupp av studenter vid Rajshahi University of Engineering & Technology (RUET) för att dela, utveckla och öva kunskapen inom GIS. Denna grupp uppmuntrar att använda geospatial data och plattform med öppen källkod för att göra lösningar för att nå den mest utsatta gruppen i världen.'
   ym-SUNY-at-Fredonia:
     name: Geoventurers
     description: YouthMappers-filial vid SUNY at Fredonia
+    extendedDescription: "GeoVenturers är en grupp studenter som går samman över ett antal huvudämnen på vårt campus som ser geospatial teknik som ett verktyg för att tjäna andra och för att föra samman människor. Mentoring för gruppen tar in naturvetenskaplig utbildning från institutionen för läroplan och instruktioner. Vi hoppas att vi kan få våra kunskaper att spela för att göra människors liv bättre."
   ym-Sacred-Heart-Junior-College:
     name: Youth Mappers vid Sacred Heart Junior College
     description: YouthMappers-filial vid Sacred Heart Junior College
   ym-Sherubtse-College:
     name: Geographical Society
     description: YouthMappers-filial vid Sherubtse College
+    extendedDescription: "Geographical Society, vid Institutionen för geografi och planering, Sherubtse College, Royal University of Bhutan, med stöd från Center for Climate Change and Spatial Information, har gjort flera ansträngningar för att skapa medvetenhet och ta itu med viktiga frågor på lokal och nationell nivå. Vi samarbetar nu med det internationella studentcentrerade YouthMappers network om \"Mapping for Resilience\" och bidrar till en global 'Lycka'!"
   ym-Sokoine-University-of-Agriculture:
     name: SMCoSE YouthMappers
     description: YouthMappers-filial vid Sokoine University of Agriculture
+    extendedDescription: 'En filial bestående av miljövetenskap- och managementstudenter och geografistudenter under geografiska institutionen och vi kommer att använda kartläggningsteknik, baserade på systemkoncept och teorier, kan användas för att underlätta, utforska och fånga de olika förståelserna för relationer, perspektiv, och gränser som är involverade i miljömässig hållbarhet för att få en mer fullständig förståelse av konceptet och utveckla handlingsplaner.'
   ym-St.-Augustine-International-University:
     name: YouthMappers vid St Augustine International University
     description: YouthMappers-filial vid St. Augustine International University
@@ -1369,6 +1370,7 @@ sv:
   ym-State-University-of-New-York-Geneseo:
     name: SUNY Geneseo GIS Association
     description: YouthMappers-filial vid State University of New York Geneseo
+    extendedDescription: 'Vi sprider medvetenhet, stöd, utbildning, volontärarbete och karriärutvecklingsmöjligheter i geografiska informationssystem, över olika discipliner och avdelningar, i samband med SUNY Geneseo, lokalsamhället och det globala samhället.'
   ym-Stella-Maris-Polytechnic:
     name: YouthMappers-SMP
     description: YouthMappers-filial vid Stella Maris Polytechnic
@@ -1379,9 +1381,11 @@ sv:
   ym-Texas-Tech-University:
     name: YouthMappers vid TTU
     description: YouthMappers-filial vid Texas Tech University
+    extendedDescription: "Som ett av de medgrundande filialerna i nätverket är TTU YouthMappers entusiastiska att fungera som tvärvetenskapliga ledare för att skapa öppna geografiska data och analyser som tar upp lokalt definierade utvecklingsutmaningar över hela världen. Filialen strävar efter att utbyta och samarbeta med andra filialer runt om i världen samtidigt som de erbjuder sig själva som en lokal resurs och service till Texas Tech-studentorganisationer på sätt som tillför värde till deras respektiva campusaktiviteter genom kartläggning."
   ym-The-Citadel:
     name: YouthMappers vid The Citadel
     description: YouthMappers-filial vid The Citadel
+    extendedDescription: 'Denna filial är också en Rotaract-klubb, som är en del av Rotary International. Flera medlemmar, såväl som ledarskap, har uttryckt intresse för YouthMappers och vi vill ansluta vår Citadel Rotaract-klubb till YouthMappers.'
   ym-The-Gambia-YMCA-University-of-the-Gambia:
     name: Connected YouthMappers
     description: YouthMappers-filial vid The Gambia YMCA / University of the Gambia
@@ -1389,63 +1393,75 @@ sv:
   ym-The-George-Washington-University:
     name: Humanitarian Mapping Society
     description: YouthMappers-filial vid The George Washington University
+    extendedDescription: "Med hjälp av modeller av ledarskap och engagemang strävar HMS efter att hjälpa och förbättra världen genom humanitära GIS-projekt (Geographic Information Systems). Denna gemenskapsgrundade filial på GWU: s campus har en uppsjö av erfarenheter att dela och samarbetar ofta direkt med USAID, Amerikanska Röda Korset och USA:s utrikesdepartement i deras DC-område för att utvidga studentledda insatser och tjäna global gemenskap."
   ym-The-Johns-Hopkins-University-SAIS:
     name: SAIS YouthMappers
     description: 'YouthMappers-filial vid The Johns Hopkins University, SAIS'
+    extendedDescription: 'SAIS Youth Mappers uppdrag är att ge studenter vid Johns Hopkins University SAIS möjlighet att bli högkvalificerade humanitära kartläggare. Som en grupp inom South Asia Club är dess primära fokus att stödja humanitära kartläggningsprojekt i Indo-Stillahavsområdet.'
   ym-The-Pennsylvania-State-University:
     name: Penn State GIS Coalition
     description: YouthMappers-filial vid The Pennsylvania State University
+    extendedDescription: 'Penn State Geospatial Information Science (GIS) Coalition är en organisation som erbjuder studenter som vill ha GIS som huvudämne, underordnat ämne eller som intresse möjligheter att utveckla kompletterande kunskaper och färdigheter som krävs för att lyckas i den professionella GIS-industrin.'
   ym-The-University-of-Zambia:
     name: YouthMappers Unza
     description: YouthMappers-filial vid The University of Zambia
   ym-Tribhuvan-University:
     name: Geomatics Engineering Students Association
     description: YouthMappers-filial vid Tribhuvan University
+    extendedDescription: "Denna organisation är studentforumet för Geomatics Engineering-studenter vid Tribhuvan University, Institute of Engineering på campus Pashchimanchal. Studenterna, som grundades sedan början av utbildningsprogrammet, har varit aktiva inom kartläggning och ledarskap och är glada över att vara en del av YouthMappers-nätverket."
   ym-UW-Madison:
     name: BadgerMaps
     description: YouthMappers-filial vid UW-Madison
+    extendedDescription: 'BadgerMaps är UW-campusfilial för Youthmappers, en organisation som är dedikerad till humanitära tjänster och kartläggningstjänster. Vi kopplar vårt volontärnätverk med möjligheter att skapa GIS-data för projekt som behöver det.'
   ym-Uganda-Christian-University-Mbale-Campus:
     name: Mappers for Life
     description: YouthMappers-filial vid Uganda Christian University Mbale Campus
+    extendedDescription: Vi är Team Mappers för livet! Kom och gå med när vi kartlägger tillsammans! Denna grupp arbetar från Institutionen för informationsteknik vid UCU.
   ym-Uganda-Pentecostal-University:
     name: HiTech Youth Mappers
     description: YouthMappers-filial vid Uganda Pentecostal University
+    extendedDescription: En ny filial Youthmappers i västra Uganda. Redo att kartlägga och tillhandahålla öppen data med OpenStreetMap för utvecklingsändamål.
   ym-Universidad-Autonoma-de-Madrid:
     name: YouthMappers vid UAM
     description: YouthMappers-filial vid Universidad Autonoma de Madrid
   ym-Universidad-Distrital-Francisco-Jose-de-Caldas:
     name: YouthMappers på Bogota
     description: YouthMappers-filial vid Universidad Distrital Francisco Jose de Caldas
+    extendedDescription: 'Universidad Distrital Francisco José de Caldas är ett offentligt forskningsuniversitet med forskarutbildning baserat i Bogotá, Colombia med en befolkning på 26 140 studenter.'
   ym-Universidad-Nacional-Autnoma-de-Honduras:
     name: PumaGis Hn
     description: YouthMappers-filial vid Universidad Nacional Autónoma de Honduras
   ym-Universidad-Nacional-de-Colombia:
     name: Grupo UN
     description: YouthMappers-filial vid Universidad Nacional de Colombia
+    extendedDescription: "Studenter förenas för att kartlägga och nätverka med universitetsstudenter över hela Colombia och över hela världen. Geografiska specialiteter inkluderar anslutning till mikrobiologi och hälsodiscipliner."
   ym-Universidad-Nacional-de-Ingenieria:
     name: Yeka Street MGA
     description: YouthMappers-filial vid Universidad Nacional de Ingenieria
+    extendedDescription: 'YEKA STREET är ett arbetslag bestående av studenter från Universidad Nacional de Ingenieria i Managua, Nicaragua. Med det huvudsakliga syftet att tillämpa vår kunskap och färdigheter med hjälp av många verktyg och appar för att kartlägga områden i våra städer och bidra till gemensamma utvecklingsprojekt och planer för katastroflindring. Vi vill visa vägen för att lägga till fler studenter från alla karriärer och universitet i vårt land för att gå med oss i detta syfte, vilket på detta sätt ökar levnadsstendarden och minskar befolkningens sårbarhet.'
   ym-Universidad-Politcnica-de-Madrid:
     name: Mapeo Humanitario
     description: YouthMappers-filial vid Universidad Politécnica de Madrid
+    extendedDescription: 'Geo-volontärgrupp bildades vid Moncloa Campus i november 2017. Cirka 20 medlemmar från tre universitet (Complutense, CEU och UPM). Grundstudenter, teknologie magister-studenter och doktorander samarbetar tillsammans med organisationer (MSF, Acción contra el Hambre, ...) med stöd av utbildare från Geoinquietos. Officiellt erkännande av UPM som Educative Innovation Project (kod IE1718.0411)'
   ym-Universidad-de-Antioquia:
     name: Geomatica UDEA
     description: YouthMappers-filial vid Universidad de Antioquia
-  ym-Universidad-de-Costa-Rica:
-    name: YouthMappers vid Universidad de Costa Rica
-    description: YouthMappers-filial vid Universidad de Costa Rica
+    extendedDescription: 'Vi är en grupp som är intresserad av geospatial data, frivillig kartografi och deltar i kartläggning med andra i vårt land och inom YouthMappers-nätverket.'
   ym-Universidad-de-La-Guajira:
     name: Grupo Mesh
     description: YouthMappers-filial vid Universidad de La Guajira
+    extendedDescription: 'Grupo Mesh är en studentorganisation vid Universidad de la Guajira i Colombia, inklusive studenter från programmet för miljöteknik som lär sig kartografi och öppen kartläggning.'
   ym-Universidad-de-Los-Andes:
     name: Cartografos Uniandes
     description: YouthMappers-filial vid Universidad de Los Andes
+    extendedDescription: 'Vi är en krets av studentdeltagande som strävar efter att använda kartläggning och rumsligt resonemang som ett sätt att skapa band för samarbete och integration mellan universitetet och samhället genom att ta itu med olika rumsliga, sociala, politiska, ekonomiska och kulturella dynamiker.'
   ym-Universidad-de-Puerto-Rico-Rio-Piedras:
     name: UPR YouthMappers
     description: YouthMappers-filial vid Universidad de Puerto Rico - Rio Piedras
   ym-Universidad-de-San-Buenaventura:
     name: YouthMappers San Buenaventura
     description: YouthMappers-filial vid Universidad de San Buenaventura
+    extendedDescription: Vi är glada att gå med i kartläggningen av YouthMappers för en bättre värld och gemenskap.
   ym-Universidade-Eduardo-Mondlane:
     name: Comunidade YouthMappers Moçambique
     description: YouthMappers-filial vid Universidade Eduardo Mondlane
@@ -1453,9 +1469,11 @@ sv:
   ym-Universit-Gaston-Berger:
     name: YouthMappers vid UGB
     description: YouthMappers-filial vid Université Gaston Berger
+    extendedDescription: YouthMappers UGB består av unga studenter och forskare som brinner för kartläggning. Vårt mål är att förbättra elevernas färdigheter inom kartografi och att delta i skapandet av öppna geografiska data som svarar på utvecklingsutmaningar runt om i världen och särskilt i Afrika.
   ym-Universit-Mohammed-V-Rabat:
     name: Brahmapoutre vid Rabat
     description: YouthMappers-filial vid Université Mohammed V Rabat
+    extendedDescription: Denna filial ser deltagande i YouthMappers-programmet som ett tillfälle att dela vår kunskap och skapa nya arbetsrelationer med andra filialer i olika länder.
   ym-Universit-de-NZrkor:
     name: Youthmappers à N'Zérékoré
     description: YouthMappers-filial vid Université de N'Zérékoré
@@ -1469,6 +1487,7 @@ sv:
   ym-University-Muhammadiyah-Surakarta:
     name: SpaceTime
     description: YouthMappers-filial vid University Muhammadiyah Surakarta
+    extendedDescription: 'SpaceTime är en gemenskapskartläggning vid Geografiska fakulteten vid Muhammadiyah University of Surakarta. SpaceTime grundades av Bruce Maldy Pratama, Mukhlis Akbar och Irfandi Fauzi. De är aktiva studenter vid fakulteten för Geography University Muhammadiyah Surakarta.'
   ym-University-of-California-Davis:
     name: Mapping Club
     description: 'YouthMappers-filial vid University of California, Davis'
@@ -1479,12 +1498,14 @@ sv:
   ym-University-of-Central-Florida:
     name: Geospatial Information Society
     description: YouthMappers-filial vid University of Central Florida
+    extendedDescription: "Vårt uppdrag är att främja en social och pedagogisk miljö för alla studenter som är intresserade av diskussion och tillämpning av GIS. Grupp- och samhällsevenemang under läsåret organiserar studenter för att frivilligt hjälpa lokala och regionala samhällen genom att använda samhällsbaserade GIS-projekt och utbilda lokala grundskole- och gymnasieelever om användning och tillämpning av GIS."
   ym-University-of-Chicago:
     name: Tobler Society
     description: YouthMappers-filial vid University of Chicago
   ym-University-of-Dar-es-Salaam:
     name: YouthMappers vid University of Dar es Salaam
     description: YouthMappers-filial vid University of Dar es Salaam
+    extendedDescription: 'Syftet med University of Dar es Salaam YouthMappers är att använda och främja öppen källkodsdata och GIS-teknik för att kartlägga potentiella katastrofområden, tillhandahålla resurser för nödhantering, göra att medlemmarna kommer i kontakt med öppen källkod och GIS-organisationer i staden Dar es Salaam, och tillgodose alla kommande behov hos våra projektpartners.'
   ym-University-of-Energy-and-Natural-Resources:
     name: Eco-Club
     description: YouthMappers-filial vid University of Energy and Natural Resources
@@ -1492,6 +1513,7 @@ sv:
   ym-University-of-Exeter:
     name: University of Exeter British Red Cross Missing Maps
     description: YouthMappers-filial vid University of Exeter
+    extendedDescription: 'Vi är ett team av entusiastiska geografer med omfattande kunskap om GIS. Vi brinner för att stödja British Red Cross Society med olika humanitära hjälpinsatser. Vi är också viktiga lärare om betydelsen av att fjärranalys av kartläggningsdata och hur detta hjälper på marken. Våra mapathons har gruppbaserat akademiskt fokus som belyser olika GIS-forskning i vår geografiska avdelning, samtidigt som de fungerar som anställbarhetsmedvetenhetsevents som vi använder för att bjuda in talare att prata om deras GIS/British Red Cross careers.'
   ym-University-of-Ghana:
     name: University of Ghana YouthMappers
     description: YouthMappers-filial vid University of Ghana
@@ -1507,6 +1529,7 @@ sv:
   ym-University-of-Maryland-College-Park:
     name: Geography Club
     description: YouthMappers-filial vid University of Maryland - College Park
+    extendedDescription: Geografiklubbens uppdrag vid University of Maryland College Park är att engagera och uppmuntra studenter att utforska geografiska intressen inom campus och samhället.
   ym-University-of-Mines-and-Technology:
     name: UMaT YouthMappers
     description: YouthMappers-filial vid University of Mines and Technology
@@ -1518,6 +1541,7 @@ sv:
   ym-University-of-Nigeria-Enugu-Campus:
     name: LionMappersTeam (LMT) Enugu
     description: 'YouthMappers-filial vid University of Nigeria, Enugu Campus'
+    extendedDescription: 'LionMappersTeam (LMT) Enugu Campus är ett dotterbolag till YouthMappers Network, med det enda syftet att ge medlemmarna möjlighet att lära sig och förbättra sina färdigheter inom geoinformatik och att skapa öppna geografiska data och analyser som tar itu med lokalt definierade utmaningar globalt. Det är ett team av volontärer för Crowdsourced Mapping och Geographic Information provision som använder Openstreetmap, Citizen Science och annan geospatial teknik för forskning, utbildning och svar på motståndskraftiga samhällsutmaningar. Vi är engagerade i webb-kartografi, GIS och fjärranalysapplikationer och forskning. Vi brinner för frivillig geografisk information, Paticipatory GIS och Citizen Science. Våra stora aktiviteter inkluderar online-Crowdsourced-kartografi, kartläggning, träningsworkshops och uppsökningar till gymnasiet samt kartläggning av humanitära insatser/katastrofinsatser.'
   ym-University-of-Nigeria-Nsukka:
     name: LionMappersTeam (LMT) Nsukka
     description: 'YouthMappers-filial vid University of Nigeria, Nsukka'
@@ -1525,15 +1549,19 @@ sv:
   ym-University-of-North-Texas:
     name: UNT Geography Club
     description: YouthMappers-filial vid University of North Texas
+    extendedDescription: 'The Geography Club är en studentorganisation vid University of North Texas som välkomnar alla studenter som är intresserade av geografi. Målet med The Geography Club är att främja intresset för geografi, grundutbildningen och geografisk avdelning tillsammans med gemenskap mellan studenter och lärare. Klubben försöker också representera studenternas behov och önskemål när det gäller studier av geografi och att tillhandahålla ett forum för presentation av innovativa idéer till förmån för universitetsgemenskapen.'
   ym-University-of-Northern-Colorado:
     name: UNCO Geography and GIS Club
     description: YouthMappers-filial vid University of Northern Colorado
+    extendedDescription: 'Filialen Official Geography and GIS Club som är kopplat till University of Northern Colorado där vårt mål är att lära, dela och få kontakt med dem omkring oss. #MakingSenseOfTheWorld'
   ym-University-of-Oregon:
     name: Map by Northwest
     description: YouthMappers-filial vid University of Oregon
+    extendedDescription: "Map By Northwest syftar till att engagera studenter vid University of Oregon i kartläggningsprojekt för att hjälpa humanitära mål och för att bedriva geografisk forskning. Vi välkomnar studenter från alla discipliner för att följa med i våra kartupplevelser."
   ym-University-of-Panama:
     name: YouthMappers UP
     description: YouthMappers-filial vid University of Panama
+    extendedDescription: "Student mappers i Panama arbetar med öppna rumsliga data för att hjälpa till att identifiera, definiera, adressera och skapa mening med lokalt definierade utvecklingsutmaningar. De samarbetar med studenter från andra länder om samhällskartläggning av ämnen från ekoturism till livsmedelssäkerhet, från biologisk mångfald till inhemska frågor och främjar en humanistisk vision genom vetenskapliga perspektiv."
   ym-University-of-Port-Harcourt:
     name: UniqueMappersTeam (UMT) Port Harcourt
     description: YouthMappers-filial vid University of Port Harcourt
@@ -1541,51 +1569,65 @@ sv:
   ym-University-of-Pretoria:
     name: Centre for Geoinformation Science
     description: YouthMappers-filial vid University of Pretoria
+    extendedDescription: "De studenter som kartlägger Pretoria stöds av University of Pretorias Centre for Geoinformation Science, en plattform varifrån UP-individer och team som är involverade i geografisk informationsvetenskap (GISc) forskning, utbildning och utbildning, professionell utveckling och samhällsengagemang uppmuntras och stärkts genom samarbete, utbildning och allianser i Sydafrika och utomlands."
   ym-University-of-Redlands:
     name: URSpatial Geo-Thinkers
     description: YouthMappers-filial vid University of Redlands
+    extendedDescription: Att bygga på medlemmarnas GIS-färdigheter och kunskap om verktygen och metoderna genom tillämpat socialt engagemang samt att utbilda campusgemenskapen om kraften i kartläggning och rumsanalys genom samhällstjänstevenemang.
   ym-University-of-Rwanda-Huye-Campus:
     name: Rwanda YouthMappers
     description: YouthMappers-filial vid University of Rwanda - Huye Campus
+    extendedDescription: 'Baserat på engagemanget och syftet med att främja kartläggning och informationen från YouthMappers offentliga presentationer, har vi organiserat som studenter på geografiska avdelningen som är engagerade i kartläggning för att skapa en filial på vårt campus. Vi har stöttat av vår facilitator Dr. Gaspard Rwanyiziri (chef för CGIS-Rwanda) och olika lektormentorer.'
   ym-University-of-South-Carolina:
     name: Geography Graduate Student Association
     description: YouthMappers-filial vid University of South Carolina
+    extendedDescription: 'GGSA är en helt studentdriven organisation, utformad för att fungera som en förespråkare och resurs för alla geografistudenter genom att fylla rollen som kontakt mellan institutionen och studenterna. Vårt mål är att vidareutveckla professionell, akademisk och personlig utveckling av doktorander som är intresserade av geografi och dess underdiscipliner.'
   ym-University-of-Southern-California:
     name: SC Mappers
     description: YouthMappers-filial vid University of Southern California
+    extendedDescription: 'Vi ser världen annorlunda: vi ser den genom en rumslig lins. Med kraften i rumsligt tänkande förbinder vi plats och utrymme för att hantera globala utmaningar. Samarbeta med oss!'
   ym-University-of-Vermont:
     name: University of Vermont Humanitarian Mapping Club
     description: YouthMappers-filial vid University of Vermont
   ym-University-of-Victoria:
     name: Society of Geography Students
     description: YouthMappers-filial vid University of Victoria
+    extendedDescription: 'SOGS strävar efter att främja och representera sociala och akademiska intressen inom geografiska institutionen. Detta uttrycks av fyra huvudmål: Att tillhandahålla ett forum för diskussion av frågor som rör kvalitet och tillgänglighet för utbildning inom geografi; att tillhandahålla ett sätt att uttrycka enighet om studenternas åsikt till deparhnental fakultet genom representation vid deparkrnentalmöten och i departementskommittéer; att genomföra anangenser för sådana aktiviteter som är till förmån för studenter och anses ligga inom studerandes intresse för geografi; att fungera som en kontakt genom UVSS och Course Union Council med andra studentgrupper på campus'
   ym-University-of-Warwick:
     name: University of Warwick Resilience Mapping Society
     description: YouthMappers-filial vid University of Warwick
+    extendedDescription: Vi är en grupp entusiastiska kartläggare baserat på Warwick University. Vårt mål är att få människor engagerade i humanitär kartläggning och hjälpa dem att förstå vilken inverkan denna aktivitet har på fältet. Vi är nära anpassade till Missing Maps och Doctors Without Borders UK och fokuserar på HOT-uppgifter i våra kartläggningsaktiviteter och workshops. Våra mapathons visas på sidan SMissing Maps när de planeras.
   ym-University-of-Wyoming:
     name: Gamma Theta Upsilon/Geography Club
     description: YouthMappers-filial vid University of Wyoming
   ym-University-of-Zimbabwe:
     name: UZMappers
     description: YouthMappers-filial vidUniversity of Zimbabwe
+    extendedDescription: UzMappersTeam Zimbabwe är ett team av volontärer som använder OpenStreetMap för Open Data- och Humanitarian Disaster response-kartläggning. Teamet ger sina medlemmar färdigheter i geospatial teknik med öppen källkod.
   ym-University-of-the-Philippines-Resilience-Institute:
     name: YouthMappers UP Resilience Institute
     description: YouthMappers-filial vid University of the Philippines Resilience Institute
+    extendedDescription: 'UP Resilience Institute grundades 2016 med ett uppdrag att förbättra lokala samhällen genom tvärvetenskaplig forskning och åtgärder mot motståndskraft. Genom UP NOAH Center och hjälp från olika organisationer har vi tillhandahållit exponeringskartor för 17 provinser av de 82 provinserna och laddat upp mer än 4 miljoner fotavtryck till Open Street Maps.'
   ym-University-of-the-West-Indies-Mona-Campus:
     name: Libraries Outreach - ODL
     description: 'YouthMappers-filial vid University of the West Indies, Mona Campus'
+    extendedDescription: 'UWI, Mona Campus Library deltar i offentliga, uppsökande och speciella projekt. Detta gör det möjligt för vårt bibliotek att vara en katalysator för rumslig kompetens och förespråka delning av rumslig data och tillgång till jamaicanska och karibiska intressen. Vi har katastrofhjälp och kommunikationsbehov och omfattande jordvetenskapliga och geo-risker måste bättre tjäna vårt campus och samhälle. Närmare bestämt vill vi ha ett vetenskapsbibliotek för att visa upp sådant för alla lärare och studenter.'
   ym-Vassar-College:
     name: Hudson Valley Mappers
     description: YouthMappers-filial vid Vassar College
+    extendedDescription: 'Vårt uppdrag är att tillhandahålla en tvärvetenskaplig plattform för kamrater, lärare och samhällsorganisationer att delta i lokala kartläggningsprojekt med fokus på att stärka våra lokala ekosystem, vår byggda miljö och vår samhälls hälsa. Vi försöker också bidra med geospatialt stöd för globalt humanitärt bistånd och utvecklingsarbete.'
   ym-Villanova-University:
     name: The Villanova Globeplotters
     description: YouthMappers-filial vid Villanova University
+    extendedDescription: 'Villanova Globeplotters bygger på Villanovas Augustinska princip om osjälvisk service till det globala samfundet. Blandat med avslappnad social interaktion, strävar vi efter att ge geospatial uppsökande till dem i nöd oavsett deltagarnas ras, akademiska huvudämne, studentgruppsförening eller karriärnivå.'
   ym-West-Virginia-University:
     name: Maptime Morgantown
     description: YouthMappers-filial vid West Virginia University
+    extendedDescription: "Denna medlemsgrundande filial arbetar som ett samarbetsgrupp och fokuserar på att tillhandahålla en öppen inlärningsmiljö för dem som är intresserade av att arbeta med projekt som berör internationell utveckling, beredskap och geografisk informationsvetenskap.\nDe kopplar samman nybörjare och experter genom att tillhandahålla teknisk utbildning och erfarenhet av att bygga meningsfull och användbar geografisk infrastrukturinformation, samtidigt som de kopplar ihop med systerstäder runt om i världen."
   ym-Western-Michigan-University:
     name: Geografiska klubben
     description: YouthMappers-filial vid Western Michigan University
   ym-Yarmouk-University:
     name: YouthMappers vid YU
     description: YouthMappers-filial vid Yarmouk University
+    extendedDescription: 'YouthMappers-filialen vid YU är den första kartläggningsgruppen i Mellanöstern och Nordafrika där flyktingar, torka och fattigdom orsakar kriser och i akut behov av humanitära kartläggningsaktiviteter för att mildra konsekvenserna av sådana kriser. YU-kartläggarna uppmuntras att använda öppna data för att hantera utmaningar i MENA-regionen för att ge lättnad och utveckling för att fokusera på områden i regionen.'

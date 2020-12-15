@@ -28,7 +28,6 @@ fr:
     name: Fil Twitter d'OpenStreetMap Galice
     description: 'Suivez-nous sur Twitter à l''adresse {url}'
   Galicia-Xeoinquedos-Twitter:
-    name: Geoinquetos sur Twitter
     description: 'Suivez-nous sur Twitter à l''adresse {url}'
   GeoPhilly:
     name: GeoPhilly
@@ -237,7 +236,6 @@ fr:
     description: Forum officiel d'OpenStreetMap Malaisie
   OSM-MY-matrix:
     name: Canal riot d'OpenStreetMap Malaisie
-    description: 'Tous les cartographes sont les bienvenus ! Enregistrez-vous sur {signupUrl}'
   OSM-Nepal-facebook:
     name: OpenStreetMap Népal
     description: Améliorez OpenStreetMap au Népal
@@ -263,18 +261,8 @@ fr:
   OSM-PE-twitter:
     name: Fil Twitter d'OpenStreetMap Pérou
     description: 'Suivez-nous sur Twitter à l''adresse {url}'
-  OSM-PH-facebook:
-    name: Page Facebook d'OpenStreetMap PH
-    description: 'Bienvenue sur OpenStreetMap Philippines, où nous encourageons tous les philippins à contribuer au projet OpenStreetMap.'
-  OSM-PH-mailinglist:
-    name: Liste de diffusion talk-ph
-    description: Une liste de diffusion pour discuter d'OpenStreetMap aux Philippines
-  OSM-PH-slack:
-    name: Slack OpenStreetMap PH
-    description: 'Vous êtes tous les bienvenus ! Enregistrez-vous sur {signupUrl}'
   OSM-PH-telegram:
     name: Groupe telegram OpenStreetMap PH
-    description: 'Communauté telegram locale non officielle des contributeurs d''OpenStreetMap et amis aux Philippines'
   OSM-PL-facebook-group:
     name: Groupe Facebook d'OpenStreetMap Pologne
     description: Groupe pour les cartographes et les utilisateurs d'OpenStreetMap en Pologne
@@ -283,6 +271,7 @@ fr:
     description: Forum de la communauté polonaise d'OpenStreetMap
   OSM-PL-github:
     name: OpenStreetMap Pologne sur GitHub
+    description: Organisation GitHub pour la communauté polonaise d'OpenStreetMap
   OSM-PY-telegram:
     name: OSM Paraguay sur Telegram
     description: Chat Telegram d'OpenStreetMap Paraguay
@@ -536,7 +525,7 @@ fr:
     name: Liste de diffusion pour Berlin
     description: Il s'agit de la liste de diffusion pour la communauté berlinoise d'OSM
   de-berlin-meetup:
-    name: Recontres OpenStreetMap de Berlin-Brandenburg
+    name: Rencontres OpenStreetMap de Berlin-Brandenburg
     description: Cartographes et utilisateurs OpenStreetMap dans la région de Berlin
   de-berlin-telegram:
     name: '@osmberlin sur Telegram'
@@ -544,6 +533,9 @@ fr:
   de-berlin-twitter:
     name: Fil Twitter d'OpenStreetMap Berlin
     description: 'Suivez-nous sur Twitter : {url}'
+  de-berlin-xmpp:
+    name: XMPP d'OpenStreetMap Berlin-Brandebourg
+    description: 'Rejoignez notre chat multi-utilisateurs XMPP : {url}'
   de-forum:
     name: Forum d'OpenStreetMap DE
     description: Forum web d'OpenStreetMap Allemagne
@@ -555,28 +547,35 @@ fr:
     description: 'Rejoignez #osm-de sur irc.oftc.net (port 6667)'
   de-karlsruhe-mailinglist:
     name: Liste de diffusion de Karlsruhe
+    description: Il s'agit de la liste de diffusion pour la communauté OSM de la région de Karlsruhe
   de-karlsruhe-meetup:
+    name: Rencontres OpenStreetMap de Karlsruhe
     description: Cartographes et utilisateurs d'OpenStreetMap dans la région de Karlsruhe
   de-mailinglist:
     name: Liste de diffusion Talk-de
     description: Talk-de est la liste de diffusion officielle pour la communauté allemande d'OSM
   de-matrix:
     name: Matrix d'OpenStreetMap Allemagne
-    description: 'Rejoignez #osm-de:matrix.org à l''adresse https://matrix.to/#/!JoceisEAQRNMtpWVGm:matrix.org?via=matrix.org&via=fairydust.space&via=tchncs.de'
   de-mv-mailinglist:
     name: Liste de diffusion du Mecklembourg-Poméranie-Occidentale
+    description: Il s'agit de la liste de diffusion pour la communauté OSM au Mecklembourg-Poméranie Occidentale
   de-mv-twitter:
     name: Fil Twitter d'OpenStreetMap Mecklembourg-Poméranie-Occidentale
     description: 'Suivez-nous sur Twitter : {url}'
   de-ostwestfalen-lippe-mailinglist:
     name: Liste de diffusion OWL
     description: Il s'agit de la liste de diffusion pour la communauté OSM en Westphalie Est-Lippe
+  de-stuttgart-mailinglist:
+    name: Liste de diffusion de Stuttgart et du Bade-Wurtemberg
+    description: Il s'agit de la liste de diffusion pour la communauté OSM de Stuttgart et de l'ensemble du Bade-Wurtemberg
   de-stuttgart-meetup:
+    name: Rencontres OpenStreetMap de Stuttgart
     description: Cartographes et utilisateurs d'OpenStreetMap dans la région de Stuttgart
   de-telegram:
     name: Telegram d'OpenStreetMap Allemagne
     description: 'Rejoignez le groupe Telegram d''OpenStreetMap Allemagne sur {url}'
   de-ulm_neuulm-meetup:
+    name: Rencontres OpenStreetMap d'Ulm et de Neu-Ulm
     description: Cartographes et utilisateurs d'OpenStreetMap dans la région d'Ulm et Neu-Ulm
   de-viersen-meetup:
     name: Rencontre d'OpenStreetMap Viersen
@@ -662,7 +661,6 @@ fr:
     description: Talk-gr est la liste de diffusion officielle de la communauté grecque d'OSM
   gr-matrix:
     name: Matrix d'OpenStreetMap Grèce
-    description: 'Rejoignez #osm-gr:matrix.org à l''adresse https://riot.im/app/#/room/sm-gr:matrix.org'
   guatemala-telegram:
     name: OSM Guatemala sur Telegram
     description: Chat Telegram d'OpenStreetMap Guatemala
@@ -777,6 +775,7 @@ fr:
     description: Tout ce que vous devez savoir sur la cartographie en Amérique Latine
   lu-github:
     name: OpenStreetMap LU sur GitHub
+    description: Vous êtes tous les bienvenus !
     extendedDescription: OSM Luxembourg sur GitHub
   lu-irc:
     name: Canal IRC d'OpenStreetMap LU
@@ -786,6 +785,7 @@ fr:
     description: Liste de diffusion officielle pour la communauté luxembourgeoise d'OSM
   lu-matrix:
     name: Canal Matrix d'OpenStreetMap LU
+    description: Vous êtes tous les bienvenus !
   mailinglist-sk-googlegroups:
     name: Liste de diffusion Slovaque dans un groupe Google
     description: Liste de diffusion officielle pour la communauté Slovaque
@@ -1240,13 +1240,16 @@ fr:
     description: Chapitre YouthMappers à l'Université de Kenyatta
     extendedDescription: 'Le club SIG de l''Université de Kenyatt (KUGISC) a été fondé le 28 octobre 2016 avec plus de 200 étudiants et membres de toutes les facultés du campus. Nous sommes engagés à rendre nos membres autonomes en matière de connaissance, compétences et expertise géospatiales requises pour comprendre la Terre. Nous aidons aux ressources cartographiques de l''université en incorporant des données géospatiales dans les projets et dans la collecte de données sur le terrain.'
   ym-Khulna-University:
+    name: YouthMappers de l'Université de Khulnâ
     description: Chapitre YouthMappers à l'Université de Khulna
+    extendedDescription: "Les étudiants de KU et les enseignants de plusieurs disciplines participent à la création de données ouvertes pour OSM afin de relever les défis locaux du développement, notamment la sécurité alimentaire et d'autres sujets."
   ym-Kumi-University:
     description: Chapitre YouthMappers à l'Université de Kumi
   ym-Kwame-Nkrumah-University-of-Science-and-Technology:
     name: YouthMappers de l'Université des Sciences et Technologies Kwame Nkrumah
     description: Chapitre YouthMappers à l'Université des Sciences et des Technologies Kwame Nkrumah
   ym-Makerere-University:
+    name: Geo YouthMappers
     description: Chapitre YouthMappers à l'Université de Makerere
   ym-Mbarara-University-of-Science-and-Technology:
     description: Chapitre YouthMappers à l'Université des Sciences et Technologies de Mbarara
@@ -1363,9 +1366,6 @@ fr:
   ym-Universidad-Politcnica-de-Madrid:
     name: Mapeo Humanitario
     description: Chapitre YouthMappers à l'Université Polytechnique de Madrid
-  ym-Universidad-de-Costa-Rica:
-    name: YouthMappers à l'Université du Costa Rica
-    description: Chapitre YouthMappers à l'Université du Costa Rica
   ym-Universidad-de-La-Guajira:
     name: Grupo Mesh
     description: Chapitre YouthMappers à l'Université de La Guajira

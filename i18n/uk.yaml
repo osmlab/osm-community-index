@@ -15,10 +15,14 @@ uk:
     description: 'Запрошуємо всіх! Зареєструйтеся на {signupUrl}, потім приєднуйтесь до каналу #osm.'
   DF-telegram:
     name: OpenStreetMap Бразильська група Telegram
+    description: Приєднуйтесь до спільноти OpenStreetMap Бразилія у Telegram
+    extendedDescription: 'Приєднуйтесь до спільноти, щоб дізнатися більше про OpenStreetMap, поставити питання або взяти участь у наших зустрічах. Запрошуємо всіх!'
   Dallas-Fort-Worth-OSM:
     name: Даллас - Форт Уорт OSM
     description: Група учасників OSM з Далласа - Форт Уорта
-    extendedDescription: 'Даллас, Форт Уорт та всі міста, між ними, об''єдані творчими і технічно підкованими людьми. Мета цієї групи - знайти нові способи використання дивовижного ресурсу OSM.'
+    extendedDescription: 'Даллас, Форт Уорт та всі міста, між ними, об''єднані творчими і технічно підкованими людьми. Мета цієї групи - знайти нові способи використання дивовижного ресурсу OSM.'
+  Galicia-Xeoinquedos-Twitter:
+    description: 'Приєднуйтесь до нас у Twitter: {url}'
   GeoPhilly:
     name: GeoPhilly
     description: Зустріч маперів-ентузіастів в Філадельфії
@@ -27,12 +31,21 @@ uk:
     name: MapMinnesota
     description: Мапери та ентузіасти OpenStreetMap в районі Міннеаполіс – Сент-Пол
     extendedDescription: Поєднуємо ентузіастів OpenStreetMap з Міннесоти та Міннеаполісу – Сент-Полу
+  MappingDC-meetup:
+    description: Покращуємо OpenStreetMap навколо округу Колумбія
+    extendedDescription: 'Ми є групою маперів-волонтерів, які прагнуть вдосконалити OpenStreetMap в окрузі Колумбія. Ми також намагаємось поширити інформацію про екосистему OSM, аналізі даних, картографію та ГІС серед зацікавлених осіб. Ми збираємося щомісяця на зустрічах, щоб покращити якусь частину нашого міста.'
+  MappingWR:
+    description: Зробити маршрути з низьким рівнем вуглецю навколо регіону Ватерлоо легкодоступними.
   Maptime-Bogota:
     name: Maptime Богота
+    description: Ми є групою картографів, зацікавлених у картографуванні в OpenStreetMap навколо Боготи.
+    extendedDescription: 'Навчіться збирати дані у полі та оцифровувати на OpenStreetMap. Не обов’язково мати попередні знання! Вам просто потрібно бажання брати участь, вчитися та отримувати задоволення.'
   Maptime-ME-meetup:
     name: MaptimeME
     description: 'Мапери та учасники OpenStreetMap з Портленда, штат Мен'
     extendedDescription: 'Maptime – дослівно значить час для створення мап. Наша місія полягає в тому, щоб відкрити двері картографічних можливостей для всіх, хто зацікавлений у створенні простору для спільного навчання, дослідження та створення мап за допомогою сучасних інструментів та технологій.'
+  Maptime-Oceania-Slack:
+    description: 'Зареєструйтеся на {signupUrl}'
   MaptimeHRVA-twitter:
     name: MaptimeHRVA Twitter
     description: 'Приєднуйтесь до нас у Twitter: {url}'
@@ -62,6 +75,7 @@ uk:
   OSM-AR-twitter:
     name: OpenStreetMap Аргентина Twitter
     description: 'Приєднуйтесь до нас у Twitter: {url}'
+    extendedDescription: Новини місцевої спільноти та OpenStreetMap в цілому.
   OSM-Asia-mailinglist:
     name: OpenStreetMap Азія, список розсилки
     description: Talk-asia – офіційний список розсилки спільноти Азії
@@ -69,29 +83,51 @@ uk:
     name: OpenStreetMap Бангладеш
     description: Покращити OpenStreetMap в Бангладеш
     extendedDescription: 'Мапите в Бангладеш? Маєте питання чи бажаєте поспілкуватись зі спільнотою тут? Приєднуйтесь до нас - {url}. Ласкаво просимо!'
+  OSM-BO-mailinglist:
+    name: Talk-bo Список розсилки
+    description: Talk-bo є офіційним списком розсилки для болівійської спільноти OSM
+    extendedDescription: 'Мапите в Болівії? Маєте питання чи бажаєте поспілкуватись зі спільнотою тут? Приєднуйтесь до нас - {url}. Ласкаво просимо!'
+  OSM-BiH-telegram:
+    name: Telegram OpenStreetMap БіГ
+    description: 'Телеграм-група спільноти OSM Боснії та Герцеговини: {url}'
   OSM-Boston:
     name: OpenStreetMap Бостон
+    description: Учасники та користувачі OpenStreetMap з Бостона
     extendedDescription: 'OpenStreetMap - це вільна та відкрита мапа світу у вікі, що має сотні тисяч внесків щодня від таких людей, як ви. Редагувати мапу просто і весело! Приєднуйтесь до нас як у приміщенні, так і на вулиці, намагаючись створити найкращу карту району Бостона та решти світу!'
   OSM-CA-Slack:
     name: OSM-CA Slack
     description: 'Запрошуємо всіх! Зареєструйтеся на {signupUrl}'
+  OSM-CA-mailinglist:
+    description: Список розсилки для обговорення OpenStreetMap в Канаді
+  OSM-CA-telegram:
+    name: '@osmca у Telegram'
+    description: Телеграм-чат OpenStreetMap Канада
   OSM-CL-facebook:
     name: OpenStreetMap Чилі у Facebook
     description: Приєднуйтесь до спільноти OpenStreetMap Чилі у Facebook
     extendedDescription: 'Приєднуйтесь до спільноти, щоб дізнатися більше про OpenStreetMap, задати питання або взяти участь у наших зустрічах. Усі вітаються!'
   OSM-CL-mailinglist:
     name: Talk-cl Список розсилки
+    description: Список розсилки для обговорення OpenStreetMap в Чилі
   OSM-CL-telegram:
+    name: Telegram OpenStreetMap Чилі
     description: Приєднуйтесь до спільноти OpenStreetMap Чилі в Telegram
     extendedDescription: 'Приєднуйтесь до спільноти, щоб дізнатися більше про OpenStreetMap, задати питання або взяти участь у наших зустрічах. Усі вітаються!'
   OSM-CL-twitter:
     name: OpenStreetMap Чилі Twitter
     description: 'Приєднуйтесь до нас у Twitter: {url}'
+  OSM-CN-telegram:
+    name: OpenStreetMap Китай Telegram
+    description: 'Telegram-група спільноти OSM Китаю: {url}'
+  OSM-CO:
+    name: OpenStreetMap Колумбія
   OSM-CO-facebook:
     name: OpenStreetMap Колумбія у Facebook
     description: Приєднуйтесь до спільноти OpenStreetMap Колумбія у Facebook
   OSM-CO-mailinglist:
     name: Talk-co Список розсилки
+  OSM-CO-telegram:
+    name: OSM Колумбія  у Telegram
   OSM-CO-twitter:
     name: OpenStreetMap Колумбія Twitter
     description: 'Приєднуйтесь до нас у Twitter: {url}'
@@ -101,6 +137,9 @@ uk:
   OSM-Discord:
     name: OpenStreetMap Discord
     description: Зв'яжіться з іншими маперами за допомогою Discord
+  OSM-EC-telegram:
+    name: OSM Еквадор у Telegram
+    description: Телеграм-чат OpenStreetMap Еквадор
   OSM-ES-mailinglist:
     name: Talk-es Список розсилки
     description: Список розсилки для обговорення OpenStreetMap в Іспанії
@@ -129,6 +168,11 @@ uk:
     name: OpenStreetMap Індія - участь в мапінгу поселень
     description: Покращити OpenStreetMap в Індії
     extendedDescription: 'Мапите в Індії? Маєте питання чи бажаєте поспілкуватись зі спільнотою тут? Приєднуйтесь до нас - {url}. Ласкаво просимо!'
+  OSM-Japan-telegram:
+    name: OpenStreetMap Японія Telegram
+    description: 'Telegram-група спільноти OSM Японії: {url}'
+  OSM-Korea-telegram:
+    name: OSM Корея в Telegram
   OSM-MMR-facebook:
     name: OpenStreetMap М'янма
     description: Покращити OpenStreetMap в М'янмі
@@ -145,7 +189,6 @@ uk:
     description: Офіційний форум OpenStreetMap Малайзія
   OSM-MY-matrix:
     name: Канал OpenStreetMap Малайзія на Riot
-    description: 'Запрошуємо всіх маперів! Зареєструйтеся на {signupUrl}'
   OSM-Nepal-facebook:
     name: OpenStreetMap Непал
     description: Покращити OpenStreetMap в Непалі
@@ -168,18 +211,8 @@ uk:
   OSM-PE-twitter:
     name: OpenStreetMap Перу Twitter
     description: 'Приєднуйтесь до нас у Twitter: {url}'
-  OSM-PH-facebook:
-    name: OpenStreetMap Філіппіни у Facebook
-    description: 'Ласкаво просимо до OpenStreetMap Філіппіни, ми закликаємо всіх філіппінців взяти участь в OpenStreetMap.'
-  OSM-PH-mailinglist:
-    name: Talk-ph Список розсилки
-    description: Список розсилки для обговорення OpenStreetMap на Філіппінах
-  OSM-PH-slack:
-    name: OpenStreetMap PH Slack
-    description: 'Запрошуємо всіх! Зареєструйтеся на {signupUrl}'
   OSM-PH-telegram:
     name: OpenStreetMap PH Telegram
-    description: 'Неофіційний канал в Telegram місцевої спільноти учасників OpenStreetMap та друзів на Філіппінах'
   OSM-PL-facebook-group:
     name: Група Facebook OpenStreetMap в Польщі
     description: Група для маперів та користувачів OpenStreetMap в Польщі
@@ -219,6 +252,8 @@ uk:
   OSM-TW-mailinglist:
     name: OpenStreetMap Тайвань, список розсилки
     description: Talk-tw – офіційний список розсилки спільноти для обговорення питань пов'язаних з Тайванем
+  OSM-TW-telegram:
+    description: 'Telegram-група спільноти OSM Тайваню: {url}'
   OSM-Telegram:
     name: OpenStreetMap Telegram
     description: 'Приєднайтеся до глобальної групти OpenStreetMap Telegram за адресою {url}'
@@ -393,6 +428,8 @@ uk:
   fr-mailinglist:
     name: Talk-fr Список розсилки
     description: Talk-fr Список розсилки
+  fr-telegram:
+    description: 'Telegram-група спільноти OSM Франції: {url}'
   fr-twitter:
     name: OpenStreetMap Франція у Twitter
     description: 'OpenStreetMap Франція у Twitter: {url}'
@@ -420,6 +457,8 @@ uk:
   hu-meetup:
     name: OpenStreetMap Угорщина - Зустрічі
     description: Платформа для організації зустрічей маперів в Угорщині
+  il-telegram:
+    description: 'Telegram-група спільноти OSM Ізраїлю: {url}'
   is-facebook:
     name: OSM Ісландія у Facebook
     description: Сторінка OpenStreetMap в Ісландії
@@ -451,6 +490,8 @@ uk:
     name: Місцева група Mappa Mercia
     description: Місце для ентузіастів OpenStreetMap у Мідлендс
     extendedDescription: 'Mappa Mercia - це проект з розвитку OpenStreetMap у Вест-Мідлендс, Великобританія. Ми проводимо спільні заходи, проводимо навчання та підтримуємо місцеві організації, які бажають зробити свої дані відкритими.'
+  nl-telegram:
+    description: 'Telegram-група спільноти OSM Нідерландів: {url}'
   no-forum:
     name: Форум OpenStreetMap Норвегія
     description: Форум OpenStreetMap Норвегія
@@ -525,6 +566,10 @@ uk:
   osmgraz-twitter:
     name: OSM спілнота Грац у Твіттері
     description: OpenStreetMap спілнота Грац у Твіттері
+  pt-telegram:
+    description: 'Telegram-група спільноти OSM Португалії: {url}'
+  sa-telegram:
+    description: 'Telegram-група спільноти OSM Саудівської Аравії: {url}'
   se-facebook:
     name: OpenStreetMap Швеція у Facebook
     description: OpenStreetMap Швеція у Facebook

@@ -13,12 +13,15 @@ gl:
     name: Twitter do OpenStreetMap Galicia
     description: 'Séguenos no Twitter en {url}'
   Galicia-Xeoinquedos-Twitter:
-    name: Xeoinquedos no Twitter
+    description: 'Séguenos no Twitter en {url}'
   GeoPhilly:
     name: GeoPhilly
+  MapColabora-twitter:
+    description: Twitter de Mapeado Colaborativo / Xeoinquedos Zaragoza
   MapMinnesota:
     name: MapMinnesota
   MaptimeHRVA-twitter:
+    name: Twitter de MaptimeHRVA
     description: 'Séguenos no Twitter en {url}'
   OSM-AR-facebook:
     name: Facebook do OpenStreetMap Arxentina
@@ -54,11 +57,13 @@ gl:
     name: Facebook do OpenStreetMap Chile
     description: Unirse á comunidade do OpenStreetMap Chile no Facebook
   OSM-CL-twitter:
+    name: Twitter do OpenStreetMap Chile
     description: 'Séguenos no Twitter en {url}'
   OSM-CO-facebook:
     name: Facebook do OpenStreetMap Colombia
     description: Unirse á comunidade do OpenStreetMap Colombia no Facebook
   OSM-CO-twitter:
+    name: Twitter do OpenStreetMap Colombia
     description: 'Séguenos no Twitter en {url}'
   OSM-Discord:
     description: Póñase en contacto con outros cartógrafos a través do Discord
@@ -92,11 +97,11 @@ gl:
     description: Foro oficial do OpenStreetMap Malaisia
   OSM-MY-matrix:
     name: Canle de Riot do OpenStreetMap Malaisia
-    description: 'Tódolos cartógrafos son benvidos! Rexístrate en {signupUrl}'
   OSM-PE-facebook:
     name: Facebook do OpenStreetMap Perú
     description: Unirse á comunidade do OpenStreetMap Perú no Facebook
   OSM-PE-twitter:
+    name: Twitter do OpenStreetMap Perú
     description: 'Séguenos no Twitter en {url}'
   OSM-PL-facebook-group:
     name: Grupo de Facebook do OpenStreetMap Polonia
@@ -116,6 +121,7 @@ gl:
     name: Twitter do OpenStreetMap
     description: 'Séguenos no Twitter en {url}'
   OSM-br-twitter:
+    name: Twitter do OpenStreetMap Brasil
     description: 'Séguenos no Twitter en {url}'
   OSM-help:
     name: Axuda de OpenStreetMap
@@ -139,10 +145,17 @@ gl:
     name: Fundación OpenStreetMap
     description: OSMF é unha organización sen fins de lucro estabelecida no Reino Unido que apoia ó proxecto do OpenStreetMap
   PHXGeo-twitter:
+    name: Twitter de PHXGeo
     description: 'Séguenos no Twitter en {url}'
   Trentino-Mailing-List:
     name: Listaxe de correo do OpenStreetMap para Trentino
     description: Listaxe de conversas rexionais do OpenStreetMap Italia para Trentino
+  al-twitter:
+    name: Twitter do OpenStreetMap Albania
+    description: 'Séguenos no Twitter en {url}'
+  at-twitter:
+    name: Twitter do OpenStreetMap Austria
+    description: 'OpenStreetMap Austria no Twitter: {url}'
   be-chapter:
     name: Capítulo local do OpenStreetMap Bélxica
   be-forum:
@@ -176,18 +189,32 @@ gl:
     description: 'Séguenos no Twitter: {url}'
     extendedDescription: 'Este é o identificador oficial do capítulo de Xoves Cartógrafos da Universidade de Cape Coast, Ghana. Encantannos os mapas, os datos abertos e axudar ás persoas vulnerábeis.'
   ch-twitter:
+    name: Twitter do OpenStreetMap Suíza
     description: 'Séguenos no Twitter: {url}'
   de-berlin-twitter:
+    name: Twitter do OpenStreetMap Berlín
     description: 'Séguenos no Twitter: {url}'
   de-forum:
     description: Foro web do OpenStreetMap Alemaña
+  de-mv-twitter:
+    name: Twitter do OpenStreetMap Mecklenburg-Vorpommern
+    description: 'Séguenos no Twitter en {url}'
+  es-twitter:
+    name: Twitter do OpenStreetMap España
+    description: 'Séguenos no Twitter en {url}'
   fr-35-wiki:
     description: Páxina wiki do grupo local de OSM Rennes
+  fr-bzh-twitter:
+    name: OpenStreetMap Bretaña no Twitter
+    description: 'OpenStreetMap Bretaña no Twitter: {url}'
   fr-chapter:
     name: Capítulo local do OpenStreetMap Francia
   fr-facebook:
     name: Páxina do Facebook do OpenStreetMap Francia
     description: Páxina do Facebook do OpenStreetMap Francia
+  fr-twitter:
+    name: OpenStreetMap Francia no Twitter
+    description: 'OpenStreetMap Francia no Twitter: {url}'
   galicia-wiki:
     name: Wikiproxecto do OpenStreetMap Galicia
     description: 'Todo o que precisas saber sobre o cartografado en Galiza: {url} (todas as ferramentas do mundo do OSM están en galego, emprégaas!)'
@@ -198,17 +225,30 @@ gl:
     description: Cartógrafos e Facebook do OpenStreetMap en Hungría
   ireland-chapter:
     name: Capítulo local do OpenStreetMap Irlanda
+  ireland-twitter:
+    name: OpenStreetMap Irlanda no Twitter
+    description: 'OpenStreetMap Irlanda no Twitter: {url}'
   is-chapter:
     name: Capítulo local do OpenStreetMap Islandia
   is-facebook:
     name: OpenStreetMap Islandia no Facebook
+  is-twitter:
+    name: OpenStreetMap Islandia no Twitter
+    description: Twitter do OpenStreetMap en Islandia
   it-chapter:
     name: Capítulo local do OpenStreetMap Italia
   it-facebook:
     name: Facebook do OpenStreetMap Italia
     description: Unirse á comunidade do OpenStreetMap Italia no Facebook
   it-twitter:
+    name: Twitter do OpenStreetMap Italia
     description: 'Séguenos no Twitter en {url}'
+  latam-twitter:
+    name: Twitter do OpenStreetMap Latinoamérica
+    description: 'OpenStreetMap Latinoamérica no Twitter: {url}'
+  ni-twitter:
+    name: Twitter do OpenStreetMap Nicaragua
+    description: 'OpenStreetMap Nicaragua no Twitter: @osm_ni'
   osm-gh-facebook:
     name: OpenStreetMap Ghana no Facebook
     description: Grupo do Facebook pra a xente interesada de xeito activo no OpenStreetMap.
@@ -235,17 +275,45 @@ gl:
     description: Grupo do Facebook de Malgache para xente interesada no OpenStreetMap
   osm-ni:
     description: Fornece servizos e información do OSM para a comunidade local en Nicaragua
+  osm-za-twitter:
+    name: OpenStreetMap Sudáfrica no Twitter
+    description: 'Séguenos no Twitter en {url}'
+  osmcz-twitter:
+    name: 'Twitter do OpenStreetMap Chequia: @osmcz'
+    description: Segue á comunidade checa no Twitter, incluído o WeeklyOSM traducido!
+  osmgraz-twitter:
+    name: Comunidade do OpenStreetMap Graz no Twitter
+    description: Comunidade do OpenstreetMap Graz no Twitter
+  scotland-twitter:
+    name: OpenStreetMap Escocia no Twitter
+    description: 'OpenStreetMap Escocia no Twitter: {url}'
   se-facebook:
     name: Facebook do OpenStreetMap Suecia
     description: OpenStreetMap Suecia no Facebook
   se-twitter:
+    name: OpenStreetMap Suecia no Twitter
     description: 'Séguenos no Twitter: {url}'
+  si-twitter:
+    name: Twitter do OpenStreetMap Eslovenia
+    description: 'Segue ó OpenStreetMap Eslovenia no Twitter: {url}'
+  sk-twitter:
+    name: OpenStreetMap Freemap Eslovaquia no Twitter
+    description: 'OpenStreetMap Freemap Eslovaquia no Twitter: {url}'
   talk-gh:
     name: Listaxe de correo Talk-gh
     description: Talk-gh é a listaxe de correo oficial da comunidade do OSM de Ghana.
   talk-mg:
     name: Listaxe de correo Talk-mg
     description: 'Lugar para contribuíntes, comunidades e usuarios do OpenStreetMap en Madagascar para compartir e debater.'
+  ua-twitter:
+    name: Twitter do OpenStreetMap Ucraína
+    description: 'OpenStreetMap Ucraína no Twitter: {url}'
+  uk-london-twitter:
+    name: OpenStreetMap Londres no Twitter
+    description: 'OpenStreetMap Londres no Twitter: {url}'
+  uk-twitter:
+    name: OpenStreetMap Reino Unido no Twitter
+    description: 'OpenStreetMap Reino Unido no Twitter: {url}'
   ym-Cornell-University:
     name: Sociedade cartográfica
   ym-Fourah-Bay-College:

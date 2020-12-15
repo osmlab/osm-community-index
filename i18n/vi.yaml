@@ -28,7 +28,6 @@ vi:
     name: Twitter OpenStreetMap Galicia
     description: 'Theo dõi chúng tôi trên Twitter: {url}'
   Galicia-Xeoinquedos-Twitter:
-    name: Geoinquetos trên Twitter
     description: 'Theo dõi chúng tôi trên Twitter: {url}'
   GeoPhilly:
     name: GeoPhilly
@@ -228,7 +227,6 @@ vi:
     description: Diễn đàn OpenStreetMap Malaysia chính thức
   OSM-MY-matrix:
     name: Kênh Riot OpenStreetMap Malaysia
-    description: 'Mời bạn tham gia tại {signupUrl}'
   OSM-Nepal-facebook:
     name: OpenStreetMap Nepal
     description: Cải thiện OpenStreetMap tại Nepal
@@ -254,18 +252,8 @@ vi:
   OSM-PE-twitter:
     name: Twitter OpenStreetMap Peru
     description: 'Theo dõi chúng tôi trên Twitter: {url}'
-  OSM-PH-facebook:
-    name: Facebook OpenStreetMap Philippines
-    description: 'OpenStreetMap Philippines khuyến khích mọi người Philippines đóng góp vào dự án OpenStreetMap.'
-  OSM-PH-mailinglist:
-    name: Danh sách thư talk-ph
-    description: Danh sách thư để thảo luận về OpenStreetMap tại Philippines
-  OSM-PH-slack:
-    name: Slack OpenStreetMap Philippines
-    description: 'Mời bạn tham gia tại {signupUrl}'
   OSM-PH-telegram:
     name: Telegram OpenStreetMap Philippines
-    description: 'Cộng đồng địa phương Telegram không chính thức dành cho những người đóng góp vào OpenStreetMap và bạn bè ở Philippines'
   OSM-PL-facebook-group:
     name: Nhóm Facebook OpenStreetMap Ba Lan
     description: Nhóm dành cho những người lập bản đồ và người dùng OpenStreetMap ở Ba Lan
@@ -632,6 +620,9 @@ vi:
   fr-twitter:
     name: OpenStreetMap Pháp tại Twitter
     description: 'OpenStreetMap Pháp tại Twitter: {url}'
+  fr-xmpp:
+    name: OpenStreetMap Pháp trên XMPP
+    description: Hãy tham gia osm-fr@chat.jabberfr.org
   galicia-wiki:
     name: Dự án Wiki OpenStreetMap Galicia
     description: 'Mọi điều cần biết để lập bản đồ tại Galicia: {url}'
@@ -652,7 +643,6 @@ vi:
     description: talk-gr là danh sách thư chính thức của cộng đồng Hy Lạp
   gr-matrix:
     name: Matrix OpenStreetMap Hy Lạp
-    description: 'Tham gia #osm-gr:matrix.org tại https://riot.im/app/#/room/%23osm-gr:matrix.org'
   guatemala-telegram:
     name: OSM Guatemala tại Telegram
     description: Trò chuyện Telegram của OpenStreetMap Guatemala
@@ -762,9 +752,17 @@ vi:
   latam-wiki:
     name: Dự án Wiki OpenStreetMap Mỹ Latinh
     description: Mọi điều cần biết để lập bản đồ tại Mỹ Latinh
+  lu-github:
+    name: OpenStreetMap Luxembourg tại GitHub
+    extendedDescription: OSM Luxembourg tại GitHub
+  lu-irc:
+    name: Kênh IRC OpenStreetMap Luxembourg
+    description: 'Hãy tham gia #osm-lu tại irc.oftc.net (cổng 6667)'
   lu-mailinglist:
     name: Danh sách thư talk-lu
     description: Danh sách thư chính thức của cộng đồng OSM tại Luxembourg
+  lu-matrix:
+    name: Kênh Matrix OpenStreetMap Luxembourg
   mailinglist-sk-googlegroups:
     name: Danh sách thứ Slovakia tại Google Nhóm
     description: Danh sách thư chính thức của cộng đồng OSM tại Slovakia
@@ -1273,9 +1271,6 @@ vi:
     description: Nhánh YouthMappers tại Đại học Bách khoa Madrid
   ym-Universidad-de-Antioquia:
     description: Nhánh YouthMappers tại Đại học Antioquia
-  ym-Universidad-de-Costa-Rica:
-    name: YouthMappers tại Đại học Costa Rica
-    description: Nhánh YouthMappers tại Đại học Costa Rica
   ym-Universidad-de-La-Guajira:
     description: Nhánh YouthMappers tại Đại học La Guajira
   ym-Universidad-de-Los-Andes:
