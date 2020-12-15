@@ -13,15 +13,13 @@
     "OpenStreetMap",
     "community"
   ],
-  "main": "dist/index.js",
-  "module": "index.mjs",
   "scripts": {
     "all": "run-s build dist",
-    "build": "node build.js && rollup -c",
+    "build": "node build.js",
     "dist": "node build_dist.js",
     "icons": "node build_icons.js",
-    "lint": "eslint *.js test/*.js",
-    "test": "npm run build && npm run lint && tap test/*.js",
+    "lint": "eslint *.js",
+    "test": "npm run build && npm run lint",
     "stats": "node stats.js",
     "txpull": "tx pull -a",
     "txpush": "tx push -s"
@@ -32,9 +30,6 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@ideditor/location-conflation": "0.6.0",
     "@mapbox/geojson-area": "^0.2.2",
-    "@rollup/plugin-commonjs": "^17.0.0",
-    "@rollup/plugin-json": "^4.1.0",
-    "@rollup/plugin-node-resolve": "^11.0.0",
     "bytes": "^3.1.0",
     "colors": "^1.4.0",
     "easy-table": "^1.1.1",
@@ -46,9 +41,7 @@
     "json-stringify-pretty-compact": "^2.0.0",
     "jsonschema": "^1.3.0",
     "npm-run-all": "^4.1.5",
-    "rollup": "^2.32.1",
-    "shelljs": "^0.8.4",
-    "tap": "^14.10.8"
+    "shelljs": "^0.8.4"
   },
   "engines": {
     "node": ">=10"

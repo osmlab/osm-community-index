@@ -52,7 +52,6 @@ Several files are published under `dist/`.  These are generated - do not edit th
 * `features.json` - A GeoJSON FeatureCollection containing _only_ the custom Features
 * `resources.json` - A JSON object containing all the resources
 * `combined.geojson` - A GeoJSON file containing a FeatureCollection of all Features, each with available resources included in a `resources` property.
-* `index.js` - a CommonJS module which exports the `features` and `resources` objects
 * `img/*` - SVG logos for all the resource types
 
 
