@@ -19,11 +19,45 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 3.0.0
+##### 2020-Dec-15
+* Added:
+  * OSM Turkey Facebook group and mailing list ([#395], [#396])
+  * OSM Poland Telegram group ([#394])
+  * OSM Hong Kong Discord ([#391])
+  * OSM Finland Facebook group ([#388])
+  * Catalan community resources ([#387])
+  * Fix OSM Iraq mailing list so it is now included ([#370])
+  * OSM Austria Matrix chat ([#348])
+* Updated:
+  * Update YouthMappers CostaRica source strings to English ([#386])
+  * Fix misspelling "Xeoinquedos" ([#344], [#379])
+* Dependencies:
+  * Upgrade to location-conflation v0.6 / country-coder v4.0
+* Breaking Changes:
+  * :warning: Removed unneeded `index.mjs` and `index.js` JavaScript bundles
+  * :warning: Renamed files for consistency and clarity:
+    * `dist/features.json` -> `dist/featureCollection.json`
+    * `dist/combined.geojson` -> `dist/combinedFeatureCollection.json`
+
+[#344]: https://github.com/osmlab/osm-community-index/issues/344
+[#348]: https://github.com/osmlab/osm-community-index/issues/348
+[#370]: https://github.com/osmlab/osm-community-index/issues/370
+[#379]: https://github.com/osmlab/osm-community-index/issues/379
+[#386]: https://github.com/osmlab/osm-community-index/issues/386
+[#387]: https://github.com/osmlab/osm-community-index/issues/387
+[#388]: https://github.com/osmlab/osm-community-index/issues/388
+[#391]: https://github.com/osmlab/osm-community-index/issues/391
+[#394]: https://github.com/osmlab/osm-community-index/issues/394
+[#395]: https://github.com/osmlab/osm-community-index/issues/395
+[#396]: https://github.com/osmlab/osm-community-index/issues/396
+
+
 # 2.1.2
 ##### 2020-Oct-21
 * Added:
   * OSM Malta IRC room ([#374])
-  * OSM Italy, Lombardy region ([#372],[#373],[#378])
+  * OSM Italy, Lombardy region ([#372], [#373], [#378])
   * OSM Iraq mailing list ([#370])
   * OSM France, Grenoble region ([#369])
   * OSM Luxembourg resources ([#367])
@@ -32,7 +66,7 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
   * Poland Github ([#350])
   * XMPP chat for Berlin / Germany ([#349])
 * Updated:
-  * Use matrix.to links for Matrix chat ([#365],[#366],[#375],[#376],[#377])
+  * Use matrix.to links for Matrix chat ([#365], [#366], [#375], [#376], [#377])
   * Updated descriptions and links for Philippine channels ([#371])
   * Adjust ranking of Irish community resources ([#368])
   * OSM-US is an official local chapter now
@@ -62,6 +96,7 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 [#376]: https://github.com/osmlab/osm-community-index/issues/376
 [#377]: https://github.com/osmlab/osm-community-index/issues/377
 [#378]: https://github.com/osmlab/osm-community-index/issues/378
+
 
 # 2.1.1
 ##### 2020-Apr-13
