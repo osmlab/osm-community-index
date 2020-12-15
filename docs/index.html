@@ -71,7 +71,7 @@ var map = new mapboxgl.Map({
 // wait for map to load before adjusting it
 map.on('load', function() {
   var previous = '';
-  var dataURL = 'https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/completeFeatureCollection.min.geojson';
+  var dataURL = 'https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/completeFeatureCollection.min.json';
 
   map.addSource('osm-community-index', { type: 'geojson', data: dataURL });
   map.addLayer({

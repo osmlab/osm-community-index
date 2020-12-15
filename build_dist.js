@@ -27,8 +27,8 @@ function buildAll() {
   const combined = generateCombined(resources, featureCollection);
 
   // Save individual data files
-  fs.writeFileSync('dist/completeFeatureCollection.geojson', prettyStringify(combined) );
-  fs.writeFileSync('dist/completeFeatureCollection.min.geojson', JSON.stringify(combined) );
+  fs.writeFileSync('dist/completeFeatureCollection.json', prettyStringify(combined) );
+  fs.writeFileSync('dist/completeFeatureCollection.min.json', JSON.stringify(combined) );
   fs.writeFileSync('dist/featureCollection.min.json', JSON.stringify(featureCollection) );
   fs.writeFileSync('dist/resources.min.json', JSON.stringify({ resources: resources }) );
 
