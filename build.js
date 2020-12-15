@@ -56,7 +56,13 @@ function collectFeatures() {
   let files = {};
   process.stdout.write('📦  Features: ');
 
-  glob.sync('features/**/*.geojson').forEach(file => {
+  glob.sync('features/**/*', { nodir: true }).forEach(file => {
+    if (!/\.geojson$/.test(file)) {
+      console.error(colors.red(`Error - file should have a .geojson extension:`));
+      console.error('  ' + colors.yellow(file));
+      process.exit(1);
+    }
+
     const contents = fs.readFileSync(file, 'utf8');
     let parsed;
     try {
@@ -122,9 +128,14 @@ function collectResources(tstrings, featureCollection) {
   const loco = new LocationConflation(featureCollection);
   process.stdout.write('📦  Resources: ');
 
-  glob.sync('resources/**/*.json').forEach(file => {
-    let contents = fs.readFileSync(file, 'utf8');
+  glob.sync('resources/**/*.json', { nodir: true }).forEach(file => {
+    if (!/\.json$/.test(file)) {
+      console.error(colors.red(`Error - file should have a .json extension:`));
+      console.error('  ' + colors.yellow(file));
+      process.exit(1);
+    }
 
+    let contents = fs.readFileSync(file, 'utf8');
     let resource;
     try {
       resource = JSON.parse(contents);
