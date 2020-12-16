@@ -87,11 +87,7 @@ function generateCombined(resources, featureCollection) {
     let keepFeature = keepFeatures[feature.id];
     if (!keepFeature) {
       keepFeature = deepClone(feature);
-      keepFeature.properties = {
-        id: feature.properties.id,
-        area: feature.properties.area,
-        resources: {}
-      };
+      keepFeature.properties.resources = {};
       keepFeatures[feature.id] = keepFeature;
     }
 
