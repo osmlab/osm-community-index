@@ -38,7 +38,7 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
   * :warning: Removed unneeded `index.mjs` and `index.js` JavaScript bundles
   * :warning: Renamed files for consistency and clarity:
     * `dist/features.json` -> `dist/featureCollection.json`
-    * `dist/combined.geojson` -> `dist/combinedFeatureCollection.json`
+    * `dist/combined.geojson` -> `dist/completeFeatureCollection.json`
 
 [#344]: https://github.com/osmlab/osm-community-index/issues/344
 [#348]: https://github.com/osmlab/osm-community-index/issues/348
