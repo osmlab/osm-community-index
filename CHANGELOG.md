@@ -19,6 +19,14 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 3.0.1
+##### 2020-Dec-16
+* Updated:
+  * Retain all of the country-coder properties in completeFeatureCollection.json ([#398])
+
+[#398]: https://github.com/osmlab/osm-community-index/issues/398
+
+
 # 3.0.0
 ##### 2020-Dec-15
 * Added:
