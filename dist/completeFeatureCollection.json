@@ -5438,7 +5438,7 @@
             "languageCodes": ["en"],
             "name": "OpenStreetMap Discord",
             "description": "Get in touch with other mappers via Discord",
-            "url": "https://discord.gg/SRZUYUz",
+            "url": "https://discord.gg/4smYkq3gzp",
             "contacts": [
               {"name": "Austin Harrison", "email": "jaustinharrison@gmail.com"}
             ]
@@ -12780,6 +12780,105 @@
     },
     {
       "type": "Feature",
+      "id": "us-mi.geojson",
+      "properties": {
+        "id": "us-mi.geojson",
+        "area": 251878.43,
+        "resources": {
+          "US-MI-Wiki": {
+            "id": "US-MI-Wiki",
+            "type": "wiki",
+            "locationSet": {"include": ["US-MI.geojson"]},
+            "languageCodes": ["en"],
+            "name": "OpenStreetMap Michigan Wiki",
+            "description": "Information about mapping in Michigan.",
+            "url": "https://wiki.openstreetmap.org/wiki/Michigan",
+            "order": 5
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-84.81, 41.69],
+            [-84.81, 41.76],
+            [-87.21, 41.76],
+            [-87.02, 42.49],
+            [-87.15, 43.38],
+            [-87.13, 43.67],
+            [-87.02, 44.13],
+            [-86.69, 44.88],
+            [-86.5, 45.08],
+            [-86.25, 45.23],
+            [-86.75, 45.44],
+            [-87.09, 45.44],
+            [-87.17, 45.35],
+            [-87.31, 45.24],
+            [-87.4, 45.2],
+            [-87.44, 45.07],
+            [-87.66, 45.11],
+            [-87.78, 45.19],
+            [-87.7, 45.33],
+            [-87.91, 45.33],
+            [-87.85, 45.63],
+            [-87.89, 45.72],
+            [-88.06, 45.76],
+            [-88.17, 45.82],
+            [-88.15, 45.88],
+            [-88.26, 45.93],
+            [-88.58, 45.99],
+            [-88.66, 45.97],
+            [-88.75, 45.99],
+            [-88.95, 46.05],
+            [-89.09, 46.12],
+            [-90.12, 46.32],
+            [-90.43, 46.56],
+            [-89.49, 48.02],
+            [-89.44, 47.98],
+            [-88.68, 48.25],
+            [-88.37, 48.32],
+            [-84.86, 46.9],
+            [-84.76, 46.64],
+            [-84.55, 46.46],
+            [-84.47, 46.45],
+            [-84.42, 46.5],
+            [-84.35, 46.5],
+            [-84.27, 46.5],
+            [-84.22, 46.55],
+            [-84.1, 46.53],
+            [-84.15, 46.41],
+            [-84.11, 46.26],
+            [-84, 46.12],
+            [-83.94, 46.05],
+            [-83.8, 46.12],
+            [-83.64, 46.12],
+            [-83.54, 46.09],
+            [-83.43, 46],
+            [-83.6, 45.82],
+            [-82.52, 45.34],
+            [-82.12, 43.59],
+            [-82.42, 42.99],
+            [-82.41, 42.97],
+            [-82.47, 42.88],
+            [-82.46, 42.77],
+            [-82.51, 42.61],
+            [-82.6, 42.55],
+            [-82.64, 42.56],
+            [-82.83, 42.37],
+            [-83.07, 42.31],
+            [-83.13, 42.23],
+            [-83.12, 42.12],
+            [-83.14, 42.04],
+            [-83.11, 41.95],
+            [-83.41, 41.73],
+            [-84.81, 41.69]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "grand_junction_co.geojson",
       "properties": {
         "id": "grand_junction_co.geojson",
@@ -17803,6 +17902,16 @@
               }
             ],
             "order": -3
+          },
+          "fi-telegram": {
+            "id": "fi-telegram",
+            "type": "telegram",
+            "locationSet": {"include": ["fi"]},
+            "languageCodes": ["en", "fi", "sv"],
+            "name": "OSM Finland on Telegram",
+            "description": "OpenStreetMap Finland Telegram chat",
+            "url": "https://t.me/osmFI",
+            "order": 3
           }
         }
       },
@@ -23939,6 +24048,19 @@
             ],
             "order": -3
           },
+          "no-matrix": {
+            "id": "no-matrix",
+            "type": "matrix",
+            "locationSet": {"include": ["no"]},
+            "languageCodes": ["no"],
+            "name": "OpenStreetMap Norway Matrix",
+            "description": "Join #openstreetmap-no:matrix.org at {url}",
+            "url": "https://matrix.to/#/#openstreetmap-no:matrix.org",
+            "contacts": [
+              {"name": "OpenStreetMap Norway", "email": "kart@nuug.no"}
+            ],
+            "order": -1
+          },
           "no-telegram": {
             "id": "no-telegram",
             "type": "telegram",
@@ -25107,6 +25229,16 @@
             "extendedDescription": "A good resource of videos about anything related to OpenStreetMap. Mainly in Persian.",
             "url": "https://www.aparat.com/osm_iran",
             "contacts": [{"name": "Iman", "email": "iriman@chmail.ir"}]
+          },
+          "osm-iran-discord": {
+            "id": "osm-iran-discord",
+            "type": "discord",
+            "locationSet": {"include": ["ir"]},
+            "languageCodes": ["fa"],
+            "name": "OpenStreetMap Iran Discord",
+            "description": "Join the OSM Iran Discord at {url}",
+            "extendedDescription": "A Discord server for OpenStreetMap Iran. Feel free to join!",
+            "url": "https://discord.gg/MCA7A87Def"
           },
           "osm-iran-forum": {
             "id": "osm-iran-forum",
