@@ -8,6 +8,7 @@ const faDiscord = require('@fortawesome/free-brands-svg-icons/faDiscord').faDisc
 const faDiscourse = require('@fortawesome/free-brands-svg-icons/faDiscourse').faDiscourse;
 const faFacebook = require('@fortawesome/free-brands-svg-icons/faFacebook').faFacebook;
 const faGithub = require('@fortawesome/free-brands-svg-icons/faGithub').faGithub;
+const faGitlab = require('@fortawesome/free-brands-svg-icons/faGitlab').faGitlab;
 const faKeyboard = require('@fortawesome/free-solid-svg-icons/faKeyboard').faKeyboard;
 const faLink = require('@fortawesome/free-solid-svg-icons/faLink').faLink;
 const faMeetup = require('@fortawesome/free-brands-svg-icons/faMeetup').faMeetup;
@@ -27,6 +28,7 @@ function buildAll() {
     facebook: faFacebook,
     forum: faComments,
     github: faGithub,
+    gitlab: faGitlab,
     group: faUsers,
     irc: faKeyboard,
     mailinglist: faAt,
