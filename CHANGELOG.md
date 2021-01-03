@@ -19,6 +19,27 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 3.1.0
+##### 2021-Jan-03
+* Support new resource type `gitlab` ([#404])
+* Added:
+  * OSM Serbia resources ([#404])
+  * US Michagin Wiki ([#403])
+  * OSM Finland Telegram ([#402])
+  * OSM Iran Discord ([#400])
+  * OSM Norway Matrix ([#399])
+* Updated:
+  * OSM World Discord URL ([#401])
+
+[#404]: https://github.com/osmlab/osm-community-index/issues/404
+[#403]: https://github.com/osmlab/osm-community-index/issues/403
+[#402]: https://github.com/osmlab/osm-community-index/issues/402
+[#401]: https://github.com/osmlab/osm-community-index/issues/401
+[#400]: https://github.com/osmlab/osm-community-index/issues/400
+[#399]: https://github.com/osmlab/osm-community-index/issues/399
+[#398]: https://github.com/osmlab/osm-community-index/issues/398
+
+
 # 3.0.1
 ##### 2020-Dec-16
 * Updated:
