@@ -169,8 +169,12 @@ function collectResources(tstrings, featureCollection) {
 
     validateFile(file, resource, resourceSchema);
 
+    // check locationSet
     try {
-      loco.validateLocationSet(resource.locationSet);
+      const resolved = loco.resolveLocationSet(resource.locationSet);
+      if (!resolved.feature.geometry.coordinates.length || !resolved.feature.properties.area) {
+        throw new Error(`locationSet ${resolved.id} resolves to an empty feature.`);
+      }
     } catch (err) {
       console.error(colors.red(`Error - ${err.message} in:`));
       console.error('  ' + colors.yellow(file));
