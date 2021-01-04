@@ -45,7 +45,7 @@ function buildAll() {
   // Resources
   const resources = collectResources(tstrings, featureCollection);
   fs.writeFileSync('dist/resources.json', prettyStringify({ resources: sort(resources) }, { maxLength: 9999 }));
-  fs.writeFileSync('i18n/en.yaml', YAML.safeDump({ en: sort(tstrings) }, { lineWidth: -1 }) );
+  fs.writeFileSync('i18n/en.yaml', YAML.dump({ en: sort(tstrings) }, { lineWidth: -1 }) );
 
   console.timeEnd(END);
 }
