@@ -1,8 +1,8 @@
 const colors = require('colors/safe');
 const fs = require('fs');
 const LocationConflation = require('@ideditor/location-conflation');
-const prettyStringify = require('json-stringify-pretty-compact');
 const shell = require('shelljs');
+const stringify = require('@aitodotai/json-stringify-pretty-compact');
 
 const featureCollection = require('./dist/featureCollection.json');
 const resources = require('./dist/resources.json').resources;
@@ -27,7 +27,7 @@ function buildAll() {
   const combined = generateCombined(resources, featureCollection);
 
   // Save individual data files
-  fs.writeFileSync('dist/completeFeatureCollection.json', prettyStringify(combined) );
+  fs.writeFileSync('dist/completeFeatureCollection.json', stringify(combined) + '\n');
   fs.writeFileSync('dist/completeFeatureCollection.min.json', JSON.stringify(combined) );
   fs.writeFileSync('dist/featureCollection.min.json', JSON.stringify(featureCollection) );
   fs.writeFileSync('dist/resources.min.json', JSON.stringify({ resources: resources }) );
