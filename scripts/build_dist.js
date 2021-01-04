@@ -4,8 +4,8 @@ const LocationConflation = require('@ideditor/location-conflation');
 const shell = require('shelljs');
 const stringify = require('@aitodotai/json-stringify-pretty-compact');
 
-const featureCollection = require('./dist/featureCollection.json');
-const resources = require('./dist/resources.json').resources;
+const featureCollection = require('../dist/featureCollection.json');
+const resources = require('../dist/resources.json').resources;
 
 buildAll();
 

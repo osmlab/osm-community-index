@@ -18,7 +18,7 @@ function getStats() {
   let t = new Table;
   currSize = 0;
   currFiles = 0;
-  glob.sync('features/**/*.geojson').forEach(addRow);
+  glob.sync('./features/**/*.geojson').forEach(addRow);
   t.sort(['Size|des']);
   console.log(t.toString());
   featureSize = bytes(currSize, { unitSeparator: ' ' });
@@ -27,7 +27,7 @@ function getStats() {
   t = new Table;
   currSize = 0;
   currFiles = 0;
-  glob.sync('resources/**/*.json').forEach(addRow);
+  glob.sync('./resources/**/*.json').forEach(addRow);
   t.sort(['Size|des']);
   console.log(t.toString());
   resourceSize = bytes(currSize, { unitSeparator: ' ' });

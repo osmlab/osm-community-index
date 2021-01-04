@@ -11,9 +11,9 @@ const stringify = require('@aitodotai/json-stringify-pretty-compact');
 const Validator = require('jsonschema').Validator;
 const YAML = require('js-yaml');
 
-const geojsonSchema = require('./schema/geojson.json');
-const featureSchema = require('./schema/feature.json');
-const resourceSchema = require('./schema/resource.json');
+const geojsonSchema = require('../schema/geojson.json');
+const featureSchema = require('../schema/feature.json');
+const resourceSchema = require('../schema/resource.json');
 
 let v = new Validator();
 v.addSchema(geojsonSchema, 'http://json.schemastore.org/geojson.json');
@@ -56,7 +56,7 @@ function collectFeatures() {
   let files = {};
   process.stdout.write('📦  Features: ');
 
-  glob.sync('features/**/*', { nodir: true }).forEach(file => {
+  glob.sync('./features/**/*', { nodir: true }).forEach(file => {
     if (!/\.geojson$/.test(file)) {
       console.error(colors.red(`Error - file should have a .geojson extension:`));
       console.error('  ' + colors.yellow(file));
@@ -128,7 +128,7 @@ function collectResources(tstrings, featureCollection) {
   const loco = new LocationConflation(featureCollection);
   process.stdout.write('📦  Resources: ');
 
-  glob.sync('resources/**/*.json', { nodir: true }).forEach(file => {
+  glob.sync('./resources/**/*.json', { nodir: true }).forEach(file => {
     if (!/\.json$/.test(file)) {
       console.error(colors.red(`Error - file should have a .json extension:`));
       console.error('  ' + colors.yellow(file));

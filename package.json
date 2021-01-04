@@ -15,12 +15,12 @@
   ],
   "scripts": {
     "all": "run-s build dist",
-    "build": "node build.js",
-    "dist": "node build_dist.js",
-    "icons": "node build_icons.js",
-    "lint": "eslint *.js",
+    "build": "node scripts/build.js",
+    "dist": "node scripts/build_dist.js",
+    "icons": "node scripts/build_icons.js",
+    "lint": "eslint scripts/*.js",
     "test": "npm run build && npm run lint",
-    "stats": "node stats.js",
+    "stats": "node scripts/stats.js",
     "txpull": "tx pull -a",
     "txpush": "tx push -s"
   },
