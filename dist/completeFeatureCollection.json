@@ -5435,7 +5435,16 @@
             "id": "OSM-Discord",
             "type": "discord",
             "locationSet": {"include": ["001"]},
-            "languageCodes": ["en"],
+            "languageCodes": [
+              "de",
+              "en",
+              "es",
+              "fr",
+              "it",
+              "pt-BR",
+              "ro",
+              "tr"
+            ],
             "name": "OpenStreetMap Discord",
             "description": "Get in touch with other mappers via Discord",
             "url": "https://discord.gg/4smYkq3gzp",
@@ -6462,6 +6471,15 @@
               {"name": "Naveen Francis", "email": "naveenpf@gmail.com"}
             ]
           },
+          "osm-india-matrix": {
+            "id": "osm-india-matrix",
+            "type": "matrix",
+            "locationSet": {"include": ["in"]},
+            "name": "OpenStreetMap India Matrix",
+            "description": "Talk to other contributors",
+            "extendedDescription": "Unofficial chat room for OSM India, also bridged to osmindia telegram group  ",
+            "url": "https://matrix.to/#/#osm-in-general:matrix.org"
+          },
           "osm-india-telegram": {
             "id": "osm-india-telegram",
             "type": "telegram",
@@ -7313,6 +7331,15 @@
               },
               {"name": "Jaisen Nedumpala", "email": "jaisuvyas@gmail.com"}
             ]
+          },
+          "osm-kerala-matrix": {
+            "id": "osm-kerala-matrix",
+            "type": "matrix",
+            "locationSet": {"include": ["india_kerala.geojson"]},
+            "name": "OpenStreetMap Kerala Matrix",
+            "description": "We map Kerala together. Join our Matrix group",
+            "extendedDescription": "Unofficial chat room for OSM Kerala, also bridged to osmkerala telegram group",
+            "url": "https://matrix.to/#/#osm-kerala:matrix.org"
           },
           "osm-kerala-telegram": {
             "id": "osm-kerala-telegram",
@@ -18330,6 +18357,21 @@
               }
             ],
             "order": -3
+          },
+          "fr-matrix": {
+            "id": "fr-matrix",
+            "type": "matrix",
+            "locationSet": {"include": ["fr"]},
+            "languageCodes": ["fr"],
+            "name": "OpenStreetMap France on Matrix",
+            "description": "A Matrix group for the OSM France community: {url} (bridged with Telegram)",
+            "url": "https://matrix.to/#/#osmfr:matrix.org",
+            "contacts": [
+              {
+                "name": "OpenStreetMap France",
+                "email": "contact@openstreetmap.fr"
+              }
+            ]
           },
           "fr-telegram": {
             "id": "fr-telegram",

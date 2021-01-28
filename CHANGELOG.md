@@ -18,6 +18,20 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
+# 3.1.1
+##### 2021-Jan-27
+* Added:
+  * OSM Kerala Matrix ([#410])
+  * OSM India Matrix ([#409])
+  * OSM France Matrix ([#408])
+* Updated:
+  * OSM World Discord language codes ([#406])
+
+[#410]: https://github.com/osmlab/osm-community-index/issues/410
+[#409]: https://github.com/osmlab/osm-community-index/issues/409
+[#408]: https://github.com/osmlab/osm-community-index/issues/408
+[#406]: https://github.com/osmlab/osm-community-index/issues/406
+
 
 # 3.1.0
 ##### 2021-Jan-03
