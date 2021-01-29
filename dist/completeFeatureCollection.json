@@ -9233,6 +9233,22 @@
         "driveSide": "right",
         "area": 324153.76,
         "resources": {
+          "OSM-PL-discord": {
+            "id": "OSM-PL-discord",
+            "type": "discord",
+            "locationSet": {"include": ["pl"]},
+            "languageCodes": ["en", "pl"],
+            "name": "Discord OSM Polska",
+            "description": "Main place for voice chats among Polish OpenStreetMap community, active text channels",
+            "url": "https://discord.gg/HvQWsMeQzT",
+            "contacts": [
+              {
+                "name": "Włodzimierz Bartczak",
+                "email": "wlodzimierz.bartczak@openstreetmap.pl"
+              }
+            ],
+            "order": 8
+          },
           "OSM-PL-facebook-group": {
             "id": "OSM-PL-facebook-group",
             "type": "facebook",
@@ -9267,7 +9283,8 @@
             "languageCodes": ["en", "pl"],
             "name": "OpenStreetMap Polska on GitHub",
             "description": "GitHub organization for Polish OpenStreetMap community",
-            "url": "https://github.com/osm-pl"
+            "url": "https://github.com/osm-pl",
+            "order": -25
           },
           "osm-pl-telegram": {
             "id": "osm-pl-telegram",
@@ -19326,21 +19343,6 @@
             ],
             "order": 4
           },
-          "uk-localchapter": {
-            "id": "uk-localchapter",
-            "type": "osm-lc",
-            "locationSet": {"include": ["gb"]},
-            "languageCodes": ["en"],
-            "name": "OpenStreetMap UK",
-            "description": "The official Local Chapter for the UK (including Northern Ireland).",
-            "extendedDescription": "We support OpenStreetMap by holding events, providing community resources, building partnerships, and by spreading the word. Join OpenStreetMap UK here: {signupUrl}",
-            "url": "https://osmuk.org/",
-            "signupUrl": "https://osmuk.org/become-member/",
-            "contacts": [
-              {"name": "OpenStreetMap UK", "email": "board@osmuk.org"}
-            ],
-            "order": 3
-          },
           "uk-twitter": {
             "id": "uk-twitter",
             "type": "twitter",
@@ -29259,6 +29261,145 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "+[Q21,Q22,Q25,Q25230,Q26,Q785,Q9676]",
+        "area": 695269.91,
+        "resources": {
+          "uk-localchapter": {
+            "id": "uk-localchapter",
+            "type": "osm-lc",
+            "locationSet": {
+              "include": [
+                "GB-ENG",
+                "GB-NIR",
+                "GB-SCT",
+                "GB-WLS",
+                "JE",
+                "GG",
+                "IM"
+              ]
+            },
+            "languageCodes": ["en"],
+            "name": "OpenStreetMap UK",
+            "description": "The official Local Chapter for the UK (including Northern Ireland).",
+            "extendedDescription": "We support OpenStreetMap by holding events, providing community resources, building partnerships, and by spreading the word. Join OpenStreetMap UK here: {signupUrl}",
+            "url": "https://osmuk.org/",
+            "signupUrl": "https://osmuk.org/become-member/",
+            "contacts": [
+              {"name": "OpenStreetMap UK", "email": "board@osmuk.org"}
+            ],
+            "order": 3
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [-14.78497, 57.60709],
+              [-6.82333, 55.83103],
+              [-4.69044, 54.3629],
+              [-3.38407, 54.94278],
+              [-4.1819, 54.57861],
+              [-3.5082, 53.54318],
+              [-5.37267, 53.63269],
+              [-6.03913, 51.13217],
+              [-7.74976, 48.64773],
+              [1.17405, 50.74239],
+              [2.18458, 51.52087],
+              [2.56575, 51.85301],
+              [0.792, 57.56437],
+              [-0.3751, 61.32236],
+              [-14.78497, 57.60709]
+            ]
+          ],
+          [
+            [
+              [-8.179, 54.46763],
+              [-8.04555, 54.36292],
+              [-7.87101, 54.29299],
+              [-7.8596, 54.21779],
+              [-7.81397, 54.20159],
+              [-7.69501, 54.20731],
+              [-7.55812, 54.12239],
+              [-7.4799, 54.12239],
+              [-7.44567, 54.1539],
+              [-7.32834, 54.11475],
+              [-7.30553, 54.11869],
+              [-7.34005, 54.14698],
+              [-7.29157, 54.17191],
+              [-7.28017, 54.16714],
+              [-7.29687, 54.1354],
+              [-7.29493, 54.12013],
+              [-7.26316, 54.13863],
+              [-7.25012, 54.20063],
+              [-7.14908, 54.22732],
+              [-7.19145, 54.31296],
+              [-7.02034, 54.4212],
+              [-6.87775, 54.34682],
+              [-6.85179, 54.29176],
+              [-6.81583, 54.22791],
+              [-6.74575, 54.18788],
+              [-6.70175, 54.20218],
+              [-6.6382, 54.17071],
+              [-6.66264, 54.0666],
+              [-6.62842, 54.03503],
+              [-6.47849, 54.06947],
+              [-6.36605, 54.07234],
+              [-6.36279, 54.11248],
+              [-6.32694, 54.09337],
+              [-6.29003, 54.11278],
+              [-6.26218, 54.09785],
+              [-5.83481, 53.87749],
+              [-4.69044, 54.3629],
+              [-6.34755, 55.49206],
+              [-7.2471, 55.06933],
+              [-7.34464, 55.04688],
+              [-7.4033, 55.00391],
+              [-7.40004, 54.94498],
+              [-7.44404, 54.9403],
+              [-7.4473, 54.87003],
+              [-7.47626, 54.83084],
+              [-7.54508, 54.79401],
+              [-7.54671, 54.74606],
+              [-7.64449, 54.75265],
+              [-7.75041, 54.7103],
+              [-7.83352, 54.73854],
+              [-7.93293, 54.66603],
+              [-7.70315, 54.62077],
+              [-7.8596, 54.53671],
+              [-7.99812, 54.54427],
+              [-8.04538, 54.48941],
+              [-8.179, 54.46763]
+            ]
+          ],
+          [
+            [
+              [-5.6384, 53.81157],
+              [-3.98763, 54.07351],
+              [-4.1819, 54.57861],
+              [-5.6384, 53.81157]
+            ]
+          ],
+          [
+            [
+              [-3.28154, 49.57329],
+              [-2.65349, 49.15373],
+              [-2.00491, 48.86706],
+              [-1.83944, 49.23037],
+              [-2.09454, 49.46288],
+              [-2.02963, 49.91866],
+              [-2.49556, 49.79012],
+              [-3.28154, 49.57329]
+            ]
+          ]
+        ]
+      },
+      "id": "+[Q21,Q22,Q25,Q25230,Q26,Q785,Q9676]"
     },
     {
       "type": "Feature",
