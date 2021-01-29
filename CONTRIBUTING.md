@@ -15,6 +15,7 @@ To add your community resource to the index:
   * Each file contains info about what the resource is (slack, forum, mailinglist, facebook, etc.)
   * Each file also contains info about which locations the resource is active. The locations can be country or region codes, points, or custom `.geojson` files in the `features/*` folder.
   * You can copy and change an existing file to get started.
+* run `npm install`
 * run `npm run test`
   * This will check the files for errors and make them pretty.
   * If you don't have Node installed, you can skip this step and we will do it for you.
