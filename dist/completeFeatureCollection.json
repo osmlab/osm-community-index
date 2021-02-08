@@ -5450,7 +5450,8 @@
             "url": "https://discord.gg/4smYkq3gzp",
             "contacts": [
               {"name": "Austin Harrison", "email": "jaustinharrison@gmail.com"}
-            ]
+            ],
+            "order": 6
           },
           "OSM-Facebook": {
             "id": "OSM-Facebook",
@@ -5501,7 +5502,8 @@
             "url": "https://t.me/OpenStreetMapOrg",
             "contacts": [
               {"name": "Max N", "email": "abonnements@revolwear.com"}
-            ]
+            ],
+            "order": 5
           },
           "OSM-Twitter": {
             "id": "OSM-Twitter",
@@ -5513,7 +5515,8 @@
             "url": "https://twitter.com/openstreetmap",
             "contacts": [
               {"name": "Harry Wood", "email": "mail@harrywood.co.uk"}
-            ]
+            ],
+            "order": 4
           },
           "OSM-help": {
             "id": "OSM-help",
@@ -5545,6 +5548,7 @@
             "contacts": [
               {"name": "OSMF Board", "email": "board@osmfoundation.org"}
             ],
+            "order": 10,
             "events": [
               {
                 "id": "sotm2020",
@@ -13181,6 +13185,52 @@
             [20.1, 41.4],
             [19.992, 41.512],
             [19.816, 41.555]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "asti.geojson",
+      "properties": {
+        "osm_id": -43267,
+        "admin_level": 6,
+        "parents": "-44874,-365331",
+        "name": "Asti",
+        "local_name": "Asti",
+        "name_en": null,
+        "id": "asti.geojson",
+        "area": 1523.13,
+        "resources": {
+          "asti-telegram": {
+            "id": "asti-telegram",
+            "type": "telegram",
+            "locationSet": {"include": ["asti.geojson"]},
+            "languageCodes": ["it"],
+            "name": "Mappers OpenStreetMap Asti",
+            "description": "OpenStreetMap Asti Telegram chat",
+            "url": "https://t.me/OSMAsti",
+            "contacts": [
+              {"name": "Andrea Musuruane", "email": "musuruan@gmail.com"},
+              {"name": "Francesco Ansanelli", "email": "francians@gmail.com"}
+            ],
+            "order": 3
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [8.26507, 44.52341],
+              [8.25679, 44.73222],
+              [7.88514, 44.8847],
+              [7.89595, 45.09498],
+              [8.36046, 45.02535],
+              [8.51362, 44.78704],
+              [8.26507, 44.52341]
+            ]
           ]
         ]
       }
