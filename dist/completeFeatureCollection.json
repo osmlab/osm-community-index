@@ -190,6 +190,150 @@
     },
     {
       "type": "Feature",
+      "properties": {
+        "iso1A2": "BJ",
+        "iso1A3": "BEN",
+        "iso1N3": "204",
+        "wikidata": "Q962",
+        "nameEn": "Benin",
+        "aliases": ["DY"],
+        "groups": ["011", "202", "002", "UN", "001"],
+        "callingCodes": ["229"],
+        "id": "Q962",
+        "m49": "204",
+        "isoStatus": "official",
+        "level": "country",
+        "emojiFlag": "🇧🇯",
+        "roadSpeedUnit": "km/h",
+        "roadHeightUnit": "m",
+        "driveSide": "right",
+        "area": 119220,
+        "resources": {
+          "Benin": {
+            "id": "Benin",
+            "type": "telegram",
+            "locationSet": {"include": ["ben"]},
+            "languageCodes": ["en"],
+            "name": "OpenStreetMap Benin",
+            "description": "OpenStreetMap Benin telegram chat",
+            "url": "https://t.me/OSMBenin"
+          },
+          "OSM-Benin-mailinglist": {
+            "id": "OSM-Benin-mailinglist",
+            "type": "mailinglist",
+            "locationSet": {"include": ["ben"]},
+            "languageCodes": ["en"],
+            "name": "OpenStreetMap Benin Mailinglist",
+            "description": "Talk-bj is an official mailing list to discuss matters about Benin",
+            "url": "https://lists.openstreetmap.org/listinfo/talk-bj",
+            "contacts": [
+              {
+                "name": "Talk-bj-owner",
+                "email": "talk-bj-owner@openstreetmap.org"
+              }
+            ]
+          },
+          "osm-benin-facebook": {
+            "id": "osm-benin-facebook",
+            "type": "facebook",
+            "locationSet": {"include": ["ben"]},
+            "languageCodes": ["en"],
+            "name": "OpenStreetMap Benin",
+            "description": "Improve OpenStreetMap in Benin",
+            "url": "https://www.facebook.com/groups/425597680895264/?fref=ts",
+            "order": 4
+          },
+          "osmbenin": {
+            "id": "osmbenin",
+            "type": "twitter",
+            "locationSet": {"include": ["ben"]},
+            "languageCodes": ["en"],
+            "name": "OSMBenin",
+            "description": "Twitter of OpenStreetMap in Benin",
+            "url": "https://twitter.com/OSMBenin"
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [3.59375, 11.70269],
+              [3.48187, 11.86092],
+              [3.31613, 11.88495],
+              [3.25352, 12.01467],
+              [2.83978, 12.40585],
+              [2.6593, 12.30631],
+              [2.37783, 12.24804],
+              [2.39657, 12.10952],
+              [2.45824, 11.98672],
+              [2.39723, 11.89473],
+              [2.29983, 11.68254],
+              [2.00988, 11.42227],
+              [1.42823, 11.46822],
+              [1.03409, 11.04719],
+              [0.9813, 11.08876],
+              [0.91245, 10.99597],
+              [0.8804, 10.803],
+              [0.80358, 10.71459],
+              [0.77666, 10.37665],
+              [1.35507, 9.99525],
+              [1.36624, 9.5951],
+              [1.33675, 9.54765],
+              [1.41746, 9.3226],
+              [1.5649, 9.16941],
+              [1.61838, 9.0527],
+              [1.64249, 6.99562],
+              [1.55877, 6.99737],
+              [1.61812, 6.74843],
+              [1.58105, 6.68619],
+              [1.76906, 6.43189],
+              [1.79826, 6.28221],
+              [1.62913, 6.24075],
+              [1.67336, 6.02702],
+              [2.74181, 6.13349],
+              [2.70566, 6.38038],
+              [2.70464, 6.50831],
+              [2.74334, 6.57291],
+              [2.7325, 6.64057],
+              [2.78204, 6.70514],
+              [2.78823, 6.76356],
+              [2.73405, 6.78508],
+              [2.74024, 6.92802],
+              [2.71702, 6.95722],
+              [2.76965, 7.13543],
+              [2.74489, 7.42565],
+              [2.79442, 7.43486],
+              [2.78668, 7.5116],
+              [2.73405, 7.5423],
+              [2.73095, 7.7755],
+              [2.67523, 7.87825],
+              [2.77907, 9.06924],
+              [3.08017, 9.10006],
+              [3.14147, 9.28375],
+              [3.13928, 9.47167],
+              [3.25093, 9.61632],
+              [3.34726, 9.70696],
+              [3.32099, 9.78032],
+              [3.35383, 9.83641],
+              [3.54429, 9.87739],
+              [3.66908, 10.18136],
+              [3.57275, 10.27185],
+              [3.6844, 10.46351],
+              [3.78292, 10.40538],
+              [3.84243, 10.59316],
+              [3.71505, 11.13015],
+              [3.49175, 11.29765],
+              [3.59375, 11.70269]
+            ]
+          ]
+        ]
+      },
+      "id": "Q962"
+    },
+    {
+      "type": "Feature",
       "id": "central_pa.geojson",
       "properties": {
         "id": "central_pa.geojson",
@@ -1649,7 +1793,7 @@
             "locationSet": {"include": ["af"]},
             "languageCodes": ["en"],
             "name": "OpenStreetMap Afghanistan Mailinglist",
-            "description": "Talk-af is an Official Mailinglist for the Communities to dicuss matters about Afghanistan",
+            "description": "Talk-af is an official mailing list to discuss matters about Afghanistan",
             "url": "https://lists.openstreetmap.org/listinfo/talk-af",
             "contacts": [
               {
@@ -2014,7 +2158,7 @@
             "locationSet": {"include": ["al"]},
             "languageCodes": ["en"],
             "name": "OpenStreetMap Albania Mailinglist",
-            "description": "Talk-af is an Official Mailinglist for the Communities to dicuss matters about Albania",
+            "description": "Talk-al is an official mailing list to discuss matters about Albania",
             "url": "https://lists.openstreetmap.org/listinfo/talk-al",
             "contacts": [
               {
@@ -3061,6 +3205,16 @@
               {"name": "Marco Antonio", "email": "marcoantoniofrias@gmail.com"}
             ],
             "order": -3
+          },
+          "OSMBO": {
+            "id": "OSMBO",
+            "type": "telegram",
+            "locationSet": {"include": ["bo"]},
+            "languageCodes": ["en"],
+            "name": "OSMBolivia",
+            "description": "OpenStreetMap Bolivia telegram chat",
+            "url": "https://telegram.me/osmbolivia",
+            "order": 2
           }
         }
       },
@@ -3227,10 +3381,10 @@
           "OSM-Belarus-mailinglist": {
             "id": "OSM-Belarus-mailinglist",
             "type": "mailinglist",
-            "locationSet": {"include": ["blr"]},
+            "locationSet": {"include": ["by"]},
             "languageCodes": ["en"],
             "name": "OpenStreetMap Belarus Mailinglist",
-            "description": "Talk-af is an Official Mailinglist for the Communities to dicuss matters about Belarus",
+            "description": "Talk-blr is an official mailing list for the to discuss matters about Belarus",
             "url": "https://lists.openstreetmap.org/listinfo/talk-blr",
             "contacts": [
               {
@@ -3586,7 +3740,43 @@
             "name": "OpenStreetMap BiH Telegram",
             "description": "A Telegram group for the OSM Bosnia and Herzegovina community: {url}",
             "url": "https://t.me/osmbih",
-            "order": 5
+            "order": 2
+          },
+          "OSM-Bosnia-i-Herzegovina-mailinglist": {
+            "id": "OSM-Bosnia-i-Herzegovina-mailinglist",
+            "type": "mailinglist",
+            "locationSet": {"include": ["bih"]},
+            "languageCodes": ["en"],
+            "name": "OpenStreetMap Bosnia and Herzegovina Mailinglist",
+            "description": "Talk-ba is the official mailing list to discuss matters about Bosnia and Herzegovina",
+            "url": "https://lists.openstreetmap.org/listinfo/talk-ba",
+            "contacts": [
+              {
+                "name": "Talk-ba-owner",
+                "email": "talk-ba-owner@openstreetmap.org"
+              }
+            ],
+            "order": 1
+          },
+          "bih-forum": {
+            "id": "bih-forum",
+            "type": "forum",
+            "locationSet": {"include": ["bih"]},
+            "languageCodes": ["en"],
+            "name": "OpenStreetMap Bosnia and Herzegovina Forum",
+            "description": "The official forum for OpenStreetMap questions in and around Bosnia and Herzegovina",
+            "url": "https://forum.openstreetmap.org/viewforum.php?id=66",
+            "order": 4
+          },
+          "osm-Bosnia-i-Herzegovina-facebook": {
+            "id": "osm-Bosnia-i-Herzegovina-facebook",
+            "type": "facebook",
+            "locationSet": {"include": ["bih"]},
+            "languageCodes": ["en"],
+            "name": "OpenStreetMap Bosnia i Herzegovina",
+            "description": "Improve OpenStreetMap in Bosnia and Herzegovina",
+            "url": "https://www.facebook.com/OpenStreetMapBosnaIHercegovina",
+            "order": 3
           }
         }
       },
@@ -8537,7 +8727,7 @@
             "locationSet": {"include": ["kp", "kr"]},
             "languageCodes": ["en", "ko"],
             "name": "OpenStreetMap Korea Mailinglist",
-            "description": "Talk-ko is an Official Mailinglist for the Communities to dicuss matters about Korea",
+            "description": "Talk-ko is an official mailing list to discuss matters about Korea",
             "url": "https://lists.openstreetmap.org/listinfo/talk-ko",
             "contacts": [
               {
@@ -12289,7 +12479,7 @@
             "locationSet": {"include": ["tw"]},
             "languageCodes": ["en", "zh-tw"],
             "name": "OpenStreetMap Taiwan Mailinglist",
-            "description": "Talk-tw is an Official Mailinglist for the Communities to dicuss matters about Taiwan",
+            "description": "Talk-tw is an official mailing list to discuss matters about Taiwan",
             "url": "https://lists.openstreetmap.org/listinfo/talk-tw",
             "contacts": [
               {
@@ -13446,9 +13636,9 @@
             "type": "forum",
             "locationSet": {"include": ["dz"]},
             "languageCodes": ["en"],
-            "name": "OpenStreetMap dz forum",
+            "name": "OpenStreetMap Algeria Forum",
             "description": "OpenStreetMap Algeria web forum",
-            "url": "https://forum.openstreetmap.org/viewforum.php?id=53Local"
+            "url": "https://forum.openstreetmap.org/viewforum.php?id=53"
           }
         }
       },
