@@ -18,6 +18,46 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
+# 3.1.2
+##### 2021-Mar-30
+* Added:
+  * OSM Azerbaijan Facebook ([#429])
+  * OSM Bangledesh ([#429])
+  * OSM Belarus ([#429])
+  * OSM Afghanistan Talk list ([#427])
+  * OSM Algeria forum ([#427])
+  * OSM Albania Facebook ([#427])
+  * OSM Cameroon ([#425], [#426])
+  * OSM Berlin Matrix ([#419])
+  * OSM Asti (Italy) ([#416])
+  * OSM Poland Discord ([#412], [#415])
+* Updated:
+  * Update descriptions and ordering for OSM Luxembourg ([#428])
+  * Correct OSM World Discord name ([#420])
+  * Adjust sort order for global OSM resources ([#418])
+  * Adjust sort order for OSM Poland GitHub ([#413])
+  * Correct region for UK local chapter ([#411])
+* Removed Inactive:
+  * YouthMappers chapter ym-Tribhuvan-University ([#422])
+  * YouthMappers chapter ym-Kathmandu-University ([#421])
+
+[#411]: https://github.com/osmlab/osm-community-index/issues/411
+[#412]: https://github.com/osmlab/osm-community-index/issues/412
+[#413]: https://github.com/osmlab/osm-community-index/issues/413
+[#415]: https://github.com/osmlab/osm-community-index/issues/415
+[#416]: https://github.com/osmlab/osm-community-index/issues/416
+[#418]: https://github.com/osmlab/osm-community-index/issues/418
+[#419]: https://github.com/osmlab/osm-community-index/issues/419
+[#420]: https://github.com/osmlab/osm-community-index/issues/420
+[#421]: https://github.com/osmlab/osm-community-index/issues/421
+[#422]: https://github.com/osmlab/osm-community-index/issues/422
+[#425]: https://github.com/osmlab/osm-community-index/issues/425
+[#426]: https://github.com/osmlab/osm-community-index/issues/426
+[#427]: https://github.com/osmlab/osm-community-index/issues/427
+[#428]: https://github.com/osmlab/osm-community-index/issues/428
+[#429]: https://github.com/osmlab/osm-community-index/issues/429
+
+
 # 3.1.1
 ##### 2021-Jan-27
 * Added:
@@ -27,10 +67,10 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 * Updated:
   * OSM World Discord language codes ([#406])
 
-[#410]: https://github.com/osmlab/osm-community-index/issues/410
-[#409]: https://github.com/osmlab/osm-community-index/issues/409
-[#408]: https://github.com/osmlab/osm-community-index/issues/408
 [#406]: https://github.com/osmlab/osm-community-index/issues/406
+[#408]: https://github.com/osmlab/osm-community-index/issues/408
+[#409]: https://github.com/osmlab/osm-community-index/issues/409
+[#410]: https://github.com/osmlab/osm-community-index/issues/410
 
 
 # 3.1.0
@@ -45,13 +85,13 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 * Updated:
   * OSM World Discord URL ([#401])
 
-[#404]: https://github.com/osmlab/osm-community-index/issues/404
-[#403]: https://github.com/osmlab/osm-community-index/issues/403
-[#402]: https://github.com/osmlab/osm-community-index/issues/402
-[#401]: https://github.com/osmlab/osm-community-index/issues/401
-[#400]: https://github.com/osmlab/osm-community-index/issues/400
-[#399]: https://github.com/osmlab/osm-community-index/issues/399
 [#398]: https://github.com/osmlab/osm-community-index/issues/398
+[#399]: https://github.com/osmlab/osm-community-index/issues/399
+[#400]: https://github.com/osmlab/osm-community-index/issues/400
+[#401]: https://github.com/osmlab/osm-community-index/issues/401
+[#402]: https://github.com/osmlab/osm-community-index/issues/402
+[#403]: https://github.com/osmlab/osm-community-index/issues/403
+[#404]: https://github.com/osmlab/osm-community-index/issues/404
 
 
 # 3.0.1
