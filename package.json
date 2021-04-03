@@ -22,7 +22,8 @@
     "test": "npm run build && npm run lint",
     "stats": "node scripts/stats.js",
     "txpull": "tx pull -a",
-    "txpush": "tx push -s"
+    "txpush": "tx push -s",
+    "local": "run-s build dist && node scripts/build_local.js && http-server docs-local"
   },
   "devDependencies": {
     "@aitodotai/json-stringify-pretty-compact": "^1.3.0",
