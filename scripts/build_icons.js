@@ -40,7 +40,8 @@ function buildAll() {
     twitter: faTwitter,
     url: faLink,
     xmpp: faKeyboard,
-    youtube: faYoutube
+    youtube: faYoutube,
+	link: faLink
   };
 
   const START = '🏗   ' + colors.yellow('Building icons...');
