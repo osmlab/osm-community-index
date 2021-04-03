@@ -203,6 +203,15 @@ Drawing a simple shape with [geojson.io](http://geojson.io) works great.
   * This will check the files for errors and make them pretty.
 
 
+### Running locally ###
+
+If you want to test the changes you've made, use this three simple steps:
+1. In case it's not already installed `npm install http-server`
+2. Create the folder `docs-local` in your directory (don't worry, it's in .gitignore)
+3. Run `npm run local`
+
+The latter will build the distribution files (`npm run dist`), execute a script to prepare the distribution files to run locally and then start the simple http-server, which by default listens on `http://localhost:8081`. You can now browse to that address and see your changes in action.
+
 ### Translations
 
 All community resources automatically support localization of the
