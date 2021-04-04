@@ -151,7 +151,7 @@ function serveClick(ePoint, eLatLng) {
   });
   // show permalink
   var iconURL = 'https://cdn.jsdelivr.net/gh/kmpoppe/osm-community-index@permalink/dist/img/link.svg';
-  inner += '<hr style="border:1px solid #67e"/><div class="resource"><img class="icon" src="' + iconURL + '"/><a class="label" target="_blank" href="?map=' + eLatLng.lat + ',' + eLatLng.lng + '">Permalink to this position</a></div>';
+  inner += '<hr style="border:1px solid #67e;color:#67e"/><div class="resource"><img class="icon" src="' + iconURL + '"/><a class="label" target="_blank" href="?map=' + eLatLng.lat + ',' + eLatLng.lng + '">Permalink to this position</a></div>';
 
   if (inner !== previous) {
     previous = inner;
