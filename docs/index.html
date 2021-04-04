@@ -89,8 +89,13 @@ map.on('load', function() {
   });
 
   if (getParameterByName("map") != "" && getParameterByName("map") !== null) {
+    let iZoom = 7;
+    if (getParameterByName("zoom") != "" && getParameterByName("zoom") !== null) {
+      iZoom = parseInt(getParameterByName("zoom"));
+      if (isNaN(iZoom)) { iZoom = 7; }
+    }
     let coords = getParameterByName("map").split(/\,/);
-    map.flyTo({center: [coords[1], coords[0]], zoom: 7, essential: true});
+    map.flyTo({center: [coords[1], coords[0]], zoom: iZoom, essential: true});
   }
 
 });
@@ -151,7 +156,7 @@ function serveClick(ePoint, eLatLng) {
   });
   // show permalink
   var iconURL = 'https://cdn.jsdelivr.net/gh/kmpoppe/osm-community-index@permalink/dist/img/link.svg';
-  inner += '<hr style="border:1px solid #67e;color:#67e"/><div class="resource"><img class="icon" src="' + iconURL + '"/><a class="label" target="_blank" href="?map=' + eLatLng.lat + ',' + eLatLng.lng + '">Permalink to this position</a></div>';
+  inner += '<hr style="border:1px solid #67e;color:#67e"/><div class="resource"><img class="icon" src="' + iconURL + '"/><a class="label" target="_blank" href="?map=' + eLatLng.lat + ',' + eLatLng.lng + '&zoom=' + map.getZoom().toString() + '">Permalink to this position</a></div>';
 
   if (inner !== previous) {
     previous = inner;
