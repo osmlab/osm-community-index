@@ -58,6 +58,8 @@
 
 // define access token
 mapboxgl.accessToken = 'pk.eyJ1IjoibWlrZWxtYXJvbiIsImEiOiJjaWZlY25lZGQ2cTJjc2trbmdiZDdjYjllIn0.Wx1n0X7aeCQyDTnK6_mrGw';
+// cdn base address
+const cdnBase = 'https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/';
 
 // create map
 var map = new mapboxgl.Map({
@@ -70,7 +72,7 @@ var previous = '';
 
 // wait for map to load before adjusting it
 map.on('load', function() {
-  var dataURL = 'https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/completeFeatureCollection.min.json';
+  var dataURL = cdnBase + 'completeFeatureCollection.min.json';
 
   map.addSource('osm-community-index', { type: 'geojson', data: dataURL });
   map.addLayer({
@@ -147,7 +149,7 @@ function serveClick(ePoint, eLatLng) {
   var inner = '';
   communities.forEach(function(c) {
     var community = c.community;
-    var iconURL = 'https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/' + community.type + '.svg';
+    var iconURL = cdnBase + 'img/' + community.type + '.svg';
 
     inner += '<div class="resource">'
       + '<img class="icon" src="' + iconURL + '"/>'
@@ -155,7 +157,7 @@ function serveClick(ePoint, eLatLng) {
       + '</div>';
   });
   // show permalink
-  var iconURL = 'https://cdn.jsdelivr.net/gh/kmpoppe/osm-community-index@permalink/dist/img/link.svg';
+  var iconURL = cdnBase + 'img/url.svg';
   inner += '<hr style="border:1px solid #67e;color:#67e"/><div class="resource"><img class="icon" src="' + iconURL + '"/><a class="label" target="_blank" href="?map=' + eLatLng.lat + ',' + eLatLng.lng + '&zoom=' + map.getZoom().toString() + '">Permalink to this position</a></div>';
 
   if (inner !== previous) {
