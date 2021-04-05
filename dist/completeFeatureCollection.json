@@ -761,7 +761,7 @@
             "languageCodes": ["es"],
             "name": "OSM Ecuador on Telegram",
             "description": "OpenStreetMap Ecuador Telegram chat",
-            "url": "https://telegram.me/MappingEcuador",
+            "url": "https://t.me/MappingEcuador",
             "contacts": [
               {
                 "name": "Talk-ec Owner",
@@ -850,240 +850,6 @@
         ]
       },
       "id": "Q736"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "iso1A2": "GH",
-        "iso1A3": "GHA",
-        "iso1N3": "288",
-        "wikidata": "Q117",
-        "nameEn": "Ghana",
-        "groups": ["011", "202", "002", "UN", "001"],
-        "callingCodes": ["233"],
-        "id": "Q117",
-        "m49": "288",
-        "isoStatus": "official",
-        "level": "country",
-        "emojiFlag": "🇬🇭",
-        "roadSpeedUnit": "km/h",
-        "roadHeightUnit": "m",
-        "driveSide": "right",
-        "area": 273829.96,
-        "resources": {
-          "GHosm": {
-            "id": "GHosm",
-            "type": "telegram",
-            "locationSet": {"include": ["gh"]},
-            "languageCodes": ["en"],
-            "name": "OpenStreetMap Ghana",
-            "description": "OpenStreetMap Ghana telegram chat",
-            "url": "https://telegram.me/OSMGhana",
-            "order": 1
-          },
-          "OSM-gh-mailinglist": {
-            "id": "OSM-gh-mailinglist",
-            "type": "mailinglist",
-            "locationSet": {"include": ["gh"]},
-            "languageCodes": ["en"],
-            "name": "Talk-gh Mailing List",
-            "description": "A mailing list to discuss OpenStreetMap in Ghana",
-            "url": "https://lists.openstreetmap.org/listinfo/talk-gh",
-            "order": 2
-          },
-          "osm-gh-facebook": {
-            "id": "osm-gh-facebook",
-            "type": "facebook",
-            "locationSet": {"include": ["gh"]},
-            "languageCodes": ["en"],
-            "name": "OpenStreetMap Ghana on Facebook",
-            "description": "Facebook group for people interested in OpenStreetMap.",
-            "extendedDescription": "Mappers in Ghana community, promoting OpenStreetMap and Humanitarian OpenStreetMap Team (HOT) projects in Ghana. Join us.",
-            "url": "https://www.facebook.com/OSMGhana/",
-            "contacts": [
-              {"name": "Enock Seth Nyamador", "email": "enock@osmghana.org"}
-            ],
-            "order": 3
-          },
-          "osm-gh-telegram": {
-            "id": "osm-gh-telegram",
-            "type": "telegram",
-            "locationSet": {"include": ["gh"]},
-            "languageCodes": ["en"],
-            "name": "OpenStreetMap Ghana Telegram",
-            "description": "OpenStreetMap Ghana community on Telegram",
-            "url": "https://t.me/osmghana",
-            "contacts": [
-              {"name": "Enock Seth Nyamador", "email": "enock@osmghana.org"}
-            ]
-          },
-          "osm-gh-twitter": {
-            "id": "osm-gh-twitter",
-            "type": "twitter",
-            "locationSet": {"include": ["gh"]},
-            "languageCodes": ["en"],
-            "name": "OpenStreetMap Ghana on Twitter",
-            "description": "Follow us on Twitter: {url}",
-            "url": "https://twitter.com/osmghana",
-            "contacts": [
-              {"name": "Enock Seth Nyamador", "email": "enock@osmghana.org"}
-            ]
-          },
-          "talk-gh": {
-            "id": "talk-gh",
-            "type": "mailinglist",
-            "locationSet": {"include": ["gh"]},
-            "languageCodes": ["en"],
-            "name": "Talk-gh Mailing List",
-            "description": "Talk-gh is the official mailing list for Ghana OSM community.",
-            "url": "https://lists.openstreetmap.org/listinfo/talk-gh",
-            "contacts": [
-              {"name": "Enock Seth Nyamador", "email": "kwadzo459@gmail.com"}
-            ],
-            "order": -3
-          }
-        }
-      },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [-0.13493, 11.14075],
-              [-0.27374, 11.17157],
-              [-0.28566, 11.12713],
-              [-0.35955, 11.07801],
-              [-0.38219, 11.12596],
-              [-0.42391, 11.11661],
-              [-0.44298, 11.04292],
-              [-0.61937, 10.91305],
-              [-0.67143, 10.99811],
-              [-2.83373, 11.0067],
-              [-2.94232, 10.64281],
-              [-2.83108, 10.40252],
-              [-2.74174, 9.83172],
-              [-2.76534, 9.56589],
-              [-2.68802, 9.49343],
-              [-2.69814, 9.22717],
-              [-2.77799, 9.04949],
-              [-2.66357, 9.01771],
-              [-2.58243, 8.7789],
-              [-2.49037, 8.20872],
-              [-2.62901, 8.11495],
-              [-2.61232, 8.02645],
-              [-2.67787, 8.02055],
-              [-2.74819, 7.92613],
-              [-2.78395, 7.94974],
-              [-2.79467, 7.86002],
-              [-2.92339, 7.60847],
-              [-2.97822, 7.27165],
-              [-2.95438, 7.23737],
-              [-3.23327, 6.81744],
-              [-3.21954, 6.74407],
-              [-3.25999, 6.62521],
-              [-3.01896, 5.71697],
-              [-2.95323, 5.71865],
-              [-2.96671, 5.6415],
-              [-2.93132, 5.62137],
-              [-2.85378, 5.65156],
-              [-2.76614, 5.60963],
-              [-2.72737, 5.34789],
-              [-2.77625, 5.34621],
-              [-2.73074, 5.1364],
-              [-2.75502, 5.10657],
-              [-2.95261, 5.12477],
-              [-2.96554, 5.10397],
-              [-3.063, 5.13665],
-              [-3.11073, 5.12675],
-              [-3.10675, 5.08515],
-              [-3.34019, 4.17519],
-              [1.07031, 5.15655],
-              [1.27574, 5.93551],
-              [1.19771, 6.11522],
-              [1.19966, 6.17069],
-              [1.09187, 6.17074],
-              [1.05969, 6.22998],
-              [1.03108, 6.24064],
-              [0.99652, 6.33779],
-              [0.89283, 6.33779],
-              [0.71048, 6.53083],
-              [0.74862, 6.56517],
-              [0.63659, 6.63857],
-              [0.6497, 6.73682],
-              [0.58176, 6.76049],
-              [0.57406, 6.80348],
-              [0.52853, 6.82921],
-              [0.56508, 6.92971],
-              [0.52098, 6.94391],
-              [0.52217, 6.9723],
-              [0.59606, 7.01252],
-              [0.65327, 7.31643],
-              [0.62943, 7.41099],
-              [0.57223, 7.39326],
-              [0.52455, 7.45354],
-              [0.51979, 7.58706],
-              [0.58295, 7.62368],
-              [0.62943, 7.85751],
-              [0.58891, 8.12779],
-              [0.6056, 8.13959],
-              [0.61156, 8.18324],
-              [0.5913, 8.19622],
-              [0.63897, 8.25873],
-              [0.73432, 8.29529],
-              [0.64731, 8.48866],
-              [0.47211, 8.59945],
-              [0.37319, 8.75262],
-              [0.52455, 8.87746],
-              [0.45424, 9.04581],
-              [0.56388, 9.40697],
-              [0.49118, 9.48339],
-              [0.36485, 9.49749],
-              [0.33148, 9.44812],
-              [0.25758, 9.42696],
-              [0.2254, 9.47869],
-              [0.31241, 9.50337],
-              [0.30406, 9.521],
-              [0.2409, 9.52335],
-              [0.23851, 9.57389],
-              [0.38153, 9.58682],
-              [0.36008, 9.6256],
-              [0.29334, 9.59387],
-              [0.26712, 9.66437],
-              [0.28261, 9.69022],
-              [0.32313, 9.6491],
-              [0.34816, 9.66907],
-              [0.34816, 9.71607],
-              [0.32075, 9.72781],
-              [0.36366, 10.03309],
-              [0.41252, 10.02018],
-              [0.41371, 10.06361],
-              [0.35293, 10.09412],
-              [0.39584, 10.31112],
-              [0.33028, 10.30408],
-              [0.29453, 10.41546],
-              [0.18846, 10.4096],
-              [0.12886, 10.53149],
-              [-0.05945, 10.63458],
-              [-0.09141, 10.7147],
-              [-0.07327, 10.71845],
-              [-0.07183, 10.76794],
-              [-0.0228, 10.81916],
-              [-0.02685, 10.8783],
-              [-0.00908, 10.91644],
-              [-0.0063, 10.96417],
-              [0.03355, 10.9807],
-              [0.02395, 11.06229],
-              [0.00342, 11.08317],
-              [-0.00514, 11.10763],
-              [-0.0275, 11.11202],
-              [-0.05733, 11.08628],
-              [-0.14462, 11.10811],
-              [-0.13493, 11.14075]
-            ]
-          ]
-        ]
-      },
-      "id": "Q117"
     },
     {
       "type": "Feature",
@@ -1264,6 +1030,198 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iso1A2": "ID",
+        "iso1A3": "IDN",
+        "iso1N3": "360",
+        "wikidata": "Q252",
+        "nameEn": "Indonesia",
+        "aliases": ["RI"],
+        "id": "Q252",
+        "m49": "360",
+        "isoStatus": "official",
+        "level": "country",
+        "groups": ["035", "142", "UN", "001"],
+        "emojiFlag": "🇮🇩",
+        "members": [
+          "Q3492",
+          "Q3757",
+          "Q3795",
+          "Q3803",
+          "Q3812",
+          "Q3827",
+          "Q3845"
+        ],
+        "roadSpeedUnit": "km/h",
+        "roadHeightUnit": "m",
+        "driveSide": "left",
+        "callingCodes": ["62"],
+        "area": 8595846.84,
+        "resources": {
+          "IDosm": {
+            "id": "IDosm",
+            "type": "telegram",
+            "locationSet": {"include": ["id"]},
+            "languageCodes": ["en"],
+            "name": "OpenStreetMap Indonesia",
+            "description": "OpenStreetMap Indonesia telegram chat",
+            "url": "https://t.me/osmindonesia",
+            "order": 2
+          },
+          "OSM-IDN-facebook": {
+            "id": "OSM-IDN-facebook",
+            "type": "facebook",
+            "locationSet": {"include": ["id"]},
+            "name": "OpenStreetMap Indonesia",
+            "description": "Improve OpenStreetMap in Indonesia",
+            "extendedDescription": "Mapping in Indonesia? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!",
+            "url": "https://www.facebook.com/groups/osm.id/",
+            "contacts": [
+              {"name": "Yantisa Akhadi", "email": "yantisa.akhadi@hotosm.org"}
+            ],
+            "order": 1
+          },
+          "OSM-id-mailinglist": {
+            "id": "OSM-id-mailinglist",
+            "type": "mailinglist",
+            "locationSet": {"include": ["id"]},
+            "languageCodes": ["en"],
+            "name": "Talk-id Mailing List",
+            "description": "A mailing list to discuss OpenStreetMap in Indonesia",
+            "url": "https://lists.openstreetmap.org/listinfo/talk-id",
+            "order": 5
+          },
+          "OSM-id-twitter": {
+            "id": "OSM-id-twitter",
+            "type": "twitter",
+            "locationSet": {"include": ["id"]},
+            "languageCodes": ["en"],
+            "name": "OpenStreetMap.id",
+            "description": "Follow us on Twitter at OSM_ID",
+            "url": "https://twitter.com/OSM_ID",
+            "order": 3
+          },
+          "id-forum": {
+            "id": "id-forum",
+            "type": "forum",
+            "locationSet": {"include": ["id"]},
+            "languageCodes": ["en"],
+            "name": "OpenStreetMap Indonesia Forum",
+            "description": "The official forum for OpenStreetMap questions in and around Indonesia",
+            "url": "https://forum.openstreetmap.org/viewforum.php?id=82",
+            "order": 4
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [74.28481, -3.17525],
+              [102.92489, -8.17146],
+              [116.22542, -10.49172],
+              [122.14954, -11.52517],
+              [125.68138, -9.85176],
+              [125.09025, -9.46406],
+              [124.97892, -9.19281],
+              [125.04044, -9.17093],
+              [125.09434, -9.19669],
+              [125.18907, -9.16434],
+              [125.18632, -9.03142],
+              [125.11764, -8.96359],
+              [124.97742, -9.08128],
+              [124.94011, -8.85617],
+              [124.46701, -9.13002],
+              [124.45971, -9.30263],
+              [124.38554, -9.3582],
+              [124.35258, -9.43002],
+              [124.3535, -9.48493],
+              [124.28115, -9.50453],
+              [124.28115, -9.42189],
+              [124.21247, -9.36904],
+              [124.14517, -9.42324],
+              [124.10539, -9.41206],
+              [124.04286, -9.34243],
+              [124.04628, -9.22671],
+              [124.33472, -9.11416],
+              [124.92337, -8.75859],
+              [125.87688, -7.49892],
+              [125.58506, -7.95311],
+              [125.87691, -8.31789],
+              [127.42116, -8.22471],
+              [127.55165, -9.05052],
+              [135.49042, -9.2276],
+              [141.01842, -9.35091],
+              [141.01763, -6.90181],
+              [140.90448, -6.85033],
+              [140.85295, -6.72996],
+              [140.99813, -6.3233],
+              [141.02352, 0.08993],
+              [129.63187, 2.21409],
+              [128.34321, 3.90322],
+              [126.69413, 6.02692],
+              [119.56457, 0.90759],
+              [116.58433, -5.30385],
+              [120.02464, 2.83703],
+              [118.06469, 4.16638],
+              [117.67641, 4.16535],
+              [117.47313, 4.18857],
+              [117.25801, 4.35108],
+              [115.90217, 4.37708],
+              [115.58276, 3.93499],
+              [115.53713, 3.14776],
+              [115.11343, 2.82879],
+              [115.1721, 2.49671],
+              [114.80706, 2.21665],
+              [114.80706, 1.92351],
+              [114.57892, 1.5],
+              [114.03788, 1.44787],
+              [113.64677, 1.23933],
+              [113.01448, 1.42832],
+              [113.021, 1.57819],
+              [112.48648, 1.56516],
+              [112.2127, 1.44135],
+              [112.15679, 1.17004],
+              [111.94553, 1.12016],
+              [111.82846, 0.99349],
+              [111.55434, 0.97864],
+              [111.22979, 1.08326],
+              [110.62374, 0.873],
+              [110.49182, 0.88088],
+              [110.35354, 0.98869],
+              [109.66397, 1.60425],
+              [109.66397, 1.79972],
+              [109.57923, 1.80624],
+              [109.53794, 1.91771],
+              [109.62558, 1.99182],
+              [109.82788, 2.86812],
+              [110.90339, 7.52694],
+              [105.01437, 3.24936],
+              [104.56723, 1.44271],
+              [104.34728, 1.33529],
+              [104.12282, 1.27714],
+              [104.03085, 1.26954],
+              [103.74084, 1.12902],
+              [103.66049, 1.18825],
+              [103.56591, 1.19719],
+              [103.03657, 1.30383],
+              [96.11174, 6.69841],
+              [74.28481, -3.17525]
+            ],
+            [
+              [114.92859, -7.49253],
+              [116.33992, -7.56171],
+              [116.96967, -8.01483],
+              [114.92859, -7.49253]
+            ]
+          ]
+        ]
+      },
+      "id": "Q252"
     },
     {
       "type": "Feature",
@@ -2117,7 +2075,7 @@
             "name": "OpenStreetMap Argentina Telegram",
             "description": "Join the OpenStreetMap Argentina community on Telegram",
             "extendedDescription": "The most active channel in the community, ideal for chatting and getting answers to your questions instantly. Everyone is welcome!",
-            "url": "https://telegram.me/osm_ar",
+            "url": "https://t.me/osm_ar",
             "contacts": [
               {
                 "name": "OpenStreetMap Argentina",
@@ -2762,7 +2720,7 @@
             "languageCodes": ["en", "sq"],
             "name": "OSM Albania Telegram channel",
             "description": "OpenStreetMap Albania Telegram channel",
-            "url": "https://telegram.me/OpenStreetMapAL",
+            "url": "https://t.me/OpenStreetMapAL",
             "contacts": [
               {"name": "Jonathan Beliën", "email": "dev@jbelien.be"},
               {"name": "Amanti Lulo", "email": "amanti.lulo@gmail.com"}
@@ -3786,7 +3744,7 @@
             "languageCodes": ["en"],
             "name": "OSMBolivia",
             "description": "OpenStreetMap Bolivia telegram chat",
-            "url": "https://telegram.me/osmbolivia",
+            "url": "https://t.me/osmbolivia",
             "order": 2
           }
         }
@@ -6194,7 +6152,7 @@
             "languageCodes": ["es"],
             "name": "OSM Colombia on Telegram",
             "description": "OpenStreetMap Colombia Telegram chat",
-            "url": "https://telegram.me/osmco",
+            "url": "https://t.me/osmco",
             "contacts": [
               {"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}
             ],
@@ -6383,7 +6341,7 @@
             "languageCodes": ["es"],
             "name": "OSM Cuba on Telegram",
             "description": "OpenStreetMap Cuba Telegram chat",
-            "url": "https://telegram.me/OSM_Cuba",
+            "url": "https://t.me/OSM_Cuba",
             "contacts": [
               {
                 "name": "Talk-cu Owner",
@@ -7964,158 +7922,6 @@
         ]
       },
       "id": "Q3769"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "iso1A2": "ID",
-        "iso1A3": "IDN",
-        "iso1N3": "360",
-        "wikidata": "Q252",
-        "nameEn": "Indonesia",
-        "aliases": ["RI"],
-        "id": "Q252",
-        "m49": "360",
-        "isoStatus": "official",
-        "level": "country",
-        "groups": ["035", "142", "UN", "001"],
-        "emojiFlag": "🇮🇩",
-        "members": [
-          "Q3492",
-          "Q3757",
-          "Q3795",
-          "Q3803",
-          "Q3812",
-          "Q3827",
-          "Q3845"
-        ],
-        "roadSpeedUnit": "km/h",
-        "roadHeightUnit": "m",
-        "driveSide": "left",
-        "callingCodes": ["62"],
-        "area": 8595846.84,
-        "resources": {
-          "OSM-IDN-facebook": {
-            "id": "OSM-IDN-facebook",
-            "type": "facebook",
-            "locationSet": {"include": ["id"]},
-            "name": "OpenStreetMap Indonesia",
-            "description": "Improve OpenStreetMap in Indonesia",
-            "extendedDescription": "Mapping in Indonesia? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!",
-            "url": "https://www.facebook.com/groups/osm.id/",
-            "contacts": [
-              {"name": "Yantisa Akhadi", "email": "yantisa.akhadi@hotosm.org"}
-            ],
-            "order": 3
-          }
-        }
-      },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [74.28481, -3.17525],
-              [102.92489, -8.17146],
-              [116.22542, -10.49172],
-              [122.14954, -11.52517],
-              [125.68138, -9.85176],
-              [125.09025, -9.46406],
-              [124.97892, -9.19281],
-              [125.04044, -9.17093],
-              [125.09434, -9.19669],
-              [125.18907, -9.16434],
-              [125.18632, -9.03142],
-              [125.11764, -8.96359],
-              [124.97742, -9.08128],
-              [124.94011, -8.85617],
-              [124.46701, -9.13002],
-              [124.45971, -9.30263],
-              [124.38554, -9.3582],
-              [124.35258, -9.43002],
-              [124.3535, -9.48493],
-              [124.28115, -9.50453],
-              [124.28115, -9.42189],
-              [124.21247, -9.36904],
-              [124.14517, -9.42324],
-              [124.10539, -9.41206],
-              [124.04286, -9.34243],
-              [124.04628, -9.22671],
-              [124.33472, -9.11416],
-              [124.92337, -8.75859],
-              [125.87688, -7.49892],
-              [125.58506, -7.95311],
-              [125.87691, -8.31789],
-              [127.42116, -8.22471],
-              [127.55165, -9.05052],
-              [135.49042, -9.2276],
-              [141.01842, -9.35091],
-              [141.01763, -6.90181],
-              [140.90448, -6.85033],
-              [140.85295, -6.72996],
-              [140.99813, -6.3233],
-              [141.02352, 0.08993],
-              [129.63187, 2.21409],
-              [128.34321, 3.90322],
-              [126.69413, 6.02692],
-              [119.56457, 0.90759],
-              [116.58433, -5.30385],
-              [120.02464, 2.83703],
-              [118.06469, 4.16638],
-              [117.67641, 4.16535],
-              [117.47313, 4.18857],
-              [117.25801, 4.35108],
-              [115.90217, 4.37708],
-              [115.58276, 3.93499],
-              [115.53713, 3.14776],
-              [115.11343, 2.82879],
-              [115.1721, 2.49671],
-              [114.80706, 2.21665],
-              [114.80706, 1.92351],
-              [114.57892, 1.5],
-              [114.03788, 1.44787],
-              [113.64677, 1.23933],
-              [113.01448, 1.42832],
-              [113.021, 1.57819],
-              [112.48648, 1.56516],
-              [112.2127, 1.44135],
-              [112.15679, 1.17004],
-              [111.94553, 1.12016],
-              [111.82846, 0.99349],
-              [111.55434, 0.97864],
-              [111.22979, 1.08326],
-              [110.62374, 0.873],
-              [110.49182, 0.88088],
-              [110.35354, 0.98869],
-              [109.66397, 1.60425],
-              [109.66397, 1.79972],
-              [109.57923, 1.80624],
-              [109.53794, 1.91771],
-              [109.62558, 1.99182],
-              [109.82788, 2.86812],
-              [110.90339, 7.52694],
-              [105.01437, 3.24936],
-              [104.56723, 1.44271],
-              [104.34728, 1.33529],
-              [104.12282, 1.27714],
-              [104.03085, 1.26954],
-              [103.74084, 1.12902],
-              [103.66049, 1.18825],
-              [103.56591, 1.19719],
-              [103.03657, 1.30383],
-              [96.11174, 6.69841],
-              [74.28481, -3.17525]
-            ],
-            [
-              [114.92859, -7.49253],
-              [116.33992, -7.56171],
-              [116.96967, -8.01483],
-              [114.92859, -7.49253]
-            ]
-          ]
-        ]
-      },
-      "id": "Q252"
     },
     {
       "type": "Feature",
@@ -10790,7 +10596,7 @@
             "languageCodes": ["es"],
             "name": "OpenStreetMap Peru Telegram",
             "description": "Join the OpenStreetMap Peru community on Telegram",
-            "url": "https://telegram.me/osmPe",
+            "url": "https://t.me/osmPe",
             "contacts": [
               {
                 "name": "Diego Sangunietti",
@@ -11479,7 +11285,7 @@
             "languageCodes": ["es"],
             "name": "OSM Paraguay on Telegram",
             "description": "OpenStreetMap Paraguay Telegram chat",
-            "url": "https://telegram.me/osm_py",
+            "url": "https://t.me/osm_py",
             "contacts": [
               {
                 "name": "Talk-py Owner",
@@ -16033,6 +15839,121 @@
     {
       "type": "Feature",
       "properties": {
+        "iso1A2": "HN",
+        "iso1A3": "HND",
+        "iso1N3": "340",
+        "wikidata": "Q783",
+        "nameEn": "Honduras",
+        "groups": ["013", "003", "419", "019", "UN", "001"],
+        "callingCodes": ["504"],
+        "id": "Q783",
+        "m49": "340",
+        "isoStatus": "official",
+        "level": "country",
+        "emojiFlag": "🇭🇳",
+        "roadSpeedUnit": "km/h",
+        "roadHeightUnit": "m",
+        "driveSide": "right",
+        "area": 239299.38,
+        "resources": {
+          "OSM-hn-mailinglist": {
+            "id": "OSM-hn-mailinglist",
+            "type": "mailinglist",
+            "locationSet": {"include": ["hn"]},
+            "languageCodes": ["en"],
+            "name": "Talk-hn Mailing List",
+            "description": "A mailing list to discuss OpenStreetMap in Honduras",
+            "url": "https://lists.openstreetmap.org/listinfo/talk-hn"
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [-83.86109, 17.73736],
+              [-88.20359, 16.03858],
+              [-88.22552, 15.72294],
+              [-88.24022, 15.69247],
+              [-88.31459, 15.66942],
+              [-88.32467, 15.63665],
+              [-88.97343, 15.14039],
+              [-89.15149, 15.07392],
+              [-89.18048, 14.99967],
+              [-89.15149, 14.97775],
+              [-89.23467, 14.85596],
+              [-89.13132, 14.71582],
+              [-89.15653, 14.57802],
+              [-89.23719, 14.58046],
+              [-89.35189, 14.47553],
+              [-89.34776, 14.43013],
+              [-89.04187, 14.33644],
+              [-88.94608, 14.20207],
+              [-88.85785, 14.17763],
+              [-88.815, 14.11652],
+              [-88.73182, 14.10919],
+              [-88.70661, 14.04317],
+              [-88.49738, 13.97224],
+              [-88.48982, 13.86458],
+              [-88.25791, 13.91108],
+              [-88.23018, 13.99915],
+              [-88.07641, 13.98447],
+              [-88.00331, 13.86948],
+              [-87.7966, 13.91353],
+              [-87.68821, 13.80829],
+              [-87.73106, 13.75443],
+              [-87.78148, 13.52906],
+              [-87.71657, 13.50577],
+              [-87.72115, 13.46083],
+              [-87.73841, 13.44169],
+              [-87.77354, 13.45767],
+              [-87.83467, 13.44655],
+              [-87.84675, 13.41078],
+              [-87.80177, 13.35689],
+              [-87.73714, 13.32715],
+              [-87.69751, 13.25228],
+              [-87.55124, 13.12523],
+              [-87.37107, 12.98646],
+              [-87.06306, 13.00892],
+              [-87.03785, 12.98682],
+              [-86.93197, 13.05313],
+              [-86.93383, 13.18677],
+              [-86.87066, 13.30641],
+              [-86.71267, 13.30348],
+              [-86.76812, 13.79605],
+              [-86.35219, 13.77157],
+              [-86.14801, 14.04317],
+              [-86.00685, 14.08474],
+              [-86.03458, 13.99181],
+              [-85.75477, 13.8499],
+              [-85.73964, 13.9698],
+              [-85.45762, 14.11304],
+              [-85.32149, 14.2562],
+              [-85.18602, 14.24929],
+              [-85.1575, 14.53934],
+              [-84.90082, 14.80489],
+              [-84.82596, 14.82212],
+              [-84.70119, 14.68078],
+              [-84.48373, 14.63249],
+              [-84.10584, 14.76353],
+              [-83.89551, 14.76697],
+              [-83.62101, 14.89448],
+              [-83.49268, 15.01158],
+              [-83.13724, 15.00002],
+              [-83.04763, 15.03256],
+              [-82.06974, 14.49418],
+              [-81.58685, 18.0025],
+              [-83.86109, 17.73736]
+            ]
+          ]
+        ]
+      },
+      "id": "Q783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "iso1A2": "HT",
         "iso1A3": "HTI",
         "iso1N3": "332",
@@ -19695,6 +19616,63 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "+[[8.583333,53.55,10],[8.7286,53.1212,25]]",
+        "area": 2133.11,
+        "resources": {
+          "de-bremen-mailinglist": {
+            "id": "de-bremen-mailinglist",
+            "type": "mailinglist",
+            "locationSet": {
+              "include": [[8.7286, 53.1212, 25], [8.583333, 53.55, 10]]
+            },
+            "languageCodes": ["de"],
+            "name": "Bremen Mailing List",
+            "description": "This is the mailing list for the Bremen OSM community",
+            "url": "https://lists.openstreetmap.de/listinfo/Bremen",
+            "order": -3
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [8.372, 53.19],
+              [8.373, 53.051],
+              [8.51, 52.939],
+              [8.729, 52.897],
+              [8.948, 52.939],
+              [9.084, 53.051],
+              [9.085, 53.19],
+              [8.949, 53.303],
+              [8.729, 53.346],
+              [8.508, 53.303],
+              [8.372, 53.19]
+            ]
+          ],
+          [
+            [
+              [8.439, 53.578],
+              [8.44, 53.522],
+              [8.495, 53.477],
+              [8.583, 53.46],
+              [8.672, 53.477],
+              [8.727, 53.522],
+              [8.727, 53.578],
+              [8.672, 53.623],
+              [8.583, 53.64],
+              [8.494, 53.623],
+              [8.439, 53.578]
+            ]
+          ]
+        ]
+      },
+      "id": "+[[8.583333,53.55,10],[8.7286,53.1212,25]]"
     },
     {
       "type": "Feature",
@@ -24409,7 +24387,7 @@
             "languageCodes": ["es"],
             "name": "OSM Guatemala on Telegram",
             "description": "OpenStreetMap Guatemala Telegram chat",
-            "url": "https://telegram.me/openstreetmapGT"
+            "url": "https://t.me/openstreetmapGT"
           }
         }
       },
@@ -25429,7 +25407,7 @@
                 "email": "talk-is-owner@openstreetmap.org"
               }
             ],
-            "order": 1
+            "order": 5
           },
           "is-facebook": {
             "id": "is-facebook",
@@ -25447,6 +25425,16 @@
             ],
             "order": 3
           },
+          "is-forum": {
+            "id": "is-forum",
+            "type": "forum",
+            "locationSet": {"include": ["is"]},
+            "languageCodes": ["en"],
+            "name": "OpenStreetMap Iceland Forum",
+            "description": "The official forum for OpenStreetMap questions in and around Iceland",
+            "url": "https://forum.openstreetmap.org/viewforum.php?id=90",
+            "order": 4
+          },
           "is-mailinglist": {
             "id": "is-mailinglist",
             "type": "mailinglist",
@@ -25461,7 +25449,7 @@
                 "email": "talk-is-owner@openstreetmap.org"
               }
             ],
-            "order": -3
+            "order": 1
           },
           "is-twitter": {
             "id": "is-twitter",
@@ -25476,7 +25464,8 @@
                 "name": "Talk-is-owner",
                 "email": "talk-is-owner@openstreetmap.org"
               }
-            ]
+            ],
+            "order": 2
           }
         }
       },
@@ -28207,7 +28196,7 @@
             "languageCodes": ["es"],
             "name": "OSM Nicaragua on Telegram",
             "description": "OpenStreetMap Nicaragua Telegram chat",
-            "url": "https://telegram.me/mapanica",
+            "url": "https://t.me/mapanica",
             "contacts": [
               {
                 "name": "NI Community",
@@ -29580,6 +29569,220 @@
         ]
       },
       "id": "Q227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iso1A2": "GH",
+        "iso1A3": "GHA",
+        "iso1N3": "288",
+        "wikidata": "Q117",
+        "nameEn": "Ghana",
+        "groups": ["011", "202", "002", "UN", "001"],
+        "callingCodes": ["233"],
+        "id": "Q117",
+        "m49": "288",
+        "isoStatus": "official",
+        "level": "country",
+        "emojiFlag": "🇬🇭",
+        "roadSpeedUnit": "km/h",
+        "roadHeightUnit": "m",
+        "driveSide": "right",
+        "area": 273829.96,
+        "resources": {
+          "osm-gh-facebook": {
+            "id": "osm-gh-facebook",
+            "type": "facebook",
+            "locationSet": {"include": ["gh"]},
+            "languageCodes": ["en"],
+            "name": "OpenStreetMap Ghana on Facebook",
+            "description": "Facebook group for people interested in OpenStreetMap.",
+            "extendedDescription": "Mappers in Ghana community, promoting OpenStreetMap and Humanitarian OpenStreetMap Team (HOT) projects in Ghana. Join us.",
+            "url": "https://www.facebook.com/OSMGhana/",
+            "contacts": [
+              {"name": "Enock Seth Nyamador", "email": "enock@osmghana.org"}
+            ],
+            "order": 3
+          },
+          "osm-gh-telegram": {
+            "id": "osm-gh-telegram",
+            "type": "telegram",
+            "locationSet": {"include": ["gh"]},
+            "languageCodes": ["en"],
+            "name": "OpenStreetMap Ghana Telegram",
+            "description": "OpenStreetMap Ghana community on Telegram",
+            "url": "https://t.me/osmghana",
+            "contacts": [
+              {"name": "Enock Seth Nyamador", "email": "enock@osmghana.org"}
+            ]
+          },
+          "osm-gh-twitter": {
+            "id": "osm-gh-twitter",
+            "type": "twitter",
+            "locationSet": {"include": ["gh"]},
+            "languageCodes": ["en"],
+            "name": "OpenStreetMap Ghana on Twitter",
+            "description": "Follow us on Twitter: {url}",
+            "url": "https://twitter.com/osmghana",
+            "contacts": [
+              {"name": "Enock Seth Nyamador", "email": "enock@osmghana.org"}
+            ]
+          },
+          "talk-gh": {
+            "id": "talk-gh",
+            "type": "mailinglist",
+            "locationSet": {"include": ["gh"]},
+            "languageCodes": ["en"],
+            "name": "Talk-gh Mailing List",
+            "description": "Talk-gh is the official mailing list for Ghana OSM community.",
+            "url": "https://lists.openstreetmap.org/listinfo/talk-gh",
+            "contacts": [
+              {"name": "Enock Seth Nyamador", "email": "kwadzo459@gmail.com"}
+            ],
+            "order": -3
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [-0.13493, 11.14075],
+              [-0.27374, 11.17157],
+              [-0.28566, 11.12713],
+              [-0.35955, 11.07801],
+              [-0.38219, 11.12596],
+              [-0.42391, 11.11661],
+              [-0.44298, 11.04292],
+              [-0.61937, 10.91305],
+              [-0.67143, 10.99811],
+              [-2.83373, 11.0067],
+              [-2.94232, 10.64281],
+              [-2.83108, 10.40252],
+              [-2.74174, 9.83172],
+              [-2.76534, 9.56589],
+              [-2.68802, 9.49343],
+              [-2.69814, 9.22717],
+              [-2.77799, 9.04949],
+              [-2.66357, 9.01771],
+              [-2.58243, 8.7789],
+              [-2.49037, 8.20872],
+              [-2.62901, 8.11495],
+              [-2.61232, 8.02645],
+              [-2.67787, 8.02055],
+              [-2.74819, 7.92613],
+              [-2.78395, 7.94974],
+              [-2.79467, 7.86002],
+              [-2.92339, 7.60847],
+              [-2.97822, 7.27165],
+              [-2.95438, 7.23737],
+              [-3.23327, 6.81744],
+              [-3.21954, 6.74407],
+              [-3.25999, 6.62521],
+              [-3.01896, 5.71697],
+              [-2.95323, 5.71865],
+              [-2.96671, 5.6415],
+              [-2.93132, 5.62137],
+              [-2.85378, 5.65156],
+              [-2.76614, 5.60963],
+              [-2.72737, 5.34789],
+              [-2.77625, 5.34621],
+              [-2.73074, 5.1364],
+              [-2.75502, 5.10657],
+              [-2.95261, 5.12477],
+              [-2.96554, 5.10397],
+              [-3.063, 5.13665],
+              [-3.11073, 5.12675],
+              [-3.10675, 5.08515],
+              [-3.34019, 4.17519],
+              [1.07031, 5.15655],
+              [1.27574, 5.93551],
+              [1.19771, 6.11522],
+              [1.19966, 6.17069],
+              [1.09187, 6.17074],
+              [1.05969, 6.22998],
+              [1.03108, 6.24064],
+              [0.99652, 6.33779],
+              [0.89283, 6.33779],
+              [0.71048, 6.53083],
+              [0.74862, 6.56517],
+              [0.63659, 6.63857],
+              [0.6497, 6.73682],
+              [0.58176, 6.76049],
+              [0.57406, 6.80348],
+              [0.52853, 6.82921],
+              [0.56508, 6.92971],
+              [0.52098, 6.94391],
+              [0.52217, 6.9723],
+              [0.59606, 7.01252],
+              [0.65327, 7.31643],
+              [0.62943, 7.41099],
+              [0.57223, 7.39326],
+              [0.52455, 7.45354],
+              [0.51979, 7.58706],
+              [0.58295, 7.62368],
+              [0.62943, 7.85751],
+              [0.58891, 8.12779],
+              [0.6056, 8.13959],
+              [0.61156, 8.18324],
+              [0.5913, 8.19622],
+              [0.63897, 8.25873],
+              [0.73432, 8.29529],
+              [0.64731, 8.48866],
+              [0.47211, 8.59945],
+              [0.37319, 8.75262],
+              [0.52455, 8.87746],
+              [0.45424, 9.04581],
+              [0.56388, 9.40697],
+              [0.49118, 9.48339],
+              [0.36485, 9.49749],
+              [0.33148, 9.44812],
+              [0.25758, 9.42696],
+              [0.2254, 9.47869],
+              [0.31241, 9.50337],
+              [0.30406, 9.521],
+              [0.2409, 9.52335],
+              [0.23851, 9.57389],
+              [0.38153, 9.58682],
+              [0.36008, 9.6256],
+              [0.29334, 9.59387],
+              [0.26712, 9.66437],
+              [0.28261, 9.69022],
+              [0.32313, 9.6491],
+              [0.34816, 9.66907],
+              [0.34816, 9.71607],
+              [0.32075, 9.72781],
+              [0.36366, 10.03309],
+              [0.41252, 10.02018],
+              [0.41371, 10.06361],
+              [0.35293, 10.09412],
+              [0.39584, 10.31112],
+              [0.33028, 10.30408],
+              [0.29453, 10.41546],
+              [0.18846, 10.4096],
+              [0.12886, 10.53149],
+              [-0.05945, 10.63458],
+              [-0.09141, 10.7147],
+              [-0.07327, 10.71845],
+              [-0.07183, 10.76794],
+              [-0.0228, 10.81916],
+              [-0.02685, 10.8783],
+              [-0.00908, 10.91644],
+              [-0.0063, 10.96417],
+              [0.03355, 10.9807],
+              [0.02395, 11.06229],
+              [0.00342, 11.08317],
+              [-0.00514, 11.10763],
+              [-0.0275, 11.11202],
+              [-0.05733, 11.08628],
+              [-0.14462, 11.10811],
+              [-0.13493, 11.14075]
+            ]
+          ]
+        ]
+      },
+      "id": "Q117"
     },
     {
       "type": "Feature",
@@ -31272,7 +31475,7 @@
             "languageCodes": ["es"],
             "name": "OSM Panama on Telegram",
             "description": "OpenStreetMap Panama Telegram chat",
-            "url": "https://telegram.me/Comunidad_OSM_Panama"
+            "url": "https://t.me/Comunidad_OSM_Panama"
           }
         }
       },
@@ -34489,7 +34692,7 @@
             "languageCodes": ["es"],
             "name": "OpenStreetMap Venezuela Telegram",
             "description": "Join the OpenStreetMap Venezuela community on Telegram",
-            "url": "https://telegram.me/OSMve",
+            "url": "https://t.me/OSMve",
             "contacts": [
               {
                 "name": "VE Community",
