@@ -1,12 +1,21 @@
 {
   "id": "OSM-TH-CNX-meetup",
   "type": "meetup",
-  "locationSet": {"include": ["thailand_cnx.geojson"]},
+  "locationSet": {
+    "include": ["thailand_cnx.geojson"]
+  },
   "languageCodes": ["en"],
-  "name": "OSM Meetup Chiang Mai",
-  "description": "Irregular meeting of the OpenStreetMap community in Chiang Mai",
-  "extendedDescription": "Members of the OpenStreetMap community meet every few months in Chiang Mai. Get in contact and check out {url} to see when the next meetup is scheduled",
   "url": "https://forum.openstreetmap.org/viewforum.php?id=46",
-  "contacts": [{"name": "Team Chiang Mai", "email": "meetup-cnx@openstreetmap.in.th"}],
-  "order": 5
+  "order": 5,
+  "strings": {
+    "name": "OSM Meetup Chiang Mai",
+    "description": "Irregular meeting of the OpenStreetMap community in Chiang Mai",
+    "extendedDescription": "Members of the OpenStreetMap community meet every few months in Chiang Mai. Get in contact and check out {url} to see when the next meetup is scheduled"
+  },
+  "contacts": [
+    {
+      "name": "Team Chiang Mai",
+      "email": "meetup-cnx@openstreetmap.in.th"
+    }
+  ]
 }

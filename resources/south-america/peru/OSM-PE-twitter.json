@@ -3,11 +3,19 @@
   "type": "twitter",
   "locationSet": {"include": ["pe"]},
   "languageCodes": ["es"],
-  "name": "OpenStreetMap Peru Twitter",
-  "description": "Follow us on Twitter at {url}",
   "url": "https://twitter.com/osmpe",
+  "strings": {
+    "name": "OpenStreetMap Peru Twitter",
+    "description": "Follow us on Twitter at {url}"
+  },
   "contacts": [
-    {"name": "Diego Sangunietti", "email": "diego.sanguinetti@hotmail.com"},
-    {"name": "Ruben Lopez M.", "email": "rub2106@gmail.com"}
+    {
+      "name": "Diego Sangunietti",
+      "email": "diego.sanguinetti@hotmail.com"
+    },
+    {
+      "name": "Ruben Lopez M.",
+      "email": "rub2106@gmail.com"
+    }
   ]
 }

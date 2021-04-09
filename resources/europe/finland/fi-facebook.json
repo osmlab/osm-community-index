@@ -3,8 +3,10 @@
   "type": "facebook",
   "locationSet": {"include": ["fi"]},
   "languageCodes": ["fi"],
-  "name": "OpenStreetMap Finland Facebook",
-  "description": "OpenStreetMap Finland on Facebook",
   "url": "https://www.facebook.com/groups/208351726124",
-  "order": -5
+  "order": -5,
+  "strings": {
+    "name": "OpenStreetMap Finland Facebook",
+    "description": "OpenStreetMap Finland on Facebook"
+  }
 }

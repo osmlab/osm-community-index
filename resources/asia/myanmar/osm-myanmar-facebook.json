@@ -2,14 +2,25 @@
   "id": "OSM-MMR-facebook",
   "type": "facebook",
   "locationSet": {"include": ["mm"]},
-  "name": "OpenStreetMap Myanmar",
-  "description": "Improve OpenStreetMap in Myanmar",
-  "extendedDescription": "Mapping in Myanmar? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!",
   "url": "https://www.facebook.com/groups/osmmm/",
+  "order": 3,
+  "strings": {
+    "name": "OpenStreetMap Myanmar",
+    "description": "Improve OpenStreetMap in Myanmar",
+    "extendedDescription": "Mapping in Myanmar? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!"
+  },
   "contacts": [
-    {"name": "Yan Naung Oak", "email": "yan@phandeeyar.org"},
-    {"name": "Patrick Oswald", "email": "patrickoswald.omm@gmail.com"},
-    {"name": "Set Khaing Oo", "email": "setkhaing@phandeeyar.org"}
-  ],
-  "order": 3
+    {
+      "name": "Yan Naung Oak",
+      "email": "yan@phandeeyar.org"
+    },
+    {
+      "name": "Patrick Oswald",
+      "email": "patrickoswald.omm@gmail.com"
+    },
+    {
+      "name": "Set Khaing Oo",
+      "email": "setkhaing@phandeeyar.org"
+    }
+  ]
 }

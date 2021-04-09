@@ -3,9 +3,16 @@
   "type": "forum",
   "locationSet": {"include": ["ru"]},
   "languageCodes": ["ru"],
-  "name": "OpenStreetMap RU forum",
-  "description": "OpenStreetMap Russia web forum",
   "url": "https://forum.openstreetmap.org/viewforum.php?id=21",
-  "contacts": [{"name": "Ilya Zverev", "email": "ilya@zverev.info"}],
-  "order": -2
+  "order": -2,
+  "strings": {
+    "name": "OpenStreetMap RU forum",
+    "description": "OpenStreetMap Russia web forum"
+  },
+  "contacts": [
+    {
+      "name": "Ilya Zverev",
+      "email": "ilya@zverev.info"
+    }
+  ]
 }

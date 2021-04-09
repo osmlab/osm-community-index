@@ -3,9 +3,16 @@
   "type": "twitter",
   "locationSet": {"include": ["gb"]},
   "languageCodes": ["en"],
-  "name": "OpenStreetMap UK on Twitter",
-  "description": "OpenStreetMap UK on Twitter: {url}",
   "url": "https://twitter.com/osmuk",
-  "contacts": [{"name": "OpenStreetMap UK", "email": "board@osmuk.org"}],
-  "order": 2
+  "order": 2,
+  "strings": {
+    "name": "OpenStreetMap UK on Twitter",
+    "description": "OpenStreetMap UK on Twitter: {url}"
+  },
+  "contacts": [
+    {
+      "name": "OpenStreetMap UK",
+      "email": "board@osmuk.org"
+    }
+  ]
 }

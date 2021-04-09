@@ -1,10 +1,19 @@
 {
   "id": "ym-Kansas-State-University",
   "type": "youthmappers",
-  "locationSet": {"include": [[-96.5918, 39.16396]]},
-  "name": "Gamma Theta Upsilon: Beta Psi Chapter",
-  "description": "YouthMappers chapter at Kansas State University",
-  "extendedDescription": "We are the Kansas State University Chapter of Gamma Theta Upsilon, an international geography honor society with affiliation to YouthMappers. We have been active with mapping for OSM and conducted a mapathon called \"Map for Nepal,\" in which we used OpenStreetMap to digitize unmapped areas of Nepal after the earthquake in 2015.",
+  "locationSet": {
+    "include": [[-96.5918, 39.16396]]
+  },
   "url": "https://www.facebook.com/kstate.gtu?fref=ts",
-  "contacts": [{"name": "Organizer", "email": "tblarsen@ksu.edu"}]
+  "strings": {
+    "name": "Gamma Theta Upsilon: Beta Psi Chapter",
+    "description": "YouthMappers chapter at Kansas State University",
+    "extendedDescription": "We are the Kansas State University Chapter of Gamma Theta Upsilon, an international geography honor society with affiliation to YouthMappers. We have been active with mapping for OSM and conducted a mapathon called \"Map for Nepal,\" in which we used OpenStreetMap to digitize unmapped areas of Nepal after the earthquake in 2015."
+  },
+  "contacts": [
+    {
+      "name": "Organizer",
+      "email": "tblarsen@ksu.edu"
+    }
+  ]
 }

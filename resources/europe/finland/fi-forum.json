@@ -3,9 +3,16 @@
   "type": "forum",
   "locationSet": {"include": ["fi"]},
   "languageCodes": ["fi"],
-  "name": "OpenStreetMap FI forum",
-  "description": "OpenStreetMap Finland web forum",
   "url": "https://forum.openstreetmap.org/viewforum.php?id=15",
-  "contacts": [{"name": "Talk-fi administrator", "email": "talk-fi-owner@openstreetmap.org"}],
-  "order": -2
+  "order": -2,
+  "strings": {
+    "name": "OpenStreetMap FI forum",
+    "description": "OpenStreetMap Finland web forum"
+  },
+  "contacts": [
+    {
+      "name": "Talk-fi administrator",
+      "email": "talk-fi-owner@openstreetmap.org"
+    }
+  ]
 }

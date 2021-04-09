@@ -3,9 +3,16 @@
   "type": "discord",
   "locationSet": {"include": ["pl"]},
   "languageCodes": ["en", "pl"],
-  "name": "Discord OSM Polska",
-  "description": "Main place for voice chats among Polish OpenStreetMap community, active text channels",
   "url": "https://discord.gg/HvQWsMeQzT",
-  "contacts": [{"name": "Włodzimierz Bartczak", "email": "wlodzimierz.bartczak@openstreetmap.pl"}],
-  "order": 8
+  "order": 8,
+  "strings": {
+    "name": "Discord OSM Polska",
+    "description": "Main place for voice chats among Polish OpenStreetMap community, active text channels"
+  },
+  "contacts": [
+    {
+      "name": "Włodzimierz Bartczak",
+      "email": "wlodzimierz.bartczak@openstreetmap.pl"
+    }
+  ]
 }

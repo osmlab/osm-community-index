@@ -3,9 +3,16 @@
   "type": "twitter",
   "locationSet": {"include": ["cl"]},
   "languageCodes": ["es"],
-  "name": "OpenStreetMap Chile Twitter",
-  "description": "Follow us on Twitter at {url}",
   "url": "https://twitter.com/osmCL",
-  "contacts": [{"name": "Julio Costa", "email": "julio.costa@openstreetmap.cl"}],
-  "order": 4
+  "order": 4,
+  "strings": {
+    "name": "OpenStreetMap Chile Twitter",
+    "description": "Follow us on Twitter at {url}"
+  },
+  "contacts": [
+    {
+      "name": "Julio Costa",
+      "email": "julio.costa@openstreetmap.cl"
+    }
+  ]
 }

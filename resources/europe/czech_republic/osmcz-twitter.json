@@ -3,8 +3,15 @@
   "type": "twitter",
   "locationSet": {"include": ["cz"]},
   "languageCodes": ["cs", "en", "sk"],
-  "name": "Czech twitter @osmcz",
-  "description": "Follow czech community on Twitter - including translated WeeklyOSM!",
   "url": "https://twitter.com/osmcz",
-  "contacts": [{"name": "osmcz", "email": "dev@openstreetmap.cz"}]
+  "strings": {
+    "name": "Czech twitter @osmcz",
+    "description": "Follow czech community on Twitter - including translated WeeklyOSM!"
+  },
+  "contacts": [
+    {
+      "name": "osmcz",
+      "email": "dev@openstreetmap.cz"
+    }
+  ]
 }

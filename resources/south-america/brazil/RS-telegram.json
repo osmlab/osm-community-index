@@ -1,10 +1,14 @@
 {
   "id": "RS-telegram",
   "type": "telegram",
-  "locationSet": {"include": ["riograndedosul.geojson"]},
+  "locationSet": {
+    "include": ["riograndedosul.geojson"]
+  },
   "languageCodes": ["pt"],
-  "name": "OpenStreetMap Rio Grande do Sul Telegram Group",
-  "description": "Join the OpenStreetMap Rio Grande do Sul community on Telegram",
-  "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!",
-  "url": "https://t.me/osmrs"
+  "url": "https://t.me/osmrs",
+  "strings": {
+    "name": "OpenStreetMap Rio Grande do Sul Telegram Group",
+    "description": "Join the OpenStreetMap Rio Grande do Sul community on Telegram",
+    "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"
+  }
 }

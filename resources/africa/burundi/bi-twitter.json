@@ -3,8 +3,10 @@
   "type": "twitter",
   "locationSet": {"include": ["bi"]},
   "languageCodes": ["en"],
-  "name": "OSM Burundi",
-  "description": "Twitter of OpenStreetMap in Burundi",
   "url": "https://twitter.com/osmburundi",
-  "order": 2
+  "order": 2,
+  "strings": {
+    "name": "OSM Burundi",
+    "description": "Twitter of OpenStreetMap in Burundi"
+  }
 }

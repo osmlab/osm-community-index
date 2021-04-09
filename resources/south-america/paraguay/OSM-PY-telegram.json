@@ -3,8 +3,15 @@
   "type": "telegram",
   "locationSet": {"include": ["py"]},
   "languageCodes": ["es"],
-  "name": "OSM Paraguay on Telegram",
-  "description": "OpenStreetMap Paraguay Telegram chat",
   "url": "https://t.me/osm_py",
-  "contacts": [{"name": "Talk-py Owner", "email": "talk-py-owner@openstreetmap.org"}]
+  "strings": {
+    "name": "OSM Paraguay on Telegram",
+    "description": "OpenStreetMap Paraguay Telegram chat"
+  },
+  "contacts": [
+    {
+      "name": "Talk-py Owner",
+      "email": "talk-py-owner@openstreetmap.org"
+    }
+  ]
 }

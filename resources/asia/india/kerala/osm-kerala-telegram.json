@@ -1,12 +1,22 @@
 {
   "id": "osm-kerala-telegram",
   "type": "telegram",
-  "locationSet": {"include": ["india_kerala.geojson"]},
-  "name": "OpenStreetMap Kerala Telegram",
-  "description": "We map Kerala together. Join our telegram group. {url}",
+  "locationSet": {
+    "include": ["india_kerala.geojson"]
+  },
   "url": "https://t.me/osmkerala",
+  "strings": {
+    "name": "OpenStreetMap Kerala Telegram",
+    "description": "We map Kerala together. Join our telegram group. {url}"
+  },
   "contacts": [
-    {"name": "Jaisen Nedumpala", "email": "jaisuvyas@gmail.com"},
-    {"name": "Naveen Francis", "email": "naveenpf@gmail.com"}
+    {
+      "name": "Jaisen Nedumpala",
+      "email": "jaisuvyas@gmail.com"
+    },
+    {
+      "name": "Naveen Francis",
+      "email": "naveenpf@gmail.com"
+    }
   ]
 }

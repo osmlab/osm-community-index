@@ -1,10 +1,14 @@
 {
   "id": "fr-bzh-mailinglist",
   "type": "mailinglist",
-  "locationSet": {"include": ["fr-bzh-historique.geojson"]},
+  "locationSet": {
+    "include": ["fr-bzh-historique.geojson"]
+  },
   "languageCodes": ["br", "fr"],
-  "name": "Talk-fr-bzh Mailing List",
-  "description": "Talk-fr-bzh mailing list",
   "url": "https://lists.openstreetmap.org/listinfo/talk-fr-bzh",
-  "order": 3
+  "order": 3,
+  "strings": {
+    "name": "Talk-fr-bzh Mailing List",
+    "description": "Talk-fr-bzh mailing list"
+  }
 }

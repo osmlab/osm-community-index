@@ -3,13 +3,24 @@
   "type": "osm-lc",
   "locationSet": {"include": ["it"]},
   "languageCodes": ["it"],
-  "name": "OpenStreetMap Italy Local Chapter",
-  "description": "We help grow and improve OpenStreetMap in Italy.",
   "url": "https://www.wikimedia.it/",
+  "order": 1,
+  "strings": {
+    "name": "OpenStreetMap Italy Local Chapter",
+    "description": "We help grow and improve OpenStreetMap in Italy."
+  },
   "contacts": [
-    {"name": "Simone Cortesi", "email": "simone@cortesi.com"},
-    {"name": "Stefano", "email": "sabas88@gmail.com"},
-    {"name": "Alessandro Palmas", "email": "alessandro.palmas@wikimedia.it"}
-  ],
-  "order": 1
+    {
+      "name": "Simone Cortesi",
+      "email": "simone@cortesi.com"
+    },
+    {
+      "name": "Stefano",
+      "email": "sabas88@gmail.com"
+    },
+    {
+      "name": "Alessandro Palmas",
+      "email": "alessandro.palmas@wikimedia.it"
+    }
+  ]
 }

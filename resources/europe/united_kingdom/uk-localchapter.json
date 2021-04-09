@@ -1,13 +1,30 @@
 {
   "id": "uk-localchapter",
   "type": "osm-lc",
-  "locationSet": {"include": ["GB-ENG", "GB-NIR", "GB-SCT", "GB-WLS", "JE", "GG", "IM"]},
+  "locationSet": {
+    "include": [
+      "GB-ENG",
+      "GB-NIR",
+      "GB-SCT",
+      "GB-WLS",
+      "JE",
+      "GG",
+      "IM"
+    ]
+  },
   "languageCodes": ["en"],
-  "name": "OpenStreetMap UK",
-  "description": "The official Local Chapter for the UK (including Northern Ireland).",
-  "extendedDescription": "We support OpenStreetMap by holding events, providing community resources, building partnerships, and by spreading the word. Join OpenStreetMap UK here: {signupUrl}",
   "url": "https://osmuk.org/",
   "signupUrl": "https://osmuk.org/become-member/",
-  "contacts": [{"name": "OpenStreetMap UK", "email": "board@osmuk.org"}],
-  "order": 3
+  "order": 3,
+  "strings": {
+    "name": "OpenStreetMap UK",
+    "description": "The official Local Chapter for the UK (including Northern Ireland).",
+    "extendedDescription": "We support OpenStreetMap by holding events, providing community resources, building partnerships, and by spreading the word. Join OpenStreetMap UK here: {signupUrl}"
+  },
+  "contacts": [
+    {
+      "name": "OpenStreetMap UK",
+      "email": "board@osmuk.org"
+    }
+  ]
 }

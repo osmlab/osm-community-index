@@ -3,8 +3,15 @@
   "type": "mailinglist",
   "locationSet": {"include": ["ben"]},
   "languageCodes": ["en"],
-  "name": "OpenStreetMap Benin Mailinglist",
-  "description": "Talk-bj is an official mailing list to discuss matters about Benin",
   "url": "https://lists.openstreetmap.org/listinfo/talk-bj",
-  "contacts": [{"name": "Talk-bj-owner", "email": "talk-bj-owner@openstreetmap.org"}]
+  "strings": {
+    "name": "OpenStreetMap Benin Mailinglist",
+    "description": "Talk-bj is an official mailing list to discuss matters about Benin"
+  },
+  "contacts": [
+    {
+      "name": "Talk-bj-owner",
+      "email": "talk-bj-owner@openstreetmap.org"
+    }
+  ]
 }

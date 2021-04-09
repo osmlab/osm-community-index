@@ -3,11 +3,19 @@
   "type": "matrix",
   "locationSet": {"include": ["pe"]},
   "languageCodes": ["es"],
-  "name": "OpenStreetMap Peru Matrix Chat",
-  "description": "Chat with other members of the OpenStreetMap Peru community in Matrix.",
   "url": "https://matrix.to/#/#osmpe:matrix.org",
+  "strings": {
+    "name": "OpenStreetMap Peru Matrix Chat",
+    "description": "Chat with other members of the OpenStreetMap Peru community in Matrix."
+  },
   "contacts": [
-    {"name": "Diego Sangunietti", "email": "diego.sanguinetti@hotmail.com"},
-    {"name": "Ruben Lopez M.", "email": "rub2106@gmail.com"}
+    {
+      "name": "Diego Sangunietti",
+      "email": "diego.sanguinetti@hotmail.com"
+    },
+    {
+      "name": "Ruben Lopez M.",
+      "email": "rub2106@gmail.com"
+    }
   ]
 }

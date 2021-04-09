@@ -1,10 +1,19 @@
 {
   "id": "ym-University-of-Nairobi",
   "type": "youthmappers",
-  "locationSet": {"include": [[36.82617, -1.31824]]},
-  "name": "Geospatial Engineering Students Association",
-  "description": "YouthMappers chapter at University of Nairobi",
-  "extendedDescription": "UN students are working with the local OSM community, Map Kibera, and GrouthTruth to learn about open mapping and contribute data for needs in their urban communities.",
+  "locationSet": {
+    "include": [[36.82617, -1.31824]]
+  },
   "url": "http://www.geospatial.uonbi.ac.ke/",
-  "contacts": [{"name": "Organizer", "email": "contact@mapkibera.org"}]
+  "strings": {
+    "name": "Geospatial Engineering Students Association",
+    "description": "YouthMappers chapter at University of Nairobi",
+    "extendedDescription": "UN students are working with the local OSM community, Map Kibera, and GrouthTruth to learn about open mapping and contribute data for needs in their urban communities."
+  },
+  "contacts": [
+    {
+      "name": "Organizer",
+      "email": "contact@mapkibera.org"
+    }
+  ]
 }

@@ -2,8 +2,10 @@
   "id": "OSM-BiH-telegram",
   "type": "telegram",
   "locationSet": {"include": ["ba"]},
-  "name": "OpenStreetMap BiH Telegram",
-  "description": "A Telegram group for the OSM Bosnia and Herzegovina community: {url}",
   "url": "https://t.me/osmbih",
-  "order": 2
+  "order": 2,
+  "strings": {
+    "name": "OpenStreetMap BiH Telegram",
+    "description": "A Telegram group for the OSM Bosnia and Herzegovina community: {url}"
+  }
 }

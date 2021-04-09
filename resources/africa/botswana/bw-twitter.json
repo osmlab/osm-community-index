@@ -3,8 +3,15 @@
   "type": "twitter",
   "locationSet": {"include": ["bw"]},
   "languageCodes": ["en", "tn"],
-  "name": "Mapping Botswana on Twitter",
-  "description": "Twitter of OpenStreetMap in Botswana",
   "url": "https://twitter.com/mappingbotswana",
-  "contacts": [{"name": "info@openstreetmap.org.bw", "email": "info@openstreetmap.org.bw"}]
+  "strings": {
+    "name": "Mapping Botswana on Twitter",
+    "description": "Twitter of OpenStreetMap in Botswana"
+  },
+  "contacts": [
+    {
+      "name": "info@openstreetmap.org.bw",
+      "email": "info@openstreetmap.org.bw"
+    }
+  ]
 }

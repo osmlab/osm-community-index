@@ -2,8 +2,10 @@
   "id": "bd-telegram",
   "type": "telegram",
   "locationSet": {"include": ["bd"]},
-  "name": "@OpenStreetMapBangladesh on Telegram",
-  "description": "OpenStreetMap Bangladesh Telegram chat",
   "url": "https://t.me/OpenStreetMapBD",
-  "order": 1
+  "order": 1,
+  "strings": {
+    "name": "@OpenStreetMapBangladesh on Telegram",
+    "description": "OpenStreetMap Bangladesh Telegram chat"
+  }
 }

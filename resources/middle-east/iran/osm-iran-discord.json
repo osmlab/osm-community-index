@@ -3,8 +3,10 @@
   "type": "discord",
   "locationSet": {"include": ["ir"]},
   "languageCodes": ["fa"],
-  "name": "OpenStreetMap Iran Discord",
-  "description": "Join the OSM Iran Discord at {url}",
-  "extendedDescription": "A Discord server for OpenStreetMap Iran. Feel free to join!",
-  "url": "https://discord.gg/MCA7A87Def"
+  "url": "https://discord.gg/MCA7A87Def",
+  "strings": {
+    "name": "OpenStreetMap Iran Discord",
+    "description": "Join the OSM Iran Discord at {url}",
+    "extendedDescription": "A Discord server for OpenStreetMap Iran. Feel free to join!"
+  }
 }

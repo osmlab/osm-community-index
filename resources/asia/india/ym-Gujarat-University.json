@@ -1,9 +1,18 @@
 {
   "id": "ym-Gujarat-University",
   "type": "youthmappers",
-  "locationSet": {"include": [[72.50977, 22.99876]]},
-  "name": "CCIM at Ahmedabad",
-  "description": "YouthMappers chapter at Gujarat University",
+  "locationSet": {
+    "include": [[72.50977, 22.99876]]
+  },
   "url": "mailto:Coolmulls@gmail.com",
-  "contacts": [{"name": "Organizer", "email": "coolmulls@gmail.com"}]
+  "strings": {
+    "name": "CCIM at Ahmedabad",
+    "description": "YouthMappers chapter at Gujarat University"
+  },
+  "contacts": [
+    {
+      "name": "Organizer",
+      "email": "coolmulls@gmail.com"
+    }
+  ]
 }

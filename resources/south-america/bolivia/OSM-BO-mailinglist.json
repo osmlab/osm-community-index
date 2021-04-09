@@ -3,10 +3,17 @@
   "type": "mailinglist",
   "locationSet": {"include": ["bo"]},
   "languageCodes": ["es"],
-  "name": "Talk-bo Mailing List",
-  "description": "Talk-bo is the official mailing list for the Bolivian OpenStreetMap community",
-  "extendedDescription": "Mapping in Bolivia? Have questions, want to connect with the community here? Join us at {url}. All are welcome!",
   "url": "https://lists.openstreetmap.org/listinfo/talk-bo/",
-  "contacts": [{"name": "Marco Antonio", "email": "marcoantoniofrias@gmail.com"}],
-  "order": -3
+  "order": -3,
+  "strings": {
+    "name": "Talk-bo Mailing List",
+    "description": "Talk-bo is the official mailing list for the Bolivian OpenStreetMap community",
+    "extendedDescription": "Mapping in Bolivia? Have questions, want to connect with the community here? Join us at {url}. All are welcome!"
+  },
+  "contacts": [
+    {
+      "name": "Marco Antonio",
+      "email": "marcoantoniofrias@gmail.com"
+    }
+  ]
 }

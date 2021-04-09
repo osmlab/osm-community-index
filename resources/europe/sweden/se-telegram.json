@@ -3,8 +3,10 @@
   "type": "telegram",
   "locationSet": {"include": ["se"]},
   "languageCodes": ["sv"],
-  "name": "OSM Sweden on Telegram",
-  "description": "OpenStreetMap Sweden Telegram chat",
   "url": "https://t.me/osmSE",
-  "order": 4
+  "order": 4,
+  "strings": {
+    "name": "OSM Sweden on Telegram",
+    "description": "OpenStreetMap Sweden Telegram chat"
+  }
 }

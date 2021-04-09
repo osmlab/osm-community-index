@@ -3,8 +3,10 @@
   "type": "telegram",
   "locationSet": {"include": ["gb-nir", "ie"]},
   "languageCodes": ["en"],
-  "name": "OSM Ireland on Telegram",
-  "description": "OpenStreetMap Ireland Telegram chat",
   "url": "https://t.me/joinchat/BDLI7w9jCWm7Bwm2T06jwQ?fbclid=IwAR1ltY85Y7_4_CZhhwLOsLLppzis1MOVRRy897epT99JuZ9ZHZF8wpDRIfk",
-  "order": 5
+  "order": 5,
+  "strings": {
+    "name": "OSM Ireland on Telegram",
+    "description": "OpenStreetMap Ireland Telegram chat"
+  }
 }

@@ -2,8 +2,10 @@
   "id": "osm-india-matrix",
   "type": "matrix",
   "locationSet": {"include": ["in"]},
-  "name": "OpenStreetMap India Matrix",
-  "description": "Talk to other contributors",
-  "extendedDescription": "Unofficial chat room for OSM India, also bridged to osmindia telegram group  ",
-  "url": "https://matrix.to/#/#osm-in-general:matrix.org"
+  "url": "https://matrix.to/#/#osm-in-general:matrix.org",
+  "strings": {
+    "name": "OpenStreetMap India Matrix",
+    "description": "Talk to other contributors",
+    "extendedDescription": "Unofficial chat room for OSM India, also bridged to osmindia telegram group  "
+  }
 }

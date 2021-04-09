@@ -3,8 +3,15 @@
   "type": "twitter",
   "locationSet": {"include": ["at"]},
   "languageCodes": ["de"],
-  "name": "OpenStreetMap Austria Twitter",
-  "description": "OpenStreetMap Austria On Twitter: {url}",
   "url": "https://twitter.com/osm_at",
-  "contacts": [{"name": "AT Community", "email": "info@openstreetmap.at"}]
+  "strings": {
+    "name": "OpenStreetMap Austria Twitter",
+    "description": "OpenStreetMap Austria On Twitter: {url}"
+  },
+  "contacts": [
+    {
+      "name": "AT Community",
+      "email": "info@openstreetmap.at"
+    }
+  ]
 }

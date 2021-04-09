@@ -2,8 +2,10 @@
   "id": "sa-telegram",
   "type": "telegram",
   "locationSet": {"include": ["sa"]},
-  "name": "OSM Saudi Arabia on Telegram",
-  "description": "A Telegram group for the OpenStreetMap community in Saudi Arabia: {url}",
   "url": "https://t.me/OSMSaudi",
-  "order": 5
+  "order": 5,
+  "strings": {
+    "name": "OSM Saudi Arabia on Telegram",
+    "description": "A Telegram group for the OpenStreetMap community in Saudi Arabia: {url}"
+  }
 }

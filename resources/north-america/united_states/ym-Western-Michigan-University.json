@@ -1,9 +1,18 @@
 {
   "id": "ym-Western-Michigan-University",
   "type": "youthmappers",
-  "locationSet": {"include": [[-85.61042, 42.28342]]},
-  "name": "Geography Club",
-  "description": "YouthMappers chapter at Western Michigan University",
+  "locationSet": {
+    "include": [[-85.61042, 42.28342]]
+  },
   "url": "http://www.facebook.com/groups/WMUGeographyClub/",
-  "contacts": [{"name": "Organizer", "email": "wmu.geog.club@gmail.com"}]
+  "strings": {
+    "name": "Geography Club",
+    "description": "YouthMappers chapter at Western Michigan University"
+  },
+  "contacts": [
+    {
+      "name": "Organizer",
+      "email": "wmu.geog.club@gmail.com"
+    }
+  ]
 }

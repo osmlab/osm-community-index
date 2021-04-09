@@ -3,8 +3,15 @@
   "type": "telegram",
   "locationSet": {"include": ["cu"]},
   "languageCodes": ["es"],
-  "name": "OSM Cuba on Telegram",
-  "description": "OpenStreetMap Cuba Telegram chat",
   "url": "https://t.me/OSM_Cuba",
-  "contacts": [{"name": "Talk-cu Owner", "email": "talk-cu-owner@openstreetmap.org"}]
+  "strings": {
+    "name": "OSM Cuba on Telegram",
+    "description": "OpenStreetMap Cuba Telegram chat"
+  },
+  "contacts": [
+    {
+      "name": "Talk-cu Owner",
+      "email": "talk-cu-owner@openstreetmap.org"
+    }
+  ]
 }

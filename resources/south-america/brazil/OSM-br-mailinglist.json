@@ -3,9 +3,16 @@
   "type": "mailinglist",
   "locationSet": {"include": ["br"]},
   "languageCodes": ["pt"],
-  "name": "Talk-br Mailing List",
-  "description": "A mailing list to discuss OpenStreetMap in Brazil",
   "url": "https://lists.openstreetmap.org/listinfo/talk-br/",
-  "contacts": [{"name": "Arlindo Pereira", "email": "nighto@gmail.com"}],
-  "order": 5
+  "order": 5,
+  "strings": {
+    "name": "Talk-br Mailing List",
+    "description": "A mailing list to discuss OpenStreetMap in Brazil"
+  },
+  "contacts": [
+    {
+      "name": "Arlindo Pereira",
+      "email": "nighto@gmail.com"
+    }
+  ]
 }

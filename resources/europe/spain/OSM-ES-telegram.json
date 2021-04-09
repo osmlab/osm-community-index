@@ -3,8 +3,15 @@
   "type": "telegram",
   "locationSet": {"include": ["es"]},
   "languageCodes": ["es"],
-  "name": "@OSMes on Telegram",
-  "description": "OpenStreetMap Spain Telegram chat",
   "url": "https://t.me/OSMes",
-  "contacts": [{"name": "Jorge Sanz", "email": "sanchi2@gmail.com"}]
+  "strings": {
+    "name": "@OSMes on Telegram",
+    "description": "OpenStreetMap Spain Telegram chat"
+  },
+  "contacts": [
+    {
+      "name": "Jorge Sanz",
+      "email": "sanchi2@gmail.com"
+    }
+  ]
 }

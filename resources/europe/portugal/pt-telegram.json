@@ -3,8 +3,15 @@
   "type": "telegram",
   "locationSet": {"include": ["pt"]},
   "languageCodes": ["pt"],
-  "name": "OpenStreetMap Portugal on Telegram",
-  "description": "Telegram Group of the Portuguese OpenStreetMap community {url}",
   "url": "https://t.me/OSMPortugal",
-  "contacts": [{"name": "Nuno Caldeira", "email": "hello@iamnunocaldeira.com"}]
+  "strings": {
+    "name": "OpenStreetMap Portugal on Telegram",
+    "description": "Telegram Group of the Portuguese OpenStreetMap community {url}"
+  },
+  "contacts": [
+    {
+      "name": "Nuno Caldeira",
+      "email": "hello@iamnunocaldeira.com"
+    }
+  ]
 }

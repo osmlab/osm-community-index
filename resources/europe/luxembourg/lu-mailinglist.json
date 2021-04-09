@@ -3,9 +3,16 @@
   "type": "mailinglist",
   "locationSet": {"include": ["lu"]},
   "languageCodes": ["de", "en", "fr", "lb"],
-  "name": "Talk-lu Mailing List",
-  "description": "Official mailing list for the OSM community in Luxembourg!",
   "url": "https://lists.openstreetmap.org/listinfo/talk-lu",
-  "contacts": [{"name": "OSM Luxembourg", "email": "contact@openstreetmap.lu"}],
-  "order": 6
+  "order": 6,
+  "strings": {
+    "name": "Talk-lu Mailing List",
+    "description": "Official mailing list for the OSM community in Luxembourg!"
+  },
+  "contacts": [
+    {
+      "name": "OSM Luxembourg",
+      "email": "contact@openstreetmap.lu"
+    }
+  ]
 }

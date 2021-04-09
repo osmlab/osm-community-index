@@ -3,10 +3,17 @@
   "type": "facebook",
   "locationSet": {"include": ["ar"]},
   "languageCodes": ["es"],
-  "name": "OpenStreetMap Argentina Facebook",
-  "description": "Join the OpenStreetMap Argentina community on Facebook",
-  "extendedDescription": "News from the local community",
   "url": "https://www.facebook.com/OpenStreetMapArgentina/",
-  "contacts": [{"name": "OpenStreetMap Argentina", "email": "openstreetmap.org.ar@gmail.com"}],
-  "order": 3
+  "order": 3,
+  "strings": {
+    "name": "OpenStreetMap Argentina Facebook",
+    "description": "Join the OpenStreetMap Argentina community on Facebook",
+    "extendedDescription": "News from the local community"
+  },
+  "contacts": [
+    {
+      "name": "OpenStreetMap Argentina",
+      "email": "openstreetmap.org.ar@gmail.com"
+    }
+  ]
 }

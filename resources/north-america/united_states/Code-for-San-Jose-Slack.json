@@ -1,12 +1,21 @@
 {
   "id": "Code-for-San-Jose-Slack",
   "type": "slack",
-  "locationSet": {"include": ["south_sf_bay_area.geojson"]},
+  "locationSet": {
+    "include": ["south_sf_bay_area.geojson"]
+  },
   "languageCodes": ["en"],
-  "name": "Code for San Jose Slack",
-  "description": "All are welcome! Sign up at {signupUrl}, then join the #osm channel.",
   "url": "https://codeforsanjose.slack.com/",
   "signupUrl": "https://slackin-c4sj.herokuapp.com/",
-  "contacts": [{"name": "OSM Bay Area mailing list", "email": "talk-us-sfbay@openstreetmap.org"}],
-  "order": 4
+  "order": 4,
+  "strings": {
+    "name": "Code for San Jose Slack",
+    "description": "All are welcome! Sign up at {signupUrl}, then join the #osm channel."
+  },
+  "contacts": [
+    {
+      "name": "OSM Bay Area mailing list",
+      "email": "talk-us-sfbay@openstreetmap.org"
+    }
+  ]
 }

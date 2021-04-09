@@ -3,13 +3,24 @@
   "type": "mailinglist",
   "locationSet": {"include": ["au"]},
   "languageCodes": ["en"],
-  "name": "Talk-au Mailing List",
-  "description": "Place for Aussie mappers to chat",
   "url": "https://lists.openstreetmap.org/listinfo/talk-au",
+  "order": 4,
+  "strings": {
+    "name": "Talk-au Mailing List",
+    "description": "Place for Aussie mappers to chat"
+  },
   "contacts": [
-    {"name": "Ben Kelley", "email": "ben.kelley@gmail.com"},
-    {"name": "Steve Bennett", "email": "stevagewp@gmail.com"},
-    {"name": "Ian Sergeant", "email": "inas66+osm@gmail.com"}
-  ],
-  "order": 4
+    {
+      "name": "Ben Kelley",
+      "email": "ben.kelley@gmail.com"
+    },
+    {
+      "name": "Steve Bennett",
+      "email": "stevagewp@gmail.com"
+    },
+    {
+      "name": "Ian Sergeant",
+      "email": "inas66+osm@gmail.com"
+    }
+  ]
 }

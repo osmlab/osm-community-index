@@ -1,10 +1,19 @@
 {
   "id": "ym-University-of-Redlands",
   "type": "youthmappers",
-  "locationSet": {"include": [[-117.16339, 34.06295]]},
-  "name": "URSpatial Geo-Thinkers",
-  "description": "YouthMappers chapter at University of Redlands",
-  "extendedDescription": "To build upon the members' GIS skills and knowledge of the tools and methods through applied social engagement as well as to educate the campus community about the power of mapping and spatial analysis through community service events.",
+  "locationSet": {
+    "include": [[-117.16339, 34.06295]]
+  },
   "url": "mailto:nathan_strout@redlands.edu",
-  "contacts": [{"name": "Organizer", "email": "nathan_strout@redlands.edu"}]
+  "strings": {
+    "name": "URSpatial Geo-Thinkers",
+    "description": "YouthMappers chapter at University of Redlands",
+    "extendedDescription": "To build upon the members' GIS skills and knowledge of the tools and methods through applied social engagement as well as to educate the campus community about the power of mapping and spatial analysis through community service events."
+  },
+  "contacts": [
+    {
+      "name": "Organizer",
+      "email": "nathan_strout@redlands.edu"
+    }
+  ]
 }

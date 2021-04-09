@@ -3,9 +3,16 @@
   "type": "mailinglist",
   "locationSet": {"include": ["fi"]},
   "languageCodes": ["fi"],
-  "name": "Talk-fi Mailing List",
-  "description": "Talk-fi is the official mailing list for the Finnish OSM community",
   "url": "https://lists.openstreetmap.org/listinfo/talk-fi",
-  "contacts": [{"name": "Talk-fi administrator", "email": "talk-fi-owner@openstreetmap.org"}],
-  "order": -3
+  "order": -3,
+  "strings": {
+    "name": "Talk-fi Mailing List",
+    "description": "Talk-fi is the official mailing list for the Finnish OSM community"
+  },
+  "contacts": [
+    {
+      "name": "Talk-fi administrator",
+      "email": "talk-fi-owner@openstreetmap.org"
+    }
+  ]
 }

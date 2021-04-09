@@ -1,9 +1,18 @@
 {
   "id": "ym-University-of-Vermont",
   "type": "youthmappers",
-  "locationSet": {"include": [[-73.21289, 44.46493]]},
-  "name": "University of Vermont Humanitarian Mapping Club",
-  "description": "YouthMappers chapter at University of Vermont",
+  "locationSet": {
+    "include": [[-73.21289, 44.46493]]
+  },
   "url": "https://www.facebook.com/UVMHMC",
-  "contacts": [{"name": "Organizer", "email": "uvm.hmc@gmail.com"}]
+  "strings": {
+    "name": "University of Vermont Humanitarian Mapping Club",
+    "description": "YouthMappers chapter at University of Vermont"
+  },
+  "contacts": [
+    {
+      "name": "Organizer",
+      "email": "uvm.hmc@gmail.com"
+    }
+  ]
 }

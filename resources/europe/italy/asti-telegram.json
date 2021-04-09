@@ -3,12 +3,20 @@
   "type": "telegram",
   "locationSet": {"include": [[8.2071, 44.9]]},
   "languageCodes": ["it"],
-  "name": "Mappers OpenStreetMap Asti",
-  "description": "OpenStreetMap Asti Telegram chat",
   "url": "https://t.me/OSMAsti",
+  "order": 3,
+  "strings": {
+    "name": "Mappers OpenStreetMap Asti",
+    "description": "OpenStreetMap Asti Telegram chat"
+  },
   "contacts": [
-    {"name": "Andrea Musuruane", "email": "musuruan@gmail.com"},
-    {"name": "Francesco Ansanelli", "email": "francians@gmail.com"}
-  ],
-  "order": 3
+    {
+      "name": "Andrea Musuruane",
+      "email": "musuruan@gmail.com"
+    },
+    {
+      "name": "Francesco Ansanelli",
+      "email": "francians@gmail.com"
+    }
+  ]
 }

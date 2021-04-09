@@ -3,12 +3,20 @@
   "type": "mailinglist",
   "locationSet": {"include": ["mg"]},
   "languageCodes": ["fr", "mg"],
-  "name": "Talk-mg Mailing List",
-  "description": "Place for OpenStreetMap contributors, communities and users in Madagascar to share and discuss.",
   "url": "https://lists.openstreetmap.org/listinfo/talk-mg",
+  "order": -3,
+  "strings": {
+    "name": "Talk-mg Mailing List",
+    "description": "Place for OpenStreetMap contributors, communities and users in Madagascar to share and discuss."
+  },
   "contacts": [
-    {"name": "Brice Ramamonjy", "email": "rafaby21@gmail.com"},
-    {"name": "Dolly Andriatsiferana", "email": "privatemajory@gmail.com"}
-  ],
-  "order": -3
+    {
+      "name": "Brice Ramamonjy",
+      "email": "rafaby21@gmail.com"
+    },
+    {
+      "name": "Dolly Andriatsiferana",
+      "email": "privatemajory@gmail.com"
+    }
+  ]
 }

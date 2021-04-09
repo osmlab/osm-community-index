@@ -3,9 +3,16 @@
   "type": "discord",
   "locationSet": {"include": ["br"]},
   "languageCodes": ["pt"],
-  "name": "OpenStreetMap Brasil Discord",
-  "description": "Join the OpenStreetMap Brasil community on Discord",
   "url": "https://discord.gg/bQn4aCm",
-  "contacts": [{"name": "Eduardo Addad de Oliveira", "email": "duduaddad@gmail.com"}],
-  "order": 2
+  "order": 2,
+  "strings": {
+    "name": "OpenStreetMap Brasil Discord",
+    "description": "Join the OpenStreetMap Brasil community on Discord"
+  },
+  "contacts": [
+    {
+      "name": "Eduardo Addad de Oliveira",
+      "email": "duduaddad@gmail.com"
+    }
+  ]
 }

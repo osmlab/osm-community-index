@@ -1,12 +1,21 @@
 {
   "id": "GeoPhilly",
   "type": "meetup",
-  "locationSet": {"include": ["philly_metro.geojson"]},
+  "locationSet": {
+    "include": ["philly_metro.geojson"]
+  },
   "languageCodes": ["en"],
-  "name": "GeoPhilly",
-  "description": "Meetup for map enthusiasts in the Philadelphia area",
-  "extendedDescription": "GeoPhilly unites developers, geographers, data geeks, open source enthusiasts, civic hackers and map addicts in our shared love of maps and the stories they tell. If you use maps as part of your work or just want to learn more, this is the meetup for you!  Our events aim to be open, friendly, educational and social and range from happy hours to lightning talks or even workshops. Come create a diverse, inspiring geospatial community in the Philadelphia with us!",
   "url": "https://www.meetup.com/GeoPhilly/",
-  "contacts": [{"name": "Dan Ford", "email": "dford@azavea.com"}],
-  "order": 5
+  "order": 5,
+  "strings": {
+    "name": "GeoPhilly",
+    "description": "Meetup for map enthusiasts in the Philadelphia area",
+    "extendedDescription": "GeoPhilly unites developers, geographers, data geeks, open source enthusiasts, civic hackers and map addicts in our shared love of maps and the stories they tell. If you use maps as part of your work or just want to learn more, this is the meetup for you!  Our events aim to be open, friendly, educational and social and range from happy hours to lightning talks or even workshops. Come create a diverse, inspiring geospatial community in the Philadelphia with us!"
+  },
+  "contacts": [
+    {
+      "name": "Dan Ford",
+      "email": "dford@azavea.com"
+    }
+  ]
 }

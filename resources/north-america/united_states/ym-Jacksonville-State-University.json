@@ -1,10 +1,19 @@
 {
   "id": "ym-Jacksonville-State-University",
   "type": "youthmappers",
-  "locationSet": {"include": [[-85.76795, 33.82283]]},
-  "name": "JSU Disaster Mapping Team",
-  "description": "YouthMappers chapter at Jacksonville State University",
-  "extendedDescription": "The JSU Disaster Mapping Team is a program at Jacksonville State University dedicated to assisting disaster response in times of emergencies. This includes tornadoes, severe thunderstorms, floods, etc. The team is intended to be a valuable asset to surrounding counties and a conduit for the JSU Geoscience Department students to apply what they have learned in an academic setting to support emergency services. Our goal is to streamline disaster response and recovery operations while utilizing student skill sets",
+  "locationSet": {
+    "include": [[-85.76795, 33.82283]]
+  },
   "url": "mailto:ltatum@stu.jsu.edu",
-  "contacts": [{"name": "Organizer", "email": "ltatum@stu.jsu.edu"}]
+  "strings": {
+    "name": "JSU Disaster Mapping Team",
+    "description": "YouthMappers chapter at Jacksonville State University",
+    "extendedDescription": "The JSU Disaster Mapping Team is a program at Jacksonville State University dedicated to assisting disaster response in times of emergencies. This includes tornadoes, severe thunderstorms, floods, etc. The team is intended to be a valuable asset to surrounding counties and a conduit for the JSU Geoscience Department students to apply what they have learned in an academic setting to support emergency services. Our goal is to streamline disaster response and recovery operations while utilizing student skill sets"
+  },
+  "contacts": [
+    {
+      "name": "Organizer",
+      "email": "ltatum@stu.jsu.edu"
+    }
+  ]
 }

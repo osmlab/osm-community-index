@@ -3,8 +3,15 @@
   "type": "twitter",
   "locationSet": {"include": ["sk"]},
   "languageCodes": ["sk"],
-  "name": "OpenStreetMap Freemap Slovensko on Twitter",
-  "description": "OpenStreetMap Freemap Slovensko on Twitter: {url}",
   "url": "https://twitter.com/FreemapSlovakia",
-  "contacts": [{"name": "OpenStreetMap Freemap Slovensko", "email": "podpora@freemap.sk"}]
+  "strings": {
+    "name": "OpenStreetMap Freemap Slovensko on Twitter",
+    "description": "OpenStreetMap Freemap Slovensko on Twitter: {url}"
+  },
+  "contacts": [
+    {
+      "name": "OpenStreetMap Freemap Slovensko",
+      "email": "podpora@freemap.sk"
+    }
+  ]
 }

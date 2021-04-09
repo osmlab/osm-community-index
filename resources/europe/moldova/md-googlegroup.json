@@ -3,9 +3,16 @@
   "type": "forum",
   "locationSet": {"include": ["md"]},
   "languageCodes": ["mo", "ro", "ru"],
-  "name": "OSM Moldova Google Group",
-  "description": "OpenStreetMap Moldova Google Group",
   "url": "https://groups.google.com/forum/#!forum/openstreetmap-moldova",
-  "contacts": [{"name": "Ion Moldovan", "email": "6yhxhs7t7huf@inbox.ru"}],
-  "order": 1
+  "order": 1,
+  "strings": {
+    "name": "OSM Moldova Google Group",
+    "description": "OpenStreetMap Moldova Google Group"
+  },
+  "contacts": [
+    {
+      "name": "Ion Moldovan",
+      "email": "6yhxhs7t7huf@inbox.ru"
+    }
+  ]
 }

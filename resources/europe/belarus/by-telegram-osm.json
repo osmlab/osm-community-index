@@ -3,9 +3,16 @@
   "type": "telegram",
   "locationSet": {"include": ["by"]},
   "languageCodes": ["be", "en", "ru"],
-  "name": "OpenStreetMap Belarus",
-  "description": "OpenStreetMap Belarus telegram chat",
   "url": "https://t.me/byosm",
-  "contacts": [{"name": "Darafei Praliaskouski", "email": "me@komzpa.net"}],
-  "order": 2
+  "order": 2,
+  "strings": {
+    "name": "OpenStreetMap Belarus",
+    "description": "OpenStreetMap Belarus telegram chat"
+  },
+  "contacts": [
+    {
+      "name": "Darafei Praliaskouski",
+      "email": "me@komzpa.net"
+    }
+  ]
 }

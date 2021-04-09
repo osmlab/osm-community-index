@@ -1,9 +1,18 @@
 {
   "id": "ym-Universidad-Autonoma-de-Madrid",
   "type": "youthmappers",
-  "locationSet": {"include": [[-3.69437, 40.54647]]},
-  "name": "YouthMappers at UAM",
-  "description": "YouthMappers chapter at Universidad Autonoma de Madrid",
+  "locationSet": {
+    "include": [[-3.69437, 40.54647]]
+  },
   "url": "mailto:youthmappersatuam@gmail.com",
-  "contacts": [{"name": "Organizer", "email": "youthmappersatuam@gmail.com"}]
+  "strings": {
+    "name": "YouthMappers at UAM",
+    "description": "YouthMappers chapter at Universidad Autonoma de Madrid"
+  },
+  "contacts": [
+    {
+      "name": "Organizer",
+      "email": "youthmappersatuam@gmail.com"
+    }
+  ]
 }

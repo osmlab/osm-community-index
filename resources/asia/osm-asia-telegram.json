@@ -2,8 +2,15 @@
   "id": "osm-asia-telegram",
   "type": "telegram",
   "locationSet": {"include": ["142"]},
-  "name": "OpenStreetMap Asia Telegram",
-  "description": "Join our family: {url}",
   "url": "https://t.me/OpenStreetMapAsia",
-  "contacts": [{"name": "Erwin Olario", "email": "govvin@gmail.com"}]
+  "strings": {
+    "name": "OpenStreetMap Asia Telegram",
+    "description": "Join our family: {url}"
+  },
+  "contacts": [
+    {
+      "name": "Erwin Olario",
+      "email": "govvin@gmail.com"
+    }
+  ]
 }

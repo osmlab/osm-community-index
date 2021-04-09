@@ -3,8 +3,15 @@
   "type": "osm",
   "locationSet": {"include": ["jp"]},
   "languageCodes": ["ja"],
-  "name": "OpenStreetMap Japan",
-  "description": "Mappers and OpenStreetMap users in Japan",
   "url": "https://openstreetmap.jp/",
-  "contacts": [{"name": "Satoshi IIDA", "email": "nyampire@gmail.com"}]
+  "strings": {
+    "name": "OpenStreetMap Japan",
+    "description": "Mappers and OpenStreetMap users in Japan"
+  },
+  "contacts": [
+    {
+      "name": "Satoshi IIDA",
+      "email": "nyampire@gmail.com"
+    }
+  ]
 }

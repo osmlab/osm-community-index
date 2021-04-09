@@ -1,10 +1,19 @@
 {
   "id": "ym-General-Lansana-Conte-University",
   "type": "youthmappers",
-  "locationSet": {"include": [[-13.62305, 9.70902]]},
-  "name": "YouthMappers General Lansana Conte University",
-  "description": "YouthMappers chapter at General Lansana Conte University",
-  "extendedDescription": "The YouthMappers of the University General Lansana Conté is a non profit community willing to contribute to Map Guinea and others part of the world. We are promoting the use of GIS and Open data to build decision support tools. We also work to build capacities among the students and local communities.",
+  "locationSet": {
+    "include": [[-13.62305, 9.70902]]
+  },
   "url": "http://www.uglc.org/",
-  "contacts": [{"name": "Organizer", "email": "condefa3@gmail.com"}]
+  "strings": {
+    "name": "YouthMappers General Lansana Conte University",
+    "description": "YouthMappers chapter at General Lansana Conte University",
+    "extendedDescription": "The YouthMappers of the University General Lansana Conté is a non profit community willing to contribute to Map Guinea and others part of the world. We are promoting the use of GIS and Open data to build decision support tools. We also work to build capacities among the students and local communities."
+  },
+  "contacts": [
+    {
+      "name": "Organizer",
+      "email": "condefa3@gmail.com"
+    }
+  ]
 }

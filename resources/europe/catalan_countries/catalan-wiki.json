@@ -1,10 +1,14 @@
 {
   "id": "cat-wiki",
   "type": "wiki",
-  "locationSet": {"include": ["catalan_countries.geojson"]},
+  "locationSet": {
+    "include": ["catalan_countries.geojson"]
+  },
   "languageCodes": ["ca"],
-  "name": "OpenStreetMap Wikiproject Catalan",
-  "description": "Coordination space for the OpenStreetMap community around Catalan Countries: {url}",
   "url": "https://wiki.openstreetmap.org/wiki/WikiProject_Catalan",
-  "order": 10
+  "order": 10,
+  "strings": {
+    "name": "OpenStreetMap Wikiproject Catalan",
+    "description": "Coordination space for the OpenStreetMap community around Catalan Countries: {url}"
+  }
 }

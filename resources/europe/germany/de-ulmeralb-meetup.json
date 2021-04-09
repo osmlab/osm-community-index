@@ -3,8 +3,10 @@
   "type": "meetup",
   "locationSet": {"include": [[9.9097, 48.5462]]},
   "languageCodes": ["de"],
-  "name": "OpenStreetMap Ulmer Alb Meetup",
-  "description": "Mappers and OpenStreetMap users in the Ulmer Alb area",
   "url": "https://wiki.openstreetmap.org/wiki/Ulmer_Alb",
-  "order": 5
+  "order": 5,
+  "strings": {
+    "name": "OpenStreetMap Ulmer Alb Meetup",
+    "description": "Mappers and OpenStreetMap users in the Ulmer Alb area"
+  }
 }

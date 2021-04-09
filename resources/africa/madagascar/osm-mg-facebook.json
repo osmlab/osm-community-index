@@ -3,12 +3,20 @@
   "type": "facebook",
   "locationSet": {"include": ["mg"]},
   "languageCodes": ["fr", "mg"],
-  "name": "OpenStreetMap Madagascar Facebook Group",
-  "description": "Malagasy Facebook group for people interested in OpenStreetMap.",
   "url": "https://www.facebook.com/groups/1601381123461284/",
+  "order": 3,
+  "strings": {
+    "name": "OpenStreetMap Madagascar Facebook Group",
+    "description": "Malagasy Facebook group for people interested in OpenStreetMap."
+  },
   "contacts": [
-    {"name": "Brice Ramamonjy", "email": "rafaby21@gmail.com"},
-    {"name": "Dolly Andriatsiferana", "email": "privatemajory@gmail.com"}
-  ],
-  "order": 3
+    {
+      "name": "Brice Ramamonjy",
+      "email": "rafaby21@gmail.com"
+    },
+    {
+      "name": "Dolly Andriatsiferana",
+      "email": "privatemajory@gmail.com"
+    }
+  ]
 }

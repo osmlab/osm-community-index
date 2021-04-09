@@ -3,9 +3,16 @@
   "type": "osm-lc",
   "locationSet": {"include": ["fr"]},
   "languageCodes": ["fr"],
-  "name": "OpenStreetMap France Local Chapter",
-  "description": "We help grow and improve OpenStreetMap in France.",
   "url": "https://www.openstreetmap.fr/",
-  "contacts": [{"name": "OpenStreetMap France", "email": "contact@openstreetmap.fr"}],
-  "order": 1
+  "order": 1,
+  "strings": {
+    "name": "OpenStreetMap France Local Chapter",
+    "description": "We help grow and improve OpenStreetMap in France."
+  },
+  "contacts": [
+    {
+      "name": "OpenStreetMap France",
+      "email": "contact@openstreetmap.fr"
+    }
+  ]
 }

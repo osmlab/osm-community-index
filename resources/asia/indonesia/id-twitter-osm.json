@@ -3,8 +3,10 @@
   "type": "twitter",
   "locationSet": {"include": ["id"]},
   "languageCodes": ["en"],
-  "name": "OpenStreetMap.id",
-  "description": "Follow us on Twitter at OSM_ID",
   "url": "https://twitter.com/OSM_ID",
-  "order": 3
+  "order": 3,
+  "strings": {
+    "name": "OpenStreetMap.id",
+    "description": "Follow us on Twitter at OSM_ID"
+  }
 }

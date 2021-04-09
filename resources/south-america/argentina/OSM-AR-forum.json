@@ -3,10 +3,17 @@
   "type": "forum",
   "locationSet": {"include": ["ar"]},
   "languageCodes": ["es"],
-  "name": "OpenStreetMap Argentina web forum",
-  "description": "Join the OpenStreetMap Argentina web forum",
-  "extendedDescription": "Ideal for long or important discussions. Slow response time.",
   "url": "https://forum.openstreetmap.org/viewforum.php?id=49",
-  "contacts": [{"name": "OpenStreetMap Argentina", "email": "openstreetmap.org.ar@gmail.com"}],
-  "order": -2
+  "order": -2,
+  "strings": {
+    "name": "OpenStreetMap Argentina web forum",
+    "description": "Join the OpenStreetMap Argentina web forum",
+    "extendedDescription": "Ideal for long or important discussions. Slow response time."
+  },
+  "contacts": [
+    {
+      "name": "OpenStreetMap Argentina",
+      "email": "openstreetmap.org.ar@gmail.com"
+    }
+  ]
 }

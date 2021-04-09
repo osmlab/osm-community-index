@@ -1,12 +1,21 @@
 {
   "id": "OSM-Utah",
   "type": "meetup",
-  "locationSet": {"include": ["salt_lake_city.geojson"]},
+  "locationSet": {
+    "include": ["salt_lake_city.geojson"]
+  },
   "languageCodes": ["en"],
-  "name": "OpenStreetMap Utah",
-  "description": "Mappers and OpenStreetMap users in the Salt Lake City area",
-  "extendedDescription": "Activities may include things like Learn To Map workshops, mapping parties and outdoor data collection. The events will take place in the SLC area, at least initially.  We are looking for seasoned mappers as well as people new to OSM. Join and let's do some mapping!",
   "url": "https://www.meetup.com/OpenStreetMap-Utah/",
-  "contacts": [{"name": "Martijn van Exel", "email": "m@rtijn.org"}],
-  "order": 5
+  "order": 5,
+  "strings": {
+    "name": "OpenStreetMap Utah",
+    "description": "Mappers and OpenStreetMap users in the Salt Lake City area",
+    "extendedDescription": "Activities may include things like Learn To Map workshops, mapping parties and outdoor data collection. The events will take place in the SLC area, at least initially.  We are looking for seasoned mappers as well as people new to OSM. Join and let's do some mapping!"
+  },
+  "contacts": [
+    {
+      "name": "Martijn van Exel",
+      "email": "m@rtijn.org"
+    }
+  ]
 }

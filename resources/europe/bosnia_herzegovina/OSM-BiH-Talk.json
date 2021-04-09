@@ -3,9 +3,16 @@
   "type": "mailinglist",
   "locationSet": {"include": ["bih"]},
   "languageCodes": ["en"],
-  "name": "OpenStreetMap Bosnia and Herzegovina Mailinglist",
-  "description": "Talk-ba is the official mailing list to discuss matters about Bosnia and Herzegovina",
   "url": "https://lists.openstreetmap.org/listinfo/talk-ba",
-  "contacts": [{"name": "Talk-ba-owner", "email": "talk-ba-owner@openstreetmap.org"}],
-  "order": 1
+  "order": 1,
+  "strings": {
+    "name": "OpenStreetMap Bosnia and Herzegovina Mailinglist",
+    "description": "Talk-ba is the official mailing list to discuss matters about Bosnia and Herzegovina"
+  },
+  "contacts": [
+    {
+      "name": "Talk-ba-owner",
+      "email": "talk-ba-owner@openstreetmap.org"
+    }
+  ]
 }

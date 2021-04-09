@@ -3,9 +3,16 @@
   "type": "github",
   "locationSet": {"include": ["lu"]},
   "languageCodes": ["de", "en", "fr", "lb"],
-  "name": "OSM Luxembourg on GitHub",
-  "description": "GitHub Organization for the OSM community in Luxembourg!",
   "url": "https://github.com/osmlu",
-  "contacts": [{"name": "OSM Luxembourg", "email": "contact@openstreetmap.lu"}],
-  "order": 2
+  "order": 2,
+  "strings": {
+    "name": "OSM Luxembourg on GitHub",
+    "description": "GitHub Organization for the OSM community in Luxembourg!"
+  },
+  "contacts": [
+    {
+      "name": "OSM Luxembourg",
+      "email": "contact@openstreetmap.lu"
+    }
+  ]
 }

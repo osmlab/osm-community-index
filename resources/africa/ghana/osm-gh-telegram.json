@@ -3,8 +3,15 @@
   "type": "telegram",
   "locationSet": {"include": ["gh"]},
   "languageCodes": ["en"],
-  "name": "OpenStreetMap Ghana Telegram",
-  "description": "OpenStreetMap Ghana community on Telegram",
   "url": "https://t.me/osmghana",
-  "contacts": [{"name": "Enock Seth Nyamador", "email": "enock@osmghana.org"}]
+  "strings": {
+    "name": "OpenStreetMap Ghana Telegram",
+    "description": "OpenStreetMap Ghana community on Telegram"
+  },
+  "contacts": [
+    {
+      "name": "Enock Seth Nyamador",
+      "email": "enock@osmghana.org"
+    }
+  ]
 }

@@ -3,10 +3,17 @@
   "type": "irc",
   "locationSet": {"include": ["be"]},
   "languageCodes": ["de", "en", "fr", "nl"],
-  "name": "OpenStreetMap Belgium IRC",
-  "description": "Join #osmbe on irc.oftc.net (port 6667)",
-  "extendedDescription": "Join #osmbe on irc.oftc.net (port 6667), it is bridged with the Matrix chat channel",
   "url": "https://webchat.oftc.net/?channels=osmbe",
-  "contacts": [{"name": "BE community", "email": "community@osm.be"}],
-  "order": 2
+  "order": 2,
+  "strings": {
+    "name": "OpenStreetMap Belgium IRC",
+    "description": "Join #osmbe on irc.oftc.net (port 6667)",
+    "extendedDescription": "Join #osmbe on irc.oftc.net (port 6667), it is bridged with the Matrix chat channel"
+  },
+  "contacts": [
+    {
+      "name": "BE community",
+      "email": "community@osm.be"
+    }
+  ]
 }

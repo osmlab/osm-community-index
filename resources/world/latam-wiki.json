@@ -3,9 +3,16 @@
   "type": "wiki",
   "locationSet": {"include": ["419"]},
   "languageCodes": ["en", "es", "pt"],
-  "name": "OpenStreetMap Wikiproject Latin America",
-  "description": "Everything you need to know about mapping in Latin America",
   "url": "https://wiki.openstreetmap.org/wiki/ES:OSM_Latam",
-  "contacts": [{"name": "OSM LATAM Community", "email": "info@osmlatam.org"}],
-  "order": 2
+  "order": 2,
+  "strings": {
+    "name": "OpenStreetMap Wikiproject Latin America",
+    "description": "Everything you need to know about mapping in Latin America"
+  },
+  "contacts": [
+    {
+      "name": "OSM LATAM Community",
+      "email": "info@osmlatam.org"
+    }
+  ]
 }

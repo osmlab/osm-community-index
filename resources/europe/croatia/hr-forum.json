@@ -3,9 +3,16 @@
   "type": "forum",
   "locationSet": {"include": ["hr"]},
   "languageCodes": ["hr"],
-  "name": "OSM Croatia Forum",
-  "description": "OpenStreetMap Croatia Forum",
   "url": "https://forum.openstreetmap.org/viewforum.php?id=51",
-  "contacts": [{"name": "OpenStreetMap Croatia", "email": "info@osm-hr.org"}],
-  "order": -2
+  "order": -2,
+  "strings": {
+    "name": "OSM Croatia Forum",
+    "description": "OpenStreetMap Croatia Forum"
+  },
+  "contacts": [
+    {
+      "name": "OpenStreetMap Croatia",
+      "email": "info@osm-hr.org"
+    }
+  ]
 }

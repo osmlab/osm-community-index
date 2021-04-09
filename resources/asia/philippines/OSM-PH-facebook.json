@@ -3,9 +3,16 @@
   "type": "facebook",
   "locationSet": {"include": ["ph"]},
   "languageCodes": ["en", "tl"],
-  "name": "OSM Philippines Facebook Page",
-  "description": "Facebook page used for sharing news and announcements to OSM mappers and supporters in the Philippines.",
   "url": "https://www.facebook.com/OSMPH/",
-  "contacts": [{"name": "OSM PH core team", "email": "osm.pilipinas@gmail.com"}],
-  "order": 1
+  "order": 1,
+  "strings": {
+    "name": "OSM Philippines Facebook Page",
+    "description": "Facebook page used for sharing news and announcements to OSM mappers and supporters in the Philippines."
+  },
+  "contacts": [
+    {
+      "name": "OSM PH core team",
+      "email": "osm.pilipinas@gmail.com"
+    }
+  ]
 }

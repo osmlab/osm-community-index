@@ -3,9 +3,13 @@
   "type": "aparat",
   "locationSet": {"include": ["ir"]},
   "languageCodes": ["fa"],
-  "name": "OpenStreetMap Iran Aparat",
-  "description": "Subscribe to our channel at {url}",
-  "extendedDescription": "A good resource of videos about anything related to OpenStreetMap. Mainly in Persian.",
   "url": "https://www.aparat.com/osm_iran",
-  "contacts": [{"name": "Iman", "email": "iriman@chmail.ir"}]
+  "strings": {
+    "name": "OpenStreetMap Iran Aparat",
+    "description": "Subscribe to our channel at {url}",
+    "extendedDescription": "A good resource of videos about anything related to OpenStreetMap. Mainly in Persian."
+  },
+  "contacts": [
+    {"name": "Iman", "email": "iriman@chmail.ir"}
+  ]
 }

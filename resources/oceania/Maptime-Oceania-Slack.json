@@ -3,14 +3,25 @@
   "type": "slack",
   "locationSet": {"include": ["009"]},
   "languageCodes": ["en"],
-  "name": "Maptime Oceania Slack",
-  "description": "Sign up at {signupUrl}",
   "url": "https://maptimeoceania.slack.com",
   "signupUrl": "https://bit.ly/maptimeau",
+  "order": 3,
+  "strings": {
+    "name": "Maptime Oceania Slack",
+    "description": "Sign up at {signupUrl}"
+  },
   "contacts": [
-    {"name": "David Dean", "email": "ddean@ieee.org"},
-    {"name": "Philip Mallis", "email": "philip.mallis@unimelb.edu.au"},
-    {"name": "Edoardo Neerhut", "email": "ed@mapillary.com"}
-  ],
-  "order": 3
+    {
+      "name": "David Dean",
+      "email": "ddean@ieee.org"
+    },
+    {
+      "name": "Philip Mallis",
+      "email": "philip.mallis@unimelb.edu.au"
+    },
+    {
+      "name": "Edoardo Neerhut",
+      "email": "ed@mapillary.com"
+    }
+  ]
 }

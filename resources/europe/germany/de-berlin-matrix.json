@@ -1,10 +1,19 @@
 {
   "id": "de-berlin-matrix",
   "type": "matrix",
-  "locationSet": {"include": ["de-berlin-brandenburg.geojson"]},
+  "locationSet": {
+    "include": ["de-berlin-brandenburg.geojson"]
+  },
   "languageCodes": ["de"],
-  "name": "OpenStreetMap Berlin in Matrix",
-  "description": "OpenStreetMap Berlin Matrix chat",
   "url": "https://matrix.to/#/#osmberlin:matrix.org",
-  "contacts": [{"name": "Christopher Lorenz", "email": "osm@lorenz.lu"}]
+  "strings": {
+    "name": "OpenStreetMap Berlin in Matrix",
+    "description": "OpenStreetMap Berlin Matrix chat"
+  },
+  "contacts": [
+    {
+      "name": "Christopher Lorenz",
+      "email": "osm@lorenz.lu"
+    }
+  ]
 }

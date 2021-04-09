@@ -3,9 +3,16 @@
   "type": "forum",
   "locationSet": {"include": ["no"]},
   "languageCodes": ["no"],
-  "name": "OpenStreetMap Norway Web Forum",
-  "description": "OpenStreetMap Norway web forum",
   "url": "https://forum.openstreetmap.org/viewforum.php?id=68",
-  "contacts": [{"name": "OpenStreetMap Norway", "email": "kart@nuug.no"}],
-  "order": -2
+  "order": -2,
+  "strings": {
+    "name": "OpenStreetMap Norway Web Forum",
+    "description": "OpenStreetMap Norway web forum"
+  },
+  "contacts": [
+    {
+      "name": "OpenStreetMap Norway",
+      "email": "kart@nuug.no"
+    }
+  ]
 }

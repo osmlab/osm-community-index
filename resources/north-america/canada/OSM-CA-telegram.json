@@ -3,7 +3,9 @@
   "type": "telegram",
   "locationSet": {"include": ["ca"]},
   "languageCodes": ["en", "fr"],
-  "name": "@osmca on Telegram",
-  "description": "OpenStreetMap Canada Telegram chat",
-  "url": "https://t.me/osmca"
+  "url": "https://t.me/osmca",
+  "strings": {
+    "name": "@osmca on Telegram",
+    "description": "OpenStreetMap Canada Telegram chat"
+  }
 }

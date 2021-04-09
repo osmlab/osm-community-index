@@ -3,9 +3,16 @@
   "type": "facebook",
   "locationSet": {"include": ["jp"]},
   "languageCodes": ["ja"],
-  "name": "OpenStreetMap Japan Community",
-  "description": "Mappers and OpenStreetMap users in Japan",
   "url": "https://www.facebook.com/groups/osmjapan/",
-  "contacts": [{"name": "Satoshi IIDA", "email": "nyampire@gmail.com"}],
-  "order": 3
+  "order": 3,
+  "strings": {
+    "name": "OpenStreetMap Japan Community",
+    "description": "Mappers and OpenStreetMap users in Japan"
+  },
+  "contacts": [
+    {
+      "name": "Satoshi IIDA",
+      "email": "nyampire@gmail.com"
+    }
+  ]
 }

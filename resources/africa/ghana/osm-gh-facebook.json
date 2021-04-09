@@ -3,10 +3,17 @@
   "type": "facebook",
   "locationSet": {"include": ["gh"]},
   "languageCodes": ["en"],
-  "name": "OpenStreetMap Ghana on Facebook",
-  "description": "Facebook group for people interested in OpenStreetMap.",
-  "extendedDescription": "Mappers in Ghana community, promoting OpenStreetMap and Humanitarian OpenStreetMap Team (HOT) projects in Ghana. Join us.",
   "url": "https://www.facebook.com/OSMGhana/",
-  "contacts": [{"name": "Enock Seth Nyamador", "email": "enock@osmghana.org"}],
-  "order": 3
+  "order": 3,
+  "strings": {
+    "name": "OpenStreetMap Ghana on Facebook",
+    "description": "Facebook group for people interested in OpenStreetMap.",
+    "extendedDescription": "Mappers in Ghana community, promoting OpenStreetMap and Humanitarian OpenStreetMap Team (HOT) projects in Ghana. Join us."
+  },
+  "contacts": [
+    {
+      "name": "Enock Seth Nyamador",
+      "email": "enock@osmghana.org"
+    }
+  ]
 }

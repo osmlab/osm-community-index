@@ -3,13 +3,21 @@
   "type": "osm-lc",
   "locationSet": {"include": ["us"]},
   "languageCodes": ["en"],
-  "name": "OpenStreetMap US",
-  "description": "We help grow and improve OpenStreetMap in the United States.",
-  "extendedDescription": "We support OpenStreetMap by holding annual conferences, providing community resources, building partnerships, and by spreading the word. Join OpenStreetMap US here: {signupUrl}",
   "url": "https://www.openstreetmap.us/",
   "signupUrl": "https://www.openstreetmap.us/join",
+  "strings": {
+    "name": "OpenStreetMap US",
+    "description": "We help grow and improve OpenStreetMap in the United States.",
+    "extendedDescription": "We support OpenStreetMap by holding annual conferences, providing community resources, building partnerships, and by spreading the word. Join OpenStreetMap US here: {signupUrl}"
+  },
   "contacts": [
-    {"name": "Ian Dees", "email": "ian@openstreetmap.us"},
-    {"name": "Bryan Housel", "email": "bryan@openstreetmap.us"}
+    {
+      "name": "Ian Dees",
+      "email": "ian@openstreetmap.us"
+    },
+    {
+      "name": "Bryan Housel",
+      "email": "bryan@openstreetmap.us"
+    }
   ]
 }

@@ -3,8 +3,10 @@
   "type": "facebook",
   "locationSet": {"include": ["blr"]},
   "languageCodes": ["en"],
-  "name": "OpenStreetMap Belarus",
-  "description": "Improve OpenStreetMap in Belarus",
   "url": "https://www.facebook.com/groups/osm.by",
-  "order": 4
+  "order": 4,
+  "strings": {
+    "name": "OpenStreetMap Belarus",
+    "description": "Improve OpenStreetMap in Belarus"
+  }
 }

@@ -3,9 +3,16 @@
   "type": "forum",
   "locationSet": {"include": ["th"]},
   "languageCodes": ["en", "th"],
-  "name": "OpenStreetMap TH forum",
-  "description": "OpenStreetMap Thailand web forum",
   "url": "https://forum.openstreetmap.org/viewforum.php?id=46",
-  "contacts": [{"name": "Stephan Knauss", "email": "osm@stephans-server.de"}],
-  "order": -2
+  "order": -2,
+  "strings": {
+    "name": "OpenStreetMap TH forum",
+    "description": "OpenStreetMap Thailand web forum"
+  },
+  "contacts": [
+    {
+      "name": "Stephan Knauss",
+      "email": "osm@stephans-server.de"
+    }
+  ]
 }

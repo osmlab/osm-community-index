@@ -3,12 +3,20 @@
   "type": "telegram",
   "locationSet": {"include": ["cuneo.geojson"]},
   "languageCodes": ["it"],
-  "name": "OpenStreetMap Cuneo Mappers",
-  "description": "OpenStreetMap Cuneo Telegram chat",
   "url": "https://t.me/OSMCuneo",
+  "order": 3,
+  "strings": {
+    "name": "OpenStreetMap Cuneo Mappers",
+    "description": "OpenStreetMap Cuneo Telegram chat"
+  },
   "contacts": [
-    {"name": "Francesco Ansanelli", "email": "francians@gmail.com"},
-    {"name": "Marco Brancolini", "email": "mbranco2@gmail.com"}
-  ],
-  "order": 3
+    {
+      "name": "Francesco Ansanelli",
+      "email": "francians@gmail.com"
+    },
+    {
+      "name": "Marco Brancolini",
+      "email": "mbranco2@gmail.com"
+    }
+  ]
 }

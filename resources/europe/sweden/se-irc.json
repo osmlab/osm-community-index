@@ -3,8 +3,10 @@
   "type": "irc",
   "locationSet": {"include": ["se"]},
   "languageCodes": ["sv"],
-  "name": "OpenStreetMap Sweden IRC",
-  "description": "Join #osm.se on irc.oftc.net (port 6667)",
   "url": "https://webchat.oftc.net/?channels=osm.se",
-  "order": -4
+  "order": -4,
+  "strings": {
+    "name": "OpenStreetMap Sweden IRC",
+    "description": "Join #osm.se on irc.oftc.net (port 6667)"
+  }
 }

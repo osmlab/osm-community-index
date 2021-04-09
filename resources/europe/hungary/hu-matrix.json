@@ -3,9 +3,16 @@
   "type": "matrix",
   "locationSet": {"include": ["hu"]},
   "languageCodes": ["en", "hu"],
-  "name": "OpenStreetMap HU matrix room",
-  "description": "OpenStreetMap Hungary matrix chat",
-  "extendedDescription": "OpenStreetMap chat on map topics. One of the OSM community support forums.",
   "url": "https://matrix.to/#/#osm:grin.hu",
-  "contacts": [{"name": "Peter 'grin' Gervai", "email": "grin@grin.hu"}]
+  "strings": {
+    "name": "OpenStreetMap HU matrix room",
+    "description": "OpenStreetMap Hungary matrix chat",
+    "extendedDescription": "OpenStreetMap chat on map topics. One of the OSM community support forums."
+  },
+  "contacts": [
+    {
+      "name": "Peter 'grin' Gervai",
+      "email": "grin@grin.hu"
+    }
+  ]
 }

@@ -3,8 +3,10 @@
   "type": "facebook",
   "locationSet": {"include": ["gb-nir", "ie"]},
   "languageCodes": ["en"],
-  "name": "OpenStreetMap Ireland Facebook group",
-  "description": "OpenStreetMap Ireland Facebook page",
   "url": "https://www.facebook.com/groups/OpenStreetMapIreland",
-  "order": 3
+  "order": 3,
+  "strings": {
+    "name": "OpenStreetMap Ireland Facebook group",
+    "description": "OpenStreetMap Ireland Facebook page"
+  }
 }

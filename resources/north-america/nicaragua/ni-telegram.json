@@ -3,8 +3,15 @@
   "type": "telegram",
   "locationSet": {"include": ["ni"]},
   "languageCodes": ["es"],
-  "name": "OSM Nicaragua on Telegram",
-  "description": "OpenStreetMap Nicaragua Telegram chat",
   "url": "https://t.me/mapanica",
-  "contacts": [{"name": "NI Community", "email": "talk-ni-owner@openstreetmap.org"}]
+  "strings": {
+    "name": "OSM Nicaragua on Telegram",
+    "description": "OpenStreetMap Nicaragua Telegram chat"
+  },
+  "contacts": [
+    {
+      "name": "NI Community",
+      "email": "talk-ni-owner@openstreetmap.org"
+    }
+  ]
 }

@@ -2,9 +2,16 @@
   "id": "OSM-Asia-mailinglist",
   "type": "mailinglist",
   "locationSet": {"include": ["142"]},
-  "name": "OpenStreetMap Asia Mailinglist",
-  "description": "Talk-asia is the official Mailinglist for Asian Community",
   "url": "https://lists.openstreetmap.org/listinfo/talk-asia",
-  "contacts": [{"name": "Erwin Olario", "email": "govvin@gmail.com"}],
-  "order": -3
+  "order": -3,
+  "strings": {
+    "name": "OpenStreetMap Asia Mailinglist",
+    "description": "Talk-asia is the official Mailinglist for Asian Community"
+  },
+  "contacts": [
+    {
+      "name": "Erwin Olario",
+      "email": "govvin@gmail.com"
+    }
+  ]
 }

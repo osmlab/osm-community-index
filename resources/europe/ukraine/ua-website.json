@@ -3,9 +3,16 @@
   "type": "osm",
   "locationSet": {"include": ["ukraine.geojson"]},
   "languageCodes": ["uk"],
-  "name": "OpenStreetMap Website Ukraine",
-  "description": "OpenStreetMap website in Ukraine",
   "url": "https://openstreetmap.org.ua/",
-  "contacts": [{"name": "Andrii Holovin", "email": "andygol@ua.fm"}],
-  "order": 4
+  "order": 4,
+  "strings": {
+    "name": "OpenStreetMap Website Ukraine",
+    "description": "OpenStreetMap website in Ukraine"
+  },
+  "contacts": [
+    {
+      "name": "Andrii Holovin",
+      "email": "andygol@ua.fm"
+    }
+  ]
 }

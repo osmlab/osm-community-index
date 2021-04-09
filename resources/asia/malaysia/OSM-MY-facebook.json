@@ -3,9 +3,16 @@
   "type": "facebook",
   "locationSet": {"include": ["my"]},
   "languageCodes": ["en", "ms"],
-  "name": "OpenStreetMap Malaysia on Facebook",
-  "description": "For chat about anything related to OpenStreetMap!",
   "url": "https://www.facebook.com/groups/openstreetmapMY/",
-  "contacts": [{"name": "Mohd Saidin", "email": "projekopenstreetmap@hotmail.com"}],
-  "order": 3
+  "order": 3,
+  "strings": {
+    "name": "OpenStreetMap Malaysia on Facebook",
+    "description": "For chat about anything related to OpenStreetMap!"
+  },
+  "contacts": [
+    {
+      "name": "Mohd Saidin",
+      "email": "projekopenstreetmap@hotmail.com"
+    }
+  ]
 }

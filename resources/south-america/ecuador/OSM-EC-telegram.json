@@ -3,9 +3,16 @@
   "type": "telegram",
   "locationSet": {"include": ["ec"]},
   "languageCodes": ["es"],
-  "name": "OSM Ecuador on Telegram",
-  "description": "OpenStreetMap Ecuador Telegram chat",
   "url": "https://t.me/MappingEcuador",
-  "contacts": [{"name": "Talk-ec Owner", "email": "talk-ec-owner@openstreetmap.org"}],
-  "order": 1
+  "order": 1,
+  "strings": {
+    "name": "OSM Ecuador on Telegram",
+    "description": "OpenStreetMap Ecuador Telegram chat"
+  },
+  "contacts": [
+    {
+      "name": "Talk-ec Owner",
+      "email": "talk-ec-owner@openstreetmap.org"
+    }
+  ]
 }

@@ -1,9 +1,13 @@
 {
   "id": "fr-bzh-website",
   "type": "osm",
-  "locationSet": {"include": ["fr-bzh-historique.geojson"]},
+  "locationSet": {
+    "include": ["fr-bzh-historique.geojson"]
+  },
   "languageCodes": ["br", "fr"],
-  "name": "OpenStreetMap BZH Website",
-  "description": "The map which speaks Breton",
-  "url": "https://www.openstreetmap.bzh/"
+  "url": "https://www.openstreetmap.bzh/",
+  "strings": {
+    "name": "OpenStreetMap BZH Website",
+    "description": "The map which speaks Breton"
+  }
 }

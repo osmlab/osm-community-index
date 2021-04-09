@@ -3,9 +3,16 @@
   "type": "mailinglist",
   "locationSet": {"include": [[8.3966, 49.0149]]},
   "languageCodes": ["de"],
-  "name": "Karlsruhe Mailing List",
-  "description": "This is the mailing list for the OSM community of Karlsruhe area",
   "url": "https://lists.openstreetmap.de/listinfo/karlsruhe",
-  "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}],
-  "order": -2
+  "order": -2,
+  "strings": {
+    "name": "Karlsruhe Mailing List",
+    "description": "This is the mailing list for the OSM community of Karlsruhe area"
+  },
+  "contacts": [
+    {
+      "name": "FOSSGIS e.V.",
+      "email": "info@fossgis.de"
+    }
+  ]
 }

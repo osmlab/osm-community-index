@@ -3,9 +3,16 @@
   "type": "telegram",
   "locationSet": {"include": ["ar"]},
   "languageCodes": ["es"],
-  "name": "OpenStreetMap Argentina Telegram",
-  "description": "Join the OpenStreetMap Argentina community on Telegram",
-  "extendedDescription": "The most active channel in the community, ideal for chatting and getting answers to your questions instantly. Everyone is welcome!",
   "url": "https://t.me/osm_ar",
-  "contacts": [{"name": "OpenStreetMap Argentina", "email": "openstreetmap.org.ar@gmail.com"}]
+  "strings": {
+    "name": "OpenStreetMap Argentina Telegram",
+    "description": "Join the OpenStreetMap Argentina community on Telegram",
+    "extendedDescription": "The most active channel in the community, ideal for chatting and getting answers to your questions instantly. Everyone is welcome!"
+  },
+  "contacts": [
+    {
+      "name": "OpenStreetMap Argentina",
+      "email": "openstreetmap.org.ar@gmail.com"
+    }
+  ]
 }

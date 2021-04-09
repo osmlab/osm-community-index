@@ -3,8 +3,15 @@
   "type": "telegram",
   "locationSet": {"include": ["de", "at", "ch"]},
   "languageCodes": ["de"],
-  "name": "OpenStreetMap D-A-CH Telegram",
-  "description": "Join the OpenStreetMap D-A-CH Telegram supergroup at {url}",
   "url": "https://t.me/OSM_de",
-  "contacts": [{"name": "Max N", "email": "abonnements@revolwear.com"}]
+  "strings": {
+    "name": "OpenStreetMap D-A-CH Telegram",
+    "description": "Join the OpenStreetMap D-A-CH Telegram supergroup at {url}"
+  },
+  "contacts": [
+    {
+      "name": "Max N",
+      "email": "abonnements@revolwear.com"
+    }
+  ]
 }

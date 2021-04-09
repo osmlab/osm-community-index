@@ -1,9 +1,18 @@
 {
   "id": "ym-Nimba-County-Community-College",
   "type": "youthmappers",
-  "locationSet": {"include": [[-8.71645, 7.35208]]},
-  "name": "Nimba County Community College Youth Mappers",
-  "description": "YouthMappers chapter at Nimba County Community College",
+  "locationSet": {
+    "include": [[-8.71645, 7.35208]]
+  },
   "url": "mailto:ncccyouthmappers@yahoo.com",
-  "contacts": [{"name": "Organizer", "email": "ncccyouthmappers@yahoo.com"}]
+  "strings": {
+    "name": "Nimba County Community College Youth Mappers",
+    "description": "YouthMappers chapter at Nimba County Community College"
+  },
+  "contacts": [
+    {
+      "name": "Organizer",
+      "email": "ncccyouthmappers@yahoo.com"
+    }
+  ]
 }

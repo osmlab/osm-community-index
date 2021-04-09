@@ -3,8 +3,10 @@
   "type": "facebook",
   "locationSet": {"include": ["bih"]},
   "languageCodes": ["en"],
-  "name": "OpenStreetMap Bosnia i Herzegovina",
-  "description": "Improve OpenStreetMap in Bosnia and Herzegovina",
   "url": "https://www.facebook.com/OpenStreetMapBosnaIHercegovina",
-  "order": 3
+  "order": 3,
+  "strings": {
+    "name": "OpenStreetMap Bosnia i Herzegovina",
+    "description": "Improve OpenStreetMap in Bosnia and Herzegovina"
+  }
 }

@@ -3,10 +3,17 @@
   "type": "facebook",
   "locationSet": {"include": ["cl"]},
   "languageCodes": ["es"],
-  "name": "OpenStreetMap Chile Facebook",
-  "description": "Join the OpenStreetMap Chile community on Facebook",
-  "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!",
   "url": "https://www.facebook.com/OpenStreetMap-Chile-145127198882915/",
-  "contacts": [{"name": "Julio Costa", "email": "julio.costa@openstreetmap.cl"}],
-  "order": 1
+  "order": 1,
+  "strings": {
+    "name": "OpenStreetMap Chile Facebook",
+    "description": "Join the OpenStreetMap Chile community on Facebook",
+    "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"
+  },
+  "contacts": [
+    {
+      "name": "Julio Costa",
+      "email": "julio.costa@openstreetmap.cl"
+    }
+  ]
 }

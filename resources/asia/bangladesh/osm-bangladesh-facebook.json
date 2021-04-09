@@ -2,10 +2,17 @@
   "id": "OSM-BGD-facebook",
   "type": "facebook",
   "locationSet": {"include": ["bd"]},
-  "name": "OpenStreetMap Bangladesh",
-  "description": "Improve OpenStreetMap in Bangladesh",
-  "extendedDescription": "Mapping in Bangladesh? Have questions, want to connect with the community here? Join us at {url}. All are welcome!",
   "url": "https://www.facebook.com/groups/osmbd/",
-  "contacts": [{"name": "Ahasanul Hoque", "email": "hoque.ahasan@gmail.com"}],
-  "order": 2
+  "order": 2,
+  "strings": {
+    "name": "OpenStreetMap Bangladesh",
+    "description": "Improve OpenStreetMap in Bangladesh",
+    "extendedDescription": "Mapping in Bangladesh? Have questions, want to connect with the community here? Join us at {url}. All are welcome!"
+  },
+  "contacts": [
+    {
+      "name": "Ahasanul Hoque",
+      "email": "hoque.ahasan@gmail.com"
+    }
+  ]
 }

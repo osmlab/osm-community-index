@@ -171,9 +171,9 @@ function collectResources(tstrings, featureCollection) {
     }
 
     let contents = fs.readFileSync(file, 'utf8');
-    let resource;
+    let item;
     try {
-      resource = JSON.parse(contents);
+      item = JSON.parse(contents);
     } catch (jsonParseError) {
       console.error(colors.red(`Error - ${jsonParseError.message} in:`));
       console.error('  ' + colors.yellow(file));
@@ -182,31 +182,38 @@ function collectResources(tstrings, featureCollection) {
 
     // sort properties and array values
     let obj = {};
-    if (resource.id)    { obj.id = resource.id; }
-    if (resource.type)  { obj.type = resource.type; }
+    if (item.id)    { obj.id = item.id; }
+    if (item.type)  { obj.type = item.type; }
 
-    if (resource.locationSet) {
-      obj.locationSet = {};
-      if (resource.locationSet.include) { obj.locationSet.include = resource.locationSet.include; }
-      if (resource.locationSet.exclude) { obj.locationSet.exclude = resource.locationSet.exclude; }
-    }
+    item.locationSet = item.locationSet || {};
+    obj.locationSet = {};
+    if (item.locationSet.include) { obj.locationSet.include = item.locationSet.include; }
+    if (item.locationSet.exclude) { obj.locationSet.exclude = item.locationSet.exclude; }
 
-    if (resource.languageCodes)       { obj.languageCodes = resource.languageCodes.sort(); }
-    if (resource.name)                { obj.name = resource.name; }
-    if (resource.description)         { obj.description = resource.description; }
-    if (resource.extendedDescription) { obj.extendedDescription = resource.extendedDescription; }
-    if (resource.url)                 { obj.url = resource.url; }
-    if (resource.signupUrl)           { obj.signupUrl = resource.signupUrl; }
-    if (resource.contacts)            { obj.contacts = resource.contacts; }
-    if (resource.order)               { obj.order = resource.order; }
-    if (resource.events)              { obj.events = resource.events; }
-    resource = obj;
+    if (item.languageCodes)       { obj.languageCodes = item.languageCodes.sort(); }
+    if (item.community)           { obj.community = item.community; }
+    if (item.resource)            { obj.resource = item.resource; }
+    if (item.url)                 { obj.url = item.url; }
+    if (item.signupUrl)           { obj.signupUrl = item.signupUrl; }
+    if (item.order)               { obj.order = item.order; }
 
-    validateFile(file, resource, resourceSchema);
+    item.strings = item.strings || {};
+    obj.strings = {};
+    if (item.strings.community)           { obj.strings.community = item.strings.community; }
+    if (item.strings.resource)            { obj.strings.resource = item.strings.resource; }
+    if (item.strings.name)                { obj.strings.name = item.strings.name; }
+    if (item.strings.description)         { obj.strings.description = item.strings.description; }
+    if (item.strings.extendedDescription) { obj.strings.extendedDescription = item.strings.extendedDescription; }
+
+    if (item.contacts)  { obj.contacts = item.contacts; }
+    if (item.events)    { obj.events = item.events; }
+    item = obj;
+
+    validateFile(file, item, resourceSchema);
 
     // check locationSet
     try {
-      const resolved = loco.resolveLocationSet(resource.locationSet);
+      const resolved = loco.resolveLocationSet(item.locationSet);
       if (!resolved.feature.geometry.coordinates.length || !resolved.feature.properties.area) {
         throw new Error(`locationSet ${resolved.id} resolves to an empty feature.`);
       }
@@ -216,35 +223,35 @@ function collectResources(tstrings, featureCollection) {
       process.exit(1);
     }
 
-    prettifyFile(file, resource, contents);
+    prettifyFile(file, item, contents);
 
-    let resourceId = resource.id;
-    if (files[resourceId]) {
-      console.error(colors.red('Error - Duplicate resource id: ') + colors.yellow(resourceId));
-      console.error('  ' + colors.yellow(files[resourceId]));
+    const itemID = item.id;
+    if (files[itemID]) {
+      console.error(colors.red('Error - Duplicate resource id: ') + colors.yellow(itemID));
+      console.error('  ' + colors.yellow(files[itemID]));
       console.error('  ' + colors.yellow(file));
       process.exit(1);
     }
 
-    resources[resourceId] = resource;
-    files[resourceId] = file;
+    resources[itemID] = item;
+    files[itemID] = file;
 
     // collect translation strings for this resource
-    tstrings[resourceId] = {
-      name: resource.name,
-      description: resource.description
+    tstrings[itemID] = {
+      name: item.strings.name,
+      description: item.strings.description
     };
 
-    if (resource.extendedDescription) {
-      tstrings[resourceId].extendedDescription = resource.extendedDescription;
+    if (item.strings.extendedDescription) {
+      tstrings[itemID].extendedDescription = item.strings.extendedDescription;
     }
 
     // Validate event dates and collect strings from upcoming events (where `i18n=true`)
-    if (resource.events) {
+    if (item.events) {
       let estrings = {};
 
-      for (let i = 0; i < resource.events.length; i++) {
-        let event = resource.events[i];
+      for (let i = 0; i < item.events.length; i++) {
+        const event = item.events[i];
 
         // check date
         const d = new Date(event.when);
@@ -270,7 +277,7 @@ function collectResources(tstrings, featureCollection) {
       }
 
       if (Object.keys(estrings).length) {
-        tstrings[resourceId].events = estrings;
+        tstrings[itemID].events = estrings;
       }
     }
 
@@ -301,7 +308,7 @@ function validateFile(file, resource, schema) {
 
 
 function prettifyFile(file, object, contents) {
-  const pretty = stringify(object, { maxLength: 100 }) + '\n';
+  const pretty = stringify(object, { maxLength: 50 }) + '\n';
   if (pretty !== contents) {
     fs.writeFileSync(file, pretty);
   }

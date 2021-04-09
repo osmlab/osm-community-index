@@ -3,8 +3,10 @@
   "type": "twitter",
   "locationSet": {"include": ["gb-nir", "ie"]},
   "languageCodes": ["en"],
-  "name": "OpenStreetMap IE on Twitter",
-  "description": "OpenStreetMap IE on Twitter: {url}",
   "url": "https://twitter.com/osm_ie",
-  "order": 2
+  "order": 2,
+  "strings": {
+    "name": "OpenStreetMap IE on Twitter",
+    "description": "OpenStreetMap IE on Twitter: {url}"
+  }
 }

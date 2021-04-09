@@ -3,12 +3,20 @@
   "type": "telegram",
   "locationSet": {"include": ["al"]},
   "languageCodes": ["en", "sq"],
-  "name": "OSM Albania Telegram channel",
-  "description": "OpenStreetMap Albania Telegram channel",
   "url": "https://t.me/OpenStreetMapAL",
+  "order": 6,
+  "strings": {
+    "name": "OSM Albania Telegram channel",
+    "description": "OpenStreetMap Albania Telegram channel"
+  },
   "contacts": [
-    {"name": "Jonathan Beliën", "email": "dev@jbelien.be"},
-    {"name": "Amanti Lulo", "email": "amanti.lulo@gmail.com"}
-  ],
-  "order": 6
+    {
+      "name": "Jonathan Beliën",
+      "email": "dev@jbelien.be"
+    },
+    {
+      "name": "Amanti Lulo",
+      "email": "amanti.lulo@gmail.com"
+    }
+  ]
 }

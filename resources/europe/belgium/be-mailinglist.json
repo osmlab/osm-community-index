@@ -3,9 +3,16 @@
   "type": "mailinglist",
   "locationSet": {"include": ["be"]},
   "languageCodes": ["de", "en", "fr", "nl"],
-  "name": "Talk-be Mailing List",
-  "description": "Talk-be is the official mailing list for the Belgian OSM community",
   "url": "https://lists.openstreetmap.org/listinfo/talk-be",
-  "contacts": [{"name": "BE community", "email": "community@osm.be"}],
-  "order": 4
+  "order": 4,
+  "strings": {
+    "name": "Talk-be Mailing List",
+    "description": "Talk-be is the official mailing list for the Belgian OSM community"
+  },
+  "contacts": [
+    {
+      "name": "BE community",
+      "email": "community@osm.be"
+    }
+  ]
 }

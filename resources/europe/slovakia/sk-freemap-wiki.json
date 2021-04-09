@@ -3,8 +3,15 @@
   "type": "wiki",
   "locationSet": {"include": ["sk"]},
   "languageCodes": ["sk"],
-  "name": "OpenStreetMap Freemap Slovakia Wiki",
-  "description": "OpenStreetMap wiki for Slovak mappers and community",
   "url": "http://wiki.freemap.sk",
-  "contacts": [{"name": "osm_sk", "email": "osm_sk@googlegroups.com"}]
+  "strings": {
+    "name": "OpenStreetMap Freemap Slovakia Wiki",
+    "description": "OpenStreetMap wiki for Slovak mappers and community"
+  },
+  "contacts": [
+    {
+      "name": "osm_sk",
+      "email": "osm_sk@googlegroups.com"
+    }
+  ]
 }

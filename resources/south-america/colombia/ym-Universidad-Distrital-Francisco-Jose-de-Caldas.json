@@ -1,10 +1,19 @@
 {
   "id": "ym-Universidad-Distrital-Francisco-Jose-de-Caldas",
   "type": "youthmappers",
-  "locationSet": {"include": [[-74.0918, 4.65306]]},
-  "name": "YouthMappers at Bogota",
-  "description": "YouthMappers chapter at Universidad Distrital Francisco Jose de Caldas",
-  "extendedDescription": "The Universidad Distrital Francisco José de Caldas is a public, coeducational, research university based in Bogotá, Colombia with a population of 26,140 students.",
+  "locationSet": {
+    "include": [[-74.0918, 4.65306]]
+  },
   "url": "mailto:lrocha@selper.org.co",
-  "contacts": [{"name": "Organizer", "email": "lrocha@selper.org.co"}]
+  "strings": {
+    "name": "YouthMappers at Bogota",
+    "description": "YouthMappers chapter at Universidad Distrital Francisco Jose de Caldas",
+    "extendedDescription": "The Universidad Distrital Francisco José de Caldas is a public, coeducational, research university based in Bogotá, Colombia with a population of 26,140 students."
+  },
+  "contacts": [
+    {
+      "name": "Organizer",
+      "email": "lrocha@selper.org.co"
+    }
+  ]
 }

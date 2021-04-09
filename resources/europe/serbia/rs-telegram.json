@@ -2,9 +2,16 @@
   "id": "rs-telegram",
   "type": "telegram",
   "locationSet": {"include": ["rs"]},
-  "name": "OpenStreetMap Serbia on Telegram",
-  "description": "Telegram group for the OSM Serbia community",
   "url": "https://t.me/osm_sr",
-  "contacts": [{"name": "OpenStreetMap Serbia", "email": "talk-rs@openstreetmap.org"}],
-  "order": 3
+  "order": 3,
+  "strings": {
+    "name": "OpenStreetMap Serbia on Telegram",
+    "description": "Telegram group for the OSM Serbia community"
+  },
+  "contacts": [
+    {
+      "name": "OpenStreetMap Serbia",
+      "email": "talk-rs@openstreetmap.org"
+    }
+  ]
 }

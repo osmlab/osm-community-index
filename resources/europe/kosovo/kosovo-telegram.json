@@ -3,9 +3,16 @@
   "type": "telegram",
   "locationSet": {"include": ["xk"]},
   "languageCodes": ["en", "sq", "sr"],
-  "name": "OpenStreetMap Kosovo on Telegram",
-  "description": "Semi-official all-Kosovo Telegram public group. We welcome all mappers from anywhere in any language.",
   "url": "https://t.me/osmkosovo",
-  "contacts": [{"name": "Guillaume Rischard", "email": "guillaumenospam@openstreetmapnospam.lu"}],
-  "order": 1
+  "order": 1,
+  "strings": {
+    "name": "OpenStreetMap Kosovo on Telegram",
+    "description": "Semi-official all-Kosovo Telegram public group. We welcome all mappers from anywhere in any language."
+  },
+  "contacts": [
+    {
+      "name": "Guillaume Rischard",
+      "email": "guillaumenospam@openstreetmapnospam.lu"
+    }
+  ]
 }

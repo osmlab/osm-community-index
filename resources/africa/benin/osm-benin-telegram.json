@@ -3,7 +3,9 @@
   "type": "telegram",
   "locationSet": {"include": ["ben"]},
   "languageCodes": ["en"],
-  "name": "OpenStreetMap Benin",
-  "description": "OpenStreetMap Benin telegram chat",
-  "url": "https://t.me/OSMBenin"
+  "url": "https://t.me/OSMBenin",
+  "strings": {
+    "name": "OpenStreetMap Benin",
+    "description": "OpenStreetMap Benin telegram chat"
+  }
 }

@@ -3,9 +3,16 @@
   "type": "facebook",
   "locationSet": {"include": ["hu"]},
   "languageCodes": ["hu"],
-  "name": "OpenStreetMap HU on Facebook",
-  "description": "Mappers and OpenStreetMap Facebook in Hungary",
   "url": "https://www.facebook.com/groups/osm.hu/",
-  "contacts": [{"name": "Ferenc Veres", "email": "info@openstreetmap.hu"}],
-  "order": 3
+  "order": 3,
+  "strings": {
+    "name": "OpenStreetMap HU on Facebook",
+    "description": "Mappers and OpenStreetMap Facebook in Hungary"
+  },
+  "contacts": [
+    {
+      "name": "Ferenc Veres",
+      "email": "info@openstreetmap.hu"
+    }
+  ]
 }

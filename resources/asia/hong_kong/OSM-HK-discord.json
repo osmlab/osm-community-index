@@ -3,8 +3,15 @@
   "type": "discord",
   "locationSet": {"include": ["hk"]},
   "languageCodes": ["en", "yue", "zh"],
-  "name": "OpenStreetMap Hong Kong Discord",
-  "description": "Join the OpenStreetMap Hong Kong community on Discord",
   "url": "https://discord.gg/CyG9zte",
-  "contacts": [{"name": "Phake Nick", "email": "c933103@gmail.com"}]
+  "strings": {
+    "name": "OpenStreetMap Hong Kong Discord",
+    "description": "Join the OpenStreetMap Hong Kong community on Discord"
+  },
+  "contacts": [
+    {
+      "name": "Phake Nick",
+      "email": "c933103@gmail.com"
+    }
+  ]
 }

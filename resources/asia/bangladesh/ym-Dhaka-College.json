@@ -1,10 +1,19 @@
 {
   "id": "ym-Dhaka-College",
   "type": "youthmappers",
-  "locationSet": {"include": [[90.35156, 23.72492]]},
-  "name": "YouthMappers Daka College",
-  "description": "YouthMappers chapter at Dhaka College",
-  "extendedDescription": "YouthMappers DhakaCollege is an approach by students to help mapping vulnerable areas of the world as a part of Humanitarian Action. YouthMappers  gives the opportunity to the students for helping people and using mapping for humanitarian purposes. This open geographic data can be used for educational, navigational and other humanitarian purposes. Happy mapping.",
+  "locationSet": {
+    "include": [[90.35156, 23.72492]]
+  },
   "url": "https://www.facebook.com/groups/321220498214124/",
-  "contacts": [{"name": "Organizer", "email": "youthmappersdc@gmail.com"}]
+  "strings": {
+    "name": "YouthMappers Daka College",
+    "description": "YouthMappers chapter at Dhaka College",
+    "extendedDescription": "YouthMappers DhakaCollege is an approach by students to help mapping vulnerable areas of the world as a part of Humanitarian Action. YouthMappers  gives the opportunity to the students for helping people and using mapping for humanitarian purposes. This open geographic data can be used for educational, navigational and other humanitarian purposes. Happy mapping."
+  },
+  "contacts": [
+    {
+      "name": "Organizer",
+      "email": "youthmappersdc@gmail.com"
+    }
+  ]
 }

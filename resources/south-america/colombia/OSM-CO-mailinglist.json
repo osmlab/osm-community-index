@@ -3,9 +3,16 @@
   "type": "mailinglist",
   "locationSet": {"include": ["co"]},
   "languageCodes": ["es"],
-  "name": "Talk-co Mailing List",
-  "description": "A mailing list to discuss OpenStreetMap in Colombia",
   "url": "https://lists.openstreetmap.org/listinfo/talk-co/",
-  "contacts": [{"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}],
-  "order": 4
+  "order": 4,
+  "strings": {
+    "name": "Talk-co Mailing List",
+    "description": "A mailing list to discuss OpenStreetMap in Colombia"
+  },
+  "contacts": [
+    {
+      "name": "Fredy Rivera",
+      "email": "fredyrivera@gmail.com"
+    }
+  ]
 }

@@ -3,9 +3,16 @@
   "type": "matrix",
   "locationSet": {"include": ["de"]},
   "languageCodes": ["de"],
-  "name": "OpenStreetMap Germany Matrix",
-  "description": "Join #osm-de:matrix.org at {url}",
   "url": "https://matrix.to/#/#osm-de:matrix.org",
-  "contacts": [{"name": "Christopher Rossbach", "email": "public.cr@protonmail.ch"}],
-  "order": 4
+  "order": 4,
+  "strings": {
+    "name": "OpenStreetMap Germany Matrix",
+    "description": "Join #osm-de:matrix.org at {url}"
+  },
+  "contacts": [
+    {
+      "name": "Christopher Rossbach",
+      "email": "public.cr@protonmail.ch"
+    }
+  ]
 }

@@ -3,7 +3,9 @@
   "type": "telegram",
   "locationSet": {"include": ["ci"]},
   "languageCodes": ["en"],
-  "name": "OpenStreetMap Côte d'Ivoire",
-  "description": "OpenStreetMap Cote d'Ivoire telegram chat",
-  "url": "https://t.me/OSMCI"
+  "url": "https://t.me/OSMCI",
+  "strings": {
+    "name": "OpenStreetMap Côte d'Ivoire",
+    "description": "OpenStreetMap Cote d'Ivoire telegram chat"
+  }
 }

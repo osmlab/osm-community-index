@@ -3,9 +3,16 @@
   "type": "facebook",
   "locationSet": {"include": ["rs"]},
   "languageCodes": ["en", "sr"],
-  "name": "OpenStreetMap RS Facebook Community",
-  "description": "Mappers and OpenStreetMap on Facebook in Serbia",
   "url": "https://www.facebook.com/OpenStreetMapSrbija/",
-  "contacts": [{"name": "OpenStreetMap Serbia", "email": "talk-rs@openstreetmap.org"}],
-  "order": 1
+  "order": 1,
+  "strings": {
+    "name": "OpenStreetMap RS Facebook Community",
+    "description": "Mappers and OpenStreetMap on Facebook in Serbia"
+  },
+  "contacts": [
+    {
+      "name": "OpenStreetMap Serbia",
+      "email": "talk-rs@openstreetmap.org"
+    }
+  ]
 }

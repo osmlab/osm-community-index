@@ -3,12 +3,20 @@
   "type": "forum",
   "locationSet": {"include": ["pl"]},
   "languageCodes": ["en", "pl"],
-  "name": "OpenStreetMap Poland Forum",
-  "description": "Forum of Polish OpenStreetMap community",
   "url": "https://forum.openstreetmap.org/viewforum.php?id=23",
+  "order": 10,
+  "strings": {
+    "name": "OpenStreetMap Poland Forum",
+    "description": "Forum of Polish OpenStreetMap community"
+  },
   "contacts": [
-    {"name": "Daniel Koć", "email": "daniel@xn--ko-wla.pl"},
-    {"name": "Ryszard Mikke", "email": "ryszard.mikke@gmail.com"}
-  ],
-  "order": 10
+    {
+      "name": "Daniel Koć",
+      "email": "daniel@xn--ko-wla.pl"
+    },
+    {
+      "name": "Ryszard Mikke",
+      "email": "ryszard.mikke@gmail.com"
+    }
+  ]
 }

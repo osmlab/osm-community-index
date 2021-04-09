@@ -3,8 +3,10 @@
   "type": "meetup",
   "locationSet": {"include": [[8.3966, 49.0149]]},
   "languageCodes": ["de"],
-  "name": "OpenStreetMap Karlsruhe Meetup",
-  "description": "Mappers and OpenStreetMap users in the Karlsruhe area",
   "url": "https://wiki.openstreetmap.org/wiki/Karlsruhe",
-  "order": 5
+  "order": 5,
+  "strings": {
+    "name": "OpenStreetMap Karlsruhe Meetup",
+    "description": "Mappers and OpenStreetMap users in the Karlsruhe area"
+  }
 }

@@ -3,8 +3,10 @@
   "type": "twitter",
   "locationSet": {"include": ["gb-sct"]},
   "languageCodes": ["en"],
-  "name": "OpenStreetMap Alba on Twitter",
-  "description": "OpenStreetMap Alba on Twitter: {url}",
   "url": "https://twitter.com/OSMScotland",
-  "order": 4
+  "order": 4,
+  "strings": {
+    "name": "OpenStreetMap Alba on Twitter",
+    "description": "OpenStreetMap Alba on Twitter: {url}"
+  }
 }

@@ -1,9 +1,18 @@
 {
   "id": "ym-University-of-Wyoming",
   "type": "youthmappers",
-  "locationSet": {"include": [[-105.56651, 41.31476]]},
-  "name": "Gamma Theta Upsilon/Geography Club",
-  "description": "YouthMappers chapter at University of Wyoming",
+  "locationSet": {
+    "include": [[-105.56651, 41.31476]]
+  },
   "url": "http://www.uwyo.edu/geography/geographyclub/",
-  "contacts": [{"name": "Organizer", "email": "gtu-geography@uwyo.edu"}]
+  "strings": {
+    "name": "Gamma Theta Upsilon/Geography Club",
+    "description": "YouthMappers chapter at University of Wyoming"
+  },
+  "contacts": [
+    {
+      "name": "Organizer",
+      "email": "gtu-geography@uwyo.edu"
+    }
+  ]
 }

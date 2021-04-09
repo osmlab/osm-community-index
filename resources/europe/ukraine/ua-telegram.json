@@ -3,8 +3,15 @@
   "type": "telegram",
   "locationSet": {"include": ["ukraine.geojson"]},
   "languageCodes": ["en", "ru", "uk"],
-  "name": "@osmUA on Telegram",
-  "description": "OpenStreetMap Ukraine Telegram chat",
   "url": "https://t.me/osmUA",
-  "contacts": [{"name": "Andrii Holovin", "email": "andygol@ua.fm"}]
+  "strings": {
+    "name": "@osmUA on Telegram",
+    "description": "OpenStreetMap Ukraine Telegram chat"
+  },
+  "contacts": [
+    {
+      "name": "Andrii Holovin",
+      "email": "andygol@ua.fm"
+    }
+  ]
 }

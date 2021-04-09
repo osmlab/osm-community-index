@@ -3,8 +3,15 @@
   "type": "twitter",
   "locationSet": {"include": ["gh"]},
   "languageCodes": ["en"],
-  "name": "OpenStreetMap Ghana on Twitter",
-  "description": "Follow us on Twitter: {url}",
   "url": "https://twitter.com/osmghana",
-  "contacts": [{"name": "Enock Seth Nyamador", "email": "enock@osmghana.org"}]
+  "strings": {
+    "name": "OpenStreetMap Ghana on Twitter",
+    "description": "Follow us on Twitter: {url}"
+  },
+  "contacts": [
+    {
+      "name": "Enock Seth Nyamador",
+      "email": "enock@osmghana.org"
+    }
+  ]
 }

@@ -2,13 +2,21 @@
   "id": "OSM-India-facebook",
   "type": "facebook",
   "locationSet": {"include": ["in"]},
-  "name": "OpenStreetMap India - Participatory neighborhood mapping",
-  "description": "Improve OpenStreetMap in India",
-  "extendedDescription": "Mapping in India? Have questions, want to connect with the community here? Join us at {url}. All are welcome!",
   "url": "https://www.facebook.com/groups/mappingindia/",
+  "order": 3,
+  "strings": {
+    "name": "OpenStreetMap India - Participatory neighborhood mapping",
+    "description": "Improve OpenStreetMap in India",
+    "extendedDescription": "Mapping in India? Have questions, want to connect with the community here? Join us at {url}. All are welcome!"
+  },
   "contacts": [
-    {"name": "Jinal Foflia", "email": "fofliajinal@gmail.com"},
-    {"name": "Arun Ganesh", "email": "arun.planemad@gmail.com"}
-  ],
-  "order": 3
+    {
+      "name": "Jinal Foflia",
+      "email": "fofliajinal@gmail.com"
+    },
+    {
+      "name": "Arun Ganesh",
+      "email": "arun.planemad@gmail.com"
+    }
+  ]
 }

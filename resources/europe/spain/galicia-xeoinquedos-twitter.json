@@ -3,7 +3,9 @@
   "type": "twitter",
   "locationSet": {"include": ["galicia.geojson"]},
   "languageCodes": ["es", "gl"],
-  "name": "Xeoinquedos on Twitter",
-  "description": "Follow us on Twitter at {url}",
-  "url": "https://twitter.com/xeoinquedos"
+  "url": "https://twitter.com/xeoinquedos",
+  "strings": {
+    "name": "Xeoinquedos on Twitter",
+    "description": "Follow us on Twitter at {url}"
+  }
 }

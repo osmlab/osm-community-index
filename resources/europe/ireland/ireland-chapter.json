@@ -3,9 +3,11 @@
   "type": "osm-lc",
   "locationSet": {"include": ["gb-nir", "ie"]},
   "languageCodes": ["en"],
-  "name": "OpenStreetMap Ireland Local Chapter",
-  "description": "We help grow and improve OpenStreetMap in Ireland.",
-  "extendedDescription": "OpenStreetMap Ireland provides an advocate voice for the OpenStreetMap project on the island of Ireland, in addition to interacting with other open initiatives.",
   "url": "https://www.openstreetmap.ie/",
-  "order": 1
+  "order": 1,
+  "strings": {
+    "name": "OpenStreetMap Ireland Local Chapter",
+    "description": "We help grow and improve OpenStreetMap in Ireland.",
+    "extendedDescription": "OpenStreetMap Ireland provides an advocate voice for the OpenStreetMap project on the island of Ireland, in addition to interacting with other open initiatives."
+  }
 }

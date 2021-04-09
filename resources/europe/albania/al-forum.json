@@ -3,12 +3,20 @@
   "type": "forum",
   "locationSet": {"include": ["al"]},
   "languageCodes": ["en", "sq"],
-  "name": "OSM Albania Forum",
-  "description": "OpenStreetMap Albania Forum",
   "url": "https://forum.openstreetmap.org/viewforum.php?id=91",
+  "order": 3,
+  "strings": {
+    "name": "OSM Albania Forum",
+    "description": "OpenStreetMap Albania Forum"
+  },
   "contacts": [
-    {"name": "Jonathan Beliën", "email": "dev@jbelien.be"},
-    {"name": "Amanti Lulo", "email": "amanti.lulo@gmail.com"}
-  ],
-  "order": 3
+    {
+      "name": "Jonathan Beliën",
+      "email": "dev@jbelien.be"
+    },
+    {
+      "name": "Amanti Lulo",
+      "email": "amanti.lulo@gmail.com"
+    }
+  ]
 }

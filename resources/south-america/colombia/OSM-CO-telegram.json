@@ -3,9 +3,16 @@
   "type": "telegram",
   "locationSet": {"include": ["co"]},
   "languageCodes": ["es"],
-  "name": "OSM Colombia on Telegram",
-  "description": "OpenStreetMap Colombia Telegram chat",
   "url": "https://t.me/osmco",
-  "contacts": [{"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}],
-  "order": 2
+  "order": 2,
+  "strings": {
+    "name": "OSM Colombia on Telegram",
+    "description": "OpenStreetMap Colombia Telegram chat"
+  },
+  "contacts": [
+    {
+      "name": "Fredy Rivera",
+      "email": "fredyrivera@gmail.com"
+    }
+  ]
 }

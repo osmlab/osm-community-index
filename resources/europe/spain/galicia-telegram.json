@@ -3,7 +3,9 @@
   "type": "telegram",
   "locationSet": {"include": ["galicia.geojson"]},
   "languageCodes": ["es", "gl"],
-  "name": "OpenStreetMap Galicia Telegram",
-  "description": "OpenStreetMap Telegram for Galicia",
-  "url": "https://t.me/osmgalicia"
+  "url": "https://t.me/osmgalicia",
+  "strings": {
+    "name": "OpenStreetMap Galicia Telegram",
+    "description": "OpenStreetMap Telegram for Galicia"
+  }
 }

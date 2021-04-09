@@ -1,10 +1,14 @@
 {
   "id": "de-viersen-meetup",
   "type": "osm",
-  "locationSet": {"include": [[6.354282, 51.264137]]},
+  "locationSet": {
+    "include": [[6.354282, 51.264137]]
+  },
   "languageCodes": ["de"],
-  "name": "OpenStreetMap Viersen Meetup",
-  "description": "OSM community and users meetup Kreis Viersen and Mönchengladbach",
   "url": "https://wiki.openstreetmap.org/wiki/Niederrhein/Viersen/Stammtisch",
-  "order": 5
+  "order": 5,
+  "strings": {
+    "name": "OpenStreetMap Viersen Meetup",
+    "description": "OSM community and users meetup Kreis Viersen and Mönchengladbach"
+  }
 }

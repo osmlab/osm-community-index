@@ -3,9 +3,16 @@
   "type": "matrix",
   "locationSet": {"include": ["lu"]},
   "languageCodes": ["de", "en", "fr", "lb"],
-  "name": "OSM Luxembourg on Matrix",
-  "description": "Matrix group for the community in Luxembourg. Let's bring the community together!",
   "url": "https://matrix.to/#/#osmlu:matrix.org",
-  "contacts": [{"name": "OSM Luxembourg", "email": "contact@openstreetmap.lu"}],
-  "order": 10
+  "order": 10,
+  "strings": {
+    "name": "OSM Luxembourg on Matrix",
+    "description": "Matrix group for the community in Luxembourg. Let's bring the community together!"
+  },
+  "contacts": [
+    {
+      "name": "OSM Luxembourg",
+      "email": "contact@openstreetmap.lu"
+    }
+  ]
 }

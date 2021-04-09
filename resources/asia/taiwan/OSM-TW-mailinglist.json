@@ -3,9 +3,16 @@
   "type": "mailinglist",
   "locationSet": {"include": ["tw"]},
   "languageCodes": ["en", "zh-tw"],
-  "name": "OpenStreetMap Taiwan Mailinglist",
-  "description": "Talk-tw is an official mailing list to discuss matters about Taiwan",
   "url": "https://lists.openstreetmap.org/listinfo/talk-tw",
-  "contacts": [{"name": "Nobody 沒有人 (Public email)", "email": "hiboard@openstreetmap.tw"}],
-  "order": -3
+  "order": -3,
+  "strings": {
+    "name": "OpenStreetMap Taiwan Mailinglist",
+    "description": "Talk-tw is an official mailing list to discuss matters about Taiwan"
+  },
+  "contacts": [
+    {
+      "name": "Nobody 沒有人 (Public email)",
+      "email": "hiboard@openstreetmap.tw"
+    }
+  ]
 }

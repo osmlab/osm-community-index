@@ -3,8 +3,15 @@
   "type": "telegram",
   "locationSet": {"include": ["no"]},
   "languageCodes": ["no"],
-  "name": "@OSM_no on Telegram",
-  "description": "OpenStreetMap Norway Telegram chat",
   "url": "https://t.me/OSM_no",
-  "contacts": [{"name": "Syver Stensholt", "email": "sssandum@gmail.com"}]
+  "strings": {
+    "name": "@OSM_no on Telegram",
+    "description": "OpenStreetMap Norway Telegram chat"
+  },
+  "contacts": [
+    {
+      "name": "Syver Stensholt",
+      "email": "sssandum@gmail.com"
+    }
+  ]
 }

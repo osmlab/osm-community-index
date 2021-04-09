@@ -1,13 +1,23 @@
 {
   "id": "OSM-Kerala-facebook",
   "type": "facebook",
-  "locationSet": {"include": ["india_kerala.geojson"]},
-  "name": "OpenStreetMap Kerala - Participatory neighborhood mapping",
-  "description": "Improve OpenStreetMap in Kerala",
-  "extendedDescription": "Mapping in Kerala ? Have questions, want to connect with the community here? Join us at {url}. All are welcome!",
+  "locationSet": {
+    "include": ["india_kerala.geojson"]
+  },
   "url": "https://facebook.com/osmkerala/",
+  "strings": {
+    "name": "OpenStreetMap Kerala - Participatory neighborhood mapping",
+    "description": "Improve OpenStreetMap in Kerala",
+    "extendedDescription": "Mapping in Kerala ? Have questions, want to connect with the community here? Join us at {url}. All are welcome!"
+  },
   "contacts": [
-    {"name": "Manoj Karingamadathil", "email": "dartermanoj@gmail.com"},
-    {"name": "Jaisen Nedumpala", "email": "jaisuvyas@gmail.com"}
+    {
+      "name": "Manoj Karingamadathil",
+      "email": "dartermanoj@gmail.com"
+    },
+    {
+      "name": "Jaisen Nedumpala",
+      "email": "jaisuvyas@gmail.com"
+    }
   ]
 }

@@ -3,9 +3,16 @@
   "type": "twitter",
   "locationSet": {"include": ["001"]},
   "languageCodes": ["en"],
-  "name": "OpenStreetMap Twitter",
-  "description": "Follow us on Twitter at {url}",
   "url": "https://twitter.com/openstreetmap",
-  "contacts": [{"name": "Harry Wood", "email": "mail@harrywood.co.uk"}],
-  "order": 4
+  "order": 4,
+  "strings": {
+    "name": "OpenStreetMap Twitter",
+    "description": "Follow us on Twitter at {url}"
+  },
+  "contacts": [
+    {
+      "name": "Harry Wood",
+      "email": "mail@harrywood.co.uk"
+    }
+  ]
 }

@@ -3,9 +3,16 @@
   "type": "mailinglist",
   "locationSet": {"include": ["ar"]},
   "languageCodes": ["es"],
-  "name": "Talk-ar Mailing List",
-  "description": "Historic mailing list. Almost unused today.",
   "url": "https://lists.openstreetmap.org/listinfo/talk-ar/",
-  "contacts": [{"name": "OpenStreetMap Argentina", "email": "openstreetmap.org.ar@gmail.com"}],
-  "order": -3
+  "order": -3,
+  "strings": {
+    "name": "Talk-ar Mailing List",
+    "description": "Historic mailing list. Almost unused today."
+  },
+  "contacts": [
+    {
+      "name": "OpenStreetMap Argentina",
+      "email": "openstreetmap.org.ar@gmail.com"
+    }
+  ]
 }

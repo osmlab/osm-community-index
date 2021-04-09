@@ -3,13 +3,24 @@
   "type": "mailinglist",
   "locationSet": {"include": ["it"]},
   "languageCodes": ["it"],
-  "name": "Talk-it Mailing List",
-  "description": "Talk-it is the official mailing list for the Italian OSM community",
   "url": "https://lists.openstreetmap.org/listinfo/talk-it",
+  "order": -3,
+  "strings": {
+    "name": "Talk-it Mailing List",
+    "description": "Talk-it is the official mailing list for the Italian OSM community"
+  },
   "contacts": [
-    {"name": "Simone Cortesi", "email": "simone@cortesi.com"},
-    {"name": "Stefano", "email": "sabas88@gmail.com"},
-    {"name": "Alessandro Palmas", "email": "alessandro.palmas@wikimedia.it"}
-  ],
-  "order": -3
+    {
+      "name": "Simone Cortesi",
+      "email": "simone@cortesi.com"
+    },
+    {
+      "name": "Stefano",
+      "email": "sabas88@gmail.com"
+    },
+    {
+      "name": "Alessandro Palmas",
+      "email": "alessandro.palmas@wikimedia.it"
+    }
+  ]
 }

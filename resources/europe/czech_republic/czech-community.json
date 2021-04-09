@@ -3,8 +3,15 @@
   "type": "osm",
   "locationSet": {"include": ["cz"]},
   "languageCodes": ["cs", "en", "sk"],
-  "name": "Czech OSM community",
-  "description": "Map portal, website and contacts on OSM members in Czechia",
   "url": "https://openstreetmap.cz/komunita",
-  "contacts": [{"name": "osmcz", "email": "dev@openstreetmap.cz"}]
+  "strings": {
+    "name": "Czech OSM community",
+    "description": "Map portal, website and contacts on OSM members in Czechia"
+  },
+  "contacts": [
+    {
+      "name": "osmcz",
+      "email": "dev@openstreetmap.cz"
+    }
+  ]
 }

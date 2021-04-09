@@ -3,9 +3,16 @@
   "type": "reddit",
   "locationSet": {"include": ["001"]},
   "languageCodes": ["en"],
-  "name": "OpenStreetMap on Reddit",
-  "description": "/r/openstreetmap/ is a great place to learn more about OpenStreetMap.  Ask us anything!",
   "url": "https://www.reddit.com/r/openstreetmap/",
-  "contacts": [{"name": "Serge Wroclawski", "email": "emacsen@gmail.com"}],
-  "order": 2
+  "order": 2,
+  "strings": {
+    "name": "OpenStreetMap on Reddit",
+    "description": "/r/openstreetmap/ is a great place to learn more about OpenStreetMap.  Ask us anything!"
+  },
+  "contacts": [
+    {
+      "name": "Serge Wroclawski",
+      "email": "emacsen@gmail.com"
+    }
+  ]
 }

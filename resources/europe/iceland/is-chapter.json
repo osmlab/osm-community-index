@@ -3,9 +3,16 @@
   "type": "osm-lc",
   "locationSet": {"include": ["is"]},
   "languageCodes": ["en", "is"],
-  "name": "OpenStreetMap Iceland Local Chapter",
-  "description": "We help grow and improve OpenStreetMap in Iceland.",
   "url": "https://www.hlidskjalf.is/",
-  "contacts": [{"name": "Talk-is-owner", "email": "talk-is-owner@openstreetmap.org"}],
-  "order": 5
+  "order": 5,
+  "strings": {
+    "name": "OpenStreetMap Iceland Local Chapter",
+    "description": "We help grow and improve OpenStreetMap in Iceland."
+  },
+  "contacts": [
+    {
+      "name": "Talk-is-owner",
+      "email": "talk-is-owner@openstreetmap.org"
+    }
+  ]
 }

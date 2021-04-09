@@ -3,10 +3,17 @@
   "type": "telegram",
   "locationSet": {"include": ["br"]},
   "languageCodes": ["pt"],
-  "name": "OpenStreetMap Brasil Telegram",
-  "description": "Join the OpenStreetMap Brasil community on Telegram",
-  "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!",
   "url": "https://t.me/OSMBrasil_Comunidade",
-  "contacts": [{"name": "Vitor George", "email": "vitor.george@gmail.com"}],
-  "order": 1
+  "order": 1,
+  "strings": {
+    "name": "OpenStreetMap Brasil Telegram",
+    "description": "Join the OpenStreetMap Brasil community on Telegram",
+    "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"
+  },
+  "contacts": [
+    {
+      "name": "Vitor George",
+      "email": "vitor.george@gmail.com"
+    }
+  ]
 }

@@ -1,14 +1,24 @@
 {
   "id": "OSM-Chattanooga",
   "type": "facebook",
-  "locationSet": {"include": ["chattanooga.geojson"]},
+  "locationSet": {
+    "include": ["chattanooga.geojson"]
+  },
   "languageCodes": ["en"],
-  "name": "OSM Chattanooga",
-  "description": "The OpenStreetMap user group for Chattanooga",
   "url": "https://www.facebook.com/groups/123483951073256",
+  "order": 3,
+  "strings": {
+    "name": "OSM Chattanooga",
+    "description": "The OpenStreetMap user group for Chattanooga"
+  },
   "contacts": [
-    {"name": "Jenny Park", "email": "tennessee@tpl.org"},
-    {"name": "Randal Hale", "email": "rjhale@northrivergeographic.com"}
-  ],
-  "order": 3
+    {
+      "name": "Jenny Park",
+      "email": "tennessee@tpl.org"
+    },
+    {
+      "name": "Randal Hale",
+      "email": "rjhale@northrivergeographic.com"
+    }
+  ]
 }

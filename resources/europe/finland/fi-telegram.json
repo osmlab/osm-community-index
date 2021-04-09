@@ -3,8 +3,10 @@
   "type": "telegram",
   "locationSet": {"include": ["fi"]},
   "languageCodes": ["en", "fi", "sv"],
-  "name": "OSM Finland on Telegram",
-  "description": "OpenStreetMap Finland Telegram chat",
   "url": "https://t.me/osmFI",
-  "order": 3
+  "order": 3,
+  "strings": {
+    "name": "OSM Finland on Telegram",
+    "description": "OpenStreetMap Finland Telegram chat"
+  }
 }

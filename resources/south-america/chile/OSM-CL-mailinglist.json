@@ -3,9 +3,16 @@
   "type": "mailinglist",
   "locationSet": {"include": ["cl"]},
   "languageCodes": ["es"],
-  "name": "Talk-cl Mailing List",
-  "description": "A mailing list to discuss OpenStreetMap in Chile",
   "url": "https://lists.openstreetmap.org/listinfo/talk-cl/",
-  "contacts": [{"name": "Julio Costa", "email": "julio.costa@openstreetmap.cl"}],
-  "order": 5
+  "order": 5,
+  "strings": {
+    "name": "Talk-cl Mailing List",
+    "description": "A mailing list to discuss OpenStreetMap in Chile"
+  },
+  "contacts": [
+    {
+      "name": "Julio Costa",
+      "email": "julio.costa@openstreetmap.cl"
+    }
+  ]
 }
