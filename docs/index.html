@@ -69,6 +69,7 @@ var map = new mapboxgl.Map({
   zoom: 1
 });
 var previous = '';
+var flying = false;
 
 // wait for map to load before adjusting it
 map.on('load', function() {
@@ -97,15 +98,15 @@ map.on('load', function() {
       if (isNaN(iZoom)) { iZoom = 7; }
     }
     let coords = getParameterByName("map").split(/\,/);
+    flying = true;
     map.flyTo({center: [coords[1], coords[0]], zoom: iZoom, essential: true});
   }
 
 });
 
-map.on('moveend', function (originalEvent) {
-  if (originalEvent) {
-    // do nothing
-  } else {
+map.on('moveend', function (e) {
+  if (flying) {
+    flying = false;
     map.fire('flyend');
   }
 });
