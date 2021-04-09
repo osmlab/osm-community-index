@@ -110,7 +110,7 @@ map.on('moveend', function (originalEvent) {
   }
 });
 
-map.on('flyend', e => {
+map.on('flyend', function(e) {
   serveClick(new mapboxgl.Point(document.getElementById('map').offsetWidth / 2, document.getElementById('map').offsetHeight / 2), map.getCenter());
 });
 
