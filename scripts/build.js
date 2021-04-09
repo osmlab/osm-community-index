@@ -60,7 +60,8 @@ function buildAll() {
 // Gather default strings from `defaults.json`
 //
 function collectDefaults(tstrings) {
-  tstrings._defaults = {};
+// Let's not translate these just yet - re: #30
+// tstrings._defaults = {};
   process.stdout.write('📦  Defaults: ');
 
   let contents = fs.readFileSync('./defaults.json', 'utf8');
@@ -73,7 +74,8 @@ function collectDefaults(tstrings) {
     process.exit(1);
   }
 
-  Object.keys(defaults).forEach(k => tstrings._defaults[k] = defaults[k]);
+// Let's not translate these just yet - re: #30
+// Object.keys(defaults).forEach(k => tstrings._defaults[k] = defaults[k]);
 
   process.stdout.write(colors.green('✓') + ' 1\n');
   return defaults;
