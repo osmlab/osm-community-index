@@ -682,41 +682,6 @@
     },
     {
       "type": "Feature",
-      "id": "dfw_metro.geojson",
-      "properties": {
-        "id": "dfw_metro.geojson",
-        "area": 20956.61,
-        "resources": {
-          "Dallas-Fort-Worth-OSM": {
-            "id": "Dallas-Fort-Worth-OSM",
-            "type": "osm",
-            "locationSet": {"include": ["dfw_metro.geojson"]},
-            "languageCodes": ["en"],
-            "name": "Dallas-Fort Worth OSM",
-            "description": "The OpenStreetMap user group for Dallas-Fort Worth",
-            "extendedDescription": "Dallas, Fort Worth, and all the cities in between are abounding with creative and tech-savvy people. The vision for this usergroup is to find new ways to use the amazing resource of OSM.",
-            "url": "http://dfwosm.org/",
-            "contacts": [
-              {"name": "Andrew Matheny", "email": "andrewdmatheny@gmail.com"}
-            ]
-          }
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-97.75, 32.25],
-            [-97.75, 33.4],
-            [-96, 33.4],
-            [-96, 32.25],
-            [-97.75, 32.25]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "properties": {
         "iso1A2": "EC",
         "iso1A3": "ECU",
@@ -1283,40 +1248,6 @@
             [-0.6, 41.726],
             [-0.709, 41.838],
             [-0.886, 41.881]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "minneapolis_st_paul_metro.geojson",
-      "properties": {
-        "id": "minneapolis_st_paul_metro.geojson",
-        "area": 7662.86,
-        "resources": {
-          "MapMinnesota": {
-            "id": "MapMinnesota",
-            "type": "meetup",
-            "locationSet": {"include": ["minneapolis_st_paul_metro.geojson"]},
-            "languageCodes": ["en"],
-            "name": "MapMinnesota",
-            "description": "Mappers and OpenStreetMap enthusiasts in the Twin Cities area",
-            "extendedDescription": "Connecting OpenStreetMap enthusiasts in Minnesota and the Twin Cities!",
-            "url": "https://www.meetup.com/Map-Minnesota/",
-            "contacts": [{"name": "Ian Dees", "email": "ian.dees@gmail.com"}],
-            "order": 5
-          }
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-93.801, 44.578],
-            [-93.801, 45.348],
-            [-92.666, 45.348],
-            [-92.666, 44.578],
-            [-93.801, 44.578]
           ]
         ]
       }
