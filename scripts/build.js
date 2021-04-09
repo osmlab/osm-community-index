@@ -70,7 +70,7 @@ function collectDefaults(tstrings) {
     defaults = JSON.parse(contents);
   } catch (jsonParseError) {
     console.error(colors.red(`Error - ${jsonParseError.message} in:`));
-    console.error('  ' + colors.yellow(file));
+    console.error('  ' + colors.yellow('./defaults.json'));
     process.exit(1);
   }
 
@@ -327,4 +327,4 @@ function sort(obj) {
     sorted[k] = Array.isArray(obj[k]) ? obj[k].sort(withLocale) : obj[k];
   });
   return sorted;
-};
+}

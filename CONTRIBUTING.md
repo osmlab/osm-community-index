@@ -43,12 +43,14 @@ Resource files look like this:
   "type": "slack",
   "locationSet": { "include": ["us"] }
   "languageCodes": ["en"],
-  "name": "OpenStreetMap US Slack",
-  "description": "All are welcome! Sign up at {signupUrl}",
-  "extendedDescription": "OpenStreetMap is built by a community of mappers that..."
   "signupUrl": "https://slack.openstreetmap.us/",
   "url": "https://osmus.slack.com",
   "order": 4,
+  "strings": {
+    "name": "OpenStreetMap US Slack",
+    "description": "All are welcome! Sign up at {signupUrl}",
+    "extendedDescription": "OpenStreetMap is built by a community of mappers that..."
+  },
   "contacts": [
     {
       "name" : "Barney Rubble",
@@ -74,17 +76,12 @@ Here are the properties that a resource file can contain:
 * __`id`__ - (required) A unique identifier for the resource.
 * __`locationSet`__ - (required) Where the community resource is active (see below for details).
 * __`type`__ - (required) Type of community resource (see below for list).
-* __`name`__ - (required) Display name for this community resource
-(in English, will be sent to Transifex for translation to other languages)
-* __`description`__ - (required) One line description of the community resource
-(in English, will be sent to Transifex for translation to other languages)
-* __`extendedDescription`__ - (optional) Longer description of the community resource
-(in English, will be sent to Transifex for translation to other languages)
 * __`url`__ - (required) A url link to visit the community resource
 * __`signupUrl`__ - (optional) A url link to sign up for the community resource
 * __`languageCodes`__ - (optional) Array of [two letter](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) or [three letter](https://en.wikipedia.org/wiki/List_of_ISO_639-3_codes) spoken by this community
 * __`order`__ - (optional) When several resources with same geography are present, this adjusts the display order (default = 0, higher numbers display more prominently)
-* __`contacts`__ - (optional) Contact information for people who are responsible for the resource.
+* __`strings`__ - (required) Text strings describing this resource (see below for details).
+* __`contacts`__ - (optional) Contact information for people who are responsible for the resource (see below for details).
 * __`events`__ - (optional) Upcoming events that the resource wants to promote (see below for details).
 
 
@@ -152,6 +149,16 @@ Type | Icon | Description
  `youtube` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/youtube.svg"/> </sub> | A [YouTube](https://youtube.com) channel.
 
 
+#### strings
+
+Text strings for this community resource.  These should be supplied in English, and they will be
+sent to Transifex for translation to other languages.
+
+* __`name`__ - (required) Display name for this community resource
+* __`description`__ - (required) One line description of the community resource
+* __`extendedDescription`__ - (optional) Longer description of the community resource
+
+
 #### contacts
 
 Each community resource should have at least one contact person. This is optional.
@@ -211,6 +218,7 @@ If you want to test the changes you've made, use this three simple steps:
 3. Run `npm run local`
 
 The latter will build the distribution files (`npm run dist`), execute a script to prepare the distribution files to run locally and then start the simple http-server, which by default listens on `http://localhost:8081`. You can now browse to that address and see your changes in action.
+
 
 ### Translations
 
