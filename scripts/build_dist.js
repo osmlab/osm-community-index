@@ -11,7 +11,7 @@ buildAll();
 
 
 function buildAll() {
-  const START = '🏗   ' + colors.yellow('Building dist...');
+  const START = '🏗   ' + colors.yellow('Building dist…');
   const END = '👍  ' + colors.green('dist built');
 
   console.log('');
@@ -50,29 +50,29 @@ function deepClone(obj) {
 //     {
 //       type: 'Feature',
 //       id: 'Q117',
-//       geometry: { ... },
+//       geometry: { … },
 //       properties: {
 //         'area': 297118.3,
 //         'resources': {
-//           'osm-gh-facebook': { ... },
-//           'osm-gh-twitter': { ... },
-//           'talk-gh': { ... }
+//           'osm-gh-facebook': { … },
+//           'osm-gh-twitter': { … },
+//           'talk-gh': { … }
 //         }
 //       }
 //     }, {
 //       type: 'Feature',
 //       id: 'Q1019',
-//       geometry: { ... },
+//       geometry: { … },
 //       properties: {
 //         'area': 964945.85,
 //         'resources': {
-//           'osm-mg-facebook': { ... },
-//           'osm-mg-twitter': { ... },
-//           'talk-mg': { ... }
+//           'osm-mg-facebook': { … },
+//           'osm-mg-twitter': { … },
+//           'talk-mg': { … }
 //         }
 //       }
 //     },
-//     ...
+//     …
 //   ]
 // }
 //
@@ -80,8 +80,8 @@ function generateCombined(resources, featureCollection) {
   let keepFeatures = {};
   const loco = new LocationConflation(featureCollection);
 
-  Object.keys(resources).forEach(resourceId => {
-    const resource = resources[resourceId];
+  Object.keys(resources).forEach(resourceID => {
+    const resource = resources[resourceID];
     const feature = loco.resolveLocationSet(resource.locationSet).feature;
 
     let keepFeature = keepFeatures[feature.id];
@@ -91,7 +91,20 @@ function generateCombined(resources, featureCollection) {
       keepFeatures[feature.id] = keepFeature;
     }
 
-    keepFeature.properties.resources[resourceId] = deepClone(resource);
+    let res = deepClone(resource);
+
+    // resolve strings
+    if (res.strings.name) {
+      res.name = res.strings.name;
+    }
+    if (res.strings.description) {
+      res.description = res.strings.description;
+    }
+    if (res.strings.extendedDescription) {
+      res.extendedDescription = res.strings.extendedDescription;
+    }
+
+    keepFeature.properties.resources[resourceID] = res;
   });
 
   return { type: 'FeatureCollection', features: Object.values(keepFeatures) };
