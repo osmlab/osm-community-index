@@ -9,6 +9,7 @@ const rewind = require('geojson-rewind');
 const shell = require('shelljs');
 const stringify = require('@aitodotai/json-stringify-pretty-compact');
 const Validator = require('jsonschema').Validator;
+const withLocale = require('locale-compare')('en-US');
 const YAML = require('js-yaml');
 
 const geojsonSchema = require('../schema/geojson.json');
@@ -36,8 +37,12 @@ function buildAll() {
     'i18n/en.yaml'
   ]);
 
-  // Features
   let tstrings = {};   // translation strings
+
+  // Defaults
+  const defaults = collectDefaults(tstrings);
+
+  // Features
   const features = collectFeatures();
   const featureCollection = { type: 'FeatureCollection', features: features };
   fs.writeFileSync('dist/featureCollection.json', stringify(featureCollection, { maxLength: 9999 }) + '\n');
@@ -51,6 +56,33 @@ function buildAll() {
 }
 
 
+//
+// Gather default strings from `defaults.json`
+//
+function collectDefaults(tstrings) {
+  tstrings._defaults = {};
+  process.stdout.write('📦  Defaults: ');
+
+  let contents = fs.readFileSync('./defaults.json', 'utf8');
+  let defaults;
+  try {
+    defaults = JSON.parse(contents);
+  } catch (jsonParseError) {
+    console.error(colors.red(`Error - ${jsonParseError.message} in:`));
+    console.error('  ' + colors.yellow(file));
+    process.exit(1);
+  }
+
+  Object.keys(defaults).forEach(k => tstrings._defaults[k] = defaults[k]);
+
+  process.stdout.write(colors.green('✓') + ' 1\n');
+  return defaults;
+}
+
+
+//
+// Gather feature files from `/features/**/*.geojson`
+//
 function collectFeatures() {
   let features = [];
   let files = {};
@@ -122,6 +154,9 @@ function collectFeatures() {
 }
 
 
+//
+// Gather resource files from `/resources/**/*.json`
+//
 function collectResources(tstrings, featureCollection) {
   let resources = {};
   let files = {};
@@ -276,9 +311,11 @@ function prettifyFile(file, object, contents) {
 // Returns an object with sorted keys and sorted values.
 // (This is useful for file diffing)
 function sort(obj) {
+  if (!obj) return null;
+
   let sorted = {};
-  Object.keys(obj).sort().forEach(k => {
-    sorted[k] = Array.isArray(obj[k]) ? obj[k].sort() : obj[k];
+  Object.keys(obj).sort(withLocale).forEach(k => {
+    sorted[k] = Array.isArray(obj[k]) ? obj[k].sort(withLocale) : obj[k];
   });
   return sorted;
-}
+};
