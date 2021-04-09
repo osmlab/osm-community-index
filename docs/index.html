@@ -58,6 +58,8 @@
 
 // define access token
 mapboxgl.accessToken = 'pk.eyJ1IjoibWlrZWxtYXJvbiIsImEiOiJjaWZlY25lZGQ2cTJjc2trbmdiZDdjYjllIn0.Wx1n0X7aeCQyDTnK6_mrGw';
+// cdn base address
+var cdnBase = 'https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/';
 
 // create map
 var map = new mapboxgl.Map({
@@ -66,12 +68,11 @@ var map = new mapboxgl.Map({
   center: [0,0],
   zoom: 1
 });
-
+var previous = '';
 
 // wait for map to load before adjusting it
 map.on('load', function() {
-  var previous = '';
-  var dataURL = 'https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/completeFeatureCollection.min.json';
+  var dataURL = cdnBase + 'completeFeatureCollection.min.json';
 
   map.addSource('osm-community-index', { type: 'geojson', data: dataURL });
   map.addLayer({
@@ -86,55 +87,93 @@ map.on('load', function() {
 
   // change info window on click
   map.on('click', function (e) {
-    var hits = map.queryRenderedFeatures(e.point, { layers: ['osm-community-index'] });
-    var seen = {};   // to ignore duplicate results from queryRenderedFeatures - #360
-    var communities = [];
+    serveClick(e.point, e.lngLat);
+  });
 
-    // gather the communities from the result
-    hits.forEach(function(hit) {
-      var props = hit.properties || {};
-      var resources = {};
-      try {
-        resources = JSON.parse(props.resources || '{}');
-      } catch (e) { }
+  if (getParameterByName("map") != "" && getParameterByName("map") !== null) {
+    let iZoom = 7;
+    if (getParameterByName("zoom") != "" && getParameterByName("zoom") !== null) {
+      iZoom = parseInt(getParameterByName("zoom"));
+      if (isNaN(iZoom)) { iZoom = 7; }
+    }
+    let coords = getParameterByName("map").split(/\,/);
+    map.flyTo({center: [coords[1], coords[0]], zoom: iZoom, essential: true});
+  }
 
-      for (var k in resources) {
-        if (seen[k]) continue;
-        seen[k] = true;
+});
 
-        var community = resources[k];
-        communities.push({
-          'area': props.area || Infinity,
-          'order': community.order || 0,
-          'community': community
-        });
-      }
-    });
+map.on('moveend', function (originalEvent) {
+  if (originalEvent) {
+    // do nothing
+  } else {
+    map.fire('flyend');
+  }
+});
 
-    // sort by feature area ascending, community order descending
-    communities.sort(function(a, b) {
-      return a.area - b.area || b.order - a.order;
-    });
+map.on('flyend', function(e) {
+  serveClick(new mapboxgl.Point(document.getElementById('map').offsetWidth / 2, document.getElementById('map').offsetHeight / 2), map.getCenter());
+});
 
-    // display
-    var inner = '';
-    communities.forEach(function(c) {
-      var community = c.community;
-      var iconURL = 'https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/' + community.type + '.svg';
+function serveClick(ePoint, eLatLng) {
+  var hits = map.queryRenderedFeatures(ePoint, { layers: ['osm-community-index'] });
+  var seen = {};   // to ignore duplicate results from queryRenderedFeatures - #360
+  var communities = [];
 
-      inner += '<div class="resource">'
-        + '<img class="icon" src="' + iconURL + '"/>'
-        + '<a class="label" target="_blank" href="' + community.url + '">' + community.name + '</a>'
-        + '</div>';
-    });
+  // gather the communities from the result
+  hits.forEach(function(hit) {
+    var props = hit.properties || {};
+    var resources = {};
+    try {
+      resources = JSON.parse(props.resources || '{}');
+    } catch (e) { }
 
-    if (inner !== previous) {
-      previous = inner;
-      document.getElementById('pd').innerHTML = inner;
+    for (var k in resources) {
+      if (seen[k]) continue;
+      seen[k] = true;
+
+      var community = resources[k];
+      communities.push({
+        'area': props.area || Infinity,
+        'order': community.order || 0,
+        'community': community
+      });
     }
   });
 
-});
+  // sort by feature area ascending, community order descending
+  communities.sort(function(a, b) {
+    return a.area - b.area || b.order - a.order;
+  });
+
+  // display
+  var inner = '';
+  communities.forEach(function(c) {
+    var community = c.community;
+    var iconURL = cdnBase + 'img/' + community.type + '.svg';
+
+    inner += '<div class="resource">'
+      + '<img class="icon" src="' + iconURL + '"/>'
+      + '<a class="label" target="_blank" href="' + community.url + '">' + community.name + '</a>'
+      + '</div>';
+  });
+  // show permalink
+  var iconURL = cdnBase + 'img/url.svg';
+  inner += '<hr style="border:1px solid #67e;color:#67e"/><div class="resource"><img class="icon" src="' + iconURL + '"/><a class="label" target="_blank" href="?map=' + eLatLng.lat + ',' + eLatLng.lng + '&zoom=' + map.getZoom().toString() + '">Permalink to this position</a></div>';
+
+  if (inner !== previous) {
+    previous = inner;
+    document.getElementById('pd').innerHTML = inner;
+  }
+}
+
+function getParameterByName(name, url = window.location.href) {
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
 
 </script>
 
