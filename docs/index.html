@@ -52,7 +52,7 @@
 
 <body>
 <div id='map'></div>
-<div class='map-overlay' id='features'><h2>OSM Communities</h2><div id='pd'></div></div>
+<div class='map-overlay' id='features'><h2>OSM Communities</h2><div id='resultPane'></div></div>
 
 <script>
 
@@ -87,24 +87,24 @@ map.on('load', function() {
   map.getCanvas().style.cursor = 'default';
 
   // change info window on click
-  map.on('click', function (e) {
+  map.on('click', function(e) {
     serveClick(e.point, e.lngLat);
   });
 
   if (getParameterByName("map") != "" && getParameterByName("map") !== null) {
-    let iZoom = 7;
+    var iZoom = 7;
     if (getParameterByName("zoom") != "" && getParameterByName("zoom") !== null) {
       iZoom = parseInt(getParameterByName("zoom"));
       if (isNaN(iZoom)) { iZoom = 7; }
     }
-    let coords = getParameterByName("map").split(/\,/);
+    var coords = getParameterByName("map").split(/\,/);
     flying = true;
     map.flyTo({center: [coords[1], coords[0]], zoom: iZoom, essential: true});
   }
 
 });
 
-map.on('moveend', function (e) {
+map.on('moveend', function(e) {
   if (flying) {
     flying = false;
     map.fire('flyend');
@@ -151,29 +151,33 @@ function serveClick(ePoint, eLatLng) {
   communities.forEach(function(c) {
     var community = c.community;
     var iconURL = cdnBase + 'img/' + community.type + '.svg';
-
     inner += '<div class="resource">'
       + '<img class="icon" src="' + iconURL + '"/>'
       + '<a class="label" target="_blank" href="' + community.url + '">' + community.name + '</a>'
       + '</div>';
   });
+
   // show permalink
+  var lat = eLatLng.lat.toFixed(5);
+  var lng = eLatLng.lng.toFixed(5);
+  var zoom = map.getZoom().toFixed(2);
   var iconURL = cdnBase + 'img/url.svg';
-  inner += '<hr style="border:1px solid #67e;color:#67e"/><div class="resource"><img class="icon" src="' + iconURL + '"/><a class="label" target="_blank" href="?map=' + eLatLng.lat + ',' + eLatLng.lng + '&zoom=' + map.getZoom().toString() + '">Permalink to this position</a></div>';
+  inner += '<hr style="border:1px solid #67e;color:#67e"/><div class="resource"><img class="icon" src="' + iconURL + '"/><a class="label" target="_blank" href="?map=' + lat + ',' + lng + '&zoom=' + zoom + '">Permalink to this position</a></div>';
 
   if (inner !== previous) {
     previous = inner;
-    document.getElementById('pd').innerHTML = inner;
+    document.getElementById('resultPane').innerHTML = inner;
   }
 }
 
-function getParameterByName(name, url = window.location.href) {
-    name = name.replace(/[\[\]]/g, '\\$&');
-    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-        results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+function getParameterByName(name) {
+  name = name.replace(/[\[\]]/g, '\\$&');
+  var url = window.location.href;
+  var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
+  var results = regex.exec(url);
+  if (!results) return null;
+  if (!results[2]) return '';
+  return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
 
 </script>
