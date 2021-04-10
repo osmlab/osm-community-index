@@ -208,6 +208,12 @@ function collectResources(tstrings, featureCollection) {
     if (item.strings.extendedDescription) { obj.strings.extendedDescription = item.strings.extendedDescription; }
 
     if (item.contacts)  { obj.contacts = item.contacts; }
+
+    // if (obj.contacts) {
+    //   obj.contacts = obj.contacts.filter(c => (c.email && !/talk-/i.test(c.email)) );
+    //   if (!obj.contacts.length) delete obj.contacts;
+    // }
+
     if (item.events)    { obj.events = item.events; }
     item = obj;
 
