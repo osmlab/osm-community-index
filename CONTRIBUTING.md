@@ -78,6 +78,7 @@ Here are the properties that a resource file can contain:
 * __`type`__ - (required) Type of community resource (see below for list).
 * __`url`__ - (required) A url link to visit the community resource
 * __`signupUrl`__ - (optional) A url link to sign up for the community resource
+* __`account`__ - (optional) String containing the account information (e.g. `talk-af`)
 * __`languageCodes`__ - (optional) Array of [two letter](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) or [three letter](https://en.wikipedia.org/wiki/List_of_ISO_639-3_codes) spoken by this community
 * __`order`__ - (optional) When several resources with same geography are present, this adjusts the display order (default = 0, higher numbers display more prominently)
 * __`strings`__ - (required) Text strings describing this resource (see below for details).
@@ -151,12 +152,35 @@ Type | Icon | Description
 
 #### strings
 
-Text strings for this community resource.  These should be supplied in English, and they will be
-sent to Transifex for translation to other languages.
+The `strings` object contains text strings that describe the community resource.
+Strings should be supplied in US English, and they will be sent to Transifex for translation to other languages.
 
-* __`name`__ - (required) Display name for this community resource
-* __`description`__ - (required) One line description of the community resource
+* __`community`__ - (optional) Display name for the community, (e.g. "OpenStreetMap Ethiopia")
+* __`name`__ - (optional) Display name for this community resource (e.g. "OpenStreetMap Ethiopia on Facebook")
+* __`description`__ - (optional) One line description of the community resource
 * __`extendedDescription`__ - (optional) Longer description of the community resource
+
+Also, all string properties support the following _replacement tokens_:
+
+* __`{account}`__ - Will be replaced with the `account` value (e.g. "The {account} mailing list" -> "The talk-et mailing list")
+* __`{community}`__ - Will be replaced with the `community` value (e.g. "{community} on Facebook" -> "OpenStreetMap Ethiopia on Facebook")
+* __`{url}`__ - Will be replaced with the `url` value (e.g. "Visit {url} to learn more" -> "Visit http://example.com to learn more ")
+* __`{signupUrl}`__ - Will be replaced with the `signupUrl` value (e.g. "Signup at {signupUrl}" -> "Sign up at http://example.com ")
+
+Many resource types support _default string values_ found in [`defaults.json`](defaults.json), for example:
+```js
+"facebook": {
+  "name": "{community} on Facebook",
+  "description": "Join our community on Facebook"
+},
+"mailinglist": {
+  "name": "{account} Mailing List",
+  "description": "The official mailing list for {community}"
+},
+…
+```
+
+Although all string properties are optional, **each resource must be able to resolve a `name` and `description`**, either by specifying them directly or generating them from default values and replacement tokens.
 
 
 #### contacts
@@ -226,13 +250,6 @@ All community resources automatically support localization of the
 `name`, `description`, and `extendedDescription` text.  These fields
 should be written in US English.
 
-The `description` and `extendedDescription` properties support the following
-replacement tokens:
-
-* __`{url}`__ - Will be replaced with the `url`
-* __`{signupUrl}`__ - Will be replaced with the `signupUrl`
-
-For example: "Sign up at {signupUrl}".
 
 If a resource includes events, you can choose whether to write the
 `name`, `description`, and `where` fields in your local language, or
