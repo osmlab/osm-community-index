@@ -1,9 +1,7 @@
 {
   "id": "OSM-Ottawa-meetup",
   "type": "meetup",
-  "locationSet": {
-    "include": ["ottawa_gatineau.geojson"]
-  },
+  "locationSet": {"include": ["ottawa_gatineau.geojson"]},
   "languageCodes": ["en", "fr"],
   "url": "https://www.meetup.com/openstreetmap-ottawa/",
   "strings": {
@@ -11,13 +9,7 @@
     "description": "Mappers and OpenStreetMap users in the Ottawa area"
   },
   "contacts": [
-    {
-      "name": "Denis Carriere",
-      "email": "carriere.denis@gmail.com"
-    },
-    {
-      "name": "John Marshall",
-      "email": "rps333@gmail.com"
-    }
+    {"name": "Denis Carriere", "email": "carriere.denis@gmail.com"},
+    {"name": "John Marshall", "email": "rps333@gmail.com"}
   ]
 }

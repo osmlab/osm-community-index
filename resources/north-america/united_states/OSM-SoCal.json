@@ -1,9 +1,7 @@
 {
   "id": "OSM-SoCal",
   "type": "meetup",
-  "locationSet": {
-    "include": ["la_metro.geojson"]
-  },
+  "locationSet": {"include": ["la_metro.geojson"]},
   "languageCodes": ["en"],
   "url": "https://www.meetup.com/OSM-Southern-California/",
   "order": 5,
@@ -13,9 +11,6 @@
     "extendedDescription": "OpenStreetMap (OSM) Southern California is for anyone interested in mapping to get together to work with OpenStreetMap.  OpenStreetMap, the Wikipedia of maps, is a free open-source map of the world being created by more than 1,000,000 volunteers around the globe.  Everyone is welcome.  If you don't know OpenStreetMap, we'll teach you. If you have an idea for a mapping project or even a field trip that the group can do, great!"
   },
   "contacts": [
-    {
-      "name": "Charlotte Wolter",
-      "email": "techlady@techlady.com"
-    }
+    {"name": "Charlotte Wolter", "email": "techlady@techlady.com"}
   ]
 }

@@ -1,9 +1,7 @@
 {
   "id": "cat-mailinglist",
   "type": "mailinglist",
-  "locationSet": {
-    "include": ["catalan_countries.geojson"]
-  },
+  "locationSet": {"include": ["catalan_countries.geojson"]},
   "languageCodes": ["ca"],
   "url": "https://lists.openstreetmap.org/listinfo/talk-cat",
   "order": 9,
@@ -12,9 +10,6 @@
     "description": "Talk-cat is the mailing list for catalan speackers and people working on the Catalan Countries area in the OSM community"
   },
   "contacts": [
-    {
-      "name": "Xavier Barnada",
-      "email": "xbarnada@gmail.com"
-    }
+    {"name": "Xavier Barnada", "email": "xbarnada@gmail.com"}
   ]
 }

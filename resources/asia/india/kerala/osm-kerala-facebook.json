@@ -1,9 +1,7 @@
 {
   "id": "OSM-Kerala-facebook",
   "type": "facebook",
-  "locationSet": {
-    "include": ["india_kerala.geojson"]
-  },
+  "locationSet": {"include": ["india_kerala.geojson"]},
   "url": "https://facebook.com/osmkerala/",
   "strings": {
     "name": "OpenStreetMap Kerala - Participatory neighborhood mapping",
@@ -15,9 +13,6 @@
       "name": "Manoj Karingamadathil",
       "email": "dartermanoj@gmail.com"
     },
-    {
-      "name": "Jaisen Nedumpala",
-      "email": "jaisuvyas@gmail.com"
-    }
+    {"name": "Jaisen Nedumpala", "email": "jaisuvyas@gmail.com"}
   ]
 }

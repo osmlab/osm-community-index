@@ -1,9 +1,7 @@
 {
   "id": "MappingDC-meetup",
   "type": "meetup",
-  "locationSet": {
-    "include": ["dc_metro.geojson"]
-  },
+  "locationSet": {"include": ["dc_metro.geojson"]},
   "languageCodes": ["en"],
   "url": "https://mappingdc.org/",
   "order": 5,
@@ -13,9 +11,6 @@
     "extendedDescription": "We are a group of volunteer mappers who aim to improve the OpenStreetMap in the DC area. We also aim to teach others about the OSM ecosystem, data analytics, cartography, and GIS. We gather every other month at meetups to focus on one area of our city."
   },
   "contacts": [
-    {
-      "name": "Brian DeRocher",
-      "email": "brian@derocher.org"
-    }
+    {"name": "Brian DeRocher", "email": "brian@derocher.org"}
   ]
 }

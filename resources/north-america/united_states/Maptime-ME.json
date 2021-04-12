@@ -1,9 +1,7 @@
 {
   "id": "Maptime-ME-meetup",
   "type": "meetup",
-  "locationSet": {
-    "include": ["portland_me.geojson"]
-  },
+  "locationSet": {"include": ["portland_me.geojson"]},
   "languageCodes": ["en"],
   "url": "https://www.meetup.com/MaptimeME/",
   "order": 5,
@@ -13,9 +11,6 @@
     "extendedDescription": "Maptime is, rather literally, time for mapmaking.  Our mission is to open the doors of cartographic possibility to anyone interested by creating a time and space for collaborative learning, exploration, and map creation using mapping tools and technologies."
   },
   "contacts": [
-    {
-      "name": "Malcolm Toon",
-      "email": "malcolm@foreflight.com"
-    }
+    {"name": "Malcolm Toon", "email": "malcolm@foreflight.com"}
   ]
 }

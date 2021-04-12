@@ -1,9 +1,7 @@
 {
   "id": "OSM-Portland",
   "type": "meetup",
-  "locationSet": {
-    "include": ["portland_or.geojson"]
-  },
+  "locationSet": {"include": ["portland_or.geojson"]},
   "languageCodes": ["en"],
   "url": "https://www.meetup.com/OpenStreetMap-Portland/",
   "order": 5,
@@ -13,9 +11,6 @@
     "extendedDescription": "OpenStreetMap (OSM) is a map of the world made by people like you. It's a map that you build, that's given away for free like wikipedia. Check out osm.org for more, and come join us at a meetup to talk maps, contribute to OSM, and have fun!"
   },
   "contacts": [
-    {
-      "name": "Madeline Steele",
-      "email": "madeline.steele@gmail.com"
-    }
+    {"name": "Madeline Steele", "email": "madeline.steele@gmail.com"}
   ]
 }

@@ -1,22 +1,14 @@
 {
   "id": "osm-kerala-wiki",
   "type": "wiki",
-  "locationSet": {
-    "include": ["india_kerala.geojson"]
-  },
+  "locationSet": {"include": ["india_kerala.geojson"]},
   "url": "https://wiki.openstreetmap.org/wiki/Kerala",
   "strings": {
     "name": "OpenStreetMap Kerala",
     "description": "Want to know more about Kerala Mapping: {url}"
   },
   "contacts": [
-    {
-      "name": "Kevin",
-      "email": "muzirian@gmail.com"
-    },
-    {
-      "name": "Naveen Francis",
-      "email": "naveenpf@gmail.com"
-    }
+    {"name": "Kevin", "email": "muzirian@gmail.com"},
+    {"name": "Naveen Francis", "email": "naveenpf@gmail.com"}
   ]
 }

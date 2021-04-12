@@ -1,9 +1,7 @@
 {
   "id": "Trentino-Mailing-List",
   "type": "mailinglist",
-  "locationSet": {
-    "include": ["trentino.geojson"]
-  },
+  "locationSet": {"include": ["trentino.geojson"]},
   "languageCodes": ["it"],
   "url": "https://lists.openstreetmap.org/listinfo/talk-it-trentino",
   "order": -3,
@@ -12,9 +10,6 @@
     "description": "OpenStreetMap Italy regional talk list for Trentino"
   },
   "contacts": [
-    {
-      "name": "Luca Delucchi",
-      "email": "lucadeluge@gmail.com"
-    }
+    {"name": "Luca Delucchi", "email": "lucadeluge@gmail.com"}
   ]
 }

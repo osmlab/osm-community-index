@@ -1,9 +1,7 @@
 {
   "id": "Western-Slope-facebook",
   "type": "facebook",
-  "locationSet": {
-    "include": ["grand_junction_co.geojson"]
-  },
+  "locationSet": {"include": ["grand_junction_co.geojson"]},
   "languageCodes": ["en"],
   "url": "https://www.facebook.com/wsosm/",
   "order": 3,
@@ -12,9 +10,6 @@
     "description": "Mappers and OpenStreetMap users around Grand Junction, CO"
   },
   "contacts": [
-    {
-      "name": "Aaron Young",
-      "email": "aaron@kaartgroup.com"
-    }
+    {"name": "Aaron Young", "email": "aaron@kaartgroup.com"}
   ]
 }

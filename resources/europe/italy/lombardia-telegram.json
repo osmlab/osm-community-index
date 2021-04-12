@@ -1,9 +1,7 @@
 {
   "id": "lombardia-telegram",
   "type": "telegram",
-  "locationSet": {
-    "include": ["lombardia.geojson"]
-  },
+  "locationSet": {"include": ["lombardia.geojson"]},
   "languageCodes": ["it"],
   "url": "https://t.me/OSMLombardia",
   "order": 3,

@@ -1,9 +1,7 @@
 {
   "id": "mappa-mercia-group",
   "type": "group",
-  "locationSet": {
-    "include": ["england-west-midlands.geojson"]
-  },
+  "locationSet": {"include": ["england-west-midlands.geojson"]},
   "languageCodes": ["en"],
   "url": "http://www.mappa-mercia.org/",
   "order": 5,
@@ -13,9 +11,6 @@
     "extendedDescription": "Mappa Mercia is a project to grow OpenStreetMap in the West Midlands, UK. We run community events, provide training and support local organisations wishing to open up their data."
   },
   "contacts": [
-    {
-      "name": "Brian Prangle",
-      "email": "community@mappa-mercia.org"
-    }
+    {"name": "Brian Prangle", "email": "community@mappa-mercia.org"}
   ]
 }

@@ -1,9 +1,7 @@
 {
   "id": "de-hamburg-telegram",
   "type": "telegram",
-  "locationSet": {
-    "include": ["de-hamburg.geojson"]
-  },
+  "locationSet": {"include": ["de-hamburg.geojson"]},
   "languageCodes": ["de"],
   "url": "https://t.me/osm_de_hh",
   "strings": {

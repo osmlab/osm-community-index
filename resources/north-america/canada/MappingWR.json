@@ -1,9 +1,7 @@
 {
   "id": "MappingWR",
   "type": "slack",
-  "locationSet": {
-    "include": [[-80.4925, 43.4518]]
-  },
+  "locationSet": {"include": [[-80.4925, 43.4518]]},
   "url": "https://mappingwr.slack.com/",
   "signupUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeUswpQfyzwQugdLugtYh4WTMTce0EEjrnOS6xhQ416V4BFHg/viewform",
   "strings": {
@@ -11,9 +9,6 @@
     "description": "Making low carbon routes around Waterloo Region easy to find."
   },
   "contacts": [
-    {
-      "name": "David Trueman",
-      "email": "dwtrueman@gmail.com"
-    }
+    {"name": "David Trueman", "email": "dwtrueman@gmail.com"}
   ]
 }

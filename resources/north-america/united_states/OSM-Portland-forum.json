@@ -1,9 +1,7 @@
 {
   "id": "OSM-Portland-forum",
   "type": "forum",
-  "locationSet": {
-    "include": ["portland_or.geojson"]
-  },
+  "locationSet": {"include": ["portland_or.geojson"]},
   "languageCodes": ["en"],
   "url": "https://groups.google.com/group/osm-pdx",
   "order": -2,
@@ -13,9 +11,6 @@
     "extendedDescription": "This group is to facilitate improvements to OpenStreetMap in the Portland, Oregon area to support applications such as the Open Trip Planner."
   },
   "contacts": [
-    {
-      "name": "Madeline Steele",
-      "email": "madeline.steele@gmail.com"
-    }
+    {"name": "Madeline Steele", "email": "madeline.steele@gmail.com"}
   ]
 }

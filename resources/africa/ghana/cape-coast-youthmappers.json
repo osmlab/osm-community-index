@@ -1,9 +1,7 @@
 {
   "id": "cape-coast-youthmappers",
   "type": "twitter",
-  "locationSet": {
-    "include": ["cape_coast_gh.geojson"]
-  },
+  "locationSet": {"include": ["cape_coast_gh.geojson"]},
   "languageCodes": ["en"],
   "url": "https://twitter.com/YouthmappersUCC",
   "strings": {
@@ -12,9 +10,6 @@
     "extendedDescription": "This is the official handle for the Youth Mappers chapter of the University of Cape Coast, Ghana. we love maps, open data and helping the vulnerable."
   },
   "contacts": [
-    {
-      "name": "Enock Seth Nyamador",
-      "email": "kwadzo459@gmail.com"
-    }
+    {"name": "Enock Seth Nyamador", "email": "kwadzo459@gmail.com"}
   ]
 }

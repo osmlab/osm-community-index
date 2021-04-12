@@ -1,9 +1,7 @@
 {
   "id": "cat-github",
   "type": "github",
-  "locationSet": {
-    "include": ["catalan_countries.geojson"]
-  },
+  "locationSet": {"include": ["catalan_countries.geojson"]},
   "languageCodes": ["ca"],
   "url": "https://github.com/OSM-catalan",
   "order": 6,
@@ -12,9 +10,6 @@
     "description": "Projects from the OpenStreetMap Catalan Countries community on GitHub"
   },
   "contacts": [
-    {
-      "name": "Carlos Sánchez",
-      "email": "erielkhan@gmail.com"
-    }
+    {"name": "Carlos Sánchez", "email": "erielkhan@gmail.com"}
   ]
 }

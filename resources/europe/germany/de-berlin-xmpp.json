@@ -1,9 +1,7 @@
 {
   "id": "de-berlin-xmpp",
   "type": "xmpp",
-  "locationSet": {
-    "include": ["de-berlin-brandenburg.geojson"]
-  },
+  "locationSet": {"include": ["de-berlin-brandenburg.geojson"]},
   "languageCodes": ["de"],
   "url": "https://conversations.im/j/osm-bb@rooms.dismail.de",
   "strings": {
@@ -11,13 +9,7 @@
     "description": "Join our XMPP Multi-User Chat: {url}"
   },
   "contacts": [
-    {
-      "name": "Bernd",
-      "email": "bergaufsee@dismail.de"
-    },
-    {
-      "name": "Christopher Lorenz",
-      "email": "osm@lorenz.lu"
-    }
+    {"name": "Bernd", "email": "bergaufsee@dismail.de"},
+    {"name": "Christopher Lorenz", "email": "osm@lorenz.lu"}
   ]
 }

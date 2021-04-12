@@ -1,9 +1,7 @@
 {
   "id": "cat-telegram",
   "type": "telegram",
-  "locationSet": {
-    "include": ["catalan_countries.geojson"]
-  },
+  "locationSet": {"include": ["catalan_countries.geojson"]},
   "languageCodes": ["ca"],
   "url": "https://t.me/osmcat",
   "order": 8,
@@ -12,17 +10,8 @@
     "description": "Instant messaging for questions, coordination and chatting"
   },
   "contacts": [
-    {
-      "name": "Carlos Sánchez",
-      "email": "erielkhan@gmail.com"
-    },
-    {
-      "name": "Jose Luis Infante",
-      "email": "jlinfante@llefia.org"
-    },
-    {
-      "name": "Xavier Barnada",
-      "email": "xbarnada@gmail.com"
-    }
+    {"name": "Carlos Sánchez", "email": "erielkhan@gmail.com"},
+    {"name": "Jose Luis Infante", "email": "jlinfante@llefia.org"},
+    {"name": "Xavier Barnada", "email": "xbarnada@gmail.com"}
   ]
 }

@@ -1,9 +1,7 @@
 {
   "id": "de-berlin-telegram",
   "type": "telegram",
-  "locationSet": {
-    "include": ["de-berlin-brandenburg.geojson"]
-  },
+  "locationSet": {"include": ["de-berlin-brandenburg.geojson"]},
   "languageCodes": ["de"],
   "url": "https://t.me/osmberlin",
   "strings": {
@@ -11,9 +9,6 @@
     "description": "OpenStreetMap Berlin Telegram chat"
   },
   "contacts": [
-    {
-      "name": "Christopher Lorenz",
-      "email": "osm@lorenz.lu"
-    }
+    {"name": "Christopher Lorenz", "email": "osm@lorenz.lu"}
   ]
 }

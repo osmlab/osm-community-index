@@ -1,9 +1,7 @@
 {
   "id": "talk-it-piemonte_mailinglist",
   "type": "mailinglist",
-  "locationSet": {
-    "include": ["piemonte.geojson"]
-  },
+  "locationSet": {"include": ["piemonte.geojson"]},
   "languageCodes": ["it"],
   "url": "https://lists.openstreetmap.org/listinfo/talk-it-piemonte",
   "signupUrl": "https://lists.openstreetmap.org/listinfo/talk-it-piemonte",
@@ -14,13 +12,7 @@
     "extendedDescription": "Mailinglist for Piemonte region."
   },
   "contacts": [
-    {
-      "name": "Marco Brancolini",
-      "email": "mbranco2@gmail.com"
-    },
-    {
-      "name": "Andrea Musuruane",
-      "email": "musuruan@gmail.com"
-    }
+    {"name": "Marco Brancolini", "email": "mbranco2@gmail.com"},
+    {"name": "Andrea Musuruane", "email": "musuruan@gmail.com"}
   ]
 }

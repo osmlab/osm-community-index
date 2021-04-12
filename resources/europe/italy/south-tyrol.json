@@ -1,9 +1,7 @@
 {
   "id": "South-Tyrol-Mailing-List",
   "type": "mailinglist",
-  "locationSet": {
-    "include": ["south-tyrol.geojson"]
-  },
+  "locationSet": {"include": ["south-tyrol.geojson"]},
   "languageCodes": ["de", "en", "it", "lld"],
   "url": "https://lists.openstreetmap.org/listinfo/talk-it-southtyrol",
   "order": -3,
@@ -12,9 +10,6 @@
     "description": "OpenStreetMap Italy regional talk list for South Tyrol"
   },
   "contacts": [
-    {
-      "name": "Martin Raifer",
-      "email": "tyr.asd@gmail.com"
-    }
+    {"name": "Martin Raifer", "email": "tyr.asd@gmail.com"}
   ]
 }

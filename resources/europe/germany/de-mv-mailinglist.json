@@ -1,11 +1,7 @@
 {
   "id": "de-mv-mailinglist",
   "type": "mailinglist",
-  "locationSet": {
-    "include": [
-      "de-mecklenburg-vorpommern.geojson"
-    ]
-  },
+  "locationSet": {"include": ["de-mecklenburg-vorpommern.geojson"]},
   "languageCodes": ["de"],
   "url": "https://lists.openstreetmap.de/listinfo/meckpomm",
   "order": -3,
@@ -13,10 +9,5 @@
     "name": "Mecklenburg-Vorpommern Mailing List",
     "description": "This is the mailing list for the OSM community of Mecklenburg-Vorpommern"
   },
-  "contacts": [
-    {
-      "name": "FOSSGIS e.V.",
-      "email": "info@fossgis.de"
-    }
-  ]
+  "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}]
 }

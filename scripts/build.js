@@ -311,7 +311,7 @@ function validateFile(file, resource, schema) {
 
 
 function prettifyFile(file, object, contents) {
-  const pretty = stringify(object, { maxLength: 50 }) + '\n';
+  const pretty = stringify(object, { maxLength: 70 }) + '\n';
   if (pretty !== contents) {
     fs.writeFileSync(file, pretty);
   }

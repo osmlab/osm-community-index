@@ -1,9 +1,7 @@
 {
   "id": "Code-for-San-Jose-Slack",
   "type": "slack",
-  "locationSet": {
-    "include": ["south_sf_bay_area.geojson"]
-  },
+  "locationSet": {"include": ["south_sf_bay_area.geojson"]},
   "languageCodes": ["en"],
   "url": "https://codeforsanjose.slack.com/",
   "signupUrl": "https://slackin-c4sj.herokuapp.com/",

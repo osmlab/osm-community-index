@@ -1,9 +1,7 @@
 {
   "id": "us-ma-mailinglist",
   "type": "mailinglist",
-  "locationSet": {
-    "include": ["massachusetts.geojson"]
-  },
+  "locationSet": {"include": ["massachusetts.geojson"]},
   "languageCodes": ["en"],
   "url": "https://lists.openstreetmap.org/listinfo/talk-us-massachusetts",
   "order": -3,
@@ -12,9 +10,6 @@
     "description": "Email mailing list for the Massachusetts OSM community"
   },
   "contacts": [
-    {
-      "name": "Alan Bragg",
-      "email": "alan.ruth.bragg@gmail.com"
-    }
+    {"name": "Alan Bragg", "email": "alan.ruth.bragg@gmail.com"}
   ]
 }

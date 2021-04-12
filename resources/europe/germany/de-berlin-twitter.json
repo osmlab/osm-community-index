@@ -1,9 +1,7 @@
 {
   "id": "de-berlin-twitter",
   "type": "twitter",
-  "locationSet": {
-    "include": ["de-berlin-brandenburg.geojson"]
-  },
+  "locationSet": {"include": ["de-berlin-brandenburg.geojson"]},
   "languageCodes": ["de"],
   "url": "https://twitter.com/osmberlin",
   "strings": {
@@ -11,9 +9,6 @@
     "description": "Follow us on Twitter: {url}"
   },
   "contacts": [
-    {
-      "name": "Christopher Lorenz",
-      "email": "osm@lorenz.lu"
-    }
+    {"name": "Christopher Lorenz", "email": "osm@lorenz.lu"}
   ]
 }

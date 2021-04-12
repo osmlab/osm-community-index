@@ -1,9 +1,7 @@
 {
   "id": "OpenCleveland-meetup",
   "type": "meetup",
-  "locationSet": {
-    "include": ["cleveland.geojson"]
-  },
+  "locationSet": {"include": ["cleveland.geojson"]},
   "languageCodes": ["en"],
   "url": "https://www.meetup.com/open-cleveland/",
   "order": 5,
@@ -13,10 +11,7 @@
     "extendedDescription": "Open Geo Cleveland aims to be a resource for people to discuss and share knowledge on utilizing free geographic data sets especially OpenStreetMap, and Open geo-spatial software that manages, edits, and displays geographic data, and advocate for its use in Northeast Ohio. We're also a maptime chapter =)"
   },
   "contacts": [
-    {
-      "name": "Will Skora",
-      "email": "skorasaurus@gmail.com"
-    },
+    {"name": "Will Skora", "email": "skorasaurus@gmail.com"},
     {
       "name": "Anastasia Diamond-Ortiz",
       "email": "anastasia.diamond@gmail.com"

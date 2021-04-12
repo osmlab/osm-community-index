@@ -1,9 +1,7 @@
 {
   "id": "DF-telegram",
   "type": "telegram",
-  "locationSet": {
-    "include": ["brasilia_df.geojson"]
-  },
+  "locationSet": {"include": ["brasilia_df.geojson"]},
   "languageCodes": ["pt"],
   "url": "https://t.me/osmbsb",
   "strings": {
@@ -12,9 +10,6 @@
     "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"
   },
   "contacts": [
-    {
-      "name": "Wille Marcel",
-      "email": "wille@wille.blog.br"
-    }
+    {"name": "Wille Marcel", "email": "wille@wille.blog.br"}
   ]
 }

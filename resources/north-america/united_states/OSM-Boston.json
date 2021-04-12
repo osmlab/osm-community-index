@@ -1,9 +1,7 @@
 {
   "id": "OSM-Boston",
   "type": "meetup",
-  "locationSet": {
-    "include": ["boston_metro.geojson"]
-  },
+  "locationSet": {"include": ["boston_metro.geojson"]},
   "languageCodes": ["en"],
   "url": "https://www.meetup.com/OpenStreetMap-Boston/",
   "order": 5,
@@ -12,10 +10,5 @@
     "description": "Mappers and OpenStreetMap users in the Boston area",
     "extendedDescription": "OpenStreetMap is the free and open, wiki-style map of the world, with hundreds of thousands of contributions every day from people like you. Editing the map is simple, and fun! Join us both indoors and outdoors in our effort to create the best map of the Boston area and the rest of the world!"
   },
-  "contacts": [
-    {
-      "name": "Lars Ahlzen",
-      "email": "lars@ahlzen.com"
-    }
-  ]
+  "contacts": [{"name": "Lars Ahlzen", "email": "lars@ahlzen.com"}]
 }
