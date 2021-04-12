@@ -21,7 +21,7 @@ const resourceSchema = require('../schema/resource.json');
 let v = new Validator();
 v.addSchema(geojsonSchema, 'http://json.schemastore.org/geojson.json');
 
-let _tstrings = {};
+let _tstrings = { _defaults: {}, _communities: {} };
 let _defaults = {};
 let _features = {};
 let _resources = {};
@@ -54,6 +54,10 @@ function buildAll() {
   // Resources
   _resources = collectResources(featureCollection);
   fs.writeFileSync('dist/resources.json', stringify({ resources: sort(_resources) }, { maxLength: 9999 }) + '\n');
+
+  // Translations
+  _tstrings._defaults = sort(_tstrings._defaults);
+  _tstrings._communities = sort(_tstrings._communities);
   fs.writeFileSync('i18n/en.yaml', YAML.dump({ en: sort(_tstrings) }, { lineWidth: -1 }) );
 
   console.timeEnd(END);
@@ -64,8 +68,6 @@ function buildAll() {
 // Gather default strings from `defaults.json`
 //
 function collectDefaults() {
-// Let's not translate these just yet - re: #30
-// _tstrings._defaults = {};
   process.stdout.write('📦  Defaults: ');
 
   let contents = fs.readFileSync('./defaults.json', 'utf8');
@@ -78,8 +80,7 @@ function collectDefaults() {
     process.exit(1);
   }
 
-// Let's not translate these just yet - re: #30
-// Object.keys(defaults).forEach(k => _tstrings._defaults[k] = defaults[k]);
+  Object.keys(defaults).forEach(k => _tstrings._defaults[k] = defaults[k]);
 
   process.stdout.write(colors.green('✓') + ' 1\n');
   return defaults;
@@ -241,17 +242,37 @@ function collectResources(featureCollection) {
     resources[itemID] = item;
     files[itemID] = file;
 
-    // collect translation strings for this resource
-    _tstrings[itemID] = {
-      name: item.strings.name,
-      description: item.strings.description
-    };
+    // Collect translation strings for this resource
+    let translateStrings = {};
 
+    if (item.strings.community) {
+      const communityID = simplify(item.strings.community);
+      _tstrings._communities[communityID] = item.strings.community;
+    }
+    if (item.strings.name) {
+      translateStrings.name = item.strings.name;
+    }
+    if (item.strings.description) {
+      translateStrings.description = item.strings.description;
+    }
     if (item.strings.extendedDescription) {
-      _tstrings[itemID].extendedDescription = item.strings.extendedDescription;
+      translateStrings.extendedDescription = item.strings.extendedDescription;
     }
 
-    // Validate event dates and collect strings from upcoming events (where `i18n=true`)
+    const resolvedStrings = resolveStrings(item);
+    if (!resolvedStrings.name) {
+      console.error(colors.red('Error - Cannot resolve a name for resource: ') + colors.yellow(itemID));
+      console.error('  ' + colors.yellow(file));
+      process.exit(1);
+    }
+    if (!resolvedStrings.description) {
+      console.error(colors.red('Error - Cannot resolve a description for resource: ') + colors.yellow(itemID));
+      console.error('  ' + colors.yellow(file));
+      process.exit(1);
+    }
+
+
+    // Validate event dates and collect translation strings from upcoming events (where `i18n=true`)
     if (item.events) {
       let estrings = {};
 
@@ -282,8 +303,12 @@ function collectResources(featureCollection) {
       }
 
       if (Object.keys(estrings).length) {
-        _tstrings[itemID].events = estrings;
+        translateStrings.events = estrings;
       }
+    }
+
+    if (Object.keys(translateStrings).length) {
+      _tstrings[itemID] = translateStrings;
     }
 
     process.stdout.write(colors.green('✓'));
@@ -320,6 +345,50 @@ function prettifyFile(file, object, contents) {
 }
 
 
+// Resolves string token replacements, fail if any are unresolvable
+function resolveStrings(item) {
+  const itemStrings = item.strings || {};
+  const defaultStrings = _defaults[item.type] || {};
+
+  const replacements = {
+    account: item.account,
+    community: itemStrings.community,
+    signupUrl: item.signupUrl,
+    url: item.url
+  };
+
+  const resolved = {
+    name:                resolve(itemStrings.name || defaultStrings.name),
+    description:         resolve(itemStrings.description || defaultStrings.description),
+    extendedDescription: resolve(itemStrings.extendedDescription || defaultStrings.extendedDescription),
+    signupUrl:           resolve(item.signupUrl || defaultStrings.signupUrl),
+    url:                 resolve(item.url || defaultStrings.url)
+  };
+
+  return resolved;
+
+  function resolve(s) {
+    if (!s) return null;
+    let result = s;
+
+    for (let key in replacements) {
+      const token = `{${key}}`;
+      const regex = new RegExp(token, 'g');
+      if (regex.test(result)) {
+        const val = replacements[key];
+        if (!val) {
+          console.error(colors.red(`Error - Cannot resolve ${token} for resource: `) + colors.yellow(item.id));
+          process.exit(1);
+        } else {
+          result = result.replace(regex, val);
+        }
+      }
+    }
+    return result;
+  }
+}
+
+
 // Returns an object with sorted keys and sorted values.
 // (This is useful for file diffing)
 function sort(obj) {
@@ -333,7 +402,7 @@ function sort(obj) {
 }
 
 // Returns a string with diacritics, spaces, punctuation removed
-function simiplify(str) {
+function simplify(str) {
   if (typeof str !== 'string') return '';
   return diacritics.remove(
     str
