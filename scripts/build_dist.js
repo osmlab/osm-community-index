@@ -1,11 +1,13 @@
 const colors = require('colors/safe');
 const fs = require('fs');
 const LocationConflation = require('@ideditor/location-conflation');
+const resolveStrings = require('../lib/resolve_strings.js');
 const shell = require('shelljs');
 const stringify = require('@aitodotai/json-stringify-pretty-compact');
 
 const featureCollection = require('../dist/featureCollection.json');
 const resources = require('../dist/resources.json').resources;
+const defaults = require('../defaults.json');
 
 buildAll();
 
@@ -91,20 +93,13 @@ function generateCombined(resources, featureCollection) {
       keepFeatures[feature.id] = keepFeature;
     }
 
-    let res = deepClone(resource);
+    let item = deepClone(resource);
+    let resolvedStrings = resolveStrings(item, defaults);
+    if (resolvedStrings.name)                 { item.name = resolvedStrings.name; }
+    if (resolvedStrings.description)          { item.description = resolvedStrings.description; }
+    if (resolvedStrings.extendedDescription)  { item.extendedDescription = resolvedStrings.extendedDescription; }
 
-    // resolve strings
-    if (res.strings.name) {
-      res.name = res.strings.name;
-    }
-    if (res.strings.description) {
-      res.description = res.strings.description;
-    }
-    if (res.strings.extendedDescription) {
-      res.extendedDescription = res.strings.extendedDescription;
-    }
-
-    keepFeature.properties.resources[resourceID] = res;
+    keepFeature.properties.resources[resourceID] = item;
   });
 
   return { type: 'FeatureCollection', features: Object.values(keepFeatures) };
