@@ -31076,6 +31076,32 @@
             },
             "name": "OpenStreetMap Turkey Mailing List",
             "description": "Join our mailing list at {url}"
+          },
+          "osm-tr-telegram": {
+            "id": "osm-tr-telegram",
+            "type": "telegram",
+            "locationSet": {"include": ["tr"]},
+            "languageCodes": ["tr"],
+            "url": "https://t.me/osm_tr",
+            "strings": {
+              "name": "OpenStreetMap Turkey Telegram",
+              "description": "Join the message group in Turkish via {url}"
+            },
+            "name": "OpenStreetMap Turkey Telegram",
+            "description": "Join the message group in Turkish via {url}"
+          },
+          "osm-tr-twitter": {
+            "id": "osm-tr-twitter",
+            "type": "twitter",
+            "locationSet": {"include": ["tr"]},
+            "languageCodes": ["tr"],
+            "url": "https://twitter.com/OpenstreetmapTr",
+            "strings": {
+              "name": "OpenStreetMap Turkey Twitter",
+              "description": "Find us on Twitter at {url}"
+            },
+            "name": "OpenStreetMap Turkey Twitter",
+            "description": "Find us on Twitter at {url}"
           }
         }
       },
