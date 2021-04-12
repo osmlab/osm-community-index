@@ -21,7 +21,7 @@
     "build": "node scripts/build.js",
     "dist": "node scripts/build_dist.js",
     "icons": "node scripts/build_icons.js",
-    "lint": "eslint scripts/*.js",
+    "lint": "eslint scripts/*.js lib/*.js",
     "test": "npm run build && npm run lint",
     "stats": "node scripts/stats.js",
     "txpull": "tx pull -a",
