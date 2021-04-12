@@ -151,9 +151,10 @@ function serveClick(ePoint, eLatLng) {
   communities.forEach(function(c) {
     var community = c.community;
     var iconURL = cdnBase + 'img/' + community.type + '.svg';
+    var properName = community.name.charAt(0).toUpperCase() + community.name.slice(1);  // capitalize
     inner += '<div class="resource">'
       + '<img class="icon" src="' + iconURL + '"/>'
-      + '<a class="label" target="_blank" href="' + community.url + '">' + community.name + '</a>'
+      + '<a class="label" target="_blank" href="' + community.url + '">' + properName + '</a>'
       + '</div>';
   });
 
