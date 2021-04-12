@@ -3,16 +3,17 @@
     "node": true,
     "es6": true
   },
+  "extends": [
+    "eslint:recommended"
+  ],
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module"
   },
-  "extends": [
-    "eslint:recommended"
-  ],
   "rules": {
-    "dot-notation": "error",
+    "dot-notation": "off",
     "eqeqeq": ["error", "smart"],
+    "indent": ["off", 2],
     "keyword-spacing": "error",
     "linebreak-style": ["error", "unix"],
     "no-caller": "error",
@@ -49,6 +50,7 @@
     "no-unneeded-ternary": "error",
     "no-unused-expressions": "error",
     "no-unexpected-multiline": "error",
+    "no-useless-escape": "off",
     "no-unused-vars": "warn",
     "no-void": "error",
     "no-warning-comments": "warn",
