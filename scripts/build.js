@@ -19,6 +19,10 @@ const resourceSchema = require('../schema/resource.json');
 let v = new Validator();
 v.addSchema(geojsonSchema, 'http://json.schemastore.org/geojson.json');
 
+let _tstrings = {};
+let _defaults = {};
+let _features = {};
+let _resources = {};
 buildAll();
 
 
@@ -37,20 +41,18 @@ function buildAll() {
     'i18n/en.yaml'
   ]);
 
-  let tstrings = {};   // translation strings
-
   // Defaults
-  const defaults = collectDefaults(tstrings);
+  _defaults = collectDefaults();
 
   // Features
-  const features = collectFeatures();
-  const featureCollection = { type: 'FeatureCollection', features: features };
+  _features = collectFeatures();
+  const featureCollection = { type: 'FeatureCollection', features: _features };
   fs.writeFileSync('dist/featureCollection.json', stringify(featureCollection, { maxLength: 9999 }) + '\n');
 
   // Resources
-  const resources = collectResources(tstrings, featureCollection);
-  fs.writeFileSync('dist/resources.json', stringify({ resources: sort(resources) }, { maxLength: 9999 }) + '\n');
-  fs.writeFileSync('i18n/en.yaml', YAML.dump({ en: sort(tstrings) }, { lineWidth: -1 }) );
+  _resources = collectResources(featureCollection);
+  fs.writeFileSync('dist/resources.json', stringify({ resources: sort(_resources) }, { maxLength: 9999 }) + '\n');
+  fs.writeFileSync('i18n/en.yaml', YAML.dump({ en: sort(_tstrings) }, { lineWidth: -1 }) );
 
   console.timeEnd(END);
 }
@@ -59,9 +61,9 @@ function buildAll() {
 //
 // Gather default strings from `defaults.json`
 //
-function collectDefaults(tstrings) {
+function collectDefaults() {
 // Let's not translate these just yet - re: #30
-// tstrings._defaults = {};
+// _tstrings._defaults = {};
   process.stdout.write('📦  Defaults: ');
 
   let contents = fs.readFileSync('./defaults.json', 'utf8');
@@ -75,7 +77,7 @@ function collectDefaults(tstrings) {
   }
 
 // Let's not translate these just yet - re: #30
-// Object.keys(defaults).forEach(k => tstrings._defaults[k] = defaults[k]);
+// Object.keys(defaults).forEach(k => _tstrings._defaults[k] = defaults[k]);
 
   process.stdout.write(colors.green('✓') + ' 1\n');
   return defaults;
@@ -159,7 +161,7 @@ function collectFeatures() {
 //
 // Gather resource files from `/resources/**/*.json`
 //
-function collectResources(tstrings, featureCollection) {
+function collectResources(featureCollection) {
   let resources = {};
   let files = {};
   const loco = new LocationConflation(featureCollection);
@@ -192,29 +194,22 @@ function collectResources(tstrings, featureCollection) {
     if (item.locationSet.include) { obj.locationSet.include = item.locationSet.include; }
     if (item.locationSet.exclude) { obj.locationSet.exclude = item.locationSet.exclude; }
 
-    if (item.languageCodes)       { obj.languageCodes = item.languageCodes.sort(); }
-    if (item.community)           { obj.community = item.community; }
-    if (item.resource)            { obj.resource = item.resource; }
+    if (item.languageCodes)       { obj.languageCodes = item.languageCodes.sort(withLocale); }
     if (item.url)                 { obj.url = item.url; }
     if (item.signupUrl)           { obj.signupUrl = item.signupUrl; }
+    if (item.account)             { obj.account = item.account; }
     if (item.order)               { obj.order = item.order; }
 
     item.strings = item.strings || {};
     obj.strings = {};
     if (item.strings.community)           { obj.strings.community = item.strings.community; }
-    if (item.strings.resource)            { obj.strings.resource = item.strings.resource; }
     if (item.strings.name)                { obj.strings.name = item.strings.name; }
     if (item.strings.description)         { obj.strings.description = item.strings.description; }
     if (item.strings.extendedDescription) { obj.strings.extendedDescription = item.strings.extendedDescription; }
 
     if (item.contacts)  { obj.contacts = item.contacts; }
-
-    // if (obj.contacts) {
-    //   obj.contacts = obj.contacts.filter(c => (c.email && !/talk-/i.test(c.email)) );
-    //   if (!obj.contacts.length) delete obj.contacts;
-    // }
-
     if (item.events)    { obj.events = item.events; }
+
     item = obj;
 
     validateFile(file, item, resourceSchema);
@@ -245,13 +240,13 @@ function collectResources(tstrings, featureCollection) {
     files[itemID] = file;
 
     // collect translation strings for this resource
-    tstrings[itemID] = {
+    _tstrings[itemID] = {
       name: item.strings.name,
       description: item.strings.description
     };
 
     if (item.strings.extendedDescription) {
-      tstrings[itemID].extendedDescription = item.strings.extendedDescription;
+      _tstrings[itemID].extendedDescription = item.strings.extendedDescription;
     }
 
     // Validate event dates and collect strings from upcoming events (where `i18n=true`)
@@ -285,7 +280,7 @@ function collectResources(tstrings, featureCollection) {
       }
 
       if (Object.keys(estrings).length) {
-        tstrings[itemID].events = estrings;
+        _tstrings[itemID].events = estrings;
       }
     }
 

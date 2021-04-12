@@ -53,9 +53,7 @@
       "description": "(required) included and excluded locations for this resource",
       "type": "object",
       "additionalProperties": false,
-      "required": [
-        "include"
-      ],
+      "required": ["include"],
       "properties": {
         "include": {
           "description": "(required) locations included",
@@ -104,37 +102,33 @@
       "type": "string"
     },
 
+    "account": {
+      "description": "(optional) Resource account string, required for some resource types",
+      "examples": ["talk-af"],
+      "type": "string"
+    },
+
     "strings": {
       "description": "(required) Source text strings related to this community resource",
       "$comment": "All strings should be provided in English, and will be sent to Transifex for translation",
       "type": "object",
       "additionalProperties": false,
-      "required": ["name", "description"],
       "properties": {
         "community": {
+          "description": "(optional) Community Name",
           "examples": ["OSM Afghanistan"],
-          "description": "(optional) Community Name",
-          "type": "string"
-        },
-        "resource": {
-          "$comment": "Assumed to be in English, this value will be sent to Transifex for translation",
-          "examples": ["talk-af"],
-          "description": "(optional) Community Name",
           "type": "string"
         },
         "name": {
-          "$comment": "Assumed to be in English, this value will be sent to Transifex for translation",
-          "examples": ["Talk-af Mailing List"],
           "description": "(optional) Display name for this community resource",
+          "examples": ["Talk-af Mailing List"],
           "type": "string"
         },
         "description": {
-          "$comment": "Assumed to be in English, this value will be sent to Transifex for translation",
           "description": "(optional) One line description of the community resource",
           "type": "string"
         },
         "extendedDescription": {
-          "$comment": "Assumed to be in English, this value will be sent to Transifex for translation",
           "description": "(optional) Longer description of the community resource",
           "type": "string"
         }
