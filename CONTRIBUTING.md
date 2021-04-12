@@ -155,17 +155,21 @@ Type | Icon | Description
 The `strings` object contains text strings that describe the community resource.
 Strings should be supplied in US English, and they will be sent to Transifex for translation to other languages.
 
-* __`community`__ - (optional) Display name for the community, (e.g. "OpenStreetMap Ethiopia")
+* __`community`__ - (optional) Display name for the community (e.g. "OpenStreetMap Ethiopia")
 * __`name`__ - (optional) Display name for this community resource (e.g. "OpenStreetMap Ethiopia on Facebook")
 * __`description`__ - (optional) One line description of the community resource
 * __`extendedDescription`__ - (optional) Longer description of the community resource
 
 Also, all string properties support the following _replacement tokens_:
 
-* __`{account}`__ - Will be replaced with the `account` value (e.g. "The {account} mailing list" -> "The talk-et mailing list")
-* __`{community}`__ - Will be replaced with the `community` value (e.g. "{community} on Facebook" -> "OpenStreetMap Ethiopia on Facebook")
-* __`{url}`__ - Will be replaced with the `url` value (e.g. "Visit {url} to learn more" -> "Visit http://example.com to learn more ")
-* __`{signupUrl}`__ - Will be replaced with the `signupUrl` value (e.g. "Signup at {signupUrl}" -> "Sign up at http://example.com ")
+* __`{account}`__ - Will be replaced with the `account` value
+(e.g. "The {account} mailing list" -> "The talk-et mailing list")
+* __`{community}`__ - Will be replaced with the `community` value
+(e.g. "{community} on Facebook" -> "OpenStreetMap Ethiopia on Facebook")
+* __`{url}`__ - Will be replaced with the `url` value
+(e.g. "Visit {url} to learn more" -> "Visit `http://example.com` to learn more ")
+* __`{signupUrl}`__ - Will be replaced with the `signupUrl` value
+(e.g. "Signup at {signupUrl}" -> "Sign up at `http://example.com` ")
 
 Many resource types support _default string values_ found in [`defaults.json`](defaults.json), for example:
 ```js
