@@ -125,29 +125,29 @@ Each resource must have a `type`. The following values are supported:
 
 Type | Icon | Description
 :--- | :--- | :----------
- `aparat` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/aparat.svg"/> </sub> | An [Aparat](https://www.aparat.com/) video channel.
- `discord` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/discord.svg"/> </sub> | A [Discord](https://discordapp.com/) chat channel.
+ `aparat` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/aparat.svg"/> </sub> | An [Aparat](https://www.aparat.com/) video channel. `account` should contain the channel name.
+ `discord` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/discord.svg"/> </sub> | A [Discord](https://discordapp.com/) chat server. `account` should contain the server name.
  `discourse` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/discourse.svg"/> </sub> | A [Discourse](https://www.discourse.org/) forum.
- `facebook` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/facebook.svg"/> </sub> | A [Facebook](https://facebook.com) group.
+ `facebook` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/facebook.svg"/> </sub> | A [Facebook](https://facebook.com) group/account. `account` should contain the group/account name.
  `forum` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/forum.svg"/> </sub> | A generic web forum (e.g. a group on https://forum.openstreetmap.org/).
- `github` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/github.svg"/> </sub> | A [GitHub](https://github.com) organization or repository.
- `gitlab` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/gitlab.svg"/> </sub> | A [GitLab](https://gitlab.com) organization or repository.
+ `github` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/github.svg"/> </sub> | A [GitHub](https://github.com) organization. `account` should contain the organization name.
+ `gitlab` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/gitlab.svg"/> </sub> | A [GitLab](https://gitlab.com) organization. `account` should contain the organization name.
  `group` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/group.svg"/> </sub> | A generic non-OpenStreetMap local group with a `url` (e.g. [Maptime](http://maptime.io/) chapter).
  `irc` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/irc.svg"/> </sub> | An IRC channel.  `url` should be a clickable web join link, server details can go in `description`.
- `mailinglist` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/mailinglist.svg"/> </sub> | A mailing list.  `url` should be a link to the listinfo page, e.g. `https://lists.openstreetmap.org/listinfo/talk-us`.
+ `mailinglist` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/mailinglist.svg"/> </sub> | A mailing list.  `url` should be a link to the listinfo page, e.g. `https://lists.openstreetmap.org/listinfo/talk-et`.  `account` should contain the mailing list name (e.g. 'talk-et').
  `matrix` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/matrix.svg"/> </sub> | A [Matrix](https://matrix.org/) chat, e.g. [Riot Chat](https://matrix.org/docs/projects/client/riot.html).
  `meetup` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/meetup.svg"/> </sub> | A [Meetup](https://www.meetup.com/) group.
  `osm` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/osm.svg"/> </sub> | A url for an OpenStreetMap group.
  `osm-lc` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/osm-lc.svg"/> </sub> | A url for an official OpenStreetMap [Local Chapter](https://wiki.openstreetmap.org/wiki/Foundation/Local_Chapters).
  `reddit` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/reddit.svg"/> </sub> | A subreddit on [Reddit](http://reddit.com).
  `slack` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/slack.svg"/> </sub> | A [Slack](https://slack.com) workspace. `url` should link to the workspace itself, and `signupUrl` can link to an inviter service (see example above).
- `telegram` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/telegram.svg"/> </sub> | A [Telegram](https://telegram.org/) channel.
- `twitter` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/twitter.svg"/> </sub> | A [Twitter](https://twitter.com) account.
+ `telegram` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/telegram.svg"/> </sub> | A [Telegram](https://telegram.org/) channel/group. `account` should contain the channel/group name.
+ `twitter` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/twitter.svg"/> </sub> | A [Twitter](https://twitter.com) account. `account` should contain account name (without '@').
  `url` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/url.svg"/> </sub> | A generic catchall for anything with a `url`.
  `wiki` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/wiki.svg"/> </sub> | An OpenStreetMap [wiki project page](https://wiki.openstreetmap.org/wiki/List_of_territory_based_projects)
  `xmpp` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/xmpp.svg"/> </sub> | An XMPP/Jabber channel.  `url` should be a clickable web join link, server details can go in `description`.
  `youthmappers` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/youthmappers.svg"/> </sub> | A [YouthMappers](https://www.youthmappers.org/) chapter.
- `youtube` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/youtube.svg"/> </sub> | A [YouTube](https://youtube.com) channel.
+ `youtube` | <sub><img width="20" src="https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/img/youtube.svg"/> </sub> | A [YouTube](https://youtube.com) channel. `account` should contain the channel name.
 
 
 #### strings
