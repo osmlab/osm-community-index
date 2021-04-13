@@ -1,31 +1,43 @@
 en:
   _communities:
     mappingbotswana: Mapping Botswana
+    maptimehrva: MaptimeHRVA
     openstreetmapafrica: OpenStreetMap Africa
     openstreetmapalgeria: OpenStreetMap Algeria
     openstreetmapbenin: OpenStreetMap Benin
     openstreetmapburkinafaso: OpenStreetMap Burkina Faso
     openstreetmapburundi: OpenStreetMap Burundi
     openstreetmapcameroon: OpenStreetMap Cameroon
+    openstreetmapcanada: OpenStreetMap Canada
     openstreetmapchad: OpenStreetMap Chad
+    openstreetmapcostarica: OpenStreetMap Costa Rica
     openstreetmapcotedivoire: OpenStreetMap Cote d'Ivoire
+    openstreetmapcuba: OpenStreetMap Cuba
     openstreetmapdjibouti: OpenStreetMap Djibouti
+    openstreetmapdominicanrepublic: OpenStreetMap Dominican Republic
     openstreetmapegypt: OpenStreetMap Egypt
     openstreetmaperitrea: OpenStreetMap Eritrea
     openstreetmapethiopia: OpenStreetMap Ethiopia
     openstreetmapgabon: OpenStreetMap Gabon
     openstreetmapghana: OpenStreetMap Ghana
+    openstreetmapguatemala: OpenStreetMap Guatemala
     openstreetmapguinea: OpenStreetMap Guinea
+    openstreetmaphaiti: OpenStreetMap Haiti
     openstreetmapiran: OpenStreetMap Iran
     openstreetmapiraq: OpenStreetMap Iraq
     openstreetmapisrael: OpenStreetMap Israel
     openstreetmapkenya: OpenStreetMap Kenya
     openstreetmapmadagascar: OpenStreetMap Madagascar
+    openstreetmapmichigan: OpenStreetMap Michigan
+    openstreetmapnicaragua: OpenStreetMap Nicaragua
+    openstreetmapottawa: OpenStreetMap Ottawa
+    openstreetmappanama: OpenStreetMap Panama
     openstreetmaprdc: OpenStreetMap RDC
     openstreetmapsaudiarabia: OpenStreetMap Saudi Arabia
     openstreetmapsouthafrica: OpenStreetMap South Africa
     openstreetmaptanzania: OpenStreetMap Tanzania
     openstreetmapturkey: OpenStreetMap Turkey
+    openstreetmapus: OpenStreetMap US
   _defaults:
     aparat:
       name: '{community} on Aparat'
@@ -204,9 +216,6 @@ en:
   Code-for-San-Jose-Slack:
     name: Code for San Jose Slack
     description: 'All are welcome! Sign up at {signupUrl}, then join the #osm channel.'
-  cu-forum:
-    name: OpenStreetMap Cuba Forum
-    description: The official forum for OpenStreetMap questions in and around Cuba
   cuneo-telegram:
     name: OpenStreetMap Cuneo Mappers
     description: OpenStreetMap Cuneo Telegram chat
@@ -396,9 +405,6 @@ en:
   gr-matrix:
     name: OpenStreetMap Greece Matrix
     description: 'Join #osm-gr:matrix.org at {url}'
-  guatemala-telegram:
-    name: OSM Guatemala on Telegram
-    description: OpenStreetMap Guatemala Telegram chat
   hr-facebook:
     name: OpenStreetMap Croatia Facebook group
     description: OpenStreetMap Croatia Facebook group
@@ -578,9 +584,6 @@ en:
   Maptime-Oceania-Slack:
     name: Maptime Oceania Slack
     description: Sign up at {signupUrl}
-  MaptimeHRVA-twitter:
-    name: MaptimeHRVA Twitter
-    description: Follow us on Twitter at {url}
   md-googlegroup:
     name: OSM Moldova Google Group
     description: OpenStreetMap Moldova Google Group
@@ -591,18 +594,6 @@ en:
     name: OpenStreetMap Malta IRC
     description: 'Join #osm-mt on irc.oftc.net (port 6667)'
     extendedDescription: 'Join #osm-mt on irc.oftc.net (port 6667), please be patient and wait for a few minutes if you ask a question'
-  ni-facebook:
-    name: OpenStreetMap NI Community
-    description: Mappers and OpenStreetMap on Facebook in Nicaragua
-  ni-mailinglist:
-    name: Talk-ni Mailing List
-    description: Talk-ni is the official mailing list for the Nicaraguan OSM community
-  ni-telegram:
-    name: OSM Nicaragua on Telegram
-    description: OpenStreetMap Nicaragua Telegram chat
-  ni-twitter:
-    name: OpenStreetMap Nicaragua Twitter
-    description: 'OSM Nicaragua on Twitter: @osm_ni'
   nl-forum:
     name: Netherlands OpenStreetMap forum
     description: OpenStreetMap Netherlands web forum
@@ -727,15 +718,8 @@ en:
   OSM-br-twitter:
     name: OpenStreetMap Brasil Twitter
     description: Follow us on Twitter at {url}
-  OSM-CA-mailinglist:
-    name: OSM-CA mailing list
-    description: A mailing list to discuss OpenStreetMap in Canada.
   OSM-CA-Slack:
-    name: OSM-CA Slack
     description: All are welcome! Sign up at {signupUrl}.
-  OSM-CA-telegram:
-    name: '@osmca on Telegram'
-    description: OpenStreetMap Canada Telegram chat
   OSM-Central-Salish-Sea:
     name: OpenStreetMap Central Salish Sea
     description: Mappers and OpenStreetMap users around Mount Vernon, WA
@@ -783,24 +767,12 @@ en:
     name: OpenStreetMap Colorado
     description: Mappers and OpenStreetMap users in the state of Colorado, USA
     extendedDescription: OpenStreetMap (OSM) Colorado is a local collaboration of people interested in contributing their efforts to create free maps. We encourage all of our mappers to organize or suggest mapping events throughout the state. Meetup activities can be simple social mixers, OSM basic to advanced training, or community mapping parties.
-  OSM-cr-mailinglist:
-    name: Talk-cr Mailing List
-    description: A mailing list to discuss OpenStreetMap in Costa Rica
-  OSM-cu-mailinglist:
-    name: Talk-cu Mailing List
-    description: A mailing list to discuss OpenStreetMap in Cuba
-  OSM-CU-telegram:
-    name: OSM Cuba on Telegram
-    description: OpenStreetMap Cuba Telegram chat
   osm-de:
     name: OpenStreetMap Germany
     description: The platform for information on OpenStreetMap in Germany
   OSM-Discord:
     name: OpenStreetMap World Discord
     description: Get in touch with other mappers via Discord
-  OSM-do-mailinglist:
-    name: Talk-do Mailing List
-    description: A mailing list to discuss OpenStreetMap in Dominican Republic
   OSM-EC-mailinglist:
     name: Talk-ec Mailing List
     description: A mailing list to discuss OpenStreetMap in Ecuador
@@ -837,9 +809,6 @@ en:
   osm-hr:
     name: OpenStreetMap Croatia
     description: The platform for information on OpenStreetMap in Croatia
-  OSM-ht-mailinglist:
-    name: Talk-ht Mailing List
-    description: A mailing list to discuss OpenStreetMap in Haiti
   OSM-id-mailinglist:
     name: Talk-id Mailing List
     description: A mailing list to discuss OpenStreetMap in Indonesia
@@ -972,7 +941,6 @@ en:
     name: MapaNica.net
     description: Provide OSM services and information for the local community in Nicaragua
   OSM-Ottawa-meetup:
-    name: OpenStreetMap Ottawa
     description: Mappers and OpenStreetMap users in the Ottawa area
   OSM-PE:
     name: OpenStreetMap Peru
@@ -1106,7 +1074,6 @@ en:
     description: We help grow and improve OpenStreetMap in the United States.
     extendedDescription: 'We support OpenStreetMap by holding annual conferences, providing community resources, building partnerships, and by spreading the word. Join OpenStreetMap US here: {signupUrl}'
   OSM-US-Slack:
-    name: OpenStreetMap US Slack
     description: All are welcome! Sign up at {signupUrl}
   OSM-Utah:
     name: OpenStreetMap Utah
@@ -1135,9 +1102,6 @@ en:
   osmgraz-twitter:
     name: OSM community Graz on twitter
     description: OpenStreetMap community in Graz on twitter
-  panama-telegram:
-    name: OSM Panama on Telegram
-    description: OpenStreetMap Panama Telegram chat
   PHXGeo-meetup:
     name: PHXGeo Meetup
     description: Mappers and OpenStreetMap users in the Phoenix, AZ area
@@ -1291,7 +1255,6 @@ en:
     name: Talk-us-massachusetts Mailing List
     description: Email mailing list for the Massachusetts OSM community
   US-MI-Wiki:
-    name: OpenStreetMap Michigan Wiki
     description: Information about mapping in Michigan.
   uy-forum:
     name: OpenStreetMap UY forum

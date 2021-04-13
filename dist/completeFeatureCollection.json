@@ -5139,12 +5139,9 @@
             "locationSet": {"include": ["cu"]},
             "languageCodes": ["en"],
             "url": "https://forum.openstreetmap.org/viewforum.php?id=72",
-            "strings": {
-              "name": "OpenStreetMap Cuba Forum",
-              "description": "The official forum for OpenStreetMap questions in and around Cuba"
-            },
+            "strings": {"community": "OpenStreetMap Cuba"},
             "name": "OpenStreetMap Cuba Forum",
-            "description": "The official forum for OpenStreetMap questions in and around Cuba"
+            "description": "The official forum for OpenStreetMap Cuba"
           },
           "OSM-cu-mailinglist": {
             "id": "OSM-cu-mailinglist",
@@ -5152,12 +5149,10 @@
             "locationSet": {"include": ["cu"]},
             "languageCodes": ["en"],
             "url": "https://lists.openstreetmap.org/listinfo/talk-cu",
-            "strings": {
-              "name": "Talk-cu Mailing List",
-              "description": "A mailing list to discuss OpenStreetMap in Cuba"
-            },
-            "name": "Talk-cu Mailing List",
-            "description": "A mailing list to discuss OpenStreetMap in Cuba"
+            "account": "talk-cu",
+            "strings": {"community": "OpenStreetMap Cuba"},
+            "name": "talk-cu Mailing List",
+            "description": "The official mailing list for OpenStreetMap Cuba"
           },
           "OSM-CU-telegram": {
             "id": "OSM-CU-telegram",
@@ -5165,12 +5160,10 @@
             "locationSet": {"include": ["cu"]},
             "languageCodes": ["es"],
             "url": "https://t.me/OSM_Cuba",
-            "strings": {
-              "name": "OSM Cuba on Telegram",
-              "description": "OpenStreetMap Cuba Telegram chat"
-            },
-            "name": "OSM Cuba on Telegram",
-            "description": "OpenStreetMap Cuba Telegram chat"
+            "account": "OSM_Cuba",
+            "strings": {"community": "OpenStreetMap Cuba"},
+            "name": "OpenStreetMap Cuba Telegram",
+            "description": "Join our community Telegram chat"
           }
         }
       },
@@ -11960,12 +11953,10 @@
             "locationSet": {"include": ["gt"]},
             "languageCodes": ["es"],
             "url": "https://t.me/openstreetmapGT",
-            "strings": {
-              "name": "OSM Guatemala on Telegram",
-              "description": "OpenStreetMap Guatemala Telegram chat"
-            },
-            "name": "OSM Guatemala on Telegram",
-            "description": "OpenStreetMap Guatemala Telegram chat"
+            "account": "openstreetmapGT",
+            "strings": {"community": "OpenStreetMap Guatemala"},
+            "name": "OpenStreetMap Guatemala Telegram",
+            "description": "Join our community Telegram chat"
           }
         }
       },
@@ -16922,15 +16913,13 @@
             "locationSet": {"include": ["hrva.geojson"]},
             "languageCodes": ["en"],
             "url": "https://twitter.com/maptimehrva",
-            "strings": {
-              "name": "MaptimeHRVA Twitter",
-              "description": "Follow us on Twitter at {url}"
-            },
+            "account": "maptimehrva",
+            "strings": {"community": "MaptimeHRVA"},
             "contacts": [
               {"name": "Jonah Adkins", "email": "jonahadkins@gmail.com"}
             ],
-            "name": "MaptimeHRVA Twitter",
-            "description": "Follow us on Twitter at https://twitter.com/maptimehrva"
+            "name": "MaptimeHRVA on Twitter",
+            "description": "Follow us on Twitter"
           }
         }
       },
@@ -17243,14 +17232,12 @@
             "type": "facebook",
             "locationSet": {"include": ["ni"]},
             "languageCodes": ["es"],
-            "url": "https://www.facebook.com/mapanica/",
+            "url": "https://www.facebook.com/mapanica",
+            "account": "mapanica",
             "order": 3,
-            "strings": {
-              "name": "OpenStreetMap NI Community",
-              "description": "Mappers and OpenStreetMap on Facebook in Nicaragua"
-            },
-            "name": "OpenStreetMap NI Community",
-            "description": "Mappers and OpenStreetMap on Facebook in Nicaragua"
+            "strings": {"community": "OpenStreetMap Nicaragua"},
+            "name": "OpenStreetMap Nicaragua on Facebook",
+            "description": "Join our community on Facebook"
           },
           "ni-mailinglist": {
             "id": "ni-mailinglist",
@@ -17258,13 +17245,11 @@
             "locationSet": {"include": ["ni"]},
             "languageCodes": ["es"],
             "url": "https://lists.openstreetmap.org/listinfo/talk-ni",
+            "account": "talk-ni",
             "order": -3,
-            "strings": {
-              "name": "Talk-ni Mailing List",
-              "description": "Talk-ni is the official mailing list for the Nicaraguan OSM community"
-            },
-            "name": "Talk-ni Mailing List",
-            "description": "Talk-ni is the official mailing list for the Nicaraguan OSM community"
+            "strings": {"community": "OpenStreetMap Nicaragua"},
+            "name": "talk-ni Mailing List",
+            "description": "The official mailing list for OpenStreetMap Nicaragua"
           },
           "ni-telegram": {
             "id": "ni-telegram",
@@ -17272,12 +17257,10 @@
             "locationSet": {"include": ["ni"]},
             "languageCodes": ["es"],
             "url": "https://t.me/mapanica",
-            "strings": {
-              "name": "OSM Nicaragua on Telegram",
-              "description": "OpenStreetMap Nicaragua Telegram chat"
-            },
-            "name": "OSM Nicaragua on Telegram",
-            "description": "OpenStreetMap Nicaragua Telegram chat"
+            "account": "mapanica",
+            "strings": {"community": "OpenStreetMap Nicaragua"},
+            "name": "OpenStreetMap Nicaragua Telegram",
+            "description": "Join our community Telegram chat"
           },
           "ni-twitter": {
             "id": "ni-twitter",
@@ -17285,12 +17268,10 @@
             "locationSet": {"include": ["ni"]},
             "languageCodes": ["es"],
             "url": "https://twitter.com/osm_ni",
-            "strings": {
-              "name": "OpenStreetMap Nicaragua Twitter",
-              "description": "OSM Nicaragua on Twitter: @osm_ni"
-            },
-            "name": "OpenStreetMap Nicaragua Twitter",
-            "description": "OSM Nicaragua on Twitter: @osm_ni"
+            "account": "osm_ni",
+            "strings": {"community": "OpenStreetMap Nicaragua"},
+            "name": "OpenStreetMap Nicaragua on Twitter",
+            "description": "Follow us on Twitter"
           },
           "osm-ni": {
             "id": "osm-ni",
@@ -20662,12 +20643,10 @@
             "locationSet": {"include": ["ca"]},
             "languageCodes": ["en", "fr"],
             "url": "https://lists.openstreetmap.org/listinfo/talk-ca",
-            "strings": {
-              "name": "OSM-CA mailing list",
-              "description": "A mailing list to discuss OpenStreetMap in Canada."
-            },
-            "name": "OSM-CA mailing list",
-            "description": "A mailing list to discuss OpenStreetMap in Canada."
+            "account": "talk-ca",
+            "strings": {"community": "OpenStreetMap Canada"},
+            "name": "talk-ca Mailing List",
+            "description": "The official mailing list for OpenStreetMap Canada"
           },
           "OSM-CA-Slack": {
             "id": "OSM-CA-Slack",
@@ -20678,13 +20657,13 @@
             "signupUrl": "https://slackinviteosmcanada.herokuapp.com/",
             "order": 4,
             "strings": {
-              "name": "OSM-CA Slack",
+              "community": "OpenStreetMap Canada",
               "description": "All are welcome! Sign up at {signupUrl}."
             },
             "contacts": [
               {"name": "Denis Carriere", "email": "carriere.denis@gmail.com"}
             ],
-            "name": "OSM-CA Slack",
+            "name": "OpenStreetMap Canada Slack",
             "description": "All are welcome! Sign up at https://slackinviteosmcanada.herokuapp.com/."
           },
           "OSM-CA-telegram": {
@@ -20693,12 +20672,10 @@
             "locationSet": {"include": ["ca"]},
             "languageCodes": ["en", "fr"],
             "url": "https://t.me/osmca",
-            "strings": {
-              "name": "@osmca on Telegram",
-              "description": "OpenStreetMap Canada Telegram chat"
-            },
-            "name": "@osmca on Telegram",
-            "description": "OpenStreetMap Canada Telegram chat"
+            "account": "osmca",
+            "strings": {"community": "OpenStreetMap Canada"},
+            "name": "OpenStreetMap Canada Telegram",
+            "description": "Join our community Telegram chat"
           }
         }
       },
@@ -22446,12 +22423,10 @@
             "locationSet": {"include": ["cr"]},
             "languageCodes": ["en"],
             "url": "https://lists.openstreetmap.org/listinfo/talk-cr",
-            "strings": {
-              "name": "Talk-cr Mailing List",
-              "description": "A mailing list to discuss OpenStreetMap in Costa Rica"
-            },
-            "name": "Talk-cr Mailing List",
-            "description": "A mailing list to discuss OpenStreetMap in Costa Rica"
+            "account": "talk-cr",
+            "strings": {"community": "OpenStreetMap Costa Rica"},
+            "name": "talk-cr Mailing List",
+            "description": "The official mailing list for OpenStreetMap Costa Rica"
           }
         }
       },
@@ -23427,12 +23402,10 @@
             "locationSet": {"include": ["do"]},
             "languageCodes": ["en"],
             "url": "https://lists.openstreetmap.org/listinfo/talk-do",
-            "strings": {
-              "name": "Talk-do Mailing List",
-              "description": "A mailing list to discuss OpenStreetMap in Dominican Republic"
-            },
-            "name": "Talk-do Mailing List",
-            "description": "A mailing list to discuss OpenStreetMap in Dominican Republic"
+            "account": "talk-do",
+            "strings": {"community": "OpenStreetMap Dominican Republic"},
+            "name": "talk-do Mailing List",
+            "description": "The official mailing list for OpenStreetMap Dominican Republic"
           }
         }
       },
@@ -24608,12 +24581,10 @@
             "locationSet": {"include": ["ht"]},
             "languageCodes": ["en"],
             "url": "https://lists.openstreetmap.org/listinfo/talk-ht",
-            "strings": {
-              "name": "Talk-ht Mailing List",
-              "description": "A mailing list to discuss OpenStreetMap in Haiti"
-            },
-            "name": "Talk-ht Mailing List",
-            "description": "A mailing list to discuss OpenStreetMap in Haiti"
+            "account": "talk-ht",
+            "strings": {"community": "OpenStreetMap Haiti"},
+            "name": "talk-ht Mailing List",
+            "description": "The official mailing list for OpenStreetMap Haiti"
           }
         }
       },
@@ -28220,14 +28191,14 @@
             "languageCodes": ["en", "fr"],
             "url": "https://www.meetup.com/openstreetmap-ottawa/",
             "strings": {
-              "name": "OpenStreetMap Ottawa",
+              "community": "OpenStreetMap Ottawa",
               "description": "Mappers and OpenStreetMap users in the Ottawa area"
             },
             "contacts": [
               {"name": "Denis Carriere", "email": "carriere.denis@gmail.com"},
               {"name": "John Marshall", "email": "rps333@gmail.com"}
             ],
-            "name": "OpenStreetMap Ottawa",
+            "name": "OpenStreetMap Ottawa Meetup",
             "description": "Mappers and OpenStreetMap users in the Ottawa area"
           }
         }
@@ -31473,10 +31444,7 @@
               "description": "We help grow and improve OpenStreetMap in the United States.",
               "extendedDescription": "We support OpenStreetMap by holding annual conferences, providing community resources, building partnerships, and by spreading the word. Join OpenStreetMap US here: {signupUrl}"
             },
-            "contacts": [
-              {"name": "Ian Dees", "email": "ian@openstreetmap.us"},
-              {"name": "Bryan Housel", "email": "bryan@openstreetmap.us"}
-            ],
+            "contacts": [{"name": "Ian Dees", "email": "ian@openstreetmap.us"}],
             "name": "OpenStreetMap US",
             "description": "We help grow and improve OpenStreetMap in the United States.",
             "extendedDescription": "We support OpenStreetMap by holding annual conferences, providing community resources, building partnerships, and by spreading the word. Join OpenStreetMap US here: https://www.openstreetmap.us/join"
@@ -31490,7 +31458,7 @@
             "signupUrl": "https://slack.openstreetmap.us/",
             "order": 4,
             "strings": {
-              "name": "OpenStreetMap US Slack",
+              "community": "OpenStreetMap US",
               "description": "All are welcome! Sign up at {signupUrl}"
             },
             "contacts": [
@@ -32419,12 +32387,10 @@
             "locationSet": {"include": ["pa"]},
             "languageCodes": ["es"],
             "url": "https://t.me/Comunidad_OSM_Panama",
-            "strings": {
-              "name": "OSM Panama on Telegram",
-              "description": "OpenStreetMap Panama Telegram chat"
-            },
-            "name": "OSM Panama on Telegram",
-            "description": "OpenStreetMap Panama Telegram chat"
+            "account": "Comunidad_OSM_Panama",
+            "strings": {"community": "OpenStreetMap Panama"},
+            "name": "OpenStreetMap Panama Telegram",
+            "description": "Join our community Telegram chat"
           }
         }
       },
@@ -35318,10 +35284,10 @@
             "url": "https://wiki.openstreetmap.org/wiki/Michigan",
             "order": 5,
             "strings": {
-              "name": "OpenStreetMap Michigan Wiki",
+              "community": "OpenStreetMap Michigan",
               "description": "Information about mapping in Michigan."
             },
-            "name": "OpenStreetMap Michigan Wiki",
+            "name": "OpenStreetMap Michigan Wikiproject",
             "description": "Information about mapping in Michigan."
           }
         }
