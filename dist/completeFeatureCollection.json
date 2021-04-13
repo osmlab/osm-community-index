@@ -857,16 +857,16 @@
             "locationSet": {"include": ["bahia.geojson"]},
             "languageCodes": ["pt"],
             "url": "https://t.me/OSMBA",
+            "account": "OSMBA",
             "strings": {
-              "name": "OpenStreetMap Bahia Telegram Group",
-              "description": "Join the OpenStreetMap Bahia community on Telegram",
+              "community": "OpenStreetMap Bahia",
               "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"
             },
             "contacts": [
               {"name": "Wille Marcel", "email": "wille@wille.blog.br"}
             ],
-            "name": "OpenStreetMap Bahia Telegram Group",
-            "description": "Join the OpenStreetMap Bahia community on Telegram",
+            "name": "OpenStreetMap Bahia Telegram",
+            "description": "Join our community Telegram chat",
             "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"
           }
         }
@@ -2846,12 +2846,9 @@
             "languageCodes": ["en"],
             "url": "https://forum.openstreetmap.org/viewforum.php?id=74",
             "order": 4,
-            "strings": {
-              "name": "OpenStreetMap Brasil Forum",
-              "description": "The official forum for OpenStreetMap questions in and around Brazil"
-            },
+            "strings": {"community": "OpenStreetMap Brasil"},
             "name": "OpenStreetMap Brasil Forum",
-            "description": "The official forum for OpenStreetMap questions in and around Brazil"
+            "description": "The official forum for OpenStreetMap Brasil"
           },
           "OSM-br-discord": {
             "id": "OSM-br-discord",
@@ -2859,11 +2856,9 @@
             "locationSet": {"include": ["br"]},
             "languageCodes": ["pt"],
             "url": "https://discord.gg/bQn4aCm",
+            "account": "bQn4aCm",
             "order": 2,
-            "strings": {
-              "name": "OpenStreetMap Brasil Discord",
-              "description": "Join the OpenStreetMap Brasil community on Discord"
-            },
+            "strings": {"community": "OpenStreetMap Brasil"},
             "contacts": [
               {
                 "name": "Eduardo Addad de Oliveira",
@@ -2871,24 +2866,22 @@
               }
             ],
             "name": "OpenStreetMap Brasil Discord",
-            "description": "Join the OpenStreetMap Brasil community on Discord"
+            "description": "Get in touch with other mappers on Discord"
           },
           "OSM-br-mailinglist": {
             "id": "OSM-br-mailinglist",
             "type": "mailinglist",
             "locationSet": {"include": ["br"]},
             "languageCodes": ["pt"],
-            "url": "https://lists.openstreetmap.org/listinfo/talk-br/",
+            "url": "https://lists.openstreetmap.org/listinfo/talk-br",
+            "account": "talk-br",
             "order": 5,
-            "strings": {
-              "name": "Talk-br Mailing List",
-              "description": "A mailing list to discuss OpenStreetMap in Brazil"
-            },
+            "strings": {"community": "OpenStreetMap Brasil"},
             "contacts": [
               {"name": "Arlindo Pereira", "email": "nighto@gmail.com"}
             ],
-            "name": "Talk-br Mailing List",
-            "description": "A mailing list to discuss OpenStreetMap in Brazil"
+            "name": "talk-br Mailing List",
+            "description": "The official mailing list for OpenStreetMap Brasil"
           },
           "OSM-br-telegram": {
             "id": "OSM-br-telegram",
@@ -2896,17 +2889,17 @@
             "locationSet": {"include": ["br"]},
             "languageCodes": ["pt"],
             "url": "https://t.me/OSMBrasil_Comunidade",
+            "account": "OSMBrasil_Comunidade",
             "order": 1,
             "strings": {
-              "name": "OpenStreetMap Brasil Telegram",
-              "description": "Join the OpenStreetMap Brasil community on Telegram",
+              "community": "OpenStreetMap Brasil",
               "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"
             },
             "contacts": [
               {"name": "Vitor George", "email": "vitor.george@gmail.com"}
             ],
             "name": "OpenStreetMap Brasil Telegram",
-            "description": "Join the OpenStreetMap Brasil community on Telegram",
+            "description": "Join our community Telegram chat",
             "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"
           },
           "OSM-br-twitter": {
@@ -2915,16 +2908,14 @@
             "locationSet": {"include": ["br"]},
             "languageCodes": ["pt"],
             "url": "https://twitter.com/OpenStreetMapBR",
+            "account": "OpenStreetMapBR",
             "order": 3,
-            "strings": {
-              "name": "OpenStreetMap Brasil Twitter",
-              "description": "Follow us on Twitter at {url}"
-            },
+            "strings": {"community": "OpenStreetMap Brasil"},
             "contacts": [
               {"name": "Wille Marcel", "email": "wille@wille.blog.br"}
             ],
-            "name": "OpenStreetMap Brasil Twitter",
-            "description": "Follow us on Twitter at https://twitter.com/OpenStreetMapBR"
+            "name": "OpenStreetMap Brasil on Twitter",
+            "description": "Follow us on Twitter"
           }
         }
       },
@@ -4378,12 +4369,9 @@
             "languageCodes": ["en"],
             "url": "https://forum.openstreetmap.org/viewforum.php?id=75",
             "order": 3,
-            "strings": {
-              "name": "OpenStreetMap Chile Forum",
-              "description": "The official forum for OpenStreetMap questions in and around Chile"
-            },
+            "strings": {"community": "OpenStreetMap Chile"},
             "name": "OpenStreetMap Chile Forum",
-            "description": "The official forum for OpenStreetMap questions in and around Chile"
+            "description": "The official forum for OpenStreetMap Chile"
           },
           "OSM-CL-facebook": {
             "id": "OSM-CL-facebook",
@@ -4393,15 +4381,14 @@
             "url": "https://www.facebook.com/OpenStreetMap-Chile-145127198882915/",
             "order": 1,
             "strings": {
-              "name": "OpenStreetMap Chile Facebook",
-              "description": "Join the OpenStreetMap Chile community on Facebook",
+              "community": "OpenStreetMap Chile",
               "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"
             },
             "contacts": [
               {"name": "Julio Costa", "email": "julio.costa@openstreetmap.cl"}
             ],
-            "name": "OpenStreetMap Chile Facebook",
-            "description": "Join the OpenStreetMap Chile community on Facebook",
+            "name": "OpenStreetMap Chile on Facebook",
+            "description": "Join our community on Facebook",
             "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"
           },
           "OSM-CL-mailinglist": {
@@ -4409,17 +4396,15 @@
             "type": "mailinglist",
             "locationSet": {"include": ["cl"]},
             "languageCodes": ["es"],
-            "url": "https://lists.openstreetmap.org/listinfo/talk-cl/",
+            "url": "https://lists.openstreetmap.org/listinfo/talk-cl",
+            "account": "talk-cl",
             "order": 5,
-            "strings": {
-              "name": "Talk-cl Mailing List",
-              "description": "A mailing list to discuss OpenStreetMap in Chile"
-            },
+            "strings": {"community": "OpenStreetMap Chile"},
             "contacts": [
               {"name": "Julio Costa", "email": "julio.costa@openstreetmap.cl"}
             ],
-            "name": "Talk-cl Mailing List",
-            "description": "A mailing list to discuss OpenStreetMap in Chile"
+            "name": "talk-cl Mailing List",
+            "description": "The official mailing list for OpenStreetMap Chile"
           },
           "OSM-CL-telegram": {
             "id": "OSM-CL-telegram",
@@ -4427,17 +4412,17 @@
             "locationSet": {"include": ["cl"]},
             "languageCodes": ["es"],
             "url": "https://t.me/OSMcl",
+            "account": "OSMcl",
             "order": 2,
             "strings": {
-              "name": "OpenStreetMap Chile Telegram",
-              "description": "Join the OpenStreetMap Chile community on Telegram",
+              "community": "OpenStreetMap Chile",
               "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"
             },
             "contacts": [
               {"name": "Julio Costa", "email": "julio.costa@openstreetmap.cl"}
             ],
             "name": "OpenStreetMap Chile Telegram",
-            "description": "Join the OpenStreetMap Chile community on Telegram",
+            "description": "Join our community Telegram chat",
             "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"
           },
           "OSM-CL-twitter": {
@@ -4446,16 +4431,14 @@
             "locationSet": {"include": ["cl"]},
             "languageCodes": ["es"],
             "url": "https://twitter.com/osmCL",
+            "account": "osmCL",
             "order": 4,
-            "strings": {
-              "name": "OpenStreetMap Chile Twitter",
-              "description": "Follow us on Twitter at {url}"
-            },
+            "strings": {"community": "OpenStreetMap Chile"},
             "contacts": [
               {"name": "Julio Costa", "email": "julio.costa@openstreetmap.cl"}
             ],
-            "name": "OpenStreetMap Chile Twitter",
-            "description": "Follow us on Twitter at https://twitter.com/osmCL"
+            "name": "OpenStreetMap Chile on Twitter",
+            "description": "Follow us on Twitter"
           }
         }
       },
@@ -4830,12 +4813,9 @@
             "languageCodes": ["en"],
             "url": "https://forum.openstreetmap.org/viewforum.php?id=92",
             "order": 5,
-            "strings": {
-              "name": "OpenStreetMap Colombia Forum",
-              "description": "The official forum for OpenStreetMap questions in and around Colombia"
-            },
+            "strings": {"community": "OpenStreetMap Colombia"},
             "name": "OpenStreetMap Colombia Forum",
-            "description": "The official forum for OpenStreetMap questions in and around Colombia"
+            "description": "The official forum for OpenStreetMap Colombia"
           },
           "OSM-CO": {
             "id": "OSM-CO",
@@ -4844,7 +4824,7 @@
             "languageCodes": ["es"],
             "url": "https://blog.openstreetmap.co/s657",
             "strings": {
-              "name": "OpenStreetMap Colombia",
+              "community": "OpenStreetMap Colombia",
               "description": "News of the OpenStreetMap Colombia community and the OSMCo Foundation"
             },
             "contacts": [
@@ -4858,18 +4838,18 @@
             "type": "facebook",
             "locationSet": {"include": ["co"]},
             "languageCodes": ["es"],
-            "url": "https://www.facebook.com/groups/OsmCol/",
+            "url": "https://www.facebook.com/groups/OsmCol",
+            "account": "OsmCol",
             "order": 1,
             "strings": {
-              "name": "OpenStreetMap Colombia Facebook",
-              "description": "Join the OpenStreetMap Colombia community on Facebook",
+              "community": "OpenStreetMap Colombia",
               "extendedDescription": "Join the community to learn more about OpenStreetMap. Everyone is welcome!"
             },
             "contacts": [
               {"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}
             ],
-            "name": "OpenStreetMap Colombia Facebook",
-            "description": "Join the OpenStreetMap Colombia community on Facebook",
+            "name": "OpenStreetMap Colombia on Facebook",
+            "description": "Join our community on Facebook",
             "extendedDescription": "Join the community to learn more about OpenStreetMap. Everyone is welcome!"
           },
           "OSM-CO-mailinglist": {
@@ -4877,17 +4857,15 @@
             "type": "mailinglist",
             "locationSet": {"include": ["co"]},
             "languageCodes": ["es"],
-            "url": "https://lists.openstreetmap.org/listinfo/talk-co/",
+            "url": "https://lists.openstreetmap.org/listinfo/talk-co",
+            "account": "talk-co",
             "order": 4,
-            "strings": {
-              "name": "Talk-co Mailing List",
-              "description": "A mailing list to discuss OpenStreetMap in Colombia"
-            },
+            "strings": {"community": "OpenStreetMap Colombia"},
             "contacts": [
               {"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}
             ],
-            "name": "Talk-co Mailing List",
-            "description": "A mailing list to discuss OpenStreetMap in Colombia"
+            "name": "talk-co Mailing List",
+            "description": "The official mailing list for OpenStreetMap Colombia"
           },
           "OSM-CO-telegram": {
             "id": "OSM-CO-telegram",
@@ -4895,16 +4873,14 @@
             "locationSet": {"include": ["co"]},
             "languageCodes": ["es"],
             "url": "https://t.me/osmco",
+            "account": "osmco",
             "order": 2,
-            "strings": {
-              "name": "OSM Colombia on Telegram",
-              "description": "OpenStreetMap Colombia Telegram chat"
-            },
+            "strings": {"community": "OpenStreetMap Colombia"},
             "contacts": [
               {"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}
             ],
-            "name": "OSM Colombia on Telegram",
-            "description": "OpenStreetMap Colombia Telegram chat"
+            "name": "OpenStreetMap Colombia Telegram",
+            "description": "Join our community Telegram chat"
           },
           "OSM-CO-twitter": {
             "id": "OSM-CO-twitter",
@@ -4912,16 +4888,14 @@
             "locationSet": {"include": ["co"]},
             "languageCodes": ["es"],
             "url": "https://twitter.com/OpenStreetMapCo",
+            "account": "OpenStreetMapCo",
             "order": 3,
-            "strings": {
-              "name": "OpenStreetMap Colombia Twitter",
-              "description": "Follow us on Twitter at {url}"
-            },
+            "strings": {"community": "OpenStreetMap Colombia"},
             "contacts": [
               {"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}
             ],
-            "name": "OpenStreetMap Colombia Twitter",
-            "description": "Follow us on Twitter at https://twitter.com/OpenStreetMapCo"
+            "name": "OpenStreetMap Colombia on Twitter",
+            "description": "Follow us on Twitter"
           }
         }
       },
@@ -8337,16 +8311,16 @@
             "locationSet": {"include": ["brasilia_df.geojson"]},
             "languageCodes": ["pt"],
             "url": "https://t.me/osmbsb",
+            "account": "osmbsb",
             "strings": {
-              "name": "OpenStreetMap Brasília Telegram Group",
-              "description": "Join the OpenStreetMap Brasília community on Telegram",
+              "community": "OpenStreetMap Brasília",
               "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"
             },
             "contacts": [
               {"name": "Wille Marcel", "email": "wille@wille.blog.br"}
             ],
-            "name": "OpenStreetMap Brasília Telegram Group",
-            "description": "Join the OpenStreetMap Brasília community on Telegram",
+            "name": "OpenStreetMap Brasília Telegram",
+            "description": "Join our community Telegram chat",
             "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"
           }
         }
@@ -8547,12 +8521,9 @@
             "locationSet": {"include": ["ec"]},
             "languageCodes": ["en"],
             "url": "https://lists.openstreetmap.org/pipermail/talk-ec/",
-            "strings": {
-              "name": "OpenStreetMap Ecuador Forum",
-              "description": "The official forum for OpenStreetMap questions in and around Ecuador"
-            },
+            "strings": {"community": "OpenStreetMap Ecuador"},
             "name": "OpenStreetMap Ecuador Forum",
-            "description": "The official forum for OpenStreetMap questions in and around Ecuador"
+            "description": "The official forum for OpenStreetMap Ecuador"
           },
           "OSM-EC-mailinglist": {
             "id": "OSM-EC-mailinglist",
@@ -8560,12 +8531,10 @@
             "locationSet": {"include": ["ec"]},
             "languageCodes": ["en"],
             "url": "https://lists.openstreetmap.org/listinfo/talk-ec",
-            "strings": {
-              "name": "Talk-ec Mailing List",
-              "description": "A mailing list to discuss OpenStreetMap in Ecuador"
-            },
-            "name": "Talk-ec Mailing List",
-            "description": "A mailing list to discuss OpenStreetMap in Ecuador"
+            "account": "talk-ec",
+            "strings": {"community": "OpenStreetMap Ecuador"},
+            "name": "talk-ec Mailing List",
+            "description": "The official mailing list for OpenStreetMap Ecuador"
           },
           "OSM-EC-telegram": {
             "id": "OSM-EC-telegram",
@@ -8573,13 +8542,11 @@
             "locationSet": {"include": ["ec"]},
             "languageCodes": ["es"],
             "url": "https://t.me/MappingEcuador",
+            "account": "MappingEcuador",
             "order": 1,
-            "strings": {
-              "name": "OSM Ecuador on Telegram",
-              "description": "OpenStreetMap Ecuador Telegram chat"
-            },
-            "name": "OSM Ecuador on Telegram",
-            "description": "OpenStreetMap Ecuador Telegram chat"
+            "strings": {"community": "OpenStreetMap Ecuador"},
+            "name": "OpenStreetMap Ecuador Telegram",
+            "description": "Join our community Telegram chat"
           }
         }
       },
@@ -15057,15 +15024,16 @@
             "locationSet": {"include": ["419"]},
             "languageCodes": ["en", "es", "pt"],
             "url": "https://www.facebook.com/osmlatam",
+            "account": "osmlatam",
             "order": 1,
             "strings": {
-              "name": "OpenStreetMap Latin America Facebook",
+              "community": "OpenStreetMap Latin America",
               "description": "Mappers and OpenStreetMap on Facebook in Latin America"
             },
             "contacts": [
               {"name": "OSM LATAM Community", "email": "info@osmlatam.org"}
             ],
-            "name": "OpenStreetMap Latin America Facebook",
+            "name": "OpenStreetMap Latin America on Facebook",
             "description": "Mappers and OpenStreetMap on Facebook in Latin America"
           },
           "latam-irc": {
@@ -15076,13 +15044,13 @@
             "url": "http://webchat.oftc.net/?channels=osm-latam",
             "order": 3,
             "strings": {
-              "name": "OpenStreetMap Latin America IRC",
+              "community": "OpenStreetMap Latin America",
               "description": "Join #osm-latam on irc.oftc.net (port 6667)"
             },
             "contacts": [
               {"name": "OSM LATAM Community", "email": "info@osmlatam.org"}
             ],
-            "name": "OpenStreetMap Latin America IRC",
+            "name": "OpenStreetMap Latin America on IRC",
             "description": "Join #osm-latam on irc.oftc.net (port 6667)"
           },
           "latam-mailinglist": {
@@ -15091,16 +15059,14 @@
             "locationSet": {"include": ["419"]},
             "languageCodes": ["en", "es", "pt"],
             "url": "https://lists.openstreetmap.org/listinfo/talk-latam",
+            "account": "talk-latam",
             "order": 2,
-            "strings": {
-              "name": "Talk-latam Mailing List",
-              "description": "Talk-latam is the official mailing list for the Latinamerican OpenStreetMap community"
-            },
+            "strings": {"community": "OpenStreetMap Latin America"},
             "contacts": [
               {"name": "OSM LATAM Community", "email": "info@osmlatam.org"}
             ],
-            "name": "Talk-latam Mailing List",
-            "description": "Talk-latam is the official mailing list for the Latinamerican OpenStreetMap community"
+            "name": "talk-latam Mailing List",
+            "description": "The official mailing list for OpenStreetMap Latin America"
           },
           "latam-matrix": {
             "id": "latam-matrix",
@@ -15110,13 +15076,13 @@
             "url": "https://matrix.to/#/#osm-latam:matrix.org",
             "order": 3,
             "strings": {
-              "name": "OpenStreetMap Latin America Matrix",
+              "community": "OpenStreetMap Latin America",
               "description": "Chat with other members of the Latinamerican OSM community, it is bridged with the Telegram chat"
             },
             "contacts": [
               {"name": "OSM LATAM Community", "email": "info@osmlatam.org"}
             ],
-            "name": "OpenStreetMap Latin America Matrix",
+            "name": "OpenStreetMap Latin America Matrix Chat",
             "description": "Chat with other members of the Latinamerican OSM community, it is bridged with the Telegram chat"
           },
           "latam-telegram": {
@@ -15125,9 +15091,10 @@
             "locationSet": {"include": ["419"]},
             "languageCodes": ["en", "es", "pt"],
             "url": "https://t.me/osmlatam",
+            "account": "osmlatam",
             "order": 3,
             "strings": {
-              "name": "OpenStreetMap Latin America Telegram",
+              "community": "OpenStreetMap Latin America",
               "description": "Chat with other members of the Latinamerican OSM community, it is bridged with the Matrix chat"
             },
             "contacts": [
@@ -15142,16 +15109,14 @@
             "locationSet": {"include": ["419"]},
             "languageCodes": ["en", "es", "pt"],
             "url": "https://twitter.com/osmlatam",
+            "account": "osmlatam",
             "order": 3,
-            "strings": {
-              "name": "OpenStreetMap Latin America Twitter",
-              "description": "OpenStreetMap Latin America on Twitter: {url}"
-            },
+            "strings": {"community": "OpenStreetMap Latin America"},
             "contacts": [
               {"name": "OSM LATAM Community", "email": "info@osmlatam.org"}
             ],
-            "name": "OpenStreetMap Latin America Twitter",
-            "description": "OpenStreetMap Latin America on Twitter: https://twitter.com/osmlatam"
+            "name": "OpenStreetMap Latin America on Twitter",
+            "description": "Follow us on Twitter"
           },
           "latam-wiki": {
             "id": "latam-wiki",
@@ -15161,13 +15126,13 @@
             "url": "https://wiki.openstreetmap.org/wiki/ES:OSM_Latam",
             "order": 2,
             "strings": {
-              "name": "OpenStreetMap Wikiproject Latin America",
+              "community": "OpenStreetMap Latin America",
               "description": "Everything you need to know about mapping in Latin America"
             },
             "contacts": [
               {"name": "OSM LATAM Community", "email": "info@osmlatam.org"}
             ],
-            "name": "OpenStreetMap Wikiproject Latin America",
+            "name": "OpenStreetMap Latin America Wikiproject",
             "description": "Everything you need to know about mapping in Latin America"
           }
         }
@@ -18864,21 +18829,17 @@
             "locationSet": {"include": ["ar"]},
             "languageCodes": ["es"],
             "url": "https://www.facebook.com/OpenStreetMapArgentina/",
+            "account": "OpenStreetMapArgentina",
             "order": 3,
-            "strings": {
-              "name": "OpenStreetMap Argentina Facebook",
-              "description": "Join the OpenStreetMap Argentina community on Facebook",
-              "extendedDescription": "News from the local community"
-            },
+            "strings": {"community": "OpenStreetMap Argentina"},
             "contacts": [
               {
                 "name": "OpenStreetMap Argentina",
                 "email": "openstreetmap.org.ar@gmail.com"
               }
             ],
-            "name": "OpenStreetMap Argentina Facebook",
-            "description": "Join the OpenStreetMap Argentina community on Facebook",
-            "extendedDescription": "News from the local community"
+            "name": "OpenStreetMap Argentina on Facebook",
+            "description": "Join our community on Facebook"
           },
           "OSM-AR-forum": {
             "id": "OSM-AR-forum",
@@ -18888,8 +18849,7 @@
             "url": "https://forum.openstreetmap.org/viewforum.php?id=49",
             "order": -2,
             "strings": {
-              "name": "OpenStreetMap Argentina web forum",
-              "description": "Join the OpenStreetMap Argentina web forum",
+              "community": "OpenStreetMap Argentina",
               "extendedDescription": "Ideal for long or important discussions. Slow response time."
             },
             "contacts": [
@@ -18898,8 +18858,8 @@
                 "email": "openstreetmap.org.ar@gmail.com"
               }
             ],
-            "name": "OpenStreetMap Argentina web forum",
-            "description": "Join the OpenStreetMap Argentina web forum",
+            "name": "OpenStreetMap Argentina Forum",
+            "description": "The official forum for OpenStreetMap Argentina",
             "extendedDescription": "Ideal for long or important discussions. Slow response time."
           },
           "OSM-AR-irc": {
@@ -18908,9 +18868,10 @@
             "locationSet": {"include": ["ar"]},
             "languageCodes": ["es"],
             "url": "https://webchat.oftc.net/?channels=osm-ar",
+            "account": "osm-ar",
             "order": -4,
             "strings": {
-              "name": "OpenStreetMap Argentina IRC",
+              "community": "OpenStreetMap Argentina",
               "description": "Join #osm-ar on irc.oftc.net (port 6667)",
               "extendedDescription": "You may find the most geeky user in the community."
             },
@@ -18920,7 +18881,7 @@
                 "email": "openstreetmap.org.ar@gmail.com"
               }
             ],
-            "name": "OpenStreetMap Argentina IRC",
+            "name": "OpenStreetMap Argentina on IRC",
             "description": "Join #osm-ar on irc.oftc.net (port 6667)",
             "extendedDescription": "You may find the most geeky user in the community."
           },
@@ -18930,9 +18891,10 @@
             "locationSet": {"include": ["ar"]},
             "languageCodes": ["es"],
             "url": "https://lists.openstreetmap.org/listinfo/talk-ar/",
+            "account": "talk-ar",
             "order": -3,
             "strings": {
-              "name": "Talk-ar Mailing List",
+              "community": "OpenStreetMap Argentina",
               "description": "Historic mailing list. Almost unused today."
             },
             "contacts": [
@@ -18941,7 +18903,7 @@
                 "email": "openstreetmap.org.ar@gmail.com"
               }
             ],
-            "name": "Talk-ar Mailing List",
+            "name": "talk-ar Mailing List",
             "description": "Historic mailing list. Almost unused today."
           },
           "OSM-AR-telegram": {
@@ -18950,9 +18912,9 @@
             "locationSet": {"include": ["ar"]},
             "languageCodes": ["es"],
             "url": "https://t.me/osm_ar",
+            "account": "osm_ar",
             "strings": {
-              "name": "OpenStreetMap Argentina Telegram",
-              "description": "Join the OpenStreetMap Argentina community on Telegram",
+              "community": "OpenStreetMap Argentina",
               "extendedDescription": "The most active channel in the community, ideal for chatting and getting answers to your questions instantly. Everyone is welcome!"
             },
             "contacts": [
@@ -18962,7 +18924,7 @@
               }
             ],
             "name": "OpenStreetMap Argentina Telegram",
-            "description": "Join the OpenStreetMap Argentina community on Telegram",
+            "description": "Join our community Telegram chat",
             "extendedDescription": "The most active channel in the community, ideal for chatting and getting answers to your questions instantly. Everyone is welcome!"
           },
           "OSM-AR-twitter": {
@@ -18971,9 +18933,9 @@
             "locationSet": {"include": ["ar"]},
             "languageCodes": ["es"],
             "url": "https://twitter.com/OpenStreetMapAr",
+            "account": "OpenStreetMapAr",
             "strings": {
-              "name": "OpenStreetMap Argentina Twitter",
-              "description": "Follow us on Twitter at {url}",
+              "community": "OpenStreetMap Argentina",
               "extendedDescription": "News from the local community and OpenStreetMap in general."
             },
             "contacts": [
@@ -18982,8 +18944,8 @@
                 "email": "openstreetmap.org.ar@gmail.com"
               }
             ],
-            "name": "OpenStreetMap Argentina Twitter",
-            "description": "Follow us on Twitter at https://twitter.com/OpenStreetMapAr",
+            "name": "OpenStreetMap Argentina on Twitter",
+            "description": "Follow us on Twitter",
             "extendedDescription": "News from the local community and OpenStreetMap in general."
           }
         }
@@ -20403,19 +20365,19 @@
             "type": "mailinglist",
             "locationSet": {"include": ["bo"]},
             "languageCodes": ["es"],
-            "url": "https://lists.openstreetmap.org/listinfo/talk-bo/",
+            "url": "https://lists.openstreetmap.org/listinfo/talk-bo",
+            "account": "talk-bo",
             "order": -3,
             "strings": {
-              "name": "Talk-bo Mailing List",
-              "description": "Talk-bo is the official mailing list for the Bolivian OpenStreetMap community",
+              "community": "OpenStreetMap Bolivia",
               "extendedDescription": "Mapping in Bolivia? Have questions, want to connect with the community here? Join us at {url}. All are welcome!"
             },
             "contacts": [
               {"name": "Marco Antonio", "email": "marcoantoniofrias@gmail.com"}
             ],
-            "name": "Talk-bo Mailing List",
-            "description": "Talk-bo is the official mailing list for the Bolivian OpenStreetMap community",
-            "extendedDescription": "Mapping in Bolivia? Have questions, want to connect with the community here? Join us at https://lists.openstreetmap.org/listinfo/talk-bo/. All are welcome!"
+            "name": "talk-bo Mailing List",
+            "description": "The official mailing list for OpenStreetMap Bolivia",
+            "extendedDescription": "Mapping in Bolivia? Have questions, want to connect with the community here? Join us at https://lists.openstreetmap.org/listinfo/talk-bo. All are welcome!"
           },
           "OSMBO": {
             "id": "OSMBO",
@@ -20423,13 +20385,11 @@
             "locationSet": {"include": ["bo"]},
             "languageCodes": ["en"],
             "url": "https://t.me/osmbolivia",
+            "account": "osmbolivia",
             "order": 2,
-            "strings": {
-              "name": "OSMBolivia",
-              "description": "OpenStreetMap Bolivia telegram chat"
-            },
-            "name": "OSMBolivia",
-            "description": "OpenStreetMap Bolivia telegram chat"
+            "strings": {"community": "OpenStreetMap Bolivia"},
+            "name": "OpenStreetMap Bolivia Telegram",
+            "description": "Join our community Telegram chat"
           }
         }
       },
@@ -23152,15 +23112,12 @@
             ],
             "url": "https://discord.gg/4smYkq3gzp",
             "order": 6,
-            "strings": {
-              "name": "OpenStreetMap World Discord",
-              "description": "Get in touch with other mappers via Discord"
-            },
+            "strings": {"name": "OpenStreetMap World Discord"},
             "contacts": [
               {"name": "Austin Harrison", "email": "jaustinharrison@gmail.com"}
             ],
             "name": "OpenStreetMap World Discord",
-            "description": "Get in touch with other mappers via Discord"
+            "description": "Get in touch with other mappers on Discord"
           },
           "OSM-Facebook": {
             "id": "OSM-Facebook",
@@ -23168,9 +23125,10 @@
             "locationSet": {"include": ["001"]},
             "languageCodes": ["en"],
             "url": "https://www.facebook.com/OpenStreetMap",
+            "account": "OpenStreetMap",
             "order": 3,
             "strings": {
-              "name": "OpenStreetMap on Facebook",
+              "community": "OpenStreetMap",
               "description": "Like us on Facebook for news and updates about OpenStreetMap."
             },
             "contacts": [
@@ -23209,13 +23167,13 @@
             "url": "https://webchat.oftc.net/?channels=osm",
             "order": -4,
             "strings": {
-              "name": "OpenStreetMap IRC",
+              "community": "OpenStreetMap",
               "description": "Join #osm on irc.oftc.net (port 6667)"
             },
             "contacts": [
               {"name": "Harry Wood", "email": "mail@harrywood.co.uk"}
             ],
-            "name": "OpenStreetMap IRC",
+            "name": "OpenStreetMap on IRC",
             "description": "Join #osm on irc.oftc.net (port 6667)"
           },
           "OSM-Reddit": {
@@ -23226,7 +23184,7 @@
             "url": "https://www.reddit.com/r/openstreetmap/",
             "order": 2,
             "strings": {
-              "name": "OpenStreetMap on Reddit",
+              "community": "OpenStreetMap",
               "description": "/r/openstreetmap/ is a great place to learn more about OpenStreetMap.  Ask us anything!"
             },
             "contacts": [
@@ -23241,9 +23199,10 @@
             "locationSet": {"include": ["001"]},
             "languageCodes": ["en"],
             "url": "https://t.me/OpenStreetMapOrg",
+            "account": "OpenStreetMapOrg",
             "order": 5,
             "strings": {
-              "name": "OpenStreetMap Telegram",
+              "community": "OpenStreetMap",
               "description": "Join the OpenStreetMap Telegram global supergroup at {url}"
             },
             "contacts": [
@@ -23258,20 +23217,18 @@
             "locationSet": {"include": ["001"]},
             "languageCodes": ["en"],
             "url": "https://twitter.com/openstreetmap",
+            "account": "openstreetmap",
             "order": 4,
-            "strings": {
-              "name": "OpenStreetMap Twitter",
-              "description": "Follow us on Twitter at {url}"
-            },
+            "strings": {"community": "OpenStreetMap"},
             "contacts": [
               {"name": "Harry Wood", "email": "mail@harrywood.co.uk"}
             ],
-            "name": "OpenStreetMap Twitter",
-            "description": "Follow us on Twitter at https://twitter.com/openstreetmap"
+            "name": "OpenStreetMap on Twitter",
+            "description": "Follow us on Twitter"
           },
           "OSMF": {
             "id": "OSMF",
-            "type": "osm",
+            "type": "osm-lc",
             "locationSet": {"include": ["001"]},
             "languageCodes": ["en", "fr", "it", "ja", "nl", "ru"],
             "url": "https://wiki.osmfoundation.org/wiki/Main_Page",
@@ -23911,12 +23868,10 @@
             "locationSet": {"include": ["gf"]},
             "languageCodes": ["en"],
             "url": "https://twitter.com/osm_guyane?lang=en",
-            "strings": {
-              "name": "OpenStreetMap French Guiana Twitter",
-              "description": "Follow us on Twitter at OpenStreetMap Guyane"
-            },
-            "name": "OpenStreetMap French Guiana Twitter",
-            "description": "Follow us on Twitter at OpenStreetMap Guyane"
+            "account": "osm_guyane",
+            "strings": {"community": "OpenStreetMap French Guiana"},
+            "name": "OpenStreetMap French Guiana on Twitter",
+            "description": "Follow us on Twitter"
           }
         }
       },
@@ -24461,12 +24416,10 @@
             "locationSet": {"include": ["hn"]},
             "languageCodes": ["en"],
             "url": "https://lists.openstreetmap.org/listinfo/talk-hn",
-            "strings": {
-              "name": "Talk-hn Mailing List",
-              "description": "A mailing list to discuss OpenStreetMap in Honduras"
-            },
-            "name": "Talk-hn Mailing List",
-            "description": "A mailing list to discuss OpenStreetMap in Honduras"
+            "account": "talk-hn",
+            "strings": {"community": "OpenStreetMap Honduras"},
+            "name": "talk-hn Mailing List",
+            "description": "The official mailing list for OpenStreetMap Honduras"
           }
         }
       },
@@ -28247,7 +28200,7 @@
             "languageCodes": ["es"],
             "url": "http://osmpe.ourproject.org/",
             "strings": {
-              "name": "OpenStreetMap Peru",
+              "community": "OpenStreetMap Peru",
               "description": "News and resources for the OpenStreetMap Peru community"
             },
             "contacts": [
@@ -28266,11 +28219,9 @@
             "locationSet": {"include": ["pe"]},
             "languageCodes": ["es"],
             "url": "https://www.facebook.com/Osmpe",
+            "account": "Osmpe",
             "order": 3,
-            "strings": {
-              "name": "OpenStreetMap Peru Facebook",
-              "description": "Join the OpenStreetMap Peru community on Facebook"
-            },
+            "strings": {"community": "OpenStreetMap Peru"},
             "contacts": [
               {
                 "name": "Diego Sangunietti",
@@ -28278,20 +28229,18 @@
               },
               {"name": "Ruben Lopez M.", "email": "rub2106@gmail.com"}
             ],
-            "name": "OpenStreetMap Peru Facebook",
-            "description": "Join the OpenStreetMap Peru community on Facebook"
+            "name": "OpenStreetMap Peru on Facebook",
+            "description": "Join our community on Facebook"
           },
           "OSM-PE-mailinglist": {
             "id": "OSM-PE-mailinglist",
             "type": "mailinglist",
             "locationSet": {"include": ["pe"]},
             "languageCodes": ["es"],
-            "url": "https://lists.openstreetmap.org/listinfo/talk-pe/",
+            "url": "https://lists.openstreetmap.org/listinfo/talk-pe",
+            "account": "talk-pe",
             "order": -3,
-            "strings": {
-              "name": "Talk-pe Mailing List",
-              "description": "The official mailing list for the OpenStreetMap Peru community"
-            },
+            "strings": {"community": "OpenStreetMap Peru"},
             "contacts": [
               {
                 "name": "Diego Sangunietti",
@@ -28299,8 +28248,8 @@
               },
               {"name": "Ruben Lopez M.", "email": "rub2106@gmail.com"}
             ],
-            "name": "Talk-pe Mailing List",
-            "description": "The official mailing list for the OpenStreetMap Peru community"
+            "name": "talk-pe Mailing List",
+            "description": "The official mailing list for OpenStreetMap Peru"
           },
           "OSM-PE-matrix": {
             "id": "OSM-PE-matrix",
@@ -28309,7 +28258,7 @@
             "languageCodes": ["es"],
             "url": "https://matrix.to/#/#osmpe:matrix.org",
             "strings": {
-              "name": "OpenStreetMap Peru Matrix Chat",
+              "community": "OpenStreetMap Peru",
               "description": "Chat with other members of the OpenStreetMap Peru community in Matrix."
             },
             "contacts": [
@@ -28328,10 +28277,8 @@
             "locationSet": {"include": ["pe"]},
             "languageCodes": ["es"],
             "url": "https://t.me/osmPe",
-            "strings": {
-              "name": "OpenStreetMap Peru Telegram",
-              "description": "Join the OpenStreetMap Peru community on Telegram"
-            },
+            "account": "osmPe",
+            "strings": {"community": "OpenStreetMap Peru"},
             "contacts": [
               {
                 "name": "Diego Sangunietti",
@@ -28340,7 +28287,7 @@
               {"name": "Ruben Lopez M.", "email": "rub2106@gmail.com"}
             ],
             "name": "OpenStreetMap Peru Telegram",
-            "description": "Join the OpenStreetMap Peru community on Telegram"
+            "description": "Join our community Telegram chat"
           },
           "OSM-PE-twitter": {
             "id": "OSM-PE-twitter",
@@ -28348,10 +28295,8 @@
             "locationSet": {"include": ["pe"]},
             "languageCodes": ["es"],
             "url": "https://twitter.com/osmpe",
-            "strings": {
-              "name": "OpenStreetMap Peru Twitter",
-              "description": "Follow us on Twitter at {url}"
-            },
+            "account": "osmpe",
+            "strings": {"community": "OpenStreetMap Peru"},
             "contacts": [
               {
                 "name": "Diego Sangunietti",
@@ -28359,8 +28304,8 @@
               },
               {"name": "Ruben Lopez M.", "email": "rub2106@gmail.com"}
             ],
-            "name": "OpenStreetMap Peru Twitter",
-            "description": "Follow us on Twitter at https://twitter.com/osmpe"
+            "name": "OpenStreetMap Peru on Twitter",
+            "description": "Follow us on Twitter"
           }
         }
       },
@@ -29119,12 +29064,10 @@
             "locationSet": {"include": ["py"]},
             "languageCodes": ["es"],
             "url": "https://t.me/osm_py",
-            "strings": {
-              "name": "OSM Paraguay on Telegram",
-              "description": "OpenStreetMap Paraguay Telegram chat"
-            },
-            "name": "OSM Paraguay on Telegram",
-            "description": "OpenStreetMap Paraguay Telegram chat"
+            "account": "osm_py",
+            "strings": {"community": "OpenStreetMap Paraguay"},
+            "name": "OpenStreetMap Paraguay Telegram",
+            "description": "Join our community Telegram chat"
           }
         }
       },
@@ -31440,7 +31383,7 @@
             "url": "https://www.openstreetmap.us/",
             "signupUrl": "https://www.openstreetmap.us/join",
             "strings": {
-              "name": "OpenStreetMap US",
+              "community": "OpenStreetMap US",
               "description": "We help grow and improve OpenStreetMap in the United States.",
               "extendedDescription": "We support OpenStreetMap by holding annual conferences, providing community resources, building partnerships, and by spreading the word. Join OpenStreetMap US here: {signupUrl}"
             },
@@ -33391,13 +33334,13 @@
             "locationSet": {"include": ["riograndedosul.geojson"]},
             "languageCodes": ["pt"],
             "url": "https://t.me/osmrs",
+            "account": "osmrs",
             "strings": {
-              "name": "OpenStreetMap Rio Grande do Sul Telegram Group",
-              "description": "Join the OpenStreetMap Rio Grande do Sul community on Telegram",
+              "community": "OpenStreetMap Rio Grande do Sul",
               "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"
             },
-            "name": "OpenStreetMap Rio Grande do Sul Telegram Group",
-            "description": "Join the OpenStreetMap Rio Grande do Sul community on Telegram",
+            "name": "OpenStreetMap Rio Grande do Sul Telegram",
+            "description": "Join our community Telegram chat",
             "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"
           }
         }
@@ -33994,17 +33937,15 @@
             "locationSet": {"include": ["au"]},
             "languageCodes": ["en"],
             "url": "https://lists.openstreetmap.org/listinfo/talk-au",
+            "account": "talk-au",
             "order": 4,
-            "strings": {
-              "name": "Talk-au Mailing List",
-              "description": "Place for Aussie mappers to chat"
-            },
+            "strings": {"description": "Place for Aussie mappers to chat"},
             "contacts": [
               {"name": "Ben Kelley", "email": "ben.kelley@gmail.com"},
               {"name": "Steve Bennett", "email": "stevagewp@gmail.com"},
               {"name": "Ian Sergeant", "email": "inas66+osm@gmail.com"}
             ],
-            "name": "Talk-au Mailing List",
+            "name": "talk-au Mailing List",
             "description": "Place for Aussie mappers to chat"
           }
         }
@@ -34368,12 +34309,10 @@
             "locationSet": {"include": ["nz"]},
             "languageCodes": ["en"],
             "url": "https://lists.openstreetmap.org/listinfo/talk-nz",
+            "account": "talk-nz",
             "order": -3,
-            "strings": {
-              "name": "Talk-nz Mailing List",
-              "description": "New Zealand's OSM community talk"
-            },
-            "name": "Talk-nz Mailing List",
+            "strings": {"description": "New Zealand's OSM community talk"},
+            "name": "talk-nz Mailing List",
             "description": "New Zealand's OSM community talk"
           }
         }
@@ -35399,12 +35338,9 @@
             "languageCodes": ["es"],
             "url": "https://forum.openstreetmap.org/viewforum.php?id=78",
             "order": -2,
-            "strings": {
-              "name": "OpenStreetMap UY forum",
-              "description": "OpenStreetMap Uruguay web forum"
-            },
-            "name": "OpenStreetMap UY forum",
-            "description": "OpenStreetMap Uruguay web forum"
+            "strings": {"community": "OpenStreetMap Uruguay"},
+            "name": "OpenStreetMap Uruguay Forum",
+            "description": "The official forum for OpenStreetMap Uruguay"
           },
           "uy-irc": {
             "id": "uy-irc",
@@ -35414,7 +35350,7 @@
             "url": "https://webchat.freenode.net/?url=irc://irc.freenode.net/osmuruguay",
             "order": -4,
             "strings": {
-              "name": "OpenStreetMap Uruguay on IRC",
+              "community": "OpenStreetMap Uruguay",
               "description": "Join #osmuruguay on irc.freenode.org (port 6667)",
               "extendedDescription": "Join #osmuruguay on irc.freenode.org"
             },
@@ -35428,13 +35364,11 @@
             "locationSet": {"include": ["uy"]},
             "languageCodes": ["es"],
             "url": "https://lists.openstreetmap.org/listinfo/talk-uy",
+            "account": "talk-uy",
             "order": -3,
-            "strings": {
-              "name": "Talk-uy Mailing List",
-              "description": "Talk-uy is the official mailing list for the Uruguayan OSM community"
-            },
-            "name": "Talk-uy Mailing List",
-            "description": "Talk-uy is the official mailing list for the Uruguayan OSM community"
+            "strings": {"community": "OpenStreetMap Uruguay"},
+            "name": "talk-uy Mailing List",
+            "description": "The official mailing list for OpenStreetMap Uruguay"
           }
         }
       },
@@ -35955,12 +35889,9 @@
             "languageCodes": ["es"],
             "url": "https://forum.openstreetmap.org/viewforum.php?id=50",
             "order": -2,
-            "strings": {
-              "name": "OpenStreetMap VE Forum",
-              "description": "OpenStreetMap Venezuela web forum"
-            },
-            "name": "OpenStreetMap VE Forum",
-            "description": "OpenStreetMap Venezuela web forum"
+            "strings": {"community": "OpenStreetMap Venezuela"},
+            "name": "OpenStreetMap Venezuela Forum",
+            "description": "The official forum for OpenStreetMap Venezuela"
           },
           "ve-mailinglist": {
             "id": "ve-mailinglist",
@@ -35968,13 +35899,11 @@
             "locationSet": {"include": ["ve"]},
             "languageCodes": ["es"],
             "url": "https://lists.openstreetmap.org/listinfo/talk-ve",
+            "account": "talk-ve",
             "order": -3,
-            "strings": {
-              "name": "Talk-ve Mailing List",
-              "description": "Talk-ve is the official mailing list for the Venezuelan OSM community"
-            },
-            "name": "Talk-ve Mailing List",
-            "description": "Talk-ve is the official mailing list for the Venezuelan OSM community"
+            "strings": {"community": "OpenStreetMap Venezuela"},
+            "name": "talk-ve Mailing List",
+            "description": "The official mailing list for OpenStreetMap Venezuela"
           },
           "ve-telegram": {
             "id": "ve-telegram",
@@ -35982,12 +35911,10 @@
             "locationSet": {"include": ["ve"]},
             "languageCodes": ["es"],
             "url": "https://t.me/OSMve",
-            "strings": {
-              "name": "OpenStreetMap Venezuela Telegram",
-              "description": "Join the OpenStreetMap Venezuela community on Telegram"
-            },
+            "account": "OSMve",
+            "strings": {"community": "OpenStreetMap Venezuela"},
             "name": "OpenStreetMap Venezuela Telegram",
-            "description": "Join the OpenStreetMap Venezuela community on Telegram"
+            "description": "Join our community Telegram chat"
           }
         }
       },
