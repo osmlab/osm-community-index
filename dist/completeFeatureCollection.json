@@ -1066,13 +1066,11 @@
             "type": "telegram",
             "locationSet": {"include": ["bd"]},
             "url": "https://t.me/OpenStreetMapBD",
+            "account": "OpenStreetMapBD",
             "order": 1,
-            "strings": {
-              "name": "@OpenStreetMapBangladesh on Telegram",
-              "description": "OpenStreetMap Bangladesh Telegram chat"
-            },
-            "name": "@OpenStreetMapBangladesh on Telegram",
-            "description": "OpenStreetMap Bangladesh Telegram chat"
+            "strings": {"community": "OpenStreetMap Bangladesh"},
+            "name": "OpenStreetMap Bangladesh Telegram",
+            "description": "Join our community Telegram chat"
           },
           "OSM-BD-forum": {
             "id": "OSM-BD-forum",
@@ -1081,12 +1079,9 @@
             "languageCodes": ["en"],
             "url": "https://forum.openstreetmap.org/viewforum.php?id=97",
             "order": 4,
-            "strings": {
-              "name": "OpenStreetMap Bangladesh Forum",
-              "description": "Official OpenStreetMap Bangladesh Forum"
-            },
+            "strings": {"community": "OpenStreetMap Bangladesh"},
             "name": "OpenStreetMap Bangladesh Forum",
-            "description": "Official OpenStreetMap Bangladesh Forum"
+            "description": "The official forum for OpenStreetMap Bangladesh"
           },
           "OSM-BGD-facebook": {
             "id": "OSM-BGD-facebook",
@@ -1095,15 +1090,14 @@
             "url": "https://www.facebook.com/groups/osmbd/",
             "order": 2,
             "strings": {
-              "name": "OpenStreetMap Bangladesh",
-              "description": "Improve OpenStreetMap in Bangladesh",
+              "community": "OpenStreetMap Bangladesh",
               "extendedDescription": "Mapping in Bangladesh? Have questions, want to connect with the community here? Join us at {url}. All are welcome!"
             },
             "contacts": [
               {"name": "Ahasanul Hoque", "email": "hoque.ahasan@gmail.com"}
             ],
-            "name": "OpenStreetMap Bangladesh",
-            "description": "Improve OpenStreetMap in Bangladesh",
+            "name": "OpenStreetMap Bangladesh on Facebook",
+            "description": "Join our community on Facebook",
             "extendedDescription": "Mapping in Bangladesh? Have questions, want to connect with the community here? Join us at https://www.facebook.com/groups/osmbd/. All are welcome!"
           },
           "talk-bd": {
@@ -1112,13 +1106,11 @@
             "locationSet": {"include": ["bd"]},
             "languageCodes": ["en"],
             "url": "https://lists.openstreetmap.org/listinfo/talk-bd",
+            "account": "talk-bd",
             "order": 3,
-            "strings": {
-              "name": "Talk-bd Mailing List",
-              "description": "Talk-bd is the official mailing list for Bangladesh OSM community."
-            },
-            "name": "Talk-bd Mailing List",
-            "description": "Talk-bd is the official mailing list for Bangladesh OSM community."
+            "strings": {"community": "OpenStreetMap Bangladesh"},
+            "name": "talk-bd Mailing List",
+            "description": "The official mailing list for OpenStreetMap Bangladesh"
           }
         }
       },
@@ -13035,12 +13027,9 @@
             "languageCodes": ["en"],
             "url": "https://forum.openstreetmap.org/viewforum.php?id=82",
             "order": 4,
-            "strings": {
-              "name": "OpenStreetMap Indonesia Forum",
-              "description": "The official forum for OpenStreetMap questions in and around Indonesia"
-            },
+            "strings": {"community": "OpenStreetMap Indonesia"},
             "name": "OpenStreetMap Indonesia Forum",
-            "description": "The official forum for OpenStreetMap questions in and around Indonesia"
+            "description": "The official forum for OpenStreetMap Indonesia"
           },
           "IDosm": {
             "id": "IDosm",
@@ -13048,13 +13037,11 @@
             "locationSet": {"include": ["id"]},
             "languageCodes": ["en"],
             "url": "https://t.me/osmindonesia",
+            "account": "osmindonesia",
             "order": 2,
-            "strings": {
-              "name": "OpenStreetMap Indonesia",
-              "description": "OpenStreetMap Indonesia telegram chat"
-            },
-            "name": "OpenStreetMap Indonesia",
-            "description": "OpenStreetMap Indonesia telegram chat"
+            "strings": {"community": "OpenStreetMap Indonesia"},
+            "name": "OpenStreetMap Indonesia Telegram",
+            "description": "Join our community Telegram chat"
           },
           "OSM-id-mailinglist": {
             "id": "OSM-id-mailinglist",
@@ -13062,13 +13049,11 @@
             "locationSet": {"include": ["id"]},
             "languageCodes": ["en"],
             "url": "https://lists.openstreetmap.org/listinfo/talk-id",
+            "account": "talk-id",
             "order": 5,
-            "strings": {
-              "name": "Talk-id Mailing List",
-              "description": "A mailing list to discuss OpenStreetMap in Indonesia"
-            },
-            "name": "Talk-id Mailing List",
-            "description": "A mailing list to discuss OpenStreetMap in Indonesia"
+            "strings": {"community": "OpenStreetMap Indonesia"},
+            "name": "talk-id Mailing List",
+            "description": "The official mailing list for OpenStreetMap Indonesia"
           },
           "OSM-id-twitter": {
             "id": "OSM-id-twitter",
@@ -13076,30 +13061,28 @@
             "locationSet": {"include": ["id"]},
             "languageCodes": ["en"],
             "url": "https://twitter.com/OSM_ID",
+            "account": "OSM_ID",
             "order": 3,
-            "strings": {
-              "name": "OpenStreetMap.id",
-              "description": "Follow us on Twitter at OSM_ID"
-            },
-            "name": "OpenStreetMap.id",
-            "description": "Follow us on Twitter at OSM_ID"
+            "strings": {"community": "OpenStreetMap Indonesia"},
+            "name": "OpenStreetMap Indonesia on Twitter",
+            "description": "Follow us on Twitter"
           },
           "OSM-IDN-facebook": {
             "id": "OSM-IDN-facebook",
             "type": "facebook",
             "locationSet": {"include": ["id"]},
-            "url": "https://www.facebook.com/groups/osm.id/",
+            "url": "https://www.facebook.com/groups/osm.id",
+            "account": "osm.id",
             "order": 1,
             "strings": {
-              "name": "OpenStreetMap Indonesia",
-              "description": "Improve OpenStreetMap in Indonesia",
+              "community": "OpenStreetMap Indonesia",
               "extendedDescription": "Mapping in Indonesia? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!"
             },
             "contacts": [
               {"name": "Yantisa Akhadi", "email": "yantisa.akhadi@hotosm.org"}
             ],
-            "name": "OpenStreetMap Indonesia",
-            "description": "Improve OpenStreetMap in Indonesia",
+            "name": "OpenStreetMap Indonesia on Facebook",
+            "description": "Join our community on Facebook",
             "extendedDescription": "Mapping in Indonesia? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!"
           }
         }
@@ -14115,12 +14098,10 @@
             "type": "telegram",
             "locationSet": {"include": ["kz"]},
             "url": "https://t.me/osm_kz",
-            "strings": {
-              "name": "OSM Kazakhstan on Telegram",
-              "description": "OpenStreetMap Kazakhstan Telegram chat"
-            },
-            "name": "OSM Kazakhstan on Telegram",
-            "description": "OpenStreetMap Kazakhstan Telegram chat"
+            "account": "osm_kz",
+            "strings": {"community": "OpenStreetMap Kazakhstan"},
+            "name": "OpenStreetMap Kazakhstan Telegram",
+            "description": "Join our community Telegram chat"
           }
         }
       },
@@ -14515,12 +14496,9 @@
             "locationSet": {"include": ["kh"]},
             "languageCodes": ["en"],
             "url": "https://forum.openstreetmap.org/viewforum.php?id=63",
-            "strings": {
-              "name": "OpenStreetMap Cambodia Forum",
-              "description": "The official forum for OpenStreetMap questions in and around Cambodia"
-            },
+            "strings": {"community": "OpenStreetMap Cambodia"},
             "name": "OpenStreetMap Cambodia Forum",
-            "description": "The official forum for OpenStreetMap questions in and around Cambodia"
+            "description": "The official forum for OpenStreetMap Cambodia"
           },
           "kh-twitter": {
             "id": "kh-twitter",
@@ -14528,12 +14506,10 @@
             "locationSet": {"include": ["kh"]},
             "languageCodes": ["en"],
             "url": "https://twitter.com/OSM_KH",
-            "strings": {
-              "name": "OSM Cambodia",
-              "description": "Twitter of OpenStreetMap in Cambodia"
-            },
-            "name": "OSM Cambodia",
-            "description": "Twitter of OpenStreetMap in Cambodia"
+            "account": "OSM_KH",
+            "strings": {"community": "OpenStreetMap Cambodia"},
+            "name": "OpenStreetMap Cambodia on Twitter",
+            "description": "Follow us on Twitter"
           },
           "osm-kh-facebook": {
             "id": "osm-kh-facebook",
@@ -14541,12 +14517,9 @@
             "locationSet": {"include": ["kh"]},
             "languageCodes": ["en"],
             "url": "https://www.facebook.com/OSM-Cambodia-218656624834943/",
-            "strings": {
-              "name": "OpenStreetMap Cambodia",
-              "description": "Improve OpenStreetMap in Cambodia"
-            },
-            "name": "OpenStreetMap Cambodia",
-            "description": "Improve OpenStreetMap in Cambodia"
+            "strings": {"community": "OpenStreetMap Cambodia"},
+            "name": "OpenStreetMap Cambodia on Facebook",
+            "description": "Join our community on Facebook"
           }
         }
       },
@@ -18043,18 +18016,15 @@
             "languageCodes": ["en", "fa", "ps"],
             "url": "https://www.facebook.com/groups/321292812113316/",
             "order": 3,
-            "strings": {
-              "name": "OpenStreetMap Afghanistan",
-              "description": "Improve OpenStreetMap in Afghanistan"
-            },
+            "strings": {"community": "OpenStreetMap Afghanistan"},
             "contacts": [
               {
                 "name": "Walker Kosmidou-Bradley",
                 "email": "walker.t.bradley@gmail.com"
               }
             ],
-            "name": "OpenStreetMap Afghanistan",
-            "description": "Improve OpenStreetMap in Afghanistan"
+            "name": "OpenStreetMap Afghanistan on Facebook",
+            "description": "Join our community on Facebook"
           },
           "OSM-Afghanistan-mailinglist": {
             "id": "OSM-Afghanistan-mailinglist",
@@ -18062,13 +18032,11 @@
             "locationSet": {"include": ["af"]},
             "languageCodes": ["en"],
             "url": "https://lists.openstreetmap.org/listinfo/talk-af",
+            "account": "talk-af",
             "order": 2,
-            "strings": {
-              "name": "OpenStreetMap Afghanistan Mailinglist",
-              "description": "Talk-af is an official mailing list to discuss matters about Afghanistan"
-            },
-            "name": "OpenStreetMap Afghanistan Mailinglist",
-            "description": "Talk-af is an official mailing list to discuss matters about Afghanistan"
+            "strings": {"community": "OpenStreetMap Afghanistan"},
+            "name": "talk-af Mailing List",
+            "description": "The official mailing list for OpenStreetMap Afghanistan"
           }
         }
       },
@@ -19299,27 +19267,23 @@
             "type": "mailinglist",
             "locationSet": {"include": ["142"]},
             "url": "https://lists.openstreetmap.org/listinfo/talk-asia",
+            "account": "talk-asia",
             "order": -3,
-            "strings": {
-              "name": "OpenStreetMap Asia Mailinglist",
-              "description": "Talk-asia is the official Mailinglist for Asian Community"
-            },
+            "strings": {"community": "OpenStreetMap Asia"},
             "contacts": [{"name": "Erwin Olario", "email": "govvin@gmail.com"}],
-            "name": "OpenStreetMap Asia Mailinglist",
-            "description": "Talk-asia is the official Mailinglist for Asian Community"
+            "name": "talk-asia Mailing List",
+            "description": "The official mailing list for OpenStreetMap Asia"
           },
           "osm-asia-telegram": {
             "id": "osm-asia-telegram",
             "type": "telegram",
             "locationSet": {"include": ["142"]},
             "url": "https://t.me/OpenStreetMapAsia",
-            "strings": {
-              "name": "OpenStreetMap Asia Telegram",
-              "description": "Join our family: {url}"
-            },
+            "account": "OpenStreetMapAsia",
+            "strings": {"community": "OpenStreetMap Asia"},
             "contacts": [{"name": "Erwin Olario", "email": "govvin@gmail.com"}],
             "name": "OpenStreetMap Asia Telegram",
-            "description": "Join our family: https://t.me/OpenStreetMapAsia"
+            "description": "Join our community Telegram chat"
           }
         }
       },
@@ -19785,12 +19749,9 @@
             "type": "facebook",
             "locationSet": {"include": ["az"]},
             "url": "https://www.facebook.com/OSM-Azerbaijan-178488705567357/",
-            "strings": {
-              "name": "OSM Azerbaijan",
-              "description": "Improve OpenStreetMap in Azerbaijan"
-            },
-            "name": "OSM Azerbaijan",
-            "description": "Improve OpenStreetMap in Azerbaijan"
+            "strings": {"name": "OpenStreetMap Azerbaijan"},
+            "name": "OpenStreetMap Azerbaijan",
+            "description": "Join our community on Facebook"
           }
         }
       },
@@ -21362,13 +21323,11 @@
             "locationSet": {"include": ["cn"]},
             "languageCodes": ["zh"],
             "url": "https://t.me/osmchina",
+            "account": "osmchina",
             "order": 5,
-            "strings": {
-              "name": "OpenStreetMap China Telegram",
-              "description": "A Telegram group for the OSM Chinese community: {url}"
-            },
+            "strings": {"community": "OpenStreetMap China"},
             "name": "OpenStreetMap China Telegram",
-            "description": "A Telegram group for the OSM Chinese community: https://t.me/osmchina"
+            "description": "Join our community Telegram chat"
           }
         }
       },
@@ -24339,13 +24298,11 @@
             "locationSet": {"include": ["hk"]},
             "languageCodes": ["en", "yue", "zh"],
             "url": "https://discord.gg/CyG9zte",
-            "strings": {
-              "name": "OpenStreetMap Hong Kong Discord",
-              "description": "Join the OpenStreetMap Hong Kong community on Discord"
-            },
+            "account": "CyG9zte",
+            "strings": {"community": "OpenStreetMap Hong Kong"},
             "contacts": [{"name": "Phake Nick", "email": "c933103@gmail.com"}],
             "name": "OpenStreetMap Hong Kong Discord",
-            "description": "Join the OpenStreetMap Hong Kong community on Discord"
+            "description": "Get in touch with other mappers on Discord"
           }
         }
       },
@@ -24612,10 +24569,11 @@
             "id": "OSM-India-facebook",
             "type": "facebook",
             "locationSet": {"include": ["in"]},
-            "url": "https://www.facebook.com/groups/mappingindia/",
+            "url": "https://www.facebook.com/groups/mappingindia",
+            "account": "mappingindia",
             "order": 3,
             "strings": {
-              "name": "OpenStreetMap India - Participatory neighborhood mapping",
+              "community": "OpenStreetMap India",
               "description": "Improve OpenStreetMap in India",
               "extendedDescription": "Mapping in India? Have questions, want to connect with the community here? Join us at {url}. All are welcome!"
             },
@@ -24623,9 +24581,9 @@
               {"name": "Jinal Foflia", "email": "fofliajinal@gmail.com"},
               {"name": "Arun Ganesh", "email": "arun.planemad@gmail.com"}
             ],
-            "name": "OpenStreetMap India - Participatory neighborhood mapping",
+            "name": "OpenStreetMap India on Facebook",
             "description": "Improve OpenStreetMap in India",
-            "extendedDescription": "Mapping in India? Have questions, want to connect with the community here? Join us at https://www.facebook.com/groups/mappingindia/. All are welcome!"
+            "extendedDescription": "Mapping in India? Have questions, want to connect with the community here? Join us at https://www.facebook.com/groups/mappingindia. All are welcome!"
           },
           "osm-india-forum": {
             "id": "osm-india-forum",
@@ -24633,26 +24591,24 @@
             "locationSet": {"include": ["in"]},
             "url": "https://forum.openstreetmap.org/viewforum.php?id=65",
             "order": -2,
-            "strings": {
-              "name": "OpenStreetMap India forum",
-              "description": "OpenStreetMap India web forum"
-            },
+            "strings": {"community": "OpenStreetMap India"},
             "contacts": [
               {
                 "name": "OpenStreetMap India",
                 "email": "openstreetmapindia@gmail.com"
               }
             ],
-            "name": "OpenStreetMap India forum",
-            "description": "OpenStreetMap India web forum"
+            "name": "OpenStreetMap India Forum",
+            "description": "The official forum for OpenStreetMap India"
           },
           "osm-india-github": {
             "id": "osm-india-github",
             "type": "github",
             "locationSet": {"include": ["in"]},
             "url": "https://github.com/osm-in",
+            "account": "osm-in",
             "strings": {
-              "name": "OpenStreetMap India GitHub",
+              "community": "OpenStreetMap India",
               "description": "Code with us: {url}"
             },
             "contacts": [
@@ -24666,16 +24622,14 @@
             "type": "mailinglist",
             "locationSet": {"include": ["in"]},
             "url": "https://lists.openstreetmap.org/listinfo/talk-in",
+            "account": "talk-in",
             "order": -3,
-            "strings": {
-              "name": "OpenStreetMap India Mailinglist",
-              "description": "Talk-in is the official Mailinglist for Indian Community"
-            },
+            "strings": {"community": "OpenStreetMap India"},
             "contacts": [
               {"name": "Arun Ganesh", "email": "arun.planemad@gmail.com"}
             ],
-            "name": "OpenStreetMap India Mailinglist",
-            "description": "Talk-in is the official Mailinglist for Indian Community"
+            "name": "talk-in Mailing List",
+            "description": "The official mailing list for OpenStreetMap India"
           },
           "osm-india-matrix": {
             "id": "osm-india-matrix",
@@ -24683,11 +24637,11 @@
             "locationSet": {"include": ["in"]},
             "url": "https://matrix.to/#/#osm-in-general:matrix.org",
             "strings": {
-              "name": "OpenStreetMap India Matrix",
+              "community": "OpenStreetMap India",
               "description": "Talk to other contributors",
               "extendedDescription": "Unofficial chat room for OSM India, also bridged to osmindia telegram group  "
             },
-            "name": "OpenStreetMap India Matrix",
+            "name": "OpenStreetMap India Matrix Chat",
             "description": "Talk to other contributors",
             "extendedDescription": "Unofficial chat room for OSM India, also bridged to osmindia telegram group  "
           },
@@ -24696,29 +24650,28 @@
             "type": "telegram",
             "locationSet": {"include": ["in"]},
             "url": "https://t.me/OSMIndia",
-            "strings": {
-              "name": "OpenStreetMap India Telegram",
-              "description": "Join our family: {url}"
-            },
+            "account": "OSMIndia",
+            "strings": {"community": "OpenStreetMap India"},
             "contacts": [
               {"name": "Naveen Francis", "email": "naveenpf@gmail.com"}
             ],
             "name": "OpenStreetMap India Telegram",
-            "description": "Join our family: https://t.me/OSMIndia"
+            "description": "Join our community Telegram chat"
           },
           "OSM-india-twitter": {
             "id": "OSM-india-twitter",
             "type": "twitter",
             "locationSet": {"include": ["in"]},
             "url": "https://twitter.com/osm_in",
+            "account": "osm_in",
             "strings": {
-              "name": "OpenStreetMap India Twitter",
+              "community": "OpenStreetMap India",
               "description": "We are just a tweet away: {url}"
             },
             "contacts": [
               {"name": "Jinal Foflia", "email": "fofliajinal@gmail.com"}
             ],
-            "name": "OpenStreetMap India Twitter",
+            "name": "OpenStreetMap India on Twitter",
             "description": "We are just a tweet away: https://twitter.com/osm_in"
           },
           "osm-india-website": {
@@ -24727,12 +24680,12 @@
             "locationSet": {"include": ["in"]},
             "url": "https://openstreetmap.in/",
             "strings": {
-              "name": "OpenStreetMap India",
+              "community": "OpenStreetMap India",
               "description": "Mappers and OpenStreetMap users in India"
             },
             "contacts": [
               {
-                "name": " OpenStreetMap India",
+                "name": "OpenStreetMap India",
                 "email": "openstreetmapindia@gmail.com"
               }
             ],
@@ -24745,13 +24698,13 @@
             "locationSet": {"include": ["in"]},
             "url": "https://wiki.openstreetmap.org/wiki/WikiProject_India",
             "strings": {
-              "name": "OpenStreetMap Wikiproject India",
+              "community": "OpenStreetMap India",
               "description": "Everything you need to know about mapping in India: {url}"
             },
             "contacts": [
               {"name": "Naveen Francis", "email": "naveenpf@gmail.com"}
             ],
-            "name": "OpenStreetMap Wikiproject India",
+            "name": "OpenStreetMap India Wikiproject",
             "description": "Everything you need to know about mapping in India: https://wiki.openstreetmap.org/wiki/WikiProject_India"
           },
           "osm-india-youtube": {
@@ -24759,15 +24712,13 @@
             "type": "youtube",
             "locationSet": {"include": ["in"]},
             "url": "https://www.youtube.com/channel/UCu5sKaPU04x0RJkgGkoFORw",
-            "strings": {
-              "name": "OpenStreetMap India Youtube",
-              "description": "Subscribe to our channel: {url}"
-            },
+            "account": "UCu5sKaPU04x0RJkgGkoFORw",
+            "strings": {"community": "OpenStreetMap India"},
             "contacts": [
               {"name": "Naveen Francis", "email": "naveenpf@gmail.com"}
             ],
-            "name": "OpenStreetMap India Youtube",
-            "description": "Subscribe to our channel: https://www.youtube.com/channel/UCu5sKaPU04x0RJkgGkoFORw"
+            "name": "OpenStreetMap India on YouTube",
+            "description": "Subscribe to our YouTube channel"
           }
         }
       },
@@ -26226,16 +26177,17 @@
             "type": "facebook",
             "locationSet": {"include": ["jp"]},
             "languageCodes": ["ja"],
-            "url": "https://www.facebook.com/groups/osmjapan/",
+            "url": "https://www.facebook.com/groups/osmjapan",
+            "account": "osmjapan",
             "order": 3,
             "strings": {
-              "name": "OpenStreetMap Japan Community",
+              "community": "OpenStreetMap Japan",
               "description": "Mappers and OpenStreetMap users in Japan"
             },
             "contacts": [
               {"name": "Satoshi IIDA", "email": "nyampire@gmail.com"}
             ],
-            "name": "OpenStreetMap Japan Community",
+            "name": "OpenStreetMap Japan on Facebook",
             "description": "Mappers and OpenStreetMap users in Japan"
           },
           "OSM-japan-mailinglist": {
@@ -26244,14 +26196,12 @@
             "locationSet": {"include": ["jp"]},
             "languageCodes": ["ja"],
             "url": "https://lists.openstreetmap.org/listinfo/talk-ja",
+            "account": "talk-ja",
             "order": -3,
-            "strings": {
-              "name": "OpenStreetMap Japan Mailinglist",
-              "description": "Talk-ja is an Official Mailinglist for Japanese Community"
-            },
+            "strings": {"community": "OpenStreetMap Japan"},
             "contacts": [{"name": "OSMF Japan", "email": "info@osmf.jp"}],
-            "name": "OpenStreetMap Japan Mailinglist",
-            "description": "Talk-ja is an Official Mailinglist for Japanese Community"
+            "name": "talk-ja Mailing List",
+            "description": "The official mailing list for OpenStreetMap Japan"
           },
           "OSM-japan-slack": {
             "id": "OSM-japan-slack",
@@ -26261,7 +26211,7 @@
             "url": "https://osm-japan.slack.com/",
             "signupUrl": "https://join.slack.com/t/osm-japan/shared_invite/zt-d0my5ek2-SRxGCIsPPIyaOWkJOZ4EMg",
             "strings": {
-              "name": "OpenStreetMap Japan Slack",
+              "community": "OpenStreetMap Japan",
               "description": "A Slack workspace for the OSM Japan community {signupUrl}"
             },
             "contacts": [{"name": "OSMF Japan", "email": "info@osmf.jp"}],
@@ -26274,30 +26224,26 @@
             "locationSet": {"include": ["jp"]},
             "languageCodes": ["ja"],
             "url": "https://t.me/osmjapan",
+            "account": "osmjapan",
             "order": 5,
-            "strings": {
-              "name": "OpenStreetMap Japan Telegram",
-              "description": "A Telegram group for the OSM Japan community: {url}"
-            },
+            "strings": {"community": "OpenStreetMap Japan"},
             "contacts": [{"name": "OSMF Japan", "email": "info@osmf.jp"}],
             "name": "OpenStreetMap Japan Telegram",
-            "description": "A Telegram group for the OSM Japan community: https://t.me/osmjapan"
+            "description": "Join our community Telegram chat"
           },
           "OSM-japan-twitter": {
             "id": "OSM-japan-twitter",
             "type": "twitter",
             "locationSet": {"include": ["jp"]},
             "languageCodes": ["ja"],
-            "url": "https://twitter.com/hashtag/osmjp",
-            "strings": {
-              "name": "OpenStreetMap Japan Twitter",
-              "description": "Hashtag on Twitter: {url}"
-            },
+            "url": "https://twitter.com/osmfj",
+            "account": "osmfj",
+            "strings": {"community": "OpenStreetMap Japan"},
             "contacts": [
               {"name": "Satoshi IIDA", "email": "nyampire@gmail.com"}
             ],
-            "name": "OpenStreetMap Japan Twitter",
-            "description": "Hashtag on Twitter: https://twitter.com/hashtag/osmjp"
+            "name": "OpenStreetMap Japan on Twitter",
+            "description": "Follow us on Twitter"
           },
           "OSM-japan-website": {
             "id": "OSM-japan-website",
@@ -26306,7 +26252,7 @@
             "languageCodes": ["ja"],
             "url": "https://openstreetmap.jp/",
             "strings": {
-              "name": "OpenStreetMap Japan",
+              "community": "OpenStreetMap Japan",
               "description": "Mappers and OpenStreetMap users in Japan"
             },
             "contacts": [
@@ -26487,9 +26433,10 @@
             "id": "OSM-Kerala-facebook",
             "type": "facebook",
             "locationSet": {"include": ["india_kerala.geojson"]},
-            "url": "https://facebook.com/osmkerala/",
+            "url": "https://facebook.com/osmkerala",
+            "account": "osmkerala",
             "strings": {
-              "name": "OpenStreetMap Kerala - Participatory neighborhood mapping",
+              "community": "OpenStreetMap Kerala",
               "description": "Improve OpenStreetMap in Kerala",
               "extendedDescription": "Mapping in Kerala ? Have questions, want to connect with the community here? Join us at {url}. All are welcome!"
             },
@@ -26500,9 +26447,9 @@
               },
               {"name": "Jaisen Nedumpala", "email": "jaisuvyas@gmail.com"}
             ],
-            "name": "OpenStreetMap Kerala - Participatory neighborhood mapping",
+            "name": "OpenStreetMap Kerala on Facebook",
             "description": "Improve OpenStreetMap in Kerala",
-            "extendedDescription": "Mapping in Kerala ? Have questions, want to connect with the community here? Join us at https://facebook.com/osmkerala/. All are welcome!"
+            "extendedDescription": "Mapping in Kerala ? Have questions, want to connect with the community here? Join us at https://facebook.com/osmkerala. All are welcome!"
           },
           "osm-kerala-matrix": {
             "id": "osm-kerala-matrix",
@@ -26510,11 +26457,11 @@
             "locationSet": {"include": ["india_kerala.geojson"]},
             "url": "https://matrix.to/#/#osm-kerala:matrix.org",
             "strings": {
-              "name": "OpenStreetMap Kerala Matrix",
+              "community": "OpenStreetMap Kerala",
               "description": "We map Kerala together. Join our Matrix group",
               "extendedDescription": "Unofficial chat room for OSM Kerala, also bridged to osmkerala telegram group"
             },
-            "name": "OpenStreetMap Kerala Matrix",
+            "name": "OpenStreetMap Kerala Matrix Chat",
             "description": "We map Kerala together. Join our Matrix group",
             "extendedDescription": "Unofficial chat room for OSM Kerala, also bridged to osmkerala telegram group"
           },
@@ -26523,8 +26470,9 @@
             "type": "telegram",
             "locationSet": {"include": ["india_kerala.geojson"]},
             "url": "https://t.me/osmkerala",
+            "account": "osmkerala",
             "strings": {
-              "name": "OpenStreetMap Kerala Telegram",
+              "community": "OpenStreetMap Kerala",
               "description": "We map Kerala together. Join our telegram group. {url}"
             },
             "contacts": [
@@ -26540,14 +26488,14 @@
             "locationSet": {"include": ["india_kerala.geojson"]},
             "url": "https://wiki.openstreetmap.org/wiki/Kerala",
             "strings": {
-              "name": "OpenStreetMap Kerala",
+              "community": "OpenStreetMap Kerala",
               "description": "Want to know more about Kerala Mapping: {url}"
             },
             "contacts": [
               {"name": "Kevin", "email": "muzirian@gmail.com"},
               {"name": "Naveen Francis", "email": "naveenpf@gmail.com"}
             ],
-            "name": "OpenStreetMap Kerala",
+            "name": "OpenStreetMap Kerala Wikiproject",
             "description": "Want to know more about Kerala Mapping: https://wiki.openstreetmap.org/wiki/Kerala"
           }
         }
@@ -26764,13 +26712,11 @@
             "locationSet": {"include": ["kp", "kr"]},
             "languageCodes": ["en", "ko"],
             "url": "https://lists.openstreetmap.org/listinfo/talk-ko",
+            "account": "talk-ko",
             "order": -3,
-            "strings": {
-              "name": "OpenStreetMap Korea Mailinglist",
-              "description": "Talk-ko is an official mailing list to discuss matters about Korea"
-            },
-            "name": "OpenStreetMap Korea Mailinglist",
-            "description": "Talk-ko is an official mailing list to discuss matters about Korea"
+            "strings": {"community": "OpenStreetMap Korea"},
+            "name": "talk-ko Mailing List",
+            "description": "The official mailing list for OpenStreetMap Korea"
           },
           "OSM-Korea-telegram": {
             "id": "OSM-Korea-telegram",
@@ -26778,16 +26724,14 @@
             "locationSet": {"include": ["kp", "kr"]},
             "languageCodes": ["en", "ko"],
             "url": "https://t.me/osmKorea",
-            "strings": {
-              "name": "OSM Korea Telegram",
-              "description": "Unofficial Group for OpenStreetMap contributors, communities, and users in Korea to share and discuss."
-            },
+            "account": "osmKorea",
+            "strings": {"community": "OpenStreetMap Korea"},
             "contacts": [
               {"name": "Yongmin Hong", "email": "revi@pobox.com"},
               {"name": "Max N", "email": "abonnements@revolwear.com"}
             ],
-            "name": "OSM Korea Telegram",
-            "description": "Unofficial Group for OpenStreetMap contributors, communities, and users in Korea to share and discuss."
+            "name": "OpenStreetMap Korea Telegram",
+            "description": "Join our community Telegram chat"
           }
         }
       },
@@ -26981,8 +26925,7 @@
             "url": "https://www.facebook.com/groups/osmmm/",
             "order": 3,
             "strings": {
-              "name": "OpenStreetMap Myanmar",
-              "description": "Improve OpenStreetMap in Myanmar",
+              "community": "OpenStreetMap Myanmar",
               "extendedDescription": "Mapping in Myanmar? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!"
             },
             "contacts": [
@@ -26993,8 +26936,8 @@
               },
               {"name": "Set Khaing Oo", "email": "setkhaing@phandeeyar.org"}
             ],
-            "name": "OpenStreetMap Myanmar",
-            "description": "Improve OpenStreetMap in Myanmar",
+            "name": "OpenStreetMap Myanmar on Facebook",
+            "description": "Join our community on Facebook",
             "extendedDescription": "Mapping in Myanmar? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!"
           }
         }
@@ -27401,15 +27344,14 @@
             "id": "OSM-MNG-facebook",
             "type": "facebook",
             "locationSet": {"include": ["mn"]},
-            "url": "https://www.facebook.com/groups/OSM.Mongolia/",
+            "url": "https://www.facebook.com/groups/OSM.Mongolia",
             "order": 3,
             "strings": {
-              "name": "OpenStreetMap Mongolia",
-              "description": "Improve OpenStreetMap in Mongolia",
+              "community": "OpenStreetMap Mongolia",
               "extendedDescription": "Mapping in Mongolia? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!"
             },
-            "name": "OpenStreetMap Mongolia",
-            "description": "Improve OpenStreetMap in Mongolia",
+            "name": "OpenStreetMap Mongolia on Facebook",
+            "description": "Join our community on Facebook",
             "extendedDescription": "Mapping in Mongolia? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!"
           }
         }
@@ -27661,12 +27603,9 @@
             "type": "facebook",
             "locationSet": {"include": ["my"]},
             "languageCodes": ["en", "ms"],
-            "url": "https://www.facebook.com/groups/openstreetmapMY/",
+            "url": "https://www.facebook.com/groups/openstreetmapMY",
             "order": 3,
-            "strings": {
-              "name": "OpenStreetMap Malaysia on Facebook",
-              "description": "For chat about anything related to OpenStreetMap!"
-            },
+            "strings": {"community": "OpenStreetMap Malaysia"},
             "contacts": [
               {
                 "name": "Mohd Saidin",
@@ -27674,7 +27613,7 @@
               }
             ],
             "name": "OpenStreetMap Malaysia on Facebook",
-            "description": "For chat about anything related to OpenStreetMap!"
+            "description": "Join our community on Facebook"
           },
           "OSM-MY-forum": {
             "id": "OSM-MY-forum",
@@ -27683,10 +27622,7 @@
             "languageCodes": ["en", "ms"],
             "url": "https://forum.openstreetmap.org/viewforum.php?id=60",
             "order": -2,
-            "strings": {
-              "name": "OpenStreetMap Malaysia Forum",
-              "description": "Official OpenStreetMap Malaysia Forum"
-            },
+            "strings": {"community": "OpenStreetMap Malaysia"},
             "contacts": [
               {
                 "name": "Mohd Saidin",
@@ -27694,7 +27630,7 @@
               }
             ],
             "name": "OpenStreetMap Malaysia Forum",
-            "description": "Official OpenStreetMap Malaysia Forum"
+            "description": "The official forum for OpenStreetMap Malaysia"
           },
           "OSM-MY-matrix": {
             "id": "OSM-MY-matrix",
@@ -27703,13 +27639,13 @@
             "languageCodes": ["en", "ms"],
             "url": "https://matrix.to/#/#OpenstreetmapMalaysia:matrix.org",
             "strings": {
-              "name": "OpenStreetMap Malaysia Riot channel",
+              "community": "OpenStreetMap Malaysia",
               "description": "All mappers are welcome! Sign up at {url}"
             },
             "contacts": [
               {"name": "Ahmad Amsyar", "email": "OfficiallyAhmad@protonmail.ch"}
             ],
-            "name": "OpenStreetMap Malaysia Riot channel",
+            "name": "OpenStreetMap Malaysia Matrix Chat",
             "description": "All mappers are welcome! Sign up at https://matrix.to/#/#OpenstreetmapMalaysia:matrix.org"
           }
         }
@@ -27901,15 +27837,14 @@
             "url": "https://www.facebook.com/groups/mapkathmandu/",
             "order": 3,
             "strings": {
-              "name": "OpenStreetMap Nepal",
-              "description": "Improve OpenStreetMap in Nepal",
+              "community": "OpenStreetMap Nepal",
               "extendedDescription": "Mapping in Nepal? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!"
             },
             "contacts": [
               {"name": "Kshitiz Khanal", "email": "khanal1990@gmail.com"}
             ],
-            "name": "OpenStreetMap Nepal",
-            "description": "Improve OpenStreetMap in Nepal",
+            "name": "OpenStreetMap Nepal on Facebook",
+            "description": "Join our community on Facebook",
             "extendedDescription": "Mapping in Nepal? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!"
           }
         }
@@ -28466,35 +28401,33 @@
             "type": "facebook",
             "locationSet": {"include": ["ph"]},
             "languageCodes": ["en", "tl"],
-            "url": "https://www.facebook.com/OSMPH/",
+            "url": "https://www.facebook.com/OSMPH",
+            "account": "OSMPH",
             "order": 1,
-            "strings": {
-              "name": "OSM Philippines Facebook Page",
-              "description": "Facebook page used for sharing news and announcements to OSM mappers and supporters in the Philippines."
-            },
+            "strings": {"community": "OpenStreetMap Philippines"},
             "contacts": [
               {"name": "OSM PH core team", "email": "osm.pilipinas@gmail.com"}
             ],
-            "name": "OSM Philippines Facebook Page",
-            "description": "Facebook page used for sharing news and announcements to OSM mappers and supporters in the Philippines."
+            "name": "OpenStreetMap Philippines on Facebook",
+            "description": "Join our community on Facebook"
           },
           "OSM-PH-mailinglist": {
             "id": "OSM-PH-mailinglist",
             "type": "mailinglist",
             "locationSet": {"include": ["ph"]},
             "languageCodes": ["en", "tl"],
-            "url": "https://lists.openstreetmap.org/listinfo/talk-ph/",
+            "url": "https://lists.openstreetmap.org/listinfo/talk-ph",
+            "account": "talk-ph",
             "order": 2,
             "strings": {
-              "name": "talk-ph Mailing List",
-              "description": "Official and publicly-archived channel of the OSM Philippines community",
+              "community": "OpenStreetMap Philippines",
               "extendedDescription": "Official and publicly-archived communications channel for the OSM Philippines community that is hosted by the OSM Foundation and used for announcements and general community discussions."
             },
             "contacts": [
               {"name": "OSM PH core team", "email": "osm.pilipinas@gmail.com"}
             ],
             "name": "talk-ph Mailing List",
-            "description": "Official and publicly-archived channel of the OSM Philippines community",
+            "description": "The official mailing list for OpenStreetMap Philippines",
             "extendedDescription": "Official and publicly-archived communications channel for the OSM Philippines community that is hosted by the OSM Foundation and used for announcements and general community discussions."
           },
           "OSM-PH-telegram": {
@@ -28503,17 +28436,17 @@
             "locationSet": {"include": ["ph"]},
             "languageCodes": ["en", "tl"],
             "url": "https://t.me/osmph",
+            "account": "osmph",
             "order": 3,
             "strings": {
-              "name": "OpenStreetMap PH Telegram",
-              "description": "Telegram group for OSM mappers and friends in the Philippines",
+              "community": "OpenStreetMap Philippines",
               "extendedDescription": "A friendly and very active Telegram group for OSM mappers and friends in the Philippines for small talk, light banter, and quick questions and answers."
             },
             "contacts": [
               {"name": "OSM PH core team", "email": "osm.pilipinas@gmail.com"}
             ],
-            "name": "OpenStreetMap PH Telegram",
-            "description": "Telegram group for OSM mappers and friends in the Philippines",
+            "name": "OpenStreetMap Philippines Telegram",
+            "description": "Join our community Telegram chat",
             "extendedDescription": "A friendly and very active Telegram group for OSM mappers and friends in the Philippines for small talk, light banter, and quick questions and answers."
           }
         }
@@ -29232,13 +29165,10 @@
             "languageCodes": ["ru"],
             "url": "https://forum.openstreetmap.org/viewforum.php?id=21",
             "order": -2,
-            "strings": {
-              "name": "OpenStreetMap RU forum",
-              "description": "OpenStreetMap Russia web forum"
-            },
+            "strings": {"community": "OpenStreetMap Russia"},
             "contacts": [{"name": "Ilya Zverev", "email": "ilya@zverev.info"}],
-            "name": "OpenStreetMap RU forum",
-            "description": "OpenStreetMap Russia web forum"
+            "name": "OpenStreetMap Russia Forum",
+            "description": "The official forum for OpenStreetMap Russia"
           },
           "OSM-RU-telegram": {
             "id": "OSM-RU-telegram",
@@ -29246,13 +29176,11 @@
             "locationSet": {"include": ["ru"]},
             "languageCodes": ["ru"],
             "url": "https://t.me/ruosm",
-            "strings": {
-              "name": "OpenStreetMap RU telegram",
-              "description": "OpenStreetMap Russia telegram chat"
-            },
+            "account": "ruosm",
+            "strings": {"community": "OpenStreetMap Russia"},
             "contacts": [{"name": "Ilya Zverev", "email": "ilya@zverev.info"}],
-            "name": "OpenStreetMap RU telegram",
-            "description": "OpenStreetMap Russia telegram chat"
+            "name": "OpenStreetMap Russia Telegram",
+            "description": "Join our community Telegram chat"
           }
         }
       },
@@ -30488,15 +30416,14 @@
             "url": "https://www.facebook.com/groups/142058222659672/",
             "order": 3,
             "strings": {
-              "name": "OpenStreetMap Sri Lanka",
-              "description": "Improve OpenStreetMap in Sri Lanka",
+              "community": "OpenStreetMap Sri Lanka",
               "extendedDescription": "Mapping in Sri Lanka? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!"
             },
             "contacts": [
               {"name": "Karan Suthakaran", "email": "karansuthakaran@yahoo.com"}
             ],
-            "name": "OpenStreetMap Sri Lanka",
-            "description": "Improve OpenStreetMap in Sri Lanka",
+            "name": "OpenStreetMap Sri Lanka on Facebook",
+            "description": "Join our community on Facebook",
             "extendedDescription": "Mapping in Sri Lanka? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!"
           }
         }
@@ -30833,20 +30760,17 @@
             "type": "facebook",
             "locationSet": {"include": ["th"]},
             "languageCodes": ["en", "th"],
-            "url": "https://www.facebook.com/groups/thaiosm/",
+            "url": "https://www.facebook.com/groups/thaiosm",
             "order": 3,
-            "strings": {
-              "name": "OpenStreetMap TH Facebook group",
-              "description": "Facebook group for OpenStreetMappers in Thailand"
-            },
+            "strings": {"community": "OpenStreetMap Thailand"},
             "contacts": [
               {
                 "name": "Theppitak Karoonboonyanan",
                 "email": "theppitak@gmail.com"
               }
             ],
-            "name": "OpenStreetMap TH Facebook group",
-            "description": "Facebook group for OpenStreetMappers in Thailand"
+            "name": "OpenStreetMap Thailand on Facebook",
+            "description": "Join our community on Facebook"
           },
           "OSM-TH-forum": {
             "id": "OSM-TH-forum",
@@ -30855,15 +30779,12 @@
             "languageCodes": ["en", "th"],
             "url": "https://forum.openstreetmap.org/viewforum.php?id=46",
             "order": -2,
-            "strings": {
-              "name": "OpenStreetMap TH forum",
-              "description": "OpenStreetMap Thailand web forum"
-            },
+            "strings": {"community": "OpenStreetMap Thailand"},
             "contacts": [
               {"name": "Stephan Knauss", "email": "osm@stephans-server.de"}
             ],
-            "name": "OpenStreetMap TH forum",
-            "description": "OpenStreetMap Thailand web forum"
+            "name": "OpenStreetMap Thailand Forum",
+            "description": "The official forum for OpenStreetMap Thailand"
           }
         }
       },
@@ -31249,20 +31170,17 @@
             "type": "facebook",
             "locationSet": {"include": ["tw"]},
             "languageCodes": ["zh-tw"],
-            "url": "https://www.facebook.com/groups/OpenStreetMap.TW/",
+            "url": "https://www.facebook.com/groups/OpenStreetMap.TW",
             "order": 3,
-            "strings": {
-              "name": "OpenStreetMap Taiwan Community",
-              "description": "Facebook Group for Mappers and OpenStreetMap users to discuss matters about Taiwan."
-            },
+            "strings": {"community": "OpenStreetMap Taiwan"},
             "contacts": [
               {
                 "name": "Nobody 沒有人 (Public mail)",
                 "email": "hiboard@openstreetmap.tw"
               }
             ],
-            "name": "OpenStreetMap Taiwan Community",
-            "description": "Facebook Group for Mappers and OpenStreetMap users to discuss matters about Taiwan."
+            "name": "OpenStreetMap Taiwan on Facebook",
+            "description": "Join our community on Facebook"
           },
           "OSM-TW-mailinglist": {
             "id": "OSM-TW-mailinglist",
@@ -31270,19 +31188,17 @@
             "locationSet": {"include": ["tw"]},
             "languageCodes": ["en", "zh-tw"],
             "url": "https://lists.openstreetmap.org/listinfo/talk-tw",
+            "account": "talk-tw",
             "order": -3,
-            "strings": {
-              "name": "OpenStreetMap Taiwan Mailinglist",
-              "description": "Talk-tw is an official mailing list to discuss matters about Taiwan"
-            },
+            "strings": {"community": "OpenStreetMap Taiwan"},
             "contacts": [
               {
                 "name": "Nobody 沒有人 (Public email)",
                 "email": "hiboard@openstreetmap.tw"
               }
             ],
-            "name": "OpenStreetMap Taiwan Mailinglist",
-            "description": "Talk-tw is an official mailing list to discuss matters about Taiwan"
+            "name": "talk-tw Mailing List",
+            "description": "The official mailing list for OpenStreetMap Taiwan"
           },
           "OSM-TW-telegram": {
             "id": "OSM-TW-telegram",
@@ -31290,11 +31206,9 @@
             "locationSet": {"include": ["tw"]},
             "languageCodes": ["zh-tw"],
             "url": "https://t.me/OSMTaiwan",
+            "account": "OSMTaiwan",
             "order": 5,
-            "strings": {
-              "name": "OpenStreetMap Taiwan Telegram",
-              "description": "A Telegram group for the OSM Taiwan community: {url}"
-            },
+            "strings": {"community": "OpenStreetMap Taiwan"},
             "contacts": [
               {
                 "name": "Nobody 沒有人 (Public mail)",
@@ -31302,7 +31216,7 @@
               }
             ],
             "name": "OpenStreetMap Taiwan Telegram",
-            "description": "A Telegram group for the OSM Taiwan community: https://t.me/OSMTaiwan"
+            "description": "Join our community Telegram chat"
           }
         }
       },
@@ -35458,12 +35372,10 @@
             "type": "telegram",
             "locationSet": {"include": ["uz"]},
             "url": "https://t.me/osm_uz",
-            "strings": {
-              "name": "OSM Uzbekistan on Telegram",
-              "description": "OpenStreetMap Uzbekistan Telegram chat"
-            },
-            "name": "OSM Uzbekistan on Telegram",
-            "description": "OpenStreetMap Uzbekistan Telegram chat"
+            "account": "osm_uz",
+            "strings": {"community": "OpenStreetMap Uzbekistan"},
+            "name": "OpenStreetMap Uzbekistan Telegram",
+            "description": "Join our community Telegram chat"
           }
         }
       },
