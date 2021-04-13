@@ -16,11 +16,16 @@ en:
     openstreetmapgabon: OpenStreetMap Gabon
     openstreetmapghana: OpenStreetMap Ghana
     openstreetmapguinea: OpenStreetMap Guinea
+    openstreetmapiran: OpenStreetMap Iran
+    openstreetmapiraq: OpenStreetMap Iraq
+    openstreetmapisrael: OpenStreetMap Israel
     openstreetmapkenya: OpenStreetMap Kenya
     openstreetmapmadagascar: OpenStreetMap Madagascar
     openstreetmaprdc: OpenStreetMap RDC
+    openstreetmapsaudiarabia: OpenStreetMap Saudi Arabia
     openstreetmapsouthafrica: OpenStreetMap South Africa
     openstreetmaptanzania: OpenStreetMap Tanzania
+    openstreetmapturkey: OpenStreetMap Turkey
   _defaults:
     aparat:
       name: '{community} on Aparat'
@@ -431,9 +436,6 @@ en:
   IDosm:
     name: OpenStreetMap Indonesia
     description: OpenStreetMap Indonesia telegram chat
-  il-telegram:
-    name: OSM Israel on Telegram
-    description: 'A Telegram group for the OpenStreetMap community in Israel: {url}'
   ireland-chapter:
     name: OpenStreetMap Ireland Local Chapter
     description: We help grow and improve OpenStreetMap in Ireland.
@@ -889,23 +891,13 @@ en:
     name: OpenStreetMap India Youtube
     description: 'Subscribe to our channel: {url}'
   osm-iran-aparat:
-    name: OpenStreetMap Iran Aparat
-    description: Subscribe to our channel at {url}
     extendedDescription: A good resource of videos about anything related to OpenStreetMap. Mainly in Persian.
   osm-iran-discord:
-    name: OpenStreetMap Iran Discord
-    description: Join the OSM Iran Discord at {url}
     extendedDescription: A Discord server for OpenStreetMap Iran. Feel free to join!
   osm-iran-forum:
-    name: OpenStreetMap Iran web forum
-    description: OpenStreetMap Iran web forum
     extendedDescription: A web forum for OpenStreetMap users in Iran. Feel free to ask questions and discuss with others!
   osm-iran-telegram:
-    name: OpenStreetMap Iran Telegram
     description: You're welcome to join our Telegram channel at {url}. We also have a supergroup of many OSMers interested in Iran. Find its link in bio of channel.
-  osm-iraq-mailing-list:
-    name: OpenStreetMap Iraq Mailing List
-    description: Join our mailing list at {url}
   OSM-IRC:
     name: OpenStreetMap IRC
     description: 'Join #osm on irc.oftc.net (port 6667)'
@@ -1091,12 +1083,6 @@ en:
   OSM-TH-forum:
     name: OpenStreetMap TH forum
     description: OpenStreetMap Thailand web forum
-  osm-tr-facebook:
-    name: OpenStreetMap Turkey Facebook
-    description: Find us on Facebook at {url}
-  osm-tr-mailing-list:
-    name: OpenStreetMap Turkey Mailing List
-    description: Join our mailing list at {url}
   osm-tr-telegram:
     name: OpenStreetMap Turkey Telegram
     description: Join the message group in Turkish via {url}
@@ -1196,9 +1182,6 @@ en:
   rs-wiki:
     name: OpenStreetMap Wikiproject Serbia
     description: Wikiproject page for Serbia
-  sa-telegram:
-    name: OSM Saudi Arabia on Telegram
-    description: 'A Telegram group for the OpenStreetMap community in Saudi Arabia: {url}'
   scotland-twitter:
     name: OpenStreetMap Alba on Twitter
     description: 'OpenStreetMap Alba on Twitter: {url}'

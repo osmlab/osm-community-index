@@ -12723,13 +12723,10 @@
             "type": "facebook",
             "locationSet": {"include": ["tr"]},
             "languageCodes": ["tr"],
-            "url": "https://www.facebook.com/groups/316681995197573/",
-            "strings": {
-              "name": "OpenStreetMap Turkey Facebook",
-              "description": "Find us on Facebook at {url}"
-            },
-            "name": "OpenStreetMap Turkey Facebook",
-            "description": "Find us on Facebook at https://www.facebook.com/groups/316681995197573/"
+            "url": "https://www.facebook.com/groups/316681995197573",
+            "strings": {"community": "OpenStreetMap Turkey"},
+            "name": "OpenStreetMap Turkey on Facebook",
+            "description": "Join our community on Facebook"
           },
           "osm-tr-mailing-list": {
             "id": "osm-tr-mailing-list",
@@ -12737,12 +12734,10 @@
             "locationSet": {"include": ["tr"]},
             "languageCodes": ["tr"],
             "url": "https://lists.openstreetmap.org/listinfo/talk-tr",
-            "strings": {
-              "name": "OpenStreetMap Turkey Mailing List",
-              "description": "Join our mailing list at {url}"
-            },
-            "name": "OpenStreetMap Turkey Mailing List",
-            "description": "Join our mailing list at https://lists.openstreetmap.org/listinfo/talk-tr"
+            "account": "talk-tr",
+            "strings": {"community": "OpenStreetMap Turkey"},
+            "name": "talk-tr Mailing List",
+            "description": "The official mailing list for OpenStreetMap Turkey"
           },
           "osm-tr-telegram": {
             "id": "osm-tr-telegram",
@@ -13283,13 +13278,11 @@
             "type": "telegram",
             "locationSet": {"include": ["il"]},
             "url": "https://t.me/OSM_Israel",
+            "account": "OSM_Israel",
             "order": 5,
-            "strings": {
-              "name": "OSM Israel on Telegram",
-              "description": "A Telegram group for the OpenStreetMap community in Israel: {url}"
-            },
-            "name": "OSM Israel on Telegram",
-            "description": "A Telegram group for the OpenStreetMap community in Israel: https://t.me/OSM_Israel"
+            "strings": {"community": "OpenStreetMap Israel"},
+            "name": "OpenStreetMap Israel Telegram",
+            "description": "Join our community Telegram chat"
           }
         }
       },
@@ -25656,14 +25649,14 @@
             "locationSet": {"include": ["ir"]},
             "languageCodes": ["fa"],
             "url": "https://www.aparat.com/osm_iran",
+            "account": "osm_iran",
             "strings": {
-              "name": "OpenStreetMap Iran Aparat",
-              "description": "Subscribe to our channel at {url}",
+              "community": "OpenStreetMap Iran",
               "extendedDescription": "A good resource of videos about anything related to OpenStreetMap. Mainly in Persian."
             },
             "contacts": [{"name": "Iman", "email": "iriman@chmail.ir"}],
-            "name": "OpenStreetMap Iran Aparat",
-            "description": "Subscribe to our channel at https://www.aparat.com/osm_iran",
+            "name": "OpenStreetMap Iran on Aparat",
+            "description": "Subscribe to our Aparat channel",
             "extendedDescription": "A good resource of videos about anything related to OpenStreetMap. Mainly in Persian."
           },
           "osm-iran-discord": {
@@ -25672,13 +25665,13 @@
             "locationSet": {"include": ["ir"]},
             "languageCodes": ["fa"],
             "url": "https://discord.gg/MCA7A87Def",
+            "account": "MCA7A87Def",
             "strings": {
-              "name": "OpenStreetMap Iran Discord",
-              "description": "Join the OSM Iran Discord at {url}",
+              "community": "OpenStreetMap Iran",
               "extendedDescription": "A Discord server for OpenStreetMap Iran. Feel free to join!"
             },
             "name": "OpenStreetMap Iran Discord",
-            "description": "Join the OSM Iran Discord at https://discord.gg/MCA7A87Def",
+            "description": "Get in touch with other mappers on Discord",
             "extendedDescription": "A Discord server for OpenStreetMap Iran. Feel free to join!"
           },
           "osm-iran-forum": {
@@ -25689,13 +25682,12 @@
             "url": "https://forum.openstreetmap.org/viewforum.php?id=103",
             "order": -2,
             "strings": {
-              "name": "OpenStreetMap Iran web forum",
-              "description": "OpenStreetMap Iran web forum",
+              "community": "OpenStreetMap Iran",
               "extendedDescription": "A web forum for OpenStreetMap users in Iran. Feel free to ask questions and discuss with others!"
             },
             "contacts": [{"name": "Iman", "email": "iriman@chmail.ir"}],
-            "name": "OpenStreetMap Iran web forum",
-            "description": "OpenStreetMap Iran web forum",
+            "name": "OpenStreetMap Iran Forum",
+            "description": "The official forum for OpenStreetMap Iran",
             "extendedDescription": "A web forum for OpenStreetMap users in Iran. Feel free to ask questions and discuss with others!"
           },
           "osm-iran-telegram": {
@@ -25705,7 +25697,7 @@
             "languageCodes": ["fa"],
             "url": "https://t.me/openstreetmapir",
             "strings": {
-              "name": "OpenStreetMap Iran Telegram",
+              "community": "OpenStreetMap Iran",
               "description": "You're welcome to join our Telegram channel at {url}. We also have a supergroup of many OSMers interested in Iran. Find its link in bio of channel."
             },
             "contacts": [{"name": "Iman", "email": "iriman@chmail.ir"}],
@@ -26078,12 +26070,10 @@
             "type": "mailinglist",
             "locationSet": {"include": ["iq"]},
             "url": "https://lists.openstreetmap.org/listinfo/talk-iq",
-            "strings": {
-              "name": "OpenStreetMap Iraq Mailing List",
-              "description": "Join our mailing list at {url}"
-            },
-            "name": "OpenStreetMap Iraq Mailing List",
-            "description": "Join our mailing list at https://lists.openstreetmap.org/listinfo/talk-iq"
+            "account": "talk-iq",
+            "strings": {"community": "OpenStreetMap Iraq"},
+            "name": "talk-iq Mailing List",
+            "description": "The official mailing list for OpenStreetMap Iraq"
           }
         }
       },
@@ -33484,13 +33474,11 @@
             "type": "telegram",
             "locationSet": {"include": ["sa"]},
             "url": "https://t.me/OSMSaudi",
+            "account": "OSMSaudi",
             "order": 5,
-            "strings": {
-              "name": "OSM Saudi Arabia on Telegram",
-              "description": "A Telegram group for the OpenStreetMap community in Saudi Arabia: {url}"
-            },
-            "name": "OSM Saudi Arabia on Telegram",
-            "description": "A Telegram group for the OpenStreetMap community in Saudi Arabia: https://t.me/OSMSaudi"
+            "strings": {"community": "OpenStreetMap Saudi Arabia"},
+            "name": "OpenStreetMap Saudi Arabia Telegram",
+            "description": "Join our community Telegram chat"
           }
         }
       },

@@ -3,9 +3,7 @@
   "type": "telegram",
   "locationSet": {"include": ["il"]},
   "url": "https://t.me/OSM_Israel",
+  "account": "OSM_Israel",
   "order": 5,
-  "strings": {
-    "name": "OSM Israel on Telegram",
-    "description": "A Telegram group for the OpenStreetMap community in Israel: {url}"
-  }
+  "strings": {"community": "OpenStreetMap Israel"}
 }
