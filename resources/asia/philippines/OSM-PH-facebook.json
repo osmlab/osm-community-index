@@ -3,12 +3,10 @@
   "type": "facebook",
   "locationSet": {"include": ["ph"]},
   "languageCodes": ["en", "tl"],
-  "url": "https://www.facebook.com/OSMPH/",
+  "url": "https://www.facebook.com/OSMPH",
+  "account": "OSMPH",
   "order": 1,
-  "strings": {
-    "name": "OSM Philippines Facebook Page",
-    "description": "Facebook page used for sharing news and announcements to OSM mappers and supporters in the Philippines."
-  },
+  "strings": {"community": "OpenStreetMap Philippines"},
   "contacts": [
     {"name": "OSM PH core team", "email": "osm.pilipinas@gmail.com"}
   ]

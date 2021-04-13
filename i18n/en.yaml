@@ -3,20 +3,25 @@ en:
     mappingbotswana: Mapping Botswana
     maptimehrva: MaptimeHRVA
     openstreetmap: OpenStreetMap
+    openstreetmapafghanistan: OpenStreetMap Afghanistan
     openstreetmapafrica: OpenStreetMap Africa
     openstreetmapalgeria: OpenStreetMap Algeria
     openstreetmapargentina: OpenStreetMap Argentina
+    openstreetmapasia: OpenStreetMap Asia
     openstreetmapbahia: OpenStreetMap Bahia
+    openstreetmapbangladesh: OpenStreetMap Bangladesh
     openstreetmapbenin: OpenStreetMap Benin
     openstreetmapbolivia: OpenStreetMap Bolivia
     openstreetmapbrasil: OpenStreetMap Brasil
     openstreetmapbrasilia: OpenStreetMap Brasília
     openstreetmapburkinafaso: OpenStreetMap Burkina Faso
     openstreetmapburundi: OpenStreetMap Burundi
+    openstreetmapcambodia: OpenStreetMap Cambodia
     openstreetmapcameroon: OpenStreetMap Cameroon
     openstreetmapcanada: OpenStreetMap Canada
     openstreetmapchad: OpenStreetMap Chad
     openstreetmapchile: OpenStreetMap Chile
+    openstreetmapchina: OpenStreetMap China
     openstreetmapcolombia: OpenStreetMap Colombia
     openstreetmapcostarica: OpenStreetMap Costa Rica
     openstreetmapcotedivoire: OpenStreetMap Cote d'Ivoire
@@ -34,26 +39,43 @@ en:
     openstreetmapguinea: OpenStreetMap Guinea
     openstreetmaphaiti: OpenStreetMap Haiti
     openstreetmaphonduras: OpenStreetMap Honduras
+    openstreetmaphongkong: OpenStreetMap Hong Kong
+    openstreetmapindia: OpenStreetMap India
+    openstreetmapindonesia: OpenStreetMap Indonesia
     openstreetmapiran: OpenStreetMap Iran
     openstreetmapiraq: OpenStreetMap Iraq
     openstreetmapisrael: OpenStreetMap Israel
+    openstreetmapjapan: OpenStreetMap Japan
+    openstreetmapkazakhstan: OpenStreetMap Kazakhstan
     openstreetmapkenya: OpenStreetMap Kenya
+    openstreetmapkerala: OpenStreetMap Kerala
+    openstreetmapkorea: OpenStreetMap Korea
     openstreetmaplatinamerica: OpenStreetMap Latin America
     openstreetmapmadagascar: OpenStreetMap Madagascar
+    openstreetmapmalaysia: OpenStreetMap Malaysia
     openstreetmapmichigan: OpenStreetMap Michigan
+    openstreetmapmongolia: OpenStreetMap Mongolia
+    openstreetmapmyanmar: OpenStreetMap Myanmar
+    openstreetmapnepal: OpenStreetMap Nepal
     openstreetmapnicaragua: OpenStreetMap Nicaragua
     openstreetmapottawa: OpenStreetMap Ottawa
     openstreetmappanama: OpenStreetMap Panama
     openstreetmapparaguay: OpenStreetMap Paraguay
     openstreetmapperu: OpenStreetMap Peru
+    openstreetmapphilippines: OpenStreetMap Philippines
     openstreetmaprdc: OpenStreetMap RDC
     openstreetmapriograndedosul: OpenStreetMap Rio Grande do Sul
+    openstreetmaprussia: OpenStreetMap Russia
     openstreetmapsaudiarabia: OpenStreetMap Saudi Arabia
     openstreetmapsouthafrica: OpenStreetMap South Africa
+    openstreetmapsrilanka: OpenStreetMap Sri Lanka
+    openstreetmaptaiwan: OpenStreetMap Taiwan
     openstreetmaptanzania: OpenStreetMap Tanzania
+    openstreetmapthailand: OpenStreetMap Thailand
     openstreetmapturkey: OpenStreetMap Turkey
     openstreetmapuruguay: OpenStreetMap Uruguay
     openstreetmapus: OpenStreetMap US
+    openstreetmapuzbekistan: OpenStreetMap Uzbekistan
     openstreetmapvenezuela: OpenStreetMap Venezuela
   _defaults:
     aparat:
@@ -140,9 +162,6 @@ en:
     name: Bay Area OpenStreetMappers
     description: Improve OpenStreetMap in the Bay Area
     extendedDescription: This group is about growing the OpenStreetMap community here in the Bay Area. Our events are open to everyone, from open source enthusiasts, cyclists, GIS professionals, geocachers, and beyond. Anyone and everyone who is interested in maps, map making and free map data is welcome to join our group as well as attend our events.
-  bd-telegram:
-    name: '@OpenStreetMapBangladesh on Telegram'
-    description: OpenStreetMap Bangladesh Telegram chat
   be-chapter:
     name: OpenStreetMap Belgium Local Chapter
     description: We help grow and improve OpenStreetMap in Belgium.
@@ -445,12 +464,6 @@ en:
   humanitarian-osm-tr-slack:
     name: Humanitarian OpenStreetMap Turkey Slack
     description: Join the Humanitarian OpenStreetMap Turkey channel on HOTOSM's Slack server at {url}
-  id-forum:
-    name: OpenStreetMap Indonesia Forum
-    description: The official forum for OpenStreetMap questions in and around Indonesia
-  IDosm:
-    name: OpenStreetMap Indonesia
-    description: OpenStreetMap Indonesia telegram chat
   ireland-chapter:
     name: OpenStreetMap Ireland Local Chapter
     description: We help grow and improve OpenStreetMap in Ireland.
@@ -504,15 +517,6 @@ en:
   it-twitter:
     name: OpenStreetMap Italy Twitter
     description: Follow us on Twitter at {url}
-  kazakhstan-telegram:
-    name: OSM Kazakhstan on Telegram
-    description: OpenStreetMap Kazakhstan Telegram chat
-  kh-forum:
-    name: OpenStreetMap Cambodia Forum
-    description: The official forum for OpenStreetMap questions in and around Cambodia
-  kh-twitter:
-    name: OSM Cambodia
-    description: Twitter of OpenStreetMap in Cambodia
   kosovo-matrix:
     name: OpenStreetMap Kosovo on Matrix (bridged with the one in Telegram)
     description: Semi-official all-Kosovo public group. We welcome all mappers from anywhere in any language.
@@ -621,12 +625,6 @@ en:
     name: Open Cleveland
     description: Improve OpenStreetMap in the Cleveland area
     extendedDescription: Open Geo Cleveland aims to be a resource for people to discuss and share knowledge on utilizing free geographic data sets especially OpenStreetMap, and Open geo-spatial software that manages, edits, and displays geographic data, and advocate for its use in Northeast Ohio. We're also a maptime chapter =)
-  osm-afghanistan-facebook:
-    name: OpenStreetMap Afghanistan
-    description: Improve OpenStreetMap in Afghanistan
-  OSM-Afghanistan-mailinglist:
-    name: OpenStreetMap Afghanistan Mailinglist
-    description: Talk-af is an official mailing list to discuss matters about Afghanistan
   osm-albania-facebook:
     name: OpenStreetMap Albania
     description: Improve OpenStreetMap in Albania
@@ -644,21 +642,11 @@ en:
     extendedDescription: The most active channel in the community, ideal for chatting and getting answers to your questions instantly. Everyone is welcome!
   OSM-AR-twitter:
     extendedDescription: News from the local community and OpenStreetMap in general.
-  OSM-Asia-mailinglist:
-    name: OpenStreetMap Asia Mailinglist
-    description: Talk-asia is the official Mailinglist for Asian Community
-  osm-asia-telegram:
-    name: OpenStreetMap Asia Telegram
-    description: 'Join our family: {url}'
   osm-at:
     name: OpenStreetMap Austria
     description: The platform for information on OpenStreetMap in Austria
   osm-azerbaijan-facebook:
-    name: OSM Azerbaijan
-    description: Improve OpenStreetMap in Azerbaijan
-  OSM-BD-forum:
-    name: OpenStreetMap Bangladesh Forum
-    description: Official OpenStreetMap Bangladesh Forum
+    name: OpenStreetMap Azerbaijan
   osm-belarus-facebook:
     name: OpenStreetMap Belarus
     description: Improve OpenStreetMap in Belarus
@@ -671,8 +659,6 @@ en:
     name: OpenStreetMap Bulgaria
     description: Improve OpenStreetMap in Bulgaria
   OSM-BGD-facebook:
-    name: OpenStreetMap Bangladesh
-    description: Improve OpenStreetMap in Bangladesh
     extendedDescription: Mapping in Bangladesh? Have questions, want to connect with the community here? Join us at {url}. All are welcome!
   OSM-BiH-telegram:
     name: OpenStreetMap BiH Telegram
@@ -707,9 +693,6 @@ en:
     extendedDescription: Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!
   OSM-CL-telegram:
     extendedDescription: Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!
-  OSM-CN-telegram:
-    name: OpenStreetMap China Telegram
-    description: 'A Telegram group for the OSM Chinese community: {url}'
   OSM-CO:
     description: News of the OpenStreetMap Colombia community and the OSMCo Foundation
   OSM-CO-facebook:
@@ -740,37 +723,17 @@ en:
     name: OpenStreetMap Help
     description: Ask a question and get answers on OSM's community-driven question and answer site.
     extendedDescription: '{url} is for everyone who needs help with OpenStreetMap.  Whether you are a beginner mapper or have a technical question, we''re here to help!'
-  OSM-hk-discord:
-    name: OpenStreetMap Hong Kong Discord
-    description: Join the OpenStreetMap Hong Kong community on Discord
   osm-hr:
     name: OpenStreetMap Croatia
     description: The platform for information on OpenStreetMap in Croatia
-  OSM-id-mailinglist:
-    name: Talk-id Mailing List
-    description: A mailing list to discuss OpenStreetMap in Indonesia
-  OSM-id-twitter:
-    name: OpenStreetMap.id
-    description: Follow us on Twitter at OSM_ID
   OSM-IDN-facebook:
-    name: OpenStreetMap Indonesia
-    description: Improve OpenStreetMap in Indonesia
     extendedDescription: Mapping in Indonesia? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!
   OSM-India-facebook:
-    name: OpenStreetMap India - Participatory neighborhood mapping
     description: Improve OpenStreetMap in India
     extendedDescription: Mapping in India? Have questions, want to connect with the community here? Join us at {url}. All are welcome!
-  osm-india-forum:
-    name: OpenStreetMap India forum
-    description: OpenStreetMap India web forum
   osm-india-github:
-    name: OpenStreetMap India GitHub
     description: 'Code with us: {url}'
-  OSM-india-mailinglist:
-    name: OpenStreetMap India Mailinglist
-    description: Talk-in is the official Mailinglist for Indian Community
   osm-india-matrix:
-    name: OpenStreetMap India Matrix
     description: Talk to other contributors
     extendedDescription: 'Unofficial chat room for OSM India, also bridged to osmindia telegram group  '
   OSM-India-Puducherry-Facebook:
@@ -781,21 +744,12 @@ en:
     name: Free Software Hardware Movement - Matrix
     description: FSHM Riot group to discuss, share and update mapping activities, events in and around Puducherry
     extendedDescription: FSHM community members share their OSM mapping updates / experiences through the Riot.im group, this group is also used to discuss things related to free software / hardware, technology and activism.
-  osm-india-telegram:
-    name: OpenStreetMap India Telegram
-    description: 'Join our family: {url}'
   OSM-india-twitter:
-    name: OpenStreetMap India Twitter
     description: 'We are just a tweet away: {url}'
   osm-india-website:
-    name: OpenStreetMap India
     description: Mappers and OpenStreetMap users in India
   osm-india-wiki:
-    name: OpenStreetMap Wikiproject India
     description: 'Everything you need to know about mapping in India: {url}'
-  osm-india-youtube:
-    name: OpenStreetMap India Youtube
-    description: 'Subscribe to our channel: {url}'
   osm-iran-aparat:
     extendedDescription: A good resource of videos about anything related to OpenStreetMap. Mainly in Persian.
   osm-iran-discord:
@@ -807,71 +761,33 @@ en:
   OSM-IRC:
     description: 'Join #osm on irc.oftc.net (port 6667)'
   OSM-japan-facebook:
-    name: OpenStreetMap Japan Community
     description: Mappers and OpenStreetMap users in Japan
-  OSM-japan-mailinglist:
-    name: OpenStreetMap Japan Mailinglist
-    description: Talk-ja is an Official Mailinglist for Japanese Community
   OSM-japan-slack:
-    name: OpenStreetMap Japan Slack
     description: A Slack workspace for the OSM Japan community {signupUrl}
-  OSM-Japan-telegram:
-    name: OpenStreetMap Japan Telegram
-    description: 'A Telegram group for the OSM Japan community: {url}'
-  OSM-japan-twitter:
-    name: OpenStreetMap Japan Twitter
-    description: 'Hashtag on Twitter: {url}'
   OSM-japan-website:
-    name: OpenStreetMap Japan
     description: Mappers and OpenStreetMap users in Japan
   osm-kenya:
     description: OSM Kenya is a community of OSM contributors and users
     extendedDescription: OSM is a local community for individuals interested in OpenStreetMap including organizations, developers, and YouthMappers chapters in the country.
   OSM-Kerala-facebook:
-    name: OpenStreetMap Kerala - Participatory neighborhood mapping
     description: Improve OpenStreetMap in Kerala
     extendedDescription: Mapping in Kerala ? Have questions, want to connect with the community here? Join us at {url}. All are welcome!
   osm-kerala-matrix:
-    name: OpenStreetMap Kerala Matrix
     description: We map Kerala together. Join our Matrix group
     extendedDescription: Unofficial chat room for OSM Kerala, also bridged to osmkerala telegram group
   osm-kerala-telegram:
-    name: OpenStreetMap Kerala Telegram
     description: We map Kerala together. Join our telegram group. {url}
   osm-kerala-wiki:
-    name: OpenStreetMap Kerala
     description: 'Want to know more about Kerala Mapping: {url}'
-  osm-kh-facebook:
-    name: OpenStreetMap Cambodia
-    description: Improve OpenStreetMap in Cambodia
-  OSM-Korea-mailinglist:
-    name: OpenStreetMap Korea Mailinglist
-    description: Talk-ko is an official mailing list to discuss matters about Korea
-  OSM-Korea-telegram:
-    name: OSM Korea Telegram
-    description: Unofficial Group for OpenStreetMap contributors, communities, and users in Korea to share and discuss.
   osm-mg-facebook:
     description: Malagasy Facebook group for people interested in OpenStreetMap.
   OSM-MMR-facebook:
-    name: OpenStreetMap Myanmar
-    description: Improve OpenStreetMap in Myanmar
     extendedDescription: Mapping in Myanmar? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!
   OSM-MNG-facebook:
-    name: OpenStreetMap Mongolia
-    description: Improve OpenStreetMap in Mongolia
     extendedDescription: Mapping in Mongolia? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!
-  OSM-MY-facebook:
-    name: OpenStreetMap Malaysia on Facebook
-    description: For chat about anything related to OpenStreetMap!
-  OSM-MY-forum:
-    name: OpenStreetMap Malaysia Forum
-    description: Official OpenStreetMap Malaysia Forum
   OSM-MY-matrix:
-    name: OpenStreetMap Malaysia Riot channel
     description: All mappers are welcome! Sign up at {url}
   OSM-Nepal-facebook:
-    name: OpenStreetMap Nepal
-    description: Improve OpenStreetMap in Nepal
     extendedDescription: Mapping in Nepal? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!
   osm-ni:
     name: MapaNica.net
@@ -882,16 +798,9 @@ en:
     description: News and resources for the OpenStreetMap Peru community
   OSM-PE-matrix:
     description: Chat with other members of the OpenStreetMap Peru community in Matrix.
-  OSM-PH-facebook:
-    name: OSM Philippines Facebook Page
-    description: Facebook page used for sharing news and announcements to OSM mappers and supporters in the Philippines.
   OSM-PH-mailinglist:
-    name: talk-ph Mailing List
-    description: Official and publicly-archived channel of the OSM Philippines community
     extendedDescription: Official and publicly-archived communications channel for the OSM Philippines community that is hosted by the OSM Foundation and used for announcements and general community discussions.
   OSM-PH-telegram:
-    name: OpenStreetMap PH Telegram
-    description: Telegram group for OSM mappers and friends in the Philippines
     extendedDescription: A friendly and very active Telegram group for OSM mappers and friends in the Philippines for small talk, light banter, and quick questions and answers.
   OSM-PL-discord:
     name: Discord OSM Polska
@@ -926,12 +835,6 @@ en:
     name: Incontro Mappatori Romani
     description: Improve OpenStreetMap in the Rome area
     extendedDescription: We aim to be a resource for people to discuss and share knowledge on utilizing free geographic data sets especially OpenStreetMap, and Open geo-spatial software that manages, edits, and displays geographic data, and advocate for its use in Lazio.
-  OSM-RU-forum:
-    name: OpenStreetMap RU forum
-    description: OpenStreetMap Russia web forum
-  OSM-RU-telegram:
-    name: OpenStreetMap RU telegram
-    description: OpenStreetMap Russia telegram chat
   osm-se:
     name: OpenStreetMap.se
     description: Provide OSM services and information for the local community in Sweden
@@ -947,8 +850,6 @@ en:
     description: Map Nights hosted by Code for San Jose
     extendedDescription: Code for San Jose, the local Code for America brigade, hosts monthly Map Nights on Thursday nights in downtown San José. Meet fellow South Bay mappers, help out with local mapping projects, and hear about other civic tech projects. Programming and GIS skills are not required.
   OSM-sri-lanka-facebook:
-    name: OpenStreetMap Sri Lanka
-    description: Improve OpenStreetMap in Sri Lanka
     extendedDescription: Mapping in Sri Lanka? Have questions, want to connect with the community here? Join us at {Url}. All are welcome!
   OSM-Tampa-Bay:
     name: OpenStreetMap Tampa Bay
@@ -962,27 +863,12 @@ en:
     name: OSM Meetup Chiang Mai
     description: Irregular meeting of the OpenStreetMap community in Chiang Mai
     extendedDescription: Members of the OpenStreetMap community meet every few months in Chiang Mai. Get in contact and check out {url} to see when the next meetup is scheduled
-  OSM-TH-facebook:
-    name: OpenStreetMap TH Facebook group
-    description: Facebook group for OpenStreetMappers in Thailand
-  OSM-TH-forum:
-    name: OpenStreetMap TH forum
-    description: OpenStreetMap Thailand web forum
   osm-tr-telegram:
     name: OpenStreetMap Turkey Telegram
     description: Join the message group in Turkish via {url}
   osm-tr-twitter:
     name: OpenStreetMap Turkey Twitter
     description: Find us on Twitter at {url}
-  OSM-TW-facebook:
-    name: OpenStreetMap Taiwan Community
-    description: Facebook Group for Mappers and OpenStreetMap users to discuss matters about Taiwan.
-  OSM-TW-mailinglist:
-    name: OpenStreetMap Taiwan Mailinglist
-    description: Talk-tw is an official mailing list to discuss matters about Taiwan
-  OSM-TW-telegram:
-    name: OpenStreetMap Taiwan Telegram
-    description: 'A Telegram group for the OSM Taiwan community: {url}'
   OSM-US:
     description: We help grow and improve OpenStreetMap in the United States.
     extendedDescription: 'We support OpenStreetMap by holding annual conferences, providing community resources, building partnerships, and by spreading the word. Join OpenStreetMap US here: {signupUrl}'
@@ -1101,9 +987,6 @@ en:
     description: OpenStreetMap Italy regional talk list for South Tyrol
   talk-au:
     description: Place for Aussie mappers to chat
-  talk-bd:
-    name: Talk-bd Mailing List
-    description: Talk-bd is the official mailing list for Bangladesh OSM community.
   talk-cz-mailinglist:
     name: Czech mailing list (talk-cz)
     description: Talk-cz is the official mailing list for Czech community
@@ -1165,9 +1048,6 @@ en:
   uy-irc:
     description: 'Join #osmuruguay on irc.freenode.org (port 6667)'
     extendedDescription: 'Join #osmuruguay on irc.freenode.org'
-  uzbekistan-telegram:
-    name: OSM Uzbekistan on Telegram
-    description: OpenStreetMap Uzbekistan Telegram chat
   Western-Slope-facebook:
     name: Western Slope OSM Facebook
     description: Mappers and OpenStreetMap users around Grand Junction, CO
