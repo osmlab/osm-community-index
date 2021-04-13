@@ -2,6 +2,7 @@ en:
   _communities:
     mappingbotswana: Mapping Botswana
     maptimehrva: MaptimeHRVA
+    openstreetmap: OpenStreetMap
     openstreetmapafrica: OpenStreetMap Africa
     openstreetmapalgeria: OpenStreetMap Algeria
     openstreetmapargentina: OpenStreetMap Argentina
@@ -37,6 +38,7 @@ en:
     openstreetmapiraq: OpenStreetMap Iraq
     openstreetmapisrael: OpenStreetMap Israel
     openstreetmapkenya: OpenStreetMap Kenya
+    openstreetmaplatinamerica: OpenStreetMap Latin America
     openstreetmapmadagascar: OpenStreetMap Madagascar
     openstreetmapmichigan: OpenStreetMap Michigan
     openstreetmapnicaragua: OpenStreetMap Nicaragua
@@ -87,6 +89,8 @@ en:
       name: '{community}'
     osm-lc:
       name: '{community}'
+    reddit:
+      name: '{community} on Reddit'
     slack:
       name: '{community} Slack'
     telegram:
@@ -516,25 +520,14 @@ en:
     name: OpenStreetMap Kosovo on Telegram
     description: Semi-official all-Kosovo Telegram public group. We welcome all mappers from anywhere in any language.
   latam-facebook:
-    name: OpenStreetMap Latin America Facebook
     description: Mappers and OpenStreetMap on Facebook in Latin America
   latam-irc:
-    name: OpenStreetMap Latin America IRC
     description: 'Join #osm-latam on irc.oftc.net (port 6667)'
-  latam-mailinglist:
-    name: Talk-latam Mailing List
-    description: Talk-latam is the official mailing list for the Latinamerican OpenStreetMap community
   latam-matrix:
-    name: OpenStreetMap Latin America Matrix
     description: Chat with other members of the Latinamerican OSM community, it is bridged with the Telegram chat
   latam-telegram:
-    name: OpenStreetMap Latin America Telegram
     description: Chat with other members of the Latinamerican OSM community, it is bridged with the Matrix chat
-  latam-twitter:
-    name: OpenStreetMap Latin America Twitter
-    description: 'OpenStreetMap Latin America on Twitter: {url}'
   latam-wiki:
-    name: OpenStreetMap Wikiproject Latin America
     description: Everything you need to know about mapping in Latin America
   lombardia-telegram:
     name: OpenStreetMap Lombardia Mappers
@@ -730,7 +723,6 @@ en:
     description: The platform for information on OpenStreetMap in Germany
   OSM-Discord:
     name: OpenStreetMap World Discord
-    description: Get in touch with other mappers via Discord
   OSM-ES-mailinglist:
     name: Talk-es mailing list
     description: A mailing list to discuss OpenStreetMap in Spain
@@ -738,7 +730,6 @@ en:
     name: '@OSMes on Telegram'
     description: OpenStreetMap Spain Telegram chat
   OSM-Facebook:
-    name: OpenStreetMap on Facebook
     description: Like us on Facebook for news and updates about OpenStreetMap.
   OSM-ge-facebook:
     name: OpenStreetMap Georgia Facebook
@@ -814,7 +805,6 @@ en:
   osm-iran-telegram:
     description: You're welcome to join our Telegram channel at {url}. We also have a supergroup of many OSMers interested in Iran. Find its link in bio of channel.
   OSM-IRC:
-    name: OpenStreetMap IRC
     description: 'Join #osm on irc.oftc.net (port 6667)'
   OSM-japan-facebook:
     name: OpenStreetMap Japan Community
@@ -931,7 +921,6 @@ en:
     description: FSHM Puducherry mailing list to discuss mapping in Puducherry and other things.
     extendedDescription: FSHM organizes events relating to free software/hardware, technology, activism and OpenStreetMap.
   OSM-Reddit:
-    name: OpenStreetMap on Reddit
     description: /r/openstreetmap/ is a great place to learn more about OpenStreetMap.  Ask us anything!
   OSM-Rome-meetup:
     name: Incontro Mappatori Romani
@@ -968,7 +957,6 @@ en:
   osm-td-facebook:
     description: Improve OpenStreetMap in Chad
   OSM-Telegram:
-    name: OpenStreetMap Telegram
     description: Join the OpenStreetMap Telegram global supergroup at {url}
   OSM-TH-CNX-meetup:
     name: OSM Meetup Chiang Mai
@@ -995,9 +983,6 @@ en:
   OSM-TW-telegram:
     name: OpenStreetMap Taiwan Telegram
     description: 'A Telegram group for the OSM Taiwan community: {url}'
-  OSM-Twitter:
-    name: OpenStreetMap Twitter
-    description: Follow us on Twitter at {url}
   OSM-US:
     description: We help grow and improve OpenStreetMap in the United States.
     extendedDescription: 'We support OpenStreetMap by holding annual conferences, providing community resources, building partnerships, and by spreading the word. Join OpenStreetMap US here: {signupUrl}'
