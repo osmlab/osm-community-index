@@ -4,10 +4,8 @@
   "locationSet": {"include": ["de-berlin-brandenburg.geojson"]},
   "languageCodes": ["de"],
   "url": "https://twitter.com/osmberlin",
-  "strings": {
-    "name": "OpenStreetMap Berlin Twitter",
-    "description": "Follow us on Twitter: {url}"
-  },
+  "account": "osmberlin",
+  "strings": {"community": "OpenStreetMap Berlin"},
   "contacts": [
     {"name": "Christopher Lorenz", "email": "osm@lorenz.lu"}
   ]

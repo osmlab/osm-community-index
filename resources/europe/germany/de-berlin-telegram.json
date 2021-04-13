@@ -4,10 +4,8 @@
   "locationSet": {"include": ["de-berlin-brandenburg.geojson"]},
   "languageCodes": ["de"],
   "url": "https://t.me/osmberlin",
-  "strings": {
-    "name": "@osmberlin on Telegram",
-    "description": "OpenStreetMap Berlin Telegram chat"
-  },
+  "account": "osmberlin",
+  "strings": {"community": "OpenStreetMap Berlin"},
   "contacts": [
     {"name": "Christopher Lorenz", "email": "osm@lorenz.lu"}
   ]

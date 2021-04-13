@@ -3,11 +3,9 @@
   "type": "facebook",
   "locationSet": {"include": ["ukraine.geojson"]},
   "languageCodes": ["uk"],
-  "url": "https://www.facebook.com/openstreetmapua/",
+  "url": "https://www.facebook.com/openstreetmapua",
+  "account": "openstreetmapua",
   "order": 3,
-  "strings": {
-    "name": "OpenStreetMap Ukraine Facebook group",
-    "description": "Join the OpenStreetMap Ukraine community on Facebook"
-  },
+  "strings": {"community": "OpenStreetMap Ukraine"},
   "contacts": [{"name": "Andrii Holovin", "email": "andygol@ua.fm"}]
 }

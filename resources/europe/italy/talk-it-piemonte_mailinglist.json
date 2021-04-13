@@ -4,13 +4,9 @@
   "locationSet": {"include": ["piemonte.geojson"]},
   "languageCodes": ["it"],
   "url": "https://lists.openstreetmap.org/listinfo/talk-it-piemonte",
-  "signupUrl": "https://lists.openstreetmap.org/listinfo/talk-it-piemonte",
+  "account": "talk-it-piemonte",
   "order": 2,
-  "strings": {
-    "name": "OSM Italy regional talk list for Piemonte",
-    "description": "All are welcome! Sign up at {signupUrl}",
-    "extendedDescription": "Mailinglist for Piemonte region."
-  },
+  "strings": {"community": "OpenStreetMap Italy-Piemonte"},
   "contacts": [
     {"name": "Marco Brancolini", "email": "mbranco2@gmail.com"},
     {"name": "Andrea Musuruane", "email": "musuruan@gmail.com"}

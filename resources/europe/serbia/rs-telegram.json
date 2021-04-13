@@ -3,9 +3,7 @@
   "type": "telegram",
   "locationSet": {"include": ["rs"]},
   "url": "https://t.me/osm_sr",
+  "account": "osm_sr",
   "order": 3,
-  "strings": {
-    "name": "OpenStreetMap Serbia on Telegram",
-    "description": "Telegram group for the OSM Serbia community"
-  }
+  "strings": {"community": "OpenStreetMap Serbia"}
 }

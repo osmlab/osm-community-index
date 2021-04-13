@@ -4,11 +4,9 @@
   "locationSet": {"include": ["catalan_countries.geojson"]},
   "languageCodes": ["ca"],
   "url": "https://t.me/osmcat",
+  "account": "osmcat",
   "order": 8,
-  "strings": {
-    "name": "@osmcat OpenStreetMap Catalan Countries on Telegram",
-    "description": "Instant messaging for questions, coordination and chatting"
-  },
+  "strings": {"community": "OpenStreetMap Catalan Countries"},
   "contacts": [
     {"name": "Carlos Sánchez", "email": "erielkhan@gmail.com"},
     {"name": "Jose Luis Infante", "email": "jlinfante@llefia.org"},
