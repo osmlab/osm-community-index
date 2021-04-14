@@ -1,12 +1,14 @@
 {
   "id": "OSM-CL-twitter",
   "type": "twitter",
+  "account": "osmCL",
   "locationSet": {"include": ["cl"]},
   "languageCodes": ["es"],
-  "url": "https://twitter.com/osmCL",
-  "account": "osmCL",
   "order": 4,
-  "strings": {"community": "OpenStreetMap Chile"},
+  "strings": {
+    "community": "OpenStreetMap Chile",
+    "url": "https://twitter.com/osmCL"
+  },
   "resolved": {
     "name": "OpenStreetMap Chile on Twitter",
     "description": "Follow us on Twitter",

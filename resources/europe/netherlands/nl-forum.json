@@ -3,9 +3,11 @@
   "type": "forum",
   "locationSet": {"include": ["nl"]},
   "languageCodes": ["nl"],
-  "url": "https://forum.openstreetmap.org/viewforum.php?id=12",
   "order": 3,
-  "strings": {"community": "OpenStreetMap Netherlands"},
+  "strings": {
+    "community": "OpenStreetMap Netherlands",
+    "url": "https://forum.openstreetmap.org/viewforum.php?id=12"
+  },
   "resolved": {
     "name": "OpenStreetMap Netherlands Forum",
     "description": "The official forum for OpenStreetMap Netherlands",

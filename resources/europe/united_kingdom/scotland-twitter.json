@@ -1,12 +1,14 @@
 {
   "id": "scotland-twitter",
   "type": "twitter",
+  "account": "OSMScotland",
   "locationSet": {"include": ["gb-sct"]},
   "languageCodes": ["en"],
-  "url": "https://twitter.com/OSMScotland",
-  "account": "OSMScotland",
   "order": 4,
-  "strings": {"community": "OpenStreetMap Alba"},
+  "strings": {
+    "community": "OpenStreetMap Alba",
+    "url": "https://twitter.com/OSMScotland"
+  },
   "resolved": {
     "name": "OpenStreetMap Alba on Twitter",
     "description": "Follow us on Twitter",

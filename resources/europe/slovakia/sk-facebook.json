@@ -1,12 +1,14 @@
 {
   "id": "sk-facebook",
   "type": "facebook",
+  "account": "FreemapSlovakia",
   "locationSet": {"include": ["sk"]},
   "languageCodes": ["sk"],
-  "url": "https://www.facebook.com/FreemapSlovakia",
-  "account": "FreemapSlovakia",
   "order": 3,
-  "strings": {"community": "OpenStreetMap Freemap Slovakia"},
+  "strings": {
+    "community": "OpenStreetMap Freemap Slovakia",
+    "url": "https://www.facebook.com/FreemapSlovakia"
+  },
   "resolved": {
     "name": "OpenStreetMap Freemap Slovakia on Facebook",
     "description": "Join our community on Facebook",

@@ -3,9 +3,11 @@
   "type": "forum",
   "locationSet": {"include": ["my"]},
   "languageCodes": ["en", "ms"],
-  "url": "https://forum.openstreetmap.org/viewforum.php?id=60",
   "order": -2,
-  "strings": {"community": "OpenStreetMap Malaysia"},
+  "strings": {
+    "community": "OpenStreetMap Malaysia",
+    "url": "https://forum.openstreetmap.org/viewforum.php?id=60"
+  },
   "resolved": {
     "name": "OpenStreetMap Malaysia Forum",
     "description": "The official forum for OpenStreetMap Malaysia",

@@ -1,12 +1,14 @@
 {
   "id": "OSM-Belarus-mailinglist",
   "type": "mailinglist",
+  "account": "talk-blr",
   "locationSet": {"include": ["by"]},
   "languageCodes": ["en"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-blr",
-  "account": "talk-blr",
   "order": 3,
-  "strings": {"community": "OpenStreetMap Belarus"},
+  "strings": {
+    "community": "OpenStreetMap Belarus",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-blr"
+  },
   "resolved": {
     "name": "talk-blr Mailing List",
     "description": "The official mailing list for OpenStreetMap Belarus",

@@ -1,12 +1,14 @@
 {
   "id": "is-mailinglist",
   "type": "mailinglist",
+  "account": "talk-is",
   "locationSet": {"include": ["is"]},
   "languageCodes": ["en", "is"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-is",
-  "account": "talk-is",
   "order": 1,
-  "strings": {"community": "OpenStreetMap Iceland"},
+  "strings": {
+    "community": "OpenStreetMap Iceland",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-is"
+  },
   "resolved": {
     "name": "talk-is Mailing List",
     "description": "The official mailing list for OpenStreetMap Iceland",

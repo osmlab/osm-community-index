@@ -2,9 +2,11 @@
   "id": "osm-india-forum",
   "type": "forum",
   "locationSet": {"include": ["in"]},
-  "url": "https://forum.openstreetmap.org/viewforum.php?id=65",
   "order": -2,
-  "strings": {"community": "OpenStreetMap India"},
+  "strings": {
+    "community": "OpenStreetMap India",
+    "url": "https://forum.openstreetmap.org/viewforum.php?id=65"
+  },
   "resolved": {
     "name": "OpenStreetMap India Forum",
     "description": "The official forum for OpenStreetMap India",

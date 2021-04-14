@@ -1,12 +1,14 @@
 {
   "id": "gr-mailinglist",
   "type": "mailinglist",
+  "account": "talk-gr",
   "locationSet": {"include": ["gr"]},
   "languageCodes": ["el"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-gr",
-  "account": "talk-gr",
   "order": 3,
-  "strings": {"community": "OpenStreetMap Greece"},
+  "strings": {
+    "community": "OpenStreetMap Greece",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-gr"
+  },
   "resolved": {
     "name": "talk-gr Mailing List",
     "description": "The official mailing list for OpenStreetMap Greece",

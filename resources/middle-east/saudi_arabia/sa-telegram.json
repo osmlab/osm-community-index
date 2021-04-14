@@ -1,11 +1,13 @@
 {
   "id": "sa-telegram",
   "type": "telegram",
-  "locationSet": {"include": ["sa"]},
-  "url": "https://t.me/OSMSaudi",
   "account": "OSMSaudi",
+  "locationSet": {"include": ["sa"]},
   "order": 5,
-  "strings": {"community": "OpenStreetMap Saudi Arabia"},
+  "strings": {
+    "community": "OpenStreetMap Saudi Arabia",
+    "url": "https://t.me/OSMSaudi"
+  },
   "resolved": {
     "name": "OpenStreetMap Saudi Arabia Telegram",
     "description": "Join our community Telegram chat",

@@ -3,12 +3,12 @@
   "type": "slack",
   "locationSet": {"include": ["south_sf_bay_area.geojson"]},
   "languageCodes": ["en"],
-  "url": "https://codeforsanjose.slack.com/",
-  "signupUrl": "https://slackin-c4sj.herokuapp.com/",
   "order": 4,
   "strings": {
     "name": "Code for San Jose Slack",
-    "description": "All are welcome! Sign up at {signupUrl}, then join the #osm channel."
+    "description": "All are welcome! Sign up at {signupUrl}, then join the #osm channel.",
+    "signupUrl": "https://slackin-c4sj.herokuapp.com/",
+    "url": "https://codeforsanjose.slack.com/"
   },
   "resolved": {
     "name": "Code for San Jose Slack",

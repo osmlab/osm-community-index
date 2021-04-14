@@ -1,12 +1,14 @@
 {
   "id": "OSM-Albania-mailinglist",
   "type": "mailinglist",
+  "account": "talk-al",
   "locationSet": {"include": ["al"]},
   "languageCodes": ["en"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-al",
-  "account": "talk-al",
   "order": 2,
-  "strings": {"community": "OpenStreetMap Albania"},
+  "strings": {
+    "community": "OpenStreetMap Albania",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-al"
+  },
   "resolved": {
     "name": "talk-al Mailing List",
     "description": "The official mailing list for OpenStreetMap Albania",

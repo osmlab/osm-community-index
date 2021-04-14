@@ -3,11 +3,11 @@
   "type": "irc",
   "locationSet": {"include": ["fr"]},
   "languageCodes": ["fr"],
-  "url": "https://webchat.oftc.net/?channels=osm-fr",
   "order": -4,
   "strings": {
     "community": "OpenStreetMap France",
-    "description": "Join #osm-fr on irc.oftc.net (port 6667)"
+    "description": "Join #osm-fr on irc.oftc.net (port 6667)",
+    "url": "https://webchat.oftc.net/?channels=osm-fr"
   },
   "resolved": {
     "name": "OpenStreetMap France on IRC",

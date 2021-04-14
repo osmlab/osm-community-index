@@ -3,11 +3,11 @@
   "type": "irc",
   "locationSet": {"include": ["lu"]},
   "languageCodes": ["de", "en", "fr", "lb"],
-  "url": "https://webchat.oftc.net/?channels=osm-lu",
   "order": 4,
   "strings": {
     "community": "OpenStreetMap Luxembourg",
-    "description": "Join #osm-lu on irc.oftc.net (port 6667)!"
+    "description": "Join #osm-lu on irc.oftc.net (port 6667)!",
+    "url": "https://webchat.oftc.net/?channels=osm-lu"
   },
   "resolved": {
     "name": "OpenStreetMap Luxembourg on IRC",

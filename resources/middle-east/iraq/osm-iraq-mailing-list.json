@@ -1,10 +1,12 @@
 {
   "id": "osm-iraq-mailing-list",
   "type": "mailinglist",
-  "locationSet": {"include": ["iq"]},
-  "url": "https://lists.openstreetmap.org/listinfo/talk-iq",
   "account": "talk-iq",
-  "strings": {"community": "OpenStreetMap Iraq"},
+  "locationSet": {"include": ["iq"]},
+  "strings": {
+    "community": "OpenStreetMap Iraq",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-iq"
+  },
   "resolved": {
     "name": "talk-iq Mailing List",
     "description": "The official mailing list for OpenStreetMap Iraq",

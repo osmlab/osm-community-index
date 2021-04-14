@@ -1,14 +1,14 @@
 {
   "id": "ch-mailinglist",
   "type": "mailinglist",
-  "locationSet": {"include": ["ch"]},
-  "url": "https://lists.openstreetmap.ch/mailman/listinfo/talk-ch",
   "account": "talk-ch",
+  "locationSet": {"include": ["ch"]},
   "order": 1,
   "strings": {
     "community": "OpenStreetMap Switzerland",
     "name": "Openstreetmap Schweiz/Suisse/Svizzera/Svizra Mailing List",
-    "description": "Mailing list for Switzerland"
+    "description": "Mailing list for Switzerland",
+    "url": "https://lists.openstreetmap.ch/mailman/listinfo/talk-ch"
   },
   "resolved": {
     "name": "Openstreetmap Schweiz/Suisse/Svizzera/Svizra Mailing List",

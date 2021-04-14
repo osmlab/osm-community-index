@@ -1,12 +1,14 @@
 {
   "id": "fr-bzh-twitter",
   "type": "twitter",
+  "account": "osm_bzh",
   "locationSet": {"include": ["fr-bzh-historique.geojson"]},
   "languageCodes": ["br", "fr"],
-  "url": "https://twitter.com/osm_bzh",
-  "account": "osm_bzh",
   "order": 6,
-  "strings": {"community": "OpenStreetMap BZH"},
+  "strings": {
+    "community": "OpenStreetMap BZH",
+    "url": "https://twitter.com/osm_bzh"
+  },
   "resolved": {
     "name": "OpenStreetMap BZH on Twitter",
     "description": "Follow us on Twitter",

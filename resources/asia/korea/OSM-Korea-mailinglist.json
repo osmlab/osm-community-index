@@ -1,12 +1,14 @@
 {
   "id": "OSM-Korea-mailinglist",
   "type": "mailinglist",
+  "account": "talk-ko",
   "locationSet": {"include": ["kp", "kr"]},
   "languageCodes": ["en", "ko"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-ko",
-  "account": "talk-ko",
   "order": -3,
-  "strings": {"community": "OpenStreetMap Korea"},
+  "strings": {
+    "community": "OpenStreetMap Korea",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-ko"
+  },
   "resolved": {
     "name": "talk-ko Mailing List",
     "description": "The official mailing list for OpenStreetMap Korea",

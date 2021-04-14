@@ -1,13 +1,13 @@
 {
   "id": "fr-telegram",
   "type": "telegram",
-  "locationSet": {"include": ["fr"]},
-  "url": "https://t.me/osmfr",
   "account": "osmfr",
+  "locationSet": {"include": ["fr"]},
   "order": 5,
   "strings": {
     "community": "OpenStreetMap France",
-    "description": "A Telegram group for the OSM France community: {url}"
+    "description": "A Telegram group for the OSM France community: {url}",
+    "url": "https://t.me/osmfr"
   },
   "resolved": {
     "name": "OpenStreetMap France Telegram",

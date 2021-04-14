@@ -1,11 +1,13 @@
 {
   "id": "OSM-cu-mailinglist",
   "type": "mailinglist",
+  "account": "talk-cu",
   "locationSet": {"include": ["cu"]},
   "languageCodes": ["en"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-cu",
-  "account": "talk-cu",
-  "strings": {"community": "OpenStreetMap Cuba"},
+  "strings": {
+    "community": "OpenStreetMap Cuba",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-cu"
+  },
   "resolved": {
     "name": "talk-cu Mailing List",
     "description": "The official mailing list for OpenStreetMap Cuba",

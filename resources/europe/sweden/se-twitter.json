@@ -1,12 +1,14 @@
 {
   "id": "se-twitter",
   "type": "twitter",
+  "account": "openstreetmapse",
   "locationSet": {"include": ["se"]},
   "languageCodes": ["sv"],
-  "url": "https://twitter.com/openstreetmapse",
-  "account": "openstreetmapse",
   "order": 2,
-  "strings": {"community": "OpenStreetMap Sweden"},
+  "strings": {
+    "community": "OpenStreetMap Sweden",
+    "url": "https://twitter.com/openstreetmapse"
+  },
   "resolved": {
     "name": "OpenStreetMap Sweden on Twitter",
     "description": "Follow us on Twitter",

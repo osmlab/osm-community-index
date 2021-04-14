@@ -1,11 +1,13 @@
 {
   "id": "OSM-india-mailinglist",
   "type": "mailinglist",
-  "locationSet": {"include": ["in"]},
-  "url": "https://lists.openstreetmap.org/listinfo/talk-in",
   "account": "talk-in",
+  "locationSet": {"include": ["in"]},
   "order": -3,
-  "strings": {"community": "OpenStreetMap India"},
+  "strings": {
+    "community": "OpenStreetMap India",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-in"
+  },
   "resolved": {
     "name": "talk-in Mailing List",
     "description": "The official mailing list for OpenStreetMap India",

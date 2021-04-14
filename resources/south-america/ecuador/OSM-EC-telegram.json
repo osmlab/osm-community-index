@@ -1,12 +1,14 @@
 {
   "id": "OSM-EC-telegram",
   "type": "telegram",
+  "account": "MappingEcuador",
   "locationSet": {"include": ["ec"]},
   "languageCodes": ["es"],
-  "url": "https://t.me/MappingEcuador",
-  "account": "MappingEcuador",
   "order": 1,
-  "strings": {"community": "OpenStreetMap Ecuador"},
+  "strings": {
+    "community": "OpenStreetMap Ecuador",
+    "url": "https://t.me/MappingEcuador"
+  },
   "resolved": {
     "name": "OpenStreetMap Ecuador Telegram",
     "description": "Join our community Telegram chat",

@@ -1,11 +1,13 @@
 {
   "id": "OSM-Korea-telegram",
   "type": "telegram",
+  "account": "osmKorea",
   "locationSet": {"include": ["kp", "kr"]},
   "languageCodes": ["en", "ko"],
-  "url": "https://t.me/osmKorea",
-  "account": "osmKorea",
-  "strings": {"community": "OpenStreetMap Korea"},
+  "strings": {
+    "community": "OpenStreetMap Korea",
+    "url": "https://t.me/osmKorea"
+  },
   "resolved": {
     "name": "OpenStreetMap Korea Telegram",
     "description": "Join our community Telegram chat",

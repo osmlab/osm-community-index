@@ -1,11 +1,13 @@
 {
   "id": "de-mv-twitter",
   "type": "twitter",
+  "account": "osmmv",
   "locationSet": {"include": ["de-mecklenburg-vorpommern.geojson"]},
   "languageCodes": ["de"],
-  "url": "https://twitter.com/osmmv",
-  "account": "osmmv",
-  "strings": {"community": "OpenStreetMap Mecklenburg-Vorpommern"},
+  "strings": {
+    "community": "OpenStreetMap Mecklenburg-Vorpommern",
+    "url": "https://twitter.com/osmmv"
+  },
   "resolved": {
     "name": "OpenStreetMap Mecklenburg-Vorpommern on Twitter",
     "description": "Follow us on Twitter",

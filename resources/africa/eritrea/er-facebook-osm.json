@@ -1,11 +1,13 @@
 {
   "id": "OSM-er-facebook",
   "type": "facebook",
+  "account": "Openstreetmap-Eritrea-OSMEr-105545004517975",
   "locationSet": {"include": ["er"]},
   "languageCodes": ["en"],
-  "url": "https://www.facebook.com/Openstreetmap-Eritrea-OSMEr-105545004517975",
-  "account": "Openstreetmap-Eritrea-OSMEr-105545004517975",
-  "strings": {"community": "OpenStreetMap Eritrea"},
+  "strings": {
+    "community": "OpenStreetMap Eritrea",
+    "url": "https://www.facebook.com/Openstreetmap-Eritrea-OSMEr-105545004517975"
+  },
   "resolved": {
     "name": "OpenStreetMap Eritrea on Facebook",
     "description": "Join our community on Facebook",

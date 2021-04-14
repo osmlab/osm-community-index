@@ -1,12 +1,14 @@
 {
   "id": "ireland-twitter",
   "type": "twitter",
+  "account": "osm_ie",
   "locationSet": {"include": ["gb-nir", "ie"]},
   "languageCodes": ["en"],
-  "url": "https://twitter.com/osm_ie",
-  "account": "osm_ie",
   "order": 2,
-  "strings": {"community": "OpenStreetMap Ireland"},
+  "strings": {
+    "community": "OpenStreetMap Ireland",
+    "url": "https://twitter.com/osm_ie"
+  },
   "resolved": {
     "name": "OpenStreetMap Ireland on Twitter",
     "description": "Follow us on Twitter",

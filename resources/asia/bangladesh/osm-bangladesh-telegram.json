@@ -1,11 +1,13 @@
 {
   "id": "bd-telegram",
   "type": "telegram",
-  "locationSet": {"include": ["bd"]},
-  "url": "https://t.me/OpenStreetMapBD",
   "account": "OpenStreetMapBD",
+  "locationSet": {"include": ["bd"]},
   "order": 1,
-  "strings": {"community": "OpenStreetMap Bangladesh"},
+  "strings": {
+    "community": "OpenStreetMap Bangladesh",
+    "url": "https://t.me/OpenStreetMapBD"
+  },
   "resolved": {
     "name": "OpenStreetMap Bangladesh Telegram",
     "description": "Join our community Telegram chat",

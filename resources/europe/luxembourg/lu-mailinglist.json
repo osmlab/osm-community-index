@@ -1,12 +1,14 @@
 {
   "id": "lu-mailinglist",
   "type": "mailinglist",
+  "account": "talk-lu",
   "locationSet": {"include": ["lu"]},
   "languageCodes": ["de", "en", "fr", "lb"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-lu",
-  "account": "talk-lu",
   "order": 6,
-  "strings": {"community": "OpenStreetMap Luxembourg"},
+  "strings": {
+    "community": "OpenStreetMap Luxembourg",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-lu"
+  },
   "resolved": {
     "name": "talk-lu Mailing List",
     "description": "The official mailing list for OpenStreetMap Luxembourg",

@@ -1,14 +1,14 @@
 {
   "id": "latam-telegram",
   "type": "telegram",
+  "account": "osmlatam",
   "locationSet": {"include": ["419"]},
   "languageCodes": ["en", "es", "pt"],
-  "url": "https://t.me/osmlatam",
-  "account": "osmlatam",
   "order": 3,
   "strings": {
     "community": "OpenStreetMap Latin America",
-    "description": "Chat with other members of the Latinamerican OSM community, it is bridged with the Matrix chat"
+    "description": "Chat with other members of the Latinamerican OSM community, it is bridged with the Matrix chat",
+    "url": "https://t.me/osmlatam"
   },
   "resolved": {
     "name": "OpenStreetMap Latin America Telegram",

@@ -1,13 +1,13 @@
 {
   "id": "OSM-AR-telegram",
   "type": "telegram",
+  "account": "osm_ar",
   "locationSet": {"include": ["ar"]},
   "languageCodes": ["es"],
-  "url": "https://t.me/osm_ar",
-  "account": "osm_ar",
   "strings": {
     "community": "OpenStreetMap Argentina",
-    "extendedDescription": "The most active channel in the community, ideal for chatting and getting answers to your questions instantly. Everyone is welcome!"
+    "extendedDescription": "The most active channel in the community, ideal for chatting and getting answers to your questions instantly. Everyone is welcome!",
+    "url": "https://t.me/osm_ar"
   },
   "resolved": {
     "name": "OpenStreetMap Argentina Telegram",

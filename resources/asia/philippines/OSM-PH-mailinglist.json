@@ -1,14 +1,14 @@
 {
   "id": "OSM-PH-mailinglist",
   "type": "mailinglist",
+  "account": "talk-ph",
   "locationSet": {"include": ["ph"]},
   "languageCodes": ["en", "tl"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-ph",
-  "account": "talk-ph",
   "order": 2,
   "strings": {
     "community": "OpenStreetMap Philippines",
-    "extendedDescription": "Official and publicly-archived communications channel for the OSM Philippines community that is hosted by the OSM Foundation and used for announcements and general community discussions."
+    "extendedDescription": "Official and publicly-archived communications channel for the OSM Philippines community that is hosted by the OSM Foundation and used for announcements and general community discussions.",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-ph"
   },
   "resolved": {
     "name": "talk-ph Mailing List",

@@ -3,12 +3,12 @@
   "type": "slack",
   "locationSet": {"include": ["ukraine.geojson"]},
   "languageCodes": ["en", "ru", "uk"],
-  "url": "https://osmukraine.slack.com/",
-  "signupUrl": "http://bit.ly/SlackOsmUa",
   "order": 5,
   "strings": {
     "community": "OpenStreetMap Ukraine",
-    "description": "Join the OpenStreetMap Ukraine community on Slack. Sign up at {signupUrl}"
+    "description": "Join the OpenStreetMap Ukraine community on Slack. Sign up at {signupUrl}",
+    "signupUrl": "http://bit.ly/SlackOsmUa",
+    "url": "https://osmukraine.slack.com/"
   },
   "resolved": {
     "name": "OpenStreetMap Ukraine Slack",

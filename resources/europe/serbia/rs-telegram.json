@@ -1,11 +1,13 @@
 {
   "id": "rs-telegram",
   "type": "telegram",
-  "locationSet": {"include": ["rs"]},
-  "url": "https://t.me/osm_sr",
   "account": "osm_sr",
+  "locationSet": {"include": ["rs"]},
   "order": 3,
-  "strings": {"community": "OpenStreetMap Serbia"},
+  "strings": {
+    "community": "OpenStreetMap Serbia",
+    "url": "https://t.me/osm_sr"
+  },
   "resolved": {
     "name": "OpenStreetMap Serbia Telegram",
     "description": "Join our community Telegram chat",

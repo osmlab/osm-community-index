@@ -1,11 +1,13 @@
 {
   "id": "es-twitter",
   "type": "twitter",
+  "account": "openstreetmapes",
   "locationSet": {"include": ["es"]},
   "languageCodes": ["es"],
-  "url": "https://twitter.com/openstreetmapes",
-  "account": "openstreetmapes",
-  "strings": {"community": "OpenStreetMap España"},
+  "strings": {
+    "community": "OpenStreetMap España",
+    "url": "https://twitter.com/openstreetmapes"
+  },
   "resolved": {
     "name": "OpenStreetMap España on Twitter",
     "description": "Follow us on Twitter",

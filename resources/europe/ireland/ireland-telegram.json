@@ -3,9 +3,11 @@
   "type": "telegram",
   "locationSet": {"include": ["gb-nir", "ie"]},
   "languageCodes": ["en"],
-  "url": "https://t.me/joinchat/BDLI7w9jCWm7Bwm2T06jwQ?fbclid=IwAR1ltY85Y7_4_CZhhwLOsLLppzis1MOVRRy897epT99JuZ9ZHZF8wpDRIfk",
   "order": 5,
-  "strings": {"community": "OpenStreetMap Ireland"},
+  "strings": {
+    "community": "OpenStreetMap Ireland",
+    "url": "https://t.me/joinchat/BDLI7w9jCWm7Bwm2T06jwQ?fbclid=IwAR1ltY85Y7_4_CZhhwLOsLLppzis1MOVRRy897epT99JuZ9ZHZF8wpDRIfk"
+  },
   "resolved": {
     "name": "OpenStreetMap Ireland Telegram",
     "description": "Join our community Telegram chat",

@@ -1,12 +1,14 @@
 {
   "id": "cuneo-telegram",
   "type": "telegram",
+  "account": "OSMCuneo",
   "locationSet": {"include": ["cuneo.geojson"]},
   "languageCodes": ["it"],
-  "url": "https://t.me/OSMCuneo",
-  "account": "OSMCuneo",
   "order": 3,
-  "strings": {"community": "OpenStreetMap Cuneo"},
+  "strings": {
+    "community": "OpenStreetMap Cuneo",
+    "url": "https://t.me/OSMCuneo"
+  },
   "resolved": {
     "name": "OpenStreetMap Cuneo Telegram",
     "description": "Join our community Telegram chat",

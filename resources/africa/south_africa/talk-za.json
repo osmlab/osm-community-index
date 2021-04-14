@@ -1,11 +1,13 @@
 {
   "id": "talk-za",
   "type": "mailinglist",
+  "account": "talk-za",
   "locationSet": {"include": ["za"]},
   "languageCodes": ["en"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-za",
-  "account": "talk-za",
-  "strings": {"community": "OpenStreetMap South Africa"},
+  "strings": {
+    "community": "OpenStreetMap South Africa",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-za"
+  },
   "resolved": {
     "name": "talk-za Mailing List",
     "description": "The official mailing list for OpenStreetMap South Africa",

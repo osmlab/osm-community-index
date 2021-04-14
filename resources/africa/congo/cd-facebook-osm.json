@@ -1,11 +1,13 @@
 {
   "id": "OSM-cd-facebook",
   "type": "facebook",
+  "account": "OpenStreetMap.RDC",
   "locationSet": {"include": ["cd"]},
   "languageCodes": ["en"],
-  "url": "https://www.facebook.com/OpenStreetMap.RDC",
-  "account": "OpenStreetMap.RDC",
-  "strings": {"community": "OpenStreetMap RDC"},
+  "strings": {
+    "community": "OpenStreetMap RDC",
+    "url": "https://www.facebook.com/OpenStreetMap.RDC"
+  },
   "resolved": {
     "name": "OpenStreetMap RDC on Facebook",
     "description": "Join our community on Facebook",

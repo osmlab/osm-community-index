@@ -1,14 +1,14 @@
 {
   "id": "OSM-Facebook",
   "type": "facebook",
+  "account": "OpenStreetMap",
   "locationSet": {"include": ["001"]},
   "languageCodes": ["en"],
-  "url": "https://www.facebook.com/OpenStreetMap",
-  "account": "OpenStreetMap",
   "order": 3,
   "strings": {
     "community": "OpenStreetMap",
-    "description": "Like us on Facebook for news and updates about OpenStreetMap."
+    "description": "Like us on Facebook for news and updates about OpenStreetMap.",
+    "url": "https://www.facebook.com/OpenStreetMap"
   },
   "resolved": {
     "name": "OpenStreetMap on Facebook",

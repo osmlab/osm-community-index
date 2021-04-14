@@ -1,14 +1,14 @@
 {
   "id": "OSM-BO-mailinglist",
   "type": "mailinglist",
+  "account": "talk-bo",
   "locationSet": {"include": ["bo"]},
   "languageCodes": ["es"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-bo",
-  "account": "talk-bo",
   "order": -3,
   "strings": {
     "community": "OpenStreetMap Bolivia",
-    "extendedDescription": "Mapping in Bolivia? Have questions, want to connect with the community here? Join us at {url}. All are welcome!"
+    "extendedDescription": "Mapping in Bolivia? Have questions, want to connect with the community here? Join us at {url}. All are welcome!",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-bo"
   },
   "resolved": {
     "name": "talk-bo Mailing List",

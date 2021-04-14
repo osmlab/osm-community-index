@@ -1,11 +1,13 @@
 {
   "id": "OSM-PE-telegram",
   "type": "telegram",
+  "account": "osmPe",
   "locationSet": {"include": ["pe"]},
   "languageCodes": ["es"],
-  "url": "https://t.me/osmPe",
-  "account": "osmPe",
-  "strings": {"community": "OpenStreetMap Peru"},
+  "strings": {
+    "community": "OpenStreetMap Peru",
+    "url": "https://t.me/osmPe"
+  },
   "resolved": {
     "name": "OpenStreetMap Peru Telegram",
     "description": "Join our community Telegram chat",

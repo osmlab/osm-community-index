@@ -3,9 +3,11 @@
   "type": "forum",
   "locationSet": {"include": ["co"]},
   "languageCodes": ["en"],
-  "url": "https://forum.openstreetmap.org/viewforum.php?id=92",
   "order": 5,
-  "strings": {"community": "OpenStreetMap Colombia"},
+  "strings": {
+    "community": "OpenStreetMap Colombia",
+    "url": "https://forum.openstreetmap.org/viewforum.php?id=92"
+  },
   "resolved": {
     "name": "OpenStreetMap Colombia Forum",
     "description": "The official forum for OpenStreetMap Colombia",

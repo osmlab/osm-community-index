@@ -1,11 +1,13 @@
 {
   "id": "OSM-cr-mailinglist",
   "type": "mailinglist",
+  "account": "talk-cr",
   "locationSet": {"include": ["cr"]},
   "languageCodes": ["en"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-cr",
-  "account": "talk-cr",
-  "strings": {"community": "OpenStreetMap Costa Rica"},
+  "strings": {
+    "community": "OpenStreetMap Costa Rica",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-cr"
+  },
   "resolved": {
     "name": "talk-cr Mailing List",
     "description": "The official mailing list for OpenStreetMap Costa Rica",

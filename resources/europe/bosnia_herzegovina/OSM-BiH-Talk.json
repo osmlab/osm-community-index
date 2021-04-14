@@ -1,12 +1,14 @@
 {
   "id": "OSM-Bosnia-i-Herzegovina-mailinglist",
   "type": "mailinglist",
+  "account": "talk-ba",
   "locationSet": {"include": ["bih"]},
   "languageCodes": ["en"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-ba",
-  "account": "talk-ba",
   "order": 1,
-  "strings": {"community": "OpenStreetMap Bosnia and Herzegovina"},
+  "strings": {
+    "community": "OpenStreetMap Bosnia and Herzegovina",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-ba"
+  },
   "resolved": {
     "name": "talk-ba Mailing List",
     "description": "The official mailing list for OpenStreetMap Bosnia and Herzegovina",

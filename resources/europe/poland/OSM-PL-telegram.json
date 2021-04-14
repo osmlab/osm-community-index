@@ -1,11 +1,13 @@
 {
   "id": "osm-pl-telegram",
   "type": "telegram",
+  "account": "OpenStreetMapPolska",
   "locationSet": {"include": ["pl"]},
   "languageCodes": ["pl"],
-  "url": "https://t.me/OpenStreetMapPolska",
-  "account": "OpenStreetMapPolska",
-  "strings": {"community": "OpenStreetMap Poland"},
+  "strings": {
+    "community": "OpenStreetMap Poland",
+    "url": "https://t.me/OpenStreetMapPolska"
+  },
   "resolved": {
     "name": "OpenStreetMap Poland Telegram",
     "description": "Join our community Telegram chat",

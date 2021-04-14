@@ -1,12 +1,14 @@
 {
   "id": "osm-belarus-facebook",
   "type": "facebook",
+  "account": "osm.by",
   "locationSet": {"include": ["blr"]},
   "languageCodes": ["en"],
-  "url": "https://www.facebook.com/groups/osm.by",
-  "account": "osm.by",
   "order": 4,
-  "strings": {"community": "OpenStreetMap Belarus"},
+  "strings": {
+    "community": "OpenStreetMap Belarus",
+    "url": "https://www.facebook.com/groups/osm.by"
+  },
   "resolved": {
     "name": "OpenStreetMap Belarus on Facebook",
     "description": "Join our community on Facebook",

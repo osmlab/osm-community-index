@@ -1,12 +1,14 @@
 {
   "id": "it-twitter",
   "type": "twitter",
+  "account": "OpenStreetMapIt",
   "locationSet": {"include": ["it"]},
   "languageCodes": ["it"],
-  "url": "https://twitter.com/OpenStreetMapIt",
-  "account": "OpenStreetMapIt",
   "order": 2,
-  "strings": {"community": "OpenStreetMap Italy"},
+  "strings": {
+    "community": "OpenStreetMap Italy",
+    "url": "https://twitter.com/OpenStreetMapIt"
+  },
   "resolved": {
     "name": "OpenStreetMap Italy on Twitter",
     "description": "Follow us on Twitter",

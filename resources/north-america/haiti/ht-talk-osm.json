@@ -1,11 +1,13 @@
 {
   "id": "OSM-ht-mailinglist",
   "type": "mailinglist",
+  "account": "talk-ht",
   "locationSet": {"include": ["ht"]},
   "languageCodes": ["en"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-ht",
-  "account": "talk-ht",
-  "strings": {"community": "OpenStreetMap Haiti"},
+  "strings": {
+    "community": "OpenStreetMap Haiti",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-ht"
+  },
   "resolved": {
     "name": "talk-ht Mailing List",
     "description": "The official mailing list for OpenStreetMap Haiti",

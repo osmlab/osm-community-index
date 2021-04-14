@@ -1,10 +1,12 @@
 {
   "id": "kazakhstan-telegram",
   "type": "telegram",
-  "locationSet": {"include": ["kz"]},
-  "url": "https://t.me/osm_kz",
   "account": "osm_kz",
-  "strings": {"community": "OpenStreetMap Kazakhstan"},
+  "locationSet": {"include": ["kz"]},
+  "strings": {
+    "community": "OpenStreetMap Kazakhstan",
+    "url": "https://t.me/osm_kz"
+  },
   "resolved": {
     "name": "OpenStreetMap Kazakhstan Telegram",
     "description": "Join our community Telegram chat",

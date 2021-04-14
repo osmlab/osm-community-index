@@ -1,10 +1,12 @@
 {
   "id": "et-telegram",
   "type": "telegram",
-  "locationSet": {"include": ["et"]},
-  "url": "https://t.me/openstreetmapethiopia",
   "account": "openstreetmapethiopia",
-  "strings": {"community": "OpenStreetMap Ethiopia"},
+  "locationSet": {"include": ["et"]},
+  "strings": {
+    "community": "OpenStreetMap Ethiopia",
+    "url": "https://t.me/openstreetmapethiopia"
+  },
   "resolved": {
     "name": "OpenStreetMap Ethiopia Telegram",
     "description": "Join our community Telegram chat",

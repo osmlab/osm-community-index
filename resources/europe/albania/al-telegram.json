@@ -1,12 +1,14 @@
 {
   "id": "al-telegram",
   "type": "telegram",
+  "account": "OpenStreetMapAL",
   "locationSet": {"include": ["al"]},
   "languageCodes": ["en", "sq"],
-  "url": "https://t.me/OpenStreetMapAL",
-  "account": "OpenStreetMapAL",
   "order": 6,
-  "strings": {"community": "OpenStreetMap Albania"},
+  "strings": {
+    "community": "OpenStreetMap Albania",
+    "url": "https://t.me/OpenStreetMapAL"
+  },
   "resolved": {
     "name": "OpenStreetMap Albania Telegram",
     "description": "Join our community Telegram chat",

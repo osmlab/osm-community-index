@@ -1,12 +1,14 @@
 {
   "id": "fi-telegram",
   "type": "telegram",
+  "account": "osmFI",
   "locationSet": {"include": ["fi"]},
   "languageCodes": ["en", "fi", "sv"],
-  "url": "https://t.me/osmFI",
-  "account": "osmFI",
   "order": 3,
-  "strings": {"community": "OpenStreetMap Finland"},
+  "strings": {
+    "community": "OpenStreetMap Finland",
+    "url": "https://t.me/osmFI"
+  },
   "resolved": {
     "name": "OpenStreetMap Finland Telegram",
     "description": "Join our community Telegram chat",

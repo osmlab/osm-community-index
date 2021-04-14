@@ -1,15 +1,15 @@
 {
   "id": "OSM-AR-irc",
   "type": "irc",
+  "account": "osm-ar",
   "locationSet": {"include": ["ar"]},
   "languageCodes": ["es"],
-  "url": "https://webchat.oftc.net/?channels=osm-ar",
-  "account": "osm-ar",
   "order": -4,
   "strings": {
     "community": "OpenStreetMap Argentina",
     "description": "Join #osm-ar on irc.oftc.net (port 6667)",
-    "extendedDescription": "You may find the most geeky user in the community."
+    "extendedDescription": "You may find the most geeky user in the community.",
+    "url": "https://webchat.oftc.net/?channels=osm-ar"
   },
   "resolved": {
     "name": "OpenStreetMap Argentina on IRC",

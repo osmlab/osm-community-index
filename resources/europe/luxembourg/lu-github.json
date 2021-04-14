@@ -1,14 +1,14 @@
 {
   "id": "lu-github",
   "type": "github",
+  "account": "osmlu",
   "locationSet": {"include": ["lu"]},
   "languageCodes": ["de", "en", "fr", "lb"],
-  "url": "https://github.com/osmlu",
-  "account": "osmlu",
   "order": 2,
   "strings": {
     "community": "OpenStreetMap Luxembourg",
-    "description": "GitHub Organization for the OSM community in Luxembourg!"
+    "description": "GitHub Organization for the OSM community in Luxembourg!",
+    "url": "https://github.com/osmlu"
   },
   "resolved": {
     "name": "OpenStreetMap Luxembourg GitHub",

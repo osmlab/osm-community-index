@@ -1,13 +1,13 @@
 {
   "id": "rs-gitlab",
   "type": "gitlab",
+  "account": "osm-serbia",
   "locationSet": {"include": ["rs"]},
   "languageCodes": ["en", "sr"],
-  "url": "https://gitlab.com/osm-serbia",
-  "account": "osm-serbia",
   "strings": {
     "community": "OpenStreetMap Serbia",
-    "description": "Collection of projects related to OSM Serbia on GitLab"
+    "description": "Collection of projects related to OSM Serbia on GitLab",
+    "url": "https://gitlab.com/osm-serbia"
   },
   "resolved": {
     "name": "OpenStreetMap Serbia GitLab",

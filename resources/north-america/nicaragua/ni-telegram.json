@@ -1,11 +1,13 @@
 {
   "id": "ni-telegram",
   "type": "telegram",
+  "account": "mapanica",
   "locationSet": {"include": ["ni"]},
   "languageCodes": ["es"],
-  "url": "https://t.me/mapanica",
-  "account": "mapanica",
-  "strings": {"community": "OpenStreetMap Nicaragua"},
+  "strings": {
+    "community": "OpenStreetMap Nicaragua",
+    "url": "https://t.me/mapanica"
+  },
   "resolved": {
     "name": "OpenStreetMap Nicaragua Telegram",
     "description": "Join our community Telegram chat",

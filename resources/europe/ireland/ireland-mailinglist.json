@@ -1,12 +1,14 @@
 {
   "id": "ireland-mailinglist",
   "type": "mailinglist",
+  "account": "talk-ie",
   "locationSet": {"include": ["gb-nir", "ie"]},
   "languageCodes": ["en"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-ie",
-  "account": "talk-ie",
   "order": 4,
-  "strings": {"community": "OpenStreetMap Ireland"},
+  "strings": {
+    "community": "OpenStreetMap Ireland",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-ie"
+  },
   "resolved": {
     "name": "talk-ie Mailing List",
     "description": "The official mailing list for OpenStreetMap Ireland",

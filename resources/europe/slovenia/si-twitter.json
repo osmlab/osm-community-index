@@ -1,11 +1,13 @@
 {
   "id": "si-twitter",
   "type": "twitter",
+  "account": "OpenStreetMapSi",
   "locationSet": {"include": ["si"]},
   "languageCodes": ["en", "sl"],
-  "url": "https://twitter.com/OpenStreetMapSi",
-  "account": "OpenStreetMapSi",
-  "strings": {"community": "OpenStreetMap Slovenia"},
+  "strings": {
+    "community": "OpenStreetMap Slovenia",
+    "url": "https://twitter.com/OpenStreetMapSi"
+  },
   "resolved": {
     "name": "OpenStreetMap Slovenia on Twitter",
     "description": "Follow us on Twitter",

@@ -1,10 +1,12 @@
 {
   "id": "osm-asia-telegram",
   "type": "telegram",
-  "locationSet": {"include": ["142"]},
-  "url": "https://t.me/OpenStreetMapAsia",
   "account": "OpenStreetMapAsia",
-  "strings": {"community": "OpenStreetMap Asia"},
+  "locationSet": {"include": ["142"]},
+  "strings": {
+    "community": "OpenStreetMap Asia",
+    "url": "https://t.me/OpenStreetMapAsia"
+  },
   "resolved": {
     "name": "OpenStreetMap Asia Telegram",
     "description": "Join our community Telegram chat",

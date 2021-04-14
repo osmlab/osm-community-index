@@ -3,9 +3,11 @@
   "type": "facebook",
   "locationSet": {"include": ["cm"]},
   "languageCodes": ["en", "fr"],
-  "url": "https://www.facebook.com/OpenStreetMap-Cameroun-799439470157013/Local",
   "order": 1,
-  "strings": {"community": "OpenStreetMap Cameroon"},
+  "strings": {
+    "community": "OpenStreetMap Cameroon",
+    "url": "https://www.facebook.com/OpenStreetMap-Cameroun-799439470157013/Local"
+  },
   "resolved": {
     "name": "OpenStreetMap Cameroon on Facebook",
     "description": "Join our community on Facebook",

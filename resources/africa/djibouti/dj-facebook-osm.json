@@ -1,11 +1,13 @@
 {
   "id": "OSM-dj-facebook",
   "type": "facebook",
+  "account": "OpenStreetMapDjibouti",
   "locationSet": {"include": ["dj"]},
   "languageCodes": ["en"],
-  "url": "https://www.facebook.com/OpenStreetMapDjibouti",
-  "account": "OpenStreetMapDjibouti",
-  "strings": {"community": "OpenStreetMap Djibouti"},
+  "strings": {
+    "community": "OpenStreetMap Djibouti",
+    "url": "https://www.facebook.com/OpenStreetMapDjibouti"
+  },
   "resolved": {
     "name": "OpenStreetMap Djibouti on Facebook",
     "description": "Join our community on Facebook",

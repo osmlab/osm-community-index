@@ -1,11 +1,13 @@
 {
   "id": "OSM-hk-discord",
   "type": "discord",
+  "account": "CyG9zte",
   "locationSet": {"include": ["hk"]},
   "languageCodes": ["en", "yue", "zh"],
-  "url": "https://discord.gg/CyG9zte",
-  "account": "CyG9zte",
-  "strings": {"community": "OpenStreetMap Hong Kong"},
+  "strings": {
+    "community": "OpenStreetMap Hong Kong",
+    "url": "https://discord.gg/CyG9zte"
+  },
   "resolved": {
     "name": "OpenStreetMap Hong Kong Discord",
     "description": "Get in touch with other mappers on Discord",

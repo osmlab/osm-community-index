@@ -1,12 +1,14 @@
 {
   "id": "is-facebook",
   "type": "facebook",
+  "account": "osmiceland",
   "locationSet": {"include": ["is"]},
   "languageCodes": ["en", "is"],
-  "url": "https://www.facebook.com/osmiceland",
-  "account": "osmiceland",
   "order": 3,
-  "strings": {"community": "OpenStreetMap Iceland"},
+  "strings": {
+    "community": "OpenStreetMap Iceland",
+    "url": "https://www.facebook.com/osmiceland"
+  },
   "resolved": {
     "name": "OpenStreetMap Iceland on Facebook",
     "description": "Join our community on Facebook",

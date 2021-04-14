@@ -1,11 +1,13 @@
 {
   "id": "no-telegram",
   "type": "telegram",
+  "account": "OSM_no",
   "locationSet": {"include": ["no"]},
   "languageCodes": ["no"],
-  "url": "https://t.me/OSM_no",
-  "account": "OSM_no",
-  "strings": {"community": "OpenStreetMap Norway"},
+  "strings": {
+    "community": "OpenStreetMap Norway",
+    "url": "https://t.me/OSM_no"
+  },
   "resolved": {
     "name": "OpenStreetMap Norway Telegram",
     "description": "Join our community Telegram chat",

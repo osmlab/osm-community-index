@@ -1,11 +1,13 @@
 {
   "id": "td-twitter",
   "type": "twitter",
+  "account": "ComOSMTchad",
   "locationSet": {"include": ["td"]},
   "languageCodes": ["en"],
-  "url": "https://twitter.com/ComOSMTchad",
-  "account": "ComOSMTchad",
-  "strings": {"community": "OpenStreetMap Chad"},
+  "strings": {
+    "community": "OpenStreetMap Chad",
+    "url": "https://twitter.com/ComOSMTchad"
+  },
   "resolved": {
     "name": "OpenStreetMap Chad on Twitter",
     "description": "Follow us on Twitter",

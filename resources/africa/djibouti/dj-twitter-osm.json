@@ -1,11 +1,13 @@
 {
   "id": "OSM-dj-twitter",
   "type": "twitter",
+  "account": "djiboutiosm",
   "locationSet": {"include": ["dj"]},
   "languageCodes": ["en"],
-  "url": "https://twitter.com/djiboutiosm",
-  "account": "djiboutiosm",
-  "strings": {"community": "OpenStreetMap Djibouti"},
+  "strings": {
+    "community": "OpenStreetMap Djibouti",
+    "url": "https://twitter.com/djiboutiosm"
+  },
   "resolved": {
     "name": "OpenStreetMap Djibouti on Twitter",
     "description": "Follow us on Twitter",

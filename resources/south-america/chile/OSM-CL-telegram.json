@@ -1,14 +1,14 @@
 {
   "id": "OSM-CL-telegram",
   "type": "telegram",
+  "account": "OSMcl",
   "locationSet": {"include": ["cl"]},
   "languageCodes": ["es"],
-  "url": "https://t.me/OSMcl",
-  "account": "OSMcl",
   "order": 2,
   "strings": {
     "community": "OpenStreetMap Chile",
-    "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"
+    "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!",
+    "url": "https://t.me/OSMcl"
   },
   "resolved": {
     "name": "OpenStreetMap Chile Telegram",

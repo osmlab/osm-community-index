@@ -1,12 +1,14 @@
 {
   "id": "it-facebook",
   "type": "facebook",
+  "account": "OpenStreetMap.Italia",
   "locationSet": {"include": ["it"]},
   "languageCodes": ["it"],
-  "url": "https://www.facebook.com/OpenStreetMap.Italia",
-  "account": "OpenStreetMap.Italia",
   "order": 3,
-  "strings": {"community": "OpenStreetMap Italy"},
+  "strings": {
+    "community": "OpenStreetMap Italy",
+    "url": "https://www.facebook.com/OpenStreetMap.Italia"
+  },
   "resolved": {
     "name": "OpenStreetMap Italy on Facebook",
     "description": "Join our community on Facebook",

@@ -1,11 +1,13 @@
 {
   "id": "osmbenin",
   "type": "twitter",
+  "account": "OSMBenin",
   "locationSet": {"include": ["ben"]},
   "languageCodes": ["en"],
-  "url": "https://twitter.com/OSMBenin",
-  "account": "OSMBenin",
-  "strings": {"community": "OpenStreetMap Benin"},
+  "strings": {
+    "community": "OpenStreetMap Benin",
+    "url": "https://twitter.com/OSMBenin"
+  },
   "resolved": {
     "name": "OpenStreetMap Benin on Twitter",
     "description": "Follow us on Twitter",

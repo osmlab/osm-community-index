@@ -1,12 +1,14 @@
 {
   "id": "hu-facebook",
   "type": "facebook",
+  "account": "osm.hu",
   "locationSet": {"include": ["hu"]},
   "languageCodes": ["hu"],
-  "url": "https://www.facebook.com/groups/osm.hu",
-  "account": "osm.hu",
   "order": 3,
-  "strings": {"community": "OpenStreetMap Hungary"},
+  "strings": {
+    "community": "OpenStreetMap Hungary",
+    "url": "https://www.facebook.com/groups/osm.hu"
+  },
   "resolved": {
     "name": "OpenStreetMap Hungary on Facebook",
     "description": "Join our community on Facebook",

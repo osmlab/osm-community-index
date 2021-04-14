@@ -1,12 +1,14 @@
 {
   "id": "ua-twitter",
   "type": "twitter",
+  "account": "osm_ua",
   "locationSet": {"include": ["ukraine.geojson"]},
   "languageCodes": ["uk"],
-  "url": "https://twitter.com/osm_ua",
-  "account": "osm_ua",
   "order": 1,
-  "strings": {"community": "OpenStreetMap Ukraine"},
+  "strings": {
+    "community": "OpenStreetMap Ukraine",
+    "url": "https://twitter.com/osm_ua"
+  },
   "resolved": {
     "name": "OpenStreetMap Ukraine on Twitter",
     "description": "Follow us on Twitter",

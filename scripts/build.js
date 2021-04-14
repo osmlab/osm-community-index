@@ -190,7 +190,8 @@ function collectResources(featureCollection) {
       process.exit(1);
     }
 
-    // check locationSet
+    // Check locationSet
+    item.locationSet = item.locationSet || {};
     try {
       const resolved = loco.resolveLocationSet(item.locationSet);
       if (!resolved.feature.geometry.coordinates.length || !resolved.feature.properties.area) {
@@ -202,7 +203,8 @@ function collectResources(featureCollection) {
       process.exit(1);
     }
 
-    // check strings
+    // Check strings
+    item.strings = item.strings || {};
     let resolvedStrings;
     try {
       resolvedStrings = resolveStrings(item, _defaults);
@@ -218,26 +220,27 @@ function collectResources(featureCollection) {
 
     // Clean and sort the properties for consistency, save them that way.
     let obj = {};
-    if (item.id)    { obj.id = item.id; }
-    if (item.type)  { obj.type = item.type; }
+    if (item.id)       { obj.id = item.id; }
+    if (item.type)     { obj.type = item.type; }
+    if (item.account)  { obj.account = item.account; }
 
-    item.locationSet = item.locationSet || {};
     obj.locationSet = {};
     if (item.locationSet.include)  { obj.locationSet.include = item.locationSet.include; }
     if (item.locationSet.exclude)  { obj.locationSet.exclude = item.locationSet.exclude; }
 
     if (item.languageCodes)  { obj.languageCodes = item.languageCodes.sort(withLocale); }
-    if (item.url)            { obj.url = item.url; }
-    if (item.signupUrl)      { obj.signupUrl = item.signupUrl; }
-    if (item.account)        { obj.account = item.account; }
+    // if (item.url)            { obj.url = item.url; }
+    // if (item.signupUrl)      { obj.signupUrl = item.signupUrl; }
     if (item.order)          { obj.order = item.order; }
 
-    item.strings = item.strings || {};
     obj.strings = {};
     if (item.strings.community)           { obj.strings.community = item.strings.community; }
     if (item.strings.name)                { obj.strings.name = item.strings.name; }
     if (item.strings.description)         { obj.strings.description = item.strings.description; }
     if (item.strings.extendedDescription) { obj.strings.extendedDescription = item.strings.extendedDescription; }
+
+    if (item.signupUrl || item.strings.signupUrl)  { obj.strings.signupUrl = item.signupUrl || item.strings.signupUrl; }
+    if (item.url || item.strings.url)  { obj.strings.url = item.url || item.strings.url; }
 
     obj.resolved = resolvedStrings;
 

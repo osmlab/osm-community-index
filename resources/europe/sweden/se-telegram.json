@@ -1,12 +1,14 @@
 {
   "id": "se-telegram",
   "type": "telegram",
+  "account": "osmSE",
   "locationSet": {"include": ["se"]},
   "languageCodes": ["sv"],
-  "url": "https://t.me/osmSE",
-  "account": "osmSE",
   "order": 4,
-  "strings": {"community": "OpenStreetMap Sweden"},
+  "strings": {
+    "community": "OpenStreetMap Sweden",
+    "url": "https://t.me/osmSE"
+  },
   "resolved": {
     "name": "OpenStreetMap Sweden Telegram",
     "description": "Join our community Telegram chat",

@@ -3,11 +3,11 @@
   "type": "xmpp",
   "locationSet": {"include": ["fr"]},
   "languageCodes": ["fr"],
-  "url": "xmpp:osm-fr@chat.jabberfr.org",
   "order": -4,
   "strings": {
     "community": "OpenStreetMap France",
-    "description": "Join osm-fr@chat.jabberfr.org"
+    "description": "Join osm-fr@chat.jabberfr.org",
+    "url": "xmpp:osm-fr@chat.jabberfr.org"
   },
   "resolved": {
     "name": "OpenStreetMap France XMPP",

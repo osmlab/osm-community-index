@@ -1,10 +1,12 @@
 {
   "id": "osm-africa-telegram",
   "type": "telegram",
-  "locationSet": {"include": ["002"]},
-  "url": "https://t.me/OSMAfrica",
   "account": "OSMAfrica",
-  "strings": {"community": "OpenStreetMap Africa"},
+  "locationSet": {"include": ["002"]},
+  "strings": {
+    "community": "OpenStreetMap Africa",
+    "url": "https://t.me/OSMAfrica"
+  },
   "resolved": {
     "name": "OpenStreetMap Africa Telegram",
     "description": "Join our community Telegram chat",

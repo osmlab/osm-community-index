@@ -1,11 +1,13 @@
 {
   "id": "osm-tr-twitter",
   "type": "twitter",
+  "account": "OpenstreetmapTr",
   "locationSet": {"include": ["tr"]},
   "languageCodes": ["tr"],
-  "url": "https://twitter.com/OpenstreetmapTr",
-  "account": "OpenstreetmapTr",
-  "strings": {"community": "OpenStreetMap Turkey"},
+  "strings": {
+    "community": "OpenStreetMap Turkey",
+    "url": "https://twitter.com/OpenstreetmapTr"
+  },
   "resolved": {
     "name": "OpenStreetMap Turkey on Twitter",
     "description": "Follow us on Twitter",

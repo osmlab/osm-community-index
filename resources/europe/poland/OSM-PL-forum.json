@@ -3,9 +3,11 @@
   "type": "forum",
   "locationSet": {"include": ["pl"]},
   "languageCodes": ["en", "pl"],
-  "url": "https://forum.openstreetmap.org/viewforum.php?id=23",
   "order": 10,
-  "strings": {"community": "OpenStreetMap Poland"},
+  "strings": {
+    "community": "OpenStreetMap Poland",
+    "url": "https://forum.openstreetmap.org/viewforum.php?id=23"
+  },
   "resolved": {
     "name": "OpenStreetMap Poland Forum",
     "description": "The official forum for OpenStreetMap Poland",

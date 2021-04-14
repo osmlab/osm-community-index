@@ -1,12 +1,14 @@
 {
   "id": "OSM-br-discord",
   "type": "discord",
+  "account": "bQn4aCm",
   "locationSet": {"include": ["br"]},
   "languageCodes": ["pt"],
-  "url": "https://discord.gg/bQn4aCm",
-  "account": "bQn4aCm",
   "order": 2,
-  "strings": {"community": "OpenStreetMap Brasil"},
+  "strings": {
+    "community": "OpenStreetMap Brasil",
+    "url": "https://discord.gg/bQn4aCm"
+  },
   "resolved": {
     "name": "OpenStreetMap Brasil Discord",
     "description": "Get in touch with other mappers on Discord",

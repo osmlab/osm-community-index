@@ -1,12 +1,14 @@
 {
   "id": "si-mailinglist",
   "type": "mailinglist",
+  "account": "talk-si",
   "locationSet": {"include": ["si"]},
   "languageCodes": ["en", "sl"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-si",
-  "account": "talk-si",
   "order": -3,
-  "strings": {"community": "OpenStreetMap Slovenia"},
+  "strings": {
+    "community": "OpenStreetMap Slovenia",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-si"
+  },
   "resolved": {
     "name": "talk-si Mailing List",
     "description": "The official mailing list for OpenStreetMap Slovenia",

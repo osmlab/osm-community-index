@@ -1,11 +1,13 @@
 {
   "id": "OSM-gn-twitter",
   "type": "twitter",
+  "account": "osmguinea",
   "locationSet": {"include": ["gn"]},
   "languageCodes": ["en"],
-  "url": "https://twitter.com/osmguinea?lang=en",
-  "account": "osmguinea",
-  "strings": {"community": "OpenStreetMap Guinea"},
+  "strings": {
+    "community": "OpenStreetMap Guinea",
+    "url": "https://twitter.com/osmguinea?lang=en"
+  },
   "resolved": {
     "name": "OpenStreetMap Guinea on Twitter",
     "description": "Follow us on Twitter",

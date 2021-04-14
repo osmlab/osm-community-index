@@ -1,12 +1,14 @@
 {
   "id": "fr-facebook",
   "type": "facebook",
+  "account": "osmfr",
   "locationSet": {"include": ["fr"]},
   "languageCodes": ["fr"],
-  "url": "https://www.facebook.com/osmfr",
-  "account": "osmfr",
   "order": 3,
-  "strings": {"community": "OpenStreetMap France"},
+  "strings": {
+    "community": "OpenStreetMap France",
+    "url": "https://www.facebook.com/osmfr"
+  },
   "resolved": {
     "name": "OpenStreetMap France on Facebook",
     "description": "Join our community on Facebook",

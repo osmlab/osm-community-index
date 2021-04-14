@@ -1,12 +1,12 @@
 {
   "id": "OSM-india-twitter",
   "type": "twitter",
-  "locationSet": {"include": ["in"]},
-  "url": "https://twitter.com/osm_in",
   "account": "osm_in",
+  "locationSet": {"include": ["in"]},
   "strings": {
     "community": "OpenStreetMap India",
-    "description": "We are just a tweet away: {url}"
+    "description": "We are just a tweet away: {url}",
+    "url": "https://twitter.com/osm_in"
   },
   "resolved": {
     "name": "OpenStreetMap India on Twitter",

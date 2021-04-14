@@ -1,14 +1,14 @@
 {
   "id": "cat-github",
   "type": "github",
+  "account": "OSM-catalan",
   "locationSet": {"include": ["catalan_countries.geojson"]},
   "languageCodes": ["ca"],
-  "url": "https://github.com/OSM-catalan",
-  "account": "OSM-catalan",
   "order": 6,
   "strings": {
     "community": "OpenStreetMap Catalan Countries",
-    "description": "Projects from the OpenStreetMap Catalan Countries community on GitHub"
+    "description": "Projects from the OpenStreetMap Catalan Countries community on GitHub",
+    "url": "https://github.com/OSM-catalan"
   },
   "resolved": {
     "name": "OpenStreetMap Catalan Countries GitHub",

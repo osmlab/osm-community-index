@@ -1,11 +1,13 @@
 {
   "id": "il-telegram",
   "type": "telegram",
-  "locationSet": {"include": ["il"]},
-  "url": "https://t.me/OSM_Israel",
   "account": "OSM_Israel",
+  "locationSet": {"include": ["il"]},
   "order": 5,
-  "strings": {"community": "OpenStreetMap Israel"},
+  "strings": {
+    "community": "OpenStreetMap Israel",
+    "url": "https://t.me/OSM_Israel"
+  },
   "resolved": {
     "name": "OpenStreetMap Israel Telegram",
     "description": "Join our community Telegram chat",

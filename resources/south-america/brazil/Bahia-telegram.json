@@ -1,13 +1,13 @@
 {
   "id": "Bahia-telegram",
   "type": "telegram",
+  "account": "OSMBA",
   "locationSet": {"include": ["bahia.geojson"]},
   "languageCodes": ["pt"],
-  "url": "https://t.me/OSMBA",
-  "account": "OSMBA",
   "strings": {
     "community": "OpenStreetMap Bahia",
-    "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"
+    "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!",
+    "url": "https://t.me/OSMBA"
   },
   "resolved": {
     "name": "OpenStreetMap Bahia Telegram",

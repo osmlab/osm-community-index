@@ -2,12 +2,11 @@
   "title": "Resource",
   "description": "An OpenStreetMap community resource",
   "type": "object",
-  "additionalProperties": false,
+  "additionalProperties": true,
   "required": [
     "id",
     "type",
     "locationSet",
-    "url",
     "strings"
   ],
 
@@ -46,6 +45,12 @@
         "youthmappers",
         "youtube"
       ]
+    },
+
+    "account": {
+      "description": "(optional) Resource account string, required for some resource types",
+      "examples": ["talk-af"],
+      "type": "string"
     },
 
     "locationSet": {
@@ -92,27 +97,11 @@
       }
     },
 
-    "url": {
-      "description": "(required) A url link to visit the community resource",
-      "type": "string"
-    },
-
-    "signupUrl": {
-      "description": "(optional) A url link to sign up for the community resource",
-      "type": "string"
-    },
-
-    "account": {
-      "description": "(optional) Resource account string, required for some resource types",
-      "examples": ["talk-af"],
-      "type": "string"
-    },
-
     "strings": {
       "description": "(required) Source text strings related to this community resource",
       "$comment": "All strings should be provided in English, and will be sent to Transifex for translation",
       "type": "object",
-      "additionalProperties": false,
+      "additionalProperties": true,
       "properties": {
         "community": {
           "description": "(optional) Community Name",
@@ -130,6 +119,14 @@
         },
         "extendedDescription": {
           "description": "(optional) Longer description of the community resource",
+          "type": "string"
+        },
+        "signupUrl": {
+          "description": "(optional) A url link to sign up for the community resource",
+          "type": "string"
+        },
+        "url": {
+          "description": "(optional) A url link to visit the community resource",
           "type": "string"
         }
       }

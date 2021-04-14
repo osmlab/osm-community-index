@@ -1,11 +1,13 @@
 {
   "id": "OSM-PE-twitter",
   "type": "twitter",
+  "account": "osmpe",
   "locationSet": {"include": ["pe"]},
   "languageCodes": ["es"],
-  "url": "https://twitter.com/osmpe",
-  "account": "osmpe",
-  "strings": {"community": "OpenStreetMap Peru"},
+  "strings": {
+    "community": "OpenStreetMap Peru",
+    "url": "https://twitter.com/osmpe"
+  },
   "resolved": {
     "name": "OpenStreetMap Peru on Twitter",
     "description": "Follow us on Twitter",

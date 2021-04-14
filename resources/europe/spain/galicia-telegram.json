@@ -1,11 +1,13 @@
 {
   "id": "Galicia-Telegram",
   "type": "telegram",
+  "account": "osmgalicia",
   "locationSet": {"include": ["galicia.geojson"]},
   "languageCodes": ["es", "gl"],
-  "url": "https://t.me/osmgalicia",
-  "account": "osmgalicia",
-  "strings": {"community": "OpenStreetMap Galicia"},
+  "strings": {
+    "community": "OpenStreetMap Galicia",
+    "url": "https://t.me/osmgalicia"
+  },
   "resolved": {
     "name": "OpenStreetMap Galicia Telegram",
     "description": "Join our community Telegram chat",

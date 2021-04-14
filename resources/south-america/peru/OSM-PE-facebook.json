@@ -1,12 +1,14 @@
 {
   "id": "OSM-PE-facebook",
   "type": "facebook",
+  "account": "Osmpe",
   "locationSet": {"include": ["pe"]},
   "languageCodes": ["es"],
-  "url": "https://www.facebook.com/Osmpe",
-  "account": "Osmpe",
   "order": 3,
-  "strings": {"community": "OpenStreetMap Peru"},
+  "strings": {
+    "community": "OpenStreetMap Peru",
+    "url": "https://www.facebook.com/Osmpe"
+  },
   "resolved": {
     "name": "OpenStreetMap Peru on Facebook",
     "description": "Join our community on Facebook",

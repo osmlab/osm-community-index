@@ -3,10 +3,10 @@
   "type": "twitter",
   "locationSet": {"include": ["phoenix.geojson"]},
   "languageCodes": ["en"],
-  "url": "https://twitter.com/phxgeo",
   "strings": {
     "name": "PHXGeo Twitter",
-    "description": "Follow us on Twitter at {url}"
+    "description": "Follow us on Twitter at {url}",
+    "url": "https://twitter.com/phxgeo"
   },
   "resolved": {
     "name": "PHXGeo Twitter",

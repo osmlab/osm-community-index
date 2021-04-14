@@ -1,14 +1,14 @@
 {
   "id": "OSM-br-telegram",
   "type": "telegram",
+  "account": "OSMBrasil_Comunidade",
   "locationSet": {"include": ["br"]},
   "languageCodes": ["pt"],
-  "url": "https://t.me/OSMBrasil_Comunidade",
-  "account": "OSMBrasil_Comunidade",
   "order": 1,
   "strings": {
     "community": "OpenStreetMap Brasil",
-    "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"
+    "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!",
+    "url": "https://t.me/OSMBrasil_Comunidade"
   },
   "resolved": {
     "name": "OpenStreetMap Brasil Telegram",

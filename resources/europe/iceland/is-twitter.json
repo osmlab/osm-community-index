@@ -1,12 +1,14 @@
 {
   "id": "is-twitter",
   "type": "twitter",
+  "account": "openstreetmapis",
   "locationSet": {"include": ["is"]},
   "languageCodes": ["en", "is"],
-  "url": "https://twitter.com/openstreetmapis",
-  "account": "openstreetmapis",
   "order": 2,
-  "strings": {"community": "OpenStreetMap Iceland"},
+  "strings": {
+    "community": "OpenStreetMap Iceland",
+    "url": "https://twitter.com/openstreetmapis"
+  },
   "resolved": {
     "name": "OpenStreetMap Iceland on Twitter",
     "description": "Follow us on Twitter",

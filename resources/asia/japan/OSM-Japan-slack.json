@@ -3,11 +3,11 @@
   "type": "slack",
   "locationSet": {"include": ["jp"]},
   "languageCodes": ["ja"],
-  "url": "https://osm-japan.slack.com/",
-  "signupUrl": "https://join.slack.com/t/osm-japan/shared_invite/zt-d0my5ek2-SRxGCIsPPIyaOWkJOZ4EMg",
   "strings": {
     "community": "OpenStreetMap Japan",
-    "description": "A Slack workspace for the OSM Japan community {signupUrl}"
+    "description": "A Slack workspace for the OSM Japan community {signupUrl}",
+    "signupUrl": "https://join.slack.com/t/osm-japan/shared_invite/zt-d0my5ek2-SRxGCIsPPIyaOWkJOZ4EMg",
+    "url": "https://osm-japan.slack.com/"
   },
   "resolved": {
     "name": "OpenStreetMap Japan Slack",

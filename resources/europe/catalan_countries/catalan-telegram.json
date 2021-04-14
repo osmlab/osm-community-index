@@ -1,12 +1,14 @@
 {
   "id": "cat-telegram",
   "type": "telegram",
+  "account": "osmcat",
   "locationSet": {"include": ["catalan_countries.geojson"]},
   "languageCodes": ["ca"],
-  "url": "https://t.me/osmcat",
-  "account": "osmcat",
   "order": 8,
-  "strings": {"community": "OpenStreetMap Catalan Countries"},
+  "strings": {
+    "community": "OpenStreetMap Catalan Countries",
+    "url": "https://t.me/osmcat"
+  },
   "resolved": {
     "name": "OpenStreetMap Catalan Countries Telegram",
     "description": "Join our community Telegram chat",

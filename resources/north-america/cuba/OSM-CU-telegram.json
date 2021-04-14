@@ -1,11 +1,13 @@
 {
   "id": "OSM-CU-telegram",
   "type": "telegram",
+  "account": "OSM_Cuba",
   "locationSet": {"include": ["cu"]},
   "languageCodes": ["es"],
-  "url": "https://t.me/OSM_Cuba",
-  "account": "OSM_Cuba",
-  "strings": {"community": "OpenStreetMap Cuba"},
+  "strings": {
+    "community": "OpenStreetMap Cuba",
+    "url": "https://t.me/OSM_Cuba"
+  },
   "resolved": {
     "name": "OpenStreetMap Cuba Telegram",
     "description": "Join our community Telegram chat",

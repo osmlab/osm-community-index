@@ -1,11 +1,13 @@
 {
   "id": "panama-telegram",
   "type": "telegram",
+  "account": "Comunidad_OSM_Panama",
   "locationSet": {"include": ["pa"]},
   "languageCodes": ["es"],
-  "url": "https://t.me/Comunidad_OSM_Panama",
-  "account": "Comunidad_OSM_Panama",
-  "strings": {"community": "OpenStreetMap Panama"},
+  "strings": {
+    "community": "OpenStreetMap Panama",
+    "url": "https://t.me/Comunidad_OSM_Panama"
+  },
   "resolved": {
     "name": "OpenStreetMap Panama Telegram",
     "description": "Join our community Telegram chat",

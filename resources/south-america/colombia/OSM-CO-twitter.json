@@ -1,12 +1,14 @@
 {
   "id": "OSM-CO-twitter",
   "type": "twitter",
+  "account": "OpenStreetMapCo",
   "locationSet": {"include": ["co"]},
   "languageCodes": ["es"],
-  "url": "https://twitter.com/OpenStreetMapCo",
-  "account": "OpenStreetMapCo",
   "order": 3,
-  "strings": {"community": "OpenStreetMap Colombia"},
+  "strings": {
+    "community": "OpenStreetMap Colombia",
+    "url": "https://twitter.com/OpenStreetMapCo"
+  },
   "resolved": {
     "name": "OpenStreetMap Colombia on Twitter",
     "description": "Follow us on Twitter",

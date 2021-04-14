@@ -1,11 +1,13 @@
 {
   "id": "osm-za-twitter",
   "type": "twitter",
+  "account": "OpenStreetMapZA",
   "locationSet": {"include": ["za"]},
   "languageCodes": ["en"],
-  "url": "https://twitter.com/OpenStreetMapZA",
-  "account": "OpenStreetMapZA",
-  "strings": {"community": "OpenStreetMap South Africa"},
+  "strings": {
+    "community": "OpenStreetMap South Africa",
+    "url": "https://twitter.com/OpenStreetMapZA"
+  },
   "resolved": {
     "name": "OpenStreetMap South Africa on Twitter",
     "description": "Follow us on Twitter",

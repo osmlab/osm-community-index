@@ -1,14 +1,14 @@
 {
   "id": "OSM-Telegram",
   "type": "telegram",
+  "account": "OpenStreetMapOrg",
   "locationSet": {"include": ["001"]},
   "languageCodes": ["en"],
-  "url": "https://t.me/OpenStreetMapOrg",
-  "account": "OpenStreetMapOrg",
   "order": 5,
   "strings": {
     "community": "OpenStreetMap",
-    "description": "Join the OpenStreetMap Telegram global supergroup at {url}"
+    "description": "Join the OpenStreetMap Telegram global supergroup at {url}",
+    "url": "https://t.me/OpenStreetMapOrg"
   },
   "resolved": {
     "name": "OpenStreetMap Telegram",

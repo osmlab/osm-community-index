@@ -1,11 +1,13 @@
 {
   "id": "OSM-ga-facebook",
   "type": "facebook",
+  "account": "osmgabon",
   "locationSet": {"include": ["ga"]},
   "languageCodes": ["en"],
-  "url": "https://www.facebook.com/osmgabon/",
-  "account": "osmgabon",
-  "strings": {"community": "OpenStreetMap Gabon"},
+  "strings": {
+    "community": "OpenStreetMap Gabon",
+    "url": "https://www.facebook.com/osmgabon/"
+  },
   "resolved": {
     "name": "OpenStreetMap Gabon on Facebook",
     "description": "Join our community on Facebook",

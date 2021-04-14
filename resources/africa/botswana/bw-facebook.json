@@ -1,12 +1,14 @@
 {
   "id": "bw-facebook",
   "type": "facebook",
+  "account": "MappingBotswana",
   "locationSet": {"include": ["bw"]},
   "languageCodes": ["en", "tn"],
-  "url": "https://www.facebook.com/MappingBotswana/",
-  "account": "MappingBotswana",
   "order": 3,
-  "strings": {"community": "Mapping Botswana"},
+  "strings": {
+    "community": "Mapping Botswana",
+    "url": "https://www.facebook.com/MappingBotswana/"
+  },
   "resolved": {
     "name": "Mapping Botswana on Facebook",
     "description": "Join our community on Facebook",

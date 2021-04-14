@@ -3,9 +3,11 @@
   "type": "forum",
   "locationSet": {"include": ["is"]},
   "languageCodes": ["en"],
-  "url": "https://forum.openstreetmap.org/viewforum.php?id=90",
   "order": 4,
-  "strings": {"community": "OpenStreetMap Iceland"},
+  "strings": {
+    "community": "OpenStreetMap Iceland",
+    "url": "https://forum.openstreetmap.org/viewforum.php?id=90"
+  },
   "resolved": {
     "name": "OpenStreetMap Iceland Forum",
     "description": "The official forum for OpenStreetMap Iceland",

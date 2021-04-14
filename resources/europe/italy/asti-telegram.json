@@ -1,12 +1,14 @@
 {
   "id": "asti-telegram",
   "type": "telegram",
+  "account": "OSMAsti",
   "locationSet": {"include": [[8.2071, 44.9]]},
   "languageCodes": ["it"],
-  "url": "https://t.me/OSMAsti",
-  "account": "OSMAsti",
   "order": 3,
-  "strings": {"community": "OpenStreetMap Asti"},
+  "strings": {
+    "community": "OpenStreetMap Asti",
+    "url": "https://t.me/OSMAsti"
+  },
   "resolved": {
     "name": "OpenStreetMap Asti Telegram",
     "description": "Join our community Telegram chat",

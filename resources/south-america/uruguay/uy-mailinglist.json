@@ -1,12 +1,14 @@
 {
   "id": "uy-mailinglist",
   "type": "mailinglist",
+  "account": "talk-uy",
   "locationSet": {"include": ["uy"]},
   "languageCodes": ["es"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-uy",
-  "account": "talk-uy",
   "order": -3,
-  "strings": {"community": "OpenStreetMap Uruguay"},
+  "strings": {
+    "community": "OpenStreetMap Uruguay",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-uy"
+  },
   "resolved": {
     "name": "talk-uy Mailing List",
     "description": "The official mailing list for OpenStreetMap Uruguay",

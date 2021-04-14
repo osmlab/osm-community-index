@@ -1,11 +1,13 @@
 {
   "id": "ch-twitter",
   "type": "twitter",
+  "account": "SwissOSM",
   "locationSet": {"include": ["ch"]},
   "languageCodes": ["de", "en", "fr", "it"],
-  "url": "https://twitter.com/SwissOSM",
-  "account": "SwissOSM",
-  "strings": {"community": "OpenStreetMap Switzerland"},
+  "strings": {
+    "community": "OpenStreetMap Switzerland",
+    "url": "https://twitter.com/SwissOSM"
+  },
   "resolved": {
     "name": "OpenStreetMap Switzerland on Twitter",
     "description": "Follow us on Twitter",

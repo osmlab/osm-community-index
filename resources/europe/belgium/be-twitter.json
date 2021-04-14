@@ -1,12 +1,14 @@
 {
   "id": "be-twitter",
   "type": "twitter",
+  "account": "osm_be",
   "locationSet": {"include": ["be"]},
   "languageCodes": ["de", "en", "fr", "nl"],
-  "url": "https://twitter.com/osm_be",
-  "account": "osm_be",
   "order": 4,
-  "strings": {"community": "OpenStreetMap Belgium"},
+  "strings": {
+    "community": "OpenStreetMap Belgium",
+    "url": "https://twitter.com/osm_be"
+  },
   "resolved": {
     "name": "OpenStreetMap Belgium on Twitter",
     "description": "Follow us on Twitter",

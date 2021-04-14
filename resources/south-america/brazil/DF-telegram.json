@@ -1,13 +1,13 @@
 {
   "id": "DF-telegram",
   "type": "telegram",
+  "account": "osmbsb",
   "locationSet": {"include": ["brasilia_df.geojson"]},
   "languageCodes": ["pt"],
-  "url": "https://t.me/osmbsb",
-  "account": "osmbsb",
   "strings": {
     "community": "OpenStreetMap Brasília",
-    "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"
+    "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!",
+    "url": "https://t.me/osmbsb"
   },
   "resolved": {
     "name": "OpenStreetMap Brasília Telegram",

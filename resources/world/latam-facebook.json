@@ -1,14 +1,14 @@
 {
   "id": "latam-facebook",
   "type": "facebook",
+  "account": "osmlatam",
   "locationSet": {"include": ["419"]},
   "languageCodes": ["en", "es", "pt"],
-  "url": "https://www.facebook.com/osmlatam",
-  "account": "osmlatam",
   "order": 1,
   "strings": {
     "community": "OpenStreetMap Latin America",
-    "description": "Mappers and OpenStreetMap on Facebook in Latin America"
+    "description": "Mappers and OpenStreetMap on Facebook in Latin America",
+    "url": "https://www.facebook.com/osmlatam"
   },
   "resolved": {
     "name": "OpenStreetMap Latin America on Facebook",

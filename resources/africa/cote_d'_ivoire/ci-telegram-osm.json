@@ -1,11 +1,13 @@
 {
   "id": "CIosm",
   "type": "telegram",
+  "account": "OSMCI",
   "locationSet": {"include": ["ci"]},
   "languageCodes": ["en"],
-  "url": "https://t.me/OSMCI",
-  "account": "OSMCI",
-  "strings": {"community": "OpenStreetMap Cote d'Ivoire"},
+  "strings": {
+    "community": "OpenStreetMap Cote d'Ivoire",
+    "url": "https://t.me/OSMCI"
+  },
   "resolved": {
     "name": "OpenStreetMap Cote d'Ivoire Telegram",
     "description": "Join our community Telegram chat",

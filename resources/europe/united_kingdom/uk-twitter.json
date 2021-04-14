@@ -1,12 +1,14 @@
 {
   "id": "uk-twitter",
   "type": "twitter",
+  "account": "osmuk",
   "locationSet": {"include": ["gb"]},
   "languageCodes": ["en"],
-  "url": "https://twitter.com/osmuk",
-  "account": "osmuk",
   "order": 2,
-  "strings": {"community": "OpenStreetMap UK"},
+  "strings": {
+    "community": "OpenStreetMap UK",
+    "url": "https://twitter.com/osmuk"
+  },
   "resolved": {
     "name": "OpenStreetMap UK on Twitter",
     "description": "Follow us on Twitter",

@@ -1,11 +1,13 @@
 {
   "id": "de-berlin-twitter",
   "type": "twitter",
+  "account": "osmberlin",
   "locationSet": {"include": ["de-berlin-brandenburg.geojson"]},
   "languageCodes": ["de"],
-  "url": "https://twitter.com/osmberlin",
-  "account": "osmberlin",
-  "strings": {"community": "OpenStreetMap Berlin"},
+  "strings": {
+    "community": "OpenStreetMap Berlin",
+    "url": "https://twitter.com/osmberlin"
+  },
   "resolved": {
     "name": "OpenStreetMap Berlin on Twitter",
     "description": "Follow us on Twitter",

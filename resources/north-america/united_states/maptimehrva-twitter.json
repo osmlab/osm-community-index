@@ -1,11 +1,13 @@
 {
   "id": "MaptimeHRVA-twitter",
   "type": "twitter",
+  "account": "maptimehrva",
   "locationSet": {"include": ["hrva.geojson"]},
   "languageCodes": ["en"],
-  "url": "https://twitter.com/maptimehrva",
-  "account": "maptimehrva",
-  "strings": {"community": "MaptimeHRVA"},
+  "strings": {
+    "community": "MaptimeHRVA",
+    "url": "https://twitter.com/maptimehrva"
+  },
   "resolved": {
     "name": "MaptimeHRVA on Twitter",
     "description": "Follow us on Twitter",

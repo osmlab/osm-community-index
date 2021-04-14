@@ -1,11 +1,13 @@
 {
   "id": "kh-twitter",
   "type": "twitter",
+  "account": "OSM_KH",
   "locationSet": {"include": ["kh"]},
   "languageCodes": ["en"],
-  "url": "https://twitter.com/OSM_KH",
-  "account": "OSM_KH",
-  "strings": {"community": "OpenStreetMap Cambodia"},
+  "strings": {
+    "community": "OpenStreetMap Cambodia",
+    "url": "https://twitter.com/OSM_KH"
+  },
   "resolved": {
     "name": "OpenStreetMap Cambodia on Twitter",
     "description": "Follow us on Twitter",

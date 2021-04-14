@@ -1,13 +1,13 @@
 {
   "id": "ua-github",
   "type": "github",
+  "account": "osm-ua",
   "locationSet": {"include": ["ukraine.geojson"]},
   "languageCodes": ["en", "uk"],
-  "url": "https://github.com/osm-ua",
-  "account": "osm-ua",
   "strings": {
     "community": "OpenStreetMap Ukraine",
-    "description": "OpenStreetMap Ukraine GitHub"
+    "description": "OpenStreetMap Ukraine GitHub",
+    "url": "https://github.com/osm-ua"
   },
   "resolved": {
     "name": "OpenStreetMap Ukraine GitHub",

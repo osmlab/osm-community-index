@@ -1,11 +1,13 @@
 {
   "id": "osmgraz-twitter",
   "type": "twitter",
+  "account": "osmgraz",
   "locationSet": {"include": [[15.4461, 47.0556]]},
   "languageCodes": ["de", "en"],
-  "url": "https://twitter.com/osmgraz",
-  "account": "osmgraz",
-  "strings": {"community": "OpenStreetMap Graz"},
+  "strings": {
+    "community": "OpenStreetMap Graz",
+    "url": "https://twitter.com/osmgraz"
+  },
   "resolved": {
     "name": "OpenStreetMap Graz on Twitter",
     "description": "Follow us on Twitter",

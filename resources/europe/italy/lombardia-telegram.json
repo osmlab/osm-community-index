@@ -1,12 +1,14 @@
 {
   "id": "lombardia-telegram",
   "type": "telegram",
+  "account": "OSMLombardia",
   "locationSet": {"include": ["lombardia.geojson"]},
   "languageCodes": ["it"],
-  "url": "https://t.me/OSMLombardia",
-  "account": "OSMLombardia",
   "order": 3,
-  "strings": {"community": "OpenStreetMap Lombardia"},
+  "strings": {
+    "community": "OpenStreetMap Lombardia",
+    "url": "https://t.me/OSMLombardia"
+  },
   "resolved": {
     "name": "OpenStreetMap Lombardia Telegram",
     "description": "Join our community Telegram chat",

@@ -1,12 +1,14 @@
 {
   "id": "OSM-CL-mailinglist",
   "type": "mailinglist",
+  "account": "talk-cl",
   "locationSet": {"include": ["cl"]},
   "languageCodes": ["es"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-cl",
-  "account": "talk-cl",
   "order": 5,
-  "strings": {"community": "OpenStreetMap Chile"},
+  "strings": {
+    "community": "OpenStreetMap Chile",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-cl"
+  },
   "resolved": {
     "name": "talk-cl Mailing List",
     "description": "The official mailing list for OpenStreetMap Chile",

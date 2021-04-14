@@ -1,11 +1,13 @@
 {
   "id": "OSM-GA-twitter",
   "type": "twitter",
+  "account": "OsmGabon",
   "locationSet": {"include": ["ga"]},
   "languageCodes": ["en"],
-  "url": "https://twitter.com/OsmGabon",
-  "account": "OsmGabon",
-  "strings": {"community": "OpenStreetMap Gabon"},
+  "strings": {
+    "community": "OpenStreetMap Gabon",
+    "url": "https://twitter.com/OsmGabon"
+  },
   "resolved": {
     "name": "OpenStreetMap Gabon on Twitter",
     "description": "Follow us on Twitter",

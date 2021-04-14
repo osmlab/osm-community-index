@@ -1,11 +1,13 @@
 {
   "id": "ni-twitter",
   "type": "twitter",
+  "account": "osm_ni",
   "locationSet": {"include": ["ni"]},
   "languageCodes": ["es"],
-  "url": "https://twitter.com/osm_ni",
-  "account": "osm_ni",
-  "strings": {"community": "OpenStreetMap Nicaragua"},
+  "strings": {
+    "community": "OpenStreetMap Nicaragua",
+    "url": "https://twitter.com/osm_ni"
+  },
   "resolved": {
     "name": "OpenStreetMap Nicaragua on Twitter",
     "description": "Follow us on Twitter",

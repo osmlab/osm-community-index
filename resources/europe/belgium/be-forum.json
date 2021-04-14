@@ -3,9 +3,11 @@
   "type": "forum",
   "locationSet": {"include": ["be"]},
   "languageCodes": ["de", "en", "fr", "nl"],
-  "url": "https://forum.openstreetmap.org/viewforum.php?id=29",
   "order": 3,
-  "strings": {"community": "OpenStreetMap Belgium"},
+  "strings": {
+    "community": "OpenStreetMap Belgium",
+    "url": "https://forum.openstreetmap.org/viewforum.php?id=29"
+  },
   "resolved": {
     "name": "OpenStreetMap Belgium Forum",
     "description": "The official forum for OpenStreetMap Belgium",

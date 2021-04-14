@@ -1,12 +1,14 @@
 {
   "id": "talk-cz-mailinglist",
   "type": "mailinglist",
+  "account": "talk-cz",
   "locationSet": {"include": ["cz"]},
   "languageCodes": ["cs", "en", "sk"],
-  "url": "https://openstreetmap.cz/talk-cz",
-  "account": "talk-cz",
   "order": -3,
-  "strings": {"community": "OpenStreetMap CZ"},
+  "strings": {
+    "community": "OpenStreetMap CZ",
+    "url": "https://openstreetmap.cz/talk-cz"
+  },
   "resolved": {
     "name": "talk-cz Mailing List",
     "description": "The official mailing list for OpenStreetMap CZ",

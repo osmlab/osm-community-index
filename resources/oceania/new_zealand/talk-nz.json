@@ -1,12 +1,14 @@
 {
   "id": "talk-nz",
   "type": "mailinglist",
+  "account": "talk-nz",
   "locationSet": {"include": ["nz"]},
   "languageCodes": ["en"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-nz",
-  "account": "talk-nz",
   "order": -3,
-  "strings": {"description": "New Zealand's OSM community talk"},
+  "strings": {
+    "description": "New Zealand's OSM community talk",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-nz"
+  },
   "resolved": {
     "name": "talk-nz Mailing List",
     "description": "New Zealand's OSM community talk",

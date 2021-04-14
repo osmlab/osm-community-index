@@ -1,12 +1,14 @@
 {
   "id": "OSM-CO-mailinglist",
   "type": "mailinglist",
+  "account": "talk-co",
   "locationSet": {"include": ["co"]},
   "languageCodes": ["es"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-co",
-  "account": "talk-co",
   "order": 4,
-  "strings": {"community": "OpenStreetMap Colombia"},
+  "strings": {
+    "community": "OpenStreetMap Colombia",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-co"
+  },
   "resolved": {
     "name": "talk-co Mailing List",
     "description": "The official mailing list for OpenStreetMap Colombia",

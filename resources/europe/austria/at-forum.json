@@ -3,9 +3,11 @@
   "type": "forum",
   "locationSet": {"include": ["at"]},
   "languageCodes": ["de", "en"],
-  "url": "https://forum.openstreetmap.org/viewforum.php?id=89",
   "order": -2,
-  "strings": {"community": "OpenStreetMap Austria"},
+  "strings": {
+    "community": "OpenStreetMap Austria",
+    "url": "https://forum.openstreetmap.org/viewforum.php?id=89"
+  },
   "resolved": {
     "name": "OpenStreetMap Austria Forum",
     "description": "The official forum for OpenStreetMap Austria",

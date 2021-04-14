@@ -1,12 +1,14 @@
 {
   "id": "osm-albania-facebook",
   "type": "facebook",
+  "account": "OpenStreetMapAlbania",
   "locationSet": {"include": ["al"]},
   "languageCodes": ["en"],
-  "url": "https://www.facebook.com/OpenStreetMapAlbania",
-  "account": "OpenStreetMapAlbania",
   "order": 1,
-  "strings": {"community": "OpenStreetMap Albania"},
+  "strings": {
+    "community": "OpenStreetMap Albania",
+    "url": "https://www.facebook.com/OpenStreetMapAlbania"
+  },
   "resolved": {
     "name": "OpenStreetMap Albania on Facebook",
     "description": "Join our community on Facebook",

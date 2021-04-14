@@ -1,12 +1,14 @@
 {
   "id": "pt-mailinglist",
   "type": "mailinglist",
+  "account": "talk-pt",
   "locationSet": {"include": ["pt"]},
   "languageCodes": ["pt"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-pt",
-  "account": "talk-pt",
   "order": -3,
-  "strings": {"community": "OpenStreetMap Portugal"},
+  "strings": {
+    "community": "OpenStreetMap Portugal",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-pt"
+  },
   "resolved": {
     "name": "talk-pt Mailing List",
     "description": "The official mailing list for OpenStreetMap Portugal",

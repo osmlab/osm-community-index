@@ -1,11 +1,13 @@
 {
   "id": "romania-telegram",
   "type": "telegram",
-  "locationSet": {"include": ["ro"]},
-  "url": "https://t.me/OSMRomania",
   "account": "OSMRomania",
+  "locationSet": {"include": ["ro"]},
   "order": 2,
-  "strings": {"community": "OpenStreetMap Romania"},
+  "strings": {
+    "community": "OpenStreetMap Romania",
+    "url": "https://t.me/OSMRomania"
+  },
   "resolved": {
     "name": "OpenStreetMap Romania Telegram",
     "description": "Join our community Telegram chat",

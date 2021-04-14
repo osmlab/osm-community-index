@@ -1,13 +1,13 @@
 {
   "id": "OSM-AR-twitter",
   "type": "twitter",
+  "account": "OpenStreetMapAr",
   "locationSet": {"include": ["ar"]},
   "languageCodes": ["es"],
-  "url": "https://twitter.com/OpenStreetMapAr",
-  "account": "OpenStreetMapAr",
   "strings": {
     "community": "OpenStreetMap Argentina",
-    "extendedDescription": "News from the local community and OpenStreetMap in general."
+    "extendedDescription": "News from the local community and OpenStreetMap in general.",
+    "url": "https://twitter.com/OpenStreetMapAr"
   },
   "resolved": {
     "name": "OpenStreetMap Argentina on Twitter",

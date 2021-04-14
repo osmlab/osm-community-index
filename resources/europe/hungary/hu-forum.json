@@ -3,9 +3,11 @@
   "type": "forum",
   "locationSet": {"include": ["hu"]},
   "languageCodes": ["hu"],
-  "url": "https://groups.google.com/forum/#!forum/openstreetmap-hungary",
   "order": -2,
-  "strings": {"community": "OpenStreetMap Hungary"},
+  "strings": {
+    "community": "OpenStreetMap Hungary",
+    "url": "https://groups.google.com/forum/#!forum/openstreetmap-hungary"
+  },
   "resolved": {
     "name": "OpenStreetMap Hungary Forum",
     "description": "The official forum for OpenStreetMap Hungary",

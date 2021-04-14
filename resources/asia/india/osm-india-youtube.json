@@ -1,10 +1,12 @@
 {
   "id": "osm-india-youtube",
   "type": "youtube",
-  "locationSet": {"include": ["in"]},
-  "url": "https://www.youtube.com/channel/UCu5sKaPU04x0RJkgGkoFORw",
   "account": "UCu5sKaPU04x0RJkgGkoFORw",
-  "strings": {"community": "OpenStreetMap India"},
+  "locationSet": {"include": ["in"]},
+  "strings": {
+    "community": "OpenStreetMap India",
+    "url": "https://www.youtube.com/channel/UCu5sKaPU04x0RJkgGkoFORw"
+  },
   "resolved": {
     "name": "OpenStreetMap India on YouTube",
     "description": "Subscribe to our YouTube channel",

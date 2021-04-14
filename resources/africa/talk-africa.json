@@ -1,12 +1,14 @@
 {
   "id": "talk-africa",
   "type": "mailinglist",
+  "account": "talk-africa",
   "locationSet": {"include": ["002"]},
   "languageCodes": ["en", "fr"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-africa",
-  "account": "talk-africa",
   "order": -3,
-  "strings": {"community": "OpenStreetMap Africa"},
+  "strings": {
+    "community": "OpenStreetMap Africa",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-africa"
+  },
   "resolved": {
     "name": "talk-africa Mailing List",
     "description": "The official mailing list for OpenStreetMap Africa",

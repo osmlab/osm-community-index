@@ -1,13 +1,13 @@
 {
   "id": "OSM-Kerala-facebook",
   "type": "facebook",
-  "locationSet": {"include": ["india_kerala.geojson"]},
-  "url": "https://facebook.com/osmkerala",
   "account": "osmkerala",
+  "locationSet": {"include": ["india_kerala.geojson"]},
   "strings": {
     "community": "OpenStreetMap Kerala",
     "description": "Improve OpenStreetMap in Kerala",
-    "extendedDescription": "Mapping in Kerala ? Have questions, want to connect with the community here? Join us at {url}. All are welcome!"
+    "extendedDescription": "Mapping in Kerala ? Have questions, want to connect with the community here? Join us at {url}. All are welcome!",
+    "url": "https://facebook.com/osmkerala"
   },
   "resolved": {
     "name": "OpenStreetMap Kerala on Facebook",

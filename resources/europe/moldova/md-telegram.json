@@ -1,12 +1,14 @@
 {
   "id": "md-telegram",
   "type": "telegram",
+  "account": "OSMMoldova",
   "locationSet": {"include": ["md"]},
   "languageCodes": ["mo", "ro", "ru"],
-  "url": "https://t.me/OSMMoldova",
-  "account": "OSMMoldova",
   "order": 2,
-  "strings": {"community": "OpenStreetMap Moldova"},
+  "strings": {
+    "community": "OpenStreetMap Moldova",
+    "url": "https://t.me/OSMMoldova"
+  },
   "resolved": {
     "name": "OpenStreetMap Moldova Telegram",
     "description": "Join our community Telegram chat",

@@ -3,12 +3,12 @@
   "type": "slack",
   "locationSet": {"include": ["us"]},
   "languageCodes": ["en"],
-  "url": "https://osmus.slack.com",
-  "signupUrl": "https://slack.openstreetmap.us/",
   "order": 4,
   "strings": {
     "community": "OpenStreetMap US",
-    "description": "All are welcome! Sign up at {signupUrl}"
+    "description": "All are welcome! Sign up at {signupUrl}",
+    "signupUrl": "https://slack.openstreetmap.us/",
+    "url": "https://osmus.slack.com"
   },
   "resolved": {
     "name": "OpenStreetMap US Slack",

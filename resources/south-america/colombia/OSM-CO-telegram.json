@@ -1,12 +1,14 @@
 {
   "id": "OSM-CO-telegram",
   "type": "telegram",
+  "account": "osmco",
   "locationSet": {"include": ["co"]},
   "languageCodes": ["es"],
-  "url": "https://t.me/osmco",
-  "account": "osmco",
   "order": 2,
-  "strings": {"community": "OpenStreetMap Colombia"},
+  "strings": {
+    "community": "OpenStreetMap Colombia",
+    "url": "https://t.me/osmco"
+  },
   "resolved": {
     "name": "OpenStreetMap Colombia Telegram",
     "description": "Join our community Telegram chat",

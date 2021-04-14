@@ -1,12 +1,14 @@
 {
   "id": "OSM-PE-mailinglist",
   "type": "mailinglist",
+  "account": "talk-pe",
   "locationSet": {"include": ["pe"]},
   "languageCodes": ["es"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-pe",
-  "account": "talk-pe",
   "order": -3,
-  "strings": {"community": "OpenStreetMap Peru"},
+  "strings": {
+    "community": "OpenStreetMap Peru",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-pe"
+  },
   "resolved": {
     "name": "talk-pe Mailing List",
     "description": "The official mailing list for OpenStreetMap Peru",

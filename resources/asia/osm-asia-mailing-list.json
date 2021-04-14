@@ -1,11 +1,13 @@
 {
   "id": "OSM-Asia-mailinglist",
   "type": "mailinglist",
-  "locationSet": {"include": ["142"]},
-  "url": "https://lists.openstreetmap.org/listinfo/talk-asia",
   "account": "talk-asia",
+  "locationSet": {"include": ["142"]},
   "order": -3,
-  "strings": {"community": "OpenStreetMap Asia"},
+  "strings": {
+    "community": "OpenStreetMap Asia",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-asia"
+  },
   "resolved": {
     "name": "talk-asia Mailing List",
     "description": "The official mailing list for OpenStreetMap Asia",

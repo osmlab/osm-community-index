@@ -1,11 +1,13 @@
 {
   "id": "ua-telegram",
   "type": "telegram",
+  "account": "osmUA",
   "locationSet": {"include": ["ukraine.geojson"]},
   "languageCodes": ["en", "ru", "uk"],
-  "url": "https://t.me/osmUA",
-  "account": "osmUA",
-  "strings": {"community": "OpenStreetMap Ukraine"},
+  "strings": {
+    "community": "OpenStreetMap Ukraine",
+    "url": "https://t.me/osmUA"
+  },
   "resolved": {
     "name": "OpenStreetMap Ukraine Telegram",
     "description": "Join our community Telegram chat",

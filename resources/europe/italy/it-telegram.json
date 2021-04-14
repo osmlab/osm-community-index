@@ -1,12 +1,14 @@
 {
   "id": "it-telegram",
   "type": "telegram",
+  "account": "OpenStreetMapItalia",
   "locationSet": {"include": ["it"]},
   "languageCodes": ["it"],
-  "url": "https://t.me/OpenStreetMapItalia",
-  "account": "OpenStreetMapItalia",
   "order": 4,
-  "strings": {"community": "OpenStreetMap Italy"},
+  "strings": {
+    "community": "OpenStreetMap Italy",
+    "url": "https://t.me/OpenStreetMapItalia"
+  },
   "resolved": {
     "name": "OpenStreetMap Italy Telegram",
     "description": "Join our community Telegram chat",

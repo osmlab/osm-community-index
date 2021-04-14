@@ -1,11 +1,13 @@
 {
   "id": "OSM-ci-twitter",
   "type": "twitter",
+  "account": "OSMCI",
   "locationSet": {"include": ["ci"]},
   "languageCodes": ["en"],
-  "url": "https://twitter.com/OSMCI",
-  "account": "OSMCI",
-  "strings": {"community": "OpenStreetMap Cote d'Ivoire"},
+  "strings": {
+    "community": "OpenStreetMap Cote d'Ivoire",
+    "url": "https://twitter.com/OSMCI"
+  },
   "resolved": {
     "name": "OpenStreetMap Cote d'Ivoire on Twitter",
     "description": "Follow us on Twitter",

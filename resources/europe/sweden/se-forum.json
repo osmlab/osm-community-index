@@ -3,9 +3,11 @@
   "type": "forum",
   "locationSet": {"include": ["se"]},
   "languageCodes": ["sv"],
-  "url": "https://forum.openstreetmap.org/viewforum.php?id=4",
   "order": -2,
-  "strings": {"community": "OpenStreetMap Sweden"},
+  "strings": {
+    "community": "OpenStreetMap Sweden",
+    "url": "https://forum.openstreetmap.org/viewforum.php?id=4"
+  },
   "resolved": {
     "name": "OpenStreetMap Sweden Forum",
     "description": "The official forum for OpenStreetMap Sweden",

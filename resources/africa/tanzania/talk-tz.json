@@ -1,11 +1,13 @@
 {
   "id": "talk-tz",
   "type": "mailinglist",
+  "account": "talk-tz",
   "locationSet": {"include": ["tz"]},
   "languageCodes": ["en"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-tz",
-  "account": "talk-tz",
-  "strings": {"community": "OpenStreetMap Tanzania"},
+  "strings": {
+    "community": "OpenStreetMap Tanzania",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-tz"
+  },
   "resolved": {
     "name": "talk-tz Mailing List",
     "description": "The official mailing list for OpenStreetMap Tanzania",

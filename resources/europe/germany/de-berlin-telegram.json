@@ -1,11 +1,13 @@
 {
   "id": "de-berlin-telegram",
   "type": "telegram",
+  "account": "osmberlin",
   "locationSet": {"include": ["de-berlin-brandenburg.geojson"]},
   "languageCodes": ["de"],
-  "url": "https://t.me/osmberlin",
-  "account": "osmberlin",
-  "strings": {"community": "OpenStreetMap Berlin"},
+  "strings": {
+    "community": "OpenStreetMap Berlin",
+    "url": "https://t.me/osmberlin"
+  },
   "resolved": {
     "name": "OpenStreetMap Berlin Telegram",
     "description": "Join our community Telegram chat",

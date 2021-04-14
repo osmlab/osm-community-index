@@ -1,11 +1,13 @@
 {
   "id": "OSM-ES-telegram",
   "type": "telegram",
+  "account": "OSMes",
   "locationSet": {"include": ["es"]},
   "languageCodes": ["es"],
-  "url": "https://t.me/OSMes",
-  "account": "OSMes",
-  "strings": {"community": "OpenStreetMap España"},
+  "strings": {
+    "community": "OpenStreetMap España",
+    "url": "https://t.me/OSMes"
+  },
   "resolved": {
     "name": "OpenStreetMap España Telegram",
     "description": "Join our community Telegram chat",

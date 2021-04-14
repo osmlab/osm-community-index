@@ -1,12 +1,14 @@
 {
   "id": "OSM-Twitter",
   "type": "twitter",
+  "account": "openstreetmap",
   "locationSet": {"include": ["001"]},
   "languageCodes": ["en"],
-  "url": "https://twitter.com/openstreetmap",
-  "account": "openstreetmap",
   "order": 4,
-  "strings": {"community": "OpenStreetMap"},
+  "strings": {
+    "community": "OpenStreetMap",
+    "url": "https://twitter.com/openstreetmap"
+  },
   "resolved": {
     "name": "OpenStreetMap on Twitter",
     "description": "Follow us on Twitter",

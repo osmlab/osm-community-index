@@ -3,9 +3,11 @@
   "type": "forum",
   "locationSet": {"include": ["fr"]},
   "languageCodes": ["fr"],
-  "url": "https://forum.openstreetmap.fr/",
   "order": -2,
-  "strings": {"community": "OpenStreetMap France"},
+  "strings": {
+    "community": "OpenStreetMap France",
+    "url": "https://forum.openstreetmap.fr/"
+  },
   "resolved": {
     "name": "OpenStreetMap France Forum",
     "description": "The official forum for OpenStreetMap France",

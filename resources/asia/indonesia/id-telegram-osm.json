@@ -1,12 +1,14 @@
 {
   "id": "IDosm",
   "type": "telegram",
+  "account": "osmindonesia",
   "locationSet": {"include": ["id"]},
   "languageCodes": ["en"],
-  "url": "https://t.me/osmindonesia",
-  "account": "osmindonesia",
   "order": 2,
-  "strings": {"community": "OpenStreetMap Indonesia"},
+  "strings": {
+    "community": "OpenStreetMap Indonesia",
+    "url": "https://t.me/osmindonesia"
+  },
   "resolved": {
     "name": "OpenStreetMap Indonesia Telegram",
     "description": "Join our community Telegram chat",

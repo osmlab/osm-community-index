@@ -1,11 +1,13 @@
 {
   "id": "cat-facebook",
   "type": "facebook",
+  "account": "OSMcatala",
   "locationSet": {"include": ["catalan_countries.geojson"]},
   "languageCodes": ["ca"],
-  "url": "https://www.facebook.com/OSMcatala",
-  "account": "OSMcatala",
-  "strings": {"community": "OpenStreetMap Catalan Countries"},
+  "strings": {
+    "community": "OpenStreetMap Catalan Countries",
+    "url": "https://www.facebook.com/OSMcatala"
+  },
   "resolved": {
     "name": "OpenStreetMap Catalan Countries on Facebook",
     "description": "Join our community on Facebook",

@@ -1,12 +1,14 @@
 {
   "id": "OSM-CN-telegram",
   "type": "telegram",
+  "account": "osmchina",
   "locationSet": {"include": ["cn"]},
   "languageCodes": ["zh"],
-  "url": "https://t.me/osmchina",
-  "account": "osmchina",
   "order": 5,
-  "strings": {"community": "OpenStreetMap China"},
+  "strings": {
+    "community": "OpenStreetMap China",
+    "url": "https://t.me/osmchina"
+  },
   "resolved": {
     "name": "OpenStreetMap China Telegram",
     "description": "Join our community Telegram chat",

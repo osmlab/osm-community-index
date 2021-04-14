@@ -1,13 +1,13 @@
 {
   "id": "gb-mailinglist",
   "type": "mailinglist",
+  "account": "talk-gb",
   "locationSet": {"include": ["gb"]},
   "languageCodes": ["en"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-gb",
-  "account": "talk-gb",
   "order": 4,
   "strings": {
-    "description": "Talk-gb is the main communication forum list for the UK (including Northern Ireland) OSM community"
+    "description": "Talk-gb is the main communication forum list for the UK (including Northern Ireland) OSM community",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-gb"
   },
   "resolved": {
     "name": "talk-gb Mailing List",

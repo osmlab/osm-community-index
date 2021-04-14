@@ -1,11 +1,13 @@
 {
   "id": "ve-telegram",
   "type": "telegram",
+  "account": "OSMve",
   "locationSet": {"include": ["ve"]},
   "languageCodes": ["es"],
-  "url": "https://t.me/OSMve",
-  "account": "OSMve",
-  "strings": {"community": "OpenStreetMap Venezuela"},
+  "strings": {
+    "community": "OpenStreetMap Venezuela",
+    "url": "https://t.me/OSMve"
+  },
   "resolved": {
     "name": "OpenStreetMap Venezuela Telegram",
     "description": "Join our community Telegram chat",

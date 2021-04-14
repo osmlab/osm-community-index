@@ -1,12 +1,14 @@
 {
   "id": "osm-Bosnia-i-Herzegovina-facebook",
   "type": "facebook",
+  "account": "OpenStreetMapBosnaIHercegovina",
   "locationSet": {"include": ["bih"]},
   "languageCodes": ["en"],
-  "url": "https://www.facebook.com/OpenStreetMapBosnaIHercegovina",
-  "account": "OpenStreetMapBosnaIHercegovina",
   "order": 3,
-  "strings": {"community": "OpenStreetMap Bosnia and Herzegovina"},
+  "strings": {
+    "community": "OpenStreetMap Bosnia and Herzegovina",
+    "url": "https://www.facebook.com/OpenStreetMapBosnaIHercegovina"
+  },
   "resolved": {
     "name": "OpenStreetMap Bosnia and Herzegovina on Facebook",
     "description": "Join our community on Facebook",

@@ -1,11 +1,13 @@
 {
   "id": "osm-tr-telegram",
   "type": "telegram",
+  "account": "osm_tr",
   "locationSet": {"include": ["tr"]},
   "languageCodes": ["tr"],
-  "url": "https://t.me/osm_tr",
-  "account": "osm_tr",
-  "strings": {"community": "OpenStreetMap Turkey"},
+  "strings": {
+    "community": "OpenStreetMap Turkey",
+    "url": "https://t.me/osm_tr"
+  },
   "resolved": {
     "name": "OpenStreetMap Turkey Telegram",
     "description": "Join our community Telegram chat",

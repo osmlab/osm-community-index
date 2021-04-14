@@ -1,14 +1,14 @@
 {
   "id": "osm-gh-facebook",
   "type": "facebook",
+  "account": "OSMGhana",
   "locationSet": {"include": ["gh"]},
   "languageCodes": ["en"],
-  "url": "https://www.facebook.com/OSMGhana",
-  "account": "OSMGhana",
   "order": 3,
   "strings": {
     "community": "OpenStreetMap Ghana",
-    "extendedDescription": "Mappers in Ghana community, promoting OpenStreetMap and Humanitarian OpenStreetMap Team (HOT) projects in Ghana. Join us."
+    "extendedDescription": "Mappers in Ghana community, promoting OpenStreetMap and Humanitarian OpenStreetMap Team (HOT) projects in Ghana. Join us.",
+    "url": "https://www.facebook.com/OSMGhana"
   },
   "resolved": {
     "name": "OpenStreetMap Ghana on Facebook",

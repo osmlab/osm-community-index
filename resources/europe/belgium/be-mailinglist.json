@@ -1,12 +1,14 @@
 {
   "id": "be-mailinglist",
   "type": "mailinglist",
+  "account": "talk-be",
   "locationSet": {"include": ["be"]},
   "languageCodes": ["de", "en", "fr", "nl"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-be",
-  "account": "talk-be",
   "order": 4,
-  "strings": {"community": "OpenStreetMap Belgium"},
+  "strings": {
+    "community": "OpenStreetMap Belgium",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-be"
+  },
   "resolved": {
     "name": "talk-be Mailing List",
     "description": "The official mailing list for OpenStreetMap Belgium",

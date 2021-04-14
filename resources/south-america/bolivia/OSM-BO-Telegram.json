@@ -1,12 +1,14 @@
 {
   "id": "OSMBO",
   "type": "telegram",
+  "account": "osmbolivia",
   "locationSet": {"include": ["bo"]},
   "languageCodes": ["en"],
-  "url": "https://t.me/osmbolivia",
-  "account": "osmbolivia",
   "order": 2,
-  "strings": {"community": "OpenStreetMap Bolivia"},
+  "strings": {
+    "community": "OpenStreetMap Bolivia",
+    "url": "https://t.me/osmbolivia"
+  },
   "resolved": {
     "name": "OpenStreetMap Bolivia Telegram",
     "description": "Join our community Telegram chat",

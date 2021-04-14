@@ -1,12 +1,14 @@
 {
   "id": "al-twitter",
   "type": "twitter",
+  "account": "Osm_Albania",
   "locationSet": {"include": ["al"]},
   "languageCodes": ["en", "sq"],
-  "url": "https://twitter.com/Osm_Albania",
-  "account": "Osm_Albania",
   "order": 5,
-  "strings": {"community": "OpenStreetMap Albania"},
+  "strings": {
+    "community": "OpenStreetMap Albania",
+    "url": "https://twitter.com/Osm_Albania"
+  },
   "resolved": {
     "name": "OpenStreetMap Albania on Twitter",
     "description": "Follow us on Twitter",

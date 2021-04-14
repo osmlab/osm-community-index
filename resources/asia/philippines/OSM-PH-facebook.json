@@ -1,12 +1,14 @@
 {
   "id": "OSM-PH-facebook",
   "type": "facebook",
+  "account": "OSMPH",
   "locationSet": {"include": ["ph"]},
   "languageCodes": ["en", "tl"],
-  "url": "https://www.facebook.com/OSMPH",
-  "account": "OSMPH",
   "order": 1,
-  "strings": {"community": "OpenStreetMap Philippines"},
+  "strings": {
+    "community": "OpenStreetMap Philippines",
+    "url": "https://www.facebook.com/OSMPH"
+  },
   "resolved": {
     "name": "OpenStreetMap Philippines on Facebook",
     "description": "Join our community on Facebook",

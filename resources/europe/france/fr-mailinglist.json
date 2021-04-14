@@ -1,12 +1,14 @@
 {
   "id": "fr-mailinglist",
   "type": "mailinglist",
+  "account": "talk-fr",
   "locationSet": {"include": ["fr"]},
   "languageCodes": ["fr"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-fr",
-  "account": "talk-fr",
   "order": -3,
-  "strings": {"community": "OpenStreetMap France"},
+  "strings": {
+    "community": "OpenStreetMap France",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-fr"
+  },
   "resolved": {
     "name": "talk-fr Mailing List",
     "description": "The official mailing list for OpenStreetMap France",

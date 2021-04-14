@@ -3,11 +3,11 @@
   "type": "irc",
   "locationSet": {"include": ["dk"]},
   "languageCodes": ["da"],
-  "url": "https://webchat.oftc.net/?channels=osm-dk",
   "order": -4,
   "strings": {
     "community": "OpenStreetMap Denmark",
-    "description": "Join #osm-dk on irc.oftc.net (port 6667)"
+    "description": "Join #osm-dk on irc.oftc.net (port 6667)",
+    "url": "https://webchat.oftc.net/?channels=osm-dk"
   },
   "resolved": {
     "name": "OpenStreetMap Denmark on IRC",

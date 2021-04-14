@@ -3,9 +3,11 @@
   "type": "facebook",
   "locationSet": {"include": ["my"]},
   "languageCodes": ["en", "ms"],
-  "url": "https://www.facebook.com/groups/openstreetmapMY",
   "order": 3,
-  "strings": {"community": "OpenStreetMap Malaysia"},
+  "strings": {
+    "community": "OpenStreetMap Malaysia",
+    "url": "https://www.facebook.com/groups/openstreetmapMY"
+  },
   "resolved": {
     "name": "OpenStreetMap Malaysia on Facebook",
     "description": "Join our community on Facebook",

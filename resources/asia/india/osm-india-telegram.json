@@ -1,10 +1,12 @@
 {
   "id": "osm-india-telegram",
   "type": "telegram",
-  "locationSet": {"include": ["in"]},
-  "url": "https://t.me/OSMIndia",
   "account": "OSMIndia",
-  "strings": {"community": "OpenStreetMap India"},
+  "locationSet": {"include": ["in"]},
+  "strings": {
+    "community": "OpenStreetMap India",
+    "url": "https://t.me/OSMIndia"
+  },
   "resolved": {
     "name": "OpenStreetMap India Telegram",
     "description": "Join our community Telegram chat",

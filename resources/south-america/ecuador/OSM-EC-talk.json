@@ -1,11 +1,13 @@
 {
   "id": "OSM-EC-mailinglist",
   "type": "mailinglist",
+  "account": "talk-ec",
   "locationSet": {"include": ["ec"]},
   "languageCodes": ["en"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-ec",
-  "account": "talk-ec",
-  "strings": {"community": "OpenStreetMap Ecuador"},
+  "strings": {
+    "community": "OpenStreetMap Ecuador",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-ec"
+  },
   "resolved": {
     "name": "talk-ec Mailing List",
     "description": "The official mailing list for OpenStreetMap Ecuador",

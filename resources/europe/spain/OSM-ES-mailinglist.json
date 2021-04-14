@@ -1,12 +1,14 @@
 {
   "id": "OSM-ES-mailinglist",
   "type": "mailinglist",
+  "account": "talk-es",
   "locationSet": {"include": ["es"]},
   "languageCodes": ["es"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-es",
-  "account": "talk-es",
   "order": -3,
-  "strings": {"community": "OpenStreetMap España"},
+  "strings": {
+    "community": "OpenStreetMap España",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-es"
+  },
   "resolved": {
     "name": "talk-es Mailing List",
     "description": "The official mailing list for OpenStreetMap España",

@@ -1,11 +1,13 @@
 {
   "id": "pt-telegram",
   "type": "telegram",
+  "account": "OSMPortugal",
   "locationSet": {"include": ["pt"]},
   "languageCodes": ["pt"],
-  "url": "https://t.me/OSMPortugal",
-  "account": "OSMPortugal",
-  "strings": {"community": "OpenStreetMap Portugal"},
+  "strings": {
+    "community": "OpenStreetMap Portugal",
+    "url": "https://t.me/OSMPortugal"
+  },
   "resolved": {
     "name": "OpenStreetMap Portugal Telegram",
     "description": "Join our community Telegram chat",

@@ -1,12 +1,14 @@
 {
   "id": "talk-it-piemonte_mailinglist",
   "type": "mailinglist",
+  "account": "talk-it-piemonte",
   "locationSet": {"include": ["piemonte.geojson"]},
   "languageCodes": ["it"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-it-piemonte",
-  "account": "talk-it-piemonte",
   "order": 2,
-  "strings": {"community": "OpenStreetMap Italy-Piemonte"},
+  "strings": {
+    "community": "OpenStreetMap Italy-Piemonte",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-it-piemonte"
+  },
   "resolved": {
     "name": "talk-it-piemonte Mailing List",
     "description": "The official mailing list for OpenStreetMap Italy-Piemonte",

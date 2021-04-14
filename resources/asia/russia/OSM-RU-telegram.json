@@ -1,11 +1,13 @@
 {
   "id": "OSM-RU-telegram",
   "type": "telegram",
+  "account": "ruosm",
   "locationSet": {"include": ["ru"]},
   "languageCodes": ["ru"],
-  "url": "https://t.me/ruosm",
-  "account": "ruosm",
-  "strings": {"community": "OpenStreetMap Russia"},
+  "strings": {
+    "community": "OpenStreetMap Russia",
+    "url": "https://t.me/ruosm"
+  },
   "resolved": {
     "name": "OpenStreetMap Russia Telegram",
     "description": "Join our community Telegram chat",

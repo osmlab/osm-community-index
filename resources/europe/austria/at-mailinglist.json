@@ -1,12 +1,14 @@
 {
   "id": "at-mailinglist",
   "type": "mailinglist",
+  "account": "talk-at",
   "locationSet": {"include": ["at"]},
   "languageCodes": ["de"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-at",
-  "account": "talk-at",
   "order": -3,
-  "strings": {"community": "OpenStreetMap Austria"},
+  "strings": {
+    "community": "OpenStreetMap Austria",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-at"
+  },
   "resolved": {
     "name": "talk-at Mailing List",
     "description": "The official mailing list for OpenStreetMap Austria",

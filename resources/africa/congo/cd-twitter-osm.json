@@ -1,11 +1,13 @@
 {
   "id": "OSM-cd-twitter",
   "type": "twitter",
+  "account": "OSM_CD",
   "locationSet": {"include": ["cd"]},
   "languageCodes": ["en"],
-  "url": "https://twitter.com/OSM_CD",
-  "account": "OSM_CD",
-  "strings": {"community": "OpenStreetMap RDC"},
+  "strings": {
+    "community": "OpenStreetMap RDC",
+    "url": "https://twitter.com/OSM_CD"
+  },
   "resolved": {
     "name": "OpenStreetMap RDC on Twitter",
     "description": "Follow us on Twitter",

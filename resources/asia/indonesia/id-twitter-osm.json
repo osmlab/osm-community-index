@@ -1,12 +1,14 @@
 {
   "id": "OSM-id-twitter",
   "type": "twitter",
+  "account": "OSM_ID",
   "locationSet": {"include": ["id"]},
   "languageCodes": ["en"],
-  "url": "https://twitter.com/OSM_ID",
-  "account": "OSM_ID",
   "order": 3,
-  "strings": {"community": "OpenStreetMap Indonesia"},
+  "strings": {
+    "community": "OpenStreetMap Indonesia",
+    "url": "https://twitter.com/OSM_ID"
+  },
   "resolved": {
     "name": "OpenStreetMap Indonesia on Twitter",
     "description": "Follow us on Twitter",

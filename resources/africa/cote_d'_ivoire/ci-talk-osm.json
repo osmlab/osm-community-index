@@ -1,11 +1,13 @@
 {
   "id": "OSM-ci-mailinglist",
   "type": "mailinglist",
+  "account": "talk-ci",
   "locationSet": {"include": ["ci"]},
   "languageCodes": ["en"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-ci",
-  "account": "talk-ci",
-  "strings": {"community": "OpenStreetMap Cote d'Ivoire"},
+  "strings": {
+    "community": "OpenStreetMap Cote d'Ivoire",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-ci"
+  },
   "resolved": {
     "name": "talk-ci Mailing List",
     "description": "The official mailing list for OpenStreetMap Cote d'Ivoire",

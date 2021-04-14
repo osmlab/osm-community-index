@@ -1,11 +1,13 @@
 {
   "id": "OSM-ci-facebook",
   "type": "facebook",
+  "account": "openstreetmapci",
   "locationSet": {"include": ["ci"]},
   "languageCodes": ["en"],
-  "url": "https://www.facebook.com/openstreetmapci",
-  "account": "openstreetmapci",
-  "strings": {"community": "OpenStreetMap Cote d'Ivoire"},
+  "strings": {
+    "community": "OpenStreetMap Cote d'Ivoire",
+    "url": "https://www.facebook.com/openstreetmapci"
+  },
   "resolved": {
     "name": "OpenStreetMap Cote d'Ivoire on Facebook",
     "description": "Join our community on Facebook",

@@ -1,11 +1,13 @@
 {
   "id": "OSM-japan-twitter",
   "type": "twitter",
+  "account": "osmfj",
   "locationSet": {"include": ["jp"]},
   "languageCodes": ["ja"],
-  "url": "https://twitter.com/osmfj",
-  "account": "osmfj",
-  "strings": {"community": "OpenStreetMap Japan"},
+  "strings": {
+    "community": "OpenStreetMap Japan",
+    "url": "https://twitter.com/osmfj"
+  },
   "resolved": {
     "name": "OpenStreetMap Japan on Twitter",
     "description": "Follow us on Twitter",

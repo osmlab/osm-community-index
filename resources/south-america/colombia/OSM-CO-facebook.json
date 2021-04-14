@@ -1,14 +1,14 @@
 {
   "id": "OSM-CO-facebook",
   "type": "facebook",
+  "account": "OsmCol",
   "locationSet": {"include": ["co"]},
   "languageCodes": ["es"],
-  "url": "https://www.facebook.com/groups/OsmCol",
-  "account": "OsmCol",
   "order": 1,
   "strings": {
     "community": "OpenStreetMap Colombia",
-    "extendedDescription": "Join the community to learn more about OpenStreetMap. Everyone is welcome!"
+    "extendedDescription": "Join the community to learn more about OpenStreetMap. Everyone is welcome!",
+    "url": "https://www.facebook.com/groups/OsmCol"
   },
   "resolved": {
     "name": "OpenStreetMap Colombia on Facebook",

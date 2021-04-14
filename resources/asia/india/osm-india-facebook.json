@@ -1,14 +1,14 @@
 {
   "id": "OSM-India-facebook",
   "type": "facebook",
-  "locationSet": {"include": ["in"]},
-  "url": "https://www.facebook.com/groups/mappingindia",
   "account": "mappingindia",
+  "locationSet": {"include": ["in"]},
   "order": 3,
   "strings": {
     "community": "OpenStreetMap India",
     "description": "Improve OpenStreetMap in India",
-    "extendedDescription": "Mapping in India? Have questions, want to connect with the community here? Join us at {url}. All are welcome!"
+    "extendedDescription": "Mapping in India? Have questions, want to connect with the community here? Join us at {url}. All are welcome!",
+    "url": "https://www.facebook.com/groups/mappingindia"
   },
   "resolved": {
     "name": "OpenStreetMap India on Facebook",

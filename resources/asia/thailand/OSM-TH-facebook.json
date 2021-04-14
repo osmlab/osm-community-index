@@ -3,9 +3,11 @@
   "type": "facebook",
   "locationSet": {"include": ["th"]},
   "languageCodes": ["en", "th"],
-  "url": "https://www.facebook.com/groups/thaiosm",
   "order": 3,
-  "strings": {"community": "OpenStreetMap Thailand"},
+  "strings": {
+    "community": "OpenStreetMap Thailand",
+    "url": "https://www.facebook.com/groups/thaiosm"
+  },
   "resolved": {
     "name": "OpenStreetMap Thailand on Facebook",
     "description": "Join our community on Facebook",

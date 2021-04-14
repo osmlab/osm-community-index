@@ -1,12 +1,14 @@
 {
   "id": "OSM-br-mailinglist",
   "type": "mailinglist",
+  "account": "talk-br",
   "locationSet": {"include": ["br"]},
   "languageCodes": ["pt"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-br",
-  "account": "talk-br",
   "order": 5,
-  "strings": {"community": "OpenStreetMap Brasil"},
+  "strings": {
+    "community": "OpenStreetMap Brasil",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-br"
+  },
   "resolved": {
     "name": "talk-br Mailing List",
     "description": "The official mailing list for OpenStreetMap Brasil",

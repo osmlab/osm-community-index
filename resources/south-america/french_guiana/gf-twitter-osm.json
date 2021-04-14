@@ -1,11 +1,13 @@
 {
   "id": "OSM-GF-twitter",
   "type": "twitter",
+  "account": "osm_guyane",
   "locationSet": {"include": ["gf"]},
   "languageCodes": ["en"],
-  "url": "https://twitter.com/osm_guyane?lang=en",
-  "account": "osm_guyane",
-  "strings": {"community": "OpenStreetMap French Guiana"},
+  "strings": {
+    "community": "OpenStreetMap French Guiana",
+    "url": "https://twitter.com/osm_guyane?lang=en"
+  },
   "resolved": {
     "name": "OpenStreetMap French Guiana on Twitter",
     "description": "Follow us on Twitter",

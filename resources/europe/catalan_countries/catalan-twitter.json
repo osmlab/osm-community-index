@@ -1,12 +1,14 @@
 {
   "id": "cat-twitter",
   "type": "twitter",
+  "account": "OSMcatala",
   "locationSet": {"include": ["catalan_countries.geojson"]},
   "languageCodes": ["ca"],
-  "url": "https://twitter.com/OSMcatala",
-  "account": "OSMcatala",
   "order": 7,
-  "strings": {"community": "OpenStreetMap Catalan Countries"},
+  "strings": {
+    "community": "OpenStreetMap Catalan Countries",
+    "url": "https://twitter.com/OSMcatala"
+  },
   "resolved": {
     "name": "OpenStreetMap Catalan Countries on Twitter",
     "description": "Follow us on Twitter",

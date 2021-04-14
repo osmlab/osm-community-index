@@ -3,11 +3,11 @@
   "type": "irc",
   "locationSet": {"include": ["hr"]},
   "languageCodes": ["hr"],
-  "url": "https://webchat.freenode.net/?url=irc://irc.freenode.net/osm-hr",
   "order": -4,
   "strings": {
     "community": "OpenStreetMap Croatia",
-    "description": "Join #osm-hr on irc.freenode.org (port 6667)"
+    "description": "Join #osm-hr on irc.freenode.org (port 6667)",
+    "url": "https://webchat.freenode.net/?url=irc://irc.freenode.net/osm-hr"
   },
   "resolved": {
     "name": "OpenStreetMap Croatia on IRC",

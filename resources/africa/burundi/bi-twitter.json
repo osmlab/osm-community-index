@@ -1,12 +1,14 @@
 {
   "id": "bi-twitter",
   "type": "twitter",
+  "account": "osmburundi",
   "locationSet": {"include": ["bi"]},
   "languageCodes": ["en"],
-  "url": "https://twitter.com/osmburundi",
-  "account": "osmburundi",
   "order": 2,
-  "strings": {"community": "OpenStreetMap Burundi"},
+  "strings": {
+    "community": "OpenStreetMap Burundi",
+    "url": "https://twitter.com/osmburundi"
+  },
   "resolved": {
     "name": "OpenStreetMap Burundi on Twitter",
     "description": "Follow us on Twitter",

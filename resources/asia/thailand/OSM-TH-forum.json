@@ -3,9 +3,11 @@
   "type": "forum",
   "locationSet": {"include": ["th"]},
   "languageCodes": ["en", "th"],
-  "url": "https://forum.openstreetmap.org/viewforum.php?id=46",
   "order": -2,
-  "strings": {"community": "OpenStreetMap Thailand"},
+  "strings": {
+    "community": "OpenStreetMap Thailand",
+    "url": "https://forum.openstreetmap.org/viewforum.php?id=46"
+  },
   "resolved": {
     "name": "OpenStreetMap Thailand Forum",
     "description": "The official forum for OpenStreetMap Thailand",

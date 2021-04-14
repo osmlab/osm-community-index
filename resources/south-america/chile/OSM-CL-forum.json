@@ -3,9 +3,11 @@
   "type": "forum",
   "locationSet": {"include": ["cl"]},
   "languageCodes": ["en"],
-  "url": "https://forum.openstreetmap.org/viewforum.php?id=75",
   "order": 3,
-  "strings": {"community": "OpenStreetMap Chile"},
+  "strings": {
+    "community": "OpenStreetMap Chile",
+    "url": "https://forum.openstreetmap.org/viewforum.php?id=75"
+  },
   "resolved": {
     "name": "OpenStreetMap Chile Forum",
     "description": "The official forum for OpenStreetMap Chile",

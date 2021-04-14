@@ -1,12 +1,14 @@
 {
   "id": "byosm",
   "type": "telegram",
+  "account": "byosm",
   "locationSet": {"include": ["by"]},
   "languageCodes": ["be", "en", "ru"],
-  "url": "https://t.me/byosm",
-  "account": "byosm",
   "order": 2,
-  "strings": {"community": "OpenStreetMap Belarus"},
+  "strings": {
+    "community": "OpenStreetMap Belarus",
+    "url": "https://t.me/byosm"
+  },
   "resolved": {
     "name": "OpenStreetMap Belarus Telegram",
     "description": "Join our community Telegram chat",

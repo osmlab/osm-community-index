@@ -3,9 +3,11 @@
   "type": "forum",
   "locationSet": {"include": ["ukraine.geojson"]},
   "languageCodes": ["en", "ru", "uk"],
-  "url": "https://forum.openstreetmap.org/viewforum.php?id=40",
   "order": 2,
-  "strings": {"community": "OpenStreetMap Ukraine"},
+  "strings": {
+    "community": "OpenStreetMap Ukraine",
+    "url": "https://forum.openstreetmap.org/viewforum.php?id=40"
+  },
   "resolved": {
     "name": "OpenStreetMap Ukraine Forum",
     "description": "The official forum for OpenStreetMap Ukraine",

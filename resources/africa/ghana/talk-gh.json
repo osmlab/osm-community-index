@@ -1,12 +1,14 @@
 {
   "id": "talk-gh",
   "type": "mailinglist",
+  "account": "talk-gh",
   "locationSet": {"include": ["gh"]},
   "languageCodes": ["en"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-gh",
-  "account": "talk-gh",
   "order": -3,
-  "strings": {"community": "OpenStreetMap Ghana"},
+  "strings": {
+    "community": "OpenStreetMap Ghana",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-gh"
+  },
   "resolved": {
     "name": "talk-gh Mailing List",
     "description": "The official mailing list for OpenStreetMap Ghana",

@@ -1,10 +1,12 @@
 {
   "id": "uzbekistan-telegram",
   "type": "telegram",
-  "locationSet": {"include": ["uz"]},
-  "url": "https://t.me/osm_uz",
   "account": "osm_uz",
-  "strings": {"community": "OpenStreetMap Uzbekistan"},
+  "locationSet": {"include": ["uz"]},
+  "strings": {
+    "community": "OpenStreetMap Uzbekistan",
+    "url": "https://t.me/osm_uz"
+  },
   "resolved": {
     "name": "OpenStreetMap Uzbekistan Telegram",
     "description": "Join our community Telegram chat",

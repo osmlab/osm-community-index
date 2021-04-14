@@ -1,12 +1,14 @@
 {
   "id": "nl-telegram",
   "type": "telegram",
+  "account": "osm_nl",
   "locationSet": {"include": ["nl"]},
   "languageCodes": ["nl"],
-  "url": "https://t.me/osm_nl",
-  "account": "osm_nl",
   "order": 5,
-  "strings": {"community": "OpenStreetMap Netherlands"},
+  "strings": {
+    "community": "OpenStreetMap Netherlands",
+    "url": "https://t.me/osm_nl"
+  },
   "resolved": {
     "name": "OpenStreetMap Netherlands Telegram",
     "description": "Join our community Telegram chat",

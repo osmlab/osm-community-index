@@ -1,13 +1,13 @@
 {
   "id": "RS-telegram",
   "type": "telegram",
+  "account": "osmrs",
   "locationSet": {"include": ["riograndedosul.geojson"]},
   "languageCodes": ["pt"],
-  "url": "https://t.me/osmrs",
-  "account": "osmrs",
   "strings": {
     "community": "OpenStreetMap Rio Grande do Sul",
-    "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"
+    "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!",
+    "url": "https://t.me/osmrs"
   },
   "resolved": {
     "name": "OpenStreetMap Rio Grande do Sul Telegram",

@@ -1,12 +1,14 @@
 {
   "id": "talk-cm",
   "type": "mailinglist",
+  "account": "talk-cm",
   "locationSet": {"include": ["cm"]},
   "languageCodes": ["en"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-cm",
-  "account": "talk-cm",
   "order": 2,
-  "strings": {"community": "OpenStreetMap Cameroon"},
+  "strings": {
+    "community": "OpenStreetMap Cameroon",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-cm"
+  },
   "resolved": {
     "name": "talk-cm Mailing List",
     "description": "The official mailing list for OpenStreetMap Cameroon",

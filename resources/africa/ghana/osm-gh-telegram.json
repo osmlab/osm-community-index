@@ -1,11 +1,13 @@
 {
   "id": "osm-gh-telegram",
   "type": "telegram",
+  "account": "osmghana",
   "locationSet": {"include": ["gh"]},
   "languageCodes": ["en"],
-  "url": "https://t.me/osmghana",
-  "account": "osmghana",
-  "strings": {"community": "OpenStreetMap Ghana"},
+  "strings": {
+    "community": "OpenStreetMap Ghana",
+    "url": "https://t.me/osmghana"
+  },
   "resolved": {
     "name": "OpenStreetMap Ghana Telegram",
     "description": "Join our community Telegram chat",

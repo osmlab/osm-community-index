@@ -1,12 +1,14 @@
 {
   "id": "ua-facebook",
   "type": "facebook",
+  "account": "openstreetmapua",
   "locationSet": {"include": ["ukraine.geojson"]},
   "languageCodes": ["uk"],
-  "url": "https://www.facebook.com/openstreetmapua",
-  "account": "openstreetmapua",
   "order": 3,
-  "strings": {"community": "OpenStreetMap Ukraine"},
+  "strings": {
+    "community": "OpenStreetMap Ukraine",
+    "url": "https://www.facebook.com/openstreetmapua"
+  },
   "resolved": {
     "name": "OpenStreetMap Ukraine on Facebook",
     "description": "Join our community on Facebook",

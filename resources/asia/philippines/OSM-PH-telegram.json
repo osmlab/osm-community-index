@@ -1,14 +1,14 @@
 {
   "id": "OSM-PH-telegram",
   "type": "telegram",
+  "account": "osmph",
   "locationSet": {"include": ["ph"]},
   "languageCodes": ["en", "tl"],
-  "url": "https://t.me/osmph",
-  "account": "osmph",
   "order": 3,
   "strings": {
     "community": "OpenStreetMap Philippines",
-    "extendedDescription": "A friendly and very active Telegram group for OSM mappers and friends in the Philippines for small talk, light banter, and quick questions and answers."
+    "extendedDescription": "A friendly and very active Telegram group for OSM mappers and friends in the Philippines for small talk, light banter, and quick questions and answers.",
+    "url": "https://t.me/osmph"
   },
   "resolved": {
     "name": "OpenStreetMap Philippines Telegram",

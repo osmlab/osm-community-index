@@ -1,11 +1,13 @@
 {
   "id": "osm-gh-twitter",
   "type": "twitter",
+  "account": "osmghana",
   "locationSet": {"include": ["gh"]},
   "languageCodes": ["en"],
-  "url": "https://twitter.com/osmghana",
-  "account": "osmghana",
-  "strings": {"community": "OpenStreetMap Ghana"},
+  "strings": {
+    "community": "OpenStreetMap Ghana",
+    "url": "https://twitter.com/osmghana"
+  },
   "resolved": {
     "name": "OpenStreetMap Ghana on Twitter",
     "description": "Follow us on Twitter",

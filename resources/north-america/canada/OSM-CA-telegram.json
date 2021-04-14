@@ -1,11 +1,13 @@
 {
   "id": "OSM-CA-telegram",
   "type": "telegram",
+  "account": "osmca",
   "locationSet": {"include": ["ca"]},
   "languageCodes": ["en", "fr"],
-  "url": "https://t.me/osmca",
-  "account": "osmca",
-  "strings": {"community": "OpenStreetMap Canada"},
+  "strings": {
+    "community": "OpenStreetMap Canada",
+    "url": "https://t.me/osmca"
+  },
   "resolved": {
     "name": "OpenStreetMap Canada Telegram",
     "description": "Join our community Telegram chat",

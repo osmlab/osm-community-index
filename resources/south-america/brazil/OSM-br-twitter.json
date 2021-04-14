@@ -1,12 +1,14 @@
 {
   "id": "OSM-br-twitter",
   "type": "twitter",
+  "account": "OpenStreetMapBR",
   "locationSet": {"include": ["br"]},
   "languageCodes": ["pt"],
-  "url": "https://twitter.com/OpenStreetMapBR",
-  "account": "OpenStreetMapBR",
   "order": 3,
-  "strings": {"community": "OpenStreetMap Brasil"},
+  "strings": {
+    "community": "OpenStreetMap Brasil",
+    "url": "https://twitter.com/OpenStreetMapBR"
+  },
   "resolved": {
     "name": "OpenStreetMap Brasil on Twitter",
     "description": "Follow us on Twitter",

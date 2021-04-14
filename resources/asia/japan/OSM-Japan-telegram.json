@@ -1,12 +1,14 @@
 {
   "id": "OSM-Japan-telegram",
   "type": "telegram",
+  "account": "osmjapan",
   "locationSet": {"include": ["jp"]},
   "languageCodes": ["ja"],
-  "url": "https://t.me/osmjapan",
-  "account": "osmjapan",
   "order": 5,
-  "strings": {"community": "OpenStreetMap Japan"},
+  "strings": {
+    "community": "OpenStreetMap Japan",
+    "url": "https://t.me/osmjapan"
+  },
   "resolved": {
     "name": "OpenStreetMap Japan Telegram",
     "description": "Join our community Telegram chat",

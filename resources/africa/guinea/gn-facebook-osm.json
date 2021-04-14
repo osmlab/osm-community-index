@@ -1,11 +1,13 @@
 {
   "id": "OSM-gn-facebook",
   "type": "facebook",
+  "account": "osmguinee",
   "locationSet": {"include": ["gn"]},
   "languageCodes": ["en"],
-  "url": "https://www.facebook.com/osmguinee",
-  "account": "osmguinee",
-  "strings": {"community": "OpenStreetMap Guinea"},
+  "strings": {
+    "community": "OpenStreetMap Guinea",
+    "url": "https://www.facebook.com/osmguinee"
+  },
   "resolved": {
     "name": "OpenStreetMap Guinea on Facebook",
     "description": "Join our community on Facebook",
