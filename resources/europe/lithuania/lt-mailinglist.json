@@ -1,10 +1,14 @@
 {
   "id": "lt-mailinglist",
   "type": "mailinglist",
+  "account": "talk-lt",
   "locationSet": {"include": ["lt"]},
   "languageCodes": ["lt"],
-  "url": "https://lists.openstreetmap.org/listinfo/talk-lt",
-  "account": "talk-lt",
   "order": 1,
-  "strings": {"community": "OpenStreetMap Lithuania"}
+  "strings": {"community": "OpenStreetMap Lithuania"},
+  "resolved": {
+    "name": "talk-lt Mailing List",
+    "description": "The official mailing list for OpenStreetMap Lithuania",
+    "url": "https://lists.openstreetmap.org/listinfo/talk-lt"
+  }
 }

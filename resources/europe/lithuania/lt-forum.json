@@ -1,8 +1,13 @@
 {
   "id": "lt-forum",
   "type": "forum",
+  "account": "96",
   "locationSet": {"include": ["lt"]},
   "languageCodes": ["lt"],
-  "url": "https://forum.openstreetmap.org/viewforum.php?id=96",
-  "strings": {"community": "OpenStreetMap Lithuania"}
+  "strings": {"community": "OpenStreetMap Lithuania"},
+  "resolved": {
+    "name": "OpenStreetMap Lithuania Forum",
+    "description": "The official forum for OpenStreetMap Lithuania",
+    "url": "https://forum.openstreetmap.org/viewforum.php?id=96"
+  }
 }
