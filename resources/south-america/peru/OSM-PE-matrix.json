@@ -1,16 +1,13 @@
 {
   "id": "OSM-PE-matrix",
   "type": "matrix",
+  "account": "#osmpe",
   "locationSet": {"include": ["pe"]},
   "languageCodes": ["es"],
-  "strings": {
-    "community": "OpenStreetMap Peru",
-    "description": "Chat with other members of the OpenStreetMap Peru community in Matrix.",
-    "url": "https://matrix.to/#/#osmpe:matrix.org"
-  },
+  "strings": {"community": "OpenStreetMap Peru"},
   "resolved": {
     "name": "OpenStreetMap Peru Matrix Chat",
-    "description": "Chat with other members of the OpenStreetMap Peru community in Matrix.",
+    "description": "Join our community Matrix chat",
     "url": "https://matrix.to/#/#osmpe:matrix.org"
   },
   "contacts": [

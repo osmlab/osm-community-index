@@ -1,12 +1,10 @@
 {
   "id": "de-berlin-matrix",
   "type": "matrix",
+  "account": "#osmberlin",
   "locationSet": {"include": ["de-berlin-brandenburg.geojson"]},
   "languageCodes": ["de"],
-  "strings": {
-    "community": "OpenStreetMap Berlin",
-    "url": "https://matrix.to/#/#osmberlin:matrix.org"
-  },
+  "strings": {"community": "OpenStreetMap Berlin"},
   "resolved": {
     "name": "OpenStreetMap Berlin Matrix Chat",
     "description": "Join our community Matrix chat",

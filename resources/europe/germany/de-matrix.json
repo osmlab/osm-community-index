@@ -1,17 +1,14 @@
 {
   "id": "de-matrix",
   "type": "matrix",
+  "account": "#osm-de",
   "locationSet": {"include": ["de"]},
   "languageCodes": ["de"],
   "order": 4,
-  "strings": {
-    "community": "OpenStreetMap Germany",
-    "description": "Join #osm-de:matrix.org at {url}",
-    "url": "https://matrix.to/#/#osm-de:matrix.org"
-  },
+  "strings": {"community": "OpenStreetMap Germany"},
   "resolved": {
     "name": "OpenStreetMap Germany Matrix Chat",
-    "description": "Join #osm-de:matrix.org at https://matrix.to/#/#osm-de:matrix.org",
+    "description": "Join our community Matrix chat",
     "url": "https://matrix.to/#/#osm-de:matrix.org"
   },
   "contacts": [

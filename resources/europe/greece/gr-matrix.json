@@ -1,17 +1,14 @@
 {
   "id": "gr-matrix",
   "type": "matrix",
+  "account": "#osm-gr",
   "locationSet": {"include": ["gr"]},
   "languageCodes": ["el"],
   "order": 2,
-  "strings": {
-    "name": "OpenStreetMap Greece Matrix",
-    "description": "Join #osm-gr:matrix.org at {url}",
-    "url": "https://matrix.to/#/#osm-gr:matrix.org"
-  },
+  "strings": {"name": "OpenStreetMap Greece Matrix"},
   "resolved": {
     "name": "OpenStreetMap Greece Matrix",
-    "description": "Join #osm-gr:matrix.org at https://matrix.to/#/#osm-gr:matrix.org",
+    "description": "Join our community Matrix chat",
     "url": "https://matrix.to/#/#osm-gr:matrix.org"
   }
 }

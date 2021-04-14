@@ -1,17 +1,14 @@
 {
   "id": "no-matrix",
   "type": "matrix",
+  "account": "#openstreetmap-no",
   "locationSet": {"include": ["no"]},
   "languageCodes": ["no"],
   "order": -1,
-  "strings": {
-    "community": "OpenStreetMap Norway",
-    "description": "Join #openstreetmap-no:matrix.org at {url}",
-    "url": "https://matrix.to/#/#openstreetmap-no:matrix.org"
-  },
+  "strings": {"community": "OpenStreetMap Norway"},
   "resolved": {
     "name": "OpenStreetMap Norway Matrix Chat",
-    "description": "Join #openstreetmap-no:matrix.org at https://matrix.to/#/#openstreetmap-no:matrix.org",
+    "description": "Join our community Matrix chat",
     "url": "https://matrix.to/#/#openstreetmap-no:matrix.org"
   },
   "contacts": [
