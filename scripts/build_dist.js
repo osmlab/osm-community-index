@@ -94,10 +94,7 @@ function generateCombined(resources, featureCollection) {
     }
 
     let item = deepClone(resource);
-    let resolvedStrings = resolveStrings(item, defaults);
-    if (resolvedStrings.name)                 { item.name = resolvedStrings.name; }
-    if (resolvedStrings.description)          { item.description = resolvedStrings.description; }
-    if (resolvedStrings.extendedDescription)  { item.extendedDescription = resolvedStrings.extendedDescription; }
+    item.resolved = resolveStrings(item, defaults);
 
     keepFeature.properties.resources[resourceID] = item;
   });
