@@ -135,6 +135,12 @@
       }
     },
 
+    "resolved": {
+      "description": "(generated) Resolved text strings related to this community resource",
+      "type": "object",
+      "additionalProperties": true
+    },
+
     "contacts": {
       "description": "(optional) People to contact about this community resource",
       "type": "array",

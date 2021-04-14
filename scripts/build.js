@@ -190,36 +190,6 @@ function collectResources(featureCollection) {
       process.exit(1);
     }
 
-    // sort properties and array values
-    let obj = {};
-    if (item.id)    { obj.id = item.id; }
-    if (item.type)  { obj.type = item.type; }
-
-    item.locationSet = item.locationSet || {};
-    obj.locationSet = {};
-    if (item.locationSet.include) { obj.locationSet.include = item.locationSet.include; }
-    if (item.locationSet.exclude) { obj.locationSet.exclude = item.locationSet.exclude; }
-
-    if (item.languageCodes)       { obj.languageCodes = item.languageCodes.sort(withLocale); }
-    if (item.url)                 { obj.url = item.url; }
-    if (item.signupUrl)           { obj.signupUrl = item.signupUrl; }
-    if (item.account)             { obj.account = item.account; }
-    if (item.order)               { obj.order = item.order; }
-
-    item.strings = item.strings || {};
-    obj.strings = {};
-    if (item.strings.community)           { obj.strings.community = item.strings.community; }
-    if (item.strings.name)                { obj.strings.name = item.strings.name; }
-    if (item.strings.description)         { obj.strings.description = item.strings.description; }
-    if (item.strings.extendedDescription) { obj.strings.extendedDescription = item.strings.extendedDescription; }
-
-    if (item.contacts)  { obj.contacts = item.contacts; }
-    if (item.events)    { obj.events = item.events; }
-
-    item = obj;
-
-    validateFile(file, item, resourceSchema);
-
     // check locationSet
     try {
       const resolved = loco.resolveLocationSet(item.locationSet);
@@ -232,6 +202,51 @@ function collectResources(featureCollection) {
       process.exit(1);
     }
 
+    // check strings
+    let resolvedStrings;
+    try {
+      resolvedStrings = resolveStrings(item, _defaults);
+
+      if (!resolvedStrings.name)         { throw new Error('Cannot resolve a value for name'); }
+      if (!resolvedStrings.description)  { throw new Error('Cannot resolve a value for description'); }
+      if (!resolvedStrings.url)          { throw new Error('Cannot resolve a value for url'); }
+    } catch (e) {
+      console.error(colors.red(`Error - ${err.message} in:`));
+      console.error('  ' + colors.yellow(file));
+      process.exit(1);
+    }
+
+    // Clean and sort the properties for consistency, save them that way.
+    let obj = {};
+    if (item.id)    { obj.id = item.id; }
+    if (item.type)  { obj.type = item.type; }
+
+    item.locationSet = item.locationSet || {};
+    obj.locationSet = {};
+    if (item.locationSet.include)  { obj.locationSet.include = item.locationSet.include; }
+    if (item.locationSet.exclude)  { obj.locationSet.exclude = item.locationSet.exclude; }
+
+    if (item.languageCodes)  { obj.languageCodes = item.languageCodes.sort(withLocale); }
+    if (item.url)            { obj.url = item.url; }
+    if (item.signupUrl)      { obj.signupUrl = item.signupUrl; }
+    if (item.account)        { obj.account = item.account; }
+    if (item.order)          { obj.order = item.order; }
+
+    item.strings = item.strings || {};
+    obj.strings = {};
+    if (item.strings.community)           { obj.strings.community = item.strings.community; }
+    if (item.strings.name)                { obj.strings.name = item.strings.name; }
+    if (item.strings.description)         { obj.strings.description = item.strings.description; }
+    if (item.strings.extendedDescription) { obj.strings.extendedDescription = item.strings.extendedDescription; }
+
+    obj.resolved = resolvedStrings;
+
+    if (item.contacts)  { obj.contacts = item.contacts; }
+    if (item.events)    { obj.events = item.events; }
+
+    item = obj;
+
+    validateFile(file, item, resourceSchema);
     prettifyFile(file, item, contents);
 
     const itemID = item.id;
@@ -252,35 +267,9 @@ function collectResources(featureCollection) {
       const communityID = simplify(item.strings.community);
       _tstrings._communities[communityID] = item.strings.community;
     }
-    if (item.strings.name) {
-      translateStrings.name = item.strings.name;
-    }
-    if (item.strings.description) {
-      translateStrings.description = item.strings.description;
-    }
-    if (item.strings.extendedDescription) {
-      translateStrings.extendedDescription = item.strings.extendedDescription;
-    }
-
-    let resolvedStrings;
-    try {
-      resolvedStrings = resolveStrings(item, _defaults);
-    } catch (e) {
-      console.error(colors.red(e + ': ') + colors.yellow(itemID));
-      console.error('  ' + colors.yellow(file));
-      process.exit(1);
-    }
-
-    if (!resolvedStrings.name) {
-      console.error(colors.red('Error - Cannot resolve a name for resource: ') + colors.yellow(itemID));
-      console.error('  ' + colors.yellow(file));
-      process.exit(1);
-    }
-    if (!resolvedStrings.description) {
-      console.error(colors.red('Error - Cannot resolve a description for resource: ') + colors.yellow(itemID));
-      console.error('  ' + colors.yellow(file));
-      process.exit(1);
-    }
+    if (item.strings.name)                 { translateStrings.name = item.strings.name; }
+    if (item.strings.description)          { translateStrings.description = item.strings.description; }
+    if (item.strings.extendedDescription)  { translateStrings.extendedDescription = item.strings.extendedDescription; }
 
 
     // Validate event dates and collect translation strings from upcoming events (where `i18n=true`)
