@@ -1,13 +1,11 @@
 {
   "id": "blr-forum",
   "type": "forum",
+  "account": "35",
   "locationSet": {"include": ["blr"]},
   "languageCodes": ["de", "en"],
   "order": 1,
-  "strings": {
-    "community": "OpenStreetMap Belarus",
-    "url": "https://forum.openstreetmap.org/viewforum.php?id=35"
-  },
+  "strings": {"community": "OpenStreetMap Belarus"},
   "resolved": {
     "name": "OpenStreetMap Belarus Forum",
     "description": "The official forum for OpenStreetMap Belarus",

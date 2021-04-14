@@ -1,13 +1,11 @@
 {
   "id": "uy-forum",
   "type": "forum",
+  "account": "78",
   "locationSet": {"include": ["uy"]},
   "languageCodes": ["es"],
   "order": -2,
-  "strings": {
-    "community": "OpenStreetMap Uruguay",
-    "url": "https://forum.openstreetmap.org/viewforum.php?id=78"
-  },
+  "strings": {"community": "OpenStreetMap Uruguay"},
   "resolved": {
     "name": "OpenStreetMap Uruguay Forum",
     "description": "The official forum for OpenStreetMap Uruguay",

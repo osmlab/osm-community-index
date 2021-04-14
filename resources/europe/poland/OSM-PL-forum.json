@@ -1,13 +1,11 @@
 {
   "id": "OSM-PL-forum",
   "type": "forum",
+  "account": "23",
   "locationSet": {"include": ["pl"]},
   "languageCodes": ["en", "pl"],
   "order": 10,
-  "strings": {
-    "community": "OpenStreetMap Poland",
-    "url": "https://forum.openstreetmap.org/viewforum.php?id=23"
-  },
+  "strings": {"community": "OpenStreetMap Poland"},
   "resolved": {
     "name": "OpenStreetMap Poland Forum",
     "description": "The official forum for OpenStreetMap Poland",

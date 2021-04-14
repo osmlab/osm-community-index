@@ -1,18 +1,18 @@
 {
   "id": "osmcz-facebook",
   "type": "facebook",
+  "account": "osmcz",
   "locationSet": {"include": ["cz"]},
   "languageCodes": ["cs", "en", "sk"],
   "order": 3,
   "strings": {
     "community": "OpenStreetMap CZ",
-    "description": "Follow the Czech community on Facebook - including translated WeeklyOSM!",
-    "url": "https://www.facebook.com/osmcz"
+    "description": "Follow the Czech community on Facebook - including translated WeeklyOSM!"
   },
   "resolved": {
     "name": "OpenStreetMap CZ on Facebook",
     "description": "Follow the Czech community on Facebook - including translated WeeklyOSM!",
-    "url": "https://www.facebook.com/osmcz"
+    "url": "https://facebook.com/osmcz"
   },
   "contacts": [{"name": "osmcz", "email": "dev@openstreetmap.cz"}]
 }

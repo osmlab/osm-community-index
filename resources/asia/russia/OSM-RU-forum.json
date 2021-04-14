@@ -1,13 +1,11 @@
 {
   "id": "OSM-RU-forum",
   "type": "forum",
+  "account": "21",
   "locationSet": {"include": ["ru"]},
   "languageCodes": ["ru"],
   "order": -2,
-  "strings": {
-    "community": "OpenStreetMap Russia",
-    "url": "https://forum.openstreetmap.org/viewforum.php?id=21"
-  },
+  "strings": {"community": "OpenStreetMap Russia"},
   "resolved": {
     "name": "OpenStreetMap Russia Forum",
     "description": "The official forum for OpenStreetMap Russia",

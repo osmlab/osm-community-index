@@ -1,13 +1,11 @@
 {
   "id": "hr-forum",
   "type": "forum",
+  "account": "51",
   "locationSet": {"include": ["hr"]},
   "languageCodes": ["hr"],
   "order": -2,
-  "strings": {
-    "community": "OpenStreetMap Croatia",
-    "url": "https://forum.openstreetmap.org/viewforum.php?id=51"
-  },
+  "strings": {"community": "OpenStreetMap Croatia"},
   "resolved": {
     "name": "OpenStreetMap Croatia Forum",
     "description": "The official forum for OpenStreetMap Croatia",

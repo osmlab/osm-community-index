@@ -1,13 +1,11 @@
 {
   "id": "OSM-MY-forum",
   "type": "forum",
+  "account": "60",
   "locationSet": {"include": ["my"]},
   "languageCodes": ["en", "ms"],
   "order": -2,
-  "strings": {
-    "community": "OpenStreetMap Malaysia",
-    "url": "https://forum.openstreetmap.org/viewforum.php?id=60"
-  },
+  "strings": {"community": "OpenStreetMap Malaysia"},
   "resolved": {
     "name": "OpenStreetMap Malaysia Forum",
     "description": "The official forum for OpenStreetMap Malaysia",

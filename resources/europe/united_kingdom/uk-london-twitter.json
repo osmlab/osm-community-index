@@ -1,13 +1,13 @@
 {
   "id": "uk-london-twitter",
   "type": "twitter",
+  "account": "OSMLondon",
   "locationSet": {"include": ["london.geojson"]},
   "languageCodes": ["en"],
   "order": 4,
   "strings": {
     "name": "OpenStreetMap London on Twitter",
-    "description": "OpenStreetMap London on Twitter: {url}",
-    "url": "https://twitter.com/OSMLondon"
+    "description": "OpenStreetMap London on Twitter: {url}"
   },
   "resolved": {
     "name": "OpenStreetMap London on Twitter",

@@ -1,13 +1,11 @@
 {
   "id": "de-forum",
   "type": "forum",
+  "account": "14",
   "locationSet": {"include": ["de"]},
   "languageCodes": ["de"],
   "order": -2,
-  "strings": {
-    "community": "OpenStreetMap Germany",
-    "url": "https://forum.openstreetmap.org/viewforum.php?id=14"
-  },
+  "strings": {"community": "OpenStreetMap Germany"},
   "resolved": {
     "name": "OpenStreetMap Germany Forum",
     "description": "The official forum for OpenStreetMap Germany",

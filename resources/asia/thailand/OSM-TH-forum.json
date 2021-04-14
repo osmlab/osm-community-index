@@ -1,13 +1,11 @@
 {
   "id": "OSM-TH-forum",
   "type": "forum",
+  "account": "46",
   "locationSet": {"include": ["th"]},
   "languageCodes": ["en", "th"],
   "order": -2,
-  "strings": {
-    "community": "OpenStreetMap Thailand",
-    "url": "https://forum.openstreetmap.org/viewforum.php?id=46"
-  },
+  "strings": {"community": "OpenStreetMap Thailand"},
   "resolved": {
     "name": "OpenStreetMap Thailand Forum",
     "description": "The official forum for OpenStreetMap Thailand",

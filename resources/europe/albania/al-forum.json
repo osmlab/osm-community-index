@@ -1,13 +1,11 @@
 {
   "id": "al-forum",
   "type": "forum",
+  "account": "91",
   "locationSet": {"include": ["al"]},
   "languageCodes": ["en", "sq"],
   "order": 3,
-  "strings": {
-    "community": "OpenStreetMap Albania",
-    "url": "https://forum.openstreetmap.org/viewforum.php?id=91"
-  },
+  "strings": {"community": "OpenStreetMap Albania"},
   "resolved": {
     "name": "OpenStreetMap Albania Forum",
     "description": "The official forum for OpenStreetMap Albania",

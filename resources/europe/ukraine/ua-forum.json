@@ -1,13 +1,11 @@
 {
   "id": "ua-forum",
   "type": "forum",
+  "account": "40",
   "locationSet": {"include": ["ukraine.geojson"]},
   "languageCodes": ["en", "ru", "uk"],
   "order": 2,
-  "strings": {
-    "community": "OpenStreetMap Ukraine",
-    "url": "https://forum.openstreetmap.org/viewforum.php?id=40"
-  },
+  "strings": {"community": "OpenStreetMap Ukraine"},
   "resolved": {
     "name": "OpenStreetMap Ukraine Forum",
     "description": "The official forum for OpenStreetMap Ukraine",

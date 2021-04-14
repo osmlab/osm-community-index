@@ -1,12 +1,10 @@
 {
   "id": "osm-benin-telegram",
   "type": "telegram",
+  "account": "OSMBenin",
   "locationSet": {"include": ["ben"]},
   "languageCodes": ["en"],
-  "strings": {
-    "community": "OpenStreetMap Benin",
-    "url": "https://t.me/OSMBenin"
-  },
+  "strings": {"community": "OpenStreetMap Benin"},
   "resolved": {
     "name": "OpenStreetMap Benin Telegram",
     "description": "Join our community Telegram chat",

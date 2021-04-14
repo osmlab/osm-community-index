@@ -205,6 +205,7 @@ function collectResources(featureCollection) {
 
     // Check strings
     item.strings = item.strings || {};
+    convertURLs(item);   // first: perform trivial url conversions in-place
     let resolvedStrings;
     try {
       resolvedStrings = resolveStrings(item, _defaults);
@@ -212,7 +213,7 @@ function collectResources(featureCollection) {
       if (!resolvedStrings.name)         { throw new Error('Cannot resolve a value for name'); }
       if (!resolvedStrings.description)  { throw new Error('Cannot resolve a value for description'); }
       if (!resolvedStrings.url)          { throw new Error('Cannot resolve a value for url'); }
-    } catch (e) {
+    } catch (err) {
       console.error(colors.red(`Error - ${err.message} in:`));
       console.error('  ' + colors.yellow(file));
       process.exit(1);
@@ -317,6 +318,43 @@ function collectResources(featureCollection) {
   process.stdout.write(' ' + Object.keys(files).length + '\n');
 
   return resources;
+}
+
+
+function convertURLs(item) {
+  const url = item.strings && item.strings.url;
+  if (!url) return;
+
+  let matchUrl;
+
+  if (item.type === 'forum') {
+    matchUrl = url.match(/forum.openstreetmap.org\/viewforum.php\?id=(\d+)\/?$/i);
+  } else if (item.type === 'mailinglist') {
+    matchUrl = url.match(/lists.openstreetmap.org\/listinfo\/([\-A-Za-z0-9_]+)\/?$/i);
+  } else if (item.type === 'meetup') {
+    matchUrl = url.match(/meetup.com\/([\-A-Za-z0-9_]+)\/?$/i);
+  } else if (item.type === 'telegram') {
+    matchUrl = url.match(/t.me\/([\-A-Za-z0-9_]+)\/?$/i);
+  } else if (item.type === 'discord') {
+    matchUrl = url.match(/discord.gg\/(\w+)\/?$/i);
+  } else if (item.type === 'twitter') {
+    matchUrl = url.match(/twitter.com\/([\-A-Za-z0-9_.]+)\/?$/i);
+  } else if (item.type === 'facebook') {
+    matchUrl = url.match(/facebook.com\/([\-A-Za-z0-9_.]+)\/?$/i);
+  } else if (item.type === 'github') {
+    matchUrl = url.match(/github.com\/([\-A-Za-z0-9_.]+)\/?$/i);
+  } else if (item.type === 'gitlab') {
+    matchUrl = url.match(/gitlab.com\/([\-A-Za-z0-9_.]+)\/?$/i);
+  } else if (item.type === 'aparat') {
+    matchUrl = url.match(/aparat.com\/([\-A-Za-z0-9_.]+)\/?$/i);
+  } else if (item.type === 'youtube') {
+    matchUrl = url.match(/youtube.com\/channel\/([\-A-Za-z0-9_.]+)\/?$/i);
+  }
+
+  if (matchUrl) {
+    item.account = matchUrl[1];
+    delete item.strings.url;
+  }
 }
 
 

@@ -1,13 +1,11 @@
 {
   "id": "fi-forum",
   "type": "forum",
+  "account": "15",
   "locationSet": {"include": ["fi"]},
   "languageCodes": ["fi"],
   "order": -2,
-  "strings": {
-    "community": "OpenStreetMap Finland",
-    "url": "https://forum.openstreetmap.org/viewforum.php?id=15"
-  },
+  "strings": {"community": "OpenStreetMap Finland"},
   "resolved": {
     "name": "OpenStreetMap Finland Forum",
     "description": "The official forum for OpenStreetMap Finland",

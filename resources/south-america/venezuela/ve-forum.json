@@ -1,13 +1,11 @@
 {
   "id": "ve-forum",
   "type": "forum",
+  "account": "50",
   "locationSet": {"include": ["ve"]},
   "languageCodes": ["es"],
   "order": -2,
-  "strings": {
-    "community": "OpenStreetMap Venezuela",
-    "url": "https://forum.openstreetmap.org/viewforum.php?id=50"
-  },
+  "strings": {"community": "OpenStreetMap Venezuela"},
   "resolved": {
     "name": "OpenStreetMap Venezuela Forum",
     "description": "The official forum for OpenStreetMap Venezuela",

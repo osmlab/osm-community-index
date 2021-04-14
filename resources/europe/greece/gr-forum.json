@@ -1,13 +1,11 @@
 {
   "id": "gr-forum",
   "type": "forum",
+  "account": "27",
   "locationSet": {"include": ["gr"]},
   "languageCodes": ["el"],
   "order": 1,
-  "strings": {
-    "community": "OpenStreetMap Greece",
-    "url": "https://forum.openstreetmap.org/viewforum.php?id=27"
-  },
+  "strings": {"community": "OpenStreetMap Greece"},
   "resolved": {
     "name": "OpenStreetMap Greece Forum",
     "description": "The official forum for OpenStreetMap Greece",

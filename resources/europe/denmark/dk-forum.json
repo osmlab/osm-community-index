@@ -1,13 +1,11 @@
 {
   "id": "dk-forum",
   "type": "forum",
+  "account": "48",
   "locationSet": {"include": ["dk"]},
   "languageCodes": ["da"],
   "order": -2,
-  "strings": {
-    "community": "OpenStreetMap Denmark",
-    "url": "https://forum.openstreetmap.org/viewforum.php?id=48"
-  },
+  "strings": {"community": "OpenStreetMap Denmark"},
   "resolved": {
     "name": "OpenStreetMap Denmark Forum",
     "description": "The official forum for OpenStreetMap Denmark",
