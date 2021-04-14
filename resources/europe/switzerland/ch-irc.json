@@ -1,14 +1,11 @@
 {
   "id": "ch-irc",
   "type": "irc",
+  "account": "osm-ch",
   "locationSet": {"include": ["ch"]},
   "languageCodes": ["de", "en", "fr", "it"],
   "order": -2,
-  "strings": {
-    "community": "OpenStreetMap Switzerland",
-    "description": "Join #osm-ch on irc.oftc.net (port 6667)",
-    "url": "https://webchat.oftc.net/?channels=osm-ch"
-  },
+  "strings": {"community": "OpenStreetMap Switzerland"},
   "resolved": {
     "name": "OpenStreetMap Switzerland on IRC",
     "description": "Join #osm-ch on irc.oftc.net (port 6667)",

@@ -327,26 +327,28 @@ function convertURLs(item) {
 
   let matchUrl;
 
-  if (item.type === 'forum') {
+  if (item.type === 'aparat') {
+    matchUrl = url.match(/aparat.com\/([\-A-Za-z0-9_.]+)\/?$/i);
+  } else if (item.type === 'discord') {
+    matchUrl = url.match(/discord.gg\/(\w+)\/?$/i);
+  } else if (item.type === 'facebook') {
+    matchUrl = url.match(/facebook.com\/([\-A-Za-z0-9_.]+)\/?$/i);
+  } else if (item.type === 'forum') {
     matchUrl = url.match(/forum.openstreetmap.org\/viewforum.php\?id=(\d+)\/?$/i);
+  } else if (item.type === 'github') {
+    matchUrl = url.match(/github.com\/([\-A-Za-z0-9_.]+)\/?$/i);
+  } else if (item.type === 'gitlab') {
+    matchUrl = url.match(/gitlab.com\/([\-A-Za-z0-9_.]+)\/?$/i);
+  } else if (item.type === 'irc') {
+    matchUrl = url.match(/webchat.oftc.net\/\?channels=([\-A-Za-z0-9_]+)\/?$/i);
   } else if (item.type === 'mailinglist') {
     matchUrl = url.match(/lists.openstreetmap.org\/listinfo\/([\-A-Za-z0-9_]+)\/?$/i);
   } else if (item.type === 'meetup') {
     matchUrl = url.match(/meetup.com\/([\-A-Za-z0-9_]+)\/?$/i);
   } else if (item.type === 'telegram') {
     matchUrl = url.match(/t.me\/([\-A-Za-z0-9_]+)\/?$/i);
-  } else if (item.type === 'discord') {
-    matchUrl = url.match(/discord.gg\/(\w+)\/?$/i);
   } else if (item.type === 'twitter') {
     matchUrl = url.match(/twitter.com\/([\-A-Za-z0-9_.]+)\/?$/i);
-  } else if (item.type === 'facebook') {
-    matchUrl = url.match(/facebook.com\/([\-A-Za-z0-9_.]+)\/?$/i);
-  } else if (item.type === 'github') {
-    matchUrl = url.match(/github.com\/([\-A-Za-z0-9_.]+)\/?$/i);
-  } else if (item.type === 'gitlab') {
-    matchUrl = url.match(/gitlab.com\/([\-A-Za-z0-9_.]+)\/?$/i);
-  } else if (item.type === 'aparat') {
-    matchUrl = url.match(/aparat.com\/([\-A-Za-z0-9_.]+)\/?$/i);
   } else if (item.type === 'youtube') {
     matchUrl = url.match(/youtube.com\/channel\/([\-A-Za-z0-9_.]+)\/?$/i);
   }

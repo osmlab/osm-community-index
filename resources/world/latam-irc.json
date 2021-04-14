@@ -1,18 +1,15 @@
 {
   "id": "latam-irc",
   "type": "irc",
+  "account": "osm-latam",
   "locationSet": {"include": ["419"]},
   "languageCodes": ["en", "es", "pt"],
   "order": 3,
-  "strings": {
-    "community": "OpenStreetMap Latin America",
-    "description": "Join #osm-latam on irc.oftc.net (port 6667)",
-    "url": "http://webchat.oftc.net/?channels=osm-latam"
-  },
+  "strings": {"community": "OpenStreetMap Latin America"},
   "resolved": {
     "name": "OpenStreetMap Latin America on IRC",
     "description": "Join #osm-latam on irc.oftc.net (port 6667)",
-    "url": "http://webchat.oftc.net/?channels=osm-latam"
+    "url": "https://webchat.oftc.net/?channels=osm-latam"
   },
   "contacts": [
     {"name": "OSM LATAM Community", "email": "info@osmlatam.org"}

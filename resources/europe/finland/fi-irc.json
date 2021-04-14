@@ -1,14 +1,11 @@
 {
   "id": "fi-irc",
   "type": "irc",
+  "account": "osm-fi",
   "locationSet": {"include": ["fi"]},
   "languageCodes": ["fi"],
   "order": -4,
-  "strings": {
-    "community": "OpenStreetMap Finland",
-    "description": "Join #osm-fi on irc.oftc.net (port 6667)",
-    "url": "https://webchat.oftc.net/?channels=osm-fi"
-  },
+  "strings": {"community": "OpenStreetMap Finland"},
   "resolved": {
     "name": "OpenStreetMap Finland on IRC",
     "description": "Join #osm-fi on irc.oftc.net (port 6667)",

@@ -161,7 +161,7 @@ en:
     irc:
       name: '{community} on IRC'
       description: 'Join #{account} on irc.oftc.net (port 6667)'
-      url: http://webchat.oftc.net/?channels={account}
+      url: https://webchat.oftc.net/?channels={account}
     mailinglist:
       name: '{account} Mailing List'
       description: The official mailing list for {community}
@@ -216,8 +216,7 @@ en:
     description: We help grow and improve OpenStreetMap in Belgium.
     extendedDescription: If you want to help to improve and grow the mapping community in Belgium, to make even more people crazy about mapping, OpenStreetMap Belgium is the right place for you!
   be-irc:
-    description: 'Join #osmbe on irc.oftc.net (port 6667)'
-    extendedDescription: 'Join #osmbe on irc.oftc.net (port 6667), it is bridged with the Matrix chat channel'
+    extendedDescription: 'Join #{account} on irc.oftc.net (port 6667), it is bridged with the Matrix chat channel'
   be-matrix:
     description: All mappers are welcome!
     extendedDescription: Most talk is happening at the "OpenStreetMap Belgium" channel. You can ask anything there! The other rooms are for specific subjects.
@@ -240,8 +239,6 @@ en:
   Central-Pennsylvania-OSM:
     name: Central Pennsylvania OSM
     description: Online mapping community based out of State College, PA
-  ch-irc:
-    description: 'Join #osm-ch on irc.oftc.net (port 6667)'
   ch-mailinglist:
     name: Openstreetmap Schweiz/Suisse/Svizzera/Svizra Mailing List
     description: Mailing list for Switzerland
@@ -260,8 +257,6 @@ en:
     description: 'Join our XMPP Multi-User Chat: {url}'
   de-bremen-mailinglist:
     name: Bremen Mailing List
-  de-irc:
-    description: 'Join #osm-de on irc.oftc.net (port 6667)'
   de-karlsruhe-mailinglist:
     name: Karlsruhe Mailing List
   de-karlsruhe-meetup:
@@ -293,10 +288,6 @@ en:
     description: OSM community and users meetup Kreis Viersen and Mönchengladbach
   DF-telegram:
     extendedDescription: Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!
-  dk-irc:
-    description: 'Join #osm-dk on irc.oftc.net (port 6667)'
-  fi-irc:
-    description: 'Join #osm-fi on irc.oftc.net (port 6667)'
   fr-35-wiki:
     name: OpenStreetMap Rennes Wiki page
     description: Wiki page of Rennes OSM local group
@@ -307,8 +298,6 @@ en:
     description: The map which speaks Breton
   fr-chapter:
     description: We help grow and improve OpenStreetMap in France.
-  fr-irc:
-    description: 'Join #osm-fr on irc.oftc.net (port 6667)'
   fr-matrix:
     description: 'A Matrix group for the OSM France community: {url} (bridged with Telegram)'
   fr-telegram:
@@ -321,8 +310,7 @@ en:
     name: Xeoinquedos on Twitter
     description: Follow us on Twitter at {url}
   gb-irc:
-    description: 'Join #osm-gb on irc.oftc.net (port 6667)'
-    extendedDescription: 'Join #osm-gb on irc.oftc.net (port 6667), please be patient and wait for a few minutes if you ask a question'
+    extendedDescription: 'Join #{account} on irc.oftc.net (port 6667), please be patient and wait for a few minutes if you ask a question'
   gb-mailinglist:
     description: Talk-gb is the main communication forum list for the UK (including Northern Ireland) OSM community
   geogeeks_perth_meetup:
@@ -336,7 +324,7 @@ en:
     name: OpenStreetMap Greece Matrix
     description: 'Join #osm-gr:matrix.org at {url}'
   hr-irc:
-    description: 'Join #osm-hr on irc.freenode.org (port 6667)'
+    description: 'Join #{account} on irc.freenode.org (port 6667)'
   hr-wiki:
     description: Wikiproject page for Croatia
   hu-matrix:
@@ -351,22 +339,17 @@ en:
     description: We help grow and improve OpenStreetMap in Ireland.
     extendedDescription: OpenStreetMap Ireland provides an advocate voice for the OpenStreetMap project on the island of Ireland, in addition to interacting with other open initiatives.
   ireland-irc:
-    description: 'Join #osm-ie on irc.oftc.net (port 6667)'
-    extendedDescription: 'Join #osm-ie on irc.oftc.net (port 6667), please be patient and wait for a few minutes if you ask a question'
+    extendedDescription: 'Join #{account} on irc.oftc.net (port 6667), please be patient and wait for a few minutes if you ask a question'
   is-chapter:
     description: We help grow and improve OpenStreetMap in Iceland.
   it-chapter:
     description: We help grow and improve OpenStreetMap in Italy.
-  it-irc:
-    description: 'Join #osm-it on irc.oftc.net (port 6667)'
   kosovo-matrix:
     description: Semi-official all-Kosovo public group (bridged with the one in Telegram). We welcome all mappers from anywhere in any language.
   kosovo-telegram:
     description: Semi-official all-Kosovo Telegram public group. We welcome all mappers from anywhere in any language.
   latam-facebook:
     description: Mappers and OpenStreetMap on Facebook in Latin America
-  latam-irc:
-    description: 'Join #osm-latam on irc.oftc.net (port 6667)'
   latam-matrix:
     description: Chat with other members of the Latinamerican OSM community, it is bridged with the Telegram chat
   latam-telegram:
@@ -375,8 +358,6 @@ en:
     description: Everything you need to know about mapping in Latin America
   lu-github:
     description: GitHub Organization for the OSM community in Luxembourg!
-  lu-irc:
-    description: 'Join #osm-lu on irc.oftc.net (port 6667)!'
   lu-matrix:
     description: Matrix group for the community in Luxembourg. Let's bring the community together!
   mailinglist-sk-googlegroups:
@@ -421,8 +402,7 @@ en:
     name: '{community} Google Group'
     description: Join the {community} Google Group
   mt-irc:
-    description: 'Join #osm-mt on irc.oftc.net (port 6667)'
-    extendedDescription: 'Join #osm-mt on irc.oftc.net (port 6667), please be patient and wait for a few minutes if you ask a question'
+    extendedDescription: 'Join #{account} on irc.oftc.net (port 6667), please be patient and wait for a few minutes if you ask a question'
   no-irc:
     description: Chat room for mappers and OpenStreetMap users, developers and enthusiasts in Norway
   no-mailinglist:
@@ -441,7 +421,6 @@ en:
   OSM-AR-forum:
     extendedDescription: Ideal for long or important discussions. Slow response time.
   OSM-AR-irc:
-    description: 'Join #osm-ar on irc.oftc.net (port 6667)'
     extendedDescription: You may find the most geeky user in the community.
   OSM-AR-mailinglist:
     description: Historic mailing list. Almost unused today.
@@ -533,9 +512,7 @@ en:
   osm-iran-forum:
     extendedDescription: A web forum for OpenStreetMap users in Iran. Feel free to ask questions and discuss with others!
   osm-iran-telegram:
-    description: You're welcome to join our Telegram channel at {url}. We also have a supergroup of many OSMers interested in Iran. Find its link in bio of channel.
-  OSM-IRC:
-    description: 'Join #osm on irc.oftc.net (port 6667)'
+    extendedDescription: You're welcome to join our Telegram channel at {url}. We also have a supergroup of many OSMers interested in Iran. Find its link in bio of channel.
   OSM-japan-facebook:
     description: Mappers and OpenStreetMap users in Japan
   OSM-japan-slack:
@@ -595,7 +572,7 @@ en:
     description: FSHM Puducherry mailing list to discuss mapping in Puducherry and other things.
     extendedDescription: FSHM organizes events relating to free software/hardware, technology, activism and OpenStreetMap.
   OSM-Reddit:
-    description: /r/openstreetmap/ is a great place to learn more about OpenStreetMap.  Ask us anything!
+    description: /r/{account} is a great place to learn more about OpenStreetMap.  Ask us anything!
   OSM-Rome-meetup:
     name: Incontro Mappatori Romani
     description: Improve OpenStreetMap in the Rome area
@@ -667,8 +644,6 @@ en:
     extendedDescription: Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!
   rs-wiki:
     description: Wikiproject page for Serbia
-  se-irc:
-    description: 'Join #osm.se on irc.oftc.net (port 6667)'
   sk-freemap:
     name: OpenStreetMap Website Freemap Slovakia
     description: OpenStreetMap map website with tools in Slovakia and surrounding regions
@@ -698,8 +673,8 @@ en:
   US-MI-Wiki:
     description: Information about mapping in Michigan.
   uy-irc:
-    description: 'Join #osmuruguay on irc.freenode.org (port 6667)'
-    extendedDescription: 'Join #osmuruguay on irc.freenode.org'
+    description: 'Join #{account} on irc.freenode.org (port 6667)'
+    extendedDescription: 'Join #{account} on irc.freenode.org'
   Western-Slope-facebook:
     name: Western Slope OSM Facebook
     description: Mappers and OpenStreetMap users around Grand Junction, CO

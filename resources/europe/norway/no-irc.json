@@ -1,13 +1,13 @@
 {
   "id": "no-irc",
   "type": "irc",
+  "account": "osm-no",
   "locationSet": {"include": ["no"]},
   "languageCodes": ["no"],
   "order": -4,
   "strings": {
     "community": "OpenStreetMap Norway",
-    "description": "Chat room for mappers and OpenStreetMap users, developers and enthusiasts in Norway",
-    "url": "https://webchat.oftc.net/?channels=osm-no"
+    "description": "Chat room for mappers and OpenStreetMap users, developers and enthusiasts in Norway"
   },
   "resolved": {
     "name": "OpenStreetMap Norway on IRC",

@@ -1,14 +1,11 @@
 {
   "id": "it-irc",
   "type": "irc",
+  "account": "osm-it",
   "locationSet": {"include": ["it"]},
   "languageCodes": ["it"],
   "order": -4,
-  "strings": {
-    "community": "OpenStreetMap Italy",
-    "description": "Join #osm-it on irc.oftc.net (port 6667)",
-    "url": "https://webchat.oftc.net/?channels=osm-it"
-  },
+  "strings": {"community": "OpenStreetMap Italy"},
   "resolved": {
     "name": "OpenStreetMap Italy on IRC",
     "description": "Join #osm-it on irc.oftc.net (port 6667)",

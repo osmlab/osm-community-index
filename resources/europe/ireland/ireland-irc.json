@@ -1,14 +1,13 @@
 {
   "id": "ireland-irc",
   "type": "irc",
+  "account": "osm-ie",
   "locationSet": {"include": ["gb-nir", "ie"]},
   "languageCodes": ["en"],
   "order": -1,
   "strings": {
     "community": "OpenStreetMap Ireland",
-    "description": "Join #osm-ie on irc.oftc.net (port 6667)",
-    "extendedDescription": "Join #osm-ie on irc.oftc.net (port 6667), please be patient and wait for a few minutes if you ask a question",
-    "url": "https://webchat.oftc.net/?channels=osm-ie"
+    "extendedDescription": "Join #{account} on irc.oftc.net (port 6667), please be patient and wait for a few minutes if you ask a question"
   },
   "resolved": {
     "name": "OpenStreetMap Ireland on IRC",

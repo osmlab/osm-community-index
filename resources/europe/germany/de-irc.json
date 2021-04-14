@@ -1,14 +1,11 @@
 {
   "id": "de-irc",
   "type": "irc",
+  "account": "osm-de",
   "locationSet": {"include": ["de"]},
   "languageCodes": ["de"],
   "order": -4,
-  "strings": {
-    "community": "OpenStreetMap Germany",
-    "description": "Join #osm-de on irc.oftc.net (port 6667)",
-    "url": "https://webchat.oftc.net/?channels=osm-de"
-  },
+  "strings": {"community": "OpenStreetMap Germany"},
   "resolved": {
     "name": "OpenStreetMap Germany on IRC",
     "description": "Join #osm-de on irc.oftc.net (port 6667)",
