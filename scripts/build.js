@@ -229,18 +229,15 @@ function collectResources(featureCollection) {
     if (item.locationSet.exclude)  { obj.locationSet.exclude = item.locationSet.exclude; }
 
     if (item.languageCodes)  { obj.languageCodes = item.languageCodes.sort(withLocale); }
-    // if (item.url)            { obj.url = item.url; }
-    // if (item.signupUrl)      { obj.signupUrl = item.signupUrl; }
     if (item.order)          { obj.order = item.order; }
 
     obj.strings = {};
-    if (item.strings.community)           { obj.strings.community = item.strings.community; }
-    if (item.strings.name)                { obj.strings.name = item.strings.name; }
-    if (item.strings.description)         { obj.strings.description = item.strings.description; }
-    if (item.strings.extendedDescription) { obj.strings.extendedDescription = item.strings.extendedDescription; }
-
-    if (item.signupUrl || item.strings.signupUrl)  { obj.strings.signupUrl = item.signupUrl || item.strings.signupUrl; }
-    if (item.url || item.strings.url)  { obj.strings.url = item.url || item.strings.url; }
+    if (item.strings.community)            { obj.strings.community = item.strings.community; }
+    if (item.strings.name)                 { obj.strings.name = item.strings.name; }
+    if (item.strings.description)          { obj.strings.description = item.strings.description; }
+    if (item.strings.extendedDescription)  { obj.strings.extendedDescription = item.strings.extendedDescription; }
+    if (item.strings.signupUrl)            { obj.strings.signupUrl = item.strings.signupUrl; }
+    if (item.strings.url)                  { obj.strings.url = item.strings.url; }
 
     obj.resolved = resolvedStrings;
 
