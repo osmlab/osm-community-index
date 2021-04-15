@@ -2,7 +2,7 @@
   "title": "Resource",
   "description": "An OpenStreetMap community resource",
   "type": "object",
-  "additionalProperties": true,
+  "additionalProperties": false,
   "required": [
     "id",
     "type",
@@ -55,36 +55,8 @@
 
     "locationSet": {
       "$comment": "See location-conflation documentation for compatible values: https://github.com/ideditor/location-conflation#readme",
-      "description": "(required) included and excluded locations for this resource",
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["include"],
-      "properties": {
-        "include": {
-          "description": "(required) locations included",
-          "type": "array",
-          "uniqueItems": true,
-          "items": {
-            "anyOf": [
-              { "$ref": "#/definitions/countryCoder" },
-              { "$ref": "#/definitions/coordinatePair" },
-              { "$ref": "#/definitions/geojsonFilename" }
-            ]
-          }
-        },
-        "exclude": {
-          "description": "(optional) locations excluded",
-          "type": "array",
-          "uniqueItems": true,
-          "items": {
-            "anyOf": [
-              { "$ref": "#/definitions/countryCoder" },
-              { "$ref": "#/definitions/coordinatePair" },
-              { "$ref": "#/definitions/geojsonFilename" }
-            ]
-          }
-        }
-      }
+      "description": "(required) included and excluded locations for this item",
+      "$ref": "#/definitions/locationSet"
     },
 
     "languageCodes": {
@@ -101,7 +73,7 @@
       "description": "(required) Source text strings related to this community resource",
       "$comment": "All strings should be provided in English, and will be sent to Transifex for translation",
       "type": "object",
-      "additionalProperties": true,
+      "additionalProperties": false,
       "properties": {
         "community": {
           "description": "(optional) Community Name",
@@ -130,12 +102,6 @@
           "type": "string"
         }
       }
-    },
-
-    "resolved": {
-      "description": "(generated) Resolved text strings related to this community resource",
-      "type": "object",
-      "additionalProperties": true
     },
 
     "contacts": {
@@ -222,11 +188,13 @@
   },
 
   "definitions": {
+
     "countryCoder": {
       "$comment": "See country-coder documentation for compatible values: https://github.com/ideditor/country-coder#readme",
       "description": "A country code (ISO 3166-1, United Nations M49, or anything recognized by country-coder)",
       "type": "string"
     },
+
     "coordinatePair": {
       "description": "A coordinate pair formatted as [longitude, latitude]",
       "type": "array",
@@ -236,10 +204,45 @@
         "maxItems": 2
       }
     },
+
     "geojsonFilename": {
       "description": "A filename for one of the geojson features in this project",
       "type": "string",
       "pattern": "^.*\\.geojson$"
+    },
+
+    "locationSet": {
+      "$comment": "See location-conflation documentation for compatible values: https://github.com/ideditor/location-conflation#readme",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["include"],
+      "properties": {
+        "include": {
+          "description": "(required) locations included",
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "anyOf": [
+              { "$ref": "#/definitions/countryCoder" },
+              { "$ref": "#/definitions/coordinatePair" },
+              { "$ref": "#/definitions/geojsonFilename" }
+            ]
+          }
+        },
+        "exclude": {
+          "description": "(optional) locations excluded",
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "anyOf": [
+              { "$ref": "#/definitions/countryCoder" },
+              { "$ref": "#/definitions/coordinatePair" },
+              { "$ref": "#/definitions/geojsonFilename" }
+            ]
+          }
+        }
+      }
     }
+
   }
 }

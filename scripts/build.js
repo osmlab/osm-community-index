@@ -240,7 +240,7 @@ function collectResources(featureCollection) {
     if (item.strings.signupUrl)            { obj.strings.signupUrl = item.strings.signupUrl; }
     if (item.strings.url)                  { obj.strings.url = item.strings.url; }
 
-    obj.resolved = resolvedStrings;
+    // obj.resolved = resolvedStrings;
 
     if (item.contacts)  { obj.contacts = item.contacts; }
     if (item.events)    { obj.events = item.events; }
