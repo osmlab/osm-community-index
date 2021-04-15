@@ -1,12 +1,13 @@
-const calcArea = require('@mapbox/geojson-area');
 const colors = require('colors/safe');
 const fs = require('fs');
 const glob = require('glob');
 const JSON5 = require('json5');
 const LocationConflation = require('@ideditor/location-conflation');
 const path = require('path');
-const precision = require('geojson-precision');
-const rewind = require('geojson-rewind');
+const geojsonArea = require('@mapbox/geojson-area');
+const geojsonBounds = require('geojson-bounds');
+const geojsonPrecision = require('geojson-precision');
+const geojsonRewind = require('geojson-rewind');
 const shell = require('shelljs');
 const stringify = require('@aitodotai/json-stringify-pretty-compact');
 const Validator = require('jsonschema').Validator;
@@ -115,7 +116,7 @@ function collectFeatures() {
       process.exit(1);
     }
 
-    let feature = precision(rewind(parsed, true), 5);
+    let feature = geojsonPrecision(geojsonRewind(parsed, true), 5);
     let fc = feature.features;
 
     // A FeatureCollection with a single feature inside (geojson.io likes to make these).
@@ -123,11 +124,15 @@ function collectFeatures() {
       feature = fc[0];
     }
 
-    // warn if this feature is so small it would better be represented as a point.
-    let area = calcArea.geometry(feature.geometry) / 1e6;   // m² to km²
+    // Warn if this feature is so small it would better be represented as a circular area.
+    let area = geojsonArea.geometry(feature.geometry) / 1e6;   // m² to km²
     area = Number(area.toFixed(2));
     if (area < 2000) {
-      console.warn(colors.yellow(`Warning - small area (${area} km²).  Use a point 'includeLocation' instead.`));
+      const extent = geojsonBounds.extent(feature);
+      const lon = ((extent[0] + extent[2]) / 2).toFixed(4);
+      const lat = ((extent[1] + extent[3]) / 2).toFixed(4);
+      console.warn('');
+      console.warn(colors.yellow(`Warning - GeoJSON feature for small area (${area} km²).  Consider circular include location instead: [${lon}, ${lat}]`));
       console.warn('  ' + colors.yellow(file));
     }
 
