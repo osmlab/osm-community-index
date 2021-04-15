@@ -151,12 +151,13 @@ function serveClick(ePoint, eLatLng) {
   communities.forEach(function(c) {
     var community = c.community;
     var iconURL = cdnBase + 'img/' + community.type + '.svg';
-    var url = community.resolved.url;
-    var name = community.resolved.name.charAt(0).toUpperCase() + community.resolved.name.slice(1);  // capitalize
+    var url = community.url || community.resolved.url;
+    var name = community.name || community.resolved.name;
+    var properName = name.charAt(0).toUpperCase() + name.slice(1);  // capitalize
 
     inner += '<div class="resource">'
       + '<img class="icon" src="' + iconURL + '"/>'
-      + '<a class="label" target="_blank" href="' + url + '">' + name + '</a>'
+      + '<a class="label" target="_blank" href="' + url + '">' + properName + '</a>'
       + '</div>';
   });
 
