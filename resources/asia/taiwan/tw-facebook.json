@@ -1,11 +1,13 @@
 {
-  "id": "OSM-TW-telegram",
-  "type": "telegram",
-  "account": "OSMTaiwan",
+  "id": "tw-facebook",
+  "type": "facebook",
   "locationSet": {"include": ["tw"]},
   "languageCodes": ["zh-tw"],
-  "order": 5,
-  "strings": {"community": "OpenStreetMap Taiwan"},
+  "order": 3,
+  "strings": {
+    "community": "OpenStreetMap Taiwan",
+    "url": "https://www.facebook.com/groups/OpenStreetMap.TW"
+  },
   "contacts": [
     {
       "name": "Nobody 沒有人 (Public mail)",
