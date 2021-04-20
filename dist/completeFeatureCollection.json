@@ -10709,7 +10709,6 @@
             "type": "forum",
             "account": "87",
             "locationSet": {"include": ["ec"]},
-            "languageCodes": ["en"],
             "strings": {"community": "OpenStreetMap Ecuador"},
             "resolved": {
               "name": "OpenStreetMap Ecuador Forum",
@@ -10736,7 +10735,6 @@
             "type": "mailinglist",
             "account": "talk-ec",
             "locationSet": {"include": ["ec"]},
-            "languageCodes": ["en"],
             "strings": {"community": "OpenStreetMap Ecuador"},
             "resolved": {
               "name": "talk-ec Mailing List",
@@ -13960,12 +13958,23 @@
         "driveSide": "right",
         "area": 97643.75,
         "resources": {
+          "gf-telegram": {
+            "id": "gf-telegram",
+            "type": "telegram",
+            "account": "osmblogfr",
+            "locationSet": {"include": ["gf"]},
+            "strings": {"community": "OpenStreetMap French Guiana"},
+            "resolved": {
+              "name": "OpenStreetMap French Guiana Telegram",
+              "description": "Join our community Telegram chat",
+              "url": "https://t.me/osmblogfr"
+            }
+          },
           "gf-twitter": {
             "id": "gf-twitter",
             "type": "twitter",
             "account": "osm_guyane",
             "locationSet": {"include": ["gf"]},
-            "languageCodes": ["en"],
             "strings": {"community": "OpenStreetMap French Guiana"},
             "resolved": {
               "name": "OpenStreetMap French Guiana on Twitter",
@@ -22246,6 +22255,199 @@
         ]
       },
       "id": "Q1020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iso1A2": "MX",
+        "iso1A3": "MEX",
+        "iso1N3": "484",
+        "wikidata": "Q96",
+        "nameEn": "Mexico",
+        "groups": ["013", "003", "419", "019", "UN", "001"],
+        "callingCodes": ["52"],
+        "id": "Q96",
+        "m49": "484",
+        "isoStatus": "official",
+        "level": "country",
+        "emojiFlag": "🇲🇽",
+        "roadSpeedUnit": "km/h",
+        "roadHeightUnit": "m",
+        "driveSide": "right",
+        "area": 4480852.68,
+        "resources": {
+          "mx-facebook": {
+            "id": "mx-facebook",
+            "type": "facebook",
+            "locationSet": {"include": ["mx"]},
+            "languageCodes": ["es"],
+            "strings": {
+              "community": "OpenStreetMap Mexico",
+              "url": "https://facebook.com/groups/OSMMX"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Mexico on Facebook",
+              "description": "Join our community on Facebook",
+              "url": "https://facebook.com/groups/OSMMX"
+            }
+          },
+          "mx-forum": {
+            "id": "mx-forum",
+            "type": "forum",
+            "account": "79",
+            "locationSet": {"include": ["mx"]},
+            "languageCodes": ["es"],
+            "strings": {"community": "OpenStreetMap Mexico"},
+            "resolved": {
+              "name": "OpenStreetMap Mexico Forum",
+              "description": "The official forum for OpenStreetMap Mexico",
+              "url": "https://forum.openstreetmap.org/viewforum.php?id=79"
+            }
+          },
+          "mx-telegram": {
+            "id": "mx-telegram",
+            "type": "telegram",
+            "account": "osm_mx",
+            "locationSet": {"include": ["mx"]},
+            "languageCodes": ["es"],
+            "strings": {"community": "OpenStreetMap Mexico"},
+            "resolved": {
+              "name": "OpenStreetMap Mexico Telegram",
+              "description": "Join our community Telegram chat",
+              "url": "https://t.me/osm_mx"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [-117.1243, 32.53427],
+              [-118.48109, 32.5991],
+              [-120.12904, 18.41089],
+              [-92.37213, 14.39277],
+              [-92.2261, 14.53423],
+              [-92.1454, 14.6804],
+              [-92.18161, 14.84147],
+              [-92.1423, 14.88647],
+              [-92.1454, 14.98143],
+              [-92.0621, 15.07406],
+              [-92.20983, 15.26077],
+              [-91.73182, 16.07371],
+              [-90.44567, 16.07573],
+              [-90.40499, 16.40524],
+              [-90.61212, 16.49832],
+              [-90.69064, 16.70697],
+              [-91.04436, 16.92175],
+              [-91.43809, 17.25373],
+              [-90.99199, 17.25192],
+              [-90.98678, 17.81655],
+              [-89.14985, 17.81563],
+              [-89.15105, 17.95104],
+              [-89.03839, 18.0067],
+              [-88.8716, 17.89535],
+              [-88.71505, 18.0707],
+              [-88.48242, 18.49164],
+              [-88.3268, 18.49048],
+              [-88.29909, 18.47591],
+              [-88.26593, 18.47617],
+              [-88.03238, 18.41778],
+              [-88.03165, 18.16657],
+              [-87.90671, 18.15213],
+              [-87.87604, 18.18313],
+              [-87.86657, 18.19971],
+              [-87.85693, 18.18266],
+              [-87.84815, 18.18511],
+              [-86.92368, 17.61462],
+              [-85.9092, 21.8218],
+              [-96.92418, 25.97377],
+              [-97.13927, 25.96583],
+              [-97.35946, 25.92189],
+              [-97.37332, 25.83854],
+              [-97.42511, 25.83969],
+              [-97.45669, 25.86874],
+              [-97.49828, 25.89877],
+              [-97.52025, 25.88518],
+              [-97.66511, 26.01708],
+              [-97.95155, 26.0625],
+              [-97.97017, 26.05232],
+              [-98.24603, 26.07191],
+              [-98.27075, 26.09457],
+              [-98.30491, 26.10475],
+              [-98.35126, 26.15129],
+              [-99.00546, 26.3925],
+              [-99.03053, 26.41249],
+              [-99.08477, 26.39849],
+              [-99.53573, 27.30926],
+              [-99.49744, 27.43746],
+              [-99.482, 27.47128],
+              [-99.48045, 27.49016],
+              [-99.50208, 27.50021],
+              [-99.52955, 27.49747],
+              [-99.51478, 27.55836],
+              [-99.55409, 27.61314],
+              [-100.50029, 28.66117],
+              [-100.51222, 28.70679],
+              [-100.5075, 28.74066],
+              [-100.52313, 28.75598],
+              [-100.59809, 28.88197],
+              [-100.63689, 28.90812],
+              [-100.67294, 29.09744],
+              [-100.79696, 29.24688],
+              [-100.87982, 29.296],
+              [-100.94056, 29.33371],
+              [-100.94579, 29.34523],
+              [-100.96725, 29.3477],
+              [-101.01128, 29.36947],
+              [-101.05686, 29.44738],
+              [-101.47277, 29.7744],
+              [-102.60596, 29.8192],
+              [-103.15787, 28.93865],
+              [-104.37752, 29.54255],
+              [-104.39363, 29.55396],
+              [-104.3969, 29.57105],
+              [-104.5171, 29.64671],
+              [-104.77674, 30.4236],
+              [-106.00363, 31.39181],
+              [-106.09025, 31.40569],
+              [-106.20346, 31.46305],
+              [-106.23711, 31.51262],
+              [-106.24612, 31.54193],
+              [-106.28084, 31.56173],
+              [-106.30305, 31.62154],
+              [-106.33419, 31.66303],
+              [-106.34864, 31.69663],
+              [-106.3718, 31.71165],
+              [-106.38003, 31.73151],
+              [-106.41773, 31.75196],
+              [-106.43419, 31.75478],
+              [-106.45244, 31.76523],
+              [-106.46726, 31.75998],
+              [-106.47298, 31.75054],
+              [-106.48815, 31.74769],
+              [-106.50111, 31.75714],
+              [-106.50962, 31.76155],
+              [-106.51251, 31.76922],
+              [-106.52266, 31.77509],
+              [-106.529, 31.784],
+              [-108.20899, 31.78534],
+              [-108.20979, 31.33316],
+              [-111.07523, 31.33232],
+              [-114.82011, 32.49609],
+              [-114.79524, 32.55731],
+              [-114.81141, 32.55543],
+              [-114.80584, 32.62028],
+              [-114.76736, 32.64094],
+              [-114.71871, 32.71894],
+              [-115.88053, 32.63624],
+              [-117.1243, 32.53427]
+            ]
+          ]
+        ]
+      },
+      "id": "Q96"
     },
     {
       "type": "Feature",
@@ -32151,6 +32353,103 @@
     },
     {
       "type": "Feature",
+      "properties": {
+        "iso1A2": "SL",
+        "iso1A3": "SLE",
+        "iso1N3": "694",
+        "wikidata": "Q1044",
+        "nameEn": "Sierra Leone",
+        "groups": ["011", "202", "002", "UN", "001"],
+        "callingCodes": ["232"],
+        "id": "Q1044",
+        "m49": "694",
+        "isoStatus": "official",
+        "level": "country",
+        "emojiFlag": "🇸🇱",
+        "roadSpeedUnit": "km/h",
+        "roadHeightUnit": "m",
+        "driveSide": "right",
+        "area": 102214.71,
+        "resources": {
+          "osm-sierra-leone": {
+            "id": "osm-sierra-leone",
+            "type": "group",
+            "locationSet": {"include": ["sl"]},
+            "strings": {
+              "community": "OpenStreetMap Sierra Leone",
+              "description": "We focus on the creation and use of open data to solve social, economic, and community challenges.",
+              "url": "https://www.osmsierraleone.com"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Sierra Leone",
+              "description": "We focus on the creation and use of open data to solve social, economic, and community challenges.",
+              "url": "https://www.osmsierraleone.com"
+            }
+          },
+          "sl-twitter": {
+            "id": "sl-twitter",
+            "type": "twitter",
+            "account": "osmsierraleone",
+            "locationSet": {"include": ["sl"]},
+            "strings": {"community": "OpenStreetMap Sierra Leone"},
+            "resolved": {
+              "name": "OpenStreetMap Sierra Leone on Twitter",
+              "description": "Follow us on Twitter",
+              "url": "https://twitter.com/osmsierraleone"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [-10.27575, 8.48711],
+              [-10.37257, 8.48941],
+              [-10.54891, 8.31174],
+              [-10.63934, 8.35326],
+              [-10.70565, 8.29235],
+              [-10.61422, 8.5314],
+              [-10.47707, 8.67669],
+              [-10.56197, 8.81225],
+              [-10.5783, 9.06386],
+              [-10.74484, 9.07998],
+              [-10.6534, 9.29919],
+              [-11.2118, 10.00098],
+              [-11.89624, 9.99763],
+              [-11.91023, 9.93927],
+              [-12.12634, 9.87203],
+              [-12.24262, 9.92386],
+              [-12.47254, 9.86834],
+              [-12.76788, 9.3133],
+              [-12.94095, 9.26335],
+              [-13.08953, 9.0409],
+              [-13.18586, 9.0925],
+              [-13.29911, 9.04245],
+              [-14.36218, 8.64107],
+              [-12.15048, 6.15992],
+              [-11.50429, 6.92704],
+              [-11.4027, 6.97746],
+              [-11.29417, 7.21576],
+              [-10.60422, 7.7739],
+              [-10.60492, 8.04072],
+              [-10.57523, 8.04829],
+              [-10.51554, 8.1393],
+              [-10.45023, 8.15627],
+              [-10.35227, 8.15223],
+              [-10.29839, 8.21283],
+              [-10.31635, 8.28554],
+              [-10.30084, 8.30008],
+              [-10.27575, 8.48711]
+            ]
+          ]
+        ]
+      },
+      "id": "Q1044"
+    },
+    {
+      "type": "Feature",
       "id": "la_metro.geojson",
       "properties": {
         "id": "la_metro.geojson",
@@ -33279,6 +33578,19 @@
         "driveSide": "right",
         "area": 174660.53,
         "resources": {
+          "pa-forum": {
+            "id": "pa-forum",
+            "type": "forum",
+            "account": "61",
+            "locationSet": {"include": ["pa"]},
+            "languageCodes": ["es"],
+            "strings": {"community": "OpenStreetMap Panama"},
+            "resolved": {
+              "name": "OpenStreetMap Panama Forum",
+              "description": "The official forum for OpenStreetMap Panama",
+              "url": "https://forum.openstreetmap.org/viewforum.php?id=61"
+            }
+          },
           "pa-telegram": {
             "id": "pa-telegram",
             "type": "telegram",
@@ -34023,6 +34335,18 @@
         "driveSide": "right",
         "area": 400777.6,
         "resources": {
+          "py-forum": {
+            "id": "py-forum",
+            "type": "forum",
+            "account": "98",
+            "locationSet": {"include": ["py"]},
+            "strings": {"community": "OpenStreetMap Paraguay"},
+            "resolved": {
+              "name": "OpenStreetMap Paraguay Forum",
+              "description": "The official forum for OpenStreetMap Paraguay",
+              "url": "https://forum.openstreetmap.org/viewforum.php?id=98"
+            }
+          },
           "py-telegram": {
             "id": "py-telegram",
             "type": "telegram",
@@ -34034,6 +34358,18 @@
               "name": "OpenStreetMap Paraguay Telegram",
               "description": "Join our community Telegram chat",
               "url": "https://t.me/osm_py"
+            }
+          },
+          "talk-py": {
+            "id": "talk-py",
+            "type": "mailinglist",
+            "account": "talk-py",
+            "locationSet": {"include": ["py"]},
+            "strings": {"community": "OpenStreetMap Paraguay"},
+            "resolved": {
+              "name": "talk-py Mailing List",
+              "description": "The official mailing list for OpenStreetMap Paraguay",
+              "url": "https://lists.openstreetmap.org/listinfo/talk-py"
             }
           }
         }
@@ -37429,7 +37765,6 @@
             "type": "mailinglist",
             "account": "talk-hn",
             "locationSet": {"include": ["hn"]},
-            "languageCodes": ["en"],
             "strings": {"community": "OpenStreetMap Honduras"},
             "resolved": {
               "name": "talk-hn Mailing List",
@@ -39809,6 +40144,18 @@
               "name": "OpenStreetMap Venezuela Telegram",
               "description": "Join our community Telegram chat",
               "url": "https://t.me/OSMve"
+            }
+          },
+          "ve-twitter": {
+            "id": "ve-twitter",
+            "type": "twitter",
+            "account": "osmve",
+            "locationSet": {"include": ["ve"]},
+            "strings": {"community": "OpenStreetMap Venezuela"},
+            "resolved": {
+              "name": "OpenStreetMap Venezuela on Twitter",
+              "description": "Follow us on Twitter",
+              "url": "https://twitter.com/osmve"
             }
           }
         }
