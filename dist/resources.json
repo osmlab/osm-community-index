@@ -1,4 +1,10 @@
 {
+  "_meta": {
+    "version": "3.1.2",
+    "generated": "2021-04-26T15:57:57.935Z",
+    "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
+    "hash": "b92101cb2f8b4223790b1cf4974f8998"
+  },
   "resources": {
     "af-facebook": {"id": "af-facebook", "type": "facebook", "locationSet": {"include": ["af"]}, "languageCodes": ["en", "fa", "ps"], "order": 3, "strings": {"community": "OpenStreetMap Afghanistan", "url": "https://www.facebook.com/groups/321292812113316/"}, "contacts": [{"name": "Walker Kosmidou-Bradley", "email": "walker.t.bradley@gmail.com"}]},
     "af-matrix": {"id": "af-matrix", "type": "matrix", "account": "#OSM-AF", "locationSet": {"include": ["af"]}, "languageCodes": ["en", "fa", "ps"], "order": 10, "strings": {"community": "OpenStreetMap Afghanistan", "description": "Matrix group for the community in Afghanistan."}, "contacts": [{"name": "Mostafa Ahangarha", "email": "ahangarha@riseup.net"}]},

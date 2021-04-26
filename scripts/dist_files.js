@@ -1,9 +1,12 @@
 const colors = require('colors/safe');
 const fs = require('fs');
+const glob = require('glob');
+const JSON5 = require('json5');
 const LocationConflation = require('@ideditor/location-conflation');
 const resolveStrings = require('../lib/resolve_strings.js');
 const shell = require('shelljs');
 const stringify = require('@aitodotai/json-stringify-pretty-compact');
+const writeFileWithMeta = require('../lib/write_file_with_meta.js');
 
 const featureCollection = require('../dist/featureCollection.json');
 const resources = require('../dist/resources.json').resources;
@@ -28,11 +31,18 @@ function buildAll() {
 
   const combined = generateCombined(resources, featureCollection);
 
+  // Refresh some files already in `/dist`, update metadata to match version
+  refreshMeta('resources.json');
+  refreshMeta('featureCollection.json');
+
   // Save individual data files
-  fs.writeFileSync('dist/completeFeatureCollection.json', stringify(combined) + '\n');
-  fs.writeFileSync('dist/completeFeatureCollection.min.json', JSON.stringify(combined) );
-  fs.writeFileSync('dist/featureCollection.min.json', JSON.stringify(featureCollection) );
-  fs.writeFileSync('dist/resources.min.json', JSON.stringify({ resources: resources }) );
+  writeFileWithMeta('dist/completeFeatureCollection.json', stringify(combined) + '\n');
+
+  // minify all .json files under dist/
+  glob.sync(`dist/**/*.json`).forEach(file => {
+    const minFile = file.replace('.json', '.min.json');
+    minifySync(file, minFile);
+  });
 
   console.timeEnd(END);
 }
@@ -43,6 +53,33 @@ function deepClone(obj) {
 }
 
 
+// `refreshMeta()`
+// updates the metadata in an existing file in `/dist`
+function refreshMeta(filename) {
+  const contents = fs.readFileSync(`dist/${filename}`, 'utf8');
+  let json = JSON5.parse(contents);
+  delete json._meta;
+
+  writeFileWithMeta(`dist/${filename}`, stringify(json, { maxLength: 9999 }) + '\n');
+}
+
+
+// `minifySync()`
+// minifies a file
+function minifySync(inPath, outPath) {
+  try {
+    const contents = fs.readFileSync(inPath, 'utf8');
+    const minified = JSON.stringify(JSON5.parse(contents));
+    fs.writeFileSync(outPath, minified);
+  } catch (err) {
+    console.error(colors.red(`Error - ${err.message} minifying:`));
+    console.error('  ' + colors.yellow(inPath));
+    process.exit(1);
+  }
+}
+
+
+// `generateCombined()`
 // Generate a combined GeoJSON FeatureCollection
 // containing all the features w/ resources stored in properties
 //

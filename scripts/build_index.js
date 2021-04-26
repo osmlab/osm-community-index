@@ -12,6 +12,7 @@ const shell = require('shelljs');
 const stringify = require('@aitodotai/json-stringify-pretty-compact');
 const Validator = require('jsonschema').Validator;
 const withLocale = require('locale-compare')('en-US');
+const writeFileWithMeta = require('../lib/write_file_with_meta.js');
 const YAML = require('js-yaml');
 
 const resolveStrings = require('../lib/resolve_strings.js');
@@ -53,11 +54,11 @@ function buildAll() {
   // Features
   _features = collectFeatures();
   const featureCollection = { type: 'FeatureCollection', features: _features };
-  fs.writeFileSync('dist/featureCollection.json', stringify(featureCollection, { maxLength: 9999 }) + '\n');
+  writeFileWithMeta('dist/featureCollection.json', stringify(featureCollection, { maxLength: 9999 }) + '\n');
 
   // Resources
   _resources = collectResources(featureCollection);
-  fs.writeFileSync('dist/resources.json', stringify({ resources: sortObject(_resources) }, { maxLength: 9999 }) + '\n');
+  writeFileWithMeta('dist/resources.json', stringify({ resources: sortObject(_resources) }, { maxLength: 9999 }) + '\n');
 
   // Translations
   _tstrings._defaults = sortObject(_tstrings._defaults);
