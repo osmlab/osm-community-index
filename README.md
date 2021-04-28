@@ -28,7 +28,7 @@ Anything that mappers, especially beginners, might find interesting or helpful.
 
 ## About the index
 
-See [the project wiki](https://github.com/osmlab/name-suggestion-index/wiki) for details.
+See [the project wiki](https://github.com/osmlab/osm-community-index/wiki) for details.
 
 
 ## Participate!
