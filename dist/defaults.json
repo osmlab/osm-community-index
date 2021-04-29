@@ -1,4 +1,10 @@
 {
+  "_meta": {
+    "version": "3.1.2",
+    "generated": "2021-04-29T19:12:39.165Z",
+    "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/defaults.json",
+    "hash": "0d722b48ffa8f2dc0b5266a82001fd93"
+  },
   "defaults": {
     "aparat": {
       "name": "{community} on Aparat",
@@ -10,9 +16,7 @@
       "description": "Get in touch with other mappers on Discord",
       "url": "https://discord.gg/{account}"
     },
-    "discourse": {
-      "name": "{community} Discourse"
-    },
+    "discourse": {"name": "{community} Discourse"},
     "facebook": {
       "name": "{community} on Facebook",
       "description": "Join our community on Facebook",
@@ -31,9 +35,7 @@
       "name": "{community} GitLab",
       "url": "https://gitlab.com/{account}"
     },
-    "group": {
-      "name": "{community}"
-    },
+    "group": {"name": "{community}"},
     "irc": {
       "name": "{community} on IRC",
       "description": "Join #{account} on irc.oftc.net (port 6667)",
@@ -53,19 +55,13 @@
       "name": "{community} Meetup",
       "url": "https://meetup.com/{account}"
     },
-    "osm": {
-      "name": "{community}"
-    },
-    "osm-lc": {
-      "name": "{community}"
-    },
+    "osm": {"name": "{community}"},
+    "osm-lc": {"name": "{community}"},
     "reddit": {
       "name": "{community} on Reddit",
       "url": "https://www.reddit.com/r/{account}"
     },
-    "slack": {
-      "name": "{community} Slack"
-    },
+    "slack": {"name": "{community} Slack"},
     "telegram": {
       "name": "{community} Telegram",
       "description": "Join our community Telegram chat",
@@ -80,9 +76,7 @@
       "name": "{community} WikiProject",
       "url": "https://wiki.openstreetmap.org/wiki/{account}"
     },
-    "xmpp": {
-      "name": "{community} XMPP"
-    },
+    "xmpp": {"name": "{community} XMPP"},
     "youtube": {
       "name": "{community} on YouTube",
       "description": "Subscribe to our YouTube channel",

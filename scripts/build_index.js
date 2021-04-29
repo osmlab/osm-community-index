@@ -78,7 +78,7 @@ function collectDefaults() {
   let contents = fs.readFileSync('./defaults.json', 'utf8');
   let defaults;
   try {
-    defaults = JSON5.parse(contents);
+    defaults = JSON5.parse(contents).defaults;
   } catch (jsonParseError) {
     console.error(colors.red(`Error - ${jsonParseError.message} in:`));
     console.error('  ' + colors.yellow('./defaults.json'));

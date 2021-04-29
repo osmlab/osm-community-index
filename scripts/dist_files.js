@@ -36,6 +36,7 @@ function buildAll() {
   refreshMeta('featureCollection.json');
 
   // Save individual data files
+  writeFileWithMeta(`dist/defaults.json`, stringify(defaults) + '\n');
   writeFileWithMeta('dist/completeFeatureCollection.json', stringify(combined) + '\n');
 
   // minify all .json files under dist/
@@ -131,7 +132,7 @@ function generateCombined(resources, featureCollection) {
     }
 
     let item = deepClone(resource);
-    item.resolved = resolveStrings(item, defaults);
+    item.resolved = resolveStrings(item, defaults.defaults);
 
     keepFeature.properties.resources[resourceID] = item;
   });
