@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "3.1.2",
-    "generated": "2021-04-27T15:58:58.100Z",
+    "generated": "2021-04-29T15:06:27.315Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "8c10eebb534c0c86963ca36ba071a785"
+    "hash": "ae7e97e16679552684a935f201b49f7f"
   },
   "type": "FeatureCollection",
   "features": [
@@ -33589,7 +33589,8 @@
             "type": "forum",
             "account": "61",
             "locationSet": {"include": ["pa"]},
-            "languageCodes": ["es"],
+            "languageCodes": ["en", "es"],
+            "order": 10,
             "strings": {"community": "OpenStreetMap Panama"},
             "resolved": {
               "name": "OpenStreetMap Panama Forum",
@@ -33602,7 +33603,8 @@
             "type": "telegram",
             "account": "Comunidad_OSM_Panama",
             "locationSet": {"include": ["pa"]},
-            "languageCodes": ["es"],
+            "languageCodes": ["en", "es"],
+            "order": 5,
             "strings": {"community": "OpenStreetMap Panama"},
             "resolved": {
               "name": "OpenStreetMap Panama Telegram",

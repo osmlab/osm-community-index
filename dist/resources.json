@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "3.1.2",
-    "generated": "2021-04-28T19:02:05.300Z",
+    "generated": "2021-04-29T15:06:25.955Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "b92101cb2f8b4223790b1cf4974f8998"
+    "hash": "37ca1c408f98c04c5a626fdc659fd49b"
   },
   "resources": {
     "af-facebook": {"id": "af-facebook", "type": "facebook", "locationSet": {"include": ["af"]}, "languageCodes": ["en", "fa", "ps"], "order": 3, "strings": {"community": "OpenStreetMap Afghanistan", "url": "https://www.facebook.com/groups/321292812113316/"}, "contacts": [{"name": "Walker Kosmidou-Bradley", "email": "walker.t.bradley@gmail.com"}]},
@@ -360,8 +360,8 @@
     "OSMF": {"id": "OSMF", "type": "osm-lc", "locationSet": {"include": ["001"]}, "languageCodes": ["en", "fr", "it", "ja", "nl", "ru"], "order": 10, "strings": {"name": "OpenStreetMap Foundation", "description": "OSMF is a UK-based not-for-profit that supports the OpenStreetMap Project", "extendedDescription": "OSMF supports the OpenStreetMap by fundraising, maintaining the servers which power OSM, organizing the annual State of the Map conference, and coordinating the volunteers who keep OSM running. You can show your support and have a voice in the direction of OpenStreetMap by joining as an OSMF member here: {signupUrl}", "signupUrl": "https://join.osmfoundation.org/", "url": "https://wiki.osmfoundation.org/wiki/Main_Page"}, "contacts": [{"name": "OSMF Board", "email": "board@osmfoundation.org"}]},
     "osmgraz-meetup": {"id": "osmgraz-meetup", "type": "meetup", "locationSet": {"include": [[15.4461, 47.0556]]}, "languageCodes": ["de", "en"], "order": 5, "strings": {"community": "OpenStreetMap Graz", "name": "OSM community meetup Graz", "description": "Monthly meetup of the OpenStreetMap community in Graz", "url": "https://wiki.openstreetmap.org/wiki/Graz/Stammtisch"}, "contacts": [{"name": "Michael Maier", "email": "michael.maier@secure.mailbox.org"}]},
     "osmgraz-twitter": {"id": "osmgraz-twitter", "type": "twitter", "account": "osmgraz", "locationSet": {"include": [[15.4461, 47.0556]]}, "languageCodes": ["de", "en"], "strings": {"community": "OpenStreetMap Graz"}, "contacts": [{"name": "Michael Maier", "email": "michael.maier@secure.mailbox.org"}]},
-    "pa-forum": {"id": "pa-forum", "type": "forum", "account": "61", "locationSet": {"include": ["pa"]}, "languageCodes": ["es"], "strings": {"community": "OpenStreetMap Panama"}},
-    "pa-telegram": {"id": "pa-telegram", "type": "telegram", "account": "Comunidad_OSM_Panama", "locationSet": {"include": ["pa"]}, "languageCodes": ["es"], "strings": {"community": "OpenStreetMap Panama"}},
+    "pa-forum": {"id": "pa-forum", "type": "forum", "account": "61", "locationSet": {"include": ["pa"]}, "languageCodes": ["en", "es"], "order": 10, "strings": {"community": "OpenStreetMap Panama"}},
+    "pa-telegram": {"id": "pa-telegram", "type": "telegram", "account": "Comunidad_OSM_Panama", "locationSet": {"include": ["pa"]}, "languageCodes": ["en", "es"], "order": 5, "strings": {"community": "OpenStreetMap Panama"}},
     "pe-facebook": {"id": "pe-facebook", "type": "facebook", "account": "Osmpe", "locationSet": {"include": ["pe"]}, "languageCodes": ["es"], "order": 3, "strings": {"community": "OpenStreetMap Peru"}, "contacts": [{"name": "Diego Sangunietti", "email": "diego.sanguinetti@hotmail.com"}, {"name": "Ruben Lopez M.", "email": "rub2106@gmail.com"}]},
     "pe-matrix": {"id": "pe-matrix", "type": "matrix", "account": "#osmpe", "locationSet": {"include": ["pe"]}, "languageCodes": ["es"], "strings": {"community": "OpenStreetMap Peru"}, "contacts": [{"name": "Diego Sangunietti", "email": "diego.sanguinetti@hotmail.com"}, {"name": "Ruben Lopez M.", "email": "rub2106@gmail.com"}]},
     "pe-telegram": {"id": "pe-telegram", "type": "telegram", "account": "osmPe", "locationSet": {"include": ["pe"]}, "languageCodes": ["es"], "strings": {"community": "OpenStreetMap Peru"}, "contacts": [{"name": "Diego Sangunietti", "email": "diego.sanguinetti@hotmail.com"}, {"name": "Ruben Lopez M.", "email": "rub2106@gmail.com"}]},
