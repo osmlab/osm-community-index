@@ -19,7 +19,7 @@
   "main": "dist/index.js",
   "module": "index.mjs",
   "scripts": {
-    "all": "run-s build dist",
+    "all": "run-s test dist",
     "build": "node scripts/build_index.js",
     "dist": "run-s dist:files dist:javascript",
     "dist:files": "node scripts/dist_files.js",
