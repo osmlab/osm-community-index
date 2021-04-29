@@ -1,5 +1,12 @@
 const resolveStrings = require('../lib/resolve_strings.js');
 
+const item = {
+  id: 'talk-ru',
+  type: 'mailinglist',
+  account: 'talk-ru',
+  strings: {community: 'OpenStreetMap Russia'}
+};
+
 const defaults = {
   'mailinglist': {
     name: '{account} Mailing List',
@@ -12,14 +19,6 @@ const defaults = {
 describe('resolveStrings', () => {
 
   test('basic', () => {
-    const item = {
-      id: 'talk-ru',
-      type: 'mailinglist',
-      account: 'talk-ru',
-      locationSet: {'include': ['ru']},
-      strings: {community: 'OpenStreetMap Russia'}
-    };
-
     const resolved = resolveStrings(item, defaults);
     expect(resolved).toBeInstanceOf(Object);
     expect(resolved.name).toBe('talk-ru Mailing List');
@@ -37,20 +36,35 @@ describe('resolveStrings', () => {
     }
     const localizer = (id) => stringids[id];
 
-    const item = {
-      id: 'talk-ru',
-      type: 'mailinglist',
-      account: 'talk-ru',
-      locationSet: {'include': ['ru']},
-      strings: {community: 'OpenStreetMap Russia'}
-    };
-
     const resolved = resolveStrings(item, defaults, localizer);
     expect(resolved).toBeInstanceOf(Object);
     expect(resolved.name).toBe('talk-ru Список рассылки');
     expect(resolved.url).toBe('https://lists.openstreetmap.org/listinfo/talk-ru');
     expect(resolved.description).toBe('Официальный список рассылки для OpenStreetMap Россия');
     expect(resolved.extendedDescription).toBe('Время развлечений для всех на https://lists.openstreetmap.org/listinfo/talk-ru');
+  });
+
+  test('Throws if an expected replacement token cannot be resolved', () => {
+    const missing = {
+      id: 'talk-ru',
+      type: 'mailinglist',
+      // account: 'talk-ru',     // missing account!
+      strings: {community: 'OpenStreetMap Russia'}
+    };
+    expect(() => resolveStrings(missing, defaults)).toThrow(/cannot resolve token:/i);
+  });
+
+  test('Throws if any extra replacement tokens remain unresolved', () => {
+    const extra = {
+      id: 'talk-ru',
+      type: 'mailinglist',
+      account: 'talk-ru',
+      strings: {
+        community: 'OpenStreetMap Russia',
+        name: 'This name has {extra} {tokens}'
+      }
+    };
+    expect(() => resolveStrings(extra, defaults)).toThrow(/cannot resolve tokens:/i);
   });
 
 });
