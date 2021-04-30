@@ -348,17 +348,31 @@
   // Arguments
   //   `item`:  Object containing the community index item
   //   `defaults`: Object containing the community index default strings
-  //   `localizerFn?`: optional function we will call do the localization.
-  //      This function should be like the iD `t` function that accepts a `stringID`
+  //   `localizerFn?`: optional function we will call to do the localization.
+  //      This function should be like the iD `t()` function that
+  //      accepts a `stringID` and returns a localized string
+  //
   // Returns
-  //   An Object containing all the resolved strings
+  //   An Object containing all the resolved strings:
+  //   {
+  //     name:                     'talk-ru Mailing List',
+  //     url:                      'https://lists.openstreetmap.org/listinfo/talk-ru',
+  //     signupUrl:                'https://example.url/signup',
+  //     description:              'A one line description',
+  //     extendedDescription:      'Extended description',
+  //     nameHTML:                 '<a href="the url">the name</a>',
+  //     urlHTML:                  '<a href="the url">the url</a>',
+  //     signupUrlHTML:            '<a href="the signupUrl">the signupUrl</a>',
+  //     descriptionHTML:          the description, with urls and signupUrls linkified,
+  //     extendedDescriptionHTML:  the extendedDescription with urls and signupUrls linkified
+  //   }
   //
   var resolve_strings = (item, defaults, localizerFn) => {
     let itemStrings = Object.assign({}, item.strings);             // shallow clone
     let defaultStrings = Object.assign({}, defaults[item.type]);   // shallow clone
     const anyToken = new RegExp(/(\{\w+\})/, 'gi');
 
-    // pre-localize the item and default strings
+    // Pre-localize the item and default strings
     if (localizerFn) {
       if (itemStrings.community) {
         const communityID = simplify(itemStrings.community);
@@ -377,22 +391,29 @@
       url: itemStrings.url
     };
 
-    // resolve URLs first (which may refer to {account})
+    // Resolve URLs first (which may refer to {account})
     if (!replacements.signupUrl)  { replacements.signupUrl = resolve(itemStrings.signupUrl || defaultStrings.signupUrl); }
     if (!replacements.url)        { replacements.url = resolve(itemStrings.url || defaultStrings.url); }
 
-    const resolved = {
+    let resolved = {
       name:                resolve(itemStrings.name || defaultStrings.name),
-      description:         resolve(itemStrings.description || defaultStrings.description),
-      extendedDescription: resolve(itemStrings.extendedDescription || defaultStrings.extendedDescription),
+      url:                 resolve(itemStrings.url || defaultStrings.url),
       signupUrl:           resolve(itemStrings.signupUrl || defaultStrings.signupUrl),
-      url:                 resolve(itemStrings.url || defaultStrings.url)
+      description:         resolve(itemStrings.description || defaultStrings.description),
+      extendedDescription: resolve(itemStrings.extendedDescription || defaultStrings.extendedDescription)
     };
+
+    // Generate linkified strings
+    resolved.nameHTML = linkify(resolved.url, resolved.name);
+    resolved.urlHTML = linkify(resolved.url);
+    resolved.signupUrlHTML = linkify(resolved.signupUrl);
+    resolved.descriptionHTML = resolve((itemStrings.description || defaultStrings.description), true);
+    resolved.extendedDescriptionHTML = resolve((itemStrings.extendedDescription || defaultStrings.extendedDescription), true);
 
     return resolved;
 
 
-    function resolve(s) {
+    function resolve(s, addLinks) {
       if (!s) return undefined;
       let result = s;
 
@@ -400,11 +421,14 @@
         const token = `{${key}}`;
         const regex = new RegExp(token, 'g');
         if (regex.test(result)) {
-          const val = replacements[key];
-          if (!val) {
+          let replacement = replacements[key];
+          if (!replacement) {
             throw new Error(`Cannot resolve token: ${token}`);
           } else {
-            result = result.replace(regex, val);
+            if (addLinks && (key === 'signupUrl' || key === 'url')) {
+              replacement = linkify(replacement);
+            }
+            result = result.replace(regex, replacement);
           }
         }
       }
@@ -415,7 +439,20 @@
         throw new Error(`Cannot resolve tokens: ${leftovers}`);
       }
 
+      // Linkify subreddits like `/r/openstreetmap`
+      // https://github.com/osmlab/osm-community-index/issues/82
+      // https://github.com/openstreetmap/iD/issues/4997
+      if (addLinks && item.type === 'reddit') {
+        result = result.replace(/(\/r\/\w+\/*)/i, match => linkify(resolved.url, match));
+      }
+
       return result;
+    }
+
+    function linkify(url, text) {
+      if (!url) return undefined;
+      text = text || url;
+      return `<a target="_blank" href="${url}">${text}</a>`;
     }
   };
 
