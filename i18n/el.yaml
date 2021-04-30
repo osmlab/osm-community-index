@@ -1,178 +1,48 @@
 el:
-  OSM-BGD-facebook:
-    name: Το OpenStreetMap του Μπαγκλαντές
-    description: Βελτιώστε το OpenStreetMap στο Μπαγκλαντές
-    extendedDescription: 'Χαρτογράφηση στο Μπαγκλαντές; Έχετε ερωτήσεις, θέλετε να συνδεθείτε με την κοινότητα εδώ; Ελάτε μαζί μας στο {url}. Είναι όλοι ευπρόσδεκτοι!'
-  OSM-ES-mailinglist:
-    name: Talk-es κατάλογος αλληλογραφίας
-    description: Μια λίστα αλληλογραφίας για να συζητήσετε το OpenStreetMap στν Ισπανία
-  OSM-IDN-facebook:
-    name: OpenStreetMap στην Ινδονησία
-    description: Βελτιώστε το OpenStreetMap στην Ινδονησία
-    extendedDescription: 'Χαρτογράφηση στην Ινδονησία; Έχετε ερωτήσεις, θέλετε να συνδεθείτε με την κοινότητα εδώ; Ελάτε μαζί μας στο {url}. Είναι όλοι ευπρόσδεκτοι!'
-  OSM-India-Puducherry-Facebook:
-    name: (FSHM) Κίνημα Ελεύθερου Λογισμικού & Υλικού - Facebook
-    description: 'Η FSHM Facebook σελίδα για να ξέρετε για εκδηλώσεις & δραστηριότητες της κοινότητας'
-    extendedDescription: 'Η FSHM διοργανώνει εκδηλώσεις σχετικές με την τεχνολογία ελεύθερου λογισμικού / υλικού, τον ακτιβισμό και το OpenStreetMap. Η σελίδα στο FB είναι ο καλύτερος τρόπος για να διατηρείτε επαφή με τα γεγονότα της.'
-  OSM-India-Puducherry-Matrix:
-    name: (FSHM) Κίνημα Ελεύθερου Λογισμικού & Υλικού - Matrix
-  OSM-India-facebook:
-    name: OpenStreetMap της Ινδία - Συμμετοχική χαρτογράφηση γειτονιάς
-    description: Βελτιώστε το OpenStreetMap στην Ινδία
-    extendedDescription: 'Χαρτογράφηση στην Ινδία; Έχετε ερωτήσεις, θέλετε να συνδεθείτε με την κοινότητα εδώ; Ελάτε μαζί μας στο {url}. Είναι όλοι ευπρόσδεκτοι!'
-  OSM-MMR-facebook:
-    name: Το OpenStreetMap της Μιανμάρ
-    description: Βελτιώστε το OpenStreetMap στην Μιανμάρ
-    extendedDescription: 'Χαρτογράφηση στην Μιανμάρ; Έχετε ερωτήσεις, θέλετε να συνδεθείτε με την κοινότητα εδώ; Ελάτε μαζί μας στο {url}. Είναι όλοι ευπρόσδεκτοι!'
-  OSM-MNG-facebook:
-    name: OpenStreetMap στην Μογγολία
-    description: Βελτιώστε το OpenStreetMap στην Μογγολία
-    extendedDescription: 'Χαρτογράφηση στην Μογγολία; Έχετε ερωτήσεις, θέλετε να συνδεθείτε με την κοινότητα εδώ; Ελάτε μαζί μας στο {url}. Είναι όλοι ευπρόσδεκτοι!'
-  OSM-MY-facebook:
-    name: Το OpenStreetMap της Μαλαισίας στο Facebook
-    description: Για συνομιλία για οτιδήποτε σχετίζεται με το OpenStreetMap!
-  OSM-MY-forum:
-    name: Φόρουμ OpenStreetMap της Μαλαισίας
-    description: Επίσημο Φόρουμ OpenStreetMap της Μαλαισίας
-  OSM-Nepal-facebook:
-    name: OpenStreetMap στο Νεπάλ
-    description: Βελτιώστε το OpenStreetMap στο Νεπάλ
-    extendedDescription: 'Χαρτογράφηση στο Νεπάλ; Έχετε ερωτήσεις, θέλετε να συνδεθείτε με την κοινότητα εδώ; Ελάτε μαζί μας στο {url}. Είναι όλοι ευπρόσδεκτοι!'
-  OSM-RU-forum:
-    name: RU φόρουμ OpenStreetMap
-    description: Διαδικτυακό φόρουμ OpenStreetMap Ρωσίας
-  OSM-TW-facebook:
-    name: OpenStreetMap Κοινότητα της Ταϊβάν
-  OSM-TW-mailinglist:
-    name: Κατάλογος Αλληλογραφίας OpenStreetMap της Ταϊβάν
-  OSM-india-mailinglist:
-    name: Κατάλογος Αλληλογραφίας OpenStreetMap της Ινδίας
-    description: Το Talk-in είναι ο επίσημος κατάλογος Αλληλογραφίας για την Ινδική Κοινότητα
-  OSM-india-twitter:
-    name: 'Το Twitter του OpenStreetMap της Ινδίας '
-    description: 'Είμαστε απλά ένα tweet μακριά: {url}'
-  OSM-japan-facebook:
-    name: Ιαπωνική Κοινότητα του OpenStreetMap 
-    description: Χαρτογράφοι και χρήστες του OpenStreetMap στην Ιαπωνία
-  OSM-japan-mailinglist:
-    name: Κατάλογος Αλληλογραφίας OpenStreetMap της Ιαπωνίας
-    description: Το Talk-ja είναι ο επίσημος κατάλογος Αλληλογραφίας για την Ιαπωνική Κοινότητα
-  OSM-japan-twitter:
-    name: Twitter OpenStreetMap Ιαπωνίας
-    description: 'Hashtag στοTwitter: {url}'
-  OSM-japan-website:
-    name: OpenStreetMap στην Ιαπωνία
-    description: Χαρτογράφοι και χρήστες του OpenStreetMap στην Ιαπωνία
-  South-Tyrol-Mailing-List:
-    name: Κατάλογος Αλληλογραφίας OpenStreetMap του Νότιου Τυρόλο
-  Trentino-Mailing-List:
-    name: Κατάλογος Αλληλογραφίας OpenStreetMap του Τρεντίνο
+  _communities:
+    openstreetmapgreece: OpenStreetMap Ελλάδα
   al-maptime-tirana:
     description: Στις κοινωνικές εκδηλώσεις οργανωμένες γύρω από τη χαρτογράφηση - οι αρχάριοι είναι περισσότερο ευπρόσδεκτοι!
-  at-mailinglist:
-    name: Talk-at Κατάλογος Αλληλογραφίας
-    description: Το Talk-at είναι ο επίσημος κατάλογος Αλληλογραφίας για την Αυστριακή Κοινότητα του OSM
-  at-twitter:
-    name: Το Twitter του OpenStreetMap της Αυστρίας
-    description: 'Το OpenStreetMap της Αυστρίας στο Twitter: {url}'
-  be-facebook:
-    description: Χαρτογράφοι και OpenStreetMap του Βελγίου στο Facebook
-  be-forum:
-    name: Φόρουμ OpenStreetMap BE
-    description: 'Φόρουμ διαδικτύου του OpenStreetMap Βελγίου '
-  be-irc:
-    name: IRC OpenStreetMap Βελγίου
-  be-mailinglist:
-    name: Talk-be Κατάλογος Αλληλογραφίας
-    description: Το Talk-be είναι ο επίσημος κατάλογος αλληλογραφίας για την Βελγική Κοινότητα του OSM
   be-matrix:
     description: Όλοι οι χαρτογράφοι είναι ευπρόσδεκτοι!
-  byosm:
-    name: OpenStreetMap Λευκορωσίας
   cape-coast-youthmappers:
     name: Πανεπιστήμιο του Cape Coast YouthMappers
     description: 'Ακολουθήστε μας στο Twitter: {url}'
   de-berlin-mailinglist:
     name: Κατάλογος Αλληλογραφίας Βερολίνου
-    description: Αυτή είναι μια λίστα αλληλογραφίας για την κοινότητα OpenStreetMap στο Βερολίνο
   de-berlin-meetup:
     description: Χαρτογράφοι και χρήστες του OpenStreetMap στην περιοχή του Βερολίνου
-  de-berlin-twitter:
-    description: 'Ακολουθήστε μας στο Twitter: {url}'
-  de-forum:
-    name: Φόρουμ OpenStreetMap DE
-    description: Διαδικτυακό φόρουμ OpenStreetMap Γερμανίας
-  de-mailinglist:
-    name: Talk-de Κατάλογος Αλληλογραφίας
-    description: Το Talk-de είναι ο επίσημος κατάλογος αλληλογραφίας για την Γερμανική κοινότητα του OSM
-  dk-mailinglist:
-    name: Talk-dk Κατάλογος Αλληλογραφίας
-    description: Μια λίστα αλληλογραφίας συζήτησης για το OpenStreetMap στη Δανία
-  fr-facebook:
-    name: Σελίδα Facebook του OpenStreetMap στη Γαλλία
-    description: Σελίδα Facebook του OpenStreetMap στη Γαλλία
-  fr-forum:
-    name: Διαδικτυακό φόρουμ του OpenStreetMap στη Γαλλία
-    description: Διαδικτυακό φόρουμ του OpenStreetMap στη Γαλλία
-  fr-mailinglist:
-    name: Talk-fr Κατάλογος Αλληλογραφίας
-    description: Talk-fr κατάλογος αλληλογραφίας
-  fr-twitter:
-    name: Το OpenStreetMap της Γαλλίας στο Twitter
-    description: 'Το OpenStreetMap της Γαλλίας στο Twitter: {url}'
-  gb-mailinglist:
-    name: Talk-gb Κατάλογος Αλληλογραφίας
-  gr-mailinglist:
-    description: To Talk-gr είναι ο επίσημος κατάλογος αλληλογραφίας για την Ελληνική κοινότητα του OSM
-  hu-facebook:
-    name: Το OpenStreetMap HU στο Facebook
-    description: Χαρτογράφοι και Facebook του OpenStreetMap στην Ουγγαρία
-  hu-forum:
-    name: 'Φόρουμ του OpenStreetMap HU '
-    description: Διαδικτυακό φόρουμ OpenStreetMap Ουγγαρίας
+  gr-matrix:
+    name: OpenStreetMap Ελλάδα Matrix
   hu-meetup:
-    name: Συνάντηση του OpenStreetMap Ουγγαρίας
     description: Η πλατφόρμα για τη διοργάνωση συναντήσεων στην Ουγγαρία
-  it-facebook:
-    name: Το OpenStreetMap Ιταλίας στο Facebook
-    description: Λάβετε μέρος στην κοινότητα του OpenStreetMap Ιταλίας στο Facebook
-  it-mailinglist:
-    name: Talk-it Κατάλογος Αλληλογραφίας
-    description: Το Talk-it είναι ο επίσημος κατάλογος αλληλογραφίας για την Ιταλική κοινότητα του OSM
   no-irc:
-    description: 'Χώρος συζήτησης για τους ζαρτογράφους και τους χρήστες του OpenStreetMap, τους προγραμματιστές και τους λάτρεις στην Νορβηγία'
-  no-mailinglist:
-    name: Κατάλογος Αλληλογραφίας OpenStreetMap της Νορβηγίας
+    description: Χώρος συζήτησης για τους ζαρτογράφους και τους χρήστες του OpenStreetMap, τους προγραμματιστές και τους λάτρεις στην Νορβηγία
   osm-at:
-    name: OpenStreetMap στην Αυστρία
     description: Η πλατφόρμα για πληροφορίες σχετικά με το OpenStreetMap στην Αυστρία
   osm-de:
-    name: OpenStreetMap Γερμανίας
     description: Η πλατφόρμα για πληροφορίες σχετικά με το OpenStreetMap στη Γερμανία
   osm-gh-facebook:
-    name: Το OpenStreetMap της Γκάνα στο Facebook
-    description: Ομάδα στο Facebook για άτομα που ενδιαφέρονται για το OpenStreetMap.
-    extendedDescription: 'Χαρτογράφοι στην κοινότητα της Γκάνα, προωθούν εργασίες του OpenStreetMap και της Ανθρωπιστικής Ομάδας OpenStreetMap (HOT) στην Γκάνα. Ελάτε μαζί μας.'
-  osm-gh-twitter:
-    name: Το OpenStreetMap της Γκάνα στο Twitter
-    description: 'Ακολουθήστε μας στο Twitter: {url}'
+    extendedDescription: Χαρτογράφοι στην κοινότητα της Γκάνα, προωθούν εργασίες του OpenStreetMap και της Ανθρωπιστικής Ομάδας OpenStreetMap (HOT) στην Γκάνα. Ελάτε μαζί μας.
+  OSM-India-facebook:
+    description: Βελτιώστε το OpenStreetMap στην Ινδία
+    extendedDescription: Χαρτογράφηση στην Ινδία; Έχετε ερωτήσεις, θέλετε να συνδεθείτε με την κοινότητα εδώ; Ελάτε μαζί μας στο {url}. Είναι όλοι ευπρόσδεκτοι!
+  OSM-India-Puducherry-Facebook:
+    name: (FSHM) Κίνημα Ελεύθερου Λογισμικού & Υλικού - Facebook
+    description: Η FSHM Facebook σελίδα για να ξέρετε για εκδηλώσεις & δραστηριότητες της κοινότητας
+    extendedDescription: Η FSHM διοργανώνει εκδηλώσεις σχετικές με την τεχνολογία ελεύθερου λογισμικού / υλικού, τον ακτιβισμό και το OpenStreetMap. Η σελίδα στο FB είναι ο καλύτερος τρόπος για να διατηρείτε επαφή με τα γεγονότα της.
+  OSM-India-Puducherry-Matrix:
+    name: (FSHM) Κίνημα Ελεύθερου Λογισμικού & Υλικού - Matrix
+  OSM-india-twitter:
+    description: 'Είμαστε απλά ένα tweet μακριά: {url}'
+  OSM-japan-facebook:
+    description: Χαρτογράφοι και χρήστες του OpenStreetMap στην Ιαπωνία
+  OSM-japan-website:
+    description: Χαρτογράφοι και χρήστες του OpenStreetMap στην Ιαπωνία
   osm-mg-facebook:
-    name: Ομάδα Facebook Μαδαγασκάρης για το OpenStreetMap
     description: Ομάδα Facebook Μαδαγασκαριανών για άτομα που ενδιαφέρονται για το OpenStreetMap
   osmgraz-meetup:
     name: Συνάντηση κοινότητας OSM στο Γκρατς
     description: Μηνιαία συνάντηση της κοινότητας του OpenStreetMap στο Γκρατς
-  osmgraz-twitter:
-    name: Η OSM κοινότητα του Γκρατς στο twitter
-    description: Η OpenStreetMap κοινότητα του Γκρατς στο twitter
-  se-mailinglist:
-    name: Talk-se Κατάλογος Αλληλογραφίας
-    description: Μια λίστα αλληλογραφίας για να συζητήσετε το OpenStreetMap στη Σουηδία
-  talk-cz-mailinglist:
-    description: Το Talk-cz είναι ο επίσημος κατάλογος αλληλογραφίας για την Τσέχικη Κοινότητα
-  talk-gh:
-    name: Ταχυδρομική Λίστα Talk-gh
-    description: Το Talk-gh είναι η επίσημη ταχυδρομική λίστα για την κοινότητα OSM της Γκάνα.
   talk-mg:
-    name: Ταχυδρομική Λίστα Talk-gh
-    description: 'Τοποθεσία για τους συνδρομητές του OpenStreetMap, τις κοινότητες και τους χρήστες στη Μαδαγασκάρη για συμμετοχή και συζήτηση.'
+    description: Τοποθεσία για τους συνδρομητές του OpenStreetMap, τις κοινότητες και τους χρήστες στη Μαδαγασκάρη για συμμετοχή και συζήτηση.
