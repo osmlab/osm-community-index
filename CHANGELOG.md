@@ -18,6 +18,30 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
+
+# 4.0.0
+##### 2021-Apr-30
+* Added/updated hundreds of missing resources (mainly [#423], also [#445], [#454], [#456])
+* :warning: Changed file format to support default strings and token replacements (see [#30])
+  * Added `defaults.json` - now contains default translatable strings (e.g. `'description': 'The official mailing list for {community}'`)<br/>This makes much less work for our volunteer translators.
+  * Added `account` property as a companion to `type` (e.g. `'type': 'mailinglist', 'account': 'talk-ru'`)
+  * `strings` object now holds all the source strings, including `community`, `name`, `url`, `description`, `extendedDescription`
+  * `resolveStrings` function can be used resolve all the strings and also generate linkified strings<br/>This function is exported in ES6/CJS formats for downstream projects to use
+  * `completeFeatureCollection.json` now contains `resolved` Object with all the resolved strings
+* Many updates to project documentation
+* Added `npm run local` command to test the index locally ([#433])
+* <https://openstreetmap.community> now has option to generate a permalink ([#393], [#440])
+
+[#456]: https://github.com/osmlab/osm-community-index/issues/456
+[#454]: https://github.com/osmlab/osm-community-index/issues/454
+[#445]: https://github.com/osmlab/osm-community-index/issues/445
+[#440]: https://github.com/osmlab/osm-community-index/issues/440
+[#433]: https://github.com/osmlab/osm-community-index/issues/433
+[#423]: https://github.com/osmlab/osm-community-index/issues/423
+[#393]: https://github.com/osmlab/osm-community-index/issues/393
+[#30]: https://github.com/osmlab/osm-community-index/issues/30
+
+
 # 3.1.2
 ##### 2021-Mar-30
 * Added:
