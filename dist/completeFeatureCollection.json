@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "4.0.0",
-    "generated": "2021-04-30T19:23:31.015Z",
+    "generated": "2021-05-08T13:30:55.410Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "23f7fbca1389e6549b0baae9ca5e05af"
+    "hash": "12db530e386fbc134bb21b565a26dedb"
   },
   "type": "FeatureCollection",
   "features": [
@@ -43365,6 +43365,31 @@
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMLondon\">https://twitter.com/OSMLondon</a>",
               "descriptionHTML": "OpenStreetMap London on Twitter: <a target=\"_blank\" href=\"https://twitter.com/OSMLondon\">https://twitter.com/OSMLondon</a>"
             }
+          },
+          "ym-Queen-Mary-University-of-London": {
+            "id": "ym-Queen-Mary-University-of-London",
+            "type": "youthmappers",
+            "locationSet": {"include": [[-0.12, 51.5]]},
+            "order": -5,
+            "strings": {
+              "name": "Queen Mary YouthMappers",
+              "description": "YouthMappers chapter at Queen Mary University of London",
+              "extendedDescription": "This chapter will be part of the activities of the Queen Mary Geography Society.",
+              "url": "https://www.facebook.com/groups/qmulgeographysociety/"
+            },
+            "contacts": [
+              {"name": "Organizer", "email": "youthmappers@qmul.ac.uk"}
+            ],
+            "resolved": {
+              "name": "Queen Mary YouthMappers",
+              "url": "https://www.facebook.com/groups/qmulgeographysociety/",
+              "description": "YouthMappers chapter at Queen Mary University of London",
+              "extendedDescription": "This chapter will be part of the activities of the Queen Mary Geography Society.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/qmulgeographysociety/\">Queen Mary YouthMappers</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/qmulgeographysociety/\">https://www.facebook.com/groups/qmulgeographysociety/</a>",
+              "descriptionHTML": "YouthMappers chapter at Queen Mary University of London",
+              "extendedDescriptionHTML": "This chapter will be part of the activities of the Queen Mary Geography Society."
+            }
           }
         }
       },
@@ -47316,58 +47341,6 @@
             [9.533, 45.529],
             [9.417, 45.641],
             [9.229, 45.684]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "[-0.04049,51.52382]",
-      "properties": {
-        "id": "[-0.04049,51.52382]",
-        "area": 1963.5,
-        "resources": {
-          "ym-Queen-Mary-University-of-London": {
-            "id": "ym-Queen-Mary-University-of-London",
-            "type": "youthmappers",
-            "locationSet": {"include": [[-0.04049, 51.52382]]},
-            "strings": {
-              "name": "Queen Mary YouthMappers",
-              "description": "YouthMappers chapter at Queen Mary University of London",
-              "extendedDescription": "This chapter will be part of the activities of the Queen Mary Geography Society.",
-              "url": "https://www.facebook.com/groups/qmulgeographysociety/"
-            },
-            "contacts": [
-              {"name": "Organizer", "email": "youthmappers@qmul.ac.uk"}
-            ],
-            "resolved": {
-              "name": "Queen Mary YouthMappers",
-              "url": "https://www.facebook.com/groups/qmulgeographysociety/",
-              "description": "YouthMappers chapter at Queen Mary University of London",
-              "extendedDescription": "This chapter will be part of the activities of the Queen Mary Geography Society.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/qmulgeographysociety/\">Queen Mary YouthMappers</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/qmulgeographysociety/\">https://www.facebook.com/groups/qmulgeographysociety/</a>",
-              "descriptionHTML": "YouthMappers chapter at Queen Mary University of London",
-              "extendedDescriptionHTML": "This chapter will be part of the activities of the Queen Mary Geography Society."
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-0.04, 51.748],
-            [-0.254, 51.705],
-            [-0.384, 51.593],
-            [-0.383, 51.454],
-            [-0.252, 51.342],
-            [-0.04, 51.299],
-            [0.171, 51.342],
-            [0.302, 51.454],
-            [0.303, 51.593],
-            [0.173, 51.705],
-            [-0.04, 51.748]
           ]
         ]
       }
