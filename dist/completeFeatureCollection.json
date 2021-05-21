@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "4.0.0",
-    "generated": "2021-05-08T13:30:55.410Z",
+    "generated": "2021-05-21T20:29:40.923Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "12db530e386fbc134bb21b565a26dedb"
+    "hash": "e3aa3a2bd69d0c6d16dc173288a6813d"
   },
   "type": "FeatureCollection",
   "features": [
@@ -24258,6 +24258,42 @@
               "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osm_nl\">https://t.me/osm_nl</a>",
               "descriptionHTML": "Join our community Telegram chat"
             }
+          },
+          "nl-wonderme": {
+            "id": "nl-wonderme",
+            "type": "url",
+            "locationSet": {"include": ["nl"]},
+            "languageCodes": ["nl"],
+            "strings": {
+              "community": "OpenStreetMap Netherlands",
+              "name": "{community} on Wonder.me",
+              "description": "Virtual meeting room",
+              "url": "https://tiny.cc/osmnl"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Netherlands on Wonder.me",
+              "url": "https://tiny.cc/osmnl",
+              "description": "Virtual meeting room",
+              "nameHTML": "<a target=\"_blank\" href=\"https://tiny.cc/osmnl\">OpenStreetMap Netherlands on Wonder.me</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://tiny.cc/osmnl\">https://tiny.cc/osmnl</a>",
+              "descriptionHTML": "Virtual meeting room"
+            }
+          },
+          "talk-nl": {
+            "id": "talk-nl",
+            "type": "mailinglist",
+            "account": "talk-nl",
+            "locationSet": {"include": ["nl"]},
+            "languageCodes": ["nl"],
+            "strings": {"community": "OpenStreetMap Netherlands"},
+            "resolved": {
+              "name": "talk-nl Mailing List",
+              "url": "https://lists.openstreetmap.org/listinfo/talk-nl",
+              "description": "The official mailing list for OpenStreetMap Netherlands",
+              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-nl\">talk-nl Mailing List</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-nl\">https://lists.openstreetmap.org/listinfo/talk-nl</a>",
+              "descriptionHTML": "The official mailing list for OpenStreetMap Netherlands"
+            }
           }
         }
       },
@@ -32009,6 +32045,31 @@
               "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmkerala\">https://facebook.com/osmkerala</a>",
               "descriptionHTML": "Improve OpenStreetMap in Kerala",
               "extendedDescriptionHTML": "Mapping in Kerala ? Have questions, want to connect with the community here? Join us at <a target=\"_blank\" href=\"https://facebook.com/osmkerala\">https://facebook.com/osmkerala</a>. All are welcome!"
+            }
+          },
+          "osm-kerala-github": {
+            "id": "osm-kerala-github",
+            "type": "github",
+            "account": "osmkerala",
+            "locationSet": {"include": ["india_kerala.geojson"]},
+            "strings": {
+              "community": "OpenStreetMap Kerala",
+              "description": "Code with us: {url}"
+            },
+            "contacts": [
+              {
+                "name": "Manoj Karingamadathil",
+                "email": "dartermanoj@gmail.com"
+              },
+              {"name": "Naveen Francis", "email": "naveenpf@gmail.com"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Kerala GitHub",
+              "url": "https://github.com/osmkerala",
+              "description": "Code with us: https://github.com/osmkerala",
+              "nameHTML": "<a target=\"_blank\" href=\"https://github.com/osmkerala\">OpenStreetMap Kerala GitHub</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://github.com/osmkerala\">https://github.com/osmkerala</a>",
+              "descriptionHTML": "Code with us: <a target=\"_blank\" href=\"https://github.com/osmkerala\">https://github.com/osmkerala</a>"
             }
           },
           "osm-kerala-matrix": {

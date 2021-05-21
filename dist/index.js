@@ -4,7 +4,9 @@
   (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.oci = {}));
 }(this, (function (exports) { 'use strict';
 
-  var remove = removeDiacritics;
+  var diacritics$1 = {};
+
+  diacritics$1.remove = removeDiacritics;
 
   var replacementList = [
     {
@@ -318,18 +320,14 @@
     });
   }
 
-  var replacementList_1 = replacementList;
-  var diacriticsMap_1 = diacriticsMap;
+  diacritics$1.replacementList = replacementList;
+  diacritics$1.diacriticsMap = diacriticsMap;
 
-  var diacritics = {
-  	remove: remove,
-  	replacementList: replacementList_1,
-  	diacriticsMap: diacriticsMap_1
-  };
+  const diacritics = diacritics$1;
 
   // remove spaces, punctuation, diacritics
   // for punction see https://stackoverflow.com/a/21224179
-  var simplify = (str) => {
+  var simplify$1 = (str) => {
     if (typeof str !== 'string') return '';
 
     return diacritics.remove(
@@ -340,6 +338,8 @@
         .toLowerCase()
     );
   };
+
+  const simplify = simplify$1;
 
   //
   // `resolveStrings`
