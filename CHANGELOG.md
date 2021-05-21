@@ -19,6 +19,19 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 4.0.1
+##### 2021-May-21
+Added:
+  * OSM Kerala GitHub ([#463])
+  * OSM Netherlands Mailing List and Wonder.me ([#462])
+* Updated:
+  * Adjust sort of resources around London ([#460])
+
+[#463]: https://github.com/osmlab/osm-community-index/issues/463
+[#462]: https://github.com/osmlab/osm-community-index/issues/462
+[#460]: https://github.com/osmlab/osm-community-index/issues/460
+
+
 # 4.0.0
 ##### 2021-Apr-30
 * Added/updated hundreds of missing resources (mainly [#423], also [#445], [#454], [#456])
