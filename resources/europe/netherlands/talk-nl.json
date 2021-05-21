@@ -1,12 +1,8 @@
 {
-  "id": "nl-mailinglist",
+  "id": "talk-nl",
   "type": "mailinglist",
   "account": "talk-nl",
-  "locationSet": { "include": ["nl"] },
+  "locationSet": {"include": ["nl"]},
   "languageCodes": ["nl"],
-  "strings": {
-    "community": "OpenStreetMap NL",
-    "description": "Dutch OpenStreetMap mailing list",
-    "url": "https://lists.openstreetmap.org/pipermail/talk-nl/"
-  }
+  "strings": {"community": "OpenStreetMap Netherlands"}
 }
