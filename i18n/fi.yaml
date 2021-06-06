@@ -1,62 +1,79 @@
 fi:
-  OSM-AR-twitter:
-    description: 'Seuraa Twitter-tiliämme osoitteessa {url}'
-  OSM-BGD-facebook:
-    name: OpenStreetMap Bangladesh
-    description: Paranna Bangladeshin OpenStreetMapia
-  OSM-CL-twitter:
-    description: 'Seuraa Twitter-tiliämme osoitteessa {url}'
-  OSM-CO-twitter:
-    description: 'Seuraa Twitter-tiliämme osoitteessa {url}'
+  _communities:
+    openstreetmap: OpenStreetMap
+    openstreetmapafghanistan: OpenStreetMap Afganistan
+    openstreetmapafrica: OpenStreetMap Afrikka
+    openstreetmapalbania: OpenStreetMap Albania
+    openstreetmapalgeria: OpenStreetMap Algeria
+    openstreetmapargentina: OpenStreetMap Argentiina
+    openstreetmapasia: OpenStreetMap Aasia
+    openstreetmapaustria: OpenStreetMap Itävalta
+    openstreetmapbahia: OpenStreetMap Bahia
+    openstreetmapbangladesh: OpenStreetMap Bangladesh
+    openstreetmapbelarus: OpenStreetMap Valkovenäjä
+    openstreetmapbelgium: OpenStreetMap Belgia
+    openstreetmapbenin: OpenStreetMap Benin
+    openstreetmapberlin: OpenStreetMap Berliini
+    openstreetmapbolivia: OpenStreetMap Bolivia
+    openstreetmapbosniaandherzegovina: OpenStreetMap Bosnia ja Hertsegovina
+    openstreetmapbremen: OpenStreetMap Bremen
+    openstreetmapbulgaria: OpenStreetMap Bulgaria
+    openstreetmapburkinafaso: OpenStreetMap Burkina Faso
+    openstreetmapburundi: OpenStreetMap Burundi
+    openstreetmapcambodia: OpenStreetMap Kambodža
+    openstreetmapcameroon: OpenStreetMap Kamerun
+    openstreetmapcanada: OpenStreetMap Kanada
+    openstreetmapchad: OpenStreetMap Tšad
+    openstreetmapchile: OpenStreetMap Chile
+    openstreetmapchina: OpenStreetMap Kiina
+    openstreetmapcolombia: OpenStreetMap Kolumbia
+    openstreetmapcostarica: OpenStreetMap Costa Rica
+    openstreetmapcotedivoire: OpenStreetMap Norsunluurannikko
+    openstreetmapcroatia: OpenStreetMap Kroatia
+    openstreetmapcuba: OpenStreetMap Kuuba
+    openstreetmapdenmark: OpenStreetMap Tanska
+    openstreetmapdjibouti: OpenStreetMap Djibouti
+    openstreetmapdominicanrepublic: OpenStreetMap Dominikaaninen tasavalta
+    openstreetmapecuador: OpenStreetMap Ecuador
+    openstreetmapegypt: OpenStreetMap Egypti
+    openstreetmaperitrea: OpenStreetMap Eritrea
+    openstreetmapespana: OpenStreetMap Espanja
+    openstreetmapethiopia: OpenStreetMap Etiopia
+    openstreetmapfinland: OpenStreetMap Suomi
+    openstreetmapfrance: OpenStreetMap Ranska
+    openstreetmapgermany: OpenStreetMap Saksa
+    openstreetmapgreece: OpenStreetMap Kreikka
+    openstreetmaphungary: OpenStreetMap Unkari
+    openstreetmapiceland: OpenStreetMap Islanti
+    openstreetmapindia: OpenStreetMap Intia
+    openstreetmapiran: OpenStreetMap Iran
+    openstreetmapiraq: OpenStreetMap Irak
+    openstreetmapireland: OpenStreetMap Irlanti
+    openstreetmapitaly: OpenStreetMap Italia
+    openstreetmapjapan: OpenStreetMap Japani
+    openstreetmapkorea: OpenStreetMap Korea
+    openstreetmapmexico: OpenStreetMap Meksiko
+    openstreetmapnorway: OpenStreetMap Norja
+    openstreetmappoland: OpenStreetMap Puola
+    openstreetmapportugal: OpenStreetMap Portugali
+    openstreetmaprussia: OpenStreetMap Venäjä
+    openstreetmapserbia: OpenStreetMap Serbia
+    openstreetmapsweden: OpenStreetMap Ruotsi
+    openstreetmapswitzerland: OpenStreetMap Sveitsi
+    openstreetmapsyria: OpenStreetMap Syyria
+    openstreetmapthailand: OpenStreetMap Thaimaa
+    openstreetmapturkey: OpenStreetMap Turkki
+    openstreetmapus: OpenStreetMap Yhdysvallat
   OSM-Facebook:
-    name: OpenStreetMap Facebookissa
     description: Pysy ajan tasalla tuoreimmista OpenStreetMap-uutisista tykkäämällä meistä Facebookissa.
-  OSM-India-facebook:
-    description: Paranna Intian OpenStreetMapia
-  OSM-PE-twitter:
-    description: 'Seuraa Twitter-tiliämme osoitteessa {url}'
-  OSM-Reddit:
-    name: OpenStreetMap Redditissä
-    description: /r/openstreetmap/ on näppärä tapa oppia lisää OpenStreetMapista. Kysy mitä tahansa!
-  OSM-Twitter:
-    description: 'Seuraa Twitter-tiliämme osoitteessa {url}'
-  OSM-br-twitter:
-    description: 'Seuraa Twitter-tiliämme osoitteessa {url}'
   OSM-help:
     description: Hanki vastauksia kysymyksiisi OpenStreetMapin yhteisön ylläpitämällä vastausfoorumilla.
+  OSM-India-facebook:
+    description: Paranna Intian OpenStreetMapia
+  osm-se:
+    description: OSM-palvelut ja -neuvonta Ruotsin paikallisyhteisölle
   OSMF:
     name: OpenStreetMap-säätiö
     description: OSMF on Iso-Britanniasta toimiva voittoa tavoittelematon, OpenStreetMapin toimintaa edistävä säätiö
   PHXGeo-twitter:
-    description: 'Seuraa Twitter-tiliämme osoitteessa {url}'
-  de-mailinglist:
-    description: Talk-de on Saksan OSM-yhteisön virallinen sähköpostituslista
-  fi-forum:
-    name: OpenStreetMap Suomen keskustelualue
-    description: OpenStreetMap Suomen keskustelualue verkossa
-  fi-irc:
-    name: OpenStreetMap Suomen irc-kanava
-    description: 'Osallistu #osm-fi-kanavalle osoitteessa irc.oftc.net (portti 6667)'
-  fi-mailinglist:
-    name: Talk-fi-sähköpostituslista
-    description: Talk-fi on Suomen OSM-yhteisön virallinen sähköpostituslista
-  it-mailinglist:
-    description: Talk-it on Italian OSM-yhteisön virallinen sähköpostituslista
-  it-twitter:
-    description: 'Seuraa Twitter-tiliämme osoitteessa {url}'
-  osm-gh-twitter:
-    description: 'Seuraa Twitter-tiliämme osoitteessa {url}'
-  osm-se:
-    description: OSM-palvelut ja -neuvonta Ruotsin paikallisyhteisölle
-  se-facebook:
-    name: OpenStreetMap Ruotsi Facebookissa
-    description: OpenStreetMap Ruotsin Facebook-sivu
-  se-forum:
-    name: OpenStreetMap Ruotsin keskustelualue verkossa
-    description: OpenStreetMap Ruotsin keskustelualue verkossa
-  se-irc:
-    name: 'OpenStreetMap Ruotsin irc-kanava '
-  se-mailinglist:
-    description: OpenStreetMapin postituslista avointa keskustelua varten
-  se-twitter:
-    name: OpenStreetMap Ruotsi Twitterissä
+    description: Seuraa Twitter-tiliämme osoitteessa {url}
