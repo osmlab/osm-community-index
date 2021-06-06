@@ -19,6 +19,11 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 4.0.2
+##### 2021-Jun-06
+* Bump to location-conflation v0.9.0 / country-coder v4.1.0
+
+
 # 4.0.1
 ##### 2021-May-21
 Added:
