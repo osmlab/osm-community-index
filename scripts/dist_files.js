@@ -1,16 +1,17 @@
-const colors = require('colors/safe');
-const fs = require('fs');
-const glob = require('glob');
-const JSON5 = require('json5');
-const LocationConflation = require('@ideditor/location-conflation');
-const resolveStrings = require('../lib/resolve_strings.js');
-const shell = require('shelljs');
-const stringify = require('@aitodotai/json-stringify-pretty-compact');
-const writeFileWithMeta = require('../lib/write_file_with_meta.js');
+import colors from 'colors/safe.js';
+import fs from 'node:fs';
+import glob from 'glob';
+import JSON5 from 'json5';
+import LocationConflation from '@ideditor/location-conflation';
+import shell from 'shelljs';
+import stringify from '@aitodotai/json-stringify-pretty-compact';
 
-const featureCollection = require('../dist/featureCollection.json');
-const resources = require('../dist/resources.json').resources;
-const defaults = require('../defaults.json');
+import { resolveStrings } from '../lib/resolve_strings.js';
+import { writeFileWithMeta } from '../lib/write_file_with_meta.js';
+
+const featureCollection = JSON.parse(fs.readFileSync('./dist/featureCollection.json', 'utf8'));
+const resources = JSON.parse(fs.readFileSync('./dist/resources.json', 'utf8')).resources;
+const defaults = JSON.parse(fs.readFileSync('./defaults.json', 'utf8'));
 
 buildAll();
 

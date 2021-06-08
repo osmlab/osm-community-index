@@ -1,1 +1,1 @@
-export { default as resolveStrings } from './lib/resolve_strings.js';
+export { resolveStrings } from './lib/resolve_strings.js';

@@ -16,14 +16,18 @@
     "OpenStreetMap",
     "community"
   ],
-  "main": "dist/index.js",
+  "type": "module",
   "module": "index.mjs",
+  "main": "./dist/oci.cjs.js",
+  "browser": "./dist/oci.iife.js",
   "scripts": {
     "all": "run-s test dist",
-    "build": "node scripts/build_index.js",
-    "dist": "run-s dist:files dist:javascript",
+    "build": "run-s build:**",
+    "build:index": "node scripts/build_index.js",
+    "dist": "run-s dist:**",
+    "dist:browser": "esbuild index.mjs --platform=browser --format=iife --global-name=oci --bundle --sourcemap --outfile=./dist/oci.iife.js",
+    "dist:cjs": "esbuild index.mjs --platform=node --format=cjs --outfile=./dist/oci.cjs.js",
     "dist:files": "node scripts/dist_files.js",
-    "dist:javascript": "rollup -c",
     "icons": "node scripts/build_icons.js",
     "lint": "eslint scripts/*.js lib/*.js tests/*.js",
     "tap": "tap --reporter terse --no-check-coverage tests/*.js",
@@ -33,6 +37,9 @@
     "txpush": "tx push -s",
     "local": "run-s build dist && node scripts/build_local.js && http-server docs-local"
   },
+  "dependencies": {
+    "diacritics": "^1.3.0"
+  },
   "devDependencies": {
     "@aitodotai/json-stringify-pretty-compact": "^1.3.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
@@ -41,13 +48,11 @@
     "@ideditor/location-conflation": "0.9.0",
     "@mapbox/geojson-area": "^0.2.2",
     "@mapbox/geojson-rewind": "^0.5.0",
-    "@rollup/plugin-commonjs": "^19.0.0",
-    "@rollup/plugin-node-resolve": "^13.0.0",
     "bytes": "^3.1.0",
     "colors": "^1.4.0",
-    "diacritics": "^1.3.0",
     "easy-table": "^1.1.1",
-    "eslint": "^7.26.0",
+    "esbuild": "^0.12.6",
+    "eslint": "^7.28.0",
     "fs-extra": "^10.0.0",
     "geojson-bounds": "^1.0.2",
     "geojson-precision": "^1.0.0",
@@ -58,11 +63,10 @@
     "jsonschema": "^1.4.0",
     "locale-compare": "^1.0.0",
     "npm-run-all": "^4.1.5",
-    "rollup": "^2.47.0",
     "shelljs": "^0.8.4",
     "tap": "^15.0.9"
   },
   "engines": {
-    "node": ">=10"
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
   }
 }

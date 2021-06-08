@@ -1,5 +1,5 @@
-const test = require('tap').test;
-const resolveStrings = require('../lib/resolve_strings.js');
+import { test } from 'tap';
+import { resolveStrings } from '../lib/resolve_strings.js';
 
 const item = {
   id: 'talk-ru',

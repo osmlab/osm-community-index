@@ -1,27 +1,30 @@
-const colors = require('colors/safe');
-const fs = require('fs');
-const glob = require('glob');
-const JSON5 = require('json5');
-const LocationConflation = require('@ideditor/location-conflation');
-const path = require('path');
-const geojsonArea = require('@mapbox/geojson-area');
-const geojsonBounds = require('geojson-bounds');
-const geojsonPrecision = require('geojson-precision');
-const geojsonRewind = require('@mapbox/geojson-rewind');
-const shell = require('shelljs');
-const stringify = require('@aitodotai/json-stringify-pretty-compact');
-const Validator = require('jsonschema').Validator;
-const withLocale = require('locale-compare')('en-US');
-const writeFileWithMeta = require('../lib/write_file_with_meta.js');
-const YAML = require('js-yaml');
+import colors from 'colors/safe.js';
+import fs from 'node:fs';
+import glob from 'glob';
+import JSON5 from 'json5';
+import jsonschema from 'jsonschema';
+import LocationConflation from '@ideditor/location-conflation';
+import localeCompare from 'locale-compare';
+import path from 'node:path';
+import geojsonArea from '@mapbox/geojson-area';
+import geojsonBounds from 'geojson-bounds';
+import geojsonPrecision from 'geojson-precision';
+import geojsonRewind from '@mapbox/geojson-rewind';
+import shell from 'shelljs';
+import stringify from '@aitodotai/json-stringify-pretty-compact';
+import YAML from 'js-yaml';
 
-const resolveStrings = require('../lib/resolve_strings.js');
-const sortObject = require('../lib/sort_object.js');
-const simplify = require('../lib/simplify.js');
+const withLocale = localeCompare('en-US');
+const Validator = jsonschema.Validator;
 
-const geojsonSchema = require('../schema/geojson.json');
-const featureSchema = require('../schema/feature.json');
-const resourceSchema = require('../schema/resource.json');
+import { resolveStrings } from '../lib/resolve_strings.js';
+import { sortObject } from '../lib/sort_object.js';
+import { simplify } from '../lib/simplify.js';
+import { writeFileWithMeta } from '../lib/write_file_with_meta.js';
+
+const geojsonSchema = JSON.parse(fs.readFileSync('./schema/geojson.json', 'utf8'));
+const featureSchema = JSON.parse(fs.readFileSync('./schema/feature.json', 'utf8'));
+const resourceSchema = JSON.parse(fs.readFileSync('./schema/resource.json', 'utf8'));
 
 let v = new Validator();
 v.addSchema(geojsonSchema, 'http://json.schemastore.org/geojson.json');

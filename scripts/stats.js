@@ -1,9 +1,9 @@
-const bytes = require('bytes');
-const colors = require('colors/safe');
-const fs = require('fs');
-const glob = require('glob');
-const path = require('path');
-const Table = require('easy-table');
+import bytes from 'bytes';
+import colors from 'colors/safe.js';
+import fs from 'node:fs';
+import glob from 'glob';
+import path from 'node:path';
+import Table from 'easy-table';
 
 getStats();
 
