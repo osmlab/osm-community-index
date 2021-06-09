@@ -1,11 +1,11 @@
 import { test } from 'tap';
-import { resolveStrings } from '../lib/resolve_strings.js';
+import { resolveStrings } from '../index.mjs';
 
 const item = {
   id: 'talk-ru',
   type: 'mailinglist',
   account: 'talk-ru',
-  strings: {community: 'OpenStreetMap Russia'}
+  strings: { community: 'OpenStreetMap Russia' }
 };
 
 const defaults = {
@@ -75,7 +75,7 @@ test('resolveStrings', t => {
       id: 'talk-ru',
       type: 'mailinglist',
       // account: 'talk-ru',     // missing account!
-      strings: {community: 'OpenStreetMap Russia'}
+      strings: { community: 'OpenStreetMap Russia' }
     };
 
     t.throws(() => resolveStrings(missing, defaults), /cannot resolve token:/i);
