@@ -24,23 +24,18 @@ function buildAll() {
   console.log(START);
   console.time(END);
 
-  // Start clean
-  shell.rm('-f', [
-    'dist/completeFeatureCollection*',
-    'dist/*.min.json'
-  ]);
-
-  const combined = generateCombined(resources, featureCollection);
 
   // Refresh some files already in `/dist`, update metadata to match version
   refreshMeta('resources.json');
   refreshMeta('featureCollection.json');
 
   // Save individual data files
+  const combined = generateCombined(resources, featureCollection);
   writeFileWithMeta(`dist/defaults.json`, stringify(defaults) + '\n');
   writeFileWithMeta('dist/completeFeatureCollection.json', stringify(combined) + '\n');
 
   // minify all .json files under dist/
+  shell.rm('-f', ['dist/*.min.json']);  // start clean
   glob.sync(`dist/**/*.json`).forEach(file => {
     const minFile = file.replace('.json', '.min.json');
     minifySync(file, minFile);

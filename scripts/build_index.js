@@ -10,7 +10,6 @@ import geojsonArea from '@mapbox/geojson-area';
 import geojsonBounds from 'geojson-bounds';
 import geojsonPrecision from 'geojson-precision';
 import geojsonRewind from '@mapbox/geojson-rewind';
-import shell from 'shelljs';
 import stringify from '@aitodotai/json-stringify-pretty-compact';
 import YAML from 'js-yaml';
 
@@ -43,13 +42,6 @@ function buildAll() {
   console.log('');
   console.log(START);
   console.time(END);
-
-  // Start clean
-  shell.rm('-f', [
-    'dist/featureCollection.json',
-    'dist/resources.json',
-    'i18n/en.yaml'
-  ]);
 
   // Defaults
   _defaults = collectDefaults();
