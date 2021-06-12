@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "4.0.2",
-    "generated": "2021-06-06T09:45:08.070Z",
+    "generated": "2021-06-12T15:40:43.679Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "77448c1c5c155383051bbcbca357537d"
+    "hash": "c917df746288525e5f5bb7a14328896f"
   },
   "resources": {
     "af-facebook": {"id": "af-facebook", "type": "facebook", "locationSet": {"include": ["af"]}, "languageCodes": ["en", "fa", "ps"], "order": 3, "strings": {"community": "OpenStreetMap Afghanistan", "url": "https://www.facebook.com/groups/321292812113316/"}, "contacts": [{"name": "Walker Kosmidou-Bradley", "email": "walker.t.bradley@gmail.com"}]},
@@ -280,7 +280,7 @@
     "OSM-CO": {"id": "OSM-CO", "type": "group", "locationSet": {"include": ["co"]}, "languageCodes": ["es"], "strings": {"community": "OpenStreetMap Colombia", "description": "News of the OpenStreetMap Colombia community and the OSMCo Foundation", "url": "https://blog.openstreetmap.co/s657"}, "contacts": [{"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}]},
     "OSM-Colorado": {"id": "OSM-Colorado", "type": "meetup", "account": "OSM-Colorado", "locationSet": {"include": ["colorado.geojson"]}, "languageCodes": ["en"], "order": 5, "strings": {"name": "OpenStreetMap Colorado", "description": "Mappers and OpenStreetMap users in the state of Colorado, USA", "extendedDescription": "OpenStreetMap (OSM) Colorado is a local collaboration of people interested in contributing their efforts to create free maps. We encourage all of our mappers to organize or suggest mapping events throughout the state. Meetup activities can be simple social mixers, OSM basic to advanced training, or community mapping parties."}, "contacts": [{"name": "Diane Fritz", "email": "frizatch@gmail.com"}]},
     "osm-de": {"id": "osm-de", "type": "osm-lc", "locationSet": {"include": ["de"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Germany", "description": "The platform for information on OpenStreetMap in Germany", "url": "https://www.openstreetmap.de/"}, "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}]},
-    "OSM-Discord": {"id": "OSM-Discord", "type": "discord", "account": "4smYkq3gzp", "locationSet": {"include": ["001"]}, "languageCodes": ["de", "en", "es", "fr", "it", "pt-BR", "ro", "tr"], "order": 6, "strings": {"name": "OpenStreetMap World Discord"}, "contacts": [{"name": "Austin Harrison", "email": "jaustinharrison@gmail.com"}]},
+    "OSM-Discord": {"id": "OSM-Discord", "type": "discord", "account": "openstreetmap", "locationSet": {"include": ["001"]}, "languageCodes": ["de", "en", "es", "fr", "it", "pt-BR", "ro", "tr"], "order": 6, "strings": {"name": "OpenStreetMap World Discord"}, "contacts": [{"name": "Austin Harrison", "email": "jaustinharrison@gmail.com"}]},
     "OSM-dj-facebook": {"id": "OSM-dj-facebook", "type": "facebook", "account": "OpenStreetMapDjibouti", "locationSet": {"include": ["dj"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Djibouti"}},
     "OSM-dj-twitter": {"id": "OSM-dj-twitter", "type": "twitter", "account": "djiboutiosm", "locationSet": {"include": ["dj"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Djibouti"}},
     "osm-east-africa-forum": {"id": "osm-east-africa-forum", "type": "forum", "account": "88", "locationSet": {"include": ["014"]}, "strings": {"name": "OpenStreetMap East Africa Forum", "description": "Chat with other members of the East African OSM community"}},
