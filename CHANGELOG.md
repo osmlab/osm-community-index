@@ -3,9 +3,9 @@
 **osm-community-index** is an open source project. You can submit bug reports, help out,
 or learn more by visiting our project page on GitHub:  :octocat: https://github.com/osmlab/osm-community-index
 
-Please star our project on GitHub to show your support! :star:
+Please star our project on GitHub to show your support! ⭐️
 
-_Breaking changes, which may affect downstream projects, are marked with a_ :warning:
+_Breaking changes, which may affect downstream projects, are marked with a_ ⚠️
 
 
 <!--
@@ -18,6 +18,22 @@ _Breaking changes, which may affect downstream projects, are marked with a_ :war
 
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
+
+# 5.0.0
+##### 2021-Jun-18
+* Bump to location-conflation v1.0.1 / country-coder v5.0.1
+* ⚠️  Replace rollup with [esbuild](https://esbuild.github.io/) for super fast build speed. Package exports are now:
+  * `"module": "./index.mjs"` - ESM, modern JavaScript, works with `import`
+  * `"main": "./dist/oci.cjs"` - CJS bundle, modern JavaScript, works with `require()`
+  * `"browser": "./dist/oci.iife.js"` - IIFE bundle, modern JavaScript, works in browser `<script>` tag
+  * No longer distributing ES5 builds
+* ⚠️  osm-community-index is marked as `"type": "module"` now
+* ⚠️  Dropped support for old browsers like Internet Explorer on https://openstreetmap.community
+* Updated:
+  * Update OSM World Discord to the new vanity URL ([#464])
+
+[#464]: https://github.com/osmlab/osm-community-index/issues/464
+
 
 # 4.0.2
 ##### 2021-Jun-06
@@ -40,7 +56,7 @@ Added:
 # 4.0.0
 ##### 2021-Apr-30
 * Added/updated hundreds of missing resources (mainly [#423], also [#445], [#454], [#456])
-* :warning: Changed file format to support default strings and token replacements (see [#30])
+* ⚠️  Changed file format to support default strings and token replacements (see [#30])
   * Added `defaults.json` - now contains default translatable strings (e.g. `'description': 'The official mailing list for {community}'`)<br/>This makes much less work for our volunteer translators.
   * Added `account` property as a companion to `type` (e.g. `'type': 'mailinglist', 'account': 'talk-ru'`)
   * `strings` object now holds all the source strings, including `community`, `name`, `url`, `description`, `extendedDescription`
@@ -160,8 +176,8 @@ Added:
 * Dependencies:
   * Upgrade to location-conflation v0.6 / country-coder v4.0
 * Breaking Changes:
-  * :warning: Removed unneeded `index.mjs` and `index.js` JavaScript bundles
-  * :warning: Renamed files for consistency and clarity:
+  * ⚠️  Removed unneeded `index.mjs` and `index.js` JavaScript bundles
+  * ⚠️  Renamed files for consistency and clarity:
     * `dist/features.json` -> `dist/featureCollection.json`
     * `dist/combined.geojson` -> `dist/completeFeatureCollection.json`
 
@@ -264,8 +280,8 @@ Added:
 ##### 2020-Jan-15
 
 * Updated:
-  * :warning: Build environment now requires Node 10 or greater.
-  * :warning: New approach to specifying locations introduces some breaking changes but shrinks the data significantly. See [CONTRIBUTING.md](CONTRIBUTING.md) for details.  ([#298], [#291])
+  * ⚠️  Build environment now requires Node 10 or greater.
+  * ⚠️  New approach to specifying locations introduces some breaking changes but shrinks the data significantly. See [CONTRIBUTING.md](CONTRIBUTING.md) for details.  ([#298], [#291])
     * Resource files now use a `locationSet` property to make it easier to specify where the resources are included and excluded.
     * Removed: `countryCodes` properties
     * Removed: `featureId` properties and most `.geojson` files (everything that was just a country or a circular point is now gone, as it can be calculated)
@@ -347,7 +363,7 @@ Added:
 
 * New:
   * Features now include an automatically calculated `area` property, making it easier for downstream projects to sort resources by area ([#286])
-    * :warning: This new property breaks backward compatibility of the `combined.geojson` files.
+    * ⚠️  This new property breaks backward compatibility of the `combined.geojson` files.
   * Add an `osm-lc` type and `osm-lc.svg` icon for official OSM Local Chapters (see [#1])
   * Resources now support an `order` property, to allow communities to control how their resources are sorted ([#114])
   * Resource `contacts` property is now optional
