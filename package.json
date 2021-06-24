@@ -23,19 +23,20 @@
     "lib/"
   ],
   "type": "module",
-  "main": "./dist/oci.cjs",
+  "main": "./dist/javascript/oci.cjs",
   "module": "./index.mjs",
   "exports": {
     "import": "./index.mjs",
-    "require": "./dist/oci.cjs"
+    "require": "./dist/javascript/oci.cjs",
+    "dist/*": "./dist/*"
   },
   "scripts": {
     "all": "run-s test dist",
     "build": "run-s build:**",
     "build:index": "node scripts/build_index.js",
     "dist": "run-s dist:**",
-    "dist:browser": "esbuild index.mjs --platform=browser --format=iife --global-name=oci --bundle --sourcemap --outfile=./dist/oci.iife.js",
-    "dist:cjs": "esbuild index.mjs --platform=node --format=cjs --bundle --sourcemap --external:diacritics --outfile=./dist/oci.cjs",
+    "dist:browser": "esbuild index.mjs --platform=browser --format=iife --global-name=oci --bundle --sourcemap --outfile=./dist/javascript/oci.iife.js",
+    "dist:cjs": "esbuild index.mjs --platform=node --format=cjs --bundle --sourcemap --external:diacritics --outfile=./dist/javascript/oci.cjs",
     "dist:files": "node scripts/dist_files.js",
     "icons": "node scripts/build_icons.js",
     "lint": "eslint scripts/*.js lib/*.js tests/*.js",
