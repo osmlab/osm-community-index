@@ -23,13 +23,11 @@
     "lib/"
   ],
   "type": "module",
-  "module": "./index.mjs",
   "main": "./dist/oci.cjs",
-  "browser": "./dist/oci.iife.js",
+  "module": "./index.mjs",
   "exports": {
-    "require": "./dist/oci.cjs",
     "import": "./index.mjs",
-    "browser": "./dist/oci.iife.js"
+    "require": "./dist/oci.cjs"
   },
   "scripts": {
     "all": "run-s test dist",
