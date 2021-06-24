@@ -1,3 +1,4 @@
+// External
 import colors from 'colors/safe.js';
 import fs from 'node:fs';
 import glob from 'glob';
@@ -14,19 +15,22 @@ import stringify from '@aitodotai/json-stringify-pretty-compact';
 import YAML from 'js-yaml';
 
 const withLocale = localeCompare('en-US');
-const Validator = jsonschema.Validator;
 
+// Internal
 import { resolveStrings } from '../lib/resolve_strings.js';
 import { sortObject } from '../lib/sort_object.js';
 import { simplify } from '../lib/simplify.js';
 import { writeFileWithMeta } from '../lib/write_file_with_meta.js';
 
-const geojsonSchema = JSON.parse(fs.readFileSync('./schema/geojson.json', 'utf8'));
-const featureSchema = JSON.parse(fs.readFileSync('./schema/feature.json', 'utf8'));
-const resourceSchema = JSON.parse(fs.readFileSync('./schema/resource.json', 'utf8'));
+// JSON
+import geojsonSchemaJSON from '../schema/geojson.json';
+import featureSchemaJSON from '../schema/feature.json';
+import resourceSchemaJSON from '../schema/resource.json';
 
+const Validator = jsonschema.Validator;
 let v = new Validator();
-v.addSchema(geojsonSchema, 'http://json.schemastore.org/geojson.json');
+v.addSchema(geojsonSchemaJSON, 'http://json.schemastore.org/geojson.json');
+
 
 let _tstrings = { _defaults: {}, _communities: {} };
 let _defaults = {};
@@ -144,7 +148,7 @@ function collectFeatures() {
     if (feature.geometry)   { obj.geometry = feature.geometry; }
     feature = obj;
 
-    validateFile(file, feature, featureSchema);
+    validateFile(file, feature, featureSchemaJSON);
     prettifyFile(file, feature, contents);
 
     if (files[id]) {
@@ -248,7 +252,7 @@ function collectResources(featureCollection) {
 
     item = obj;
 
-    validateFile(file, item, resourceSchema);
+    validateFile(file, item, resourceSchemaJSON);
     prettifyFile(file, item, contents);
 
     const itemID = item.id;

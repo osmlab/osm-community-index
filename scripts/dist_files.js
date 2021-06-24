@@ -1,3 +1,4 @@
+// External
 import colors from 'colors/safe.js';
 import fs from 'node:fs';
 import glob from 'glob';
@@ -6,12 +7,16 @@ import LocationConflation from '@ideditor/location-conflation';
 import shell from 'shelljs';
 import stringify from '@aitodotai/json-stringify-pretty-compact';
 
+// Internal
 import { resolveStrings } from '../lib/resolve_strings.js';
 import { writeFileWithMeta } from '../lib/write_file_with_meta.js';
 
-const featureCollection = JSON.parse(fs.readFileSync('./dist/featureCollection.json', 'utf8'));
-const resources = JSON.parse(fs.readFileSync('./dist/resources.json', 'utf8')).resources;
-const defaults = JSON.parse(fs.readFileSync('./defaults.json', 'utf8'));
+// JSON
+import featureCollectionJSON from '../dist/featureCollection.json';
+import resourcesJSON from '../dist/resources.json';
+import defaultsJSON from '../defaults.json';
+const resources = resourcesJSON.resources;
+const defaults = defaultsJSON.defaults;
 
 buildAll();
 
@@ -24,14 +29,13 @@ function buildAll() {
   console.log(START);
   console.time(END);
 
-
   // Refresh some files already in `/dist`, update metadata to match version
   refreshMeta('resources.json');
   refreshMeta('featureCollection.json');
 
   // Save individual data files
-  const combined = generateCombined(resources, featureCollection);
-  writeFileWithMeta(`dist/defaults.json`, stringify(defaults) + '\n');
+  const combined = generateCombined();
+  writeFileWithMeta(`dist/defaults.json`, stringify(defaultsJSON) + '\n');
   writeFileWithMeta('dist/completeFeatureCollection.json', stringify(combined) + '\n');
 
   // minify all .json files under dist/
@@ -112,9 +116,9 @@ function minifySync(inPath, outPath) {
 //   ]
 // }
 //
-function generateCombined(resources, featureCollection) {
+function generateCombined() {
   let keepFeatures = {};
-  const loco = new LocationConflation(featureCollection);
+  const loco = new LocationConflation(featureCollectionJSON);
 
   Object.keys(resources).forEach(resourceID => {
     const resource = resources[resourceID];
@@ -128,7 +132,7 @@ function generateCombined(resources, featureCollection) {
     }
 
     let item = deepClone(resource);
-    item.resolved = resolveStrings(item, defaults.defaults);
+    item.resolved = resolveStrings(item, defaults);
 
     keepFeature.properties.resources[resourceID] = item;
   });
