@@ -19,6 +19,11 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.0.1
+##### 2021-Jun-24
+* Remove "browser" from the export map, upgrade dependencies
+
+
 # 5.0.0
 ##### 2021-Jun-18
 * Bump to location-conflation v1.0.1 / country-coder v5.0.1
