@@ -1,0 +1,12 @@
+{
+  "id": "de-hamburg-xmpp",
+  "type": "xmpp",
+  "locationSet": {"include": ["de-hamburg.geojson"]},
+  "languageCodes": ["de"],
+  "strings": {
+    "community": "OpenStreetMap Hamburg",
+    "name": "OpenStreetMap Hamburg XMPP",
+    "description": "Join our XMPP Multi-User Chat: {url}",
+    "url": "xmpp:osm-hh@conference.jabber.de?join"
+  }
+}

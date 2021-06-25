@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.0.1",
-    "generated": "2021-06-25T15:06:38.293Z",
+    "generated": "2021-06-25T21:03:23.600Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "21e8c670a194b91351db93ffcef3d6b7"
+    "hash": "fff44b7093f9f027971ffc8af3098d5b"
   },
   "resources": {
     "af-facebook": {"id": "af-facebook", "type": "facebook", "locationSet": {"include": ["af"]}, "languageCodes": ["en", "fa", "ps"], "order": 3, "strings": {"community": "OpenStreetMap Afghanistan", "url": "https://www.facebook.com/groups/321292812113316/"}, "contacts": [{"name": "Walker Kosmidou-Bradley", "email": "walker.t.bradley@gmail.com"}]},
@@ -87,6 +87,7 @@
     "de-bremen-mailinglist": {"id": "de-bremen-mailinglist", "type": "mailinglist", "locationSet": {"include": [[8.7286, 53.1212, 25], [8.583333, 53.55, 10]]}, "languageCodes": ["de"], "order": -3, "strings": {"community": "OpenStreetMap Bremen", "name": "Bremen Mailing List", "url": "https://lists.openstreetmap.de/listinfo/Bremen"}},
     "de-forum": {"id": "de-forum", "type": "forum", "account": "14", "locationSet": {"include": ["de"]}, "languageCodes": ["de"], "order": -2, "strings": {"community": "OpenStreetMap Germany"}, "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}]},
     "de-hamburg-telegram": {"id": "de-hamburg-telegram", "type": "telegram", "account": "osm_de_hh", "locationSet": {"include": ["de-hamburg.geojson"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Hamburg"}},
+    "de-hamburg-xmpp": {"id": "de-hamburg-xmpp", "type": "xmpp", "locationSet": {"include": ["de-hamburg.geojson"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Hamburg", "name": "OpenStreetMap Hamburg XMPP", "description": "Join our XMPP Multi-User Chat: {url}", "url": "xmpp:osm-hh@conference.jabber.de?join"}},
     "de-irc": {"id": "de-irc", "type": "irc", "account": "osm-de", "locationSet": {"include": ["de"]}, "languageCodes": ["de"], "order": -4, "strings": {"community": "OpenStreetMap Germany"}, "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}]},
     "de-karlsruhe-mailinglist": {"id": "de-karlsruhe-mailinglist", "type": "mailinglist", "locationSet": {"include": [[8.3966, 49.0149]]}, "languageCodes": ["de"], "order": -2, "strings": {"community": "OpenStreetMap Karlsruhe", "name": "Karlsruhe Mailing List", "url": "https://lists.openstreetmap.de/listinfo/karlsruhe"}, "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}]},
     "de-karlsruhe-meetup": {"id": "de-karlsruhe-meetup", "type": "meetup", "locationSet": {"include": [[8.3966, 49.0149]]}, "languageCodes": ["de"], "order": 5, "strings": {"community": "OpenStreetMap Karlsruhe", "description": "Mappers and OpenStreetMap users in the Karlsruhe area", "url": "https://wiki.openstreetmap.org/wiki/Karlsruhe"}},

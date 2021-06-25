@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.0.1",
-    "generated": "2021-06-25T15:06:43.739Z",
+    "generated": "2021-06-25T21:03:28.968Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "d35c091e8d5d1a5ee90dc69cc3aa1c14"
+    "hash": "4bb65a64a06036e08d3d6e2f5b82b4c5"
   },
   "type": "FeatureCollection",
   "features": [
@@ -9241,6 +9241,26 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://t.me/osm_de_hh\">OpenStreetMap Hamburg Telegram</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osm_de_hh\">https://t.me/osm_de_hh</a>",
               "descriptionHTML": "Join our community Telegram chat"
+            }
+          },
+          "de-hamburg-xmpp": {
+            "id": "de-hamburg-xmpp",
+            "type": "xmpp",
+            "locationSet": {"include": ["de-hamburg.geojson"]},
+            "languageCodes": ["de"],
+            "strings": {
+              "community": "OpenStreetMap Hamburg",
+              "name": "OpenStreetMap Hamburg XMPP",
+              "description": "Join our XMPP Multi-User Chat: {url}",
+              "url": "xmpp:osm-hh@conference.jabber.de?join"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Hamburg XMPP",
+              "url": "xmpp:osm-hh@conference.jabber.de?join",
+              "description": "Join our XMPP Multi-User Chat: xmpp:osm-hh@conference.jabber.de?join",
+              "nameHTML": "<a target=\"_blank\" href=\"xmpp:osm-hh@conference.jabber.de?join\">OpenStreetMap Hamburg XMPP</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"xmpp:osm-hh@conference.jabber.de?join\">xmpp:osm-hh@conference.jabber.de?join</a>",
+              "descriptionHTML": "Join our XMPP Multi-User Chat: <a target=\"_blank\" href=\"xmpp:osm-hh@conference.jabber.de?join\">xmpp:osm-hh@conference.jabber.de?join</a>"
             }
           }
         }
