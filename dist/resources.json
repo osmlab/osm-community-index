@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.0.1",
-    "generated": "2021-06-25T13:07:48.233Z",
+    "generated": "2021-06-25T15:06:38.293Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "a9a56e593dc6b031cfa4efb0b22c36fe"
+    "hash": "21e8c670a194b91351db93ffcef3d6b7"
   },
   "resources": {
     "af-facebook": {"id": "af-facebook", "type": "facebook", "locationSet": {"include": ["af"]}, "languageCodes": ["en", "fa", "ps"], "order": 3, "strings": {"community": "OpenStreetMap Afghanistan", "url": "https://www.facebook.com/groups/321292812113316/"}, "contacts": [{"name": "Walker Kosmidou-Bradley", "email": "walker.t.bradley@gmail.com"}]},
@@ -157,7 +157,7 @@
     "humanitarian-osm-tr-slack": {"id": "humanitarian-osm-tr-slack", "type": "slack", "locationSet": {"include": ["tr"]}, "languageCodes": ["tr"], "strings": {"name": "Humanitarian OpenStreetMap Turkey Slack", "description": "Join the Humanitarian OpenStreetMap Turkey channel on HOTOSM's Slack server at {url}", "url": "https://hotosm.slack.com/archives/C6UKN76E5"}},
     "id-facebook": {"id": "id-facebook", "type": "facebook", "account": "osm.id", "locationSet": {"include": ["id"]}, "order": 1, "strings": {"community": "OpenStreetMap Indonesia", "extendedDescription": "Mapping in Indonesia? Have questions, want to connect with the community here? Join us at {url}. All are welcome!", "url": "https://www.facebook.com/groups/osm.id"}, "contacts": [{"name": "Yantisa Akhadi", "email": "yantisa.akhadi@hotosm.org"}]},
     "id-forum": {"id": "id-forum", "type": "forum", "account": "82", "locationSet": {"include": ["id"]}, "languageCodes": ["en"], "order": 4, "strings": {"community": "OpenStreetMap Indonesia"}},
-    "id-telegram": {"id": "id-telegram", "type": "telegram", "account": "osmindonesia", "locationSet": {"include": ["id"]}, "languageCodes": ["en"], "order": 2, "strings": {"community": "OpenStreetMap Indonesia"}},
+    "id-telegram": {"id": "id-telegram", "type": "telegram", "account": "osmindonesia", "locationSet": {"include": ["id"]}, "languageCodes": ["id"], "order": 2, "strings": {"community": "OpenStreetMap Indonesia"}},
     "id-twitter": {"id": "id-twitter", "type": "twitter", "account": "OSM_ID", "locationSet": {"include": ["id"]}, "languageCodes": ["en"], "order": 3, "strings": {"community": "OpenStreetMap Indonesia"}},
     "il-telegram": {"id": "il-telegram", "type": "telegram", "account": "OSM_Israel", "locationSet": {"include": ["il"]}, "order": 5, "strings": {"community": "OpenStreetMap Israel"}},
     "ireland-chapter": {"id": "ireland-chapter", "type": "osm-lc", "locationSet": {"include": ["gb-nir", "ie"]}, "languageCodes": ["en"], "order": 1, "strings": {"community": "OpenStreetMap Ireland", "description": "We help grow and improve OpenStreetMap in Ireland.", "extendedDescription": "OpenStreetMap Ireland provides an advocate voice for the OpenStreetMap project on the island of Ireland, in addition to interacting with other open initiatives.", "url": "https://www.openstreetmap.ie/"}},
