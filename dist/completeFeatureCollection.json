@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.0.1",
-    "generated": "2021-06-25T12:05:31.681Z",
+    "generated": "2021-06-25T12:24:35.524Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "6d1f5d1d15114c0c53f7463137d422e3"
+    "hash": "6f7c24ce955417e17ba3968b35945dd6"
   },
   "type": "FeatureCollection",
   "features": [
@@ -8266,6 +8266,26 @@
               "descriptionHTML": "Join our community Matrix chat"
             }
           },
+          "de-xmpp": {
+            "id": "de-xmpp",
+            "type": "xmpp",
+            "locationSet": {"include": ["de"]},
+            "languageCodes": ["de"],
+            "strings": {
+              "community": "OpenStreetMap DE",
+              "name": "OpenStreetMap DE XMPP",
+              "description": "Join our XMPP Multi-User Chat: {url}",
+              "url": "xmpp:openstreetmap-de@rooms.dismail.de?join"
+            },
+            "resolved": {
+              "name": "OpenStreetMap DE XMPP",
+              "url": "xmpp:openstreetmap-de@rooms.dismail.de?join",
+              "description": "Join our XMPP Multi-User Chat: xmpp:openstreetmap-de@rooms.dismail.de?join",
+              "nameHTML": "<a target=\"_blank\" href=\"xmpp:openstreetmap-de@rooms.dismail.de?join\">OpenStreetMap DE XMPP</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"xmpp:openstreetmap-de@rooms.dismail.de?join\">xmpp:openstreetmap-de@rooms.dismail.de?join</a>",
+              "descriptionHTML": "Join our XMPP Multi-User Chat: <a target=\"_blank\" href=\"xmpp:openstreetmap-de@rooms.dismail.de?join\">xmpp:openstreetmap-de@rooms.dismail.de?join</a>"
+            }
+          },
           "osm-de": {
             "id": "osm-de",
             "type": "osm-lc",
@@ -12716,7 +12736,7 @@
             "strings": {
               "community": "OpenStreetMap France",
               "description": "Join osm-fr@chat.jabberfr.org",
-              "url": "xmpp:osm-fr@chat.jabberfr.org"
+              "url": "xmpp:osm-fr@chat.jabberfr.org?join"
             },
             "contacts": [
               {
@@ -12726,10 +12746,10 @@
             ],
             "resolved": {
               "name": "OpenStreetMap France XMPP",
-              "url": "xmpp:osm-fr@chat.jabberfr.org",
+              "url": "xmpp:osm-fr@chat.jabberfr.org?join",
               "description": "Join osm-fr@chat.jabberfr.org",
-              "nameHTML": "<a target=\"_blank\" href=\"xmpp:osm-fr@chat.jabberfr.org\">OpenStreetMap France XMPP</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"xmpp:osm-fr@chat.jabberfr.org\">xmpp:osm-fr@chat.jabberfr.org</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"xmpp:osm-fr@chat.jabberfr.org?join\">OpenStreetMap France XMPP</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"xmpp:osm-fr@chat.jabberfr.org?join\">xmpp:osm-fr@chat.jabberfr.org?join</a>",
               "descriptionHTML": "Join osm-fr@chat.jabberfr.org"
             }
           }

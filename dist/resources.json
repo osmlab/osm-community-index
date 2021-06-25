@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.0.1",
-    "generated": "2021-06-24T18:13:22.388Z",
+    "generated": "2021-06-25T12:23:53.975Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "6ebf3c45489f2da70cf4d344d9103965"
+    "hash": "a9a56e593dc6b031cfa4efb0b22c36fe"
   },
   "resources": {
     "af-facebook": {"id": "af-facebook", "type": "facebook", "locationSet": {"include": ["af"]}, "languageCodes": ["en", "fa", "ps"], "order": 3, "strings": {"community": "OpenStreetMap Afghanistan", "url": "https://www.facebook.com/groups/321292812113316/"}, "contacts": [{"name": "Walker Kosmidou-Bradley", "email": "walker.t.bradley@gmail.com"}]},
@@ -101,6 +101,7 @@
     "de-ulm_neuulm-meetup": {"id": "de-ulm_neuulm-meetup", "type": "meetup", "locationSet": {"include": [[9.9869, 48.3916]]}, "languageCodes": ["de"], "order": 5, "strings": {"name": "OpenStreetMap Ulm Neu-Ulm Meetup", "description": "Mappers and OpenStreetMap users in the Ulm and Neu-Ulm area", "url": "https://wiki.openstreetmap.org/wiki/Ulm_Neu-Ulm/Stammtisch"}},
     "de-ulmeralb-meetup": {"id": "de-ulmeralb-meetup", "type": "meetup", "locationSet": {"include": [[9.9097, 48.5462]]}, "languageCodes": ["de"], "order": 5, "strings": {"name": "OpenStreetMap Ulmer Alb Meetup", "description": "Mappers and OpenStreetMap users in the Ulmer Alb area", "url": "https://wiki.openstreetmap.org/wiki/Ulmer_Alb"}},
     "de-viersen-meetup": {"id": "de-viersen-meetup", "type": "osm", "locationSet": {"include": [[6.354282, 51.264137]]}, "languageCodes": ["de"], "order": 5, "strings": {"name": "OpenStreetMap Viersen Meetup", "description": "OSM community and users meetup Kreis Viersen and Mönchengladbach", "url": "https://wiki.openstreetmap.org/wiki/Niederrhein/Viersen/Stammtisch"}},
+    "de-xmpp": {"id": "de-xmpp", "type": "xmpp", "locationSet": {"include": ["de"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap DE", "name": "OpenStreetMap DE XMPP", "description": "Join our XMPP Multi-User Chat: {url}", "url": "xmpp:openstreetmap-de@rooms.dismail.de?join"}},
     "DF-telegram": {"id": "DF-telegram", "type": "telegram", "account": "osmbsb", "locationSet": {"include": ["brasilia_df.geojson"]}, "languageCodes": ["pt"], "strings": {"community": "OpenStreetMap Brasília", "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"}, "contacts": [{"name": "Wille Marcel", "email": "wille@wille.blog.br"}]},
     "dk-forum": {"id": "dk-forum", "type": "forum", "account": "48", "locationSet": {"include": ["dk"]}, "languageCodes": ["da"], "order": -2, "strings": {"community": "OpenStreetMap Denmark"}},
     "dk-irc": {"id": "dk-irc", "type": "irc", "account": "osm-dk", "locationSet": {"include": ["dk"]}, "languageCodes": ["da"], "order": -4, "strings": {"community": "OpenStreetMap Denmark"}},
@@ -128,7 +129,7 @@
     "fr-matrix": {"id": "fr-matrix", "type": "matrix", "account": "#osmfr", "locationSet": {"include": ["fr"]}, "languageCodes": ["fr"], "strings": {"community": "OpenStreetMap France", "description": "A Matrix group for the OSM France community: {url} (bridged with Telegram)"}, "contacts": [{"name": "OpenStreetMap France", "email": "contact@openstreetmap.fr"}]},
     "fr-telegram": {"id": "fr-telegram", "type": "telegram", "account": "osmfr", "locationSet": {"include": ["fr"]}, "order": 5, "strings": {"community": "OpenStreetMap France", "description": "A Telegram group for the OSM France community: {url}"}, "contacts": [{"name": "OpenStreetMap France", "email": "contact@openstreetmap.fr"}]},
     "fr-twitter": {"id": "fr-twitter", "type": "twitter", "account": "osm_fr", "locationSet": {"include": ["fr"]}, "languageCodes": ["fr"], "strings": {"community": "OpenStreetMap France"}, "contacts": [{"name": "OpenStreetMap France", "email": "contact@openstreetmap.fr"}]},
-    "fr-xmpp": {"id": "fr-xmpp", "type": "xmpp", "locationSet": {"include": ["fr"]}, "languageCodes": ["fr"], "order": -4, "strings": {"community": "OpenStreetMap France", "description": "Join osm-fr@chat.jabberfr.org", "url": "xmpp:osm-fr@chat.jabberfr.org"}, "contacts": [{"name": "OpenStreetMap France", "email": "contact@openstreetmap.fr"}]},
+    "fr-xmpp": {"id": "fr-xmpp", "type": "xmpp", "locationSet": {"include": ["fr"]}, "languageCodes": ["fr"], "order": -4, "strings": {"community": "OpenStreetMap France", "description": "Join osm-fr@chat.jabberfr.org", "url": "xmpp:osm-fr@chat.jabberfr.org?join"}, "contacts": [{"name": "OpenStreetMap France", "email": "contact@openstreetmap.fr"}]},
     "galicia-telegram": {"id": "galicia-telegram", "type": "telegram", "account": "osmgalicia", "locationSet": {"include": ["galicia.geojson"]}, "languageCodes": ["es", "gl"], "strings": {"community": "OpenStreetMap Galicia"}},
     "galicia-twitter": {"id": "galicia-twitter", "type": "twitter", "account": "osmgalicia", "locationSet": {"include": ["galicia.geojson"]}, "languageCodes": ["gl"], "strings": {"community": "OpenStreetMap Galicia"}},
     "galicia-wiki": {"id": "galicia-wiki", "type": "wiki", "locationSet": {"include": ["galicia.geojson"]}, "strings": {"community": "OpenStreetMap Galicia", "description": "Everything you need to know about mapping in Galicia: {url}", "url": "https://wiki.openstreetmap.org/wiki/Gl:P%C3%A1xina_principal"}},
