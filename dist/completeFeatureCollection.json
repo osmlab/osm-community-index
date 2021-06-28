@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.0.1",
-    "generated": "2021-06-25T21:03:28.968Z",
+    "generated": "2021-06-28T20:22:53.681Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "4bb65a64a06036e08d3d6e2f5b82b4c5"
+    "hash": "eaa5165ef9eaaee7595e310f503ff89a"
   },
   "type": "FeatureCollection",
   "features": [
@@ -5597,6 +5597,21 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=75\">OpenStreetMap Chile Forum</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=75\">https://forum.openstreetmap.org/viewforum.php?id=75</a>",
               "descriptionHTML": "The official forum for OpenStreetMap Chile"
+            }
+          },
+          "cl-linkedin": {
+            "id": "cl-linkedin",
+            "type": "linkedin",
+            "account": "openstreetmap-chile",
+            "locationSet": {"include": ["cl"]},
+            "strings": {"community": "OpenStreetMap Chile"},
+            "resolved": {
+              "name": "OpenStreetMap Chile on LinkedIn",
+              "url": "https://linkedin.com/company/openstreetmap-chile",
+              "description": "Join our community on LinkedIn",
+              "nameHTML": "<a target=\"_blank\" href=\"https://linkedin.com/company/openstreetmap-chile\">OpenStreetMap Chile on LinkedIn</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://linkedin.com/company/openstreetmap-chile\">https://linkedin.com/company/openstreetmap-chile</a>",
+              "descriptionHTML": "Join our community on LinkedIn"
             }
           },
           "cl-telegram": {
@@ -16690,6 +16705,28 @@
               "descriptionHTML": "The official mailing list for OpenStreetMap Ireland"
             }
           },
+          "ireland-matrix": {
+            "id": "ireland-matrix",
+            "type": "matrix",
+            "account": "#_oftc_#osm-ie",
+            "locationSet": {"include": ["gb-nir", "ie"]},
+            "languageCodes": ["en"],
+            "strings": {
+              "community": "OpenStreetMap Ireland",
+              "description": "A Matrix gateway for the OSM Ireland IRC channel: {url}"
+            },
+            "contacts": [
+              {"name": "OSM Ireland", "email": "board@openstreetmap.ie"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Ireland Matrix Chat",
+              "url": "https://matrix.to/#/#_oftc_#osm-ie:matrix.org",
+              "description": "A Matrix gateway for the OSM Ireland IRC channel: https://matrix.to/#/#_oftc_#osm-ie:matrix.org",
+              "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#_oftc_#osm-ie:matrix.org\">OpenStreetMap Ireland Matrix Chat</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#_oftc_#osm-ie:matrix.org\">https://matrix.to/#/#_oftc_#osm-ie:matrix.org</a>",
+              "descriptionHTML": "A Matrix gateway for the OSM Ireland IRC channel: <a target=\"_blank\" href=\"https://matrix.to/#/#_oftc_#osm-ie:matrix.org\">https://matrix.to/#/#_oftc_#osm-ie:matrix.org</a>"
+            }
+          },
           "ireland-telegram": {
             "id": "ireland-telegram",
             "type": "telegram",
@@ -16724,6 +16761,25 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_ie\">OpenStreetMap Ireland on Twitter</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_ie\">https://twitter.com/osm_ie</a>",
               "descriptionHTML": "Follow us on Twitter"
+            }
+          },
+          "ireland-youtube": {
+            "id": "ireland-youtube",
+            "type": "youtube",
+            "account": "UCBjVzMkiYE0RVIbOoqezJHg",
+            "locationSet": {"include": ["gb-nir", "ie"]},
+            "languageCodes": ["en"],
+            "strings": {"community": "OpenStreetMap Ireland"},
+            "contacts": [
+              {"name": "OSM Ireland", "email": "board@openstreetmap.ie"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Ireland on YouTube",
+              "url": "https://www.youtube.com/channel/UCBjVzMkiYE0RVIbOoqezJHg",
+              "description": "Subscribe to our YouTube channel",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.youtube.com/channel/UCBjVzMkiYE0RVIbOoqezJHg\">OpenStreetMap Ireland on YouTube</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.youtube.com/channel/UCBjVzMkiYE0RVIbOoqezJHg\">https://www.youtube.com/channel/UCBjVzMkiYE0RVIbOoqezJHg</a>",
+              "descriptionHTML": "Subscribe to our YouTube channel"
             }
           }
         }

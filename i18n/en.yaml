@@ -194,6 +194,10 @@ en:
       name: '{community} on IRC'
       description: 'Join #{account} on irc.oftc.net (port 6667)'
       url: https://webchat.oftc.net/?channels={account}
+    linkedin:
+      name: '{community} on LinkedIn'
+      description: Join our community on LinkedIn
+      url: https://linkedin.com/company/{account}
     mailinglist:
       name: '{account} Mailing List'
       description: The official mailing list for {community}
@@ -390,6 +394,8 @@ en:
     extendedDescription: OpenStreetMap Ireland provides an advocate voice for the OpenStreetMap project on the island of Ireland, in addition to interacting with other open initiatives.
   ireland-irc:
     extendedDescription: 'Join #{account} on irc.oftc.net (port 6667), please be patient and wait for a few minutes if you ask a question'
+  ireland-matrix:
+    description: 'A Matrix gateway for the OSM Ireland IRC channel: {url}'
   is-chapter:
     description: We help grow and improve OpenStreetMap in Iceland.
   it-chapter:

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.0.1",
-    "generated": "2021-06-25T21:03:23.600Z",
+    "generated": "2021-06-28T20:22:49.516Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "fff44b7093f9f027971ffc8af3098d5b"
+    "hash": "ff54e97ce99e2c009b90f9cab16cdb53"
   },
   "resources": {
     "af-facebook": {"id": "af-facebook", "type": "facebook", "locationSet": {"include": ["af"]}, "languageCodes": ["en", "fa", "ps"], "order": 3, "strings": {"community": "OpenStreetMap Afghanistan", "url": "https://www.facebook.com/groups/321292812113316/"}, "contacts": [{"name": "Walker Kosmidou-Bradley", "email": "walker.t.bradley@gmail.com"}]},
@@ -65,6 +65,7 @@
     "CIosm": {"id": "CIosm", "type": "telegram", "account": "OSMCI", "locationSet": {"include": ["ci"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Cote d'Ivoire"}},
     "cl-facebook": {"id": "cl-facebook", "type": "facebook", "account": "OpenStreetMap-Chile-145127198882915", "locationSet": {"include": ["cl"]}, "languageCodes": ["es"], "order": 1, "strings": {"community": "OpenStreetMap Chile", "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"}, "contacts": [{"name": "Julio Costa", "email": "julio.costa@openstreetmap.cl"}]},
     "cl-forum": {"id": "cl-forum", "type": "forum", "account": "75", "locationSet": {"include": ["cl"]}, "languageCodes": ["en"], "order": 3, "strings": {"community": "OpenStreetMap Chile"}},
+    "cl-linkedin": {"id": "cl-linkedin", "type": "linkedin", "account": "openstreetmap-chile", "locationSet": {"include": ["cl"]}, "strings": {"community": "OpenStreetMap Chile"}},
     "cl-telegram": {"id": "cl-telegram", "type": "telegram", "account": "OSMcl", "locationSet": {"include": ["cl"]}, "languageCodes": ["es"], "order": 2, "strings": {"community": "OpenStreetMap Chile", "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"}, "contacts": [{"name": "Julio Costa", "email": "julio.costa@openstreetmap.cl"}]},
     "cl-twitter": {"id": "cl-twitter", "type": "twitter", "account": "osmCL", "locationSet": {"include": ["cl"]}, "languageCodes": ["es"], "order": 4, "strings": {"community": "OpenStreetMap Chile"}, "contacts": [{"name": "Julio Costa", "email": "julio.costa@openstreetmap.cl"}]},
     "cm-facebook": {"id": "cm-facebook", "type": "facebook", "locationSet": {"include": ["cm"]}, "languageCodes": ["en", "fr"], "order": 1, "strings": {"community": "OpenStreetMap Cameroon", "url": "https://www.facebook.com/OpenStreetMap-Cameroun-799439470157013/Local"}, "contacts": [{"name": "osmcameroun@gmail.com", "email": "osmcameroun@gmail.com"}]},
@@ -165,8 +166,10 @@
     "ireland-facebook": {"id": "ireland-facebook", "type": "facebook", "locationSet": {"include": ["gb-nir", "ie"]}, "languageCodes": ["en"], "order": 3, "strings": {"community": "OpenStreetMap Ireland", "url": "https://www.facebook.com/groups/OpenStreetMapIreland"}},
     "ireland-irc": {"id": "ireland-irc", "type": "irc", "account": "osm-ie", "locationSet": {"include": ["gb-nir", "ie"]}, "languageCodes": ["en"], "order": -1, "strings": {"community": "OpenStreetMap Ireland", "extendedDescription": "Join #{account} on irc.oftc.net (port 6667), please be patient and wait for a few minutes if you ask a question"}},
     "ireland-mailinglist": {"id": "ireland-mailinglist", "type": "mailinglist", "account": "talk-ie", "locationSet": {"include": ["gb-nir", "ie"]}, "languageCodes": ["en"], "order": 4, "strings": {"community": "OpenStreetMap Ireland"}},
+    "ireland-matrix": {"id": "ireland-matrix", "type": "matrix", "account": "#_oftc_#osm-ie", "locationSet": {"include": ["gb-nir", "ie"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Ireland", "description": "A Matrix gateway for the OSM Ireland IRC channel: {url}"}, "contacts": [{"name": "OSM Ireland", "email": "board@openstreetmap.ie"}]},
     "ireland-telegram": {"id": "ireland-telegram", "type": "telegram", "locationSet": {"include": ["gb-nir", "ie"]}, "languageCodes": ["en"], "order": 5, "strings": {"community": "OpenStreetMap Ireland", "url": "https://t.me/joinchat/BDLI7w9jCWm7Bwm2T06jwQ?fbclid=IwAR1ltY85Y7_4_CZhhwLOsLLppzis1MOVRRy897epT99JuZ9ZHZF8wpDRIfk"}},
     "ireland-twitter": {"id": "ireland-twitter", "type": "twitter", "account": "osm_ie", "locationSet": {"include": ["gb-nir", "ie"]}, "languageCodes": ["en"], "order": 2, "strings": {"community": "OpenStreetMap Ireland"}},
+    "ireland-youtube": {"id": "ireland-youtube", "type": "youtube", "account": "UCBjVzMkiYE0RVIbOoqezJHg", "locationSet": {"include": ["gb-nir", "ie"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Ireland"}, "contacts": [{"name": "OSM Ireland", "email": "board@openstreetmap.ie"}]},
     "is-chapter": {"id": "is-chapter", "type": "osm-lc", "locationSet": {"include": ["is"]}, "languageCodes": ["en", "is"], "order": 5, "strings": {"community": "OpenStreetMap Iceland", "description": "We help grow and improve OpenStreetMap in Iceland.", "url": "https://www.hlidskjalf.is/"}},
     "is-facebook": {"id": "is-facebook", "type": "facebook", "account": "osmiceland", "locationSet": {"include": ["is"]}, "languageCodes": ["en", "is"], "order": 3, "strings": {"community": "OpenStreetMap Iceland"}},
     "is-forum": {"id": "is-forum", "type": "forum", "account": "90", "locationSet": {"include": ["is"]}, "languageCodes": ["en"], "order": 4, "strings": {"community": "OpenStreetMap Iceland"}},

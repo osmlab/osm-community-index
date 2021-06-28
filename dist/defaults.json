@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.0.1",
-    "generated": "2021-06-25T12:05:30.790Z",
+    "generated": "2021-06-28T20:22:53.134Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/defaults.json",
-    "hash": "f8b8baf2d4bb4c6613b121844f0e893a"
+    "hash": "ae2232ba53d434f6ed7fe16021d9adf4"
   },
   "defaults": {
     "aparat": {
@@ -40,6 +40,11 @@
       "name": "{community} on IRC",
       "description": "Join #{account} on irc.oftc.net (port 6667)",
       "url": "https://webchat.oftc.net/?channels={account}"
+    },
+    "linkedin": {
+      "name": "{community} on LinkedIn",
+      "description": "Join our community on LinkedIn",
+      "url": "https://linkedin.com/company/{account}"
     },
     "mailinglist": {
       "name": "{account} Mailing List",
