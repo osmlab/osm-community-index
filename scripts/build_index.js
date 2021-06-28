@@ -346,6 +346,8 @@ function convertURLs(item) {
     matchUrl = url.match(/gitlab.com\/([\-A-Za-z0-9_.]+)\/?$/i);
   } else if (item.type === 'irc') {
     matchUrl = url.match(/webchat.oftc.net\/\?channels=([\-A-Za-z0-9_]+)\/?$/i);
+  } else if (item.type === 'linkedin') {
+    matchUrl = url.match(/linkedin.com\/company\/([\-A-Za-z0-9_.]+)\/?$/i);
   } else if (item.type === 'mailinglist') {
     matchUrl = url.match(/lists.openstreetmap.org\/listinfo\/([\-A-Za-z0-9_]+)\/?$/i);
   } else if (item.type === 'meetup') {

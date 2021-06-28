@@ -39,6 +39,11 @@
       "description": "Join #{account} on irc.oftc.net (port 6667)",
       "url": "https://webchat.oftc.net/?channels={account}"
     },
+    "linkedin": {
+      "name": "{community} on LinkedIn",
+      "description": "Join our community on LinkedIn",
+      "url": "https://linkedin.com/company/{account}"
+    },
     "mailinglist": {
       "name": "{account} Mailing List",
       "description": "The official mailing list for {community}",

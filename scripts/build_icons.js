@@ -7,7 +7,7 @@ import {
   faAt, faComments, faKeyboard, faLink, faUsers
 } from '@fortawesome/free-solid-svg-icons';
 import {
-  faDiscord, faDiscourse, faFacebook, faGithub, faGitlab,
+  faDiscord, faDiscourse, faFacebook, faGithub, faGitlab, faLinkedin,
   faMeetup, faReddit, faSlack, faTelegram, faTwitter, faYoutube
 } from '@fortawesome/free-brands-svg-icons';
 
@@ -23,6 +23,7 @@ function buildAll() {
     gitlab: faGitlab,
     group: faUsers,
     irc: faKeyboard,
+    linkedin: faLinkedin,
     mailinglist: faAt,
     matrix: faComments,
     meetup: faMeetup,
