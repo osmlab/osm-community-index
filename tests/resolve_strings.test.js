@@ -5,7 +5,10 @@ const item = {
   id: 'talk-ru',
   type: 'mailinglist',
   account: 'talk-ru',
-  strings: { community: 'OpenStreetMap Russia' }
+  strings: {
+    name: 'Override Name',
+    community: 'OpenStreetMap Russia'
+  }
 };
 
 const defaults = {
@@ -28,13 +31,13 @@ test('resolveStrings', t => {
     const resolved = resolveStrings(item, defaults);
     t.type(resolved, 'object');
 
-    t.equal(resolved.name, 'talk-ru Mailing List');
+    t.equal(resolved.name, 'Override Name');
     t.equal(resolved.url, 'https://lists.openstreetmap.org/listinfo/talk-ru');
     t.equal(resolved.signupUrl, undefined);
     t.equal(resolved.description, 'The official mailing list for OpenStreetMap Russia');
     t.equal(resolved.extendedDescription, 'Fun times for all at https://lists.openstreetmap.org/listinfo/talk-ru');
 
-    t.equal(resolved.nameHTML, '<a target="_blank" href="https://lists.openstreetmap.org/listinfo/talk-ru">talk-ru Mailing List</a>');
+    t.equal(resolved.nameHTML, '<a target="_blank" href="https://lists.openstreetmap.org/listinfo/talk-ru">Override Name</a>');
     t.equal(resolved.urlHTML, '<a target="_blank" href="https://lists.openstreetmap.org/listinfo/talk-ru">https://lists.openstreetmap.org/listinfo/talk-ru</a>');
     t.equal(resolved.signupUrlHTML, undefined);
     t.equal(resolved.descriptionHTML, 'The official mailing list for OpenStreetMap Russia');
@@ -45,6 +48,7 @@ test('resolveStrings', t => {
 
   t.test('localized', t => {
     const stringids = {
+      'talk-ru.name': 'переопределить имя',
       '_communities.openstreetmaprussia': 'OpenStreetMap Россия',
       '_defaults.mailinglist.name': '{account} Список рассылки',
       '_defaults.mailinglist.description': 'Официальный список рассылки для {community}',
@@ -55,13 +59,13 @@ test('resolveStrings', t => {
     const resolved = resolveStrings(item, defaults, localizer);
     t.type(resolved, 'object');
 
-    t.equal(resolved.name, 'talk-ru Список рассылки');
+    t.equal(resolved.name, 'переопределить имя');
     t.equal(resolved.url, 'https://lists.openstreetmap.org/listinfo/talk-ru');
     t.equal(resolved.signupUrl, undefined);
     t.equal(resolved.description, 'Официальный список рассылки для OpenStreetMap Россия');
     t.equal(resolved.extendedDescription, 'Время развлечений для всех на https://lists.openstreetmap.org/listinfo/talk-ru');
 
-    t.equal(resolved.nameHTML, '<a target="_blank" href="https://lists.openstreetmap.org/listinfo/talk-ru">talk-ru Список рассылки</a>');
+    t.equal(resolved.nameHTML, '<a target="_blank" href="https://lists.openstreetmap.org/listinfo/talk-ru">переопределить имя</a>');
     t.equal(resolved.urlHTML, '<a target="_blank" href="https://lists.openstreetmap.org/listinfo/talk-ru">https://lists.openstreetmap.org/listinfo/talk-ru</a>');
     t.equal(resolved.signupUrlHTML, undefined);
     t.equal(resolved.descriptionHTML, 'Официальный список рассылки для OpenStreetMap Россия');
