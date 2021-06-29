@@ -22,7 +22,8 @@
     "features/",
     "i18n/",
     "lib/",
-    "resources/"
+    "resources/",
+    "schema/"
   ],
   "type": "module",
   "main": "./dist/javascript/oci.cjs",
@@ -30,7 +31,7 @@
   "exports": {
     "import": "./index.mjs",
     "require": "./dist/javascript/oci.cjs",
-    "dist/*": "./dist/*"
+    "*": "./*"
   },
   "scripts": {
     "all": "run-s test dist",
