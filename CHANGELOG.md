@@ -19,6 +19,15 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.1.0
+##### 2021-Jun-24
+* Support new resource type `linkedin` ([#474])
+* Restore the `features/` and `resources/` folders in what we publish ([#471])
+
+[#474]: https://github.com/osmlab/osm-community-index/issues/474
+[#471]: https://github.com/osmlab/osm-community-index/issues/471
+
+
 # 5.0.1
 ##### 2021-Jun-24
 * Remove "browser" from the export map, upgrade dependencies
