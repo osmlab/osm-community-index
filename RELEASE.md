@@ -14,7 +14,7 @@ community resources.  Whenever the list of resource types changes:
 
 ### Update translations
 - [ ] npm run txpull
-- [ ] git add . && git commit -m 'npm run txpull'
+- [ ] git add i18n/ && git commit -m 'npm run txpull'
 
 ### Update changelog, version, tag, then publish
 - [ ] Update `CHANGELOG.md`
