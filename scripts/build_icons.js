@@ -32,7 +32,6 @@ function buildAll() {
     telegram: faTelegram,
     twitter: faTwitter,
     url: faLink,
-    xmpp: faKeyboard,
     youtube: faYoutube
   };
 
