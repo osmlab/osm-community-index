@@ -19,6 +19,15 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.1.1
+##### 2021-Jul-13
+* Update `xmpp.svg` logo ([#476])
+* Switch "gb" to use "Q3336843" (UK countries excl. BOTS) ([country-coder#35])
+
+[#476]: https://github.com/osmlab/osm-community-index/issues/476
+[country-coder#35]: https://github.com/ideditor/country-coder/issues/35
+
+
 # 5.1.0
 ##### 2021-Jun-24
 * Support new resource type `linkedin` ([#474])
