@@ -42,6 +42,7 @@ de:
     openstreetmapcuba: OpenStreetMap Kuba
     openstreetmapcuneo: OpenStreetMap Cuneo
     openstreetmapcz: OpenStreetMap Tschechien
+    openstreetmapde: OpenStreetMap DE
     openstreetmapdenmark: OpenStreetMap Dänemark
     openstreetmapdjibouti: OpenStreetMap Djibouti
     openstreetmapdominicanrepublic: OpenStreetMap Dominikanische Republic
@@ -193,6 +194,10 @@ de:
       name: '{community} auf IRC'
       description: 'Tritt #{account} auf irc.oftc.net (port 6667) bei'
       url: https://webchat.oftc.net/?channels={account}
+    linkedin:
+      name: '{community} auf LinkedIn'
+      description: Tritt unserer Community aud LinkedIn bei
+      url: https://linkedin.com/company/{account}
     mailinglist:
       name: '{account} Mailing Liste'
       description: Die offizielle Mailing Liste für {community}
@@ -299,9 +304,12 @@ de:
     description: Mapper und OpenStreetMap Benutzer in der Berliner Gegend
   de-berlin-xmpp:
     name: OpenStreetMap Berlin-Brandenburg XMPP
-    description: 'Mach mit beim XMPP Multi-User Chat: {url}'
+    description: 'Mach mit bei unserem XMPP Multi-User Chat: {url}'
   de-bremen-mailinglist:
     name: Bremen Mailing Liste
+  de-hamburg-xmpp:
+    name: OpenStreetMap Hamburg XMPP
+    description: 'Mach mit bei unserem XMPP Multi-User Chat: {url}'
   de-karlsruhe-mailinglist:
     name: Karlsruhe Mailing Liste
   de-karlsruhe-meetup:
@@ -329,6 +337,9 @@ de:
   de-viersen-meetup:
     name: OpenStreetMap Treffen Viersen
     description: Treffen der OSM Gemeinschaft im Kreis Viersen und Mönchengladbach
+  de-xmpp:
+    name: OpenStreetMap DE XMPP
+    description: 'Mach mit bei unserem XMPP Multi-User Chat: {url}'
   DF-telegram:
     extendedDescription: Mach mit, um mehr über OpenStreetMap zu erfahren, Fragen zu stellen oder an unseren Treffen teilzunehmen. Alle sind willkommen!
   fr-35-wiki:
@@ -383,6 +394,8 @@ de:
     extendedDescription: OpenStreetMap Irland bietet eine Stimme für das OpenStreetMap Projekt auf der Irischen Insel, zusätzlich zur Zusammenareit mit anderen offenen Initiativen.
   ireland-irc:
     extendedDescription: 'Tritt #{account} auf irc.oftc.net (port 6667) bei, bitte sei geduldig und warte ein paar Minuten wenn du eine Frage stellst'
+  ireland-matrix:
+    description: 'Ein Matrix gateway für den OSM Irland IRC channel: {url}'
   is-chapter:
     description: Wir helfen OpenStreetMap in Island beim besser und größer werden.
   it-chapter:

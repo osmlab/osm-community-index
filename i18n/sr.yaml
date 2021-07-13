@@ -1,0 +1,51 @@
+sr:
+  _communities:
+    openstreetmap: OpenStreetMap
+    openstreetmapafghanistan: OpenStreetMap Авганистан
+    openstreetmapafrica: OpenStreetMap Африка
+    openstreetmapalbania: OpenStreetMap Албанија
+    openstreetmapalgeria: OpenStreetMap Алжир
+    openstreetmapargentina: OpenStreetMap Аргентина
+    openstreetmapasia: OpenStreetMap Азија
+    openstreetmapaustria: OpenStreetMap Аустрија
+    openstreetmapbangladesh: OpenStreetMap Бангладеш
+    openstreetmapcroatia: OpenStreetMap Хрватска
+    openstreetmapcuba: OpenStreetMap Куба
+    openstreetmapturkey: OpenStreetMap Турска
+    openstreetmapukraine: OpenStreetMap Украјина
+    openstreetmapuruguay: OpenStreetMap Уругвај
+    openstreetmapus: OpenStreetMap САД
+    openstreetmapuzbekistan: OpenStreetMap Узбекистан
+    openstreetmapvenezuela: OpenStreetMap Венецуела
+    openstreetmapwesternsahara: OpenStreetMap Западна Сахара
+    openstreetmapzimbabwe: OpenStreetMap Зимбабве
+  _defaults:
+    discord:
+      name: '{community} Discord'
+      url: https://discord.gg/{account}
+    facebook:
+      name: '{community} на Фејсбуку'
+      description: Придружи се нашој заједници на Фејсбуку
+      url: https://facebook.com/{account}
+    forum:
+      name: '{community} Форум'
+      description: Званичан форум за {community}
+      url: https://forum.openstreetmap.org/viewforum.php?id={account}
+    github:
+      url: https://github.com/{account}
+    linkedin:
+      url: https://linkedin.com/company/{account}
+    meetup:
+      url: https://meetup.com/{account}
+  Maptime-Oceania-Slack:
+    description: Пријавите се на {signupUrl}
+  nl-wonderme:
+    name: '{community} на Wonder.me'
+  osm-benin-facebook:
+    description: Унапреди OpenStreetMap у Бенину
+  OSM-Boston:
+    name: OpenStreetMap Бостон
+  OSM-Colorado:
+    name: OpenStreetMap Колорадо
+  OSM-help:
+    name: OpenStreetMap Помоћ
