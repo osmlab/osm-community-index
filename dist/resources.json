@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.1.1",
-    "generated": "2021-07-13T20:11:56.873Z",
+    "generated": "2021-07-19T15:50:24.347Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "8a27f79892680ba5dd954aa87ee3331f"
+    "hash": "c69b9c922ed9d1c8e63b7932d4c179e7"
   },
   "resources": {
     "af-facebook": {"id": "af-facebook", "type": "facebook", "locationSet": {"include": ["af"]}, "languageCodes": ["en", "fa", "ps"], "order": 3, "strings": {"community": "OpenStreetMap Afghanistan", "url": "https://www.facebook.com/groups/321292812113316/"}, "contacts": [{"name": "Walker Kosmidou-Bradley", "email": "walker.t.bradley@gmail.com"}]},
@@ -321,7 +321,7 @@
     "OSM-IRC": {"id": "OSM-IRC", "type": "irc", "account": "osm", "locationSet": {"include": ["001"]}, "languageCodes": ["en"], "order": -4, "strings": {"community": "OpenStreetMap"}, "contacts": [{"name": "Harry Wood", "email": "mail@harrywood.co.uk"}]},
     "OSM-japan-facebook": {"id": "OSM-japan-facebook", "type": "facebook", "account": "osmjapan", "locationSet": {"include": ["jp"]}, "languageCodes": ["ja"], "order": 3, "strings": {"community": "OpenStreetMap Japan", "description": "Mappers and OpenStreetMap users in Japan", "url": "https://www.facebook.com/groups/osmjapan"}, "contacts": [{"name": "Satoshi IIDA", "email": "nyampire@gmail.com"}]},
     "OSM-japan-mailinglist": {"id": "OSM-japan-mailinglist", "type": "mailinglist", "account": "talk-ja", "locationSet": {"include": ["jp"]}, "languageCodes": ["ja"], "order": -3, "strings": {"community": "OpenStreetMap Japan"}, "contacts": [{"name": "OSMF Japan", "email": "info@osmf.jp"}]},
-    "OSM-japan-slack": {"id": "OSM-japan-slack", "type": "slack", "locationSet": {"include": ["jp"]}, "languageCodes": ["ja"], "strings": {"community": "OpenStreetMap Japan", "description": "A Slack workspace for the OSM Japan community {signupUrl}", "signupUrl": "https://join.slack.com/t/osm-japan/shared_invite/zt-d0my5ek2-SRxGCIsPPIyaOWkJOZ4EMg", "url": "https://osm-japan.slack.com/"}, "contacts": [{"name": "OSMF Japan", "email": "info@osmf.jp"}]},
+    "OSM-japan-slack": {"id": "OSM-japan-slack", "type": "slack", "locationSet": {"include": ["jp"]}, "languageCodes": ["ja"], "strings": {"community": "OpenStreetMap Japan", "description": "A Slack workspace for the OSM Japan community {signupUrl}", "signupUrl": "https://join.slack.com/t/osm-japan/shared_invite/zt-dwn2soub-E_rssqukJeSIiFsvYWozWw", "url": "https://osm-japan.slack.com/"}, "contacts": [{"name": "OSMF Japan", "email": "info@osmf.jp"}]},
     "OSM-Japan-telegram": {"id": "OSM-Japan-telegram", "type": "telegram", "account": "osmjapan", "locationSet": {"include": ["jp"]}, "languageCodes": ["ja"], "order": 5, "strings": {"community": "OpenStreetMap Japan"}, "contacts": [{"name": "OSMF Japan", "email": "info@osmf.jp"}]},
     "OSM-japan-twitter": {"id": "OSM-japan-twitter", "type": "twitter", "account": "osmfj", "locationSet": {"include": ["jp"]}, "languageCodes": ["ja"], "strings": {"community": "OpenStreetMap Japan"}, "contacts": [{"name": "Satoshi IIDA", "email": "nyampire@gmail.com"}]},
     "OSM-japan-website": {"id": "OSM-japan-website", "type": "osm", "locationSet": {"include": ["jp"]}, "languageCodes": ["ja"], "strings": {"community": "OpenStreetMap Japan", "description": "Mappers and OpenStreetMap users in Japan", "url": "https://openstreetmap.jp/"}, "contacts": [{"name": "Satoshi IIDA", "email": "nyampire@gmail.com"}]},
