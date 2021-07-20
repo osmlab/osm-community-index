@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.1.1",
-    "generated": "2021-07-19T15:50:28.095Z",
+    "generated": "2021-07-20T03:31:33.196Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "b18d75d411d4e2eda75ad3bc4b8557a2"
+    "hash": "a423f2bf17a7cd44c2b16cec4cb7b067"
   },
   "type": "FeatureCollection",
   "features": [
@@ -18714,6 +18714,84 @@
         ]
       },
       "id": "Q854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iso1A2": "PF",
+        "iso1A3": "PYF",
+        "iso1N3": "258",
+        "wikidata": "Q30971",
+        "nameEn": "French Polynesia",
+        "country": "FR",
+        "groups": ["FR", "061", "009", "Q1451600", "UN", "001"],
+        "callingCodes": ["689"],
+        "id": "Q30971",
+        "m49": "258",
+        "ccTLD": ".pf",
+        "isoStatus": "official",
+        "level": "territory",
+        "emojiFlag": "🇵🇫",
+        "roadSpeedUnit": "km/h",
+        "roadHeightUnit": "m",
+        "driveSide": "right",
+        "area": 5157868.59,
+        "resources": {
+          "local-polynesie-mailinglist": {
+            "id": "local-polynesie-mailinglist",
+            "type": "mailinglist",
+            "account": "local-polynesie",
+            "locationSet": {"include": ["pf"]},
+            "languageCodes": ["fr"],
+            "strings": {
+              "community": "OpenStreetMap French Polynesia",
+              "extendedDescription": "To inform and learn about the actions of the OSM community, seek answers to questions, coordinate, and everything that the OSM community may have to say. All are welcome!",
+              "url": "https://listes.openstreetmap.fr/wws/info/{account}"
+            },
+            "resolved": {
+              "name": "local-polynesie Mailing List",
+              "url": "https://listes.openstreetmap.fr/wws/info/local-polynesie",
+              "description": "The official mailing list for OpenStreetMap French Polynesia",
+              "extendedDescription": "To inform and learn about the actions of the OSM community, seek answers to questions, coordinate, and everything that the OSM community may have to say. All are welcome!",
+              "nameHTML": "<a target=\"_blank\" href=\"https://listes.openstreetmap.fr/wws/info/local-polynesie\">local-polynesie Mailing List</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://listes.openstreetmap.fr/wws/info/local-polynesie\">https://listes.openstreetmap.fr/wws/info/local-polynesie</a>",
+              "descriptionHTML": "The official mailing list for OpenStreetMap French Polynesia",
+              "extendedDescriptionHTML": "To inform and learn about the actions of the OSM community, seek answers to questions, coordinate, and everything that the OSM community may have to say. All are welcome!"
+            }
+          },
+          "pf-facebook": {
+            "id": "pf-facebook",
+            "type": "facebook",
+            "account": "osmpf",
+            "locationSet": {"include": ["pf"]},
+            "languageCodes": ["fr"],
+            "strings": {"community": "OpenStreetMap French Polynesia"},
+            "resolved": {
+              "name": "OpenStreetMap French Polynesia on Facebook",
+              "url": "https://facebook.com/osmpf",
+              "description": "Join our community on Facebook",
+              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmpf\">OpenStreetMap French Polynesia on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmpf\">https://facebook.com/osmpf</a>",
+              "descriptionHTML": "Join our community on Facebook"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [-135.59706, -4.70473],
+              [-156.48634, -15.52824],
+              [-156.45576, -31.75456],
+              [-133.59543, -28.4709],
+              [-135.59706, -4.70473]
+            ]
+          ]
+        ]
+      },
+      "id": "Q30971"
     },
     {
       "type": "Feature",

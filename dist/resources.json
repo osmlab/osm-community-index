@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.1.1",
-    "generated": "2021-07-19T15:50:24.347Z",
+    "generated": "2021-07-20T03:31:09.119Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "c69b9c922ed9d1c8e63b7932d4c179e7"
+    "hash": "1f370e0ac6b894657b8d769bb3e290b5"
   },
   "resources": {
     "af-facebook": {"id": "af-facebook", "type": "facebook", "locationSet": {"include": ["af"]}, "languageCodes": ["en", "fa", "ps"], "order": 3, "strings": {"community": "OpenStreetMap Afghanistan", "url": "https://www.facebook.com/groups/321292812113316/"}, "contacts": [{"name": "Walker Kosmidou-Bradley", "email": "walker.t.bradley@gmail.com"}]},
@@ -196,6 +196,7 @@
     "latam-wiki": {"id": "latam-wiki", "type": "wiki", "locationSet": {"include": ["419"]}, "languageCodes": ["en", "es", "pt"], "order": 2, "strings": {"community": "OpenStreetMap Latin America", "description": "Everything you need to know about mapping in Latin America", "url": "https://wiki.openstreetmap.org/wiki/ES:OSM_Latam"}, "contacts": [{"name": "OSM LATAM Community", "email": "info@osmlatam.org"}]},
     "lk-facebook": {"id": "lk-facebook", "type": "facebook", "locationSet": {"include": ["lk"]}, "order": 3, "strings": {"community": "OpenStreetMap Sri Lanka", "extendedDescription": "Mapping in Sri Lanka? Have questions, want to connect with the community here? Join us at {url}. All are welcome!", "url": "https://www.facebook.com/groups/142058222659672"}, "contacts": [{"name": "Karan Suthakaran", "email": "karansuthakaran@yahoo.com"}]},
     "lk-forum": {"id": "lk-forum", "type": "forum", "account": "77", "locationSet": {"include": ["lk"]}, "strings": {"community": "OpenStreetMap Sri Lanka"}},
+    "local-polynesie-mailinglist": {"id": "local-polynesie-mailinglist", "type": "mailinglist", "account": "local-polynesie", "locationSet": {"include": ["pf"]}, "languageCodes": ["fr"], "strings": {"community": "OpenStreetMap French Polynesia", "extendedDescription": "To inform and learn about the actions of the OSM community, seek answers to questions, coordinate, and everything that the OSM community may have to say. All are welcome!", "url": "https://listes.openstreetmap.fr/wws/info/{account}"}},
     "lombardia-telegram": {"id": "lombardia-telegram", "type": "telegram", "account": "OSMLombardia", "locationSet": {"include": ["lombardia.geojson"]}, "languageCodes": ["it"], "order": 3, "strings": {"community": "OpenStreetMap Lombardia"}, "contacts": [{"name": "Lorenzo Stucchi", "email": "lorenzostucchi95@outlook.it"}]},
     "lr-facebook": {"id": "lr-facebook", "type": "facebook", "account": "openstreetmapliberia", "locationSet": {"include": ["lr"]}, "strings": {"community": "OpenStreetMap Liberia"}},
     "lr-twitter": {"id": "lr-twitter", "type": "twitter", "account": "osmliberia", "locationSet": {"include": ["lr"]}, "strings": {"community": "OpenStreetMap Liberia"}},
@@ -373,6 +374,7 @@
     "pe-matrix": {"id": "pe-matrix", "type": "matrix", "account": "#osmpe", "locationSet": {"include": ["pe"]}, "languageCodes": ["es"], "strings": {"community": "OpenStreetMap Peru"}, "contacts": [{"name": "Diego Sangunietti", "email": "diego.sanguinetti@hotmail.com"}, {"name": "Ruben Lopez M.", "email": "rub2106@gmail.com"}]},
     "pe-telegram": {"id": "pe-telegram", "type": "telegram", "account": "osmPe", "locationSet": {"include": ["pe"]}, "languageCodes": ["es"], "strings": {"community": "OpenStreetMap Peru"}, "contacts": [{"name": "Diego Sangunietti", "email": "diego.sanguinetti@hotmail.com"}, {"name": "Ruben Lopez M.", "email": "rub2106@gmail.com"}]},
     "pe-twitter": {"id": "pe-twitter", "type": "twitter", "account": "osmpe", "locationSet": {"include": ["pe"]}, "languageCodes": ["es"], "strings": {"community": "OpenStreetMap Peru"}, "contacts": [{"name": "Diego Sangunietti", "email": "diego.sanguinetti@hotmail.com"}, {"name": "Ruben Lopez M.", "email": "rub2106@gmail.com"}]},
+    "pf-facebook": {"id": "pf-facebook", "type": "facebook", "account": "osmpf", "locationSet": {"include": ["pf"]}, "languageCodes": ["fr"], "strings": {"community": "OpenStreetMap French Polynesia"}},
     "ph-facebook": {"id": "ph-facebook", "type": "facebook", "account": "OSMPH", "locationSet": {"include": ["ph"]}, "languageCodes": ["en", "tl"], "order": 1, "strings": {"community": "OpenStreetMap Philippines"}, "contacts": [{"name": "OSM PH core team", "email": "osm.pilipinas@gmail.com"}]},
     "PHXGeo-meetup": {"id": "PHXGeo-meetup", "type": "meetup", "account": "PHXGeo", "locationSet": {"include": ["phoenix.geojson"]}, "languageCodes": ["en"], "order": 5, "strings": {"name": "PHXGeo Meetup", "description": "Mappers and OpenStreetMap users in the Phoenix, AZ area", "extendedDescription": "This is a meetup group for those in the Phoenix area who like maps, GIS, OpenStreetMap, cartography and anything in between."}, "contacts": [{"name": "Ryan Arp", "email": "ryan@arpconsultinggroup.com"}]},
     "PHXGeo-twitter": {"id": "PHXGeo-twitter", "type": "twitter", "account": "phxgeo", "locationSet": {"include": ["phoenix.geojson"]}, "languageCodes": ["en"], "strings": {"name": "PHXGeo Twitter", "description": "Follow us on Twitter at {url}"}, "contacts": [{"name": "Ryan Arp", "email": "ryan@arpconsultinggroup.com"}]},
