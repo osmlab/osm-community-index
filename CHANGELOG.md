@@ -19,6 +19,19 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.1.2
+##### 2021-Jul-29
+* Added resources:
+  * OSM French Polynesia ([#479])
+* Updated:
+  * Fix #osm-at matrix account name ([#348])
+  * Update OSM Japan Slack invitation url ([#478])
+
+[#348]: https://github.com/osmlab/osm-community-index/issues/348
+[#478]: https://github.com/osmlab/osm-community-index/issues/478
+[#479]: https://github.com/osmlab/osm-community-index/issues/479
+
+
 # 5.1.1
 ##### 2021-Jul-13
 * Update `xmpp.svg` logo ([#476])
