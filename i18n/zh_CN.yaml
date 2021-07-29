@@ -37,6 +37,7 @@ zh_CN:
     openstreetmapcroatia: OpenStreetMap 克罗地亚
     openstreetmapcuba: OpenStreetMap 古巴
     openstreetmapcuneo: OpenStreetMap 库内奥
+    openstreetmapde: OpenStreetMap 德国
     openstreetmapdenmark: OpenStreetMap 丹麦
     openstreetmapdjibouti: OpenStreetMap 吉布提
     openstreetmapdominicanrepublic: OpenStreetMap 多米尼加
@@ -49,7 +50,87 @@ zh_CN:
     openstreetmapfrance: OpenStreetMap 法国
     openstreetmapfreemapslovakia: OpenStreetMap 斯洛伐克
     openstreetmapfrenchguiana: OpenStreetMap 法属圭亚那
+    openstreetmapfrenchpolynesia: OpenStreetMap 法属波利尼西亚
     openstreetmapgabon: OpenStreetMap 加蓬
+    openstreetmapgalicia: OpenStreetMap 加利西亚
+    openstreetmapgeorgia: OpenStreetMap 乔治亚
+    openstreetmapgermany: OpenStreetMap 德国
+    openstreetmapghana: OpenStreetMap 加纳
+    openstreetmapgraz: OpenStreetMap 格拉茨
+    openstreetmapgreece: OpenStreetMap 希腊
+    openstreetmapguatemala: OpenStreetMap 危地马拉
+    openstreetmaphaiti: OpenStreetMap 海地
+    openstreetmaphamburg: OpenStreetMap 汉堡
+    openstreetmaphonduras: OpenStreetMap 洪都拉斯
+    openstreetmaphongkong: OpenStreetMap 中国香港
+    openstreetmapiceland: OpenStreetMap 冰岛
+    openstreetmapindia: OpenStreetMap 印度
+    openstreetmapindonesia: OpenStreetMap 印度尼西亚
+    openstreetmapiran: OpenStreetMap 伊朗
+    openstreetmapiraq: OpenStreetMap 伊拉克
+    openstreetmapireland: OpenStreetMap 爱尔兰
+    openstreetmapisrael: OpenStreetMap 以色列
+    openstreetmapitaly: OpenStreetMap 意大利
+    openstreetmapjapan: OpenStreetMap 日本
+    openstreetmapkorea: OpenStreetMap 韩国
+    openstreetmapmexico: OpenStreetMap 墨西哥
+    openstreetmappoland: OpenStreetMap 波兰
+    openstreetmapromania: OpenStreetMap 罗马尼亚
+    openstreetmaprussia: OpenStreetMap 俄罗斯
+    openstreetmaptaiwan: OpenStreetMap 台湾
+    openstreetmapthailand: OpenStreetMap 泰国
+    openstreetmapturkey: OpenStreetMap 土耳其
+    openstreetmapuk: OpenStreetMap 英国
+    openstreetmapus: OpenStreetMap 美国
+  _defaults:
+    discord:
+      name: '{community} Discord'
+      url: https://discord.gg/{account}
+    discourse:
+      name: '{community} Discourse'
+    facebook:
+      name: '{community} Facebook'
+      url: https://facebook.com/{account}
+    forum:
+      name: '{community} 论坛'
+      url: https://forum.openstreetmap.org/viewforum.php?id={account}
+    github:
+      name: '{community} GitHub'
+      url: https://github.com/{account}
+    gitlab:
+      name: '{community} GitLab'
+      url: https://gitlab.com/{account}
+    group:
+      name: '{community}'
+    irc:
+      url: https://webchat.oftc.net/?channels={account}
+    mailinglist:
+      name: '{account} 邮件列表'
+    matrix:
+      url: https://matrix.to/#/{account}:matrix.org
+    meetup:
+      url: https://meetup.com/{account}
+    osm:
+      name: '{community}'
+    osm-lc:
+      name: '{community}'
+    reddit:
+      url: https://www.reddit.com/r/{account}
+    slack:
+      name: '{community} Slack'
+    telegram:
+      name: '{community} Telegram'
+      url: https://t.me/{account}
+    twitter:
+      url: https://twitter.com/{account}
+    wiki:
+      name: '{community} WikiProject'
+      url: https://wiki.openstreetmap.org/wiki/{account}
+    xmpp:
+      name: '{community} XMPP'
+    youtube:
+      description: 订阅我们的 YouTube 频道
+      url: https://www.youtube.com/channel/{account}
   Bahia-telegram:
     extendedDescription: 加入社区来了解有关 OpenStreetMap 的更多信息，提问或是参加我们的会议。欢迎每个人的到来！
   Bay-Area-OpenStreetMappers:

@@ -42,6 +42,7 @@ zh_TW:
     openstreetmapcuba: 開放街圖古巴
     openstreetmapcuneo: 開放街圖庫內奧
     openstreetmapcz: 開放街圖 CZ
+    openstreetmapde: OpenStreetMap 德國
     openstreetmapdenmark: 開放街圖丹麥
     openstreetmapdjibouti: 開放街圖吉布地
     openstreetmapdominicanrepublic: 開放街圖多明尼加共和國
@@ -54,6 +55,7 @@ zh_TW:
     openstreetmapfrance: 開放街圖法國
     openstreetmapfreemapslovakia: 開放街圖自由斯洛伐克
     openstreetmapfrenchguiana: 開放街圖法屬圭亞那
+    openstreetmapfrenchpolynesia: OpenStreetMap 法屬波利尼西亞
     openstreetmapgabon: 開放街圖加彭
     openstreetmapgalicia: 開放街圖加利西亞
     openstreetmapgeorgia: 開放街圖喬治亞
@@ -193,6 +195,10 @@ zh_TW:
       name: 'IRC 上的 {community}'
       description: '在 irc.oftc.net 上加入 #{account}（連接埠 6667）'
       url: https://webchat.oftc.net/?channels={account}
+    linkedin:
+      name: 'LinkedIn 上的 {community}'
+      description: 加入 LinkedIn 上的 {community}
+      url: https://linkedin.com/company/{account}
     mailinglist:
       name: '{account} 郵件論壇'
       description: '{community} 的官方郵件論壇'
@@ -302,6 +308,9 @@ zh_TW:
     description: '加入我們 XMPP 多使用者群組聊天：{url}'
   de-bremen-mailinglist:
     name: 布萊梅郵件論壇
+  de-hamburg-xmpp:
+    name: 開放街圖漢堡 XMPP
+    description: '加入我們 XMPP 多使用者群組聊天：{url}'
   de-karlsruhe-mailinglist:
     name: 卡爾斯魯爾郵件論壇
   de-karlsruhe-meetup:
@@ -329,6 +338,9 @@ zh_TW:
   de-viersen-meetup:
     name: 開放街圖菲爾森聚會
     description: OSM 菲爾森和門興格拉德巴赫社群與使用者聚會
+  de-xmpp:
+    name: OpenStreetMap 德國 XMPP
+    description: '加入我們 XMPP 多使用者群組聊天：{url}'
   DF-telegram:
     extendedDescription: 加入社群學習更多關於開放街圖的事情，詢問問題或是參加聚會，歡迎所有人噢！
   fr-35-wiki:
@@ -383,6 +395,8 @@ zh_TW:
     extendedDescription: 開放街圖愛爾蘭提供整個愛爾蘭島有關開放街圖計畫的聲音，並且與其他開放倡議的組織互動。
   ireland-irc:
     extendedDescription: '在 irc.oftc.net (port 6667) 加入 #{account}，如果你問了問題，請耐心等候數分鐘等待回應'
+  ireland-matrix:
+    description: 'OSM 愛爾蘭 IRC 頻道的 Matrix 閘口：{url}'
   is-chapter:
     description: 我們協助冰島的開放街圖成長茁壯並改善它。
   it-chapter:
@@ -401,6 +415,8 @@ zh_TW:
     description: 您必須知道的在拉丁美洲製圖的所有事情
   lk-facebook:
     extendedDescription: 在斯里蘭卡畫地圖嗎？有問題，想要與社群互動？來  {url} 加入我們，歡迎所有人。
+  local-polynesie-mailinglist:
+    extendedDescription: 取得與學習有關 OSM 社群的大小事情，尋求問題的解答，協調事務以及所有有關 OSM 社群的事。所有事情都歡迎噢！
   lu-github:
     description: 開放街圖盧森堡社群的 GithHub 組織
   lu-matrix:

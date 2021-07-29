@@ -1,4 +1,57 @@
 cs:
+  _communities:
+    openstreetmap: OpenStreetMap
+    openstreetmapafghanistan: OpenStreetMap Afghánistán
+    openstreetmapbenin: OpenStreetMap Benin
+    openstreetmapbivccvl: OpenStreetMap BI-VC-CVL
+    openstreetmapbzh: OpenStreetMap BZH
+    openstreetmapcz: OpenStreetMap CZ
+    openstreetmapde: OpenStreetMap DE
+    openstreetmapegypt: OpenStreetMap Egypt
+    openstreetmapghana: OpenStreetMap Ghana
+    openstreetmapguatemala: OpenStreetMap Guatemala
+    openstreetmapguinea: OpenStreetMap Guinea
+    openstreetmaphaiti: OpenStreetMap Haiti
+    openstreetmaphamburg: OpenStreetMap Hamburg
+    openstreetmaphonduras: OpenStreetMap Honduras
+    openstreetmaphongkong: OpenStreetMap Hong Kong
+    openstreetmapkorea: OpenStreetMap Korea
+    openstreetmapkosovo: OpenStreetMap Kosovo
+    openstreetmaplesotho: OpenStreetMap Lesotho
+    openstreetmapmalawi: OpenStreetMap Malawi
+    openstreetmapmali: OpenStreetMap Mali
+    openstreetmappanama: OpenStreetMap Panama
+    openstreetmapperu: OpenStreetMap Peru
+    openstreetmaprdc: OpenStreetMap RDC
+    openstreetmaprwanda: OpenStreetMap Rwanda
+    openstreetmapsenegal: OpenStreetMap Senegal
+    openstreetmaptaiwan: OpenStreetMap Taiwan
+    openstreetmaptogo: OpenStreetMap Togo
+    openstreetmapuk: OpenStreetMap UK
+    openstreetmapus: OpenStreetMap US
+  _defaults:
+    discord:
+      url: https://discord.gg/{account}
+    facebook:
+      url: https://facebook.com/{account}
+    forum:
+      url: https://forum.openstreetmap.org/viewforum.php?id={account}
+    github:
+      url: https://github.com/{account}
+    gitlab:
+      url: https://gitlab.com/{account}
+    irc:
+      url: https://webchat.oftc.net/?channels={account}
+    linkedin:
+      url: https://linkedin.com/company/{account}
+    mailinglist:
+      url: https://lists.openstreetmap.org/listinfo/{account}
+    matrix:
+      url: https://matrix.to/#/{account}:matrix.org
+    meetup:
+      url: https://meetup.com/{account}
+    reddit:
+      url: https://www.reddit.com/r/{account}
   Bahia-telegram:
     extendedDescription: Připojte se ke komunitě a dozvíte se více o OpenStreetMap, můžete klást otázky nebo se účastnit našich setkání. Každý je vítán!
   Bay-Area-OpenStreetMappers:

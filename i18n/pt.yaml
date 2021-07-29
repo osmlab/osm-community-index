@@ -55,6 +55,7 @@ pt:
     openstreetmapfrance: OpenStreetMap França
     openstreetmapfreemapslovakia: OpenStreetMap Freemap Eslováquia
     openstreetmapfrenchguiana: OpenStreetMap Guiana Francesa
+    openstreetmapfrenchpolynesia: OpenStreetMap da Polinésia Francesa
     openstreetmapgabon: OpenStreetMap Gabão
     openstreetmapgalicia: OpenStreetMap Galiza
     openstreetmapgeorgia: OpenStreetMap Geórgia
@@ -194,9 +195,13 @@ pt:
       name: '{community} no IRC'
       description: 'Junta-te a #{account} no irc.oftc.net (port 6667)'
       url: https://webchat.oftc.net/?channels={account}
+    linkedin:
+      name: '{community} no LinkedIn'
+      description: Junta-te à nossa comunidade no LinkedIn
+      url: https://linkedin.com/company/{account}
     mailinglist:
       name: 'Mailing List {account}'
-      description: A mailing list oficial de {community}
+      description: A mailing list oficial do {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
     matrix:
       name: 'Matrix Chat {community}'
@@ -302,6 +307,8 @@ pt:
     description: Mapeadores e utilizadores do OpenStreetMap na área de Ulmer Alb
   DF-telegram:
     extendedDescription: Entre na comunidade para aprender mais sobre o OpenStreetMap, fazer perguntas ou participar dos nossos encontros. Todos são bem-vindos!
+  fr-35-wiki:
+    description: Página wiki do grupo local OSM Rennes
   fr-bzh-website:
     description: O mapa que fala bretão
   fr-chapter:
@@ -313,6 +320,7 @@ pt:
   galicia-wiki:
     description: 'Tudo o que precisas de saber sobre mapeamento na Galiza: {url}'
   Galicia-Xeoinquedos-Twitter:
+    name: Xeoinquedos no Twitter
     description: Segue-nos no Twitter em {url}
   GeoPhilly:
     name: GeoPhilly
@@ -322,6 +330,12 @@ pt:
     description: Página Wikiproject da Comunidade Croata
   hu-meetup:
     description: A plataforma para organizar encontros na Hungria
+  ireland-chapter:
+    description: Ajudamos a melhorar e a fazer crescer o OpenStreetMap na Irlanda.
+  is-chapter:
+    description: Ajudamos a melhorar e a fazer crescer o OpenStreetMap na Islândia.
+  it-chapter:
+    description: Ajudamos a melhorar e a fazer crescer o OpenStreetMap em Itália.
   kosovo-telegram:
     description: Grupo Telegram público semi-oficial do Kosovo. Aceitamos os mapeadores de qualquer local e qualquer idioma.
   mappa-mercia-group:
@@ -345,9 +359,16 @@ pt:
     extendedDescription: O Maptime é, dedicado à criação de mapas. A nossa missão é abrir as portas das oportunidades do mapeamento a qualquer pessoa interessada, criando espaço e tempo para aprendizagem colaborativa, exploração e criação de mapas usando ferramentas e tecnologias de cartografia. .
   Maptime-Oceania-Slack:
     description: Regista-te em {signupUrl}
+  md-googlegroup:
+    name: 'Grupo Google {community}'
+    description: Junta-te ao Grupo Google {community}
+  nl-wonderme:
+    name: '{community} no Wonder.me'
+    description: Sala de encontro virtual
   no-irc:
     description: Sala de chat para mapeadores e utilizadores do OpenStreetMap, developers e entusiastas na Noruega
   no-mailinglist:
+    name: 'Lista de e-mail {community}'
     description: Lista de discussão para usuários, developers, mapeadores e cartógrafos do OpenStreetMap na Noruega
   Nottingham-OSM-pub-meetup:
     name: East Midlands (Nottingham) Encontro mensal num pubs
@@ -369,6 +390,8 @@ pt:
     extendedDescription: Notícias da comunidade local e OpenStreetMap em geral.
   osm-at:
     description: A plataforma para informações sobre o OpenStreetMap na Áustria
+  osm-benin-facebook:
+    description: Melhora o OpenStreetMap no Benim
   OSM-Boston:
     name: OpenStreetMap Boston
     description: Mapeadores e utilizadores do OpenStreetMap na área de Boston
@@ -390,6 +413,8 @@ pt:
     extendedDescription: OpenStreetMap (OSM) Colorado é uma colaboração local de pessoas interessadas em contribuir para a criação de mapas gratuitos. Encorajamos todos os nossos mapeadores a organizar ou sugerir eventos de mapeamento em todo o estado. As actividades do encontro podem ser simples misturas sociais, formação básico e avançado em OSM ou eventos de mapeamento.
   osm-de:
     description: A plataforma para informações sobre o OpenStreetMap na Alemanha
+  OSM-Discord:
+    name: OpenStreetMap World Discord
   OSM-Facebook:
     description: Visita-nos no Facebook para obteres novidades e actualizações sobre o OpenStreetMap.
   osm-gh-facebook:
@@ -432,8 +457,13 @@ pt:
   OSM-Kerala-facebook:
     description: Ajuda a melhorar o OpenStreetMap em Kerala
     extendedDescription: Queres mapear em KErala? Tens perguntas e queres ligar-te à comunidade local? Junta-te a nós em {url}. Todos são bem-vindos!
+  osm-kerala-github:
+    description: 'Programa connosco: {url}'
   osm-mg-facebook:
     description: Grupo malgaxe no Facebook para pessoas interessadas no OpenStreetMap.
+  osm-ni:
+    name: MapaNica.net
+    description: Fornece serviços e informação sobre o OSM da comunidade local na Nicarágua
   OSM-Ottawa-meetup:
     description: Mapeadores e utilizadores do OpenStreetMap na região de Otava
   OSM-PE:
@@ -472,6 +502,8 @@ pt:
     name: OpenStreetMap Tampa Bay
     description: Mapeadores e utilizadores do OpenStreetMap na área de Tampa Bay
     extendedDescription: O OSM Tampa Bay Group convida os moradores locais a unirem-se e a desenvolverem o mapa final de Tampa Bay com o OpenStreetMap, o mapa mundial livre e editável. Se gosta de mapas, dados, código aberto, GPS, caminhadas, ciclismo, etc., vai adorar trabalhar com o OpenStreetMap - então junte-se a nós! Encontrámo-nos, mapeamos e discutiremos novos tópicos uma vez por mês.
+  osm-td-facebook:
+    description: Melhora o OpenStreetMap no Chade
   OSM-Telegram:
     description: Junta-te ao canal Telegram Global do OpenStreetMap em {url}
   OSM-TH-CNX-meetup:
@@ -505,12 +537,23 @@ pt:
   PHXGeo-twitter:
     name: PHXGeo Twitter
     description: Segue-nos no Twitter em {url}
+  rs-osm:
+    description: A plataforma para informação sobre o OpenStreetMap na Sérvia
   RS-telegram:
     extendedDescription: Entre na comunidade para aprender mais sobre o OpenStreetMap, fazer perguntas ou participar dos nossos encontros. Todos são bem-vindos!
+  rs-wiki:
+    description: Página Wikiproject da Sérvia
   talk-au:
     description: Local para mapeadores australianos para conversar
   talk-mg:
     description: Lugar para os contribuidores, comunidades e utilizadores do OpenStreetMap em Madagáscar partilharem e discutirem.
+  ua-github:
+    description: GitHub OpenStreetMap Ucrânia
+  ua-osm:
+    description: Website do OpenStreetMap na Ucrânia
+  uk-london-twitter:
+    name: OpenStreetMap Londres no Twitter
+    description: 'OpenStreetMap Londres no Twitter: {url}'
   us-ma-mailinglist:
     name: Lista de discussão Talk-us-massachusetts
     description: Lista de emails para a comunidade de Massachusetts OSM

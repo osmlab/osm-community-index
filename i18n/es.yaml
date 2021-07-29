@@ -194,6 +194,10 @@ es:
       name: '{community} en IRC'
       description: 'Únase a #{account} en irc.oftc.net (puerto 6667)'
       url: https://webchat.oftc.net/?channels={account}
+    linkedin:
+      name: '{community} en LinkedIn'
+      description: Únete a nuestra comunidad en LinkedIn
+      url: https://linkedin.com/company/{account}
     mailinglist:
       name: 'Lista de correo {account}'
       description: La lista de correo oficial de la comunidad {community}

@@ -194,6 +194,10 @@ vi:
       name: '{community} trên IRC'
       description: 'Hãy tham gia #{account} tại irc.oftc.net (cổng 6667)'
       url: https://webchat.oftc.net/?channels={account}
+    linkedin:
+      name: '{community} tại LinkedIn'
+      description: Hãy tham gia cộng đồng của chúng ta tại LinkedIn
+      url: https://linkedin.com/company/{account}
     mailinglist:
       name: 'Danh sách thư {account}'
       description: Danh sách thư chính thức của {community}
@@ -223,6 +227,7 @@ vi:
       description: Theo dõi chúng tôi tại Twitter
       url: https://twitter.com/{account}
     wiki:
+      name: 'Dự án Wiki {community}'
       url: https://wiki.openstreetmap.org/wiki/{account}?uselang=vi
     xmpp:
       name: '{community} trên XMPP'
@@ -378,6 +383,8 @@ vi:
     description: Chúng ta giúp phát triển và cải thiện OpenStreetMap tại Ireland.
   ireland-irc:
     extendedDescription: 'Hãy tham gia #{account} tại irc.oftc.net (cổng 6667). Xin vui lòng kiên nhẫn chờ đợi vài phút nếu hỏi câu hỏi.'
+  ireland-matrix:
+    description: 'Cổng Matrix kết nối với kênh IRC của OSM Ireland: {url}'
   is-chapter:
     description: Chúng ta giúp phát triển và cải thiện OpenStreetMap tại Iceland.
   it-chapter:
