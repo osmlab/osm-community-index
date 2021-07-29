@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.1.1",
-    "generated": "2021-07-20T03:31:33.196Z",
+    "generated": "2021-07-29T14:33:28.189Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "a423f2bf17a7cd44c2b16cec4cb7b067"
+    "hash": "53559254f1ba6dde5b3635bc316ad7eb"
   },
   "type": "FeatureCollection",
   "features": [
@@ -801,7 +801,7 @@
           "at-matrix": {
             "id": "at-matrix",
             "type": "matrix",
-            "account": "+osm-at",
+            "account": "#osm-at",
             "locationSet": {"include": ["at"]},
             "languageCodes": ["de"],
             "strings": {
@@ -816,10 +816,10 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Austria Matrix Chat",
-              "url": "https://matrix.to/#/+osm-at:matrix.org",
+              "url": "https://matrix.to/#/#osm-at:matrix.org",
               "description": "Unofficial German Matrix channel for Austria",
-              "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/+osm-at:matrix.org\">OpenStreetMap Austria Matrix Chat</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/+osm-at:matrix.org\">https://matrix.to/#/+osm-at:matrix.org</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osm-at:matrix.org\">OpenStreetMap Austria Matrix Chat</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osm-at:matrix.org\">https://matrix.to/#/#osm-at:matrix.org</a>",
               "descriptionHTML": "Unofficial German Matrix channel for Austria"
             }
           },

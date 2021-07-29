@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.1.1",
-    "generated": "2021-07-20T03:31:09.119Z",
+    "generated": "2021-07-29T14:33:24.488Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "1f370e0ac6b894657b8d769bb3e290b5"
+    "hash": "5e6af8f5fb98da3e85d09cc86f0c2013"
   },
   "resources": {
     "af-facebook": {"id": "af-facebook", "type": "facebook", "locationSet": {"include": ["af"]}, "languageCodes": ["en", "fa", "ps"], "order": 3, "strings": {"community": "OpenStreetMap Afghanistan", "url": "https://www.facebook.com/groups/321292812113316/"}, "contacts": [{"name": "Walker Kosmidou-Bradley", "email": "walker.t.bradley@gmail.com"}]},
@@ -16,7 +16,7 @@
     "asti-telegram": {"id": "asti-telegram", "type": "telegram", "account": "OSMAsti", "locationSet": {"include": [[8.2071, 44.9]]}, "languageCodes": ["it"], "order": 3, "strings": {"community": "OpenStreetMap Asti"}, "contacts": [{"name": "Andrea Musuruane", "email": "musuruan@gmail.com"}, {"name": "Francesco Ansanelli", "email": "francians@gmail.com"}]},
     "at-forum": {"id": "at-forum", "type": "forum", "account": "89", "locationSet": {"include": ["at"]}, "languageCodes": ["de", "en"], "order": -2, "strings": {"community": "OpenStreetMap Austria"}, "contacts": [{"name": "emga", "email": "emgaosm@gmail.com"}]},
     "at-mailinglist": {"id": "at-mailinglist", "type": "mailinglist", "account": "talk-at", "locationSet": {"include": ["at"]}, "languageCodes": ["de"], "order": -3, "strings": {"community": "OpenStreetMap Austria"}, "contacts": [{"name": "AT community", "email": "info@openstreetmap.at"}]},
-    "at-matrix": {"id": "at-matrix", "type": "matrix", "account": "+osm-at", "locationSet": {"include": ["at"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Austria", "description": "Unofficial German Matrix channel for Austria"}, "contacts": [{"name": "Stefan Kies", "email": "negreheb+osmcommunityindex@mailbox.org"}]},
+    "at-matrix": {"id": "at-matrix", "type": "matrix", "account": "#osm-at", "locationSet": {"include": ["at"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Austria", "description": "Unofficial German Matrix channel for Austria"}, "contacts": [{"name": "Stefan Kies", "email": "negreheb+osmcommunityindex@mailbox.org"}]},
     "at-twitter": {"id": "at-twitter", "type": "twitter", "account": "osm_at", "locationSet": {"include": ["at"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Austria"}, "contacts": [{"name": "AT Community", "email": "info@openstreetmap.at"}]},
     "az-facebook": {"id": "az-facebook", "type": "facebook", "account": "OSM-Azerbaijan-178488705567357", "locationSet": {"include": ["az"]}, "strings": {"name": "OpenStreetMap Azerbaijan"}},
     "ba-facebook": {"id": "ba-facebook", "type": "facebook", "account": "OpenStreetMapBosnaIHercegovina", "locationSet": {"include": ["ba"]}, "languageCodes": ["en"], "order": 3, "strings": {"community": "OpenStreetMap Bosnia and Herzegovina"}},
