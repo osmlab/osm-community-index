@@ -19,6 +19,23 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.1.3
+##### 2021-Aug-17
+* Added OSM Mexico Matrix Chat ([#480])
+* Added/Updated official local chapters ([#482]):
+  * OSM Japan
+  * OSM Poland
+  * OSGeo Oceania
+  * OSM CZ (Czechia)
+  * OSM Freemap Slovakia
+  * FLOSSK (Kosovo)
+  * OSM RDC (Democratic Republic of Congo)
+  * GeoLibres (Argentina)
+
+[#480]: https://github.com/osmlab/osm-community-index/issues/480
+[#482]: https://github.com/osmlab/osm-community-index/issues/482
+
+
 # 5.1.2
 ##### 2021-Jul-29
 * Added resources:
