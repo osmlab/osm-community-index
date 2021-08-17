@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.1.2",
-    "generated": "2021-07-29T14:44:12.887Z",
+    "generated": "2021-08-17T15:38:59.071Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "9aa26394cc863fec3e470536303047ef"
+    "hash": "18e16042db0e7e537b99e4aee1dc31f5"
   },
   "resources": {
     "af-facebook": {"id": "af-facebook", "type": "facebook", "locationSet": {"include": ["af"]}, "languageCodes": ["en", "fa", "ps"], "order": 3, "strings": {"community": "OpenStreetMap Afghanistan", "url": "https://www.facebook.com/groups/321292812113316/"}, "contacts": [{"name": "Walker Kosmidou-Bradley", "email": "walker.t.bradley@gmail.com"}]},
@@ -233,6 +233,7 @@
     "mw-facebook": {"id": "mw-facebook", "type": "facebook", "locationSet": {"include": ["mw"]}, "strings": {"community": "OpenStreetMap Malawi", "url": "https://www.facebook.com/groups/osm.mw"}},
     "mx-facebook": {"id": "mx-facebook", "type": "facebook", "locationSet": {"include": ["mx"]}, "languageCodes": ["es"], "strings": {"community": "OpenStreetMap Mexico", "url": "https://facebook.com/groups/OSMMX"}},
     "mx-forum": {"id": "mx-forum", "type": "forum", "account": "79", "locationSet": {"include": ["mx"]}, "languageCodes": ["es"], "strings": {"community": "OpenStreetMap Mexico"}},
+    "mx-matrix": {"id": "mx-matrix", "type": "matrix", "account": "osm_mx", "locationSet": {"include": ["mx"]}, "languageCodes": ["es"], "strings": {"community": "OpenStreetMap Mexico", "url": "https://app.element.io/#/room/#OSM-Mexico:matrix.org"}, "contacts": [{"name": "rimugu", "email": "rimugu@protonmail.com"}]},
     "mx-telegram": {"id": "mx-telegram", "type": "telegram", "account": "osm_mx", "locationSet": {"include": ["mx"]}, "languageCodes": ["es"], "strings": {"community": "OpenStreetMap Mexico"}},
     "my-facebook": {"id": "my-facebook", "type": "facebook", "locationSet": {"include": ["my"]}, "languageCodes": ["en", "ms"], "order": 3, "strings": {"community": "OpenStreetMap Malaysia", "url": "https://www.facebook.com/groups/openstreetmapMY"}, "contacts": [{"name": "Mohd Saidin", "email": "projekopenstreetmap@hotmail.com"}]},
     "my-forum": {"id": "my-forum", "type": "forum", "account": "60", "locationSet": {"include": ["my"]}, "languageCodes": ["en", "ms"], "order": -2, "strings": {"community": "OpenStreetMap Malaysia"}, "contacts": [{"name": "Mohd Saidin", "email": "projekopenstreetmap@hotmail.com"}]},

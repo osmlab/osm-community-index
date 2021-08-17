@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.1.2",
-    "generated": "2021-07-29T14:44:13.687Z",
+    "generated": "2021-08-17T15:39:21.028Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "e12779afa91b7bc667292de1647fa55a"
+    "hash": "b1c43d921861a6c865174a3470b01dc9"
   },
   "type": "FeatureCollection",
   "features": [
@@ -23075,6 +23075,26 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=79\">OpenStreetMap Mexico Forum</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=79\">https://forum.openstreetmap.org/viewforum.php?id=79</a>",
               "descriptionHTML": "The official forum for OpenStreetMap Mexico"
+            }
+          },
+          "mx-matrix": {
+            "id": "mx-matrix",
+            "type": "matrix",
+            "account": "osm_mx",
+            "locationSet": {"include": ["mx"]},
+            "languageCodes": ["es"],
+            "strings": {
+              "community": "OpenStreetMap Mexico",
+              "url": "https://app.element.io/#/room/#OSM-Mexico:matrix.org"
+            },
+            "contacts": [{"name": "rimugu", "email": "rimugu@protonmail.com"}],
+            "resolved": {
+              "name": "OpenStreetMap Mexico Matrix Chat",
+              "url": "https://app.element.io/#/room/#OSM-Mexico:matrix.org",
+              "description": "Join our community Matrix chat",
+              "nameHTML": "<a target=\"_blank\" href=\"https://app.element.io/#/room/#OSM-Mexico:matrix.org\">OpenStreetMap Mexico Matrix Chat</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://app.element.io/#/room/#OSM-Mexico:matrix.org\">https://app.element.io/#/room/#OSM-Mexico:matrix.org</a>",
+              "descriptionHTML": "Join our community Matrix chat"
             }
           },
           "mx-telegram": {
