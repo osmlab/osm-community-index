@@ -27,3 +27,11 @@ community resources.  Whenever the list of resource types changes:
 
 Open https://github.com/osmlab/osm-community-index/tags
 Click "Add Release Notes" and link to the CHANGELOG
+
+### Purge cache (optional)
+
+```bash
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@5.1/dist/defaults.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@5.1/dist/featureCollection.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@5.1/dist/resources.min.json'
+```
