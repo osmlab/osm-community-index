@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.1.2",
-    "generated": "2021-08-17T15:39:21.028Z",
+    "generated": "2021-08-17T16:50:01.614Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "b1c43d921861a6c865174a3470b01dc9"
+    "hash": "48db0d272081fb58fd2ebec06e3422f1"
   },
   "type": "FeatureCollection",
   "features": [
@@ -4737,6 +4737,361 @@
     },
     {
       "type": "Feature",
+      "properties": {
+        "iso1A2": "CD",
+        "iso1A3": "COD",
+        "iso1N3": "180",
+        "wikidata": "Q974",
+        "nameEn": "Democratic Republic of the Congo",
+        "aliases": ["ZR"],
+        "groups": ["017", "202", "002", "UN", "001"],
+        "callingCodes": ["243"],
+        "id": "Q974",
+        "m49": "180",
+        "ccTLD": ".cd",
+        "isoStatus": "official",
+        "level": "country",
+        "emojiFlag": "🇨🇩",
+        "roadSpeedUnit": "km/h",
+        "roadHeightUnit": "m",
+        "driveSide": "right",
+        "area": 2324722.32,
+        "resources": {
+          "cd-chapter": {
+            "id": "cd-chapter",
+            "type": "osm-lc",
+            "locationSet": {"include": ["cd"]},
+            "languageCodes": ["en", "fr"],
+            "strings": {
+              "community": "OpenStreetMap RDC",
+              "name": "OpenStreetMap RDC",
+              "description": "From one street to another, let's map our country...",
+              "extendedDescription": "We are passionate about the OSM project, sharing some of our time to make the project known to others. We are still too few, join us!",
+              "url": "http://openstreetmap.cd/"
+            },
+            "contacts": [
+              {"name": "OpenStreetMap RDC", "email": "contact@openstreetmap.cd"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap RDC",
+              "url": "http://openstreetmap.cd/",
+              "description": "From one street to another, let's map our country...",
+              "extendedDescription": "We are passionate about the OSM project, sharing some of our time to make the project known to others. We are still too few, join us!",
+              "nameHTML": "<a target=\"_blank\" href=\"http://openstreetmap.cd/\">OpenStreetMap RDC</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"http://openstreetmap.cd/\">http://openstreetmap.cd/</a>",
+              "descriptionHTML": "From one street to another, let's map our country...",
+              "extendedDescriptionHTML": "We are passionate about the OSM project, sharing some of our time to make the project known to others. We are still too few, join us!"
+            }
+          },
+          "OSM-cd-facebook": {
+            "id": "OSM-cd-facebook",
+            "type": "facebook",
+            "account": "OpenStreetMap.RDC",
+            "locationSet": {"include": ["cd"]},
+            "languageCodes": ["en", "fr"],
+            "strings": {"community": "OpenStreetMap RDC"},
+            "resolved": {
+              "name": "OpenStreetMap RDC on Facebook",
+              "url": "https://facebook.com/OpenStreetMap.RDC",
+              "description": "Join our community on Facebook",
+              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMap.RDC\">OpenStreetMap RDC on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMap.RDC\">https://facebook.com/OpenStreetMap.RDC</a>",
+              "descriptionHTML": "Join our community on Facebook"
+            }
+          },
+          "OSM-cd-mailinglist": {
+            "id": "OSM-cd-mailinglist",
+            "type": "mailinglist",
+            "account": "talk-cd",
+            "locationSet": {"include": ["cd"]},
+            "languageCodes": ["en", "fr"],
+            "strings": {"community": "OpenStreetMap RDC"},
+            "resolved": {
+              "name": "talk-cd Mailing List",
+              "url": "https://lists.openstreetmap.org/listinfo/talk-cd",
+              "description": "The official mailing list for OpenStreetMap RDC",
+              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-cd\">talk-cd Mailing List</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-cd\">https://lists.openstreetmap.org/listinfo/talk-cd</a>",
+              "descriptionHTML": "The official mailing list for OpenStreetMap RDC"
+            }
+          },
+          "OSM-cd-twitter": {
+            "id": "OSM-cd-twitter",
+            "type": "twitter",
+            "account": "OSM_CD",
+            "locationSet": {"include": ["cd"]},
+            "languageCodes": ["en", "fr"],
+            "strings": {"community": "OpenStreetMap RDC"},
+            "resolved": {
+              "name": "OpenStreetMap RDC on Twitter",
+              "url": "https://twitter.com/OSM_CD",
+              "description": "Follow us on Twitter",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_CD\">OpenStreetMap RDC on Twitter</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_CD\">https://twitter.com/OSM_CD</a>",
+              "descriptionHTML": "Follow us on Twitter"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [27.44012, 5.07349],
+              [27.09575, 5.22305],
+              [26.93064, 5.13535],
+              [26.85579, 5.03887],
+              [26.74572, 5.10685],
+              [26.48595, 5.04984],
+              [26.13371, 5.25594],
+              [25.86073, 5.19455],
+              [25.53271, 5.37431],
+              [25.34558, 5.29101],
+              [25.31256, 5.03668],
+              [24.71816, 4.90509],
+              [24.46719, 5.0915],
+              [23.38847, 4.60013],
+              [22.94817, 4.82392],
+              [22.89094, 4.79321],
+              [22.84691, 4.69887],
+              [22.78526, 4.71423],
+              [22.6928, 4.47285],
+              [22.60915, 4.48821],
+              [22.5431, 4.22041],
+              [22.45504, 4.13039],
+              [22.27682, 4.11347],
+              [22.10721, 4.20723],
+              [21.6405, 4.317],
+              [21.55904, 4.25553],
+              [21.25744, 4.33676],
+              [21.21341, 4.29285],
+              [21.11214, 4.33895],
+              [21.08793, 4.39603],
+              [20.90383, 4.44877],
+              [20.60184, 4.42394],
+              [18.62755, 3.47564],
+              [18.63857, 3.19342],
+              [18.10683, 2.26876],
+              [18.08034, 1.58553],
+              [17.85887, 1.04327],
+              [17.86989, 0.58873],
+              [17.95255, 0.48128],
+              [17.93877, 0.32424],
+              [17.81204, 0.23884],
+              [17.66051, -0.26535],
+              [17.72112, -0.52707],
+              [17.32438, -0.99265],
+              [16.97999, -1.12762],
+              [16.70724, -1.45815],
+              [16.50336, -1.8795],
+              [16.16173, -2.16586],
+              [16.22785, -2.59528],
+              [16.1755, -3.25014],
+              [16.21407, -3.2969],
+              [15.89448, -3.9513],
+              [15.53081, -4.042],
+              [15.48121, -4.22062],
+              [15.41785, -4.28381],
+              [15.32693, -4.27282],
+              [15.25411, -4.31121],
+              [15.1978, -4.32388],
+              [14.83101, -4.80838],
+              [14.67948, -4.92093],
+              [14.5059, -4.84956],
+              [14.41499, -4.8825],
+              [14.37366, -4.56125],
+              [14.47284, -4.42941],
+              [14.3957, -4.36623],
+              [14.40672, -4.28381],
+              [13.9108, -4.50906],
+              [13.81162, -4.41842],
+              [13.71794, -4.44864],
+              [13.70417, -4.72601],
+              [13.50305, -4.77818],
+              [13.41764, -4.89897],
+              [13.11182, -4.5942],
+              [13.09648, -4.63739],
+              [13.11195, -4.67745],
+              [12.8733, -4.74346],
+              [12.70868, -4.95505],
+              [12.63465, -4.94632],
+              [12.60251, -5.01715],
+              [12.46297, -5.09408],
+              [12.49815, -5.14058],
+              [12.51589, -5.1332],
+              [12.53586, -5.14658],
+              [12.53599, -5.1618],
+              [12.52301, -5.17481],
+              [12.52318, -5.74353],
+              [12.26557, -5.74031],
+              [12.20376, -5.76338],
+              [11.95767, -5.94705],
+              [12.42245, -6.07585],
+              [13.04371, -5.87078],
+              [16.55507, -5.85631],
+              [16.96282, -7.21787],
+              [17.5828, -8.13784],
+              [18.33635, -8.00126],
+              [19.33698, -7.99743],
+              [19.5469, -7.00195],
+              [20.30218, -6.98955],
+              [20.31846, -6.91953],
+              [20.61689, -6.90876],
+              [20.56263, -7.28566],
+              [21.79824, -7.29628],
+              [21.84856, -9.59871],
+              [22.19039, -9.94628],
+              [22.32604, -10.76291],
+              [22.17954, -10.85884],
+              [22.25951, -11.24911],
+              [22.54205, -11.05784],
+              [23.16602, -11.10577],
+              [23.45631, -10.946],
+              [23.86868, -11.02856],
+              [24.00027, -10.89356],
+              [24.34528, -11.06816],
+              [24.42612, -11.44975],
+              [25.34069, -11.19707],
+              [25.33058, -11.65767],
+              [26.01777, -11.91488],
+              [26.88687, -12.01868],
+              [27.04351, -11.61312],
+              [27.22541, -11.60323],
+              [27.21025, -11.76157],
+              [27.59932, -12.22123],
+              [28.33199, -12.41375],
+              [29.01918, -13.41353],
+              [29.60531, -13.21685],
+              [29.65078, -13.41844],
+              [29.81551, -13.44683],
+              [29.8139, -12.14898],
+              [29.48404, -12.23604],
+              [29.4992, -12.43843],
+              [29.18592, -12.37921],
+              [28.48357, -11.87532],
+              [28.37241, -11.57848],
+              [28.65032, -10.65133],
+              [28.62795, -9.92942],
+              [28.68532, -9.78],
+              [28.56208, -9.49122],
+              [28.51627, -9.44726],
+              [28.52636, -9.35379],
+              [28.36562, -9.30091],
+              [28.38526, -9.23393],
+              [28.9711, -8.66935],
+              [28.88917, -8.4831],
+              [30.79243, -8.27382],
+              [30.2567, -7.14121],
+              [29.52552, -6.2731],
+              [29.43673, -4.44845],
+              [29.23708, -3.75856],
+              [29.21463, -3.3514],
+              [29.25633, -3.05471],
+              [29.17258, -2.99385],
+              [29.16037, -2.95457],
+              [29.09797, -2.91935],
+              [29.09119, -2.87871],
+              [29.0505, -2.81774],
+              [29.00404, -2.81978],
+              [29.00167, -2.78523],
+              [29.04081, -2.7416],
+              [29.00357, -2.70596],
+              [28.94346, -2.69124],
+              [28.89793, -2.66111],
+              [28.90226, -2.62385],
+              [28.89288, -2.55848],
+              [28.87943, -2.55165],
+              [28.86193, -2.53185],
+              [28.86209, -2.5231],
+              [28.87497, -2.50887],
+              [28.88846, -2.50493],
+              [28.89342, -2.49017],
+              [28.89132, -2.47557],
+              [28.86846, -2.44866],
+              [28.86826, -2.41888],
+              [28.89601, -2.37321],
+              [28.95642, -2.37321],
+              [29.00051, -2.29001],
+              [29.105, -2.27043],
+              [29.17562, -2.12278],
+              [29.11847, -1.90576],
+              [29.24458, -1.69663],
+              [29.24323, -1.66826],
+              [29.36322, -1.50887],
+              [29.45038, -1.5054],
+              [29.53062, -1.40499],
+              [29.59061, -1.39016],
+              [29.58388, -0.89821],
+              [29.63006, -0.8997],
+              [29.62708, -0.71055],
+              [29.67176, -0.55714],
+              [29.67474, -0.47969],
+              [29.65091, -0.46777],
+              [29.72687, -0.08051],
+              [29.7224, 0.07291],
+              [29.77454, 0.16675],
+              [29.81922, 0.16824],
+              [29.87284, 0.39166],
+              [29.97413, 0.52124],
+              [29.95477, 0.64486],
+              [29.98307, 0.84295],
+              [30.1484, 0.89805],
+              [30.22139, 0.99635],
+              [30.24671, 1.14974],
+              [30.48503, 1.21675],
+              [31.30127, 2.11006],
+              [31.28042, 2.17853],
+              [31.20148, 2.2217],
+              [31.1985, 2.29462],
+              [31.12104, 2.27676],
+              [31.07934, 2.30207],
+              [31.06593, 2.35862],
+              [30.96911, 2.41071],
+              [30.91102, 2.33332],
+              [30.83059, 2.42559],
+              [30.74271, 2.43601],
+              [30.75612, 2.5863],
+              [30.8857, 2.83923],
+              [30.8574, 2.9508],
+              [30.77101, 3.04897],
+              [30.84251, 3.26908],
+              [30.93486, 3.40737],
+              [30.94081, 3.50847],
+              [30.85153, 3.48867],
+              [30.85997, 3.5743],
+              [30.80713, 3.60506],
+              [30.78512, 3.67097],
+              [30.56277, 3.62703],
+              [30.57378, 3.74567],
+              [30.55396, 3.84451],
+              [30.47691, 3.83353],
+              [30.27658, 3.95653],
+              [30.22374, 3.93896],
+              [30.1621, 4.10586],
+              [30.06964, 4.13221],
+              [29.79666, 4.37809],
+              [29.82087, 4.56246],
+              [29.49726, 4.7007],
+              [29.43341, 4.50101],
+              [29.22207, 4.34297],
+              [29.03054, 4.48784],
+              [28.8126, 4.48784],
+              [28.6651, 4.42638],
+              [28.20719, 4.35614],
+              [27.79551, 4.59976],
+              [27.76469, 4.79284],
+              [27.65462, 4.89375],
+              [27.56656, 4.89375],
+              [27.44012, 5.07349]
+            ]
+          ]
+        ]
+      },
+      "id": "Q974"
+    },
+    {
+      "type": "Feature",
       "id": "central_pa.geojson",
       "properties": {
         "id": "central_pa.geojson",
@@ -7527,7 +7882,7 @@
         "resources": {
           "czech-community": {
             "id": "czech-community",
-            "type": "osm",
+            "type": "osm-lc",
             "locationSet": {"include": ["cz"]},
             "languageCodes": ["cs", "en", "sk"],
             "strings": {
@@ -17463,6 +17818,30 @@
         "driveSide": "right",
         "area": 10912.57,
         "resources": {
+          "kosovo-flossk": {
+            "id": "kosovo-flossk",
+            "type": "osm-lc",
+            "locationSet": {"include": ["xk"]},
+            "languageCodes": ["en", "sq", "sr"],
+            "strings": {
+              "community": "OpenStreetMap Freemap Slovakia",
+              "name": "Free Libre Open Source Software Kosova (FLOSSK)",
+              "description": "Promoting FLOSS since 2009",
+              "extendedDescription": "Free Libre Open Source Software Kosova (FLOSSK) is a non-governmental organization based in Prishtina established in 2009 in order to support, promote and develop free and open source software. Besides, we also contribute to open and participatory knowledge, education in information technologies through open courseware, and open standards, culture and open society using free communication.",
+              "url": "https://flossk.org/"
+            },
+            "contacts": [{"name": "FLOSSK", "email": "info@flossk.org"}],
+            "resolved": {
+              "name": "Free Libre Open Source Software Kosova (FLOSSK)",
+              "url": "https://flossk.org/",
+              "description": "Promoting FLOSS since 2009",
+              "extendedDescription": "Free Libre Open Source Software Kosova (FLOSSK) is a non-governmental organization based in Prishtina established in 2009 in order to support, promote and develop free and open source software. Besides, we also contribute to open and participatory knowledge, education in information technologies through open courseware, and open standards, culture and open society using free communication.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://flossk.org/\">Free Libre Open Source Software Kosova (FLOSSK)</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://flossk.org/\">https://flossk.org/</a>",
+              "descriptionHTML": "Promoting FLOSS since 2009",
+              "extendedDescriptionHTML": "Free Libre Open Source Software Kosova (FLOSSK) is a non-governmental organization based in Prishtina established in 2009 in order to support, promote and develop free and open source software. Besides, we also contribute to open and participatory knowledge, education in information technologies through open courseware, and open standards, culture and open society using free communication."
+            }
+          },
           "kosovo-matrix": {
             "id": "kosovo-matrix",
             "type": "matrix",
@@ -20011,7 +20390,7 @@
           },
           "sk-freemap": {
             "id": "sk-freemap",
-            "type": "osm",
+            "type": "osm-lc",
             "locationSet": {"include": ["sk"]},
             "languageCodes": ["cz", "hu", "sk"],
             "strings": {
@@ -25195,6 +25574,385 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "+[Q538,Q574]",
+        "area": 51729859.46,
+        "resources": {
+          "osgeo-oceania": {
+            "id": "osgeo-oceania",
+            "type": "osm-lc",
+            "locationSet": {"include": ["009", "tl"]},
+            "languageCodes": ["en"],
+            "strings": {
+              "name": "OSGeo Oceania",
+              "description": "We support the development of the OpenStreetMap community in Oceania.",
+              "extendedDescription": "OSGeo Oceania's purpose is to support and grow the open geospatial community in the Oceania region, including the oversight and stewardship of the FOSS4G SotM Oceania conference series.",
+              "url": "https://wiki.osgeo.org/wiki/Oceania"
+            },
+            "contacts": [
+              {"name": "Edoardo Neerhut", "email": "ed@mapillary.com"}
+            ],
+            "resolved": {
+              "name": "OSGeo Oceania",
+              "url": "https://wiki.osgeo.org/wiki/Oceania",
+              "description": "We support the development of the OpenStreetMap community in Oceania.",
+              "extendedDescription": "OSGeo Oceania's purpose is to support and grow the open geospatial community in the Oceania region, including the oversight and stewardship of the FOSS4G SotM Oceania conference series.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.osgeo.org/wiki/Oceania\">OSGeo Oceania</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.osgeo.org/wiki/Oceania\">https://wiki.osgeo.org/wiki/Oceania</a>",
+              "descriptionHTML": "We support the development of the OpenStreetMap community in Oceania.",
+              "extendedDescriptionHTML": "OSGeo Oceania's purpose is to support and grow the open geospatial community in the Oceania region, including the oversight and stewardship of the FOSS4G SotM Oceania conference series."
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [-180, -24.21376],
+              [-179.96512, -35.00791],
+              [-174.40891, -29.09438],
+              [-180, -24.21376]
+            ]
+          ],
+          [
+            [
+              [-180, -24.21376],
+              [-173.10761, -24.19665],
+              [-173.13438, -14.94228],
+              [-176.76826, -14.95183],
+              [-180, -14.96041],
+              [-180, -24.21376]
+            ]
+          ],
+          [
+            [
+              [-179.93224, -45.18423],
+              [-172.47015, -45.17912],
+              [-176.30998, -41.38382],
+              [-179.93224, -45.18423]
+            ]
+          ],
+          [
+            [
+              [-179.49839, 27.86265],
+              [-151.6784, 9.55515],
+              [-154.05867, 45.51124],
+              [-177.5224, 27.7635],
+              [-177.8563, 29.18961],
+              [-179.49839, 27.86265]
+            ]
+          ],
+          [
+            [
+              [-178.66551, -14.32452],
+              [-176.76826, -14.95183],
+              [-175.59809, -12.61507],
+              [-178.66551, -14.32452]
+            ]
+          ],
+          [
+            [
+              [-177.91421, 0.39582],
+              [-175.33482, -1.40631],
+              [-175.31323, 0.5442],
+              [-176.74464, 2.28109],
+              [-177.91421, 0.39582]
+            ]
+          ],
+          [
+            [
+              [-177.77531, 29.29793],
+              [-177.5224, 27.7635],
+              [-176.29741, 29.09786],
+              [-177.77531, 29.29793]
+            ]
+          ],
+          [
+            [
+              [-175.33482, -1.40631],
+              [-175.31804, -7.54825],
+              [-156.50903, -7.4975],
+              [-168.15106, -10.26955],
+              [-156.45576, -31.75456],
+              [-133.59543, -28.4709],
+              [-135.59706, -4.70473],
+              [-161.06795, 5.2462],
+              [-158.12991, -1.86122],
+              [-175.33482, -1.40631]
+            ]
+          ],
+          [
+            [
+              [-174.18635, -7.80441],
+              [-174.17993, -10.13616],
+              [-168.251, -9.44289],
+              [-174.18635, -7.80441]
+            ]
+          ],
+          [
+            [
+              [-173.74402, -14.26669],
+              [-170.99605, -15.1275],
+              [-166.32598, -15.26169],
+              [-171.39864, -10.21587],
+              [-173.74402, -14.26669]
+            ]
+          ],
+          [
+            [
+              [-170.83899, -18.53439],
+              [-170.82274, -20.44429],
+              [-168.63096, -18.60489],
+              [-170.83899, -18.53439]
+            ]
+          ],
+          [
+            [
+              [-170.65691, 16.57199],
+              [-168.87689, 16.01159],
+              [-169.2329, 17.4933],
+              [-170.65691, 16.57199]
+            ]
+          ],
+          [
+            [
+              [-163.24478, 5.24198],
+              [-161.06795, 5.2462],
+              [-161.0731, 7.1291],
+              [-163.16627, 7.15036],
+              [-163.24478, 5.24198]
+            ]
+          ],
+          [
+            [
+              [-160.42921, -1.4364],
+              [-159.12443, 0.19975],
+              [-160.38779, 0.30331],
+              [-160.42921, -1.4364]
+            ]
+          ],
+          [
+            [
+              [-133.61511, -21.93325],
+              [-133.59543, -28.4709],
+              [-122.0366, -24.55017],
+              [-133.61511, -21.93325]
+            ]
+          ],
+          [
+            [
+              [71.08716, -53.87687],
+              [75.44182, -53.99822],
+              [72.87012, -51.48322],
+              [71.08716, -53.87687]
+            ]
+          ],
+          [
+            [
+              [88.16419, -23.49578],
+              [123.64533, -39.13605],
+              [159.69067, -56.28945],
+              [159.74028, -39.1978],
+              [159.76765, -29.76946],
+              [154.02855, -24.43238],
+              [159.77159, -28.41151],
+              [174.245, -23.1974],
+              [172.71443, -12.01327],
+              [160.43769, -4.17974],
+              [141.03157, 2.12829],
+              [140.99813, -6.3233],
+              [140.85295, -6.72996],
+              [140.90448, -6.85033],
+              [141.01763, -6.90181],
+              [141.01842, -9.35091],
+              [135.49042, -9.2276],
+              [127.55165, -9.05052],
+              [125.29076, -12.33139],
+              [88.16419, -23.49578]
+            ]
+          ],
+          [
+            [
+              [96.02343, -12.68334],
+              [97.93979, -12.33309],
+              [96.61846, -10.82438],
+              [96.02343, -12.68334]
+            ]
+          ],
+          [
+            [
+              [104.67494, -11.2566],
+              [106.66176, -11.14349],
+              [105.66835, -9.31927],
+              [104.67494, -11.2566]
+            ]
+          ],
+          [
+            [
+              [120.6877, -13.59408],
+              [125.29076, -12.33139],
+              [123.7463, -11.1783],
+              [120.6877, -13.59408]
+            ]
+          ],
+          [
+            [
+              [124.04286, -9.34243],
+              [124.10539, -9.41206],
+              [124.14517, -9.42324],
+              [124.21247, -9.36904],
+              [124.28115, -9.42189],
+              [124.28115, -9.50453],
+              [124.3535, -9.48493],
+              [124.35258, -9.43002],
+              [124.38554, -9.3582],
+              [124.45971, -9.30263],
+              [124.46701, -9.13002],
+              [124.94011, -8.85617],
+              [124.97742, -9.08128],
+              [125.11764, -8.96359],
+              [125.18632, -9.03142],
+              [125.18907, -9.16434],
+              [125.09434, -9.19669],
+              [125.04044, -9.17093],
+              [124.97892, -9.19281],
+              [125.09025, -9.46406],
+              [125.68138, -9.85176],
+              [127.55165, -9.05052],
+              [127.42116, -8.22471],
+              [125.87691, -8.31789],
+              [125.58506, -7.95311],
+              [124.92337, -8.75859],
+              [124.33472, -9.11416],
+              [124.04628, -9.22671],
+              [124.04286, -9.34243]
+            ]
+          ],
+          [
+            [
+              [128.97621, 3.08804],
+              [136.39296, 1.54187],
+              [136.04605, 12.45908],
+              [128.97621, 3.08804]
+            ]
+          ],
+          [
+            [
+              [135.52896, 14.32623],
+              [152.19114, 13.63487],
+              [145.05972, 21.28731],
+              [135.52896, 14.32623]
+            ]
+          ],
+          [
+            [
+              [136.27107, 6.73747],
+              [156.88247, -1.39237],
+              [165.19726, 6.22546],
+              [138.20583, 13.3783],
+              [136.27107, 6.73747]
+            ]
+          ],
+          [
+            [
+              [143.82485, 13.92273],
+              [144.61642, 12.82462],
+              [146.25931, 13.85876],
+              [143.82485, 13.92273]
+            ]
+          ],
+          [
+            [
+              [159.04653, 10.59067],
+              [169, 3.9],
+              [173.53711, 5.70687],
+              [169.29099, 15.77133],
+              [159.04653, 10.59067]
+            ]
+          ],
+          [
+            [
+              [161.96603, -56.07661],
+              [179.49541, -50.04657],
+              [179.49541, -47.2902],
+              [169.91032, -47.66283],
+              [164.30551, -47.88072],
+              [161.96603, -56.07661]
+            ]
+          ],
+          [
+            [
+              [164.8365, -46.0205],
+              [167.52103, -46.41337],
+              [166.59185, -47.61313],
+              [169.70504, -47.56021],
+              [179.49541, -47.2902],
+              [179.49541, -36.79303],
+              [174.17679, -32.62487],
+              [170.27492, -36.38133],
+              [166.56976, -39.94841],
+              [164.8365, -46.0205]
+            ]
+          ],
+          [
+            [
+              [165.82549, 18.97692],
+              [167.34779, 18.97692],
+              [166.67967, 20.14834],
+              [165.82549, 18.97692]
+            ]
+          ],
+          [
+            [
+              [166.21778, -0.7977],
+              [167.60042, -0.88259],
+              [166.95155, 0.14829],
+              [166.21778, -0.7977]
+            ]
+          ],
+          [
+            [
+              [166.29505, -28.29175],
+              [167.94076, -30.60745],
+              [169.82316, -28.16667],
+              [166.29505, -28.29175]
+            ]
+          ],
+          [
+            [
+              [166.5534, -46.39484],
+              [166.84561, -46.84889],
+              [167.39068, -46.49187],
+              [166.5534, -46.39484]
+            ]
+          ],
+          [[[169, -3.5], [178, -3.5], [178, 3.9], [169, 3.9], [169, -3.5]]],
+          [
+            [
+              [170.93268, -32.97889],
+              [171.97383, -34.64644],
+              [174.17679, -32.62487],
+              [170.93268, -32.97889]
+            ]
+          ],
+          [
+            [
+              [174, -11.5],
+              [174.245, -23.1974],
+              [179.99999, -22.5],
+              [179.99999, -5],
+              [174, -5],
+              [174, -11.5]
+            ]
+          ]
+        ]
+      },
+      "id": "+[Q538,Q574]"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "m49": "002",
         "wikidata": "Q15",
         "nameEn": "Africa",
@@ -25692,6 +26450,29 @@
               "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=49\">https://forum.openstreetmap.org/viewforum.php?id=49</a>",
               "descriptionHTML": "The official forum for OpenStreetMap Argentina",
               "extendedDescriptionHTML": "Ideal for long or important discussions. Slow response time."
+            }
+          },
+          "OSM-AR-geolibres": {
+            "id": "OSM-AR-geolibres",
+            "type": "osm-lc",
+            "locationSet": {"include": ["ar"]},
+            "languageCodes": ["es"],
+            "strings": {
+              "community": "GeoLibres",
+              "name": "GeoLibres",
+              "description": "Geolibres Civil Association",
+              "extendedDescription": "We promote the creation and use of free access geographic data, the adoption of geographic standards, and the use of free and open source software.",
+              "url": "http://geolibres.org.ar/"
+            },
+            "resolved": {
+              "name": "GeoLibres",
+              "url": "http://geolibres.org.ar/",
+              "description": "Geolibres Civil Association",
+              "extendedDescription": "We promote the creation and use of free access geographic data, the adoption of geographic standards, and the use of free and open source software.",
+              "nameHTML": "<a target=\"_blank\" href=\"http://geolibres.org.ar/\">GeoLibres</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"http://geolibres.org.ar/\">http://geolibres.org.ar/</a>",
+              "descriptionHTML": "Geolibres Civil Association",
+              "extendedDescriptionHTML": "We promote the creation and use of free access geographic data, the adoption of geographic standards, and the use of free and open source software."
             }
           },
           "OSM-AR-irc": {
@@ -27400,335 +28181,6 @@
         ]
       },
       "id": "Q16"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "iso1A2": "CD",
-        "iso1A3": "COD",
-        "iso1N3": "180",
-        "wikidata": "Q974",
-        "nameEn": "Democratic Republic of the Congo",
-        "aliases": ["ZR"],
-        "groups": ["017", "202", "002", "UN", "001"],
-        "callingCodes": ["243"],
-        "id": "Q974",
-        "m49": "180",
-        "ccTLD": ".cd",
-        "isoStatus": "official",
-        "level": "country",
-        "emojiFlag": "🇨🇩",
-        "roadSpeedUnit": "km/h",
-        "roadHeightUnit": "m",
-        "driveSide": "right",
-        "area": 2324722.32,
-        "resources": {
-          "OSM-cd-facebook": {
-            "id": "OSM-cd-facebook",
-            "type": "facebook",
-            "account": "OpenStreetMap.RDC",
-            "locationSet": {"include": ["cd"]},
-            "languageCodes": ["en"],
-            "strings": {"community": "OpenStreetMap RDC"},
-            "resolved": {
-              "name": "OpenStreetMap RDC on Facebook",
-              "url": "https://facebook.com/OpenStreetMap.RDC",
-              "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMap.RDC\">OpenStreetMap RDC on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMap.RDC\">https://facebook.com/OpenStreetMap.RDC</a>",
-              "descriptionHTML": "Join our community on Facebook"
-            }
-          },
-          "OSM-cd-mailinglist": {
-            "id": "OSM-cd-mailinglist",
-            "type": "mailinglist",
-            "account": "talk-cd",
-            "locationSet": {"include": ["cd"]},
-            "languageCodes": ["en"],
-            "strings": {"community": "OpenStreetMap RDC"},
-            "resolved": {
-              "name": "talk-cd Mailing List",
-              "url": "https://lists.openstreetmap.org/listinfo/talk-cd",
-              "description": "The official mailing list for OpenStreetMap RDC",
-              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-cd\">talk-cd Mailing List</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-cd\">https://lists.openstreetmap.org/listinfo/talk-cd</a>",
-              "descriptionHTML": "The official mailing list for OpenStreetMap RDC"
-            }
-          },
-          "OSM-cd-twitter": {
-            "id": "OSM-cd-twitter",
-            "type": "twitter",
-            "account": "OSM_CD",
-            "locationSet": {"include": ["cd"]},
-            "languageCodes": ["en"],
-            "strings": {"community": "OpenStreetMap RDC"},
-            "resolved": {
-              "name": "OpenStreetMap RDC on Twitter",
-              "url": "https://twitter.com/OSM_CD",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_CD\">OpenStreetMap RDC on Twitter</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_CD\">https://twitter.com/OSM_CD</a>",
-              "descriptionHTML": "Follow us on Twitter"
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [27.44012, 5.07349],
-              [27.09575, 5.22305],
-              [26.93064, 5.13535],
-              [26.85579, 5.03887],
-              [26.74572, 5.10685],
-              [26.48595, 5.04984],
-              [26.13371, 5.25594],
-              [25.86073, 5.19455],
-              [25.53271, 5.37431],
-              [25.34558, 5.29101],
-              [25.31256, 5.03668],
-              [24.71816, 4.90509],
-              [24.46719, 5.0915],
-              [23.38847, 4.60013],
-              [22.94817, 4.82392],
-              [22.89094, 4.79321],
-              [22.84691, 4.69887],
-              [22.78526, 4.71423],
-              [22.6928, 4.47285],
-              [22.60915, 4.48821],
-              [22.5431, 4.22041],
-              [22.45504, 4.13039],
-              [22.27682, 4.11347],
-              [22.10721, 4.20723],
-              [21.6405, 4.317],
-              [21.55904, 4.25553],
-              [21.25744, 4.33676],
-              [21.21341, 4.29285],
-              [21.11214, 4.33895],
-              [21.08793, 4.39603],
-              [20.90383, 4.44877],
-              [20.60184, 4.42394],
-              [18.62755, 3.47564],
-              [18.63857, 3.19342],
-              [18.10683, 2.26876],
-              [18.08034, 1.58553],
-              [17.85887, 1.04327],
-              [17.86989, 0.58873],
-              [17.95255, 0.48128],
-              [17.93877, 0.32424],
-              [17.81204, 0.23884],
-              [17.66051, -0.26535],
-              [17.72112, -0.52707],
-              [17.32438, -0.99265],
-              [16.97999, -1.12762],
-              [16.70724, -1.45815],
-              [16.50336, -1.8795],
-              [16.16173, -2.16586],
-              [16.22785, -2.59528],
-              [16.1755, -3.25014],
-              [16.21407, -3.2969],
-              [15.89448, -3.9513],
-              [15.53081, -4.042],
-              [15.48121, -4.22062],
-              [15.41785, -4.28381],
-              [15.32693, -4.27282],
-              [15.25411, -4.31121],
-              [15.1978, -4.32388],
-              [14.83101, -4.80838],
-              [14.67948, -4.92093],
-              [14.5059, -4.84956],
-              [14.41499, -4.8825],
-              [14.37366, -4.56125],
-              [14.47284, -4.42941],
-              [14.3957, -4.36623],
-              [14.40672, -4.28381],
-              [13.9108, -4.50906],
-              [13.81162, -4.41842],
-              [13.71794, -4.44864],
-              [13.70417, -4.72601],
-              [13.50305, -4.77818],
-              [13.41764, -4.89897],
-              [13.11182, -4.5942],
-              [13.09648, -4.63739],
-              [13.11195, -4.67745],
-              [12.8733, -4.74346],
-              [12.70868, -4.95505],
-              [12.63465, -4.94632],
-              [12.60251, -5.01715],
-              [12.46297, -5.09408],
-              [12.49815, -5.14058],
-              [12.51589, -5.1332],
-              [12.53586, -5.14658],
-              [12.53599, -5.1618],
-              [12.52301, -5.17481],
-              [12.52318, -5.74353],
-              [12.26557, -5.74031],
-              [12.20376, -5.76338],
-              [11.95767, -5.94705],
-              [12.42245, -6.07585],
-              [13.04371, -5.87078],
-              [16.55507, -5.85631],
-              [16.96282, -7.21787],
-              [17.5828, -8.13784],
-              [18.33635, -8.00126],
-              [19.33698, -7.99743],
-              [19.5469, -7.00195],
-              [20.30218, -6.98955],
-              [20.31846, -6.91953],
-              [20.61689, -6.90876],
-              [20.56263, -7.28566],
-              [21.79824, -7.29628],
-              [21.84856, -9.59871],
-              [22.19039, -9.94628],
-              [22.32604, -10.76291],
-              [22.17954, -10.85884],
-              [22.25951, -11.24911],
-              [22.54205, -11.05784],
-              [23.16602, -11.10577],
-              [23.45631, -10.946],
-              [23.86868, -11.02856],
-              [24.00027, -10.89356],
-              [24.34528, -11.06816],
-              [24.42612, -11.44975],
-              [25.34069, -11.19707],
-              [25.33058, -11.65767],
-              [26.01777, -11.91488],
-              [26.88687, -12.01868],
-              [27.04351, -11.61312],
-              [27.22541, -11.60323],
-              [27.21025, -11.76157],
-              [27.59932, -12.22123],
-              [28.33199, -12.41375],
-              [29.01918, -13.41353],
-              [29.60531, -13.21685],
-              [29.65078, -13.41844],
-              [29.81551, -13.44683],
-              [29.8139, -12.14898],
-              [29.48404, -12.23604],
-              [29.4992, -12.43843],
-              [29.18592, -12.37921],
-              [28.48357, -11.87532],
-              [28.37241, -11.57848],
-              [28.65032, -10.65133],
-              [28.62795, -9.92942],
-              [28.68532, -9.78],
-              [28.56208, -9.49122],
-              [28.51627, -9.44726],
-              [28.52636, -9.35379],
-              [28.36562, -9.30091],
-              [28.38526, -9.23393],
-              [28.9711, -8.66935],
-              [28.88917, -8.4831],
-              [30.79243, -8.27382],
-              [30.2567, -7.14121],
-              [29.52552, -6.2731],
-              [29.43673, -4.44845],
-              [29.23708, -3.75856],
-              [29.21463, -3.3514],
-              [29.25633, -3.05471],
-              [29.17258, -2.99385],
-              [29.16037, -2.95457],
-              [29.09797, -2.91935],
-              [29.09119, -2.87871],
-              [29.0505, -2.81774],
-              [29.00404, -2.81978],
-              [29.00167, -2.78523],
-              [29.04081, -2.7416],
-              [29.00357, -2.70596],
-              [28.94346, -2.69124],
-              [28.89793, -2.66111],
-              [28.90226, -2.62385],
-              [28.89288, -2.55848],
-              [28.87943, -2.55165],
-              [28.86193, -2.53185],
-              [28.86209, -2.5231],
-              [28.87497, -2.50887],
-              [28.88846, -2.50493],
-              [28.89342, -2.49017],
-              [28.89132, -2.47557],
-              [28.86846, -2.44866],
-              [28.86826, -2.41888],
-              [28.89601, -2.37321],
-              [28.95642, -2.37321],
-              [29.00051, -2.29001],
-              [29.105, -2.27043],
-              [29.17562, -2.12278],
-              [29.11847, -1.90576],
-              [29.24458, -1.69663],
-              [29.24323, -1.66826],
-              [29.36322, -1.50887],
-              [29.45038, -1.5054],
-              [29.53062, -1.40499],
-              [29.59061, -1.39016],
-              [29.58388, -0.89821],
-              [29.63006, -0.8997],
-              [29.62708, -0.71055],
-              [29.67176, -0.55714],
-              [29.67474, -0.47969],
-              [29.65091, -0.46777],
-              [29.72687, -0.08051],
-              [29.7224, 0.07291],
-              [29.77454, 0.16675],
-              [29.81922, 0.16824],
-              [29.87284, 0.39166],
-              [29.97413, 0.52124],
-              [29.95477, 0.64486],
-              [29.98307, 0.84295],
-              [30.1484, 0.89805],
-              [30.22139, 0.99635],
-              [30.24671, 1.14974],
-              [30.48503, 1.21675],
-              [31.30127, 2.11006],
-              [31.28042, 2.17853],
-              [31.20148, 2.2217],
-              [31.1985, 2.29462],
-              [31.12104, 2.27676],
-              [31.07934, 2.30207],
-              [31.06593, 2.35862],
-              [30.96911, 2.41071],
-              [30.91102, 2.33332],
-              [30.83059, 2.42559],
-              [30.74271, 2.43601],
-              [30.75612, 2.5863],
-              [30.8857, 2.83923],
-              [30.8574, 2.9508],
-              [30.77101, 3.04897],
-              [30.84251, 3.26908],
-              [30.93486, 3.40737],
-              [30.94081, 3.50847],
-              [30.85153, 3.48867],
-              [30.85997, 3.5743],
-              [30.80713, 3.60506],
-              [30.78512, 3.67097],
-              [30.56277, 3.62703],
-              [30.57378, 3.74567],
-              [30.55396, 3.84451],
-              [30.47691, 3.83353],
-              [30.27658, 3.95653],
-              [30.22374, 3.93896],
-              [30.1621, 4.10586],
-              [30.06964, 4.13221],
-              [29.79666, 4.37809],
-              [29.82087, 4.56246],
-              [29.49726, 4.7007],
-              [29.43341, 4.50101],
-              [29.22207, 4.34297],
-              [29.03054, 4.48784],
-              [28.8126, 4.48784],
-              [28.6651, 4.42638],
-              [28.20719, 4.35614],
-              [27.79551, 4.59976],
-              [27.76469, 4.79284],
-              [27.65462, 4.89375],
-              [27.56656, 4.89375],
-              [27.44012, 5.07349]
-            ]
-          ]
-        ]
-      },
-      "id": "Q974"
     },
     {
       "type": "Feature",
@@ -31766,7 +32218,7 @@
           },
           "OSM-japan-website": {
             "id": "OSM-japan-website",
-            "type": "osm",
+            "type": "osm-lc",
             "locationSet": {"include": ["jp"]},
             "languageCodes": ["ja"],
             "strings": {
@@ -32778,6 +33230,26 @@
         "driveSide": "right",
         "area": 324153.76,
         "resources": {
+          "OSM-PL-chapter": {
+            "id": "OSM-PL-chapter",
+            "type": "osm-lc",
+            "locationSet": {"include": ["pl"]},
+            "languageCodes": ["en", "pl"],
+            "strings": {
+              "community": "OpenStreetMap Poland",
+              "name": "OpenStreetMap Poland",
+              "description": "The home of the Polish OpenStreetMap community",
+              "url": "https://openstreetmap.org.pl"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Poland",
+              "url": "https://openstreetmap.org.pl",
+              "description": "The home of the Polish OpenStreetMap community",
+              "nameHTML": "<a target=\"_blank\" href=\"https://openstreetmap.org.pl\">OpenStreetMap Poland</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://openstreetmap.org.pl\">https://openstreetmap.org.pl</a>",
+              "descriptionHTML": "The home of the Polish OpenStreetMap community"
+            }
+          },
           "OSM-PL-discord": {
             "id": "OSM-PL-discord",
             "type": "discord",
