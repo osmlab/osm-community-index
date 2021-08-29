@@ -2,9 +2,8 @@
   "id": "ko-facebook",
   "type": "facebook",
   "account": "osmkorea",
-  "locationSet": {"include": ["kr"], ["kp"]},
-  "languageCodes": ["ko"],
-  "order": 3,
+  "locationSet": {"include": ["kr", "kp"]},
+  "languageCodes": ["en", "ko"],
   "strings": {
     "community": "OpenStreetMap Korea",
     "description": "Mappers and OpenStreetMap users in Korea",
