@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.1.3",
-    "generated": "2021-08-17T19:25:13.690Z",
+    "generated": "2021-09-23T21:04:14.241Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "97750b82b6a5a50bf8cebafe910109ab"
+    "hash": "569e86cb3f35e8fcdb7356927806b63a"
   },
   "resources": {
     "af-facebook": {"id": "af-facebook", "type": "facebook", "locationSet": {"include": ["af"]}, "languageCodes": ["en", "fa", "ps"], "order": 3, "strings": {"community": "OpenStreetMap Afghanistan", "url": "https://www.facebook.com/groups/321292812113316/"}, "contacts": [{"name": "Walker Kosmidou-Bradley", "email": "walker.t.bradley@gmail.com"}]},
@@ -184,6 +184,7 @@
     "kh-facebook": {"id": "kh-facebook", "type": "facebook", "account": "OSM-Cambodia-218656624834943", "locationSet": {"include": ["kh"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Cambodia"}},
     "kh-forum": {"id": "kh-forum", "type": "forum", "account": "63", "locationSet": {"include": ["kh"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Cambodia"}},
     "kh-twitter": {"id": "kh-twitter", "type": "twitter", "account": "OSM_KH", "locationSet": {"include": ["kh"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Cambodia"}},
+    "ko-facebook": {"id": "ko-facebook", "type": "facebook", "account": "osmkorea", "locationSet": {"include": ["kr", "kp"]}, "languageCodes": ["en", "ko"], "strings": {"community": "OpenStreetMap Korea", "description": "Mappers and OpenStreetMap users in Korea", "url": "https://www.facebook.com/groups/osmkorea"}, "contacts": [{"name": "Dongha Hwang", "email": "depth221@gmail.com"}]},
     "ko-telegram": {"id": "ko-telegram", "type": "telegram", "account": "osmKorea", "locationSet": {"include": ["kp", "kr"]}, "languageCodes": ["en", "ko"], "strings": {"community": "OpenStreetMap Korea"}, "contacts": [{"name": "Yongmin Hong", "email": "revi@pobox.com"}, {"name": "Max N", "email": "abonnements@revolwear.com"}]},
     "kosovo-flossk": {"id": "kosovo-flossk", "type": "osm-lc", "locationSet": {"include": ["xk"]}, "languageCodes": ["en", "sq", "sr"], "strings": {"community": "OpenStreetMap Freemap Slovakia", "name": "Free Libre Open Source Software Kosova (FLOSSK)", "description": "Promoting FLOSS since 2009", "extendedDescription": "Free Libre Open Source Software Kosova (FLOSSK) is a non-governmental organization based in Prishtina established in 2009 in order to support, promote and develop free and open source software. Besides, we also contribute to open and participatory knowledge, education in information technologies through open courseware, and open standards, culture and open society using free communication.", "url": "https://flossk.org/"}, "contacts": [{"name": "FLOSSK", "email": "info@flossk.org"}]},
     "kosovo-matrix": {"id": "kosovo-matrix", "type": "matrix", "account": "#osmkosovo", "locationSet": {"include": ["xk"]}, "languageCodes": ["en", "sq", "sr"], "strings": {"community": "OpenStreetMap Kosovo", "description": "Semi-official all-Kosovo public group (bridged with the one in Telegram). We welcome all mappers from anywhere in any language."}},
