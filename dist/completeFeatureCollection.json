@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "5.1.3",
-    "generated": "2021-10-07T20:29:03.394Z",
+    "version": "5.1.4",
+    "generated": "2021-11-29T18:13:48.990Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "f83d5cf212297870f985323163217774"
+    "hash": "4ca43c29292d3fafcb8a70d35f510ad0"
   },
   "type": "FeatureCollection",
   "features": [
@@ -8364,30 +8364,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osmberlin:matrix.org\">OpenStreetMap Berlin Matrix Chat</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osmberlin:matrix.org\">https://matrix.to/#/#osmberlin:matrix.org</a>",
               "descriptionHTML": "Join our community Matrix chat"
-            }
-          },
-          "de-berlin-meetup": {
-            "id": "de-berlin-meetup",
-            "type": "meetup",
-            "account": "OSM-Berlin-Brandenburg",
-            "locationSet": {"include": ["de-berlin-brandenburg.geojson"]},
-            "languageCodes": ["de"],
-            "order": 5,
-            "strings": {
-              "community": "OpenStreetMap Berlin",
-              "name": "OpenStreetMap Berlin-Brandenburg Meetup",
-              "description": "Mappers and OpenStreetMap users in the Berlin area"
-            },
-            "contacts": [
-              {"name": "Christopher Lorenz", "email": "osm@lorenz.lu"}
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Berlin-Brandenburg Meetup",
-              "url": "https://meetup.com/OSM-Berlin-Brandenburg",
-              "description": "Mappers and OpenStreetMap users in the Berlin area",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/OSM-Berlin-Brandenburg\">OpenStreetMap Berlin-Brandenburg Meetup</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/OSM-Berlin-Brandenburg\">https://meetup.com/OSM-Berlin-Brandenburg</a>",
-              "descriptionHTML": "Mappers and OpenStreetMap users in the Berlin area"
             }
           },
           "de-berlin-telegram": {
@@ -34717,6 +34693,17 @@
               "url": "https://www.openstreetmap.us/"
             },
             "contacts": [{"name": "Ian Dees", "email": "ian@openstreetmap.us"}],
+            "events": [
+              {
+                "id": "sotmus2022",
+                "i18n": true,
+                "name": "State of the Map US 2022",
+                "description": "Join the OpenStreetMap community at State of the Map US in Tucson, Arizona. Connect with other mappers, businesses, government agencies, and non profits, all collaborating around the free and editable map of the world. Share your vision for the project, learn how to work with OpenStreetMap data, and hack on the latest mapping improvements.",
+                "where": "Tucson, Arizona",
+                "when": "2022-04-01",
+                "url": "https://2022.stateofthemap.us/"
+              }
+            ],
             "resolved": {
               "name": "OpenStreetMap US",
               "url": "https://www.openstreetmap.us/",
@@ -46384,58 +46371,6 @@
             [85.583, 27.797],
             [85.491, 27.909],
             [85.342, 27.952]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "[39.2935,-6.13779]",
-      "properties": {
-        "id": "[39.2935,-6.13779]",
-        "area": 1963.5,
-        "resources": {
-          "ym-Institute-of-Finance-Management": {
-            "id": "ym-Institute-of-Finance-Management",
-            "type": "youthmappers",
-            "locationSet": {"include": [[39.2935, -6.13779]]},
-            "strings": {
-              "name": "IFM mappers",
-              "description": "YouthMappers chapter at Institute of Finance Management",
-              "extendedDescription": "This is a new  chapter at out institute and we are looking forward to use our financial education that we are receiving here at the campus  and link ig with the environment in order to develop our sustainable environment towards helping the community  with the effects of our environment in a financial ways by converting them into numbers. this is widely explained in ecosystem accounting and environmental accounts",
-              "url": "mailto:supermalik95@gmail.com"
-            },
-            "contacts": [
-              {"name": "Organizer", "email": "supermalik95@gmail.com"}
-            ],
-            "resolved": {
-              "name": "IFM mappers",
-              "url": "mailto:supermalik95@gmail.com",
-              "description": "YouthMappers chapter at Institute of Finance Management",
-              "extendedDescription": "This is a new  chapter at out institute and we are looking forward to use our financial education that we are receiving here at the campus  and link ig with the environment in order to develop our sustainable environment towards helping the community  with the effects of our environment in a financial ways by converting them into numbers. this is widely explained in ecosystem accounting and environmental accounts",
-              "nameHTML": "<a target=\"_blank\" href=\"mailto:supermalik95@gmail.com\">IFM mappers</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"mailto:supermalik95@gmail.com\">mailto:supermalik95@gmail.com</a>",
-              "descriptionHTML": "YouthMappers chapter at Institute of Finance Management",
-              "extendedDescriptionHTML": "This is a new  chapter at out institute and we are looking forward to use our financial education that we are receiving here at the campus  and link ig with the environment in order to develop our sustainable environment towards helping the community  with the effects of our environment in a financial ways by converting them into numbers. this is widely explained in ecosystem accounting and environmental accounts"
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [39.294, -5.913],
-            [39.161, -5.956],
-            [39.079, -6.068],
-            [39.079, -6.207],
-            [39.161, -6.319],
-            [39.294, -6.362],
-            [39.426, -6.319],
-            [39.508, -6.207],
-            [39.508, -6.068],
-            [39.426, -5.956],
-            [39.294, -5.913]
           ]
         ]
       }

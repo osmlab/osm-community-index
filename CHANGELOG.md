@@ -19,6 +19,25 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.1.4
+##### 2021-Nov-30
+
+* Added:
+  * Added SOTM-US 2022 in Tucson, Arizona
+  * Added AT IRC channel ([#489])
+  * Added OSM Korea resources ([#484])
+* Updated:
+  * Updated icons from FontAwesome (this updated the Discord icon)
+* Removed:
+  * Remove ym-Institute-of-Finance-Management.json ([#493])
+  * Remove Berlin Meetup ([#492])
+
+[#493]: https://github.com/osmlab/osm-community-index/issues/493
+[#492]: https://github.com/osmlab/osm-community-index/issues/492
+[#489]: https://github.com/osmlab/osm-community-index/issues/489
+[#484]: https://github.com/osmlab/osm-community-index/issues/484
+
+
 # 5.1.3
 ##### 2021-Aug-17
 * Added OSM Mexico Matrix Chat ([#480])
