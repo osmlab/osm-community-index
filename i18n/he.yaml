@@ -41,6 +41,7 @@ he:
     openstreetmapcuba: OpenStreetMap קובה
     openstreetmapcuneo: OpenStreetMap קונאו
     openstreetmapcz: OpenStreetMap צ׳כיה
+    openstreetmapde: OpenStreetMap גרמניה
     openstreetmapdenmark: OpenStreetMap דנמרק
     openstreetmapdjibouti: OpenStreetMap ג׳יבוטי
     openstreetmapdominicanrepublic: OpenStreetMap הרפובליקה הדומיניקנית
@@ -53,6 +54,7 @@ he:
     openstreetmapfrance: OpenStreetMap צרפת
     openstreetmapfreemapslovakia: OpenStreetMap של Freemap סלובקיה
     openstreetmapfrenchguiana: OpenStreetMap גיאנה הצרפתית
+    openstreetmapfrenchpolynesia: OpenStreetMap פולינזיה הצרפתית
     openstreetmapgabon: OpenStreetMap גבון
     openstreetmapgalicia: OpenStreetMap גליסיה
     openstreetmapgeorgia: OpenStreetMap גאורגיה
@@ -192,6 +194,10 @@ he:
       name: '{community} ב־IRC'
       description: 'ניתן להצטרף ל־‎#{account} תחת irc.oftc.net (פתחה 6667)'
       url: https://webchat.oftc.net/?channels={account}
+    linkedin:
+      name: '{community} ב־LinkedIn'
+      description: מזמינים אותך להצטרף לקהילה שלנו ב־LinkedIn
+      url: https://linkedin.com/company/{account}
     mailinglist:
       name: 'רשימת הדיוור של {account}'
       description: רשימת הדיוור הרשמי של {community}
@@ -245,10 +251,14 @@ he:
     name: ממפי OpenStreetMap באזור מפרץ סן פרנסיסקו
     description: שיפור OpenStreetMap באזור מפרץ סן פרנסיסקו
     extendedDescription: מטרת הקבוצה הזו היא להגדיל את קהילת OpenStreetMap כאן באזור מפרץ סן פרנסיסקו. האירועים שלנו פתוחים לכולם, החל מחובבי קוד פתוח, רוכבי אופניים, מומחי GIS, אוצרי נתונים גאוגרפיים והרבה מעבר לזה. כולם וכל מי שמעוניין במפות, יצירת מפות ונתוני מפות חופשיים מוזמנים להצטרף לקבוצה שלנו ולהשתתף באירועים שלנו.
+  bd-facebook:
+    extendedDescription: מעניין אותך מיפוי בבנגלדש? יש לך שאלות? אולי ליצור קשר עם הקהילה המקומית? ניתן להצטרף אלינו ב־{url}. כולם מוזמנים!
   be-chapter:
     name: הקבוצה המקומית  של OpenStreetMap בלגיה
     description: אנו מסייעים לפתח ולטפח את OpenStreetMap בבלגיה.
     extendedDescription: אם מעניין אותך לסייע בפיתוח ובטיפוח קהילת המיפוי בבלגיה, כדי להמשיך ולעודד אנשים להשתגע על מיפוי, OpenStreetMap בלגיה היא המקום המתאים עבורך!
+  be-irc:
+    extendedDescription: 'ניתן להצטרף ל־‎#{account} תחת irc.oftc.net (פתחה 6667), הוא מקושר לערוץ הצ׳אט ב־Matrix'
   be-matrix:
     description: כל הממפים מוזמנים!
     extendedDescription: רוב הדיונים מתרחשים בערוץ „OpenStreetMap בלגיה”. ניתן לשאול כאן הכול! החדרים האחרים מתמקדים בנושאים נקודתיים.
@@ -260,6 +270,8 @@ he:
   bi-vc-cvl_wiki:
     description: ממפים של צפון פיאדמונט
     extendedDescription: בנוסף למפגשים החודשיים, יש לנו גם קבוצת WhatsApp.
+  br-telegram:
+    extendedDescription: ניתן להצטרף לקהילה וללמוד עוד על OpenStreetMap, לשאול שאלות או להשתתף במפגשים שלנו. כולם מוזמנים!
   cape-coast-youthmappers:
     name: הממפים הצעירים של אוניברסיטת קייפ קוסט
     description: 'ניתן לעקוב אחרינו בטוויטר: {url}'
@@ -268,6 +280,9 @@ he:
     description: מיזמים מקהילת OpenStreetMap של הארצות הקטלאניות ב־GitHub
   cat-wiki:
     description: 'מתחם תיאום של קהילת OpenStreetMap ברחבי הארצות הקטלאניות: {url}'
+  cd-chapter:
+    name: OpenStreetMap הרפובליקה הדמוקרטית של קונגו
+    description: מרחוב למשנהו, נמפה את מדינתנו…
   Central-Pennsylvania-OSM:
     name: OSM מרכז פנסילבניה
     description: קהילת מיפוי מקוון שבסיסה הוא בסטייט קולג׳, פנסילבניה
@@ -281,11 +296,11 @@ he:
     description: פורטל המפה, האתר ופרטי הקשר של חברי OSM בצ׳כיה
   de-berlin-mailinglist:
     name: קבוצת הדיוור של ברלין
-  de-berlin-meetup:
-    name: קבוצת המפגשים של OpenStreetMap ברלין-ברנדנבורג
-    description: ממפי ומשתמשי OpenStreetMap באזור ברלין
   de-berlin-xmpp:
     name: 'ה־XMPP של OpenStreetMap ברלין-ברנדנבורג '
+    description: 'ניתן להצטרף לקבוצת הצ׳אט מרובת המשתתפים שלנו ב־XMPP:‏ {url}'
+  de-hamburg-xmpp:
+    name: OpenStreetMap המבורג ב־XMPP
     description: 'ניתן להצטרף לקבוצת הצ׳אט מרובת המשתתפים שלנו ב־XMPP:‏ {url}'
   de-karlsruhe-mailinglist:
     name: קבוצת הדיוור של קרלסרוהה
@@ -311,6 +326,9 @@ he:
   de-viersen-meetup:
     name: קבוצת המפגשים של OpenStreetMap וירסן
     description: קהילה ומפגש משתמשי OSM במחוז וירסן ובמנשנגלדבך
+  de-xmpp:
+    name: OpenStreetMap גרמניה ב־XMPP
+    description: 'ניתן להצטרף לקבוצת הצ׳אט מרובת המשתתפים שלנו ב־XMPP:‏ {url}'
   DF-telegram:
     extendedDescription: ניתן להצטרף לקהילה וללמוד עוד על OpenStreetMap, לשאול שאלות או להשתתף במפגשים שלנו. כולם מוזמנים!
   fr-35-wiki:
@@ -342,6 +360,8 @@ he:
     extendedDescription: GeoPhilly היא קבוצה של מפתחים, מומחי גאוגרפיה, גיקים של מידע, חובבי קוד פתוח, האקרים אזרחיים ומכורי מפות שמתאגדים סביב אהבתם המשותפת למפות ולסיפורים שהן מספרות. אם מפות משמשות אותך כחלק מהעבודה שלך או שפשוט מעניין אותך לדעת יותר, המפגש הזה מיועד לך! האירועים שלנו מתוכננים להיות פתוחים, ידידותיים, חינוכיים וחברתיים, החל מהרמת כוסית דרך הרצאות בזק ואפילו סדנאות. מזמינים אותך ליצור קהילה גאו־‏מרחבית מגוונת ומעוררת השראה בפילדלפיה ביחד אתנו!
   gr-matrix:
     name: ה־Matrix של OpenStreetMap יוון
+  hr-irc:
+    description: 'ניתן להצטרף ל־‎#{account} ב־irc.freenode.org (פתחה 6667)'
   hr-wiki:
     description: עמוד Wikiproject לקרואטיה
   hu-matrix:
@@ -355,6 +375,8 @@ he:
     description: אנו מסייעים לפתח ולטפח את OpenStreetMap באיסלנד.
   it-chapter:
     description: אנו מסייעים לפתח ולטפח את OpenStreetMap באיטליה.
+  ko-facebook:
+    description: ממפי ומשתמשי OpenStreetMap בקוריאה
   kosovo-telegram:
     description: קבוצת טלגרם ציבורית חצי רשמית לכלל קוסובו. אנו מזמינים את כל הממפים מכל מקום ובכל שפה.
   latam-facebook:
@@ -366,6 +388,7 @@ he:
   latam-wiki:
     description: כל מה שצריך לדעת על מיפוי באמריקה הלטינית {url}
   mailinglist-sk-googlegroups:
+    name: רשימת הדיוור הסלובקית ב־Google Groups
     description: רשימת הדיוור הרשמית של הקהילה הסלובקית
   map-kibera:
     description: מיפוי קיברה (Map Kibera) הוא ארגון רשום שפועל בקניה
@@ -400,14 +423,20 @@ he:
   Maptime-Oceania-Slack:
     name: ה־Slack של Maptime אוסיאניה
     description: ניתן להירשם בכתובת {signupUrl}
+  nl-wonderme:
+    name: '{community} ב־Wonder.me'
+    description: חדר פגישות וירטואלי
   no-irc:
     description: חדר צ׳אט לממפי, משתמשי, מפתחי וחובבי OpenStreetMap בנורווגיה
   no-mailinglist:
+    name: 'רשימת הדיוור של {community}'
     description: קבוצת דיוור לממפי, משתמשי, מפתחי וחובבי OpenStreetMap בנורווגיה
   Nottingham-OSM-pub-meetup:
     name: קבוצת המפגשים החודשיים של מזרח המידלנדס (נוטינגהם)
     description: מפגשים חברתיים לממפי ומשתמשי מזרח המידלנדס
     extendedDescription: הקבוצה עורכת מפגשים מאז מרץ 2011, בהתחלה בנוטינגהם ובהמשך בדרבי ומדי פעם בפעם במקומות אחרים במזרח המידלנדס. מדובר במפגשים חברתיים אך הם גם מקום נפלא לבוא ולשאול שאלות על OSM, או נקודתית על האזור או באופן כללי. בחודשי הקיץ אנחנו בדרך כלל עורכים פעילות מיפוי קליל למשך כשעה בקרבת מקום המפגש. לקבוצה ככלל יש עניין מיוחד בזכויות מיפוי ציבורי של דרכים ומדי פעם מתקיימות גם פגישות למטרה זו.
+  np-facebook:
+    extendedDescription: מעניין אותך מיפוי בנפאל? יש לך שאלות? אולי ליצור קשר עם הקהילה המקומית? ניתן להצטרף אלינו ב־{url}. כולם מוזמנים!
   OpenCleveland-meetup:
     name: קליבלנד פתוחה
     description: שיפור OpenStreetMap באזור קליבלנד
@@ -424,6 +453,8 @@ he:
     extendedDescription: חדשות מהקהילה המקומית ומ־OpenStreetMap באופן כללי.
   osm-at:
     description: מאגר למידע על OpenStreetMap באוסטריה
+  osm-benin-facebook:
+    description: שיפור OpenStreetMap בבנין
   OSM-Boston:
     name: OpenStreetMap בוסטון
     description: ממפים ומשתמשים ב־OpenStreetMap באזור בוסטון
@@ -447,6 +478,10 @@ he:
     extendedDescription: OpenStreetMap (OSM) קולורדו היא שיתוף פעולה מקומי בין אנשים שמתעניינים ברתימת מאמציהם ליצירת מפות חופשיות. אנו מעודדים את כל הממפים לארגן או להציע אירועי מיפוי בכל רחבי המדינה. פעילויות במפגשים יכול להיות סתם מפגש חברתי, תרגול OSM ממתחילים ועד מתקדמים או מסיבות מיפוי קהילתיות.
   osm-de:
     description: הפלטפורמה למידע על OpenStreetMap בגרמניה
+  OSM-Discord:
+    name: ה־Discord של OpenStreetMap העולמי
+  osm-east-africa-forum:
+    name: הפורום של OpenStreetMap מערב אפריקה
   OSM-Facebook:
     description: ניתן לעשות לנו ‚לייק’ בפייסבוק כדי לקבל חדשות ועדכונים על OpenStreetMap.
   osm-gh-facebook:
@@ -462,6 +497,8 @@ he:
     extendedDescription: מעניין אותך מיפוי בהודו? יש לך שאלות? אולי ליצור קשר עם הקהילה המקומית? ניתן להצטרף אלינו ב־{url}. כולם מוזמנים!
   osm-india-github:
     description: 'לפתח אתנו קוד דרך {url}'
+  osm-india-matrix:
+    extendedDescription: חדר שיחה בלתי רשמי ל־OSM הודו, מקושר גם לקבוצת הטלגרם osmindia.
   OSM-India-Puducherry-Facebook:
     name: תנועת החומרה והתכנה החופשית - פייסבוק
     description: עמוד הפייסבוק של FSHM נועד לעדכון על אירועים ופעילויות של הקהילה
@@ -473,25 +510,33 @@ he:
   OSM-india-twitter:
     description: 'אנחנו במרחק ציוץ: {url}'
   osm-india-website:
-    description: ממפים ומשתמשים בOpenStreetMap
+    description: ממפי ומשתמשי OpenStreetMap בהודו
   osm-india-wiki:
     description: 'כל מה שעליך לדעת על מיפוי בהודו {url}'
   osm-iran-aparat:
     extendedDescription: משאב טוב של סרטונים על כל מה שקשור ב־OpenStreetMap. בעיקר בפרסית.
+  osm-iran-discord:
+    extendedDescription: שרת Discord ל־OpenStreetMap איראן. מזמינים אותך להצטרף בכיף!
   osm-iran-forum:
     extendedDescription: פורום מקוון למשתמשי OpenStreetMap באיראן. אפשר לשאול שאלות ולדון עם אחרים באופן חופשי!
+  osm-iran-telegram:
+    extendedDescription: מזמינים אותך להצטרף לערוץ הטלגרם שלנו בכתובת {url}. יש לנו גם קבוצת על של משתמשי OSM רבים שמתעניינים באיראן. ניתן למצוא את הקישור אליה בביוגרפיה של הערוץ.
   OSM-japan-facebook:
-    description: ממפים ומשתמשים OpenStreetMap ביפן
+    description: ממפי ומשתמשי OpenStreetMap ביפן
   OSM-japan-slack:
     description: מרחב עבודה ב־Slack עבור קהילת OSM היפנית {signupUrl}
   OSM-japan-website:
-    description: ממפים ומשתמשים OpenStreetMap ביפן
+    description: ממפי ומשתמשי OpenStreetMap ביפן
   osm-kenya:
     description: OSM קניה היא קהילה של מתנדבים ומשתמשים ב־OSM
     extendedDescription: OSM היא קהילה מקומית עבור עצמאיים שמתעניינים ב־OpenStreetMap כולל ארגונים, מפתחים וקבוצות ממפים צעירים מקומיות ברחבי המדינה.
   OSM-Kerala-facebook:
     description: שיפור OpenStreetMap בנקראלה
     extendedDescription: מעניין אותך מיפוי בקרלה? יש לך שאלות? אולי ליצור קשר עם הקהילה המקומית? ניתן להצטרף אלינו ב־{url}. כולם מוזמנים!
+  osm-kerala-github:
+    description: 'לפתח אתנו קוד דרך {url}'
+  osm-kerala-matrix:
+    description: אנחנו ממפים את קרלה ביחד. מזמינים אותך להצטרף לקבוצת ה־Matrix שלנו
   osm-kerala-telegram:
     description: אנחנו ממפים את קרלה ביחד. מזמינים אותך להצטרף לקבוצת הטלגרם שלנו. {url}
   osm-kerala-wiki:
@@ -505,6 +550,9 @@ he:
     description: ממפים ומשתמשים ב־OpenStreetMap באזור אוטווה
   OSM-PE:
     description: חדשות ומשאבים לקהילת OpenStreetMap פרו
+  OSM-PL-chapter:
+    name: OpenStreetMap פולין
+    description: הבית של קהילת OpenStreetMap הפולנית
   OSM-PL-github:
     description: ארגון GitHub לקהילת OpenStreetMap הפולנית
   OSM-Portland:
@@ -519,6 +567,8 @@ he:
     name: Free Software Hardware Movement - רשימת תפוצה
     description: קבוצת הדיוור פודוצ׳רי של FSHM לדיונים על מיפוי בפודוצ׳רי ונושאים נוספים.
     extendedDescription: FSHM מארגנים אירועים שקשורים לתכנה/חומרה פתוחים, טכנולוגיה, מעורבות חברתית ו־OpenStreetMap.
+  OSM-Reddit:
+    description: r/{account}/ הוא מקום נהדר ללמוד עוד על OpenStreetMap. מצפים לשאלות שלכם בכל נושא שהוא!
   OSM-Rome-meetup:
     name: מפגש המיפוי של רומא - Incontro Mappatori Romani
     description: שיפור OpenStreetMap באזור רומא
@@ -529,6 +579,8 @@ he:
   OSM-Seattle:
     name: OpenStreetMap סיאטל
     description: ממפים ומשתמשים ב־OpenStreetMap באזור סיאטל
+  osm-sierra-leone:
+    description: אנו מתמקדים ביצירה ובשימוש בנתונים פתוחים כדי לפתוח אתגרים חברתיים, כלכליים וקהילתיים.
   OSM-SoCal:
     name: OpenStreetMap דרום קליפורניה
     description: בואו נהנה, נתרום משהו ללוס אנג׳לס ונלמד על מיפוי!
@@ -560,6 +612,10 @@ he:
     name: OpenStreetMap ויומינג
     description: ממפים ומשתמשים ב־OpenStreetMap במדינת ויומינג
     extendedDescription: OpenStreetMap (OSM) ויומינג היא שיתוף פעולה מקומי בין אנשים שמתעניינים ברתימת מאמציהם ליצירת מפות חופשיות. אנו מעודדים את כל הממפים לארגן או להציע אירועי מיפוי בכל רחבי המדינה. פעילויות במפגשים יכול להיות סתם מפגש חברתי, תרגול OSM ממתחילים ועד מתקדמים או מסיבות מיפוי קהילתיות.
+  osmcz-facebook:
+    description: ניתן לעקוב אחר הקהילה הצ׳כית בפייסבוק - כולל ה־WeeklyOSM המתורגם!
+  osmcz-twitter:
+    description: ניתן לעקוב אחר הקהילה הצ׳כית בטוויטר - כולל ה־WeeklyOSM המתורגם!
   OSMF:
     name: קרן OpenStreetMap
     description: OSMF הוא ארגון בריטי ללא מטרות רווח שתומך במיזם OpenStreetMap
@@ -574,8 +630,14 @@ he:
   PHXGeo-twitter:
     name: הטוויטר של PHXGeo
     description: ניתן לעקוב אחרינו בטוויטר בכתובת {url}
+  rs-gitlab:
+    description: אוסף של מיזמים שקשורים ל־OSM סרביה ב־GitLab
+  rs-osm:
+    description: הפלטפורמה למידע על OpenStreetMap בסרביה
   RS-telegram:
     extendedDescription: ניתן להצטרף לקהילה וללמוד עוד על OpenStreetMap, לשאול שאלות או להשתתף במפגשים שלנו. כולם מוזמנים!
+  rs-wiki:
+    description: עמוד Wikiproject לקרואטיה
   sk-freemap:
     name: אתר ה־OpenStreetMap של Freemap סלובקיה
     description: האתר של מפת OpenStreetMap עם כלים בסלובקיה והאזורים העוטפים
@@ -583,6 +645,8 @@ he:
     description: ויקי של OpenStreetMap לקהילה ולממפים הסלובקים
   talk-au:
     description: מקום לשיחות בין ממפים אוסטרליים
+  talk-bo:
+    extendedDescription: מעניין אותך מיפוי בבוליביה? יש לך שאלות? אולי ליצור קשר עם הקהילה המקומית? ניתן להצטרף אלינו ב־{url}. כולם מוזמנים!
   talk-mg:
     description: מקום לתורמים, קהילות ומשתמשי OpenStreetMap במדגסקר לשתף ולדון זה עם זה.
   talk-nz:
@@ -591,6 +655,8 @@ he:
     description: ה־GitHub של OpenStreetMap אוקראינה
   ua-osm:
     description: האתר של OpenStreetMap באוקראינה
+  ua-slack:
+    description: ניתן להצטרף לקהילה של OpenStreetMap אוקראינה ב־Slack. הרשמה דרך {signupUrl}
   uk-localchapter:
     description: הקבוצה המקומית של הממלכה המאוחדת (כולל צפון אירלנד)
     extendedDescription: 'אנו תומכים ב־OpenStreetMap על ידי אירוח כנסים, אספקת משאבים קהילתיים, בניית שותפויות והפצה ברבים. ניתן להצטרף ל־OpenStreetMap הממלכה המאוחדת כאן: {signupUrl}'
@@ -600,6 +666,11 @@ he:
   us-ma-mailinglist:
     name: קבוצת הדיוור Talk-us-massachusetts
     description: רשימת דיוור בדוא״ל לקהילת OSM במסצ׳וסטס
+  US-MI-Wiki:
+    description: מידע על מיפוי במישיגן.
+  uy-irc:
+    description: 'ניתן להצטרף ל־‎#{account} ב־irc.freenode.org (פתחה 6667)'
+    extendedDescription: 'ניתן להצטרף ל־‎#{account} תחת irc.freenode.org'
   Western-Slope-facebook:
     name: הפייסבוק של OSM וסטרן סלופ
     description: ממפי ומשתמשי OpenStreetMap סביב גרנד ג׳נקשן, קולורדו
@@ -707,9 +778,6 @@ he:
   ym-Institute-of-Crisis-Management-Studies:
     name: ממפים צעירים ב Institute of Crisis Management Studies
     description: ממפים צעירים ב Institute of Crisis Management Studies
-  ym-Institute-of-Finance-Management:
-    name: ממפי IFM
-    description: ממפים צעירים בInstitute of Finance Management
   ym-Institute-of-Rural-Development-Planning:
     name: ממפים צעירים מיפאנגו
     description: ממפים צעירים בInstitute of Rural Development Planning

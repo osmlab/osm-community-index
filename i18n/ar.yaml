@@ -1,5 +1,6 @@
 ar:
   _communities:
+    geolibres: GeoLibres
     mappingbotswana: رسم خرائط بوتسوانا
     maptimehrva: خريطة تايمهرفا
     openstreetmap: خريطة الشارع المفتوحة
@@ -281,6 +282,10 @@ ar:
     description: مشاريع من مجتمع البلدان الكاتالونية OpenStreetMap على GitHub
   cat-wiki:
     description: 'مساحة تنسيق لمجتمع OpenStreetMap حول البلدان الكاتالونية: {url}'
+  cd-chapter:
+    name: OpenStreetMap RDC
+    description: من شارع إلى آخر، دعونا نرسم خريطة لبلدنا ...
+    extendedDescription: نحن متحمسون لمشروع OSM ، ونشارك بعضًا من وقتنا لجعل المشروع معروفًا للآخرين. ما زلنا قلة ، انضم إلينا!
   Central-Pennsylvania-OSM:
     name: وسط بنسلفانيا OSM
     description: مجتمع رسم الخرائط عبر الإنترنت من كلية الولاية ، بنسلفانيا
@@ -300,9 +305,6 @@ ar:
     description: بوابة الخرائط والموقع الإلكتروني وجهات الاتصال الخاصة بأعضاء OSM في التشيك
   de-berlin-mailinglist:
     name: قائمة بريد برلين
-  de-berlin-meetup:
-    name: خريطة الشارع المفتوحة في برلين براندنبورغ Meetup
-    description: مخططو الخرائط ومستخدمو خريطة الشارع المفتوحة في في منطقة برلين
   de-berlin-xmpp:
     name: خريطة الشارع المفتوحة في برلين براندنبورغ XMPP
     description: 'انضم إلى دردشة XMPP متعددة المستخدمين: {url}'
@@ -401,6 +403,12 @@ ar:
     description: نحن نساعد في النمو وتحسين خريطة الشارع المفتوحة في في أيسلندا.
   it-chapter:
     description: نحن نساعد في النمو وتحسين خريطة الشارع المفتوحة في في إيطاليا.
+  ko-facebook:
+    description: مصممي الخرائط ومستخدمي OpenStreetMap في كوريا
+  kosovo-flossk:
+    name: برنامج مجاني مفتوح المصدر كوسوفا (FLOSSK)
+    description: الترويج لـ FLOSS منذ عام 2009
+    extendedDescription: برنامج Free Libre مفتوح المصدر Kosova (FLOSSK) هي منظمة غير حكومية مقرها في بريشتينا تأسست في عام 2009 من أجل دعم وتعزيز وتطوير البرمجيات المجانية والمفتوحة المصدر. إلى جانب ذلك ، نساهم أيضًا في المعرفة المفتوحة والتشاركية والتعليم في مجال تكنولوجيا المعلومات من خلال المناهج التعليمية المفتوحة والمعايير المفتوحة والثقافة والمجتمع المفتوح باستخدام الاتصال المجاني.
   kosovo-matrix:
     description: مجموعة عامة شبه رسمية من كوسوفو (موصولة مع المجموعة الموجودة في Telegram). نرحب بجميع مصممي الخرائط من أي مكان وبأي لغة.
   kosovo-telegram:
@@ -486,8 +494,16 @@ ar:
     name: فتح كليفلاند
     description: تحسين خريطة الشارع المفتوحة في في منطقة كليفلاند
     extendedDescription: يهدف Open Geo Cleveland إلى أن يكون مصدرًا للأشخاص لمناقشة ومشاركة المعرفة حول استخدام مجموعات البيانات الجغرافية المجانية وخاصة OpenStreetMap و Open geo-spatial software التي تدير وتحرر وتعرض البيانات الجغرافية وتدعو لاستخدامها في شمال شرق أوهايو. نحن أيضًا فصل Maptime =)
+  osgeo-oceania:
+    name: OSGeo أوقيانوسيا
+    description: نحن ندعم تطوير مجتمع OpenStreetMap في أوقيانوسيا.
+    extendedDescription: الغرض من OSGeo Oceania هو دعم وتنمية المجتمع الجغرافي المكاني المفتوح في منطقة أوقيانوسيا ، بما في ذلك الإشراف والإشراف على سلسلة مؤتمرات FOSS4G SotM Oceania.
   OSM-AR-forum:
     extendedDescription: مثالية للمناقشات الطويلة أو الهامة. وقت استجابة بطيء.
+  OSM-AR-geolibres:
+    name: GeoLibres
+    description: الرابطة الأهلية Geolibres
+    extendedDescription: نحن نشجع إنشاء واستخدام البيانات الجغرافية ذات الوصول المجاني ، واعتماد المعايير الجغرافية ، واستخدام البرامج المجانية والمفتوحة المصدر.
   OSM-AR-irc:
     extendedDescription: قد تجد المستخدم الأكثر غريب الأطوار في المجتمع.
   OSM-AR-mailinglist:
@@ -599,6 +615,9 @@ ar:
     description: أخبار وموارد لمجتمع خريطة الشارع المفتوحة في في بيرو
   OSM-PH-telegram:
     extendedDescription: مجموعة Telegram ودية ونشطة للغاية لمصممي خرائط OSM والأصدقاء في الفلبين لإجراء محادثة قصيرة ومزاح خفيف وأسئلة وإجابات سريعة.
+  OSM-PL-chapter:
+    name: OpenStreetMap بولندا
+    description: موطن مجتمع OpenStreetMap البولندي
   OSM-PL-discord:
     description: المكان الرئيسي للمحادثات الصوتية بين مجتمع OpenStreetMap البولندي والقنوات النصية النشطة
   OSM-PL-github:
@@ -864,10 +883,6 @@ ar:
     name: معهد دراسات إدارة الأزمات YouthMappers
     description: فرع YouthMappers في معهد دراسات إدارة الأزمات
     extendedDescription: تطوير مخططي الأزمات للمساعدة أثناء حالات الكوارث.
-  ym-Institute-of-Finance-Management:
-    name: تعيينات IFM
-    description: فرع الشباب في معهد الإدارة المالية
-    extendedDescription: هذا فصل جديد في معهد خارجي ونتطلع إلى استخدام تعليمنا المالي الذي نتلقاه هنا في الحرم الجامعي وربطه بالبيئة من أجل تطوير بيئتنا المستدامة نحو مساعدة المجتمع مع تأثيرات بيئتنا في طرق مالية عن طريق تحويلها إلى أرقام. هذا موضح على نطاق واسع في محاسبة النظام البيئي والحسابات البيئية
   ym-Institute-of-Rural-Development-Planning:
     name: ميبانغو YouthMappers الفصل
     description: فرع الشباب في معهد تخطيط التنمية الريفية

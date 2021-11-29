@@ -4,11 +4,14 @@ cs:
     openstreetmap: OpenStreetMap
     openstreetmapafghanistan: OpenStreetMap Afghánistán
     openstreetmapafrica: OpenStreetMap Afrika
+    openstreetmapalba: OpenStreetMap Alba
     openstreetmapalbania: OpenStreetMap Albánie
     openstreetmapalgeria: OpenStreetMap Alžírsko
     openstreetmapargentina: OpenStreetMap Argentina
     openstreetmapasia: OpenStreetMap Asie
+    openstreetmapasti: OpenStreetMap Asti
     openstreetmapaustria: OpenStreetMap Rakousko
+    openstreetmapbahia: OpenStreetMap Bahia
     openstreetmapbangladesh: OpenStreetMap Bangladéš
     openstreetmapbelarus: OpenStreetMap Bělorusko
     openstreetmapbelgium: OpenStreetMap Belgie
@@ -35,6 +38,7 @@ cs:
     openstreetmapcostarica: OpenStreetMap Kostarika
     openstreetmapcroatia: OpenStreetMap Chorvatsko
     openstreetmapcuba: OpenStreetMap Kuba
+    openstreetmapcuneo: OpenStreetMap Cuneo
     openstreetmapcz: OpenStreetMap CZ
     openstreetmapde: OpenStreetMap DE
     openstreetmapdenmark: OpenStreetMap Dánsko
@@ -47,12 +51,15 @@ cs:
     openstreetmapethiopia: OpenStreetMap Etiopie
     openstreetmapfinland: OpenStreetMap Finsko
     openstreetmapfrance: OpenStreetMap Francie
+    openstreetmapfreemapslovakia: OpenStreetMap Freemap Slovensko
     openstreetmapfrenchguiana: OpenStreetMap Francouzská Guyana
     openstreetmapfrenchpolynesia: OpenStreetMap Francouzská Polynésie
     openstreetmapgabon: OpenStreetMap Gabon
+    openstreetmapgalicia: OpenStreetMap Galicie
     openstreetmapgeorgia: OpenStreetMap Gruzie
     openstreetmapgermany: OpenStreetMap Německo
     openstreetmapghana: OpenStreetMap Ghana
+    openstreetmapgraz: OpenStreetMap Štýrský Hradec
     openstreetmapgreece: OpenStreetMap Řecko
     openstreetmapguatemala: OpenStreetMap Guatemala
     openstreetmapguinea: OpenStreetMap Guinea
@@ -69,10 +76,14 @@ cs:
     openstreetmapireland: OpenStreetMap Irsko
     openstreetmapisrael: OpenStreetMap Izrael
     openstreetmapitaly: OpenStreetMap Itálie
+    openstreetmapitalylombardia: OpenStreetMap Itálie-Lombardie
+    openstreetmapitalysouthtyrol: OpenStreetMap Itálie-Jižní Tyrolsko
+    openstreetmapitalytrentino: OpenStreetMap Itálie-Trentino
     openstreetmapjapan: OpenStreetMap Japonsko
     openstreetmapkarlsruhe: OpenStreetMap Karlsruhe
     openstreetmapkazakhstan: OpenStreetMap Kazachstán
     openstreetmapkenya: OpenStreetMap Keňa
+    openstreetmapkerala: OpenStreetMap Kérala
     openstreetmapkorea: OpenStreetMap Korea
     openstreetmapkosovo: OpenStreetMap Kosovo
     openstreetmapkyrgyzstan: OpenStreetMap Kyrgyzstán
@@ -82,6 +93,7 @@ cs:
     openstreetmapliberia: OpenStreetMap Libérie
     openstreetmaplibya: OpenStreetMap Libye
     openstreetmaplithuania: OpenStreetMap Litva
+    openstreetmaplombardia: OpenStreetMap Lombardie
     openstreetmapluxembourg: OpenStreetMap Lucembursko
     openstreetmapmadagascar: OpenStreetMap Madagaskar
     openstreetmapmalawi: OpenStreetMap Malawi
@@ -91,6 +103,7 @@ cs:
     openstreetmapmauritania: OpenStreetMap Mauritánie
     openstreetmapmecklenburgvorpommern: OpenStreetMap Meklenburako-Přední Pomořansko
     openstreetmapmexico: OpenStreetMap Mexiko
+    openstreetmapmichigan: OpenStreetMap Michigan
     openstreetmapmoldova: OpenStreetMap Molavsko
     openstreetmapmongolia: OpenStreetMap Mongolsko
     openstreetmapmontenegro: OpenStreetMap Černá Hora
@@ -112,6 +125,7 @@ cs:
     openstreetmappoland: OpenStreetMap Polsko
     openstreetmapportugal: OpenStreetMap Portugalsko
     openstreetmaprdc: OpenStreetMap RDC
+    openstreetmapriograndedosul: OpenStreetMap Rio Grande do Sul
     openstreetmapromania: OpenStreetMap Rumunsko
     openstreetmaprussia: OpenStreetMap Rusko
     openstreetmaprwanda: OpenStreetMap Rwanda
@@ -157,9 +171,12 @@ cs:
       name: '{community} fórum'
       url: https://forum.openstreetmap.org/viewforum.php?id={account}
     github:
+      name: '{community} GitHub'
       url: https://github.com/{account}
     gitlab:
       url: https://gitlab.com/{account}
+    group:
+      name: '{community}'
     irc:
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
@@ -170,6 +187,10 @@ cs:
       url: https://matrix.to/#/{account}:matrix.org
     meetup:
       url: https://meetup.com/{account}
+    osm:
+      name: '{community}'
+    osm-lc:
+      name: '{community}'
     reddit:
       name: '{community} na Redditu'
       url: https://www.reddit.com/r/{account}
@@ -181,6 +202,7 @@ cs:
       url: https://twitter.com/{account}
     wiki:
       name: '{community} wikiprojekt'
+      url: https://wiki.openstreetmap.org/wiki/{account}
     youtube:
       name: '{community} na YouTube'
       description: Přihlaste se k odběru našeho YouTube kanálu
@@ -193,12 +215,16 @@ cs:
     description: Vylepšete OpenStreetMap v Bay Area
     extendedDescription: Tato skupina se věnuje rozvoji komunity OpenStreetMap zde v oblasti Bay Area. Naše akce jsou přístupné všem, od nadšenců s otevřeným zdrojovým kódem, cyklistů, profesionálů GIS, geocachers a dalších. Kdokoli a každý, kdo má zájem o mapy, tvorbu map a otevřená mapová data, je vítán, aby se připojil k naší skupině a účastnil se našich akcí.
   be-matrix:
+    description: Všichni mappeři jsou vítáni!
     extendedDescription: Nejvíce diskusí probíhá na kanále „OpenStreetMap Belgium“, kde se můžete na cokoliv zeptat. Ostatní místnosti jsou určeny pro konkrétní témata.
   bg-wiki:
     description: Stránka wikiprojektu pro Bulharsko
   cape-coast-youthmappers:
     name: YouthMappers univerzity v Cape Coast
     description: 'Sledujte nás na Twitteru: {url}'
+  cd-chapter:
+    name: OpenStreetMap RDC
+    description: Z jedné ulice na další, pojďme zmapovat celou zemi...
   Central-Pennsylvania-OSM:
     name: OSM Střední Pensylvánie
     description: Online mapovací komunita založená mimo State College, PA
@@ -207,8 +233,8 @@ cs:
     description: 'Všichni jsou vítáni! Zaregistrujte se na adrese {signupUrl} a připojte se k kanálu #osm.'
   czech-community:
     description: Mapový portál, webové stránky a kontakty na členy OSM v Česku
-  de-berlin-meetup:
-    description: Mapovači a uživatelé OpenStreetMap v oblasti Berlína
+  de-berlin-mailinglist:
+    name: Berlínská mailová konference
   DF-telegram:
     extendedDescription: Připojte se ke komunitě a dozvíte se více o OpenStreetMap, můžete klást otázky nebo se účastnit našich setkání. Každý je vítán!
   Galicia-Xeoinquedos-Twitter:
@@ -220,6 +246,8 @@ cs:
     extendedDescription: GeoPhilly spojuje vývojáře, geografy, geology dat, nadšence s otevřeným zdrojovým kódem, občanské hackery a mapové šílence do naší společné lásky k mapám a k příběhům, které vyprávějí. Pokud používáte mapy jako součást své práce, nebo se chcete dozvědět více, toto je setkání právě pro vás! Cílem našich akcí je být otevřený, přátelský, vzdělávající se a společenský v rozsahu od šťastných hodin přes bleskové rozhovory nebo dokonce workshopy. Pojďte s námi vytvořit rozmanitou a inspirující geoprostorovou komunitu ve Filadelfii!
   hr-wiki:
     description: Stránka wikiprojektu pro Chorvatsko
+  mailinglist-sk-googlegroups:
+    description: Oficiální mailová konference slovenské komunity
   MapColabora-mailinglist:
     name: Mapeado Colaborativo / Geoinquietos Zaragoza
     description: Mapeado Colaborativo / Geoinquietos Zaragoza Mailing list
@@ -251,6 +279,8 @@ cs:
     extendedDescription: Skupina se schází od března 2011, původně v Nottinghamu, nověji v Derby a čas od času jinde ve East Midlands. Jedná se o společenská setkání, ale jsou vynikajícím místem, kam přijít a zeptat se na konkrétní otázky týkající se OSM buď v této oblasti, nebo obecně. V letních měsících obvykle děláme nějaké lehké mapování na hodinu v blízkosti našeho místa setkání. Skupina jako celek má zvláštní zájem na mapování stezek s veřejným přístupem a čas od času pro tento účel pořádá schůzky.
   OpenCleveland-meetup:
     description: Vylepšete OpenStreetMap na území Clevelandu
+  osgeo-oceania:
+    name: OSGeo Oceánie
   OSM-AR-forum:
     extendedDescription: Ideální pro dlouhé nebo důležité diskuse. Pomalá odezva.
   OSM-AR-irc:
@@ -287,6 +317,10 @@ cs:
   OSM-India-facebook:
     description: Vylepšete OpenStreetMap v Indii
     extendedDescription: Mapujete v Indii? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {url}. Všichni jsou vítáni!
+  OSM-India-Puducherry-Facebook:
+    name: Free Software Hardware Movement - Facebook
+  OSM-India-Puducherry-Matrix:
+    name: Free Software Hardware Movement - Matrix
   OSM-india-twitter:
     description: 'Zrovna jsme vytweetli: {url}'
   osm-india-wiki:
@@ -295,6 +329,8 @@ cs:
     description: Mapovači a uživatelé OpenStreetMap v Japonsku
   OSM-japan-website:
     description: Mapovači a uživatelé OpenStreetMap v Japonsku
+  OSM-PL-chapter:
+    name: OpenStreetMap Polsko
   OSM-Portland:
     name: OpenStreetMap Portland
     description: Mapovači a uživatelé OpenStreetMap na území Portlandu
@@ -307,6 +343,8 @@ cs:
     name: OpenStreetMap.se
   OSM-Seattle:
     description: Mapovači a uživatelé OpenStreetMap na území Seattlu
+  OSM-SoCal:
+    name: OpenStreetMap Jižní Kalifornie
   OSM-Tampa-Bay:
     description: Mapovači a uživatelé OpenStreetMap na území Tampa Bay
   OSM-US-Slack:
@@ -324,7 +362,10 @@ cs:
     description: Sledujte českou komunitu na Twitteru – včetně přeloženého WeeklyOSM!
   OSMF:
     name: Nadace OpenStreetMap
+  PHXGeo-meetup:
+    name: PHXGeo Meetup
   PHXGeo-twitter:
+    name: PHXGeo Twitter
     description: Sledujte nás na Twitteru na {url}
   rs-osm:
     description: Informační platforma pro OpenStreetMap v Srbsku
@@ -336,13 +377,19 @@ cs:
     description: Diskuse komunity OSM na Novém Zélandu
   ym-Ahmadu-Bello-University:
     extendedDescription: 'Jsme skupina datových humanitárních mapovačů, kteří se věnují poskytování humanitárních služeb při reakci na katastrofy a při zmírňování následků. Jsme rádi, že můžeme přispět svými odbornostmi a znalostmi prostřednictvím mapování a pomoci šířit #OpenEvangelism prostřednictvím školení a spolupráce.'
+  ym-Busitema-University:
+    name: Dobří mappeři
   ym-California-University-of-Pennsylvania:
     name: CalU PA GIS Club
+  ym-College-of-William-and-Mary:
+    name: Všechno přes mapu!
   ym-Dedan-Kimathi-University-of-Technology:
     name: GDEV
     extendedDescription: GDEV je skupina nadšené skupiny GIS na DeKUT, jejímž cílem je pomáhat studentům sdílet, zapojovat se a učit se jeden od druhého v geoprostorových věcech
   ym-Dhaka-University:
     extendedDescription: Je velkým privilegiem pro studenty University of Dhaka mapovat pro humanitární účely. Naše sekce dává studentům příležitost pomáhat lidem a používat mapování pro humanitární účely.
+  ym-Institut-Suprieur-de-Management-Kolda:
+    name: Les Femmes Leaders de ISM/Kolda
   ym-Institute-of-Rural-Development-Planning:
     description: Oddělení YouthMappers v Institutu pro plánování rozvoje venkova
   ym-Karatina-University:
@@ -362,6 +409,7 @@ cs:
   ym-University-of-Dar-es-Salaam:
     description: Sekce YouthMappers na University of Dar es Salaam
   ym-University-of-Energy-and-Natural-Resources:
+    name: Eko klub
     extendedDescription: Poskytovat důkladné vzdělání všem občanům o zhoršujícím se prostředí a maximálně využívat obnovení prostředí k přežití člověka.
   ym-University-of-Exeter:
     extendedDescription: Jsme tým nadšených geografů s komplexní znalostí GIS. Jsme nadšeni podporou britské společnosti Červeného kříže různými snahami o humanitární pomoc. Jsme také důležitými učiteli o významu mapování vzdáleně zaznamenaných dat ao tom, jak to pomáhá v terénu. Naše mapathony mají tematické akademické zaměření, které upozorňují na různý výzkum GIS v našem geografickém oddělení, a zároveň fungují jako události zvyšující povědomí o zaměstnatelnosti, které používáme k pozvání řečníků, aby hovořili o své kariéře v GIS / Britském Červeném kříži.

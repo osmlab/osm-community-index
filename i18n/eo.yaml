@@ -1,4 +1,78 @@
 eo:
+  _communities:
+    openstreetmappoland: OpenStreetMap Polujo
+  _defaults:
+    aparat:
+      name: '{community} ĉe Aparat'
+      description: Abonu nian kanalon ĉe Aparat
+      url: https://aparat.com/{account}
+    discord:
+      name: '{community} ĉe Discord'
+      description: Kontaktu kun aliaj mapigistoj per Discord
+      url: https://discord.gg/{account}
+    discourse:
+      name: '{community} ĉe Discourse'
+    facebook:
+      name: '{community} ĉe Facebook'
+      description: Aliĝu al nia komunumo ĉe Facebook
+      url: https://facebook.com/{account}
+    forum:
+      name: 'Forumo {community}'
+      description: Oficiala forumo {community}
+      url: https://forum.openstreetmap.org/viewforum.php?id={account}
+    github:
+      name: '{community} ĉe GitHub'
+      url: https://github.com/{account}
+    gitlab:
+      name: '{community} ĉe GitLab'
+      url: https://gitlab.com/{account}
+    group:
+      name: '{community}'
+    irc:
+      name: '{community} ĉe IRC'
+      description: 'Aliĝu al #{account} ĉe irc.oftc.net (pordo 6667)'
+      url: https://webchat.oftc.net/?channels={account}
+    linkedin:
+      name: '{community} ĉe LinkedIn'
+      description: Aliĝu al nia komunumo ĉe LinkedIn
+      url: https://linkedin.com/company/{account}
+    mailinglist:
+      name: 'Dissendolisto {account}'
+      description: Oficiala dissendolisto de la komunumo {community}
+      url: https://lists.openstreetmap.org/listinfo/{account}
+    matrix:
+      name: 'Kanalo {community} ĉe Matrix'
+      description: Aliĝu al nia komunumo ĉe Matrix
+      url: https://matrix.to/#/{account}:matrix.org
+    meetup:
+      name: '{community} ĉe Meetup'
+      url: https://meetup.com/{account}
+    osm:
+      name: '{community}'
+    osm-lc:
+      name: '{community}'
+    reddit:
+      name: '{community} ĉe Reddit'
+      url: https://www.reddit.com/r/{account}
+    slack:
+      name: '{community} ĉe Slack'
+    telegram:
+      name: '{community} ĉe Telegram'
+      description: Aliĝu al nia komunumo ĉe Telegram
+      url: https://t.me/{account}
+    twitter:
+      name: '{community} ĉe Twitter'
+      description: Abonu nin ĉe Twitter
+      url: https://twitter.com/{account}
+    wiki:
+      name: 'VikiProjekto {community}'
+      url: https://wiki.openstreetmap.org/wiki/{account}
+    xmpp:
+      name: '{community} ĉe XMPP'
+    youtube:
+      name: '{community} ĉe YouTube'
+      description: Abonu nian kanalon ĉe YouTube
+      url: https://www.youtube.com/channel/{account}
   al-maptime-tirana:
     name: Maptime Tirana
     description: Sociaj okazaĵoj organizitaj por mapigi – komencantoj estas akceptindaj!
@@ -27,9 +101,6 @@ eo:
     description: Mapo, retejo kaj kontakto al OSM-mapigistoj en Ĉeĥujo
   de-berlin-mailinglist:
     name: Dissendolisto Berlin
-  de-berlin-meetup:
-    name: OpenStreetMap Berlin-Brandenburg ĉe Meetup
-    description: Mapigistoj kaj uzantoj de OpenStreetMap proksime de Berlino
   de-ostwestfalen-lippe-mailinglist:
     name: Dissendolisto OWL
     description: Dissendolisto por la OSM-komunumo Ostwestfalen-Lippe

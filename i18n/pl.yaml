@@ -1,5 +1,6 @@
 pl:
   _communities:
+    geolibres: GeoLibres
     mappingbotswana: Mapowanie Botswany
     maptimehrva: MaptimeHRVA
     openstreetmap: OpenStreetMap
@@ -42,6 +43,7 @@ pl:
     openstreetmapcuba: OpenStreetMap Kuba
     openstreetmapcuneo: OpenStreetMap Cuneo
     openstreetmapcz: OpenStreetMap Czechy
+    openstreetmapde: OpenStreetMap DE
     openstreetmapdenmark: OpenStreetMap Dania
     openstreetmapdjibouti: OpenStreetMap Dżibuti
     openstreetmapdominicanrepublic: OpenStreetMap Dominikana
@@ -193,6 +195,10 @@ pl:
       name: '{community} na IRC-u'
       description: 'Wejdź na kanał #{account} na irc.oftc.net (port 6667)'
       url: https://webchat.oftc.net/?channels={account}
+    linkedin:
+      name: '{społeczność} na Linkedln'
+      description: Dołącz do naszej społeczności na Linkedln
+      url: https://linkedin.com/company/{account}
     mailinglist:
       name: 'Lista dyskusyjna {account}'
       description: Oficjalna lista dyskusyjna społeczności {community}
@@ -222,6 +228,7 @@ pl:
       description: Obserwuj nas na Twitterze
       url: https://twitter.com/{account}
     wiki:
+      name: '{community} WikiProject'
       url: https://wiki.openstreetmap.org/wiki/{account}
     xmpp:
       name: 'XMPP {community}'
@@ -245,6 +252,8 @@ pl:
     name: Mapujący OpenStreetMap z Bay Area
     description: Ulepsz OpenStreetMap w Bay Area
     extendedDescription: Ta grupa poświęcona jest rozwijaniu społeczności OpenStreetMap w Bay Area. Nasze wydarzenia są otwarte dla wszystkich – entuzjastów otwartych źródeł, rowerzystów, specjalistów od GIS, geocacherów i innych. Każdego, kto jest zainteresowany mapami, ich tworzeniem oraz wolnymi danymi map, serdecznie zapraszamy do dołączenia do naszej grupy, jak również udziału w naszych wydarzeniach.
+  bd-facebook:
+    extendedDescription: Mapujesz w Bangladeszu? Masz pytania lub chcesz dołączyć do naszej społeczności? Wejdź na {url}. Zapraszamy wszystkich!
   be-chapter:
     name: Oddział lokalny OpenStreetMap Belgia
     description: Pomagamy rozwijać i ulepszać OpenStreetMap w Belgii.
@@ -262,6 +271,8 @@ pl:
   bi-vc-cvl_wiki:
     description: Mapujący z północnego Piemontu
     extendedDescription: Oprócz comiesięcznych spotkań mamy też grupę na WhatsApp.
+  br-telegram:
+    extendedDescription: Dołącz do społeczności, aby dowiedzieć się więcej o OpenStreetMap, zadawać pytania i brać udział w naszych spotkaniach. Zapraszamy wszystkich!
   cape-coast-youthmappers:
     name: YouthMappers z Uniwersytetu w Cape Coast
     description: 'Obserwuj nas na Twitterze: {url}'
@@ -270,12 +281,21 @@ pl:
     description: Społeczność OpenStreetMap Kraje Katalońskie na GitHub
   cat-wiki:
     description: 'Miejsce dla katalońskiej społeczności OpenStreetMap: {url}'
+  cd-chapter:
+    name: OpenStreetMap RDC
+    extendedDescription: Jesteśmy pasjonatami projektu OSM, poświęcając część wolnego czasu aby podzielić się projektem z innymi. Jest nas nadal zbyt mało. Dołącz do nas!
   Central-Pennsylvania-OSM:
     name: OSM Centralna Pensylwania
     description: Internetowa społeczność mapująca ze State College
   ch-mailinglist:
     name: Lista dyskusyjna OpenStreetMap Szwajcaria
     description: Lista dyskusyjna dla Szwajcarii
+  cl-facebook:
+    extendedDescription: Dołącz do społeczności, aby dowiedzieć się więcej o OpenStreetMap, zadawać pytania i brać udział w naszych spotkaniach. Zapraszamy wszystkich!
+  cl-telegram:
+    extendedDescription: Dołącz do społeczności, aby dowiedzieć się więcej o OpenStreetMap, zadawać pytania i brać udział w naszych spotkaniach. Zapraszamy wszystkich!
+  co-facebook:
+    extendedDescription: Dołącz do społeczności, aby dowiedzieć się więcej o OpenStreetMap. Zapraszamy wszystkich!
   Code-for-San-Jose-Slack:
     name: Code for San Jose na Slacku
     description: 'Zapraszamy wszystkich! Zarejestruj się tutaj {signupUrl}, a następnie dołącz do kanału #osm.'
@@ -283,9 +303,6 @@ pl:
     description: Portal, strona i kontakty do członków OSM w Czechach.
   de-berlin-mailinglist:
     name: Lista dyskusyjna dla Berlina
-  de-berlin-meetup:
-    name: Spotkania OpenStreetMap Berlin-Brandenburgia
-    description: Mapujący i użytkownicy OpenStreetMap z okolic Berlina
   de-berlin-xmpp:
     name: OpenStreetMap Berlin-Brandenburg XMPP
     description: 'Wejdź na nasz chat XMPP: {url}'
@@ -361,6 +378,8 @@ pl:
     extendedDescription: Czat OpenStreetMap na tematy mapowania. Jedno z forów wsparcia społeczności OSM.
   hu-meetup:
     description: Platforma do organizowania spotkań na Węgrzech
+  id-facebook:
+    extendedDescription: Mapujesz w Indonezji? Masz pytania lub chcesz dołączyć do naszej społeczności? Wejdź na {url}. Zapraszamy wszystkich!
   ireland-chapter:
     description: Pomagamy rozwijać i ulepszać OpenStreetMap w Irlandii.
     extendedDescription: OpenStreetMap Ireland to miejsce promowania projektu OpenStreetMap na wyspie Irlandia oraz miejsce komunikacji z innymi otwartymi inicjatywami.
@@ -370,6 +389,8 @@ pl:
     description: Pomagamy rozwijać i ulepszać OpenStreetMap w Islandii.
   it-chapter:
     description: Pomagamy rozwijać i ulepszać OpenStreetMap we Włoszech.
+  ko-facebook:
+    description: Mapujący i użytkownicy OpenStreetMap w Korei.
   kosovo-matrix:
     description: Półoficjalna grupa publiczna (połączona z tą na Telegramie) dla Kosowa i okolic. Zapraszamy wszystkich mapujących z dowolnego kraju i z dowolnym językiem.
   kosovo-telegram:
@@ -429,6 +450,8 @@ pl:
     description: Dołącz do grupy Google {community}
   mt-irc:
     extendedDescription: 'Wejdź na kanał #{account} na irc.oftc.net (port 6667), prosimy o cierpliwość i chwilę oczekiwania po zadaniu pytania'
+  nl-wonderme:
+    description: Wirtualny pokój spotkań
   no-irc:
     description: Kanał dla mapujących, użytkowników, programistów i fanów OpenStreetMap w Norwegii
   no-mailinglist:
@@ -442,8 +465,12 @@ pl:
     name: Open Cleveland
     description: Ulepsz OpenStreetMap w okolicach Cleveland
     extendedDescription: Open Geo Cleveland chce być źródłem dla ludzi w dyskusji i dzieleniu się wiedzą o używaniu darmowych zestawów danych, zwłaszcza OpenStreetMap, i otwartego oprogramowania do zarządzania, edytowania i wyświetlania danych geograficznych; a także zachęcać do używania ich w Północno-wschodnim Ohio. Jesteśmy również sekcją maptime =)
+  osgeo-oceania:
+    description: Wspieramy rozwijanie społeczności OpenStreetMap w Oceanii.
   OSM-AR-forum:
     extendedDescription: Idealne do długich i ważnych dyskusji. Długi czas odpowiedzi.
+  OSM-AR-geolibres:
+    name: GeoLibres
   OSM-AR-irc:
     extendedDescription: Możesz znaleźć największego geeka w społeczności.
   OSM-AR-mailinglist:
@@ -481,6 +508,9 @@ pl:
     description: Platforma z informacjami o OpenStreetMap w Niemczech
   OSM-Discord:
     name: Discord OpenStreetMap
+  osm-east-africa-forum:
+    name: OpenStreetMap Wschodnia Afryka Forum
+    description: Rozmawiaj z innymi członkami społeczności Wschodniej Afryki OpenStreetMap
   OSM-Facebook:
     description: Polub nas na Facebooku, aby być na bieżąco z OpenStreetMap.
   osm-gh-facebook:
@@ -532,6 +562,8 @@ pl:
   OSM-Kerala-facebook:
     description: Ulepsz OpenStreetMap w Kerali
     extendedDescription: Mapujesz w Kerali? Masz pytania lub chcesz się skontaktować ze społecznością? Dołącz do nas na {url}. Wszyscy są mile widziani!
+  osm-kerala-github:
+    description: 'Koduj z nami: {url}'
   osm-kerala-matrix:
     description: 'Mapujemy razem Keralę. Dołącz do naszego kanału na Matriksie: {url}'
     extendedDescription: Nieoficjalny czat OSM Kerala, połączony z kanałem na Telegramie
@@ -550,6 +582,9 @@ pl:
     description: Wiadomości i zasoby z peruwiańskiej społeczności OpenStreetMap
   OSM-PH-telegram:
     extendedDescription: Przyjazna i bardzo aktywna grupa na Telegramie dla twórców i przyjaciół OpenStreetMap na Filipinach
+  OSM-PL-chapter:
+    name: OpenStreetMap Polska
+    description: Dom Polskiej społeczności OpenStreetMap
   OSM-PL-discord:
     description: Główne miejsce na rozmowy głosowe i czat wśród polskiej społeczności OpenStreetMap
   OSM-PL-github:
@@ -578,6 +613,8 @@ pl:
   OSM-Seattle:
     name: OpenStreetMap Seattle
     description: Mapujący i użytkownicy OpenStreetMap z okolic Seattle
+  osm-sierra-leone:
+    description: Skupiamy się na tworzeniu i używaniu otwartych danych aby rozwiązywać problemy społeczne i ekonomicznie.
   OSM-SoCal:
     name: OpenStreetMap Southern California
     description: Zabaw się, wnieś coś do Los Angeles i naucz się mapować!
@@ -644,6 +681,8 @@ pl:
     description: Wiki dla społeczności i mapujących ze Słowacji
   talk-au:
     description: Miejsce rozmów mapujących z Australii
+  talk-bo:
+    extendedDescription: Mapujesz w Boliwii? Masz pytania lub chcesz dołączyć do naszej społeczności? Wejdź na {url}. Zapraszamy wszystkich!
   talk-mg:
     description: Miejsce rozmów twórców, społeczności i użytkowników OpenStreetMap na Madagaskarze.
   talk-nz:
@@ -781,9 +820,6 @@ pl:
   ym-Institute-of-Crisis-Management-Studies:
     name: YouthMappers na Institute of Crisis Management Studies
     description: Oddział YouthMappers na Institute of Crisis Management Studies
-  ym-Institute-of-Finance-Management:
-    name: IFM mappers
-    description: Oddział YouthMappers w Instytucie Zarządzania Finansami
   ym-Institute-of-Rural-Development-Planning:
     name: Oddział YouthMappers Mipango
     description: YouthMappers na Institute of Rural Development Planning

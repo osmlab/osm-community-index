@@ -1,5 +1,6 @@
 sv:
   _communities:
+    geolibres: GeoLibres
     mappingbotswana: Kartlägg Botswana
     maptimehrva: MaptimeHRVA
     openstreetmap: OpenStreetMap
@@ -281,6 +282,10 @@ sv:
     description: Projekt från gemenskapen för OpenStreetMap Katalanska länder på GitHub
   cat-wiki:
     description: 'Koordinationsplats för OpenStreetMap-gemenskapen i katalanska länder: {url}'
+  cd-chapter:
+    name: OpenStreetMap RDC
+    description: Från en väg till en annan, låt oss kartlägga vårt land...
+    extendedDescription: Vi brinner för OSM-projektet och delar med oss av vår tid för att göra projektet känt för andra. Vi är fortfarande för få, gå med oss!
   Central-Pennsylvania-OSM:
     name: Central Pennsylvania OSM
     description: Online-kartläggningsgemenskap baserat på State College, PA
@@ -300,9 +305,6 @@ sv:
     description: Kartportal, webbplats och kontaktuppgifter för OSM-medlemmar i Tjeckien
   de-berlin-mailinglist:
     name: E-postlista för Berlin
-  de-berlin-meetup:
-    name: OpenStreetMap Berlin-Brandenburg på Meetup
-    description: Kartläggare och OpenStreetMap-användare runt Berlin
   de-berlin-xmpp:
     name: OpenStreetMap Berlin-Brandenburg XMPP
     description: 'Anslut till XMPP fleranvändarchatt: {url}'
@@ -401,6 +403,12 @@ sv:
     description: Vi hjälper till att utöka och förbättra OpenStreetMap på Island.
   it-chapter:
     description: Vi hjälper till att utöka och förbättra OpenStreetMap i Italien.
+  ko-facebook:
+    description: Kartläggare och OpenStreetMap-användare i Korea
+  kosovo-flossk:
+    name: Free Libre Open Source Software Kosova (FLOSSK)
+    description: Promoting FLOSS sedan 2009
+    extendedDescription: Free Libre Open Source Software Kosova (FLOSSK) är en icke-statlig organisation baserad i Prishtina som grundades 2009 för att stödja, främja och utveckla fri programvara och programvara med öppen källkod. Vi bidrar också till öppen och deltagande kunskap, utbildning i informationsteknik genom öppna utbildningsresurser, öppna standarder, kultur och ett öppet samhälle genom fri kommunikation.
   kosovo-matrix:
     description: Semi-officiell publik grupp om allt kring Kosovo (bryggad med den på Telegram). Vi välkomnar alla kartläggare var som helst på vilket språk som helst.
   kosovo-telegram:
@@ -486,8 +494,16 @@ sv:
     name: Open Cleveland
     description: Förbättra OpenStreetMap kring Cleveland
     extendedDescription: Open Geo Cleveland syftar till att vara en resurs för människor att diskutera och dela kunskaper om hur man använder fri geografiska datasamlingar, speciellt OpenStreetMap, och öppen geo-mjukvara som hanterar, redigerar och visar geografiska data och förespråkar för dess användning i nordöstra Ohio. Vi är också en maptime-filial =)
+  osgeo-oceania:
+    name: OSGeo Oceania
+    description: Vi stöder utvecklingen av OpenStreetMap-gemenskap i Oceanien.
+    extendedDescription: OSGeo Oceanias syfte är att stödja och utveckla den öppna geospatiala gemenskap i Oceanien, inklusive övervakning och förvaltning av konferensserien FOSS4G SotM Oceania.
   OSM-AR-forum:
     extendedDescription: Ideal för långa eller viktiga diskussioner. Lång svarstid.
+  OSM-AR-geolibres:
+    name: GeoLibres
+    description: Geolibres Civilföreningen
+    extendedDescription: Vi främjar skapandet och användningen av fritt tillgängliga geografiska data, antagandet av geografiska standarder och användningen av programvara med fri och öppen källkod.
   OSM-AR-irc:
     extendedDescription: Du kan stöta på den mest nördiga användaren i gemenskapen.
   OSM-AR-mailinglist:
@@ -599,6 +615,9 @@ sv:
     description: Nyheter och resurser för OpenStreetMap Peru-gemenskapen
   OSM-PH-telegram:
     extendedDescription: En vänskaplig och mycket aktiv Telegram-grupp för OSM-kartläggare och vänner på Filippinerna för småprat, lätta skämt och snabba frågor och svar.
+  OSM-PL-chapter:
+    name: OpenStreetMap Polen
+    description: Hemmet för den polska OpenStreetMap-gemenskapen
   OSM-PL-discord:
     description: Huvudplats för röstchattar bland polska OpenStreetMap-gemenskapen, aktiva textkanaler
   OSM-PL-github:
@@ -706,7 +725,7 @@ sv:
   ua-github:
     description: OpenStreetMap Ukraina på GitHub
   ua-osm:
-    description: OpenStreetMap webbsida i Ukraine
+    description: OpenStreetMap hemsida i Ukraine
   ua-slack:
     description: Anslut till gemenskapen i OpenStreetMap Ukraina via Slack. Registrera dig på {signupUrl}
   uk-localchapter:
@@ -866,10 +885,6 @@ sv:
     name: Institute of Crisis Management Studies YouthMappers
     description: YouthMappers-filial vid Institute of Crisis Management Studies
     extendedDescription: För att utveckla Crisis Mappers för att hjälpa till vid katastrofsituationer.
-  ym-Institute-of-Finance-Management:
-    name: IFM mappers
-    description: YouthMappers-filial vid Institute of Finance Management
-    extendedDescription: Detta är en ny filial vid institutet och vi ser fram emot att använda vår finansiella utbildning som vi får här på campus och koppla samman med miljön för att utveckla vår hållbara miljö för att hjälpa samhället med effekterna av vår miljö på ekonomiska sätt genom att omvandla dem till siffror. detta förklaras allmänt i ekosystemredovisning och miljökonton
   ym-Institute-of-Rural-Development-Planning:
     name: Mipango YouthMappers-filial
     description: YouthMappers-filial vid Institute of Rural Development Planning
@@ -1242,7 +1257,7 @@ sv:
   ym-University-of-Warwick:
     name: University of Warwick Resilience Mapping Society
     description: YouthMappers-filial vid University of Warwick
-    extendedDescription: Vi är en grupp entusiastiska kartläggare baserat på Warwick University. Vårt mål är att få människor engagerade i humanitär kartläggning och hjälpa dem att förstå vilken inverkan denna aktivitet har på fältet. Vi är nära anpassade till Missing Maps och Doctors Without Borders UK och fokuserar på HOT-uppgifter i våra kartläggningsaktiviteter och workshops. Våra mapathons visas på sidan SMissing Maps när de planeras.
+    extendedDescription: Vi är en grupp entusiastiska kartläggare baserat på Warwick University. Vårt mål är att få människor engagerade i humanitär kartläggning och hjälpa dem att förstå vilken inverkan denna aktivitet har på fältet. Vi är nära anpassade till Missing Maps och Doctors Without Borders UK och fokuserar på HOT-uppgifter i våra kartläggningsaktiviteter och workshops. Våra mapathons visas på sidan Missing Maps när de planeras.
   ym-University-of-Wyoming:
     name: Gamma Theta Upsilon/Geography Club
     description: YouthMappers-filial vid University of Wyoming

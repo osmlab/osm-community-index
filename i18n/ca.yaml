@@ -116,6 +116,7 @@ ca:
     openstreetmapphilippines: OpenStreetMap Filipines
     openstreetmappoland: OpenStreetMap Polònia
     openstreetmapportugal: OpenStreetMap Portugal
+    openstreetmaprdc: OpenStreetMap RDC
     openstreetmapreunion: OpenStreetMap Illa de la Reunió
     openstreetmapriograndedosul: OpenStreetMap Rio Grande do Sul
     openstreetmapromania: OpenStreetMap Romania
@@ -154,7 +155,7 @@ ca:
   _defaults:
     aparat:
       name: '{community} a Aparat'
-      description: Subscriviu-vos al nostre canal d'aparat
+      description: Subscriviu-vos al canal d'Aparat
       url: https://aparat.com/{account}
     discord:
       name: 'Discord d''{community}'
@@ -164,7 +165,7 @@ ca:
       name: 'Discourse d''{community}'
     facebook:
       name: '{community} al Facebook'
-      description: Uniu-vos a la nostra comunitat al Facebook
+      description: Uniu-vos a la comunitat al Facebook
       url: https://facebook.com/{account}
     forum:
       name: 'Fòrum d''{community}'
@@ -184,7 +185,7 @@ ca:
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} a LinkedIn'
-      description: Uniu-vos a la nostra comunitat al LinkedIn
+      description: Uniu-vos a la comunitat al LinkedIn
       url: https://linkedin.com/company/{account}
     mailinglist:
       name: 'Llista de correu {account}'
@@ -192,7 +193,7 @@ ca:
       url: https://lists.openstreetmap.org/listinfo/{account}
     matrix:
       name: 'Xat Matrix d''{community}'
-      description: Uniu-vos a la nostra comunitat al xat Matrix
+      description: Uniu-vos a la comunitat al xat Matrix
       url: https://matrix.to/#/{account}:matrix.org
     meetup:
       name: 'Meetup d''{community}'
@@ -208,7 +209,7 @@ ca:
       name: 'Slack d''{community}'
     telegram:
       name: 'Telegram d''{community}'
-      description: Uniu-vos a la nostra comunitat al xat de Telegram
+      description: Uniu-vos a la comunitat al xat de Telegram
       url: https://t.me/{account}
     twitter:
       name: '{community} al Twitter'
@@ -221,8 +222,10 @@ ca:
       name: 'XMPP d''{community}'
     youtube:
       name: '{community} a YouTube'
-      description: Subscriviu-vos al nostre canal de YouTube
+      description: Subscriviu-vos al canal de YouTube
       url: https://www.youtube.com/channel/{account}
+  az-facebook:
+    name: OpenStreetMap Azerbaidjan
   Bay-Area-OpenStreetMappers:
     description: Millora OpenStreetMap a l'Índia
   cape-coast-youthmappers:
@@ -233,16 +236,21 @@ ca:
     description: Projectes de la comunitat dels Països Catalans d'OpenStreetMap a GitHub
   cat-wiki:
     description: 'Espai de coordinació per la comunitat d''OpenStreetMap als Països Catalans: {url}'
+  osgeo-oceania:
+    name: OSGeo Oceania
   OSM-help:
     name: Ajuda d'OpenStreetMap
   OSM-India-facebook:
     description: Millora OpenStreetMap a l'Índia
   OSM-japan-facebook:
     description: Mapador i usuari d'OpenStreetMap a Japó
+  OSM-PL-chapter:
+    name: OpenStreetMap Polònia
   OSM-SoCal:
     name: OpenStreetMap Califòrnia del Sud
     extendedDescription: OpenStreetMap (OSM) Califòrnia del Sud és per a tothom interessat en el mapatge que s'uneixi a treballar amb OpenStreetMap. OpenStreetMap, la Viquipèdia dels mapes, és un mapa de codi obert gratuït del món sent creat per més de 1000000 de voluntaris al voltant del món. Tothom és benvingut. Si no coneixes OpenStreetMap, t'ensenyarem. Si tens una idea d'un projecte de mapatge o fins i tot una excursió de camp que el grup pot fer, genial!
   OSMF:
     name: Fundació OpenStreetMap
+    description: OSMF és una fundació sense ànim de lucre establerta al Regne Unit que dona suport al projecte OpenStreetMap
   PHXGeo-twitter:
     description: Segueix-nos a Twitter a {url}

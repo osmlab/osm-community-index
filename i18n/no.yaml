@@ -1,4 +1,7 @@
 "no":
+  _communities:
+    openstreetmap: OpenStreetMap
+    openstreetmapindia: OpenStreetMap India
   al-maptime-tirana:
     name: Maptime Tirana
     description: Sosiale arrangementer organisert rundt kartlegging - nybegynnere hjertelig velkomne!
@@ -40,9 +43,6 @@
     description: Kar portal, nettside og kontakter på OSM medlemmer i Tsjekkia
   de-berlin-mailinglist:
     name: Berlin e-postliste
-  de-berlin-meetup:
-    name: OpenStreetMap Berlin-Brandenburg Oppmøte
-    description: Kartleggere og OpenStreetMap brukere i Berlin området
   de-mv-mailinglist:
     name: Mecklenburg-Vorpommern E-postliste
   de-ostwestfalen-lippe-mailinglist:
@@ -100,6 +100,7 @@
   no-irc:
     description: Chatterom for kartleggere og OpenStreetMap-brukere, utviklere og entusiaster i Norge
   no-mailinglist:
+    name: ' {community} e-postliste'
     description: E-postliste for kartleggere og OpenStreetMap-brukere, utviklere og entusiaster i Norge
   Nottingham-OSM-pub-meetup:
     name: East Midlands (Nottingham) månedlig pub-oppmøte
@@ -156,6 +157,8 @@
     extendedDescription: FSHM fellesskapmedlemmer deler deres oppdateringer / erfaringer når det gjelder OSM-kartlegging gjennom Riot.im-gruppen. Denne gruppen brukes også til å diskutere ting rundt gratis programvare / maskinvare, teknologi og aktivisme.
   OSM-india-twitter:
     description: 'Vi er bare en tweet unna: {url}'
+  osm-india-website:
+    description: Kartleggere og OpenStreetMap brukere i India
   OSM-japan-facebook:
     description: Kartleggere og OpenStreetMap-brukere i Japan
   OSM-japan-website:
