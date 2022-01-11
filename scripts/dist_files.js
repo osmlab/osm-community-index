@@ -1,5 +1,5 @@
 // External
-import colors from 'colors/safe.js';
+import chalk from 'chalk';
 import fs from 'node:fs';
 import glob from 'glob';
 import JSON5 from 'json5';
@@ -22,8 +22,8 @@ buildAll();
 
 
 function buildAll() {
-  const START = '🏗   ' + colors.yellow('Building dist…');
-  const END = '👍  ' + colors.green('dist built');
+  const START = '🏗   ' + chalk.yellow('Building dist…');
+  const END = '👍  ' + chalk.green('dist built');
 
   console.log('');
   console.log(START);
@@ -73,8 +73,8 @@ function minifySync(inPath, outPath) {
     const minified = JSON.stringify(JSON5.parse(contents));
     fs.writeFileSync(outPath, minified);
   } catch (err) {
-    console.error(colors.red(`Error - ${err.message} minifying:`));
-    console.error('  ' + colors.yellow(inPath));
+    console.error(chalk.red(`Error - ${err.message} minifying:`));
+    console.error('  ' + chalk.yellow(inPath));
     process.exit(1);
   }
 }

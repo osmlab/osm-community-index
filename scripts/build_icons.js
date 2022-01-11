@@ -1,5 +1,5 @@
 // External
-import colors from 'colors/safe.js';
+import chalk from 'chalk';
 import fs from 'node:fs';
 
 import fontawesome from '@fortawesome/fontawesome-svg-core';
@@ -35,8 +35,8 @@ function buildAll() {
     youtube: faYoutube
   };
 
-  const START = '🏗   ' + colors.yellow('Building icons...');
-  const END = '👍  ' + colors.green('icons built');
+  const START = '🏗   ' + chalk.yellow('Building icons...');
+  const END = '👍  ' + chalk.green('icons built');
 
   console.log('');
   console.log(START);
@@ -45,7 +45,7 @@ function buildAll() {
   for (let key in faIconMap) {
     const val = faIconMap[key];
     const file = `dist/img/${key}.svg`;
-    console.log(colors.yellow(file));
+    console.log(chalk.yellow(file));
     fs.writeFileSync(file, fontawesome.icon(val).html);
   }
 
