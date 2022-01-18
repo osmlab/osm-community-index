@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.1.4",
-    "generated": "2022-01-11T16:21:58.296Z",
+    "generated": "2022-01-18T14:34:34.299Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "122966361709b8d06dcff58c7feb77cb"
+    "hash": "954aba437b297178ddbe2fa9873551e9"
   },
   "resources": {
     "af-facebook": {"id": "af-facebook", "type": "facebook", "locationSet": {"include": ["af"]}, "languageCodes": ["en", "fa", "ps"], "order": 3, "strings": {"community": "OpenStreetMap Afghanistan", "url": "https://www.facebook.com/groups/321292812113316/"}, "contacts": [{"name": "Walker Kosmidou-Bradley", "email": "walker.t.bradley@gmail.com"}]},
@@ -160,9 +160,11 @@
     "hr-irc": {"id": "hr-irc", "type": "irc", "account": "osm-hr", "locationSet": {"include": ["hr"]}, "languageCodes": ["hr"], "order": -4, "strings": {"community": "OpenStreetMap Croatia", "description": "Join #{account} on irc.freenode.org (port 6667)", "url": "https://webchat.freenode.net/?url=irc://irc.freenode.net/{account}"}, "contacts": [{"name": "OpenStreetMap Croatia", "email": "info@osm-hr.org"}]},
     "hr-wiki": {"id": "hr-wiki", "type": "wiki", "locationSet": {"include": ["hr"]}, "languageCodes": ["hr"], "order": 1, "strings": {"community": "OpenStreetMap Croatia", "description": "Wikiproject page for Croatia", "url": "https://wiki.openstreetmap.org/wiki/Croatia"}},
     "hu-facebook": {"id": "hu-facebook", "type": "facebook", "account": "osm.hu", "locationSet": {"include": ["hu"]}, "languageCodes": ["hu"], "order": 3, "strings": {"community": "OpenStreetMap Hungary", "url": "https://www.facebook.com/groups/osm.hu"}, "contacts": [{"name": "Ferenc Veres", "email": "info@openstreetmap.hu"}]},
-    "hu-forum": {"id": "hu-forum", "type": "forum", "locationSet": {"include": ["hu"]}, "languageCodes": ["hu"], "order": -2, "strings": {"community": "OpenStreetMap Hungary", "url": "https://groups.google.com/forum/#!forum/openstreetmap-hungary"}, "contacts": [{"name": "Ferenc Veres", "email": "info@openstreetmap.hu"}]},
+    "hu-mailinglist": {"id": "hu-mailinglist", "type": "mailinglist", "account": "talk-hu", "locationSet": {"include": ["hu"]}, "languageCodes": ["hu"], "order": -2, "strings": {"community": "OpenStreetMap Hungary"}, "contacts": [{"name": "Péter Gervai", "email": "grin@grin.hu"}]},
     "hu-matrix": {"id": "hu-matrix", "type": "matrix", "locationSet": {"include": ["hu"]}, "languageCodes": ["en", "hu"], "strings": {"community": "OpenStreetMap Hungary", "extendedDescription": "OpenStreetMap chat on map topics. One of the OSM community support forums.", "url": "https://matrix.to/#/#osm:grin.hu"}, "contacts": [{"name": "Peter 'grin' Gervai", "email": "grin@grin.hu"}]},
     "hu-meetup": {"id": "hu-meetup", "type": "meetup", "account": "OpenStreetMap-Hungary", "locationSet": {"include": ["hu"]}, "languageCodes": ["hu"], "order": 5, "strings": {"community": "OpenStreetMap Hungary", "description": "The platform for organizing meetups in Hungary"}, "contacts": [{"name": "Ferenc Veres", "email": "info@openstreetmap.hu"}]},
+    "hu-mobilizon": {"id": "hu-mobilizon", "type": "forum", "locationSet": {"include": ["hu"]}, "languageCodes": ["hu"], "order": -3, "strings": {"community": "OpenStreetMap Hungary", "name": "{community} on Mobilizon", "description": "Upcoming events for the OpenStreetMap Hungary community", "url": "https://mobilizon.grin.hu/@openstreetmap"}, "contacts": [{"name": "Péter Gervai", "email": "grin@grin.hu"}]},
+    "hu-tm": {"id": "hu-tm", "type": "url", "locationSet": {"include": ["hu"]}, "languageCodes": ["hu"], "order": -1, "strings": {"community": "OpenStreetMap Hungary", "name": "{community} Tasking Manager", "description": "Explore active mapping tasks in Hungary", "url": "https://tm.osm.grin.hu/"}, "contacts": [{"name": "Péter Gervai", "email": "grin@grin.hu"}]},
     "humanitarian-osm-tr-slack": {"id": "humanitarian-osm-tr-slack", "type": "slack", "locationSet": {"include": ["tr"]}, "languageCodes": ["tr"], "strings": {"name": "Humanitarian OpenStreetMap Turkey Slack", "description": "Join the Humanitarian OpenStreetMap Turkey channel on HOTOSM's Slack server at {url}", "url": "https://hotosm.slack.com/archives/C6UKN76E5"}},
     "id-facebook": {"id": "id-facebook", "type": "facebook", "account": "osm.id", "locationSet": {"include": ["id"]}, "order": 1, "strings": {"community": "OpenStreetMap Indonesia", "extendedDescription": "Mapping in Indonesia? Have questions, want to connect with the community here? Join us at {url}. All are welcome!", "url": "https://www.facebook.com/groups/osm.id"}, "contacts": [{"name": "Yantisa Akhadi", "email": "yantisa.akhadi@hotosm.org"}]},
     "id-forum": {"id": "id-forum", "type": "forum", "account": "82", "locationSet": {"include": ["id"]}, "languageCodes": ["en"], "order": 4, "strings": {"community": "OpenStreetMap Indonesia"}},

@@ -1,14 +1,14 @@
 {
-  "id": "hu-mailinglist",
+  "id": "hu-mobilizon",
   "type": "forum",
   "locationSet": {"include": ["hu"]},
   "languageCodes": ["hu"],
   "order": -3,
   "strings": {
-    "community": "OpenStreetMap Hungary on Mobilizon",
+    "community": "OpenStreetMap Hungary",
+    "name": "{community} on Mobilizon",
+    "description": "Upcoming events for the OpenStreetMap Hungary community",
     "url": "https://mobilizon.grin.hu/@openstreetmap"
   },
-  "contacts": [
-    {"name": "Péter Gervai", "email": "grin@grin.hu"}
-  ]
+  "contacts": [{"name": "Péter Gervai", "email": "grin@grin.hu"}]
 }
