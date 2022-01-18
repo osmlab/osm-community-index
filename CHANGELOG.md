@@ -19,6 +19,29 @@ _Breaking changes, which may affect downstream projects, are marked with a_ ⚠�
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.1.5
+##### 2022-Jan-18
+
+* Added:
+  * Talk-pacific mailing list ([#498])
+  * Vietnam Facebook group, mailing list
+  * Czech IRC, Jabber, Matrix and Telegram groups ([#500])
+  * Latvian and Estonian resources ([#499], [#501])
+* Updated:
+  * OSM Hungary resources, forum, and tasking manager ([#502])
+  * Updated Code for San José Slack signup URL
+  * Fix type and other data for OpenStreetMap Piemonte, Italy ([#497])
+  * Updated Ghana channels contacts ([#496])
+
+[#502]: https://github.com/osmlab/osm-community-index/issues/502
+[#501]: https://github.com/osmlab/osm-community-index/issues/501
+[#500]: https://github.com/osmlab/osm-community-index/issues/500
+[#499]: https://github.com/osmlab/osm-community-index/issues/499
+[#498]: https://github.com/osmlab/osm-community-index/issues/498
+[#497]: https://github.com/osmlab/osm-community-index/issues/497
+[#496]: https://github.com/osmlab/osm-community-index/issues/496
+
+
 # 5.1.4
 ##### 2021-Nov-30
 

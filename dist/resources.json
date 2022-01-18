@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "5.1.4",
-    "generated": "2022-01-18T17:34:47.365Z",
+    "version": "5.1.5",
+    "generated": "2022-01-18T20:33:04.451Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "f3da18c4ce9f8a11b94bec3853b98cb6"
+    "hash": "d2732e01d74b4795f7456d6b76213dd4"
   },
   "resources": {
     "af-facebook": {"id": "af-facebook", "type": "facebook", "locationSet": {"include": ["af"]}, "languageCodes": ["en", "fa", "ps"], "order": 3, "strings": {"community": "OpenStreetMap Afghanistan", "url": "https://www.facebook.com/groups/321292812113316/"}, "contacts": [{"name": "Walker Kosmidou-Bradley", "email": "walker.t.bradley@gmail.com"}]},
@@ -218,7 +218,7 @@
     "lu-matrix": {"id": "lu-matrix", "type": "matrix", "account": "#osmlu", "locationSet": {"include": ["lu"]}, "languageCodes": ["de", "en", "fr", "lb"], "order": 10, "strings": {"community": "OpenStreetMap Luxembourg", "description": "Matrix group for the community in Luxembourg. Let's bring the community together!"}, "contacts": [{"name": "OSM Luxembourg", "email": "contact@openstreetmap.lu"}]},
     "lv-forum": {"id": "lv-forum", "type": "forum", "account": "59", "locationSet": {"include": ["lv"]}, "languageCodes": ["en", "lv"], "strings": {"community": "OpenStreetMap Latvia"}},
     "lv-twitter": {"id": "lv-twitter", "type": "twitter", "account": "osmlatvija", "locationSet": {"include": ["lv"]}, "languageCodes": ["en", "lv"], "order": 3, "strings": {"community": "OpenStreetMap Latvia"}},
-    "lv-wiki": {"id": "lv-wiki", "type": "wiki", "locationSet": {"include": ["lv"]}, "languageCodes": ["en", "lv"], "order": 2, "strings": {"community": "OpenStreetMap Latvia", "description": "WikiProject Latvia", "url": "https://wiki.openstrlvtmap.org/wiki/WikiProject_Latvia"}},
+    "lv-wiki": {"id": "lv-wiki", "type": "wiki", "locationSet": {"include": ["lv"]}, "languageCodes": ["en", "lv"], "order": 2, "strings": {"community": "OpenStreetMap Latvia", "description": "WikiProject Latvia", "url": "https://wiki.openstreetmap.org/wiki/WikiProject_Latvia"}},
     "ly-facebook": {"id": "ly-facebook", "type": "facebook", "account": "openstreetmap.libya", "locationSet": {"include": ["ly"]}, "strings": {"community": "OpenStreetMap Libya"}},
     "ma-twitter": {"id": "ma-twitter", "type": "twitter", "account": "osmmaroc", "locationSet": {"include": ["ma"]}, "strings": {"community": "OpenStreetMap Morocco"}},
     "mailinglist-sk-googlegroups": {"id": "mailinglist-sk-googlegroups", "type": "mailinglist", "locationSet": {"include": ["sk"]}, "languageCodes": ["cz", "en", "sk"], "order": -3, "strings": {"community": "OpenStreetMap Freemap Slovakia", "name": "Slovak mailing list on Google Groups", "description": "Official mailing list for Slovak community", "url": "https://groups.google.com/g/osm_sk"}, "contacts": [{"name": "OpenStreetMap Slovakia", "email": "osm_sk@googlegroups.com"}]},
