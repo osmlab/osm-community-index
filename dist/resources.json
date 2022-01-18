@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.1.4",
-    "generated": "2022-01-18T14:34:34.299Z",
+    "generated": "2022-01-18T17:34:47.365Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "954aba437b297178ddbe2fa9873551e9"
+    "hash": "f3da18c4ce9f8a11b94bec3853b98cb6"
   },
   "resources": {
     "af-facebook": {"id": "af-facebook", "type": "facebook", "locationSet": {"include": ["af"]}, "languageCodes": ["en", "fa", "ps"], "order": 3, "strings": {"community": "OpenStreetMap Afghanistan", "url": "https://www.facebook.com/groups/321292812113316/"}, "contacts": [{"name": "Walker Kosmidou-Bradley", "email": "walker.t.bradley@gmail.com"}]},
@@ -495,6 +495,7 @@
     "talk-nl": {"id": "talk-nl", "type": "mailinglist", "account": "talk-nl", "locationSet": {"include": ["nl"]}, "languageCodes": ["nl"], "strings": {"community": "OpenStreetMap Netherlands"}},
     "talk-np": {"id": "talk-np", "type": "mailinglist", "account": "talk-np", "locationSet": {"include": ["np"]}, "strings": {"community": "OpenStreetMap Nepal"}},
     "talk-nz": {"id": "talk-nz", "type": "mailinglist", "account": "talk-nz", "locationSet": {"include": ["nz"]}, "languageCodes": ["en"], "order": -3, "strings": {"description": "New Zealand's OSM community talk"}},
+    "talk-pacific": {"id": "talk-pacific", "type": "mailinglist", "account": "talk-pacific", "locationSet": {"include": ["pacific.geojson"]}, "languageCodes": ["en", "fr", "haw", "mi", "sm", "to", "ty"], "strings": {"description": "The regional OSM mailing list for and by the peoples of the Moana/Oceania/Pacific", "extendedDescription": "We would like this mailing list to support all peoples of the Pacific, in all of our diversity and aspirations, to share thoughts, questions, projects, and everything related to OpenStreetMap in our sea of islands."}},
     "talk-pe": {"id": "talk-pe", "type": "mailinglist", "account": "talk-pe", "locationSet": {"include": ["pe"]}, "languageCodes": ["es"], "order": -3, "strings": {"community": "OpenStreetMap Peru"}, "contacts": [{"name": "Diego Sangunietti", "email": "diego.sanguinetti@hotmail.com"}, {"name": "Ruben Lopez M.", "email": "rub2106@gmail.com"}]},
     "talk-ph": {"id": "talk-ph", "type": "mailinglist", "account": "talk-ph", "locationSet": {"include": ["ph"]}, "languageCodes": ["en", "tl"], "order": 2, "strings": {"community": "OpenStreetMap Philippines"}, "contacts": [{"name": "OSM PH core team", "email": "osm.pilipinas@gmail.com"}]},
     "talk-pt": {"id": "talk-pt", "type": "mailinglist", "account": "talk-pt", "locationSet": {"include": ["pt"]}, "languageCodes": ["pt"], "order": -3, "strings": {"community": "OpenStreetMap Portugal"}, "contacts": [{"name": "Nuno Caldeira", "email": "hello@iamnunocaldeira.com"}]},

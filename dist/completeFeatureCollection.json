@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.1.4",
-    "generated": "2022-01-18T14:35:35.388Z",
+    "generated": "2022-01-18T17:35:31.458Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "93bd01c832aaee15ddb7eec9234a9bc0"
+    "hash": "9ec6cfed7c9fcfd40c5c06974e4c48af"
   },
   "type": "FeatureCollection",
   "features": [
@@ -41580,6 +41580,76 @@
         ]
       },
       "id": "Q664"
+    },
+    {
+      "type": "Feature",
+      "id": "pacific.geojson",
+      "properties": {
+        "id": "pacific.geojson",
+        "area": 204109968.15,
+        "resources": {
+          "talk-pacific": {
+            "id": "talk-pacific",
+            "type": "mailinglist",
+            "account": "talk-pacific",
+            "locationSet": {"include": ["pacific.geojson"]},
+            "languageCodes": ["en", "fr", "haw", "mi", "sm", "to", "ty"],
+            "strings": {
+              "description": "The regional OSM mailing list for and by the peoples of the Moana/Oceania/Pacific",
+              "extendedDescription": "We would like this mailing list to support all peoples of the Pacific, in all of our diversity and aspirations, to share thoughts, questions, projects, and everything related to OpenStreetMap in our sea of islands."
+            },
+            "resolved": {
+              "name": "talk-pacific Mailing List",
+              "url": "https://lists.openstreetmap.org/listinfo/talk-pacific",
+              "description": "The regional OSM mailing list for and by the peoples of the Moana/Oceania/Pacific",
+              "extendedDescription": "We would like this mailing list to support all peoples of the Pacific, in all of our diversity and aspirations, to share thoughts, questions, projects, and everything related to OpenStreetMap in our sea of islands.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-pacific\">talk-pacific Mailing List</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-pacific\">https://lists.openstreetmap.org/listinfo/talk-pacific</a>",
+              "descriptionHTML": "The regional OSM mailing list for and by the peoples of the Moana/Oceania/Pacific",
+              "extendedDescriptionHTML": "We would like this mailing list to support all peoples of the Pacific, in all of our diversity and aspirations, to share thoughts, questions, projects, and everything related to OpenStreetMap in our sea of islands."
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [180, 56],
+              [180, -80],
+              [104.8, -70],
+              [104.8, -6.6],
+              [106.9, -5.2],
+              [108.5, 2],
+              [119, 12],
+              [118, 22],
+              [128.5, 34.3],
+              [138, 40],
+              [140.7, 45],
+              [141.9, 55],
+              [156, 51],
+              [180, 56]
+            ]
+          ],
+          [
+            [
+              [-150, 62],
+              [-134, 59],
+              [-122, 49],
+              [-123, 40],
+              [-111, 25],
+              [-75, 7],
+              [-80, -4],
+              [-69, -19],
+              [-69, -74],
+              [-180, -80],
+              [-180, 56],
+              [-150, 62]
+            ]
+          ]
+        ]
+      }
     },
     {
       "type": "Feature",
