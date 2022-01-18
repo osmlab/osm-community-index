@@ -1,5 +1,7 @@
 fr_FR:
   _communities:
+    mappingbotswana: Cartographier le Botswana
+    openstreetmap: OpenStreetMap
     openstreetmapafghanistan: OpenStreetMap Afghanistan
     openstreetmapafrica: OpenStreetMap Afrique
     openstreetmapalba: OpenStreetMap Écosse
@@ -7,7 +9,9 @@ fr_FR:
     openstreetmapalgeria: OpenStreetMap Algérie
     openstreetmapargentina: OpenStreetMap Argentine
     openstreetmapasia: OpenStreetMap Asie
+    openstreetmapasti: OpenStreetMap Asti
     openstreetmapaustria: OpenStreetMap Autriche
+    openstreetmapbahia: OpenStreetMap Bahia
     openstreetmapbangladesh: OpenStreetMap Bangladesh
     openstreetmapbelarus: OpenStreetMap Biélorussie
     openstreetmapbelgium: OpenStreetMap Belgique
@@ -34,6 +38,7 @@ fr_FR:
     openstreetmapcotedivoire: OpenStreetMap Côte-d’Ivoire
     openstreetmapcroatia: OpenStreetMap Croatie
     openstreetmapcuba: OpenStreetMap Cuba
+    openstreetmapcuneo: OpenStreetMap Coni
     openstreetmapcz: OpenStreetMap Tchéquie
     openstreetmapdenmark: OpenStreetMap Danemark
     openstreetmapdjibouti: OpenStreetMap Djibouti
@@ -47,6 +52,7 @@ fr_FR:
     openstreetmapfrance: OpenStreetMap France
     openstreetmapfreemapslovakia: OpenStreetMap Freemap Slovaquie
     openstreetmapfrenchguiana: OpenStreetMap Guyane française
+    openstreetmapfrenchpolynesia: OpenStreetMap Polynésie française
     openstreetmapgabon: OpenStreetMap Gabon
     openstreetmapgalicia: OpenStreetMap Galicie
     openstreetmapgeorgia: OpenStreetMap Géorgie
@@ -117,6 +123,7 @@ fr_FR:
     openstreetmapparaguay: OpenStreetMap Paraguay
     openstreetmapperu: OpenStreetMap Pérou
     openstreetmapphilippines: OpenStreetMap Philippines
+    openstreetmappiemonte: OpenStreetMap Piémont
     openstreetmappoland: OpenStreetMap Pologne
     openstreetmapportugal: OpenStreetMap Portugal
     openstreetmaprdc: OpenStreetMap République démocratique du Congo
@@ -186,6 +193,10 @@ fr_FR:
       name: '{community} sur IRC'
       description: 'Rejoignez #{account} sur irc.oftc.net (port 6667)'
       url: https://webchat.oftc.net/?channels={account}
+    linkedin:
+      name: '{community} sur LinkedIn'
+      description: Rejoignez notre communauté sur LinkedIn
+      url: https://linkedin.com/company/{account}
     mailinglist:
       name: 'Liste de messagerie {account}'
       description: La liste de messagerie officielle de {community}
@@ -233,6 +244,9 @@ fr_FR:
     name: OpenStreetMap Azerbaïdjan
   Bahia-telegram:
     extendedDescription: Rejoignez la communauté pour en apprendre plus sur OpenStreetMap, posez des questions ou participez à nos rencontres. Tout le monde est bienvenu !
+  Bay-Area-OpenStreetMappers:
+    name: OpenStreetMappers de la région de la baie de San Francisco
+    description: Améliorez OpenStreetMap dans la région de la baie de San Francisco
   be-chapter:
     name: Section locale belge d’OpenStreetMap
     description: Nous aidons à développer à améliorer OpenStreetMap en Belgique
@@ -247,13 +261,14 @@ fr_FR:
     extendedDescription: Les rencontres physiques sont idéales pour rencontrer d’autres cartographes, leur poser des questions et en apprendre beaucoup. Les nouveaux contributeurs sont spécialement les bienvenus !
   bg-wiki:
     description: Page du projet wiki pour la Bulgarie
-  bi-vc-cvl_wiki:
-    description: Cartographes du nord du Piémont
-    extendedDescription: En plus de nos rencontres mensuelles, nous avons un groupe WhatsApp.
   br-telegram:
     extendedDescription: Rejoignez la communauté pour en apprendre plus sur OpenStreetMap, posez des questions ou participez à nos rencontres. Tout le monde est bienvenu !
   cape-coast-youthmappers:
     description: 'Suivez-nous sur Twitter : {url}'
+  cd-chapter:
+    name: OpenStreetMap RDC
+    description: Une rue après l'autre, cartographions notre pays...
+    extendedDescription: Nous sommes des passionés d'OSM donnant de notre temps pour faire connaître le projet aux autres. Nous sommes encore peu, rejoignez nous !
   ch-mailinglist:
     name: Liste de messagerie OpenStreetMap pour la Suisse
     description: Liste de messagerie pour la Suisse
@@ -263,8 +278,8 @@ fr_FR:
     extendedDescription: Rejoignez la communauté pour en apprendre plus sur OpenStreetMap, posez des questions ou participez à nos rencontres. Tout le monde est bienvenu !
   co-facebook:
     extendedDescription: Rejoignez la communauté pour en apprendre plus sur OpenStreetMap. Tout le monde est bienvenu !
-  Code-for-San-Jose-Slack:
-    description: 'Tout le monde est le bienvenu ! Inscrivez-vous sur {signupUrl}, puis rejoignez la chaîne #osm.'
+  de-berlin-mailinglist:
+    name: Liste de diffusion Berlinoise
   DF-telegram:
     extendedDescription: Rejoignez la communauté pour en apprendre plus sur OpenStreetMap, posez des questions ou participez à nos rencontres. Tout le monde est bienvenu !
   fr-35-wiki:
@@ -285,3 +300,5 @@ fr_FR:
     description: Rejoignez osm-fr@chat.jabberfr.org
   Galicia-Xeoinquedos-Twitter:
     description: 'Suivez-nous sur Twitter : {url}'
+  geogeeks_perth_meetup:
+    description: Groupe de rencontre basé à Perth pour les personnes intéressées par la cartographie, les données géospatiales et les logiciels libres. Nous travaillerons sur tout ce qui implique une notion de l'espace.

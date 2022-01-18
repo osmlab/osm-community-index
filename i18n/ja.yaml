@@ -127,6 +127,7 @@ ja:
     openstreetmapparaguay: OpenStreetMap Paraguay
     openstreetmapperu: OpenStreetMap Peru
     openstreetmapphilippines: OpenStreetMap Philippines
+    openstreetmappiemonte: OpenStreetMap Piemonte
     openstreetmappoland: OpenStreetMap Poland
     openstreetmapportugal: OpenStreetMap Portugal
     openstreetmaprdc: OpenStreetMap RDC
@@ -269,9 +270,9 @@ ja:
     extendedDescription: Physical meetups are great to meet other mappers, ask them questions and to learn a lot. Especially new contributors are very welcome!
   bg-wiki:
     description: Wikiproject page for Bulgaria
-  bi-vc-cvl_wiki:
-    description: Mappers of northern Piedmont
-    extendedDescription: In addition to the monthly meetings, we also have a WhatsApp group.
+  bi-vc-cvl-meetup:
+    description: Local group for mappers in Biellese, Vercellese, Canavese e Valli di Lanzo
+    extendedDescription: Meeting since February 2018, usually in Biella or Ivrea.
   br-telegram:
     extendedDescription: Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!
   cape-coast-youthmappers:
@@ -300,7 +301,6 @@ ja:
     extendedDescription: Join the community to learn more about OpenStreetMap. Everyone is welcome!
   Code-for-San-Jose-Slack:
     name: Code for San Jose Slack
-    description: 'All are welcome! Sign up at {signupUrl}, then join the #osm channel.'
   czech-community:
     description: Map portal, website and contacts on OSM members in Czechia
   de-berlin-mailinglist:
@@ -671,6 +671,11 @@ ja:
   OSM-US:
     description: We help grow and improve OpenStreetMap in the United States.
     extendedDescription: 'We support OpenStreetMap by holding annual conferences, providing community resources, building partnerships, and by spreading the word. Join OpenStreetMap US here: {signupUrl}'
+    events:
+      sotmus2022:
+        name: State of the Map US 2022
+        description: Join the OpenStreetMap community at State of the Map US in Tucson, Arizona. Connect with other mappers, businesses, government agencies, and non profits, all collaborating around the free and editable map of the world. Share your vision for the project, learn how to work with OpenStreetMap data, and hack on the latest mapping improvements.
+        where: Tucson, Arizona
   OSM-US-Slack:
     description: All are welcome! Sign up at {signupUrl}
   OSM-Utah:

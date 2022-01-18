@@ -51,6 +51,7 @@ es:
     openstreetmapegypt: OpenStreetMap Egipto
     openstreetmaperitrea: OpenStreetMap Eritrea
     openstreetmapespana: OpenStreetMap España
+    openstreetmapestonia: OpenStreetMap Estonia
     openstreetmapethiopia: OpenStreetMap Etiopía
     openstreetmapfinland: OpenStreetMap Finlandia
     openstreetmapfrance: OpenStreetMap Francia
@@ -93,6 +94,7 @@ es:
     openstreetmapkosovo: OpenStreetMap Kosovo
     openstreetmapkyrgyzstan: OpenStreetMap Kirguistán
     openstreetmaplatinamerica: OpenStreetMap Latinoamérica
+    openstreetmaplatvia: OpenStreetMap Letonia
     openstreetmaplebanon: OpenStreetMap Líbano
     openstreetmaplesotho: OpenStreetMap Lesoto
     openstreetmapliberia: OpenStreetMap Liberia
@@ -127,6 +129,7 @@ es:
     openstreetmapparaguay: OpenStreetMap Paraguay
     openstreetmapperu: OpenStreetMap Perú
     openstreetmapphilippines: OpenStreetMap Filipinas
+    openstreetmappiemonte: OpenStreetMap Piamonte
     openstreetmappoland: OpenStreetMap Polonia
     openstreetmapportugal: OpenStreetMap Portugal
     openstreetmaprdc: OpenStreetMap RDC
@@ -162,6 +165,7 @@ es:
     openstreetmapus: OpenStreetMap EE.UU.
     openstreetmapuzbekistan: OpenStreetMap Uzbekistán
     openstreetmapvenezuela: OpenStreetMap Venezuela
+    openstreetmapvietnam: OpenStreetMap Vietnam
     openstreetmapwesternsahara: OpenStreetMap Sahara Occidental
     openstreetmapzambia: OpenStreetMap Zambia
     openstreetmapzimbabwe: OpenStreetMap Zimbabue
@@ -269,9 +273,9 @@ es:
     extendedDescription: Las reuniones presenciales son geniales para conocer a otros mapeadores, hacerles preguntas y aprender mucho. ¡Son especialmente bienvenidos los nuevos contribuidores!
   bg-wiki:
     description: Página de Wikiproyecto para Bulgaria
-  bi-vc-cvl_wiki:
-    description: Mapeadores del norte de Piamonte
-    extendedDescription: Además de las reuniones mensuales, también tenemos un grupo de WhatsApp.
+  bi-vc-cvl-meetup:
+    description: Grupo local de mapeadores en Biellese, Vercellese, Canavese y Valli di Lanzo
+    extendedDescription: Reunidos desde febrero de 2018, generalmente en Biella o Ivrea.
   br-telegram:
     extendedDescription: Únete a la comunidad para aprender más sobre OpenStreetMap, realizar preguntas o participar en nuestras reuniones. ¡Todos sois bienvenidos!
   cape-coast-youthmappers:
@@ -300,9 +304,17 @@ es:
     extendedDescription: Únete a la comunidad para aprender más sobre OpenStreetMap. ¡Todos sois bienvenidos!
   Code-for-San-Jose-Slack:
     name: Slack de Code for San Jose
-    description: '¡Todos son bienvenidos! Regístrese en {signupUrl}, luego únase al canal #osm channel.'
+    description: '¡Todos son bienvenidos! Regístrese en {signupUrl}, luego únase al canal #proj-osm.'
   czech-community:
     description: Portal de mapas, sitio web y contactos sobre miembros de OSM en Chequia
+  czech-irc:
+    description: Sala OpenStreetMap CZ conectada con Jabber, Matrix y Telegram
+  czech-matrix:
+    description: Sala OpenStreetMap CZ conectada con IRC, Jabber y Telegram
+  czech-telegram:
+    description: Sala OpenStreetMap CZ conectada con IRC, Jabber y Matrix
+  czech-xmpp:
+    description: Sala OpenStreetMap CZ conectada con IRC, Matrix y Telegram
   de-berlin-mailinglist:
     name: Lista de correo de Berlín
   de-berlin-xmpp:
@@ -345,6 +357,8 @@ es:
     description: 'Únase a nuestro chat multiusuario de XMPP: {url}'
   DF-telegram:
     extendedDescription: Únase a la comunidad para obtener más información sobre OpenStreetMap, hacer preguntas o participar en nuestras reuniones. ¡Todos son bienvenidos!
+  ee-wiki:
+    description: Información relacionada con la actividad cartográfica que es específica de Estonia.
   fr-35-wiki:
     name: Página de Wiki OpenStreetMap Rennes
     description: Página wiki del grupo local Rennes OSM
@@ -387,6 +401,12 @@ es:
     extendedDescription: Chat de OpenStreetMap sobre temas del mapa. Uno de los foros de soporte de la comunidad OSM.
   hu-meetup:
     description: La plataforma para organizar encuentros en Hungría
+  hu-mobilizon:
+    name: '{community} en Mobilizon'
+    description: Próximos eventos de la comunidad de OpenStreetMap Hungría
+  hu-tm:
+    name: 'Administrador de tareas de {community}'
+    description: Explore las tareas de mapeo activas en Hungría
   humanitarian-osm-tr-slack:
     name: Slack Humanitario OpenStreetMap Turquía
     description: Únase al canal Humanitario OpenStreetMap Turquía en el servidor Slack de HOTOSM en {url}
@@ -429,6 +449,8 @@ es:
     description: Organización GitHub para la comunidad OSM en Luxemburgo.
   lu-matrix:
     description: Grupo Matrix para la comunidad de Luxemburgo. ¡Juntemos a la comunidad!
+  lv-wiki:
+    description: WikiProyecto Letonia
   mailinglist-sk-googlegroups:
     name: Lista de correo eslovaca en Grupos de Google
     description: Lista de correo oficial para la comunidad eslovaca
@@ -671,6 +693,11 @@ es:
   OSM-US:
     description: Ayudamos a crecer y mejorar OpenStreetMap en los Estados Unidos.
     extendedDescription: 'Apoyamos OpenStreetMap celebrando conferencias anuales, proporcionando recursos comunitarios, creando alianzas y dando a conocer. Únase a OpenStreetMap EE.UU. aquí: {signupUrl}'
+    events:
+      sotmus2022:
+        name: State of the Map US 2022
+        description: Únase a la comunidad de OpenStreetMap en State of the Map US en Tucson, Arizona. Conéctese con otros mapeadores, empresas, agencias gubernamentales y organizaciones sin fines de lucro, todos colaborando en torno al mapa gratuito y editable del mundo. Comparta su visión del proyecto, aprenda a trabajar con los datos de OpenStreetMap y aproveche las últimas mejoras en los mapas.
+        where: Tucson, Arizona
   OSM-US-Slack:
     description: ¡Todos son bienvenidos! Regístrese en {signupUrl}
   OSM-Utah:
@@ -740,6 +767,8 @@ es:
   uy-irc:
     description: 'Únase a #{account} en irc.freenode.org (puerto 6667)'
     extendedDescription: 'Únase a #{account} en irc.freenode.org'
+  vn-mailinglist:
+    description: Lista de correo sobre OpenStreetMap en Vietnam o en vietnamita
   Western-Slope-facebook:
     name: Facebook de Western Slope OSM
     description: Editores y usuarios de OpenStreetMap en Grand Junction, CO

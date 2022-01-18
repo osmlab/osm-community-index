@@ -127,6 +127,7 @@ zh_TW:
     openstreetmapparaguay: 開放街圖巴拉圭
     openstreetmapperu: 開放街圖祕魯
     openstreetmapphilippines: 開放街圖菲律賓
+    openstreetmappiemonte: OpenStreetMap 皮埃蒙特
     openstreetmappoland: 開放街圖波蘭
     openstreetmapportugal: 開放街圖葡萄牙
     openstreetmaprdc: 開放街圖剛果民主共和國
@@ -162,6 +163,7 @@ zh_TW:
     openstreetmapus: 開放街圖美國
     openstreetmapuzbekistan: 開放街圖烏茲別克
     openstreetmapvenezuela: 開放街圖委內瑞拉
+    openstreetmapvietnam: 開放街圖越南
     openstreetmapwesternsahara: 開放街圖西撒哈拉
     openstreetmapzambia: 開放街圖桑比亞
     openstreetmapzimbabwe: 開放街圖辛巴威
@@ -269,9 +271,9 @@ zh_TW:
     extendedDescription: 實體的聚會是與其他圖客碰面的好機會，能夠論論問題，學到很多事情，特別是歡迎新的貢獻者。
   bg-wiki:
     description: 開放街圖維基專案保加利亞頁面
-  bi-vc-cvl_wiki:
-    description: 北皮埃蒙特的圖客
-    extendedDescription: 除了每月的聚會之外，我們還有 WhatsApp 群組。
+  bi-vc-cvl-meetup:
+    description: 比耶拉、韋塞利與Canavese e Valli di Lanzo的本地圖客組織
+    extendedDescription: 從 2018 年 2月開始聚會，通常辦在比耶拉、伊夫雷亞。
   br-telegram:
     extendedDescription: 加入社群以得知更多關於開放街圖的資訊，也可以問問題或是參與我們的會面。每個人都很歡迎加入！
   cape-coast-youthmappers:
@@ -300,7 +302,7 @@ zh_TW:
     extendedDescription: 加入社群學習更多關於開放街圖的事情，歡迎所有人噢！
   Code-for-San-Jose-Slack:
     name: Code for San Jose Slack
-    description: '歡迎所有人加入！在 {signupUrl} 註冊，並加入 #osm 頻道。'
+    description: '歡迎所有人加入！在 {signupUrl} 註冊，並加入 #proj-osm 頻道。'
   czech-community:
     description: 捷克開放街圖成員的地圖入口以及聯繫地方
   de-berlin-mailinglist:
@@ -671,6 +673,11 @@ zh_TW:
   OSM-US:
     description: 我們協助美國的開放街圖成長茁壯並改善它。
     extendedDescription: '我們透過舉辦年度研討會、提供社群資源、建立合作關係以及推廣來支援開放街圖。在此加入開放街圖美國：{signupUrl}'
+    events:
+      sotmus2022:
+        name: State of the Map US 2022
+        description: 參加開放街圖社群在亞利桑那土桑的大會 State of the Map US ，並且與其他圖客、商業公司、政府機構與非營利組織，一直合作來繪製自由可以編輯的全球地圖。來分享你對整個計劃的願景，學習怎麼用開放街圖資料，以及怎麼 hack 最新的畫地圖改進。
+        where: 亞利桑那土桑
   OSM-US-Slack:
     description: 歡迎所有人加入！在 {signupUrl} 註冊
   OSM-Utah:
@@ -740,6 +747,8 @@ zh_TW:
   uy-irc:
     description: '在 irc.freenode.org (port 6667) 上面加入 #{account} '
     extendedDescription: '在 irc.freenode.org 上面加入 #{account} '
+  vn-mailinglist:
+    description: 開放街圖越南或越南語的郵件論壇
   Western-Slope-facebook:
     name: Western Slope OSM Facebook
     description: 在科羅拉多州大章克申的圖客與開放街圖使用者

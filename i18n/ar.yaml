@@ -51,6 +51,7 @@ ar:
     openstreetmapegypt: خريطة الشارع المفتوحة في مصر
     openstreetmaperitrea: خريطة الشارع المفتوحة في إريتريا
     openstreetmapespana: خريطة الشارع المفتوحة في إسبانيا
+    openstreetmapestonia: OpenStreetMap إستونيا
     openstreetmapethiopia: خريطة الشارع المفتوحة في إثيوبيا
     openstreetmapfinland: خريطة الشارع المفتوحة في فنلندا
     openstreetmapfrance: خريطة الشارع المفتوحة في فرنسا
@@ -93,6 +94,7 @@ ar:
     openstreetmapkosovo: خريطة الشارع المفتوحة في كوسوفو
     openstreetmapkyrgyzstan: خريطة الشارع المفتوحة في قيرغيزستان
     openstreetmaplatinamerica: خريطة الشارع المفتوحة في أمريكا اللاتينية
+    openstreetmaplatvia: OpenStreetMap لاتفيا
     openstreetmaplebanon: خريطة الشارع المفتوحة في لبنان
     openstreetmaplesotho: خريطة الشارع المفتوحة في ليسوتو
     openstreetmapliberia: خريطة الشارع المفتوحة في ليبيريا
@@ -127,6 +129,7 @@ ar:
     openstreetmapparaguay: خريطة الشارع المفتوحة في باراغواي
     openstreetmapperu: خريطة الشارع المفتوحة في بيرو
     openstreetmapphilippines: خريطة الشارع المفتوحة في الفلبين
+    openstreetmappiemonte: OpenStreetMap Piemonte
     openstreetmappoland: خريطة الشارع المفتوحة في بولندا
     openstreetmapportugal: خريطة الشارع المفتوحة في البرتغال
     openstreetmaprdc: خريطة الشارع المفتوحة في RDC
@@ -162,6 +165,7 @@ ar:
     openstreetmapus: خريطة الشارع المفتوحة في الولايات المتحدة
     openstreetmapuzbekistan: خريطة الشارع المفتوحة في أوزبكستان
     openstreetmapvenezuela: خريطة الشارع المفتوحة في فنزويلا
+    openstreetmapvietnam: OpenStreetMap فيتنام
     openstreetmapwesternsahara: خريطة الشارع المفتوحة في الصحراء الغربية
     openstreetmapzambia: خريطة الشارع المفتوحة في زامبيا
     openstreetmapzimbabwe: خريطة الشارع المفتوحة في زيمبابوي
@@ -269,9 +273,9 @@ ar:
     extendedDescription: تعتبر اللقاءات المادية رائعة لمقابلة مصممي الخرائط الآخرين وطرح الأسئلة عليهم وتعلم الكثير. نرحب بالمساهمين الجدد خاصة!
   bg-wiki:
     description: صفحة مشروع ويكي لبلغاريا
-  bi-vc-cvl_wiki:
-    description: خرائط شمال بيدمونت
-    extendedDescription: بالإضافة إلى الاجتماعات الشهرية، لدينا أيضا مجموعة WhatsApp.
+  bi-vc-cvl-meetup:
+    description: Local group for mappers in Biellese, Vercellese, Canavese e Valli di Lanzo
+    extendedDescription: Meeting since February 2018, usually in Biella or Ivrea.
   br-telegram:
     extendedDescription: انضم إلى المجتمع لمعرفة المزيد حول OpenStreetMap أو طرح الأسئلة أو المشاركة في اجتماعاتنا. الجميع مرحب به!
   cape-coast-youthmappers:
@@ -300,9 +304,17 @@ ar:
     extendedDescription: انضم إلى المجتمع لمعرفة المزيد حول OpenStreetMap. الجميع مرحب به!
   Code-for-San-Jose-Slack:
     name: رمز لسان خوسيه سلاك
-    description: 'الجميع مرحب بهم! قم بالتسجيل في {signupUrl}، ثم انضم إلى قناة #osm.'
+    description: 'All are welcome! Sign up at {signupUrl}, then join the #proj-osm channel.'
   czech-community:
     description: بوابة الخرائط والموقع الإلكتروني وجهات الاتصال الخاصة بأعضاء OSM في التشيك
+  czech-irc:
+    description: OpenStreetMap CZ room bridged with Jabber, Matrix and Telegram
+  czech-matrix:
+    description: OpenStreetMap CZ room bridged with IRC, Jabber and Telegram
+  czech-telegram:
+    description: OpenStreetMap CZ room bridged with IRC, Jabber and Matrix
+  czech-xmpp:
+    description: OpenStreetMap CZ room bridged with IRC, Matrix and Telegram
   de-berlin-mailinglist:
     name: قائمة بريد برلين
   de-berlin-xmpp:
@@ -345,6 +357,8 @@ ar:
     description: 'انضم إلى دردشة XMPP متعددة المستخدمين: {url}'
   DF-telegram:
     extendedDescription: انضم إلى المجتمع لمعرفة المزيد حول OpenStreetMap أو طرح الأسئلة أو المشاركة في اجتماعاتنا. الجميع مرحب به!
+  ee-wiki:
+    description: Information relating to mapping activity that is specific to Estonia.
   fr-35-wiki:
     name: صفحة أوبن ستريت ماب رين ويكي
     description: صفحة ويكي من مجموعة رين OSM المحلية
@@ -429,6 +443,8 @@ ar:
     description: GitHub منظمة لمجتمع OSM في لوكسمبورغ!
   lu-matrix:
     description: مجموعة ماتريكس للمجتمع في لوكسمبورغ. دعونا نجمع المجتمع معا!
+  lv-wiki:
+    description: WikiProject Latvia
   mailinglist-sk-googlegroups:
     name: قائمة المراسلات السلوفاكية على مجموعات Google
     description: القائمة البريدية الرسمية للمجتمع السلوفاكي
@@ -671,6 +687,11 @@ ar:
   OSM-US:
     description: نحن نساعد في تطوير OpenStreetMap وتحسينه في الولايات المتحدة.
     extendedDescription: 'نحن ندعم OpenStreetMap من خلال عقد مؤتمرات سنوية ، وتوفير موارد المجتمع ، وبناء الشراكات ، ونشر الكلمة. انضم إلى OpenStreetMap US هنا: {signupUrl}'
+    events:
+      sotmus2022:
+        name: 'حالة خريطة الولايات المتحدة 2022 '
+        description: انضم إلى مجتمع خريطة الشارع المفتوحة في حالة خريطة الولايات المتحدة في توكسون ، أريزونا. تواصل مع مصممي الخرائط والشركات والوكالات الحكومية والمؤسسات غير الربحية الأخرى ، حيث يتعاونون جميعًا حول خريطة العالم المجانية والقابلة للتعديل. شارك رؤيتك للمشروع ، وتعرف على كيفية العمل باستخدام بيانات خريطة الشارع المفتوحة  واختراق أحدث تحسينات الخرائط.
+        where: توكسون ، أريزونا
   OSM-US-Slack:
     description: الجميع مرحب بهم! التسجيل في {signupUrl}
   OSM-Utah:
@@ -733,13 +754,15 @@ ar:
     name: خريطة الشارع المفتوحة في لندن على تويتر
     description: 'خريطة الشارع المفتوحة في لندن على تويتر: {url}'
   us-ma-mailinglist:
-    name: الحديث لنا ماساتشوستس القائمة البريدية
+    name: Talk-us ماساتشوستس القائمة البريدية
     description: قائمة البريد الإلكتروني لمجتمع ماساتشوستس OSM
   US-MI-Wiki:
     description: معلومات حول رسم الخرائط في ميشيغان.
   uy-irc:
     description: 'انضم إلى# {account} على irc.freenode.org (المنفذ 6667)'
     extendedDescription: 'انضم إلى #{account} على irc.freenode.org'
+  vn-mailinglist:
+    description: Mailing list about OpenStreetMap in Vietnam or in Vietnamese
   Western-Slope-facebook:
     name: المنحدر الغربي OSM الفيسبوك
     description: خرائط ومستخدمي خريطة الشارع المفتوحة في حول جراند جانكشن، CO

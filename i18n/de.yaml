@@ -51,6 +51,7 @@ de:
     openstreetmapegypt: OpenStreetMap Ägypten
     openstreetmaperitrea: OpenStreetMap Eritrea
     openstreetmapespana: OpenStreetMap Spanien
+    openstreetmapestonia: OpenStreetMap Estland
     openstreetmapethiopia: OpenStreetMap Ethiopien
     openstreetmapfinland: OpenStreetMap Finnland
     openstreetmapfrance: OpenStreetMap Frankreich
@@ -93,6 +94,7 @@ de:
     openstreetmapkosovo: OpenStreetMap Kosovo
     openstreetmapkyrgyzstan: OpenStreetMap Kirgisistan
     openstreetmaplatinamerica: OpenStreetMap Lateinamerika
+    openstreetmaplatvia: OpenStreetMap Litauen
     openstreetmaplebanon: OpenStreetMap Libanon
     openstreetmaplesotho: OpenStreetMap Lesotho
     openstreetmapliberia: OpenStreetMap Liberia
@@ -127,6 +129,7 @@ de:
     openstreetmapparaguay: OpenStreetMap Paraguay
     openstreetmapperu: OpenStreetMap Peru
     openstreetmapphilippines: OpenStreetMap Philippinen
+    openstreetmappiemonte: OpenStreetMap Piemont
     openstreetmappoland: OpenStreetMap Polen
     openstreetmapportugal: OpenStreetMap Portugal
     openstreetmaprdc: OpenStreetMap RDC
@@ -162,6 +165,7 @@ de:
     openstreetmapus: OpenStreetMap USA
     openstreetmapuzbekistan: OpenStreetMap Usbekistan
     openstreetmapvenezuela: OpenStreetMap Venezuela
+    openstreetmapvietnam: OpenStreetMap Vietnam
     openstreetmapwesternsahara: OpenStreetMap Westsahara
     openstreetmapzambia: OpenStreetMap Sambia
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
@@ -269,9 +273,9 @@ de:
     extendedDescription: Du kannst andere Mapper bei persönliche Treffen kennenlernen, mit Ihnen diskutieren und von Ihnen lernen. Neulige sind ausdrücklich willkommen.
   bg-wiki:
     description: Wikiproject Sete für Bulgarien
-  bi-vc-cvl_wiki:
-    description: Mapper des nördlichen Piedmont
-    extendedDescription: Zusätzliche zu den monatlichen Treffen habe wir auch eine WhatsApp Gruppe.
+  bi-vc-cvl-meetup:
+    description: Ortsgruppe für Mapper in Biellese, Vercellese, Canavese und Valli di Lanzo
+    extendedDescription: Treffen seit Februar 2018, meist in Biella oder Ivrea.
   br-telegram:
     extendedDescription: Tritt der Community bei, um mehr über OpenStreetMap zu erfahren, Fragen zu stellen oder an unseren Treffen teilzunehmen. Jeder ist willkommen!
   cape-coast-youthmappers:
@@ -300,9 +304,17 @@ de:
     extendedDescription: Tritt der Community bei, um mehr über OpenStreetMap zu erfahren, Fragen zu stellen oder an unseren Treffen teilzunehmen. Jeder ist willkommen!
   Code-for-San-Jose-Slack:
     name: Coding für San Jose Slack
-    description: 'Alle sind willkommen! Melde dich bei {signupUrl}, dann beteiligte dich am #osm Kanal.'
+    description: 'Alle sind willkommen, melde dich an: {signupUrl} und tritt dem Kanal #proj-osm bei.'
   czech-community:
     description: Mapping Portal, website und Kontaktdaten der  OSM Mitglieder in Tschechien
+  czech-irc:
+    description: OpenStreetMap CZ Raum überbrückt mit Jabber, Matrix und Telegram
+  czech-matrix:
+    description: OpenStreetMap CZ Raum überbrückt mit IRC, Jabber und Telegram
+  czech-telegram:
+    description: OpenStreetMap CZ Raum überbrückt mit IRC, Jabber und Matrix
+  czech-xmpp:
+    description: OpenStreetMap CZ Raum überbrückt mit IRC, Matrix und Telegram
   de-berlin-mailinglist:
     name: Berlin Mailing Liste
   de-berlin-xmpp:
@@ -345,6 +357,8 @@ de:
     description: 'Mach mit bei unserem XMPP Multi-User Chat: {url}'
   DF-telegram:
     extendedDescription: Mach mit, um mehr über OpenStreetMap zu erfahren, Fragen zu stellen oder an unseren Treffen teilzunehmen. Alle sind willkommen!
+  ee-wiki:
+    description: Informationen über die Kartierungsaktivitäten, die speziell für Estland gelten.
   fr-35-wiki:
     name: OpenStreetMap Rennes Wiki page
     description: Wiki Page der lokalen Rennes OSM Gruppe
@@ -387,6 +401,12 @@ de:
     extendedDescription: OpenStreetMap chat über Kartenthemen. Eines der Foren zur Unterstützung der OSM Gemeinschaft.
   hu-meetup:
     description: Die Plattform um Treffen in Ungarn zu organisieren
+  hu-mobilizon:
+    name: '{community} auf Mobilizon'
+    description: Kommende Veranstaltungen für die OpenStreetMap Gemeinschaft in Ungarn
+  hu-tm:
+    name: '{community} Tasking Manager'
+    description: Erkunde aktive Kartierungsaufgaben in Ungarn
   humanitarian-osm-tr-slack:
     name: Humanitarian OpenStreetMap Türkei Slack
     description: Tritt dem Humanitarian OpenStreetMap Turkey-Kanal auf dem Slack-Server von HOTOSM bei {url}
@@ -429,6 +449,8 @@ de:
     description: GitHub Organization für die OSM Gemeinschaft in Luxemburg!
   lu-matrix:
     description: Matrix Gruppe für die Gemeinschaft in in Luxemburg. Lass uns die Gemeinschaft zusammenbringen!
+  lv-wiki:
+    description: WikiProject Litauen
   mailinglist-sk-googlegroups:
     name: Slowakische Mailing Liste auf Google Gruppen
     description: Offizielle Mailing Liste für die slowakische Gemeinschaft
@@ -671,6 +693,11 @@ de:
   OSM-US:
     description: Wir helfen dabei OpenStreetMap in den USA zu verbessern.
     extendedDescription: 'Wir unterstützen OpenStreetMap durch eine jährliche Konferenz, Unterstützung von lokalen OSM-Gruppen, Aufbau von Partnerschaft und durch Verbreitung des Vorteilen von OSM. Beteiligte sich an OpenStreetMap US hier: {signupUrl}'
+    events:
+      sotmus2022:
+        name: State of the Map US 2022
+        description: Schließe dich der OpenStreetMap-Gemeinschaft auf der State of the Map US in Tucson, Arizona, an. Tausche dich mit anderen Kartierern, Unternehmen, Regierungsbehörden und gemeinnützigen Organisationen aus, die alle an der freien und bearbeitbaren Weltkarte mitarbeiten. Teile deine Visionen für das Projekt mit, lerne, wie du mit OpenStreetMap-Daten arbeiten kannst und arbeite an den neuesten Verbesserungen der Kartierung.
+        where: Tucson, Arizona
   OSM-US-Slack:
     description: Alle sind willkommen! Melde dich unter {signupUrl}
   OSM-Utah:
@@ -720,6 +747,9 @@ de:
     description: Ort für OpenStreetMap-Mitwirkende, Communitys und Benutzer in Madagaskar um sich auszutauschen und zu diskutieren.
   talk-nz:
     description: Neuseeland OSM Gemeinschafts-atalk
+  talk-pacific:
+    description: Die regionale OSM-Mailingliste für und von den Menschen in Moana/Ozeanien/Pazifik
+    extendedDescription: Wir möchten, dass diese Mailingliste alle Menschen des Pazifiks in all ihrer Vielfalt und ihren Bestrebungen unterstützt, um Gedanken, Fragen, Projekte und alles, was mit OpenStreetMap in unserem Meer von Inseln zu tun hat, auszutauschen.
   ua-github:
     description: OpenStreetMap Ukraine GitHub
   ua-osm:
@@ -740,6 +770,8 @@ de:
   uy-irc:
     description: 'Tritt #{account} auf irc.frreenode.org (port 6667) bei'
     extendedDescription: 'Tritt #{account} auf irc.frreenode.org bei'
+  vn-mailinglist:
+    description: Mailing Liste über OpenStreetMap in Vietnam oder in Vietnamesisch
   Western-Slope-facebook:
     name: Western Slope OSM Facebook
     description: Mapper und OpenStreetMap Benutzer in und um Grand Junction, Colorado, USA

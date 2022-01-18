@@ -51,6 +51,7 @@ sv:
     openstreetmapegypt: OpenStreetMap Egypten
     openstreetmaperitrea: OpenStreetMap Eritrea
     openstreetmapespana: OpenStreetMap Spanien
+    openstreetmapestonia: OpenStreetMap Estland
     openstreetmapethiopia: OpenStreetMap Etiopien
     openstreetmapfinland: OpenStreetMap Finland
     openstreetmapfrance: OpenStreetMap Frankrike
@@ -93,6 +94,7 @@ sv:
     openstreetmapkosovo: OpenStreetMap Kosovo
     openstreetmapkyrgyzstan: OpenStreetMap Kirgizistan
     openstreetmaplatinamerica: OpenStreetMap Latinamerika
+    openstreetmaplatvia: OpenStreetMap Lettland
     openstreetmaplebanon: OpenStreetMap Libanon
     openstreetmaplesotho: OpenStreetMap Lesotho
     openstreetmapliberia: OpenStreetMap Liberia
@@ -127,6 +129,7 @@ sv:
     openstreetmapparaguay: OpenStreetMap Paraguay
     openstreetmapperu: OpenStreetMap Peru
     openstreetmapphilippines: OpenStreetMap Filippinerna
+    openstreetmappiemonte: OpenStreetMap Piemonte
     openstreetmappoland: OpenStreetMap Polen
     openstreetmapportugal: OpenStreetMap Portugal
     openstreetmaprdc: OpenStreetMap Kongo-Kinshasa
@@ -162,6 +165,7 @@ sv:
     openstreetmapus: OpenStreetMap US
     openstreetmapuzbekistan: OpenStreetMap Uzbekistan
     openstreetmapvenezuela: OpenStreetMap Venezuela
+    openstreetmapvietnam: OpenStreetMap Vietnam
     openstreetmapwesternsahara: OpenStreetMap Västsahara
     openstreetmapzambia: OpenStreetMap Zambia
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
@@ -269,9 +273,9 @@ sv:
     extendedDescription: Fysiska träffar är ett bra sätt att träffa andra kartläggare, ställa frågor till dem och lära dig jättemycket. Speciellt nya bidragsgivare är varmt välkomna!
   bg-wiki:
     description: Wikiproject-sida för Bulgarien
-  bi-vc-cvl_wiki:
-    description: Kartläggare för norra Piedmont
-    extendedDescription: Utöver möten varje månad, har vi en WhatsApp-grupp
+  bi-vc-cvl-meetup:
+    description: Lokal grupp för kartläggare i Biellese, Vercellese, Canavese och Valli di Lanzo
+    extendedDescription: Möten sedan februari 2018, vanligtvis i Biella eller Ivrea.
   br-telegram:
     extendedDescription: Anslut till gemenskapen för att lära dig mer om OpenStreetMap, ställa frågor eller delta på våra möten. Alla är välkomna!
   cape-coast-youthmappers:
@@ -300,9 +304,17 @@ sv:
     extendedDescription: Anslut till gemenskapen för att lära dig mer om OpenStreetMap. Alla är välkomna!
   Code-for-San-Jose-Slack:
     name: Kod för San Jose på Slack
-    description: 'Alla är välkomna! Registrera dig på {signupUrl} och anslut sedan till #osm-kanalen.'
+    description: 'Alla är välkomna! Registrera dig på {signupUrl} och anslut sedan till kanalen #proj-osm'
   czech-community:
     description: Kartportal, webbplats och kontaktuppgifter för OSM-medlemmar i Tjeckien
+  czech-irc:
+    description: Rummet OpenStreetMap CZ bryggar med Jabber, Matrix och Telegram
+  czech-matrix:
+    description: Rummet OpenStreetMap CZ bryggar med IRC, Jabber och Telegram
+  czech-telegram:
+    description: Rummet OpenStreetMap CZ bryggar med IRC, Jabber och Matrix
+  czech-xmpp:
+    description: Rummet OpenStreetMap CZ bryggar med IRC, Matrix och Telegram
   de-berlin-mailinglist:
     name: E-postlista för Berlin
   de-berlin-xmpp:
@@ -345,6 +357,8 @@ sv:
     description: 'Anslut till XMPP fleranvändarchatt: {url}'
   DF-telegram:
     extendedDescription: Anslut till gemenskapen för att lära dig mer om OpenStreetMap, ställa frågor eller delta på våra möten. Alla är välkomna!
+  ee-wiki:
+    description: Information relaterad till kartläggning som är specifik för Estland.
   fr-35-wiki:
     name: Wiki-sida för OpenStreetMap Rennes
     description: Wiki-sida för Renes lokala OSM-grupp
@@ -429,6 +443,8 @@ sv:
     description: GitHub-organisation för OpenStreetMap-gemenskapen i Luxemburg!
   lu-matrix:
     description: Matrix-grupp för gemenskapen i Luxembourg. Låt oss föra gemenskapen samman!
+  lv-wiki:
+    description: WikiProject Lettland
   mailinglist-sk-googlegroups:
     name: Slovakisk e-postlista på Google Groups
     description: Officiell e-postlista för Slovakians gemenskap
@@ -673,6 +689,11 @@ sv:
   OSM-US:
     description: Vi hjälper till att utöka och förbättra OpenStreetMap i USA.
     extendedDescription: 'Vi stöder OpenStreetMap genom att ha årliga konferencier, tillhandahåller resurser för gemenskapen, bygger nätverk och genom att sprida ordet. Gå med i OpenStreetMap USA här: {signupUrl}'
+    events:
+      sotmus2022:
+        name: State of the Map US 2022
+        description: Träffa OpenStreetMap-gemenskapen vid State of the Map US i Tucson, Arizona. Nätverka med andra kartläggare, företag, myndigheter och ideella organisationer, alla samlade kring den fria och redigerbara världskartan. Dela med dig av din vision för projektet, lär dig hur du arbetar med OpenStreetMap-data och jobba med de senaste kartförbättringarna.
+        where: Tucson, Arizona
   OSM-US-Slack:
     description: Alla är välkomna! Registrera dig på {signupUrl}
   OSM-Utah:
@@ -742,6 +763,8 @@ sv:
   uy-irc:
     description: 'Anslut #{account} på irc.freenode.org (port 6667)'
     extendedDescription: 'Anslut #{account} på irc.freenode.org'
+  vn-mailinglist:
+    description: E-postlista om OpenStreetMap i Vietnam eller på vietnamesiska
   Western-Slope-facebook:
     name: 'OSM-Facebook för Western Slope '
     description: Kartläggare och OpenStreetMap-användare runt Grand Junction, Colorado

@@ -51,6 +51,7 @@ vi:
     openstreetmapegypt: OpenStreetMap Ai Cập
     openstreetmaperitrea: OpenStreetMap Eritrea
     openstreetmapespana: OpenStreetMap Tây Ban Nha
+    openstreetmapestonia: OpenStreetMap Estonia
     openstreetmapethiopia: OpenStreetMap Ethiopia
     openstreetmapfinland: OpenStreetMap Phần Lan
     openstreetmapfrance: OpenStreetMap Pháp
@@ -93,6 +94,7 @@ vi:
     openstreetmapkosovo: OpenStreetMap Kosovo
     openstreetmapkyrgyzstan: OpenStreetMap Kyrgyzstan
     openstreetmaplatinamerica: OpenStreetMap Mỹ Latinh
+    openstreetmaplatvia: OpenStreetMap Latvia
     openstreetmaplebanon: OpenStreetMap Liban
     openstreetmaplesotho: OpenStreetMap Lesotho
     openstreetmapliberia: OpenStreetMap Liberia
@@ -127,6 +129,7 @@ vi:
     openstreetmapparaguay: OpenStreetMap Paraguay
     openstreetmapperu: OpenStreetMap Peru
     openstreetmapphilippines: OpenStreetMap Philippines
+    openstreetmappiemonte: OpenStreetMap Piemonte
     openstreetmappoland: OpenStreetMap Ba Lan
     openstreetmapportugal: OpenStreetMap Bồ Đào Nha
     openstreetmaprdc: OpenStreetMap CHDC Congo
@@ -162,6 +165,7 @@ vi:
     openstreetmapus: OpenStreetMap Hoa Kỳ
     openstreetmapuzbekistan: OpenStreetMap Uzbekistan
     openstreetmapvenezuela: OpenStreetMap Venezuela
+    openstreetmapvietnam: OpenStreetMap Việt Nam
     openstreetmapwesternsahara: OpenStreetMap Tây Sahara
     openstreetmapzambia: OpenStreetMap Zambia
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
@@ -265,8 +269,9 @@ vi:
     description: Họp mặt dành cho mọi người quan tâm đến OpenStreetMap
   bg-wiki:
     description: Trang dự án wiki Bulgaria
-  bi-vc-cvl_wiki:
-    description: Nhóm lập bản đồ miền bắc Piemonte
+  bi-vc-cvl-meetup:
+    description: Nhóm địa phương dành cho người lập bản đồ tại Biellese, Vercellese, Canavese, và các thung lũng Lanzo
+    extendedDescription: Họp mặt từ tháng 2 năm 2018, thường tại Biella hoặc Ivrea.
   br-telegram:
     extendedDescription: Mời mọi người tham gia cộng đồng để tìm hiểu thêm về OpenStreetMap, hỏi đáp, và tham dự các cuộc họp mặt của chúng ta.
   cape-coast-youthmappers:
@@ -293,9 +298,17 @@ vi:
     extendedDescription: Mời mọi người tham gia cộng đồng để tìm hiểu thêm về OpenStreetMap. Mời mọi người tham gia!
   Code-for-San-Jose-Slack:
     name: Slack Code for San Jose
-    description: 'Mời bạn tham gia tại {signupUrl}, rồi tham gia kênh #osm.'
+    description: 'Mời bạn tham gia tại {signupUrl}, rồi tham gia kênh #proj-osm.'
   czech-community:
     description: Trang bản đồ và thông tin liên lạc với thành viên OSM tại Séc
+  czech-irc:
+    description: Phòng OpenStreetMap Séc được liên kết với Jabber, Matrix, và Telegram
+  czech-matrix:
+    description: Phòng OpenStreetMap Séc được liên kết với IRC, Jabber, và Telegram
+  czech-telegram:
+    description: Phòng OpenStreetMap Séc được liên kết với IRC, Jabber, và Matrix
+  czech-xmpp:
+    description: Phòng OpenStreetMap Séc được liên kết với IRC, Matrix, và Telegram
   de-berlin-mailinglist:
     name: Danh sách thư Berlin
   de-berlin-xmpp:
@@ -337,6 +350,8 @@ vi:
     description: 'Tham gia phòng trò chuyện nhiều người dùng XMPP của chúng ta: {url}'
   DF-telegram:
     extendedDescription: Mời mọi người tham gia cộng đồng để tìm hiểu thêm về OpenStreetMap, hỏi đáp, và tham dự các cuộc họp mặt của chúng ta.
+  ee-wiki:
+    description: Thông tin về hoạt động lập bản đồ về Estonia nói riêng.
   fr-35-wiki:
     name: Trang Wiki OpenStreetMap Rennes
     description: Trang wiki của nhóm địa phương OSM tại Rennes
@@ -408,6 +423,8 @@ vi:
     description: Tổ chức GitHub của cộng đồng OpenStreetMap Luxembourg
   lu-matrix:
     description: Nhóm Matrix dành cho cộng đồng tại Luxembourg. Mời mọi người tham gia!
+  lv-wiki:
+    description: Dự án Wiki Latvia
   mailinglist-sk-googlegroups:
     name: Danh sách thứ Slovakia tại Google Nhóm
     description: Danh sách thư chính thức của cộng đồng OSM tại Slovakia
@@ -627,6 +644,11 @@ vi:
   OSM-US:
     description: Chúng ta giúp phát triển và cải thiện OpenStreetMap tại Hoa Kỳ.
     extendedDescription: 'Chúng ta giúp OpenStreetMap bằng cách tổ chức các hội nghị hàng năm, cung cấp tài nguyên cộng đồng, tạo quan hệ đối tác, và truyền bá dự án. Mời tham gia OpenStreetMap Hoa Kỳ tại đây: {signupUrl}'
+    events:
+      sotmus2022:
+        name: Trạng thái Bản đồ Hoa Kỳ 2022
+        description: Hãy tham dự hội nghị State of the Map Hoa Kỳ tại Tucson, Arizona, cùng với cộng đồng OpenStreetMap. Gặp gỡ với những người đóng góp khác, kinh doanh, và tổ chức phi lợi nhuận đều cộng tác xây dựng bản đồ thế giới mở có thể sửa đổi. Hãy chia sẻ các ước mơ về dự án này, tìm hiểu cách sử dụng dữ liệu OpenStreetMap, và phát hiện các quan niệm mới về bản đồ.
+        where: Tucson, Arizona
   OSM-US-Slack:
     description: Mời bạn tham gia tại {signupUrl}
   OSM-Utah:
@@ -695,6 +717,8 @@ vi:
   uy-irc:
     description: 'Hãy tham gia #{account} tại irc.oftc.net (cổng 6667)'
     extendedDescription: 'Hãy tham gia #{account} tại irc.oftc.net'
+  vn-mailinglist:
+    description: Danh sách thư về OpenStreetMap tại Việt Nam hoặc trong tiếng Việt
   Western-Slope-facebook:
     name: Facebook OSM Sườn Tây
     description: Những người lập bản đồ và người dùng OpenStreetMap ở vùng Grand Junction, Colorado

@@ -1,6 +1,8 @@
 cs:
   _communities:
+    geolibres: GeoLibres
     mappingbotswana: Mapování Botswany
+    maptimehrva: MaptimeHRVA
     openstreetmap: OpenStreetMap
     openstreetmapafghanistan: OpenStreetMap Afghánistán
     openstreetmapafrica: OpenStreetMap Afrika
@@ -36,6 +38,7 @@ cs:
     openstreetmapchina: OpenStreetMap Čína
     openstreetmapcolombia: OpenStreetMap Kolumbie
     openstreetmapcostarica: OpenStreetMap Kostarika
+    openstreetmapcotedivoire: OpenStreetMap Pobřeží Slonoviny
     openstreetmapcroatia: OpenStreetMap Chorvatsko
     openstreetmapcuba: OpenStreetMap Kuba
     openstreetmapcuneo: OpenStreetMap Cuneo
@@ -48,6 +51,7 @@ cs:
     openstreetmapegypt: OpenStreetMap Egypt
     openstreetmaperitrea: OpenStreetMap Eritrea
     openstreetmapespana: OpenStreetMap Španělsko
+    openstreetmapestonia: OpenStreetMap Estonsko
     openstreetmapethiopia: OpenStreetMap Etiopie
     openstreetmapfinland: OpenStreetMap Finsko
     openstreetmapfrance: OpenStreetMap Francie
@@ -76,7 +80,9 @@ cs:
     openstreetmapireland: OpenStreetMap Irsko
     openstreetmapisrael: OpenStreetMap Izrael
     openstreetmapitaly: OpenStreetMap Itálie
+    openstreetmapitalylazio: OpenStreetMap Itálie-Lazio
     openstreetmapitalylombardia: OpenStreetMap Itálie-Lombardie
+    openstreetmapitalypiemonte: OpenStreetMap Itálie-Piemont
     openstreetmapitalysouthtyrol: OpenStreetMap Itálie-Jižní Tyrolsko
     openstreetmapitalytrentino: OpenStreetMap Itálie-Trentino
     openstreetmapjapan: OpenStreetMap Japonsko
@@ -88,6 +94,7 @@ cs:
     openstreetmapkosovo: OpenStreetMap Kosovo
     openstreetmapkyrgyzstan: OpenStreetMap Kyrgyzstán
     openstreetmaplatinamerica: OpenStreetMap Latinská Amerika
+    openstreetmaplatvia: OpenStreetMap Lotyšsko
     openstreetmaplebanon: OpenStreetMap Libanon
     openstreetmaplesotho: OpenStreetMap Lesotho
     openstreetmapliberia: OpenStreetMap Libérie
@@ -122,9 +129,11 @@ cs:
     openstreetmapparaguay: OpenStreetMap Paraguay
     openstreetmapperu: OpenStreetMap Peru
     openstreetmapphilippines: OpenStreetMap Filipíny
+    openstreetmappiemonte: OpenStreetMap Piemont
     openstreetmappoland: OpenStreetMap Polsko
     openstreetmapportugal: OpenStreetMap Portugalsko
     openstreetmaprdc: OpenStreetMap RDC
+    openstreetmapreunion: OpenStreetMap Réunion
     openstreetmapriograndedosul: OpenStreetMap Rio Grande do Sul
     openstreetmapromania: OpenStreetMap Rumunsko
     openstreetmaprussia: OpenStreetMap Rusko
@@ -156,10 +165,15 @@ cs:
     openstreetmapus: OpenStreetMap US
     openstreetmapuzbekistan: OpenStreetMap Uzbekistán
     openstreetmapvenezuela: OpenStreetMap Venezuela
+    openstreetmapvietnam: OpenStreetMap Vietnam
     openstreetmapwesternsahara: OpenStreetMap Západní Sahara
     openstreetmapzambia: OpenStreetMap Zambie
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
   _defaults:
+    aparat:
+      name: '{community} na Aparatu'
+      description: Odebírejte náš kanál na Aparatu
+      url: https://aparat.com/{account}
     discord:
       name: '{community} Discord'
       url: https://discord.gg/{account}
@@ -230,7 +244,6 @@ cs:
     description: Online mapovací komunita založená mimo State College, PA
   Code-for-San-Jose-Slack:
     name: Kód pro San Jose Slack
-    description: 'Všichni jsou vítáni! Zaregistrujte se na adrese {signupUrl} a připojte se k kanálu #osm.'
   czech-community:
     description: Mapový portál, webové stránky a kontakty na členy OSM v Česku
   de-berlin-mailinglist:
