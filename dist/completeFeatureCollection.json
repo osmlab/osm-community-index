@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.1.4",
-    "generated": "2022-01-11T16:22:07.600Z",
+    "generated": "2022-01-18T14:35:35.388Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "9ad97236644289ca956e7697bc466c26"
+    "hash": "93bd01c832aaee15ddb7eec9234a9bc0"
   },
   "type": "FeatureCollection",
   "features": [
@@ -15818,26 +15818,22 @@
               "descriptionHTML": "Join our community on Facebook"
             }
           },
-          "hu-forum": {
-            "id": "hu-forum",
-            "type": "forum",
+          "hu-mailinglist": {
+            "id": "hu-mailinglist",
+            "type": "mailinglist",
+            "account": "talk-hu",
             "locationSet": {"include": ["hu"]},
             "languageCodes": ["hu"],
             "order": -2,
-            "strings": {
-              "community": "OpenStreetMap Hungary",
-              "url": "https://groups.google.com/forum/#!forum/openstreetmap-hungary"
-            },
-            "contacts": [
-              {"name": "Ferenc Veres", "email": "info@openstreetmap.hu"}
-            ],
+            "strings": {"community": "OpenStreetMap Hungary"},
+            "contacts": [{"name": "Péter Gervai", "email": "grin@grin.hu"}],
             "resolved": {
-              "name": "OpenStreetMap Hungary Forum",
-              "url": "https://groups.google.com/forum/#!forum/openstreetmap-hungary",
-              "description": "The official forum for OpenStreetMap Hungary",
-              "nameHTML": "<a target=\"_blank\" href=\"https://groups.google.com/forum/#!forum/openstreetmap-hungary\">OpenStreetMap Hungary Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://groups.google.com/forum/#!forum/openstreetmap-hungary\">https://groups.google.com/forum/#!forum/openstreetmap-hungary</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Hungary"
+              "name": "talk-hu Mailing List",
+              "url": "https://lists.openstreetmap.org/listinfo/talk-hu",
+              "description": "The official mailing list for OpenStreetMap Hungary",
+              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-hu\">talk-hu Mailing List</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-hu\">https://lists.openstreetmap.org/listinfo/talk-hu</a>",
+              "descriptionHTML": "The official mailing list for OpenStreetMap Hungary"
             }
           },
           "hu-matrix": {
@@ -15885,6 +15881,50 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/OpenStreetMap-Hungary\">OpenStreetMap Hungary Meetup</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/OpenStreetMap-Hungary\">https://meetup.com/OpenStreetMap-Hungary</a>",
               "descriptionHTML": "The platform for organizing meetups in Hungary"
+            }
+          },
+          "hu-mobilizon": {
+            "id": "hu-mobilizon",
+            "type": "forum",
+            "locationSet": {"include": ["hu"]},
+            "languageCodes": ["hu"],
+            "order": -3,
+            "strings": {
+              "community": "OpenStreetMap Hungary",
+              "name": "{community} on Mobilizon",
+              "description": "Upcoming events for the OpenStreetMap Hungary community",
+              "url": "https://mobilizon.grin.hu/@openstreetmap"
+            },
+            "contacts": [{"name": "Péter Gervai", "email": "grin@grin.hu"}],
+            "resolved": {
+              "name": "OpenStreetMap Hungary on Mobilizon",
+              "url": "https://mobilizon.grin.hu/@openstreetmap",
+              "description": "Upcoming events for the OpenStreetMap Hungary community",
+              "nameHTML": "<a target=\"_blank\" href=\"https://mobilizon.grin.hu/@openstreetmap\">OpenStreetMap Hungary on Mobilizon</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://mobilizon.grin.hu/@openstreetmap\">https://mobilizon.grin.hu/@openstreetmap</a>",
+              "descriptionHTML": "Upcoming events for the OpenStreetMap Hungary community"
+            }
+          },
+          "hu-tm": {
+            "id": "hu-tm",
+            "type": "url",
+            "locationSet": {"include": ["hu"]},
+            "languageCodes": ["hu"],
+            "order": -1,
+            "strings": {
+              "community": "OpenStreetMap Hungary",
+              "name": "{community} Tasking Manager",
+              "description": "Explore active mapping tasks in Hungary",
+              "url": "https://tm.osm.grin.hu/"
+            },
+            "contacts": [{"name": "Péter Gervai", "email": "grin@grin.hu"}],
+            "resolved": {
+              "name": "OpenStreetMap Hungary Tasking Manager",
+              "url": "https://tm.osm.grin.hu/",
+              "description": "Explore active mapping tasks in Hungary",
+              "nameHTML": "<a target=\"_blank\" href=\"https://tm.osm.grin.hu/\">OpenStreetMap Hungary Tasking Manager</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://tm.osm.grin.hu/\">https://tm.osm.grin.hu/</a>",
+              "descriptionHTML": "Explore active mapping tasks in Hungary"
             }
           }
         }
