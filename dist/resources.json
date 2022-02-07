@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.1.5",
-    "generated": "2022-01-18T20:33:04.451Z",
+    "generated": "2022-02-07T06:53:28.392Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "d2732e01d74b4795f7456d6b76213dd4"
+    "hash": "ef4b865d85e8984c6d87626431d4284c"
   },
   "resources": {
     "af-facebook": {"id": "af-facebook", "type": "facebook", "locationSet": {"include": ["af"]}, "languageCodes": ["en", "fa", "ps"], "order": 3, "strings": {"community": "OpenStreetMap Afghanistan", "url": "https://www.facebook.com/groups/321292812113316/"}, "contacts": [{"name": "Walker Kosmidou-Bradley", "email": "walker.t.bradley@gmail.com"}]},
@@ -255,7 +255,7 @@
     "ne-facebook": {"id": "ne-facebook", "type": "facebook", "account": "mappingforniger", "locationSet": {"include": ["ne"]}, "strings": {"community": "OpenStreetMap Niger"}},
     "ne-twitter": {"id": "ne-twitter", "type": "twitter", "account": "OSMNiger", "locationSet": {"include": ["ne"]}, "strings": {"community": "OpenStreetMap Niger"}},
     "ng-facebook": {"id": "ng-facebook", "type": "facebook", "account": "OSMNigeria", "locationSet": {"include": ["ng"]}, "strings": {"community": "OpenStreetMap Nigeria"}},
-    "ng-twitter": {"id": "ng-twitter", "type": "twitter", "account": "OSMNiger", "locationSet": {"include": ["ng"]}, "strings": {"community": "OpenStreetMap Nigeria"}},
+    "ng-twitter": {"id": "ng-twitter", "type": "twitter", "account": "OSMNigeria", "locationSet": {"include": ["ng"]}, "strings": {"community": "OpenStreetMap Nigeria"}},
     "ni-facebook": {"id": "ni-facebook", "type": "facebook", "account": "mapanica", "locationSet": {"include": ["ni"]}, "languageCodes": ["es"], "order": 3, "strings": {"community": "OpenStreetMap Nicaragua"}},
     "ni-telegram": {"id": "ni-telegram", "type": "telegram", "account": "mapanica", "locationSet": {"include": ["ni"]}, "languageCodes": ["es"], "strings": {"community": "OpenStreetMap Nicaragua"}},
     "ni-twitter": {"id": "ni-twitter", "type": "twitter", "account": "osm_ni", "locationSet": {"include": ["ni"]}, "languageCodes": ["es"], "strings": {"community": "OpenStreetMap Nicaragua"}},
