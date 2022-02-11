@@ -39,7 +39,7 @@ We're always looking for help!
 - See [the project wiki](https://github.com/osmlab/osm-community-index/wiki) for info about how to contribute to this index.
 
 If you have any questions or want to reach out to a maintainer, ping
-[@bhousel][@bhousel] or [@awiseman][@awiseman] on:
+[@bhousel][@bhousel] or [@aawiseman][@aawiseman] on:
 - [OpenStreetMap US Slack](https://slack.openstreetmap.us/) (`#general` channel)
 
 [@bhousel]: https://github.com/bhousel
