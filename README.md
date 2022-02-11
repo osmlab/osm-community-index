@@ -43,7 +43,7 @@ If you have any questions or want to reach out to a maintainer, ping
 - [OpenStreetMap US Slack](https://slack.openstreetmap.us/) (`#general` channel)
 
 [@bhousel]: https://github.com/bhousel
-[@awiseman]: https://github.com/awiseman
+[@aawiseman]: https://github.com/aawiseman
 
 
 ## License
