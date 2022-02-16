@@ -19,6 +19,23 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.1.6
+##### 2022-Feb-16
+
+Added:
+  * MapABQ Albuquerque/New Mexico Meetup ([#505], [#506])
+  * Resources and features for Spanish regions ([#503])
+Updated:
+  * Chiang Mai Meetup URL ([#507])
+  * Fix OSM Nigeria Twitter account ([#504])
+
+[#503]: https://github.com/osmlab/osm-community-index/issues/503
+[#504]: https://github.com/osmlab/osm-community-index/issues/504
+[#505]: https://github.com/osmlab/osm-community-index/issues/505
+[#506]: https://github.com/osmlab/osm-community-index/issues/506
+[#507]: https://github.com/osmlab/osm-community-index/issues/507
+
+
 # 5.1.5
 ##### 2022-Jan-18
 
