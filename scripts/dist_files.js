@@ -12,9 +12,9 @@ import { resolveStrings } from '../lib/resolve_strings.js';
 import { writeFileWithMeta } from '../lib/write_file_with_meta.js';
 
 // JSON
-import featureCollectionJSON from '../dist/featureCollection.json';
-import resourcesJSON from '../dist/resources.json';
-import defaultsJSON from '../defaults.json';
+import featureCollectionJSON from '../dist/featureCollection.json' assert {type: 'json'};
+import resourcesJSON from '../dist/resources.json' assert {type: 'json'};
+import defaultsJSON from '../defaults.json' assert {type: 'json'};
 const resources = resourcesJSON.resources;
 const defaults = defaultsJSON.defaults;
 
