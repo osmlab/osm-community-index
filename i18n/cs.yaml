@@ -68,7 +68,7 @@ cs:
     openstreetmapguatemala: OpenStreetMap Guatemala
     openstreetmapguinea: OpenStreetMap Guinea
     openstreetmaphaiti: OpenStreetMap Haiti
-    openstreetmaphamburg: OpenStreetMap Hamburg
+    openstreetmaphamburg: OpenStreetMap Hamburk
     openstreetmaphonduras: OpenStreetMap Honduras
     openstreetmaphongkong: OpenStreetMap Hong Kong
     openstreetmaphungary: OpenStreetMap Maďarsko
@@ -176,30 +176,44 @@ cs:
       url: https://aparat.com/{account}
     discord:
       name: '{community} Discord'
+      description: Zůstaňte ve spojení s ostatními mapovači na Discordu
       url: https://discord.gg/{account}
+    discourse:
+      name: '{community} Discourse'
     facebook:
       name: '{community} na Facebooku'
       description: Přidejte se k naší komunitě na Facebooku.
       url: https://facebook.com/{account}
     forum:
       name: '{community} fórum'
+      description: Oficiální diskuzní fórum komunity {community}
       url: https://forum.openstreetmap.org/viewforum.php?id={account}
     github:
       name: '{community} GitHub'
       url: https://github.com/{account}
     gitlab:
+      name: '{community} GitLab'
       url: https://gitlab.com/{account}
     group:
       name: '{community}'
     irc:
+      name: '{community} na IRC'
+      description: 'Připojte se k #{account} na irc.oftc.net (port 6667)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
+      name: '{community} na webu LinkedIn'
+      description: Připojte se k naší komunitě na webu LinkedIn
       url: https://linkedin.com/company/{account}
     mailinglist:
+      name: '{account} mailová konference'
+      description: Oficiální mailová konference komunity {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
     matrix:
+      name: '{community} Matrix Chat'
+      description: Připojte se k chatu naší komunity na Matrixu
       url: https://matrix.to/#/{account}:matrix.org
     meetup:
+      name: '{community} Meetup'
       url: https://meetup.com/{account}
     osm:
       name: '{community}'
@@ -208,8 +222,12 @@ cs:
     reddit:
       name: '{community} na Redditu'
       url: https://www.reddit.com/r/{account}
+    slack:
+      name: '{community} Slack'
     telegram:
+      name: '{community} Telegram'
       description: Přidejte se ke komunitnímu chatu na Telegramu
+      url: https://t.me/{account}
     twitter:
       name: '{community} na Twitteru'
       description: Sledujte nás na Twitteru
@@ -217,9 +235,20 @@ cs:
     wiki:
       name: '{community} wikiprojekt'
       url: https://wiki.openstreetmap.org/wiki/{account}
+    xmpp:
+      name: '{community} XMPP'
     youtube:
       name: '{community} na YouTube'
       description: Přihlaste se k odběru našeho YouTube kanálu
+      url: https://www.youtube.com/channel/{account}
+  af-matrix:
+    description: Skupina na Matrixu pro komunitu v Afganistánu.
+  al-maptime-tirana:
+    name: Maptime Tirana
+    description: Sociální události pořádané ohledně mapování - začátečníci jsou obzvlášť vítáni!
+    extendedDescription: Maptime je svobodné vzdělávací prostředí pro všechny úrovně a stupně znalostí a nabízí záměrnou vzdělávací podporu pro začátečníky. Maptime je zároveň flexibilní a strukturovaný a vytváří prostor pro tutoriály mapování, workshopy, probíhající projekty se společným cílem a nezávislou/spolupráci pracovní doby.
+  at-matrix:
+    description: Neoficiální německý kanál pro Rakousko na Matrixu
   az-facebook:
     name: OpenStreetMap Ázerbájdžán
   Bahia-telegram:
@@ -228,48 +257,220 @@ cs:
     name: Bay Area OpenStreetMappers
     description: Vylepšete OpenStreetMap v Bay Area
     extendedDescription: Tato skupina se věnuje rozvoji komunity OpenStreetMap zde v oblasti Bay Area. Naše akce jsou přístupné všem, od nadšenců s otevřeným zdrojovým kódem, cyklistů, profesionálů GIS, geocachers a dalších. Kdokoli a každý, kdo má zájem o mapy, tvorbu map a otevřená mapová data, je vítán, aby se připojil k naší skupině a účastnil se našich akcí.
+  bd-facebook:
+    extendedDescription: Mapujete v Bangladéši? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {url}. Všichni jsou vítáni!
+  be-chapter:
+    name: Místní sekce OpenStreetMap Belgie
+    description: Pomáháme OpenStreetMap v Belgii růst a zlepšovat se.
+    extendedDescription: Pokud chcete pomoci zlepšovat a rozšířit mapovací komunitu v Belgii aby se ještě více lidí zbláznilo do mapování, OpenStreetMap Belgie je to správné místo pro vás!
+  be-irc:
+    extendedDescription: 'Připojte se k #{account} na irc.oftc.net (port 6667), který je propojen s chatovacím kanálem na Matrixu'
   be-matrix:
-    description: Všichni mappeři jsou vítáni!
+    description: Všichni mapovači jsou vítáni!
     extendedDescription: Nejvíce diskusí probíhá na kanále „OpenStreetMap Belgium“, kde se můžete na cokoliv zeptat. Ostatní místnosti jsou určeny pro konkrétní témata.
+  be-meetup:
+    description: Reálná setkání všech, kteří se zajímají o OpenStreetMap
+    extendedDescription: Fyzická setkání jsou skvělá na setkání s ostatními mapovači, pokládání dotazů s cílem se hodně toho naučit. Zejména noví přispěvatelé jsou vítáni!
   bg-wiki:
     description: Stránka wikiprojektu pro Bulharsko
+  bi-vc-cvl-meetup:
+    description: Lokální skupina mapovačů v Bielli, Vercellii, Canavese a Valli di Lanzo
+    extendedDescription: Setkání od února 2018, obvykle in Bielli nebo Ivrei.
+  br-telegram:
+    extendedDescription: Připojte se ke komunitě a dozvíte se více o OpenStreetMap, můžete klást otázky nebo se účastnit našich setkání. Každý je vítán!
   cape-coast-youthmappers:
-    name: YouthMappers univerzity v Cape Coast
+    name: YouthMappers Univerzity v Cape Coast
     description: 'Sledujte nás na Twitteru: {url}'
+    extendedDescription: Tohle je oficiální rukojeť pro sekci YouthMappers na University of Cape Coast v Ghaně. Milujeme mapy, otevřená data a pomoc zranitelným.
+  cat-github:
+    description: Projekty z komunity OpenStreetMap Katalánské země na GitHubu
+  cat-wiki:
+    description: 'Koordinační prostor pro komunitu OpenStreetMap kolem katalánských zemí: {url}'
   cd-chapter:
     name: OpenStreetMap RDC
     description: Z jedné ulice na další, pojďme zmapovat celou zemi...
+    extendedDescription: Jsme nadšeni projektem OSM, sdílíme nějaký čas, abychom o projektu informovali ostatní. Stále je nás tak málo, připojte se k nám!
   Central-Pennsylvania-OSM:
     name: OSM Střední Pensylvánie
     description: Online mapovací komunita založená mimo State College, PA
+  ch-mailinglist:
+    name: Švýcarská mailová konference OpenStreetMap
+    description: Mailová konference pro Švýcarsko
+  cl-facebook:
+    extendedDescription: Připojte se ke komunitě a dozvíte se více o OpenStreetMap, můžete klást otázky nebo se účastnit našich setkání. Každý je vítán!
+  cl-telegram:
+    extendedDescription: Připojte se ke komunitě a dozvíte se více o OpenStreetMap, můžete klást otázky nebo se účastnit našich setkání. Každý je vítán!
+  co-facebook:
+    extendedDescription: Připojte se ke komunitě a dozvíte se více o OpenStreetMap. Každý je vítán!
   Code-for-San-Jose-Slack:
     name: Kód pro San Jose Slack
+    description: 'Všichni jsou vítáni! Zaregistrujte se na adrese {signupUrl} a připojte se k kanálu #proj-osm.'
   czech-community:
     description: Mapový portál, webové stránky a kontakty na členy OSM v Česku
+  czech-irc:
+    description: Místnost OpenStreetMap CZ propojena s Jabberem, Matrixem a Telegramem
+  czech-matrix:
+    description: Místnost OpenStreetMap CZ propojena s IRC, Jabberem a Telegramem
+  czech-telegram:
+    description: Místnost OpenStreetMap CZ propojena s IRC, Jabberem a Matrixem
+  czech-xmpp:
+    description: Místnost OpenStreetMap CZ propojena s IRC, Matrixem a Telegramem
   de-berlin-mailinglist:
     name: Berlínská mailová konference
+  de-berlin-xmpp:
+    name: OpenStreetMap Berlín-Branborsko XMPP
+    description: 'Připojte se k naší XMPP víceuživatelskému chatu: {url}'
+  de-bremen-mailinglist:
+    name: Brémská mailová konference
+  de-hamburg-xmpp:
+    name: OpenStreetMap Hamburk XMPP
+    description: 'Připojte se k naší XMPP víceuživatelskému chatu: {url}'
+  de-karlsruhe-mailinglist:
+    name: Karlsruhská mailová konference
+  de-karlsruhe-meetup:
+    description: Mapovači a uživatelé OpenStreetMap na území Karlsruhe
+  de-mv-mailinglist:
+    name: Mailová konference Meklenburska-Předního Pomořanska
+  de-ostwestfalen-lippe-mailinglist:
+    name: OWL Mailing List
+    description: Tohle je mailová konference pro Ostwestfalen-Lippe OSM komunitu
+  de-stuttgart-mailinglist:
+    name: Štíhradská a Bádensko-Württembergská mailová konference
+    description: Tohle je mailová konference pro komunitu OSM Štíhradu a Bádensko-Württembergu
+  de-stuttgart-meetup:
+    name: OpenStreetMap Štíhrad Meetup
+    description: Mapovači a uživatelé OpenStreetMap na území Štíhradu
+  de-telegram:
+    name: OpenStreetMap D-A-CH Telegram
+    description: Připojte se k superskupině OpenStreetMap D-A-CH na Telegramu na {url}
+  de-ulm_neuulm-meetup:
+    name: OpenStreetMap Ulm Nový Ulm Meetup
+    description: Mapovači a uživatelé OpenStreetMap na území Ulmu a Nového Ulmu
+  de-ulmeralb-meetup:
+    name: OpenStreetMap Ulmer Alb Meetup
+    description: Mapovači a uživatelé OpenStreetMap na území Ulmer Alb
+  de-viersen-meetup:
+    name: OpenStreetMap Viersen Meetup
+    description: Komunita OSM a uživatelé setkání Kreis Virsen a Mönchengladbachu
+  de-xmpp:
+    name: OpenStreetMap DE XMPP
+    description: 'Připojte se k naší XMPP víceuživatelskému chatu: {url}'
   DF-telegram:
     extendedDescription: Připojte se ke komunitě a dozvíte se více o OpenStreetMap, můžete klást otázky nebo se účastnit našich setkání. Každý je vítán!
+  ee-wiki:
+    description: Informace týkající se mapování, které je specifické pro Estonsko.
+  fr-35-wiki:
+    name: Wiki stránka OpenStreetMap Rennes
+    description: Wiki stránka lokální skupiny Rennes OSM
+  fr-38-wiki:
+    name: Wiki stránka OpenStreetMap Grenoble
+    description: Wiki stránka lokální skupiny Grenoble OSM
+  fr-bzh-website:
+    description: Mapa, který je v bretonštině
+  fr-chapter:
+    description: Pomáháme OpenStreetMap ve Francii růst a zlepšovat se.
+  fr-matrix:
+    description: 'Skupina pro francouzskou komunity OSM na Matrixu: {url} (propojené s Telegramem)'
+  fr-telegram:
+    description: 'Skupina francouzské OSM komunity na Telegramu: {url}'
+  fr-xmpp:
+    description: Připojte se k osm-fr@chat.jabberfr.org
+  galicia-wiki:
+    description: 'Vše, co potřebujete vědět o mapování v Galicii: {url}'
   Galicia-Xeoinquedos-Twitter:
     name: Xeoinquedos na Twitteru
     description: Sledujte nás na Twitteru na {url}
+  gb-irc:
+    extendedDescription: 'Připojte se k #{account} na irc.oftc.net (port 6667), buďte prosím trpěliví a počkejte pár minut, pokud položíte otázku'
+  gb-mailinglist:
+    description: 'Talk-gb je hlavní komunikační fórum OSM komunity ve Velké Británii (kromě Severního Irska) '
+  geogeeks_perth_meetup:
+    name: GeoGeeks Perth Meetup
+    description: Setkání založená v Perthu pro lidi se zájmem o mapování, geoprostorová data a otevřené zdroje. Budeme pracovat na čemkoliv, co zahrnuje smysl pro místo.
   GeoPhilly:
     name: GeoPhilly
-    description: Seznamte se s nadšenci mapování v oblasti Philadelphie
+    description: Seznamte se s nadšenci mapování na území Filadelfie
     extendedDescription: GeoPhilly spojuje vývojáře, geografy, geology dat, nadšence s otevřeným zdrojovým kódem, občanské hackery a mapové šílence do naší společné lásky k mapám a k příběhům, které vyprávějí. Pokud používáte mapy jako součást své práce, nebo se chcete dozvědět více, toto je setkání právě pro vás! Cílem našich akcí je být otevřený, přátelský, vzdělávající se a společenský v rozsahu od šťastných hodin přes bleskové rozhovory nebo dokonce workshopy. Pojďte s námi vytvořit rozmanitou a inspirující geoprostorovou komunitu ve Filadelfii!
+  gr-matrix:
+    name: OpenStreetMap Řecko Matrix
+  hr-irc:
+    description: 'Připojte se k #{account} na irc.freenode.org (port 6667)'
   hr-wiki:
     description: Stránka wikiprojektu pro Chorvatsko
+  hu-matrix:
+    extendedDescription: Chat OpenStreetMap na mapová témata. Jedna z fór podpory komunity OSM.
+  hu-meetup:
+    description: Platforma pro organizování setkání v Maďarsku
+  hu-mobilizon:
+    name: '{community} na Mobilizonu'
+    description: Nadcházející události pro maďarskou komunitu OpenStreetMap
+  hu-tm:
+    name: '{community} Správce úloh'
+    description: Prozkoumejte aktivní mapovací úlohy v Maďarsku
+  humanitarian-osm-tr-slack:
+    name: Humanitární OpenStreetMap Turecko Slack
+    description: Připojte se k Humanitárnímu tureckému kanálu OpenStreetMap na HOTOSM Slack serveru na {url}
+  id-facebook:
+    extendedDescription: Mapujete v Indonésii? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {url}. Všichni jsou vítáni!
+  ireland-chapter:
+    description: Pomáháme OpenStreetMap v Irsku růst a zlepšovat se.
+    extendedDescription: OpenStreetMap Irsko poskytuje hlas obhájce pro projekty OpentreetMap na ostrově Irska kromě interakce s jinými otevřenými iniciativami.
+  ireland-irc:
+    extendedDescription: 'Připojte se k #{account} na irc.oftc.net (port 6667), buďte prosím trpěliví a počkejte pár minut, pokud položíte otázku'
+  ireland-matrix:
+    description: 'Brána Matrix pro IRC kanál OSM Irska: {url}'
+  is-chapter:
+    description: Pomáháme OpenStreetMap na Islandu růst a zlepšovat se.
+  it-chapter:
+    description: Pomáháme OpenStreetMap v Itálii růst a zlepšovat se.
+  ko-facebook:
+    description: Mapovači a uživatelé OpenStreetMap v Koreji
+  kosovo-flossk:
+    name: Free Libre Open Source Software Kosova (FLOSSK)
+    description: Propagace FLOSS od roku 2009
+    extendedDescription: Free Libre Open Source Software Kosova (FLOSSK) je nevládní organizace založená v Prištině v roce 2009 s cílem podpořit, propagovat a vyvíjet volné a otevřené zdroje softwaru. Kromě toho také přispíváme k otevřeným a participativním znalostem, vzdělávání v informačních technologií prostřednictvím otevřeného výukového softwaru a otevřených standardů, kultury a otevřené společnosti využívající svobodnou komunikaci.
+  kosovo-matrix:
+    description: Polooficiální celokosovská veřejná skupina (propojená s tím v Telegramu). Uvítáme všechny mapovače odkudkoli v jakémkoli jazyce.
+  kosovo-telegram:
+    description: Polooficiální celokosovská veřejná skupina na Telegramu. Uvítáme všechny mapovače odkudkoli v jakémkoli jazyce.
+  latam-facebook:
+    description: Mapovači OpenStreetMap na Facebooku v Latinské Americe
+  latam-matrix:
+    description: Chatujte si s ostatními členy latinskoamerické komunity OSM, který je propojen s chatem na Telegramu
+  latam-telegram:
+    description: Chatujte si s ostatními členy latinskoamerické komunity OSM, který je propojen s chatem na Matrixu
+  latam-wiki:
+    description: Vše, co potřebujete vědět o mapování v Latinské Americe
+  lk-facebook:
+    extendedDescription: Mapujete na Srí Lance? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {url}. Všichni jsou vítáni!
+  local-polynesie-mailinglist:
+    extendedDescription: Pokud se chcete informovat a dozvědět se o akcích komunity OSM, hledejte odpovědi na otázky, koordinaci a všeho, co může komunita OSM říci. Všichni jsou vítáni!
+  lu-github:
+    description: Organizace GitHub pro OSM komunitu v Lucembursku!
+  lu-matrix:
+    description: Skupina na Matrixu pro komunitu v Lucembursku. Pojďme dát komunitu dohromady!
+  lv-wiki:
+    description: WikiProjekt Lotyšsko
   mailinglist-sk-googlegroups:
+    name: Slovenská mailová konference ve Skupinách Google
     description: Oficiální mailová konference slovenské komunity
+  map-kibera:
+    name: Map Kibera Trust
+    description: Map Kibera je registrovaná organizace pracující v Keni
+    extendedDescription: Posláním organizace Map Kibera Trust je zvýšit vliv a zastoupení marginalizovaných komunit prostřednictvím kreativního využití digitálních nástrojů pro akci.
   MapColabora-mailinglist:
     name: Mapeado Colaborativo / Geoinquietos Zaragoza
-    description: Mapeado Colaborativo / Geoinquietos Zaragoza Mailing list
+    description: Mapeado Colaborativo / Geoinquietos Zaragoza mailová konference
   MapColabora-meetup:
     name: Mapeado Colaborativo / Geoinquietos Zaragoza
     description: Mapeado Colaborativo / Geoinquietos Zaragoza Meetup page
   MapColabora-twitter:
     name: Mapeado Colaborativo / Geoinquietos Zaragoza
     description: Kooperativní mapování / Twitter účet Geoinquietos Zaragoza
+  mappa-mercia-group:
+    name: Lokální skupina Mappa Mercia
+    description: Milovníci map a OpenStreetMap v Midlands
+    extendedDescription: Mappa Mercia je projekt pro růst OpenStreetMap v Západní Midlands ve Spojeném království. Pořádáme akce pro komunitu, poskytujeme výcvik a podporu lokálních organizacím, kteří chtějí zpřístupnit svoje data.
   MappingDC-meetup:
     name: MappingDC
     description: Vylepšete OpenStreetMap v oblasti DC
@@ -283,19 +484,48 @@ cs:
     extendedDescription: Naučte se shromažďovat data v terénu a digitalizovat je na OpenStreetMap. Není nutné mít předchozí znalosti! Potřebujete pouze touhu účastnit se, učit se a bavit se.
   Maptime-ME-meetup:
     name: MaptimeME
-    description: Mapéři a uživatelé OpenStreetMap, kolem Portlandu, ME
+    description: Mapovači a uživatelé OpenStreetMap, kolem Portlandu, ME
     extendedDescription: Maptime je, doslova, čas pro mapování. Naším posláním je otevírat dveře kartografické možnosti každému, kdo má zájem, vytvořením času a prostoru pro kolaborativní učení, průzkum a tvorbu map pomocí mapovacích nástrojů a technologií.
   Maptime-Oceania-Slack:
     name: Maptime Oceania Slack
     description: Zaregistrujte se na {signupUrl}
+  md-googlegroup:
+    name: '{community} Skupiny Google'
+    description: Připojte se k {community} ve Skupinách Google
+  mm-facebook:
+    extendedDescription: Mapujete v Myanmaru? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {url}. Všichni jsou vítáni!
+  mn-facebook:
+    extendedDescription: Mapujete v Mongolsku? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {url}. Všichni jsou vítáni!
+  mt-irc:
+    extendedDescription: 'Připojte se k #{account} na irc.oftc.net (port 6667), buďte prosím trpěliví a počkejte pár minut, pokud položíte otázku'
+  nl-wonderme:
+    name: '{community} na Wonder.me'
+    description: Virtuální místnost schůzky
+  no-irc:
+    description: Chatovací místnosti pro mapovače a uživatele OpenStreetMap, vývojáře a milovníky v Norsku
+  no-mailinglist:
+    name: '{community} mailová konference'
+    description: Mailová konference pro mapovače a uživatele OpenStreetMap, vývojáře a milovníky v Norsku
   Nottingham-OSM-pub-meetup:
+    name: Měsíční pivo ve Východní Midlands (Nottingham)
+    description: Společenské setkání pro mapovače a uživatele ve Východní Midlands
     extendedDescription: Skupina se schází od března 2011, původně v Nottinghamu, nověji v Derby a čas od času jinde ve East Midlands. Jedná se o společenská setkání, ale jsou vynikajícím místem, kam přijít a zeptat se na konkrétní otázky týkající se OSM buď v této oblasti, nebo obecně. V letních měsících obvykle děláme nějaké lehké mapování na hodinu v blízkosti našeho místa setkání. Skupina jako celek má zvláštní zájem na mapování stezek s veřejným přístupem a čas od času pro tento účel pořádá schůzky.
+  np-facebook:
+    extendedDescription: Mapujete v Nepálu? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {url}. Všichni jsou vítáni!
   OpenCleveland-meetup:
+    name: Open Cleveland
     description: Vylepšete OpenStreetMap na území Clevelandu
+    extendedDescription: Open Geo Cleveland si klade za cíl být zdrojem pro lidi, kteří mohou diskutovat a sdílet znalosti o využívání bezplatných sad geografických dat, zejména OpenStreetMap a otevřeného geoprostorového softwaru, který spravuje, upravuje a zobrazuje geografická data a obhajuje jejich použití v severovýchodním Ohiu. Jsme také maptime sekce =)
   osgeo-oceania:
     name: OSGeo Oceánie
+    description: Podporujeme rozvoj komunity OpenStreetMap v Oceánii.
+    extendedDescription: Účelem OSGeo Oceania je podporovat a rozvíjet otevřenou geoprostorovou komunitu v regionu Oceánie, včetně dohledu a správy série konferencí FOSS4G SotM Oceánie.
   OSM-AR-forum:
     extendedDescription: Ideální pro dlouhé nebo důležité diskuse. Pomalá odezva.
+  OSM-AR-geolibres:
+    name: GeoLibres
+    description: Občanské sdružení Geolibres
+    extendedDescription: Propagujeme tvorbu a použití volně přístupných geografických dat, přijímání geografických standardů a použití volného a otevřeného zdroje dat.
   OSM-AR-irc:
     extendedDescription: Můžete tam najít nejpodivnější uživatele v komunitě.
   OSM-AR-mailinglist:
@@ -306,60 +536,119 @@ cs:
     extendedDescription: Novinky od místní komunity a OpenStreetMap obecně.
   osm-at:
     description: Informační platforma pro OpenStreetMap v Rakousku
+  osm-benin-facebook:
+    description: Vylepšete OpenStreetMap v Beninu
   OSM-Boston:
     name: OpenStreetMap Boston
     description: Mapovači a uživatelé OpenStreetMap na území Bostonu
+    extendedDescription: OpenStreetMap je bezplatná a otevřená mapa světa ve stylu wiki se stovkami tisíc příspěvků každý den od lidí, jako jste vy. Upravování map je jednoduché a zábavné! Připojte se k nám doma i venku v našem úsilí vytvořit nejlepší mapu oblasti Bostonu i celého světa!
   OSM-CA-Slack:
     description: Všichni jsou vítáni! Zaregistrujte se na {signupUrl}.
+  OSM-Central-Salish-Sea:
+    name: OpenStreetMap Central Salish Sea
+    description: Mapovači a uživatelé OpenStreetMap, kolem Mount Vernon, WA
+    extendedDescription: OpenStreetMap je mapa světa vytvořená lidmi, jako jste vy. Je to mapa, kterou stavíte, která je k dispozici zdarma jako wikipedie. Podívejte se na osm.org. Po celou dobu se scházíme, abychom si povídali o mapách, vytvářeli je a bavili se!
   osm-ch:
     description: Informační platforma pro OpenStreetMap ve Švýcarsku
   OSM-Chattanooga:
     name: OSM Chattanooga
     description: Uživatelská skupina OpenStreetMap pro Chatanoogu
+  OSM-CO:
+    description: 'Novinky z kolumbijské komunity OpenStreetMap a nadace OSMCo '
   OSM-Colorado:
     name: OpenStreetMap Colorado
     description: Mapovači a uživatelé OpenStreetMap ve státě Colorado, USA
+    extendedDescription: OpenStreetMap (OSM) Colorado je místní spolupráce lidí, kteří mají zájem přispět svým úsilím vytvářet bezplatné mapy. Vyzýváme všechny naše tvůrce map, aby organizovali nebo navrhovali mapovací události po celém státě. Setkávací aktivity mohou být jednoduché sociální mixy od základní až pokročilá školení OSM nebo strany mapující komunity.
   osm-de:
     description: Informační platforma pro OpenStreetMap v Německu
+  OSM-Discord:
+    name: Světový Discord OpenStreetMap
+  osm-east-africa-forum:
+    name: Východoafrické fórum OpenStreetMap
+    description: Chatujte s ostatními členy Východoafrické komunity OSM
   OSM-Facebook:
     description: Dejte naší facebookové stránce To se mi líbí, aby vám neunikly žádné novinky ze světa OpenStreetMap.
+  osm-gh-facebook:
+    extendedDescription: Mapovači z komunity v Ghaně propagující OpenStreetMap a projekty Humanitárního OpenStreetMap týmu (HOT) v Ghaně. Připojte se k nám.
   OSM-help:
     name: Pomoc s OpenStreetMap
+    description: Pokládejte otázky a získejte na ně odpovědi na komunitním webu OSM pro otázky a odpovědi.
   osm-hr:
     description: Informační platforma pro OpenStreetMap v Chorvatsku
   OSM-India-facebook:
     description: Vylepšete OpenStreetMap v Indii
     extendedDescription: Mapujete v Indii? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {url}. Všichni jsou vítáni!
+  osm-india-github:
+    description: 'Kódujte s námi: {url}'
   OSM-India-Puducherry-Facebook:
     name: Free Software Hardware Movement - Facebook
   OSM-India-Puducherry-Matrix:
     name: Free Software Hardware Movement - Matrix
   OSM-india-twitter:
     description: 'Zrovna jsme vytweetli: {url}'
+  osm-india-website:
+    description: Mapovači a uživatelé OpenStreetMap v Indii
   osm-india-wiki:
     description: 'Vše, co potřebujete vědět o mapování v Indii: {url}'
   OSM-japan-facebook:
     description: Mapovači a uživatelé OpenStreetMap v Japonsku
   OSM-japan-website:
     description: Mapovači a uživatelé OpenStreetMap v Japonsku
+  OSM-Kerala-facebook:
+    description: Vylepšete OpenStreetMap v Kérale
+    extendedDescription: Mapujete v Kérale? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {url}. Všichni jsou vítáni!
+  osm-kerala-github:
+    description: 'Kódujte s námi: {url}'
+  osm-mg-facebook:
+    description: Malgašská facebooková skupina pro lidi zajímající se o OpenStreetMap.
+  osm-ni:
+    name: MapaNica.net
+  OSM-Ottawa-meetup:
+    description: Mapovači a uživatelé OpenStreetMap na území Ottawy
+  OSM-PE:
+    description: Novinky a zdroje pro peruánskou komunitu OpenStreetMap
   OSM-PL-chapter:
     name: OpenStreetMap Polsko
   OSM-Portland:
     name: OpenStreetMap Portland
     description: Mapovači a uživatelé OpenStreetMap na území Portlandu
-    extendedDescription: OpenStreetMap (OSM) je mapa světa vytvořená lidmi, jako jste vy. Je to mapa, kterou stavíte, která je k dispozici zdarma jako wikipedie. Podívejte se na osm.org pro více informací a přijďte se k nám na setkání setkat, abyste si povídali o mapách, přispívali k OSM a bavili se!
+    extendedDescription: OpenStreetMap (OSM) je mapa světa vytvořená lidmi, jako jste vy. Je to mapa, kterou stavíte, která je k dispozici zdarma jako wikipedie. Podívejte se na osm.org pro více informací a připojte se k nám na setkání, abyste si povídali o mapách, přispívali k OSM a bavili se!
+  OSM-Portland-forum:
+    name: OpenStreetMap PDX skupina Google
+    description: Fórum a mailová konference pro mapovače a uživatele OpenStreetMap na území Portlandu
+  OSM-Puducherry-Mailing-List:
+    name: Free Software Hardware Movement - Mailová konference
   OSM-Reddit:
     description: /r/{account} je dobré místo pro získání více informací o OpenStreetMap.  Zeptejte se na cokoliv!
   OSM-Rome-meetup:
+    name: Incontro Mappatori Romani
     description: Vylepšete OpenStreetMap na území Říma
+    extendedDescription: Naším cílem je být zdrojem pro lidi, kteří mohou diskutovat a sdílet znalosti o využívání bezplatných sad geografických dat, zejména OpenStreetMap a otevřeného geoprostorového softwaru, který spravuje, upravuje a zobrazuje geografická data a obhajuje jejich použití v Laziu.
   osm-se:
     name: OpenStreetMap.se
   OSM-Seattle:
+    name: OpenStreetMap Seattle
     description: Mapovači a uživatelé OpenStreetMap na území Seattlu
   OSM-SoCal:
     name: OpenStreetMap Jižní Kalifornie
+  OSM-South-Bay:
+    name: OSM South Bay
   OSM-Tampa-Bay:
+    name: OpenStreetMap Tampa Bay
     description: Mapovači a uživatelé OpenStreetMap na území Tampa Bay
+  osm-td-facebook:
+    description: Vylepšete OpenStreetMap v Čadu
+  OSM-Telegram:
+    description: Připojte se ke globální superskupině OpenStreetMap na Telegramu na {url}
+  OSM-TH-CNX-meetup:
+    name: OSM Meetup Chiang Mai
+    description: Nepravidelná setkání komunity OpenStreetMap ve Chiang Mai
+  OSM-US:
+    description: Pomáháme OpenStreetMap ve Spojených Státech růst a zlepšovat se.
+    events:
+      sotmus2022:
+        name: State of the Map US 2022
+        where: Tucson, Arizona
   OSM-US-Slack:
     description: Všichni jsou vítaní! Přihlaste se na {signupUrl}
   OSM-Utah:
@@ -375,73 +664,457 @@ cs:
     description: Sledujte českou komunitu na Twitteru – včetně přeloženého WeeklyOSM!
   OSMF:
     name: Nadace OpenStreetMap
+  osmgraz-meetup:
+    name: Setkání komunity OSM Štýrský Hradec
+    description: Měsíční setkání komunity OpenStreetMap ve Štýrském Hradci
   PHXGeo-meetup:
     name: PHXGeo Meetup
+    description: Mapovači a uživatelé OpenStreetMap na území Phoenixu v Arizoně
   PHXGeo-twitter:
     name: PHXGeo Twitter
     description: Sledujte nás na Twitteru na {url}
   rs-osm:
     description: Informační platforma pro OpenStreetMap v Srbsku
   RS-telegram:
-    extendedDescription: Připojte se ke komunitě, abyste se dozvěděli více o OpenStreetMap, klást otázky nebo se účastnit našich setkání. Každý je vítán!
+    extendedDescription: Připojte se ke komunitě a dozvíte se více o OpenStreetMap, můžete klást otázky nebo se účastnit našich setkání. Každý je vítán!
   rs-wiki:
     description: Stránka wikiprojektu pro Srbsko
+  sk-freemap:
+    name: Web OpenStreetMap Freemap Slovensko
+  talk-bo:
+    extendedDescription: Mapujete v Bolívii? Máte dotazy, chcete se zde spojit s komunitou? Připojte se k nám na {url}. Všichni jsou vítáni!
   talk-nz:
     description: Diskuse komunity OSM na Novém Zélandu
+  ua-github:
+    description: OpenStreetMap Ukrajina GitHub
+  ua-osm:
+    description: Web OpenStreetMap v Ukrajinštině
+  uk-london-twitter:
+    name: OpenStreetMap Londýn na Twitteru
+    description: 'OpenStreetMap Londýn na Twitteru: {url}'
+  us-ma-mailinglist:
+    description: Tohle je mailová konference pro Massachusettskou OSM komunitu
+  uy-irc:
+    description: 'Připojte se k #{account} na irc.freenode.org (port 6667)'
+    extendedDescription: 'Připojte se k #{account} na irc.freenode.org'
+  Western-Slope-facebook:
+    description: Mapovači a uživatelé OpenStreetMap, kolem Grand Junction, CO
+  Western-Slope-meetup:
+    name: Západní svah OSM Meetup
+    description: Mapovači a uživatelé OpenStreetMap, kolem Grand Junction, CO
+  YerCizenler-TR:
+    name: Yer Çizenler
+    description: Sdružení Yer Çizenler Mapování pro každého
+  ym-AASTU:
+    name: AASTU YouthMappers
+    description: Sekce YouthMappers na Addis Ababa Science a Technology University
+  ym-Abia-State-University:
+    name: AbsuMappersTeam
+    description: Sekce YouthMappers na Abia State University
+  ym-African-Methodist-Episcopal-University:
+    name: YouthMappers-AMEU
+    description: Sekce YouthMappers na Africké metodistické biskupské univerzitě
   ym-Ahmadu-Bello-University:
+    name: ABU Geomappers
+    description: Sekce YouthMappers na Ahmadu Bello University
     extendedDescription: 'Jsme skupina datových humanitárních mapovačů, kteří se věnují poskytování humanitárních služeb při reakci na katastrofy a při zmírňování následků. Jsme rádi, že můžeme přispět svými odbornostmi a znalostmi prostřednictvím mapování a pomoci šířit #OpenEvangelism prostřednictvím školení a spolupráce.'
+  ym-Ardhi-University:
+    name: ARU Mapper
+    description: Sekce YouthMappers na Ardhi University
+  ym-Asian-University-for-Women:
+    name: YouthMappers na AUW
+    description: Sekce YouthMappers na Asian University pro ženy
+  ym-Ball-State-University:
+    name: 'Sekce Gamma Theta Upsilon: Iota Omega'
+    description: Sekce YouthMappers na Ball State University
   ym-Busitema-University:
-    name: Dobří mappeři
+    name: Dobří mapovači
+    description: Sekce YouthMappers na Busitema University
   ym-California-University-of-Pennsylvania:
     name: CalU PA GIS Club
+    description: Sekce YouthMappers na California University of Pennsylvania
+  ym-Central-Washington-University:
+    name: Geografický klub
+    description: Sekce YouthMappers na Central Washington University (USA)
+  ym-Clemson-University:
+    name: Mapovači Clemsonu
+    description: Sekce YouthMappers na Clemson University (JOR)
   ym-College-of-William-and-Mary:
     name: Všechno přes mapu!
+    description: Sekce YouthMappers na College of William and Mary
+  ym-Cornell-University:
+    name: Mapovací společnost
+    description: Sekce YouthMappers na Cornell University
+  ym-CURAT:
+    name: YouthMappers CURAT
+  ym-Cuttington-University:
+    name: YouthMappers Univerzity Cuttington
+    description: Sekce YouthMappers na Cuttington University
   ym-Dedan-Kimathi-University-of-Technology:
     name: GDEV
+    description: Sekce YouthMappers na Technologické univerzitě Dedana Kimathiho
     extendedDescription: GDEV je skupina nadšené skupiny GIS na DeKUT, jejímž cílem je pomáhat studentům sdílet, zapojovat se a učit se jeden od druhého v geoprostorových věcech
+  ym-Dhaka-College:
+    name: YouthMappers Daka College
+    description: Sekce YouthMappers na Dhaka College
   ym-Dhaka-University:
+    name: YouthMappers OpenStreetMap
+    description: Sekce YouthMappers na Dhaka University
     extendedDescription: Je velkým privilegiem pro studenty University of Dhaka mapovat pro humanitární účely. Naše sekce dává studentům příležitost pomáhat lidem a používat mapování pro humanitární účely.
+  ym-Eastern-University:
+    name: YouthMappers na Východní univerzitě
+    description: Sekce YouthMappers na Východní univerzitě
+  ym-Far-Eastern-University-Institute-of-Technology:
+    name: Junior Philippines Computer Society
+    description: Sekce YouthMappers na Univerzitě Dálného východu – technologický institut
+  ym-Federal-School-of-Surveys:
+    name: OyoMappersTeam (OMT) Oyo
+    description: Sekce YouthMappers na Fedeální škole průzkumů
+  ym-Federal-University-of-Technology-Akure:
+    name: YouthMappers Futa Space Club
+    description: Sekce YouthMappers na Federální univerzitě technologie, Akure
+  ym-Fourah-Bay-College:
+    name: Studentská geografická asociace
+    description: Sekce YouthMappers na Fourah Bay College
+  ym-General-Lansana-Conte-University:
+    name: YouthMappers na Univerzitě generála Lansana Conteho
+    description: Sekce YouthMappers na Univerzitě generála Lansana Conteho
+  ym-George-Mason-University:
+    name: Mapovači Masonu
+    description: Sekce YouthMappers na George Mason University
+  ym-Grand-Gedeh-County-Community-College:
+    name: YouthMappers na Grand Gedeh County Community College
+    description: Sekce YouthMappers na Grand Gedeh County Community College
+  ym-Gujarat-University:
+    name: CCIM v Ahmedabadu
+    description: Sekce YouthMappers na Gujarat University
+  ym-Gulu-University:
+    name: CSGU Mappers
+    description: Sekce YouthMappers na Gulu University
+  ym-Heidelberg-University:
+    name: Disastermappers Heidelberg
+    description: Sekce YouthMappers na Heidelberg University
+  ym-Ignatius-Ajuru-University-of-Education:
+    name: IgnatiusMappersTeam (IMT)
+    description: Sekce YouthMappers na Pedagogické univerzitě Ignáce Ajuru
+  ym-Indiana-University-of-Pennsylvania:
+    name: Klub geoprostorových věd
+    description: Sekce YouthMappers na Indiana University of Pennsylvania
+  ym-Insititue-d-Enseignement-Superieur-de-Ruhengeri:
+    name: YouthMappers na INES Ruhengeri
+    description: Sekce YouthMappers na Insititue d' Enseignement Superieur de Ruhengeri
   ym-Institut-Suprieur-de-Management-Kolda:
     name: Les Femmes Leaders de ISM/Kolda
+    description: Sekce YouthMappers na Institut Supérieur de Management Kolda
+  ym-Institute-of-Crisis-Management-Studies:
+    name: Institut studií krizového řízení YouthMappers
+    description: Sekce YouthMappers v Ústavu studií krizového řízení
   ym-Institute-of-Rural-Development-Planning:
-    description: Oddělení YouthMappers v Institutu pro plánování rozvoje venkova
+    name: Sekce YouthMappers Mipango
+    description: Sekce YouthMappers v Institutu pro plánování rozvoje venkova
+  ym-Institute-of-Rural-Development-Planning-Mwanza:
+    name: Sekce YouthMappers v Institutu pro plánování rozvoje venkova - Lake Zone Centre
+    description: Sekce YouthMappers v Institutu pro plánování rozvoje venkova Mwanza
+  ym-Institute-of-Science-and-Veterinary-Medicine:
+    name: YouthMappers ISSMV Dalaba
+    description: Sekce YouthMappers v Ústavu vědy a veterinárního lékařství
+  ym-Istanbul-Technical-University:
+    name: YouthMappers ITU
+    description: Sekce YouthMappers na Istanbulské technické univerzitě
+  ym-Jacksonville-State-University:
+    name: Tým pro mapování katastrof JSU
+    description: Sekce YouthMappers na Jacksonville State University
+  ym-Jahangirnagar-University:
+    name: YouthMappers na IRS, Jahangirnagar University
+    description: Sekce YouthMappers na Jahangirnagar University
+  ym-Jomo-Kenyatta-University-of-Agriculture-and-Technology:
+    name: Sdružení studentů inženýrství geomatiky
+    description: Sekce YouthMappers na Zemědělské a technologické univerzitě Jomo Kenyatta
+  ym-Kansas-State-University:
+    name: 'Sekce Gamma Theta Upsilon: Beta Psi'
+    description: Sekce YouthMappers na Kansas State University
   ym-Karatina-University:
-    extendedDescription: Tato kapitola si klade za cíl shromáždit všechny nadšence GIS. Patří mezi ně odborníci na životní prostředí, odborníci na zvěř a rostlinstvo, vodní a turističtí průvodci. Jejím hlavním cílem je poskytnout platformu, kde se studenti mohou učit jeden od druhého, a přitom porozumět tomu, jak integrovat dovednosti GIS do svých různých profesních cest, a poskytnout řešení různých environmentálních problémů.
+    name: Klub přírody Karatina univerzita
+    description: Sekce YouthMappers na Karatina University
+    extendedDescription: Tato sekce si klade za cíl shromáždit všechny nadšence GIS. Patří mezi ně odborníci na životní prostředí, odborníci na zvěř a rostlinstvo, vodní a turističtí průvodci. Jejím hlavním cílem je poskytnout platformu, kde se studenti mohou učit jeden od druhého, a přitom porozumět tomu, jak integrovat dovednosti GIS do svých různých profesních cest, a poskytnout řešení různých environmentálních problémů.
+  ym-Kenyatta-University:
+    name: Kenyatta University GIS Club
+    description: Sekce YouthMappers na Kenyatta University
+  ym-Khulna-University:
+    name: YouthMappers Univerzity Khulna
+    description: Sekce YouthMappers na Khulna University
   ym-Kumi-University:
+    name: Ever Last YouthMappers
     description: Sekce YouthMappers na Kumi University
+  ym-Kwame-Nkrumah-University-of-Science-and-Technology:
+    name: Univerzita vědy a technologie Kwame Nkrumah YouthMappers
+    description: Sekce YouthMappers na Univerzitě vědy a technologie Kwame Nkrumah
   ym-Makerere-University:
     name: Geo YouthMappers
+    description: Sekce YouthMappers na Makerere univerzitě
+  ym-Mbarara-University-of-Science-and-Technology:
+    name: MUST Street Mappers
+    description: Sekce YouthMappers na Univerzitě vědy a technologie Mbarara
+  ym-McGill-University:
+    description: Sekce YouthMappers na McGill University
   ym-Miami-University:
+    name: Geografie a plánovací společnost
+    description: Sekce YouthMappers na Miami University
     extendedDescription: Cílem GPS na Miami University je vytvořit úzce propojenou komunitu plánovačů a geografů, kteří se chtějí bavit, dozvědět se více o kariéře a vysokoškolském vzdělávání ve svém oboru, síti a spolupracovat s profesionály se skutečnými  zkušenostmi.
+  ym-Moi-University:
+    name: Geografická studentská asociace
+    description: Sekce YouthMappers na Moi University
+  ym-Monroe-Community-College:
+    name: Mapovací společnost MCC
+    description: Sekce YouthMappers na Monroe Community College
+  ym-Montgomery-College:
+    name: GeoMC
+    description: Sekce YouthMappers na Montgomery College
+  ym-Namibia-University-of-Science-and-Technology:
+    name: Studentská společnost geoinformačních technologií
+    description: Sekce YouthMappers na Namibijské univerzitě vědy a technologie
+  ym-New-York-University:
+    name: Mapovací společnost NYU mHealth Initiative
+    description: Sekce YouthMappers na New York University
+  ym-Nimba-County-Community-College:
+    name: Nimba County Community College YouthMappers
+    description: Sekce YouthMappers na Nimba County Community College
+  ym-Njala-University-Freetown-Campus:
+    name: YouthMappers Njaly ve Freetownu
+    description: Sekce YouthMappers na Njala University, Freetown Campus
+  ym-Njala-University-Njala-Campus:
+    name: YouthMappers Njala University, Njala Campus
+    description: Sekce YouthMappers na Njala University, Njala Campus
+  ym-Ohio-Wesleyan-University:
+    name: Klub pro životní prostředí a divokou zvěř
+    description: Sekce YouthMappers na Ohio Wesleyan University
+  ym-Oklahoma-State-University:
+    name: Geografický klub
+    description: Sekce YouthMappers na Oklahoma State University
+  ym-Open-University-of-Tanzania:
+    name: Sekce YouthMappers na Otevřené univerzitě v Tanzanii
+    description: Sekce YouthMappers na Otevřené univerzitě v Tanzanii
+  ym-Politecnico-di-Milano:
+    name: PoliMappers
+    description: Sekce YouthMappers na Politecnico di Milano
+  ym-Queen-Mary-University-of-London:
+    name: YouthMappers královny Marie
+    description: Sekce YouthMappers na Univerzitě královny Marie v Londýně
+  ym-Rajshahi-University-of-Engineering-Technology:
+    name: YouthMappers na RUET
+    description: Sekce YouthMappers na Rajshahi University of Engineering & Technology
+  ym-Sacred-Heart-Junior-College:
+    name: YouthMappers na Sacred Heart Junior College
+    description: Sekce YouthMappers na Sacred Heart Junior College
+  ym-Sherubtse-College:
+    name: Zeměpisná společnost
+    description: Sekce YouthMappers na Sherubtse College
+  ym-Sokoine-University-of-Agriculture:
+    name: SMCoSE YouthMappers
+    description: Sekce YouthMappers na Zemědělské univerzitě Sokoine
+  ym-St.-Augustine-International-University:
+    name: YouthMappers na Mezinárodní univerzitě svatého Augustina
+    description: Sekce YouthMappers na Mezinárodní univerzitě svatého Augustina
+  ym-St.-Mawaggali-Trades-Training-Institute:
+    name: MawaggaliMappers
+    description: Sekce YouthMappers na St. Mawaggali Trades Training Institute
   ym-State-University-of-New-York-Geneseo:
-    description: Oddělení YouthMappers na Státní univerzitě v New Yorku Geneseo
+    name: SUNY Geneseo GIS Asociace
+    description: Sekce YouthMappers na Státní univerzitě v New Yorku Geneseo
+  ym-Stella-Maris-Polytechnic:
+    name: YouthMappers-SMP
+    description: Sekce YouthMappers na Polytechnice Stella Maris
+  ym-SUNY-at-Fredonia:
+    name: Geoventurers
+    description: Sekce YouthMappers na SUNY ve Pretorii
+  ym-Technical-University-of-Kenya:
+    name: Asociace studentů geoprostorových věd
+    description: Sekce YouthMappers na Technické univerzitě v Keni
+  ym-Texas-Tech-University:
+    name: YouthMappers na TTU
+    description: Sekce YouthMappers na Texaské technické univerzitě
+  ym-The-Citadel:
+    name: YouthMappers v Citedele
+    description: Sekce YouthMappers v Citedele
+  ym-The-Gambia-YMCA-University-of-the-Gambia:
+    name: Connected YouthMappers
+    description: Sekce YouthMappers na Gambia YMCA / University of the Gambia
+  ym-The-George-Washington-University:
+    name: Humanitární mapovací společnost
+    description: Sekce YouthMappers na Univerzitě George Washingtona
+  ym-The-Johns-Hopkins-University-SAIS:
+    name: SAIS YouthMappers
+    description: Sekce YouthMappers na Univerzitě Johnse Hopkinse, SAIS
+  ym-The-Pennsylvania-State-University:
+    name: Penn State GIS Coalition
+    description: Sekce YouthMappers na Pennsylvania State University
+  ym-The-University-of-Zambia:
+    name: YouthMappers Unza
+    description: Sekce YouthMappers na Univerzitě v Zambii
+  ym-Uganda-Christian-University-Mbale-Campus:
+    name: Mapovači pro život
+    description: Sekce YouthMappers na Kampusu křesťanské univerzity Uganda v Mbale
+  ym-Uganda-Pentecostal-University:
+    name: HiTech YouthMappers
+    description: Sekce YouthMappers na Ugandské letniční univerzitě
+  ym-Universidad-Autonoma-de-Madrid:
+    name: YouthMappers na UAM
+    description: Sekce YouthMappers na Universidad Autonoma de Madrid
+  ym-Universidad-de-Antioquia:
+    name: Geomatica UDEA
+    description: Sekce YouthMappers na Universidad de Antioquia
+  ym-Universidad-de-Costa-Rica:
+    name: YouthMappers na Univerzitě v Costa Rice
+    description: Sekce YouthMappers na Univerzitě v Costa Rice
+  ym-Universidad-de-La-Guajira:
+    name: Grupo Mesh
+    description: Sekce YouthMappers na Universidad de La Guajira
+  ym-Universidad-de-Los-Andes:
+    name: Cartografos Uniandes
+    description: Sekce YouthMappers na Universidad de Los Andes
+  ym-Universidad-de-Puerto-Rico-Rio-Piedras:
+    name: UPR YouthMappers
+    description: Sekce YouthMappers na Universidad de Puerto Rico - Rio Piedras
+  ym-Universidad-de-San-Buenaventura:
+    name: YouthMappers San Buenaventura
+    description: Sekce YouthMappers na Universidad de San Buenaventura
+  ym-Universidad-Distrital-Francisco-Jose-de-Caldas:
+    name: YouthMappers v Bogotě
+    description: Sekce YouthMappers na Universidad de Distrital Francisco Jose de Caldas
+  ym-Universidad-Nacional-Autnoma-de-Honduras:
+    name: PumaGis Hn
+    description: Sekce YouthMappers na Universidad Nacional Autónoma de Honduras
+  ym-Universidad-Nacional-de-Colombia:
+    name: Grupo UN
+    description: Sekce YouthMappers na Universidad Nacional de Colombia
+  ym-Universidad-Nacional-de-Ingenieria:
+    name: Yeka Street MGA
+    description: Sekce YouthMappers na Universidad Nacional de Ingenieria
+  ym-Universidad-Politcnica-de-Madrid:
+    name: Mapeo Humanitario
+    description: Sekce YouthMappers na Universidad Politécnica de Madrid
   ym-Universidade-Eduardo-Mondlane:
     name: Mládežnická komunita YouthMappers v Mozambiku
+    description: Sekce YouthMappers na Universidade Eduardo Mondlane
+  ym-Universit-de-NZrkor:
+    name: YouthMappers à N'Zérékoré
+    description: Sekce YouthMappers na Université de N'Zérékoré
+  ym-Universit-des-Sciences-Sociale-et-de-Gestion-de-Bamako:
+    name: Etudiant au Laboratoire HoPE
+    description: Sekce YouthMappers na Université des Sciences Sociale et de Gestion de Bamako
+  ym-Universit-Gaston-Berger:
+    name: YouthMappers na UGB
+    description: Sekce YouthMappers na Université de Gaston Berger
+  ym-Universit-Mohammed-V-Rabat:
+    name: Brahmapoutre v Rabatu
+    description: Sekce YouthMappers na Université Mohammed V Rabat
+  ym-Universitas-Negeri-Makassar:
+    name: Kontur Geografi
+    description: Sekce YouthMappers na Universitas Negeri Makassar
   ym-University-Muhammadiyah-Surakarta:
+    name: SpaceTime
+    description: Sekce YouthMappers na University Muhammadiyah Surakarta
     extendedDescription: SpaceTime je komunitní mapování na Geografické fakultě univerzity Muhammadiyah v Surakartě. SpaceTime založili Bruce Maldy Pratama, Mukhlis Akbar a Irfandi Fauzi. Jsou aktivními studenty na Geografické fakultě Muhammadijáhu Surakarty.
+  ym-University-of-California-Davis:
+    name: Mapovací klub
+    description: Sekce YouthMappers na Kalifornské univerzitě, Davis
+  ym-University-of-Cape-Coast:
+    name: UCC zeměpisná společnost
+    description: Sekce YouthMappers na University of Cape Coast
+  ym-University-of-Central-Florida:
+    name: Geoprostorová informační společnost
+    description: Sekce YouthMappers na Univerzitě Střední Floridy
+  ym-University-of-Chicago:
+    name: Společnost Tobler
+    description: Sekce YouthMappers na Univerzitě v Chicagu
   ym-University-of-Dar-es-Salaam:
+    name: YouthMappers na University of Dar es Salaam
     description: Sekce YouthMappers na University of Dar es Salaam
   ym-University-of-Energy-and-Natural-Resources:
     name: Eko klub
+    description: Sekce YouthMappers na Univerzitě energetiky a přírodních zdrojů
     extendedDescription: Poskytovat důkladné vzdělání všem občanům o zhoršujícím se prostředí a maximálně využívat obnovení prostředí k přežití člověka.
   ym-University-of-Exeter:
+    name: University of Exeter Britský Červený kříž Chybějící mapy
+    description: Sekce YouthMappers na Univerzitě v Exeteru
     extendedDescription: Jsme tým nadšených geografů s komplexní znalostí GIS. Jsme nadšeni podporou britské společnosti Červeného kříže různými snahami o humanitární pomoc. Jsme také důležitými učiteli o významu mapování vzdáleně zaznamenaných dat ao tom, jak to pomáhá v terénu. Naše mapathony mají tematické akademické zaměření, které upozorňují na různý výzkum GIS v našem geografickém oddělení, a zároveň fungují jako události zvyšující povědomí o zaměstnatelnosti, které používáme k pozvání řečníků, aby hovořili o své kariéře v GIS / Britském Červeném kříži.
+  ym-University-of-Ghana:
+    name: YouthMappers Univerzity v Ghaně
+    description: Sekce YouthMappers na Univerzitě v Ghaně
+  ym-University-of-Liberia-YouthMappers:
+    name: 'YouthMappers Univerzity v Libérii '
+    description: Sekce YouthMappers na Univerzitě v Libérii
+  ym-University-of-Malawi:
+    name: YouthMappers Chanco Malawi
+    description: Sekce YouthMappers na Univerzitě v Malawi
+  ym-University-of-Maryland-College-Park:
+    name: Geografický klub
+    description: Sekce YouthMappers na Marylandské univerzitě - College Park
+  ym-University-of-Mines-and-Technology:
+    name: UMaT YouthMappers
+    description: Sekce YouthMappers na Báňské a technologické univerzitě
+  ym-University-of-Nairobi:
+    name: Asociace studentů geoprostorového inženýrství
+    description: Sekce YouthMappers na Univerzitě v Nairobi
   ym-University-of-Nigeria-Enugu-Campus:
-    description: Oddělení YouthMappers na University of Nigeria, Enugu Campus
+    name: LionMappersTeam (LMT) Enugu
+    description: Sekce YouthMappers na Univerzitě v Nigérii, Enugu Campus
+  ym-University-of-Nigeria-Nsukka:
+    name: LionMappersTeam (LMT) Nsukka
+    description: Sekce YouthMappers na Univerzitě v Nigérii, Nsukka
+  ym-University-of-North-Texas:
+    name: UNT Geografický klub
+    description: Sekce YouthMappers na Univerzitě v Severním Texasu
   ym-University-of-Northern-Colorado:
     name: UNCO Geography and GIS Club
+    description: Sekce YouthMappers na Univerzitě v Severním Coloradu
+  ym-University-of-Oregon:
+    name: Mapa podle severozápadu
+    description: Sekce YouthMappers na Univerzitě v Oregonu
+  ym-University-of-Port-Harcourt:
+    name: UniqueMappersTeam (UMT) Port Harcourt
+    description: Sekce YouthMappers na Univerzitě v Port Harcourt
   ym-University-of-Pretoria:
-    description: Oddělení YouthMappers na University of Pretoria
+    name: Centrum geoinformačních věd
+    description: Sekce YouthMappers na Univerzitě v Pretorii
+  ym-University-of-Redlands:
+    name: URSpatial Geo-Thinkers
+    description: Sekce YouthMappers na Univerzitě v Redlands
+  ym-University-of-Rwanda-Huye-Campus:
+    name: YouthMappers Rwandy
+    description: Sekce YouthMappers na Univerzitě ve Rwandě - Huye Campus
+  ym-University-of-South-Carolina:
+    name: Asociace postgraduálních studentů geografie
+    description: Sekce YouthMappers na Univerzitě v Jižní Karolině
+  ym-University-of-Southern-California:
+    name: SC Mappers
+    description: Sekce YouthMappers na Univerzitě v Severní Kalifornii
   ym-University-of-the-Philippines-Resilience-Institute:
-    name: YouthMappers ústavu odolnosti UP
+    name: YouthMappers Ústavy odolnosti UP
     description: Sekce YouthMappers v ústavu odolnosti na University of the Philippines (PH)
   ym-University-of-the-West-Indies-Mona-Campus:
+    name: Knihovny Outreach – ODL
     description: Sekce YouthMappers na University of the West Indies, Mona (JA)
+  ym-University-of-Vermont:
+    name: Humanitární mapovací klub Univerzity ve Vermontu
+    description: Sekce YouthMappers na Univerzitě v Vermontu
+  ym-University-of-Victoria:
+    name: Společnost studentů geografie
+    description: Sekce YouthMappers na Univerzitě v Viktorii
+  ym-University-of-Warwick:
+    name: Společnost Univerzity ve Warwicku pro mapování odolnosti
+    description: Sekce YouthMappers na Univerzitě ve Warwicku
+  ym-University-of-Wyoming:
+    name: Gamma Theta Upsilon/Geografický klub
+    description: Sekce YouthMappers na Univerzitě ve Wyomingu
   ym-University-of-Zimbabwe:
     name: UZMappers
     description: Sekce YouthMappers na University of Zimbabwe (ZW)
+  ym-UW-Madison:
+    name: BadgerMaps
+    description: Sekce YouthMappers na UW-Madison
   ym-Vassar-College:
-    name: Mappeři z údolí Hudsonu
+    name: Mapovači z údolí Hudsonu
     description: Sekce YouthMappers na Vassar College (USA)
   ym-Villanova-University:
     name: Villanova Globeplotters

@@ -1,18 +1,301 @@
 zh_HK:
-  bw-facebook:
-    name: Mapping Botswana Facebook 專頁
-  osm-gh-facebook:
-    name: OpenStreetMap Ghana Facebook 專頁
-    description: Facebook 社群給對 OpenStreetMap 有興趣的人。
-  osm-mg-facebook:
-    name: OpenStreetMap Madagascar Facebook 群組
-    description: 馬達加斯加 Facebook 社群給對 OpenStreetMap 有興趣的人。
+  _communities:
+    geolibres: GeoLibres
+    openstreetmap: OpenStreetMap
+    openstreetmapafghanistan: OpenStreetMap 阿富汗
+    openstreetmapafrica: OpenStreetMap 非洲
+    openstreetmapalba: OpenStreetMap 蘇格蘭
+    openstreetmapalbania: OpenStreetMap 阿爾巴尼亞
+    openstreetmapalgeria: OpenStreetMap 阿爾及利亞
+    openstreetmapargentina: OpenStreetMap 阿根廷
+    openstreetmapasia: OpenStreetMap 亞洲
+    openstreetmapasti: OpenStreetMap 阿斯蒂
+    openstreetmapaustria: OpenStreetMap 奥地利
+    openstreetmapbahia: OpenStreetMap 巴伊亞
+    openstreetmapbangladesh: OpenStreetMap 孟加拉
+    openstreetmapbelarus: OpenStreetMap 白俄羅斯
+    openstreetmapbelgium: OpenStreetMap 比利時
+    openstreetmapbenin: OpenStreetMap 貝寧
+    openstreetmapberlin: OpenStreetMap 柏林
+    openstreetmapbivccvl: OpenStreetMap BI-VC-CVL
+    openstreetmapbolivia: OpenStreetMap 玻利維亞
+    openstreetmapbosniaandherzegovina: OpenStreetMap 波斯尼亞和黑塞哥維那
+    openstreetmapbrasil: OpenStreetMap 巴西
+    openstreetmapbrasilia: OpenStreetMap 巴西利亞
+    openstreetmapbremen: OpenStreetMap 不來梅
+    openstreetmapbulgaria: OpenStreetMap 保加利亞
+    openstreetmapburkinafaso: OpenStreetMap 布基納法索
+    openstreetmapburundi: OpenStreetMap 布隆迪
+    openstreetmapbzh: OpenStreetMap 布列塔尼
+    openstreetmapcambodia: OpenStreetMap 柬埔寨
+    openstreetmapcameroon: OpenStreetMap 喀麥隆
+    openstreetmapcanada: OpenStreetMap 加拿大
+    openstreetmapcatalancountries: OpenStreetMap 加泰隆尼亞
+    openstreetmapchad: OpenStreetMap 乍得
+    openstreetmapchile: OpenStreetMap 智利
+    openstreetmapchina: OpenStreetMap 中國
+    openstreetmapcolombia: OpenStreetMap 哥倫比亞
+    openstreetmapcuba: OpenStreetMap 古巴
+    openstreetmapcz: OpenStreetMap 捷克
+    openstreetmapde: OpenStreetMap 德國
+    openstreetmapdenmark: OpenStreetMap 丹麥
+    openstreetmapdominicanrepublic: OpenStreetMap 多明尼加
+    openstreetmapecuador: OpenStreetMap 厄瓜多爾
+    openstreetmapegypt: OpenStreetMap 埃及
+    openstreetmaperitrea: OpenStreetMap 厄立特里亞
+    openstreetmapespana: OpenStreetMap 西班牙
+    openstreetmapestonia: OpenStreetMap 埃塞俄比亞
+    openstreetmapethiopia: OpenStreetMap 埃塞俄比亞
+    openstreetmapfinland: OpenStreetMap 芬蘭
+    openstreetmapfrance: OpenStreetMap 法國
+    openstreetmapfreemapslovakia: OpenStreetMap 自由斯洛伐克
+    openstreetmapfrenchguiana: OpenStreetMap 法屬圭亞那
+    openstreetmapfrenchpolynesia: OpenStreetMap 法屬波利尼西亞
+    openstreetmapgabon: OpenStreetMap 加蓬
+    openstreetmapgalicia: OpenStreetMap 加利西亞
+    openstreetmapgeorgia: OpenStreetMap 格魯吉亞
+    openstreetmapgermany: OpenStreetMap 德國
+    openstreetmapghana: OpenStreetMap 加納
+    openstreetmapgraz: OpenStreetMap 格拉茨
+    openstreetmapgreece: OpenStreetMap 希臘
+    openstreetmapguatemala: OpenStreetMap 危地馬拉
+    openstreetmapguinea: OpenStreetMap 畿內亞
+    openstreetmaphaiti: OpenStreetMap 海地
+    openstreetmaphamburg: OpenStreetMap 漢堡
+    openstreetmaphonduras: OpenStreetMap 洪都拉斯
+    openstreetmaphongkong: OpenStreetMap 香港
+    openstreetmaphungary: OpenStreetMap 匈牙利
+    openstreetmapiceland: OpenStreetMap 冰島
+    openstreetmapindia: OpenStreetMap 印度
+    openstreetmapindonesia: OpenStreetMap 印尼
+    openstreetmapiran: OpenStreetMap 伊朗
+    openstreetmapiraq: OpenStreetMap 伊拉克
+    openstreetmapireland: OpenStreetMap 愛爾蘭
+    openstreetmapisrael: OpenStreetMap 以色列
+    openstreetmapitaly: OpenStreetMap 意大利
+    openstreetmapitalysouthtyrol: OpenStreetMap 意大利上阿迪傑
+    openstreetmapitalytrentino: OpenStreetMap 意大利特倫蒂諾
+    openstreetmapjapan: OpenStreetMap 日本
+    openstreetmapkarlsruhe: OpenStreetMap 卡爾斯魯厄
+    openstreetmapkazakhstan: OpenStreetMap 哈薩克
+    openstreetmapkenya: OpenStreetMap 肯雅
+    openstreetmapkerala: OpenStreetMap 基拉拉邦
+    openstreetmapkorea: OpenStreetMap 韓國
+    openstreetmapkosovo: OpenStreetMap 科索沃
+    openstreetmapkyrgyzstan: OpenStreetMap 吉爾吉斯
+    openstreetmaplatinamerica: OpenStreetMap 拉丁美洲
+    openstreetmaplatvia: OpenStreetMap 拉脫維亞
+    openstreetmaplebanon: OpenStreetMap 黎巴嫩
+    openstreetmaplesotho: OpenStreetMap 萊索托
+    openstreetmapliberia: OpenStreetMap 利比里亞
+    openstreetmaplibya: OpenStreetMap 利比亞
+    openstreetmaplithuania: OpenStreetMap 立陶宛
+    openstreetmaplombardia: OpenStreetMap 倫巴底
+    openstreetmapluxembourg: OpenStreetMap 盧森堡
+    openstreetmapmadagascar: OpenStreetMap 馬達加斯加
+    openstreetmapmalawi: OpenStreetMap 馬拉維
+    openstreetmapmalaysia: OpenStreetMap 馬來西亞
+    openstreetmapmali: OpenStreetMap 馬里
+    openstreetmapmalta: OpenStreetMap 馬耳他
+    openstreetmapmauritania: OpenStreetMap 毛里塔尼亞
+    openstreetmapmecklenburgvorpommern: OpenStreetMap 梅克倫堡-西波美恩
+    openstreetmapmexico: OpenStreetMap 墨西哥
+    openstreetmapmichigan: OpenStreetMap 密芝根州
+    openstreetmapmoldova: OpenStreetMap 摩爾多瓦
+    openstreetmapmongolia: OpenStreetMap 蒙古
+    openstreetmapmontenegro: OpenStreetMap 黑山
+    openstreetmapmorocco: OpenStreetMap 摩洛哥
+    openstreetmapmyanmar: OpenStreetMap 緬甸
+    openstreetmapnepal: OpenStreetMap 尼泊爾
+    openstreetmapnetherlands: OpenStreetMap 荷蘭
+    openstreetmapnicaragua: OpenStreetMap 尼加拉瓜
+    openstreetmapniger: OpenStreetMap 尼日爾
+    openstreetmapnigeria: OpenStreetMap 尼日利亞
+    openstreetmapnorthmacedonia: OpenStreetMap 北馬其頓
+    openstreetmapnorway: OpenStreetMap 挪威
+    openstreetmapottawa: OpenStreetMap 渥太華
+    openstreetmappakistan: OpenStreetMap 巴基斯坦
+    openstreetmappanama: OpenStreetMap 巴拿馬
+    openstreetmapparaguay: OpenStreetMap 巴拉圭
+    openstreetmapperu: OpenStreetMap 秘魯
+    openstreetmapphilippines: OpenStreetMap 菲律賓
+    openstreetmappiemonte: OpenStreetMap 皮埃蒙特
+    openstreetmappoland: OpenStreetMap 波蘭
+    openstreetmapportugal: OpenStreetMap 葡萄牙
+    openstreetmaprdc: OpenStreetMap 剛果民主共和國
+    openstreetmapreunion: OpenStreetMap 留尼旺
+    openstreetmapriograndedosul: OpenStreetMap 南大河州
+    openstreetmapromania: OpenStreetMap 羅馬尼亞
+    openstreetmaprussia: OpenStreetMap 俄羅斯
+    openstreetmaprwanda: OpenStreetMap 盧旺達
+    openstreetmapsaudiarabia: OpenStreetMap 沙地阿拉伯
+    openstreetmapsenegal: OpenStreetMap 塞內加爾
+    openstreetmapserbia: OpenStreetMap 塞爾維亞
+    openstreetmapseychelles: OpenStreetMap 塞舌爾
+    openstreetmapsierraleone: OpenStreetMap 塞拉利昂
+    openstreetmapslovenia: OpenStreetMap 斯洛文尼亞
+    openstreetmapsomalia: OpenStreetMap 索馬里
+    openstreetmapsouthafrica: OpenStreetMap 南非
+    openstreetmapsouthsudan: OpenStreetMap 南蘇丹
+    openstreetmapsrilanka: OpenStreetMap 斯里蘭卡
+    openstreetmapsudan: OpenStreetMap 蘇丹
+    openstreetmapsweden: OpenStreetMap 瑞典
+    openstreetmapswitzerland: OpenStreetMap 瑞士
+    openstreetmapsyria: OpenStreetMap 敘利亞
+    openstreetmaptaiwan: OpenStreetMap 臺灣
+    openstreetmaptanzania: OpenStreetMap 坦桑尼亞
+    openstreetmapthailand: OpenStreetMap 泰國
+    openstreetmaptogo: OpenStreetMap 多哥
+    openstreetmaptunisia: OpenStreetMap 突尼西亞
+    openstreetmapturkey: OpenStreetMap 土耳其
+    openstreetmapuganda: OpenStreetMap 烏干達
+    openstreetmapuk: OpenStreetMap 英國
+    openstreetmapukraine: OpenStreetMap 烏克蘭
+    openstreetmapuruguay: OpenStreetMap 烏拉圭
+    openstreetmapus: OpenStreetMap 美國
+    openstreetmapuzbekistan: OpenStreetMap 烏茲別克
+    openstreetmapvenezuela: OpenStreetMap 委內瑞拉
+    openstreetmapvietnam: OpenStreetMap 越南
+    openstreetmapwesternsahara: OpenStreetMap 西撒哈拉
+    openstreetmapzambia: OpenStreetMap 贊比亞
+    openstreetmapzimbabwe: OpenStreetMap 津巴布韋
+  _defaults:
+    aparat:
+      name: 'Aparat 上的 {community}'
+      url: https://aparat.com/{account}
+    discord:
+      name: '{community} Discord'
+      url: https://discord.gg/{account}
+    discourse:
+      name: '{community} Discourse'
+    facebook:
+      name: 'Facebook 上的 {community}'
+      url: https://facebook.com/{account}
+    forum:
+      name: '{community} 論壇'
+      url: https://forum.openstreetmap.org/viewforum.php?id={account}
+    github:
+      name: '{community} GitHub'
+      url: https://github.com/{account}
+    gitlab:
+      name: '{community} GitLab'
+      url: https://gitlab.com/{account}
+    group:
+      name: '{community}'
+    irc:
+      name: 'IRC 上的 {community}'
+      url: https://webchat.oftc.net/?channels={account}
+    linkedin:
+      name: 'LinkedIn 上的 {community}'
+      url: https://linkedin.com/company/{account}
+    mailinglist:
+      url: https://lists.openstreetmap.org/listinfo/{account}
+    matrix:
+      name: '{community} Matrix 聊天室'
+      url: https://matrix.to/#/{account}:matrix.org
+    meetup:
+      name: '{community} Meetup'
+      url: https://meetup.com/{account}
+    osm:
+      name: '{community}'
+    osm-lc:
+      name: '{community}'
+    reddit:
+      name: 'Reddit 上的 {community}'
+      url: https://www.reddit.com/r/{account}
+    slack:
+      name: '{community} Slack'
+    telegram:
+      name: '{community} Telegram'
+      url: https://t.me/{account}
+    twitter:
+      name: 'Twitter 上的 {community}'
+      description: 在 Twitter 跟隨我們
+      url: https://twitter.com/{account}
+    wiki:
+      name: '{community} WikiProject'
+      url: https://wiki.openstreetmap.org/wiki/{account}
+    xmpp:
+      name: '{community} XMPP'
+    youtube:
+      name: 'YouTube 上的 {community}'
+      description: 訂閱 YouTube 頻道
+      url: https://www.youtube.com/channel/{account}
+  az-facebook:
+    name: OpenStreetMap 阿塞拜疆
+  cape-coast-youthmappers:
+    description: '跟隨我們的 Twitter： {url} '
+  cd-chapter:
+    name: OpenStreetMap 剛果民主共和國
+  de-xmpp:
+    name: OpenStreetMap 德國 XMPP
+  fr-xmpp:
+    description: 加入 osm-fr@chat.jabberfr.org
+  Galicia-Xeoinquedos-Twitter:
+    description: 在 {url} 於 Twitter 上跟隨我們
+  GeoPhilly:
+    name: GeoPhilly
+  hu-mobilizon:
+    name: 'Mobilizon 上的 {community}'
+  Maptime-Oceania-Slack:
+    description: 在 {signupUrl} 註冊
+  md-googlegroup:
+    name: '{community} Google 羣組'
+    description: 加入 {community} Google 羣組
+  nl-wonderme:
+    name: 'Wonder.me 上的 {community}'
+    description: 虛擬會議室
+  OpenCleveland-meetup:
+    name: Open 克里夫蘭
+  osgeo-oceania:
+    name: 'OSGeo 大洋洲 '
+  OSM-AR-geolibres:
+    name: GeoLibres
+  OSM-CA-Slack:
+    description: 歡迎所有人加入！在 {signupUrl} 註冊。
+  OSM-Chattanooga:
+    name: OSM 查塔努加
+  OSM-Colorado:
+    name: OpenStreetMap 科羅拉多州
+  OSM-help:
+    name: OpenStreetMap 幫助
+  osm-india-github:
+    description: '和我們一起編寫程式：{url}'
   OSM-India-Puducherry-Facebook:
     name: Free Software Hardware Movement - Facebook
-    description: 'FSHM Facebook 專頁使你知道社群活動'
-  OSM-MY-facebook:
-    name: OpenStreetMap Malaysia Facebook 專頁
-  OSM-PH-facebook:
-    name: OpenStreetMap PH Facebook 專頁
-  OSM-TH-facebook:
-    name: OpenStreetMap TH Facebook 社群
+    description: FSHM Facebook 專頁使你知道社群活動
+  osm-kerala-github:
+    description: '和我們一起編寫程式：{url}'
+  osm-mg-facebook:
+    description: 馬達加斯加 Facebook 社群給對 OpenStreetMap 有興趣的人。
+  osm-ni:
+    name: MapaNica.net
+  OSM-PL-chapter:
+    name: OpenStreetMap 波蘭
+  OSM-Portland:
+    name: OpenStreetMap 波特蘭
+  OSM-Tampa-Bay:
+    name: OpenStreetMap 坦帕灣
+  OSM-TH-CNX-meetup:
+    name: OpenStreetMap 清邁聚會
+  OSM-Utah:
+    name: OpenStreetMap 猶他州
+  OSM-Wyoming:
+    name: OpenStreetMap 懷俄明州
+  OSMF:
+    name: OpenStreetMap 基金會
+  ua-github:
+    description: OpenStreetMap 烏克蘭 GitHub
+  ua-osm:
+    description: OpenStreetMap 烏克蘭的網站
+  uk-london-twitter:
+    name: OpenStreetMap 倫敦 Twitter
+    description: 'OpenStreetMap 倫敦 Twitter: {url}'
+  ym-Montgomery-College:
+    name: GeoMC
+  ym-University-Muhammadiyah-Surakarta:
+    name: SpaceTime
+  ym-UW-Madison:
+    name: BadgerMaps
+  ym-Western-Michigan-University:
+    name: 地理學會
