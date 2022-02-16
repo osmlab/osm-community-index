@@ -22,10 +22,10 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 # 5.1.6
 ##### 2022-Feb-16
 
-Added:
+* Added:
   * MapABQ Albuquerque/New Mexico Meetup ([#505], [#506])
   * Resources and features for Spanish regions ([#503])
-Updated:
+* Updated:
   * Chiang Mai Meetup URL ([#507])
   * Fix OSM Nigeria Twitter account ([#504])
 
