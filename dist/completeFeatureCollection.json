@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.1.5",
-    "generated": "2022-01-20T16:44:50.881Z",
+    "generated": "2022-02-16T21:34:21.624Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "975c07c2f55b471029049a5eff2d8b62"
+    "hash": "1d83dc875f166c53943cf299589c1e74"
   },
   "type": "FeatureCollection",
   "features": [
@@ -4614,6 +4614,122 @@
     },
     {
       "type": "Feature",
+      "id": "castilla-y-leon.geojson",
+      "properties": {
+        "id": "castilla-y-leon.geojson",
+        "area": 100856.33,
+        "resources": {
+          "castilla-y-leon-telegram": {
+            "id": "castilla-y-leon-telegram",
+            "type": "telegram",
+            "account": "osmcyl",
+            "locationSet": {"include": ["castilla-y-leon.geojson"]},
+            "languageCodes": ["es"],
+            "strings": {"community": "OpenStreetMap Castilla y León"},
+            "resolved": {
+              "name": "OpenStreetMap Castilla y León Telegram",
+              "url": "https://t.me/osmcyl",
+              "description": "Join our community Telegram chat",
+              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/osmcyl\">OpenStreetMap Castilla y León Telegram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osmcyl\">https://t.me/osmcyl</a>",
+              "descriptionHTML": "Join our community Telegram chat"
+            }
+          },
+          "castilla-y-leon-wiki": {
+            "id": "castilla-y-leon-wiki",
+            "type": "wiki",
+            "locationSet": {"include": ["castilla-y-leon.geojson"]},
+            "strings": {
+              "community": "OpenStreetMap Castilla y León",
+              "description": "Everything you need to know about mapping in Castile and Leon: {url}",
+              "url": "https://wiki.openstreetmap.org/wiki/ES:Castilla_y_Le%C3%B3n"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Castilla y León WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/ES:Castilla_y_Le%C3%B3n",
+              "description": "Everything you need to know about mapping in Castile and Leon: https://wiki.openstreetmap.org/wiki/ES:Castilla_y_Le%C3%B3n",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/ES:Castilla_y_Le%C3%B3n\">OpenStreetMap Castilla y León WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/ES:Castilla_y_Le%C3%B3n\">https://wiki.openstreetmap.org/wiki/ES:Castilla_y_Le%C3%B3n</a>",
+              "descriptionHTML": "Everything you need to know about mapping in Castile and Leon: <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/ES:Castilla_y_Le%C3%B3n\">https://wiki.openstreetmap.org/wiki/ES:Castilla_y_Le%C3%B3n</a>"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-6.87984, 40.25752],
+            [-6.94508, 41.02239],
+            [-6.19901, 41.58026],
+            [-6.37997, 41.66778],
+            [-6.55334, 41.64829],
+            [-6.58905, 41.89921],
+            [-7.0079, 41.95234],
+            [-7.03966, 42.07427],
+            [-6.92654, 42.20309],
+            [-6.77135, 42.26854],
+            [-6.75625, 42.34332],
+            [-6.8474, 42.40559],
+            [-6.82851, 42.45361],
+            [-7.08292, 42.50564],
+            [-7.04996, 42.69493],
+            [-6.83349, 42.91784],
+            [-6.36297, 43.06262],
+            [-5.97381, 43.06826],
+            [-5.79408, 42.96974],
+            [-5.71529, 43.0729],
+            [-4.88805, 43.24095],
+            [-4.03713, 42.82462],
+            [-3.99593, 42.97451],
+            [-3.66222, 43.18916],
+            [-3.13213, 43.20417],
+            [-3.07016, 43.01469],
+            [-2.97215, 42.94084],
+            [-3.01334, 42.90414],
+            [-3.07858, 42.89709],
+            [-3.15136, 42.80648],
+            [-2.9282, 42.71675],
+            [-2.82761, 42.80951],
+            [-2.52686, 42.7581],
+            [-2.5145, 42.63598],
+            [-2.79602, 42.65921],
+            [-3.07102, 42.53715],
+            [-3.02845, 42.44221],
+            [-3.10604, 42.19342],
+            [-3.02948, 42.09975],
+            [-2.31502, 42.15272],
+            [-2.12688, 42.10637],
+            [-1.84845, 41.95745],
+            [-1.76845, 41.7229],
+            [-1.95007, 41.55587],
+            [-1.92775, 41.40102],
+            [-2.15332, 41.34872],
+            [-2.12585, 41.20552],
+            [-2.04036, 41.14764],
+            [-2.04586, 41.06149],
+            [-2.3909, 41.03172],
+            [-2.77542, 41.24632],
+            [-3.25023, 41.25484],
+            [-3.64197, 41.09488],
+            [-3.97516, 40.7808],
+            [-4.07009, 40.78613],
+            [-4.15961, 40.62145],
+            [-4.25789, 40.58997],
+            [-4.3396, 40.40827],
+            [-4.56293, 40.2165],
+            [-4.66713, 40.18255],
+            [-4.76669, 40.22083],
+            [-5.18005, 40.04023],
+            [-6.27182, 40.39572],
+            [-6.75488, 40.21664],
+            [-6.87984, 40.25752]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "catalan_countries.geojson",
       "properties": {
         "id": "catalan_countries.geojson",
@@ -7772,6 +7888,102 @@
             [-122.27234, 37.39635],
             [-122.13501, 37.48903],
             [-121.4566, 37.48249]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "comunitat-valenciana.geojson",
+      "properties": {
+        "id": "comunitat-valenciana.geojson",
+        "area": 40959.91,
+        "resources": {
+          "comunitat-valenciana-telegram": {
+            "id": "comunitat-valenciana-telegram",
+            "type": "telegram",
+            "account": "OSMvalencia",
+            "locationSet": {"include": ["comunitat-valenciana.geojson"]},
+            "languageCodes": ["ca", "es"],
+            "strings": {"community": "OpenStreetMap Comunitat Valenciana"},
+            "resolved": {
+              "name": "OpenStreetMap Comunitat Valenciana Telegram",
+              "url": "https://t.me/OSMvalencia",
+              "description": "Join our community Telegram chat",
+              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/OSMvalencia\">OpenStreetMap Comunitat Valenciana Telegram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/OSMvalencia\">https://t.me/OSMvalencia</a>",
+              "descriptionHTML": "Join our community Telegram chat"
+            }
+          },
+          "comunitat-valenciana-wiki": {
+            "id": "comunitat-valenciana-wiki",
+            "type": "wiki",
+            "locationSet": {"include": ["comunitat-valenciana.geojson"]},
+            "strings": {
+              "community": "OpenStreetMap Comunitat Valenciana",
+              "description": "Everything you need to know about mapping in Valencian Community: {url}",
+              "url": "https://wiki.openstreetmap.org/wiki/Ca:Comunitat_Valenciana"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Comunitat Valenciana WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Ca:Comunitat_Valenciana",
+              "description": "Everything you need to know about mapping in Valencian Community: https://wiki.openstreetmap.org/wiki/Ca:Comunitat_Valenciana",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Ca:Comunitat_Valenciana\">OpenStreetMap Comunitat Valenciana WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Ca:Comunitat_Valenciana\">https://wiki.openstreetmap.org/wiki/Ca:Comunitat_Valenciana</a>",
+              "descriptionHTML": "Everything you need to know about mapping in Valencian Community: <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Ca:Comunitat_Valenciana\">https://wiki.openstreetmap.org/wiki/Ca:Comunitat_Valenciana</a>"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-1.47697, 40.15316],
+            [-1.34445, 40.14581],
+            [-1.31012, 40.22607],
+            [-0.91427, 39.96739],
+            [-0.83634, 39.98317],
+            [-0.63446, 40.12534],
+            [-0.54932, 40.26224],
+            [-0.31517, 40.37166],
+            [-0.41336, 40.67231],
+            [-0.16754, 40.80861],
+            [-0.0666, 40.73503],
+            [0.23346, 40.74101],
+            [0.30453, 40.68845],
+            [0.26985, 40.64385],
+            [0.44426, 40.58945],
+            [0.43945, 40.5502],
+            [0.6427, 40.46785],
+            [0.58776, 38.51809],
+            [-0.3447, 37.88353],
+            [-0.77239, 37.84253],
+            [-0.84389, 37.85913],
+            [-1.01761, 38.04539],
+            [-1.04576, 38.13348],
+            [-0.98087, 38.23966],
+            [-0.98808, 38.30624],
+            [-1.09177, 38.34327],
+            [-1.10001, 38.44283],
+            [-1.02791, 38.49982],
+            [-1.0334, 38.66621],
+            [-0.93658, 38.67961],
+            [-0.97572, 38.77603],
+            [-0.94002, 38.78674],
+            [-0.9668, 38.93004],
+            [-1.14601, 38.91561],
+            [-1.27853, 39.04745],
+            [-1.17554, 39.30508],
+            [-1.45706, 39.35952],
+            [-1.53465, 39.43911],
+            [-1.52341, 39.55588],
+            [-1.3829, 39.70402],
+            [-1.30617, 39.6809],
+            [-1.21399, 39.88076],
+            [-1.25313, 39.99106],
+            [-1.37467, 40.00632],
+            [-1.47697, 40.15316]
           ]
         ]
       }
@@ -12020,6 +12232,26 @@
         "callingCodes": ["34 971", "34"],
         "area": 979885.89,
         "resources": {
+          "es-mailinglist": {
+            "id": "es-mailinglist",
+            "type": "mailinglist",
+            "account": "talk-es",
+            "locationSet": {"include": ["es"]},
+            "languageCodes": ["es"],
+            "order": -3,
+            "strings": {"community": "OpenStreetMap España"},
+            "contacts": [
+              {"name": "Iván Sánchez", "email": "ivansanchez@escomposlinux.org"}
+            ],
+            "resolved": {
+              "name": "talk-es Mailing List",
+              "url": "https://lists.openstreetmap.org/listinfo/talk-es",
+              "description": "The official mailing list for OpenStreetMap España",
+              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-es\">talk-es Mailing List</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-es\">https://lists.openstreetmap.org/listinfo/talk-es</a>",
+              "descriptionHTML": "The official mailing list for OpenStreetMap España"
+            }
+          },
           "es-telegram": {
             "id": "es-telegram",
             "type": "telegram",
@@ -12051,26 +12283,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/openstreetmapes\">OpenStreetMap España on Twitter</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/openstreetmapes\">https://twitter.com/openstreetmapes</a>",
               "descriptionHTML": "Follow us on Twitter"
-            }
-          },
-          "talk-es": {
-            "id": "talk-es",
-            "type": "mailinglist",
-            "account": "talk-es",
-            "locationSet": {"include": ["es"]},
-            "languageCodes": ["es"],
-            "order": -3,
-            "strings": {"community": "OpenStreetMap España"},
-            "contacts": [
-              {"name": "Iván Sánchez", "email": "ivansanchez@escomposlinux.org"}
-            ],
-            "resolved": {
-              "name": "talk-es Mailing List",
-              "url": "https://lists.openstreetmap.org/listinfo/talk-es",
-              "description": "The official mailing list for OpenStreetMap España",
-              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-es\">talk-es Mailing List</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-es\">https://lists.openstreetmap.org/listinfo/talk-es</a>",
-              "descriptionHTML": "The official mailing list for OpenStreetMap España"
             }
           }
         }
@@ -14213,7 +14425,7 @@
       "id": "galicia.geojson",
       "properties": {
         "id": "galicia.geojson",
-        "area": 37013.86,
+        "area": 37820.01,
         "resources": {
           "galicia-telegram": {
             "id": "galicia-telegram",
@@ -14290,96 +14502,28 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [-7.17133, 43.43198],
-            [-7.17545, 43.38808],
-            [-7.13837, 43.3811],
-            [-7.12807, 43.33567],
-            [-7.09511, 43.3017],
-            [-7.06627, 43.30519],
-            [-7.06764, 43.2457],
-            [-6.96808, 43.18966],
-            [-6.98181, 43.16512],
-            [-6.95297, 43.13507],
-            [-6.86096, 43.17564],
-            [-6.81908, 43.13657],
-            [-6.91315, 43.07441],
-            [-6.94405, 43.07842],
-            [-6.97083, 43.03678],
-            [-6.83556, 42.95894],
-            [-6.83281, 42.91772],
-            [-6.86783, 42.87345],
-            [-6.84174, 42.82462],
-            [-7.04224, 42.69758],
-            [-7.00584, 42.64457],
-            [-7.04361, 42.63547],
-            [-7.03949, 42.58797],
-            [-7.07726, 42.50956],
-            [-6.82182, 42.49438],
-            [-6.80603, 42.46602],
-            [-6.84105, 42.40318],
-            [-6.73325, 42.35854],
-            [-6.77307, 42.25648],
-            [-6.93649, 42.16646],
-            [-7.04361, 42.06],
-            [-6.96877, 42.05082],
-            [-6.96465, 42.02583],
-            [-6.99623, 41.96664],
-            [-7.07382, 41.94979],
-            [-7.14729, 41.99063],
-            [-7.18781, 41.9697],
-            [-7.19055, 41.88439],
+            [-7.04807, 43.47684],
+            [-7.13253, 43.38359],
+            [-6.828, 42.97451],
+            [-6.82114, 42.81555],
+            [-7.00378, 42.69152],
+            [-7.03812, 42.5207],
+            [-6.78955, 42.49539],
+            [-6.81152, 42.40419],
+            [-6.70578, 42.33621],
+            [-6.99829, 41.93293],
             [-7.42264, 41.81124],
             [-7.70142, 41.90125],
-            [-8.16833, 41.81943],
+            [-8.15048, 41.79691],
             [-8.22739, 41.91045],
-            [-8.09143, 42.01869],
-            [-8.19855, 42.14508],
-            [-8.23168, 42.13248],
-            [-8.24232, 42.13884],
-            [-8.25657, 42.13349],
-            [-8.25932, 42.12191],
-            [-8.27391, 42.12356],
-            [-8.30154, 42.10535],
-            [-8.32266, 42.10064],
-            [-8.32558, 42.09045],
-            [-8.33347, 42.08434],
-            [-8.3606, 42.09032],
-            [-8.37055, 42.08752],
-            [-8.38188, 42.07631],
-            [-8.39081, 42.07593],
-            [-8.39167, 42.07924],
-            [-8.41158, 42.0772],
-            [-8.43063, 42.07211],
-            [-8.44265, 42.08294],
-            [-8.47801, 42.0809],
-            [-8.48419, 42.08204],
-            [-8.5017, 42.07797],
-            [-8.52608, 42.07771],
-            [-8.52591, 42.06331],
-            [-8.55251, 42.05337],
-            [-8.58667, 42.05222],
-            [-8.59594, 42.05592],
-            [-8.64023, 42.04713],
-            [-8.64607, 42.03667],
-            [-8.65791, 42.03081],
-            [-8.65826, 42.0155],
-            [-8.66392, 42.00109],
-            [-8.67268, 41.99637],
-            [-8.70632, 41.98208],
-            [-8.74718, 41.96409],
-            [-8.74838, 41.94302],
-            [-8.76, 41.9311],
+            [-8.14362, 42.00186],
+            [-8.22327, 42.10739],
+            [-8.59955, 42.02583],
             [-8.9, 41.85],
             [-9.6, 43.2],
             [-7.5, 44],
             [-7.02885, 43.55178],
-            [-7.04807, 43.50698],
-            [-7.04807, 43.47684],
-            [-7.06181, 43.47335],
-            [-7.09099, 43.45242],
-            [-7.08858, 43.4437],
-            [-7.11983, 43.42525],
-            [-7.17133, 43.43198]
+            [-7.04807, 43.47684]
           ]
         ]
       }
@@ -20851,6 +20995,118 @@
     },
     {
       "type": "Feature",
+      "id": "madrid.geojson",
+      "properties": {
+        "id": "madrid.geojson",
+        "area": 9326.38,
+        "resources": {
+          "madrid-telegram": {
+            "id": "madrid-telegram",
+            "type": "telegram",
+            "account": "OSMmadrid",
+            "locationSet": {"include": ["madrid.geojson"]},
+            "languageCodes": ["es"],
+            "strings": {"community": "OpenStreetMap Madrid"},
+            "resolved": {
+              "name": "OpenStreetMap Madrid Telegram",
+              "url": "https://t.me/OSMmadrid",
+              "description": "Join our community Telegram chat",
+              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/OSMmadrid\">OpenStreetMap Madrid Telegram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/OSMmadrid\">https://t.me/OSMmadrid</a>",
+              "descriptionHTML": "Join our community Telegram chat"
+            }
+          },
+          "madrid-uam-ym": {
+            "id": "madrid-uam-ym",
+            "type": "youthmappers",
+            "locationSet": {"include": ["madrid.geojson"]},
+            "strings": {
+              "name": "YouthMappers at UAM",
+              "description": "YouthMappers chapter at Universidad Autonoma de Madrid",
+              "url": "mailto:youthmappersatuam@gmail.com"
+            },
+            "contacts": [
+              {"name": "Organizer", "email": "youthmappersatuam@gmail.com"}
+            ],
+            "resolved": {
+              "name": "YouthMappers at UAM",
+              "url": "mailto:youthmappersatuam@gmail.com",
+              "description": "YouthMappers chapter at Universidad Autonoma de Madrid",
+              "nameHTML": "<a target=\"_blank\" href=\"mailto:youthmappersatuam@gmail.com\">YouthMappers at UAM</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"mailto:youthmappersatuam@gmail.com\">mailto:youthmappersatuam@gmail.com</a>",
+              "descriptionHTML": "YouthMappers chapter at Universidad Autonoma de Madrid"
+            }
+          },
+          "madrid-upm-ym": {
+            "id": "madrid-upm-ym",
+            "type": "youthmappers",
+            "locationSet": {"include": ["madrid.geojson"]},
+            "strings": {
+              "name": "Mapeo Humanitario",
+              "description": "YouthMappers chapter at Universidad Politécnica de Madrid",
+              "extendedDescription": "Geo-volunteering group formed at Moncloa Campus on November 2017. Around 20 members from three Universities (Complutense, CEU and UPM). Undergraduate students, MSc and PhD students collaborate together with organizations (MSF, Acción contra el Hambre,...) supported by trainers from Geoinquietos. Official recognition by UPM as Educative Innovation Project (Code  IE1718.0411)",
+              "url": "https://blogs.upm.es/mapeo-humanitario/"
+            },
+            "contacts": [
+              {"name": "Organizer", "email": "lab.topografia@gmail.com"}
+            ],
+            "resolved": {
+              "name": "Mapeo Humanitario",
+              "url": "https://blogs.upm.es/mapeo-humanitario/",
+              "description": "YouthMappers chapter at Universidad Politécnica de Madrid",
+              "extendedDescription": "Geo-volunteering group formed at Moncloa Campus on November 2017. Around 20 members from three Universities (Complutense, CEU and UPM). Undergraduate students, MSc and PhD students collaborate together with organizations (MSF, Acción contra el Hambre,...) supported by trainers from Geoinquietos. Official recognition by UPM as Educative Innovation Project (Code  IE1718.0411)",
+              "nameHTML": "<a target=\"_blank\" href=\"https://blogs.upm.es/mapeo-humanitario/\">Mapeo Humanitario</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://blogs.upm.es/mapeo-humanitario/\">https://blogs.upm.es/mapeo-humanitario/</a>",
+              "descriptionHTML": "YouthMappers chapter at Universidad Politécnica de Madrid",
+              "extendedDescriptionHTML": "Geo-volunteering group formed at Moncloa Campus on November 2017. Around 20 members from three Universities (Complutense, CEU and UPM). Undergraduate students, MSc and PhD students collaborate together with organizations (MSF, Acción contra el Hambre,...) supported by trainers from Geoinquietos. Official recognition by UPM as Educative Innovation Project (Code  IE1718.0411)"
+            }
+          },
+          "madrid-wiki": {
+            "id": "madrid-wiki",
+            "type": "wiki",
+            "locationSet": {"include": ["madrid.geojson"]},
+            "strings": {
+              "community": "OpenStreetMap Madrid",
+              "description": "Everything you need to know about mapping in Madrid: {url}",
+              "url": "https://wiki.openstreetmap.org/wiki/ES:Comunidad_de_Madrid"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Madrid WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/ES:Comunidad_de_Madrid",
+              "description": "Everything you need to know about mapping in Madrid: https://wiki.openstreetmap.org/wiki/ES:Comunidad_de_Madrid",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/ES:Comunidad_de_Madrid\">OpenStreetMap Madrid WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/ES:Comunidad_de_Madrid\">https://wiki.openstreetmap.org/wiki/ES:Comunidad_de_Madrid</a>",
+              "descriptionHTML": "Everything you need to know about mapping in Madrid: <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/ES:Comunidad_de_Madrid\">https://wiki.openstreetmap.org/wiki/ES:Comunidad_de_Madrid</a>"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-4.59503, 40.18412],
+            [-4.55109, 40.3455],
+            [-4.34235, 40.45217],
+            [-4.32724, 40.6572],
+            [-3.54309, 41.19932],
+            [-3.37349, 41.02239],
+            [-3.465, 40.81],
+            [-3.13, 40.425],
+            [-3.03772, 40.06651],
+            [-3.5, 40.025],
+            [-3.81706, 39.87391],
+            [-3.89534, 39.91553],
+            [-3.61725, 40.09383],
+            [-3.94821, 40.18307],
+            [-4.045, 40.23],
+            [-4.59503, 40.18412]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "properties": {
         "iso1A2": "SK",
         "iso1A3": "SVK",
@@ -21174,6 +21430,59 @@
             [37.033, -1.221],
             [36.952, -1.109],
             [36.82, -1.066]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "new_mexico.geojson",
+      "properties": {
+        "id": "new_mexico.geojson",
+        "area": 316902.77,
+        "resources": {
+          "MapABQ": {
+            "id": "MapABQ",
+            "type": "url",
+            "locationSet": {"include": ["new_mexico.geojson"]},
+            "languageCodes": ["en", "es"],
+            "order": 5,
+            "strings": {
+              "name": "MapABQ",
+              "description": "Monthly meeting of OpenStreetMap users in Albuquerque and Northern New Mexico",
+              "extendedDescription": "Anyone is welcome to join and we're happy to help get you started mapping. The meetings are in an open format to allow contributors to focus on adding to OpenStreetMap for Albuquerque and surrounding areas.",
+              "url": "https://mapabq.org/"
+            },
+            "contacts": [
+              {"name": "Russ Biggs", "email": "russbiggs@gmail.com"},
+              {"name": "Arlo James Barnes", "email": "osm@b.arn.es"}
+            ],
+            "resolved": {
+              "name": "MapABQ",
+              "url": "https://mapabq.org/",
+              "description": "Monthly meeting of OpenStreetMap users in Albuquerque and Northern New Mexico",
+              "extendedDescription": "Anyone is welcome to join and we're happy to help get you started mapping. The meetings are in an open format to allow contributors to focus on adding to OpenStreetMap for Albuquerque and surrounding areas.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://mapabq.org/\">MapABQ</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://mapabq.org/\">https://mapabq.org/</a>",
+              "descriptionHTML": "Monthly meeting of OpenStreetMap users in Albuquerque and Northern New Mexico",
+              "extendedDescriptionHTML": "Anyone is welcome to join and we're happy to help get you started mapping. The meetings are in an open format to allow contributors to focus on adding to OpenStreetMap for Albuquerque and surrounding areas."
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-109.03, 37],
+            [-103, 37],
+            [-103.06, 32],
+            [-106.6, 32],
+            [-106.5, 31.78],
+            [-108.2, 31.77],
+            [-108.2, 31.3],
+            [-109.05, 31.3],
+            [-109.03, 37]
           ]
         ]
       }
@@ -24650,15 +24959,15 @@
           "ng-twitter": {
             "id": "ng-twitter",
             "type": "twitter",
-            "account": "OSMNiger",
+            "account": "OSMNigeria",
             "locationSet": {"include": ["ng"]},
             "strings": {"community": "OpenStreetMap Nigeria"},
             "resolved": {
               "name": "OpenStreetMap Nigeria on Twitter",
-              "url": "https://twitter.com/OSMNiger",
+              "url": "https://twitter.com/OSMNigeria",
               "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMNiger\">OpenStreetMap Nigeria on Twitter</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMNiger\">https://twitter.com/OSMNiger</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMNigeria\">OpenStreetMap Nigeria on Twitter</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMNigeria\">https://twitter.com/OSMNigeria</a>",
               "descriptionHTML": "Follow us on Twitter"
             }
           },
@@ -35232,7 +35541,7 @@
               "name": "OSM Meetup Chiang Mai",
               "description": "Irregular meeting of the OpenStreetMap community in Chiang Mai",
               "extendedDescription": "Members of the OpenStreetMap community meet every few months in Chiang Mai. Get in contact and check out {url} to see when the next meetup is scheduled",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=46"
+              "url": "https://forum.openstreetmap.org/viewtopic.php?pid=854612"
             },
             "contacts": [
               {
@@ -35242,13 +35551,13 @@
             ],
             "resolved": {
               "name": "OSM Meetup Chiang Mai",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=46",
+              "url": "https://forum.openstreetmap.org/viewtopic.php?pid=854612",
               "description": "Irregular meeting of the OpenStreetMap community in Chiang Mai",
-              "extendedDescription": "Members of the OpenStreetMap community meet every few months in Chiang Mai. Get in contact and check out https://forum.openstreetmap.org/viewforum.php?id=46 to see when the next meetup is scheduled",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=46\">OSM Meetup Chiang Mai</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=46\">https://forum.openstreetmap.org/viewforum.php?id=46</a>",
+              "extendedDescription": "Members of the OpenStreetMap community meet every few months in Chiang Mai. Get in contact and check out https://forum.openstreetmap.org/viewtopic.php?pid=854612 to see when the next meetup is scheduled",
+              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewtopic.php?pid=854612\">OSM Meetup Chiang Mai</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewtopic.php?pid=854612\">https://forum.openstreetmap.org/viewtopic.php?pid=854612</a>",
               "descriptionHTML": "Irregular meeting of the OpenStreetMap community in Chiang Mai",
-              "extendedDescriptionHTML": "Members of the OpenStreetMap community meet every few months in Chiang Mai. Get in contact and check out <a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=46\">https://forum.openstreetmap.org/viewforum.php?id=46</a> to see when the next meetup is scheduled"
+              "extendedDescriptionHTML": "Members of the OpenStreetMap community meet every few months in Chiang Mai. Get in contact and check out <a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewtopic.php?pid=854612\">https://forum.openstreetmap.org/viewtopic.php?pid=854612</a> to see when the next meetup is scheduled"
             }
           }
         }
@@ -49851,55 +50160,6 @@
     },
     {
       "type": "Feature",
-      "id": "[-3.69437,40.54647]",
-      "properties": {
-        "id": "[-3.69437,40.54647]",
-        "area": 1963.5,
-        "resources": {
-          "ym-Universidad-Autonoma-de-Madrid": {
-            "id": "ym-Universidad-Autonoma-de-Madrid",
-            "type": "youthmappers",
-            "locationSet": {"include": [[-3.69437, 40.54647]]},
-            "strings": {
-              "name": "YouthMappers at UAM",
-              "description": "YouthMappers chapter at Universidad Autonoma de Madrid",
-              "url": "mailto:youthmappersatuam@gmail.com"
-            },
-            "contacts": [
-              {"name": "Organizer", "email": "youthmappersatuam@gmail.com"}
-            ],
-            "resolved": {
-              "name": "YouthMappers at UAM",
-              "url": "mailto:youthmappersatuam@gmail.com",
-              "description": "YouthMappers chapter at Universidad Autonoma de Madrid",
-              "nameHTML": "<a target=\"_blank\" href=\"mailto:youthmappersatuam@gmail.com\">YouthMappers at UAM</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"mailto:youthmappersatuam@gmail.com\">mailto:youthmappersatuam@gmail.com</a>",
-              "descriptionHTML": "YouthMappers chapter at Universidad Autonoma de Madrid"
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-3.694, 40.771],
-            [-3.869, 40.728],
-            [-3.976, 40.616],
-            [-3.975, 40.477],
-            [-3.868, 40.365],
-            [-3.694, 40.322],
-            [-3.521, 40.365],
-            [-3.414, 40.477],
-            [-3.413, 40.616],
-            [-3.52, 40.728],
-            [-3.694, 40.771]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "[-75.58594,6.22791]",
       "properties": {
         "id": "[-75.58594,6.22791]",
@@ -50356,58 +50616,6 @@
             [-86.052, 12.201],
             [-86.135, 12.313],
             [-86.271, 12.356]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "[-3.7173,40.44782]",
-      "properties": {
-        "id": "[-3.7173,40.44782]",
-        "area": 1963.5,
-        "resources": {
-          "ym-Universidad-Politcnica-de-Madrid": {
-            "id": "ym-Universidad-Politcnica-de-Madrid",
-            "type": "youthmappers",
-            "locationSet": {"include": [[-3.7173, 40.44782]]},
-            "strings": {
-              "name": "Mapeo Humanitario",
-              "description": "YouthMappers chapter at Universidad Politécnica de Madrid",
-              "extendedDescription": "Geo-volunteering group formed at Moncloa Campus on November 2017. Around 20 members from three Universities (Complutense, CEU and UPM). Undergraduate students, MSc and PhD students collaborate together with organizations (MSF, Acción contra el Hambre,...) supported by trainers from Geoinquietos. Official recognition by UPM as Educative Innovation Project (Code  IE1718.0411)",
-              "url": "https://blogs.upm.es/mapeo-humanitario/"
-            },
-            "contacts": [
-              {"name": "Organizer", "email": "lab.topografia@gmail.com"}
-            ],
-            "resolved": {
-              "name": "Mapeo Humanitario",
-              "url": "https://blogs.upm.es/mapeo-humanitario/",
-              "description": "YouthMappers chapter at Universidad Politécnica de Madrid",
-              "extendedDescription": "Geo-volunteering group formed at Moncloa Campus on November 2017. Around 20 members from three Universities (Complutense, CEU and UPM). Undergraduate students, MSc and PhD students collaborate together with organizations (MSF, Acción contra el Hambre,...) supported by trainers from Geoinquietos. Official recognition by UPM as Educative Innovation Project (Code  IE1718.0411)",
-              "nameHTML": "<a target=\"_blank\" href=\"https://blogs.upm.es/mapeo-humanitario/\">Mapeo Humanitario</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://blogs.upm.es/mapeo-humanitario/\">https://blogs.upm.es/mapeo-humanitario/</a>",
-              "descriptionHTML": "YouthMappers chapter at Universidad Politécnica de Madrid",
-              "extendedDescriptionHTML": "Geo-volunteering group formed at Moncloa Campus on November 2017. Around 20 members from three Universities (Complutense, CEU and UPM). Undergraduate students, MSc and PhD students collaborate together with organizations (MSF, Acción contra el Hambre,...) supported by trainers from Geoinquietos. Official recognition by UPM as Educative Innovation Project (Code  IE1718.0411)"
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-3.717, 40.672],
-            [-3.891, 40.629],
-            [-3.998, 40.517],
-            [-3.998, 40.378],
-            [-3.89, 40.266],
-            [-3.717, 40.223],
-            [-3.544, 40.266],
-            [-3.437, 40.378],
-            [-3.436, 40.517],
-            [-3.543, 40.629],
-            [-3.717, 40.672]
           ]
         ]
       }
