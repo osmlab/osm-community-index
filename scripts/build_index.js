@@ -131,11 +131,7 @@ function collectFeatures() {
       const extent = geojsonBounds.extent(feature);
       const lon = ((extent[0] + extent[2]) / 2).toFixed(4);
       const lat = ((extent[1] + extent[3]) / 2).toFixed(4);
-      const lon_diff_1 = Math.abs(lon - extent[0]);
-      const lon_diff_2 = Math.abs(lon - extent[2]);
-      const lat_diff_1 = Math.abs(lat - extent[1]);
-      const lat_diff_2 = Math.abs(lat - extent[3]);
-      const dia = (Math.max(lon_diff_1, lon_diff_2, lat_diff_1, lat_diff_1) * 111.139).toFixed(2);
+      const dia = (Math.max(Math.abs(lon - extent[0]), Math.abs(lon - extent[2]), Math.abs(lat - extent[1]), Math.abs(lat - extent[3])) * 111.139).toFixed(2);
       const area_circ = ((dia/2)*(dia/2)*Math.PI).toFixed(2);
       console.warn('');
       console.warn(chalk.yellow(`Warning for ` + chalk.yellow(file) + `:`));
