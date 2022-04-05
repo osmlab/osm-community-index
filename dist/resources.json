@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.1.6",
-    "generated": "2022-04-05T19:51:16.834Z",
+    "generated": "2022-04-05T20:05:21.368Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "b4662160a0f5dab6fb3a23bd7e2b2ab7"
+    "hash": "388d00f08a180e85c08b262ddf31cc0d"
   },
   "resources": {
     "af-facebook": {"id": "af-facebook", "type": "facebook", "locationSet": {"include": ["af"]}, "languageCodes": ["en", "fa", "ps"], "order": 3, "strings": {"community": "OpenStreetMap Afghanistan", "url": "https://www.facebook.com/groups/321292812113316/"}, "contacts": [{"name": "Walker Kosmidou-Bradley", "email": "walker.t.bradley@gmail.com"}]},
@@ -57,6 +57,7 @@
     "cat-facebook": {"id": "cat-facebook", "type": "facebook", "account": "OSMcatala", "locationSet": {"include": ["catalan_countries.geojson"]}, "languageCodes": ["ca"], "strings": {"community": "OpenStreetMap Catalan Countries"}, "contacts": [{"name": "Carlos Sánchez", "email": "erielkhan@gmail.com"}, {"name": "Jose Luis Infante", "email": "jlinfante@llefia.org"}]},
     "cat-github": {"id": "cat-github", "type": "github", "account": "OSM-catalan", "locationSet": {"include": ["catalan_countries.geojson"]}, "languageCodes": ["ca"], "order": 6, "strings": {"community": "OpenStreetMap Catalan Countries", "description": "Projects from the OpenStreetMap Catalan Countries community on GitHub"}, "contacts": [{"name": "Carlos Sánchez", "email": "erielkhan@gmail.com"}]},
     "cat-mailinglist": {"id": "cat-mailinglist", "type": "mailinglist", "account": "talk-cat", "locationSet": {"include": ["catalan_countries.geojson"]}, "languageCodes": ["ca"], "order": 9, "strings": {"community": "OpenStreetMap Catalan Countries"}, "contacts": [{"name": "Xavier Barnada", "email": "xbarnada@gmail.com"}]},
+    "cat-matrix": {"id": "cat-matrix", "type": "matrix", "account": "#openstreetmap-cat", "locationSet": {"include": ["catalan_countries.geojson"]}, "languageCodes": ["ca"], "order": 8, "strings": {"community": "OpenStreetMap Catalan Countries", "description": "Matrix group for the OpenStreetMap Catalan Countries community", "url": "https://matrix.to/#/#openstreetmap-cat:matrix.org"}},
     "cat-telegram": {"id": "cat-telegram", "type": "telegram", "account": "osmcat", "locationSet": {"include": ["catalan_countries.geojson"]}, "languageCodes": ["ca"], "order": 8, "strings": {"community": "OpenStreetMap Catalan Countries"}, "contacts": [{"name": "Carlos Sánchez", "email": "erielkhan@gmail.com"}, {"name": "Jose Luis Infante", "email": "jlinfante@llefia.org"}, {"name": "Xavier Barnada", "email": "xbarnada@gmail.com"}]},
     "cat-twitter": {"id": "cat-twitter", "type": "twitter", "account": "OSMcatala", "locationSet": {"include": ["catalan_countries.geojson"]}, "languageCodes": ["ca"], "order": 7, "strings": {"community": "OpenStreetMap Catalan Countries"}, "contacts": [{"name": "Carlos Sánchez", "email": "erielkhan@gmail.com"}, {"name": "Jose Luis Infante", "email": "jlinfante@llefia.org"}]},
     "cat-wiki": {"id": "cat-wiki", "type": "wiki", "locationSet": {"include": ["catalan_countries.geojson"]}, "languageCodes": ["ca"], "order": 10, "strings": {"community": "OpenStreetMap Catalan Countries", "description": "Coordination space for the OpenStreetMap community around Catalan Countries: {url}", "url": "https://wiki.openstreetmap.org/wiki/WikiProject_Catalan"}},
