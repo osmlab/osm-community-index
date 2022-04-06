@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.1.6",
-    "generated": "2022-02-16T22:00:22.033Z",
+    "generated": "2022-04-05T20:19:05.469Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "e31d237e351f5980d5e1267d29c27922"
+    "hash": "766e412d7e073876a2c3fe2356aef830"
   },
   "type": "FeatureCollection",
   "features": [
@@ -2483,25 +2483,25 @@
           "be-matrix": {
             "id": "be-matrix",
             "type": "matrix",
-            "account": "+osmbe",
+            "account": "#osmbe",
             "locationSet": {"include": ["be"]},
             "languageCodes": ["de", "en", "fr", "nl"],
             "order": 6,
             "strings": {
               "community": "OpenStreetMap Belgium",
               "description": "All mappers are welcome!",
-              "extendedDescription": "Most talk is happening at the \"OpenStreetMap Belgium\" channel. You can ask anything there! The other rooms are for specific subjects."
+              "extendedDescription": "Main chatroom of the Belgian OSM community. Don't hesitate to ask beginner questions here!"
             },
             "contacts": [{"name": "BE community", "email": "community@osm.be"}],
             "resolved": {
               "name": "OpenStreetMap Belgium Matrix Chat",
-              "url": "https://matrix.to/#/+osmbe:matrix.org",
+              "url": "https://matrix.to/#/#osmbe:matrix.org",
               "description": "All mappers are welcome!",
-              "extendedDescription": "Most talk is happening at the \"OpenStreetMap Belgium\" channel. You can ask anything there! The other rooms are for specific subjects.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/+osmbe:matrix.org\">OpenStreetMap Belgium Matrix Chat</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/+osmbe:matrix.org\">https://matrix.to/#/+osmbe:matrix.org</a>",
+              "extendedDescription": "Main chatroom of the Belgian OSM community. Don't hesitate to ask beginner questions here!",
+              "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osmbe:matrix.org\">OpenStreetMap Belgium Matrix Chat</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osmbe:matrix.org\">https://matrix.to/#/#osmbe:matrix.org</a>",
               "descriptionHTML": "All mappers are welcome!",
-              "extendedDescriptionHTML": "Most talk is happening at the \"OpenStreetMap Belgium\" channel. You can ask anything there! The other rooms are for specific subjects."
+              "extendedDescriptionHTML": "Main chatroom of the Belgian OSM community. Don't hesitate to ask beginner questions here!"
             }
           },
           "be-meetup": {
@@ -4796,6 +4796,27 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-cat\">talk-cat Mailing List</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-cat\">https://lists.openstreetmap.org/listinfo/talk-cat</a>",
               "descriptionHTML": "The official mailing list for OpenStreetMap Catalan Countries"
+            }
+          },
+          "cat-matrix": {
+            "id": "cat-matrix",
+            "type": "matrix",
+            "account": "#openstreetmap-cat",
+            "locationSet": {"include": ["catalan_countries.geojson"]},
+            "languageCodes": ["ca"],
+            "order": 8,
+            "strings": {
+              "community": "OpenStreetMap Catalan Countries",
+              "description": "Matrix group for the OpenStreetMap Catalan Countries community",
+              "url": "https://matrix.to/#/#openstreetmap-cat:matrix.org"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Catalan Countries Matrix Chat",
+              "url": "https://matrix.to/#/#openstreetmap-cat:matrix.org",
+              "description": "Matrix group for the OpenStreetMap Catalan Countries community",
+              "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#openstreetmap-cat:matrix.org\">OpenStreetMap Catalan Countries Matrix Chat</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#openstreetmap-cat:matrix.org\">https://matrix.to/#/#openstreetmap-cat:matrix.org</a>",
+              "descriptionHTML": "Matrix group for the OpenStreetMap Catalan Countries community"
             }
           },
           "cat-telegram": {
@@ -21748,26 +21769,27 @@
           "Maptime-Bogota": {
             "id": "Maptime-Bogota",
             "type": "meetup",
-            "account": "Maptime-Colombia-OSM",
+            "account": "maptime-bogota-colombia-osm",
             "locationSet": {"include": ["bogota.geojson"]},
             "languageCodes": ["es"],
             "order": 5,
             "strings": {
-              "name": "Maptime Bogotá",
-              "description": "We're a group of mappers interested in mapping in OpenStreetMap around Bogotá.",
+              "community": "MaptimeBogota",
+              "name": "MaptimeBogotá",
+              "description": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
               "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap.  It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun."
             },
             "contacts": [
               {"name": "Andrés Gómez Casanova", "email": "angoca@gmail.com"}
             ],
             "resolved": {
-              "name": "Maptime Bogotá",
-              "url": "https://meetup.com/Maptime-Colombia-OSM",
-              "description": "We're a group of mappers interested in mapping in OpenStreetMap around Bogotá.",
+              "name": "MaptimeBogotá",
+              "url": "https://meetup.com/maptime-bogota-colombia-osm",
+              "description": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
               "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap.  It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/Maptime-Colombia-OSM\">Maptime Bogotá</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/Maptime-Colombia-OSM\">https://meetup.com/Maptime-Colombia-OSM</a>",
-              "descriptionHTML": "We're a group of mappers interested in mapping in OpenStreetMap around Bogotá.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/maptime-bogota-colombia-osm\">MaptimeBogotá</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/maptime-bogota-colombia-osm\">https://meetup.com/maptime-bogota-colombia-osm</a>",
+              "descriptionHTML": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
               "extendedDescriptionHTML": "Learn to collect data in the field and digitize onto OpenStreetMap.  It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun."
             }
           }
