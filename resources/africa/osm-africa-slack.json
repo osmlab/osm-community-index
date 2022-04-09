@@ -1,0 +1,15 @@
+{
+  "id": "osm-africa-slack",
+  "type": "slack",
+  "locationSet": {"include": ["002"]},
+  "languageCodes": ["en", "fr"],
+  "strings": {
+    "community": "OpenStreetMap Africa",
+    "description": "All are welcome! Sign up at {signupUrl}",
+    "signupUrl": "https://osmafrica.slack.com/",
+    "url": "https://osmafrica.slack.com/"
+  },
+  "contacts": [
+    {"name": "OSM Africa", "email": "info@openstreetmap.africa"}
+  ]
+}
