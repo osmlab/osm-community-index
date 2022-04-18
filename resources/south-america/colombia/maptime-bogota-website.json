@@ -1,0 +1,17 @@
+{
+  "id": "maptime-bogota-website",
+  "type": "osm",
+  "locationSet": {"include": ["bogota.geojson"]},
+  "languageCodes": ["es"],
+  "order": 5,
+  "strings": {
+    "community": "MaptimeBogota",
+    "name": "MaptimeBogotá",
+    "description": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+    "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun.",
+    "url": "https://maptime.io/bogota/"
+  },
+  "contacts": [
+    {"name": "Andrés Gómez Casanova", "email": "angoca@gmail.com"}
+  ]
+}
