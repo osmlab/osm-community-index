@@ -1,11 +1,11 @@
 {
   "id": "hu-wiki",
   "type": "wiki",
+  "account": "Hungary",
   "locationSet": {"include": ["hu"]},
   "languageCodes": ["hu"],
   "strings": {
-    "name": "OpenStreetMap Hungary Wiki page",
-    "description": "Wiki page of Hungary OSM group",
-    "url": "https://wiki.openstreetmap.org/wiki/Hungary"
+    "community": "OpenStreetMap Hungary",
+    "description": "{community} Wiki page"
   }
 }
