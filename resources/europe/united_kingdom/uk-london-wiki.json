@@ -1,13 +1,13 @@
 {
   "id": "uk-london-wiki",
   "type": "wiki",
+  "account": "London",
   "locationSet": {"include": [[-0.12, 51.5]]},
   "languageCodes": ["en"],
   "order": 4,
   "strings": {
-    "name": "OpenStreetMap London Wiki page",
-    "description": "Wiki page of London OSM local group",
-    "url": "https://wiki.openstreetmap.org/wiki/London"
+    "community": "OpenStreetMap London",
+    "description": "{community} Wiki page"
   },
   "contacts": [
     {"name": "Harry Wood", "email": "mail@harrywood.co.uk"}
