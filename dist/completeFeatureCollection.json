@@ -1,12 +1,56 @@
 {
   "_meta": {
     "version": "5.1.6",
-    "generated": "2022-04-05T20:19:05.469Z",
+    "generated": "2022-05-31T14:21:07.441Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "766e412d7e073876a2c3fe2356aef830"
+    "hash": "b9301379bbe7ffa6becc5999858162ba"
   },
   "type": "FeatureCollection",
   "features": [
+    {
+      "type": "Feature",
+      "id": "[-2.09375,57.14824]",
+      "properties": {
+        "id": "[-2.09375,57.14824]",
+        "area": 1963.5,
+        "resources": {
+          "aberdeen-discord": {
+            "id": "aberdeen-discord",
+            "type": "discord",
+            "account": "vY7KBZx2M9",
+            "locationSet": {"include": [[-2.09375, 57.14824]]},
+            "languageCodes": ["en"],
+            "strings": {"name": "OSM ABZ Discord"},
+            "resolved": {
+              "name": "OSM ABZ Discord",
+              "url": "https://discord.gg/vY7KBZx2M9",
+              "description": "Get in touch with other mappers on Discord",
+              "nameHTML": "<a target=\"_blank\" href=\"https://discord.gg/vY7KBZx2M9\">OSM ABZ Discord</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://discord.gg/vY7KBZx2M9\">https://discord.gg/vY7KBZx2M9</a>",
+              "descriptionHTML": "Get in touch with other mappers on Discord"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-2.094, 57.373],
+            [-2.338, 57.33],
+            [-2.488, 57.217],
+            [-2.487, 57.078],
+            [-2.336, 56.966],
+            [-2.094, 56.924],
+            [-1.852, 56.966],
+            [-1.701, 57.078],
+            [-1.699, 57.217],
+            [-1.849, 57.33],
+            [-2.094, 57.373]
+          ]
+        ]
+      }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -860,6 +904,25 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_at\">OpenStreetMap Austria on Twitter</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_at\">https://twitter.com/osm_at</a>",
               "descriptionHTML": "Follow us on Twitter"
+            }
+          },
+          "at-wiki": {
+            "id": "at-wiki",
+            "type": "wiki",
+            "account": "Austria",
+            "locationSet": {"include": ["at"]},
+            "languageCodes": ["de"],
+            "strings": {
+              "community": "OpenStreetMap Austria",
+              "description": "{community} Wiki page"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Austria WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Austria",
+              "description": "OpenStreetMap Austria Wiki page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Austria\">OpenStreetMap Austria WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Austria\">https://wiki.openstreetmap.org/wiki/Austria</a>",
+              "descriptionHTML": "OpenStreetMap Austria Wiki page"
             }
           },
           "osm-at": {
@@ -3374,6 +3437,46 @@
         "driveSide": "right",
         "area": 1086715.32,
         "resources": {
+          "bo-facebook-group": {
+            "id": "bo-facebook-group",
+            "type": "facebook",
+            "locationSet": {"include": ["bo"]},
+            "languageCodes": ["es"],
+            "order": 3,
+            "strings": {
+              "community": "OpenStreetMap Bolivia",
+              "name": "{community} Facebook Group",
+              "url": "https://www.facebook.com/groups/998551783564879/"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Bolivia Facebook Group",
+              "url": "https://www.facebook.com/groups/998551783564879/",
+              "description": "Join our community on Facebook",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/998551783564879/\">OpenStreetMap Bolivia Facebook Group</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/998551783564879/\">https://www.facebook.com/groups/998551783564879/</a>",
+              "descriptionHTML": "Join our community on Facebook"
+            }
+          },
+          "bo-matrix": {
+            "id": "bo-matrix",
+            "type": "matrix",
+            "account": "#osmbo",
+            "locationSet": {"include": ["bo"]},
+            "languageCodes": ["es"],
+            "order": 2,
+            "strings": {
+              "community": "OpenStreetMap Bolivia",
+              "description": "All mappers are welcome!"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Bolivia Matrix Chat",
+              "url": "https://matrix.to/#/#osmbo:matrix.org",
+              "description": "All mappers are welcome!",
+              "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osmbo:matrix.org\">OpenStreetMap Bolivia Matrix Chat</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osmbo:matrix.org\">https://matrix.to/#/#osmbo:matrix.org</a>",
+              "descriptionHTML": "All mappers are welcome!"
+            }
+          },
           "bo-telegram": {
             "id": "bo-telegram",
             "type": "telegram",
@@ -3388,6 +3491,23 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://t.me/osmbolivia\">OpenStreetMap Bolivia Telegram</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osmbolivia\">https://t.me/osmbolivia</a>",
               "descriptionHTML": "Join our community Telegram chat"
+            }
+          },
+          "bo-twitter": {
+            "id": "bo-twitter",
+            "type": "twitter",
+            "account": "OsmBolivia",
+            "locationSet": {"include": ["bo"]},
+            "languageCodes": ["es"],
+            "order": 3,
+            "strings": {"community": "OpenStreetMap Bolivia"},
+            "resolved": {
+              "name": "OpenStreetMap Bolivia on Twitter",
+              "url": "https://twitter.com/OsmBolivia",
+              "description": "Follow us on Twitter",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OsmBolivia\">OpenStreetMap Bolivia on Twitter</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OsmBolivia\">https://twitter.com/OsmBolivia</a>",
+              "descriptionHTML": "Follow us on Twitter"
             }
           },
           "talk-bo": {
@@ -6374,6 +6494,26 @@
               "descriptionHTML": "Join our community on Facebook"
             }
           },
+          "cm-twitter": {
+            "id": "cm-twitter",
+            "type": "twitter",
+            "account": "OSMCameroun",
+            "locationSet": {"include": ["cm"]},
+            "languageCodes": ["en", "fr"],
+            "order": 1,
+            "strings": {"community": "OpenStreetMap Cameroon"},
+            "contacts": [
+              {"name": "OSM Cameroon", "email": "osmcameroun@gmail.com"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Cameroon on Twitter",
+              "url": "https://twitter.com/OSMCameroun",
+              "description": "Follow us on Twitter",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMCameroun\">OpenStreetMap Cameroon on Twitter</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMCameroun\">https://twitter.com/OSMCameroun</a>",
+              "descriptionHTML": "Follow us on Twitter"
+            }
+          },
           "talk-cm": {
             "id": "talk-cm",
             "type": "mailinglist",
@@ -6614,6 +6754,29 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://t.me/osmchina\">OpenStreetMap China Telegram</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osmchina\">https://t.me/osmchina</a>",
               "descriptionHTML": "Join our community Telegram chat"
+            }
+          },
+          "osm-cn": {
+            "id": "osm-cn",
+            "type": "osm",
+            "locationSet": {"include": ["cn"]},
+            "languageCodes": ["zh"],
+            "order": 6,
+            "strings": {
+              "community": "OpenStreetMap China",
+              "description": "We help grow and improve OpenStreetMap in China.",
+              "url": "https://osmchina.org/"
+            },
+            "contacts": [
+              {"name": "快乐的老鼠宝宝", "email": "keaitianxinmail@qq.com"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap China",
+              "url": "https://osmchina.org/",
+              "description": "We help grow and improve OpenStreetMap in China.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://osmchina.org/\">OpenStreetMap China</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://osmchina.org/\">https://osmchina.org/</a>",
+              "descriptionHTML": "We help grow and improve OpenStreetMap in China."
             }
           }
         }
@@ -7664,28 +7827,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapCo\">OpenStreetMap Colombia on Twitter</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapCo\">https://twitter.com/OpenStreetMapCo</a>",
               "descriptionHTML": "Follow us on Twitter"
-            }
-          },
-          "OSM-CO": {
-            "id": "OSM-CO",
-            "type": "group",
-            "locationSet": {"include": ["co"]},
-            "languageCodes": ["es"],
-            "strings": {
-              "community": "OpenStreetMap Colombia",
-              "description": "News of the OpenStreetMap Colombia community and the OSMCo Foundation",
-              "url": "https://blog.openstreetmap.co/s657"
-            },
-            "contacts": [
-              {"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Colombia",
-              "url": "https://blog.openstreetmap.co/s657",
-              "description": "News of the OpenStreetMap Colombia community and the OSMCo Foundation",
-              "nameHTML": "<a target=\"_blank\" href=\"https://blog.openstreetmap.co/s657\">OpenStreetMap Colombia</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://blog.openstreetmap.co/s657\">https://blog.openstreetmap.co/s657</a>",
-              "descriptionHTML": "News of the OpenStreetMap Colombia community and the OSMCo Foundation"
             }
           },
           "talk-co": {
@@ -8769,6 +8910,25 @@
               "descriptionHTML": "Follow us on Twitter"
             }
           },
+          "de-berlin-wiki": {
+            "id": "de-berlin-wiki",
+            "type": "wiki",
+            "account": "Berlin",
+            "locationSet": {"include": ["de-berlin-brandenburg.geojson"]},
+            "languageCodes": ["de"],
+            "strings": {
+              "community": "OpenStreetMap Berlin",
+              "description": "{community} Wiki page"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Berlin WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Berlin",
+              "description": "OpenStreetMap Berlin Wiki page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Berlin\">OpenStreetMap Berlin WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Berlin\">https://wiki.openstreetmap.org/wiki/Berlin</a>",
+              "descriptionHTML": "OpenStreetMap Berlin Wiki page"
+            }
+          },
           "de-berlin-xmpp": {
             "id": "de-berlin-xmpp",
             "type": "xmpp",
@@ -8834,6 +8994,100 @@
     },
     {
       "type": "Feature",
+      "id": "[7.21873,51.48181]",
+      "properties": {
+        "id": "[7.21873,51.48181]",
+        "area": 1963.5,
+        "resources": {
+          "de-bochum-wiki": {
+            "id": "de-bochum-wiki",
+            "type": "wiki",
+            "account": "Bochum",
+            "locationSet": {"include": [[7.21873, 51.48181]]},
+            "languageCodes": ["de"],
+            "strings": {
+              "community": "OpenStreetMap Bochum",
+              "description": "{community} Wiki page"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Bochum WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Bochum",
+              "description": "OpenStreetMap Bochum Wiki page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Bochum\">OpenStreetMap Bochum WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Bochum\">https://wiki.openstreetmap.org/wiki/Bochum</a>",
+              "descriptionHTML": "OpenStreetMap Bochum Wiki page"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [7.219, 51.706],
+            [7.006, 51.663],
+            [6.875, 51.551],
+            [6.876, 51.412],
+            [7.008, 51.3],
+            [7.219, 51.257],
+            [7.43, 51.3],
+            [7.561, 51.412],
+            [7.562, 51.551],
+            [7.432, 51.663],
+            [7.219, 51.706]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[7.09972,50.73585]",
+      "properties": {
+        "id": "[7.09972,50.73585]",
+        "area": 1963.5,
+        "resources": {
+          "de-bonn-wiki": {
+            "id": "de-bonn-wiki",
+            "type": "wiki",
+            "account": "Bonn",
+            "locationSet": {"include": [[7.09972, 50.73585]]},
+            "languageCodes": ["de"],
+            "strings": {
+              "community": "OpenStreetMap Bonn",
+              "description": "{community} Wiki page"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Bonn WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Bonn",
+              "description": "OpenStreetMap Bonn Wiki page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Bonn\">OpenStreetMap Bonn WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Bonn\">https://wiki.openstreetmap.org/wiki/Bonn</a>",
+              "descriptionHTML": "OpenStreetMap Bonn Wiki page"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [7.1, 50.96],
+            [6.89, 50.917],
+            [6.762, 50.805],
+            [6.763, 50.666],
+            [6.892, 50.554],
+            [7.1, 50.511],
+            [7.307, 50.554],
+            [7.437, 50.666],
+            [7.438, 50.805],
+            [7.309, 50.917],
+            [7.1, 50.96]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "properties": {
         "id": "+[[8.583333,53.55,10],[8.7286,53.1212,25]]",
         "area": 2133.11,
@@ -8858,6 +9112,27 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.de/listinfo/Bremen\">Bremen Mailing List</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.de/listinfo/Bremen\">https://lists.openstreetmap.de/listinfo/Bremen</a>",
               "descriptionHTML": "The official mailing list for OpenStreetMap Bremen"
+            }
+          },
+          "de-bremen-wiki": {
+            "id": "de-bremen-wiki",
+            "type": "wiki",
+            "account": "Bremen",
+            "locationSet": {
+              "include": [[8.7286, 53.1212, 25], [8.583333, 53.55, 10]]
+            },
+            "languageCodes": ["de"],
+            "strings": {
+              "community": "OpenStreetMap Bremen",
+              "description": "{community} Wiki page"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Bremen WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Bremen",
+              "description": "OpenStreetMap Bremen Wiki page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Bremen\">OpenStreetMap Bremen WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Bremen\">https://wiki.openstreetmap.org/wiki/Bremen</a>",
+              "descriptionHTML": "OpenStreetMap Bremen Wiki page"
             }
           }
         }
@@ -8898,6 +9173,147 @@
         ]
       },
       "id": "+[[8.583333,53.55,10],[8.7286,53.1212,25]]"
+    },
+    {
+      "type": "Feature",
+      "id": "[6.95903,50.93836]",
+      "properties": {
+        "id": "[6.95903,50.93836]",
+        "area": 1963.5,
+        "resources": {
+          "de-cologne-wiki": {
+            "id": "de-cologne-wiki",
+            "type": "wiki",
+            "account": "Cologne",
+            "locationSet": {"include": [[6.95903, 50.93836]]},
+            "languageCodes": ["de"],
+            "strings": {
+              "community": "OpenStreetMap Cologne",
+              "description": "{community} Wiki page"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Cologne WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Cologne",
+              "description": "OpenStreetMap Cologne Wiki page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Cologne\">OpenStreetMap Cologne WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Cologne\">https://wiki.openstreetmap.org/wiki/Cologne</a>",
+              "descriptionHTML": "OpenStreetMap Cologne Wiki page"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [6.959, 51.163],
+            [6.749, 51.12],
+            [6.62, 51.007],
+            [6.621, 50.868],
+            [6.75, 50.756],
+            [6.959, 50.714],
+            [7.168, 50.756],
+            [7.297, 50.868],
+            [7.298, 51.007],
+            [7.169, 51.12],
+            [6.959, 51.163]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[13.73721,51.04933]",
+      "properties": {
+        "id": "[13.73721,51.04933]",
+        "area": 1963.5,
+        "resources": {
+          "de-dresden-wiki": {
+            "id": "de-dresden-wiki",
+            "type": "wiki",
+            "account": "Dresden",
+            "locationSet": {"include": [[13.73721, 51.04933]]},
+            "languageCodes": ["de"],
+            "strings": {
+              "community": "OpenStreetMap Dresden",
+              "description": "{community} Wiki page"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Dresden WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Dresden",
+              "description": "OpenStreetMap Dresden Wiki page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Dresden\">OpenStreetMap Dresden WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Dresden\">https://wiki.openstreetmap.org/wiki/Dresden</a>",
+              "descriptionHTML": "OpenStreetMap Dresden Wiki page"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [13.737, 51.274],
+            [13.526, 51.231],
+            [13.397, 51.118],
+            [13.398, 50.979],
+            [13.528, 50.867],
+            [13.737, 50.825],
+            [13.946, 50.867],
+            [14.076, 50.979],
+            [14.077, 51.118],
+            [13.948, 51.231],
+            [13.737, 51.274]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[6.77537,51.2254]",
+      "properties": {
+        "id": "[6.77537,51.2254]",
+        "area": 1963.5,
+        "resources": {
+          "de-dusseldorf-wiki": {
+            "id": "de-dusseldorf-wiki",
+            "type": "wiki",
+            "account": "D%C3%BCsseldorf",
+            "locationSet": {"include": [[6.77537, 51.2254]]},
+            "languageCodes": ["de"],
+            "strings": {
+              "community": "OpenStreetMap Düsseldorf",
+              "description": "{community} Wiki page"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Düsseldorf WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/D%C3%BCsseldorf",
+              "description": "OpenStreetMap Düsseldorf Wiki page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/D%C3%BCsseldorf\">OpenStreetMap Düsseldorf WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/D%C3%BCsseldorf\">https://wiki.openstreetmap.org/wiki/D%C3%BCsseldorf</a>",
+              "descriptionHTML": "OpenStreetMap Düsseldorf Wiki page"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [6.775, 51.45],
+            [6.564, 51.407],
+            [6.434, 51.294],
+            [6.435, 51.156],
+            [6.565, 51.044],
+            [6.775, 51.001],
+            [6.985, 51.044],
+            [7.116, 51.156],
+            [7.117, 51.294],
+            [6.987, 51.407],
+            [6.775, 51.45]
+          ]
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -10068,6 +10484,100 @@
             [8.723, 49.084],
             [8.599, 49.196],
             [8.397, 49.239]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[10.40692,53.24871]",
+      "properties": {
+        "id": "[10.40692,53.24871]",
+        "area": 1963.5,
+        "resources": {
+          "de-luneburg-wiki": {
+            "id": "de-luneburg-wiki",
+            "type": "wiki",
+            "account": "L%C3%BCneburg",
+            "locationSet": {"include": [[10.40692, 53.24871]]},
+            "languageCodes": ["de"],
+            "strings": {
+              "community": "OpenStreetMap Lüneburg",
+              "description": "{community} Wiki page"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Lüneburg WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/L%C3%BCneburg",
+              "description": "OpenStreetMap Lüneburg Wiki page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/L%C3%BCneburg\">OpenStreetMap Lüneburg WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/L%C3%BCneburg\">https://wiki.openstreetmap.org/wiki/L%C3%BCneburg</a>",
+              "descriptionHTML": "OpenStreetMap Lüneburg Wiki page"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [10.407, 53.473],
+            [10.185, 53.43],
+            [10.049, 53.318],
+            [10.051, 53.179],
+            [10.187, 53.067],
+            [10.407, 53.024],
+            [10.627, 53.067],
+            [10.763, 53.179],
+            [10.764, 53.318],
+            [10.628, 53.43],
+            [10.407, 53.473]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[11.57445,48.13711]",
+      "properties": {
+        "id": "[11.57445,48.13711]",
+        "area": 1963.5,
+        "resources": {
+          "de-munchen-wiki": {
+            "id": "de-munchen-wiki",
+            "type": "wiki",
+            "account": "M%C3%BCnchen",
+            "locationSet": {"include": [[11.57445, 48.13711]]},
+            "languageCodes": ["de"],
+            "strings": {
+              "community": "OpenStreetMap München",
+              "description": "{community} Wiki page"
+            },
+            "resolved": {
+              "name": "OpenStreetMap München WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/M%C3%BCnchen",
+              "description": "OpenStreetMap München Wiki page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/M%C3%BCnchen\">OpenStreetMap München WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/M%C3%BCnchen\">https://wiki.openstreetmap.org/wiki/M%C3%BCnchen</a>",
+              "descriptionHTML": "OpenStreetMap München Wiki page"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [11.574, 48.362],
+            [11.376, 48.319],
+            [11.254, 48.206],
+            [11.255, 48.067],
+            [11.377, 47.955],
+            [11.574, 47.913],
+            [11.772, 47.955],
+            [11.894, 48.067],
+            [11.895, 48.206],
+            [11.773, 48.319],
+            [11.574, 48.362]
           ]
         ]
       }
@@ -13178,6 +13688,111 @@
     },
     {
       "type": "Feature",
+      "properties": {
+        "iso1A2": "FJ",
+        "iso1A3": "FJI",
+        "iso1N3": "242",
+        "wikidata": "Q712",
+        "nameEn": "Fiji",
+        "groups": ["054", "009", "UN", "001"],
+        "driveSide": "left",
+        "callingCodes": ["679"],
+        "id": "Q712",
+        "m49": "242",
+        "ccTLD": ".fj",
+        "isoStatus": "official",
+        "level": "country",
+        "emojiFlag": "🇫🇯",
+        "roadSpeedUnit": "km/h",
+        "roadHeightUnit": "m",
+        "area": 1090704.83,
+        "resources": {
+          "fj-facebook": {
+            "id": "fj-facebook",
+            "type": "facebook",
+            "account": "OSM-Fiji-110457007776664",
+            "locationSet": {"include": ["fj"]},
+            "languageCodes": ["en"],
+            "order": 3,
+            "strings": {"community": "OpenStreetMap Fiji"},
+            "resolved": {
+              "name": "OpenStreetMap Fiji on Facebook",
+              "url": "https://facebook.com/OSM-Fiji-110457007776664",
+              "description": "Join our community on Facebook",
+              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSM-Fiji-110457007776664\">OpenStreetMap Fiji on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSM-Fiji-110457007776664\">https://facebook.com/OSM-Fiji-110457007776664</a>",
+              "descriptionHTML": "Join our community on Facebook"
+            }
+          },
+          "fj-twitter": {
+            "id": "fj-twitter",
+            "type": "twitter",
+            "account": "OSMFiji",
+            "locationSet": {"include": ["fj"]},
+            "languageCodes": ["en"],
+            "order": 2,
+            "strings": {"community": "OpenStreetMap Fiji"},
+            "resolved": {
+              "name": "OpenStreetMap Fiji on Twitter",
+              "url": "https://twitter.com/OSMFiji",
+              "description": "Follow us on Twitter",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMFiji\">OpenStreetMap Fiji on Twitter</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMFiji\">https://twitter.com/OSMFiji</a>",
+              "descriptionHTML": "Follow us on Twitter"
+            }
+          },
+          "osm-fj": {
+            "id": "osm-fj",
+            "type": "osm",
+            "locationSet": {"include": ["fj"]},
+            "languageCodes": ["en"],
+            "order": 1,
+            "strings": {
+              "community": "OpenStreetMap Fiji",
+              "description": "Provide OSM services and information for the local community in Fiji",
+              "url": "https://openstreetmapfiji.com/"
+            },
+            "contacts": [
+              {"name": "OpenStreetMap Fiji", "email": "OSMFiji@gmail.com"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Fiji",
+              "url": "https://openstreetmapfiji.com/",
+              "description": "Provide OSM services and information for the local community in Fiji",
+              "nameHTML": "<a target=\"_blank\" href=\"https://openstreetmapfiji.com/\">OpenStreetMap Fiji</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://openstreetmapfiji.com/\">https://openstreetmapfiji.com/</a>",
+              "descriptionHTML": "Provide OSM services and information for the local community in Fiji"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [174.245, -23.1974],
+              [179.99999, -22.5],
+              [179.99999, -11.5],
+              [174, -11.5],
+              [174.245, -23.1974]
+            ]
+          ],
+          [
+            [
+              [-176.76826, -14.95183],
+              [-180, -14.96041],
+              [-180, -22.90585],
+              [-176.74538, -22.89767],
+              [-176.76826, -14.95183]
+            ]
+          ]
+        ]
+      },
+      "id": "Q712"
+    },
+    {
+      "type": "Feature",
       "id": "fr-35.geojson",
       "properties": {
         "id": "fr-35.geojson",
@@ -13185,22 +13800,22 @@
         "resources": {
           "fr-35-wiki": {
             "id": "fr-35-wiki",
-            "type": "osm",
+            "type": "wiki",
+            "account": "Rennes",
             "locationSet": {"include": ["fr-35.geojson"]},
             "languageCodes": ["fr"],
             "order": 8,
             "strings": {
-              "name": "OpenStreetMap Rennes Wiki page",
-              "description": "Wiki page of Rennes OSM local group",
-              "url": "https://wiki.openstreetmap.org/wiki/Rennes"
+              "community": "OpenStreetMap Rennes",
+              "description": "{community} Wiki page"
             },
             "resolved": {
-              "name": "OpenStreetMap Rennes Wiki page",
+              "name": "OpenStreetMap Rennes WikiProject",
               "url": "https://wiki.openstreetmap.org/wiki/Rennes",
-              "description": "Wiki page of Rennes OSM local group",
-              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Rennes\">OpenStreetMap Rennes Wiki page</a>",
+              "description": "OpenStreetMap Rennes Wiki page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Rennes\">OpenStreetMap Rennes WikiProject</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Rennes\">https://wiki.openstreetmap.org/wiki/Rennes</a>",
-              "descriptionHTML": "Wiki page of Rennes OSM local group"
+              "descriptionHTML": "OpenStreetMap Rennes Wiki page"
             }
           }
         }
@@ -13243,21 +13858,21 @@
         "resources": {
           "fr-38-wiki": {
             "id": "fr-38-wiki",
-            "type": "osm",
+            "type": "wiki",
+            "account": "Grenoble_groupe_local",
             "locationSet": {"include": [[5.7019, 45.1816]]},
             "languageCodes": ["fr"],
             "strings": {
-              "name": "OpenStreetMap Grenoble Wiki page",
-              "description": "Wiki page of Grenoble OSM local group",
-              "url": "https://wiki.openstreetmap.org/wiki/Grenoble_groupe_local"
+              "community": "OpenStreetMap Grenoble",
+              "description": "{community} Wiki page"
             },
             "resolved": {
-              "name": "OpenStreetMap Grenoble Wiki page",
+              "name": "OpenStreetMap Grenoble WikiProject",
               "url": "https://wiki.openstreetmap.org/wiki/Grenoble_groupe_local",
-              "description": "Wiki page of Grenoble OSM local group",
-              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Grenoble_groupe_local\">OpenStreetMap Grenoble Wiki page</a>",
+              "description": "OpenStreetMap Grenoble Wiki page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Grenoble_groupe_local\">OpenStreetMap Grenoble WikiProject</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Grenoble_groupe_local\">https://wiki.openstreetmap.org/wiki/Grenoble_groupe_local</a>",
-              "descriptionHTML": "Wiki page of Grenoble OSM local group"
+              "descriptionHTML": "OpenStreetMap Grenoble Wiki page"
             }
           }
         }
@@ -13452,6 +14067,26 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://www.openstreetmap.fr/\">OpenStreetMap France</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://www.openstreetmap.fr/\">https://www.openstreetmap.fr/</a>",
               "descriptionHTML": "We help grow and improve OpenStreetMap in France."
+            }
+          },
+          "fr-discord": {
+            "id": "fr-discord",
+            "type": "discord",
+            "account": "wxNGfdT",
+            "locationSet": {"include": ["fr"]},
+            "languageCodes": ["fr"],
+            "order": 6,
+            "strings": {
+              "community": "OpenStreetMap France",
+              "name": "Discord Communauté OpenStreetMap de France"
+            },
+            "resolved": {
+              "name": "Discord Communauté OpenStreetMap de France",
+              "url": "https://discord.gg/wxNGfdT",
+              "description": "Get in touch with other mappers on Discord",
+              "nameHTML": "<a target=\"_blank\" href=\"https://discord.gg/wxNGfdT\">Discord Communauté OpenStreetMap de France</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://discord.gg/wxNGfdT\">https://discord.gg/wxNGfdT</a>",
+              "descriptionHTML": "Get in touch with other mappers on Discord"
             }
           },
           "fr-facebook": {
@@ -14440,6 +15075,88 @@
         ]
       },
       "id": "Q142"
+    },
+    {
+      "type": "Feature",
+      "id": "[2.31943,48.81885]",
+      "properties": {
+        "id": "[2.31943,48.81885]",
+        "area": 1963.5,
+        "resources": {
+          "fr-montrouge-twitter": {
+            "id": "fr-montrouge-twitter",
+            "type": "twitter",
+            "account": "osmontrouge",
+            "locationSet": {"include": [[2.31943, 48.81885]]},
+            "languageCodes": ["fr"],
+            "strings": {"community": "OpenStreetMap Montrouge"},
+            "resolved": {
+              "name": "OpenStreetMap Montrouge on Twitter",
+              "url": "https://twitter.com/osmontrouge",
+              "description": "Follow us on Twitter",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmontrouge\">OpenStreetMap Montrouge on Twitter</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmontrouge\">https://twitter.com/osmontrouge</a>",
+              "descriptionHTML": "Follow us on Twitter"
+            }
+          },
+          "fr-montrouge-website": {
+            "id": "fr-montrouge-website",
+            "type": "osm",
+            "locationSet": {"include": [[2.31943, 48.81885]]},
+            "languageCodes": ["fr"],
+            "strings": {
+              "community": "OpenStreetMap Montrouge",
+              "description": "OSM information for the local community in Montrouge",
+              "url": "https://osmontrouge.fr/about"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Montrouge",
+              "url": "https://osmontrouge.fr/about",
+              "description": "OSM information for the local community in Montrouge",
+              "nameHTML": "<a target=\"_blank\" href=\"https://osmontrouge.fr/about\">OpenStreetMap Montrouge</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://osmontrouge.fr/about\">https://osmontrouge.fr/about</a>",
+              "descriptionHTML": "OSM information for the local community in Montrouge"
+            }
+          },
+          "fr-montrouge-wiki": {
+            "id": "fr-montrouge-wiki",
+            "type": "wiki",
+            "account": "Montrouge",
+            "locationSet": {"include": [[2.31943, 48.81885]]},
+            "languageCodes": ["fr"],
+            "strings": {
+              "community": "OpenStreetMap Montrouge",
+              "description": "{community} Wiki page"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Montrouge WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Montrouge",
+              "description": "OpenStreetMap Montrouge Wiki page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Montrouge\">OpenStreetMap Montrouge WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Montrouge\">https://wiki.openstreetmap.org/wiki/Montrouge</a>",
+              "descriptionHTML": "OpenStreetMap Montrouge Wiki page"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [2.319, 49.043],
+            [2.118, 49],
+            [1.995, 48.888],
+            [1.995, 48.749],
+            [2.12, 48.637],
+            [2.319, 48.594],
+            [2.519, 48.637],
+            [2.643, 48.749],
+            [2.644, 48.888],
+            [2.521, 49],
+            [2.319, 49.043]
+          ]
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -15963,22 +16680,39 @@
           "hu-facebook": {
             "id": "hu-facebook",
             "type": "facebook",
-            "account": "osm.hu",
+            "account": "OpenStreetMap.hu",
+            "locationSet": {"include": ["hu"]},
+            "languageCodes": ["hu"],
+            "order": 3,
+            "strings": {"community": "OpenStreetMap Hungary"},
+            "resolved": {
+              "name": "OpenStreetMap Hungary on Facebook",
+              "url": "https://facebook.com/OpenStreetMap.hu",
+              "description": "Join our community on Facebook",
+              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMap.hu\">OpenStreetMap Hungary on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMap.hu\">https://facebook.com/OpenStreetMap.hu</a>",
+              "descriptionHTML": "Join our community on Facebook"
+            }
+          },
+          "hu-facebook-group": {
+            "id": "hu-facebook-group",
+            "type": "facebook",
             "locationSet": {"include": ["hu"]},
             "languageCodes": ["hu"],
             "order": 3,
             "strings": {
               "community": "OpenStreetMap Hungary",
+              "name": "{community} Facebook Group",
               "url": "https://www.facebook.com/groups/osm.hu"
             },
             "contacts": [
               {"name": "Ferenc Veres", "email": "info@openstreetmap.hu"}
             ],
             "resolved": {
-              "name": "OpenStreetMap Hungary on Facebook",
+              "name": "OpenStreetMap Hungary Facebook Group",
               "url": "https://www.facebook.com/groups/osm.hu",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/osm.hu\">OpenStreetMap Hungary on Facebook</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/osm.hu\">OpenStreetMap Hungary Facebook Group</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/osm.hu\">https://www.facebook.com/groups/osm.hu</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
@@ -16090,6 +16824,45 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://tm.osm.grin.hu/\">OpenStreetMap Hungary Tasking Manager</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://tm.osm.grin.hu/\">https://tm.osm.grin.hu/</a>",
               "descriptionHTML": "Explore active mapping tasks in Hungary"
+            }
+          },
+          "hu-website": {
+            "id": "hu-website",
+            "type": "osm",
+            "locationSet": {"include": ["hu"]},
+            "languageCodes": ["hu"],
+            "order": 1,
+            "strings": {
+              "community": "OpenStreetMap Hungary",
+              "description": "We help grow and improve OpenStreetMap in Hungary.",
+              "url": "https://www.openstreetmap.hu/"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Hungary",
+              "url": "https://www.openstreetmap.hu/",
+              "description": "We help grow and improve OpenStreetMap in Hungary.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.openstreetmap.hu/\">OpenStreetMap Hungary</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.openstreetmap.hu/\">https://www.openstreetmap.hu/</a>",
+              "descriptionHTML": "We help grow and improve OpenStreetMap in Hungary."
+            }
+          },
+          "hu-wiki": {
+            "id": "hu-wiki",
+            "type": "wiki",
+            "account": "Hungary",
+            "locationSet": {"include": ["hu"]},
+            "languageCodes": ["hu"],
+            "strings": {
+              "community": "OpenStreetMap Hungary",
+              "description": "{community} Wiki page"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Hungary WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Hungary",
+              "description": "OpenStreetMap Hungary Wiki page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Hungary\">OpenStreetMap Hungary WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Hungary\">https://wiki.openstreetmap.org/wiki/Hungary</a>",
+              "descriptionHTML": "OpenStreetMap Hungary Wiki page"
             }
           }
         }
@@ -16690,11 +17463,35 @@
           "id-facebook": {
             "id": "id-facebook",
             "type": "facebook",
-            "account": "osm.id",
+            "account": "openstreetmap.id",
             "locationSet": {"include": ["id"]},
             "order": 1,
             "strings": {
               "community": "OpenStreetMap Indonesia",
+              "extendedDescription": "Mapping in Indonesia? Have questions, want to connect with the community here? Join us at {url}. All are welcome!"
+            },
+            "contacts": [
+              {"name": "Yantisa Akhadi", "email": "yantisa.akhadi@hotosm.org"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Indonesia on Facebook",
+              "url": "https://facebook.com/openstreetmap.id",
+              "description": "Join our community on Facebook",
+              "extendedDescription": "Mapping in Indonesia? Have questions, want to connect with the community here? Join us at https://facebook.com/openstreetmap.id. All are welcome!",
+              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/openstreetmap.id\">OpenStreetMap Indonesia on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/openstreetmap.id\">https://facebook.com/openstreetmap.id</a>",
+              "descriptionHTML": "Join our community on Facebook",
+              "extendedDescriptionHTML": "Mapping in Indonesia? Have questions, want to connect with the community here? Join us at <a target=\"_blank\" href=\"https://facebook.com/openstreetmap.id\">https://facebook.com/openstreetmap.id</a>. All are welcome!"
+            }
+          },
+          "id-facebook-group": {
+            "id": "id-facebook-group",
+            "type": "facebook",
+            "locationSet": {"include": ["id"]},
+            "order": 1,
+            "strings": {
+              "community": "OpenStreetMap Indonesia",
+              "name": "{community} Facebook Group",
               "extendedDescription": "Mapping in Indonesia? Have questions, want to connect with the community here? Join us at {url}. All are welcome!",
               "url": "https://www.facebook.com/groups/osm.id"
             },
@@ -16702,11 +17499,11 @@
               {"name": "Yantisa Akhadi", "email": "yantisa.akhadi@hotosm.org"}
             ],
             "resolved": {
-              "name": "OpenStreetMap Indonesia on Facebook",
+              "name": "OpenStreetMap Indonesia Facebook Group",
               "url": "https://www.facebook.com/groups/osm.id",
               "description": "Join our community on Facebook",
               "extendedDescription": "Mapping in Indonesia? Have questions, want to connect with the community here? Join us at https://www.facebook.com/groups/osm.id. All are welcome!",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/osm.id\">OpenStreetMap Indonesia on Facebook</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/osm.id\">OpenStreetMap Indonesia Facebook Group</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/osm.id\">https://www.facebook.com/groups/osm.id</a>",
               "descriptionHTML": "Join our community on Facebook",
               "extendedDescriptionHTML": "Mapping in Indonesia? Have questions, want to connect with the community here? Join us at <a target=\"_blank\" href=\"https://www.facebook.com/groups/osm.id\">https://www.facebook.com/groups/osm.id</a>. All are welcome!"
@@ -16727,6 +17524,21 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=82\">OpenStreetMap Indonesia Forum</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=82\">https://forum.openstreetmap.org/viewforum.php?id=82</a>",
               "descriptionHTML": "The official forum for OpenStreetMap Indonesia"
+            }
+          },
+          "id-linkedin": {
+            "id": "id-linkedin",
+            "type": "linkedin",
+            "account": "openstreetmap-indonesia",
+            "locationSet": {"include": ["id"]},
+            "strings": {"community": "OpenStreetMap Indonesia"},
+            "resolved": {
+              "name": "OpenStreetMap Indonesia on LinkedIn",
+              "url": "https://linkedin.com/company/openstreetmap-indonesia",
+              "description": "Join our community on LinkedIn",
+              "nameHTML": "<a target=\"_blank\" href=\"https://linkedin.com/company/openstreetmap-indonesia\">OpenStreetMap Indonesia on LinkedIn</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://linkedin.com/company/openstreetmap-indonesia\">https://linkedin.com/company/openstreetmap-indonesia</a>",
+              "descriptionHTML": "Join our community on LinkedIn"
             }
           },
           "id-telegram": {
@@ -16761,6 +17573,48 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_ID\">OpenStreetMap Indonesia on Twitter</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_ID\">https://twitter.com/OSM_ID</a>",
               "descriptionHTML": "Follow us on Twitter"
+            }
+          },
+          "id-youtube": {
+            "id": "id-youtube",
+            "type": "youtube",
+            "account": "UCRqMbcsT9ummMvByc1BlsDQ",
+            "locationSet": {"include": ["id"]},
+            "languageCodes": ["id"],
+            "strings": {"community": "OpenStreetMap Indonesia"},
+            "contacts": [
+              {
+                "name": "OpenStreetMap Indonesia",
+                "email": "perkumpulan@openstreetmap.id"
+              }
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Indonesia on YouTube",
+              "url": "https://www.youtube.com/channel/UCRqMbcsT9ummMvByc1BlsDQ",
+              "description": "Subscribe to our YouTube channel",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.youtube.com/channel/UCRqMbcsT9ummMvByc1BlsDQ\">OpenStreetMap Indonesia on YouTube</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.youtube.com/channel/UCRqMbcsT9ummMvByc1BlsDQ\">https://www.youtube.com/channel/UCRqMbcsT9ummMvByc1BlsDQ</a>",
+              "descriptionHTML": "Subscribe to our YouTube channel"
+            }
+          },
+          "osm-id": {
+            "id": "osm-id",
+            "type": "osm",
+            "locationSet": {"include": ["id"]},
+            "languageCodes": ["id"],
+            "order": 1,
+            "strings": {
+              "community": "OpenStreetMap Indonesia",
+              "description": "Provides OSM services and information for the local community in Indonesia",
+              "url": "https://openstreetmap.or.id/"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Indonesia",
+              "url": "https://openstreetmap.or.id/",
+              "description": "Provides OSM services and information for the local community in Indonesia",
+              "nameHTML": "<a target=\"_blank\" href=\"https://openstreetmap.or.id/\">OpenStreetMap Indonesia</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://openstreetmap.or.id/\">https://openstreetmap.or.id/</a>",
+              "descriptionHTML": "Provides OSM services and information for the local community in Indonesia"
             }
           },
           "talk-id": {
@@ -17221,6 +18075,29 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#_oftc_#osm-ie:matrix.org\">OpenStreetMap Ireland Matrix Chat</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#_oftc_#osm-ie:matrix.org\">https://matrix.to/#/#_oftc_#osm-ie:matrix.org</a>",
               "descriptionHTML": "A Matrix gateway for the OSM Ireland IRC channel: <a target=\"_blank\" href=\"https://matrix.to/#/#_oftc_#osm-ie:matrix.org\">https://matrix.to/#/#_oftc_#osm-ie:matrix.org</a>"
+            }
+          },
+          "ireland-meetup": {
+            "id": "ireland-meetup",
+            "type": "meetup",
+            "account": "OpenStreetMap-Ireland-Meetup-Group",
+            "locationSet": {"include": ["gb-nir", "ie"]},
+            "languageCodes": ["ie"],
+            "order": 6,
+            "strings": {
+              "community": "OpenStreetMap Ireland",
+              "description": "Meetups of everyone who is interested in OpenStreetMap"
+            },
+            "contacts": [
+              {"name": "OSM Ireland", "email": "board@openstreetmap.ie"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Ireland Meetup",
+              "url": "https://meetup.com/OpenStreetMap-Ireland-Meetup-Group",
+              "description": "Meetups of everyone who is interested in OpenStreetMap",
+              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/OpenStreetMap-Ireland-Meetup-Group\">OpenStreetMap Ireland Meetup</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/OpenStreetMap-Ireland-Meetup-Group\">https://meetup.com/OpenStreetMap-Ireland-Meetup-Group</a>",
+              "descriptionHTML": "Meetups of everyone who is interested in OpenStreetMap"
             }
           },
           "ireland-telegram": {
@@ -18148,6 +19025,65 @@
         ]
       },
       "id": "Q424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iso1A2": "KI",
+        "iso1A3": "KIR",
+        "iso1N3": "296",
+        "wikidata": "Q710",
+        "nameEn": "Kiribati",
+        "groups": ["057", "009", "UN", "001"],
+        "driveSide": "left",
+        "callingCodes": ["686"],
+        "id": "Q710",
+        "m49": "296",
+        "ccTLD": ".ki",
+        "isoStatus": "official",
+        "level": "country",
+        "emojiFlag": "🇰🇮",
+        "roadSpeedUnit": "km/h",
+        "roadHeightUnit": "m",
+        "area": 4846202.62,
+        "resources": {
+          "kiribati-women-in-mapping": {
+            "id": "kiribati-women-in-mapping",
+            "type": "facebook",
+            "account": "womeninmappingkiribati",
+            "locationSet": {"include": ["ki"]},
+            "languageCodes": ["en"],
+            "strings": {"community": "Kiribati Women in Mapping"},
+            "resolved": {
+              "name": "Kiribati Women in Mapping on Facebook",
+              "url": "https://facebook.com/womeninmappingkiribati",
+              "description": "Join our community on Facebook",
+              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/womeninmappingkiribati\">Kiribati Women in Mapping on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/womeninmappingkiribati\">https://facebook.com/womeninmappingkiribati</a>",
+              "descriptionHTML": "Join our community on Facebook"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [[[169, 3.9], [169, -3.5], [178, -3.5], [178, 3.9], [169, 3.9]]],
+          [
+            [
+              [-161.06795, 5.2462],
+              [-158.12991, -1.86122],
+              [-175.33482, -1.40631],
+              [-175.31804, -7.54825],
+              [-156.50903, -7.4975],
+              [-156.48634, -15.52824],
+              [-135.59706, -4.70473],
+              [-161.06795, 5.2462]
+            ]
+          ]
+        ]
+      },
+      "id": "Q710"
     },
     {
       "type": "Feature",
@@ -21766,8 +22702,8 @@
         "id": "bogota.geojson",
         "area": 3842.38,
         "resources": {
-          "Maptime-Bogota": {
-            "id": "Maptime-Bogota",
+          "maptime-bogota-meetup": {
+            "id": "maptime-bogota-meetup",
             "type": "meetup",
             "account": "maptime-bogota-colombia-osm",
             "locationSet": {"include": ["bogota.geojson"]},
@@ -21777,7 +22713,7 @@
               "community": "MaptimeBogota",
               "name": "MaptimeBogotá",
               "description": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
-              "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap.  It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun."
+              "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun."
             },
             "contacts": [
               {"name": "Andrés Gómez Casanova", "email": "angoca@gmail.com"}
@@ -21786,11 +22722,65 @@
               "name": "MaptimeBogotá",
               "url": "https://meetup.com/maptime-bogota-colombia-osm",
               "description": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
-              "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap.  It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun.",
+              "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun.",
               "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/maptime-bogota-colombia-osm\">MaptimeBogotá</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/maptime-bogota-colombia-osm\">https://meetup.com/maptime-bogota-colombia-osm</a>",
               "descriptionHTML": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
-              "extendedDescriptionHTML": "Learn to collect data in the field and digitize onto OpenStreetMap.  It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun."
+              "extendedDescriptionHTML": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun."
+            }
+          },
+          "maptime-bogota-twitter": {
+            "id": "maptime-bogota-twitter",
+            "type": "twitter",
+            "account": "MaptimeBogota",
+            "locationSet": {"include": ["bogota.geojson"]},
+            "languageCodes": ["es"],
+            "order": 5,
+            "strings": {
+              "community": "MaptimeBogota",
+              "name": "MaptimeBogotá",
+              "description": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+              "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun."
+            },
+            "contacts": [
+              {"name": "Andrés Gómez Casanova", "email": "angoca@gmail.com"}
+            ],
+            "resolved": {
+              "name": "MaptimeBogotá",
+              "url": "https://twitter.com/MaptimeBogota",
+              "description": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+              "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/MaptimeBogota\">MaptimeBogotá</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/MaptimeBogota\">https://twitter.com/MaptimeBogota</a>",
+              "descriptionHTML": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+              "extendedDescriptionHTML": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun."
+            }
+          },
+          "maptime-bogota-website": {
+            "id": "maptime-bogota-website",
+            "type": "osm",
+            "locationSet": {"include": ["bogota.geojson"]},
+            "languageCodes": ["es"],
+            "order": 5,
+            "strings": {
+              "community": "MaptimeBogota",
+              "name": "MaptimeBogotá",
+              "description": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+              "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun.",
+              "url": "https://maptime.io/bogota/"
+            },
+            "contacts": [
+              {"name": "Andrés Gómez Casanova", "email": "angoca@gmail.com"}
+            ],
+            "resolved": {
+              "name": "MaptimeBogotá",
+              "url": "https://maptime.io/bogota/",
+              "description": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+              "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://maptime.io/bogota/\">MaptimeBogotá</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://maptime.io/bogota/\">https://maptime.io/bogota/</a>",
+              "descriptionHTML": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+              "extendedDescriptionHTML": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun."
             }
           }
         }
@@ -24354,6 +25344,22 @@
               "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osm_mx\">https://t.me/osm_mx</a>",
               "descriptionHTML": "Join our community Telegram chat"
             }
+          },
+          "mx-twitter": {
+            "id": "mx-twitter",
+            "type": "twitter",
+            "account": "openstreetmapmx",
+            "locationSet": {"include": ["mx"]},
+            "languageCodes": ["es"],
+            "strings": {"community": "OpenStreetMap Mexico"},
+            "resolved": {
+              "name": "OpenStreetMap Mexico on Twitter",
+              "url": "https://twitter.com/openstreetmapmx",
+              "description": "Follow us on Twitter",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/openstreetmapmx\">OpenStreetMap Mexico on Twitter</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/openstreetmapmx\">https://twitter.com/openstreetmapmx</a>",
+              "descriptionHTML": "Follow us on Twitter"
+            }
           }
         }
       },
@@ -25410,6 +26416,26 @@
               "descriptionHTML": "The official forum for OpenStreetMap Netherlands"
             }
           },
+          "nl-matrix": {
+            "id": "nl-matrix",
+            "type": "matrix",
+            "account": "#osm-netherlands",
+            "locationSet": {"include": ["nl"]},
+            "languageCodes": ["nl"],
+            "order": 6,
+            "strings": {
+              "community": "OpenStreetMap Netherlands",
+              "description": "All mappers are welcome!"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Netherlands Matrix Chat",
+              "url": "https://matrix.to/#/#osm-netherlands:matrix.org",
+              "description": "All mappers are welcome!",
+              "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osm-netherlands:matrix.org\">OpenStreetMap Netherlands Matrix Chat</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osm-netherlands:matrix.org\">https://matrix.to/#/#osm-netherlands:matrix.org</a>",
+              "descriptionHTML": "All mappers are welcome!"
+            }
+          },
           "nl-telegram": {
             "id": "nl-telegram",
             "type": "telegram",
@@ -25428,26 +26454,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://t.me/osm_nl\">OpenStreetMap Netherlands Telegram</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osm_nl\">https://t.me/osm_nl</a>",
               "descriptionHTML": "Join our community Telegram chat"
-            }
-          },
-          "nl-wonderme": {
-            "id": "nl-wonderme",
-            "type": "url",
-            "locationSet": {"include": ["nl"]},
-            "languageCodes": ["nl"],
-            "strings": {
-              "community": "OpenStreetMap Netherlands",
-              "name": "{community} on Wonder.me",
-              "description": "Virtual meeting room",
-              "url": "https://tiny.cc/osmnl"
-            },
-            "resolved": {
-              "name": "OpenStreetMap Netherlands on Wonder.me",
-              "url": "https://tiny.cc/osmnl",
-              "description": "Virtual meeting room",
-              "nameHTML": "<a target=\"_blank\" href=\"https://tiny.cc/osmnl\">OpenStreetMap Netherlands on Wonder.me</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://tiny.cc/osmnl\">https://tiny.cc/osmnl</a>",
-              "descriptionHTML": "Virtual meeting room"
             }
           },
           "talk-nl": {
@@ -26975,6 +27981,116 @@
         ],
         "area": 40342340.25,
         "resources": {
+          "osm-africa-eventbrite": {
+            "id": "osm-africa-eventbrite",
+            "type": "url",
+            "locationSet": {"include": ["002"]},
+            "languageCodes": ["en", "fr"],
+            "strings": {
+              "community": "OpenStreetMap Africa",
+              "name": "{community} EventBrite",
+              "description": "{community} EventBrite page",
+              "url": "https://www.eventbrite.com/o/osm-africa-33169584077"
+            },
+            "contacts": [
+              {"name": "OSM Africa", "email": "info@openstreetmap.africa"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Africa EventBrite",
+              "url": "https://www.eventbrite.com/o/osm-africa-33169584077",
+              "description": "OpenStreetMap Africa EventBrite page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.eventbrite.com/o/osm-africa-33169584077\">OpenStreetMap Africa EventBrite</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.eventbrite.com/o/osm-africa-33169584077\">https://www.eventbrite.com/o/osm-africa-33169584077</a>",
+              "descriptionHTML": "OpenStreetMap Africa EventBrite page"
+            }
+          },
+          "osm-africa-facebook": {
+            "id": "osm-africa-facebook",
+            "type": "facebook",
+            "account": "OpenStreetMapAfrica",
+            "locationSet": {"include": ["002"]},
+            "strings": {"community": "OpenStreetMap Africa"},
+            "contacts": [
+              {"name": "OSM Africa", "email": "info@openstreetmap.africa"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Africa on Facebook",
+              "url": "https://facebook.com/OpenStreetMapAfrica",
+              "description": "Join our community on Facebook",
+              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMapAfrica\">OpenStreetMap Africa on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMapAfrica\">https://facebook.com/OpenStreetMapAfrica</a>",
+              "descriptionHTML": "Join our community on Facebook"
+            }
+          },
+          "osm-africa-facebook-group": {
+            "id": "osm-africa-facebook-group",
+            "type": "facebook",
+            "locationSet": {"include": ["002"]},
+            "languageCodes": ["en", "fr"],
+            "strings": {
+              "community": "OpenStreetMap Africa",
+              "name": "{community} Facebook Group",
+              "url": "https://www.facebook.com/groups/1419060541659078"
+            },
+            "contacts": [
+              {"name": "OSM Africa", "email": "info@openstreetmap.africa"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Africa Facebook Group",
+              "url": "https://www.facebook.com/groups/1419060541659078",
+              "description": "Join our community on Facebook",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/1419060541659078\">OpenStreetMap Africa Facebook Group</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/1419060541659078\">https://www.facebook.com/groups/1419060541659078</a>",
+              "descriptionHTML": "Join our community on Facebook"
+            }
+          },
+          "osm-africa-matrix": {
+            "id": "osm-africa-matrix",
+            "type": "matrix",
+            "account": "#osmafrica",
+            "locationSet": {"include": ["002"]},
+            "languageCodes": ["en", "fr"],
+            "strings": {
+              "community": "OpenStreetMap Africa",
+              "description": "All mappers are welcome!"
+            },
+            "contacts": [
+              {"name": "OSM Africa", "email": "info@openstreetmap.africa"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Africa Matrix Chat",
+              "url": "https://matrix.to/#/#osmafrica:matrix.org",
+              "description": "All mappers are welcome!",
+              "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osmafrica:matrix.org\">OpenStreetMap Africa Matrix Chat</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osmafrica:matrix.org\">https://matrix.to/#/#osmafrica:matrix.org</a>",
+              "descriptionHTML": "All mappers are welcome!"
+            }
+          },
+          "osm-africa-slack": {
+            "id": "osm-africa-slack",
+            "type": "slack",
+            "locationSet": {"include": ["002"]},
+            "languageCodes": ["en", "fr"],
+            "strings": {
+              "community": "OpenStreetMap Africa",
+              "description": "All are welcome! Sign up at {signupUrl}",
+              "signupUrl": "https://osmafrica.slack.com/",
+              "url": "https://osmafrica.slack.com/"
+            },
+            "contacts": [
+              {"name": "OSM Africa", "email": "info@openstreetmap.africa"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Africa Slack",
+              "url": "https://osmafrica.slack.com/",
+              "signupUrl": "https://osmafrica.slack.com/",
+              "description": "All are welcome! Sign up at https://osmafrica.slack.com/",
+              "nameHTML": "<a target=\"_blank\" href=\"https://osmafrica.slack.com/\">OpenStreetMap Africa Slack</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://osmafrica.slack.com/\">https://osmafrica.slack.com/</a>",
+              "signupUrlHTML": "<a target=\"_blank\" href=\"https://osmafrica.slack.com/\">https://osmafrica.slack.com/</a>",
+              "descriptionHTML": "All are welcome! Sign up at <a target=\"_blank\" href=\"https://osmafrica.slack.com/\">https://osmafrica.slack.com/</a>"
+            }
+          },
           "osm-africa-telegram": {
             "id": "osm-africa-telegram",
             "type": "telegram",
@@ -26991,6 +28107,24 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://t.me/OSMAfrica\">OpenStreetMap Africa Telegram</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://t.me/OSMAfrica\">https://t.me/OSMAfrica</a>",
               "descriptionHTML": "Join our community Telegram chat"
+            }
+          },
+          "osm-africa-twitter": {
+            "id": "osm-africa-twitter",
+            "type": "twitter",
+            "account": "osmafrica",
+            "locationSet": {"include": ["002"]},
+            "strings": {"community": "OpenStreetMap Africa"},
+            "contacts": [
+              {"name": "OSM Africa", "email": "info@openstreetmap.africa"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Africa on Twitter",
+              "url": "https://twitter.com/osmafrica",
+              "description": "Follow us on Twitter",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmafrica\">OpenStreetMap Africa on Twitter</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmafrica\">https://twitter.com/osmafrica</a>",
+              "descriptionHTML": "Follow us on Twitter"
             }
           },
           "talk-africa": {
@@ -31103,6 +32237,25 @@
               "descriptionHTML": "Follow us on Twitter"
             }
           },
+          "osm-gh-website": {
+            "id": "osm-gh-website",
+            "type": "osm",
+            "locationSet": {"include": ["gh"]},
+            "languageCodes": ["en"],
+            "strings": {
+              "community": "OpenStreetMap Ghana",
+              "description": "Provides OSM services and information for the local community in Ghana",
+              "url": "https://osmghana.org/"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Ghana",
+              "url": "https://osmghana.org/",
+              "description": "Provides OSM services and information for the local community in Ghana",
+              "nameHTML": "<a target=\"_blank\" href=\"https://osmghana.org/\">OpenStreetMap Ghana</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://osmghana.org/\">https://osmghana.org/</a>",
+              "descriptionHTML": "Provides OSM services and information for the local community in Ghana"
+            }
+          },
           "talk-gh": {
             "id": "talk-gh",
             "type": "mailinglist",
@@ -31455,6 +32608,50 @@
         ]
       },
       "id": "Q1006"
+    },
+    {
+      "type": "Feature",
+      "id": "[21.00578,52.23196]",
+      "properties": {
+        "id": "[21.00578,52.23196]",
+        "area": 1963.5,
+        "resources": {
+          "osm-gora-kalwaria-telegram": {
+            "id": "osm-gora-kalwaria-telegram",
+            "type": "telegram",
+            "account": "OSM_Gora_Kalwaria",
+            "locationSet": {"include": [[21.00578, 52.23196]]},
+            "languageCodes": ["pl"],
+            "strings": {"community": "OpenStreetMap Góra Kalwaria"},
+            "resolved": {
+              "name": "OpenStreetMap Góra Kalwaria Telegram",
+              "url": "https://t.me/OSM_Gora_Kalwaria",
+              "description": "Join our community Telegram chat",
+              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/OSM_Gora_Kalwaria\">OpenStreetMap Góra Kalwaria Telegram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/OSM_Gora_Kalwaria\">https://t.me/OSM_Gora_Kalwaria</a>",
+              "descriptionHTML": "Join our community Telegram chat"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [21.006, 52.457],
+            [20.789, 52.413],
+            [20.657, 52.301],
+            [20.658, 52.162],
+            [20.791, 52.05],
+            [21.006, 52.007],
+            [21.22, 52.05],
+            [21.354, 52.162],
+            [21.355, 52.301],
+            [21.222, 52.413],
+            [21.006, 52.457]
+          ]
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -33169,6 +34366,30 @@
               "extendedDescriptionHTML": "OSM is a local community for individuals interested in OpenStreetMap including organizations, developers, and YouthMappers chapters in the country."
             }
           },
+          "osm-kenya-facebook": {
+            "id": "osm-kenya-facebook",
+            "type": "facebook",
+            "account": "OSMKenya",
+            "locationSet": {"include": ["ke"]},
+            "languageCodes": ["en"],
+            "order": 4,
+            "strings": {
+              "community": "OpenStreetMap Kenya",
+              "description": "OSM Kenya is a community of OSM contributors and users",
+              "extendedDescription": "OSM is a local community for individuals interested in OpenStreetMap including organizations, developers, and YouthMappers chapters in the country."
+            },
+            "contacts": [{"name": "OSM Kenya", "email": "osmkenya@gmail.com"}],
+            "resolved": {
+              "name": "OpenStreetMap Kenya on Facebook",
+              "url": "https://facebook.com/OSMKenya",
+              "description": "OSM Kenya is a community of OSM contributors and users",
+              "extendedDescription": "OSM is a local community for individuals interested in OpenStreetMap including organizations, developers, and YouthMappers chapters in the country.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSMKenya\">OpenStreetMap Kenya on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSMKenya\">https://facebook.com/OSMKenya</a>",
+              "descriptionHTML": "OSM Kenya is a community of OSM contributors and users",
+              "extendedDescriptionHTML": "OSM is a local community for individuals interested in OpenStreetMap including organizations, developers, and YouthMappers chapters in the country."
+            }
+          },
           "talk-ke": {
             "id": "talk-ke",
             "type": "mailinglist",
@@ -33386,6 +34607,26 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://t.me/osmkerala\">OpenStreetMap Kerala Telegram</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osmkerala\">https://t.me/osmkerala</a>",
               "descriptionHTML": "We map Kerala together. Join our telegram group. <a target=\"_blank\" href=\"https://t.me/osmkerala\">https://t.me/osmkerala</a>"
+            }
+          },
+          "osm-kerala-website": {
+            "id": "osm-kerala-website",
+            "type": "osm",
+            "locationSet": {"include": ["india_kerala.geojson"]},
+            "languageCodes": ["en"],
+            "order": 1,
+            "strings": {
+              "community": "OpenStreetMap Kerala",
+              "description": "We help grow and improve OpenStreetMap in Kerala.",
+              "url": "https://kerala.openstreetmap.in/"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Kerala",
+              "url": "https://kerala.openstreetmap.in/",
+              "description": "We help grow and improve OpenStreetMap in Kerala.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://kerala.openstreetmap.in/\">OpenStreetMap Kerala</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://kerala.openstreetmap.in/\">https://kerala.openstreetmap.in/</a>",
+              "descriptionHTML": "We help grow and improve OpenStreetMap in Kerala."
             }
           },
           "osm-kerala-wiki": {
@@ -33608,6 +34849,125 @@
             [74.97117, 11.94518],
             [74.71236, 12.49398],
             [74.64061, 12.65899]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "us-mi.geojson",
+      "properties": {
+        "id": "us-mi.geojson",
+        "area": 251333.06,
+        "resources": {
+          "osm-michigan-facebook-group": {
+            "id": "osm-michigan-facebook-group",
+            "type": "facebook",
+            "locationSet": {"include": ["US-MI.geojson"]},
+            "languageCodes": ["en"],
+            "order": 5,
+            "strings": {
+              "community": "OpenStreetMap Michigan",
+              "name": "{community} Facebook Group",
+              "description": "Discussion about mapping in Michigan.",
+              "url": "https://www.facebook.com/groups/MichiganOSM/"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Michigan Facebook Group",
+              "url": "https://www.facebook.com/groups/MichiganOSM/",
+              "description": "Discussion about mapping in Michigan.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/MichiganOSM/\">OpenStreetMap Michigan Facebook Group</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/MichiganOSM/\">https://www.facebook.com/groups/MichiganOSM/</a>",
+              "descriptionHTML": "Discussion about mapping in Michigan."
+            }
+          },
+          "osm-michigan-wiki": {
+            "id": "osm-michigan-wiki",
+            "type": "wiki",
+            "account": "Michigan",
+            "locationSet": {"include": ["US-MI.geojson"]},
+            "languageCodes": ["en"],
+            "order": 5,
+            "strings": {
+              "community": "OpenStreetMap Michigan",
+              "description": "{community} Wiki page"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Michigan WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Michigan",
+              "description": "OpenStreetMap Michigan Wiki page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Michigan\">OpenStreetMap Michigan WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Michigan\">https://wiki.openstreetmap.org/wiki/Michigan</a>",
+              "descriptionHTML": "OpenStreetMap Michigan Wiki page"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-84.81, 41.69],
+            [-84.81, 41.76],
+            [-87.21, 41.76],
+            [-86.75, 45.44],
+            [-87.09, 45.44],
+            [-87.4, 45.2],
+            [-87.44, 45.07],
+            [-87.66, 45.11],
+            [-87.78, 45.19],
+            [-87.7, 45.33],
+            [-87.91, 45.33],
+            [-87.85, 45.63],
+            [-87.89, 45.72],
+            [-88.06, 45.76],
+            [-88.17, 45.82],
+            [-88.15, 45.88],
+            [-88.26, 45.93],
+            [-88.58, 45.99],
+            [-88.66, 45.97],
+            [-88.75, 45.99],
+            [-88.95, 46.05],
+            [-89.09, 46.12],
+            [-90.12, 46.32],
+            [-90.43, 46.56],
+            [-89.44, 47.98],
+            [-88.4, 48.3],
+            [-84.86, 46.9],
+            [-84.76, 46.64],
+            [-84.55, 46.46],
+            [-84.47, 46.45],
+            [-84.42, 46.5],
+            [-84.35, 46.5],
+            [-84.27, 46.5],
+            [-84.22, 46.55],
+            [-84.1, 46.53],
+            [-84.15, 46.41],
+            [-84.11, 46.26],
+            [-84, 46.12],
+            [-83.94, 46.05],
+            [-83.8, 46.12],
+            [-83.64, 46.12],
+            [-83.54, 46.09],
+            [-83.43, 46],
+            [-83.6, 45.82],
+            [-82.52, 45.34],
+            [-82.12, 43.59],
+            [-82.42, 42.99],
+            [-82.41, 42.97],
+            [-82.47, 42.88],
+            [-82.46, 42.77],
+            [-82.51, 42.61],
+            [-82.6, 42.55],
+            [-82.64, 42.56],
+            [-82.83, 42.37],
+            [-83.07, 42.31],
+            [-83.13, 42.23],
+            [-83.12, 42.12],
+            [-83.14, 42.04],
+            [-83.11, 41.95],
+            [-83.41, 41.73],
+            [-84.81, 41.69]
           ]
         ]
       }
@@ -34025,6 +35385,29 @@
               "descriptionHTML": "Join our community on Facebook"
             }
           },
+          "ph-facebook-group": {
+            "id": "ph-facebook-group",
+            "type": "facebook",
+            "locationSet": {"include": ["ph"]},
+            "languageCodes": ["en", "tl"],
+            "order": 1,
+            "strings": {
+              "community": "OpenStreetMap Philippines",
+              "name": "{community} Facebook Group",
+              "url": "https://www.facebook.com/groups/osmph"
+            },
+            "contacts": [
+              {"name": "OSM PH core team", "email": "osm.pilipinas@gmail.com"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Philippines Facebook Group",
+              "url": "https://www.facebook.com/groups/osmph",
+              "description": "Join our community on Facebook",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/osmph\">OpenStreetMap Philippines Facebook Group</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/osmph\">https://www.facebook.com/groups/osmph</a>",
+              "descriptionHTML": "Join our community on Facebook"
+            }
+          },
           "talk-ph": {
             "id": "talk-ph",
             "type": "mailinglist",
@@ -34222,16 +35605,15 @@
             "languageCodes": ["en", "pl"],
             "strings": {
               "community": "OpenStreetMap Poland",
-              "name": "OpenStreetMap Poland",
               "description": "The home of the Polish OpenStreetMap community",
-              "url": "https://openstreetmap.org.pl"
+              "url": "https://openstreetmap.org.pl/"
             },
             "resolved": {
               "name": "OpenStreetMap Poland",
-              "url": "https://openstreetmap.org.pl",
+              "url": "https://openstreetmap.org.pl/",
               "description": "The home of the Polish OpenStreetMap community",
-              "nameHTML": "<a target=\"_blank\" href=\"https://openstreetmap.org.pl\">OpenStreetMap Poland</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://openstreetmap.org.pl\">https://openstreetmap.org.pl</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://openstreetmap.org.pl/\">OpenStreetMap Poland</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://openstreetmap.org.pl/\">https://openstreetmap.org.pl/</a>",
               "descriptionHTML": "The home of the Polish OpenStreetMap community"
             }
           },
@@ -34259,6 +35641,23 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://discord.gg/HvQWsMeQzT\">OpenStreetMap Poland Discord</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://discord.gg/HvQWsMeQzT\">https://discord.gg/HvQWsMeQzT</a>",
               "descriptionHTML": "Main place for voice chats among Polish OpenStreetMap community, active text channels"
+            }
+          },
+          "OSM-PL-facebook": {
+            "id": "OSM-PL-facebook",
+            "type": "facebook",
+            "account": "osmpolska",
+            "locationSet": {"include": ["pl"]},
+            "languageCodes": ["pl"],
+            "order": 3,
+            "strings": {"community": "OpenStreetMap Poland"},
+            "resolved": {
+              "name": "OpenStreetMap Poland on Facebook",
+              "url": "https://facebook.com/osmpolska",
+              "description": "Join our community on Facebook",
+              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmpolska\">OpenStreetMap Poland on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmpolska\">https://facebook.com/osmpolska</a>",
+              "descriptionHTML": "Join our community on Facebook"
             }
           },
           "OSM-PL-facebook-group": {
@@ -34798,274 +36197,6 @@
     },
     {
       "type": "Feature",
-      "properties": {
-        "iso1A2": "SE",
-        "iso1A3": "SWE",
-        "iso1N3": "752",
-        "wikidata": "Q34",
-        "nameEn": "Sweden",
-        "groups": ["154", "150", "EU", "UN", "001"],
-        "callingCodes": ["46"],
-        "id": "Q34",
-        "m49": "752",
-        "ccTLD": ".se",
-        "isoStatus": "official",
-        "level": "country",
-        "emojiFlag": "🇸🇪",
-        "roadSpeedUnit": "km/h",
-        "roadHeightUnit": "m",
-        "driveSide": "right",
-        "area": 589396.28,
-        "resources": {
-          "osm-se": {
-            "id": "osm-se",
-            "type": "osm",
-            "locationSet": {"include": ["se"]},
-            "languageCodes": ["sv"],
-            "order": 1,
-            "strings": {
-              "name": "OpenStreetMap.se",
-              "description": "Provide OSM services and information for the local community in Sweden",
-              "url": "http://openstreetmap.se/"
-            },
-            "resolved": {
-              "name": "OpenStreetMap.se",
-              "url": "http://openstreetmap.se/",
-              "description": "Provide OSM services and information for the local community in Sweden",
-              "nameHTML": "<a target=\"_blank\" href=\"http://openstreetmap.se/\">OpenStreetMap.se</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"http://openstreetmap.se/\">http://openstreetmap.se/</a>",
-              "descriptionHTML": "Provide OSM services and information for the local community in Sweden"
-            }
-          },
-          "se-facebook": {
-            "id": "se-facebook",
-            "type": "facebook",
-            "locationSet": {"include": ["se"]},
-            "languageCodes": ["sv"],
-            "order": 3,
-            "strings": {
-              "community": "OpenStreetMap Sweden",
-              "url": "https://www.facebook.com/groups/osmsweden"
-            },
-            "resolved": {
-              "name": "OpenStreetMap Sweden on Facebook",
-              "url": "https://www.facebook.com/groups/osmsweden",
-              "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/osmsweden\">OpenStreetMap Sweden on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/osmsweden\">https://www.facebook.com/groups/osmsweden</a>",
-              "descriptionHTML": "Join our community on Facebook"
-            }
-          },
-          "se-forum": {
-            "id": "se-forum",
-            "type": "forum",
-            "account": "4",
-            "locationSet": {"include": ["se"]},
-            "languageCodes": ["sv"],
-            "order": -2,
-            "strings": {"community": "OpenStreetMap Sweden"},
-            "resolved": {
-              "name": "OpenStreetMap Sweden Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=4",
-              "description": "The official forum for OpenStreetMap Sweden",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=4\">OpenStreetMap Sweden Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=4\">https://forum.openstreetmap.org/viewforum.php?id=4</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Sweden"
-            }
-          },
-          "se-irc": {
-            "id": "se-irc",
-            "type": "irc",
-            "account": "osm.se",
-            "locationSet": {"include": ["se"]},
-            "languageCodes": ["sv"],
-            "order": -4,
-            "strings": {"community": "OpenStreetMap Sweden"},
-            "resolved": {
-              "name": "OpenStreetMap Sweden on IRC",
-              "url": "https://webchat.oftc.net/?channels=osm.se",
-              "description": "Join #osm.se on irc.oftc.net (port 6667)",
-              "nameHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm.se\">OpenStreetMap Sweden on IRC</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm.se\">https://webchat.oftc.net/?channels=osm.se</a>",
-              "descriptionHTML": "Join #osm.se on irc.oftc.net (port 6667)"
-            }
-          },
-          "se-telegram": {
-            "id": "se-telegram",
-            "type": "telegram",
-            "account": "osmSE",
-            "locationSet": {"include": ["se"]},
-            "languageCodes": ["sv"],
-            "order": 4,
-            "strings": {"community": "OpenStreetMap Sweden"},
-            "resolved": {
-              "name": "OpenStreetMap Sweden Telegram",
-              "url": "https://t.me/osmSE",
-              "description": "Join our community Telegram chat",
-              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/osmSE\">OpenStreetMap Sweden Telegram</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osmSE\">https://t.me/osmSE</a>",
-              "descriptionHTML": "Join our community Telegram chat"
-            }
-          },
-          "se-twitter": {
-            "id": "se-twitter",
-            "type": "twitter",
-            "account": "openstreetmapse",
-            "locationSet": {"include": ["se"]},
-            "languageCodes": ["sv"],
-            "order": 2,
-            "strings": {"community": "OpenStreetMap Sweden"},
-            "resolved": {
-              "name": "OpenStreetMap Sweden on Twitter",
-              "url": "https://twitter.com/openstreetmapse",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/openstreetmapse\">OpenStreetMap Sweden on Twitter</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/openstreetmapse\">https://twitter.com/openstreetmapse</a>",
-              "descriptionHTML": "Follow us on Twitter"
-            }
-          },
-          "talk-se": {
-            "id": "talk-se",
-            "type": "mailinglist",
-            "account": "talk-se",
-            "locationSet": {"include": ["se"]},
-            "languageCodes": ["sv"],
-            "order": -3,
-            "strings": {"community": "OpenStreetMap Sweden"},
-            "resolved": {
-              "name": "talk-se Mailing List",
-              "url": "https://lists.openstreetmap.org/listinfo/talk-se",
-              "description": "The official mailing list for OpenStreetMap Sweden",
-              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-se\">talk-se Mailing List</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-se\">https://lists.openstreetmap.org/listinfo/talk-se</a>",
-              "descriptionHTML": "The official mailing list for OpenStreetMap Sweden"
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [24.15791, 65.85385],
-              [23.90497, 66.15802],
-              [23.71339, 66.21299],
-              [23.64982, 66.30603],
-              [23.67591, 66.3862],
-              [23.63776, 66.43568],
-              [23.85959, 66.56434],
-              [23.89488, 66.772],
-              [23.98059, 66.79585],
-              [23.98563, 66.84149],
-              [23.56214, 67.17038],
-              [23.58735, 67.20752],
-              [23.54701, 67.25435],
-              [23.75372, 67.29914],
-              [23.75372, 67.43688],
-              [23.39577, 67.46974],
-              [23.54701, 67.59306],
-              [23.45627, 67.85297],
-              [23.65793, 67.9497],
-              [23.40081, 68.05545],
-              [23.26469, 68.15134],
-              [23.15377, 68.14759],
-              [23.10336, 68.26551],
-              [22.73028, 68.40881],
-              [22.00429, 68.50692],
-              [21.03001, 68.88969],
-              [20.90649, 68.89696],
-              [20.85104, 68.93142],
-              [20.91658, 68.96764],
-              [20.78802, 69.03087],
-              [20.55258, 69.06069],
-              [20.0695, 69.04469],
-              [20.28444, 68.93283],
-              [20.33435, 68.80174],
-              [20.22027, 68.67246],
-              [19.95647, 68.55546],
-              [20.22027, 68.48759],
-              [19.93508, 68.35911],
-              [18.97255, 68.52416],
-              [18.63032, 68.50849],
-              [18.39503, 68.58672],
-              [18.1241, 68.53721],
-              [18.13836, 68.20874],
-              [17.90787, 67.96537],
-              [17.30416, 68.11591],
-              [16.7409, 67.91037],
-              [16.38441, 67.52923],
-              [16.12774, 67.52106],
-              [16.09922, 67.4364],
-              [16.39154, 67.21653],
-              [16.35589, 67.06419],
-              [15.37197, 66.48217],
-              [15.49318, 66.28509],
-              [15.05113, 66.15572],
-              [14.53778, 66.12399],
-              [14.50926, 65.31786],
-              [13.64276, 64.58402],
-              [14.11117, 64.46674],
-              [14.16051, 64.18725],
-              [13.98222, 64.00953],
-              [13.23411, 64.09087],
-              [12.74105, 64.02171],
-              [12.14928, 63.59373],
-              [12.19919, 63.47935],
-              [11.98529, 63.27487],
-              [12.19919, 63.00104],
-              [12.07085, 62.6297],
-              [12.29187, 62.25699],
-              [12.14746, 61.7147],
-              [12.40595, 61.57226],
-              [12.57707, 61.56547],
-              [12.86939, 61.35427],
-              [12.69115, 61.06584],
-              [12.2277, 61.02442],
-              [12.59133, 60.50559],
-              [12.52003, 60.13846],
-              [12.36317, 59.99259],
-              [12.15641, 59.8926],
-              [11.87121, 59.86039],
-              [11.92112, 59.69531],
-              [11.69297, 59.59442],
-              [11.8213, 59.24985],
-              [11.65732, 58.90177],
-              [11.45199, 58.89604],
-              [11.4601, 58.99022],
-              [11.34459, 59.11672],
-              [11.15367, 59.07862],
-              [11.08911, 58.98745],
-              [10.64958, 58.89391],
-              [10.40861, 58.38489],
-              [12.16597, 56.60205],
-              [12.07466, 56.29488],
-              [12.65312, 56.04345],
-              [12.6372, 55.91371],
-              [12.88472, 55.63369],
-              [12.60345, 55.42675],
-              [12.84405, 55.13257],
-              [14.28399, 55.1553],
-              [14.89259, 55.5623],
-              [15.79951, 55.54655],
-              [19.64795, 57.06466],
-              [19.84909, 57.57876],
-              [20.5104, 59.15546],
-              [19.08191, 60.19152],
-              [19.23413, 60.61414],
-              [20.15877, 63.06556],
-              [24.14112, 65.39731],
-              [24.15107, 65.81427],
-              [24.14798, 65.83466],
-              [24.15791, 65.85385]
-            ]
-          ]
-        ]
-      },
-      "id": "Q34"
-    },
-    {
-      "type": "Feature",
       "id": "seattle.geojson",
       "properties": {
         "id": "seattle.geojson",
@@ -35596,6 +36727,232 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "id": "[-79.38393,43.65348]",
+      "properties": {
+        "id": "[-79.38393,43.65348]",
+        "area": 1963.5,
+        "resources": {
+          "osm-toronto-meetup": {
+            "id": "osm-toronto-meetup",
+            "type": "meetup",
+            "account": "OpenStreetMap-Toronto",
+            "locationSet": {"include": [[-79.38393, 43.65348]]},
+            "languageCodes": ["en"],
+            "strings": {
+              "community": "OpenStreetMap Toronto",
+              "description": "Mappers and OpenStreetMap users in the Toronto area"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Toronto Meetup",
+              "url": "https://meetup.com/OpenStreetMap-Toronto",
+              "description": "Mappers and OpenStreetMap users in the Toronto area",
+              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/OpenStreetMap-Toronto\">OpenStreetMap Toronto Meetup</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/OpenStreetMap-Toronto\">https://meetup.com/OpenStreetMap-Toronto</a>",
+              "descriptionHTML": "Mappers and OpenStreetMap users in the Toronto area"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-79.384, 43.878],
+            [-79.567, 43.835],
+            [-79.679, 43.722],
+            [-79.679, 43.584],
+            [-79.566, 43.472],
+            [-79.384, 43.429],
+            [-79.202, 43.472],
+            [-79.089, 43.584],
+            [-79.088, 43.722],
+            [-79.201, 43.835],
+            [-79.384, 43.878]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "iso1A2": "TW",
+        "iso1A3": "TWN",
+        "iso1N3": "158",
+        "wikidata": "Q865",
+        "nameEn": "Taiwan",
+        "aliases": ["RC"],
+        "groups": ["030", "142", "001"],
+        "callingCodes": ["886"],
+        "id": "Q865",
+        "m49": "158",
+        "ccTLD": ".tw",
+        "isoStatus": "official",
+        "level": "country",
+        "emojiFlag": "🇹🇼",
+        "roadSpeedUnit": "km/h",
+        "roadHeightUnit": "m",
+        "driveSide": "right",
+        "area": 114623.56,
+        "resources": {
+          "osm-tw": {
+            "id": "osm-tw",
+            "type": "osm",
+            "locationSet": {"include": ["tw"]},
+            "languageCodes": ["tw"],
+            "order": 1,
+            "strings": {
+              "community": "OpenStreetMap Taiwan",
+              "description": "We help grow and improve OpenStreetMap in Taiwan.",
+              "url": "https://osm.tw/"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Taiwan",
+              "url": "https://osm.tw/",
+              "description": "We help grow and improve OpenStreetMap in Taiwan.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://osm.tw/\">OpenStreetMap Taiwan</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://osm.tw/\">https://osm.tw/</a>",
+              "descriptionHTML": "We help grow and improve OpenStreetMap in Taiwan."
+            }
+          },
+          "talk-tw": {
+            "id": "talk-tw",
+            "type": "mailinglist",
+            "account": "talk-tw",
+            "locationSet": {"include": ["tw"]},
+            "languageCodes": ["en", "zh-tw"],
+            "order": -3,
+            "strings": {"community": "OpenStreetMap Taiwan"},
+            "contacts": [
+              {
+                "name": "Nobody 沒有人 (Public email)",
+                "email": "hiboard@openstreetmap.tw"
+              }
+            ],
+            "resolved": {
+              "name": "talk-tw Mailing List",
+              "url": "https://lists.openstreetmap.org/listinfo/talk-tw",
+              "description": "The official mailing list for OpenStreetMap Taiwan",
+              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-tw\">talk-tw Mailing List</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-tw\">https://lists.openstreetmap.org/listinfo/talk-tw</a>",
+              "descriptionHTML": "The official mailing list for OpenStreetMap Taiwan"
+            }
+          },
+          "tw-facebook": {
+            "id": "tw-facebook",
+            "type": "facebook",
+            "locationSet": {"include": ["tw"]},
+            "languageCodes": ["zh-tw"],
+            "order": 3,
+            "strings": {
+              "community": "OpenStreetMap Taiwan",
+              "url": "https://www.facebook.com/groups/OpenStreetMap.TW"
+            },
+            "contacts": [
+              {
+                "name": "Nobody 沒有人 (Public mail)",
+                "email": "hiboard@openstreetmap.tw"
+              }
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Taiwan on Facebook",
+              "url": "https://www.facebook.com/groups/OpenStreetMap.TW",
+              "description": "Join our community on Facebook",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/OpenStreetMap.TW\">OpenStreetMap Taiwan on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/OpenStreetMap.TW\">https://www.facebook.com/groups/OpenStreetMap.TW</a>",
+              "descriptionHTML": "Join our community on Facebook"
+            }
+          },
+          "tw-slack": {
+            "id": "tw-slack",
+            "type": "slack",
+            "locationSet": {"include": ["tw"]},
+            "languageCodes": ["tw"],
+            "order": 6,
+            "strings": {
+              "community": "OpenStreetMap Taiwan",
+              "description": "All are welcome! Sign up at {signupUrl}",
+              "signupUrl": "https://osm-tw.slack.com/",
+              "url": "https://osm-tw.slack.com/"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Taiwan Slack",
+              "url": "https://osm-tw.slack.com/",
+              "signupUrl": "https://osm-tw.slack.com/",
+              "description": "All are welcome! Sign up at https://osm-tw.slack.com/",
+              "nameHTML": "<a target=\"_blank\" href=\"https://osm-tw.slack.com/\">OpenStreetMap Taiwan Slack</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://osm-tw.slack.com/\">https://osm-tw.slack.com/</a>",
+              "signupUrlHTML": "<a target=\"_blank\" href=\"https://osm-tw.slack.com/\">https://osm-tw.slack.com/</a>",
+              "descriptionHTML": "All are welcome! Sign up at <a target=\"_blank\" href=\"https://osm-tw.slack.com/\">https://osm-tw.slack.com/</a>"
+            }
+          },
+          "tw-telegram": {
+            "id": "tw-telegram",
+            "type": "telegram",
+            "account": "OSMTaiwan",
+            "locationSet": {"include": ["tw"]},
+            "languageCodes": ["zh-tw"],
+            "order": 5,
+            "strings": {"community": "OpenStreetMap Taiwan"},
+            "contacts": [
+              {
+                "name": "Nobody 沒有人 (Public mail)",
+                "email": "hiboard@openstreetmap.tw"
+              }
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Taiwan Telegram",
+              "url": "https://t.me/OSMTaiwan",
+              "description": "Join our community Telegram chat",
+              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/OSMTaiwan\">OpenStreetMap Taiwan Telegram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/OSMTaiwan\">https://t.me/OSMTaiwan</a>",
+              "descriptionHTML": "Join our community Telegram chat"
+            }
+          },
+          "tw-wiki": {
+            "id": "tw-wiki",
+            "type": "wiki",
+            "account": "Taiwan",
+            "locationSet": {"include": ["tw"]},
+            "languageCodes": ["tw"],
+            "order": 1,
+            "strings": {
+              "community": "OpenStreetMap Taiwan",
+              "description": "{community} Wiki page"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Taiwan WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Taiwan",
+              "description": "OpenStreetMap Taiwan Wiki page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Taiwan\">OpenStreetMap Taiwan WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Taiwan\">https://wiki.openstreetmap.org/wiki/Taiwan</a>",
+              "descriptionHTML": "OpenStreetMap Taiwan Wiki page"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [121.8109, 21.77688],
+              [122.26612, 25.98197],
+              [120.49232, 25.22863],
+              [118.56434, 24.49266],
+              [118.42453, 24.54644],
+              [118.35291, 24.51645],
+              [118.28244, 24.51231],
+              [118.11703, 24.39734],
+              [120.69238, 21.52331],
+              [121.8109, 21.77688]
+            ]
+          ]
+        ]
+      },
+      "id": "Q865"
     },
     {
       "type": "Feature",
@@ -36268,6 +37625,50 @@
     },
     {
       "type": "Feature",
+      "id": "[21.21308,51.98438]",
+      "properties": {
+        "id": "[21.21308,51.98438]",
+        "area": 1963.5,
+        "resources": {
+          "osm-warszawa-telegram": {
+            "id": "osm-warszawa-telegram",
+            "type": "telegram",
+            "account": "OSM_Warszawa",
+            "locationSet": {"include": [[21.21308, 51.98438]]},
+            "languageCodes": ["pl"],
+            "strings": {"community": "OpenStreetMap Warszawa"},
+            "resolved": {
+              "name": "OpenStreetMap Warszawa Telegram",
+              "url": "https://t.me/OSM_Warszawa",
+              "description": "Join our community Telegram chat",
+              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/OSM_Warszawa\">OpenStreetMap Warszawa Telegram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/OSM_Warszawa\">https://t.me/OSM_Warszawa</a>",
+              "descriptionHTML": "Join our community Telegram chat"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [21.213, 52.209],
+            [20.998, 52.166],
+            [20.866, 52.053],
+            [20.867, 51.914],
+            [21, 51.802],
+            [21.213, 51.76],
+            [21.427, 51.802],
+            [21.559, 51.914],
+            [21.56, 52.053],
+            [21.428, 52.166],
+            [21.213, 52.209]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "wyoming.geojson",
       "properties": {
         "id": "wyoming.geojson",
@@ -36310,83 +37711,6 @@
             [-104.05, 45],
             [-104.05, 41],
             [-111.05, 41]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "[15.4461,47.0556]",
-      "properties": {
-        "id": "[15.4461,47.0556]",
-        "area": 1963.5,
-        "resources": {
-          "osmgraz-meetup": {
-            "id": "osmgraz-meetup",
-            "type": "meetup",
-            "locationSet": {"include": [[15.4461, 47.0556]]},
-            "languageCodes": ["de", "en"],
-            "order": 5,
-            "strings": {
-              "community": "OpenStreetMap Graz",
-              "name": "OSM community meetup Graz",
-              "description": "Monthly meetup of the OpenStreetMap community in Graz",
-              "url": "https://wiki.openstreetmap.org/wiki/Graz/Stammtisch"
-            },
-            "contacts": [
-              {
-                "name": "Michael Maier",
-                "email": "michael.maier@secure.mailbox.org"
-              }
-            ],
-            "resolved": {
-              "name": "OSM community meetup Graz",
-              "url": "https://wiki.openstreetmap.org/wiki/Graz/Stammtisch",
-              "description": "Monthly meetup of the OpenStreetMap community in Graz",
-              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Graz/Stammtisch\">OSM community meetup Graz</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Graz/Stammtisch\">https://wiki.openstreetmap.org/wiki/Graz/Stammtisch</a>",
-              "descriptionHTML": "Monthly meetup of the OpenStreetMap community in Graz"
-            }
-          },
-          "osmgraz-twitter": {
-            "id": "osmgraz-twitter",
-            "type": "twitter",
-            "account": "osmgraz",
-            "locationSet": {"include": [[15.4461, 47.0556]]},
-            "languageCodes": ["de", "en"],
-            "strings": {"community": "OpenStreetMap Graz"},
-            "contacts": [
-              {
-                "name": "Michael Maier",
-                "email": "michael.maier@secure.mailbox.org"
-              }
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Graz on Twitter",
-              "url": "https://twitter.com/osmgraz",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmgraz\">OpenStreetMap Graz on Twitter</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmgraz\">https://twitter.com/osmgraz</a>",
-              "descriptionHTML": "Follow us on Twitter"
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [15.446, 47.28],
-            [15.252, 47.237],
-            [15.132, 47.125],
-            [15.133, 46.986],
-            [15.253, 46.874],
-            [15.446, 46.831],
-            [15.639, 46.874],
-            [15.759, 46.986],
-            [15.76, 47.125],
-            [15.641, 47.237],
-            [15.446, 47.28]
           ]
         ]
       }
@@ -39602,6 +40926,254 @@
     {
       "type": "Feature",
       "properties": {
+        "iso1A2": "SE",
+        "iso1A3": "SWE",
+        "iso1N3": "752",
+        "wikidata": "Q34",
+        "nameEn": "Sweden",
+        "groups": ["154", "150", "EU", "UN", "001"],
+        "callingCodes": ["46"],
+        "id": "Q34",
+        "m49": "752",
+        "ccTLD": ".se",
+        "isoStatus": "official",
+        "level": "country",
+        "emojiFlag": "🇸🇪",
+        "roadSpeedUnit": "km/h",
+        "roadHeightUnit": "m",
+        "driveSide": "right",
+        "area": 589396.28,
+        "resources": {
+          "se-facebook": {
+            "id": "se-facebook",
+            "type": "facebook",
+            "locationSet": {"include": ["se"]},
+            "languageCodes": ["sv"],
+            "order": 3,
+            "strings": {
+              "community": "OpenStreetMap Sweden",
+              "url": "https://www.facebook.com/groups/osmsweden"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Sweden on Facebook",
+              "url": "https://www.facebook.com/groups/osmsweden",
+              "description": "Join our community on Facebook",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/osmsweden\">OpenStreetMap Sweden on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/osmsweden\">https://www.facebook.com/groups/osmsweden</a>",
+              "descriptionHTML": "Join our community on Facebook"
+            }
+          },
+          "se-forum": {
+            "id": "se-forum",
+            "type": "forum",
+            "account": "4",
+            "locationSet": {"include": ["se"]},
+            "languageCodes": ["sv"],
+            "order": -2,
+            "strings": {"community": "OpenStreetMap Sweden"},
+            "resolved": {
+              "name": "OpenStreetMap Sweden Forum",
+              "url": "https://forum.openstreetmap.org/viewforum.php?id=4",
+              "description": "The official forum for OpenStreetMap Sweden",
+              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=4\">OpenStreetMap Sweden Forum</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=4\">https://forum.openstreetmap.org/viewforum.php?id=4</a>",
+              "descriptionHTML": "The official forum for OpenStreetMap Sweden"
+            }
+          },
+          "se-irc": {
+            "id": "se-irc",
+            "type": "irc",
+            "account": "osm.se",
+            "locationSet": {"include": ["se"]},
+            "languageCodes": ["sv"],
+            "order": -4,
+            "strings": {"community": "OpenStreetMap Sweden"},
+            "resolved": {
+              "name": "OpenStreetMap Sweden on IRC",
+              "url": "https://webchat.oftc.net/?channels=osm.se",
+              "description": "Join #osm.se on irc.oftc.net (port 6667)",
+              "nameHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm.se\">OpenStreetMap Sweden on IRC</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm.se\">https://webchat.oftc.net/?channels=osm.se</a>",
+              "descriptionHTML": "Join #osm.se on irc.oftc.net (port 6667)"
+            }
+          },
+          "se-telegram": {
+            "id": "se-telegram",
+            "type": "telegram",
+            "account": "osmSE",
+            "locationSet": {"include": ["se"]},
+            "languageCodes": ["sv"],
+            "order": 4,
+            "strings": {"community": "OpenStreetMap Sweden"},
+            "resolved": {
+              "name": "OpenStreetMap Sweden Telegram",
+              "url": "https://t.me/osmSE",
+              "description": "Join our community Telegram chat",
+              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/osmSE\">OpenStreetMap Sweden Telegram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osmSE\">https://t.me/osmSE</a>",
+              "descriptionHTML": "Join our community Telegram chat"
+            }
+          },
+          "se-twitter": {
+            "id": "se-twitter",
+            "type": "twitter",
+            "account": "openstreetmapse",
+            "locationSet": {"include": ["se"]},
+            "languageCodes": ["sv"],
+            "order": 2,
+            "strings": {"community": "OpenStreetMap Sweden"},
+            "resolved": {
+              "name": "OpenStreetMap Sweden on Twitter",
+              "url": "https://twitter.com/openstreetmapse",
+              "description": "Follow us on Twitter",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/openstreetmapse\">OpenStreetMap Sweden on Twitter</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/openstreetmapse\">https://twitter.com/openstreetmapse</a>",
+              "descriptionHTML": "Follow us on Twitter"
+            }
+          },
+          "talk-se": {
+            "id": "talk-se",
+            "type": "mailinglist",
+            "account": "talk-se",
+            "locationSet": {"include": ["se"]},
+            "languageCodes": ["sv"],
+            "order": -3,
+            "strings": {"community": "OpenStreetMap Sweden"},
+            "resolved": {
+              "name": "talk-se Mailing List",
+              "url": "https://lists.openstreetmap.org/listinfo/talk-se",
+              "description": "The official mailing list for OpenStreetMap Sweden",
+              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-se\">talk-se Mailing List</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-se\">https://lists.openstreetmap.org/listinfo/talk-se</a>",
+              "descriptionHTML": "The official mailing list for OpenStreetMap Sweden"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [24.15791, 65.85385],
+              [23.90497, 66.15802],
+              [23.71339, 66.21299],
+              [23.64982, 66.30603],
+              [23.67591, 66.3862],
+              [23.63776, 66.43568],
+              [23.85959, 66.56434],
+              [23.89488, 66.772],
+              [23.98059, 66.79585],
+              [23.98563, 66.84149],
+              [23.56214, 67.17038],
+              [23.58735, 67.20752],
+              [23.54701, 67.25435],
+              [23.75372, 67.29914],
+              [23.75372, 67.43688],
+              [23.39577, 67.46974],
+              [23.54701, 67.59306],
+              [23.45627, 67.85297],
+              [23.65793, 67.9497],
+              [23.40081, 68.05545],
+              [23.26469, 68.15134],
+              [23.15377, 68.14759],
+              [23.10336, 68.26551],
+              [22.73028, 68.40881],
+              [22.00429, 68.50692],
+              [21.03001, 68.88969],
+              [20.90649, 68.89696],
+              [20.85104, 68.93142],
+              [20.91658, 68.96764],
+              [20.78802, 69.03087],
+              [20.55258, 69.06069],
+              [20.0695, 69.04469],
+              [20.28444, 68.93283],
+              [20.33435, 68.80174],
+              [20.22027, 68.67246],
+              [19.95647, 68.55546],
+              [20.22027, 68.48759],
+              [19.93508, 68.35911],
+              [18.97255, 68.52416],
+              [18.63032, 68.50849],
+              [18.39503, 68.58672],
+              [18.1241, 68.53721],
+              [18.13836, 68.20874],
+              [17.90787, 67.96537],
+              [17.30416, 68.11591],
+              [16.7409, 67.91037],
+              [16.38441, 67.52923],
+              [16.12774, 67.52106],
+              [16.09922, 67.4364],
+              [16.39154, 67.21653],
+              [16.35589, 67.06419],
+              [15.37197, 66.48217],
+              [15.49318, 66.28509],
+              [15.05113, 66.15572],
+              [14.53778, 66.12399],
+              [14.50926, 65.31786],
+              [13.64276, 64.58402],
+              [14.11117, 64.46674],
+              [14.16051, 64.18725],
+              [13.98222, 64.00953],
+              [13.23411, 64.09087],
+              [12.74105, 64.02171],
+              [12.14928, 63.59373],
+              [12.19919, 63.47935],
+              [11.98529, 63.27487],
+              [12.19919, 63.00104],
+              [12.07085, 62.6297],
+              [12.29187, 62.25699],
+              [12.14746, 61.7147],
+              [12.40595, 61.57226],
+              [12.57707, 61.56547],
+              [12.86939, 61.35427],
+              [12.69115, 61.06584],
+              [12.2277, 61.02442],
+              [12.59133, 60.50559],
+              [12.52003, 60.13846],
+              [12.36317, 59.99259],
+              [12.15641, 59.8926],
+              [11.87121, 59.86039],
+              [11.92112, 59.69531],
+              [11.69297, 59.59442],
+              [11.8213, 59.24985],
+              [11.65732, 58.90177],
+              [11.45199, 58.89604],
+              [11.4601, 58.99022],
+              [11.34459, 59.11672],
+              [11.15367, 59.07862],
+              [11.08911, 58.98745],
+              [10.64958, 58.89391],
+              [10.40861, 58.38489],
+              [12.16597, 56.60205],
+              [12.07466, 56.29488],
+              [12.65312, 56.04345],
+              [12.6372, 55.91371],
+              [12.88472, 55.63369],
+              [12.60345, 55.42675],
+              [12.84405, 55.13257],
+              [14.28399, 55.1553],
+              [14.89259, 55.5623],
+              [15.79951, 55.54655],
+              [19.64795, 57.06466],
+              [19.84909, 57.57876],
+              [20.5104, 59.15546],
+              [19.08191, 60.19152],
+              [19.23413, 60.61414],
+              [20.15877, 63.06556],
+              [24.14112, 65.39731],
+              [24.15107, 65.81427],
+              [24.14798, 65.83466],
+              [24.15791, 65.85385]
+            ]
+          ]
+        ]
+      },
+      "id": "Q34"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "iso1A2": "SI",
         "iso1A3": "SVN",
         "iso1N3": "705",
@@ -42455,16 +44027,32 @@
           "tn-facebook": {
             "id": "tn-facebook",
             "type": "facebook",
+            "account": "osmtun",
+            "locationSet": {"include": ["tn"]},
+            "strings": {"community": "OpenStreetMap Tunisia"},
+            "resolved": {
+              "name": "OpenStreetMap Tunisia on Facebook",
+              "url": "https://facebook.com/osmtun",
+              "description": "Join our community on Facebook",
+              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmtun\">OpenStreetMap Tunisia on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmtun\">https://facebook.com/osmtun</a>",
+              "descriptionHTML": "Join our community on Facebook"
+            }
+          },
+          "tn-facebook-group": {
+            "id": "tn-facebook-group",
+            "type": "facebook",
             "locationSet": {"include": ["tn"]},
             "strings": {
               "community": "OpenStreetMap Tunisia",
+              "name": "{community} Facebook Group",
               "url": "https://www.facebook.com/groups/47277958581"
             },
             "resolved": {
-              "name": "OpenStreetMap Tunisia on Facebook",
+              "name": "OpenStreetMap Tunisia Facebook Group",
               "url": "https://www.facebook.com/groups/47277958581",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/47277958581\">OpenStreetMap Tunisia on Facebook</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/47277958581\">OpenStreetMap Tunisia Facebook Group</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/47277958581\">https://www.facebook.com/groups/47277958581</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
@@ -42553,122 +44141,6 @@
     {
       "type": "Feature",
       "properties": {
-        "iso1A2": "TW",
-        "iso1A3": "TWN",
-        "iso1N3": "158",
-        "wikidata": "Q865",
-        "nameEn": "Taiwan",
-        "aliases": ["RC"],
-        "groups": ["030", "142", "001"],
-        "callingCodes": ["886"],
-        "id": "Q865",
-        "m49": "158",
-        "ccTLD": ".tw",
-        "isoStatus": "official",
-        "level": "country",
-        "emojiFlag": "🇹🇼",
-        "roadSpeedUnit": "km/h",
-        "roadHeightUnit": "m",
-        "driveSide": "right",
-        "area": 114623.56,
-        "resources": {
-          "talk-tw": {
-            "id": "talk-tw",
-            "type": "mailinglist",
-            "account": "talk-tw",
-            "locationSet": {"include": ["tw"]},
-            "languageCodes": ["en", "zh-tw"],
-            "order": -3,
-            "strings": {"community": "OpenStreetMap Taiwan"},
-            "contacts": [
-              {
-                "name": "Nobody 沒有人 (Public email)",
-                "email": "hiboard@openstreetmap.tw"
-              }
-            ],
-            "resolved": {
-              "name": "talk-tw Mailing List",
-              "url": "https://lists.openstreetmap.org/listinfo/talk-tw",
-              "description": "The official mailing list for OpenStreetMap Taiwan",
-              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-tw\">talk-tw Mailing List</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-tw\">https://lists.openstreetmap.org/listinfo/talk-tw</a>",
-              "descriptionHTML": "The official mailing list for OpenStreetMap Taiwan"
-            }
-          },
-          "tw-facebook": {
-            "id": "tw-facebook",
-            "type": "facebook",
-            "locationSet": {"include": ["tw"]},
-            "languageCodes": ["zh-tw"],
-            "order": 3,
-            "strings": {
-              "community": "OpenStreetMap Taiwan",
-              "url": "https://www.facebook.com/groups/OpenStreetMap.TW"
-            },
-            "contacts": [
-              {
-                "name": "Nobody 沒有人 (Public mail)",
-                "email": "hiboard@openstreetmap.tw"
-              }
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Taiwan on Facebook",
-              "url": "https://www.facebook.com/groups/OpenStreetMap.TW",
-              "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/OpenStreetMap.TW\">OpenStreetMap Taiwan on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/OpenStreetMap.TW\">https://www.facebook.com/groups/OpenStreetMap.TW</a>",
-              "descriptionHTML": "Join our community on Facebook"
-            }
-          },
-          "tw-telegram": {
-            "id": "tw-telegram",
-            "type": "telegram",
-            "account": "OSMTaiwan",
-            "locationSet": {"include": ["tw"]},
-            "languageCodes": ["zh-tw"],
-            "order": 5,
-            "strings": {"community": "OpenStreetMap Taiwan"},
-            "contacts": [
-              {
-                "name": "Nobody 沒有人 (Public mail)",
-                "email": "hiboard@openstreetmap.tw"
-              }
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Taiwan Telegram",
-              "url": "https://t.me/OSMTaiwan",
-              "description": "Join our community Telegram chat",
-              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/OSMTaiwan\">OpenStreetMap Taiwan Telegram</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/OSMTaiwan\">https://t.me/OSMTaiwan</a>",
-              "descriptionHTML": "Join our community Telegram chat"
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [121.8109, 21.77688],
-              [122.26612, 25.98197],
-              [120.49232, 25.22863],
-              [118.56434, 24.49266],
-              [118.42453, 24.54644],
-              [118.35291, 24.51645],
-              [118.28244, 24.51231],
-              [118.11703, 24.39734],
-              [120.69238, 21.52331],
-              [121.8109, 21.77688]
-            ]
-          ]
-        ]
-      },
-      "id": "Q865"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "iso1A2": "TZ",
         "iso1A3": "TZA",
         "iso1N3": "834",
@@ -42693,6 +44165,7 @@
             "account": "talk-tz",
             "locationSet": {"include": ["tz"]},
             "languageCodes": ["en"],
+            "order": 3,
             "strings": {"community": "OpenStreetMap Tanzania"},
             "resolved": {
               "name": "talk-tz Mailing List",
@@ -42708,6 +44181,7 @@
             "type": "facebook",
             "account": "OMDTZ",
             "locationSet": {"include": ["tz"]},
+            "order": 1,
             "strings": {"community": "OpenStreetMap Tanzania"},
             "resolved": {
               "name": "OpenStreetMap Tanzania on Facebook",
@@ -42716,6 +44190,58 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OMDTZ\">OpenStreetMap Tanzania on Facebook</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OMDTZ\">https://facebook.com/OMDTZ</a>",
               "descriptionHTML": "Join our community on Facebook"
+            }
+          },
+          "tz-linkedin": {
+            "id": "tz-linkedin",
+            "type": "linkedin",
+            "account": "openmap-development-tanzania-omdtz",
+            "locationSet": {"include": ["tz"]},
+            "order": 2,
+            "strings": {"community": "OpenStreetMap Tanzania"},
+            "resolved": {
+              "name": "OpenStreetMap Tanzania on LinkedIn",
+              "url": "https://linkedin.com/company/openmap-development-tanzania-omdtz",
+              "description": "Join our community on LinkedIn",
+              "nameHTML": "<a target=\"_blank\" href=\"https://linkedin.com/company/openmap-development-tanzania-omdtz\">OpenStreetMap Tanzania on LinkedIn</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://linkedin.com/company/openmap-development-tanzania-omdtz\">https://linkedin.com/company/openmap-development-tanzania-omdtz</a>",
+              "descriptionHTML": "Join our community on LinkedIn"
+            }
+          },
+          "tz-twitter": {
+            "id": "tz-twitter",
+            "type": "twitter",
+            "account": "OMDTZ",
+            "locationSet": {"include": ["tz"]},
+            "order": 1,
+            "strings": {"community": "OpenStreetMap Tanzania"},
+            "resolved": {
+              "name": "OpenStreetMap Tanzania on Twitter",
+              "url": "https://twitter.com/OMDTZ",
+              "description": "Follow us on Twitter",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OMDTZ\">OpenStreetMap Tanzania on Twitter</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OMDTZ\">https://twitter.com/OMDTZ</a>",
+              "descriptionHTML": "Follow us on Twitter"
+            }
+          },
+          "tz-website": {
+            "id": "tz-website",
+            "type": "osm",
+            "locationSet": {"include": ["tz"]},
+            "languageCodes": ["en"],
+            "order": 2,
+            "strings": {
+              "community": "OpenStreetMap Tanzania",
+              "description": "Provides OSM services and information for the local community in Tanzania",
+              "url": "https://www.omdtz.or.tz/"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Tanzania",
+              "url": "https://www.omdtz.or.tz/",
+              "description": "Provides OSM services and information for the local community in Tanzania",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.omdtz.or.tz/\">OpenStreetMap Tanzania</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.omdtz.or.tz/\">https://www.omdtz.or.tz/</a>",
+              "descriptionHTML": "Provides OSM services and information for the local community in Tanzania"
             }
           }
         }
@@ -44732,6 +46258,29 @@
               "descriptionHTML": "The official Local Chapter for the UK (including Northern Ireland).",
               "extendedDescriptionHTML": "We support OpenStreetMap by holding events, providing community resources, building partnerships, and by spreading the word. Join OpenStreetMap UK here: <a target=\"_blank\" href=\"https://osmuk.org/become-member/\">https://osmuk.org/become-member/</a>"
             }
+          },
+          "uk-loomio": {
+            "id": "uk-loomio",
+            "type": "forum",
+            "locationSet": {"include": ["Q3336843", "Q185086"]},
+            "languageCodes": ["en"],
+            "order": 2,
+            "strings": {
+              "community": "OpenStreetMap UK",
+              "name": "OpenStreetMap UK on Loomio",
+              "url": "https://www.loomio.org/openstreetmap-uk/"
+            },
+            "contacts": [
+              {"name": "OpenStreetMap UK", "email": "board@osmuk.org"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap UK on Loomio",
+              "url": "https://www.loomio.org/openstreetmap-uk/",
+              "description": "The official forum for OpenStreetMap UK",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.loomio.org/openstreetmap-uk/\">OpenStreetMap UK on Loomio</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.loomio.org/openstreetmap-uk/\">https://www.loomio.org/openstreetmap-uk/</a>",
+              "descriptionHTML": "The official forum for OpenStreetMap UK"
+            }
           }
         }
       },
@@ -44871,6 +46420,29 @@
               "descriptionHTML": "OpenStreetMap London on Twitter: <a target=\"_blank\" href=\"https://twitter.com/OSMLondon\">https://twitter.com/OSMLondon</a>"
             }
           },
+          "uk-london-wiki": {
+            "id": "uk-london-wiki",
+            "type": "wiki",
+            "account": "London",
+            "locationSet": {"include": [[-0.12, 51.5]]},
+            "languageCodes": ["en"],
+            "order": 4,
+            "strings": {
+              "community": "OpenStreetMap London",
+              "description": "{community} Wiki page"
+            },
+            "contacts": [
+              {"name": "Harry Wood", "email": "mail@harrywood.co.uk"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap London WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/London",
+              "description": "OpenStreetMap London Wiki page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/London\">OpenStreetMap London WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/London\">https://wiki.openstreetmap.org/wiki/London</a>",
+              "descriptionHTML": "OpenStreetMap London Wiki page"
+            }
+          },
           "ym-Queen-Mary-University-of-London": {
             "id": "ym-Queen-Mary-University-of-London",
             "type": "youthmappers",
@@ -44924,8 +46496,8 @@
         "id": "massachusetts.geojson",
         "area": 58665.67,
         "resources": {
-          "us-ma-mailinglist": {
-            "id": "us-ma-mailinglist",
+          "us-massachusetts-mailinglist": {
+            "id": "us-massachusetts-mailinglist",
             "type": "mailinglist",
             "account": "talk-us-massachusetts",
             "locationSet": {"include": ["massachusetts.geojson"]},
@@ -44966,29 +46538,29 @@
     },
     {
       "type": "Feature",
-      "id": "us-mi.geojson",
+      "id": "us-ny.geojson",
       "properties": {
-        "id": "us-mi.geojson",
-        "area": 251333.06,
+        "id": "us-ny.geojson",
+        "area": 145628.26,
         "resources": {
-          "US-MI-Wiki": {
-            "id": "US-MI-Wiki",
-            "type": "wiki",
-            "locationSet": {"include": ["US-MI.geojson"]},
+          "us-newyork-mailinglist": {
+            "id": "us-newyork-mailinglist",
+            "type": "mailinglist",
+            "account": "talk-us-newyork",
+            "locationSet": {"include": ["US-NY.geojson"]},
             "languageCodes": ["en"],
-            "order": 5,
+            "order": -3,
             "strings": {
-              "community": "OpenStreetMap Michigan",
-              "description": "Information about mapping in Michigan.",
-              "url": "https://wiki.openstreetmap.org/wiki/Michigan"
+              "name": "Talk-us-newyork Mailing List",
+              "description": "Email mailing list for the New York State OSM community"
             },
             "resolved": {
-              "name": "OpenStreetMap Michigan WikiProject",
-              "url": "https://wiki.openstreetmap.org/wiki/Michigan",
-              "description": "Information about mapping in Michigan.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Michigan\">OpenStreetMap Michigan WikiProject</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Michigan\">https://wiki.openstreetmap.org/wiki/Michigan</a>",
-              "descriptionHTML": "Information about mapping in Michigan."
+              "name": "Talk-us-newyork Mailing List",
+              "url": "https://lists.openstreetmap.org/listinfo/talk-us-newyork",
+              "description": "Email mailing list for the New York State OSM community",
+              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-us-newyork\">Talk-us-newyork Mailing List</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-us-newyork\">https://lists.openstreetmap.org/listinfo/talk-us-newyork</a>",
+              "descriptionHTML": "Email mailing list for the New York State OSM community"
             }
           }
         }
@@ -44997,67 +46569,37 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [-84.81, 41.69],
-            [-84.81, 41.76],
-            [-87.21, 41.76],
-            [-86.75, 45.44],
-            [-87.09, 45.44],
-            [-87.4, 45.2],
-            [-87.44, 45.07],
-            [-87.66, 45.11],
-            [-87.78, 45.19],
-            [-87.7, 45.33],
-            [-87.91, 45.33],
-            [-87.85, 45.63],
-            [-87.89, 45.72],
-            [-88.06, 45.76],
-            [-88.17, 45.82],
-            [-88.15, 45.88],
-            [-88.26, 45.93],
-            [-88.58, 45.99],
-            [-88.66, 45.97],
-            [-88.75, 45.99],
-            [-88.95, 46.05],
-            [-89.09, 46.12],
-            [-90.12, 46.32],
-            [-90.43, 46.56],
-            [-89.44, 47.98],
-            [-88.4, 48.3],
-            [-84.86, 46.9],
-            [-84.76, 46.64],
-            [-84.55, 46.46],
-            [-84.47, 46.45],
-            [-84.42, 46.5],
-            [-84.35, 46.5],
-            [-84.27, 46.5],
-            [-84.22, 46.55],
-            [-84.1, 46.53],
-            [-84.15, 46.41],
-            [-84.11, 46.26],
-            [-84, 46.12],
-            [-83.94, 46.05],
-            [-83.8, 46.12],
-            [-83.64, 46.12],
-            [-83.54, 46.09],
-            [-83.43, 46],
-            [-83.6, 45.82],
-            [-82.52, 45.34],
-            [-82.12, 43.59],
-            [-82.42, 42.99],
-            [-82.41, 42.97],
-            [-82.47, 42.88],
-            [-82.46, 42.77],
-            [-82.51, 42.61],
-            [-82.6, 42.55],
-            [-82.64, 42.56],
-            [-82.83, 42.37],
-            [-83.07, 42.31],
-            [-83.13, 42.23],
-            [-83.12, 42.12],
-            [-83.14, 42.04],
-            [-83.11, 41.95],
-            [-83.41, 41.73],
-            [-84.81, 41.69]
+            [-74.69548, 41.35767],
+            [-74.84044, 41.42639],
+            [-75.01082, 41.49571],
+            [-75.06349, 41.7571],
+            [-75.38547, 41.99896],
+            [-79.76009, 42.00002],
+            [-79.77326, 42.54689],
+            [-78.90297, 42.85858],
+            [-79.16336, 43.45491],
+            [-76.62552, 43.89987],
+            [-75.31827, 44.81623],
+            [-74.8669, 45.00038],
+            [-74.67121, 45.00074],
+            [-73.32294, 45.00725],
+            [-73.42967, 44.01985],
+            [-73.36959, 43.73845],
+            [-73.42487, 43.56972],
+            [-73.24457, 43.55457],
+            [-73.28203, 42.74349],
+            [-73.49794, 42.05451],
+            [-73.55349, 41.28986],
+            [-73.47517, 41.20467],
+            [-73.72427, 41.098],
+            [-73.62454, 40.95324],
+            [-72.14366, 41.21718],
+            [-71, 40.7],
+            [-74.275, 40.49],
+            [-74.2, 40.65],
+            [-74.06203, 40.65585],
+            [-73.88463, 40.98951],
+            [-74.69548, 41.35767]
           ]
         ]
       }
@@ -45911,79 +47453,6 @@
     },
     {
       "type": "Feature",
-      "id": "grand_junction_co.geojson",
-      "properties": {
-        "id": "grand_junction_co.geojson",
-        "area": 7597.76,
-        "resources": {
-          "Western-Slope-facebook": {
-            "id": "Western-Slope-facebook",
-            "type": "facebook",
-            "account": "wsosm",
-            "locationSet": {"include": ["grand_junction_co.geojson"]},
-            "languageCodes": ["en"],
-            "order": 3,
-            "strings": {
-              "name": "Western Slope OSM Facebook",
-              "description": "Mappers and OpenStreetMap users around Grand Junction, CO"
-            },
-            "contacts": [
-              {"name": "Aaron Young", "email": "aaron@kaartgroup.com"}
-            ],
-            "resolved": {
-              "name": "Western Slope OSM Facebook",
-              "url": "https://facebook.com/wsosm",
-              "description": "Mappers and OpenStreetMap users around Grand Junction, CO",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/wsosm\">Western Slope OSM Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/wsosm\">https://facebook.com/wsosm</a>",
-              "descriptionHTML": "Mappers and OpenStreetMap users around Grand Junction, CO"
-            }
-          },
-          "Western-Slope-meetup": {
-            "id": "Western-Slope-meetup",
-            "type": "meetup",
-            "account": "Western-Slope-OpenStreetMap",
-            "locationSet": {"include": ["grand_junction_co.geojson"]},
-            "languageCodes": ["en"],
-            "order": 5,
-            "strings": {
-              "name": "Western Slope OSM Meetup",
-              "description": "Mappers and OpenStreetMap users around Grand Junction, CO",
-              "extendedDescription": "The goal of this group is to introduce OpenStreetMap to the community, develop a community of mappers, create the most amazing geodata possible using whatever method we can and finally strategize in order to get this data out into our community. Imagine accurate trail signage! Imagine further development of bike paths! Imagine anything you want, that's the joy of OpenStreetMap!"
-            },
-            "contacts": [
-              {"name": "Aaron Young", "email": "aaron@kaartgroup.com"}
-            ],
-            "resolved": {
-              "name": "Western Slope OSM Meetup",
-              "url": "https://meetup.com/Western-Slope-OpenStreetMap",
-              "description": "Mappers and OpenStreetMap users around Grand Junction, CO",
-              "extendedDescription": "The goal of this group is to introduce OpenStreetMap to the community, develop a community of mappers, create the most amazing geodata possible using whatever method we can and finally strategize in order to get this data out into our community. Imagine accurate trail signage! Imagine further development of bike paths! Imagine anything you want, that's the joy of OpenStreetMap!",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/Western-Slope-OpenStreetMap\">Western Slope OSM Meetup</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/Western-Slope-OpenStreetMap\">https://meetup.com/Western-Slope-OpenStreetMap</a>",
-              "descriptionHTML": "Mappers and OpenStreetMap users around Grand Junction, CO",
-              "extendedDescriptionHTML": "The goal of this group is to introduce OpenStreetMap to the community, develop a community of mappers, create the most amazing geodata possible using whatever method we can and finally strategize in order to get this data out into our community. Imagine accurate trail signage! Imagine further development of bike paths! Imagine anything you want, that's the joy of OpenStreetMap!"
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-109, 39.4],
-            [-108.1, 39.4],
-            [-107.8, 39.16],
-            [-107.8, 38.7],
-            [-108.1, 38.5],
-            [-109, 39],
-            [-109, 39.4]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "[29.0366741,40.9941316]",
       "properties": {
         "id": "[29.0366741,40.9941316]",
@@ -46288,6 +47757,72 @@
             [39.43, -6.697],
             [39.348, -6.584],
             [39.215, -6.542]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[-111.9343601,33.4176835]",
+      "properties": {
+        "id": "[-111.9343601,33.4176835]",
+        "area": 1963.5,
+        "resources": {
+          "ym-Arizona-State-University-facebook": {
+            "id": "ym-Arizona-State-University-facebook",
+            "type": "facebook",
+            "account": "YouthMappersASU",
+            "locationSet": {"include": [[-111.9343601, 33.4176835]]},
+            "languageCodes": ["en"],
+            "strings": {
+              "community": "YouthMappersASU",
+              "description": "YouthMappers chapter at Arizona State University"
+            },
+            "resolved": {
+              "name": "YouthMappersASU on Facebook",
+              "url": "https://facebook.com/YouthMappersASU",
+              "description": "YouthMappers chapter at Arizona State University",
+              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/YouthMappersASU\">YouthMappersASU on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/YouthMappersASU\">https://facebook.com/YouthMappersASU</a>",
+              "descriptionHTML": "YouthMappers chapter at Arizona State University"
+            }
+          },
+          "ym-Arizona-State-University-twitter": {
+            "id": "ym-Arizona-State-University-twitter",
+            "type": "twitter",
+            "account": "YouthMappersASU",
+            "locationSet": {"include": [[-111.9343601, 33.4176835]]},
+            "languageCodes": ["en"],
+            "strings": {
+              "community": "YouthMappersASU",
+              "description": "YouthMappers chapter at Arizona State University"
+            },
+            "resolved": {
+              "name": "YouthMappersASU on Twitter",
+              "url": "https://twitter.com/YouthMappersASU",
+              "description": "YouthMappers chapter at Arizona State University",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/YouthMappersASU\">YouthMappersASU on Twitter</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/YouthMappersASU\">https://twitter.com/YouthMappersASU</a>",
+              "descriptionHTML": "YouthMappers chapter at Arizona State University"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-111.934, 33.642],
+            [-112.093, 33.599],
+            [-112.19, 33.487],
+            [-112.19, 33.348],
+            [-112.092, 33.236],
+            [-111.934, 33.193],
+            [-111.777, 33.236],
+            [-111.679, 33.348],
+            [-111.678, 33.487],
+            [-111.776, 33.599],
+            [-111.934, 33.642]
           ]
         ]
       }
@@ -48809,56 +50344,6 @@
             [17.308, -22.496],
             [17.22, -22.384],
             [17.077, -22.341]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "[-74.00391,40.71377]",
-      "properties": {
-        "id": "[-74.00391,40.71377]",
-        "area": 1963.5,
-        "resources": {
-          "ym-New-York-University": {
-            "id": "ym-New-York-University",
-            "type": "youthmappers",
-            "locationSet": {"include": [[-74.00391, 40.71377]]},
-            "strings": {
-              "name": "NYU mHealth Initiative Mapping Corps",
-              "description": "YouthMappers chapter at New York University",
-              "extendedDescription": "The NYU mobile health or “mHealth” research initiative focuses on development of systems that link people - usually via their phones - to the places that they live and traverse, and thus supports novel research on the way phones and maps can be leveraged to understand behavioral decision making and ultimately health outcomes.",
-              "url": "http://www.nyumhealth.org/"
-            },
-            "contacts": [{"name": "Organizer", "email": "mhealth@nyu.edu"}],
-            "resolved": {
-              "name": "NYU mHealth Initiative Mapping Corps",
-              "url": "http://www.nyumhealth.org/",
-              "description": "YouthMappers chapter at New York University",
-              "extendedDescription": "The NYU mobile health or “mHealth” research initiative focuses on development of systems that link people - usually via their phones - to the places that they live and traverse, and thus supports novel research on the way phones and maps can be leveraged to understand behavioral decision making and ultimately health outcomes.",
-              "nameHTML": "<a target=\"_blank\" href=\"http://www.nyumhealth.org/\">NYU mHealth Initiative Mapping Corps</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"http://www.nyumhealth.org/\">http://www.nyumhealth.org/</a>",
-              "descriptionHTML": "YouthMappers chapter at New York University",
-              "extendedDescriptionHTML": "The NYU mobile health or “mHealth” research initiative focuses on development of systems that link people - usually via their phones - to the places that they live and traverse, and thus supports novel research on the way phones and maps can be leveraged to understand behavioral decision making and ultimately health outcomes."
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-74.004, 40.938],
-            [-74.179, 40.895],
-            [-74.286, 40.783],
-            [-74.285, 40.644],
-            [-74.178, 40.532],
-            [-74.004, 40.489],
-            [-73.83, 40.532],
-            [-73.722, 40.644],
-            [-73.722, 40.783],
-            [-73.829, 40.895],
-            [-74.004, 40.938]
           ]
         ]
       }
@@ -52257,6 +53742,22 @@
               "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/UP-Resillience-Institute-Youth-Mappers-123477508533225\">https://www.facebook.com/UP-Resillience-Institute-Youth-Mappers-123477508533225</a>",
               "descriptionHTML": "YouthMappers chapter at University of the Philippines Resilience Institute",
               "extendedDescriptionHTML": "The UP Resilience Institute was established in 2016 with a mission statement to empower local communities through multidisciplinary research and actions toward resilience. Through UP NOAH Center, and the help of different organizations, we have provided building exposure maps for 17 provinces out of the 82 and uploaded more than 4 million footprints to Open Street Maps."
+            }
+          },
+          "ym-University-of-the-Philippines-Resilience-Institute-twitter": {
+            "id": "ym-University-of-the-Philippines-Resilience-Institute-twitter",
+            "type": "twitter",
+            "account": "UPRIYouth",
+            "locationSet": {"include": [[121.06, 14.65]]},
+            "strings": {"name": "YouthMappers UP Resilience Institute Twitter"},
+            "contacts": [{"name": "Organizer", "email": "llnguyen@up.edu.ph"}],
+            "resolved": {
+              "name": "YouthMappers UP Resilience Institute Twitter",
+              "url": "https://twitter.com/UPRIYouth",
+              "description": "Follow us on Twitter",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/UPRIYouth\">YouthMappers UP Resilience Institute Twitter</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/UPRIYouth\">https://twitter.com/UPRIYouth</a>",
+              "descriptionHTML": "Follow us on Twitter"
             }
           }
         }
