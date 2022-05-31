@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.1.6",
-    "generated": "2022-05-31T15:32:23.427Z",
+    "generated": "2022-05-31T15:39:02.330Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "bb51b9232b5f2dd3b3bdba85099e09ba"
+    "hash": "6c99b3d65ee4a8004495f6f052fcf9c9"
   },
   "type": "FeatureCollection",
   "features": [
@@ -13773,7 +13773,7 @@
         "ccTLD": ".fr",
         "isoStatus": "official",
         "level": "country",
-        "groups": ["UN", "001"],
+        "groups": ["EU", "UN", "001"],
         "emojiFlag": "🇫🇷",
         "members": [
           "Q46772",
@@ -15039,6 +15039,7 @@
       "properties": {
         "wikidata": "Q3336843",
         "nameEn": "Countries of the United Kingdom",
+        "aliases": ["GB-UKM"],
         "country": "GB",
         "level": "subcountryGroup",
         "id": "Q3336843",
@@ -20305,7 +20306,7 @@
         "wikidata": "Q30971",
         "nameEn": "French Polynesia",
         "country": "FR",
-        "groups": ["FR", "061", "009", "Q1451600", "UN", "001"],
+        "groups": ["FR", "061", "009", "Q1451600", "EU", "UN", "001"],
         "callingCodes": ["689"],
         "id": "Q30971",
         "m49": "258",
