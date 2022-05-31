@@ -1,12 +1,12 @@
 {
   "id": "osm-michigan-wiki",
   "type": "wiki",
+  "account": "Michigan",
   "locationSet": {"include": ["US-MI.geojson"]},
   "languageCodes": ["en"],
   "order": 5,
   "strings": {
     "community": "OpenStreetMap Michigan",
-    "description": "Information about mapping in Michigan.",
-    "url": "https://wiki.openstreetmap.org/wiki/Michigan"
+    "description": "{community} Wiki page"
   }
 }

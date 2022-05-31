@@ -1,11 +1,11 @@
 {
   "id": "de-berlin-wiki",
   "type": "wiki",
+  "account": "Berlin",
   "locationSet": {"include": ["de-berlin-brandenburg.geojson"]},
   "languageCodes": ["de"],
   "strings": {
-    "name": "OpenStreetMap Berlin Wiki page",
-    "description": "Wiki page of Berlin OSM local group",
-    "url": "https://wiki.openstreetmap.org/wiki/Berlin"
+    "community": "OpenStreetMap Berlin",
+    "description": "{community} Wiki page"
   }
 }
