@@ -1,10 +1,9 @@
 [main]
 host = https://www.transifex.com
-minimum_perc = 1
 
-[id-editor.community]
+[o:openstreetmap:p:id-editor:r:community]
 file_filter = i18n/<lang>.yaml
 source_file = i18n/en.yaml
 source_lang = en
-type = YAML
+type        = YAML
 
