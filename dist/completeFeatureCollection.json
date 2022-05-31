@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.1.6",
-    "generated": "2022-05-31T14:21:07.441Z",
+    "generated": "2022-05-31T15:32:23.427Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "b9301379bbe7ffa6becc5999858162ba"
+    "hash": "bb51b9232b5f2dd3b3bdba85099e09ba"
   },
   "type": "FeatureCollection",
   "features": [
@@ -5962,238 +5962,6 @@
         ]
       },
       "id": "Q39"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "iso1A2": "CI",
-        "iso1A3": "CIV",
-        "iso1N3": "384",
-        "wikidata": "Q1008",
-        "nameEn": "Côte d'Ivoire",
-        "groups": ["011", "202", "002", "UN", "001"],
-        "callingCodes": ["225"],
-        "id": "Q1008",
-        "m49": "384",
-        "ccTLD": ".ci",
-        "isoStatus": "official",
-        "level": "country",
-        "emojiFlag": "🇨🇮",
-        "roadSpeedUnit": "km/h",
-        "roadHeightUnit": "m",
-        "driveSide": "right",
-        "area": 378725.31,
-        "resources": {
-          "CIosm": {
-            "id": "CIosm",
-            "type": "telegram",
-            "account": "OSMCI",
-            "locationSet": {"include": ["ci"]},
-            "languageCodes": ["en"],
-            "strings": {"community": "OpenStreetMap Cote d'Ivoire"},
-            "resolved": {
-              "name": "OpenStreetMap Cote d'Ivoire Telegram",
-              "url": "https://t.me/OSMCI",
-              "description": "Join our community Telegram chat",
-              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/OSMCI\">OpenStreetMap Cote d'Ivoire Telegram</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/OSMCI\">https://t.me/OSMCI</a>",
-              "descriptionHTML": "Join our community Telegram chat"
-            }
-          },
-          "OSM-ci-facebook": {
-            "id": "OSM-ci-facebook",
-            "type": "facebook",
-            "account": "openstreetmapci",
-            "locationSet": {"include": ["ci"]},
-            "languageCodes": ["en"],
-            "strings": {"community": "OpenStreetMap Cote d'Ivoire"},
-            "resolved": {
-              "name": "OpenStreetMap Cote d'Ivoire on Facebook",
-              "url": "https://facebook.com/openstreetmapci",
-              "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/openstreetmapci\">OpenStreetMap Cote d'Ivoire on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/openstreetmapci\">https://facebook.com/openstreetmapci</a>",
-              "descriptionHTML": "Join our community on Facebook"
-            }
-          },
-          "OSM-ci-mailinglist": {
-            "id": "OSM-ci-mailinglist",
-            "type": "mailinglist",
-            "account": "talk-ci",
-            "locationSet": {"include": ["ci"]},
-            "languageCodes": ["en"],
-            "strings": {"community": "OpenStreetMap Cote d'Ivoire"},
-            "resolved": {
-              "name": "talk-ci Mailing List",
-              "url": "https://lists.openstreetmap.org/listinfo/talk-ci",
-              "description": "The official mailing list for OpenStreetMap Cote d'Ivoire",
-              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-ci\">talk-ci Mailing List</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-ci\">https://lists.openstreetmap.org/listinfo/talk-ci</a>",
-              "descriptionHTML": "The official mailing list for OpenStreetMap Cote d'Ivoire"
-            }
-          },
-          "OSM-ci-twitter": {
-            "id": "OSM-ci-twitter",
-            "type": "twitter",
-            "account": "OSMCI",
-            "locationSet": {"include": ["ci"]},
-            "languageCodes": ["en"],
-            "strings": {"community": "OpenStreetMap Cote d'Ivoire"},
-            "resolved": {
-              "name": "OpenStreetMap Cote d'Ivoire on Twitter",
-              "url": "https://twitter.com/OSMCI",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMCI\">OpenStreetMap Cote d'Ivoire on Twitter</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMCI\">https://twitter.com/OSMCI</a>",
-              "descriptionHTML": "Follow us on Twitter"
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [-7.52774, 3.7105],
-              [-3.34019, 4.17519],
-              [-3.10675, 5.08515],
-              [-3.11073, 5.12675],
-              [-3.063, 5.13665],
-              [-2.96554, 5.10397],
-              [-2.95261, 5.12477],
-              [-2.75502, 5.10657],
-              [-2.73074, 5.1364],
-              [-2.77625, 5.34621],
-              [-2.72737, 5.34789],
-              [-2.76614, 5.60963],
-              [-2.85378, 5.65156],
-              [-2.93132, 5.62137],
-              [-2.96671, 5.6415],
-              [-2.95323, 5.71865],
-              [-3.01896, 5.71697],
-              [-3.25999, 6.62521],
-              [-3.21954, 6.74407],
-              [-3.23327, 6.81744],
-              [-2.95438, 7.23737],
-              [-2.97822, 7.27165],
-              [-2.92339, 7.60847],
-              [-2.79467, 7.86002],
-              [-2.78395, 7.94974],
-              [-2.74819, 7.92613],
-              [-2.67787, 8.02055],
-              [-2.61232, 8.02645],
-              [-2.62901, 8.11495],
-              [-2.49037, 8.20872],
-              [-2.58243, 8.7789],
-              [-2.66357, 9.01771],
-              [-2.77799, 9.04949],
-              [-2.69814, 9.22717],
-              [-2.68802, 9.49343],
-              [-2.76494, 9.40778],
-              [-2.93012, 9.57403],
-              [-3.00765, 9.74019],
-              [-3.16609, 9.85147],
-              [-3.19306, 9.93781],
-              [-3.27228, 9.84981],
-              [-3.31779, 9.91125],
-              [-3.69703, 9.94279],
-              [-4.25999, 9.76012],
-              [-4.31392, 9.60062],
-              [-4.6426, 9.70696],
-              [-4.96621, 9.89132],
-              [-4.96453, 9.99923],
-              [-5.12465, 10.29788],
-              [-5.39602, 10.2929],
-              [-5.51058, 10.43177],
-              [-5.65135, 10.46767],
-              [-5.78124, 10.43952],
-              [-5.99478, 10.19694],
-              [-6.18851, 10.24244],
-              [-6.1731, 10.46983],
-              [-6.24795, 10.74248],
-              [-6.325, 10.68624],
-              [-6.40646, 10.69922],
-              [-6.42847, 10.5694],
-              [-6.52974, 10.59104],
-              [-6.63541, 10.66893],
-              [-6.68164, 10.35074],
-              [-6.93921, 10.35291],
-              [-7.01186, 10.25111],
-              [-6.97444, 10.21644],
-              [-7.00966, 10.15794],
-              [-7.0603, 10.14711],
-              [-7.13331, 10.24877],
-              [-7.3707, 10.24677],
-              [-7.44555, 10.44602],
-              [-7.52261, 10.4655],
-              [-7.54462, 10.40921],
-              [-7.63048, 10.46334],
-              [-7.92107, 10.15577],
-              [-7.97971, 10.17117],
-              [-8.01225, 10.1021],
-              [-8.11921, 10.04577],
-              [-8.15652, 9.94288],
-              [-8.09434, 9.86936],
-              [-8.14657, 9.55062],
-              [-8.03463, 9.39604],
-              [-7.85056, 9.41812],
-              [-7.90777, 9.20456],
-              [-7.73862, 9.08422],
-              [-7.92518, 8.99332],
-              [-7.95503, 8.81146],
-              [-7.69882, 8.66148],
-              [-7.65653, 8.36873],
-              [-7.92518, 8.50652],
-              [-8.22991, 8.48438],
-              [-8.2411, 8.24196],
-              [-8.062, 8.16071],
-              [-7.98675, 8.20134],
-              [-7.99919, 8.11023],
-              [-7.94695, 8.00925],
-              [-8.06449, 8.04989],
-              [-8.13414, 7.87991],
-              [-8.09931, 7.78626],
-              [-8.21374, 7.54466],
-              [-8.4003, 7.6285],
-              [-8.47114, 7.55676],
-              [-8.41935, 7.51203],
-              [-8.37458, 7.25794],
-              [-8.29249, 7.1691],
-              [-8.31736, 6.82837],
-              [-8.59456, 6.50612],
-              [-8.48652, 6.43797],
-              [-8.45666, 6.49977],
-              [-8.38453, 6.35887],
-              [-8.3298, 6.36381],
-              [-8.17557, 6.28222],
-              [-8.00642, 6.31684],
-              [-7.90692, 6.27728],
-              [-7.83478, 6.20309],
-              [-7.8497, 6.08932],
-              [-7.79747, 6.07696],
-              [-7.78254, 5.99037],
-              [-7.70294, 5.90625],
-              [-7.67309, 5.94337],
-              [-7.48155, 5.80974],
-              [-7.46165, 5.84934],
-              [-7.43677, 5.84687],
-              [-7.43926, 5.74787],
-              [-7.37209, 5.61173],
-              [-7.43428, 5.42355],
-              [-7.36463, 5.32944],
-              [-7.46165, 5.26256],
-              [-7.48901, 5.14118],
-              [-7.55369, 5.08667],
-              [-7.53876, 4.94294],
-              [-7.59349, 4.8909],
-              [-7.53259, 4.35145],
-              [-7.52774, 3.7105]
-            ]
-          ]
-        ]
-      },
-      "id": "Q1008"
     },
     {
       "type": "Feature",
@@ -22156,28 +21924,6 @@
               "descriptionHTML": "OpenStreetMap map website with tools in Slovakia and surrounding regions"
             }
           },
-          "sk-freemap-wiki": {
-            "id": "sk-freemap-wiki",
-            "type": "wiki",
-            "locationSet": {"include": ["sk"]},
-            "languageCodes": ["sk"],
-            "strings": {
-              "community": "OpenStreetMap Freemap Slovakia",
-              "description": "OpenStreetMap wiki for Slovak mappers and community",
-              "url": "http://wiki.freemap.sk"
-            },
-            "contacts": [
-              {"name": "osm_sk", "email": "osm_sk@googlegroups.com"}
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Freemap Slovakia WikiProject",
-              "url": "http://wiki.freemap.sk",
-              "description": "OpenStreetMap wiki for Slovak mappers and community",
-              "nameHTML": "<a target=\"_blank\" href=\"http://wiki.freemap.sk\">OpenStreetMap Freemap Slovakia WikiProject</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"http://wiki.freemap.sk\">http://wiki.freemap.sk</a>",
-              "descriptionHTML": "OpenStreetMap wiki for Slovak mappers and community"
-            }
-          },
           "sk-twitter": {
             "id": "sk-twitter",
             "type": "twitter",
@@ -28401,10 +28147,10 @@
           "OSM-AR-facebook": {
             "id": "OSM-AR-facebook",
             "type": "facebook",
-            "account": "OpenStreetMapArgentina",
+            "account": "OpenStreetMapAR",
             "locationSet": {"include": ["ar"]},
             "languageCodes": ["es"],
-            "order": 3,
+            "order": 2,
             "strings": {"community": "OpenStreetMap Argentina"},
             "contacts": [
               {
@@ -28414,10 +28160,10 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Argentina on Facebook",
-              "url": "https://facebook.com/OpenStreetMapArgentina",
+              "url": "https://facebook.com/OpenStreetMapAR",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMapArgentina\">OpenStreetMap Argentina on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMapArgentina\">https://facebook.com/OpenStreetMapArgentina</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMapAR\">OpenStreetMap Argentina on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMapAR\">https://facebook.com/OpenStreetMapAR</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -28454,6 +28200,7 @@
             "type": "osm-lc",
             "locationSet": {"include": ["ar"]},
             "languageCodes": ["es"],
+            "order": -3,
             "strings": {
               "community": "GeoLibres",
               "name": "GeoLibres",
@@ -28472,69 +28219,16 @@
               "extendedDescriptionHTML": "We promote the creation and use of free access geographic data, the adoption of geographic standards, and the use of free and open source software."
             }
           },
-          "OSM-AR-irc": {
-            "id": "OSM-AR-irc",
-            "type": "irc",
-            "account": "osm-ar",
-            "locationSet": {"include": ["ar"]},
-            "languageCodes": ["es"],
-            "order": -4,
-            "strings": {
-              "community": "OpenStreetMap Argentina",
-              "extendedDescription": "You may find the most geeky user in the community."
-            },
-            "contacts": [
-              {
-                "name": "OpenStreetMap Argentina",
-                "email": "openstreetmap.org.ar@gmail.com"
-              }
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Argentina on IRC",
-              "url": "https://webchat.oftc.net/?channels=osm-ar",
-              "description": "Join #osm-ar on irc.oftc.net (port 6667)",
-              "extendedDescription": "You may find the most geeky user in the community.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-ar\">OpenStreetMap Argentina on IRC</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-ar\">https://webchat.oftc.net/?channels=osm-ar</a>",
-              "descriptionHTML": "Join #osm-ar on irc.oftc.net (port 6667)",
-              "extendedDescriptionHTML": "You may find the most geeky user in the community."
-            }
-          },
-          "OSM-AR-mailinglist": {
-            "id": "OSM-AR-mailinglist",
-            "type": "mailinglist",
-            "account": "talk-ar",
-            "locationSet": {"include": ["ar"]},
-            "languageCodes": ["es"],
-            "order": -3,
-            "strings": {
-              "community": "OpenStreetMap Argentina",
-              "description": "Historic mailing list. Almost unused today."
-            },
-            "contacts": [
-              {
-                "name": "OpenStreetMap Argentina",
-                "email": "openstreetmap.org.ar@gmail.com"
-              }
-            ],
-            "resolved": {
-              "name": "talk-ar Mailing List",
-              "url": "https://lists.openstreetmap.org/listinfo/talk-ar",
-              "description": "Historic mailing list. Almost unused today.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-ar\">talk-ar Mailing List</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-ar\">https://lists.openstreetmap.org/listinfo/talk-ar</a>",
-              "descriptionHTML": "Historic mailing list. Almost unused today."
-            }
-          },
           "OSM-AR-telegram": {
             "id": "OSM-AR-telegram",
             "type": "telegram",
             "account": "osm_ar",
             "locationSet": {"include": ["ar"]},
             "languageCodes": ["es"],
+            "order": 4,
             "strings": {
               "community": "OpenStreetMap Argentina",
-              "extendedDescription": "The most active channel in the community, ideal for chatting and getting answers to your questions instantly. Everyone is welcome!"
+              "extendedDescription": "This is the most active channel in the community, ideal for chatting and getting answers to your questions instantly. Everyone is welcome!"
             },
             "contacts": [
               {
@@ -28546,19 +28240,20 @@
               "name": "OpenStreetMap Argentina Telegram",
               "url": "https://t.me/osm_ar",
               "description": "Join our community Telegram chat",
-              "extendedDescription": "The most active channel in the community, ideal for chatting and getting answers to your questions instantly. Everyone is welcome!",
+              "extendedDescription": "This is the most active channel in the community, ideal for chatting and getting answers to your questions instantly. Everyone is welcome!",
               "nameHTML": "<a target=\"_blank\" href=\"https://t.me/osm_ar\">OpenStreetMap Argentina Telegram</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osm_ar\">https://t.me/osm_ar</a>",
               "descriptionHTML": "Join our community Telegram chat",
-              "extendedDescriptionHTML": "The most active channel in the community, ideal for chatting and getting answers to your questions instantly. Everyone is welcome!"
+              "extendedDescriptionHTML": "This is the most active channel in the community, ideal for chatting and getting answers to your questions instantly. Everyone is welcome!"
             }
           },
           "OSM-AR-twitter": {
             "id": "OSM-AR-twitter",
             "type": "twitter",
-            "account": "OpenStreetMapAr",
+            "account": "OpenStreetMapAR",
             "locationSet": {"include": ["ar"]},
             "languageCodes": ["es"],
+            "order": 3,
             "strings": {
               "community": "OpenStreetMap Argentina",
               "extendedDescription": "News from the local community and OpenStreetMap in general."
@@ -28571,13 +28266,62 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Argentina on Twitter",
-              "url": "https://twitter.com/OpenStreetMapAr",
+              "url": "https://twitter.com/OpenStreetMapAR",
               "description": "Follow us on Twitter",
               "extendedDescription": "News from the local community and OpenStreetMap in general.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapAr\">OpenStreetMap Argentina on Twitter</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapAr\">https://twitter.com/OpenStreetMapAr</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapAR\">OpenStreetMap Argentina on Twitter</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapAR\">https://twitter.com/OpenStreetMapAR</a>",
               "descriptionHTML": "Follow us on Twitter",
               "extendedDescriptionHTML": "News from the local community and OpenStreetMap in general."
+            }
+          },
+          "OSM-AR-wiki": {
+            "id": "OSM-AR-wiki",
+            "type": "wiki",
+            "locationSet": {"include": ["ar"]},
+            "languageCodes": ["es"],
+            "order": 1,
+            "strings": {
+              "community": "OpenStreetMap Argentina",
+              "description": "Everything you need to know about mapping in Argentina.",
+              "url": "https://wiki.openstreetmap.org/wiki/ES:Argentina"
+            },
+            "contacts": [
+              {
+                "name": "OpenStreetMap Argentina",
+                "email": "openstreetmap.org.ar@gmail.com"
+              }
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Argentina WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/ES:Argentina",
+              "description": "Everything you need to know about mapping in Argentina.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/ES:Argentina\">OpenStreetMap Argentina WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/ES:Argentina\">https://wiki.openstreetmap.org/wiki/ES:Argentina</a>",
+              "descriptionHTML": "Everything you need to know about mapping in Argentina."
+            }
+          },
+          "OSM-AR-youtube": {
+            "id": "OSM-AR-youtube",
+            "type": "youtube",
+            "account": "UCY8ecMiXarIiOmcR17Ng2tQ",
+            "locationSet": {"include": ["ar"]},
+            "languageCodes": ["es"],
+            "order": -1,
+            "strings": {"community": "OpenStreetMap Argentina"},
+            "contacts": [
+              {
+                "name": "OpenStreetMap Argentina",
+                "email": "openstreetmap.org.ar@gmail.com"
+              }
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Argentina on YouTube",
+              "url": "https://www.youtube.com/channel/UCY8ecMiXarIiOmcR17Ng2tQ",
+              "description": "Subscribe to our YouTube channel",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.youtube.com/channel/UCY8ecMiXarIiOmcR17Ng2tQ\">OpenStreetMap Argentina on YouTube</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.youtube.com/channel/UCY8ecMiXarIiOmcR17Ng2tQ\">https://www.youtube.com/channel/UCY8ecMiXarIiOmcR17Ng2tQ</a>",
+              "descriptionHTML": "Subscribe to our YouTube channel"
             }
           }
         }
@@ -30272,6 +30016,222 @@
     },
     {
       "type": "Feature",
+      "properties": {
+        "iso1A2": "CI",
+        "iso1A3": "CIV",
+        "iso1N3": "384",
+        "wikidata": "Q1008",
+        "nameEn": "Côte d'Ivoire",
+        "groups": ["011", "202", "002", "UN", "001"],
+        "callingCodes": ["225"],
+        "id": "Q1008",
+        "m49": "384",
+        "ccTLD": ".ci",
+        "isoStatus": "official",
+        "level": "country",
+        "emojiFlag": "🇨🇮",
+        "roadSpeedUnit": "km/h",
+        "roadHeightUnit": "m",
+        "driveSide": "right",
+        "area": 378725.31,
+        "resources": {
+          "OSM-ci-facebook": {
+            "id": "OSM-ci-facebook",
+            "type": "facebook",
+            "account": "openstreetmapci",
+            "locationSet": {"include": ["ci"]},
+            "languageCodes": ["en"],
+            "strings": {"community": "OpenStreetMap Cote d'Ivoire"},
+            "resolved": {
+              "name": "OpenStreetMap Cote d'Ivoire on Facebook",
+              "url": "https://facebook.com/openstreetmapci",
+              "description": "Join our community on Facebook",
+              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/openstreetmapci\">OpenStreetMap Cote d'Ivoire on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/openstreetmapci\">https://facebook.com/openstreetmapci</a>",
+              "descriptionHTML": "Join our community on Facebook"
+            }
+          },
+          "OSM-ci-mailinglist": {
+            "id": "OSM-ci-mailinglist",
+            "type": "mailinglist",
+            "account": "talk-ci",
+            "locationSet": {"include": ["ci"]},
+            "languageCodes": ["en"],
+            "strings": {"community": "OpenStreetMap Cote d'Ivoire"},
+            "resolved": {
+              "name": "talk-ci Mailing List",
+              "url": "https://lists.openstreetmap.org/listinfo/talk-ci",
+              "description": "The official mailing list for OpenStreetMap Cote d'Ivoire",
+              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-ci\">talk-ci Mailing List</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-ci\">https://lists.openstreetmap.org/listinfo/talk-ci</a>",
+              "descriptionHTML": "The official mailing list for OpenStreetMap Cote d'Ivoire"
+            }
+          },
+          "OSM-ci-twitter": {
+            "id": "OSM-ci-twitter",
+            "type": "twitter",
+            "account": "OSMCI",
+            "locationSet": {"include": ["ci"]},
+            "languageCodes": ["en"],
+            "strings": {"community": "OpenStreetMap Cote d'Ivoire"},
+            "resolved": {
+              "name": "OpenStreetMap Cote d'Ivoire on Twitter",
+              "url": "https://twitter.com/OSMCI",
+              "description": "Follow us on Twitter",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMCI\">OpenStreetMap Cote d'Ivoire on Twitter</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMCI\">https://twitter.com/OSMCI</a>",
+              "descriptionHTML": "Follow us on Twitter"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [-7.52774, 3.7105],
+              [-3.34019, 4.17519],
+              [-3.10675, 5.08515],
+              [-3.11073, 5.12675],
+              [-3.063, 5.13665],
+              [-2.96554, 5.10397],
+              [-2.95261, 5.12477],
+              [-2.75502, 5.10657],
+              [-2.73074, 5.1364],
+              [-2.77625, 5.34621],
+              [-2.72737, 5.34789],
+              [-2.76614, 5.60963],
+              [-2.85378, 5.65156],
+              [-2.93132, 5.62137],
+              [-2.96671, 5.6415],
+              [-2.95323, 5.71865],
+              [-3.01896, 5.71697],
+              [-3.25999, 6.62521],
+              [-3.21954, 6.74407],
+              [-3.23327, 6.81744],
+              [-2.95438, 7.23737],
+              [-2.97822, 7.27165],
+              [-2.92339, 7.60847],
+              [-2.79467, 7.86002],
+              [-2.78395, 7.94974],
+              [-2.74819, 7.92613],
+              [-2.67787, 8.02055],
+              [-2.61232, 8.02645],
+              [-2.62901, 8.11495],
+              [-2.49037, 8.20872],
+              [-2.58243, 8.7789],
+              [-2.66357, 9.01771],
+              [-2.77799, 9.04949],
+              [-2.69814, 9.22717],
+              [-2.68802, 9.49343],
+              [-2.76494, 9.40778],
+              [-2.93012, 9.57403],
+              [-3.00765, 9.74019],
+              [-3.16609, 9.85147],
+              [-3.19306, 9.93781],
+              [-3.27228, 9.84981],
+              [-3.31779, 9.91125],
+              [-3.69703, 9.94279],
+              [-4.25999, 9.76012],
+              [-4.31392, 9.60062],
+              [-4.6426, 9.70696],
+              [-4.96621, 9.89132],
+              [-4.96453, 9.99923],
+              [-5.12465, 10.29788],
+              [-5.39602, 10.2929],
+              [-5.51058, 10.43177],
+              [-5.65135, 10.46767],
+              [-5.78124, 10.43952],
+              [-5.99478, 10.19694],
+              [-6.18851, 10.24244],
+              [-6.1731, 10.46983],
+              [-6.24795, 10.74248],
+              [-6.325, 10.68624],
+              [-6.40646, 10.69922],
+              [-6.42847, 10.5694],
+              [-6.52974, 10.59104],
+              [-6.63541, 10.66893],
+              [-6.68164, 10.35074],
+              [-6.93921, 10.35291],
+              [-7.01186, 10.25111],
+              [-6.97444, 10.21644],
+              [-7.00966, 10.15794],
+              [-7.0603, 10.14711],
+              [-7.13331, 10.24877],
+              [-7.3707, 10.24677],
+              [-7.44555, 10.44602],
+              [-7.52261, 10.4655],
+              [-7.54462, 10.40921],
+              [-7.63048, 10.46334],
+              [-7.92107, 10.15577],
+              [-7.97971, 10.17117],
+              [-8.01225, 10.1021],
+              [-8.11921, 10.04577],
+              [-8.15652, 9.94288],
+              [-8.09434, 9.86936],
+              [-8.14657, 9.55062],
+              [-8.03463, 9.39604],
+              [-7.85056, 9.41812],
+              [-7.90777, 9.20456],
+              [-7.73862, 9.08422],
+              [-7.92518, 8.99332],
+              [-7.95503, 8.81146],
+              [-7.69882, 8.66148],
+              [-7.65653, 8.36873],
+              [-7.92518, 8.50652],
+              [-8.22991, 8.48438],
+              [-8.2411, 8.24196],
+              [-8.062, 8.16071],
+              [-7.98675, 8.20134],
+              [-7.99919, 8.11023],
+              [-7.94695, 8.00925],
+              [-8.06449, 8.04989],
+              [-8.13414, 7.87991],
+              [-8.09931, 7.78626],
+              [-8.21374, 7.54466],
+              [-8.4003, 7.6285],
+              [-8.47114, 7.55676],
+              [-8.41935, 7.51203],
+              [-8.37458, 7.25794],
+              [-8.29249, 7.1691],
+              [-8.31736, 6.82837],
+              [-8.59456, 6.50612],
+              [-8.48652, 6.43797],
+              [-8.45666, 6.49977],
+              [-8.38453, 6.35887],
+              [-8.3298, 6.36381],
+              [-8.17557, 6.28222],
+              [-8.00642, 6.31684],
+              [-7.90692, 6.27728],
+              [-7.83478, 6.20309],
+              [-7.8497, 6.08932],
+              [-7.79747, 6.07696],
+              [-7.78254, 5.99037],
+              [-7.70294, 5.90625],
+              [-7.67309, 5.94337],
+              [-7.48155, 5.80974],
+              [-7.46165, 5.84934],
+              [-7.43677, 5.84687],
+              [-7.43926, 5.74787],
+              [-7.37209, 5.61173],
+              [-7.43428, 5.42355],
+              [-7.36463, 5.32944],
+              [-7.46165, 5.26256],
+              [-7.48901, 5.14118],
+              [-7.55369, 5.08667],
+              [-7.53876, 4.94294],
+              [-7.59349, 4.8909],
+              [-7.53259, 4.35145],
+              [-7.52774, 3.7105]
+            ]
+          ]
+        ]
+      },
+      "id": "Q1008"
+    },
+    {
+      "type": "Feature",
       "id": "colorado.geojson",
       "properties": {
         "id": "colorado.geojson",
@@ -31004,6 +30964,30 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://discord.gg/openstreetmap\">OpenStreetMap World Discord</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://discord.gg/openstreetmap\">https://discord.gg/openstreetmap</a>",
               "descriptionHTML": "Get in touch with other mappers on Discord"
+            }
+          },
+          "OSM-Discourse": {
+            "id": "OSM-Discourse",
+            "type": "discourse",
+            "locationSet": {"include": ["001"]},
+            "languageCodes": ["de", "en", "es", "nl", "pl", "pt-BR"],
+            "order": 7,
+            "strings": {
+              "name": "OpenStreetMap Discourse",
+              "description": "A shared place for conversations about OpenStreetMap",
+              "url": "https://community.openstreetmap.org"
+            },
+            "contacts": [
+              {"name": "Grant Slater", "email": "osmfuture@firefishy.com"},
+              {"name": "Rubén Martín", "email": "nukeador@protonmail.com"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Discourse",
+              "url": "https://community.openstreetmap.org",
+              "description": "A shared place for conversations about OpenStreetMap",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org\">OpenStreetMap Discourse</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org\">https://community.openstreetmap.org</a>",
+              "descriptionHTML": "A shared place for conversations about OpenStreetMap"
             }
           },
           "OSM-Facebook": {
