@@ -131,12 +131,9 @@ function collectFeatures() {
       const extent = geojsonBounds.extent(feature);
       const lon = ((extent[0] + extent[2]) / 2).toFixed(4);
       const lat = ((extent[1] + extent[3]) / 2).toFixed(4);
-      const dia = (Math.max(Math.abs(lon - extent[0]), Math.abs(lon - extent[2]), Math.abs(lat - extent[1]), Math.abs(lat - extent[3])) * 111.139).toFixed(2);
-      const area_circ = ((dia/2)*(dia/2)*Math.PI).toFixed(2);
       console.warn('');
       console.warn(chalk.yellow(`Warning for ` + chalk.yellow(file) + `:`));
-      console.warn(chalk.yellow(`GeoJSON feature for small area (${area} km²).`));
-      console.warn(chalk.yellow(`Consider circular include location instead: [${lon}, ${lat}] with a diameter of ${dia} km, which than has an area of ${area_circ} km².`));
+      console.warn(chalk.yellow(`GeoJSON feature for small area (${area} km²).  Consider circular include location instead: [${lon}, ${lat}]`));
     }
 
     // use the filename as the feature.id
