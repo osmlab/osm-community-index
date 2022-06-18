@@ -4,9 +4,12 @@
   "account": "Taiwan",
   "locationSet": {"include": ["tw"]},
   "languageCodes": ["tw"],
-  "order": 1,
+  "order": 3,
   "strings": {
     "community": "OpenStreetMap Taiwan",
-    "description": "{community} Wiki page"
-  }
+    "description": "Everything you need to know about mapping in Taiwan: {url}",
+    "url": "https://wiki.openstreetmap.org/wiki/Taiwan"
+  },
+    "contacts": [
+    {"name": "Dennis Raylin Chen", "email": "dennis@wikimedia.tw"}
 }

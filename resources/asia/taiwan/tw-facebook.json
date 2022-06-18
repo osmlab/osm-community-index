@@ -1,17 +1,16 @@
+
 {
   "id": "tw-facebook",
   "type": "facebook",
+  "account": "openstreetmaptaiwan",
   "locationSet": {"include": ["tw"]},
   "languageCodes": ["zh-tw"],
-  "order": 3,
-  "strings": {
-    "community": "OpenStreetMap Taiwan",
-    "url": "https://www.facebook.com/groups/OpenStreetMap.TW"
-  },
+  "order": 6,
+  "strings": {"community": "OpenStreetMap Taiwan"},
   "contacts": [
     {
       "name": "Nobody 沒有人 (Public mail)",
-      "email": "hiboard@openstreetmap.tw"
+      "email": "hiboard@openstreetmap.tw" 
     }
   ]
 }
