@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.1.6",
-    "generated": "2022-05-31T15:00:48.972Z",
+    "generated": "2022-06-18T14:54:18.974Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "274bb7cb1bd41801be3c6dd97a9f54ac"
+    "hash": "6002e13a7b9b20ffb767903cbe8763d9"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -209,7 +209,7 @@
     "ireland-mailinglist": {"id": "ireland-mailinglist", "type": "mailinglist", "account": "talk-ie", "locationSet": {"include": ["gb-nir", "ie"]}, "languageCodes": ["en"], "order": 4, "strings": {"community": "OpenStreetMap Ireland"}},
     "ireland-matrix": {"id": "ireland-matrix", "type": "matrix", "account": "#_oftc_#osm-ie", "locationSet": {"include": ["gb-nir", "ie"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Ireland", "description": "A Matrix gateway for the OSM Ireland IRC channel: {url}"}, "contacts": [{"name": "OSM Ireland", "email": "board@openstreetmap.ie"}]},
     "ireland-meetup": {"id": "ireland-meetup", "type": "meetup", "account": "OpenStreetMap-Ireland-Meetup-Group", "locationSet": {"include": ["gb-nir", "ie"]}, "languageCodes": ["ie"], "order": 6, "strings": {"community": "OpenStreetMap Ireland", "description": "Meetups of everyone who is interested in OpenStreetMap"}, "contacts": [{"name": "OSM Ireland", "email": "board@openstreetmap.ie"}]},
-    "ireland-telegram": {"id": "ireland-telegram", "type": "telegram", "locationSet": {"include": ["gb-nir", "ie"]}, "languageCodes": ["en"], "order": 5, "strings": {"community": "OpenStreetMap Ireland", "url": "https://t.me/joinchat/BDLI7w9jCWm7Bwm2T06jwQ?fbclid=IwAR1ltY85Y7_4_CZhhwLOsLLppzis1MOVRRy897epT99JuZ9ZHZF8wpDRIfk"}},
+    "ireland-telegram": {"id": "ireland-telegram", "type": "telegram", "locationSet": {"include": ["gb-nir", "ie"]}, "languageCodes": ["en"], "order": 5, "strings": {"community": "OpenStreetMap Ireland", "url": "https://t.me/joinchat/BDLI7w9jCWm7Bwm2T06jwQ"}},
     "ireland-twitter": {"id": "ireland-twitter", "type": "twitter", "account": "osm_ie", "locationSet": {"include": ["gb-nir", "ie"]}, "languageCodes": ["en"], "order": 2, "strings": {"community": "OpenStreetMap Ireland"}},
     "ireland-youtube": {"id": "ireland-youtube", "type": "youtube", "account": "UCBjVzMkiYE0RVIbOoqezJHg", "locationSet": {"include": ["gb-nir", "ie"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Ireland"}, "contacts": [{"name": "OSM Ireland", "email": "board@openstreetmap.ie"}]},
     "is-chapter": {"id": "is-chapter", "type": "osm-lc", "locationSet": {"include": ["is"]}, "languageCodes": ["en", "is"], "order": 5, "strings": {"community": "OpenStreetMap Iceland", "description": "We help grow and improve OpenStreetMap in Iceland.", "url": "https://www.hlidskjalf.is/"}},
