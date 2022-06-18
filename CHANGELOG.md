@@ -19,6 +19,39 @@ _Breaking changes, which may affect downstream projects, are marked with a_ ⚠�
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.2.0
+##### 2022-Jun-18
+* Many various updates to use more consistent names and ids ([#524])
+* Added
+  * OpenStreetmap Discourse ([#530])
+  * Maptime Catalan Communities ([#525])
+* Updated:
+  * Taiwan Community resources ([#544])
+  * Argentina Community resources ([#526])
+  * Maptime Bogota ([#515])
+  * BE Matrix ([#514])
+* Removed unused resources:
+  * Albania Telegram ([#546])
+  * Azerbaijan Facebook ([#547])
+  * Côte d'Ivoire Telegram ([#538],[#539])
+  * wiki.freemap.sk ([#537])
+  * YouthMappers NYU ([#529])
+
+[#514]: https://github.com/osmlab/osm-community-index/issues/514
+[#515]: https://github.com/osmlab/osm-community-index/issues/515
+[#524]: https://github.com/osmlab/osm-community-index/issues/524
+[#525]: https://github.com/osmlab/osm-community-index/issues/525
+[#526]: https://github.com/osmlab/osm-community-index/issues/526
+[#529]: https://github.com/osmlab/osm-community-index/issues/529
+[#530]: https://github.com/osmlab/osm-community-index/issues/530
+[#537]: https://github.com/osmlab/osm-community-index/issues/537
+[#538]: https://github.com/osmlab/osm-community-index/issues/538
+[#539]: https://github.com/osmlab/osm-community-index/issues/539
+[#544]: https://github.com/osmlab/osm-community-index/issues/544
+[#546]: https://github.com/osmlab/osm-community-index/issues/546
+[#547]: https://github.com/osmlab/osm-community-index/issues/547
+
+
 # 5.1.6
 ##### 2022-Feb-16
 
