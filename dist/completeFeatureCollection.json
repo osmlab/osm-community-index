@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.1.6",
-    "generated": "2022-05-31T15:39:02.330Z",
+    "generated": "2022-06-18T17:12:45.779Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "6c99b3d65ee4a8004495f6f052fcf9c9"
+    "hash": "07f9a15bdf3e5e262425bdf2e47fc77a"
   },
   "type": "FeatureCollection",
   "features": [
@@ -481,10 +481,10 @@
             "strings": {"community": "OpenStreetMap Albania"},
             "resolved": {
               "name": "OpenStreetMap Albania on Facebook",
-              "url": "https://facebook.com/OpenStreetMapAlbania",
+              "url": "https://www.facebook.com/OpenStreetMapAlbania",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMapAlbania\">OpenStreetMap Albania on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMapAlbania\">https://facebook.com/OpenStreetMapAlbania</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMapAlbania\">OpenStreetMap Albania on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMapAlbania\">https://www.facebook.com/OpenStreetMapAlbania</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -507,27 +507,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=91\">OpenStreetMap Albania Forum</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=91\">https://forum.openstreetmap.org/viewforum.php?id=91</a>",
               "descriptionHTML": "The official forum for OpenStreetMap Albania"
-            }
-          },
-          "al-telegram": {
-            "id": "al-telegram",
-            "type": "telegram",
-            "account": "OpenStreetMapAL",
-            "locationSet": {"include": ["al"]},
-            "languageCodes": ["en", "sq"],
-            "order": 6,
-            "strings": {"community": "OpenStreetMap Albania"},
-            "contacts": [
-              {"name": "Jonathan Beliën", "email": "dev@jbelien.be"},
-              {"name": "Amanti Lulo", "email": "amanti.lulo@gmail.com"}
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Albania Telegram",
-              "url": "https://t.me/OpenStreetMapAL",
-              "description": "Join our community Telegram chat",
-              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/OpenStreetMapAL\">OpenStreetMap Albania Telegram</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/OpenStreetMapAL\">https://t.me/OpenStreetMapAL</a>",
-              "descriptionHTML": "Join our community Telegram chat"
             }
           },
           "al-twitter": {
@@ -1383,287 +1362,6 @@
     {
       "type": "Feature",
       "properties": {
-        "iso1A2": "AZ",
-        "iso1A3": "AZE",
-        "iso1N3": "031",
-        "wikidata": "Q227",
-        "nameEn": "Azerbaijan",
-        "groups": ["145", "142", "UN", "001"],
-        "callingCodes": ["994"],
-        "id": "Q227",
-        "m49": "031",
-        "ccTLD": ".az",
-        "isoStatus": "official",
-        "level": "country",
-        "emojiFlag": "🇦🇿",
-        "roadSpeedUnit": "km/h",
-        "roadHeightUnit": "m",
-        "driveSide": "right",
-        "area": 131889.07,
-        "resources": {
-          "az-facebook": {
-            "id": "az-facebook",
-            "type": "facebook",
-            "account": "OSM-Azerbaijan-178488705567357",
-            "locationSet": {"include": ["az"]},
-            "strings": {"name": "OpenStreetMap Azerbaijan"},
-            "resolved": {
-              "name": "OpenStreetMap Azerbaijan",
-              "url": "https://facebook.com/OSM-Azerbaijan-178488705567357",
-              "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSM-Azerbaijan-178488705567357\">OpenStreetMap Azerbaijan</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSM-Azerbaijan-178488705567357\">https://facebook.com/OSM-Azerbaijan-178488705567357</a>",
-              "descriptionHTML": "Join our community on Facebook"
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [46.42738, 41.91323],
-              [46.3984, 41.84399],
-              [46.30863, 41.79133],
-              [46.23962, 41.75811],
-              [46.20538, 41.77205],
-              [46.17891, 41.72094],
-              [46.19759, 41.62327],
-              [46.24429, 41.59883],
-              [46.26531, 41.63339],
-              [46.28182, 41.60089],
-              [46.3253, 41.60912],
-              [46.34039, 41.5947],
-              [46.34126, 41.57454],
-              [46.29794, 41.5724],
-              [46.33925, 41.4963],
-              [46.40307, 41.48464],
-              [46.4669, 41.43331],
-              [46.63658, 41.37727],
-              [46.72375, 41.28609],
-              [46.66148, 41.20533],
-              [46.63969, 41.09515],
-              [46.55096, 41.1104],
-              [46.48558, 41.0576],
-              [46.456, 41.09984],
-              [46.37661, 41.10805],
-              [46.27698, 41.19011],
-              [46.13221, 41.19479],
-              [45.95786, 41.17956],
-              [45.80842, 41.2229],
-              [45.69946, 41.29545],
-              [45.75705, 41.35157],
-              [45.71035, 41.36208],
-              [45.68389, 41.3539],
-              [45.45973, 41.45898],
-              [45.4006, 41.42402],
-              [45.31352, 41.47168],
-              [45.26285, 41.46433],
-              [45.1797, 41.42231],
-              [45.09867, 41.34065],
-              [45.0133, 41.29747],
-              [45.05497, 41.2464],
-              [45.02932, 41.2101],
-              [45.05201, 41.19211],
-              [45.11811, 41.19967],
-              [45.1969, 41.168],
-              [45.19942, 41.13299],
-              [45.08028, 41.10917],
-              [45.06784, 41.05379],
-              [45.12923, 41.06059],
-              [45.1313, 41.09369],
-              [45.1634, 41.08082],
-              [45.16493, 41.05068],
-              [45.1994, 41.04518],
-              [45.25897, 41.0027],
-              [45.26162, 41.0228],
-              [45.28859, 41.03757],
-              [45.35677, 40.99784],
-              [45.39725, 41.02603],
-              [45.44083, 41.01663],
-              [45.40814, 40.97904],
-              [45.60584, 40.87436],
-              [45.55914, 40.78366],
-              [45.4206, 40.7424],
-              [45.35366, 40.65979],
-              [45.45484, 40.57707],
-              [45.42994, 40.53804],
-              [45.65098, 40.37696],
-              [45.95609, 40.27846],
-              [45.97944, 40.181],
-              [45.83779, 39.98925],
-              [45.78642, 40.03218],
-              [45.59806, 40.0131],
-              [45.60895, 39.97733],
-              [45.7833, 39.9475],
-              [45.82533, 39.82925],
-              [45.96543, 39.78859],
-              [46.18493, 39.60533],
-              [46.40286, 39.63651],
-              [46.42465, 39.57534],
-              [46.52117, 39.58734],
-              [46.57098, 39.56694],
-              [46.57721, 39.54414],
-              [46.51027, 39.52373],
-              [46.53051, 39.47809],
-              [46.4013, 39.45405],
-              [46.37795, 39.42039],
-              [46.43244, 39.35181],
-              [46.50093, 39.33736],
-              [46.56476, 39.24942],
-              [46.63481, 39.23013],
-              [46.58032, 39.21204],
-              [46.54141, 39.15895],
-              [46.52584, 39.18912],
-              [46.44022, 39.19636],
-              [46.54296, 39.07078],
-              [46.51805, 38.94982],
-              [46.53497, 38.86548],
-              [46.75752, 39.03231],
-              [46.83822, 39.13143],
-              [46.92539, 39.16644],
-              [46.95341, 39.13505],
-              [47.05771, 39.20143],
-              [47.05927, 39.24846],
-              [47.31301, 39.37492],
-              [47.38978, 39.45999],
-              [47.50099, 39.49615],
-              [47.84774, 39.66285],
-              [47.98977, 39.70999],
-              [48.34264, 39.42935],
-              [48.37385, 39.37584],
-              [48.15984, 39.30028],
-              [48.12404, 39.25208],
-              [48.15361, 39.19419],
-              [48.31239, 39.09278],
-              [48.33884, 39.03022],
-              [48.28437, 38.97186],
-              [48.08627, 38.94434],
-              [48.07734, 38.91616],
-              [48.01409, 38.90333],
-              [48.02581, 38.82705],
-              [48.24773, 38.71883],
-              [48.3146, 38.59958],
-              [48.45084, 38.61013],
-              [48.58793, 38.45076],
-              [48.62217, 38.40198],
-              [48.70001, 38.40564],
-              [48.78979, 38.45026],
-              [48.81072, 38.44853],
-              [48.84969, 38.45015],
-              [48.88288, 38.43975],
-              [52.39847, 39.43556],
-              [48.80971, 41.95365],
-              [48.5867, 41.84306],
-              [48.55078, 41.77917],
-              [48.42301, 41.65444],
-              [48.40277, 41.60441],
-              [48.2878, 41.56221],
-              [48.22064, 41.51472],
-              [48.07587, 41.49957],
-              [47.87973, 41.21798],
-              [47.75831, 41.19455],
-              [47.62288, 41.22969],
-              [47.54504, 41.20275],
-              [47.49004, 41.26366],
-              [47.34579, 41.27884],
-              [47.10762, 41.59044],
-              [47.03757, 41.55434],
-              [46.99554, 41.59743],
-              [47.00955, 41.63583],
-              [46.8134, 41.76252],
-              [46.75269, 41.8623],
-              [46.58924, 41.80547],
-              [46.5332, 41.87389],
-              [46.42738, 41.91323]
-            ],
-            [
-              [45.50279, 40.58424],
-              [45.47927, 40.65023],
-              [45.51825, 40.67382],
-              [45.56071, 40.64765],
-              [45.50279, 40.58424]
-            ]
-          ],
-          [
-            [
-              [45.00864, 41.03411],
-              [45.03792, 41.03938],
-              [45.04517, 41.06653],
-              [45.03406, 41.07931],
-              [45.00864, 41.09407],
-              [44.97169, 41.09176],
-              [44.95383, 41.07553],
-              [44.96031, 41.06345],
-              [44.9903, 41.05657],
-              [45.00864, 41.03411]
-            ]
-          ],
-          [
-            [
-              [45.21324, 40.9817],
-              [45.23095, 40.97828],
-              [45.23487, 41.00226],
-              [45.20625, 41.01484],
-              [45.18382, 41.0066],
-              [45.19312, 40.98998],
-              [45.20518, 40.99348],
-              [45.21219, 40.99001],
-              [45.21324, 40.9817]
-            ]
-          ],
-          [
-            [
-              [45.46992, 39.49888],
-              [45.29606, 39.57654],
-              [45.30385, 39.61373],
-              [45.23535, 39.61373],
-              [45.21784, 39.58074],
-              [45.17464, 39.58614],
-              [45.18554, 39.67846],
-              [45.06604, 39.79277],
-              [44.92869, 39.72157],
-              [44.88354, 39.74432],
-              [44.75779, 39.7148],
-              [44.80977, 39.65768],
-              [44.81043, 39.62677],
-              [44.88916, 39.59653],
-              [44.96746, 39.42998],
-              [45.05932, 39.36435],
-              [45.08751, 39.35052],
-              [45.16168, 39.21952],
-              [45.30489, 39.18333],
-              [45.40148, 39.09007],
-              [45.40452, 39.07224],
-              [45.44811, 39.04927],
-              [45.44966, 38.99243],
-              [45.6131, 38.964],
-              [45.6155, 38.94304],
-              [45.65172, 38.95199],
-              [45.83883, 38.90768],
-              [45.90266, 38.87739],
-              [45.94624, 38.89072],
-              [46.00228, 38.87376],
-              [46.06766, 38.87861],
-              [46.14785, 38.84206],
-              [46.06973, 39.0744],
-              [46.02303, 39.09978],
-              [45.99774, 39.28931],
-              [45.79225, 39.3695],
-              [45.83, 39.46487],
-              [45.80804, 39.56716],
-              [45.70547, 39.60174],
-              [45.46992, 39.49888]
-            ]
-          ]
-        ]
-      },
-      "id": "Q227"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "iso1A2": "BA",
         "iso1A3": "BIH",
         "iso1N3": "070",
@@ -1692,10 +1390,10 @@
             "strings": {"community": "OpenStreetMap Bosnia and Herzegovina"},
             "resolved": {
               "name": "OpenStreetMap Bosnia and Herzegovina on Facebook",
-              "url": "https://facebook.com/OpenStreetMapBosnaIHercegovina",
+              "url": "https://www.facebook.com/OpenStreetMapBosnaIHercegovina",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMapBosnaIHercegovina\">OpenStreetMap Bosnia and Herzegovina on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMapBosnaIHercegovina\">https://facebook.com/OpenStreetMapBosnaIHercegovina</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMapBosnaIHercegovina\">OpenStreetMap Bosnia and Herzegovina on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMapBosnaIHercegovina\">https://www.facebook.com/OpenStreetMapBosnaIHercegovina</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -2142,11 +1840,11 @@
             "contacts": [{"name": "Ben Discoe", "email": "bdiscoe@gmail.com"}],
             "resolved": {
               "name": "Bay Area OpenStreetMappers",
-              "url": "https://meetup.com/Bay-Area-OpenStreetMappers",
+              "url": "https://www.meetup.com/Bay-Area-OpenStreetMappers",
               "description": "Improve OpenStreetMap in the Bay Area",
               "extendedDescription": "This group is about growing the OpenStreetMap community here in the Bay Area. Our events are open to everyone, from open source enthusiasts, cyclists, GIS professionals, geocachers, and beyond. Anyone and everyone who is interested in maps, map making and free map data is welcome to join our group as well as attend our events.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/Bay-Area-OpenStreetMappers\">Bay Area OpenStreetMappers</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/Bay-Area-OpenStreetMappers\">https://meetup.com/Bay-Area-OpenStreetMappers</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/Bay-Area-OpenStreetMappers\">Bay Area OpenStreetMappers</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/Bay-Area-OpenStreetMappers\">https://www.meetup.com/Bay-Area-OpenStreetMappers</a>",
               "descriptionHTML": "Improve OpenStreetMap in the Bay Area",
               "extendedDescriptionHTML": "This group is about growing the OpenStreetMap community here in the Bay Area. Our events are open to everyone, from open source enthusiasts, cyclists, GIS professionals, geocachers, and beyond. Anyone and everyone who is interested in maps, map making and free map data is welcome to join our group as well as attend our events."
             }
@@ -2582,11 +2280,11 @@
             "contacts": [{"name": "BE community", "email": "community@osm.be"}],
             "resolved": {
               "name": "OpenStreetMap Belgium Meetup",
-              "url": "https://meetup.com/OpenStreetMap-Belgium",
+              "url": "https://www.meetup.com/OpenStreetMap-Belgium",
               "description": "Real life meetups of everyone who is interested in OpenStreetMap",
               "extendedDescription": "Physical meetups are great to meet other mappers, ask them questions and to learn a lot. Especially new contributors are very welcome!",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/OpenStreetMap-Belgium\">OpenStreetMap Belgium Meetup</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/OpenStreetMap-Belgium\">https://meetup.com/OpenStreetMap-Belgium</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Belgium\">OpenStreetMap Belgium Meetup</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Belgium\">https://www.meetup.com/OpenStreetMap-Belgium</a>",
               "descriptionHTML": "Real life meetups of everyone who is interested in OpenStreetMap",
               "extendedDescriptionHTML": "Physical meetups are great to meet other mappers, ask them questions and to learn a lot. Especially new contributors are very welcome!"
             }
@@ -4156,10 +3854,10 @@
             ],
             "resolved": {
               "name": "Mapping Botswana on Facebook",
-              "url": "https://facebook.com/MappingBotswana",
+              "url": "https://www.facebook.com/MappingBotswana",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/MappingBotswana\">Mapping Botswana on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/MappingBotswana\">https://facebook.com/MappingBotswana</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/MappingBotswana\">Mapping Botswana on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/MappingBotswana\">https://www.facebook.com/MappingBotswana</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -4868,10 +4566,10 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Catalan Countries on Facebook",
-              "url": "https://facebook.com/OSMcatala",
+              "url": "https://www.facebook.com/OSMcatala",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSMcatala\">OpenStreetMap Catalan Countries on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSMcatala\">https://facebook.com/OSMcatala</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OSMcatala\">OpenStreetMap Catalan Countries on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OSMcatala\">https://www.facebook.com/OSMcatala</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -5096,10 +4794,10 @@
             "strings": {"community": "OpenStreetMap RDC"},
             "resolved": {
               "name": "OpenStreetMap RDC on Facebook",
-              "url": "https://facebook.com/OpenStreetMap.RDC",
+              "url": "https://www.facebook.com/OpenStreetMap.RDC",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMap.RDC\">OpenStreetMap RDC on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMap.RDC\">https://facebook.com/OpenStreetMap.RDC</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMap.RDC\">OpenStreetMap RDC on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMap.RDC\">https://www.facebook.com/OpenStreetMap.RDC</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -5415,10 +5113,10 @@
             "contacts": [{"name": "Sterling Quinn", "email": "sdq107@psu.edu"}],
             "resolved": {
               "name": "Central Pennsylvania OSM",
-              "url": "https://facebook.com/CentralPennsylvaniaOSM",
+              "url": "https://www.facebook.com/CentralPennsylvaniaOSM",
               "description": "Online mapping community based out of State College, PA",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/CentralPennsylvaniaOSM\">Central Pennsylvania OSM</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/CentralPennsylvaniaOSM\">https://facebook.com/CentralPennsylvaniaOSM</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/CentralPennsylvaniaOSM\">Central Pennsylvania OSM</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/CentralPennsylvaniaOSM\">https://www.facebook.com/CentralPennsylvaniaOSM</a>",
               "descriptionHTML": "Online mapping community based out of State College, PA"
             }
           }
@@ -6000,11 +5698,11 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Chile on Facebook",
-              "url": "https://facebook.com/OpenStreetMap-Chile-145127198882915",
+              "url": "https://www.facebook.com/OpenStreetMap-Chile-145127198882915",
               "description": "Join our community on Facebook",
               "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMap-Chile-145127198882915\">OpenStreetMap Chile on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMap-Chile-145127198882915\">https://facebook.com/OpenStreetMap-Chile-145127198882915</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMap-Chile-145127198882915\">OpenStreetMap Chile on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMap-Chile-145127198882915\">https://www.facebook.com/OpenStreetMap-Chile-145127198882915</a>",
               "descriptionHTML": "Join our community on Facebook",
               "extendedDescriptionHTML": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"
             }
@@ -6034,10 +5732,10 @@
             "strings": {"community": "OpenStreetMap Chile"},
             "resolved": {
               "name": "OpenStreetMap Chile on LinkedIn",
-              "url": "https://linkedin.com/company/openstreetmap-chile",
+              "url": "https://www.linkedin.com/company/openstreetmap-chile",
               "description": "Join our community on LinkedIn",
-              "nameHTML": "<a target=\"_blank\" href=\"https://linkedin.com/company/openstreetmap-chile\">OpenStreetMap Chile on LinkedIn</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://linkedin.com/company/openstreetmap-chile\">https://linkedin.com/company/openstreetmap-chile</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.linkedin.com/company/openstreetmap-chile\">OpenStreetMap Chile on LinkedIn</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.linkedin.com/company/openstreetmap-chile\">https://www.linkedin.com/company/openstreetmap-chile</a>",
               "descriptionHTML": "Join our community on LinkedIn"
             }
           },
@@ -7794,11 +7492,11 @@
             },
             "resolved": {
               "name": "OSM South Bay",
-              "url": "https://meetup.com/Code-for-San-Jose",
+              "url": "https://www.meetup.com/Code-for-San-Jose",
               "description": "Map Nights hosted by Code for San Jose",
               "extendedDescription": "Code for San Jose, the local Code for America brigade, hosts monthly Map Nights on Thursday nights in downtown San José. Meet fellow South Bay mappers, help out with local mapping projects, and hear about other civic tech projects. Programming and GIS skills are not required.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/Code-for-San-Jose\">OSM South Bay</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/Code-for-San-Jose\">https://meetup.com/Code-for-San-Jose</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/Code-for-San-Jose\">OSM South Bay</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/Code-for-San-Jose\">https://www.meetup.com/Code-for-San-Jose</a>",
               "descriptionHTML": "Map Nights hosted by Code for San Jose",
               "extendedDescriptionHTML": "Code for San Jose, the local Code for America brigade, hosts monthly Map Nights on Thursday nights in downtown San José. Meet fellow South Bay mappers, help out with local mapping projects, and hear about other civic tech projects. Programming and GIS skills are not required."
             }
@@ -8208,10 +7906,10 @@
             "contacts": [{"name": "osmcz", "email": "dev@openstreetmap.cz"}],
             "resolved": {
               "name": "OpenStreetMap CZ on Facebook",
-              "url": "https://facebook.com/osmcz",
+              "url": "https://www.facebook.com/osmcz",
               "description": "Follow the Czech community on Facebook - including translated WeeklyOSM!",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmcz\">OpenStreetMap CZ on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmcz\">https://facebook.com/osmcz</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmcz\">OpenStreetMap CZ on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmcz\">https://www.facebook.com/osmcz</a>",
               "descriptionHTML": "Follow the Czech community on Facebook - including translated WeeklyOSM!"
             }
           },
@@ -12458,10 +12156,10 @@
             "strings": {"community": "OpenStreetMap Western Sahara"},
             "resolved": {
               "name": "OpenStreetMap Western Sahara on Facebook",
-              "url": "https://facebook.com/Open-Streets-Map-Western-Sahara-109567967444155",
+              "url": "https://www.facebook.com/Open-Streets-Map-Western-Sahara-109567967444155",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/Open-Streets-Map-Western-Sahara-109567967444155\">OpenStreetMap Western Sahara on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/Open-Streets-Map-Western-Sahara-109567967444155\">https://facebook.com/Open-Streets-Map-Western-Sahara-109567967444155</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/Open-Streets-Map-Western-Sahara-109567967444155\">OpenStreetMap Western Sahara on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/Open-Streets-Map-Western-Sahara-109567967444155\">https://www.facebook.com/Open-Streets-Map-Western-Sahara-109567967444155</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           }
@@ -13485,10 +13183,10 @@
             "strings": {"community": "OpenStreetMap Fiji"},
             "resolved": {
               "name": "OpenStreetMap Fiji on Facebook",
-              "url": "https://facebook.com/OSM-Fiji-110457007776664",
+              "url": "https://www.facebook.com/OSM-Fiji-110457007776664",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSM-Fiji-110457007776664\">OpenStreetMap Fiji on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSM-Fiji-110457007776664\">https://facebook.com/OSM-Fiji-110457007776664</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OSM-Fiji-110457007776664\">OpenStreetMap Fiji on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OSM-Fiji-110457007776664\">https://www.facebook.com/OSM-Fiji-110457007776664</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -13873,10 +13571,10 @@
             ],
             "resolved": {
               "name": "OpenStreetMap France on Facebook",
-              "url": "https://facebook.com/osmfr",
+              "url": "https://www.facebook.com/osmfr",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmfr\">OpenStreetMap France on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmfr\">https://facebook.com/osmfr</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmfr\">OpenStreetMap France on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmfr\">https://www.facebook.com/osmfr</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -15449,11 +15147,11 @@
             "contacts": [{"name": "Dan Ford", "email": "dford@azavea.com"}],
             "resolved": {
               "name": "GeoPhilly",
-              "url": "https://meetup.com/GeoPhilly",
+              "url": "https://www.meetup.com/GeoPhilly",
               "description": "Meetup for map enthusiasts in the Philadelphia area",
               "extendedDescription": "GeoPhilly unites developers, geographers, data geeks, open source enthusiasts, civic hackers and map addicts in our shared love of maps and the stories they tell. If you use maps as part of your work or just want to learn more, this is the meetup for you!  Our events aim to be open, friendly, educational and social and range from happy hours to lightning talks or even workshops. Come create a diverse, inspiring geospatial community in the Philadelphia with us!",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/GeoPhilly\">GeoPhilly</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/GeoPhilly\">https://meetup.com/GeoPhilly</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/GeoPhilly\">GeoPhilly</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/GeoPhilly\">https://www.meetup.com/GeoPhilly</a>",
               "descriptionHTML": "Meetup for map enthusiasts in the Philadelphia area",
               "extendedDescriptionHTML": "GeoPhilly unites developers, geographers, data geeks, open source enthusiasts, civic hackers and map addicts in our shared love of maps and the stories they tell. If you use maps as part of your work or just want to learn more, this is the meetup for you!  Our events aim to be open, friendly, educational and social and range from happy hours to lightning talks or even workshops. Come create a diverse, inspiring geospatial community in the Philadelphia with us!"
             }
@@ -16456,10 +16154,10 @@
             "strings": {"community": "OpenStreetMap Hungary"},
             "resolved": {
               "name": "OpenStreetMap Hungary on Facebook",
-              "url": "https://facebook.com/OpenStreetMap.hu",
+              "url": "https://www.facebook.com/OpenStreetMap.hu",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMap.hu\">OpenStreetMap Hungary on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMap.hu\">https://facebook.com/OpenStreetMap.hu</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMap.hu\">OpenStreetMap Hungary on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMap.hu\">https://www.facebook.com/OpenStreetMap.hu</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -16544,10 +16242,10 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Hungary Meetup",
-              "url": "https://meetup.com/OpenStreetMap-Hungary",
+              "url": "https://www.meetup.com/OpenStreetMap-Hungary",
               "description": "The platform for organizing meetups in Hungary",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/OpenStreetMap-Hungary\">OpenStreetMap Hungary Meetup</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/OpenStreetMap-Hungary\">https://meetup.com/OpenStreetMap-Hungary</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Hungary\">OpenStreetMap Hungary Meetup</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Hungary\">https://www.meetup.com/OpenStreetMap-Hungary</a>",
               "descriptionHTML": "The platform for organizing meetups in Hungary"
             }
           },
@@ -17244,13 +16942,13 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Indonesia on Facebook",
-              "url": "https://facebook.com/openstreetmap.id",
+              "url": "https://www.facebook.com/openstreetmap.id",
               "description": "Join our community on Facebook",
-              "extendedDescription": "Mapping in Indonesia? Have questions, want to connect with the community here? Join us at https://facebook.com/openstreetmap.id. All are welcome!",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/openstreetmap.id\">OpenStreetMap Indonesia on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/openstreetmap.id\">https://facebook.com/openstreetmap.id</a>",
+              "extendedDescription": "Mapping in Indonesia? Have questions, want to connect with the community here? Join us at https://www.facebook.com/openstreetmap.id. All are welcome!",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/openstreetmap.id\">OpenStreetMap Indonesia on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/openstreetmap.id\">https://www.facebook.com/openstreetmap.id</a>",
               "descriptionHTML": "Join our community on Facebook",
-              "extendedDescriptionHTML": "Mapping in Indonesia? Have questions, want to connect with the community here? Join us at <a target=\"_blank\" href=\"https://facebook.com/openstreetmap.id\">https://facebook.com/openstreetmap.id</a>. All are welcome!"
+              "extendedDescriptionHTML": "Mapping in Indonesia? Have questions, want to connect with the community here? Join us at <a target=\"_blank\" href=\"https://www.facebook.com/openstreetmap.id\">https://www.facebook.com/openstreetmap.id</a>. All are welcome!"
             }
           },
           "id-facebook-group": {
@@ -17303,10 +17001,10 @@
             "strings": {"community": "OpenStreetMap Indonesia"},
             "resolved": {
               "name": "OpenStreetMap Indonesia on LinkedIn",
-              "url": "https://linkedin.com/company/openstreetmap-indonesia",
+              "url": "https://www.linkedin.com/company/openstreetmap-indonesia",
               "description": "Join our community on LinkedIn",
-              "nameHTML": "<a target=\"_blank\" href=\"https://linkedin.com/company/openstreetmap-indonesia\">OpenStreetMap Indonesia on LinkedIn</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://linkedin.com/company/openstreetmap-indonesia\">https://linkedin.com/company/openstreetmap-indonesia</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.linkedin.com/company/openstreetmap-indonesia\">OpenStreetMap Indonesia on LinkedIn</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.linkedin.com/company/openstreetmap-indonesia\">https://www.linkedin.com/company/openstreetmap-indonesia</a>",
               "descriptionHTML": "Join our community on LinkedIn"
             }
           },
@@ -17862,10 +17560,10 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Ireland Meetup",
-              "url": "https://meetup.com/OpenStreetMap-Ireland-Meetup-Group",
+              "url": "https://www.meetup.com/OpenStreetMap-Ireland-Meetup-Group",
               "description": "Meetups of everyone who is interested in OpenStreetMap",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/OpenStreetMap-Ireland-Meetup-Group\">OpenStreetMap Ireland Meetup</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/OpenStreetMap-Ireland-Meetup-Group\">https://meetup.com/OpenStreetMap-Ireland-Meetup-Group</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Ireland-Meetup-Group\">OpenStreetMap Ireland Meetup</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Ireland-Meetup-Group\">https://www.meetup.com/OpenStreetMap-Ireland-Meetup-Group</a>",
               "descriptionHTML": "Meetups of everyone who is interested in OpenStreetMap"
             }
           },
@@ -17877,14 +17575,14 @@
             "order": 5,
             "strings": {
               "community": "OpenStreetMap Ireland",
-              "url": "https://t.me/joinchat/BDLI7w9jCWm7Bwm2T06jwQ?fbclid=IwAR1ltY85Y7_4_CZhhwLOsLLppzis1MOVRRy897epT99JuZ9ZHZF8wpDRIfk"
+              "url": "https://t.me/joinchat/BDLI7w9jCWm7Bwm2T06jwQ"
             },
             "resolved": {
               "name": "OpenStreetMap Ireland Telegram",
-              "url": "https://t.me/joinchat/BDLI7w9jCWm7Bwm2T06jwQ?fbclid=IwAR1ltY85Y7_4_CZhhwLOsLLppzis1MOVRRy897epT99JuZ9ZHZF8wpDRIfk",
+              "url": "https://t.me/joinchat/BDLI7w9jCWm7Bwm2T06jwQ",
               "description": "Join our community Telegram chat",
-              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/joinchat/BDLI7w9jCWm7Bwm2T06jwQ?fbclid=IwAR1ltY85Y7_4_CZhhwLOsLLppzis1MOVRRy897epT99JuZ9ZHZF8wpDRIfk\">OpenStreetMap Ireland Telegram</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/joinchat/BDLI7w9jCWm7Bwm2T06jwQ?fbclid=IwAR1ltY85Y7_4_CZhhwLOsLLppzis1MOVRRy897epT99JuZ9ZHZF8wpDRIfk\">https://t.me/joinchat/BDLI7w9jCWm7Bwm2T06jwQ?fbclid=IwAR1ltY85Y7_4_CZhhwLOsLLppzis1MOVRRy897epT99JuZ9ZHZF8wpDRIfk</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/joinchat/BDLI7w9jCWm7Bwm2T06jwQ\">OpenStreetMap Ireland Telegram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/joinchat/BDLI7w9jCWm7Bwm2T06jwQ\">https://t.me/joinchat/BDLI7w9jCWm7Bwm2T06jwQ</a>",
               "descriptionHTML": "Join our community Telegram chat"
             }
           },
@@ -17997,10 +17695,10 @@
             "strings": {"community": "OpenStreetMap Iceland"},
             "resolved": {
               "name": "OpenStreetMap Iceland on Facebook",
-              "url": "https://facebook.com/osmiceland",
+              "url": "https://www.facebook.com/osmiceland",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmiceland\">OpenStreetMap Iceland on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmiceland\">https://facebook.com/osmiceland</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmiceland\">OpenStreetMap Iceland on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmiceland\">https://www.facebook.com/osmiceland</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -18139,10 +17837,10 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Italy on Facebook",
-              "url": "https://facebook.com/OpenStreetMap.Italia",
+              "url": "https://www.facebook.com/OpenStreetMap.Italia",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMap.Italia\">OpenStreetMap Italy on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMap.Italia\">https://facebook.com/OpenStreetMap.Italia</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMap.Italia\">OpenStreetMap Italy on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMap.Italia\">https://www.facebook.com/OpenStreetMap.Italia</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -18561,10 +18259,10 @@
             "strings": {"community": "OpenStreetMap Cambodia"},
             "resolved": {
               "name": "OpenStreetMap Cambodia on Facebook",
-              "url": "https://facebook.com/OSM-Cambodia-218656624834943",
+              "url": "https://www.facebook.com/OSM-Cambodia-218656624834943",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSM-Cambodia-218656624834943\">OpenStreetMap Cambodia on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSM-Cambodia-218656624834943\">https://facebook.com/OSM-Cambodia-218656624834943</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OSM-Cambodia-218656624834943\">OpenStreetMap Cambodia on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OSM-Cambodia-218656624834943\">https://www.facebook.com/OSM-Cambodia-218656624834943</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -18825,10 +18523,10 @@
             "strings": {"community": "Kiribati Women in Mapping"},
             "resolved": {
               "name": "Kiribati Women in Mapping on Facebook",
-              "url": "https://facebook.com/womeninmappingkiribati",
+              "url": "https://www.facebook.com/womeninmappingkiribati",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/womeninmappingkiribati\">Kiribati Women in Mapping on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/womeninmappingkiribati\">https://facebook.com/womeninmappingkiribati</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/womeninmappingkiribati\">Kiribati Women in Mapping on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/womeninmappingkiribati\">https://www.facebook.com/womeninmappingkiribati</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           }
@@ -19732,10 +19430,10 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Latin America on Facebook",
-              "url": "https://facebook.com/osmlatam",
+              "url": "https://www.facebook.com/osmlatam",
               "description": "Mappers and OpenStreetMap on Facebook in Latin America",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmlatam\">OpenStreetMap Latin America on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmlatam\">https://facebook.com/osmlatam</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmlatam\">OpenStreetMap Latin America on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmlatam\">https://www.facebook.com/osmlatam</a>",
               "descriptionHTML": "Mappers and OpenStreetMap on Facebook in Latin America"
             }
           },
@@ -20350,10 +20048,10 @@
             "strings": {"community": "OpenStreetMap French Polynesia"},
             "resolved": {
               "name": "OpenStreetMap French Polynesia on Facebook",
-              "url": "https://facebook.com/osmpf",
+              "url": "https://www.facebook.com/osmpf",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmpf\">OpenStreetMap French Polynesia on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmpf\">https://facebook.com/osmpf</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmpf\">OpenStreetMap French Polynesia on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmpf\">https://www.facebook.com/osmpf</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           }
@@ -20505,10 +20203,10 @@
             "strings": {"community": "OpenStreetMap Liberia"},
             "resolved": {
               "name": "OpenStreetMap Liberia on Facebook",
-              "url": "https://facebook.com/openstreetmapliberia",
+              "url": "https://www.facebook.com/openstreetmapliberia",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/openstreetmapliberia\">OpenStreetMap Liberia on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/openstreetmapliberia\">https://facebook.com/openstreetmapliberia</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/openstreetmapliberia\">OpenStreetMap Liberia on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/openstreetmapliberia\">https://www.facebook.com/openstreetmapliberia</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -21464,10 +21162,10 @@
             "strings": {"community": "OpenStreetMap Libya"},
             "resolved": {
               "name": "OpenStreetMap Libya on Facebook",
-              "url": "https://facebook.com/openstreetmap.libya",
+              "url": "https://www.facebook.com/openstreetmap.libya",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/openstreetmap.libya\">OpenStreetMap Libya on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/openstreetmap.libya\">https://facebook.com/openstreetmap.libya</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/openstreetmap.libya\">OpenStreetMap Libya on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/openstreetmap.libya\">https://www.facebook.com/openstreetmap.libya</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -21895,10 +21593,10 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Freemap Slovakia on Facebook",
-              "url": "https://facebook.com/FreemapSlovakia",
+              "url": "https://www.facebook.com/FreemapSlovakia",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/FreemapSlovakia\">OpenStreetMap Freemap Slovakia on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/FreemapSlovakia\">https://facebook.com/FreemapSlovakia</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/FreemapSlovakia\">OpenStreetMap Freemap Slovakia on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/FreemapSlovakia\">https://www.facebook.com/FreemapSlovakia</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -22235,10 +21933,10 @@
             ],
             "resolved": {
               "name": "Mapeado Colaborativo / Geoinquietos Zaragoza",
-              "url": "https://meetup.com/mapcolabora",
+              "url": "https://www.meetup.com/mapcolabora",
               "description": "Mapeado Colaborativo / Geoinquietos Zaragoza Meetup page",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/mapcolabora\">Mapeado Colaborativo / Geoinquietos Zaragoza</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/mapcolabora\">https://meetup.com/mapcolabora</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/mapcolabora\">Mapeado Colaborativo / Geoinquietos Zaragoza</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/mapcolabora\">https://www.meetup.com/mapcolabora</a>",
               "descriptionHTML": "Mapeado Colaborativo / Geoinquietos Zaragoza Meetup page"
             }
           },
@@ -22467,11 +22165,11 @@
             ],
             "resolved": {
               "name": "MaptimeBogotá",
-              "url": "https://meetup.com/maptime-bogota-colombia-osm",
+              "url": "https://www.meetup.com/maptime-bogota-colombia-osm",
               "description": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
               "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/maptime-bogota-colombia-osm\">MaptimeBogotá</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/maptime-bogota-colombia-osm\">https://meetup.com/maptime-bogota-colombia-osm</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/maptime-bogota-colombia-osm\">MaptimeBogotá</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/maptime-bogota-colombia-osm\">https://www.meetup.com/maptime-bogota-colombia-osm</a>",
               "descriptionHTML": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
               "extendedDescriptionHTML": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun."
             }
@@ -22570,11 +22268,11 @@
             ],
             "resolved": {
               "name": "MaptimeME",
-              "url": "https://meetup.com/MaptimeME",
+              "url": "https://www.meetup.com/MaptimeME",
               "description": "Mappers and OpenStreetMap users, around Portland, ME",
               "extendedDescription": "Maptime is, rather literally, time for mapmaking.  Our mission is to open the doors of cartographic possibility to anyone interested by creating a time and space for collaborative learning, exploration, and map creation using mapping tools and technologies.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/MaptimeME\">MaptimeME</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/MaptimeME\">https://meetup.com/MaptimeME</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/MaptimeME\">MaptimeME</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/MaptimeME\">https://www.meetup.com/MaptimeME</a>",
               "descriptionHTML": "Mappers and OpenStreetMap users, around Portland, ME",
               "extendedDescriptionHTML": "Maptime is, rather literally, time for mapmaking.  Our mission is to open the doors of cartographic possibility to anyone interested by creating a time and space for collaborative learning, exploration, and map creation using mapping tools and technologies."
             }
@@ -23730,10 +23428,10 @@
             "strings": {"community": "OpenStreetMap Mali"},
             "resolved": {
               "name": "OpenStreetMap Mali on Facebook",
-              "url": "https://facebook.com/Openstreetmap-Mali-909615379063102",
+              "url": "https://www.facebook.com/Openstreetmap-Mali-909615379063102",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/Openstreetmap-Mali-909615379063102\">OpenStreetMap Mali on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/Openstreetmap-Mali-909615379063102\">https://facebook.com/Openstreetmap-Mali-909615379063102</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/Openstreetmap-Mali-909615379063102\">OpenStreetMap Mali on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/Openstreetmap-Mali-909615379063102\">https://www.facebook.com/Openstreetmap-Mali-909615379063102</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -24671,10 +24369,10 @@
             "strings": {"community": "OpenStreetMap Mauritania"},
             "resolved": {
               "name": "OpenStreetMap Mauritania on Facebook",
-              "url": "https://facebook.com/OSM.Mauritanie",
+              "url": "https://www.facebook.com/OSM.Mauritanie",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSM.Mauritanie\">OpenStreetMap Mauritania on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSM.Mauritanie\">https://facebook.com/OSM.Mauritanie</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OSM.Mauritanie\">OpenStreetMap Mauritania on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OSM.Mauritanie\">https://www.facebook.com/OSM.Mauritanie</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           }
@@ -25029,14 +24727,14 @@
             "languageCodes": ["es"],
             "strings": {
               "community": "OpenStreetMap Mexico",
-              "url": "https://facebook.com/groups/OSMMX"
+              "url": "https://www.facebook.com/groups/OSMMX"
             },
             "resolved": {
               "name": "OpenStreetMap Mexico on Facebook",
-              "url": "https://facebook.com/groups/OSMMX",
+              "url": "https://www.facebook.com/groups/OSMMX",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/groups/OSMMX\">OpenStreetMap Mexico on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/groups/OSMMX\">https://facebook.com/groups/OSMMX</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/OSMMX\">OpenStreetMap Mexico on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/OSMMX\">https://www.facebook.com/groups/OSMMX</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -25536,10 +25234,10 @@
             "strings": {"community": "OpenStreetMap Niger"},
             "resolved": {
               "name": "OpenStreetMap Niger on Facebook",
-              "url": "https://facebook.com/mappingforniger",
+              "url": "https://www.facebook.com/mappingforniger",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/mappingforniger\">OpenStreetMap Niger on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/mappingforniger\">https://facebook.com/mappingforniger</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/mappingforniger\">OpenStreetMap Niger on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/mappingforniger\">https://www.facebook.com/mappingforniger</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -25724,10 +25422,10 @@
             "strings": {"community": "OpenStreetMap Nigeria"},
             "resolved": {
               "name": "OpenStreetMap Nigeria on Facebook",
-              "url": "https://facebook.com/OSMNigeria",
+              "url": "https://www.facebook.com/OSMNigeria",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSMNigeria\">OpenStreetMap Nigeria on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSMNigeria\">https://facebook.com/OSMNigeria</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OSMNigeria\">OpenStreetMap Nigeria on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OSMNigeria\">https://www.facebook.com/OSMNigeria</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -25974,10 +25672,10 @@
             "strings": {"community": "OpenStreetMap Nicaragua"},
             "resolved": {
               "name": "OpenStreetMap Nicaragua on Facebook",
-              "url": "https://facebook.com/mapanica",
+              "url": "https://www.facebook.com/mapanica",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/mapanica\">OpenStreetMap Nicaragua on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/mapanica\">https://facebook.com/mapanica</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/mapanica\">OpenStreetMap Nicaragua on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/mapanica\">https://www.facebook.com/mapanica</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -27163,11 +26861,11 @@
             ],
             "resolved": {
               "name": "Open Cleveland",
-              "url": "https://meetup.com/open-cleveland",
+              "url": "https://www.meetup.com/open-cleveland",
               "description": "Improve OpenStreetMap in the Cleveland area",
               "extendedDescription": "Open Geo Cleveland aims to be a resource for people to discuss and share knowledge on utilizing free geographic data sets especially OpenStreetMap, and Open geo-spatial software that manages, edits, and displays geographic data, and advocate for its use in Northeast Ohio. We're also a maptime chapter =)",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/open-cleveland\">Open Cleveland</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/open-cleveland\">https://meetup.com/open-cleveland</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/open-cleveland\">Open Cleveland</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/open-cleveland\">https://www.meetup.com/open-cleveland</a>",
               "descriptionHTML": "Improve OpenStreetMap in the Cleveland area",
               "extendedDescriptionHTML": "Open Geo Cleveland aims to be a resource for people to discuss and share knowledge on utilizing free geographic data sets especially OpenStreetMap, and Open geo-spatial software that manages, edits, and displays geographic data, and advocate for its use in Northeast Ohio. We're also a maptime chapter =)"
             }
@@ -27762,10 +27460,10 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Africa on Facebook",
-              "url": "https://facebook.com/OpenStreetMapAfrica",
+              "url": "https://www.facebook.com/OpenStreetMapAfrica",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMapAfrica\">OpenStreetMap Africa on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMapAfrica\">https://facebook.com/OpenStreetMapAfrica</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMapAfrica\">OpenStreetMap Africa on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMapAfrica\">https://www.facebook.com/OpenStreetMapAfrica</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -28161,10 +27859,10 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Argentina on Facebook",
-              "url": "https://facebook.com/OpenStreetMapAR",
+              "url": "https://www.facebook.com/OpenStreetMapAR",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMapAR\">OpenStreetMap Argentina on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMapAR\">https://facebook.com/OpenStreetMapAR</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMapAR\">OpenStreetMap Argentina on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMapAR\">https://www.facebook.com/OpenStreetMapAR</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -29508,11 +29206,11 @@
             "contacts": [{"name": "Lars Ahlzen", "email": "lars@ahlzen.com"}],
             "resolved": {
               "name": "OpenStreetMap Boston",
-              "url": "https://meetup.com/OpenStreetMap-Boston",
+              "url": "https://www.meetup.com/OpenStreetMap-Boston",
               "description": "Mappers and OpenStreetMap users in the Boston area",
               "extendedDescription": "OpenStreetMap is the free and open, wiki-style map of the world, with hundreds of thousands of contributions every day from people like you. Editing the map is simple, and fun! Join us both indoors and outdoors in our effort to create the best map of the Boston area and the rest of the world!",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/OpenStreetMap-Boston\">OpenStreetMap Boston</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/OpenStreetMap-Boston\">https://meetup.com/OpenStreetMap-Boston</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Boston\">OpenStreetMap Boston</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Boston\">https://www.meetup.com/OpenStreetMap-Boston</a>",
               "descriptionHTML": "Mappers and OpenStreetMap users in the Boston area",
               "extendedDescriptionHTML": "OpenStreetMap is the free and open, wiki-style map of the world, with hundreds of thousands of contributions every day from people like you. Editing the map is simple, and fun! Join us both indoors and outdoors in our effort to create the best map of the Boston area and the rest of the world!"
             }
@@ -29948,11 +29646,11 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Central Salish Sea",
-              "url": "https://meetup.com/OpenStreetMap-Central-Salish-Sea",
+              "url": "https://www.meetup.com/OpenStreetMap-Central-Salish-Sea",
               "description": "Mappers and OpenStreetMap users around Mount Vernon, WA",
               "extendedDescription": "OpenStreetMap is an map of the world made by people like you. It's a map that you build, that's given away for free like wikipedia. Check out osm.org for more. We meet all the time to talk maps, make maps and have fun!",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/OpenStreetMap-Central-Salish-Sea\">OpenStreetMap Central Salish Sea</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/OpenStreetMap-Central-Salish-Sea\">https://meetup.com/OpenStreetMap-Central-Salish-Sea</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Central-Salish-Sea\">OpenStreetMap Central Salish Sea</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Central-Salish-Sea\">https://www.meetup.com/OpenStreetMap-Central-Salish-Sea</a>",
               "descriptionHTML": "Mappers and OpenStreetMap users around Mount Vernon, WA",
               "extendedDescriptionHTML": "OpenStreetMap is an map of the world made by people like you. It's a map that you build, that's given away for free like wikipedia. Check out osm.org for more. We meet all the time to talk maps, make maps and have fun!"
             }
@@ -30045,10 +29743,10 @@
             "strings": {"community": "OpenStreetMap Cote d'Ivoire"},
             "resolved": {
               "name": "OpenStreetMap Cote d'Ivoire on Facebook",
-              "url": "https://facebook.com/openstreetmapci",
+              "url": "https://www.facebook.com/openstreetmapci",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/openstreetmapci\">OpenStreetMap Cote d'Ivoire on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/openstreetmapci\">https://facebook.com/openstreetmapci</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/openstreetmapci\">OpenStreetMap Cote d'Ivoire on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/openstreetmapci\">https://www.facebook.com/openstreetmapci</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -30255,11 +29953,11 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Colorado",
-              "url": "https://meetup.com/OSM-Colorado",
+              "url": "https://www.meetup.com/OSM-Colorado",
               "description": "Mappers and OpenStreetMap users in the state of Colorado, USA",
               "extendedDescription": "OpenStreetMap (OSM) Colorado is a local collaboration of people interested in contributing their efforts to create free maps. We encourage all of our mappers to organize or suggest mapping events throughout the state. Meetup activities can be simple social mixers, OSM basic to advanced training, or community mapping parties.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/OSM-Colorado\">OpenStreetMap Colorado</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/OSM-Colorado\">https://meetup.com/OSM-Colorado</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OSM-Colorado\">OpenStreetMap Colorado</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OSM-Colorado\">https://www.meetup.com/OSM-Colorado</a>",
               "descriptionHTML": "Mappers and OpenStreetMap users in the state of Colorado, USA",
               "extendedDescriptionHTML": "OpenStreetMap (OSM) Colorado is a local collaboration of people interested in contributing their efforts to create free maps. We encourage all of our mappers to organize or suggest mapping events throughout the state. Meetup activities can be simple social mixers, OSM basic to advanced training, or community mapping parties."
             }
@@ -30976,7 +30674,7 @@
             "strings": {
               "name": "OpenStreetMap Discourse",
               "description": "A shared place for conversations about OpenStreetMap",
-              "url": "https://community.openstreetmap.org"
+              "url": "https://community.openstreetmap.org/"
             },
             "contacts": [
               {"name": "Grant Slater", "email": "osmfuture@firefishy.com"},
@@ -30984,10 +30682,10 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Discourse",
-              "url": "https://community.openstreetmap.org",
+              "url": "https://community.openstreetmap.org/",
               "description": "A shared place for conversations about OpenStreetMap",
-              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org\">OpenStreetMap Discourse</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org\">https://community.openstreetmap.org</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/\">OpenStreetMap Discourse</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/\">https://community.openstreetmap.org/</a>",
               "descriptionHTML": "A shared place for conversations about OpenStreetMap"
             }
           },
@@ -31007,10 +30705,10 @@
             ],
             "resolved": {
               "name": "OpenStreetMap on Facebook",
-              "url": "https://facebook.com/OpenStreetMap",
+              "url": "https://www.facebook.com/OpenStreetMap",
               "description": "Like us on Facebook for news and updates about OpenStreetMap.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMap\">OpenStreetMap on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMap\">https://facebook.com/OpenStreetMap</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMap\">OpenStreetMap on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMap\">https://www.facebook.com/OpenStreetMap</a>",
               "descriptionHTML": "Like us on Facebook for news and updates about OpenStreetMap."
             }
           },
@@ -31198,10 +30896,10 @@
             "strings": {"community": "OpenStreetMap Djibouti"},
             "resolved": {
               "name": "OpenStreetMap Djibouti on Facebook",
-              "url": "https://facebook.com/OpenStreetMapDjibouti",
+              "url": "https://www.facebook.com/OpenStreetMapDjibouti",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMapDjibouti\">OpenStreetMap Djibouti on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMapDjibouti\">https://facebook.com/OpenStreetMapDjibouti</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMapDjibouti\">OpenStreetMap Djibouti on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMapDjibouti\">https://www.facebook.com/OpenStreetMapDjibouti</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -31930,10 +31628,10 @@
             "strings": {"community": "OpenStreetMap Eritrea"},
             "resolved": {
               "name": "OpenStreetMap Eritrea on Facebook",
-              "url": "https://facebook.com/Openstreetmap-Eritrea-OSMEr-105545004517975",
+              "url": "https://www.facebook.com/Openstreetmap-Eritrea-OSMEr-105545004517975",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/Openstreetmap-Eritrea-OSMEr-105545004517975\">OpenStreetMap Eritrea on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/Openstreetmap-Eritrea-OSMEr-105545004517975\">https://facebook.com/Openstreetmap-Eritrea-OSMEr-105545004517975</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/Openstreetmap-Eritrea-OSMEr-105545004517975\">OpenStreetMap Eritrea on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/Openstreetmap-Eritrea-OSMEr-105545004517975\">https://www.facebook.com/Openstreetmap-Eritrea-OSMEr-105545004517975</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           }
@@ -32043,10 +31741,10 @@
             "strings": {"community": "OpenStreetMap Gabon"},
             "resolved": {
               "name": "OpenStreetMap Gabon on Facebook",
-              "url": "https://facebook.com/osmgabon",
+              "url": "https://www.facebook.com/osmgabon",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmgabon\">OpenStreetMap Gabon on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmgabon\">https://facebook.com/osmgabon</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmgabon\">OpenStreetMap Gabon on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmgabon\">https://www.facebook.com/osmgabon</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -32175,11 +31873,11 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Ghana on Facebook",
-              "url": "https://facebook.com/OSMGhana",
+              "url": "https://www.facebook.com/OSMGhana",
               "description": "Join our community on Facebook",
               "extendedDescription": "Mappers in Ghana community, promoting OpenStreetMap and Humanitarian OpenStreetMap Team (HOT) projects in Ghana. Join us.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSMGhana\">OpenStreetMap Ghana on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSMGhana\">https://facebook.com/OSMGhana</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OSMGhana\">OpenStreetMap Ghana on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OSMGhana\">https://www.facebook.com/OSMGhana</a>",
               "descriptionHTML": "Join our community on Facebook",
               "extendedDescriptionHTML": "Mappers in Ghana community, promoting OpenStreetMap and Humanitarian OpenStreetMap Team (HOT) projects in Ghana. Join us."
             }
@@ -32434,10 +32132,10 @@
             "strings": {"community": "OpenStreetMap Guinea"},
             "resolved": {
               "name": "OpenStreetMap Guinea on Facebook",
-              "url": "https://facebook.com/osmguinee",
+              "url": "https://www.facebook.com/osmguinee",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmguinee\">OpenStreetMap Guinea on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmguinee\">https://facebook.com/osmguinee</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmguinee\">OpenStreetMap Guinea on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmguinee\">https://www.facebook.com/osmguinee</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -33572,11 +33270,11 @@
             ],
             "resolved": {
               "name": "Free Software Hardware Movement - Facebook",
-              "url": "https://facebook.com/FSHMP",
+              "url": "https://www.facebook.com/FSHMP",
               "description": "FSHM Facebook page to know about community events, activities",
               "extendedDescription": "FSHM organizes events relating to free software/hardware, technology, activism and OpenStreetMap. Its FB page is the best way to keep in contact with its events.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/FSHMP\">Free Software Hardware Movement - Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/FSHMP\">https://facebook.com/FSHMP</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/FSHMP\">Free Software Hardware Movement - Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/FSHMP\">https://www.facebook.com/FSHMP</a>",
               "descriptionHTML": "FSHM Facebook page to know about community events, activities",
               "extendedDescriptionHTML": "FSHM organizes events relating to free software/hardware, technology, activism and OpenStreetMap. Its FB page is the best way to keep in contact with its events."
             }
@@ -34366,11 +34064,11 @@
             "contacts": [{"name": "OSM Kenya", "email": "osmkenya@gmail.com"}],
             "resolved": {
               "name": "OpenStreetMap Kenya on Facebook",
-              "url": "https://facebook.com/OSMKenya",
+              "url": "https://www.facebook.com/OSMKenya",
               "description": "OSM Kenya is a community of OSM contributors and users",
               "extendedDescription": "OSM is a local community for individuals interested in OpenStreetMap including organizations, developers, and YouthMappers chapters in the country.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSMKenya\">OpenStreetMap Kenya on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSMKenya\">https://facebook.com/OSMKenya</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OSMKenya\">OpenStreetMap Kenya on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OSMKenya\">https://www.facebook.com/OSMKenya</a>",
               "descriptionHTML": "OSM Kenya is a community of OSM contributors and users",
               "extendedDescriptionHTML": "OSM is a local community for individuals interested in OpenStreetMap including organizations, developers, and YouthMappers chapters in the country."
             }
@@ -34517,13 +34215,13 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Kerala on Facebook",
-              "url": "https://facebook.com/osmkerala",
+              "url": "https://www.facebook.com/osmkerala",
               "description": "Improve OpenStreetMap in Kerala",
-              "extendedDescription": "Mapping in Kerala ? Have questions, want to connect with the community here? Join us at https://facebook.com/osmkerala. All are welcome!",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmkerala\">OpenStreetMap Kerala on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmkerala\">https://facebook.com/osmkerala</a>",
+              "extendedDescription": "Mapping in Kerala ? Have questions, want to connect with the community here? Join us at https://www.facebook.com/osmkerala. All are welcome!",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmkerala\">OpenStreetMap Kerala on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmkerala\">https://www.facebook.com/osmkerala</a>",
               "descriptionHTML": "Improve OpenStreetMap in Kerala",
-              "extendedDescriptionHTML": "Mapping in Kerala ? Have questions, want to connect with the community here? Join us at <a target=\"_blank\" href=\"https://facebook.com/osmkerala\">https://facebook.com/osmkerala</a>. All are welcome!"
+              "extendedDescriptionHTML": "Mapping in Kerala ? Have questions, want to connect with the community here? Join us at <a target=\"_blank\" href=\"https://www.facebook.com/osmkerala\">https://www.facebook.com/osmkerala</a>. All are welcome!"
             }
           },
           "osm-kerala-github": {
@@ -34980,10 +34678,10 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Ottawa Meetup",
-              "url": "https://meetup.com/openstreetmap-ottawa",
+              "url": "https://www.meetup.com/openstreetmap-ottawa",
               "description": "Mappers and OpenStreetMap users in the Ottawa area",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/openstreetmap-ottawa\">OpenStreetMap Ottawa Meetup</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/openstreetmap-ottawa\">https://meetup.com/openstreetmap-ottawa</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/openstreetmap-ottawa\">OpenStreetMap Ottawa Meetup</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/openstreetmap-ottawa\">https://www.meetup.com/openstreetmap-ottawa</a>",
               "descriptionHTML": "Mappers and OpenStreetMap users in the Ottawa area"
             }
           }
@@ -35070,10 +34768,10 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Peru on Facebook",
-              "url": "https://facebook.com/Osmpe",
+              "url": "https://www.facebook.com/Osmpe",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/Osmpe\">OpenStreetMap Peru on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/Osmpe\">https://facebook.com/Osmpe</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/Osmpe\">OpenStreetMap Peru on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/Osmpe\">https://www.facebook.com/Osmpe</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -35363,10 +35061,10 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Philippines on Facebook",
-              "url": "https://facebook.com/OSMPH",
+              "url": "https://www.facebook.com/OSMPH",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSMPH\">OpenStreetMap Philippines on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSMPH\">https://facebook.com/OSMPH</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OSMPH\">OpenStreetMap Philippines on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OSMPH\">https://www.facebook.com/OSMPH</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -35638,10 +35336,10 @@
             "strings": {"community": "OpenStreetMap Poland"},
             "resolved": {
               "name": "OpenStreetMap Poland on Facebook",
-              "url": "https://facebook.com/osmpolska",
+              "url": "https://www.facebook.com/osmpolska",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmpolska\">OpenStreetMap Poland on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmpolska\">https://facebook.com/osmpolska</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmpolska\">OpenStreetMap Poland on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmpolska\">https://www.facebook.com/osmpolska</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -36081,11 +35779,11 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Portland",
-              "url": "https://meetup.com/OpenStreetMap-Portland",
+              "url": "https://www.meetup.com/OpenStreetMap-Portland",
               "description": "Mappers and OpenStreetMap users in the Portland area",
               "extendedDescription": "OpenStreetMap (OSM) is a map of the world made by people like you. It's a map that you build, that's given away for free like wikipedia. Check out osm.org for more, and come join us at a meetup to talk maps, contribute to OSM, and have fun!",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/OpenStreetMap-Portland\">OpenStreetMap Portland</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/OpenStreetMap-Portland\">https://meetup.com/OpenStreetMap-Portland</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Portland\">OpenStreetMap Portland</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Portland\">https://www.meetup.com/OpenStreetMap-Portland</a>",
               "descriptionHTML": "Mappers and OpenStreetMap users in the Portland area",
               "extendedDescriptionHTML": "OpenStreetMap (OSM) is a map of the world made by people like you. It's a map that you build, that's given away for free like wikipedia. Check out osm.org for more, and come join us at a meetup to talk maps, contribute to OSM, and have fun!"
             }
@@ -36205,10 +35903,10 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Seattle",
-              "url": "https://meetup.com/OpenStreetMap-Seattle",
+              "url": "https://www.meetup.com/OpenStreetMap-Seattle",
               "description": "Mappers and OpenStreetMap users in the Seattle area",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/OpenStreetMap-Seattle\">OpenStreetMap Seattle</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/OpenStreetMap-Seattle\">https://meetup.com/OpenStreetMap-Seattle</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Seattle\">OpenStreetMap Seattle</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Seattle\">https://www.meetup.com/OpenStreetMap-Seattle</a>",
               "descriptionHTML": "Mappers and OpenStreetMap users in the Seattle area"
             }
           }
@@ -36364,11 +36062,11 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Southern California",
-              "url": "https://meetup.com/OSM-Southern-California",
+              "url": "https://www.meetup.com/OSM-Southern-California",
               "description": "Let's have some fun, contribute something to Los Angeles, and learn about mapping!",
               "extendedDescription": "OpenStreetMap (OSM) Southern California is for anyone interested in mapping to get together to work with OpenStreetMap.  OpenStreetMap, the Wikipedia of maps, is a free open-source map of the world being created by more than 1,000,000 volunteers around the globe.  Everyone is welcome.  If you don't know OpenStreetMap, we'll teach you. If you have an idea for a mapping project or even a field trip that the group can do, great!",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/OSM-Southern-California\">OpenStreetMap Southern California</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/OSM-Southern-California\">https://meetup.com/OSM-Southern-California</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OSM-Southern-California\">OpenStreetMap Southern California</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OSM-Southern-California\">https://www.meetup.com/OSM-Southern-California</a>",
               "descriptionHTML": "Let's have some fun, contribute something to Los Angeles, and learn about mapping!",
               "extendedDescriptionHTML": "OpenStreetMap (OSM) Southern California is for anyone interested in mapping to get together to work with OpenStreetMap.  OpenStreetMap, the Wikipedia of maps, is a free open-source map of the world being created by more than 1,000,000 volunteers around the globe.  Everyone is welcome.  If you don't know OpenStreetMap, we'll teach you. If you have an idea for a mapping project or even a field trip that the group can do, great!"
             }
@@ -36416,11 +36114,11 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Tampa Bay",
-              "url": "https://meetup.com/osmtampabay",
+              "url": "https://www.meetup.com/osmtampabay",
               "description": "Mappers and OpenStreetMap users in the Tampa Bay area",
               "extendedDescription": "OSM Tampa Bay group for local residents to get together and build out the definitive map of Tampa Bay with OpenStreetMap, the free and editable map of the world.  If you're into maps, data, open source, GPS, hiking, cycling, et cetera, you'll love working with OpenStreetMap -- so join in! We'll get together and map and talk about new topics once-a-month or so.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/osmtampabay\">OpenStreetMap Tampa Bay</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/osmtampabay\">https://meetup.com/osmtampabay</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/osmtampabay\">OpenStreetMap Tampa Bay</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/osmtampabay\">https://www.meetup.com/osmtampabay</a>",
               "descriptionHTML": "Mappers and OpenStreetMap users in the Tampa Bay area",
               "extendedDescriptionHTML": "OSM Tampa Bay group for local residents to get together and build out the definitive map of Tampa Bay with OpenStreetMap, the free and editable map of the world.  If you're into maps, data, open source, GPS, hiking, cycling, et cetera, you'll love working with OpenStreetMap -- so join in! We'll get together and map and talk about new topics once-a-month or so."
             }
@@ -36474,10 +36172,10 @@
             },
             "resolved": {
               "name": "OpenStreetMap Chad on Facebook",
-              "url": "https://facebook.com/EuroshaTchadTeam",
+              "url": "https://www.facebook.com/EuroshaTchadTeam",
               "description": "Improve OpenStreetMap in Chad",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/EuroshaTchadTeam\">OpenStreetMap Chad on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/EuroshaTchadTeam\">https://facebook.com/EuroshaTchadTeam</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/EuroshaTchadTeam\">OpenStreetMap Chad on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/EuroshaTchadTeam\">https://www.facebook.com/EuroshaTchadTeam</a>",
               "descriptionHTML": "Improve OpenStreetMap in Chad"
             }
           },
@@ -36732,10 +36430,10 @@
             },
             "resolved": {
               "name": "OpenStreetMap Toronto Meetup",
-              "url": "https://meetup.com/OpenStreetMap-Toronto",
+              "url": "https://www.meetup.com/OpenStreetMap-Toronto",
               "description": "Mappers and OpenStreetMap users in the Toronto area",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/OpenStreetMap-Toronto\">OpenStreetMap Toronto Meetup</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/OpenStreetMap-Toronto\">https://meetup.com/OpenStreetMap-Toronto</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Toronto\">OpenStreetMap Toronto Meetup</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Toronto\">https://www.meetup.com/OpenStreetMap-Toronto</a>",
               "descriptionHTML": "Mappers and OpenStreetMap users in the Toronto area"
             }
           }
@@ -36793,6 +36491,9 @@
               "description": "We help grow and improve OpenStreetMap in Taiwan.",
               "url": "https://osm.tw/"
             },
+            "contacts": [
+              {"name": "Sean Yuong", "email": "assanges83@gmail.com"}
+            ],
             "resolved": {
               "name": "OpenStreetMap Taiwan",
               "url": "https://osm.tw/",
@@ -36802,13 +36503,35 @@
               "descriptionHTML": "We help grow and improve OpenStreetMap in Taiwan."
             }
           },
+          "OSM-TW-discourse": {
+            "id": "OSM-TW-discourse",
+            "type": "facebook",
+            "locationSet": {"include": ["tw"]},
+            "languageCodes": ["tw"],
+            "order": 4,
+            "strings": {
+              "community": "OpenStreetMap Taiwan",
+              "url": "https://community.openstreetmap.org/c/communities/tw/42"
+            },
+            "contacts": [
+              {"name": "Dennis Raylin Chen", "email": "dennis@wikimedia.tw"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Taiwan on Facebook",
+              "url": "https://community.openstreetmap.org/c/communities/tw/42",
+              "description": "Join our community on Facebook",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/tw/42\">OpenStreetMap Taiwan on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/tw/42\">https://community.openstreetmap.org/c/communities/tw/42</a>",
+              "descriptionHTML": "Join our community on Facebook"
+            }
+          },
           "talk-tw": {
             "id": "talk-tw",
             "type": "mailinglist",
             "account": "talk-tw",
             "locationSet": {"include": ["tw"]},
             "languageCodes": ["en", "zh-tw"],
-            "order": -3,
+            "order": 2,
             "strings": {"community": "OpenStreetMap Taiwan"},
             "contacts": [
               {
@@ -36828,9 +36551,32 @@
           "tw-facebook": {
             "id": "tw-facebook",
             "type": "facebook",
+            "account": "openstreetmaptaiwan",
             "locationSet": {"include": ["tw"]},
             "languageCodes": ["zh-tw"],
-            "order": 3,
+            "order": 6,
+            "strings": {"community": "OpenStreetMap Taiwan"},
+            "contacts": [
+              {
+                "name": "Nobody 沒有人 (Public mail)",
+                "email": "hiboard@openstreetmap.tw"
+              }
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Taiwan on Facebook",
+              "url": "https://www.facebook.com/openstreetmaptaiwan",
+              "description": "Join our community on Facebook",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/openstreetmaptaiwan\">OpenStreetMap Taiwan on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/openstreetmaptaiwan\">https://www.facebook.com/openstreetmaptaiwan</a>",
+              "descriptionHTML": "Join our community on Facebook"
+            }
+          },
+          "tw-facebook-group": {
+            "id": "tw-facebook-group",
+            "type": "facebook",
+            "locationSet": {"include": ["tw"]},
+            "languageCodes": ["zh-tw"],
+            "order": 5,
             "strings": {
               "community": "OpenStreetMap Taiwan",
               "url": "https://www.facebook.com/groups/OpenStreetMap.TW"
@@ -36855,7 +36601,7 @@
             "type": "slack",
             "locationSet": {"include": ["tw"]},
             "languageCodes": ["tw"],
-            "order": 6,
+            "order": 8,
             "strings": {
               "community": "OpenStreetMap Taiwan",
               "description": "All are welcome! Sign up at {signupUrl}",
@@ -36879,7 +36625,7 @@
             "account": "OSMTaiwan",
             "locationSet": {"include": ["tw"]},
             "languageCodes": ["zh-tw"],
-            "order": 5,
+            "order": 7,
             "strings": {"community": "OpenStreetMap Taiwan"},
             "contacts": [
               {
@@ -36902,18 +36648,22 @@
             "account": "Taiwan",
             "locationSet": {"include": ["tw"]},
             "languageCodes": ["tw"],
-            "order": 1,
+            "order": 3,
             "strings": {
               "community": "OpenStreetMap Taiwan",
-              "description": "{community} Wiki page"
+              "description": "Everything you need to know about mapping in Taiwan: {url}",
+              "url": "https://wiki.openstreetmap.org/wiki/Taiwan"
             },
+            "contacts": [
+              {"name": "Dennis Raylin Chen", "email": "dennis@wikimedia.tw"}
+            ],
             "resolved": {
               "name": "OpenStreetMap Taiwan WikiProject",
               "url": "https://wiki.openstreetmap.org/wiki/Taiwan",
-              "description": "OpenStreetMap Taiwan Wiki page",
+              "description": "Everything you need to know about mapping in Taiwan: https://wiki.openstreetmap.org/wiki/Taiwan",
               "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Taiwan\">OpenStreetMap Taiwan WikiProject</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Taiwan\">https://wiki.openstreetmap.org/wiki/Taiwan</a>",
-              "descriptionHTML": "OpenStreetMap Taiwan Wiki page"
+              "descriptionHTML": "Everything you need to know about mapping in Taiwan: <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Taiwan\">https://wiki.openstreetmap.org/wiki/Taiwan</a>"
             }
           }
         }
@@ -37583,11 +37333,11 @@
             "contacts": [{"name": "Martijn van Exel", "email": "m@rtijn.org"}],
             "resolved": {
               "name": "OpenStreetMap Utah",
-              "url": "https://meetup.com/OpenStreetMap-Utah",
+              "url": "https://www.meetup.com/OpenStreetMap-Utah",
               "description": "Mappers and OpenStreetMap users in the Salt Lake City area",
               "extendedDescription": "Activities may include things like Learn To Map workshops, mapping parties and outdoor data collection. The events will take place in the SLC area, at least initially.  We are looking for seasoned mappers as well as people new to OSM. Join and let's do some mapping!",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/OpenStreetMap-Utah\">OpenStreetMap Utah</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/OpenStreetMap-Utah\">https://meetup.com/OpenStreetMap-Utah</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Utah\">OpenStreetMap Utah</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Utah\">https://www.meetup.com/OpenStreetMap-Utah</a>",
               "descriptionHTML": "Mappers and OpenStreetMap users in the Salt Lake City area",
               "extendedDescriptionHTML": "Activities may include things like Learn To Map workshops, mapping parties and outdoor data collection. The events will take place in the SLC area, at least initially.  We are looking for seasoned mappers as well as people new to OSM. Join and let's do some mapping!"
             }
@@ -37676,11 +37426,11 @@
             ],
             "resolved": {
               "name": "OpenStreetMap Wyoming",
-              "url": "https://meetup.com/OSM-Wyoming",
+              "url": "https://www.meetup.com/OSM-Wyoming",
               "description": "Mappers and OpenStreetMap users in the state of Wyoming",
               "extendedDescription": "OpenStreetMap (OSM) Wyoming is a local collaboration of people interested in contributing their efforts to create free maps. We encourage all of our mappers to organize or suggest mapping events throughout the state. Meetup activities can be simple social mixers, OSM basic to advanced training, or community mapping parties.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/OSM-Wyoming\">OpenStreetMap Wyoming</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/OSM-Wyoming\">https://meetup.com/OSM-Wyoming</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OSM-Wyoming\">OpenStreetMap Wyoming</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OSM-Wyoming\">https://www.meetup.com/OSM-Wyoming</a>",
               "descriptionHTML": "Mappers and OpenStreetMap users in the state of Wyoming",
               "extendedDescriptionHTML": "OpenStreetMap (OSM) Wyoming is a local collaboration of people interested in contributing their efforts to create free maps. We encourage all of our mappers to organize or suggest mapping events throughout the state. Meetup activities can be simple social mixers, OSM basic to advanced training, or community mapping parties."
             }
@@ -37831,11 +37581,11 @@
             ],
             "resolved": {
               "name": "PHXGeo Meetup",
-              "url": "https://meetup.com/PHXGeo",
+              "url": "https://www.meetup.com/PHXGeo",
               "description": "Mappers and OpenStreetMap users in the Phoenix, AZ area",
               "extendedDescription": "This is a meetup group for those in the Phoenix area who like maps, GIS, OpenStreetMap, cartography and anything in between.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://meetup.com/PHXGeo\">PHXGeo Meetup</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://meetup.com/PHXGeo\">https://meetup.com/PHXGeo</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/PHXGeo\">PHXGeo Meetup</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/PHXGeo\">https://www.meetup.com/PHXGeo</a>",
               "descriptionHTML": "Mappers and OpenStreetMap users in the Phoenix, AZ area",
               "extendedDescriptionHTML": "This is a meetup group for those in the Phoenix area who like maps, GIS, OpenStreetMap, cartography and anything in between."
             }
@@ -38677,10 +38427,10 @@
             "strings": {"community": "OpenStreetMap Réunion"},
             "resolved": {
               "name": "OpenStreetMap Réunion on Facebook",
-              "url": "https://facebook.com/openstreetmapreunion",
+              "url": "https://www.facebook.com/openstreetmapreunion",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/openstreetmapreunion\">OpenStreetMap Réunion on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/openstreetmapreunion\">https://facebook.com/openstreetmapreunion</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/openstreetmapreunion\">OpenStreetMap Réunion on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/openstreetmapreunion\">https://www.facebook.com/openstreetmapreunion</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -39054,10 +38804,10 @@
             "strings": {"community": "OpenStreetMap Serbia"},
             "resolved": {
               "name": "OpenStreetMap Serbia on Facebook",
-              "url": "https://facebook.com/OpenStreetMapSrbija",
+              "url": "https://www.facebook.com/OpenStreetMapSrbija",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMapSrbija\">OpenStreetMap Serbia on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMapSrbija\">https://facebook.com/OpenStreetMapSrbija</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMapSrbija\">OpenStreetMap Serbia on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMapSrbija\">https://www.facebook.com/OpenStreetMapSrbija</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -40456,10 +40206,10 @@
             "strings": {"community": "OpenStreetMap Rwanda"},
             "resolved": {
               "name": "OpenStreetMap Rwanda on Facebook",
-              "url": "https://facebook.com/osmrwanda",
+              "url": "https://www.facebook.com/osmrwanda",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmrwanda\">OpenStreetMap Rwanda on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmrwanda\">https://facebook.com/osmrwanda</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmrwanda\">OpenStreetMap Rwanda on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmrwanda\">https://www.facebook.com/osmrwanda</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           }
@@ -40747,10 +40497,10 @@
             "strings": {"community": "OpenStreetMap Sudan"},
             "resolved": {
               "name": "OpenStreetMap Sudan on Facebook",
-              "url": "https://facebook.com/OpenstreetmapSudan",
+              "url": "https://www.facebook.com/OpenstreetmapSudan",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenstreetmapSudan\">OpenStreetMap Sudan on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenstreetmapSudan\">https://facebook.com/OpenstreetmapSudan</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenstreetmapSudan\">OpenStreetMap Sudan on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenstreetmapSudan\">https://www.facebook.com/OpenstreetmapSudan</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           }
@@ -41491,10 +41241,10 @@
             "strings": {"community": "OpenStreetMap Senegal"},
             "resolved": {
               "name": "OpenStreetMap Senegal on Facebook",
-              "url": "https://facebook.com/OpenStreetMap.Senegal",
+              "url": "https://www.facebook.com/OpenStreetMap.Senegal",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMap.Senegal\">OpenStreetMap Senegal on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMap.Senegal\">https://facebook.com/OpenStreetMap.Senegal</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMap.Senegal\">OpenStreetMap Senegal on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMap.Senegal\">https://www.facebook.com/OpenStreetMap.Senegal</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -41619,10 +41369,10 @@
             "strings": {"community": "OpenStreetMap Somalia"},
             "resolved": {
               "name": "OpenStreetMap Somalia on Facebook",
-              "url": "https://facebook.com/OSMSomalia",
+              "url": "https://www.facebook.com/OSMSomalia",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSMSomalia\">OpenStreetMap Somalia on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSMSomalia\">https://facebook.com/OSMSomalia</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OSMSomalia\">OpenStreetMap Somalia on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OSMSomalia\">https://www.facebook.com/OSMSomalia</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -41793,10 +41543,10 @@
             "strings": {"community": "OpenStreetMap South Sudan"},
             "resolved": {
               "name": "OpenStreetMap South Sudan on Facebook",
-              "url": "https://facebook.com/OSMSouthSudan",
+              "url": "https://www.facebook.com/OSMSouthSudan",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSMSouthSudan\">OpenStreetMap South Sudan on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSMSouthSudan\">https://facebook.com/OSMSouthSudan</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OSMSouthSudan\">OpenStreetMap South Sudan on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OSMSouthSudan\">https://www.facebook.com/OSMSouthSudan</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -43818,10 +43568,10 @@
             "strings": {"community": "OpenStreetMap Togo"},
             "resolved": {
               "name": "OpenStreetMap Togo on Facebook",
-              "url": "https://facebook.com/OSMTogo",
+              "url": "https://www.facebook.com/OSMTogo",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSMTogo\">OpenStreetMap Togo on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OSMTogo\">https://facebook.com/OSMTogo</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OSMTogo\">OpenStreetMap Togo on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OSMTogo\">https://www.facebook.com/OSMTogo</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -44017,10 +43767,10 @@
             "strings": {"community": "OpenStreetMap Tunisia"},
             "resolved": {
               "name": "OpenStreetMap Tunisia on Facebook",
-              "url": "https://facebook.com/osmtun",
+              "url": "https://www.facebook.com/osmtun",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmtun\">OpenStreetMap Tunisia on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/osmtun\">https://facebook.com/osmtun</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmtun\">OpenStreetMap Tunisia on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmtun\">https://www.facebook.com/osmtun</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -44170,10 +43920,10 @@
             "strings": {"community": "OpenStreetMap Tanzania"},
             "resolved": {
               "name": "OpenStreetMap Tanzania on Facebook",
-              "url": "https://facebook.com/OMDTZ",
+              "url": "https://www.facebook.com/OMDTZ",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OMDTZ\">OpenStreetMap Tanzania on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OMDTZ\">https://facebook.com/OMDTZ</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OMDTZ\">OpenStreetMap Tanzania on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OMDTZ\">https://www.facebook.com/OMDTZ</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -44186,10 +43936,10 @@
             "strings": {"community": "OpenStreetMap Tanzania"},
             "resolved": {
               "name": "OpenStreetMap Tanzania on LinkedIn",
-              "url": "https://linkedin.com/company/openmap-development-tanzania-omdtz",
+              "url": "https://www.linkedin.com/company/openmap-development-tanzania-omdtz",
               "description": "Join our community on LinkedIn",
-              "nameHTML": "<a target=\"_blank\" href=\"https://linkedin.com/company/openmap-development-tanzania-omdtz\">OpenStreetMap Tanzania on LinkedIn</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://linkedin.com/company/openmap-development-tanzania-omdtz\">https://linkedin.com/company/openmap-development-tanzania-omdtz</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.linkedin.com/company/openmap-development-tanzania-omdtz\">OpenStreetMap Tanzania on LinkedIn</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.linkedin.com/company/openmap-development-tanzania-omdtz\">https://www.linkedin.com/company/openmap-development-tanzania-omdtz</a>",
               "descriptionHTML": "Join our community on LinkedIn"
             }
           },
@@ -44390,10 +44140,10 @@
             "strings": {"community": "OpenStreetMap Uganda"},
             "resolved": {
               "name": "OpenStreetMap Uganda on Facebook",
-              "url": "https://facebook.com/OpenStreetMap-Uganda-863951250327532",
+              "url": "https://www.facebook.com/OpenStreetMap-Uganda-863951250327532",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMap-Uganda-863951250327532\">OpenStreetMap Uganda on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/OpenStreetMap-Uganda-863951250327532\">https://facebook.com/OpenStreetMap-Uganda-863951250327532</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMap-Uganda-863951250327532\">OpenStreetMap Uganda on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMap-Uganda-863951250327532\">https://www.facebook.com/OpenStreetMap-Uganda-863951250327532</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -45890,10 +45640,10 @@
             "contacts": [{"name": "Andrii Holovin", "email": "andygol@ua.fm"}],
             "resolved": {
               "name": "OpenStreetMap Ukraine on Facebook",
-              "url": "https://facebook.com/openstreetmapua",
+              "url": "https://www.facebook.com/openstreetmapua",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/openstreetmapua\">OpenStreetMap Ukraine on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/openstreetmapua\">https://facebook.com/openstreetmapua</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/openstreetmapua\">OpenStreetMap Ukraine on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/openstreetmapua\">https://www.facebook.com/openstreetmapua</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -47765,10 +47515,10 @@
             },
             "resolved": {
               "name": "YouthMappersASU on Facebook",
-              "url": "https://facebook.com/YouthMappersASU",
+              "url": "https://www.facebook.com/YouthMappersASU",
               "description": "YouthMappers chapter at Arizona State University",
-              "nameHTML": "<a target=\"_blank\" href=\"https://facebook.com/YouthMappersASU\">YouthMappersASU on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://facebook.com/YouthMappersASU\">https://facebook.com/YouthMappersASU</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/YouthMappersASU\">YouthMappersASU on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/YouthMappersASU\">https://www.facebook.com/YouthMappersASU</a>",
               "descriptionHTML": "YouthMappers chapter at Arizona State University"
             }
           },
@@ -49021,18 +48771,18 @@
               "name": "IgnatiusMappersTeam (IMT)",
               "description": "YouthMappers chapter at Ignatius Ajuru University of Education",
               "extendedDescription": "We are a YouthMappers Chapter of Ignatius Ajuru University of Education involved in crowdsourced mapping of our environment and remote mapping of resilient communities.We are a team of volunteers using openstreetmap and other open Geospatial source for mapping.",
-              "url": "https://fb.me/ignatiusmappersteam"
+              "url": "https://www.facebook.com/ignatiusmappersteam"
             },
             "contacts": [
               {"name": "Organizer", "email": "ignatiusmappersteam@gmail.com"}
             ],
             "resolved": {
               "name": "IgnatiusMappersTeam (IMT)",
-              "url": "https://fb.me/ignatiusmappersteam",
+              "url": "https://www.facebook.com/ignatiusmappersteam",
               "description": "YouthMappers chapter at Ignatius Ajuru University of Education",
               "extendedDescription": "We are a YouthMappers Chapter of Ignatius Ajuru University of Education involved in crowdsourced mapping of our environment and remote mapping of resilient communities.We are a team of volunteers using openstreetmap and other open Geospatial source for mapping.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://fb.me/ignatiusmappersteam\">IgnatiusMappersTeam (IMT)</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://fb.me/ignatiusmappersteam\">https://fb.me/ignatiusmappersteam</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/ignatiusmappersteam\">IgnatiusMappersTeam (IMT)</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/ignatiusmappersteam\">https://www.facebook.com/ignatiusmappersteam</a>",
               "descriptionHTML": "YouthMappers chapter at Ignatius Ajuru University of Education",
               "extendedDescriptionHTML": "We are a YouthMappers Chapter of Ignatius Ajuru University of Education involved in crowdsourced mapping of our environment and remote mapping of resilient communities.We are a team of volunteers using openstreetmap and other open Geospatial source for mapping."
             }
@@ -51003,16 +50753,16 @@
               "name": "SUNY Geneseo GIS Association",
               "description": "YouthMappers chapter at State University of New York Geneseo",
               "extendedDescription": "We spread awareness, support, education, volunteerism, and career advancement opportunities in geographic information systems, across disciplines and departments, in the context of SUNY Geneseo, the local community, and global community.",
-              "url": "http://www.facebook.com/GeneseoGIS"
+              "url": "https://www.facebook.com/GeneseoGIS"
             },
             "contacts": [{"name": "Organizer", "email": "bb18@geneseo.edu"}],
             "resolved": {
               "name": "SUNY Geneseo GIS Association",
-              "url": "http://www.facebook.com/GeneseoGIS",
+              "url": "https://www.facebook.com/GeneseoGIS",
               "description": "YouthMappers chapter at State University of New York Geneseo",
               "extendedDescription": "We spread awareness, support, education, volunteerism, and career advancement opportunities in geographic information systems, across disciplines and departments, in the context of SUNY Geneseo, the local community, and global community.",
-              "nameHTML": "<a target=\"_blank\" href=\"http://www.facebook.com/GeneseoGIS\">SUNY Geneseo GIS Association</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"http://www.facebook.com/GeneseoGIS\">http://www.facebook.com/GeneseoGIS</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/GeneseoGIS\">SUNY Geneseo GIS Association</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/GeneseoGIS\">https://www.facebook.com/GeneseoGIS</a>",
               "descriptionHTML": "YouthMappers chapter at State University of New York Geneseo",
               "extendedDescriptionHTML": "We spread awareness, support, education, volunteerism, and career advancement opportunities in geographic information systems, across disciplines and departments, in the context of SUNY Geneseo, the local community, and global community."
             }
@@ -53201,18 +52951,18 @@
               "name": "LionMappersTeam (LMT) Nsukka",
               "description": "YouthMappers chapter at University of Nigeria, Nsukka",
               "extendedDescription": "The LionMappersTeam is an affiliate of YouthMappers Network, with the sole aim of providing members the opportunity to learn and improve their skills in the field of mapping science and to create open geographic data and analysis that addresses locally defined challenges globally. It is a team of volunteers for crowdsourced mapping and geographic information provision using Openstreetmap, citizen science  and other geospatial  technology for research, training and response to resilient community challenges. We are involved in GIS and Remote Sensing Applications and Research.Paticipatory GIS and Citizen Science,field mapping ,training workshops and outreaches to High Schools.",
-              "url": "http://fb.me/LionMappersTeamNsukka;and send messages to our Page at m.me/LionMappersTeamNsukka"
+              "url": "https://www.facebook.com/LionMappersTeamNsukka"
             },
             "contacts": [
               {"name": "Organizer", "email": "lionmappersteam@gmail.com"}
             ],
             "resolved": {
               "name": "LionMappersTeam (LMT) Nsukka",
-              "url": "http://fb.me/LionMappersTeamNsukka;and send messages to our Page at m.me/LionMappersTeamNsukka",
+              "url": "https://www.facebook.com/LionMappersTeamNsukka",
               "description": "YouthMappers chapter at University of Nigeria, Nsukka",
               "extendedDescription": "The LionMappersTeam is an affiliate of YouthMappers Network, with the sole aim of providing members the opportunity to learn and improve their skills in the field of mapping science and to create open geographic data and analysis that addresses locally defined challenges globally. It is a team of volunteers for crowdsourced mapping and geographic information provision using Openstreetmap, citizen science  and other geospatial  technology for research, training and response to resilient community challenges. We are involved in GIS and Remote Sensing Applications and Research.Paticipatory GIS and Citizen Science,field mapping ,training workshops and outreaches to High Schools.",
-              "nameHTML": "<a target=\"_blank\" href=\"http://fb.me/LionMappersTeamNsukka;and send messages to our Page at m.me/LionMappersTeamNsukka\">LionMappersTeam (LMT) Nsukka</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"http://fb.me/LionMappersTeamNsukka;and send messages to our Page at m.me/LionMappersTeamNsukka\">http://fb.me/LionMappersTeamNsukka;and send messages to our Page at m.me/LionMappersTeamNsukka</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/LionMappersTeamNsukka\">LionMappersTeam (LMT) Nsukka</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/LionMappersTeamNsukka\">https://www.facebook.com/LionMappersTeamNsukka</a>",
               "descriptionHTML": "YouthMappers chapter at University of Nigeria, Nsukka",
               "extendedDescriptionHTML": "The LionMappersTeam is an affiliate of YouthMappers Network, with the sole aim of providing members the opportunity to learn and improve their skills in the field of mapping science and to create open geographic data and analysis that addresses locally defined challenges globally. It is a team of volunteers for crowdsourced mapping and geographic information provision using Openstreetmap, citizen science  and other geospatial  technology for research, training and response to resilient community challenges. We are involved in GIS and Remote Sensing Applications and Research.Paticipatory GIS and Citizen Science,field mapping ,training workshops and outreaches to High Schools."
             }
@@ -54293,17 +54043,17 @@
             "strings": {
               "name": "Geography Club",
               "description": "YouthMappers chapter at Western Michigan University",
-              "url": "http://www.facebook.com/groups/WMUGeographyClub/"
+              "url": "https://www.facebook.com/groups/WMUGeographyClub"
             },
             "contacts": [
               {"name": "Organizer", "email": "wmu.geog.club@gmail.com"}
             ],
             "resolved": {
               "name": "Geography Club",
-              "url": "http://www.facebook.com/groups/WMUGeographyClub/",
+              "url": "https://www.facebook.com/groups/WMUGeographyClub",
               "description": "YouthMappers chapter at Western Michigan University",
-              "nameHTML": "<a target=\"_blank\" href=\"http://www.facebook.com/groups/WMUGeographyClub/\">Geography Club</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"http://www.facebook.com/groups/WMUGeographyClub/\">http://www.facebook.com/groups/WMUGeographyClub/</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/WMUGeographyClub\">Geography Club</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/WMUGeographyClub\">https://www.facebook.com/groups/WMUGeographyClub</a>",
               "descriptionHTML": "YouthMappers chapter at Western Michigan University"
             }
           }

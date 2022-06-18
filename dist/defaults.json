@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.1.6",
-    "generated": "2022-02-16T22:00:21.534Z",
+    "generated": "2022-06-18T17:12:45.247Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/defaults.json",
-    "hash": "c3c52d6ecb5abf813898f4fa697de632"
+    "hash": "09aedfcdcea2e673deb29b215f1606f7"
   },
   "defaults": {
     "aparat": {
@@ -20,7 +20,7 @@
     "facebook": {
       "name": "{community} on Facebook",
       "description": "Join our community on Facebook",
-      "url": "https://facebook.com/{account}"
+      "url": "https://www.facebook.com/{account}"
     },
     "forum": {
       "name": "{community} Forum",
@@ -44,7 +44,7 @@
     "linkedin": {
       "name": "{community} on LinkedIn",
       "description": "Join our community on LinkedIn",
-      "url": "https://linkedin.com/company/{account}"
+      "url": "https://www.linkedin.com/company/{account}"
     },
     "mailinglist": {
       "name": "{account} Mailing List",
@@ -58,7 +58,7 @@
     },
     "meetup": {
       "name": "{community} Meetup",
-      "url": "https://meetup.com/{account}"
+      "url": "https://www.meetup.com/{account}"
     },
     "osm": {"name": "{community}"},
     "osm-lc": {"name": "{community}"},

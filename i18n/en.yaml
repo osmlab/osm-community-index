@@ -203,7 +203,7 @@ en:
     facebook:
       name: '{community} on Facebook'
       description: Join our community on Facebook
-      url: https://facebook.com/{account}
+      url: https://www.facebook.com/{account}
     forum:
       name: '{community} Forum'
       description: The official forum for {community}
@@ -223,7 +223,7 @@ en:
     linkedin:
       name: '{community} on LinkedIn'
       description: Join our community on LinkedIn
-      url: https://linkedin.com/company/{account}
+      url: https://www.linkedin.com/company/{account}
     mailinglist:
       name: '{account} Mailing List'
       description: The official mailing list for {community}
@@ -234,7 +234,7 @@ en:
       url: https://matrix.to/#/{account}:matrix.org
     meetup:
       name: '{community} Meetup'
-      url: https://meetup.com/{account}
+      url: https://www.meetup.com/{account}
     osm:
       name: '{community}'
     osm-lc:
@@ -273,8 +273,6 @@ en:
     description: Unofficial German Matrix channel for Austria
   at-wiki:
     description: '{community} Wiki page'
-  az-facebook:
-    name: OpenStreetMap Azerbaijan
   Bahia-telegram:
     extendedDescription: Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!
   Bay-Area-OpenStreetMappers:
