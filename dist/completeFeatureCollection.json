@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.2.0",
-    "generated": "2022-06-18T17:35:43.581Z",
+    "generated": "2022-07-01T19:27:29.183Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "c9affe2697d25de494e63a62a94f51af"
+    "hash": "ec1929200a9535f1bad9b02748d8dcc7"
   },
   "type": "FeatureCollection",
   "features": [
@@ -2287,6 +2287,27 @@
               "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Belgium\">https://www.meetup.com/OpenStreetMap-Belgium</a>",
               "descriptionHTML": "Real life meetups of everyone who is interested in OpenStreetMap",
               "extendedDescriptionHTML": "Physical meetups are great to meet other mappers, ask them questions and to learn a lot. Especially new contributors are very welcome!"
+            }
+          },
+          "be-newsletter": {
+            "id": "be-newsletter",
+            "type": "newsletter",
+            "locationSet": {"include": ["be"]},
+            "languageCodes": ["de", "en", "fr", "nl"],
+            "order": 3,
+            "strings": {
+              "community": "OpenStreetMap Belgium",
+              "description": "Quarterly newsletter of the Belgian community",
+              "url": "https://members.osm.be/subscribe/newsletter"
+            },
+            "contacts": [{"name": "BE community", "email": "community@osm.be"}],
+            "resolved": {
+              "name": "OpenStreetMap Belgium Newsletter",
+              "url": "https://members.osm.be/subscribe/newsletter",
+              "description": "Quarterly newsletter of the Belgian community",
+              "nameHTML": "<a target=\"_blank\" href=\"https://members.osm.be/subscribe/newsletter\">OpenStreetMap Belgium Newsletter</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://members.osm.be/subscribe/newsletter\">https://members.osm.be/subscribe/newsletter</a>",
+              "descriptionHTML": "Quarterly newsletter of the Belgian community"
             }
           },
           "be-twitter": {

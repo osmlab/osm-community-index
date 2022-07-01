@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.2.0",
-    "generated": "2022-06-18T17:35:39.609Z",
+    "generated": "2022-07-01T19:27:25.718Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "a0d4bbb9f91ebb311cb47a26b72f5286"
+    "hash": "ca794b4004ebb2fbb44e0066e0af0c15"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -35,6 +35,7 @@
     "be-mailinglist": {"id": "be-mailinglist", "type": "mailinglist", "account": "talk-be", "locationSet": {"include": ["be"]}, "languageCodes": ["de", "en", "fr", "nl"], "order": 4, "strings": {"community": "OpenStreetMap Belgium"}, "contacts": [{"name": "BE community", "email": "community@osm.be"}]},
     "be-matrix": {"id": "be-matrix", "type": "matrix", "account": "#osmbe", "locationSet": {"include": ["be"]}, "languageCodes": ["de", "en", "fr", "nl"], "order": 6, "strings": {"community": "OpenStreetMap Belgium", "description": "All mappers are welcome!", "extendedDescription": "Main chatroom of the Belgian OSM community. Don't hesitate to ask beginner questions here!"}, "contacts": [{"name": "BE community", "email": "community@osm.be"}]},
     "be-meetup": {"id": "be-meetup", "type": "meetup", "account": "OpenStreetMap-Belgium", "locationSet": {"include": ["be"]}, "languageCodes": ["de", "en", "fr", "nl"], "order": 5, "strings": {"community": "OpenStreetMap Belgium", "description": "Real life meetups of everyone who is interested in OpenStreetMap", "extendedDescription": "Physical meetups are great to meet other mappers, ask them questions and to learn a lot. Especially new contributors are very welcome!"}, "contacts": [{"name": "BE community", "email": "community@osm.be"}]},
+    "be-newsletter": {"id": "be-newsletter", "type": "newsletter", "locationSet": {"include": ["be"]}, "languageCodes": ["de", "en", "fr", "nl"], "order": 3, "strings": {"community": "OpenStreetMap Belgium", "description": "Quarterly newsletter of the Belgian community", "url": "https://members.osm.be/subscribe/newsletter"}, "contacts": [{"name": "BE community", "email": "community@osm.be"}]},
     "be-twitter": {"id": "be-twitter", "type": "twitter", "account": "osm_be", "locationSet": {"include": ["be"]}, "languageCodes": ["de", "en", "fr", "nl"], "order": 4, "strings": {"community": "OpenStreetMap Belgium"}, "contacts": [{"name": "BE community", "email": "community@osm.be"}]},
     "bg-facebook": {"id": "bg-facebook", "type": "facebook", "locationSet": {"include": ["bg"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Bulgaria", "url": "https://www.facebook.com/groups/636048026407613"}},
     "bg-forum": {"id": "bg-forum", "type": "forum", "account": "57", "locationSet": {"include": ["bg"]}, "languageCodes": ["bg", "en"], "strings": {"community": "OpenStreetMap Bulgaria"}},
