@@ -1,0 +1,13 @@
+{
+  "id": "be-newsletter",
+  "type": "newsletter",
+  "account": "https://members.osm.be/subscribe/newsletter",
+  "locationSet": {"include": ["be"]},
+  "languageCodes": ["de", "en", "fr", "nl"],
+  "order": 3,
+  "strings": {
+    "community": "OpenStreetMap Belgium",
+    "description": "Quarterly newsletter of the Belgian community"
+  },
+  "contacts": [{"name": "BE community", "email": "community@osm.be"}]
+}
