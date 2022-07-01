@@ -19,6 +19,15 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.3.0
+##### unreleased
+* Support new resource type `newsletter`
+* Added
+  * OpenStreetmap Belgium quarterly newsletter ([#549])
+
+[#549]: https://github.com/osmlab/osm-community-index/issues/549
+
+
 # 5.2.0
 ##### 2022-Jun-18
 * Many various updates to use more consistent names and ids ([#524])
