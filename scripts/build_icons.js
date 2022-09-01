@@ -1,6 +1,6 @@
 import chalk from 'chalk';
 import fs from 'node:fs';
-import fontawesome from '@fortawesome/fontawesome-svg-core';
+import { icon } from '@fortawesome/fontawesome-svg-core';
 
 import {
   faAt, faComments, faKeyboard, faLink, faNewspaper, faUsers
@@ -44,8 +44,8 @@ for (const [key, value] of Object.entries(toBuild)) {
   const file = `dist/img/${key}.svg`;
   console.log(chalk.yellow(file));
 
-  // console.log( JSON.stringify(fontawesome.icon(value).html[0], null, 2) );
-  fs.writeFileSync(file, fontawesome.icon(value).html[0]);
+  // console.log( JSON.stringify(icon(value).html[0], null, 2) );
+  fs.writeFileSync(file, icon(value).html[0]);
 }
 
 console.timeEnd(END);
