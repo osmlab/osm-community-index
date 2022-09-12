@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.2.0",
-    "generated": "2022-09-12T18:45:33.591Z",
+    "generated": "2022-09-12T19:33:56.045Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "7b4fd230d786e4c9496c24065db8b916"
+    "hash": "2127fe97753ba4669aa35564c8c45a07"
   },
   "type": "FeatureCollection",
   "features": [
@@ -19486,6 +19486,22 @@
         ],
         "area": 42863027.12,
         "resources": {
+          "latam-discourse": {
+            "id": "latam-discourse",
+            "type": "discourse",
+            "account": "latam",
+            "locationSet": {"include": ["419"]},
+            "languageCodes": ["en", "es", "pt"],
+            "strings": {"community": "OpenStreetMap Latin America"},
+            "resolved": {
+              "name": "OpenStreetMap Latin America Discourse",
+              "url": "https://community.openstreetmap.org/c/communities/latam",
+              "description": "The official forum for OpenStreetMap Latin America",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/latam\">OpenStreetMap Latin America Discourse</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/latam\">https://community.openstreetmap.org/c/communities/latam</a>",
+              "descriptionHTML": "The official forum for OpenStreetMap Latin America"
+            }
+          },
           "latam-facebook": {
             "id": "latam-facebook",
             "type": "facebook",

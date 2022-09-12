@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.2.0",
-    "generated": "2022-09-12T18:45:29.382Z",
+    "generated": "2022-09-12T19:33:51.753Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "5257740dcd93d0f6b9a7d4871bd7f430"
+    "hash": "6a4aae51757479209173cdc6e35a32f9"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -234,6 +234,7 @@
     "kosovo-matrix": {"id": "kosovo-matrix", "type": "matrix", "account": "#osmkosovo", "locationSet": {"include": ["xk"]}, "languageCodes": ["en", "sq", "sr"], "strings": {"community": "OpenStreetMap Kosovo", "description": "Semi-official all-Kosovo public group (bridged with the one in Telegram). We welcome all mappers from anywhere in any language."}},
     "kosovo-telegram": {"id": "kosovo-telegram", "type": "telegram", "account": "osmkosovo", "locationSet": {"include": ["xk"]}, "languageCodes": ["en", "sq", "sr"], "order": 1, "strings": {"community": "OpenStreetMap Kosovo", "description": "Semi-official all-Kosovo Telegram public group. We welcome all mappers from anywhere in any language."}, "contacts": [{"name": "Guillaume Rischard", "email": "guillaumenospam@openstreetmapnospam.lu"}]},
     "kz-telegram": {"id": "kz-telegram", "type": "telegram", "account": "osm_kz", "locationSet": {"include": ["kz"]}, "strings": {"community": "OpenStreetMap Kazakhstan"}},
+    "latam-discourse": {"id": "latam-discourse", "type": "discourse", "account": "latam", "locationSet": {"include": ["419"]}, "languageCodes": ["en", "es", "pt"], "strings": {"community": "OpenStreetMap Latin America"}},
     "latam-facebook": {"id": "latam-facebook", "type": "facebook", "account": "osmlatam", "locationSet": {"include": ["419"]}, "languageCodes": ["en", "es", "pt"], "order": 1, "strings": {"community": "OpenStreetMap Latin America", "description": "Mappers and OpenStreetMap on Facebook in Latin America"}, "contacts": [{"name": "OSM LATAM Community", "email": "info@osmlatam.org"}]},
     "latam-irc": {"id": "latam-irc", "type": "irc", "account": "osm-latam", "locationSet": {"include": ["419"]}, "languageCodes": ["en", "es", "pt"], "order": 3, "strings": {"community": "OpenStreetMap Latin America"}, "contacts": [{"name": "OSM LATAM Community", "email": "info@osmlatam.org"}]},
     "latam-mailinglist": {"id": "latam-mailinglist", "type": "mailinglist", "account": "talk-latam", "locationSet": {"include": ["419"]}, "languageCodes": ["en", "es", "pt"], "order": 2, "strings": {"community": "OpenStreetMap Latin America"}, "contacts": [{"name": "OSM LATAM Community", "email": "info@osmlatam.org"}]},
