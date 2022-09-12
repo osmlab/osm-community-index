@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.2.0",
-    "generated": "2022-09-12T20:47:57.315Z",
+    "generated": "2022-09-12T21:11:31.164Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "34eb552f4271384e394efb7bc5c3792f"
+    "hash": "01289fea1d78656f0ae87c8b485759aa"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -354,6 +354,7 @@
     "osm-cn": {"id": "osm-cn", "type": "osm", "locationSet": {"include": ["cn"]}, "languageCodes": ["zh"], "order": 6, "strings": {"community": "OpenStreetMap China", "description": "We help grow and improve OpenStreetMap in China.", "url": "https://osmchina.org/"}, "contacts": [{"name": "快乐的老鼠宝宝", "email": "keaitianxinmail@qq.com"}]},
     "OSM-Colorado": {"id": "OSM-Colorado", "type": "meetup", "account": "OSM-Colorado", "locationSet": {"include": ["colorado.geojson"]}, "languageCodes": ["en"], "order": 5, "strings": {"name": "OpenStreetMap Colorado", "description": "Mappers and OpenStreetMap users in the state of Colorado, USA", "extendedDescription": "OpenStreetMap (OSM) Colorado is a local collaboration of people interested in contributing their efforts to create free maps. We encourage all of our mappers to organize or suggest mapping events throughout the state. Meetup activities can be simple social mixers, OSM basic to advanced training, or community mapping parties."}, "contacts": [{"name": "Diane Fritz", "email": "frizatch@gmail.com"}]},
     "osm-de": {"id": "osm-de", "type": "osm-lc", "locationSet": {"include": ["de"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Germany", "description": "The platform for information on OpenStreetMap in Germany", "url": "https://www.openstreetmap.de/"}, "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}]},
+    "osm-deep-south-wiki": {"id": "osm-deep-south-wiki", "type": "wiki", "account": "OpenStreetMap_Deep_South", "locationSet": {"include": ["deep_south.geojson"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Deep South", "description": "{community} Wiki page", "extendedDescription": "OpenStreetMap Deep South is a local mapping community in the Southeastern United States."}},
     "OSM-Discord": {"id": "OSM-Discord", "type": "discord", "account": "openstreetmap", "locationSet": {"include": ["001"]}, "languageCodes": ["de", "en", "es", "fr", "it", "pt-BR", "ro", "tr"], "order": 6, "strings": {"name": "OpenStreetMap World Discord"}, "contacts": [{"name": "Austin Harrison", "email": "jaustinharrison@gmail.com"}]},
     "OSM-Discourse": {"id": "OSM-Discourse", "type": "discourse", "locationSet": {"include": ["001"]}, "languageCodes": ["de", "en", "es", "nl", "pl", "pt-BR"], "order": 7, "strings": {"name": "OpenStreetMap Discourse", "description": "A shared place for conversations about OpenStreetMap", "url": "https://community.openstreetmap.org/"}, "contacts": [{"name": "Grant Slater", "email": "osmfuture@firefishy.com"}, {"name": "Rubén Martín", "email": "nukeador@protonmail.com"}]},
     "OSM-dj-facebook": {"id": "OSM-dj-facebook", "type": "facebook", "account": "OpenStreetMapDjibouti", "locationSet": {"include": ["dj"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Djibouti"}},
