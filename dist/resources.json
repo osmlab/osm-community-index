@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.2.0",
-    "generated": "2022-09-12T15:59:38.790Z",
+    "generated": "2022-09-12T18:45:29.382Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "27204a6326a8b3ac666f5b2a4c833c94"
+    "hash": "5257740dcd93d0f6b9a7d4871bd7f430"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -79,6 +79,7 @@
     "cm-facebook": {"id": "cm-facebook", "type": "facebook", "locationSet": {"include": ["cm"]}, "languageCodes": ["en", "fr"], "order": 1, "strings": {"community": "OpenStreetMap Cameroon", "url": "https://www.facebook.com/OpenStreetMap-Cameroun-799439470157013/Local"}, "contacts": [{"name": "osmcameroun@gmail.com", "email": "osmcameroun@gmail.com"}]},
     "cm-twitter": {"id": "cm-twitter", "type": "twitter", "account": "OSMCameroun", "locationSet": {"include": ["cm"]}, "languageCodes": ["en", "fr"], "order": 1, "strings": {"community": "OpenStreetMap Cameroon"}, "contacts": [{"name": "OSM Cameroon", "email": "osmcameroun@gmail.com"}]},
     "cn-telegram": {"id": "cn-telegram", "type": "telegram", "account": "osmchina", "locationSet": {"include": ["cn"]}, "languageCodes": ["zh"], "order": 5, "strings": {"community": "OpenStreetMap China"}},
+    "co-discourse": {"id": "co-discourse", "type": "discourse", "account": "co", "locationSet": {"include": ["co"]}, "languageCodes": ["en", "es"], "strings": {"community": "OpenStreetMap Colombia"}},
     "co-facebook": {"id": "co-facebook", "type": "facebook", "account": "OsmCol", "locationSet": {"include": ["co"]}, "languageCodes": ["es"], "order": 1, "strings": {"community": "OpenStreetMap Colombia", "extendedDescription": "Join the community to learn more about OpenStreetMap. Everyone is welcome!", "url": "https://www.facebook.com/groups/OsmCol"}, "contacts": [{"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}]},
     "co-forum": {"id": "co-forum", "type": "forum", "account": "92", "locationSet": {"include": ["co"]}, "languageCodes": ["en"], "order": 5, "strings": {"community": "OpenStreetMap Colombia"}},
     "co-telegram": {"id": "co-telegram", "type": "telegram", "account": "osmco", "locationSet": {"include": ["co"]}, "languageCodes": ["es"], "order": 2, "strings": {"community": "OpenStreetMap Colombia"}, "contacts": [{"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}]},
@@ -201,6 +202,7 @@
     "id-telegram": {"id": "id-telegram", "type": "telegram", "account": "osmindonesia", "locationSet": {"include": ["id"]}, "languageCodes": ["id"], "order": 2, "strings": {"community": "OpenStreetMap Indonesia"}},
     "id-twitter": {"id": "id-twitter", "type": "twitter", "account": "OSM_ID", "locationSet": {"include": ["id"]}, "languageCodes": ["en"], "order": 3, "strings": {"community": "OpenStreetMap Indonesia"}},
     "id-youtube": {"id": "id-youtube", "type": "youtube", "account": "UCRqMbcsT9ummMvByc1BlsDQ", "locationSet": {"include": ["id"]}, "languageCodes": ["id"], "strings": {"community": "OpenStreetMap Indonesia"}, "contacts": [{"name": "OpenStreetMap Indonesia", "email": "perkumpulan@openstreetmap.id"}]},
+    "il-discourse": {"id": "il-discourse", "type": "discourse", "account": "il", "locationSet": {"include": ["il"]}, "languageCodes": ["en", "he"], "strings": {"community": "OpenStreetMap Israel"}},
     "il-telegram": {"id": "il-telegram", "type": "telegram", "account": "OSM_Israel", "locationSet": {"include": ["il"]}, "order": 5, "strings": {"community": "OpenStreetMap Israel"}},
     "ireland-chapter": {"id": "ireland-chapter", "type": "osm-lc", "locationSet": {"include": ["gb-nir", "ie"]}, "languageCodes": ["en"], "order": 1, "strings": {"community": "OpenStreetMap Ireland", "description": "We help grow and improve OpenStreetMap in Ireland.", "extendedDescription": "OpenStreetMap Ireland provides an advocate voice for the OpenStreetMap project on the island of Ireland, in addition to interacting with other open initiatives.", "url": "https://www.openstreetmap.ie/"}},
     "ireland-discourse": {"id": "ireland-discourse", "type": "discourse", "account": "ie", "locationSet": {"include": ["gb-nir", "ie"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Ireland"}, "contacts": [{"name": "OSM Ireland", "email": "board@openstreetmap.ie"}]},

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.2.0",
-    "generated": "2022-07-01T19:27:28.662Z",
+    "generated": "2022-09-12T18:45:33.058Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/defaults.json",
-    "hash": "206de1b6e80c0b6fa3f276415673ac06"
+    "hash": "abdb6d5000f9c7e97ef5739fca163c5f"
   },
   "defaults": {
     "aparat": {
@@ -16,7 +16,11 @@
       "description": "Get in touch with other mappers on Discord",
       "url": "https://discord.gg/{account}"
     },
-    "discourse": {"name": "{community} Discourse"},
+    "discourse": {
+      "name": "{community} Discourse",
+      "description": "The official forum for {community}",
+      "url": "https://community.openstreetmap.org/c/communities/{account}"
+    },
     "facebook": {
       "name": "{community} on Facebook",
       "description": "Join our community on Facebook",

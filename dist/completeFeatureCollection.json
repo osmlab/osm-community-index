@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.2.0",
-    "generated": "2022-09-12T14:02:00.916Z",
+    "generated": "2022-09-12T18:45:33.591Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "f1ba5b8f06a57a58f9ca785e2d57f30a"
+    "hash": "7b4fd230d786e4c9496c24065db8b916"
   },
   "type": "FeatureCollection",
   "features": [
@@ -7233,6 +7233,22 @@
         "driveSide": "right",
         "area": 1958108.25,
         "resources": {
+          "co-discourse": {
+            "id": "co-discourse",
+            "type": "discourse",
+            "account": "co",
+            "locationSet": {"include": ["co"]},
+            "languageCodes": ["en", "es"],
+            "strings": {"community": "OpenStreetMap Colombia"},
+            "resolved": {
+              "name": "OpenStreetMap Colombia Discourse",
+              "url": "https://community.openstreetmap.org/c/communities/co",
+              "description": "The official forum for OpenStreetMap Colombia",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/co\">OpenStreetMap Colombia Discourse</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/co\">https://community.openstreetmap.org/c/communities/co</a>",
+              "descriptionHTML": "The official forum for OpenStreetMap Colombia"
+            }
+          },
           "co-facebook": {
             "id": "co-facebook",
             "type": "facebook",
@@ -17252,6 +17268,22 @@
         "driveSide": "right",
         "area": 34396.76,
         "resources": {
+          "il-discourse": {
+            "id": "il-discourse",
+            "type": "discourse",
+            "account": "il",
+            "locationSet": {"include": ["il"]},
+            "languageCodes": ["en", "he"],
+            "strings": {"community": "OpenStreetMap Israel"},
+            "resolved": {
+              "name": "OpenStreetMap Israel Discourse",
+              "url": "https://community.openstreetmap.org/c/communities/il",
+              "description": "The official forum for OpenStreetMap Israel",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/il\">OpenStreetMap Israel Discourse</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/il\">https://community.openstreetmap.org/c/communities/il</a>",
+              "descriptionHTML": "The official forum for OpenStreetMap Israel"
+            }
+          },
           "il-telegram": {
             "id": "il-telegram",
             "type": "telegram",
@@ -17483,6 +17515,25 @@
               "urlHTML": "<a target=\"_blank\" href=\"https://www.openstreetmap.ie/\">https://www.openstreetmap.ie/</a>",
               "descriptionHTML": "We help grow and improve OpenStreetMap in Ireland.",
               "extendedDescriptionHTML": "OpenStreetMap Ireland provides an advocate voice for the OpenStreetMap project on the island of Ireland, in addition to interacting with other open initiatives."
+            }
+          },
+          "ireland-discourse": {
+            "id": "ireland-discourse",
+            "type": "discourse",
+            "account": "ie",
+            "locationSet": {"include": ["gb-nir", "ie"]},
+            "languageCodes": ["en"],
+            "strings": {"community": "OpenStreetMap Ireland"},
+            "contacts": [
+              {"name": "OSM Ireland", "email": "board@openstreetmap.ie"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Ireland Discourse",
+              "url": "https://community.openstreetmap.org/c/communities/ie",
+              "description": "The official forum for OpenStreetMap Ireland",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/ie\">OpenStreetMap Ireland Discourse</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/ie\">https://community.openstreetmap.org/c/communities/ie</a>",
+              "descriptionHTML": "The official forum for OpenStreetMap Ireland"
             }
           },
           "ireland-facebook": {
@@ -36508,24 +36559,22 @@
           },
           "OSM-TW-discourse": {
             "id": "OSM-TW-discourse",
-            "type": "facebook",
+            "type": "discourse",
+            "account": "tw",
             "locationSet": {"include": ["tw"]},
             "languageCodes": ["tw"],
             "order": 4,
-            "strings": {
-              "community": "OpenStreetMap Taiwan",
-              "url": "https://community.openstreetmap.org/c/communities/tw/42"
-            },
+            "strings": {"community": "OpenStreetMap Taiwan"},
             "contacts": [
               {"name": "Dennis Raylin Chen", "email": "dennis@wikimedia.tw"}
             ],
             "resolved": {
-              "name": "OpenStreetMap Taiwan on Facebook",
-              "url": "https://community.openstreetmap.org/c/communities/tw/42",
-              "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/tw/42\">OpenStreetMap Taiwan on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/tw/42\">https://community.openstreetmap.org/c/communities/tw/42</a>",
-              "descriptionHTML": "Join our community on Facebook"
+              "name": "OpenStreetMap Taiwan Discourse",
+              "url": "https://community.openstreetmap.org/c/communities/tw",
+              "description": "The official forum for OpenStreetMap Taiwan",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/tw\">OpenStreetMap Taiwan Discourse</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/tw\">https://community.openstreetmap.org/c/communities/tw</a>",
+              "descriptionHTML": "The official forum for OpenStreetMap Taiwan"
             }
           },
           "talk-tw": {
