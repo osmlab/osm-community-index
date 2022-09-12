@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.2.0",
-    "generated": "2022-07-01T19:27:25.718Z",
+    "generated": "2022-09-12T14:01:56.624Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "ca794b4004ebb2fbb44e0066e0af0c15"
+    "hash": "3266f37e659001aa499c7ee8b069eb8e"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -392,7 +392,6 @@
     "OSM-japan-facebook": {"id": "OSM-japan-facebook", "type": "facebook", "account": "osmjapan", "locationSet": {"include": ["jp"]}, "languageCodes": ["ja"], "order": 3, "strings": {"community": "OpenStreetMap Japan", "description": "Mappers and OpenStreetMap users in Japan", "url": "https://www.facebook.com/groups/osmjapan"}, "contacts": [{"name": "Satoshi IIDA", "email": "nyampire@gmail.com"}]},
     "OSM-japan-mailinglist": {"id": "OSM-japan-mailinglist", "type": "mailinglist", "account": "talk-ja", "locationSet": {"include": ["jp"]}, "languageCodes": ["ja"], "order": -3, "strings": {"community": "OpenStreetMap Japan"}, "contacts": [{"name": "OSMF Japan", "email": "info@osmf.jp"}]},
     "OSM-japan-slack": {"id": "OSM-japan-slack", "type": "slack", "locationSet": {"include": ["jp"]}, "languageCodes": ["ja"], "strings": {"community": "OpenStreetMap Japan", "description": "A Slack workspace for the OSM Japan community {signupUrl}", "signupUrl": "https://join.slack.com/t/osm-japan/shared_invite/zt-dwn2soub-E_rssqukJeSIiFsvYWozWw", "url": "https://osm-japan.slack.com/"}, "contacts": [{"name": "OSMF Japan", "email": "info@osmf.jp"}]},
-    "OSM-Japan-telegram": {"id": "OSM-Japan-telegram", "type": "telegram", "account": "osmjapan", "locationSet": {"include": ["jp"]}, "languageCodes": ["ja"], "order": 5, "strings": {"community": "OpenStreetMap Japan"}, "contacts": [{"name": "OSMF Japan", "email": "info@osmf.jp"}]},
     "OSM-japan-twitter": {"id": "OSM-japan-twitter", "type": "twitter", "account": "osmfj", "locationSet": {"include": ["jp"]}, "languageCodes": ["ja"], "strings": {"community": "OpenStreetMap Japan"}, "contacts": [{"name": "Satoshi IIDA", "email": "nyampire@gmail.com"}]},
     "OSM-japan-website": {"id": "OSM-japan-website", "type": "osm-lc", "locationSet": {"include": ["jp"]}, "languageCodes": ["ja"], "strings": {"community": "OpenStreetMap Japan", "description": "Mappers and OpenStreetMap users in Japan", "url": "https://openstreetmap.jp/"}, "contacts": [{"name": "Satoshi IIDA", "email": "nyampire@gmail.com"}]},
     "osm-kenya": {"id": "osm-kenya", "type": "twitter", "account": "OSMKenya", "locationSet": {"include": ["ke"]}, "languageCodes": ["en"], "order": 4, "strings": {"community": "OpenStreetMap Kenya", "description": "OSM Kenya is a community of OSM contributors and users", "extendedDescription": "OSM is a local community for individuals interested in OpenStreetMap including organizations, developers, and YouthMappers chapters in the country."}, "contacts": [{"name": "OSM Kenya", "email": "osmkenya@gmail.com"}]},

@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.2.0",
-    "generated": "2022-07-01T19:27:29.183Z",
+    "generated": "2022-09-12T14:02:00.916Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "ec1929200a9535f1bad9b02748d8dcc7"
+    "hash": "f1ba5b8f06a57a58f9ca785e2d57f30a"
   },
   "type": "FeatureCollection",
   "features": [
@@ -33941,24 +33941,6 @@
               "urlHTML": "<a target=\"_blank\" href=\"https://osm-japan.slack.com/\">https://osm-japan.slack.com/</a>",
               "signupUrlHTML": "<a target=\"_blank\" href=\"https://join.slack.com/t/osm-japan/shared_invite/zt-dwn2soub-E_rssqukJeSIiFsvYWozWw\">https://join.slack.com/t/osm-japan/shared_invite/zt-dwn2soub-E_rssqukJeSIiFsvYWozWw</a>",
               "descriptionHTML": "A Slack workspace for the OSM Japan community <a target=\"_blank\" href=\"https://join.slack.com/t/osm-japan/shared_invite/zt-dwn2soub-E_rssqukJeSIiFsvYWozWw\">https://join.slack.com/t/osm-japan/shared_invite/zt-dwn2soub-E_rssqukJeSIiFsvYWozWw</a>"
-            }
-          },
-          "OSM-Japan-telegram": {
-            "id": "OSM-Japan-telegram",
-            "type": "telegram",
-            "account": "osmjapan",
-            "locationSet": {"include": ["jp"]},
-            "languageCodes": ["ja"],
-            "order": 5,
-            "strings": {"community": "OpenStreetMap Japan"},
-            "contacts": [{"name": "OSMF Japan", "email": "info@osmf.jp"}],
-            "resolved": {
-              "name": "OpenStreetMap Japan Telegram",
-              "url": "https://t.me/osmjapan",
-              "description": "Join our community Telegram chat",
-              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/osmjapan\">OpenStreetMap Japan Telegram</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osmjapan\">https://t.me/osmjapan</a>",
-              "descriptionHTML": "Join our community Telegram chat"
             }
           },
           "OSM-japan-twitter": {
