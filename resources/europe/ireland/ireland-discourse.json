@@ -1,12 +1,10 @@
 {
   "id": "ireland-discourse",
   "type": "discourse",
+  "account": "ie",
   "locationSet": {"include": ["gb-nir", "ie"]},
   "languageCodes": ["en"],
-  "strings": {
-    "community": "OpenStreetMap Ireland",
-    "url": "https://community.openstreetmap.org/c/communities/ie"
-  },
+  "strings": {"community": "OpenStreetMap Ireland"},
   "contacts": [
     {"name": "OSM Ireland", "email": "board@openstreetmap.ie"}
   ]

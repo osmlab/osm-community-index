@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.2.0",
-    "generated": "2022-09-12T14:01:56.624Z",
+    "generated": "2022-09-12T15:51:45.853Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "3266f37e659001aa499c7ee8b069eb8e"
+    "hash": "c509b4c5593cc418291e71550e13b68b"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -203,6 +203,7 @@
     "id-youtube": {"id": "id-youtube", "type": "youtube", "account": "UCRqMbcsT9ummMvByc1BlsDQ", "locationSet": {"include": ["id"]}, "languageCodes": ["id"], "strings": {"community": "OpenStreetMap Indonesia"}, "contacts": [{"name": "OpenStreetMap Indonesia", "email": "perkumpulan@openstreetmap.id"}]},
     "il-telegram": {"id": "il-telegram", "type": "telegram", "account": "OSM_Israel", "locationSet": {"include": ["il"]}, "order": 5, "strings": {"community": "OpenStreetMap Israel"}},
     "ireland-chapter": {"id": "ireland-chapter", "type": "osm-lc", "locationSet": {"include": ["gb-nir", "ie"]}, "languageCodes": ["en"], "order": 1, "strings": {"community": "OpenStreetMap Ireland", "description": "We help grow and improve OpenStreetMap in Ireland.", "extendedDescription": "OpenStreetMap Ireland provides an advocate voice for the OpenStreetMap project on the island of Ireland, in addition to interacting with other open initiatives.", "url": "https://www.openstreetmap.ie/"}},
+    "ireland-discourse": {"id": "ireland-discourse", "type": "discourse", "account": "ie", "locationSet": {"include": ["gb-nir", "ie"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Ireland"}, "contacts": [{"name": "OSM Ireland", "email": "board@openstreetmap.ie"}]},
     "ireland-facebook": {"id": "ireland-facebook", "type": "facebook", "locationSet": {"include": ["gb-nir", "ie"]}, "languageCodes": ["en"], "order": 3, "strings": {"community": "OpenStreetMap Ireland", "url": "https://www.facebook.com/groups/OpenStreetMapIreland"}},
     "ireland-irc": {"id": "ireland-irc", "type": "irc", "account": "osm-ie", "locationSet": {"include": ["gb-nir", "ie"]}, "languageCodes": ["en"], "order": -1, "strings": {"community": "OpenStreetMap Ireland", "extendedDescription": "Join #{account} on irc.oftc.net (port 6667), please be patient and wait for a few minutes if you ask a question"}},
     "ireland-mailinglist": {"id": "ireland-mailinglist", "type": "mailinglist", "account": "talk-ie", "locationSet": {"include": ["gb-nir", "ie"]}, "languageCodes": ["en"], "order": 4, "strings": {"community": "OpenStreetMap Ireland"}},
