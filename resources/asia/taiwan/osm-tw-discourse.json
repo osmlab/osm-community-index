@@ -1,13 +1,11 @@
 {
   "id": "OSM-TW-discourse",
   "type": "discourse",
+  "account": "tw",
   "locationSet": {"include": ["tw"]},
   "languageCodes": ["tw"],
   "order": 4,
-  "strings": {
-    "community": "OpenStreetMap Taiwan",
-    "url": "https://community.openstreetmap.org/c/communities/tw/42"
-  },
+  "strings": {"community": "OpenStreetMap Taiwan"},
   "contacts": [
     {"name": "Dennis Raylin Chen", "email": "dennis@wikimedia.tw"}
   ]
