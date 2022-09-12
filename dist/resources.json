@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.2.0",
-    "generated": "2022-09-12T19:33:51.753Z",
+    "generated": "2022-09-12T20:47:57.315Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "6a4aae51757479209173cdc6e35a32f9"
+    "hash": "34eb552f4271384e394efb7bc5c3792f"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -583,6 +583,7 @@
     "tg-facebook": {"id": "tg-facebook", "type": "facebook", "account": "OSMTogo", "locationSet": {"include": ["tg"]}, "strings": {"community": "OpenStreetMap Togo"}},
     "tg-telegram": {"id": "tg-telegram", "type": "telegram", "account": "osmtogo", "locationSet": {"include": ["tg"]}, "strings": {"community": "OpenStreetMap Togo"}},
     "tg-twitter": {"id": "tg-twitter", "type": "twitter", "account": "OSMTogo", "locationSet": {"include": ["tg"]}, "strings": {"community": "OpenStreetMap Togo"}},
+    "th-discourse": {"id": "th-discourse", "type": "discourse", "account": "th", "locationSet": {"include": ["th"]}, "languageCodes": ["en", "th"], "strings": {"community": "OpenStreetMap Thailand"}},
     "th-facebook": {"id": "th-facebook", "type": "facebook", "locationSet": {"include": ["th"]}, "languageCodes": ["en", "th"], "order": 3, "strings": {"community": "OpenStreetMap Thailand", "url": "https://www.facebook.com/groups/thaiosm"}, "contacts": [{"name": "Theppitak Karoonboonyanan", "email": "theppitak@gmail.com"}]},
     "th-forum": {"id": "th-forum", "type": "forum", "account": "46", "locationSet": {"include": ["th"]}, "languageCodes": ["en", "th"], "order": -2, "strings": {"community": "OpenStreetMap Thailand"}, "contacts": [{"name": "Stephan Knauss", "email": "osm@stephans-server.de"}]},
     "tn-facebook": {"id": "tn-facebook", "type": "facebook", "account": "osmtun", "locationSet": {"include": ["tn"]}, "strings": {"community": "OpenStreetMap Tunisia"}},

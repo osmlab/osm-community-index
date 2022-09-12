@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.2.0",
-    "generated": "2022-09-12T19:33:56.045Z",
+    "generated": "2022-09-12T20:48:01.563Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "2127fe97753ba4669aa35564c8c45a07"
+    "hash": "71750044ee5180d7ab429c2b18fcc250"
   },
   "type": "FeatureCollection",
   "features": [
@@ -45220,6 +45220,22 @@
         "roadHeightUnit": "m",
         "area": 764502.66,
         "resources": {
+          "th-discourse": {
+            "id": "th-discourse",
+            "type": "discourse",
+            "account": "th",
+            "locationSet": {"include": ["th"]},
+            "languageCodes": ["en", "th"],
+            "strings": {"community": "OpenStreetMap Thailand"},
+            "resolved": {
+              "name": "OpenStreetMap Thailand Discourse",
+              "url": "https://community.openstreetmap.org/c/communities/th",
+              "description": "The official forum for OpenStreetMap Thailand",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/th\">OpenStreetMap Thailand Discourse</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/th\">https://community.openstreetmap.org/c/communities/th</a>",
+              "descriptionHTML": "The official forum for OpenStreetMap Thailand"
+            }
+          },
           "th-facebook": {
             "id": "th-facebook",
             "type": "facebook",
