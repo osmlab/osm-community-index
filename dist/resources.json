@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.2.0",
-    "generated": "2022-09-26T15:32:30.543Z",
+    "generated": "2022-09-26T18:00:09.049Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "bc3afbe7808ca413b5b329d6fd287d03"
+    "hash": "fa5ad678548cdad66b448736608665da"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -219,6 +219,7 @@
     "is-forum": {"id": "is-forum", "type": "forum", "account": "90", "locationSet": {"include": ["is"]}, "languageCodes": ["en"], "order": 4, "strings": {"community": "OpenStreetMap Iceland"}},
     "is-twitter": {"id": "is-twitter", "type": "twitter", "account": "openstreetmapis", "locationSet": {"include": ["is"]}, "languageCodes": ["en", "is"], "order": 2, "strings": {"community": "OpenStreetMap Iceland"}},
     "it-chapter": {"id": "it-chapter", "type": "osm-lc", "locationSet": {"include": ["it"]}, "languageCodes": ["it"], "order": 1, "strings": {"community": "OpenStreetMap Italy", "description": "We help grow and improve OpenStreetMap in Italy.", "url": "https://www.wikimedia.it/"}, "contacts": [{"name": "Simone Cortesi", "email": "simone@cortesi.com"}, {"name": "Stefano", "email": "sabas88@gmail.com"}, {"name": "Alessandro Palmas", "email": "alessandro.palmas@wikimedia.it"}]},
+    "it-discourse": {"id": "it-discourse", "type": "discourse", "account": "it", "locationSet": {"include": ["it"]}, "languageCodes": ["en", "it"], "order": 2, "strings": {"name": "Italian Discourse", "description": "Il forum dove poter discutere di OpenStreetMap"}, "contacts": [{"name": "Manuel", "email": "mannivuwiki@gmail.com"}]},
     "it-facebook": {"id": "it-facebook", "type": "facebook", "account": "OpenStreetMap.Italia", "locationSet": {"include": ["it"]}, "languageCodes": ["it"], "order": 3, "strings": {"community": "OpenStreetMap Italy"}, "contacts": [{"name": "Simone Cortesi", "email": "simone@cortesi.com"}, {"name": "Stefano", "email": "sabas88@gmail.com"}, {"name": "Alessandro Palmas", "email": "alessandro.palmas@wikimedia.it"}]},
     "it-irc": {"id": "it-irc", "type": "irc", "account": "osm-it", "locationSet": {"include": ["it"]}, "languageCodes": ["it"], "order": -4, "strings": {"community": "OpenStreetMap Italy"}, "contacts": [{"name": "Simone Cortesi", "email": "simone@cortesi.com"}, {"name": "Stefano", "email": "sabas88@gmail.com"}, {"name": "Alessandro Palmas", "email": "alessandro.palmas@wikimedia.it"}]},
     "it-mailinglist": {"id": "it-mailinglist", "type": "mailinglist", "account": "talk-it", "locationSet": {"include": ["it"]}, "languageCodes": ["it"], "order": -3, "strings": {"community": "OpenStreetMap Italy"}, "contacts": [{"name": "Simone Cortesi", "email": "simone@cortesi.com"}, {"name": "Stefano", "email": "sabas88@gmail.com"}, {"name": "Alessandro Palmas", "email": "alessandro.palmas@wikimedia.it"}]},
