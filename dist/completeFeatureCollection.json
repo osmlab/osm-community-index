@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.2.0",
-    "generated": "2022-09-26T15:32:37.229Z",
+    "generated": "2022-09-26T18:00:14.801Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "fbdca127b6a9578320a7d0a57dec730a"
+    "hash": "626bc3433731fff053853fecaf1c59db"
   },
   "type": "FeatureCollection",
   "features": [
@@ -17887,6 +17887,27 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://www.wikimedia.it/\">OpenStreetMap Italy</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://www.wikimedia.it/\">https://www.wikimedia.it/</a>",
               "descriptionHTML": "We help grow and improve OpenStreetMap in Italy."
+            }
+          },
+          "it-discourse": {
+            "id": "it-discourse",
+            "type": "discourse",
+            "account": "it",
+            "locationSet": {"include": ["it"]},
+            "languageCodes": ["en", "it"],
+            "order": 2,
+            "strings": {
+              "name": "Italian Discourse",
+              "description": "Il forum dove poter discutere di OpenStreetMap"
+            },
+            "contacts": [{"name": "Manuel", "email": "mannivuwiki@gmail.com"}],
+            "resolved": {
+              "name": "Italian Discourse",
+              "url": "https://community.openstreetmap.org/c/communities/it",
+              "description": "Il forum dove poter discutere di OpenStreetMap",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/it\">Italian Discourse</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/it\">https://community.openstreetmap.org/c/communities/it</a>",
+              "descriptionHTML": "Il forum dove poter discutere di OpenStreetMap"
             }
           },
           "it-facebook": {

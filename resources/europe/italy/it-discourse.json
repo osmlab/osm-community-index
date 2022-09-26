@@ -1,15 +1,13 @@
 {
   "id": "it-discourse",
   "type": "discourse",
-  "locationSet": {"include": ["it"]},
-  "languageCodes": ["it", "en"],
-  "order": 2,
   "account": "it",
+  "locationSet": {"include": ["it"]},
+  "languageCodes": ["en", "it"],
+  "order": 2,
   "strings": {
     "name": "Italian Discourse",
     "description": "Il forum dove poter discutere di OpenStreetMap"
   },
-  "contacts": [
-    {"name": "Manuel", "email": "mannivuwiki@gmail.com"}
-  ]
+  "contacts": [{"name": "Manuel", "email": "mannivuwiki@gmail.com"}]
 }
