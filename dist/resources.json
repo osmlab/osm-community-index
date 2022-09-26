@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.2.0",
-    "generated": "2022-09-22T02:02:20.864Z",
+    "generated": "2022-09-26T15:32:30.543Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "331cc3bbeb1ea30562757204dc9e9734"
+    "hash": "bc3afbe7808ca413b5b329d6fd287d03"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -106,9 +106,9 @@
     "de-bremen-mailinglist": {"id": "de-bremen-mailinglist", "type": "mailinglist", "locationSet": {"include": [[8.7286, 53.1212, 25], [8.583333, 53.55, 10]]}, "languageCodes": ["de"], "order": -3, "strings": {"community": "OpenStreetMap Bremen", "name": "Bremen Mailing List", "url": "https://lists.openstreetmap.de/listinfo/Bremen"}},
     "de-bremen-wiki": {"id": "de-bremen-wiki", "type": "wiki", "account": "Bremen", "locationSet": {"include": [[8.7286, 53.1212, 25], [8.583333, 53.55, 10]]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Bremen", "description": "{community} Wiki page"}},
     "de-cologne-wiki": {"id": "de-cologne-wiki", "type": "wiki", "account": "Cologne", "locationSet": {"include": [[6.95903, 50.93836]]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Cologne", "description": "{community} Wiki page"}},
+    "de-discourse": {"id": "de-discourse", "type": "discourse", "account": "de", "locationSet": {"include": ["de"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Germany"}},
     "de-dresden-wiki": {"id": "de-dresden-wiki", "type": "wiki", "account": "Dresden", "locationSet": {"include": [[13.73721, 51.04933]]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Dresden", "description": "{community} Wiki page"}},
     "de-dusseldorf-wiki": {"id": "de-dusseldorf-wiki", "type": "wiki", "account": "D%C3%BCsseldorf", "locationSet": {"include": [[6.77537, 51.2254]]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Düsseldorf", "description": "{community} Wiki page"}},
-    "de-forum": {"id": "de-forum", "type": "forum", "account": "14", "locationSet": {"include": ["de"]}, "languageCodes": ["de"], "order": -2, "strings": {"community": "OpenStreetMap Germany"}, "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}]},
     "de-hamburg-telegram": {"id": "de-hamburg-telegram", "type": "telegram", "account": "osm_de_hh", "locationSet": {"include": ["de-hamburg.geojson"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Hamburg"}},
     "de-hamburg-xmpp": {"id": "de-hamburg-xmpp", "type": "xmpp", "locationSet": {"include": ["de-hamburg.geojson"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Hamburg", "name": "OpenStreetMap Hamburg XMPP", "description": "Join our XMPP Multi-User Chat: {url}", "url": "xmpp:osm-hh@conference.jabber.de?join"}},
     "de-irc": {"id": "de-irc", "type": "irc", "account": "osm-de", "locationSet": {"include": ["de"]}, "languageCodes": ["de"], "order": -4, "strings": {"community": "OpenStreetMap Germany"}, "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}]},
