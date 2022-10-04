@@ -1,10 +1,12 @@
 {
   "id": "be-discourse",
   "type": "discourse",
+  "account": "be",
   "locationSet": {"include": ["be"]},
-  "languageCodes": ["en", "fr", "nl", "de"],
+  "languageCodes": ["de", "en", "fr", "nl"],
   "order": 3,
-    "strings": {
+  "strings": {
+    "community": "OpenStreetMap Belgium",
     "name": "Belgium Discourse",
     "description": "A Forum to discuss OpenStreetMap in Belgium"
   },

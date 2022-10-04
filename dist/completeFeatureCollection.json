@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.2.0",
-    "generated": "2022-09-26T18:00:14.801Z",
+    "generated": "2022-10-04T13:19:45.254Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "626bc3433731fff053853fecaf1c59db"
+    "hash": "8958e9f0c6bf64870d299ec1b54b0558"
   },
   "type": "FeatureCollection",
   "features": [
@@ -2163,41 +2163,26 @@
               "extendedDescriptionHTML": "If you want to help to improve and grow the mapping community in Belgium, to make even more people crazy about mapping, OpenStreetMap Belgium is the right place for you!"
             }
           },
-          "be-facebook": {
-            "id": "be-facebook",
-            "type": "facebook",
-            "locationSet": {"include": ["be"]},
-            "languageCodes": ["de", "en", "fr", "nl"],
-            "strings": {
-              "community": "OpenStreetMap Belgium",
-              "url": "https://www.facebook.com/groups/1419016881706058"
-            },
-            "contacts": [{"name": "BE community", "email": "community@osm.be"}],
-            "resolved": {
-              "name": "OpenStreetMap Belgium on Facebook",
-              "url": "https://www.facebook.com/groups/1419016881706058",
-              "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/1419016881706058\">OpenStreetMap Belgium on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/1419016881706058\">https://www.facebook.com/groups/1419016881706058</a>",
-              "descriptionHTML": "Join our community on Facebook"
-            }
-          },
-          "be-forum": {
-            "id": "be-forum",
-            "type": "forum",
-            "account": "29",
+          "be-discourse": {
+            "id": "be-discourse",
+            "type": "discourse",
+            "account": "be",
             "locationSet": {"include": ["be"]},
             "languageCodes": ["de", "en", "fr", "nl"],
             "order": 3,
-            "strings": {"community": "OpenStreetMap Belgium"},
+            "strings": {
+              "community": "OpenStreetMap Belgium",
+              "name": "Belgium Discourse",
+              "description": "A Forum to discuss OpenStreetMap in Belgium"
+            },
             "contacts": [{"name": "BE community", "email": "community@osm.be"}],
             "resolved": {
-              "name": "OpenStreetMap Belgium Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=29",
-              "description": "The official forum for OpenStreetMap Belgium",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=29\">OpenStreetMap Belgium Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=29\">https://forum.openstreetmap.org/viewforum.php?id=29</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Belgium"
+              "name": "Belgium Discourse",
+              "url": "https://community.openstreetmap.org/c/communities/be",
+              "description": "A Forum to discuss OpenStreetMap in Belgium",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/be\">Belgium Discourse</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/be\">https://community.openstreetmap.org/c/communities/be</a>",
+              "descriptionHTML": "A Forum to discuss OpenStreetMap in Belgium"
             }
           },
           "be-irc": {
@@ -12264,6 +12249,25 @@
         "callingCodes": ["34 971", "34"],
         "area": 979885.89,
         "resources": {
+          "es-discourse": {
+            "id": "es-discourse",
+            "type": "discourse",
+            "account": "es",
+            "locationSet": {"include": ["es"]},
+            "languageCodes": ["ca", "es", "eu", "gl"],
+            "strings": {
+              "community": "OpenStreetMap España",
+              "name": "Spanish Community Discourse"
+            },
+            "resolved": {
+              "name": "Spanish Community Discourse",
+              "url": "https://community.openstreetmap.org/c/communities/es",
+              "description": "The official forum for OpenStreetMap España",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/es\">Spanish Community Discourse</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/es\">https://community.openstreetmap.org/c/communities/es</a>",
+              "descriptionHTML": "The official forum for OpenStreetMap España"
+            }
+          },
           "es-mailinglist": {
             "id": "es-mailinglist",
             "type": "mailinglist",
@@ -17897,6 +17901,7 @@
             "languageCodes": ["en", "it"],
             "order": 2,
             "strings": {
+              "community": "OpenStreetMap Italy",
               "name": "Italian Discourse",
               "description": "Il forum dove poter discutere di OpenStreetMap"
             },
