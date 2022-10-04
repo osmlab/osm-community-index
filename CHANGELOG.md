@@ -20,12 +20,47 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 -->
 
 # 5.3.0
-##### unreleased
+##### 2022-Oct-04
 * Support new resource type `newsletter`
+* Updated to FontAwesome 6.2.x, some icons updated ([#567])
 * Added
-  * OpenStreetmap Belgium quarterly newsletter ([#549])
+  * Swap Belgium Forum -> Discourse ([#585])
+  * Spain Discourse ([#584])
+  * Italy Discourse ([#582])
+  * Swap German Forum -> Discourse ([#581])
+  * Thailand Discourse ([#571])
+  * Ireland Discourse ([#569])
+  * Israel Discourse ([#568])
+  * Colombia Discourse ([#562])
+  * LATAM Discourse ([#561])
+  * OpenStreetMap Deep South (US) ([#559])
+  * Belgium quarterly newsletter ([#549])
+* Updated
+  * Fix Taiwan Discourse type ([#570])
+  * Many updates to spelling and punctuation for YouthMappers resources
+* Removed
+  * Belgium Facebook page ([#586])
+  * Japan Teletram ([#560])
+  * Azerbaijan Facebook page ([#547])
+  * Albania Teletram ([#546])
 
+[#546]: https://github.com/osmlab/osm-community-index/issues/546
+[#547]: https://github.com/osmlab/osm-community-index/issues/547
 [#549]: https://github.com/osmlab/osm-community-index/issues/549
+[#559]: https://github.com/osmlab/osm-community-index/issues/559
+[#560]: https://github.com/osmlab/osm-community-index/issues/560
+[#561]: https://github.com/osmlab/osm-community-index/issues/561
+[#562]: https://github.com/osmlab/osm-community-index/issues/562
+[#567]: https://github.com/osmlab/osm-community-index/issues/567
+[#568]: https://github.com/osmlab/osm-community-index/issues/568
+[#569]: https://github.com/osmlab/osm-community-index/issues/569
+[#570]: https://github.com/osmlab/osm-community-index/issues/570
+[#571]: https://github.com/osmlab/osm-community-index/issues/571
+[#581]: https://github.com/osmlab/osm-community-index/issues/581
+[#582]: https://github.com/osmlab/osm-community-index/issues/582
+[#584]: https://github.com/osmlab/osm-community-index/issues/584
+[#585]: https://github.com/osmlab/osm-community-index/issues/585
+[#586]: https://github.com/osmlab/osm-community-index/issues/586
 
 
 # 5.2.0
