@@ -60,7 +60,6 @@ he:
     openstreetmapgeorgia: OpenStreetMap גאורגיה
     openstreetmapgermany: OpenStreetMap גרמניה
     openstreetmapghana: OpenStreetMap גאנה
-    openstreetmapgraz: OpenStreetMap גראץ
     openstreetmapgreece: OpenStreetMap יוון
     openstreetmapguatemala: OpenStreetMap גואטמלה
     openstreetmapguinea: OpenStreetMap גינאה
@@ -177,7 +176,6 @@ he:
     facebook:
       name: '{community} בפייסבוק'
       description: מזמינים אותך להצטרף לקהילה שלנו בפייסבוק
-      url: https://facebook.com/{account}
     forum:
       name: 'הפורום של {community}'
       description: הפורום הרשמי של {community}
@@ -197,7 +195,6 @@ he:
     linkedin:
       name: '{community} ב־LinkedIn'
       description: מזמינים אותך להצטרף לקהילה שלנו ב־LinkedIn
-      url: https://linkedin.com/company/{account}
     mailinglist:
       name: 'רשימת הדיוור של {account}'
       description: רשימת הדיוור הרשמי של {community}
@@ -208,7 +205,6 @@ he:
       url: https://matrix.to/#/{account}:matrix.org
     meetup:
       name: 'קבוצת ה־Meetup של {community}'
-      url: https://meetup.com/{account}
     osm:
       name: '{community}'
     osm-lc:
@@ -243,8 +239,6 @@ he:
     extendedDescription: Maptime היא סביבת למידה פתוחה לכל רמות ודרגות הידע, המציעה תמיכה חינוכית המיועדת למתחילים. Maptime היא גמישה ובנויה היטב בו זמנית, לטובת יצירת מקום להדרכות, סדנאות ומיזמים בנושאי מיפוי עם מטרה משותפת וזמן עבודה עצמאי/שיתופי.
   at-matrix:
     description: ערוץ Matrix גרמני בלתי רשמי לאוסטריה
-  az-facebook:
-    name: OpenStreetMap אזרבייג׳ן
   Bahia-telegram:
     extendedDescription: ניתן להצטרף לקהילה שלנו כדי ללמוד עוד על OpenStreetMap, לשאול שאלות או להשתתף במפגשים שלנו. כולם מוזמנים!
   Bay-Area-OpenStreetMappers:
@@ -261,7 +255,6 @@ he:
     extendedDescription: 'ניתן להצטרף ל־‎#{account} תחת irc.oftc.net (פתחה 6667), הוא מקושר לערוץ הצ׳אט ב־Matrix'
   be-matrix:
     description: כל הממפים מוזמנים!
-    extendedDescription: רוב הדיונים מתרחשים בערוץ „OpenStreetMap בלגיה”. ניתן לשאול כאן הכול! החדרים האחרים מתמקדים בנושאים נקודתיים.
   be-meetup:
     description: מפגשים פנים אל פנים של כל מי שמעוניין ב־OpenStreetMap.
     extendedDescription: מפגשים בחיים האמתיים מהווים דרך נפלאה לפגוש ממפים אחרים, לשאול אותם שאלות וללמוד הרבה. מתנדבים חדשים מוזמנים במיוחד!
@@ -327,12 +320,6 @@ he:
     description: 'ניתן להצטרף לקבוצת הצ׳אט מרובת המשתתפים שלנו ב־XMPP:‏ {url}'
   DF-telegram:
     extendedDescription: ניתן להצטרף לקהילה וללמוד עוד על OpenStreetMap, לשאול שאלות או להשתתף במפגשים שלנו. כולם מוזמנים!
-  fr-35-wiki:
-    name: עמוד הוויקי של OpenStreetMap רן
-    description: עמוד הוויקי של קבוצת ה־OSM המקומית של רן
-  fr-38-wiki:
-    name: עמוד הוויקי של OpenStreetMap גרנובל
-    description: עמוד ויקי לקהילה המקומית של OSM בגרנובל
   fr-bzh-website:
     description: המפה שדוברת ברטון
   fr-chapter:
@@ -408,10 +395,6 @@ he:
   MappingWR:
     name: MappingWR
     description: מסייעים בהנגשת המסלולים מופחתי הפחמן באזור ווטרלו.
-  Maptime-Bogota:
-    name: Maptime בוגוטה
-    description: אנו קבוצה של ממפים שמעוניים למפות ב־OpenStreetMap סביב בוגוטה.
-    extendedDescription: מידע על איסוף נתונים בשטח והמרתם לנתונים דיגיטליים ב־OpenStreetMap. אין צורך בידע קודם! נדרש רק רצון עז להשתתף, ללמוד וליהנות.
   Maptime-ME-meetup:
     name: MaptimeME
     description: ממפים ומשתמשי OpenStreetMap סביב פורטלנד, מיין
@@ -419,9 +402,6 @@ he:
   Maptime-Oceania-Slack:
     name: ה־Slack של Maptime אוסיאניה
     description: ניתן להירשם בכתובת {signupUrl}
-  nl-wonderme:
-    name: '{community} ב־Wonder.me'
-    description: חדר פגישות וירטואלי
   no-irc:
     description: חדר צ׳אט לממפי, משתמשי, מפתחי וחובבי OpenStreetMap בנורווגיה
   no-mailinglist:
@@ -439,12 +419,6 @@ he:
     extendedDescription: Open Geo קליבנד מכוונים להוות משאב לשיחות בין אנשים ולשתף מידע על שימוש בנתונים גאוגרפיים חופשיים ובמיוחד OpenStreetMap ותכניות לניהול גאו־מרחבי שמנהלות, עורכות ומציגות נתונים גאוגרפיים וקידום השימוש בהן לטובת צפון מזרח אוהיו, אנו גם סניף של maptime =).
   OSM-AR-forum:
     extendedDescription: מצוין לדיונים ארוכים או חשובים. זמן תגובה ארוך.
-  OSM-AR-irc:
-    extendedDescription: שם ניתן למצוא את המשתמש החנון ביותר בקהילה.
-  OSM-AR-mailinglist:
-    description: קבוצת דיוור היסטורית. כמעט לא בשימוש כיום.
-  OSM-AR-telegram:
-    extendedDescription: הערוץ הפעיל ביותר בקהילה, מומלץ לשיחות ולקבלת תשובות לשאלות שלך במהרה. כולם מוזמנים!
   OSM-AR-twitter:
     extendedDescription: חדשות מהקהילה המקומית ומ־OpenStreetMap באופן כללי.
   osm-at:
@@ -466,8 +440,6 @@ he:
   OSM-Chattanooga:
     name: OSM צ׳טנוגה
     description: קבוצת משתמשי OpenStreetMap בצ׳טנוגה
-  OSM-CO:
-    description: חדשות על קהילת OpenStreetMap קולומביה ועל קרן OSMCo
   OSM-Colorado:
     name: OpenStreetMap קולורדו
     description: ממפים ומשתמשים ב־OpenStreetMap במדינת קולורדו, ארה״ב
@@ -535,8 +507,6 @@ he:
     description: אנחנו ממפים את קרלה ביחד. מזמינים אותך להצטרף לקבוצת ה־Matrix שלנו
   osm-kerala-telegram:
     description: אנחנו ממפים את קרלה ביחד. מזמינים אותך להצטרף לקבוצת הטלגרם שלנו. {url}
-  osm-kerala-wiki:
-    description: 'למידע נוסף על המיפוי של קרלה: {url}'
   osm-mg-facebook:
     description: קבוצת פייסבוק במלגשי לאנשים שמתעניינים ב־OpenStreetMap.
   osm-ni:
@@ -547,7 +517,6 @@ he:
   OSM-PE:
     description: חדשות ומשאבים לקהילת OpenStreetMap פרו
   OSM-PL-chapter:
-    name: OpenStreetMap פולין
     description: הבית של קהילת OpenStreetMap הפולנית
   OSM-PL-github:
     description: ארגון GitHub לקהילת OpenStreetMap הפולנית
@@ -569,9 +538,6 @@ he:
     name: מפגש המיפוי של רומא - Incontro Mappatori Romani
     description: שיפור OpenStreetMap באזור רומא
     extendedDescription: אנו מכוונים להוות משאב לשיחות בין אנשים ולשתף מידע על שימוש בנתונים גאוגרפיים חופשיים ובמיוחד OpenStreetMap ותכניות לניהול גאו־מרחבי שמנהלות, עורכות ומציגות נתונים גאוגרפיים וקידום השימוש בהן לטובת לאציו.
-  osm-se:
-    name: OpenStreetMap.se
-    description: אספקת שירותים ומידע על OSM עבור הקהילה המקומית בשוודיה
   OSM-Seattle:
     name: OpenStreetMap סיאטל
     description: ממפים ומשתמשים ב־OpenStreetMap באזור סיאטל
@@ -615,10 +581,6 @@ he:
   OSMF:
     name: קרן OpenStreetMap
     description: OSMF הוא ארגון בריטי ללא מטרות רווח שתומך במיזם OpenStreetMap
-    extendedDescription: 'OSMF תומך ב־OpenStreetMap על ידי תרומה, תחזוקת השרתים שעליהם פועלת מערכת OSM, ארגון הכנס State of the Map ותיאום בין המתנדבים שדואגים ש־OSM ימשיך להכות גלים. ניתן להראות את תמיכתך ולתת את קולך ל־OpenStreetMap על ידי הצטרפות לחברות ב־OSMF דרך כאן: {signupUrl}'
-  osmgraz-meetup:
-    name: מפגש קהילת OSM גראץ
-    description: מפגש חודשי של קהילת OpenStreetMap בגראץ
   PHXGeo-meetup:
     name: קבוצת המפגשים של PHXGeo
     description: ממפי ומשתמשי OpenStreetMap באזור פיניקס, אריזונה
@@ -637,8 +599,6 @@ he:
   sk-freemap:
     name: אתר ה־OpenStreetMap של Freemap סלובקיה
     description: האתר של מפת OpenStreetMap עם כלים בסלובקיה והאזורים העוטפים
-  sk-freemap-wiki:
-    description: ויקי של OpenStreetMap לקהילה ולממפים הסלובקים
   talk-au:
     description: מקום לשיחות בין ממפים אוסטרליים
   talk-bo:
@@ -659,21 +619,9 @@ he:
   uk-london-twitter:
     name: הטוויטר של OpenStreetMap לונדון
     description: 'הטוויטר של OpenStreetMap לונדון: {url}'
-  us-ma-mailinglist:
-    name: קבוצת הדיוור Talk-us-massachusetts
-    description: רשימת דיוור בדוא״ל לקהילת OSM במסצ׳וסטס
-  US-MI-Wiki:
-    description: מידע על מיפוי במישיגן.
   uy-irc:
     description: 'ניתן להצטרף ל־‎#{account} ב־irc.freenode.org (פתחה 6667)'
     extendedDescription: 'ניתן להצטרף ל־‎#{account} תחת irc.freenode.org'
-  Western-Slope-facebook:
-    name: הפייסבוק של OSM וסטרן סלופ
-    description: ממפי ומשתמשי OpenStreetMap סביב גרנד ג׳נקשן, קולורדו
-  Western-Slope-meetup:
-    name: קבוצת המפגשים של OSM וסטרן סלופ
-    description: ממפי ומשתמשי OpenStreetMap סביב גרנד ג׳נקשן, קולורדו
-    extendedDescription: מטרת הקבוצה הזאת היא להפגיש את הקהילה עם OpenStreetMap, לפתח קהילת ממפים, ליצור את הנתונים הגאוגרפיים המרשימים ביותר שניתן באמצעות כל שיטה שאפשר למצוא כדי לבנות אסטרטגיה לקבל את המידע הזה לתוך הקהילה שלנו. איך נשמע לך תיחום שבילים מדויק? אולי פיתוח נוסף של שבילי אופניים? כל מה שרק מעניין אותך, זה היופי ב־OpenStreetMap!
   ym-AASTU:
     name: ממפים צערים בAASTU
     description: ממפים צעירים אוניברסיטת Addis Ababa Science and Technology University
@@ -693,7 +641,6 @@ he:
     name: ממפים צעירים AUW
     description: ממפים צעירים אוניברסיטת אסיה לנשים
   ym-Ball-State-University:
-    name: Gamma Theta Upsilon- Iota Omega Chapter
     description: ממפים צעירים אוניברסיטת בל סטיית
   ym-Busitema-University:
     name: ממפים טובים
@@ -778,7 +725,6 @@ he:
     name: ממפים צעירים מיפאנגו
     description: ממפים צעירים בInstitute of Rural Development Planning
   ym-Institute-of-Rural-Development-Planning-Mwanza:
-    name: ממפים צעירים בInstitute of Rural Development Planning
     description: ממפים צעירים בInstitute of Rural Development Planning Mwanza
   ym-Institute-of-Science-and-Veterinary-Medicine:
     name: ממפים צעירים-ISSMV Dalaba
@@ -830,8 +776,6 @@ he:
     description: ממפים צעירים מכללת מונטגומרי
   ym-Namibia-University-of-Science-and-Technology:
     description: ממפים צעירים אוניברסיטת נמיביה למדע וטכנולוגיה
-  ym-New-York-University:
-    description: ממפים צעירים אוניברסיטת ניו יורק
   ym-Nimba-County-Community-College:
     description: ממפים צעירים Nimba County Community College
   ym-Njala-University-Freetown-Campus:
@@ -856,7 +800,6 @@ he:
     name: ממפים צעירים RUET
     description: ממפים צעירים בRajshahi University of Engineering & Technology
   ym-Sacred-Heart-Junior-College:
-    name: ממפים צעירים בSacred Heart Junior College
     description: ממפים צעירים בSacred Heart Junior College
   ym-Sherubtse-College:
     name: ארגון מיפוי
@@ -905,9 +848,6 @@ he:
     description: ממפים צעירים ב Uganda Christian University Mbale Campus
   ym-Uganda-Pentecostal-University:
     description: ממפים צעירים Uganda Christian University Mbale Campus
-  ym-Universidad-Autonoma-de-Madrid:
-    name: ממפים צעירים UAM
-    description: ממפים צעירים בUganda Christian University Mbale Campus
   ym-Universidad-de-La-Guajira:
     description: ממפים צעירים בUniversidad de La Guajira
   ym-Universidad-de-Los-Andes:
@@ -928,8 +868,6 @@ he:
   ym-Universidad-Nacional-de-Ingenieria:
     name: Yeka Street MGA
     description: ממפים צעירים Universidad Nacional de Ingenieria
-  ym-Universidad-Politcnica-de-Madrid:
-    description: ממפים צעירים Universidad Politécnica de Madrid
   ym-Universidade-Eduardo-Mondlane:
     description: ממפים צעירים בUniversidade Eduardo Mondlane
   ym-Universit-de-NZrkor:

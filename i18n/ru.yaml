@@ -1,13 +1,31 @@
 ru:
   _communities:
+    geolibres: GeoLibres
+    kiribatiwomeninmapping: Kiribati Women in Mapping
+    openstreetmap: OpenStreetMap
     openstreetmaprussia: Cообщество OpenStreetMap России
   _defaults:
+    discord:
+      name: '{community} в Discord'
+      description: Свяжитесь с другими картографами через Discord
+      url: https://discord.gg/{account}
+    facebook:
+      name: '{community} в Facebook'
+      description: Присоединяйтесь к нашему сообществу на Facebook
     forum:
       name: 'Форум OpenStreetMap России'
       description: Официальный форум сообщества OpenStreetMap России
+    irc:
+      name: '{community} в IRC'
+      description: 'Подключайтесь к #{account} на irc.oftc.net (порт 6667)'
+    linkedin:
+      name: '{community} на LinkedIn'
     mailinglist:
       name: 'Список рассылки {account}'
       description: Официальный список рассылки
+    reddit:
+      name: '{community} в Reddit'
+      url: https://www.reddit.com/r/{account}
     telegram:
       name: '{community} в Telegram'
       description: Присоединяйтесь к нашему Telegram чату
@@ -15,6 +33,8 @@ ru:
       name: '{community} в Twitter'
       description: Подписывайтесь на нас в Twitter
       url: https://twitter.com/{account}
+  al-maptime-tirana:
+    description: Общественные мероприятия, организованные вокруг темы картографирования — новички приветствуются!
   Bahia-telegram:
     extendedDescription: Присоединиться к сообществу, чтобы узнать больше об OSM, задавать вопросы или участвовать в наших встречах. Всем добро пожаловать!
   Bay-Area-OpenStreetMappers:
@@ -23,6 +43,12 @@ ru:
     description: 'Подписывайтесь на нас в Twitter {url}'
   Galicia-Xeoinquedos-Twitter:
     description: Подписывайтесь на нас в Twitter {url}
+  latam-facebook:
+    description: Мапперы и сообщество OpenStreetMap Латинской америки в Facebook
+  Maptime-Oceania-Slack:
+    description: Войдите на {signupUrl}
+  mt-irc:
+    extendedDescription: 'Подключайтесь к #{account} на irc.oftc.net (порт 6667), будьте терпеливы, ответов на вопрос обычно нужно ждать'
   OSM-Boston:
     name: OpenStreetMap Бостон
   OSM-Chattanooga:
@@ -37,6 +63,8 @@ ru:
   OSM-Portland:
     name: OpenStreetMap Portland
     description: Мапперы и пользователи OpenStreetMap в Portland area
+  OSM-Reddit:
+    description: /r/{account} — прекрасное место, чтобы узнать что-нибудь про OpenStreetMap. Задавайте любые вопросы!
   OSM-Telegram:
     description: Присоединяйтесь к глобальной супергруппе OpenStreetMap в Telegram по адресу {url}
   OSM-US-Slack:
@@ -44,11 +72,10 @@ ru:
   OSMF:
     name: Фонд OpenStreetMap
     description: OSMF — это зарегистрированная в Великобритании бесприбыльная организация, поддерживающая проект OpenStreetMap.
-    extendedDescription: 'OSMF поддерживает OpenStreetMap, собирая деньги, поддерживая работоспособность серверов, на которых работает OSM, организуя ежегодную конференцию State of the Map, координируя волонтёров, что держат OSM на плаву. Вы можете выразить свою поддержку и принять участие в судьбе OpenStreetMap, приосединившись как участник OSMF по ссылке: {signupUrl}'
   PHXGeo-twitter:
     description: Подписывайтесь на нас в Twitter {url}
   RS-telegram:
     extendedDescription: Присоединиться к сообществу, чтобы узнать больше об OpenStreetMap, задавать вопросы или участвовать в наших встречах. Всем добро пожаловать!
-  us-ma-mailinglist:
-    name: Список рассылки Talk-us-massachusetts
-    description: Список рассылки сообщества OSM штата Массачусетс
+  uy-irc:
+    description: 'Подключайтесь к #{account} на irc.freenode.org (порт 6667)'
+    extendedDescription: 'Подключайтесь к #{account} на irc.freenode.org'

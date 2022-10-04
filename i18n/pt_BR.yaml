@@ -1,6 +1,8 @@
 pt_BR:
   _communities:
+    geolibres: GeoLibres
     mappingbotswana: Mapeando Botsuana
+    maptimebogota: MaptimeBogota
     openstreetmap: OpenStreetMap
     openstreetmapafghanistan: OpenStreetMap Afeganistão
     openstreetmapafrica: OpenStreetMap África
@@ -29,15 +31,26 @@ pt_BR:
     openstreetmapcambodia: OpenStreetMap Camboja
     openstreetmapcameroon: OpenStreetMap Camarões
     openstreetmapcanada: OpenStreetMap Canadá
+    openstreetmapcastillayleon: OpenStreetMap Castela e Leão
     openstreetmapcatalancountries: OpenStreetMap Países Catalães
     openstreetmapchad: OpenStreetMap Chade
     openstreetmapchile: OpenStreetMap Chile
     openstreetmapchina: OpenStreetMap China
     openstreetmapcolombia: OpenStreetMap Colômbia
+    openstreetmapcomunitatvalenciana: OpenStreetMap Comunidade Valenciana
     openstreetmapcostarica: OpenStreetMap Costa Rica
     openstreetmapcotedivoire: OpenStreetMap Costa do Marfim
     openstreetmapcroatia: OpenStreetMap Croácia
+    openstreetmapcuba: OpenStreetMap Cuba
+    openstreetmapdenmark: OpenStreetMap Dinamarca
+    openstreetmapdominicanrepublic: OpenStreetMap República Dominicana
+    openstreetmapecuador: OpenStreetMap Equador
+    openstreetmapegypt: OpenStreetMap Egito
+    openstreetmaperitrea: OpenStreetMap Eritréia
     openstreetmapespana: OpenStreetMap Espanha
+    openstreetmapestonia: OpenStreetMap Estônia
+    openstreetmapethiopia: OpenStreetMap Etiópia
+    openstreetmapfinland: OpenStreetMap Finlândia
     openstreetmapindia: OpenStreetMap Índia
     openstreetmapitaly: OpenStreetMap Itália
     openstreetmaplatinamerica: OpenStreetMap da América Latina
@@ -147,10 +160,6 @@ pt_BR:
   MappingWR:
     name: MappingWR
     description: Fazendo rotas de menos emissões de carbono em torno de Waterloo. Região fácil de encontrar.
-  Maptime-Bogota:
-    name: Horário de Bogotá
-    description: Estamos interessados em um grupo para mapear no OpenStreetMap em torno de Bogotá.
-    extendedDescription: Aprender a coletar dados em campo e digitalizar para o OpenStreetMap. Não é necessário ter conhecimento local!  Você apenas precisa de desejo para participar, aprender e se divertir.
   Maptime-ME-meetup:
     name: MaptimeME
     description: Mapeadores e usuários do OpenStreetMap, em torno de Portland, ME
@@ -168,12 +177,6 @@ pt_BR:
     description: Melhore o OpenStreetMap na área de Cleveland
   OSM-AR-forum:
     extendedDescription: Ideal para discussões longas ou importantes. Tempo de resposta lento.
-  OSM-AR-irc:
-    extendedDescription: Você pode encontrar o usuário mais nerd da comunidade.
-  OSM-AR-mailinglist:
-    description: Lista de discussão histórica.  Em desuso atualmente.
-  OSM-AR-telegram:
-    extendedDescription: O canal mais ativo na comunidade, ideal para bate-papo e receber respostas às suas perguntas instantaneamente. Todos são bem-vindos!
   OSM-AR-twitter:
     extendedDescription: Notícias da comunidade local e do OpenStreetMap em geral.
   OSM-Boston:
@@ -187,8 +190,6 @@ pt_BR:
   OSM-Chattanooga:
     name: OSM Chattanooga
     description: O grupo de usuários do OpenStreetMap para o Chattanooga
-  OSM-CO:
-    description: Notícias da comunidade OpenStreetMap Colômbia e da Fundação OSMCo
   OSM-Colorado:
     name: OpenStreetMap Colorado
     description: Mapeadores e usuários do OpenStreetMap no estado do Colorado, EUA
@@ -277,7 +278,6 @@ pt_BR:
   OSMF:
     name: Fundação OpenStreetMap
     description: OSMF é uma fundação sem fins lucrativos baseada no Reino Unido que suporta o projeto OpenStreetMap
-    extendedDescription: 'OSMF suporta o OpenStreetMap levantando fundos, mantendo os servidores onde reside o OSM, organizando a conferência anual State of the Map, e coordenando os voluntários que mantém o OSM no ar.  Você pode mostrar seu suporte e ter uma voz na direção do OpenStreetMap associando-se como um membro aqui: {signupUrl}'
   PHXGeo-meetup:
     extendedDescription: Este é um grupo de encontro para aqueles que são da área de Phoenix e gostam de mapas, GIS, OpenStreetMap, cartografia e qualquer outro meio relacionado.
   PHXGeo-twitter:
@@ -289,13 +289,6 @@ pt_BR:
   uk-london-twitter:
     name: OpenStreetMap Londres no Twitter
     description: 'OpenStreetMap Londres no Twitter: {url}'
-  us-ma-mailinglist:
-    name: Lista de discussão Talk-us-massachusetts
-    description: Lista de discussão para a comunidade OSM de Massachusetts
-  Western-Slope-facebook:
-    description: Editores e usuários do OpenStreetMap em Grand Junction, CO
-  Western-Slope-meetup:
-    description: Mapeadores e usuários do OpenStreetMap em Grand Junction, CO
   ym-Dedan-Kimathi-University-of-Technology:
     name: GDEV
   ym-Kwame-Nkrumah-University-of-Science-and-Technology:
@@ -303,8 +296,6 @@ pt_BR:
   ym-Miami-University:
     description: Capítulo de YouthMappers na Universidade de Miami
     extendedDescription: O GPS da Universidade de Miami tem como objetivo criar uma comunidade unida de planejadores e geógrafos que desejam se divertir, aprender mais sobre carreiras e educação superior em seu campo, rede e trabalhar ao lado de profissionais para uma experiência real.
-  ym-New-York-University:
-    description: Capítulo de YouthMappers na Universidade de Nova Iorque
   ym-State-University-of-New-York-Geneseo:
     description: Capítulo de YouthMappers na State University of New York Geneseo
   ym-The-Gambia-YMCA-University-of-the-Gambia:

@@ -62,7 +62,6 @@ gl:
     openstreetmapgeorgia: OpenStreetMap Xeorxia
     openstreetmapgermany: OpenStreetMap Alemaña
     openstreetmapghana: OpenStreetMap Ghana
-    openstreetmapgraz: OpenStreetMap Graz
     openstreetmapgreece: OpenStreetMap Grecia
     openstreetmapguatemala: OpenStreetMap Guatemala
     openstreetmapguinea: OpenStreetMap Guinea
@@ -179,7 +178,6 @@ gl:
     facebook:
       name: '{community} no Facebook'
       description: Únete á nosa comunidade no Facebook
-      url: https://facebook.com/{account}
     forum:
       name: 'Foro de {community}'
       description: O foro oficial para {community}
@@ -199,7 +197,6 @@ gl:
     linkedin:
       name: '{community} no LinkedIn'
       description: Únete á nosa comunidade no LinkedIn
-      url: https://linkedin.com/company/{account}
     mailinglist:
       name: 'Lista de correo {account}'
       description: A lista de correo oficial para {community}
@@ -210,7 +207,6 @@ gl:
       url: https://matrix.to/#/{account}:matrix.org
     meetup:
       name: 'Meetup de {community}'
-      url: https://meetup.com/{account}
     osm:
       name: '{community}'
     osm-lc:
@@ -250,7 +246,6 @@ gl:
     name: Capítulo local do OpenStreetMap Bélxica
   be-matrix:
     description: Tódolos cartógrafos son benvidos!
-    extendedDescription: A maioría das conversas ocorren na canle "OpenStreetMap Belgium". Podes preguntar calquera cousa alí! As outras salas son para eidos específicos.
   be-meetup:
     description: Xuntanzas presenciais de tódolos interesados no OpenStreetMap
     extendedDescription: As xuntanzas presenciais son xeniais para coñecer a outros cartógrafos, facerlles cuestións e aprender moito. Son de xeito especial benvidos os novos contribuíntes!
@@ -262,8 +257,6 @@ gl:
     description: Proxectos da comunidade de OpenStreetMap Países Cataláns no GitHub
   cat-wiki:
     description: 'Espazo de coordinación para a comunidade de OpenStreetMap na zona dos Países Cataláns: {url}'
-  fr-35-wiki:
-    description: Páxina wiki do grupo local de OSM Rennes
   galicia-wiki:
     description: 'Todo o que precisas saber sobre o cartografado en Galiza: {url} (todas as ferramentas do mundo do OSM están en galego, emprégaas!)'
   Galicia-Xeoinquedos-Twitter:
@@ -284,12 +277,6 @@ gl:
     extendedDescription: 'Axeitado para conversas longas ou importantes. Tempo de resposta tardo. '
   OSM-AR-geolibres:
     name: GeoLibres
-  OSM-AR-irc:
-    extendedDescription: Pode que atopes ó usuario máis experto da comunidade.
-  OSM-AR-mailinglist:
-    description: Listaxe de correo electrónico vella. Case sen uso hoxe en día.
-  OSM-AR-telegram:
-    extendedDescription: A canle máis activa da comunidade, axeitada para parolar e obter respostas ás túas cuestións no mesmo intre. Todos son benvidos!
   OSM-AR-twitter:
     extendedDescription: 'Novas da comunidade local e do OpenStreetMap en xeral. '
   OSM-Facebook:
@@ -320,15 +307,11 @@ gl:
     description: Grupo do Facebook de Malgache para xente interesada no OpenStreetMap
   osm-ni:
     description: Fornece servizos e información do OSM para a comunidade local en Nicaragua
-  OSM-PL-chapter:
-    name: OpenStreetMap Polonia
   OSM-Portland:
     name: OpenStreetMap Portland
     description: Cartógrafos e usuarios do OpenStreetMap na área de Portland
   OSM-Rome-meetup:
     description: Mellora o OpenStreetMap na área de Roma
-  osm-se:
-    name: OpenStreetMap.se
   OSM-Seattle:
     name: OpenStreetMap Seattle
   OSM-SoCal:
@@ -366,8 +349,6 @@ gl:
     name: Sociedade xeográfica
   ym-Technical-University-of-Kenya:
     name: Asociación de Estudantes de Ciencias Xeoespaciais
-  ym-Universidad-Politcnica-de-Madrid:
-    name: Mapeo Humanitario
   ym-University-of-Cape-Coast:
     name: Sociedade Geográfica UCC
   ym-University-of-Central-Florida:

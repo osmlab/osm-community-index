@@ -27,11 +27,13 @@ ca:
     openstreetmapcambodia: OpenStreetMap Cambodja
     openstreetmapcameroon: OpenStreetMap Camerun
     openstreetmapcanada: OpenStreetMap Canadà
+    openstreetmapcastillayleon: OpenStreetMap Castella i Lleó
     openstreetmapcatalancountries: OpenStreetMap Països Catalans
     openstreetmapchad: OpenStreetMap Txad
     openstreetmapchile: OpenStreetMap Xile
     openstreetmapchina: OpenStreetMap Xina
     openstreetmapcolombia: OpenStreetMap Colòmbia
+    openstreetmapcomunitatvalenciana: OpenStreetMap Comunitat Valenciana
     openstreetmapcostarica: OpenStreetMap Costa Rica
     openstreetmapcotedivoire: OpenStreetMap Costa d'Ivori
     openstreetmapcroatia: OpenStreetMap Croàcia
@@ -46,7 +48,9 @@ ca:
     openstreetmapegypt: OpenStreetMap Egipte
     openstreetmaperitrea: OpenStreetMap Eritrea
     openstreetmapespana: OpenStreetMap Espanya
+    openstreetmapestonia: OpenStreetMap Estònia
     openstreetmapethiopia: OpenStreetMap Etiòpia
+    openstreetmapfiji: OpenStreetMap Fiji
     openstreetmapfinland: OpenStreetMap Finlàndia
     openstreetmapfrance: OpenStreetMap França
     openstreetmapfrenchguiana: OpenStreetMap Guaiana Francesa
@@ -56,7 +60,6 @@ ca:
     openstreetmapgeorgia: OpenStreetMap Geòrgia
     openstreetmapgermany: OpenStreetMap Alemanya
     openstreetmapghana: OpenStreetMap Ghana
-    openstreetmapgraz: OpenStreetMap Graz
     openstreetmapgreece: OpenStreetMap Grècia
     openstreetmapguatemala: OpenStreetMap Guatemala
     openstreetmapguinea: OpenStreetMap Guinea
@@ -81,14 +84,17 @@ ca:
     openstreetmapkosovo: OpenStreetMap Kosovo
     openstreetmapkyrgyzstan: OpenStreetMap Kirguizstan
     openstreetmaplatinamerica: OpenStreetMap Amèrica Llatina
+    openstreetmaplatvia: OpenStreetMap Letònia
     openstreetmaplebanon: OpenStreetMap Líban
     openstreetmaplesotho: OpenStreetMap Lesotho
     openstreetmapliberia: OpenStreetMap Libèria
     openstreetmaplibya: OpenStreetMap Líbia
     openstreetmaplithuania: OpenStreetMap Lituània
     openstreetmaplombardia: OpenStreetMap Llombardia
+    openstreetmaplondon: OpenStreetMap Londres
     openstreetmapluxembourg: OpenStreetMap Luxemburg
     openstreetmapmadagascar: OpenStreetMap Madagascar
+    openstreetmapmadrid: OpenStreetMap Madrid
     openstreetmapmalawi: OpenStreetMap Malawi
     openstreetmapmalaysia: OpenStreetMap Malàisia
     openstreetmapmali: OpenStreetMap Mali
@@ -100,6 +106,7 @@ ca:
     openstreetmapmongolia: OpenStreetMap Mongòlia
     openstreetmapmontenegro: OpenStreetMap Montenegro
     openstreetmapmorocco: OpenStreetMap Marroc
+    openstreetmapmunchen: OpenStreetMap Munic
     openstreetmapmyanmar: OpenStreetMap Myanmar
     openstreetmapnepal: OpenStreetMap Nepal
     openstreetmapnetherlands: OpenStreetMap Països Baixos
@@ -114,9 +121,11 @@ ca:
     openstreetmapparaguay: OpenStreetMap Paraguai
     openstreetmapperu: OpenStreetMap Perú
     openstreetmapphilippines: OpenStreetMap Filipines
+    openstreetmappiemonte: OpenStreetMap Piemont
     openstreetmappoland: OpenStreetMap Polònia
     openstreetmapportugal: OpenStreetMap Portugal
     openstreetmaprdc: OpenStreetMap RDC
+    openstreetmaprennes: OpenStreetMap Rennes
     openstreetmapreunion: OpenStreetMap Illa de la Reunió
     openstreetmapriograndedosul: OpenStreetMap Rio Grande do Sul
     openstreetmapromania: OpenStreetMap Romania
@@ -140,6 +149,7 @@ ca:
     openstreetmaptanzania: OpenStreetMap Tanzània
     openstreetmapthailand: OpenStreetMap Tailàndia
     openstreetmaptogo: OpenStreetMap Togo
+    openstreetmaptoronto: OpenStreetMap Toronto
     openstreetmaptunisia: OpenStreetMap Tunísia
     openstreetmapturkey: OpenStreetMap Turquia
     openstreetmapuganda: OpenStreetMap Uganda
@@ -149,6 +159,8 @@ ca:
     openstreetmapus: OpenStreetMap EUA
     openstreetmapuzbekistan: OpenStreetMap Uzbekistan
     openstreetmapvenezuela: OpenStreetMap Veneçuela
+    openstreetmapvietnam: OpenStreetMap Vietnam
+    openstreetmapwarszawa: OpenStreetMap Varsòvia
     openstreetmapwesternsahara: OpenStreetMap Sàhara Occidental
     openstreetmapzambia: OpenStreetMap Zàmbia
     openstreetmapzimbabwe: OpenStreetMap Zimbàbue
@@ -163,10 +175,10 @@ ca:
       url: https://discord.gg/{account}
     discourse:
       name: 'Discourse d''{community}'
+      description: El fòrum oficial per {community}
     facebook:
       name: '{community} al Facebook'
       description: Uniu-vos a la comunitat al Facebook
-      url: https://facebook.com/{account}
     forum:
       name: 'Fòrum d''{community}'
       description: Fòrum oficial per {community}
@@ -186,7 +198,6 @@ ca:
     linkedin:
       name: '{community} a LinkedIn'
       description: Uniu-vos a la comunitat al LinkedIn
-      url: https://linkedin.com/company/{account}
     mailinglist:
       name: 'Llista de correu {account}'
       description: Llista de correu oficial per {community}
@@ -197,7 +208,8 @@ ca:
       url: https://matrix.to/#/{account}:matrix.org
     meetup:
       name: 'Meetup d''{community}'
-      url: https://meetup.com/{account}
+    newsletter:
+      name: 'Butlletí de notícies {community}'
     osm:
       name: '{community}'
     osm-lc:
@@ -224,18 +236,31 @@ ca:
       name: '{community} a YouTube'
       description: Subscriviu-vos al canal de YouTube
       url: https://www.youtube.com/channel/{account}
-  az-facebook:
-    name: OpenStreetMap Azerbaidjan
+  at-wiki:
+    description: 'Pàgina wiki {community}'
   Bay-Area-OpenStreetMappers:
     description: Millora OpenStreetMap a l'Índia
+  be-chapter:
+    name: Secció local d'OpenStreetMap a Bèlgica
+    description: Ajudem a fer créixer i millorar OpenStreetMap a Bèlgica
+  bo-facebook-group:
+    name: 'Grup de Facebook {community}'
   cape-coast-youthmappers:
     name: Universitat de Cape Coast YouthMappers
     description: 'Segueix-nos a Twitter: {url}'
     extendedDescription: Aquest és l'identificacdor oficial dels Joves Cartografistes de la Universitat de Cape Coast, Ghana. Ens encanten els mapes, les dades obertes i ajudar a les persones vulnerables.
   cat-github:
     description: Projectes de la comunitat dels Països Catalans d'OpenStreetMap a GitHub
+  cat-matrix:
+    description: Grup de Matrix per la comunitat d'OpenStreetMap dels Països Catalans
   cat-wiki:
     description: 'Espai de coordinació per la comunitat d''OpenStreetMap als Països Catalans: {url}'
+  cl-facebook:
+    extendedDescription: Uniu-vos a la comunitat per aprendre més sobre OpenStreetMap, fer preguntes o participar en les nostres reunions. Tothom és benvingut!
+  cl-telegram:
+    extendedDescription: Uniu-vos a la comunitat per aprendre més sobre OpenStreetMap, fer preguntes o participar en les nostres reunions. Tothom és benvingut!
+  comunitat-valenciana-wiki:
+    description: 'Tot el que necessites conèixer sobre mapejar a la Comunitat Valenciana'
   osgeo-oceania:
     name: OSGeo Oceania
   OSM-help:
@@ -243,9 +268,7 @@ ca:
   OSM-India-facebook:
     description: Millora OpenStreetMap a l'Índia
   OSM-japan-facebook:
-    description: Mapador i usuari d'OpenStreetMap a Japó
-  OSM-PL-chapter:
-    name: OpenStreetMap Polònia
+    description: Mapadors i usuaris d'OpenStreetMap a Japó
   OSM-SoCal:
     name: OpenStreetMap Califòrnia del Sud
     extendedDescription: OpenStreetMap (OSM) Califòrnia del Sud és per a tothom interessat en el mapatge que s'uneixi a treballar amb OpenStreetMap. OpenStreetMap, la Viquipèdia dels mapes, és un mapa de codi obert gratuït del món sent creat per més de 1000000 de voluntaris al voltant del món. Tothom és benvingut. Si no coneixes OpenStreetMap, t'ensenyarem. Si tens una idea d'un projecte de mapatge o fins i tot una excursió de camp que el grup pot fer, genial!

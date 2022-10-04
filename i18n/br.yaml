@@ -1,1 +1,307 @@
-br: {}
+br:
+  _communities:
+    geolibres: GeoLibres
+    openstreetmap: OpenStreetMap
+    openstreetmapafghanistan: OpenStreetMap Afghanistan
+    openstreetmapafrica: OpenStreetMap Afrika
+    openstreetmapalba: OpenStreetMap Alba
+    openstreetmapalbania: OpenStreetMap Albania
+    openstreetmapalgeria: OpenStreetMap Aljeria
+    openstreetmapargentina: OpenStreetMap Arc'hentina
+    openstreetmapasia: OpenStreetMap Azia
+    openstreetmapaustria: OpenStreetMap Aostria
+    openstreetmapbahia: OpenStreetMap Bahia
+    openstreetmapbangladesh: OpenStreetMap Bangladesh
+    openstreetmapbelarus: OpenStreetMap Belarus
+    openstreetmapbelgium: OpenStreetMap Belgia
+    openstreetmapbenin: OpenStreetMap Benin
+    openstreetmapberlin: OpenStreetMap Berlin
+    openstreetmapbivccvl: OpenStreetMap BI-VC-CVL
+    openstreetmapbolivia: OpenStreetMap Bolivia
+    openstreetmapbonn: OpenStreetMap Bonn
+    openstreetmapbosniaandherzegovina: OpenStreetMap Bosnia-ha-Herzegovina
+    openstreetmapbrasil: OpenStreetMap Brazil
+    openstreetmapbrasilia: OpenStreetMap Brasília
+    openstreetmapbremen: OpenStreetMap Bremen
+    openstreetmapbulgaria: OpenStreetMap Bulgaria
+    openstreetmapburkinafaso: OpenStreetMap Burkina Faso
+    openstreetmapburundi: OpenStreetMap Burundi
+    openstreetmapbzh: OpenStreetMap BZH
+    openstreetmapcambodia: OpenStreetMap Kambodja
+    openstreetmapcameroon: OpenStreetMap Kameroun
+    openstreetmapcanada: OpenStreetMap Kanada
+    openstreetmapcastillayleon: OpenStreetMap Kastilha ha Leon
+    openstreetmapcatalancountries: OpenStreetMap Broioù Katalan
+    openstreetmapchad: OpenStreetMap Tchad
+    openstreetmapchile: OpenStreetMap Chile
+    openstreetmapchina: OpenStreetMap Sina
+    openstreetmapcologne: OpenStreetMap Köln
+    openstreetmapcolombia: OpenStreetMap Kolombia
+    openstreetmapcomunitatvalenciana: OpenStreetMap Kumuniezh València
+    openstreetmapcostarica: OpenStreetMap Costa Rica
+    openstreetmapcotedivoire: OpenStreetMap Aod an Olifant
+    openstreetmapcroatia: OpenStreetMap Kroatia
+    openstreetmapcuba: OpenStreetMap Kuba
+    openstreetmapcz: OpenStreetMap CZ
+    openstreetmapde: OpenStreetMap DE
+    openstreetmapdenmark: OpenStreetMap Danmark
+    openstreetmapdjibouti: OpenStreetMap Djibouti
+    openstreetmapdominicanrepublic: OpenStreetMap Republik Dominikan
+    openstreetmapdresden: OpenStreetMap Dresden
+    openstreetmapdusseldorf: OpenStreetMap Düsseldorf
+    openstreetmapecuador: OpenStreetMap Ekwador
+    openstreetmapegypt: OpenStreetMap Ejipt
+    openstreetmaperitrea: OpenStreetMap Eritrea
+    openstreetmapespana: OpenStreetMap Bro-Spagn
+    openstreetmapestonia: OpenStreetMap Estonia
+    openstreetmapethiopia: OpenStreetMap Etiopia
+    openstreetmapfiji: OpenStreetMap Fidji
+    openstreetmapfinland: OpenStreetMap Finland
+    openstreetmapfrance: OpenStreetMap Frañs
+    openstreetmapfreemapslovakia: OpenStreetMap Freemap Slovakia
+    openstreetmapfrenchguiana: OpenStreetMap Gwiana c'hall
+    openstreetmapfrenchpolynesia: OpenStreetMap Polinezia c'hall
+    openstreetmapgabon: OpenStreetMap Gabon
+    openstreetmapgalicia: OpenStreetMap Galiza
+    openstreetmapgeorgia: OpenStreetMap Jorjia
+    openstreetmapgermany: OpenStreetMap Alamagn
+    openstreetmapghana: OpenStreetMap Ghana
+    openstreetmapgorakalwaria: OpenStreetMap Góra Kalwaria
+    openstreetmapgreece: OpenStreetMap Bro-C'hres
+    openstreetmapgrenoble: OpenStreetMap Grenoble
+    openstreetmapguatemala: OpenStreetMap Guatemala
+    openstreetmapguinea: OpenStreetMap Ginea
+    openstreetmaphaiti: OpenStreetMap Haiti
+    openstreetmaphamburg: OpenStreetMap Hamburg
+    openstreetmaphonduras: OpenStreetMap Honduras
+    openstreetmaphongkong: OpenStreetMap Hong Kong
+    openstreetmaphungary: OpenStreetMap Hungaria
+    openstreetmapiceland: OpenStreetMap Island
+    openstreetmapindia: OpenStreetMap India
+    openstreetmapindonesia: OpenStreetMap Indonezia
+    openstreetmapiran: OpenStreetMap Iran
+    openstreetmapiraq: OpenStreetMap Irak
+    openstreetmapireland: OpenStreetMap Iwerzhon
+    openstreetmapisrael: OpenStreetMap Israel
+    openstreetmapitaly: OpenStreetMap Italia
+    openstreetmapitalylazio: OpenStreetMap Italia-Lazio
+    openstreetmapitalylombardia: OpenStreetMap Italia-Lombardia
+    openstreetmapjapan: OpenStreetMap Japan
+    openstreetmapkarlsruhe: OpenStreetMap Karlsruhe
+    openstreetmapkazakhstan: OpenStreetMap Kazakstan
+    openstreetmapkenya: OpenStreetMap Kenya
+    openstreetmapkorea: OpenStreetMap Korea
+    openstreetmapkosovo: OpenStreetMap Kosovo
+    openstreetmapkyrgyzstan: OpenStreetMap Kyrgyzstan
+    openstreetmaplatinamerica: OpenStreetMap Amerika Latin
+    openstreetmaplatvia: OpenStreetMap Latvia
+    openstreetmaplebanon: OpenStreetMap Liban
+    openstreetmaplesotho: OpenStreetMap Lesotho
+    openstreetmapliberia: OpenStreetMap Liberia
+    openstreetmaplibya: OpenStreetMap Libia
+    openstreetmaplithuania: OpenStreetMap Lituania
+    openstreetmaplombardia: OpenStreetMap Lombardia
+    openstreetmaplondon: OpenStreetMap Londrez
+    openstreetmapluneburg: OpenStreetMap Lüneburg
+    openstreetmapluxembourg: OpenStreetMap Luksembourg
+    openstreetmapmadagascar: OpenStreetMap Madagaskar
+    openstreetmapmadrid: OpenStreetMap Madrid
+    openstreetmapmalawi: OpenStreetMap Malawi
+    openstreetmapmalaysia: OpenStreetMap Malezia
+    openstreetmapmali: OpenStreetMap Mali
+    openstreetmapmalta: OpenStreetMap Malta
+    openstreetmapmauritania: OpenStreetMap Maouritania
+    openstreetmapmecklenburgvorpommern: OpenStreetMap Mecklenburg-Vorpommern
+    openstreetmapmexico: OpenStreetMap Mec'hiko
+    openstreetmapmichigan: OpenStreetMap Michigan
+    openstreetmapmoldova: OpenStreetMap Moldova
+    openstreetmapmongolia: OpenStreetMap Mongolia
+    openstreetmapmontenegro: OpenStreetMap Montenegro
+    openstreetmapmontrouge: OpenStreetMap Montrouge
+    openstreetmapmorocco: OpenStreetMap Maroko
+    openstreetmapmunchen: OpenStreetMap München
+    openstreetmapmyanmar: OpenStreetMap Myanmar
+    openstreetmapnepal: OpenStreetMap Nepal
+    openstreetmapnetherlands: OpenStreetMap Izel-vroioù
+    openstreetmapnicaragua: OpenStreetMap Nikaragwa
+    openstreetmapniger: OpenStreetMap Nijer
+    openstreetmapnigeria: OpenStreetMap Nijeria
+    openstreetmapnorthmacedonia: OpenStreetMap Makedonia an Norzh
+    openstreetmapnorway: OpenStreetMap Norvegia
+    openstreetmapottawa: OpenStreetMap Ottawa
+    openstreetmappakistan: OpenStreetMap Pakistan
+    openstreetmappanama: OpenStreetMap Panama
+    openstreetmapparaguay: OpenStreetMap Paraguay
+    openstreetmapperu: OpenStreetMap Perou
+    openstreetmapphilippines: OpenStreetMap Filipinez
+    openstreetmappiemonte: OpenStreetMap Piemonte
+    openstreetmappoland: OpenStreetMap Polonia
+    openstreetmapportugal: OpenStreetMap Portugal
+    openstreetmaprdc: OpenStreetMap RDK
+    openstreetmaprennes: OpenStreetMap Roazhon
+    openstreetmapreunion: OpenStreetMap Reunion
+    openstreetmapriograndedosul: OpenStreetMap Rio Grande do Sul
+    openstreetmapromania: OpenStreetMap Roumania
+    openstreetmaprussia: OpenStreetMap Rusia
+    openstreetmaprwanda: OpenStreetMap Rwanda
+    openstreetmapsaudiarabia: OpenStreetMap Arabia Saoudat
+    openstreetmapsenegal: OpenStreetMap Senegal
+    openstreetmapserbia: OpenStreetMap Serbia
+    openstreetmapseychelles: OpenStreetMap Sechelez
+    openstreetmapsierraleone: OpenStreetMap Sierra Leone
+    openstreetmapslovenia: OpenStreetMap Slovenia
+    openstreetmapsomalia: OpenStreetMap Somalia
+    openstreetmapsouthafrica: OpenStreetMap Suafrika
+    openstreetmapsouthsudan: OpenStreetMap Susoudan
+    openstreetmapsrilanka: OpenStreetMap Sri Lanka
+    openstreetmapsudan: OpenStreetMap Soudan
+    openstreetmapsweden: OpenStreetMap Sveden
+    openstreetmapswitzerland: OpenStreetMap Suis
+    openstreetmapsyria: OpenStreetMap Siria
+    openstreetmaptaiwan: OpenStreetMap Taiwan
+    openstreetmaptanzania: OpenStreetMap Tanzania
+    openstreetmapthailand: OpenStreetMap Thailand
+    openstreetmaptogo: OpenStreetMap Togo
+    openstreetmaptoronto: OpenStreetMap Toronto
+    openstreetmaptunisia: OpenStreetMap Tunizia
+    openstreetmapturkey: OpenStreetMap Turkia
+    openstreetmapuganda: OpenStreetMap Ouganda
+    openstreetmapuk: OpenStreetMap UK
+    openstreetmapukraine: OpenStreetMap Ukraina
+    openstreetmapuruguay: OpenStreetMap Uruguay
+    openstreetmapus: OpenStreetMap US
+    openstreetmapuzbekistan: OpenStreetMap Ouzbekistan
+    openstreetmapvenezuela: OpenStreetMap Venezuela
+    openstreetmapvietnam: OpenStreetMap Viêt Nam
+    openstreetmapwarszawa: OpenStreetMap Warszawa
+    openstreetmapwesternsahara: OpenStreetMap Sahara ar C'hornôg
+    openstreetmapzambia: OpenStreetMap Zambia
+    openstreetmapzimbabwe: OpenStreetMap Zimbabwe
+    youthmappersasu: YouthMappersASU
+  _defaults:
+    aparat:
+      name: '{community} war Aparat'
+      url: https://aparat.com/{account}
+    discord:
+      name: '{community} Discord'
+      description: Kejit gant kartennourien all war zDiscord
+      url: https://discord.gg/{account}
+    facebook:
+      name: '{community} war Facebook'
+      description: Heuilhit hor c'humuniezh war Facebook
+      url: https://www.facebook.com/{account}
+    forum:
+      name: '{community} Forom'
+      description: Ar forom ofisiel evit {community}
+      url: https://forum.openstreetmap.org/viewforum.php?id={account}
+    github:
+      name: '{community} GitHub'
+      url: https://github.com/{account}
+    gitlab:
+      name: '{community} GitLab'
+      url: https://gitlab.com/{account}
+    group:
+      name: '{community}'
+    irc:
+      name: '{community} war IRC'
+      url: https://webchat.oftc.net/?channels={account}
+    linkedin:
+      name: '{community} war LinkedIn'
+      description: Heuilhit hor c'humuniezh war LinkedIn
+      url: https://www.linkedin.com/company/{account}
+    matrix:
+      name: '{community} Matrix Chat'
+      description: Heuilhit hor c'humuniezh Matrix chat
+      url: https://matrix.to/#/{account}:matrix.org
+    meetup:
+      name: '{community} Meetup'
+      url: https://www.meetup.com/{account}
+    osm:
+      name: '{community}'
+    osm-lc:
+      name: '{community}'
+    reddit:
+      name: '{community} war Reddit'
+      url: https://www.reddit.com/r/{account}
+    slack:
+      name: '{community} Slack'
+    telegram:
+      name: '{community} Telegram'
+      description: Heuilhit hor c'humuniezh Telegram
+      url: https://t.me/{account}
+    twitter:
+      name: '{community} war dTwitter'
+      description: Heuilhit ac'hanomp war dTwitter
+      url: https://twitter.com/{account}
+    wiki:
+      name: '{community} WikiProject'
+      url: https://wiki.openstreetmap.org/wiki/{account}
+    xmpp:
+      name: '{community} XMPP'
+    youtube:
+      name: '{community} war YouTube'
+      description: Koumanantit ouzh hor chadenn YouTube
+      url: https://www.youtube.com/channel/{account}
+  aberdeen-discord:
+    name: OSM ABZ Discord
+  at-wiki:
+    description: 'pajenn Wiki {community}'
+  be-matrix:
+    description: An holl gartennourien 'zo deuet mat!
+  bg-wiki:
+    description: Pajenn Wikiproject evit Bulgaria
+  bo-matrix:
+    description: An holl gartennourien 'zo deuet mat!
+  cape-coast-youthmappers:
+    description: 'Heuilhit ac''hanomp war dTwitter: {url}'
+  cd-chapter:
+    name: OpenStreetMap RDK
+  Central-Pennsylvania-OSM:
+    name: OSM Kreiz-Pennsylvania
+  de-berlin-wiki:
+    description: 'Pajenn Wiki {community}'
+  de-berlin-xmpp:
+    name: OpenStreetMap Berlin-Brandenburg XMPP
+  de-bochum-wiki:
+    description: 'Pajenn Wiki {community}'
+  de-bonn-wiki:
+    description: 'Pajenn Wiki {community}'
+  de-bremen-wiki:
+    description: 'Pajenn Wiki {community}'
+  de-cologne-wiki:
+    description: 'Pajenn Wiki {community}'
+  de-dresden-wiki:
+    description: 'Pajenn Wiki {community}'
+  de-dusseldorf-wiki:
+    description: 'Pajenn Wiki {community}'
+  de-hamburg-xmpp:
+    name: OpenStreetMap Hamburg XMPP
+  de-luneburg-wiki:
+    description: 'Pajenn Wiki {community}'
+  de-munchen-wiki:
+    description: 'Pajenn Wiki {community}'
+  de-telegram:
+    name: OpenStreetMap D-A-CH Telegram
+  fr-35-wiki:
+    description: 'Pajenn Wiki {community}'
+  fr-38-wiki:
+    description: 'Pajenn Wiki {community}'
+  fr-bzh-website:
+    description: Ar gartenn a zispak hor bed e brezhoneg
+  fr-montrouge-wiki:
+    description: 'Pajenn Wiki {community}'
+  Galicia-Xeoinquedos-Twitter:
+    name: Xeoinquedos war dTwitter
+    description: Heuilhit ac'hanomp war dTwitter e {url}
+  GeoPhilly:
+    name: GeoPhilly
+  hu-mobilizon:
+    name: '{community} war vMobilizon'
+  hu-wiki:
+    description: 'Pajenn Wiki {community}'
+  lv-wiki:
+    description: WikiProject Latvia
+  madrid-upm-ym:
+    name: Mapeo Humanitario
+  MapABQ:
+    name: MapABQ

@@ -1,7 +1,9 @@
 de:
   _communities:
     geolibres: GeoLibres
+    kiribatiwomeninmapping: Kiribati Frauen beim Mappen
     mappingbotswana: Mappen in Botswana
+    maptimebogota: MaptimeBogota
     maptimehrva: MaptimeHRVA
     openstreetmap: OpenStreetMap
     openstreetmapafghanistan: OpenStreetMap Afghanistan
@@ -20,7 +22,9 @@ de:
     openstreetmapbenin: OpenStreetMap Benin
     openstreetmapberlin: OpenStreetMap Berlin
     openstreetmapbivccvl: OpenStreetMap BI-VC-CVL
+    openstreetmapbochum: OpenStreetMap Bochum
     openstreetmapbolivia: OpenStreetMap Bolivien
+    openstreetmapbonn: OpenStreetMap Bonn
     openstreetmapbosniaandherzegovina: OpenStreetMap Bosnien und Herzegowina
     openstreetmapbrasil: OpenStreetMap Brasilien
     openstreetmapbrasilia: OpenStreetMap Brasília
@@ -32,11 +36,14 @@ de:
     openstreetmapcambodia: OpenStreetMap Kambodscha
     openstreetmapcameroon: OpenStreetMap Kamerun
     openstreetmapcanada: OpenStreetMap Kanada
+    openstreetmapcastillayleon: OpenStreetMap Castilla y León
     openstreetmapcatalancountries: OpenStreetMap Catalanische Länder
     openstreetmapchad: OpenStreetMap Tschad
     openstreetmapchile: OpenStreetMap Chile
     openstreetmapchina: OpenStreetMap China
+    openstreetmapcologne: OpenStreetMap Köln
     openstreetmapcolombia: OpenStreetMap Kolumbien
+    openstreetmapcomunitatvalenciana: OpenStreetMap Comunitat Valenciana
     openstreetmapcostarica: OpenStreetMap Costa Rica
     openstreetmapcotedivoire: OpenStreetMap Elfenbeinküste
     openstreetmapcroatia: OpenStreetMap Kroatien
@@ -44,15 +51,19 @@ de:
     openstreetmapcuneo: OpenStreetMap Cuneo
     openstreetmapcz: OpenStreetMap Tschechien
     openstreetmapde: OpenStreetMap DE
+    openstreetmapdeepsouth: OpenStreetMap Tiefer Süden
     openstreetmapdenmark: OpenStreetMap Dänemark
     openstreetmapdjibouti: OpenStreetMap Djibouti
     openstreetmapdominicanrepublic: OpenStreetMap Dominikanische Republic
+    openstreetmapdresden: OpenStreetMap Dresden
+    openstreetmapdusseldorf: OpenStreetMap Düsseldorf
     openstreetmapecuador: OpenStreetMap Ecuador
     openstreetmapegypt: OpenStreetMap Ägypten
     openstreetmaperitrea: OpenStreetMap Eritrea
     openstreetmapespana: OpenStreetMap Spanien
     openstreetmapestonia: OpenStreetMap Estland
     openstreetmapethiopia: OpenStreetMap Ethiopien
+    openstreetmapfiji: OpenStreetMap Fiji
     openstreetmapfinland: OpenStreetMap Finnland
     openstreetmapfrance: OpenStreetMap Frankreich
     openstreetmapfreemapslovakia: OpenStreetMap Freemap Slowakei
@@ -63,8 +74,9 @@ de:
     openstreetmapgeorgia: OpenStreetMap Georgien
     openstreetmapgermany: OpenStreetMap Deutschland
     openstreetmapghana: OpenStreetMap Ghana
-    openstreetmapgraz: OpenStreetMap Graz
+    openstreetmapgorakalwaria: OpenStreetMap Góra Kalwaria
     openstreetmapgreece: OpenStreetMap Griechenland
+    openstreetmapgrenoble: OpenStreetMap Grenoble
     openstreetmapguatemala: OpenStreetMap Guatemala
     openstreetmapguinea: OpenStreetMap Guinea
     openstreetmaphaiti: OpenStreetMap Haiti
@@ -101,8 +113,11 @@ de:
     openstreetmaplibya: OpenStreetMap Libyen
     openstreetmaplithuania: OpenStreetMap Litauen
     openstreetmaplombardia: OpenStreetMap Lombardei
+    openstreetmaplondon: OpenStreetMap London
+    openstreetmapluneburg: OpenStreetMap Lüneburg
     openstreetmapluxembourg: OpenStreetMap Luxemburg
     openstreetmapmadagascar: OpenStreetMap Madagascar
+    openstreetmapmadrid: OpenStreetMap Madrid
     openstreetmapmalawi: OpenStreetMap Malawi
     openstreetmapmalaysia: OpenStreetMap Malaysia
     openstreetmapmali: OpenStreetMap Mali
@@ -114,7 +129,9 @@ de:
     openstreetmapmoldova: OpenStreetMap Moldawien
     openstreetmapmongolia: OpenStreetMap Mongolei
     openstreetmapmontenegro: OpenStreetMap Montenegro
+    openstreetmapmontrouge: OpenStreetMap Montrouge
     openstreetmapmorocco: OpenStreetMap Marokko
+    openstreetmapmunchen: OpenStreetMap München
     openstreetmapmyanmar: OpenStreetMap Myanmar
     openstreetmapnepal: OpenStreetMap Nepal
     openstreetmapnetherlands: OpenStreetMap Niederlande
@@ -133,6 +150,7 @@ de:
     openstreetmappoland: OpenStreetMap Polen
     openstreetmapportugal: OpenStreetMap Portugal
     openstreetmaprdc: OpenStreetMap RDC
+    openstreetmaprennes: OpenStreetMap Rennes
     openstreetmapreunion: OpenStreetMap Réunion
     openstreetmapriograndedosul: OpenStreetMap Rio Grande do Sul
     openstreetmapromania: OpenStreetMap Rumänien
@@ -156,6 +174,7 @@ de:
     openstreetmaptanzania: OpenStreetMap Tanzania
     openstreetmapthailand: OpenStreetMap Thailand
     openstreetmaptogo: OpenStreetMap Togo
+    openstreetmaptoronto: OpenStreetMap Toronto
     openstreetmaptunisia: OpenStreetMap Tunesien
     openstreetmapturkey: OpenStreetMap Türkei
     openstreetmapuganda: OpenStreetMap Uganda
@@ -166,9 +185,11 @@ de:
     openstreetmapuzbekistan: OpenStreetMap Usbekistan
     openstreetmapvenezuela: OpenStreetMap Venezuela
     openstreetmapvietnam: OpenStreetMap Vietnam
+    openstreetmapwarszawa: OpenStreetMap Warschau
     openstreetmapwesternsahara: OpenStreetMap Westsahara
     openstreetmapzambia: OpenStreetMap Sambia
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
+    youthmappersasu: YouthMappersASU
   _defaults:
     aparat:
       name: '{community} auf Aparat'
@@ -180,10 +201,12 @@ de:
       url: https://discord.gg/{account}
     discourse:
       name: '{community} Discourse'
+      description: Das offizielle Forum für {community}
+      url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
       name: '{community} auf Facebook'
       description: Werde Mitglied unserer Gemeinschaft auf Facebook
-      url: https://facebook.com/{account}
+      url: https://www.facebook.com/{account}
     forum:
       name: '{community} Forum'
       description: Das offizielle Forum für {community}
@@ -203,7 +226,7 @@ de:
     linkedin:
       name: '{community} auf LinkedIn'
       description: Tritt unserer Community aud LinkedIn bei
-      url: https://linkedin.com/company/{account}
+      url: https://www.linkedin.com/company/{account}
     mailinglist:
       name: '{account} Mailing Liste'
       description: Die offizielle Mailing Liste für {community}
@@ -214,7 +237,9 @@ de:
       url: https://matrix.to/#/{account}:matrix.org
     meetup:
       name: '{community} Meetup'
-      url: https://meetup.com/{account}
+      url: https://www.meetup.com/{account}
+    newsletter:
+      name: '{community} Newsletter'
     osm:
       name: '{community}'
     osm-lc:
@@ -241,6 +266,8 @@ de:
       name: '{community} auf YouTube'
       description: Abonniere unseren YouTube-Kanal
       url: https://www.youtube.com/channel/{account}
+  aberdeen-discord:
+    name: OSM ABZ Discord
   af-matrix:
     description: Matrix Gruppe für die Gemeinschaft in Afghanistan.
   al-maptime-tirana:
@@ -249,8 +276,8 @@ de:
     extendedDescription: Maptime ist eine offene Lernumgebung für alle Erfahrungsstufen und biete internationale Ausbildung für Anfänger. Maptime ist gleichzeitig flexibel und strukturiert, schafft Freiraum für Mapping Einführungen, Workshops, laufende Projekte mit einem gemeinsamen Ziel und unabhängige Gemeinschaftsprojekte.
   at-matrix:
     description: Inoffizieller deutscher Matrix Kanal für Österreich
-  az-facebook:
-    name: OpenStreetMap Aserbaidschan
+  at-wiki:
+    description: '{community} Wiki Seite'
   Bahia-telegram:
     extendedDescription: Mach mit, um mehr über OpenStreetMap zu erfahren, Fragen zu stellen oder an unseren Treffen teilzunehmen. Alle sind willkommen!
   Bay-Area-OpenStreetMappers:
@@ -267,23 +294,33 @@ de:
     extendedDescription: 'Tritt #{account} auf irc.oftc.net (port 6667) bei, er ist mit dem Matrix-Chat-Kanal gespiegelt'
   be-matrix:
     description: Alle Mapper sind willkommen!
-    extendedDescription: Die meißten Gespräche gibt auf auf dem "OpenStreetMap Belgium" Kanal. Du kannst alles fragen! Es gibt andere Räume für spezifische Themen.
+    extendedDescription: Haupt-Chatroom der belgischen OSM-Community. Zöger nicht, hier Fragen für Anfänger zu stellen!
   be-meetup:
     description: Persönliche Treffen für alle die an OpenStreetMap interessiert sind
     extendedDescription: Du kannst andere Mapper bei persönliche Treffen kennenlernen, mit Ihnen diskutieren und von Ihnen lernen. Neulige sind ausdrücklich willkommen.
+  be-newsletter:
+    description: Virteljährlicher Newsletter der belgischen Community
   bg-wiki:
     description: Wikiproject Sete für Bulgarien
   bi-vc-cvl-meetup:
     description: Ortsgruppe für Mapper in Biellese, Vercellese, Canavese und Valli di Lanzo
     extendedDescription: Treffen seit Februar 2018, meist in Biella oder Ivrea.
+  bo-facebook-group:
+    name: '{community} Facebook Gruppe'
+  bo-matrix:
+    description: Alle Mapper sind willkommen!
   br-telegram:
     extendedDescription: Tritt der Community bei, um mehr über OpenStreetMap zu erfahren, Fragen zu stellen oder an unseren Treffen teilzunehmen. Jeder ist willkommen!
   cape-coast-youthmappers:
     name: Universität von Cape Coast YouthMappers
     description: 'Folge uns auf Twitter: {url}'
     extendedDescription: Das ist der offizielle Handle für den Ortsverband der Youth Mappers der Universität von Cape Coast, Ghana. Wir lieben Karten, offene Daten und Unterstützung für die Schutzlosen.
+  castilla-y-leon-wiki:
+    description: 'Alles, was du über Mapping in Castile und Leon wissen musst: {url}'
   cat-github:
     description: Projekte der OpenStreetMap der kalatalnischen Länder Gemeinschaft auf GitHub
+  cat-matrix:
+    description: Matrixgruppe für die OpenStreetMap Catalan Gemeinschaft
   cat-wiki:
     description: 'Koordinationsraum für die OpenStreetMap Gemeinschaft in den kalatalnischen Ländern: {url}'
   cd-chapter:
@@ -305,6 +342,8 @@ de:
   Code-for-San-Jose-Slack:
     name: Coding für San Jose Slack
     description: 'Alle sind willkommen, melde dich an: {signupUrl} und tritt dem Kanal #proj-osm bei.'
+  comunitat-valenciana-wiki:
+    description: 'Alles, was du über Mapping in der Gemeinde Valencia wissen musst: {url}'
   czech-community:
     description: Mapping Portal, website und Kontaktdaten der  OSM Mitglieder in Tschechien
   czech-irc:
@@ -317,11 +356,25 @@ de:
     description: OpenStreetMap CZ Raum überbrückt mit IRC, Matrix und Telegram
   de-berlin-mailinglist:
     name: Berlin Mailing Liste
+  de-berlin-wiki:
+    description: '{community} Wiki Seite'
   de-berlin-xmpp:
     name: OpenStreetMap Berlin-Brandenburg XMPP
     description: 'Mach mit bei unserem XMPP Multi-User Chat: {url}'
+  de-bochum-wiki:
+    description: '{community} Wiki Seite'
+  de-bonn-wiki:
+    description: '{community} Wiki Seite'
   de-bremen-mailinglist:
     name: Bremen Mailing Liste
+  de-bremen-wiki:
+    description: '{community} Wiki Seite'
+  de-cologne-wiki:
+    description: '{community} Wiki Seite'
+  de-dresden-wiki:
+    description: '{community} Wiki Seite'
+  de-dusseldorf-wiki:
+    description: '{community} Wiki Seite'
   de-hamburg-xmpp:
     name: OpenStreetMap Hamburg XMPP
     description: 'Mach mit bei unserem XMPP Multi-User Chat: {url}'
@@ -329,6 +382,10 @@ de:
     name: Karlsruhe Mailing Liste
   de-karlsruhe-meetup:
     description: Mapper und OpenStreetMap Benutzer in Karlsruhe
+  de-luneburg-wiki:
+    description: '{community} Wiki Seite'
+  de-munchen-wiki:
+    description: '{community} Wiki Seite'
   de-mv-mailinglist:
     name: Mecklenburg-Vorpommern Mailing Liste
   de-ostwestfalen-lippe-mailinglist:
@@ -360,17 +417,21 @@ de:
   ee-wiki:
     description: Informationen über die Kartierungsaktivitäten, die speziell für Estland gelten.
   fr-35-wiki:
-    name: OpenStreetMap Rennes Wiki page
-    description: Wiki Page der lokalen Rennes OSM Gruppe
+    description: '{community} Wiki Seite'
   fr-38-wiki:
-    name: OpenStreetMap Grenoble Wiki Seite
-    description: Wiki Seite der Grenoble OSM lokalen Gruppe
+    description: '{community} Wiki Seite'
   fr-bzh-website:
     description: Die bretonisch sprechende Karte
   fr-chapter:
     description: Wir helfen OpenStreetMap in Frankreich beim besser und größer werden.
+  fr-discord:
+    name: Discord Gemeinschaft OpenStreetMap in Frankreich
   fr-matrix:
     description: 'Eine Matrix Gruppe für die OSM Gemeinschaft in Frankreich: {url} (gespiegelt mit Telegram)'
+  fr-montrouge-website:
+    description: OSM Information für die lokale Gemeinschaft in Montrouge
+  fr-montrouge-wiki:
+    description: '{community} Wiki Seite'
   fr-telegram:
     description: 'Eine Telegram Gruppe für die OSM Gemeinschaft in Frankreich: {url}'
   fr-xmpp:
@@ -397,6 +458,8 @@ de:
     description: 'Tritt #{account} auf irc.frreenode.org (port 6667) bei'
   hr-wiki:
     description: Wikiproject page für Kroatien
+  hu-facebook-group:
+    name: '{community} Facebook Gruppe'
   hu-matrix:
     extendedDescription: OpenStreetMap chat über Kartenthemen. Eines der Foren zur Unterstützung der OSM Gemeinschaft.
   hu-meetup:
@@ -407,11 +470,18 @@ de:
   hu-tm:
     name: '{community} Tasking Manager'
     description: Erkunde aktive Kartierungsaufgaben in Ungarn
+  hu-website:
+    description: Wir helfen OpenStreetMap in Ungarn beim Wachsen und Verbessern.
+  hu-wiki:
+    description: '{community} Wiki Seite'
   humanitarian-osm-tr-slack:
     name: Humanitarian OpenStreetMap Türkei Slack
     description: Tritt dem Humanitarian OpenStreetMap Turkey-Kanal auf dem Slack-Server von HOTOSM bei {url}
   id-facebook:
     extendedDescription: Mappen in Indonesien? Hast du Fragen, willst du dich mit der Community hier verbinden? Tritt bei {url} bei. Alle sind willkommen!
+  id-facebook-group:
+    name: '{community} Facebook Gruppe'
+    extendedDescription: Mappen in Indonesien? Hast du Frage, willst du dich mit der Gemeinschaft vernetzen? Beteilige dich bei {url}. Alle sind willkommen!
   ireland-chapter:
     description: Wir helfen OpenStreetMap in Irland beim besser und größer werden.
     extendedDescription: OpenStreetMap Irland bietet eine Stimme für das OpenStreetMap Projekt auf der Irischen Insel, zusätzlich zur Zusammenareit mit anderen offenen Initiativen.
@@ -419,10 +489,15 @@ de:
     extendedDescription: 'Tritt #{account} auf irc.oftc.net (port 6667) bei, bitte sei geduldig und warte ein paar Minuten wenn du eine Frage stellst'
   ireland-matrix:
     description: 'Ein Matrix gateway für den OSM Irland IRC channel: {url}'
+  ireland-meetup:
+    description: Treffen von allen die an OpenStreetMap interessiert sind
   is-chapter:
     description: Wir helfen OpenStreetMap in Island beim besser und größer werden.
   it-chapter:
     description: Wir helfen OpenStreetMap in Italien beim besser und größer werden.
+  it-discourse:
+    name: Discourse Italien
+    description: Das italienische Forum, in dem Sie über OpenStreetMap diskutieren können
   ko-facebook:
     description: Mapper und OpenStreetMap Nutzende in Korea
   kosovo-flossk:
@@ -451,6 +526,15 @@ de:
     description: Matrix Gruppe für die Gemeinschaft in in Luxemburg. Lass uns die Gemeinschaft zusammenbringen!
   lv-wiki:
     description: WikiProject Litauen
+  madrid-uam-ym:
+    name: YouthMappers at UAM
+    description: YouthMappers chapter at Universidad Autonoma de Madrid
+  madrid-upm-ym:
+    name: Mapeo Humanitario
+    description: YouthMappers chapter at Universidad Politécnica de Madrid
+    extendedDescription: Die Geo-Freiwilligengruppe wurde im November 2017 auf dem Moncloa Campus gegründet. Rund 20 Mitglieder von drei Universitäten (Complutense, CEU und UPM). Studenten im Grundstudium, MSc- und PhD-Studenten arbeiten mit Organisationen (MSF, Acción contra el Hambre,...) zusammen, die von Trainern von Geoinquietos unterstützt werden. Offizielle Anerkennung durch UPM als pädagogisches Innovationsprojekt (Code IE1718.0411)
+  madrid-wiki:
+    description: 'Alles, was du über Mapping in Madrid wissen musst: {url}'
   mailinglist-sk-googlegroups:
     name: Slowakische Mailing Liste auf Google Gruppen
     description: Offizielle Mailing Liste für die slowakische Gemeinschaft
@@ -482,10 +566,18 @@ de:
   MappingWR:
     name: Mappen in der Waterloo Region
     description: Hilf dabei niedrigenergierouten in der Waterloo Region leicht auffindbar zu machen.
-  Maptime-Bogota:
-    name: Maptime Bogotá
-    description: Wir sind eine Gruppe von Mappern, die sich für Mappen in OpenStreetMap rund um Bogotá interessiert.
-    extendedDescription: Lerne Daten vor Ort zu erheben und auf OpenStreetMap zu digitalisieren. Du brauchst kein Vorwissen, du musst nur am Mitwirken, Lernen und Spaß haben interessiert sein.
+  maptime-bogota-meetup:
+    name: MaptimeBogotá
+    description: Wir sind eine Gruppe von Interessierten Menschen um Bogotá und Umgebung in OpenStreetMap zu erfassen.
+    extendedDescription: Lerne Daten in der Natur zu sammeln und in OpenStreet zu digitalisieren. Du brauchst keine Vorkenntnisse, nur den Wunsch teilzunehmen, zu Lernen und Spaß zu haben!
+  maptime-bogota-twitter:
+    name: MaptimeBogotá
+    description: Wir sind eine Gruppe von Interessierten Menschen um Bogotá und Umgebung in OpenStreetMap zu erfassen.
+    extendedDescription: Lerne Daten in der Natur zu sammeln und in OpenStreet zu digitalisieren. Du brauchst keine Vorkenntnisse, nur den Wunsch teilzunehmen, zu Lernen und Spaß zu haben!
+  maptime-bogota-website:
+    name: MaptimeBogotá
+    description: Wir sind eine Gruppe von Interessierten Menschen um Bogotá und Umgebung in OpenStreetMap zu erfassen.
+    extendedDescription: Lerne Daten in der Natur zu sammeln und in OpenStreet zu digitalisieren. Du brauchst keine Vorkenntnisse, nur den Wunsch teilzunehmen, zu Lernen und Spaß zu haben!
   Maptime-ME-meetup:
     name: MaptimeME
     description: Mapper und OpenStreetMap Benutzer in und um Portland, USA
@@ -502,9 +594,8 @@ de:
     extendedDescription: Mapping in der Mongolei? Have questions, want to connect with the community here? Join us at {url}. All are welcome!
   mt-irc:
     extendedDescription: 'Tritt #{account} auf irc.oftc.net (port 6667) bei, bitte sei geduldig und warte ein paar Minuten wenn du eine Frage stellst'
-  nl-wonderme:
-    name: '{community} auf Wonder.me'
-    description: Vietueller Besprechungsraum
+  nl-matrix:
+    description: Alle Mapper sind willkommen!
   no-irc:
     description: Chat room für Mapper und OpenStreetMap Benutzer, Entwicklung und Enthusiasten in Norwegen
   no-mailinglist:
@@ -524,20 +615,27 @@ de:
     name: OSGeo Ozeanien
     description: Wir unterstützen die Entwicklung der OpenStreetMap-Gemeinschaft in Ozeanien.
     extendedDescription: Ziel der OSGeo Oceania ist es, die offene Geodatengemeinschaft in der Region Ozeanien zu unterstützen und auszubauen. Dazu gehört auch die Überwachung und Leitung der FOSS4G SotM Oceania Konferenzreihe.
+  osm-africa-eventbrite:
+    name: '{community} EventBrite'
+    description: '{community} EventBrite Seite'
+  osm-africa-facebook-group:
+    name: '{community} Facebook Gruppe'
+  osm-africa-matrix:
+    description: Alle Mapper sind willkommen!
+  osm-africa-slack:
+    description: Beteilige dich bei {signupUrl} Alle sind willkommen!
   OSM-AR-forum:
     extendedDescription: Ideal für lange oder wichtige Diskussionen. Langsame Reaktionszeit.
   OSM-AR-geolibres:
     name: GeoLibres
     description: Geolibres Bürgervereinigung
     extendedDescription: Wir fördern die Erstellung und Nutzung von frei zugänglichen geografischen Daten, die Einführung geografischer Standards und die Verwendung von freier und quelloffener Software.
-  OSM-AR-irc:
-    extendedDescription: Du könntest den komischsten Benutzer in der Gemeinschaft finden.
-  OSM-AR-mailinglist:
-    description: Veraltete Mailingliste, heute fast nicht mehr benutzt.
   OSM-AR-telegram:
-    extendedDescription: Der aktivste Kanal in der Gemeinschaft, ideal zum Chatten und um schnell Antworten auf Fragen zu bekommen. Alle sind willkommen!
+    extendedDescription: Das ist der aktivste Kanal in der Gemeischaft, ideal um sich zu unterhalten und Antworten auf Fragen rasch zu bekommen. Alle sind willkommen!
   OSM-AR-twitter:
     extendedDescription: Nachrichten von der lokalen Gemeinschaft und OpenStreetMap in Allgemeinen.
+  OSM-AR-wiki:
+    description: Alles was du über Mappen in Argentinien wissen musst.
   osm-at:
     description: Die Plattform für Information über OpenStreetMap in Österreich
   osm-benin-facebook:
@@ -557,29 +655,41 @@ de:
   OSM-Chattanooga:
     name: OSM Chattanooga
     description: Die OpenStreetMap Benutzergruppe für Chattanooga
-  OSM-CO:
-    description: Nachrichten von der OpenStreetMap Gemeinschaft in Kolumbien und der OSMCo Sitftung
+  osm-cn:
+    description: Wir helfen OpenStreetMap in China beim Wachsen und Verbessern.
   OSM-Colorado:
     name: OpenStreetMap Colorado
     description: Mapper und OpenStreetMap Benutzer in Colorado, USA
     extendedDescription: OpenStreetMap (OSM) Colorado ist eine lokale Zusammenarbeiten von Menschen, die zu einer freien Karte beitragen wollen. Wir ermutigen unsere Mapper, Treffen in ganz Colorado zu organisieren oder vorzuschlagen. Die Treffen können einfach Kennenlern-Events, OSM-Einführungsworkshops, fortgeschrittenes OSM-Training oder Mapathons sein.
   osm-de:
     description: Die Plattform für Informationen über OpenStreetMap in Deutschland
+  osm-deep-south-wiki:
+    description: '{community} Wiki Seite'
+    extendedDescription: OpenStreetMap Tiefer Süden ist eine lokale Mapping-Gemeinschaft im Südosten der U.S.A.
   OSM-Discord:
     name: OpenStreetMap World Discord
+  OSM-Discourse:
+    name: OpenStreetMap Discourse
+    description: Ein Platz um sich über OpenStreetMap zu unterhalten
   osm-east-africa-forum:
     name: OpenStreetMap Ostafrika  Forum
     description: Chatte mit anderen Mitgliedern der ostafrikanischen OSM-Community
   OSM-Facebook:
     description: Like uns auf Facebook für Nachrichten und Updates über OpenStreetMap.
+  osm-fj:
+    description: Stellt Information und Service für die lokale OSM Gemeinschaft in Fiji bereit
   osm-gh-facebook:
     extendedDescription: Community der Mapper in Ghana, Förderung von OpenStreetMap und den Projekten des Humanitarian OpenStreetMap Team (HOT) in Ghana. Mach mit!
+  osm-gh-website:
+    description: Stellt Information und Service für die lokale OSM Gemeinschaft in Ghana bereit
   OSM-help:
     name: OpenStreetMap Hilfe
     description: Stelle Fragen und erhalte Antworten auf der FAQ-Seite der OSM-Gemeinschaft
     extendedDescription: '{url} ist für alle, die Hilfe mit OpenStreetMap brauchen. Egal ob du zu mappen beginnst oder eine technische Frage hast, wir sind hier um dir zu helfen!'
   osm-hr:
     description: Die Plattform für Information über OpenStreetMap in Kroatien
+  osm-id:
+    description: Stellt Information und Service für die lokale OSM Gemeinschaft in Indonesien bereit
   OSM-India-facebook:
     description: Verbessere OpenStreetMap in Indien
     extendedDescription: 'Mappst du in Indien? Hast du Fragen, willst du mit der Community vor Ort Kontakt aufnehmen? Mach mit: {url}. Alle sind willkommen!'
@@ -618,6 +728,9 @@ de:
   osm-kenya:
     description: OSM Kenia ist eine Gemeinschaft von OSM Mitwirkenden und Nutzern
     extendedDescription: OSM Kenia ist eine lokale Gemeinschaft für an OSM interessierten Menschen, Organisationen und Entwicklern und YouthMapper Ortsverbänden in Kenia
+  osm-kenya-facebook:
+    description: OSM Kenia ist die Gemeinschaft der OSM Mitwirkenden und Benutzer
+    extendedDescription: OSM ist eine lokale Gemeinschaft für alle an OpenStreetMap Interessierten inklusive Organisatoren, Entwickler und YouthMapper im Land.
   OSM-Kerala-facebook:
     description: Verbessere OpenStreetMap in Kerala
     extendedDescription: Mappst du in Kerala? Hast du Fragen, willst du dich mit der lokalen Gemeinschaft vernetzen? Beteilige dich unter {url}. Alle sind willkommen!
@@ -628,10 +741,17 @@ de:
     extendedDescription: Inoffizieller Chatraum für OSM Kerala, er ist mit der osmkerala Telegramm Gruppe gespiegelt
   osm-kerala-telegram:
     description: 'Wir mappen Kerala gemeinsam. Beteilige dich an unserer Telegram Gruppe: {url}'
+  osm-kerala-website:
+    description: Wir helfen OpenStreetMap in Kerala beim Wachsen und Verbessern.
   osm-kerala-wiki:
-    description: 'Wenn du mehr über Mapping in Kerala wissen willst: {url}'
+    description: Willst du mehr über Kerala Mapping wissen? {url}
   osm-mg-facebook:
     description: Madagaskar Facebook Gruppe für Menschen mit Interesse an OpenStreetMap.
+  osm-michigan-facebook-group:
+    name: '{community} Facebook Gruppe'
+    description: Diskusssionen über Mappen in Michigan
+  osm-michigan-wiki:
+    description: '{community} Wiki Seite'
   osm-ni:
     name: MapaNica.net
     description: Stelle OSM service und Information für die lokale Gemeinschaft in Nicaragua zur Verfügung
@@ -642,7 +762,6 @@ de:
   OSM-PH-telegram:
     extendedDescription: Eine freundliche und sehr aktive Telegram Gruppe für OSM Mapper und Freunde auf den Philippnen für Smalltalk, leichte Scherze und schnelle Fragen und Antworten
   OSM-PL-chapter:
-    name: OpenStreetMap Polen
     description: Die Heimat der polnischen OpenStreetMap-Gemeinschaft
   OSM-PL-discord:
     description: Wichtigster Platz für mündlichen Austausch innerhalb der polnischen OSM Gemeinschaft, aktive Text-Kanäle
@@ -666,9 +785,6 @@ de:
     name: Einführung für Mapper in Rom
     description: Verbessere in Rom und Umgebung
     extendedDescription: Wir zielen darauf ab es Menschen zu ermöglichen über geographischen Daten und insbesondere OpenStreetMap zu diskutieren und Wissen zu teilen, ebenso Offene Geospatial Software zum managen, editieren und anzeigen von geographischen Daten sowie Engagement zur Nutzung in Lazio, Italien
-  osm-se:
-    name: OpenStreetMap.se
-    description: Bereitstellen von OSM Dienstleistungen und Information für die lokale Gemeimschaft in Schweden
   OSM-Seattle:
     name: OpenStreetMap Seattle
     description: Mapper und OpenStreetMap Benutzer in Seattlem USA
@@ -694,6 +810,10 @@ de:
     name: OSM Treffen Chiang Mai
     description: Unregelmässiges Treffen der OpenStreetMap Gemeinschaft in Chiang Mai
     extendedDescription: Mitgieder der OpenStreetMap treffen sich alle paar Monate in Chiang Mai. Nimm Kontakt auf und lies bei {url} um zu sehen wann das nächste Treffen stattfindet.
+  osm-toronto-meetup:
+    description: Mapper und OpenStreetMap Nutzer im Großraum Toronto
+  osm-tw:
+    description: Wir helfen OpenStreetMap in Taiwan beim Wachsen und Verbessern.
   OSM-US:
     description: Wir helfen dabei OpenStreetMap in den USA zu verbessern.
     extendedDescription: 'Wir unterstützen OpenStreetMap durch eine jährliche Konferenz, Unterstützung von lokalen OSM-Gruppen, Aufbau von Partnerschaft und durch Verbreitung des Vorteilen von OSM. Beteiligte sich an OpenStreetMap US hier: {signupUrl}'
@@ -719,10 +839,9 @@ de:
   OSMF:
     name: OpenStreetMap Foundation
     description: OSMF ist eine gemeinnützige Organisation mit Sitz im Vereinigten Königreich, die das OpenStreetMap Projekt unterstützt
-    extendedDescription: 'OSMF unterstützt OpenStreetMap durch Fundraising, den Betrieb der OSM-Server, die Organisation der jährlichen Konferenz "State of the Map" und die Koordination der Freiwilligen die OSM am Laufen halten. Du kannst deine Unterstützung zeigen und eine Stimme für die Richtung der Weiterentwicklung von OpenStreetMap bekommen, indem du der OSMF als Mitglied beitrittst: {signupUrl}'
-  osmgraz-meetup:
-    name: OSM Gemeinschaft Treffen Graz
-    description: Monatliches Treffen der OSM Gemeinschaft in Graz
+    extendedDescription: 'Die OSMF unterstützt das OpenStreetMap-Projekt, indem sie Spendengelder sammelt, die Server unterhält, die OSM betreiben, die jährliche State of the Map-Konferenz organisiert und die Freiwilligen koordiniert, die OSM am Laufen halten. Sie können Ihre Unterstützung zeigen und die Richtung von OpenStreetMap mitbestimmen, indem Sie hier als OSMF-Mitglied beitreten: {signupUrl}'
+  ph-facebook-group:
+    name: '{community} Facebook Gruppe'
   PHXGeo-meetup:
     name: PHXGeo Treffen
     description: Mapper und OpenStreetMap Benutzer in Phoenix, Arizona, USA
@@ -741,8 +860,6 @@ de:
   sk-freemap:
     name: OpenStreetMap Website Freemap Slowakei
     description: OpenStreetMap Karten-Website mit Werkzeugen in der Slowakei und umgebenden Regionen
-  sk-freemap-wiki:
-    description: OpenStreetMap wiki for Slowakische Mapper und Gemeinschaft
   talk-au:
     description: Mappers in Australien chatten hier
   talk-bo:
@@ -754,6 +871,14 @@ de:
   talk-pacific:
     description: Die regionale OSM-Mailingliste für und von den Menschen in Moana/Ozeanien/Pazifik
     extendedDescription: Wir möchten, dass diese Mailingliste alle Menschen des Pazifiks in all ihrer Vielfalt und ihren Bestrebungen unterstützt, um Gedanken, Fragen, Projekte und alles, was mit OpenStreetMap in unserem Meer von Inseln zu tun hat, auszutauschen.
+  tn-facebook-group:
+    name: '{community} Facebook Gruppe'
+  tw-slack:
+    description: Beteilige dich bei {signupUrl} Alle sind willkommen!
+  tw-wiki:
+    description: 'Alles was du über das Mappen in Taiwan wissen musst: {url}'
+  tz-website:
+    description: Stellt Information und Service für die lokale OSM Gemeinschaft in Tanzania bereit
   ua-github:
     description: OpenStreetMap Ukraine GitHub
   ua-osm:
@@ -766,23 +891,21 @@ de:
   uk-london-twitter:
     name: OpenStreetMap London auf Twitter
     description: 'OpenStreetMap London auf Twitter: {url}'
-  us-ma-mailinglist:
+  uk-london-wiki:
+    description: '{community} Wiki Seite'
+  uk-loomio:
+    name: OpenStreetMap UK auf Loomio
+  us-massachusetts-mailinglist:
     name: Talk-us-massachusetts Mailing Liste
-    description: Mailingliste für die OSM-Community in Massachusetts
-  US-MI-Wiki:
-    description: Informationen über Mappen in Michigan.
+    description: Email Liste für die OSM Gemeinschaft in Massachusetts
+  us-newyork-mailinglist:
+    name: Talk-us-newyork Mailing Liste
+    description: Email Liste für die OSM Gemeinschaft im Staat New York
   uy-irc:
     description: 'Tritt #{account} auf irc.frreenode.org (port 6667) bei'
     extendedDescription: 'Tritt #{account} auf irc.frreenode.org bei'
   vn-mailinglist:
     description: Mailing Liste über OpenStreetMap in Vietnam oder in Vietnamesisch
-  Western-Slope-facebook:
-    name: Western Slope OSM Facebook
-    description: Mapper und OpenStreetMap Benutzer in und um Grand Junction, Colorado, USA
-  Western-Slope-meetup:
-    name: Western Slope OSM Treffen
-    description: Mapper und OpenStreetMap Benutzer in und um Grand Junction, Colorado, USA
-    extendedDescription: Das Ziel dieser Gruppe ist OpenStreetMap in der Region einzuführen, eine Gemeinschaft von Mappern zu entwickeln, die erstaunlichsten Geodaten mit allen zur Verfügung stehenden Mitteln zu erzeugen und diese Daten in der ganzen Gegend bekannt zu machen. Stell dir einen ganz genaue Wanderkarte oder auch genaue Karte der Fahrradwege vor; oder alles andere was du willst, das ist die Freude von OpenStreetMap!
   YerCizenler-TR:
     name: Yer Çizenler
     description: Yer Çizenler Vereinigung Mappen für Alle
@@ -806,12 +929,16 @@ de:
     name: ARU Mapper
     description: YouthMappers chapter at Ardhi University
     extendedDescription: As upcoming geospatial data consultants we seek to educate and provide advice to the society on how they can use spatial data not only as a form of location but a tool of decision making and predict different hazardous and climatical changes which may harm them or future genarations.
+  ym-Arizona-State-University-facebook:
+    description: YouthMappers Gruppe Arizona State University
+  ym-Arizona-State-University-twitter:
+    description: YouthMappers Gruppe Arizona State University
   ym-Asian-University-for-Women:
     name: YouthMappers at AUW
     description: YouthMappers chapter at Asian University for Women
     extendedDescription: The Asian University for Women seeks to graduate women who will be skilled and innovative professionals, service-oriented leaders in the businesses and communities in which they will work and live, and promoters of intercultural understanding and sustainable human and economic development in Asia and throughout the world.
   ym-Ball-State-University:
-    name: Gamma Theta Upsilon- Iota Omega Chapter
+    name: Gamma Theta Upsilon - Iota Omega Chapter
     description: YouthMappers chapter at Ball State University
     extendedDescription: Our chapter is a very active one. We primarily focus on community events, fundraising, and field trips. We are currently looking to develop more mapping-related activities to draw in other students from campus who may be interested in contributing.
   ym-Busitema-University:
@@ -924,7 +1051,7 @@ de:
     description: YouthMappers chapter at Institute of Rural Development Planning
     extendedDescription: Mipango YouthMappers Chapter was introduced at IRDP on 3rd July, 2017 by Dr.Domitilla Bashemera. The founding members were  300 (190 males and 110 female) Bachelor Degree students, who were registered as members of the Chapter. Gerald Zacharia is the president of the chapter and Juster Lugira is Vice President.
   ym-Institute-of-Rural-Development-Planning-Mwanza:
-    name: Youth Mappers Chapter at Institute of Rural Development Planning - Lake Zone Centre
+    name: YouthMappers chapter am Institute für Ländliche Entwicklungsplanung Rural - Lake Zone Zentrum
     description: YouthMappers chapter at Institute of Rural Development Planning Mwanza
   ym-Institute-of-Science-and-Veterinary-Medicine:
     name: YouthMappers ISSMV Dalaba
@@ -998,10 +1125,6 @@ de:
   ym-Namibia-University-of-Science-and-Technology:
     name: Geoinformationstechnik Stundentenverein
     description: YouthMappers Ortsverband an der Namibia Universität für Wissenschaft und Technologie
-  ym-New-York-University:
-    name: NYU mHealth Initiative Mapping Corps
-    description: YouthMappers chapter at New York University
-    extendedDescription: The NYU mobile health or “mHealth” research initiative focuses on development of systems that link people - usually via their phones - to the places that they live and traverse, and thus supports novel research on the way phones and maps can be leveraged to understand behavioral decision making and ultimately health outcomes.
   ym-Nimba-County-Community-College:
     name: Nimba County Community College Youth Mappers
     description: YouthMappers Ortsverband am Nimba County Community College
@@ -1041,7 +1164,7 @@ de:
     description: YouthMappers chapter at Rajshahi University of Engineering & Technology
     extendedDescription: The "YouthMappers at RUET" is a humanitarian mapping group of students of Rajshahi University of Engineering & Technology (RUET) to share, develop and practice the knowledge of GIS.  This group encourages using open source geospatial data and platform to make solution to reach the most vulnerable group of the world.
   ym-Sacred-Heart-Junior-College:
-    name: Youth Mappers at Sacred Heart Junior College
+    name: YouthMapper am Sacred Heart Junior College
     description: YouthMappers chapter at Sacred Heart Junior College
   ym-Sherubtse-College:
     name: Geographical Society
@@ -1108,9 +1231,6 @@ de:
     name: HiTech Youth Mappers
     description: YouthMappers chapter at Uganda Pentecostal University
     extendedDescription: A new Youthmappers Chapter in Western Uganda. Ready to map and provide open data with OpenStreetMap for development purposes.
-  ym-Universidad-Autonoma-de-Madrid:
-    name: YouthMappers at UAM
-    description: YouthMappers chapter at Universidad Autonoma de Madrid
   ym-Universidad-de-Antioquia:
     name: Geomatica UDEA
     description: YouthMappers Ortsverband an der Universität von Antioquia
@@ -1149,10 +1269,6 @@ de:
     name: Yeka Street MGA
     description: YouthMappers chapter at Universidad Nacional de Ingenieria
     extendedDescription: YEKA STREET is a work team constituted by students from Universidad Nacional de Ingenieria at Managua, Nicaragua. With the principal purpose of apply our knowledge and skills using many tools and apps to map areas in our cities and contribute to the development community projects and disasters relieve plans. We want to lead the way adding more students from all careers and universities in our country to join us at this cause, increasing in this way the life level and reducing the population vulnerability.
-  ym-Universidad-Politcnica-de-Madrid:
-    name: Mapeo Humanitario
-    description: YouthMappers chapter at Universidad Politécnica de Madrid
-    extendedDescription: Geo-volunteering group formed at Moncloa Campus on November 2017. Around 20 members from three Universities (Complutense, CEU and UPM). Undergraduate students, MSc and PhD students collaborate together with organizations (MSF, Acción contra el Hambre,...) supported by trainers from Geoinquietos. Official recognition by UPM as Educative Innovation Project (Code  IE1718.0411)
   ym-Universidade-Eduardo-Mondlane:
     name: Comunidade YouthMappers Mozambique
     description: YouthMappers Ortsverband an der Eduardo Mondlane Universität
@@ -1276,7 +1392,9 @@ de:
   ym-University-of-the-Philippines-Resilience-Institute:
     name: YouthMappers UP Resilience Institute
     description: YouthMappers chapter at University of the Philippines Resilience Institute
-    extendedDescription: Das UP Resilience Institute wurde 2016 mit dem Ziel gegründet, lokale Gemeinschaften durch multidisziplinäre Forschung und Maßnahmen zur Resilienz zu stärken. Über das UP NOAH Center und mit Hilfe verschiedener Organisationen haben wir für 17 der 82 Provinzen Liegenschaftskarten zur Verfügung gestellt und mehr als 4 Millionen Gebäude auf OpenStreetMap hochgeladen.
+    extendedDescription: Das UP Resilience Institute wurde 2016 mit dem Ziel gegründet, lokale Gemeinschaften durch multidisziplinäre Forschung und Maßnahmen zur Stärkung der Resilienz zu befähigen. Durch das UP NOAH Center und die Hilfe verschiedener Organisationen haben wir Karten zur Gebäuden für 17 der 82 Provinzen erstellt und mehr als 4 Millionen Änderungen auf OpenStreetMap hochgeladen.
+  ym-University-of-the-Philippines-Resilience-Institute-twitter:
+    name: YouthMappers UP Resilience Institute Twitter
   ym-University-of-the-West-Indies-Mona-Campus:
     name: Libraries Outreach - ODL
     description: YouthMappers chapter at University of the West Indies, Mona Campus

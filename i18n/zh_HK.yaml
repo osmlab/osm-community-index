@@ -56,7 +56,6 @@ zh_HK:
     openstreetmapgeorgia: OpenStreetMap 格魯吉亞
     openstreetmapgermany: OpenStreetMap 德國
     openstreetmapghana: OpenStreetMap 加納
-    openstreetmapgraz: OpenStreetMap 格拉茨
     openstreetmapgreece: OpenStreetMap 希臘
     openstreetmapguatemala: OpenStreetMap 危地馬拉
     openstreetmapguinea: OpenStreetMap 畿內亞
@@ -170,7 +169,6 @@ zh_HK:
       name: '{community} Discourse'
     facebook:
       name: 'Facebook 上的 {community}'
-      url: https://facebook.com/{account}
     forum:
       name: '{community} 論壇'
       url: https://forum.openstreetmap.org/viewforum.php?id={account}
@@ -187,7 +185,6 @@ zh_HK:
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: 'LinkedIn 上的 {community}'
-      url: https://linkedin.com/company/{account}
     mailinglist:
       url: https://lists.openstreetmap.org/listinfo/{account}
     matrix:
@@ -195,7 +192,6 @@ zh_HK:
       url: https://matrix.to/#/{account}:matrix.org
     meetup:
       name: '{community} Meetup'
-      url: https://meetup.com/{account}
     osm:
       name: '{community}'
     osm-lc:
@@ -221,8 +217,6 @@ zh_HK:
       name: 'YouTube 上的 {community}'
       description: 訂閱 YouTube 頻道
       url: https://www.youtube.com/channel/{account}
-  az-facebook:
-    name: OpenStreetMap 阿塞拜疆
   cape-coast-youthmappers:
     description: '跟隨我們的 Twitter： {url} '
   cd-chapter:
@@ -242,9 +236,6 @@ zh_HK:
   md-googlegroup:
     name: '{community} Google 羣組'
     description: 加入 {community} Google 羣組
-  nl-wonderme:
-    name: 'Wonder.me 上的 {community}'
-    description: 虛擬會議室
   OpenCleveland-meetup:
     name: Open 克里夫蘭
   osgeo-oceania:
@@ -270,8 +261,6 @@ zh_HK:
     description: 馬達加斯加 Facebook 社群給對 OpenStreetMap 有興趣的人。
   osm-ni:
     name: MapaNica.net
-  OSM-PL-chapter:
-    name: OpenStreetMap 波蘭
   OSM-Portland:
     name: OpenStreetMap 波特蘭
   OSM-Tampa-Bay:
