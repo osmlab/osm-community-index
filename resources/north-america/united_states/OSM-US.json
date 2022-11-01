@@ -10,16 +10,18 @@
     "signupUrl": "https://www.openstreetmap.us/join",
     "url": "https://www.openstreetmap.us/"
   },
-  "contacts": [{"name": "Ian Dees", "email": "ian@openstreetmap.us"}],
+  "contacts": [
+    {"name": "OpenStreetMap US", "email": "team@openstreetmap.us"}
+  ],
   "events": [
     {
-      "id": "sotmus2022",
+      "id": "mappingusa2022",
       "i18n": true,
-      "name": "State of the Map US 2022",
-      "description": "Join the OpenStreetMap community at State of the Map US in Tucson, Arizona. Connect with other mappers, businesses, government agencies, and non profits, all collaborating around the free and editable map of the world. Share your vision for the project, learn how to work with OpenStreetMap data, and hack on the latest mapping improvements.",
-      "where": "Tucson, Arizona",
-      "when": "2022-04-01",
-      "url": "https://2022.stateofthemap.us/"
+      "name": "Mapping USA 2022",
+      "description": "Join us for a free virtual conference in celebration of the Wiki and OpenStreetMap communities across North America!",
+      "where": "virtual",
+      "when": "2022-nov-10",
+      "url": "https://pretix.eu/openstreetmapus/wcna-mappingusa/"
     }
   ]
 }
