@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.3.0",
-    "generated": "2022-11-01T16:47:01.746Z",
+    "generated": "2022-11-01T17:04:30.916Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "657a11580991c9f222f1975f798cf023"
+    "hash": "5fd44b4672b404b97e546daf20bc9423"
   },
   "type": "FeatureCollection",
   "features": [
@@ -486,27 +486,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMapAlbania\">OpenStreetMap Albania on Facebook</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMapAlbania\">https://www.facebook.com/OpenStreetMapAlbania</a>",
               "descriptionHTML": "Join our community on Facebook"
-            }
-          },
-          "al-forum": {
-            "id": "al-forum",
-            "type": "forum",
-            "account": "91",
-            "locationSet": {"include": ["al"]},
-            "languageCodes": ["en", "sq"],
-            "order": 3,
-            "strings": {"community": "OpenStreetMap Albania"},
-            "contacts": [
-              {"name": "Jonathan Beliën", "email": "dev@jbelien.be"},
-              {"name": "Amanti Lulo", "email": "amanti.lulo@gmail.com"}
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Albania Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=91",
-              "description": "The official forum for OpenStreetMap Albania",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=91\">OpenStreetMap Albania Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=91\">https://forum.openstreetmap.org/viewforum.php?id=91</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Albania"
             }
           },
           "al-twitter": {
@@ -1377,23 +1356,6 @@
               "descriptionHTML": "Join our community on Facebook"
             }
           },
-          "ba-forum": {
-            "id": "ba-forum",
-            "type": "forum",
-            "account": "66",
-            "locationSet": {"include": ["ba"]},
-            "languageCodes": ["en"],
-            "order": 4,
-            "strings": {"community": "OpenStreetMap Bosnia and Herzegovina"},
-            "resolved": {
-              "name": "OpenStreetMap Bosnia and Herzegovina Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=66",
-              "description": "The official forum for OpenStreetMap Bosnia and Herzegovina",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=66\">OpenStreetMap Bosnia and Herzegovina Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=66\">https://forum.openstreetmap.org/viewforum.php?id=66</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Bosnia and Herzegovina"
-            }
-          },
           "ba-telegram": {
             "id": "ba-telegram",
             "type": "telegram",
@@ -1888,23 +1850,6 @@
               "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/osmbd/\">https://www.facebook.com/groups/osmbd/</a>",
               "descriptionHTML": "Join our community on Facebook",
               "extendedDescriptionHTML": "Mapping in Bangladesh? Have questions, want to connect with the community here? Join us at <a target=\"_blank\" href=\"https://www.facebook.com/groups/osmbd/\">https://www.facebook.com/groups/osmbd/</a>. All are welcome!"
-            }
-          },
-          "bd-forum": {
-            "id": "bd-forum",
-            "type": "forum",
-            "account": "97",
-            "locationSet": {"include": ["bd"]},
-            "languageCodes": ["en"],
-            "order": 4,
-            "strings": {"community": "OpenStreetMap Bangladesh"},
-            "resolved": {
-              "name": "OpenStreetMap Bangladesh Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=97",
-              "description": "The official forum for OpenStreetMap Bangladesh",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=97\">OpenStreetMap Bangladesh Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=97\">https://forum.openstreetmap.org/viewforum.php?id=97</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Bangladesh"
             }
           },
           "bd-telegram": {
@@ -2719,22 +2664,6 @@
               "descriptionHTML": "Join our community on Facebook"
             }
           },
-          "bg-forum": {
-            "id": "bg-forum",
-            "type": "forum",
-            "account": "57",
-            "locationSet": {"include": ["bg"]},
-            "languageCodes": ["bg", "en"],
-            "strings": {"community": "OpenStreetMap Bulgaria"},
-            "resolved": {
-              "name": "OpenStreetMap Bulgaria Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=57",
-              "description": "The official forum for OpenStreetMap Bulgaria",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=57\">OpenStreetMap Bulgaria Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=57\">https://forum.openstreetmap.org/viewforum.php?id=57</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Bulgaria"
-            }
-          },
           "bg-wiki": {
             "id": "bg-wiki",
             "type": "wiki",
@@ -3405,23 +3334,6 @@
               "descriptionHTML": "Get in touch with other mappers on Discord"
             }
           },
-          "br-forum": {
-            "id": "br-forum",
-            "type": "forum",
-            "account": "74",
-            "locationSet": {"include": ["br"]},
-            "languageCodes": ["en"],
-            "order": 4,
-            "strings": {"community": "OpenStreetMap Brasil"},
-            "resolved": {
-              "name": "OpenStreetMap Brasil Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=74",
-              "description": "The official forum for OpenStreetMap Brasil",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=74\">OpenStreetMap Brasil Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=74\">https://forum.openstreetmap.org/viewforum.php?id=74</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Brasil"
-            }
-          },
           "br-telegram": {
             "id": "br-telegram",
             "type": "telegram",
@@ -4035,23 +3947,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/osm.by\">OpenStreetMap Belarus on Facebook</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/osm.by\">https://www.facebook.com/groups/osm.by</a>",
               "descriptionHTML": "Join our community on Facebook"
-            }
-          },
-          "by-forum": {
-            "id": "by-forum",
-            "type": "forum",
-            "account": "35",
-            "locationSet": {"include": ["by"]},
-            "languageCodes": ["de", "en"],
-            "order": 1,
-            "strings": {"community": "OpenStreetMap Belarus"},
-            "resolved": {
-              "name": "OpenStreetMap Belarus Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=35",
-              "description": "The official forum for OpenStreetMap Belarus",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=35\">OpenStreetMap Belarus Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=35\">https://forum.openstreetmap.org/viewforum.php?id=35</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Belarus"
             }
           },
           "by-telegram": {
@@ -5710,23 +5605,6 @@
               "extendedDescriptionHTML": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"
             }
           },
-          "cl-forum": {
-            "id": "cl-forum",
-            "type": "forum",
-            "account": "75",
-            "locationSet": {"include": ["cl"]},
-            "languageCodes": ["en"],
-            "order": 3,
-            "strings": {"community": "OpenStreetMap Chile"},
-            "resolved": {
-              "name": "OpenStreetMap Chile Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=75",
-              "description": "The official forum for OpenStreetMap Chile",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=75\">OpenStreetMap Chile Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=75\">https://forum.openstreetmap.org/viewforum.php?id=75</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Chile"
-            }
-          },
           "cl-linkedin": {
             "id": "cl-linkedin",
             "type": "linkedin",
@@ -7257,23 +7135,6 @@
               "extendedDescriptionHTML": "Join the community to learn more about OpenStreetMap. Everyone is welcome!"
             }
           },
-          "co-forum": {
-            "id": "co-forum",
-            "type": "forum",
-            "account": "92",
-            "locationSet": {"include": ["co"]},
-            "languageCodes": ["en"],
-            "order": 5,
-            "strings": {"community": "OpenStreetMap Colombia"},
-            "resolved": {
-              "name": "OpenStreetMap Colombia Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=92",
-              "description": "The official forum for OpenStreetMap Colombia",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=92\">OpenStreetMap Colombia Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=92\">https://forum.openstreetmap.org/viewforum.php?id=92</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Colombia"
-            }
-          },
           "co-telegram": {
             "id": "co-telegram",
             "type": "telegram",
@@ -7656,22 +7517,6 @@
         "driveSide": "right",
         "area": 327475.39,
         "resources": {
-          "cu-forum": {
-            "id": "cu-forum",
-            "type": "forum",
-            "account": "72",
-            "locationSet": {"include": ["cu"]},
-            "languageCodes": ["en"],
-            "strings": {"community": "OpenStreetMap Cuba"},
-            "resolved": {
-              "name": "OpenStreetMap Cuba Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=72",
-              "description": "The official forum for OpenStreetMap Cuba",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=72\">OpenStreetMap Cuba Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=72\">https://forum.openstreetmap.org/viewforum.php?id=72</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Cuba"
-            }
-          },
           "cu-telegram": {
             "id": "cu-telegram",
             "type": "telegram",
@@ -11582,23 +11427,6 @@
         "callingCodes": ["45", "298", "299"],
         "area": 4469378.82,
         "resources": {
-          "dk-forum": {
-            "id": "dk-forum",
-            "type": "forum",
-            "account": "48",
-            "locationSet": {"include": ["dk"]},
-            "languageCodes": ["da"],
-            "order": -2,
-            "strings": {"community": "OpenStreetMap Denmark"},
-            "resolved": {
-              "name": "OpenStreetMap Denmark Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=48",
-              "description": "The official forum for OpenStreetMap Denmark",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=48\">OpenStreetMap Denmark Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=48\">https://forum.openstreetmap.org/viewforum.php?id=48</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Denmark"
-            }
-          },
           "dk-irc": {
             "id": "dk-irc",
             "type": "irc",
@@ -11713,160 +11541,6 @@
     {
       "type": "Feature",
       "properties": {
-        "iso1A2": "DZ",
-        "iso1A3": "DZA",
-        "iso1N3": "012",
-        "wikidata": "Q262",
-        "nameEn": "Algeria",
-        "groups": ["015", "002", "UN", "001"],
-        "callingCodes": ["213"],
-        "id": "Q262",
-        "m49": "012",
-        "ccTLD": ".dz",
-        "isoStatus": "official",
-        "level": "country",
-        "emojiFlag": "🇩🇿",
-        "roadSpeedUnit": "km/h",
-        "roadHeightUnit": "m",
-        "driveSide": "right",
-        "area": 2469176.43,
-        "resources": {
-          "dz-forum": {
-            "id": "dz-forum",
-            "type": "forum",
-            "account": "53",
-            "locationSet": {"include": ["dz"]},
-            "languageCodes": ["en"],
-            "strings": {"community": "OpenStreetMap Algeria"},
-            "resolved": {
-              "name": "OpenStreetMap Algeria Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=53",
-              "description": "The official forum for OpenStreetMap Algeria",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=53\">OpenStreetMap Algeria Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=53\">https://forum.openstreetmap.org/viewforum.php?id=53</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Algeria"
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [8.59123, 37.14286],
-              [5.10072, 39.89531],
-              [-2.27707, 35.35051],
-              [-2.21248, 35.08532],
-              [-2.21445, 35.04378],
-              [-2.04734, 34.93218],
-              [-1.97833, 34.93218],
-              [-1.97469, 34.886],
-              [-1.73707, 34.74226],
-              [-1.84569, 34.61907],
-              [-1.69788, 34.48056],
-              [-1.78042, 34.39018],
-              [-1.64666, 34.10405],
-              [-1.73494, 33.71721],
-              [-1.59508, 33.59929],
-              [-1.67067, 33.27084],
-              [-1.46249, 33.0499],
-              [-1.54244, 32.95499],
-              [-1.37794, 32.73628],
-              [-0.9912, 32.52467],
-              [-1.24998, 32.32993],
-              [-1.24453, 32.1917],
-              [-1.15735, 32.12096],
-              [-1.22829, 32.07832],
-              [-2.46166, 32.16603],
-              [-2.93873, 32.06557],
-              [-2.82784, 31.79459],
-              [-3.66314, 31.6339],
-              [-3.66386, 31.39202],
-              [-3.77647, 31.31912],
-              [-3.77103, 31.14984],
-              [-3.54944, 31.0503],
-              [-3.65418, 30.85566],
-              [-3.64735, 30.67539],
-              [-4.31774, 30.53229],
-              [-4.6058, 30.28343],
-              [-5.21671, 29.95253],
-              [-5.58831, 29.48103],
-              [-5.72121, 29.52322],
-              [-5.75616, 29.61407],
-              [-6.69965, 29.51623],
-              [-6.78351, 29.44634],
-              [-6.95824, 29.50924],
-              [-7.61585, 29.36252],
-              [-8.6715, 28.71194],
-              [-8.66879, 27.6666],
-              [-8.66674, 27.31569],
-              [-4.83423, 24.99935],
-              [1.15698, 21.12843],
-              [1.20992, 20.73533],
-              [3.24648, 19.81703],
-              [3.12501, 19.1366],
-              [3.36082, 18.9745],
-              [4.26651, 19.14224],
-              [5.8153, 19.45101],
-              [7.38361, 20.79165],
-              [7.48273, 20.87258],
-              [11.96886, 23.51735],
-              [11.62498, 24.26669],
-              [11.41061, 24.21456],
-              [10.85323, 24.5595],
-              [10.33159, 24.5465],
-              [10.02432, 24.98124],
-              [10.03146, 25.35635],
-              [9.38834, 26.19288],
-              [9.51696, 26.39148],
-              [9.89569, 26.57696],
-              [9.78136, 29.40961],
-              [9.3876, 30.16738],
-              [9.55544, 30.23971],
-              [9.07483, 32.07865],
-              [8.35999, 32.50101],
-              [8.31895, 32.83483],
-              [8.1179, 33.05086],
-              [8.11433, 33.10175],
-              [7.83028, 33.18851],
-              [7.73687, 33.42114],
-              [7.54088, 33.7726],
-              [7.52851, 34.06493],
-              [7.66174, 34.20167],
-              [7.74207, 34.16492],
-              [7.81242, 34.21841],
-              [7.86264, 34.3987],
-              [8.20482, 34.57575],
-              [8.29655, 34.72798],
-              [8.25189, 34.92009],
-              [8.30727, 34.95378],
-              [8.3555, 35.10007],
-              [8.47318, 35.23376],
-              [8.30329, 35.29884],
-              [8.36086, 35.47774],
-              [8.35371, 35.66373],
-              [8.26472, 35.73669],
-              [8.2626, 35.91733],
-              [8.40731, 36.42208],
-              [8.18936, 36.44939],
-              [8.16167, 36.48817],
-              [8.47609, 36.66607],
-              [8.46537, 36.7706],
-              [8.57613, 36.78062],
-              [8.67706, 36.8364],
-              [8.62972, 36.86499],
-              [8.64044, 36.9401],
-              [8.59123, 37.14286]
-            ]
-          ]
-        ]
-      },
-      "id": "Q262"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "iso1A2": "EC",
         "iso1A3": "ECU",
         "iso1N3": "218",
@@ -11886,21 +11560,6 @@
         "callingCodes": ["593"],
         "area": 702471.32,
         "resources": {
-          "ec-forum": {
-            "id": "ec-forum",
-            "type": "forum",
-            "account": "87",
-            "locationSet": {"include": ["ec"]},
-            "strings": {"community": "OpenStreetMap Ecuador"},
-            "resolved": {
-              "name": "OpenStreetMap Ecuador Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=87",
-              "description": "The official forum for OpenStreetMap Ecuador",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=87\">OpenStreetMap Ecuador Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=87\">https://forum.openstreetmap.org/viewforum.php?id=87</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Ecuador"
-            }
-          },
           "ec-telegram": {
             "id": "ec-telegram",
             "type": "telegram",
@@ -12036,22 +11695,6 @@
         "driveSide": "right",
         "area": 87509.41,
         "resources": {
-          "ee-forum": {
-            "id": "ee-forum",
-            "type": "forum",
-            "account": "71",
-            "locationSet": {"include": ["ee"]},
-            "languageCodes": ["ee"],
-            "strings": {"community": "OpenStreetMap Estonia"},
-            "resolved": {
-              "name": "OpenStreetMap Estonia Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=71",
-              "description": "The official forum for OpenStreetMap Estonia",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=71\">OpenStreetMap Estonia Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=71\">https://forum.openstreetmap.org/viewforum.php?id=71</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Estonia"
-            }
-          },
           "ee-wiki": {
             "id": "ee-wiki",
             "type": "wiki",
@@ -12987,23 +12630,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/208351726124\">OpenStreetMap Finland on Facebook</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/208351726124\">https://www.facebook.com/groups/208351726124</a>",
               "descriptionHTML": "Join our community on Facebook"
-            }
-          },
-          "fi-forum": {
-            "id": "fi-forum",
-            "type": "forum",
-            "account": "15",
-            "locationSet": {"include": ["fi"]},
-            "languageCodes": ["fi"],
-            "order": -2,
-            "strings": {"community": "OpenStreetMap Finland"},
-            "resolved": {
-              "name": "OpenStreetMap Finland Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=15",
-              "description": "The official forum for OpenStreetMap Finland",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=15\">OpenStreetMap Finland Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=15\">https://forum.openstreetmap.org/viewforum.php?id=15</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Finland"
             }
           },
           "fi-irc": {
@@ -14972,22 +14598,6 @@
               "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/osmgeo\">https://www.facebook.com/groups/osmgeo</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
-          },
-          "ge-forum": {
-            "id": "ge-forum",
-            "type": "forum",
-            "account": "101",
-            "locationSet": {"include": ["ge"]},
-            "languageCodes": ["en"],
-            "strings": {"community": "OpenStreetMap Georgia"},
-            "resolved": {
-              "name": "OpenStreetMap Georgia Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=101",
-              "description": "The official forum for OpenStreetMap Georgia",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=101\">OpenStreetMap Georgia Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=101\">https://forum.openstreetmap.org/viewforum.php?id=101</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Georgia"
-            }
           }
         }
       },
@@ -15323,23 +14933,6 @@
         "driveSide": "right",
         "area": 443616.7,
         "resources": {
-          "gr-forum": {
-            "id": "gr-forum",
-            "type": "forum",
-            "account": "27",
-            "locationSet": {"include": ["gr"]},
-            "languageCodes": ["el"],
-            "order": 1,
-            "strings": {"community": "OpenStreetMap Greece"},
-            "resolved": {
-              "name": "OpenStreetMap Greece Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=27",
-              "description": "The official forum for OpenStreetMap Greece",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=27\">OpenStreetMap Greece Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=27\">https://forum.openstreetmap.org/viewforum.php?id=27</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Greece"
-            }
-          },
           "gr-matrix": {
             "id": "gr-matrix",
             "type": "matrix",
@@ -15791,26 +15384,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/541098862671461\">OpenStreetMap Croatia on Facebook</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/541098862671461\">https://www.facebook.com/groups/541098862671461</a>",
               "descriptionHTML": "Join our community on Facebook"
-            }
-          },
-          "hr-forum": {
-            "id": "hr-forum",
-            "type": "forum",
-            "account": "51",
-            "locationSet": {"include": ["hr"]},
-            "languageCodes": ["hr"],
-            "order": -2,
-            "strings": {"community": "OpenStreetMap Croatia"},
-            "contacts": [
-              {"name": "OpenStreetMap Croatia", "email": "info@osm-hr.org"}
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Croatia Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=51",
-              "description": "The official forum for OpenStreetMap Croatia",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=51\">OpenStreetMap Croatia Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=51\">https://forum.openstreetmap.org/viewforum.php?id=51</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Croatia"
             }
           },
           "hr-irc": {
@@ -17012,23 +16585,6 @@
               "extendedDescriptionHTML": "Mapping in Indonesia? Have questions, want to connect with the community here? Join us at <a target=\"_blank\" href=\"https://www.facebook.com/groups/osm.id\">https://www.facebook.com/groups/osm.id</a>. All are welcome!"
             }
           },
-          "id-forum": {
-            "id": "id-forum",
-            "type": "forum",
-            "account": "82",
-            "locationSet": {"include": ["id"]},
-            "languageCodes": ["en"],
-            "order": 4,
-            "strings": {"community": "OpenStreetMap Indonesia"},
-            "resolved": {
-              "name": "OpenStreetMap Indonesia Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=82",
-              "description": "The official forum for OpenStreetMap Indonesia",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=82\">OpenStreetMap Indonesia Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=82\">https://forum.openstreetmap.org/viewforum.php?id=82</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Indonesia"
-            }
-          },
           "id-linkedin": {
             "id": "id-linkedin",
             "type": "linkedin",
@@ -17773,23 +17329,6 @@
               "descriptionHTML": "Join our community on Facebook"
             }
           },
-          "is-forum": {
-            "id": "is-forum",
-            "type": "forum",
-            "account": "90",
-            "locationSet": {"include": ["is"]},
-            "languageCodes": ["en"],
-            "order": 4,
-            "strings": {"community": "OpenStreetMap Iceland"},
-            "resolved": {
-              "name": "OpenStreetMap Iceland Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=90",
-              "description": "The official forum for OpenStreetMap Iceland",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=90\">OpenStreetMap Iceland Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=90\">https://forum.openstreetmap.org/viewforum.php?id=90</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Iceland"
-            }
-          },
           "is-twitter": {
             "id": "is-twitter",
             "type": "twitter",
@@ -18357,22 +17896,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OSM-Cambodia-218656624834943\">OpenStreetMap Cambodia on Facebook</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OSM-Cambodia-218656624834943\">https://www.facebook.com/OSM-Cambodia-218656624834943</a>",
               "descriptionHTML": "Join our community on Facebook"
-            }
-          },
-          "kh-forum": {
-            "id": "kh-forum",
-            "type": "forum",
-            "account": "63",
-            "locationSet": {"include": ["kh"]},
-            "languageCodes": ["en"],
-            "strings": {"community": "OpenStreetMap Cambodia"},
-            "resolved": {
-              "name": "OpenStreetMap Cambodia Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=63",
-              "description": "The official forum for OpenStreetMap Cambodia",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=63\">OpenStreetMap Cambodia Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=63\">https://forum.openstreetmap.org/viewforum.php?id=63</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Cambodia"
             }
           },
           "kh-twitter": {
@@ -20055,21 +19578,6 @@
               "extendedDescriptionHTML": "Mapping in Sri Lanka? Have questions, want to connect with the community here? Join us at <a target=\"_blank\" href=\"https://www.facebook.com/groups/142058222659672\">https://www.facebook.com/groups/142058222659672</a>. All are welcome!"
             }
           },
-          "lk-forum": {
-            "id": "lk-forum",
-            "type": "forum",
-            "account": "77",
-            "locationSet": {"include": ["lk"]},
-            "strings": {"community": "OpenStreetMap Sri Lanka"},
-            "resolved": {
-              "name": "OpenStreetMap Sri Lanka Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=77",
-              "description": "The official forum for OpenStreetMap Sri Lanka",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=77\">OpenStreetMap Sri Lanka Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=77\">https://forum.openstreetmap.org/viewforum.php?id=77</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Sri Lanka"
-            }
-          },
           "talk-lk": {
             "id": "talk-lk",
             "type": "mailinglist",
@@ -20523,236 +20031,6 @@
     {
       "type": "Feature",
       "properties": {
-        "iso1A2": "LT",
-        "iso1A3": "LTU",
-        "iso1N3": "440",
-        "wikidata": "Q37",
-        "nameEn": "Lithuania",
-        "groups": ["154", "150", "EU", "UN", "001"],
-        "callingCodes": ["370"],
-        "id": "Q37",
-        "m49": "440",
-        "ccTLD": ".lt",
-        "isoStatus": "official",
-        "level": "country",
-        "emojiFlag": "🇱🇹",
-        "roadSpeedUnit": "km/h",
-        "roadHeightUnit": "m",
-        "driveSide": "right",
-        "area": 67679.59,
-        "resources": {
-          "lt-forum": {
-            "id": "lt-forum",
-            "type": "forum",
-            "account": "96",
-            "locationSet": {"include": ["lt"]},
-            "languageCodes": ["lt"],
-            "strings": {"community": "OpenStreetMap Lithuania"},
-            "resolved": {
-              "name": "OpenStreetMap Lithuania Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=96",
-              "description": "The official forum for OpenStreetMap Lithuania",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=96\">OpenStreetMap Lithuania Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=96\">https://forum.openstreetmap.org/viewforum.php?id=96</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Lithuania"
-            }
-          },
-          "talk-lt": {
-            "id": "talk-lt",
-            "type": "mailinglist",
-            "account": "talk-lt",
-            "locationSet": {"include": ["lt"]},
-            "languageCodes": ["lt"],
-            "order": 1,
-            "strings": {"community": "OpenStreetMap Lithuania"},
-            "resolved": {
-              "name": "talk-lt Mailing List",
-              "url": "https://lists.openstreetmap.org/listinfo/talk-lt",
-              "description": "The official mailing list for OpenStreetMap Lithuania",
-              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-lt\">talk-lt Mailing List</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-lt\">https://lists.openstreetmap.org/listinfo/talk-lt</a>",
-              "descriptionHTML": "The official mailing list for OpenStreetMap Lithuania"
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [24.89005, 56.46666],
-              [24.83686, 56.41565],
-              [24.70022, 56.40483],
-              [24.57353, 56.31525],
-              [24.58143, 56.29125],
-              [24.42746, 56.26522],
-              [24.32334, 56.30226],
-              [24.13139, 56.24881],
-              [24.02657, 56.3231],
-              [23.75726, 56.37282],
-              [23.49803, 56.34307],
-              [23.40486, 56.37689],
-              [23.31606, 56.3827],
-              [23.17312, 56.36795],
-              [23.09531, 56.30511],
-              [22.96988, 56.41213],
-              [22.83048, 56.367],
-              [22.69354, 56.36284],
-              [22.56441, 56.39305],
-              [22.3361, 56.4016],
-              [22.09728, 56.42851],
-              [22.00548, 56.41508],
-              [21.74558, 56.33181],
-              [21.57888, 56.31406],
-              [21.49736, 56.29106],
-              [21.24644, 56.16917],
-              [21.15016, 56.07818],
-              [20.68447, 56.04073],
-              [20.60454, 55.40986],
-              [20.95181, 55.27994],
-              [21.26425, 55.24456],
-              [21.35465, 55.28427],
-              [21.38446, 55.29348],
-              [21.46766, 55.21115],
-              [21.51095, 55.18507],
-              [21.55605, 55.20311],
-              [21.64954, 55.1791],
-              [21.85521, 55.09493],
-              [21.96505, 55.07353],
-              [21.99543, 55.08691],
-              [22.03984, 55.07888],
-              [22.02582, 55.05078],
-              [22.06087, 55.02935],
-              [22.11697, 55.02131],
-              [22.14267, 55.05345],
-              [22.31562, 55.0655],
-              [22.47688, 55.04408],
-              [22.58907, 55.07085],
-              [22.60075, 55.01863],
-              [22.65451, 54.97037],
-              [22.68723, 54.9811],
-              [22.76422, 54.92521],
-              [22.85083, 54.88711],
-              [22.87317, 54.79492],
-              [22.73631, 54.72952],
-              [22.73397, 54.66604],
-              [22.75467, 54.6483],
-              [22.74225, 54.64339],
-              [22.7522, 54.63525],
-              [22.68021, 54.58486],
-              [22.71293, 54.56454],
-              [22.67788, 54.532],
-              [22.70208, 54.45312],
-              [22.7253, 54.41732],
-              [22.79705, 54.36264],
-              [22.83756, 54.40827],
-              [23.00584, 54.38514],
-              [22.99649, 54.35927],
-              [23.05726, 54.34565],
-              [23.04323, 54.31567],
-              [23.104, 54.29794],
-              [23.13905, 54.31567],
-              [23.15526, 54.31076],
-              [23.15938, 54.29894],
-              [23.24656, 54.25701],
-              [23.3494, 54.25155],
-              [23.39525, 54.21672],
-              [23.42418, 54.17911],
-              [23.45223, 54.17775],
-              [23.49196, 54.14764],
-              [23.52702, 54.04622],
-              [23.48261, 53.98855],
-              [23.51284, 53.95052],
-              [23.61677, 53.92691],
-              [23.71726, 53.93379],
-              [23.80543, 53.89558],
-              [23.81309, 53.94205],
-              [23.95098, 53.9613],
-              [23.98837, 53.92554],
-              [24.19638, 53.96405],
-              [24.34128, 53.90076],
-              [24.44411, 53.90076],
-              [24.62275, 54.00217],
-              [24.69652, 54.01901],
-              [24.69185, 53.96543],
-              [24.74279, 53.96663],
-              [24.85311, 54.02862],
-              [24.77131, 54.11091],
-              [24.96894, 54.17589],
-              [24.991, 54.14241],
-              [25.0728, 54.13419],
-              [25.19199, 54.219],
-              [25.22705, 54.26271],
-              [25.35559, 54.26544],
-              [25.509, 54.30267],
-              [25.56823, 54.25212],
-              [25.51452, 54.17799],
-              [25.54724, 54.14925],
-              [25.64875, 54.1259],
-              [25.71084, 54.16704],
-              [25.78563, 54.15747],
-              [25.78553, 54.23327],
-              [25.68513, 54.31727],
-              [25.55425, 54.31591],
-              [25.5376, 54.33158],
-              [25.63371, 54.42075],
-              [25.62203, 54.4656],
-              [25.64813, 54.48704],
-              [25.68045, 54.5321],
-              [25.75977, 54.57252],
-              [25.74122, 54.80108],
-              [25.89462, 54.93438],
-              [25.99129, 54.95705],
-              [26.05907, 54.94631],
-              [26.13386, 54.98924],
-              [26.20397, 54.99729],
-              [26.26941, 55.08032],
-              [26.23202, 55.10439],
-              [26.30628, 55.12536],
-              [26.35121, 55.1525],
-              [26.46249, 55.12814],
-              [26.51481, 55.16051],
-              [26.54753, 55.14181],
-              [26.69243, 55.16718],
-              [26.68075, 55.19787],
-              [26.72983, 55.21788],
-              [26.73017, 55.24226],
-              [26.835, 55.28182],
-              [26.83266, 55.30444],
-              [26.80929, 55.31642],
-              [26.6714, 55.33902],
-              [26.5709, 55.32572],
-              [26.44937, 55.34832],
-              [26.5522, 55.40277],
-              [26.55094, 55.5093],
-              [26.63167, 55.57887],
-              [26.63231, 55.67968],
-              [26.58248, 55.6754],
-              [26.46661, 55.70375],
-              [26.39561, 55.71156],
-              [26.18509, 55.86813],
-              [26.03815, 55.95884],
-              [25.90047, 56.0013],
-              [25.85893, 56.00188],
-              [25.81773, 56.05444],
-              [25.69246, 56.08892],
-              [25.68588, 56.14725],
-              [25.53621, 56.16663],
-              [25.39751, 56.15707],
-              [25.23099, 56.19147],
-              [25.09325, 56.1878],
-              [25.05762, 56.26742],
-              [24.89005, 56.46666]
-            ]
-          ]
-        ]
-      },
-      "id": "Q37"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "iso1A2": "LU",
         "iso1A3": "LUX",
         "iso1N3": "442",
@@ -21064,22 +20342,6 @@
         "driveSide": "right",
         "area": 85467.71,
         "resources": {
-          "lv-forum": {
-            "id": "lv-forum",
-            "type": "forum",
-            "account": "59",
-            "locationSet": {"include": ["lv"]},
-            "languageCodes": ["en", "lv"],
-            "strings": {"community": "OpenStreetMap Latvia"},
-            "resolved": {
-              "name": "OpenStreetMap Latvia Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=59",
-              "description": "The official forum for OpenStreetMap Latvia",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=59\">OpenStreetMap Latvia Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=59\">https://forum.openstreetmap.org/viewforum.php?id=59</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Latvia"
-            }
-          },
           "lv-twitter": {
             "id": "lv-twitter",
             "type": "twitter",
@@ -23114,152 +22376,6 @@
     {
       "type": "Feature",
       "properties": {
-        "iso1A2": "ME",
-        "iso1A3": "MNE",
-        "iso1N3": "499",
-        "wikidata": "Q236",
-        "nameEn": "Montenegro",
-        "groups": ["039", "150", "UN", "001"],
-        "callingCodes": ["382"],
-        "id": "Q236",
-        "m49": "499",
-        "ccTLD": ".me",
-        "isoStatus": "official",
-        "level": "country",
-        "emojiFlag": "🇲🇪",
-        "roadSpeedUnit": "km/h",
-        "roadHeightUnit": "m",
-        "driveSide": "right",
-        "area": 15696.88,
-        "resources": {
-          "me-forum": {
-            "id": "me-forum",
-            "type": "forum",
-            "account": "70",
-            "locationSet": {"include": ["me"]},
-            "strings": {"community": "OpenStreetMap Montenegro"},
-            "resolved": {
-              "name": "OpenStreetMap Montenegro Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=70",
-              "description": "The official forum for OpenStreetMap Montenegro",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=70\">OpenStreetMap Montenegro Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=70\">https://forum.openstreetmap.org/viewforum.php?id=70</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Montenegro"
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [19.22807, 43.5264],
-              [19.15685, 43.53943],
-              [19.13933, 43.5282],
-              [19.04934, 43.50384],
-              [19.01078, 43.55806],
-              [18.91379, 43.50299],
-              [18.95469, 43.49367],
-              [18.96053, 43.45042],
-              [19.01078, 43.43854],
-              [19.04071, 43.397],
-              [19.08673, 43.31453],
-              [19.08206, 43.29668],
-              [19.04233, 43.30008],
-              [19.00844, 43.24988],
-              [18.95001, 43.29327],
-              [18.95819, 43.32899],
-              [18.90911, 43.36383],
-              [18.83912, 43.34795],
-              [18.84794, 43.33735],
-              [18.85342, 43.32426],
-              [18.76538, 43.29838],
-              [18.6976, 43.25243],
-              [18.71747, 43.2286],
-              [18.66605, 43.2056],
-              [18.64735, 43.14766],
-              [18.66254, 43.03928],
-              [18.52232, 43.01451],
-              [18.49076, 42.95553],
-              [18.49661, 42.89306],
-              [18.4935, 42.86433],
-              [18.47633, 42.85829],
-              [18.45921, 42.81682],
-              [18.47324, 42.74992],
-              [18.56789, 42.72074],
-              [18.55221, 42.69045],
-              [18.54603, 42.69171],
-              [18.54841, 42.68328],
-              [18.57373, 42.64429],
-              [18.52232, 42.62279],
-              [18.55504, 42.58409],
-              [18.53751, 42.57376],
-              [18.49778, 42.58409],
-              [18.43735, 42.55921],
-              [18.44307, 42.51077],
-              [18.43588, 42.48556],
-              [18.52152, 42.42302],
-              [18.54128, 42.39171],
-              [18.45131, 42.21682],
-              [19.26406, 41.74971],
-              [19.37597, 41.84849],
-              [19.37451, 41.8842],
-              [19.33812, 41.90669],
-              [19.34601, 41.95675],
-              [19.37691, 41.96977],
-              [19.36867, 42.02564],
-              [19.37548, 42.06835],
-              [19.40687, 42.10024],
-              [19.28623, 42.17745],
-              [19.42, 42.33019],
-              [19.42352, 42.36546],
-              [19.4836, 42.40831],
-              [19.65972, 42.62774],
-              [19.73244, 42.66299],
-              [19.77375, 42.58517],
-              [19.74731, 42.57422],
-              [19.76549, 42.50237],
-              [19.82333, 42.46581],
-              [19.9324, 42.51699],
-              [20.00842, 42.5109],
-              [20.01834, 42.54622],
-              [20.07761, 42.55582],
-              [20.0969, 42.65559],
-              [20.02915, 42.71147],
-              [20.02088, 42.74789],
-              [20.04898, 42.77701],
-              [20.2539, 42.76245],
-              [20.27869, 42.81945],
-              [20.35692, 42.8335],
-              [20.34528, 42.90676],
-              [20.16415, 42.97177],
-              [20.14896, 42.99058],
-              [20.12325, 42.96237],
-              [20.05431, 42.99571],
-              [20.04729, 43.02732],
-              [19.98887, 43.0538],
-              [19.96549, 43.11098],
-              [19.92576, 43.08539],
-              [19.79255, 43.11951],
-              [19.76918, 43.16044],
-              [19.64063, 43.19027],
-              [19.62661, 43.2286],
-              [19.54598, 43.25158],
-              [19.52962, 43.31623],
-              [19.48171, 43.32644],
-              [19.44315, 43.38846],
-              [19.22229, 43.47926],
-              [19.22807, 43.5264]
-            ]
-          ]
-        ]
-      },
-      "id": "Q236"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "iso1A2": "MG",
         "iso1A3": "MDG",
         "iso1N3": "450",
@@ -23366,147 +22482,6 @@
         ]
       },
       "id": "Q1019"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "iso1A2": "MK",
-        "iso1A3": "MKD",
-        "iso1N3": "807",
-        "wikidata": "Q221",
-        "nameEn": "North Macedonia",
-        "groups": ["039", "150", "UN", "001"],
-        "callingCodes": ["389"],
-        "id": "Q221",
-        "m49": "807",
-        "ccTLD": ".mk",
-        "isoStatus": "official",
-        "level": "country",
-        "emojiFlag": "🇲🇰",
-        "roadSpeedUnit": "km/h",
-        "roadHeightUnit": "m",
-        "driveSide": "right",
-        "area": 25489.81,
-        "resources": {
-          "mk-forum": {
-            "id": "mk-forum",
-            "type": "forum",
-            "account": "36",
-            "locationSet": {"include": ["mk"]},
-            "strings": {"community": "OpenStreetMap North Macedonia"},
-            "resolved": {
-              "name": "OpenStreetMap North Macedonia Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=36",
-              "description": "The official forum for OpenStreetMap North Macedonia",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=36\">OpenStreetMap North Macedonia Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=36\">https://forum.openstreetmap.org/viewforum.php?id=36</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap North Macedonia"
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [22.34773, 42.31725],
-              [22.29275, 42.34913],
-              [22.29605, 42.37477],
-              [22.16384, 42.32103],
-              [22.02908, 42.29848],
-              [21.94405, 42.34669],
-              [21.91595, 42.30392],
-              [21.84654, 42.3247],
-              [21.77176, 42.2648],
-              [21.70111, 42.23789],
-              [21.58992, 42.25915],
-              [21.52145, 42.24465],
-              [21.50823, 42.27156],
-              [21.43882, 42.2789],
-              [21.43882, 42.23609],
-              [21.38428, 42.24465],
-              [21.30496, 42.1418],
-              [21.29913, 42.13954],
-              [21.31983, 42.10993],
-              [21.22728, 42.08909],
-              [21.16614, 42.19815],
-              [21.11491, 42.20794],
-              [20.75464, 42.05229],
-              [20.76786, 41.91839],
-              [20.68523, 41.85318],
-              [20.59524, 41.8818],
-              [20.55976, 41.87068],
-              [20.57144, 41.7897],
-              [20.53405, 41.78099],
-              [20.51301, 41.72433],
-              [20.52937, 41.69292],
-              [20.51769, 41.65975],
-              [20.55508, 41.58113],
-              [20.52103, 41.56473],
-              [20.45809, 41.5549],
-              [20.45331, 41.51436],
-              [20.49039, 41.49277],
-              [20.51301, 41.442],
-              [20.55976, 41.4087],
-              [20.52119, 41.34381],
-              [20.49432, 41.33679],
-              [20.51068, 41.2323],
-              [20.59715, 41.13644],
-              [20.58546, 41.11179],
-              [20.59832, 41.09066],
-              [20.63454, 41.0889],
-              [20.65558, 41.08009],
-              [20.71634, 40.91781],
-              [20.73504, 40.9081],
-              [20.81567, 40.89662],
-              [20.83671, 40.92752],
-              [20.94305, 40.92399],
-              [20.97693, 40.90103],
-              [20.97887, 40.85475],
-              [21.15262, 40.85546],
-              [21.21105, 40.8855],
-              [21.25779, 40.86165],
-              [21.35595, 40.87578],
-              [21.41555, 40.9173],
-              [21.53007, 40.90759],
-              [21.57448, 40.86076],
-              [21.69601, 40.9429],
-              [21.7556, 40.92525],
-              [21.91102, 41.04786],
-              [21.90869, 41.09191],
-              [22.06527, 41.15617],
-              [22.1424, 41.12449],
-              [22.17629, 41.15969],
-              [22.26744, 41.16409],
-              [22.42285, 41.11921],
-              [22.5549, 41.13065],
-              [22.58295, 41.11568],
-              [22.62852, 41.14385],
-              [22.65306, 41.18168],
-              [22.71266, 41.13945],
-              [22.74538, 41.16321],
-              [22.76408, 41.32225],
-              [22.81199, 41.3398],
-              [22.93334, 41.34104],
-              [22.96331, 41.35782],
-              [22.95513, 41.63265],
-              [23.03342, 41.71034],
-              [23.01239, 41.76527],
-              [22.96682, 41.77137],
-              [22.90254, 41.87587],
-              [22.86749, 42.02275],
-              [22.67701, 42.06614],
-              [22.51224, 42.15457],
-              [22.50289, 42.19527],
-              [22.47251, 42.20393],
-              [22.38136, 42.30339],
-              [22.34773, 42.31725]
-            ]
-          ]
-        ]
-      },
-      "id": "Q221"
     },
     {
       "type": "Feature",
@@ -24847,22 +23822,6 @@
               "descriptionHTML": "Join our community on Facebook"
             }
           },
-          "mx-forum": {
-            "id": "mx-forum",
-            "type": "forum",
-            "account": "79",
-            "locationSet": {"include": ["mx"]},
-            "languageCodes": ["es"],
-            "strings": {"community": "OpenStreetMap Mexico"},
-            "resolved": {
-              "name": "OpenStreetMap Mexico Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=79",
-              "description": "The official forum for OpenStreetMap Mexico",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=79\">OpenStreetMap Mexico Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=79\">https://forum.openstreetmap.org/viewforum.php?id=79</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Mexico"
-            }
-          },
           "mx-matrix": {
             "id": "mx-matrix",
             "type": "matrix",
@@ -25092,29 +24051,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/openstreetmapMY\">OpenStreetMap Malaysia on Facebook</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/openstreetmapMY\">https://www.facebook.com/groups/openstreetmapMY</a>",
               "descriptionHTML": "Join our community on Facebook"
-            }
-          },
-          "my-forum": {
-            "id": "my-forum",
-            "type": "forum",
-            "account": "60",
-            "locationSet": {"include": ["my"]},
-            "languageCodes": ["en", "ms"],
-            "order": -2,
-            "strings": {"community": "OpenStreetMap Malaysia"},
-            "contacts": [
-              {
-                "name": "Mohd Saidin",
-                "email": "projekopenstreetmap@hotmail.com"
-              }
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Malaysia Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=60",
-              "description": "The official forum for OpenStreetMap Malaysia",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=60\">OpenStreetMap Malaysia Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=60\">https://forum.openstreetmap.org/viewforum.php?id=60</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Malaysia"
             }
           },
           "my-matrix": {
@@ -25950,26 +24886,6 @@
         ],
         "area": 81054.06,
         "resources": {
-          "nl-forum": {
-            "id": "nl-forum",
-            "type": "forum",
-            "account": "12",
-            "locationSet": {"include": ["nl"]},
-            "languageCodes": ["nl"],
-            "order": 3,
-            "strings": {"community": "OpenStreetMap Netherlands"},
-            "contacts": [
-              {"name": "Peter Elderson", "email": "pelderson@gmail.com"}
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Netherlands Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=12",
-              "description": "The official forum for OpenStreetMap Netherlands",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=12\">OpenStreetMap Netherlands Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=12\">https://forum.openstreetmap.org/viewforum.php?id=12</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Netherlands"
-            }
-          },
           "nl-matrix": {
             "id": "nl-matrix",
             "type": "matrix",
@@ -26344,26 +25260,6 @@
         "callingCodes": ["47 79", "47"],
         "area": 1853649.97,
         "resources": {
-          "no-forum": {
-            "id": "no-forum",
-            "type": "forum",
-            "account": "68",
-            "locationSet": {"include": ["no"]},
-            "languageCodes": ["no"],
-            "order": -2,
-            "strings": {"community": "OpenStreetMap Norway"},
-            "contacts": [
-              {"name": "OpenStreetMap Norway", "email": "kart@nuug.no"}
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Norway Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=68",
-              "description": "The official forum for OpenStreetMap Norway",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=68\">OpenStreetMap Norway Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=68\">https://forum.openstreetmap.org/viewforum.php?id=68</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Norway"
-            }
-          },
           "no-irc": {
             "id": "no-irc",
             "type": "irc",
@@ -26692,21 +25588,6 @@
               "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/mapkathmandu\">https://www.facebook.com/groups/mapkathmandu</a>",
               "descriptionHTML": "Join our community on Facebook",
               "extendedDescriptionHTML": "Mapping in Nepal? Have questions, want to connect with the community here? Join us at <a target=\"_blank\" href=\"https://www.facebook.com/groups/mapkathmandu\">https://www.facebook.com/groups/mapkathmandu</a>. All are welcome!"
-            }
-          },
-          "np-forum": {
-            "id": "np-forum",
-            "type": "forum",
-            "account": "81",
-            "locationSet": {"include": ["np"]},
-            "strings": {"community": "OpenStreetMap Nepal"},
-            "resolved": {
-              "name": "OpenStreetMap Nepal Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=81",
-              "description": "The official forum for OpenStreetMap Nepal",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=81\">OpenStreetMap Nepal Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=81\">https://forum.openstreetmap.org/viewforum.php?id=81</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Nepal"
             }
           },
           "talk-np": {
@@ -31196,579 +30077,6 @@
     {
       "type": "Feature",
       "properties": {
-        "m49": "014",
-        "wikidata": "Q27407",
-        "nameEn": "Eastern Africa",
-        "level": "intermediateRegion",
-        "id": "Q27407",
-        "groups": ["202", "002", "UN", "001"],
-        "members": [
-          "Q46772",
-          "Q190571",
-          "Q201698",
-          "Q639185",
-          "Q1298289",
-          "Q1544253",
-          "Q1585511",
-          "Q1681727",
-          "DG",
-          "IO",
-          "RE",
-          "TF",
-          "YT",
-          "BI",
-          "DJ",
-          "ER",
-          "ET",
-          "KE",
-          "KM",
-          "MG",
-          "MU",
-          "MW",
-          "MZ",
-          "RW",
-          "SC",
-          "SO",
-          "SS",
-          "TZ",
-          "UG",
-          "ZM",
-          "ZW"
-        ],
-        "roadSpeedUnit": "km/h",
-        "roadHeightUnit": "m",
-        "callingCodes": [
-          "257",
-          "246",
-          "253",
-          "291",
-          "251",
-          "254",
-          "269",
-          "261",
-          "230",
-          "265",
-          "258",
-          "262",
-          "250",
-          "248",
-          "252",
-          "211",
-          "255",
-          "256",
-          "260",
-          "263"
-        ],
-        "area": 12489820.69,
-        "resources": {
-          "osm-east-africa-forum": {
-            "id": "osm-east-africa-forum",
-            "type": "forum",
-            "account": "88",
-            "locationSet": {"include": ["014"]},
-            "strings": {
-              "name": "OpenStreetMap East Africa Forum",
-              "description": "Chat with other members of the East African OSM community"
-            },
-            "resolved": {
-              "name": "OpenStreetMap East Africa Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=88",
-              "description": "Chat with other members of the East African OSM community",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=88\">OpenStreetMap East Africa Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=88\">https://forum.openstreetmap.org/viewforum.php?id=88</a>",
-              "descriptionHTML": "Chat with other members of the East African OSM community"
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [21.97988, -13.00148],
-              [22.00323, -16.18028],
-              [22.17217, -16.50269],
-              [23.20038, -17.47563],
-              [23.47474, -17.62877],
-              [24.23619, -17.47489],
-              [24.32811, -17.49082],
-              [24.38712, -17.46818],
-              [24.5621, -17.52963],
-              [24.70864, -17.49501],
-              [25.00198, -17.58221],
-              [25.26433, -17.79571],
-              [25.23909, -17.90832],
-              [25.31799, -18.07091],
-              [25.39972, -18.12691],
-              [25.53465, -18.39041],
-              [25.68859, -18.56165],
-              [25.79217, -18.6355],
-              [25.82353, -18.82808],
-              [25.94326, -18.90362],
-              [25.99837, -19.02943],
-              [25.96226, -19.08152],
-              [26.17227, -19.53709],
-              [26.72246, -19.92707],
-              [27.21278, -20.08244],
-              [27.29831, -20.28935],
-              [27.28865, -20.49873],
-              [27.69361, -20.48531],
-              [27.72972, -20.51735],
-              [27.69171, -21.08409],
-              [27.91407, -21.31621],
-              [28.01669, -21.57624],
-              [28.29416, -21.59037],
-              [28.49942, -21.66634],
-              [28.58114, -21.63455],
-              [29.07763, -21.81877],
-              [29.04023, -21.85864],
-              [29.02191, -21.90647],
-              [29.02191, -21.95665],
-              [29.04108, -22.00563],
-              [29.08495, -22.04867],
-              [29.14501, -22.07275],
-              [29.1974, -22.07472],
-              [29.24648, -22.05967],
-              [29.3533, -22.18363],
-              [29.37703, -22.19581],
-              [29.64609, -22.12917],
-              [29.76848, -22.14128],
-              [29.92242, -22.19408],
-              [30.13147, -22.30841],
-              [30.2265, -22.2961],
-              [30.28351, -22.35587],
-              [30.38614, -22.34533],
-              [30.48686, -22.31368],
-              [30.6294, -22.32599],
-              [30.86696, -22.28907],
-              [31.08932, -22.34884],
-              [31.16344, -22.32599],
-              [31.30611, -22.422],
-              [31.55779, -23.176],
-              [31.56539, -23.47268],
-              [31.67942, -23.60858],
-              [31.70223, -23.72695],
-              [31.77445, -23.90082],
-              [31.87707, -23.95293],
-              [31.90368, -24.18892],
-              [31.9835, -24.29983],
-              [32.03196, -25.10785],
-              [32.01676, -25.38117],
-              [31.97875, -25.46356],
-              [32.00631, -25.65044],
-              [31.92649, -25.84216],
-              [31.974, -25.95387],
-              [32.00916, -25.999],
-              [32.08599, -26.00978],
-              [32.10435, -26.15656],
-              [32.07352, -26.40185],
-              [32.13409, -26.5317],
-              [32.13315, -26.84345],
-              [32.19409, -26.84032],
-              [32.22302, -26.84136],
-              [32.29584, -26.852],
-              [32.35222, -26.86027],
-              [34.51034, -26.91792],
-              [42.99868, -12.65261],
-              [40.74206, -10.25691],
-              [40.14328, -4.64201],
-              [39.62121, -4.68136],
-              [41.75542, -1.85308],
-              [57.49095, 8.14549],
-              [51.12877, 12.56479],
-              [43.90659, 12.3823],
-              [43.32909, 12.59711],
-              [43.29075, 12.79154],
-              [40.99158, 15.81743],
-              [39.63762, 18.37348],
-              [38.57727, 17.98125],
-              [38.45916, 17.87167],
-              [38.37133, 17.66269],
-              [38.13362, 17.53906],
-              [37.50967, 17.32199],
-              [37.42694, 17.04041],
-              [36.99777, 17.07172],
-              [36.92193, 16.23451],
-              [36.76371, 15.80831],
-              [36.69761, 15.75323],
-              [36.54276, 15.23478],
-              [36.44337, 15.14963],
-              [36.54376, 14.25597],
-              [36.44653, 13.95666],
-              [36.48824, 13.83954],
-              [36.38993, 13.56459],
-              [36.24545, 13.36759],
-              [36.13374, 12.92665],
-              [36.16651, 12.88019],
-              [36.14268, 12.70879],
-              [36.01458, 12.72478],
-              [35.70476, 12.67101],
-              [35.24302, 11.91132],
-              [35.11492, 11.85156],
-              [35.05832, 11.71158],
-              [35.09556, 11.56278],
-              [34.95704, 11.24448],
-              [35.01215, 11.19626],
-              [34.93172, 10.95946],
-              [34.97789, 10.91559],
-              [34.97491, 10.86147],
-              [34.86916, 10.78832],
-              [34.86618, 10.74588],
-              [34.77532, 10.69027],
-              [34.77383, 10.74588],
-              [34.59062, 10.89072],
-              [34.4372, 10.781],
-              [34.2823, 10.53508],
-              [34.34783, 10.23914],
-              [34.32102, 10.11599],
-              [34.22718, 10.02506],
-              [34.20484, 9.9033],
-              [34.13186, 9.7492],
-              [34.08717, 9.55243],
-              [34.10229, 9.50238],
-              [33.87958, 9.49937],
-              [33.9082, 9.762],
-              [33.96323, 9.80972],
-              [33.99185, 9.99623],
-              [33.96984, 10.15446],
-              [33.90159, 10.17179],
-              [33.80913, 10.32994],
-              [33.66604, 10.44254],
-              [33.52294, 10.64382],
-              [33.24645, 10.77913],
-              [33.26977, 10.83632],
-              [33.13988, 11.43248],
-              [33.25876, 12.22111],
-              [32.73921, 12.22757],
-              [32.73921, 11.95203],
-              [32.10079, 11.95203],
-              [32.39578, 11.70208],
-              [32.39358, 11.18207],
-              [32.46967, 11.04662],
-              [31.99177, 10.65065],
-              [31.77539, 10.28939],
-              [31.28504, 9.75287],
-              [30.84605, 9.7498],
-              [30.82893, 9.71451],
-              [30.53005, 9.95992],
-              [30.00389, 10.28633],
-              [29.94629, 10.29245],
-              [29.54, 10.07949],
-              [29.53844, 9.75133],
-              [29.06988, 9.74826],
-              [28.99983, 9.67155],
-              [27.90704, 9.61323],
-              [27.14427, 9.62858],
-              [26.70685, 9.48735],
-              [26.35815, 9.57946],
-              [26.21338, 9.91545],
-              [25.93241, 10.17941],
-              [25.93163, 10.38159],
-              [25.78141, 10.42599],
-              [25.0918, 10.33718],
-              [25.05688, 10.06776],
-              [24.97739, 9.9081],
-              [24.84653, 9.80643],
-              [24.49389, 9.79962],
-              [24.12744, 9.73784],
-              [24.09319, 9.66572],
-              [23.69155, 9.67566],
-              [23.62179, 9.53823],
-              [23.64981, 9.44303],
-              [23.64358, 9.28637],
-              [23.56263, 9.19418],
-              [23.4848, 9.16959],
-              [23.44744, 8.99128],
-              [23.59065, 8.99743],
-              [23.51905, 8.71749],
-              [24.25691, 8.69288],
-              [24.13238, 8.36959],
-              [24.35965, 8.26177],
-              [24.85156, 8.16933],
-              [24.98855, 7.96588],
-              [25.25319, 7.8487],
-              [25.29214, 7.66675],
-              [25.20649, 7.61115],
-              [25.20337, 7.50312],
-              [25.35281, 7.42595],
-              [25.37461, 7.33024],
-              [25.90076, 7.09549],
-              [26.38022, 6.63493],
-              [26.32729, 6.36272],
-              [26.58259, 6.1987],
-              [26.51721, 6.09655],
-              [27.22705, 5.71254],
-              [27.22705, 5.62889],
-              [27.28621, 5.56382],
-              [27.23017, 5.37167],
-              [27.26886, 5.25876],
-              [27.44012, 5.07349],
-              [27.56656, 4.89375],
-              [27.65462, 4.89375],
-              [27.76469, 4.79284],
-              [27.79551, 4.59976],
-              [28.20719, 4.35614],
-              [28.6651, 4.42638],
-              [28.8126, 4.48784],
-              [29.03054, 4.48784],
-              [29.22207, 4.34297],
-              [29.43341, 4.50101],
-              [29.49726, 4.7007],
-              [29.82087, 4.56246],
-              [29.79666, 4.37809],
-              [30.06964, 4.13221],
-              [30.1621, 4.10586],
-              [30.22374, 3.93896],
-              [30.27658, 3.95653],
-              [30.47691, 3.83353],
-              [30.55396, 3.84451],
-              [30.57378, 3.74567],
-              [30.56277, 3.62703],
-              [30.78512, 3.67097],
-              [30.80713, 3.60506],
-              [30.85997, 3.5743],
-              [30.85153, 3.48867],
-              [30.94081, 3.50847],
-              [30.93486, 3.40737],
-              [30.84251, 3.26908],
-              [30.77101, 3.04897],
-              [30.8574, 2.9508],
-              [30.8857, 2.83923],
-              [30.75612, 2.5863],
-              [30.74271, 2.43601],
-              [30.83059, 2.42559],
-              [30.91102, 2.33332],
-              [30.96911, 2.41071],
-              [31.06593, 2.35862],
-              [31.07934, 2.30207],
-              [31.12104, 2.27676],
-              [31.1985, 2.29462],
-              [31.20148, 2.2217],
-              [31.28042, 2.17853],
-              [31.30127, 2.11006],
-              [30.48503, 1.21675],
-              [30.24671, 1.14974],
-              [30.22139, 0.99635],
-              [30.1484, 0.89805],
-              [29.98307, 0.84295],
-              [29.95477, 0.64486],
-              [29.97413, 0.52124],
-              [29.87284, 0.39166],
-              [29.81922, 0.16824],
-              [29.77454, 0.16675],
-              [29.7224, 0.07291],
-              [29.72687, -0.08051],
-              [29.65091, -0.46777],
-              [29.67474, -0.47969],
-              [29.67176, -0.55714],
-              [29.62708, -0.71055],
-              [29.63006, -0.8997],
-              [29.58388, -0.89821],
-              [29.59061, -1.39016],
-              [29.53062, -1.40499],
-              [29.45038, -1.5054],
-              [29.36322, -1.50887],
-              [29.24323, -1.66826],
-              [29.24458, -1.69663],
-              [29.11847, -1.90576],
-              [29.17562, -2.12278],
-              [29.105, -2.27043],
-              [29.00051, -2.29001],
-              [28.95642, -2.37321],
-              [28.89601, -2.37321],
-              [28.86826, -2.41888],
-              [28.86846, -2.44866],
-              [28.89132, -2.47557],
-              [28.89342, -2.49017],
-              [28.88846, -2.50493],
-              [28.87497, -2.50887],
-              [28.86209, -2.5231],
-              [28.86193, -2.53185],
-              [28.87943, -2.55165],
-              [28.89288, -2.55848],
-              [28.90226, -2.62385],
-              [28.89793, -2.66111],
-              [28.94346, -2.69124],
-              [29.00357, -2.70596],
-              [29.04081, -2.7416],
-              [29.00167, -2.78523],
-              [29.00404, -2.81978],
-              [29.0505, -2.81774],
-              [29.09119, -2.87871],
-              [29.09797, -2.91935],
-              [29.16037, -2.95457],
-              [29.17258, -2.99385],
-              [29.25633, -3.05471],
-              [29.21463, -3.3514],
-              [29.23708, -3.75856],
-              [29.43673, -4.44845],
-              [29.52552, -6.2731],
-              [30.2567, -7.14121],
-              [30.79243, -8.27382],
-              [28.88917, -8.4831],
-              [28.9711, -8.66935],
-              [28.38526, -9.23393],
-              [28.36562, -9.30091],
-              [28.52636, -9.35379],
-              [28.51627, -9.44726],
-              [28.56208, -9.49122],
-              [28.68532, -9.78],
-              [28.62795, -9.92942],
-              [28.65032, -10.65133],
-              [28.37241, -11.57848],
-              [28.48357, -11.87532],
-              [29.18592, -12.37921],
-              [29.4992, -12.43843],
-              [29.48404, -12.23604],
-              [29.8139, -12.14898],
-              [29.81551, -13.44683],
-              [29.65078, -13.41844],
-              [29.60531, -13.21685],
-              [29.01918, -13.41353],
-              [28.33199, -12.41375],
-              [27.59932, -12.22123],
-              [27.21025, -11.76157],
-              [27.22541, -11.60323],
-              [27.04351, -11.61312],
-              [26.88687, -12.01868],
-              [26.01777, -11.91488],
-              [25.33058, -11.65767],
-              [25.34069, -11.19707],
-              [24.42612, -11.44975],
-              [24.34528, -11.06816],
-              [24.00027, -10.89356],
-              [24.02603, -11.15368],
-              [23.98804, -12.13149],
-              [24.06672, -12.29058],
-              [23.90937, -12.844],
-              [24.03339, -12.99091],
-              [21.97988, -13.00148]
-            ]
-          ],
-          [
-            [
-              [38.55969, -20.75596],
-              [40.68027, -23.38889],
-              [43.52893, -15.62903],
-              [38.55969, -20.75596]
-            ]
-          ],
-          [
-            [
-              [42.14681, -19.63341],
-              [45.80092, -33.00974],
-              [51.93891, -10.85085],
-              [45.84651, -12.77177],
-              [42.14681, -19.63341]
-            ]
-          ],
-          [
-            [
-              [42.63904, -10.02522],
-              [43.28731, -13.97126],
-              [45.54824, -13.22353],
-              [45.4971, -11.75965],
-              [42.63904, -10.02522]
-            ]
-          ],
-          [
-            [
-              [43.75112, -10.38913],
-              [54.83239, -10.93575],
-              [66.3222, 5.65313],
-              [43.75112, -10.38913]
-            ]
-          ],
-          [
-            [
-              [46.31615, -46.28749],
-              [54.5587, -47.93013],
-              [55.03425, -43.65017],
-              [46.31615, -46.28749]
-            ]
-          ],
-          [
-            [
-              [47.03092, -11.05648],
-              [47.11593, -12.08552],
-              [47.96702, -11.46447],
-              [47.03092, -11.05648]
-            ]
-          ],
-          [
-            [
-              [53.37984, -21.23941],
-              [56.73473, -21.9174],
-              [56.62373, -20.2711],
-              [53.37984, -21.23941]
-            ]
-          ],
-          [
-            [
-              [53.53458, -16.36909],
-              [54.96649, -16.28353],
-              [54.61476, -15.02273],
-              [53.53458, -16.36909]
-            ]
-          ],
-          [
-            [
-              [56.09755, -9.55401],
-              [57.50644, -31.92637],
-              [68.4673, -19.15185],
-              [56.09755, -9.55401]
-            ]
-          ],
-          [
-            [
-              [61.9216, -49.39746],
-              [70.67507, -51.14192],
-              [74.25129, -45.45074],
-              [61.9216, -49.39746]
-            ]
-          ],
-          [
-            [
-              [70.1848, -6.37445],
-              [70.67958, -8.2663],
-              [72.17991, -6.68509],
-              [73.20573, -5.20727],
-              [70.1848, -6.37445]
-            ]
-          ],
-          [
-            [
-              [70.1848, -6.37445],
-              [72.09518, -5.61768],
-              [73.20573, -5.20727],
-              [72.12587, -4.02588],
-              [70.1848, -6.37445]
-            ]
-          ],
-          [
-            [
-              [71.22311, -38.75287],
-              [76.31747, -42.16264],
-              [80.15867, -36.04977],
-              [71.22311, -38.75287]
-            ]
-          ],
-          [
-            [
-              [71.43792, -7.73904],
-              [73.14823, -7.76302],
-              [73.09982, -6.07324],
-              [71.43792, -7.73904]
-            ]
-          ]
-        ]
-      },
-      "id": "Q27407"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "iso1A2": "EG",
         "iso1A3": "EGY",
         "iso1N3": "818",
@@ -32622,28 +30930,6 @@
               "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/mappingindia\">https://www.facebook.com/groups/mappingindia</a>",
               "descriptionHTML": "Improve OpenStreetMap in India",
               "extendedDescriptionHTML": "Mapping in India? Have questions, want to connect with the community here? Join us at <a target=\"_blank\" href=\"https://www.facebook.com/groups/mappingindia\">https://www.facebook.com/groups/mappingindia</a>. All are welcome!"
-            }
-          },
-          "osm-india-forum": {
-            "id": "osm-india-forum",
-            "type": "forum",
-            "account": "65",
-            "locationSet": {"include": ["in"]},
-            "order": -2,
-            "strings": {"community": "OpenStreetMap India"},
-            "contacts": [
-              {
-                "name": "OpenStreetMap India",
-                "email": "openstreetmapindia@gmail.com"
-              }
-            ],
-            "resolved": {
-              "name": "OpenStreetMap India Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=65",
-              "description": "The official forum for OpenStreetMap India",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=65\">OpenStreetMap India Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=65\">https://forum.openstreetmap.org/viewforum.php?id=65</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap India"
             }
           },
           "osm-india-github": {
@@ -33671,29 +31957,6 @@
               "urlHTML": "<a target=\"_blank\" href=\"https://discord.gg/MCA7A87Def\">https://discord.gg/MCA7A87Def</a>",
               "descriptionHTML": "Get in touch with other mappers on Discord",
               "extendedDescriptionHTML": "A Discord server for OpenStreetMap Iran. Feel free to join!"
-            }
-          },
-          "osm-iran-forum": {
-            "id": "osm-iran-forum",
-            "type": "forum",
-            "account": "103",
-            "locationSet": {"include": ["ir"]},
-            "languageCodes": ["fa"],
-            "order": -2,
-            "strings": {
-              "community": "OpenStreetMap Iran",
-              "extendedDescription": "A web forum for OpenStreetMap users in Iran. Feel free to ask questions and discuss with others!"
-            },
-            "contacts": [{"name": "Iman", "email": "iriman@chmail.ir"}],
-            "resolved": {
-              "name": "OpenStreetMap Iran Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=103",
-              "description": "The official forum for OpenStreetMap Iran",
-              "extendedDescription": "A web forum for OpenStreetMap users in Iran. Feel free to ask questions and discuss with others!",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=103\">OpenStreetMap Iran Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=103\">https://forum.openstreetmap.org/viewforum.php?id=103</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Iran",
-              "extendedDescriptionHTML": "A web forum for OpenStreetMap users in Iran. Feel free to ask questions and discuss with others!"
             }
           },
           "osm-iran-telegram": {
@@ -35584,27 +33847,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/500589303317858/\">OpenStreetMap Poland on Facebook</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/500589303317858/\">https://www.facebook.com/groups/500589303317858/</a>",
               "descriptionHTML": "Join our community on Facebook"
-            }
-          },
-          "OSM-PL-forum": {
-            "id": "OSM-PL-forum",
-            "type": "forum",
-            "account": "23",
-            "locationSet": {"include": ["pl"]},
-            "languageCodes": ["en", "pl"],
-            "order": 10,
-            "strings": {"community": "OpenStreetMap Poland"},
-            "contacts": [
-              {"name": "Daniel Koć", "email": "daniel@xn--ko-wla.pl"},
-              {"name": "Ryszard Mikke", "email": "ryszard.mikke@gmail.com"}
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Poland Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=23",
-              "description": "The official forum for OpenStreetMap Poland",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=23\">OpenStreetMap Poland Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=23\">https://forum.openstreetmap.org/viewforum.php?id=23</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Poland"
             }
           },
           "OSM-PL-github": {
@@ -37690,23 +35932,6 @@
         "driveSide": "right",
         "area": 174660.53,
         "resources": {
-          "pa-forum": {
-            "id": "pa-forum",
-            "type": "forum",
-            "account": "61",
-            "locationSet": {"include": ["pa"]},
-            "languageCodes": ["en", "es"],
-            "order": 10,
-            "strings": {"community": "OpenStreetMap Panama"},
-            "resolved": {
-              "name": "OpenStreetMap Panama Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=61",
-              "description": "The official forum for OpenStreetMap Panama",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=61\">OpenStreetMap Panama Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=61\">https://forum.openstreetmap.org/viewforum.php?id=61</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Panama"
-            }
-          },
           "pa-telegram": {
             "id": "pa-telegram",
             "type": "telegram",
@@ -37876,21 +36101,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/620764364636530\">OpenStreetMap Pakistan on Facebook</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/620764364636530\">https://www.facebook.com/groups/620764364636530</a>",
               "descriptionHTML": "Join our community on Facebook"
-            }
-          },
-          "pk-forum": {
-            "id": "pk-forum",
-            "type": "forum",
-            "account": "80",
-            "locationSet": {"include": ["pk"]},
-            "strings": {"community": "OpenStreetMap Pakistan"},
-            "resolved": {
-              "name": "OpenStreetMap Pakistan Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=80",
-              "description": "The official forum for OpenStreetMap Pakistan",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=80\">OpenStreetMap Pakistan Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=80\">https://forum.openstreetmap.org/viewforum.php?id=80</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Pakistan"
             }
           }
         }
@@ -38496,21 +36706,6 @@
         "driveSide": "right",
         "area": 400777.6,
         "resources": {
-          "py-forum": {
-            "id": "py-forum",
-            "type": "forum",
-            "account": "98",
-            "locationSet": {"include": ["py"]},
-            "strings": {"community": "OpenStreetMap Paraguay"},
-            "resolved": {
-              "name": "OpenStreetMap Paraguay Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=98",
-              "description": "The official forum for OpenStreetMap Paraguay",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=98\">OpenStreetMap Paraguay Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=98\">https://forum.openstreetmap.org/viewforum.php?id=98</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Paraguay"
-            }
-          },
           "py-telegram": {
             "id": "py-telegram",
             "type": "telegram",
@@ -38741,21 +36936,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/1487443198159793\">OpenStreetMap Romania on Facebook</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/1487443198159793\">https://www.facebook.com/groups/1487443198159793</a>",
               "descriptionHTML": "Join our community on Facebook"
-            }
-          },
-          "ro-forum": {
-            "id": "ro-forum",
-            "type": "forum",
-            "account": "69",
-            "locationSet": {"include": ["ro"]},
-            "strings": {"community": "OpenStreetMap Romania"},
-            "resolved": {
-              "name": "OpenStreetMap Romania Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=69",
-              "description": "The official forum for OpenStreetMap Romania",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=69\">OpenStreetMap Romania Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=69\">https://forum.openstreetmap.org/viewforum.php?id=69</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Romania"
             }
           },
           "ro-telegram": {
@@ -39478,24 +37658,6 @@
         "callingCodes": ["7"],
         "area": 25286551.28,
         "resources": {
-          "ru-forum": {
-            "id": "ru-forum",
-            "type": "forum",
-            "account": "21",
-            "locationSet": {"include": ["ru"]},
-            "languageCodes": ["ru"],
-            "order": -2,
-            "strings": {"community": "OpenStreetMap Russia"},
-            "contacts": [{"name": "Ilya Zverev", "email": "ilya@zverev.info"}],
-            "resolved": {
-              "name": "OpenStreetMap Russia Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=21",
-              "description": "The official forum for OpenStreetMap Russia",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=21\">OpenStreetMap Russia Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=21\">https://forum.openstreetmap.org/viewforum.php?id=21</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Russia"
-            }
-          },
           "ru-telegram": {
             "id": "ru-telegram",
             "type": "telegram",
@@ -40939,23 +39101,6 @@
               "descriptionHTML": "Join our community on Facebook"
             }
           },
-          "se-forum": {
-            "id": "se-forum",
-            "type": "forum",
-            "account": "4",
-            "locationSet": {"include": ["se"]},
-            "languageCodes": ["sv"],
-            "order": -2,
-            "strings": {"community": "OpenStreetMap Sweden"},
-            "resolved": {
-              "name": "OpenStreetMap Sweden Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=4",
-              "description": "The official forum for OpenStreetMap Sweden",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=4\">OpenStreetMap Sweden Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=4\">https://forum.openstreetmap.org/viewforum.php?id=4</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Sweden"
-            }
-          },
           "se-irc": {
             "id": "se-irc",
             "type": "irc",
@@ -41168,23 +39313,6 @@
         "driveSide": "right",
         "area": 20480.32,
         "resources": {
-          "si-forum": {
-            "id": "si-forum",
-            "type": "forum",
-            "account": "58",
-            "locationSet": {"include": ["si"]},
-            "languageCodes": ["en", "sl"],
-            "order": -2,
-            "strings": {"community": "OpenStreetMap Slovenia"},
-            "resolved": {
-              "name": "OpenStreetMap Slovenia Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=58",
-              "description": "The official forum for OpenStreetMap Slovenia",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=58\">OpenStreetMap Slovenia Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=58\">https://forum.openstreetmap.org/viewforum.php?id=58</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Slovenia"
-            }
-          },
           "si-twitter": {
             "id": "si-twitter",
             "type": "twitter",
@@ -43321,6 +41449,220 @@
     {
       "type": "Feature",
       "properties": {
+        "iso1A2": "LT",
+        "iso1A3": "LTU",
+        "iso1N3": "440",
+        "wikidata": "Q37",
+        "nameEn": "Lithuania",
+        "groups": ["154", "150", "EU", "UN", "001"],
+        "callingCodes": ["370"],
+        "id": "Q37",
+        "m49": "440",
+        "ccTLD": ".lt",
+        "isoStatus": "official",
+        "level": "country",
+        "emojiFlag": "🇱🇹",
+        "roadSpeedUnit": "km/h",
+        "roadHeightUnit": "m",
+        "driveSide": "right",
+        "area": 67679.59,
+        "resources": {
+          "talk-lt": {
+            "id": "talk-lt",
+            "type": "mailinglist",
+            "account": "talk-lt",
+            "locationSet": {"include": ["lt"]},
+            "languageCodes": ["lt"],
+            "order": 1,
+            "strings": {"community": "OpenStreetMap Lithuania"},
+            "resolved": {
+              "name": "talk-lt Mailing List",
+              "url": "https://lists.openstreetmap.org/listinfo/talk-lt",
+              "description": "The official mailing list for OpenStreetMap Lithuania",
+              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-lt\">talk-lt Mailing List</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-lt\">https://lists.openstreetmap.org/listinfo/talk-lt</a>",
+              "descriptionHTML": "The official mailing list for OpenStreetMap Lithuania"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [24.89005, 56.46666],
+              [24.83686, 56.41565],
+              [24.70022, 56.40483],
+              [24.57353, 56.31525],
+              [24.58143, 56.29125],
+              [24.42746, 56.26522],
+              [24.32334, 56.30226],
+              [24.13139, 56.24881],
+              [24.02657, 56.3231],
+              [23.75726, 56.37282],
+              [23.49803, 56.34307],
+              [23.40486, 56.37689],
+              [23.31606, 56.3827],
+              [23.17312, 56.36795],
+              [23.09531, 56.30511],
+              [22.96988, 56.41213],
+              [22.83048, 56.367],
+              [22.69354, 56.36284],
+              [22.56441, 56.39305],
+              [22.3361, 56.4016],
+              [22.09728, 56.42851],
+              [22.00548, 56.41508],
+              [21.74558, 56.33181],
+              [21.57888, 56.31406],
+              [21.49736, 56.29106],
+              [21.24644, 56.16917],
+              [21.15016, 56.07818],
+              [20.68447, 56.04073],
+              [20.60454, 55.40986],
+              [20.95181, 55.27994],
+              [21.26425, 55.24456],
+              [21.35465, 55.28427],
+              [21.38446, 55.29348],
+              [21.46766, 55.21115],
+              [21.51095, 55.18507],
+              [21.55605, 55.20311],
+              [21.64954, 55.1791],
+              [21.85521, 55.09493],
+              [21.96505, 55.07353],
+              [21.99543, 55.08691],
+              [22.03984, 55.07888],
+              [22.02582, 55.05078],
+              [22.06087, 55.02935],
+              [22.11697, 55.02131],
+              [22.14267, 55.05345],
+              [22.31562, 55.0655],
+              [22.47688, 55.04408],
+              [22.58907, 55.07085],
+              [22.60075, 55.01863],
+              [22.65451, 54.97037],
+              [22.68723, 54.9811],
+              [22.76422, 54.92521],
+              [22.85083, 54.88711],
+              [22.87317, 54.79492],
+              [22.73631, 54.72952],
+              [22.73397, 54.66604],
+              [22.75467, 54.6483],
+              [22.74225, 54.64339],
+              [22.7522, 54.63525],
+              [22.68021, 54.58486],
+              [22.71293, 54.56454],
+              [22.67788, 54.532],
+              [22.70208, 54.45312],
+              [22.7253, 54.41732],
+              [22.79705, 54.36264],
+              [22.83756, 54.40827],
+              [23.00584, 54.38514],
+              [22.99649, 54.35927],
+              [23.05726, 54.34565],
+              [23.04323, 54.31567],
+              [23.104, 54.29794],
+              [23.13905, 54.31567],
+              [23.15526, 54.31076],
+              [23.15938, 54.29894],
+              [23.24656, 54.25701],
+              [23.3494, 54.25155],
+              [23.39525, 54.21672],
+              [23.42418, 54.17911],
+              [23.45223, 54.17775],
+              [23.49196, 54.14764],
+              [23.52702, 54.04622],
+              [23.48261, 53.98855],
+              [23.51284, 53.95052],
+              [23.61677, 53.92691],
+              [23.71726, 53.93379],
+              [23.80543, 53.89558],
+              [23.81309, 53.94205],
+              [23.95098, 53.9613],
+              [23.98837, 53.92554],
+              [24.19638, 53.96405],
+              [24.34128, 53.90076],
+              [24.44411, 53.90076],
+              [24.62275, 54.00217],
+              [24.69652, 54.01901],
+              [24.69185, 53.96543],
+              [24.74279, 53.96663],
+              [24.85311, 54.02862],
+              [24.77131, 54.11091],
+              [24.96894, 54.17589],
+              [24.991, 54.14241],
+              [25.0728, 54.13419],
+              [25.19199, 54.219],
+              [25.22705, 54.26271],
+              [25.35559, 54.26544],
+              [25.509, 54.30267],
+              [25.56823, 54.25212],
+              [25.51452, 54.17799],
+              [25.54724, 54.14925],
+              [25.64875, 54.1259],
+              [25.71084, 54.16704],
+              [25.78563, 54.15747],
+              [25.78553, 54.23327],
+              [25.68513, 54.31727],
+              [25.55425, 54.31591],
+              [25.5376, 54.33158],
+              [25.63371, 54.42075],
+              [25.62203, 54.4656],
+              [25.64813, 54.48704],
+              [25.68045, 54.5321],
+              [25.75977, 54.57252],
+              [25.74122, 54.80108],
+              [25.89462, 54.93438],
+              [25.99129, 54.95705],
+              [26.05907, 54.94631],
+              [26.13386, 54.98924],
+              [26.20397, 54.99729],
+              [26.26941, 55.08032],
+              [26.23202, 55.10439],
+              [26.30628, 55.12536],
+              [26.35121, 55.1525],
+              [26.46249, 55.12814],
+              [26.51481, 55.16051],
+              [26.54753, 55.14181],
+              [26.69243, 55.16718],
+              [26.68075, 55.19787],
+              [26.72983, 55.21788],
+              [26.73017, 55.24226],
+              [26.835, 55.28182],
+              [26.83266, 55.30444],
+              [26.80929, 55.31642],
+              [26.6714, 55.33902],
+              [26.5709, 55.32572],
+              [26.44937, 55.34832],
+              [26.5522, 55.40277],
+              [26.55094, 55.5093],
+              [26.63167, 55.57887],
+              [26.63231, 55.67968],
+              [26.58248, 55.6754],
+              [26.46661, 55.70375],
+              [26.39561, 55.71156],
+              [26.18509, 55.86813],
+              [26.03815, 55.95884],
+              [25.90047, 56.0013],
+              [25.85893, 56.00188],
+              [25.81773, 56.05444],
+              [25.69246, 56.08892],
+              [25.68588, 56.14725],
+              [25.53621, 56.16663],
+              [25.39751, 56.15707],
+              [25.23099, 56.19147],
+              [25.09325, 56.1878],
+              [25.05762, 56.26742],
+              [24.89005, 56.46666]
+            ]
+          ]
+        ]
+      },
+      "id": "Q37"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "iso1A2": "NZ",
         "iso1A3": "NZL",
         "iso1N3": "554",
@@ -44565,23 +42907,6 @@
               "descriptionHTML": "The official mailing list for OpenStreetMap Uruguay"
             }
           },
-          "uy-forum": {
-            "id": "uy-forum",
-            "type": "forum",
-            "account": "78",
-            "locationSet": {"include": ["uy"]},
-            "languageCodes": ["es"],
-            "order": -2,
-            "strings": {"community": "OpenStreetMap Uruguay"},
-            "resolved": {
-              "name": "OpenStreetMap Uruguay Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=78",
-              "description": "The official forum for OpenStreetMap Uruguay",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=78\">OpenStreetMap Uruguay Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=78\">https://forum.openstreetmap.org/viewforum.php?id=78</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Uruguay"
-            }
-          },
           "uy-irc": {
             "id": "uy-irc",
             "type": "irc",
@@ -44706,23 +43031,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-ve\">talk-ve Mailing List</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-ve\">https://lists.openstreetmap.org/listinfo/talk-ve</a>",
               "descriptionHTML": "The official mailing list for OpenStreetMap Venezuela"
-            }
-          },
-          "ve-forum": {
-            "id": "ve-forum",
-            "type": "forum",
-            "account": "50",
-            "locationSet": {"include": ["ve"]},
-            "languageCodes": ["es"],
-            "order": -2,
-            "strings": {"community": "OpenStreetMap Venezuela"},
-            "resolved": {
-              "name": "OpenStreetMap Venezuela Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=50",
-              "description": "The official forum for OpenStreetMap Venezuela",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=50\">OpenStreetMap Venezuela Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=50\">https://forum.openstreetmap.org/viewforum.php?id=50</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Venezuela"
             }
           },
           "ve-telegram": {
@@ -44935,21 +43243,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-za\">talk-za Mailing List</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-za\">https://lists.openstreetmap.org/listinfo/talk-za</a>",
               "descriptionHTML": "The official mailing list for OpenStreetMap South Africa"
-            }
-          },
-          "za-forum": {
-            "id": "za-forum",
-            "type": "forum",
-            "account": "75",
-            "locationSet": {"include": ["za"]},
-            "strings": {"community": "OpenStreetMap South Africa"},
-            "resolved": {
-              "name": "OpenStreetMap South Africa Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=75",
-              "description": "The official forum for OpenStreetMap South Africa",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=75\">OpenStreetMap South Africa Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=75\">https://forum.openstreetmap.org/viewforum.php?id=75</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap South Africa"
             }
           },
           "za-twitter": {
@@ -45433,26 +43726,6 @@
               "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/thaiosm\">https://www.facebook.com/groups/thaiosm</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
-          },
-          "th-forum": {
-            "id": "th-forum",
-            "type": "forum",
-            "account": "46",
-            "locationSet": {"include": ["th"]},
-            "languageCodes": ["en", "th"],
-            "order": -2,
-            "strings": {"community": "OpenStreetMap Thailand"},
-            "contacts": [
-              {"name": "Stephan Knauss", "email": "osm@stephans-server.de"}
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Thailand Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=46",
-              "description": "The official forum for OpenStreetMap Thailand",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=46\">OpenStreetMap Thailand Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=46\">https://forum.openstreetmap.org/viewforum.php?id=46</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Thailand"
-            }
           }
         }
       },
@@ -45902,24 +44175,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/openstreetmapua\">OpenStreetMap Ukraine on Facebook</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/openstreetmapua\">https://www.facebook.com/openstreetmapua</a>",
               "descriptionHTML": "Join our community on Facebook"
-            }
-          },
-          "ua-forum": {
-            "id": "ua-forum",
-            "type": "forum",
-            "account": "40",
-            "locationSet": {"include": ["ukraine.geojson"]},
-            "languageCodes": ["en", "ru", "uk"],
-            "order": 2,
-            "strings": {"community": "OpenStreetMap Ukraine"},
-            "contacts": [{"name": "Andrii Holovin", "email": "andygol@ua.fm"}],
-            "resolved": {
-              "name": "OpenStreetMap Ukraine Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=40",
-              "description": "The official forum for OpenStreetMap Ukraine",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=40\">OpenStreetMap Ukraine Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=40\">https://forum.openstreetmap.org/viewforum.php?id=40</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Ukraine"
             }
           },
           "ua-github": {
