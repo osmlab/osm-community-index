@@ -9,7 +9,6 @@ fa:
     openstreetmapafrica: اوپن‌استریت‌مپ آفریقا
     openstreetmapalba: اوپن‌استریت‌مپ آلبا (رومانی)
     openstreetmapalbania: اوپن‌استریت‌مپ آلبانی
-    openstreetmapalgeria: اوپن‌استریت‌مپ الجزایر
     openstreetmapargentina: اوپن‌استریت‌مپ آرژانتین
     openstreetmapasia: اوپن‌استریت‌مپ آسیا
     openstreetmapasti: اوپن‌استریت‌مپ آسته
@@ -111,7 +110,6 @@ fa:
     openstreetmapmichigan: اوپن‌استریت‌مپ میشیگان
     openstreetmapmoldova: اوپن‌استریت‌مپ مولداوی
     openstreetmapmongolia: اوپن‌استریت‌مپ مغولستان
-    openstreetmapmontenegro: اوپن‌استریت‌مپ مونته‌نگرو
     openstreetmapmorocco: اوپن‌استریت‌مپ مراکش
     openstreetmapmyanmar: اوپن‌استریت‌مپ میانمار
     openstreetmapnepal: اوپن‌استریت‌مپ نپال
@@ -119,7 +117,6 @@ fa:
     openstreetmapnicaragua: اوپن‌استریت‌مپ نیکاراگوئه
     openstreetmapniger: اوپن‌استریت‌مپ نیجر
     openstreetmapnigeria: اوپن‌استریت‌مپ نیجریه
-    openstreetmapnorthmacedonia: اوپن‌استریت‌مپ مقدونیه شمالی
     openstreetmapnorway: اوپن‌استریت‌مپ نروژ
     openstreetmapottawa: اوپن‌استریت‌مپ اتاوا
     openstreetmappakistan: اوپن‌استریت‌مپ پاکستان
@@ -184,7 +181,6 @@ fa:
     forum:
       name: 'فروم {community}'
       description: فروم رسمی {community}
-      url: https://forum.openstreetmap.org/viewforum.php?id={account}
     github:
       name: 'گیت‌هاب {community}'
       url: https://github.com/{account}
@@ -450,8 +446,6 @@ fa:
     name: OSGeo اقیانوسیه
     description: ما از توسعه جامعه اوپن‌استریت‌مپ در اقیانوسیه حمایت می کنیم.
     extendedDescription: هدف OSGeo اقیانوسیه حمایت و رشد جامعه زمین فضایی باز در منطقه اقیانوسیه از جمله نظارت و سرپرستی مجموعه کنفرانس های FOSS4G SotM اقیانوسیه است.
-  OSM-AR-forum:
-    extendedDescription: ایده آل برای بحث های طولانی یا مهم. زمان پاسخگویی کند.
   OSM-AR-geolibres:
     extendedDescription: ما ایجاد و استفاده از داده های جغرافیایی دسترسی آزاد ، پذیرش استانداردهای جغرافیایی و استفاده از نرم افزارهای رایگان و منبع باز را ترویج می کنیم.
   OSM-AR-twitter:
@@ -483,9 +477,6 @@ fa:
     description: بستری برای اطلاعات در اوپن‌استریت‌مپ در آلمان
   OSM-Discord:
     name: دیسکورد جهانی اوپن‌استریت‌مپ
-  osm-east-africa-forum:
-    name: اوپن‌استریت‌مپ فروم شرق آفریقا
-    description: با سایر اعضای جامعه OSM شرق آفریقا چت کنید
   OSM-Facebook:
     description: اخبار و نوشته‌های اوپن‌استریت‌مپی ما را در فیسبوک دنبال کنید!
   osm-gh-facebook:
@@ -521,8 +512,6 @@ fa:
     extendedDescription: این کانال منبع خوبی از فیلم‌های آموزشی دربارهٔ اُپِن‌استریت‌مپ برای فارسی‌زبانان است.
   osm-iran-discord:
     extendedDescription: سرور دیسکورد برای اوپن‌استریت‌مپ ایران. با خیال راحت بپیوندید!
-  osm-iran-forum:
-    extendedDescription: یک انجمن اینترنتی برای کاربران اُپِن‌استریت‌مپ ایران. سؤال بپرسید و با دیگران گفت‌وگو کنید!
   osm-iran-telegram:
     extendedDescription: از شما دعوت می‌کنیم به کانال تلگرامی اُپِن‌استریت‌مپ ایران به نشانی {url} بیپوندید. کاربران اوپن‌استریت‌مپ ایران یک گروه تلگرامی نیز دارند که لینک آن را در توضیحات کانال خواهید یافت. خوش آمدید!
   OSM-japan-facebook:
@@ -602,11 +591,6 @@ fa:
   OSM-US:
     description: ما به رشد و بهبود اوپن‌استریت‌مپ در ایالات متحده آمریکا کمک می کنیم.
     extendedDescription: 'ما از اوپن‌استریت‌مپ با برگزاری کنفرانس های سالانه ، تأمین منابع جامعه ، ایجاد مشارکت و انتشار این خبر پشتیبانی می کنیم. در اینجا به اوپن‌استریت‌مپ ما بپیوندید: {آدرس ثبت نام}'
-    events:
-      sotmus2022:
-        name: وضعیت نقشه ایالات متحده آمریکا 2022
-        description: به جامعه اوپن‌استریت‌مپ در نقشه ایالات متحده در توسان، آریزونا بپیوندید. با دیگر نقشه‌برداران، مشاغل، سازمان‌های دولتی و غیرانتفاعی ارتباط برقرار کنید، همه با هم در سراسر نقشه رایگان و قابل ویرایش جهان همکاری می‌کنند. دیدگاه خود را برای پروژه به اشتراک بگذارید، یاد بگیرید که چگونه با داده های اوپن‌استریت‌مپ کار کنید و آخرین پیشرفت‌های نقشه برداری را هک کنید.
-        where: توسان، آریزونا
   OSM-US-Slack:
     description: همگی خوش آمدید! ثبت نام کنید در {signupUrl}
   OSM-Utah:

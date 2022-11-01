@@ -10,7 +10,6 @@ cs:
     openstreetmapafrica: OpenStreetMap Afrika
     openstreetmapalba: OpenStreetMap Alba
     openstreetmapalbania: OpenStreetMap Albánie
-    openstreetmapalgeria: OpenStreetMap Alžírsko
     openstreetmapargentina: OpenStreetMap Argentina
     openstreetmapasia: OpenStreetMap Asie
     openstreetmapasti: OpenStreetMap Asti
@@ -128,7 +127,6 @@ cs:
     openstreetmapmichigan: OpenStreetMap Michigan
     openstreetmapmoldova: OpenStreetMap Molavsko
     openstreetmapmongolia: OpenStreetMap Mongolsko
-    openstreetmapmontenegro: OpenStreetMap Černá Hora
     openstreetmapmontrouge: OpenStreetMap Montrouge
     openstreetmapmorocco: OpenStreetMap Maroko
     openstreetmapmunchen: OpenStreetMap Mnichov
@@ -138,7 +136,6 @@ cs:
     openstreetmapnicaragua: OpenStreetMap Nikaragua
     openstreetmapniger: OpenStreetMap Niger
     openstreetmapnigeria: OpenStreetMap Nigérie
-    openstreetmapnorthmacedonia: OpenStreetMap Severní Makedonie
     openstreetmapnorway: OpenStreetMap Norsko
     openstreetmapottawa: OpenStreetMap Ottawa
     openstreetmappakistan: OpenStreetMap Pákistán
@@ -210,7 +207,6 @@ cs:
     forum:
       name: '{community} fórum'
       description: Oficiální diskuzní fórum komunity {community}
-      url: https://forum.openstreetmap.org/viewforum.php?id={account}
     github:
       name: '{community} GitHub'
       url: https://github.com/{account}
@@ -290,6 +286,9 @@ cs:
     name: Místní zastoupení OpenStreetMap Belgie
     description: Pomáháme OpenStreetMap v Belgii růst a zlepšovat se.
     extendedDescription: Pokud chcete pomoci zlepšovat a rozšířit mapovací komunitu v Belgii aby se ještě více lidí zbláznilo do mapování, OpenStreetMap Belgie je to správné místo pro vás!
+  be-discourse:
+    name: Belgický Discourse
+    description: Fórum k diskusi ohledně OpenStreetMap v Belgii
   be-irc:
     extendedDescription: 'Připojte se k #{account} na irc.oftc.net (port 6667), který je propojen s chatovacím kanálem na Matrixu'
   be-matrix:
@@ -416,6 +415,8 @@ cs:
     extendedDescription: Připojte se ke komunitě a dozvíte se více o OpenStreetMap, můžete klást otázky nebo se účastnit našich setkání. Každý je vítán!
   ee-wiki:
     description: Informace týkající se mapování, které je specifické pro Estonsko.
+  es-discourse:
+    name: Discourse španělské komunity
   fr-35-wiki:
     description: '{community} Wiki stránka'
   fr-38-wiki:
@@ -624,8 +625,6 @@ cs:
     description: Všichni mapovači jsou vítáni!
   osm-africa-slack:
     description: Všichni jsou vítaní! Přihlaste se na {signupUrl}
-  OSM-AR-forum:
-    extendedDescription: Ideální pro dlouhé nebo důležité diskuse. Pomalá odezva.
   OSM-AR-geolibres:
     name: GeoLibres
     description: Občanské sdružení Geolibres
@@ -671,9 +670,6 @@ cs:
   OSM-Discourse:
     name: OpenStreetMap Discourse
     description: Sdílené místo pro konverzace ohledně OpenStreetMap
-  osm-east-africa-forum:
-    name: Východoafrické fórum OpenStreetMap
-    description: Chatujte s ostatními členy Východoafrické komunity OSM
   OSM-Facebook:
     description: Dejte naší facebookové stránce To se mi líbí, aby vám neunikly žádné novinky ze světa OpenStreetMap.
   osm-fj:
@@ -715,8 +711,6 @@ cs:
     extendedDescription: Dobrý zdroj videí o čemkoli souvisejícím s OpenStreetMap. Hlavně v perštině.
   osm-iran-discord:
     extendedDescription: Discord server pro OpenStreetMap Iran. Neváhejte se připojit!
-  osm-iran-forum:
-    extendedDescription: Webové fórum pro uživatele OpenStreetMap v Íránu. Neváhejte se ptát a diskutovat s ostatními!
   osm-iran-telegram:
     extendedDescription: Můžete se připojit k našemu telegramovému kanálu na adrese {url}. Máme také superskupinu mnoha OSMers se zájmem o Írán. Odkaz na něj najdete v biu kanálu.
   OSM-japan-facebook:
@@ -818,10 +812,10 @@ cs:
     description: Pomáháme OpenStreetMap ve Spojených Státech růst a zlepšovat se.
     extendedDescription: 'Podporujeme OpenStreetMap pořádáním výročních konferencí, poskytováním komunitních zdrojů, budováním partnerství a šířením informací. Připojte se k OpenStreetMap US zde: {signupUrl}'
     events:
-      sotmus2022:
-        name: State of the Map US 2022
-        description: Připojte se ke komunitě OpenStreetMap ve State of the Map US v Tucsonu v Arizoně. Spojte se s dalšími tvůrci map, podniky, vládními agenturami a neziskovými organizacemi, ti všichni spolupracují na bezplatné a upravitelné mapě světa. Podělte se o svou vizi projektu, naučte se pracovat s daty OpenStreetMap a prozkoumejte nejnovější vylepšení mapování.
-        where: Tucson, Arizona
+      mappingusa2022:
+        name: Mapování USA 2022
+        description: Připojte se k bezplatné virtuální konferenci na oslavu Wiki a komunit OpenStreetMap po celé Severní Americe!
+        where: virtuálně
   OSM-US-Slack:
     description: Všichni jsou vítaní! Přihlaste se na {signupUrl}
   OSM-Utah:
@@ -849,6 +843,10 @@ cs:
   PHXGeo-twitter:
     name: PHXGeo Twitter
     description: Sledujte nás na Twitteru na {url}
+  pt-wiki:
+    description: WikiProject s informacemi a koordinační podmínky pro mapování v Portugalsku.
+  rs-discourse:
+    description: Fórum k diskusi ohledně OpenStreetMap v Srbsku
   rs-gitlab:
     description: Sbírka projektů souvisejících s OSM Srbsko na GitLabu
   rs-osm:

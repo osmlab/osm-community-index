@@ -10,7 +10,6 @@ zh_TW:
     openstreetmapafrica: 開放街圖非洲
     openstreetmapalba: 開放街圖阿爾巴
     openstreetmapalbania: 開放街圖阿爾巴尼亞
-    openstreetmapalgeria: 開放街圖阿爾及利亞
     openstreetmapargentina: 開放街圖阿根廷
     openstreetmapasia: 開放街圖亞洲
     openstreetmapasti: 開放街圖阿斯蒂
@@ -127,7 +126,6 @@ zh_TW:
     openstreetmapmichigan: 開放街圖密西根
     openstreetmapmoldova: 開放街圖摩爾多瓦
     openstreetmapmongolia: 開放街圖蒙古
-    openstreetmapmontenegro: 開放街圖蒙特內哥羅
     openstreetmapmontrouge: 開放街圖蒙魯日
     openstreetmapmorocco: 開放街圖摩洛哥
     openstreetmapmunchen: 開放街圖慕尼黑
@@ -137,7 +135,6 @@ zh_TW:
     openstreetmapnicaragua: 開放街圖尼加拉瓜
     openstreetmapniger: 開放街圖尼日
     openstreetmapnigeria: 開放街圖奈及利亞
-    openstreetmapnorthmacedonia: 開放街圖北馬其頓
     openstreetmapnorway: 開放街圖挪威
     openstreetmapottawa: 開放街圖渥太華
     openstreetmappakistan: 開放街圖巴基斯坦
@@ -200,6 +197,8 @@ zh_TW:
       url: https://discord.gg/{account}
     discourse:
       name: '{community} Discord'
+      description: '{community} 的官方論壇'
+      url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
       name: 'Facebook 上的 {community}'
       description: 加入 Facebook 上的 {community}
@@ -207,7 +206,6 @@ zh_TW:
     forum:
       name: '{community} 論壇'
       description: '{community} 的官方郵件論壇'
-      url: https://forum.openstreetmap.org/viewforum.php?id={account}
     github:
       name: '{community} 的 GitHub'
       url: https://github.com/{account}
@@ -287,6 +285,9 @@ zh_TW:
     name: 開放街圖比利時在地分會
     description: 我們協助比利時的開放街圖成長茁壯並改善它。
     extendedDescription: 如果你想要改進和茁壯比利時的地圖社群，讓更多人瘋狂的參與畫地圖，OpenStreetMap 比利時就是最好的地方了！
+  be-discourse:
+    name: 比利時 Discourse
+    description: 討論開放街圖在比利時事物的 Discourse
   be-irc:
     extendedDescription: '在 irc.oftc.net (port 6667) 上面加入 #{account} ，與 Matrix 聊天頻道互連同步'
   be-matrix:
@@ -413,6 +414,8 @@ zh_TW:
     extendedDescription: 加入社群學習更多關於開放街圖的事情，詢問問題或是參加聚會，歡迎所有人噢！
   ee-wiki:
     description: 針對愛沙泥亞畫地圖相關活動的資訊
+  es-discourse:
+    name: 西班牙社群 Discourse
   fr-35-wiki:
     description: '{community} Wiki 頁面'
   fr-38-wiki:
@@ -492,6 +495,9 @@ zh_TW:
     description: 我們協助冰島的開放街圖成長茁壯並改善它。
   it-chapter:
     description: 我們協助義大利的開放街圖成長茁壯並改善它。
+  it-discourse:
+    name: 義大利 Discourse
+    description: 您可以討論 OpenStreetMap 事務的論壇
   ko-facebook:
     description: 南韓的圖客與開放街圖使用者
   kosovo-flossk:
@@ -618,8 +624,6 @@ zh_TW:
     description: 歡迎所有的圖客！
   osm-africa-slack:
     description: 歡迎所有人加入！在 {signupUrl} 註冊
-  OSM-AR-forum:
-    extendedDescription: 適合長篇或重要討論，回應時間慢。
   OSM-AR-geolibres:
     name: GeoLibres
     description: Geolibres 公民組織
@@ -657,14 +661,13 @@ zh_TW:
     extendedDescription: 開放街圖 (OpenStreetMap, OSM) 科羅拉多是一個喜歡貢獻他們的心力建立自由地圖的一群地區協作夥伴。我們鼓勵我們所有的圖客組織或建議橫跨整個州的製圖活動。會面活動可以是簡單的社交活動、OSM 基礎到進階訓練，或是社群製圖派對。
   osm-de:
     description: 開放街圖在德國交流資訊的平台
+  osm-deep-south-wiki:
+    description: '{community} Wiki 頁面'
   OSM-Discord:
     name: 開放街圖世界 Discord
   OSM-Discourse:
     name: 開放街圖 Discourse
     description: 討論開放街圖的共享空間
-  osm-east-africa-forum:
-    name: 開放街圖東非論壇
-    description: 在開放街圖東非社群與其他成員聊天。
   OSM-Facebook:
     description: 在 Facebook 為我們按讚，追蹤開放街圖相關的新聞和動態。
   osm-fj:
@@ -706,8 +709,6 @@ zh_TW:
     extendedDescription: 這裡有開放街圖相關的影片資源，主要用波斯文。
   osm-iran-discord:
     extendedDescription: 開放街圖伊朗的 Discord 伺服器，歡迎加入！
-  osm-iran-forum:
-    extendedDescription: 伊朗開放街圖使用者的網頁論壇，請自由發問以及與其他人討論！
   osm-iran-telegram:
     extendedDescription: 觀迎加入 Telegram 頻道  {url}，我們伊朗的開放街圖參與者也有超級群組，請到我們的頻道關於部分找到連結。
   OSM-japan-facebook:
@@ -806,11 +807,6 @@ zh_TW:
   OSM-US:
     description: 我們協助美國的開放街圖成長茁壯並改善它。
     extendedDescription: '我們透過舉辦年度研討會、提供社群資源、建立合作關係以及推廣來支援開放街圖。在此加入開放街圖美國：{signupUrl}'
-    events:
-      sotmus2022:
-        name: State of the Map US 2022
-        description: 參加開放街圖社群在亞利桑那土桑的大會 State of the Map US ，並且與其他圖客、商業公司、政府機構與非營利組織，一直合作來繪製自由可以編輯的全球地圖。來分享你對整個計劃的願景，學習怎麼用開放街圖資料，以及怎麼 hack 最新的畫地圖改進。
-        where: 亞利桑那土桑
   OSM-US-Slack:
     description: 歡迎所有人加入！在 {signupUrl} 註冊
   OSM-Utah:

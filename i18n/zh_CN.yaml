@@ -8,7 +8,6 @@ zh_CN:
     openstreetmapafrica: OpenStreetMap 非洲
     openstreetmapalba: OpenStreetMap 苏格兰
     openstreetmapalbania: OpenStreetMap 阿尔巴尼亚
-    openstreetmapalgeria: OpenStreetMap 阿尔及利亚
     openstreetmapargentina: OpenStreetMap 阿根廷
     openstreetmapasia: OpenStreetMap 亚洲
     openstreetmapasti: OpenStreetMap 阿斯蒂
@@ -110,7 +109,6 @@ zh_CN:
     openstreetmapmichigan: OpenStreetMap 密歇根洲
     openstreetmapmoldova: OpenStreetMap 摩尔多瓦
     openstreetmapmongolia: OpenStreetMap 蒙古
-    openstreetmapmontenegro: OpenStreetMap 黑山
     openstreetmapmorocco: OpenStreetMap 摩洛哥
     openstreetmapmyanmar: OpenStreetMap 缅甸
     openstreetmapnepal: OpenStreetMap 尼泊尔
@@ -118,7 +116,6 @@ zh_CN:
     openstreetmapnicaragua: OpenStreetMap 尼加拉瓜
     openstreetmapniger: OpenStreetMap 尼日尔
     openstreetmapnigeria: OpenStreetMap 尼日利亚
-    openstreetmapnorthmacedonia: OpenStreetMap 北马其顿
     openstreetmapnorway: OpenStreetMap 挪威
     openstreetmapottawa: OpenStreetMap 渥太华
     openstreetmappakistan: OpenStreetMap 巴基斯坦
@@ -183,7 +180,6 @@ zh_CN:
     forum:
       name: '{community} 论坛'
       description: '{community} 的官方论坛'
-      url: https://forum.openstreetmap.org/viewforum.php?id={account}
     github:
       name: '{community} GitHub'
       url: https://github.com/{account}
@@ -251,6 +247,8 @@ zh_CN:
   be-chapter:
     name: OpenStreetMap 比利时本地分会
     description: 我们助长并改善位于比利时的 OpenStreetMap。
+  be-discourse:
+    name: 比利时 Discourse
   be-irc:
     extendedDescription: '在 irc.oftc.net (端口 6667)上加入 #{account} ，它已与 Matrix聊天室 频道互通'
   be-matrix:
@@ -298,6 +296,8 @@ zh_CN:
     description: '加入我们的XMPP多用户聊天：{url}'
   DF-telegram:
     extendedDescription: 加入社区以了解有关 OpenStreetMap 的更多信息，在会议中提问或者参与。欢迎每个人的到来！
+  es-discourse:
+    name: 西班牙语社区 Discourse
   fr-chapter:
     description: 我们助长并改善位于法国的 OpenStreetMap。
   fr-telegram:
@@ -323,6 +323,8 @@ zh_CN:
     description: 在匈牙利组织聚会的平台
   ireland-irc:
     extendedDescription: '在 irc.oftc.net (端口 6667)上加入 #{account} ，若您想要提问需耐心等待几分钟'
+  it-discourse:
+    name: 意大利 Discourse
   map-kibera:
     name: Map Kibera Trust
     description: Map Kibera 是位于肯尼亚的注册组织
@@ -364,8 +366,6 @@ zh_CN:
     name: 开放克利夫兰
     description: 在克利夫兰地区改进 OpenStreetMap
     extendedDescription: Open Geo 克里夫兰宗旨是成为人们讨论和分享他们关于自由地理数据集的资源库，尤其是OpenStreetMap数据集，以及管理、编辑和展示地理数据的开放地理空间软件，以及推动它们在俄亥俄洲东北部的使用。我们同时也是一个Maptime本地分会
-  OSM-AR-forum:
-    extendedDescription: 长篇或重要讨论的理想地。回应时间较慢。
   OSM-AR-twitter:
     extendedDescription: 当地社区和 OpenStreetMap 大体的新闻
   osm-at:
@@ -385,6 +385,8 @@ zh_CN:
   OSM-Chattanooga:
     name: OSM 查塔努加
     description: 查塔努加的 OpenStreetMap 用户群组
+  osm-cn:
+    description: <b>快跑！这里不是家！</b>
   OSM-Colorado:
     name: OpenStreetMap 科罗拉多州
     description: 位于美国科罗拉多州的绘图者和 OpenStreetMap 用户
@@ -393,8 +395,8 @@ zh_CN:
     description: 位于德国的 OpenStreetMap 信息平台
   OSM-Discord:
     name: OpenStreetMap 全球 Discord
-  osm-east-africa-forum:
-    name: OpenStreetMap 东非论坛
+  OSM-Discourse:
+    name: OpenStreetMap Discourse
   OSM-Facebook:
     description: 在 Facebook 上喜欢我们并接收关于 OpenStreetMap 新闻和更新。
   osm-gh-facebook:
@@ -420,8 +422,6 @@ zh_CN:
     description: 位于印度的绘图者和 OpenStreetMap 用户
   osm-india-wiki:
     description: '在印度绘图所需要知道的所有事情: {url}'
-  osm-iran-forum:
-    extendedDescription: 为伊朗的 OpenStreetMap 用户提供的网络论坛。请尽情的提问并与他人讨论！
   OSM-japan-facebook:
     description: 在日本的绘图者和 OpenStreetMap 用户
   OSM-japan-slack:
@@ -472,11 +472,6 @@ zh_CN:
   OSM-US:
     description: 我们助长并改善位于美国的 OpenStreetMap。
     extendedDescription: '我们通过召开年度会议、提供社区资源、建立合伙关系以及推广来支持 OpenStreetMap。在此处加入 OpenStreetMap 美国：{signupUrl}'
-    events:
-      sotmus2022:
-        name: State of the Map US 2022
-        description: 加入在亚利桑那州图森市的State of the Map US 的OpenStreetMap社区，于其他绘图者、公司、政府机构以及非盈利组织交流，一切都围绕贡献全球的免费编辑地图。分享你对项目的简介，学习如何使用OpenStreetMap数据，并且持续关注最新的地图改进。
-        where: Tucson, Arizona
   OSM-US-Slack:
     description: 欢迎所有人加入！在 {signupUrl} 上注册。
   OSM-Utah:

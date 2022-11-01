@@ -5,7 +5,6 @@ ca:
     openstreetmapafrica: OpenStreetMap Àfrica
     openstreetmapalba: OpenStreetMap Alba
     openstreetmapalbania: OpenStreetMap Albània
-    openstreetmapalgeria: OpenStreetMap Algèria
     openstreetmapargentina: OpenStreetMap Argentina
     openstreetmapasia: OpenStreetMap Àsia
     openstreetmapasti: OpenStreetMap Asti
@@ -16,7 +15,9 @@ ca:
     openstreetmapbelgium: OpenStreetMap Bèlgica
     openstreetmapbenin: OpenStreetMap Benín
     openstreetmapberlin: OpenStreetMap Berlín
+    openstreetmapbochum: OpenStreetMap Bochum
     openstreetmapbolivia: OpenStreetMap Bolívia
+    openstreetmapbonn: OpenStreetMap Bonn
     openstreetmapbosniaandherzegovina: OpenStreetMap Bòsnia i Hercegovina
     openstreetmapbrasil: OpenStreetMap Brasil
     openstreetmapbrasilia: OpenStreetMap Brasília
@@ -24,6 +25,7 @@ ca:
     openstreetmapbulgaria: OpenStreetMap Bulgària
     openstreetmapburkinafaso: OpenStreetMap Burkina Faso
     openstreetmapburundi: OpenStreetMap Burundi
+    openstreetmapbzh: OpenStreetMap Bretanya
     openstreetmapcambodia: OpenStreetMap Cambodja
     openstreetmapcameroon: OpenStreetMap Camerun
     openstreetmapcanada: OpenStreetMap Canadà
@@ -32,6 +34,7 @@ ca:
     openstreetmapchad: OpenStreetMap Txad
     openstreetmapchile: OpenStreetMap Xile
     openstreetmapchina: OpenStreetMap Xina
+    openstreetmapcologne: OpenStreetMap Colònia
     openstreetmapcolombia: OpenStreetMap Colòmbia
     openstreetmapcomunitatvalenciana: OpenStreetMap Comunitat Valenciana
     openstreetmapcostarica: OpenStreetMap Costa Rica
@@ -44,6 +47,8 @@ ca:
     openstreetmapdenmark: OpenStreetMap Dinamarca
     openstreetmapdjibouti: OpenStreetMap Djibouti
     openstreetmapdominicanrepublic: OpenStreetMap República Dominicana
+    openstreetmapdresden: OpenStreetMap Dresden
+    openstreetmapdusseldorf: OpenStreetMap Düsseldorf
     openstreetmapecuador: OpenStreetMap Equador
     openstreetmapegypt: OpenStreetMap Egipte
     openstreetmaperitrea: OpenStreetMap Eritrea
@@ -104,7 +109,6 @@ ca:
     openstreetmapmichigan: OpenStreetMap Michigan
     openstreetmapmoldova: OpenStreetMap Moldàvia
     openstreetmapmongolia: OpenStreetMap Mongòlia
-    openstreetmapmontenegro: OpenStreetMap Montenegro
     openstreetmapmorocco: OpenStreetMap Marroc
     openstreetmapmunchen: OpenStreetMap Munic
     openstreetmapmyanmar: OpenStreetMap Myanmar
@@ -113,7 +117,6 @@ ca:
     openstreetmapnicaragua: OpenStreetMap Nicaragua
     openstreetmapniger: OpenStreetMap Níger
     openstreetmapnigeria: OpenStreetMap Nigèria
-    openstreetmapnorthmacedonia: OpenStreetMap Macedònia del Nord
     openstreetmapnorway: OpenStreetMap Noruega
     openstreetmapottawa: OpenStreetMap Ottawa
     openstreetmappakistan: OpenStreetMap Pakistan
@@ -182,7 +185,6 @@ ca:
     forum:
       name: 'Fòrum d''{community}'
       description: Fòrum oficial per {community}
-      url: https://forum.openstreetmap.org/viewforum.php?id={account}
     github:
       name: 'GitHub d''{community}'
       url: https://github.com/{account}
@@ -236,6 +238,8 @@ ca:
       name: '{community} a YouTube'
       description: Subscriviu-vos al canal de YouTube
       url: https://www.youtube.com/channel/{account}
+  al-maptime-tirana:
+    description: Esdeveniments socials organitzats al voltant del mapeig - els principiants són benvinguts!
   at-wiki:
     description: 'Pàgina wiki {community}'
   Bay-Area-OpenStreetMappers:
@@ -261,14 +265,44 @@ ca:
     extendedDescription: Uniu-vos a la comunitat per aprendre més sobre OpenStreetMap, fer preguntes o participar en les nostres reunions. Tothom és benvingut!
   comunitat-valenciana-wiki:
     description: 'Tot el que necessites conèixer sobre mapejar a la Comunitat Valenciana'
+  de-berlin-wiki:
+    description: 'Pàgina wiki {community}'
+  de-bochum-wiki:
+    description: 'Pàgina wiki {community}'
+  de-bonn-wiki:
+    description: 'Pàgina wiki {community}'
+  de-bremen-wiki:
+    description: 'Pàgina wiki {community}'
+  de-cologne-wiki:
+    description: 'Pàgina wiki {community}'
+  de-dresden-wiki:
+    description: 'Pàgina wiki {community}'
+  de-dusseldorf-wiki:
+    description: 'Pàgina wiki {community}'
+  de-luneburg-wiki:
+    description: 'Pàgina wiki {community}'
+  de-munchen-wiki:
+    description: 'Pàgina wiki {community}'
+  fr-35-wiki:
+    description: 'Pàgina wiki {community}'
+  fr-38-wiki:
+    description: 'Pàgina wiki {community}'
+  fr-montrouge-wiki:
+    description: 'Pàgina wiki {community}'
+  hu-wiki:
+    description: 'Pàgina wiki {community}'
   osgeo-oceania:
     name: OSGeo Oceania
+  osm-deep-south-wiki:
+    description: 'Pàgina wiki {community}'
   OSM-help:
     name: Ajuda d'OpenStreetMap
   OSM-India-facebook:
     description: Millora OpenStreetMap a l'Índia
   OSM-japan-facebook:
     description: Mapadors i usuaris d'OpenStreetMap a Japó
+  osm-michigan-wiki:
+    description: 'Pàgina wiki {community}'
   OSM-SoCal:
     name: OpenStreetMap Califòrnia del Sud
     extendedDescription: OpenStreetMap (OSM) Califòrnia del Sud és per a tothom interessat en el mapatge que s'uneixi a treballar amb OpenStreetMap. OpenStreetMap, la Viquipèdia dels mapes, és un mapa de codi obert gratuït del món sent creat per més de 1000000 de voluntaris al voltant del món. Tothom és benvingut. Si no coneixes OpenStreetMap, t'ensenyarem. Si tens una idea d'un projecte de mapatge o fins i tot una excursió de camp que el grup pot fer, genial!
@@ -277,3 +311,5 @@ ca:
     description: OSMF és una fundació sense ànim de lucre establerta al Regne Unit que dona suport al projecte OpenStreetMap
   PHXGeo-twitter:
     description: Segueix-nos a Twitter a {url}
+  uk-london-wiki:
+    description: 'Pàgina wiki {community}'

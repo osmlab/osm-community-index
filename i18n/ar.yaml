@@ -10,7 +10,6 @@ ar:
     openstreetmapafrica: خريطة الشارع المفتوحة في أفريقيا
     openstreetmapalba: خريطة الشارع المفتوحة في ألبا
     openstreetmapalbania: خريطة الشارع المفتوحة في ألبانيا
-    openstreetmapalgeria: خريطة الشارع المفتوحة في الجزائر
     openstreetmapargentina: خريطة الشارع المفتوحة في الأرجنتين
     openstreetmapasia: خريطة الشارع المفتوحة في آسيا
     openstreetmapasti: خريطة الشارع المفتوحة في أستي
@@ -127,7 +126,6 @@ ar:
     openstreetmapmichigan: خريطة الشارع المفتوحة في ميشيغان
     openstreetmapmoldova: خريطة الشارع المفتوحة في مولدوفا
     openstreetmapmongolia: خريطة الشارع المفتوحة في منغوليا
-    openstreetmapmontenegro: خريطة الشارع المفتوحة في الجبل الأسود
     openstreetmapmontrouge: OpenStreetMap Montrouge
     openstreetmapmorocco: خريطة الشارع المفتوحة في المغرب
     openstreetmapmunchen: OpenStreetMap München
@@ -137,7 +135,6 @@ ar:
     openstreetmapnicaragua: خريطة الشارع المفتوحة في نيكاراغوا
     openstreetmapniger: خريطة الشارع المفتوحة في النيجر
     openstreetmapnigeria: خريطة الشارع المفتوحة في نيجيريا
-    openstreetmapnorthmacedonia: خريطة الشارع المفتوحة في شمال مقدونيا
     openstreetmapnorway: خريطة الشارع المفتوحة في النرويج
     openstreetmapottawa: خريطة الشارع المفتوحة في أوتاوا
     openstreetmappakistan: خريطة الشارع المفتوحة في باكستان
@@ -207,7 +204,6 @@ ar:
     forum:
       name: 'منتدى {community}'
       description: المنتدى الرسمي {community}
-      url: https://forum.openstreetmap.org/viewforum.php?id={account}
     github:
       name: '{community} جيثب'
       url: https://github.com/{account}
@@ -618,8 +614,6 @@ ar:
     description: نرحب بجميع مصممي الخرائط!
   osm-africa-slack:
     description: الكل مرحب به! اشترك في {signupUrl}
-  OSM-AR-forum:
-    extendedDescription: مثالية للمناقشات الطويلة أو الهامة. وقت استجابة بطيء.
   OSM-AR-geolibres:
     name: GeoLibres
     description: الرابطة الأهلية Geolibres
@@ -662,9 +656,6 @@ ar:
   OSM-Discourse:
     name: OpenStreetMap Discourse
     description: مكان مشترك للمحادثات حول OpenStreetMap
-  osm-east-africa-forum:
-    name: منتدى خريطة الشارع المفتوحة في لشرق أفريقيا
-    description: دردش مع أعضاء آخرين من مجتمع خريطة الشارع المفتوحة في شرق أفريقيا
   OSM-Facebook:
     description: مثلنا على Facebook للحصول على الأخبار والتحديثات حول خريطة الشارع المفتوحة.
   osm-fj:
@@ -706,8 +697,6 @@ ar:
     extendedDescription: مورد جيد لمقاطع الفيديو حول أي شيء متعلق بـخريطة الشارع المفتوحة. بشكل رئيسي بالفارسية.
   osm-iran-discord:
     extendedDescription: خادم ديسكورد لخريطة الشارع المفتوحة في إيران. لا تتردد في الانضمام!
-  osm-iran-forum:
-    extendedDescription: منتدى ويب لمستخدمي خريطة الشارع المفتوحة في إيران. لا تتردد في طرح الأسئلة والمناقشة مع الآخرين!
   osm-iran-telegram:
     extendedDescription: نرحب بك للانضمام إلى قناة Telegram الخاصة بنا على {url}. لدينا أيضًا مجموعة كبيرة من العديد من OSMers المهتمين بإيران. ابحث عن رابطها في السيرة الذاتية للقناة.
   OSM-japan-facebook:
@@ -806,11 +795,6 @@ ar:
   OSM-US:
     description: نحن نساعد في تطوير OpenStreetMap وتحسينه في الولايات المتحدة.
     extendedDescription: 'نحن ندعم OpenStreetMap من خلال عقد مؤتمرات سنوية ، وتوفير موارد المجتمع ، وبناء الشراكات ، ونشر الكلمة. انضم إلى OpenStreetMap US هنا: {signupUrl}'
-    events:
-      sotmus2022:
-        name: 'حالة خريطة الولايات المتحدة 2022 '
-        description: انضم إلى مجتمع خريطة الشارع المفتوحة في حالة خريطة الولايات المتحدة في توكسون ، أريزونا. تواصل مع مصممي الخرائط والشركات والوكالات الحكومية والمؤسسات غير الربحية الأخرى ، حيث يتعاونون جميعًا حول خريطة العالم المجانية والقابلة للتعديل. شارك رؤيتك للمشروع ، وتعرف على كيفية العمل باستخدام بيانات خريطة الشارع المفتوحة  واختراق أحدث تحسينات الخرائط.
-        where: توكسون ، أريزونا
   OSM-US-Slack:
     description: الجميع مرحب بهم! التسجيل في {signupUrl}
   OSM-Utah:

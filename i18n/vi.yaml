@@ -10,7 +10,6 @@ vi:
     openstreetmapafrica: OpenStreetMap châu Phi
     openstreetmapalba: OpenStreetMap Scotland
     openstreetmapalbania: OpenStreetMap Albania
-    openstreetmapalgeria: OpenStreetMap Algérie
     openstreetmapargentina: OpenStreetMap Argentina
     openstreetmapasia: OpenStreetMap châu Á
     openstreetmapasti: OpenStreetMap Asti
@@ -128,7 +127,6 @@ vi:
     openstreetmapmichigan: OpenStreetMap Michigan
     openstreetmapmoldova: OpenStreetMap Moldova
     openstreetmapmongolia: OpenStreetMap Mông Cổ
-    openstreetmapmontenegro: OpenStreetMap Montenegro
     openstreetmapmontrouge: OpenStreetMap Montrouge
     openstreetmapmorocco: OpenStreetMap Maroc
     openstreetmapmunchen: OpenStreetMap München
@@ -138,7 +136,6 @@ vi:
     openstreetmapnicaragua: OpenStreetMap Nicaragua
     openstreetmapniger: OpenStreetMap Niger
     openstreetmapnigeria: OpenStreetMap Nigeria
-    openstreetmapnorthmacedonia: OpenStreetMap Bắc Macedonia
     openstreetmapnorway: OpenStreetMap Na Uy
     openstreetmapottawa: OpenStreetMap Ottawa
     openstreetmappakistan: OpenStreetMap Pakistan
@@ -210,7 +207,6 @@ vi:
     forum:
       name: 'Diễn đàn {community}'
       description: Diễn đàn chính thức của {community}
-      url: https://forum.openstreetmap.org/viewforum.php?id={account}
     github:
       name: 'GitHub {community}'
       url: https://github.com/{account}
@@ -589,8 +585,6 @@ vi:
     description: Mời mọi người tham gia!
   osm-africa-slack:
     description: Mời bạn tham gia tại {signupUrl}
-  OSM-AR-forum:
-    extendedDescription: Phù hợp với các thảo luận phức tạp hoặc quan trọng. Thời gian phản hồi lâu.
   OSM-AR-geolibres:
     name: GeoLibres
     description: Hội dân sự Geolibres
@@ -635,9 +629,6 @@ vi:
   OSM-Discourse:
     name: Discourse OpenStreetMap
     description: Thảo luận chung về OpenStreetMap
-  osm-east-africa-forum:
-    name: Diễn đàn OpenStreetMap Đông Phi
-    description: Trò chuyện với cộng đồng OpenStreetMap Đông Phi
   OSM-Facebook:
     description: Thích chúng tôi tại Facebook để nhận tin tức và cập nhật về OpenStreetMap.
   osm-fj:
@@ -677,8 +668,6 @@ vi:
     extendedDescription: Kho video đầy đủ về OpenStreetMap, chủ yếu trong tiếng Ba Tư.
   osm-iran-discord:
     extendedDescription: Máy chủ Discord của OpenStreetMap Iran. Mời bạn tham gia!
-  osm-iran-forum:
-    extendedDescription: Diễn đàn Web dành cho người dùng OpenStreetMap tại Iran. Hãy thoải mái hỏi han và thảo luận với người khác!
   osm-iran-telegram:
     extendedDescription: Mời bạn tham gia kênh Telegram của chúng ta tại {url}. Chúng ta cũng có siêu nhóm dành cho người OSM quan tâm đến Iran; có liên kết trong lời miêu tả kênh.
   OSM-japan-facebook:
@@ -769,11 +758,6 @@ vi:
   OSM-US:
     description: Chúng ta giúp phát triển và cải thiện OpenStreetMap tại Hoa Kỳ.
     extendedDescription: 'Chúng ta giúp OpenStreetMap bằng cách tổ chức các hội nghị hàng năm, cung cấp tài nguyên cộng đồng, tạo quan hệ đối tác, và truyền bá dự án. Mời tham gia OpenStreetMap Hoa Kỳ tại đây: {signupUrl}'
-    events:
-      sotmus2022:
-        name: Trạng thái Bản đồ Hoa Kỳ 2022
-        description: Hãy tham dự hội nghị State of the Map Hoa Kỳ tại Tucson, Arizona, cùng với cộng đồng OpenStreetMap. Gặp gỡ với những người đóng góp khác, kinh doanh, và tổ chức phi lợi nhuận đều cộng tác xây dựng bản đồ thế giới mở có thể sửa đổi. Hãy chia sẻ các ước mơ về dự án này, tìm hiểu cách sử dụng dữ liệu OpenStreetMap, và phát hiện các quan niệm mới về bản đồ.
-        where: Tucson, Arizona
   OSM-US-Slack:
     description: Mời bạn tham gia tại {signupUrl}
   OSM-Utah:

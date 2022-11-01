@@ -10,7 +10,6 @@ de:
     openstreetmapafrica: OpenStreetMap Afrika
     openstreetmapalba: OpenStreetMap Alba
     openstreetmapalbania: OpenStreetMap Albanien
-    openstreetmapalgeria: 'OpenStreetMap Algerien '
     openstreetmapargentina: OpenStreetMap Argentinien
     openstreetmapasia: OpenStreetMap Asien
     openstreetmapasti: OpenStreetMap Asti
@@ -128,7 +127,6 @@ de:
     openstreetmapmichigan: OpenStreetMap Michigan
     openstreetmapmoldova: OpenStreetMap Moldawien
     openstreetmapmongolia: OpenStreetMap Mongolei
-    openstreetmapmontenegro: OpenStreetMap Montenegro
     openstreetmapmontrouge: OpenStreetMap Montrouge
     openstreetmapmorocco: OpenStreetMap Marokko
     openstreetmapmunchen: OpenStreetMap München
@@ -138,7 +136,6 @@ de:
     openstreetmapnicaragua: OpenStreetMap Nicaragua
     openstreetmapniger: OpenStreetMap Niger
     openstreetmapnigeria: OpenStreetMap Nigeria
-    openstreetmapnorthmacedonia: OpenStreetMap Nordnaczedonien
     openstreetmapnorway: OpenStreetMap Norwegen
     openstreetmapottawa: OpenStreetMap Ottawa
     openstreetmappakistan: OpenStreetMap Pakistan
@@ -210,7 +207,6 @@ de:
     forum:
       name: '{community} Forum'
       description: Das offizielle Forum für {community}
-      url: https://forum.openstreetmap.org/viewforum.php?id={account}
     github:
       name: '{community} GitHub'
       url: https://github.com/{account}
@@ -290,6 +286,9 @@ de:
     name: OpenStreetMap Belgien Landesverband
     description: Wir helfen OpenStreetMap in Belgien beim besser und größer werden.
     extendedDescription: Wenn du dabei helfen willst die Mapping-Gemeinschaft in Belgien größer und besser zu machen, Menschen verrückt nach Mappen zu machen, dann ist OpenStreetMap Belgien der richtige Platz für dich!
+  be-discourse:
+    name: Belgien Discourse
+    description: Ein Forum um OpenStreetMap in Belgien zu diskutieren
   be-irc:
     extendedDescription: 'Tritt #{account} auf irc.oftc.net (port 6667) bei, er ist mit dem Matrix-Chat-Kanal gespiegelt'
   be-matrix:
@@ -416,6 +415,8 @@ de:
     extendedDescription: Mach mit, um mehr über OpenStreetMap zu erfahren, Fragen zu stellen oder an unseren Treffen teilzunehmen. Alle sind willkommen!
   ee-wiki:
     description: Informationen über die Kartierungsaktivitäten, die speziell für Estland gelten.
+  es-discourse:
+    name: Spanische Discourse-Gemeinschaft
   fr-35-wiki:
     description: '{community} Wiki Seite'
   fr-38-wiki:
@@ -624,8 +625,6 @@ de:
     description: Alle Mapper sind willkommen!
   osm-africa-slack:
     description: Beteilige dich bei {signupUrl} Alle sind willkommen!
-  OSM-AR-forum:
-    extendedDescription: Ideal für lange oder wichtige Diskussionen. Langsame Reaktionszeit.
   OSM-AR-geolibres:
     name: GeoLibres
     description: Geolibres Bürgervereinigung
@@ -671,9 +670,6 @@ de:
   OSM-Discourse:
     name: OpenStreetMap Discourse
     description: Ein Platz um sich über OpenStreetMap zu unterhalten
-  osm-east-africa-forum:
-    name: OpenStreetMap Ostafrika  Forum
-    description: Chatte mit anderen Mitgliedern der ostafrikanischen OSM-Community
   OSM-Facebook:
     description: Like uns auf Facebook für Nachrichten und Updates über OpenStreetMap.
   osm-fj:
@@ -715,8 +711,6 @@ de:
     extendedDescription: Eine gute Sammlung von Videos über OpenstreetMap. Hautsächlich in Persisch.
   osm-iran-discord:
     extendedDescription: Ein Discord Server für OpenStreetMap Iran. Macht gerne mit!
-  osm-iran-forum:
-    extendedDescription: Ein Web Forum für OpenStreetMap Benutzer imIran. Stell Fragen und diskutiere mit den anderen!
   osm-iran-telegram:
     extendedDescription: Du bist herzlich eingeladen, unserem Telegram-Kanal unter {url} beizutreten. Wir haben auch eine Supergruppe von vielen OSMern, die sich für den Iran interessieren. Den Link dazu findenst du in der Bio des Kanals.
   OSM-japan-facebook:
@@ -817,11 +811,6 @@ de:
   OSM-US:
     description: Wir helfen dabei OpenStreetMap in den USA zu verbessern.
     extendedDescription: 'Wir unterstützen OpenStreetMap durch eine jährliche Konferenz, Unterstützung von lokalen OSM-Gruppen, Aufbau von Partnerschaft und durch Verbreitung des Vorteilen von OSM. Beteiligte sich an OpenStreetMap US hier: {signupUrl}'
-    events:
-      sotmus2022:
-        name: State of the Map US 2022
-        description: Schließe dich der OpenStreetMap-Gemeinschaft auf der State of the Map US in Tucson, Arizona, an. Tausche dich mit anderen Kartierern, Unternehmen, Regierungsbehörden und gemeinnützigen Organisationen aus, die alle an der freien und bearbeitbaren Weltkarte mitarbeiten. Teile deine Visionen für das Projekt mit, lerne, wie du mit OpenStreetMap-Daten arbeiten kannst und arbeite an den neuesten Verbesserungen der Kartierung.
-        where: Tucson, Arizona
   OSM-US-Slack:
     description: Alle sind willkommen! Melde dich unter {signupUrl}
   OSM-Utah:
