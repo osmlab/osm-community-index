@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.3.0",
-    "generated": "2022-10-04T14:30:30.973Z",
+    "generated": "2022-11-01T16:47:01.746Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "90be4d68cb4af9237608a82a1ab52e5f"
+    "hash": "657a11580991c9f222f1975f798cf023"
   },
   "type": "FeatureCollection",
   "features": [
@@ -783,31 +783,12 @@
         "driveSide": "right",
         "area": 83818.14,
         "resources": {
-          "at-forum": {
-            "id": "at-forum",
-            "type": "forum",
-            "account": "89",
-            "locationSet": {"include": ["at"]},
-            "languageCodes": ["de", "en"],
-            "order": -2,
-            "strings": {"community": "OpenStreetMap Austria"},
-            "contacts": [{"name": "emga", "email": "emgaosm@gmail.com"}],
-            "resolved": {
-              "name": "OpenStreetMap Austria Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=89",
-              "description": "The official forum for OpenStreetMap Austria",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=89\">OpenStreetMap Austria Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=89\">https://forum.openstreetmap.org/viewforum.php?id=89</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Austria"
-            }
-          },
           "at-irc": {
             "id": "at-irc",
             "type": "irc",
             "account": "osm-at",
             "locationSet": {"include": ["at"]},
             "languageCodes": ["de"],
-            "order": -4,
             "strings": {"community": "OpenStreetMap Austria"},
             "contacts": [
               {"name": "StefanCT", "email": "talk-at@openstreetmap.org"}
@@ -827,7 +808,6 @@
             "account": "talk-at",
             "locationSet": {"include": ["at"]},
             "languageCodes": ["de"],
-            "order": -3,
             "strings": {"community": "OpenStreetMap Austria"},
             "contacts": [
               {"name": "AT community", "email": "info@openstreetmap.at"}
@@ -4559,6 +4539,23 @@
         "id": "catalan_countries.geojson",
         "area": 260470.05,
         "resources": {
+          "cat-discourse": {
+            "id": "cat-discourse",
+            "type": "discourse",
+            "account": "lang-ca",
+            "locationSet": {"include": ["catalan_countries.geojson"]},
+            "languageCodes": ["ca"],
+            "order": 10,
+            "strings": {"community": "OpenStreetMap Catalan Countries"},
+            "resolved": {
+              "name": "OpenStreetMap Catalan Countries Discourse",
+              "url": "https://community.openstreetmap.org/c/communities/lang-ca",
+              "description": "The official forum for OpenStreetMap Catalan Countries",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/lang-ca\">OpenStreetMap Catalan Countries Discourse</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/lang-ca\">https://community.openstreetmap.org/c/communities/lang-ca</a>",
+              "descriptionHTML": "The official forum for OpenStreetMap Catalan Countries"
+            }
+          },
           "cat-facebook": {
             "id": "cat-facebook",
             "type": "facebook",
@@ -4632,14 +4629,14 @@
             "strings": {
               "community": "OpenStreetMap Catalan Countries",
               "description": "Matrix group for the OpenStreetMap Catalan Countries community",
-              "url": "https://matrix.to/#/#openstreetmap-cat:matrix.org"
+              "url": "https://matrix.to/#/%23openstreetmap-cat:matrix.org"
             },
             "resolved": {
               "name": "OpenStreetMap Catalan Countries Matrix Chat",
-              "url": "https://matrix.to/#/#openstreetmap-cat:matrix.org",
+              "url": "https://matrix.to/#/%23openstreetmap-cat:matrix.org",
               "description": "Matrix group for the OpenStreetMap Catalan Countries community",
-              "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#openstreetmap-cat:matrix.org\">OpenStreetMap Catalan Countries Matrix Chat</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#openstreetmap-cat:matrix.org\">https://matrix.to/#/#openstreetmap-cat:matrix.org</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/%23openstreetmap-cat:matrix.org\">OpenStreetMap Catalan Countries Matrix Chat</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/%23openstreetmap-cat:matrix.org\">https://matrix.to/#/%23openstreetmap-cat:matrix.org</a>",
               "descriptionHTML": "Matrix group for the OpenStreetMap Catalan Countries community"
             }
           },
@@ -16249,18 +16246,18 @@
             "strings": {
               "community": "OpenStreetMap Hungary",
               "extendedDescription": "OpenStreetMap chat on map topics. One of the OSM community support forums.",
-              "url": "https://matrix.to/#/#osm:grin.hu"
+              "url": "https://matrix.to/#/%23osm:grin.hu"
             },
             "contacts": [
               {"name": "Peter 'grin' Gervai", "email": "grin@grin.hu"}
             ],
             "resolved": {
               "name": "OpenStreetMap Hungary Matrix Chat",
-              "url": "https://matrix.to/#/#osm:grin.hu",
+              "url": "https://matrix.to/#/%23osm:grin.hu",
               "description": "Join our community Matrix chat",
               "extendedDescription": "OpenStreetMap chat on map topics. One of the OSM community support forums.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osm:grin.hu\">OpenStreetMap Hungary Matrix Chat</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osm:grin.hu\">https://matrix.to/#/#osm:grin.hu</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/%23osm:grin.hu\">OpenStreetMap Hungary Matrix Chat</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/%23osm:grin.hu\">https://matrix.to/#/%23osm:grin.hu</a>",
               "descriptionHTML": "Join our community Matrix chat",
               "extendedDescriptionHTML": "OpenStreetMap chat on map topics. One of the OSM community support forums."
             }
@@ -24874,15 +24871,15 @@
             "languageCodes": ["es"],
             "strings": {
               "community": "OpenStreetMap Mexico",
-              "url": "https://app.element.io/#/room/#OSM-Mexico:matrix.org"
+              "url": "https://app.element.io/#/room/%23OSM-Mexico:matrix.org"
             },
             "contacts": [{"name": "rimugu", "email": "rimugu@protonmail.com"}],
             "resolved": {
               "name": "OpenStreetMap Mexico Matrix Chat",
-              "url": "https://app.element.io/#/room/#OSM-Mexico:matrix.org",
+              "url": "https://app.element.io/#/room/%23OSM-Mexico:matrix.org",
               "description": "Join our community Matrix chat",
-              "nameHTML": "<a target=\"_blank\" href=\"https://app.element.io/#/room/#OSM-Mexico:matrix.org\">OpenStreetMap Mexico Matrix Chat</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://app.element.io/#/room/#OSM-Mexico:matrix.org\">https://app.element.io/#/room/#OSM-Mexico:matrix.org</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://app.element.io/#/room/%23OSM-Mexico:matrix.org\">OpenStreetMap Mexico Matrix Chat</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://app.element.io/#/room/%23OSM-Mexico:matrix.org\">https://app.element.io/#/room/%23OSM-Mexico:matrix.org</a>",
               "descriptionHTML": "Join our community Matrix chat"
             }
           },
@@ -27955,6 +27952,23 @@
         "driveSide": "right",
         "area": 3693962.84,
         "resources": {
+          "OSM-AR-discourse": {
+            "id": "OSM-AR-discourse",
+            "type": "discourse",
+            "account": "ar",
+            "locationSet": {"include": ["ar"]},
+            "languageCodes": ["es"],
+            "order": -2,
+            "strings": {"community": "OpenStreetMap Argentina"},
+            "resolved": {
+              "name": "OpenStreetMap Argentina Discourse",
+              "url": "https://community.openstreetmap.org/c/communities/ar",
+              "description": "The official forum for OpenStreetMap Argentina",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/ar\">OpenStreetMap Argentina Discourse</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/ar\">https://community.openstreetmap.org/c/communities/ar</a>",
+              "descriptionHTML": "The official forum for OpenStreetMap Argentina"
+            }
+          },
           "OSM-AR-facebook": {
             "id": "OSM-AR-facebook",
             "type": "facebook",
@@ -27976,34 +27990,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMapAR\">OpenStreetMap Argentina on Facebook</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMapAR\">https://www.facebook.com/OpenStreetMapAR</a>",
               "descriptionHTML": "Join our community on Facebook"
-            }
-          },
-          "OSM-AR-forum": {
-            "id": "OSM-AR-forum",
-            "type": "forum",
-            "account": "49",
-            "locationSet": {"include": ["ar"]},
-            "languageCodes": ["es"],
-            "order": -2,
-            "strings": {
-              "community": "OpenStreetMap Argentina",
-              "extendedDescription": "Ideal for long or important discussions. Slow response time."
-            },
-            "contacts": [
-              {
-                "name": "OpenStreetMap Argentina",
-                "email": "openstreetmap.org.ar@gmail.com"
-              }
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Argentina Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=49",
-              "description": "The official forum for OpenStreetMap Argentina",
-              "extendedDescription": "Ideal for long or important discussions. Slow response time.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=49\">OpenStreetMap Argentina Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=49\">https://forum.openstreetmap.org/viewforum.php?id=49</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Argentina",
-              "extendedDescriptionHTML": "Ideal for long or important discussions. Slow response time."
             }
           },
           "OSM-AR-geolibres": {
@@ -38257,6 +38243,25 @@
               "descriptionHTML": "Join our community Telegram chat"
             }
           },
+          "pt-wiki": {
+            "id": "pt-wiki",
+            "type": "wiki",
+            "locationSet": {"include": ["pt"]},
+            "languageCodes": ["en", "pt"],
+            "strings": {
+              "community": "OpenStreetMap Portugal",
+              "description": "WikiProject with information and coordination guidelines for mapping in Portugal.",
+              "url": "https://wiki.openstreetmap.org/wiki/Portugal"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Portugal WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Portugal",
+              "description": "WikiProject with information and coordination guidelines for mapping in Portugal.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Portugal\">OpenStreetMap Portugal WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Portugal\">https://wiki.openstreetmap.org/wiki/Portugal</a>",
+              "descriptionHTML": "WikiProject with information and coordination guidelines for mapping in Portugal."
+            }
+          },
           "talk-pt": {
             "id": "talk-pt",
             "type": "mailinglist",
@@ -39027,6 +39032,26 @@
         "driveSide": "right",
         "area": 77590.82,
         "resources": {
+          "rs-discourse": {
+            "id": "rs-discourse",
+            "type": "discourse",
+            "account": "rs",
+            "locationSet": {"include": ["rs"]},
+            "languageCodes": ["en", "sr"],
+            "order": 4,
+            "strings": {
+              "community": "OpenStreetMap Serbia",
+              "description": "A Forum to discuss OpenStreetMap in Serbia"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Serbia Discourse",
+              "url": "https://community.openstreetmap.org/c/communities/rs",
+              "description": "A Forum to discuss OpenStreetMap in Serbia",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/rs\">OpenStreetMap Serbia Discourse</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/rs\">https://community.openstreetmap.org/c/communities/rs</a>",
+              "descriptionHTML": "A Forum to discuss OpenStreetMap in Serbia"
+            }
+          },
           "rs-facebook": {
             "id": "rs-facebook",
             "type": "facebook",
@@ -39042,23 +39067,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMapSrbija\">OpenStreetMap Serbia on Facebook</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/OpenStreetMapSrbija\">https://www.facebook.com/OpenStreetMapSrbija</a>",
               "descriptionHTML": "Join our community on Facebook"
-            }
-          },
-          "rs-forum": {
-            "id": "rs-forum",
-            "type": "forum",
-            "account": "62",
-            "locationSet": {"include": ["rs"]},
-            "languageCodes": ["en", "sr"],
-            "order": 4,
-            "strings": {"community": "OpenStreetMap Serbia"},
-            "resolved": {
-              "name": "OpenStreetMap Serbia Forum",
-              "url": "https://forum.openstreetmap.org/viewforum.php?id=62",
-              "description": "The official forum for OpenStreetMap Serbia",
-              "nameHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=62\">OpenStreetMap Serbia Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://forum.openstreetmap.org/viewforum.php?id=62\">https://forum.openstreetmap.org/viewforum.php?id=62</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Serbia"
             }
           },
           "rs-gitlab": {
