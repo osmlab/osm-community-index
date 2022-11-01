@@ -19,11 +19,35 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.3.1
+##### 2022-Nov-01
+* Added:
+  * Serbia Discourse ([#587])
+  * Portual WikiProject ([#589])
+  * Catalan Countries Discourse ([#591])
+  * North Korea Wikiproject ([#554])
+  * Mapping USA virtual conference
+* Updated:
+  * Fix escaping of hashes in Matrix URLs ([#592], [#593])
+  * Fix sorting of OSM Austria resources ([#590])
+* Removed:
+  * Deprecated links to forum.openstreetmap.org ([#594])
+
+[#554]: https://github.com/osmlab/osm-community-index/issues/554
+[#587]: https://github.com/osmlab/osm-community-index/issues/587
+[#589]: https://github.com/osmlab/osm-community-index/issues/589
+[#590]: https://github.com/osmlab/osm-community-index/issues/590
+[#591]: https://github.com/osmlab/osm-community-index/issues/591
+[#592]: https://github.com/osmlab/osm-community-index/issues/592
+[#593]: https://github.com/osmlab/osm-community-index/issues/593
+[#594]: https://github.com/osmlab/osm-community-index/issues/594
+
+
 # 5.3.0
 ##### 2022-Oct-04
 * Support new resource type `newsletter`
 * Updated to FontAwesome 6.2.x, some icons updated ([#567])
-* Added
+* Added:
   * Swap Belgium Forum -> Discourse ([#585])
   * Spain Discourse ([#584])
   * Italy Discourse ([#582])
@@ -35,10 +59,10 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
   * LATAM Discourse ([#561])
   * OpenStreetMap Deep South (US) ([#559])
   * Belgium quarterly newsletter ([#549])
-* Updated
+* Updated:
   * Fix Taiwan Discourse type ([#570])
   * Many updates to spelling and punctuation for YouthMappers resources
-* Removed
+* Removed:
   * Belgium Facebook page ([#586])
   * Japan Teletram ([#560])
   * Azerbaijan Facebook page ([#547])
@@ -66,7 +90,7 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 # 5.2.0
 ##### 2022-Jun-18
 * Many various updates to use more consistent names and ids ([#524])
-* Added
+* Added:
   * OpenStreetmap Discourse ([#530])
   * Maptime Catalan Communities ([#525])
 * Updated:
