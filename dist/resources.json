@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.3.0",
-    "generated": "2022-11-01T17:35:53.441Z",
+    "generated": "2022-11-01T21:24:23.248Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "325039046e00712105b38c51eb07c314"
+    "hash": "ba23746cf095f69be86b3368f08f720c"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -214,6 +214,7 @@
     "kosovo-flossk": {"id": "kosovo-flossk", "type": "osm-lc", "locationSet": {"include": ["xk"]}, "languageCodes": ["en", "sq", "sr"], "strings": {"community": "OpenStreetMap Freemap Slovakia", "name": "Free Libre Open Source Software Kosova (FLOSSK)", "description": "Promoting FLOSS since 2009", "extendedDescription": "Free Libre Open Source Software Kosova (FLOSSK) is a non-governmental organization based in Prishtina established in 2009 in order to support, promote and develop free and open source software. Besides, we also contribute to open and participatory knowledge, education in information technologies through open courseware, and open standards, culture and open society using free communication.", "url": "https://flossk.org/"}, "contacts": [{"name": "FLOSSK", "email": "info@flossk.org"}]},
     "kosovo-matrix": {"id": "kosovo-matrix", "type": "matrix", "account": "#osmkosovo", "locationSet": {"include": ["xk"]}, "languageCodes": ["en", "sq", "sr"], "strings": {"community": "OpenStreetMap Kosovo", "description": "Semi-official all-Kosovo public group (bridged with the one in Telegram). We welcome all mappers from anywhere in any language."}},
     "kosovo-telegram": {"id": "kosovo-telegram", "type": "telegram", "account": "osmkosovo", "locationSet": {"include": ["xk"]}, "languageCodes": ["en", "sq", "sr"], "order": 1, "strings": {"community": "OpenStreetMap Kosovo", "description": "Semi-official all-Kosovo Telegram public group. We welcome all mappers from anywhere in any language."}, "contacts": [{"name": "Guillaume Rischard", "email": "guillaumenospam@openstreetmapnospam.lu"}]},
+    "kp-wiki": {"id": "kp-wiki", "type": "wiki", "account": "North_Korea_Mapping_Guide", "locationSet": {"include": ["kp"]}, "languageCodes": ["en", "fr"], "strings": {"community": "OpenStreetMap North Korea", "description": "{community} Mapping Guide"}},
     "kz-telegram": {"id": "kz-telegram", "type": "telegram", "account": "osm_kz", "locationSet": {"include": ["kz"]}, "strings": {"community": "OpenStreetMap Kazakhstan"}},
     "latam-discourse": {"id": "latam-discourse", "type": "discourse", "account": "latam", "locationSet": {"include": ["419"]}, "languageCodes": ["en", "es", "pt"], "strings": {"community": "OpenStreetMap Latin America"}},
     "latam-facebook": {"id": "latam-facebook", "type": "facebook", "account": "osmlatam", "locationSet": {"include": ["419"]}, "languageCodes": ["en", "es", "pt"], "order": 1, "strings": {"community": "OpenStreetMap Latin America", "description": "Mappers and OpenStreetMap on Facebook in Latin America"}, "contacts": [{"name": "OSM LATAM Community", "email": "info@osmlatam.org"}]},
