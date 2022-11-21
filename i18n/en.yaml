@@ -138,6 +138,7 @@ en:
     openstreetmapnigeria: OpenStreetMap Nigeria
     openstreetmapnorthkorea: OpenStreetMap North Korea
     openstreetmapnorway: OpenStreetMap Norway
+    openstreetmapoceania: OpenStreetMap Oceania
     openstreetmapottawa: OpenStreetMap Ottawa
     openstreetmappakistan: OpenStreetMap Pakistan
     openstreetmappanama: OpenStreetMap Panama
@@ -228,6 +229,9 @@ en:
       name: '{account} Mailing List'
       description: The official mailing list for {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
+    mastodon:
+      name: '{community} Mastodon Account'
+      description: The official Mastodon account for {community}
     matrix:
       name: '{community} Matrix Chat'
       description: Join our community Matrix chat
@@ -448,8 +452,8 @@ en:
   gb-mailinglist:
     description: Talk-gb is the main communication forum list for the UK (including Northern Ireland) OSM community
   geogeeks_perth_meetup:
-    name: GeoGeeks Perth Meetup
-    description: Perth-based meetup group for people interested in mapping, geospatial data, and open source. We'll be working on anything that involves a sense of place.
+    name: Geogeeks Perth
+    description: Perth-based meetup group for people interested in mapping, geospatial data, and open source. We run regular OSM mapping parties, talks, and social gatherings. Beginners very welcome!
   GeoPhilly:
     name: GeoPhilly
     description: Meetup for map enthusiasts in the Philadelphia area
