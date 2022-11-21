@@ -8,9 +8,8 @@ import {
 
 import {
   faDiscord, faDiscourse, faFacebook, faGithub, faGitlab, faLinkedin,
-  faMeetup, faReddit, faSlack, faTelegram, faTwitter, faYoutube
+  faMastodon, faMeetup, faReddit, faSlack, faTelegram, faTwitter, faYoutube
 } from '@fortawesome/free-brands-svg-icons';
-import {faMastodon} from "@fortawesome/free-brands-svg-icons/faMastodon";
 
 const toBuild = {
   discord: faDiscord,

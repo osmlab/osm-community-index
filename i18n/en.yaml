@@ -111,6 +111,7 @@ en:
     openstreetmapliberia: OpenStreetMap Liberia
     openstreetmaplibya: OpenStreetMap Libya
     openstreetmaplithuania: OpenStreetMap Lithuania
+    openstreetmapljubljana: OpenStreetMap Ljubljana
     openstreetmaplombardia: OpenStreetMap Lombardia
     openstreetmaplondon: OpenStreetMap London
     openstreetmapluneburg: OpenStreetMap Lüneburg
@@ -350,14 +351,16 @@ en:
     description: 'Everything you need to know about mapping in Valencian Community: {url}'
   czech-community:
     description: Map portal, website and contacts on OSM members in Czechia
+  czech-discord:
+    description: OpenStreetMap CZ room bridged with IRC, Jabber, Matrix and Telegram
   czech-irc:
-    description: OpenStreetMap CZ room bridged with Jabber, Matrix and Telegram
+    description: OpenStreetMap CZ room bridged with Discord, Jabber, Matrix and Telegram
   czech-matrix:
-    description: OpenStreetMap CZ room bridged with IRC, Jabber and Telegram
+    description: OpenStreetMap CZ room bridged with Discord, IRC, Jabber and Telegram
   czech-telegram:
-    description: OpenStreetMap CZ room bridged with IRC, Jabber and Matrix
+    description: OpenStreetMap CZ room bridged with Discord, IRC, Jabber and Matrix
   czech-xmpp:
-    description: OpenStreetMap CZ room bridged with IRC, Matrix and Telegram
+    description: OpenStreetMap CZ room bridged with Discord, IRC, Matrix and Telegram
   de-berlin-mailinglist:
     name: Berlin Mailing List
   de-berlin-wiki:
@@ -833,8 +836,6 @@ en:
     name: OpenStreetMap Wyoming
     description: Mappers and OpenStreetMap users in the state of Wyoming
     extendedDescription: OpenStreetMap (OSM) Wyoming is a local collaboration of people interested in contributing their efforts to create free maps. We encourage all of our mappers to organize or suggest mapping events throughout the state. Meetup activities can be simple social mixers, OSM basic to advanced training, or community mapping parties.
-  osmcz-facebook:
-    description: Follow the Czech community on Facebook - including translated WeeklyOSM!
   osmcz-twitter:
     description: Follow the Czech community on Twitter - including translated WeeklyOSM!
   OSMF:
@@ -862,6 +863,14 @@ en:
     extendedDescription: Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!
   rs-wiki:
     description: Wikiproject page for Serbia
+  si-discourse:
+    name: '{community} Discourse'
+  si-github:
+    description: '{community} GitHub'
+  si-ljubljana-wiki:
+    description: '{community} Wiki page'
+  si-wiki:
+    description: '{community} Wiki page'
   sk-freemap:
     name: OpenStreetMap Website Freemap Slovakia
     description: OpenStreetMap map website with tools in Slovakia and surrounding regions

@@ -350,8 +350,6 @@ function convertURLs(item) {
     matchUrl = url.match(/linkedin.com\/company\/([\-A-Za-z0-9_.]+)\/?$/i);
   } else if (item.type === 'mailinglist') {
     matchUrl = url.match(/lists.openstreetmap.org\/listinfo\/([\-A-Za-z0-9_]+)\/?$/i);
-  } else if (item.type === 'mastodon') {
-    // Don't match a mastodon: the URL has to stay intact
   } else if (item.type === 'meetup') {
     matchUrl = url.match(/meetup.com\/([\-A-Za-z0-9_]+)\/?$/i);
   } else if (item.type === 'telegram') {
