@@ -29,13 +29,13 @@ jobs:
     - run: npm run dist
 
     - name: Check git diff
-      if: github.ref != 'refs/heads/main'
+      if:  github.repository != 'osmlab/osm-community-index' || github.ref != 'refs/heads/main'
       run: |
         git status
         git diff
 
     - name: Commit dist/ files to git
-      if: github.ref == 'refs/heads/main'
+      if:  github.repository == 'osmlab/osm-community-index' && github.ref == 'refs/heads/main'
       uses: github-actions-x/commit@v2.9 # see https://github.com/github-actions-x/commit
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
