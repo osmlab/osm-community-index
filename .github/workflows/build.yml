@@ -26,3 +26,23 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install
     - run: npm run test
+    - run: npm run dist
+
+    - name: Check git diff
+      if: github.ref != 'refs/heads/main'
+      run: |
+        git status
+        git diff
+
+    - name: Commit dist/ files to git
+      if: github.ref == 'refs/heads/main'
+      uses: github-actions-x/commit@v2.9 # see https://github.com/github-actions-x/commit
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'main'
+        commit-message: '🤖 npm run dist (${{ github.sha }})'
+        rebase: 'true'
+        files: dist/*
+        name: 'github-actions[bot]'
+        email: '41898282+github-actions[bot]@users.noreply.github.com'
+
