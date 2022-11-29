@@ -42,7 +42,7 @@ jobs:
         push-branch: 'main'
         commit-message: '🤖 npm run dist (${{ github.sha }})'
         rebase: 'false'
-        files: dist/*
+        files: dist/* i18n/en.yaml
         name: 'github-actions[bot]'
         email: '41898282+github-actions[bot]@users.noreply.github.com'
 
