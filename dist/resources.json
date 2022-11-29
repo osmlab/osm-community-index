@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.3.1",
-    "generated": "2022-11-29T10:41:25.018Z",
+    "generated": "2022-11-29T10:44:55.389Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "0f547788a7fb6c33432a86ad6128dbf8"
+    "hash": "47245cdeda69464892c3280548ad287c"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -122,6 +122,7 @@
     "de-viersen-meetup": {"id": "de-viersen-meetup", "type": "osm", "locationSet": {"include": [[6.354282, 51.264137]]}, "languageCodes": ["de"], "order": 5, "strings": {"name": "OpenStreetMap Viersen Meetup", "description": "OSM community and users meetup Kreis Viersen and Mönchengladbach", "url": "https://wiki.openstreetmap.org/wiki/Niederrhein/Viersen/Stammtisch"}},
     "de-xmpp": {"id": "de-xmpp", "type": "xmpp", "locationSet": {"include": ["de"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap DE", "name": "OpenStreetMap DE XMPP", "description": "Join our XMPP Multi-User Chat: {url}", "url": "xmpp:openstreetmap-de@rooms.dismail.de?join"}},
     "DF-telegram": {"id": "DF-telegram", "type": "telegram", "account": "osmbsb", "locationSet": {"include": ["brasilia_df.geojson"]}, "languageCodes": ["pt"], "strings": {"community": "OpenStreetMap Brasília", "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"}, "contacts": [{"name": "Wille Marcel", "email": "wille@wille.blog.br"}]},
+    "dk-discourse": {"id": "dk-discourse", "type": "discourse", "account": "dk", "locationSet": {"include": ["dk"]}, "languageCodes": ["da"], "strings": {"community": "OpenStreetMap Denmark", "name": "{community} Discourse", "description": "A discussion forum about OpenStreetMap in Denmark"}},
     "dk-irc": {"id": "dk-irc", "type": "irc", "account": "osm-dk", "locationSet": {"include": ["dk"]}, "languageCodes": ["da"], "order": -4, "strings": {"community": "OpenStreetMap Denmark"}},
     "ec-telegram": {"id": "ec-telegram", "type": "telegram", "account": "MappingEcuador", "locationSet": {"include": ["ec"]}, "languageCodes": ["es"], "order": 1, "strings": {"community": "OpenStreetMap Ecuador"}},
     "ee-wiki": {"id": "ee-wiki", "type": "wiki", "locationSet": {"include": ["ee"]}, "languageCodes": ["ee", "en"], "strings": {"community": "OpenStreetMap Estonia", "description": "Information relating to mapping activity that is specific to Estonia.", "url": "https://wiki.openstreetmap.org/wiki/WikiProject_Estonia"}},
