@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.3.1",
-    "generated": "2022-11-29T10:44:55.389Z",
+    "generated": "2022-12-08T22:26:41.009Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "47245cdeda69464892c3280548ad287c"
+    "hash": "bfd52dfbf95cd324f75427349edafd97"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -15,6 +15,7 @@
     "asti-telegram": {"id": "asti-telegram", "type": "telegram", "account": "OSMAsti", "locationSet": {"include": [[8.2071, 44.9]]}, "languageCodes": ["it"], "order": 3, "strings": {"community": "OpenStreetMap Asti"}, "contacts": [{"name": "Andrea Musuruane", "email": "musuruan@gmail.com"}, {"name": "Francesco Ansanelli", "email": "francians@gmail.com"}]},
     "at-irc": {"id": "at-irc", "type": "irc", "account": "osm-at", "locationSet": {"include": ["at"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Austria"}, "contacts": [{"name": "StefanCT", "email": "talk-at@openstreetmap.org"}]},
     "at-mailinglist": {"id": "at-mailinglist", "type": "mailinglist", "account": "talk-at", "locationSet": {"include": ["at"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Austria"}, "contacts": [{"name": "AT community", "email": "info@openstreetmap.at"}]},
+    "at-mastodon": {"id": "at-mastodon", "type": "mastodon", "locationSet": {"include": ["at"]}, "languageCodes": ["de"], "order": 4, "strings": {"community": "OpenStreetMap Austria", "url": "https://mastodon.social/@osm_at"}, "contacts": [{"name": "AT Community", "email": "info@openstreetmap.at"}]},
     "at-matrix": {"id": "at-matrix", "type": "matrix", "account": "#osm-at", "locationSet": {"include": ["at"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Austria", "description": "Unofficial German Matrix channel for Austria"}, "contacts": [{"name": "Stefan Kies", "email": "negreheb+osmcommunityindex@mailbox.org"}]},
     "at-twitter": {"id": "at-twitter", "type": "twitter", "account": "osm_at", "locationSet": {"include": ["at"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Austria"}, "contacts": [{"name": "AT Community", "email": "info@openstreetmap.at"}]},
     "at-wiki": {"id": "at-wiki", "type": "wiki", "account": "Austria", "locationSet": {"include": ["at"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Austria", "description": "{community} Wiki page"}},
@@ -312,7 +313,6 @@
     "osm-at": {"id": "osm-at", "type": "osm", "locationSet": {"include": ["at"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Austria", "description": "The platform for information on OpenStreetMap in Austria", "url": "https://www.openstreetmap.at/"}, "contacts": [{"name": "AT community", "email": "info@openstreetmap.at"}]},
     "osm-benin-facebook": {"id": "osm-benin-facebook", "type": "facebook", "locationSet": {"include": ["ben"]}, "languageCodes": ["en"], "order": 4, "strings": {"community": "OpenStreetMap Benin", "description": "Improve OpenStreetMap in Benin", "url": "https://www.facebook.com/groups/425597680895264/?fref=ts"}},
     "OSM-Benin-mailinglist": {"id": "OSM-Benin-mailinglist", "type": "mailinglist", "account": "talk-bj", "locationSet": {"include": ["ben"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Benin"}},
-    "osm-benin-telegram": {"id": "osm-benin-telegram", "type": "telegram", "account": "OSMBenin", "locationSet": {"include": ["ben"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Benin"}},
     "OSM-bf-mailinglist": {"id": "OSM-bf-mailinglist", "type": "mailinglist", "account": "talk-bf", "locationSet": {"include": ["bf"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Burkina Faso"}},
     "OSM-bi-mailinglist": {"id": "OSM-bi-mailinglist", "type": "mailinglist", "account": "talk-bi", "locationSet": {"include": ["bi"]}, "languageCodes": ["en"], "order": 1, "strings": {"community": "OpenStreetMap Burundi"}},
     "OSM-Boston": {"id": "OSM-Boston", "type": "meetup", "account": "OpenStreetMap-Boston", "locationSet": {"include": ["boston_metro.geojson"]}, "languageCodes": ["en"], "order": 5, "strings": {"name": "OpenStreetMap Boston", "description": "Mappers and OpenStreetMap users in the Boston area", "extendedDescription": "OpenStreetMap is the free and open, wiki-style map of the world, with hundreds of thousands of contributions every day from people like you. Editing the map is simple, and fun! Join us both indoors and outdoors in our effort to create the best map of the Boston area and the rest of the world!"}, "contacts": [{"name": "Lars Ahlzen", "email": "lars@ahlzen.com"}]},

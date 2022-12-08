@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.3.1",
-    "generated": "2022-11-01T21:39:05.135Z",
+    "generated": "2022-12-08T22:22:24.545Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/defaults.json",
-    "hash": "ae6558df0249a87156bc26664a736c80"
+    "hash": "f4be419a22876b68f414dfa6e50220a6"
   },
   "defaults": {
     "aparat": {
@@ -53,6 +53,10 @@
       "name": "{account} Mailing List",
       "description": "The official mailing list for {community}",
       "url": "https://lists.openstreetmap.org/listinfo/{account}"
+    },
+    "mastodon": {
+      "name": "{community} Mastodon Account",
+      "description": "The official Mastodon account for {community}"
     },
     "matrix": {
       "name": "{community} Matrix Chat",

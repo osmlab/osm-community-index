@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.3.1",
-    "generated": "2022-11-01T21:39:05.645Z",
+    "generated": "2022-12-08T22:26:50.425Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "98e88720358a0fe096c410b2221b42f5"
+    "hash": "7f72aabd95c1376a416407789857a6d1"
   },
   "type": "FeatureCollection",
   "features": [
@@ -798,6 +798,28 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-at\">talk-at Mailing List</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-at\">https://lists.openstreetmap.org/listinfo/talk-at</a>",
               "descriptionHTML": "The official mailing list for OpenStreetMap Austria"
+            }
+          },
+          "at-mastodon": {
+            "id": "at-mastodon",
+            "type": "mastodon",
+            "locationSet": {"include": ["at"]},
+            "languageCodes": ["de"],
+            "order": 4,
+            "strings": {
+              "community": "OpenStreetMap Austria",
+              "url": "https://mastodon.social/@osm_at"
+            },
+            "contacts": [
+              {"name": "AT Community", "email": "info@openstreetmap.at"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Austria Mastodon Account",
+              "url": "https://mastodon.social/@osm_at",
+              "description": "The official Mastodon account for OpenStreetMap Austria",
+              "nameHTML": "<a target=\"_blank\" href=\"https://mastodon.social/@osm_at\">OpenStreetMap Austria Mastodon Account</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://mastodon.social/@osm_at\">https://mastodon.social/@osm_at</a>",
+              "descriptionHTML": "The official Mastodon account for OpenStreetMap Austria"
             }
           },
           "at-matrix": {
@@ -2151,6 +2173,26 @@
               "descriptionHTML": "The official mailing list for OpenStreetMap Belgium"
             }
           },
+          "be-mastodon": {
+            "id": "be-mastodon",
+            "type": "mastodon",
+            "locationSet": {"include": ["be"]},
+            "languageCodes": ["de", "en", "fr", "nl"],
+            "order": 4,
+            "strings": {
+              "community": "OpenStreetMap Belgium",
+              "url": "https://en.osm.town/@osm_be"
+            },
+            "contacts": [{"name": "BE community", "email": "community@osm.be"}],
+            "resolved": {
+              "name": "OpenStreetMap Belgium Mastodon Account",
+              "url": "https://en.osm.town/@osm_be",
+              "description": "The official Mastodon account for OpenStreetMap Belgium",
+              "nameHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@osm_be\">OpenStreetMap Belgium Mastodon Account</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@osm_be\">https://en.osm.town/@osm_be</a>",
+              "descriptionHTML": "The official Mastodon account for OpenStreetMap Belgium"
+            }
+          },
           "be-matrix": {
             "id": "be-matrix",
             "type": "matrix",
@@ -2646,6 +2688,22 @@
         "driveSide": "right",
         "area": 123994.36,
         "resources": {
+          "bg-discourse": {
+            "id": "bg-discourse",
+            "type": "discourse",
+            "account": "bg",
+            "locationSet": {"include": ["bg"]},
+            "languageCodes": ["bg"],
+            "strings": {"community": "OpenStreetMap Bulgaria"},
+            "resolved": {
+              "name": "OpenStreetMap Bulgaria Discourse",
+              "url": "https://community.openstreetmap.org/c/communities/bg",
+              "description": "The official forum for OpenStreetMap Bulgaria",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/bg\">OpenStreetMap Bulgaria Discourse</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/bg\">https://community.openstreetmap.org/c/communities/bg</a>",
+              "descriptionHTML": "The official forum for OpenStreetMap Bulgaria"
+            }
+          },
           "bg-facebook": {
             "id": "bg-facebook",
             "type": "facebook",
@@ -7677,6 +7735,25 @@
               "descriptionHTML": "Map portal, website and contacts on OSM members in Czechia"
             }
           },
+          "czech-discord": {
+            "id": "czech-discord",
+            "type": "discord",
+            "account": "A9eRVaRzRe",
+            "locationSet": {"include": ["cz"]},
+            "languageCodes": ["cs", "en", "sk"],
+            "strings": {
+              "community": "OpenStreetMap CZ",
+              "description": "OpenStreetMap CZ room bridged with IRC, Jabber, Matrix and Telegram"
+            },
+            "resolved": {
+              "name": "OpenStreetMap CZ Discord",
+              "url": "https://discord.gg/A9eRVaRzRe",
+              "description": "OpenStreetMap CZ room bridged with IRC, Jabber, Matrix and Telegram",
+              "nameHTML": "<a target=\"_blank\" href=\"https://discord.gg/A9eRVaRzRe\">OpenStreetMap CZ Discord</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://discord.gg/A9eRVaRzRe\">https://discord.gg/A9eRVaRzRe</a>",
+              "descriptionHTML": "OpenStreetMap CZ room bridged with IRC, Jabber, Matrix and Telegram"
+            }
+          },
           "czech-irc": {
             "id": "czech-irc",
             "type": "irc",
@@ -7685,16 +7762,16 @@
             "languageCodes": ["cs", "en", "sk"],
             "strings": {
               "community": "OpenStreetMap CZ",
-              "description": "OpenStreetMap CZ room bridged with Jabber, Matrix and Telegram",
+              "description": "OpenStreetMap CZ room bridged with Discord, Jabber, Matrix and Telegram",
               "url": "https://web.libera.chat/#openstreetmapcz"
             },
             "resolved": {
               "name": "OpenStreetMap CZ on IRC",
               "url": "https://web.libera.chat/#openstreetmapcz",
-              "description": "OpenStreetMap CZ room bridged with Jabber, Matrix and Telegram",
+              "description": "OpenStreetMap CZ room bridged with Discord, Jabber, Matrix and Telegram",
               "nameHTML": "<a target=\"_blank\" href=\"https://web.libera.chat/#openstreetmapcz\">OpenStreetMap CZ on IRC</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://web.libera.chat/#openstreetmapcz\">https://web.libera.chat/#openstreetmapcz</a>",
-              "descriptionHTML": "OpenStreetMap CZ room bridged with Jabber, Matrix and Telegram"
+              "descriptionHTML": "OpenStreetMap CZ room bridged with Discord, Jabber, Matrix and Telegram"
             }
           },
           "czech-matrix": {
@@ -7705,16 +7782,16 @@
             "languageCodes": ["cs", "en", "sk"],
             "strings": {
               "community": "OpenStreetMap CZ",
-              "description": "OpenStreetMap CZ room bridged with IRC, Jabber and Telegram",
+              "description": "OpenStreetMap CZ room bridged with Discord, IRC, Jabber and Telegram",
               "url": "https://matrix.to/#/%23osmcz:matrix.org"
             },
             "resolved": {
               "name": "OpenStreetMap CZ Matrix Chat",
               "url": "https://matrix.to/#/%23osmcz:matrix.org",
-              "description": "OpenStreetMap CZ room bridged with IRC, Jabber and Telegram",
+              "description": "OpenStreetMap CZ room bridged with Discord, IRC, Jabber and Telegram",
               "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/%23osmcz:matrix.org\">OpenStreetMap CZ Matrix Chat</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/%23osmcz:matrix.org\">https://matrix.to/#/%23osmcz:matrix.org</a>",
-              "descriptionHTML": "OpenStreetMap CZ room bridged with IRC, Jabber and Telegram"
+              "descriptionHTML": "OpenStreetMap CZ room bridged with Discord, IRC, Jabber and Telegram"
             }
           },
           "czech-telegram": {
@@ -7725,15 +7802,15 @@
             "languageCodes": ["cs", "en", "sk"],
             "strings": {
               "community": "OpenStreetMap CZ",
-              "description": "OpenStreetMap CZ room bridged with IRC, Jabber and Matrix"
+              "description": "OpenStreetMap CZ room bridged with Discord, IRC, Jabber and Matrix"
             },
             "resolved": {
               "name": "OpenStreetMap CZ Telegram",
               "url": "https://t.me/openstreetmapcz",
-              "description": "OpenStreetMap CZ room bridged with IRC, Jabber and Matrix",
+              "description": "OpenStreetMap CZ room bridged with Discord, IRC, Jabber and Matrix",
               "nameHTML": "<a target=\"_blank\" href=\"https://t.me/openstreetmapcz\">OpenStreetMap CZ Telegram</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://t.me/openstreetmapcz\">https://t.me/openstreetmapcz</a>",
-              "descriptionHTML": "OpenStreetMap CZ room bridged with IRC, Jabber and Matrix"
+              "descriptionHTML": "OpenStreetMap CZ room bridged with Discord, IRC, Jabber and Matrix"
             }
           },
           "czech-xmpp": {
@@ -7744,37 +7821,16 @@
             "languageCodes": ["cs", "en", "sk"],
             "strings": {
               "community": "OpenStreetMap CZ",
-              "description": "OpenStreetMap CZ room bridged with IRC, Matrix and Telegram",
+              "description": "OpenStreetMap CZ room bridged with Discord, IRC, Matrix and Telegram",
               "url": "https://chat.jabb.im/?r=openstreetmap@chat.jabb.im"
             },
             "resolved": {
               "name": "OpenStreetMap CZ XMPP",
               "url": "https://chat.jabb.im/?r=openstreetmap@chat.jabb.im",
-              "description": "OpenStreetMap CZ room bridged with IRC, Matrix and Telegram",
+              "description": "OpenStreetMap CZ room bridged with Discord, IRC, Matrix and Telegram",
               "nameHTML": "<a target=\"_blank\" href=\"https://chat.jabb.im/?r=openstreetmap@chat.jabb.im\">OpenStreetMap CZ XMPP</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://chat.jabb.im/?r=openstreetmap@chat.jabb.im\">https://chat.jabb.im/?r=openstreetmap@chat.jabb.im</a>",
-              "descriptionHTML": "OpenStreetMap CZ room bridged with IRC, Matrix and Telegram"
-            }
-          },
-          "osmcz-facebook": {
-            "id": "osmcz-facebook",
-            "type": "facebook",
-            "account": "osmcz",
-            "locationSet": {"include": ["cz"]},
-            "languageCodes": ["cs", "en", "sk"],
-            "order": 3,
-            "strings": {
-              "community": "OpenStreetMap CZ",
-              "description": "Follow the Czech community on Facebook - including translated WeeklyOSM!"
-            },
-            "contacts": [{"name": "osmcz", "email": "dev@openstreetmap.cz"}],
-            "resolved": {
-              "name": "OpenStreetMap CZ on Facebook",
-              "url": "https://www.facebook.com/osmcz",
-              "description": "Follow the Czech community on Facebook - including translated WeeklyOSM!",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmcz\">OpenStreetMap CZ on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmcz\">https://www.facebook.com/osmcz</a>",
-              "descriptionHTML": "Follow the Czech community on Facebook - including translated WeeklyOSM!"
+              "descriptionHTML": "OpenStreetMap CZ room bridged with Discord, IRC, Matrix and Telegram"
             }
           },
           "osmcz-twitter": {
@@ -7803,7 +7859,7 @@
             "account": "talk-cz",
             "locationSet": {"include": ["cz"]},
             "languageCodes": ["cs", "en", "sk"],
-            "order": -3,
+            "order": 1,
             "strings": {
               "community": "OpenStreetMap CZ",
               "url": "https://openstreetmap.cz/talk-cz"
@@ -11427,6 +11483,26 @@
         "callingCodes": ["45", "298", "299"],
         "area": 4469378.82,
         "resources": {
+          "dk-discourse": {
+            "id": "dk-discourse",
+            "type": "discourse",
+            "account": "dk",
+            "locationSet": {"include": ["dk"]},
+            "languageCodes": ["da"],
+            "strings": {
+              "community": "OpenStreetMap Denmark",
+              "name": "{community} Discourse",
+              "description": "A discussion forum about OpenStreetMap in Denmark"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Denmark Discourse",
+              "url": "https://community.openstreetmap.org/c/communities/dk",
+              "description": "A discussion forum about OpenStreetMap in Denmark",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/dk\">OpenStreetMap Denmark Discourse</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/dk\">https://community.openstreetmap.org/c/communities/dk</a>",
+              "descriptionHTML": "A discussion forum about OpenStreetMap in Denmark"
+            }
+          },
           "dk-irc": {
             "id": "dk-irc",
             "type": "irc",
@@ -14734,20 +14810,23 @@
             "locationSet": {"include": ["western_australia.geojson"]},
             "languageCodes": ["en"],
             "strings": {
-              "name": "GeoGeeks Perth Meetup",
-              "description": "Perth-based meetup group for people interested in mapping, geospatial data, and open source. We'll be working on anything that involves a sense of place.",
+              "name": "Geogeeks Perth",
+              "description": "Perth-based meetup group for people interested in mapping, geospatial data, and open source. We run regular OSM mapping parties, talks, and social gatherings. Beginners very welcome!",
+              "signupUrl": "https://join.slack.com/t/geogeeks/shared_invite/zt-13fnotoqb-YkyMTmvwZEB_nDUis_30hw",
               "url": "https://geogeeks.org"
             },
             "contacts": [
-              {"name": "GeoGeeks Perth", "email": "geogeeks.perth@gmail.com"}
+              {"name": "Geogeeks Perth", "email": "geogeeks.perth@gmail.com"}
             ],
             "resolved": {
-              "name": "GeoGeeks Perth Meetup",
+              "name": "Geogeeks Perth",
               "url": "https://geogeeks.org",
-              "description": "Perth-based meetup group for people interested in mapping, geospatial data, and open source. We'll be working on anything that involves a sense of place.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://geogeeks.org\">GeoGeeks Perth Meetup</a>",
+              "signupUrl": "https://join.slack.com/t/geogeeks/shared_invite/zt-13fnotoqb-YkyMTmvwZEB_nDUis_30hw",
+              "description": "Perth-based meetup group for people interested in mapping, geospatial data, and open source. We run regular OSM mapping parties, talks, and social gatherings. Beginners very welcome!",
+              "nameHTML": "<a target=\"_blank\" href=\"https://geogeeks.org\">Geogeeks Perth</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://geogeeks.org\">https://geogeeks.org</a>",
-              "descriptionHTML": "Perth-based meetup group for people interested in mapping, geospatial data, and open source. We'll be working on anything that involves a sense of place."
+              "signupUrlHTML": "<a target=\"_blank\" href=\"https://join.slack.com/t/geogeeks/shared_invite/zt-13fnotoqb-YkyMTmvwZEB_nDUis_30hw\">https://join.slack.com/t/geogeeks/shared_invite/zt-13fnotoqb-YkyMTmvwZEB_nDUis_30hw</a>",
+              "descriptionHTML": "Perth-based meetup group for people interested in mapping, geospatial data, and open source. We run regular OSM mapping parties, talks, and social gatherings. Beginners very welcome!"
             }
           }
         }
@@ -25973,62 +26052,26 @@
     },
     {
       "type": "Feature",
-      "id": "cleveland.geojson",
-      "properties": {
-        "id": "cleveland.geojson",
-        "area": 10803,
-        "resources": {
-          "OpenCleveland-meetup": {
-            "id": "OpenCleveland-meetup",
-            "type": "meetup",
-            "account": "open-cleveland",
-            "locationSet": {"include": ["cleveland.geojson"]},
-            "languageCodes": ["en"],
-            "order": 5,
-            "strings": {
-              "name": "Open Cleveland",
-              "description": "Improve OpenStreetMap in the Cleveland area",
-              "extendedDescription": "Open Geo Cleveland aims to be a resource for people to discuss and share knowledge on utilizing free geographic data sets especially OpenStreetMap, and Open geo-spatial software that manages, edits, and displays geographic data, and advocate for its use in Northeast Ohio. We're also a maptime chapter =)"
-            },
-            "contacts": [
-              {"name": "Will Skora", "email": "skorasaurus@gmail.com"},
-              {
-                "name": "Anastasia Diamond-Ortiz",
-                "email": "anastasia.diamond@gmail.com"
-              }
-            ],
-            "resolved": {
-              "name": "Open Cleveland",
-              "url": "https://www.meetup.com/open-cleveland",
-              "description": "Improve OpenStreetMap in the Cleveland area",
-              "extendedDescription": "Open Geo Cleveland aims to be a resource for people to discuss and share knowledge on utilizing free geographic data sets especially OpenStreetMap, and Open geo-spatial software that manages, edits, and displays geographic data, and advocate for its use in Northeast Ohio. We're also a maptime chapter =)",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/open-cleveland\">Open Cleveland</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/open-cleveland\">https://www.meetup.com/open-cleveland</a>",
-              "descriptionHTML": "Improve OpenStreetMap in the Cleveland area",
-              "extendedDescriptionHTML": "Open Geo Cleveland aims to be a resource for people to discuss and share knowledge on utilizing free geographic data sets especially OpenStreetMap, and Open geo-spatial software that manages, edits, and displays geographic data, and advocate for its use in Northeast Ohio. We're also a maptime chapter =)"
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-82.5, 41.5],
-            [-80.95, 42],
-            [-80.95, 41],
-            [-82.5, 41],
-            [-82.5, 41.5]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "properties": {
         "id": "+[Q538,Q574]",
         "area": 51729859.46,
         "resources": {
+          "oceania-discourse": {
+            "id": "oceania-discourse",
+            "type": "discourse",
+            "account": "oceania",
+            "locationSet": {"include": ["009", "tl"]},
+            "languageCodes": ["en"],
+            "strings": {"community": "OpenStreetMap Oceania"},
+            "resolved": {
+              "name": "OpenStreetMap Oceania Discourse",
+              "url": "https://community.openstreetmap.org/c/communities/oceania",
+              "description": "The official forum for OpenStreetMap Oceania",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/oceania\">OpenStreetMap Oceania Discourse</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/oceania\">https://community.openstreetmap.org/c/communities/oceania</a>",
+              "descriptionHTML": "The official forum for OpenStreetMap Oceania"
+            }
+          },
           "osgeo-oceania": {
             "id": "osgeo-oceania",
             "type": "osm-lc",
@@ -26401,6 +26444,58 @@
         ]
       },
       "id": "+[Q538,Q574]"
+    },
+    {
+      "type": "Feature",
+      "id": "cleveland.geojson",
+      "properties": {
+        "id": "cleveland.geojson",
+        "area": 10803,
+        "resources": {
+          "OpenCleveland-meetup": {
+            "id": "OpenCleveland-meetup",
+            "type": "meetup",
+            "account": "open-cleveland",
+            "locationSet": {"include": ["cleveland.geojson"]},
+            "languageCodes": ["en"],
+            "order": 5,
+            "strings": {
+              "name": "Open Cleveland",
+              "description": "Improve OpenStreetMap in the Cleveland area",
+              "extendedDescription": "Open Geo Cleveland aims to be a resource for people to discuss and share knowledge on utilizing free geographic data sets especially OpenStreetMap, and Open geo-spatial software that manages, edits, and displays geographic data, and advocate for its use in Northeast Ohio. We're also a maptime chapter =)"
+            },
+            "contacts": [
+              {"name": "Will Skora", "email": "skorasaurus@gmail.com"},
+              {
+                "name": "Anastasia Diamond-Ortiz",
+                "email": "anastasia.diamond@gmail.com"
+              }
+            ],
+            "resolved": {
+              "name": "Open Cleveland",
+              "url": "https://www.meetup.com/open-cleveland",
+              "description": "Improve OpenStreetMap in the Cleveland area",
+              "extendedDescription": "Open Geo Cleveland aims to be a resource for people to discuss and share knowledge on utilizing free geographic data sets especially OpenStreetMap, and Open geo-spatial software that manages, edits, and displays geographic data, and advocate for its use in Northeast Ohio. We're also a maptime chapter =)",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/open-cleveland\">Open Cleveland</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/open-cleveland\">https://www.meetup.com/open-cleveland</a>",
+              "descriptionHTML": "Improve OpenStreetMap in the Cleveland area",
+              "extendedDescriptionHTML": "Open Geo Cleveland aims to be a resource for people to discuss and share knowledge on utilizing free geographic data sets especially OpenStreetMap, and Open geo-spatial software that manages, edits, and displays geographic data, and advocate for its use in Northeast Ohio. We're also a maptime chapter =)"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-82.5, 41.5],
+            [-80.95, 42],
+            [-80.95, 41],
+            [-82.5, 41],
+            [-82.5, 41.5]
+          ]
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -28035,22 +28130,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-bj\">talk-bj Mailing List</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-bj\">https://lists.openstreetmap.org/listinfo/talk-bj</a>",
               "descriptionHTML": "The official mailing list for OpenStreetMap Benin"
-            }
-          },
-          "osm-benin-telegram": {
-            "id": "osm-benin-telegram",
-            "type": "telegram",
-            "account": "OSMBenin",
-            "locationSet": {"include": ["ben"]},
-            "languageCodes": ["en"],
-            "strings": {"community": "OpenStreetMap Benin"},
-            "resolved": {
-              "name": "OpenStreetMap Benin Telegram",
-              "url": "https://t.me/OSMBenin",
-              "description": "Join our community Telegram chat",
-              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/OSMBenin\">OpenStreetMap Benin Telegram</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/OSMBenin\">https://t.me/OSMBenin</a>",
-              "descriptionHTML": "Join our community Telegram chat"
             }
           },
           "osmbenin": {
@@ -35412,6 +35491,26 @@
               "signupUrlHTML": "<a target=\"_blank\" href=\"https://slack.openstreetmap.us/\">https://slack.openstreetmap.us/</a>",
               "descriptionHTML": "All are welcome! Sign up at <a target=\"_blank\" href=\"https://slack.openstreetmap.us/\">https://slack.openstreetmap.us/</a>"
             }
+          },
+          "us-discourse": {
+            "id": "us-discourse",
+            "type": "discourse",
+            "account": "us",
+            "locationSet": {"include": ["us"]},
+            "order": 3,
+            "strings": {
+              "community": "OpenStreetMap US",
+              "name": "{community} Discourse",
+              "description": "A discussion forum about OpenStreetMap in the United States"
+            },
+            "resolved": {
+              "name": "OpenStreetMap US Discourse",
+              "url": "https://community.openstreetmap.org/c/communities/us",
+              "description": "A discussion forum about OpenStreetMap in the United States",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/us\">OpenStreetMap US Discourse</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/us\">https://community.openstreetmap.org/c/communities/us</a>",
+              "descriptionHTML": "A discussion forum about OpenStreetMap in the United States"
+            }
           }
         }
       },
@@ -39463,6 +39562,44 @@
         "driveSide": "right",
         "area": 20480.32,
         "resources": {
+          "si-discourse": {
+            "id": "si-discourse",
+            "type": "discourse",
+            "account": "si",
+            "locationSet": {"include": ["si"]},
+            "languageCodes": ["en", "sl"],
+            "strings": {
+              "community": "OpenStreetMap Slovenia",
+              "name": "{community} Discourse"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Slovenia Discourse",
+              "url": "https://community.openstreetmap.org/c/communities/si",
+              "description": "The official forum for OpenStreetMap Slovenia",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/si\">OpenStreetMap Slovenia Discourse</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/si\">https://community.openstreetmap.org/c/communities/si</a>",
+              "descriptionHTML": "The official forum for OpenStreetMap Slovenia"
+            }
+          },
+          "si-github": {
+            "id": "si-github",
+            "type": "github",
+            "account": "openstreetmap-si",
+            "locationSet": {"include": ["si"]},
+            "languageCodes": ["en", "sl"],
+            "strings": {
+              "community": "OpenStreetMap Slovenia",
+              "description": "{community} GitHub"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Slovenia GitHub",
+              "url": "https://github.com/openstreetmap-si",
+              "description": "OpenStreetMap Slovenia GitHub",
+              "nameHTML": "<a target=\"_blank\" href=\"https://github.com/openstreetmap-si\">OpenStreetMap Slovenia GitHub</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://github.com/openstreetmap-si\">https://github.com/openstreetmap-si</a>",
+              "descriptionHTML": "OpenStreetMap Slovenia GitHub"
+            }
+          },
           "si-twitter": {
             "id": "si-twitter",
             "type": "twitter",
@@ -39477,6 +39614,25 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapSi\">OpenStreetMap Slovenia on Twitter</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapSi\">https://twitter.com/OpenStreetMapSi</a>",
               "descriptionHTML": "Follow us on Twitter"
+            }
+          },
+          "si-wiki": {
+            "id": "si-wiki",
+            "type": "wiki",
+            "account": "Slovenia",
+            "locationSet": {"include": ["si"]},
+            "languageCodes": ["en", "sl"],
+            "strings": {
+              "community": "OpenStreetMap Slovenia",
+              "description": "{community} Wiki page"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Slovenia WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Slovenia",
+              "description": "OpenStreetMap Slovenia Wiki page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Slovenia\">OpenStreetMap Slovenia WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Slovenia\">https://wiki.openstreetmap.org/wiki/Slovenia</a>",
+              "descriptionHTML": "OpenStreetMap Slovenia Wiki page"
             }
           },
           "talk-si": {
@@ -39730,6 +39886,53 @@
         ]
       },
       "id": "Q215"
+    },
+    {
+      "type": "Feature",
+      "id": "[14.50623,46.05101]",
+      "properties": {
+        "id": "[14.50623,46.05101]",
+        "area": 1963.5,
+        "resources": {
+          "si-ljubljana-wiki": {
+            "id": "si-ljubljana-wiki",
+            "type": "wiki",
+            "account": "Ljubljana",
+            "locationSet": {"include": [[14.50623, 46.05101]]},
+            "languageCodes": ["en", "sl"],
+            "strings": {
+              "community": "OpenStreetMap Ljubljana",
+              "description": "{community} Wiki page"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Ljubljana WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Ljubljana",
+              "description": "OpenStreetMap Ljubljana Wiki page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Ljubljana\">OpenStreetMap Ljubljana WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Ljubljana\">https://wiki.openstreetmap.org/wiki/Ljubljana</a>",
+              "descriptionHTML": "OpenStreetMap Ljubljana Wiki page"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [14.506, 46.276],
+            [14.315, 46.233],
+            [14.198, 46.12],
+            [14.199, 45.981],
+            [14.317, 45.869],
+            [14.506, 45.826],
+            [14.696, 45.869],
+            [14.814, 45.981],
+            [14.814, 46.12],
+            [14.697, 46.233],
+            [14.506, 46.276]
+          ]
+        ]
+      }
     },
     {
       "type": "Feature",
