@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.3.1",
-    "generated": "2022-12-08T22:26:50.425Z",
+    "generated": "2022-12-09T15:58:29.966Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "7f72aabd95c1376a416407789857a6d1"
+    "hash": "79e3d7a41dc7e6f39e343cca0d3b9498"
   },
   "type": "FeatureCollection",
   "features": [
@@ -5094,118 +5094,6 @@
     },
     {
       "type": "Feature",
-      "properties": {
-        "iso1A2": "CH",
-        "iso1A3": "CHE",
-        "iso1N3": "756",
-        "wikidata": "Q39",
-        "nameEn": "Switzerland",
-        "groups": ["155", "150", "UN", "001"],
-        "callingCodes": ["41"],
-        "id": "Q39",
-        "m49": "756",
-        "ccTLD": ".ch",
-        "isoStatus": "official",
-        "level": "country",
-        "emojiFlag": "🇨🇭",
-        "roadSpeedUnit": "km/h",
-        "roadHeightUnit": "m",
-        "driveSide": "right",
-        "area": 41228.11,
-        "resources": {
-          "ch-irc": {
-            "id": "ch-irc",
-            "type": "irc",
-            "account": "osm-ch",
-            "locationSet": {"include": ["ch"]},
-            "languageCodes": ["de", "en", "fr", "it"],
-            "order": -2,
-            "strings": {"community": "OpenStreetMap Switzerland"},
-            "contacts": [
-              {
-                "name": "Swiss OpenStreetMap Association",
-                "email": "board@sosm.ch"
-              }
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Switzerland on IRC",
-              "url": "https://webchat.oftc.net/?channels=osm-ch",
-              "description": "Join #osm-ch on irc.oftc.net (port 6667)",
-              "nameHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-ch\">OpenStreetMap Switzerland on IRC</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-ch\">https://webchat.oftc.net/?channels=osm-ch</a>",
-              "descriptionHTML": "Join #osm-ch on irc.oftc.net (port 6667)"
-            }
-          },
-          "ch-mailinglist": {
-            "id": "ch-mailinglist",
-            "type": "mailinglist",
-            "account": "talk-ch",
-            "locationSet": {"include": ["ch"]},
-            "order": 1,
-            "strings": {
-              "community": "OpenStreetMap Switzerland",
-              "name": "Openstreetmap Schweiz/Suisse/Svizzera/Svizra Mailing List",
-              "description": "Mailing list for Switzerland",
-              "url": "https://lists.openstreetmap.ch/mailman/listinfo/talk-ch"
-            },
-            "resolved": {
-              "name": "Openstreetmap Schweiz/Suisse/Svizzera/Svizra Mailing List",
-              "url": "https://lists.openstreetmap.ch/mailman/listinfo/talk-ch",
-              "description": "Mailing list for Switzerland",
-              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.ch/mailman/listinfo/talk-ch\">Openstreetmap Schweiz/Suisse/Svizzera/Svizra Mailing List</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.ch/mailman/listinfo/talk-ch\">https://lists.openstreetmap.ch/mailman/listinfo/talk-ch</a>",
-              "descriptionHTML": "Mailing list for Switzerland"
-            }
-          },
-          "ch-twitter": {
-            "id": "ch-twitter",
-            "type": "twitter",
-            "account": "SwissOSM",
-            "locationSet": {"include": ["ch"]},
-            "languageCodes": ["de", "en", "fr", "it"],
-            "strings": {"community": "OpenStreetMap Switzerland"},
-            "contacts": [
-              {
-                "name": "Swiss OpenStreetMap Association",
-                "email": "board@sosm.ch"
-              }
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Switzerland on Twitter",
-              "url": "https://twitter.com/SwissOSM",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/SwissOSM\">OpenStreetMap Switzerland on Twitter</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/SwissOSM\">https://twitter.com/SwissOSM</a>",
-              "descriptionHTML": "Follow us on Twitter"
-            }
-          },
-          "osm-ch": {
-            "id": "osm-ch",
-            "type": "osm-lc",
-            "locationSet": {"include": ["ch"]},
-            "languageCodes": ["de", "en", "fr", "it"],
-            "strings": {
-              "community": "OpenStreetMap Switzerland",
-              "description": "The platform for information on OpenStreetMap in Switzerland",
-              "url": "https://osm.ch/"
-            },
-            "contacts": [
-              {
-                "name": "Swiss OpenStreetMap Association",
-                "email": "board@sosm.ch"
-              }
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Switzerland",
-              "url": "https://osm.ch/",
-              "description": "The platform for information on OpenStreetMap in Switzerland",
-              "nameHTML": "<a target=\"_blank\" href=\"https://osm.ch/\">OpenStreetMap Switzerland</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://osm.ch/\">https://osm.ch/</a>",
-              "descriptionHTML": "The platform for information on OpenStreetMap in Switzerland"
-            }
-          }
-        }
-      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -5261,6 +5149,7 @@
               [8.43235, 47.56617],
               [8.39477, 47.57826],
               [8.38273, 47.56608],
+              [8.35512, 47.57014],
               [8.32735, 47.57133],
               [8.30277, 47.58607],
               [8.29524, 47.5919],
@@ -5614,6 +5503,118 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "iso1A2": "CH",
+        "iso1A3": "CHE",
+        "iso1N3": "756",
+        "wikidata": "Q39",
+        "nameEn": "Switzerland",
+        "groups": ["155", "150", "UN", "001"],
+        "callingCodes": ["41"],
+        "id": "Q39",
+        "m49": "756",
+        "ccTLD": ".ch",
+        "isoStatus": "official",
+        "level": "country",
+        "emojiFlag": "🇨🇭",
+        "roadSpeedUnit": "km/h",
+        "roadHeightUnit": "m",
+        "driveSide": "right",
+        "area": 41228.44,
+        "resources": {
+          "ch-irc": {
+            "id": "ch-irc",
+            "type": "irc",
+            "account": "osm-ch",
+            "locationSet": {"include": ["ch"]},
+            "languageCodes": ["de", "en", "fr", "it"],
+            "order": -2,
+            "strings": {"community": "OpenStreetMap Switzerland"},
+            "contacts": [
+              {
+                "name": "Swiss OpenStreetMap Association",
+                "email": "board@sosm.ch"
+              }
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Switzerland on IRC",
+              "url": "https://webchat.oftc.net/?channels=osm-ch",
+              "description": "Join #osm-ch on irc.oftc.net (port 6667)",
+              "nameHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-ch\">OpenStreetMap Switzerland on IRC</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-ch\">https://webchat.oftc.net/?channels=osm-ch</a>",
+              "descriptionHTML": "Join #osm-ch on irc.oftc.net (port 6667)"
+            }
+          },
+          "ch-mailinglist": {
+            "id": "ch-mailinglist",
+            "type": "mailinglist",
+            "account": "talk-ch",
+            "locationSet": {"include": ["ch"]},
+            "order": 1,
+            "strings": {
+              "community": "OpenStreetMap Switzerland",
+              "name": "Openstreetmap Schweiz/Suisse/Svizzera/Svizra Mailing List",
+              "description": "Mailing list for Switzerland",
+              "url": "https://lists.openstreetmap.ch/mailman/listinfo/talk-ch"
+            },
+            "resolved": {
+              "name": "Openstreetmap Schweiz/Suisse/Svizzera/Svizra Mailing List",
+              "url": "https://lists.openstreetmap.ch/mailman/listinfo/talk-ch",
+              "description": "Mailing list for Switzerland",
+              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.ch/mailman/listinfo/talk-ch\">Openstreetmap Schweiz/Suisse/Svizzera/Svizra Mailing List</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.ch/mailman/listinfo/talk-ch\">https://lists.openstreetmap.ch/mailman/listinfo/talk-ch</a>",
+              "descriptionHTML": "Mailing list for Switzerland"
+            }
+          },
+          "ch-twitter": {
+            "id": "ch-twitter",
+            "type": "twitter",
+            "account": "SwissOSM",
+            "locationSet": {"include": ["ch"]},
+            "languageCodes": ["de", "en", "fr", "it"],
+            "strings": {"community": "OpenStreetMap Switzerland"},
+            "contacts": [
+              {
+                "name": "Swiss OpenStreetMap Association",
+                "email": "board@sosm.ch"
+              }
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Switzerland on Twitter",
+              "url": "https://twitter.com/SwissOSM",
+              "description": "Follow us on Twitter",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/SwissOSM\">OpenStreetMap Switzerland on Twitter</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/SwissOSM\">https://twitter.com/SwissOSM</a>",
+              "descriptionHTML": "Follow us on Twitter"
+            }
+          },
+          "osm-ch": {
+            "id": "osm-ch",
+            "type": "osm-lc",
+            "locationSet": {"include": ["ch"]},
+            "languageCodes": ["de", "en", "fr", "it"],
+            "strings": {
+              "community": "OpenStreetMap Switzerland",
+              "description": "The platform for information on OpenStreetMap in Switzerland",
+              "url": "https://osm.ch/"
+            },
+            "contacts": [
+              {
+                "name": "Swiss OpenStreetMap Association",
+                "email": "board@sosm.ch"
+              }
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Switzerland",
+              "url": "https://osm.ch/",
+              "description": "The platform for information on OpenStreetMap in Switzerland",
+              "nameHTML": "<a target=\"_blank\" href=\"https://osm.ch/\">OpenStreetMap Switzerland</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://osm.ch/\">https://osm.ch/</a>",
+              "descriptionHTML": "The platform for information on OpenStreetMap in Switzerland"
+            }
+          }
+        }
       },
       "id": "Q39"
     },
@@ -10225,7 +10226,7 @@
       "type": "Feature",
       "properties": {
         "id": "+[Q183,Q39,Q40]",
-        "area": 518974.71,
+        "area": 518975.04,
         "resources": {
           "de-telegram": {
             "id": "de-telegram",
@@ -11212,12 +11213,6 @@
               [8.45719, 55.06747],
               [8.02459, 55.09613],
               [5.45168, 54.20039]
-            ],
-            [
-              [8.32735, 47.57133],
-              [8.35512, 47.57014],
-              [8.38273, 47.56608],
-              [8.32735, 47.57133]
             ],
             [
               [8.95861, 45.96485],
@@ -17126,7 +17121,7 @@
       "type": "Feature",
       "properties": {
         "id": "+[Q26,Q27]",
-        "area": 343999.15,
+        "area": 180214.72,
         "resources": {
           "ireland-chapter": {
             "id": "ireland-chapter",
@@ -17335,7 +17330,8 @@
         "coordinates": [
           [
             [
-              [-22.01468, 48.19557],
+              [-11.75, 54],
+              [-11, 51],
               [-6.03913, 51.13217],
               [-5.37267, 53.63269],
               [-6.26218, 54.09785],
@@ -17343,7 +17339,7 @@
               [-4.69044, 54.3629],
               [-6.34755, 55.49206],
               [-7.75229, 55.93854],
-              [-22.01468, 48.19557]
+              [-11.75, 54]
             ]
           ]
         ]
