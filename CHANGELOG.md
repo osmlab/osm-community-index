@@ -28,7 +28,7 @@ _Breaking changes, which may affect downstream projects, are marked with a_ âš ï
   * Bulgaria Discourse ([#598])
   * Oceania Discourse ([#599])
   * Geogeeks Perth ([#600])
-  * Multiple Slovenian resources ([#601],[#602],[#603])
+  * Multiple Slovenian resources ([#601], [#602], [#603])
   * Belgium Mastodon ([#605])
   * United States Discourse
   * Austria Mastodon ([#606])
@@ -40,7 +40,7 @@ _Breaking changes, which may affect downstream projects, are marked with a_ âš ï
   * Update Czech resource links and sorting ([#604])
   * Fix Ireland Telegram invite link ([#609])
   * Set OSM Austria as an official local chapter ([#625])
-  * Fix link to Geospatial Engineering Students Association ([#624],[#628])
+  * Fix link to Geospatial Engineering Students Association ([#624], [#628])
 * Removed:
   * TÃ¼rkiye telegram group, requires payment ([#610])
   * Togo telegram group, now readonly ([#611])
