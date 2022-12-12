@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import { icon } from '@fortawesome/fontawesome-svg-core';
 
 import {
-  faAt, faComments, faKeyboard, faLink, faNewspaper, faUsers
+  faAt, faComment, faComments, faKeyboard, faLink, faNewspaper, faUsers
 } from '@fortawesome/free-solid-svg-icons';
 
 import {
@@ -27,6 +27,7 @@ const toBuild = {
   meetup: faMeetup,
   newsletter: faNewspaper,
   reddit: faReddit,
+  signal: faComment,
   slack: faSlack,
   telegram: faTelegram,
   twitter: faTwitter,
