@@ -19,6 +19,57 @@ _Breaking changes, which may affect downstream projects, are marked with a_ ⚠�
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.4.0
+##### 2022-Dec-12
+* Support new resource types `mastodon` ([#605]) and `signal` ([#622])
+* If `community` name string is present, also include generated `communityID` translation key ([#616])
+* Update to location-conflation v1.1 / country-coder v5.1 (and update other dependencies)
+* Added:
+  * Bulgaria Discourse ([#598])
+  * Oceania Discourse ([#599])
+  * Geogeeks Perth ([#600])
+  * Multiple Slovenian resources ([#601],[#602],[#603])
+  * Belgium Mastodon ([#605])
+  * United States Discourse
+  * Austria Mastodon ([#606])
+  * Denmark Discourse ([#615])
+  * Poland Discourse ([#619])
+  * China Matrix ([#608])
+  * South Africa Discourse ([#629])
+* Updated:
+  * Update Czech resource links and sorting ([#604])
+  * Fix Ireland Telegram invite link ([#609])
+  * Set OSM Austria as an official local chapter ([#625])
+  * Fix link to Geospatial Engineering Students Association ([#624],[#628])
+* Removed:
+  * Türkiye telegram group, requires payment ([#610])
+  * Togo telegram group, now readonly ([#611])
+  * Benin telegram group no longer active ([#612])
+
+[#598]: https://github.com/osmlab/osm-community-index/issues/598
+[#599]: https://github.com/osmlab/osm-community-index/issues/599
+[#600]: https://github.com/osmlab/osm-community-index/issues/600
+[#601]: https://github.com/osmlab/osm-community-index/issues/601
+[#602]: https://github.com/osmlab/osm-community-index/issues/602
+[#603]: https://github.com/osmlab/osm-community-index/issues/603
+[#604]: https://github.com/osmlab/osm-community-index/issues/604
+[#605]: https://github.com/osmlab/osm-community-index/issues/605
+[#606]: https://github.com/osmlab/osm-community-index/issues/606
+[#608]: https://github.com/osmlab/osm-community-index/issues/608
+[#609]: https://github.com/osmlab/osm-community-index/issues/609
+[#610]: https://github.com/osmlab/osm-community-index/issues/610
+[#611]: https://github.com/osmlab/osm-community-index/issues/611
+[#612]: https://github.com/osmlab/osm-community-index/issues/612
+[#615]: https://github.com/osmlab/osm-community-index/issues/615
+[#616]: https://github.com/osmlab/osm-community-index/issues/616
+[#619]: https://github.com/osmlab/osm-community-index/issues/619
+[#622]: https://github.com/osmlab/osm-community-index/issues/622
+[#624]: https://github.com/osmlab/osm-community-index/issues/624
+[#625]: https://github.com/osmlab/osm-community-index/issues/625
+[#628]: https://github.com/osmlab/osm-community-index/issues/628
+[#629]: https://github.com/osmlab/osm-community-index/issues/629
+
+
 # 5.3.1
 ##### 2022-Nov-01
 * Added:
