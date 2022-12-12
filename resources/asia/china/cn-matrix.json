@@ -1,15 +1,10 @@
 {
   "id": "cn-matrix",
   "type": "matrix",
-  "account": "#osmchina:matrix.org",
+  "account": "#osmchina",
   "locationSet": {"include": ["cn"]},
   "languageCodes": ["zh"],
   "order": 4,
-  "strings": {"community": "OSMChina"},
-  "contacts": [
-    {
-      "name": "LaoshuBaby",
-      "email": "me@laoshubaby.moe"
-    }
-  ]
+  "strings": {"community": "OpenStreetMap China"},
+  "contacts": [{"name": "LaoshuBaby", "email": "me@laoshubaby.moe"}]
 }
