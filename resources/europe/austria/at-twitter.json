@@ -4,7 +4,10 @@
   "account": "osm_at",
   "locationSet": {"include": ["at"]},
   "languageCodes": ["de"],
-  "strings": {"community": "OpenStreetMap Austria"},
+  "strings": {
+    "community": "OpenStreetMap Austria",
+    "communityID": "openstreetmapaustria"
+  },
   "contacts": [
     {"name": "AT Community", "email": "info@openstreetmap.at"}
   ]

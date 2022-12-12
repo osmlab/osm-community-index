@@ -214,10 +214,10 @@ function collectResources(featureCollection) {
     let resolvedStrings;
     try {
       resolvedStrings = resolveStrings(item, _defaults);
-
       if (!resolvedStrings.name)         { throw new Error('Cannot resolve a value for name'); }
       if (!resolvedStrings.description)  { throw new Error('Cannot resolve a value for description'); }
       if (!resolvedStrings.url)          { throw new Error('Cannot resolve a value for url'); }
+
     } catch (err) {
       console.error(chalk.red(`Error - ${err.message} in:`));
       console.error('  ' + chalk.yellow(file));
@@ -238,14 +238,26 @@ function collectResources(featureCollection) {
     if (item.order)          { obj.order = item.order; }
 
     obj.strings = {};
-    if (item.strings.community)            { obj.strings.community = item.strings.community; }
+
+    // If this item has a "community name" string, generate `communityID` and store it.
+    // https://github.com/osmlab/osm-community-index/issues/616
+    if (item.strings.community) {
+      const communityID = simplify(item.strings.community);
+      if (!communityID) {
+        console.error(chalk.red(`Error - Generated empty communityID in:`));
+        console.error('  ' + chalk.yellow(file));
+        process.exit(1);
+      }
+      _tstrings._communities[communityID] = item.strings.community;
+      obj.strings.community = item.strings.community;
+      obj.strings.communityID = communityID;
+    }
+
     if (item.strings.name)                 { obj.strings.name = item.strings.name; }
     if (item.strings.description)          { obj.strings.description = item.strings.description; }
     if (item.strings.extendedDescription)  { obj.strings.extendedDescription = item.strings.extendedDescription; }
     if (item.strings.signupUrl)            { obj.strings.signupUrl = item.strings.signupUrl; }
     if (item.strings.url)                  { obj.strings.url = item.strings.url; }
-
-    // obj.resolved = resolvedStrings;
 
     if (item.contacts)  { obj.contacts = item.contacts; }
     if (item.events)    { obj.events = item.events; }
@@ -268,11 +280,6 @@ function collectResources(featureCollection) {
 
     // Collect translation strings for this resource
     let translateStrings = {};
-
-    if (item.strings.community) {
-      const communityID = simplify(item.strings.community);
-      _tstrings._communities[communityID] = item.strings.community;
-    }
     if (item.strings.name)                 { translateStrings.name = item.strings.name; }
     if (item.strings.description)          { translateStrings.description = item.strings.description; }
     if (item.strings.extendedDescription)  { translateStrings.extendedDescription = item.strings.extendedDescription; }

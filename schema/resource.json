@@ -82,8 +82,15 @@
       "properties": {
         "community": {
           "description": "(optional) Community Name",
-          "examples": ["OSM Afghanistan"],
+          "examples": ["OpenStreetMap Afghanistan"],
           "type": "string"
+        },
+        "communityID": {
+          "description": "(generated) A unique identifier generated automatically from the Community Name string",
+          "$comment": "Only generated if community is present . See https://github.com/osmlab/osm-community-index/issues/616",
+          "examples": ["openstreetmapafghanistan"],
+          "type": "string",
+          "pattern": "^[-_.A-Za-z0-9]+$"
         },
         "name": {
           "description": "(optional) Display name for this community resource",

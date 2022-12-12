@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.3.1",
-    "generated": "2022-12-08T22:22:24.545Z",
+    "generated": "2022-12-12T16:11:20.177Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/defaults.json",
-    "hash": "f4be419a22876b68f414dfa6e50220a6"
+    "hash": "22e7abb9471e92ef9429bbf6fa60e247"
   },
   "defaults": {
     "aparat": {
@@ -73,6 +73,10 @@
     "reddit": {
       "name": "{community} on Reddit",
       "url": "https://www.reddit.com/r/{account}"
+    },
+    "signal": {
+      "name": "{community} Signal",
+      "description": "Join our community chat on Signal"
     },
     "slack": {"name": "{community} Slack"},
     "telegram": {

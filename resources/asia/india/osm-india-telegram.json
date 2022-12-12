@@ -3,7 +3,10 @@
   "type": "telegram",
   "account": "OSMIndia",
   "locationSet": {"include": ["in"]},
-  "strings": {"community": "OpenStreetMap India"},
+  "strings": {
+    "community": "OpenStreetMap India",
+    "communityID": "openstreetmapindia"
+  },
   "contacts": [
     {"name": "Naveen Francis", "email": "naveenpf@gmail.com"}
   ]

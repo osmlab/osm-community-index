@@ -4,7 +4,10 @@
   "account": "#osmberlin",
   "locationSet": {"include": ["de-berlin-brandenburg.geojson"]},
   "languageCodes": ["de"],
-  "strings": {"community": "OpenStreetMap Berlin"},
+  "strings": {
+    "community": "OpenStreetMap Berlin",
+    "communityID": "openstreetmapberlin"
+  },
   "contacts": [
     {"name": "Christopher Lorenz", "email": "osm@lorenz.lu"}
   ]
