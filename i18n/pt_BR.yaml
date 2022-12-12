@@ -62,9 +62,13 @@ pt_BR:
     discord:
       name: '{community} no Discord'
       description: Entre em contato com outros mapeadores no Discord
+    discourse:
+      description: O fórum oficial para {community}
     facebook:
       name: '{community} no Facebook'
       description: Junte-se à nossa comunidade no Facebook
+    forum:
+      description: O fórum oficial para {community}
     irc:
       name: '{community} no IRC'
       description: 'Junte-se a #{account} no irc.oftc.net (porta 6667)'
@@ -114,6 +118,8 @@ pt_BR:
     name: Lista de discussão de Berlim
   de-ostwestfalen-lippe-mailinglist:
     name: Lista de discussão OWL
+  de-ulm_neuulm-meetup:
+    description: Mapeadores e usuários do OpenStreetMap na área de Ulm e Neu-Ulm
   DF-telegram:
     extendedDescription: Entre na comunidade para aprender mais sobre o OpenStreetMap, fazer perguntas ou participar dos nossos encontros. Todos são bem-vindos!
   fr-bzh-website:
@@ -124,8 +130,6 @@ pt_BR:
     description: 'Um grupo Telegram para a comunidade OSM França: {url}'
   Galicia-Xeoinquedos-Twitter:
     description: Siga-nos no Twitter em {url}
-  geogeeks_perth_meetup:
-    description: Grupo Meetup baseado em Perth para pessoas interessadas em mapeamento, dados geoespaciais e código aberto. Estaremos trabalhando em qualquer coisa que envolva um senso de lugar.
   GeoPhilly:
     name: GeoPhilly
     description: Encontro para entusiastas do mapa na área de Filadélfia
@@ -194,6 +198,8 @@ pt_BR:
     extendedDescription: OpenStreetMap (OSM) Colorado é uma colaboração local de pessoas interessadas em contribuir com seus esforços para criar mapas gratuitos. Encorajamos todos os nossos mapeadores a organizar ou sugerir o mapeamento de eventos em todo o estado. As atividades do Meetup podem ser simples mixers sociais, treinamento básico e avançado do OSM ou partes de mapeamento da comunidade.
   OSM-Discord:
     name: Discord internacional do OpenStreetMap no Discord
+  OSM-Discourse:
+    description: Um local compartilhado para conversas sobre o OpenStreetMap
   OSM-Facebook:
     description: Curta-nos no Facebook para novidades e atualizações sobre o OpenStreetMap.
   osm-gh-facebook:
@@ -242,6 +248,8 @@ pt_BR:
   OSM-Puducherry-Mailing-List:
     name: Movimento de Hardware e Software Livres - Lista de discussão
     extendedDescription: O FSHM organiza eventos relacionados a software/hardware livres, tecnologia, ativismo e OpenStreetMap.
+  OSM-Reddit:
+    description: /r/{account} é um ótimo lugar para aprender mais sobre o OpenStreetMap. Pergunte-nos qualquer coisa!
   OSM-Rome-meetup:
     description: Melhore o OpenStreetMap na área de Roma
     extendedDescription: Nosso objetivo é ser um recurso para as pessoas discutirem e compartilharem conhecimento sobre a utilização de conjuntos de dados geográficos gratuitos, especialmente OpenStreetMap e software geoespacial aberto que gerencia, edita e exibe dados geográficos e defende seu uso na Lazio.

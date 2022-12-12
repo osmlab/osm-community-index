@@ -111,6 +111,7 @@ fr:
     openstreetmapliberia: OpenStreetMap Liberia
     openstreetmaplibya: OpenStreetMap Lybie
     openstreetmaplithuania: OpenStreetMap Lituanie
+    openstreetmapljubljana: OpenStreetMap Ljubljana
     openstreetmaplombardia: OpenStreetMap Lombardie
     openstreetmaplondon: OpenStreetMap Londres
     openstreetmapluneburg: OpenStreetMap Lunebourg
@@ -136,7 +137,9 @@ fr:
     openstreetmapnicaragua: OpenStreetMap Nicaragua
     openstreetmapniger: OpenStreetMap Niger
     openstreetmapnigeria: OpenStreetMap Nigeria
+    openstreetmapnorthkorea: OpenStreetMap Corée du Nord
     openstreetmapnorway: OpenStreetMap Norvège
+    openstreetmapoceania: OpenStreetMap Océanie
     openstreetmapottawa: OpenStreetMap Ottawa
     openstreetmappakistan: OpenStreetMap Pakistan
     openstreetmappanama: OpenStreetMap Panama
@@ -227,6 +230,9 @@ fr:
       name: 'Liste de diffusion {account}'
       description: La liste de diffusion officielle de {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
+    mastodon:
+      name: 'Compte Mastodon de {community}'
+      description: Compte Mastodon officiel de {community}
     matrix:
       name: 'Chat Matrix de {community}'
       description: Rejoignez notre communauté sur Matrix Chat
@@ -345,14 +351,8 @@ fr:
     description: 'Tout ce que vous devez savoir sur la cartographie dans la Communauté Valencienne : {url}'
   czech-community:
     description: Portail cartographique, site web et contacts des membres OSM en République Tchèque
-  czech-irc:
-    description: Salon OpenStreetMap en tchèque, relié avec Jabber, Matrix et Telegram
-  czech-matrix:
-    description: Salon OpenStreetMap en tchèque, relié avec IRC, Jabber et Telegram
-  czech-telegram:
-    description: Salon OpenStreetMap en tchèque, relié avec IRC, Jabber et Matrix
-  czech-xmpp:
-    description: Salon OpenStreetMap en tchèque, relié avec IRC, Matrix et Telegram
+  czech-discord:
+    description: Salon OpenStreetMap en tchèque, relié avec IRC, Jabber, Matrix et Telegram
   de-berlin-mailinglist:
     name: Liste de diffusion pour Berlin
   de-berlin-wiki:
@@ -413,6 +413,8 @@ fr:
     description: 'Rejoignez notre salle de discussion multi-utilisateurs XMPP : {url}'
   DF-telegram:
     extendedDescription: Rejoignez la communauté pour en apprendre plus sur OpenStreetMap, pour poser des questions ou participer à nos rencontres. Vous êtes tous les bienvenus !
+  dk-discourse:
+    description: Un forum de discussion sur OpenStreetMap au Danemark
   ee-wiki:
     description: Informations concernant la cartographie spécifiques à l'Estonie
   es-discourse:
@@ -447,8 +449,7 @@ fr:
   gb-mailinglist:
     description: Talk-gb est la liste de diffusion principale pour la communauté OSM du Royaume-Uni (incluant l'Irlande du Nord)
   geogeeks_perth_meetup:
-    name: Rencontre GeoGeeks Perth
-    description: Groupe de rencontre basé à Perth pour les personnes intéressées par la cartographie, les données géospatiales et les logiciels libres. Nous travaillerons sur tout ce qui implique un sens du lieu.
+    name: Geogeeks Perth
   GeoPhilly:
     name: GeoPhilly
     description: Réunion pour les passionnés de cartographie dans la région de Philadelphie
@@ -509,6 +510,8 @@ fr:
     description: Groupe public semi-officiel de tout le Kosovo (relié à celui de Telegram). Nous accueillons les cartographes venant de partout et dans toutes les langues.
   kosovo-telegram:
     description: Groupe Telegram public semi-officiel pour tout le Kosovo.  Nous accueillons tous les cartographes de n'importe où dans toutes les langues.
+  kp-wiki:
+    description: 'Guide de cartographie {community}'
   latam-facebook:
     description: Cartographes et OpenStreetMap sur Facebook en Amérique Latine
   latam-matrix:
@@ -826,8 +829,6 @@ fr:
     name: OpenStreetMap Wyoming
     description: Cartographes et utilisateurs d'OpenStreetMap dans la région de Wyoming
     extendedDescription: OpenStreetMap (OSM) Wyoming est une collaboration locale de gens intéressés par la contribution de leurs efforts pour créer des cartes libres. Nous encourageons tous nos cartographes à organiser ou suggérer des événement cartographiques dans tout l'état. Les rencontres peuvent consister en de simples événements sociaux, des sessions d'apprentissage des bases ou avancées, ou des cartoparties communautaires.
-  osmcz-facebook:
-    description: Suivez la communauté tchèque sur Facebook - inclus la traduction des HebdoOSM !
   osmcz-twitter:
     description: Suivez la communauté tchèque sur Twitter - inclus la traduction des HebdoOSM !
   OSMF:
@@ -843,6 +844,8 @@ fr:
   PHXGeo-twitter:
     name: Fil Twitter de PHXGeo
     description: Suivez-nous sur Twitter à l'adresse {url}
+  pt-wiki:
+    description: WikiProject avec informations et directives pour la cartographie du Portugal.
   rs-discourse:
     description: Un forum pour discuter d'OpenStreetMap en Serbie
   rs-gitlab:
@@ -853,6 +856,12 @@ fr:
     extendedDescription: Rejoignez la communauté pour apprendre davantage sur OpenStreetMap, poser des questions ou participer à nos réunions. Tout le monde est la bienvenue !
   rs-wiki:
     description: La page wikiproject pour la Serbie
+  si-github:
+    description: 'GitHub de {community}'
+  si-ljubljana-wiki:
+    description: 'Page Wiki de {community}'
+  si-wiki:
+    description: 'Page Wiki de {community}'
   sk-freemap:
     name: Site web Slovaque de "Freemap" d'OpenStreetMap
     description: Site web de la carte OpenStreetMap avec des outils pour la Slovaquie et les régions proches
@@ -891,6 +900,8 @@ fr:
     description: 'Page wiki de {community}'
   uk-loomio:
     name: OpenStreetMap Grande-Bretagne sur Loomio
+  us-discourse:
+    description: Un forum de discussion sur OpenStreetMap aux États-Unis
   us-massachusetts-mailinglist:
     name: Liste de diffusion Talk-us-massachusetts
     description: Liste de diffusion par e-mail pour la communauté OSM du Massachusetts

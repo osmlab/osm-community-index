@@ -50,6 +50,7 @@ ar:
     openstreetmapcuneo: خريطة الشارع المفتوحة في كونيو
     openstreetmapcz: خريطة الشارع المفتوحة في التشيك
     openstreetmapde: خريطة الشارع المفتوحة في ألمانيا
+    openstreetmapdeepsouth: OpenStreetMap Deep South
     openstreetmapdenmark: خريطة الشارع المفتوحة في الدنمارك
     openstreetmapdjibouti: خريطة الشارع المفتوحة في جيبوتي
     openstreetmapdominicanrepublic: خريطة الشارع المفتوحة في جمهورية الدومينيكان
@@ -135,6 +136,7 @@ ar:
     openstreetmapnicaragua: خريطة الشارع المفتوحة في نيكاراغوا
     openstreetmapniger: خريطة الشارع المفتوحة في النيجر
     openstreetmapnigeria: خريطة الشارع المفتوحة في نيجيريا
+    openstreetmapnorthkorea: OpenStreetMap North Korea
     openstreetmapnorway: خريطة الشارع المفتوحة في النرويج
     openstreetmapottawa: خريطة الشارع المفتوحة في أوتاوا
     openstreetmappakistan: خريطة الشارع المفتوحة في باكستان
@@ -197,6 +199,8 @@ ar:
       url: https://discord.gg/{account}
     discourse:
       name: 'خطاب {community}'
+      description: The official forum for {community}
+      url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
       name: '{community} على فيسبوك'
       description: انضم إلى مجتمعنا على فيسبوك
@@ -283,6 +287,9 @@ ar:
     name: خريطة الشارع المفتوحة في بلجيكا الفصل المحلي
     description: نحن نساعد في النمو وتحسين خريطة الشارع المفتوحة في في بلجيكا.
     extendedDescription: إذا كنت ترغب في المساعدة في تحسين وتنمية مجتمع رسم الخرائط في بلجيكا ، ولجعل المزيد من الناس مهووسين برسم الخرائط ، فإن OpenStreetMap Belgium هو المكان المناسب لك!
+  be-discourse:
+    name: Belgium Discourse
+    description: A Forum to discuss OpenStreetMap in Belgium
   be-irc:
     extendedDescription: 'انضم إلى # {account} على irc.oftc.net (المنفذ 6667) ، فهو متصل بقناة دردشة Matrix'
   be-matrix:
@@ -339,14 +346,6 @@ ar:
     description: 'Everything you need to know about mapping in Valencian Community: {url}'
   czech-community:
     description: بوابة الخرائط والموقع الإلكتروني وجهات الاتصال الخاصة بأعضاء OSM في التشيك
-  czech-irc:
-    description: OpenStreetMap CZ room bridged with Jabber, Matrix and Telegram
-  czech-matrix:
-    description: OpenStreetMap CZ room bridged with IRC, Jabber and Telegram
-  czech-telegram:
-    description: OpenStreetMap CZ room bridged with IRC, Jabber and Matrix
-  czech-xmpp:
-    description: OpenStreetMap CZ room bridged with IRC, Matrix and Telegram
   de-berlin-mailinglist:
     name: قائمة بريد برلين
   de-berlin-wiki:
@@ -409,6 +408,8 @@ ar:
     extendedDescription: انضم إلى المجتمع لمعرفة المزيد حول OpenStreetMap أو طرح الأسئلة أو المشاركة في اجتماعاتنا. الجميع مرحب به!
   ee-wiki:
     description: Information relating to mapping activity that is specific to Estonia.
+  es-discourse:
+    name: Spanish Community Discourse
   fr-35-wiki:
     description: '{community} Wiki page'
   fr-38-wiki:
@@ -438,9 +439,6 @@ ar:
     extendedDescription: 'انضم إلى # {account} على irc.oftc.net (المنفذ 6667) ، يرجى التحلي بالصبر والانتظار لبضع دقائق إذا طرحت سؤالاً'
   gb-mailinglist:
     description: Talk-gb هي قائمة منتدى الاتصال الرئيسية لمجتمع OSM في المملكة المتحدة (بما في ذلك أيرلندا الشمالية)
-  geogeeks_perth_meetup:
-    name: جيجيكز بيرث ليتوب
-    description: مجموعة لقاءات مقرها بيرث للأشخاص المهتمين برسم الخرائط والبيانات الجغرافية المكانية والمصدر المفتوح. سنعمل على أي شيء يتضمن الإحساس بالمكان.
   GeoPhilly:
     name: جيوفيلي
     description: Meetup لعشاق الخريطة في منطقة فيلادلفيا
@@ -488,6 +486,9 @@ ar:
     description: نحن نساعد في النمو وتحسين خريطة الشارع المفتوحة في في أيسلندا.
   it-chapter:
     description: نحن نساعد في النمو وتحسين خريطة الشارع المفتوحة في في إيطاليا.
+  it-discourse:
+    name: Italian Discourse
+    description: Il forum dove poter discutere di OpenStreetMap
   ko-facebook:
     description: مصممي الخرائط ومستخدمي OpenStreetMap في كوريا
   kosovo-flossk:
@@ -498,6 +499,8 @@ ar:
     description: مجموعة عامة شبه رسمية من كوسوفو (موصولة مع المجموعة الموجودة في Telegram). نرحب بجميع مصممي الخرائط من أي مكان وبأي لغة.
   kosovo-telegram:
     description: مجموعة Telegram العامة شبه الرسمية لجميع كوسوفو. نرحب بجميع مصممي الخرائط من أي مكان وبأي لغة.
+  kp-wiki:
+    description: '{community} دليل رسم الخرائط'
   latam-facebook:
     description: خرائط وخريطة الشارع المفتوحة في على فيسبوك في أمريكا اللاتينية
   latam-matrix:
@@ -651,6 +654,9 @@ ar:
     extendedDescription: OpenStreetMap (OSM) كولورادو هو تعاون محلي للأشخاص المهتمين بالمساهمة في جهودهم لإنشاء خرائط مجانية. نحن نشجع جميع مصممي الخرائط لدينا على تنظيم أو اقتراح أحداث رسم الخرائط في جميع أنحاء الولاية. يمكن أن تكون أنشطة اللقاء مزيجًا اجتماعيًا بسيطًا ، أو تدريب OSM الأساسي إلى التدريب المتقدم ، أو حفلات تخطيط المجتمع.
   osm-de:
     description: منصة للحصول على معلومات حول خريطة الشارع المفتوحة في في ألمانيا
+  osm-deep-south-wiki:
+    description: '{community} صفحة ويكي'
+    extendedDescription: OpenStreetMap Deep South is a local mapping community in the Southeastern United States.
   OSM-Discord:
     name: خريطة الشارع المفتوحة في الخلاف العالمي
   OSM-Discourse:
@@ -723,6 +729,8 @@ ar:
     description: نحن خريطة ولاية كيرالا معا. انضم إلى مجموعتنا البرقية. {url}
   osm-kerala-website:
     description: نحن نساعد في تطوير OpenStreetMap وتحسينه في ولاية كيرالا.
+  osm-kerala-wiki:
+    description: Want to know more about Kerala Mapping? {url}
   osm-mg-facebook:
     description: مجموعة فيسبوك الملغاشية للأشخاص المهتمين ب OpenStreetMap.
   osm-michigan-facebook-group:
@@ -795,6 +803,11 @@ ar:
   OSM-US:
     description: نحن نساعد في تطوير OpenStreetMap وتحسينه في الولايات المتحدة.
     extendedDescription: 'نحن ندعم OpenStreetMap من خلال عقد مؤتمرات سنوية ، وتوفير موارد المجتمع ، وبناء الشراكات ، ونشر الكلمة. انضم إلى OpenStreetMap US هنا: {signupUrl}'
+    events:
+      mappingusa2022:
+        name: Mapping USA 2022
+        description: Join us for a free virtual conference in celebration of the Wiki and OpenStreetMap communities across North America!
+        where: virtual
   OSM-US-Slack:
     description: الجميع مرحب بهم! التسجيل في {signupUrl}
   OSM-Utah:
@@ -805,13 +818,12 @@ ar:
     name: خريطة الشارع المفتوحة في وايومنغ
     description: مخططو الخرائط ومستخدمو خريطة الشارع المفتوحة في في ولاية وايومنغ
     extendedDescription: OpenStreetMap (OSM) Wyoming عبارة عن تعاون محلي للأشخاص المهتمين بالمساهمة في جهودهم لإنشاء خرائط مجانية. نحن نشجع جميع مصممي الخرائط لدينا على تنظيم أو اقتراح أحداث رسم الخرائط في جميع أنحاء الولاية. يمكن أن تكون أنشطة اللقاء مزيجًا اجتماعيًا بسيطًا ، أو تدريب OSM الأساسي إلى التدريب المتقدم ، أو حفلات تخطيط المجتمع.
-  osmcz-facebook:
-    description: تابع المجتمع التشيكي على فيسبوك - بما في ذلك WeeklyOSM المترجم!
   osmcz-twitter:
     description: تابع المجتمع التشيكي على تويتر - بما في ذلك WeeklyOSM المترجم!
   OSMF:
     name: مؤسسة خريطة الشارع المفتوح
     description: OSMF هي مؤسسة غير ربحية مقرها المملكة المتحدة وتدعم مشروع OpenStreetMap
+    extendedDescription: 'يدعم OSMF مشروع خريطة الشارع المفتوحة من خلال جمع التبرعات ، والحفاظ على الخوادم التي تشغل OSM ، وتنظيم المؤتمر السنوي لحالة الخريطة ، وتنسيق المتطوعين الذين يحافظون على تشغيل OSM. يمكنك إظهار دعمك والحصول على صوت في اتجاه خريطة الشارع المفتوحة من خلال الانضمام كعضو في OSMF هنا: {signupUrl}'
   ph-facebook-group:
     name: '{community} Facebook Group'
   PHXGeo-meetup:
@@ -821,6 +833,10 @@ ar:
   PHXGeo-twitter:
     name: PHXGeo تويتر
     description: تابعنا على تويتر على {url}
+  pt-wiki:
+    description: WikiProject with information and coordination guidelines for mapping in Portugal.
+  rs-discourse:
+    description: A Forum to discuss OpenStreetMap in Serbia
   rs-gitlab:
     description: مجموعة من المشاريع المتعلقة OSM صربيا على GitLab
   rs-osm:
@@ -910,6 +926,7 @@ ar:
     description: فرع الشباب في الجامعة الآسيوية للمرأة
     extendedDescription: تسعى الجامعة الآسيوية للنساء إلى تخريج النساء اللاتي سيكونن مهنيات ماهرة ومبتكرة ، وقادة موجهين للخدمة في الأعمال التجارية والمجتمعات التي سيعملون ويعيشون فيها ، ومروجو التفاهم بين الثقافات والتنمية البشرية والاقتصادية المستدامة في آسيا وفي جميع أنحاء العالم. العالمية.
   ym-Ball-State-University:
+    name: Gamma Theta Upsilon - Iota Omega Chapter
     description: فصل YouthMappers في جامعة ولاية الكرة
     extendedDescription: فصلنا هو فصل نشط للغاية. نحن نركز بشكل أساسي على الأحداث المجتمعية وجمع التبرعات والرحلات الميدانية. نحن نتطلع حاليًا إلى تطوير المزيد من الأنشطة المتعلقة برسم الخرائط لجذب الطلاب الآخرين من الحرم الجامعي الذين قد يكونون مهتمين بالمساهمة.
   ym-Busitema-University:
@@ -1022,6 +1039,7 @@ ar:
     description: فرع الشباب في معهد تخطيط التنمية الريفية
     extendedDescription: تم تقديم فرع Mipango YouthMappers في IRDP في 3 يوليو 2017 من قبل الدكتورة دوميتيلا باشيميرا. كان الأعضاء المؤسسون 300 طالب بكالوريوس (190 ذكر و 110 إناث) تم تسجيلهم كأعضاء في الفرع. جيرالد زكريا هو رئيس الفرع وجستر لوجيرا هو نائب الرئيس.
   ym-Institute-of-Rural-Development-Planning-Mwanza:
+    name: YouthMappers chapter at Institute of Rural Development Planning - Lake Zone Centre
     description: فرع الشباب في معهد تخطيط التنمية الريفية موانزا
   ym-Institute-of-Science-and-Veterinary-Medicine:
     name: YouthMappers ISSMV دالابا
@@ -1132,6 +1150,7 @@ ar:
     description: فرع YouthMappers في جامعة راجشاهي للهندسة والتكنولوجيا
     extendedDescription: '"YouthMappers في RUET" هي مجموعة رسم خرائط إنسانية لطلاب جامعة راجشاهي للهندسة والتكنولوجيا (RUET) لتبادل وتطوير وممارسة المعرفة الخاصة بنظم المعلومات الجغرافية. تشجع هذه المجموعة استخدام البيانات الجغرافية المكانية مفتوحة المصدر والنظام الأساسي لإيجاد حل للوصول إلى المجموعة الأكثر ضعفًا في العالم.'
   ym-Sacred-Heart-Junior-College:
+    name: YouthMappers at Sacred Heart Junior College
     description: YouthMappers الفصل في كلية القلب المقدس جونيور
   ym-Sherubtse-College:
     name: الجمعية الجغرافية
@@ -1359,6 +1378,7 @@ ar:
   ym-University-of-the-Philippines-Resilience-Institute:
     name: معهد الشباب مابرز للمرونة
     description: فرع YouthMappers في معهد المرونة بجامعة الفلبين
+    extendedDescription: The UP Resilience Institute was established in 2016 with a mission statement to empower local communities through multidisciplinary research and actions toward resilience. Through UP NOAH Center, and the help of different organizations, we have provided building exposure maps for 17 provinces out of the 82 and uploaded more than 4 million footprints to OpenStreetMap.
   ym-University-of-the-Philippines-Resilience-Institute-twitter:
     name: YouthMappers UP Resilience Institute Twitter
   ym-University-of-the-West-Indies-Mona-Campus:

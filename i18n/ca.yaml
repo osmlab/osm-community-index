@@ -1,5 +1,10 @@
 ca:
   _communities:
+    geolibres: GeoLibres
+    kiribatiwomeninmapping: Kiribati Women in Mapping
+    mappingbotswana: Mapping Botswana
+    maptimebogota: MaptimeBogota
+    maptimehrva: MaptimeHRVA
     openstreetmap: OpenStreetMap
     openstreetmapafghanistan: OpenStreetMap Afganistan
     openstreetmapafrica: OpenStreetMap Àfrica
@@ -15,6 +20,7 @@ ca:
     openstreetmapbelgium: OpenStreetMap Bèlgica
     openstreetmapbenin: OpenStreetMap Benín
     openstreetmapberlin: OpenStreetMap Berlín
+    openstreetmapbivccvl: OpenStreetMap BI-VC-CVL
     openstreetmapbochum: OpenStreetMap Bochum
     openstreetmapbolivia: OpenStreetMap Bolívia
     openstreetmapbonn: OpenStreetMap Bonn
@@ -44,6 +50,7 @@ ca:
     openstreetmapcuneo: OpenStreetMap Cuneo
     openstreetmapcz: OpenStreetMap República Txeca
     openstreetmapde: OpenStreetMap Alemanya
+    openstreetmapdeepsouth: OpenStreetMap Deep South
     openstreetmapdenmark: OpenStreetMap Dinamarca
     openstreetmapdjibouti: OpenStreetMap Djibouti
     openstreetmapdominicanrepublic: OpenStreetMap República Dominicana
@@ -58,6 +65,7 @@ ca:
     openstreetmapfiji: OpenStreetMap Fiji
     openstreetmapfinland: OpenStreetMap Finlàndia
     openstreetmapfrance: OpenStreetMap França
+    openstreetmapfreemapslovakia: OpenStreetMap Freemap Slovakia
     openstreetmapfrenchguiana: OpenStreetMap Guaiana Francesa
     openstreetmapfrenchpolynesia: OpenStreetMap Polinèsia Francesa
     openstreetmapgabon: OpenStreetMap Gabon
@@ -65,7 +73,9 @@ ca:
     openstreetmapgeorgia: OpenStreetMap Geòrgia
     openstreetmapgermany: OpenStreetMap Alemanya
     openstreetmapghana: OpenStreetMap Ghana
+    openstreetmapgorakalwaria: OpenStreetMap Góra Kalwaria
     openstreetmapgreece: OpenStreetMap Grècia
+    openstreetmapgrenoble: OpenStreetMap Grenoble
     openstreetmapguatemala: OpenStreetMap Guatemala
     openstreetmapguinea: OpenStreetMap Guinea
     openstreetmaphaiti: OpenStreetMap Haití
@@ -81,7 +91,12 @@ ca:
     openstreetmapireland: OpenStreetMap Irlanda
     openstreetmapisrael: OpenStreetMap Israel
     openstreetmapitaly: OpenStreetMap Itàlia
+    openstreetmapitalylazio: OpenStreetMap Italy-Lazio
+    openstreetmapitalylombardia: OpenStreetMap Italy-Lombardia
+    openstreetmapitalypiemonte: OpenStreetMap Italy-Piemonte
+    openstreetmapitalysouthtyrol: OpenStreetMap Italy-South Tyrol
     openstreetmapjapan: OpenStreetMap Japó
+    openstreetmapkarlsruhe: OpenStreetMap Karlsruhe
     openstreetmapkazakhstan: OpenStreetMap Kazakhstan
     openstreetmapkenya: OpenStreetMap Kenya
     openstreetmapkerala: OpenStreetMap Kerala
@@ -97,6 +112,7 @@ ca:
     openstreetmaplithuania: OpenStreetMap Lituània
     openstreetmaplombardia: OpenStreetMap Llombardia
     openstreetmaplondon: OpenStreetMap Londres
+    openstreetmapluneburg: OpenStreetMap Lüneburg
     openstreetmapluxembourg: OpenStreetMap Luxemburg
     openstreetmapmadagascar: OpenStreetMap Madagascar
     openstreetmapmadrid: OpenStreetMap Madrid
@@ -105,10 +121,12 @@ ca:
     openstreetmapmali: OpenStreetMap Mali
     openstreetmapmalta: OpenStreetMap Malta
     openstreetmapmauritania: OpenStreetMap Mauritània
+    openstreetmapmecklenburgvorpommern: OpenStreetMap Mecklenburg-Vorpommern
     openstreetmapmexico: OpenStreetMap Mèxic
     openstreetmapmichigan: OpenStreetMap Michigan
     openstreetmapmoldova: OpenStreetMap Moldàvia
     openstreetmapmongolia: OpenStreetMap Mongòlia
+    openstreetmapmontrouge: OpenStreetMap Montrouge
     openstreetmapmorocco: OpenStreetMap Marroc
     openstreetmapmunchen: OpenStreetMap Munic
     openstreetmapmyanmar: OpenStreetMap Myanmar
@@ -117,6 +135,7 @@ ca:
     openstreetmapnicaragua: OpenStreetMap Nicaragua
     openstreetmapniger: OpenStreetMap Níger
     openstreetmapnigeria: OpenStreetMap Nigèria
+    openstreetmapnorthkorea: OpenStreetMap North Korea
     openstreetmapnorway: OpenStreetMap Noruega
     openstreetmapottawa: OpenStreetMap Ottawa
     openstreetmappakistan: OpenStreetMap Pakistan
@@ -167,6 +186,7 @@ ca:
     openstreetmapwesternsahara: OpenStreetMap Sàhara Occidental
     openstreetmapzambia: OpenStreetMap Zàmbia
     openstreetmapzimbabwe: OpenStreetMap Zimbàbue
+    youthmappersasu: YouthMappersASU
   _defaults:
     aparat:
       name: '{community} a Aparat'
@@ -179,9 +199,11 @@ ca:
     discourse:
       name: 'Discourse d''{community}'
       description: El fòrum oficial per {community}
+      url: https://community.openstreetmap.org/c/communities/{compte}
     facebook:
       name: '{community} al Facebook'
       description: Uniu-vos a la comunitat al Facebook
+      url: https://www.facebook.com/{compte}
     forum:
       name: 'Fòrum d''{community}'
       description: Fòrum oficial per {community}
@@ -200,6 +222,7 @@ ca:
     linkedin:
       name: '{community} a LinkedIn'
       description: Uniu-vos a la comunitat al LinkedIn
+      url: https://www.linkedin.com/company/{compte}
     mailinglist:
       name: 'Llista de correu {account}'
       description: Llista de correu oficial per {community}
@@ -210,6 +233,7 @@ ca:
       url: https://matrix.to/#/{account}:matrix.org
     meetup:
       name: 'Meetup d''{community}'
+      url: https://www.meetup.com/{compte}
     newsletter:
       name: 'Butlletí de notícies {community}'
     osm:
@@ -238,15 +262,26 @@ ca:
       name: '{community} a YouTube'
       description: Subscriviu-vos al canal de YouTube
       url: https://www.youtube.com/channel/{account}
+  aberdeen-discord:
+    name: OSM ABZ Discord
+  af-matrix:
+    description: Grup Matrix per a la comunitat a l'Afganistan.
   al-maptime-tirana:
+    name: Maptime Tirana
     description: Esdeveniments socials organitzats al voltant del mapeig - els principiants són benvinguts!
+  at-matrix:
+    description: Canal no oficial de Matrix en alemany per a Àustria
   at-wiki:
     description: 'Pàgina wiki {community}'
   Bay-Area-OpenStreetMappers:
+    name: Bay Area OpenStreetMappers
     description: Millora OpenStreetMap a l'Índia
   be-chapter:
     name: Secció local d'OpenStreetMap a Bèlgica
     description: Ajudem a fer créixer i millorar OpenStreetMap a Bèlgica
+  be-discourse:
+    name: Discus de Bèlgica
+    description: Un Forum per discutir sobre OpenStreetMap a Bèlgica
   bo-facebook-group:
     name: 'Grup de Facebook {community}'
   cape-coast-youthmappers:
@@ -271,6 +306,8 @@ ca:
     description: 'Pàgina wiki {community}'
   de-bonn-wiki:
     description: 'Pàgina wiki {community}'
+  de-bremen-mailinglist:
+    name: Llista de Correu de Bremen
   de-bremen-wiki:
     description: 'Pàgina wiki {community}'
   de-cologne-wiki:
@@ -279,6 +316,10 @@ ca:
     description: 'Pàgina wiki {community}'
   de-dusseldorf-wiki:
     description: 'Pàgina wiki {community}'
+  de-karlsruhe-mailinglist:
+    name: Llsita de Correu Karlsruhe
+  de-karlsruhe-meetup:
+    description: Mapejadors i usuaris d'OpenStreetMap a l'àrea de Karlsruhe
   de-luneburg-wiki:
     description: 'Pàgina wiki {community}'
   de-munchen-wiki:
@@ -313,3 +354,17 @@ ca:
     description: Segueix-nos a Twitter a {url}
   uk-london-wiki:
     description: 'Pàgina wiki {community}'
+  ym-University-of-Victoria:
+    description: Secció de YouthMappers a la University of Victoria
+  ym-Vassar-College:
+    name: Hudson Valley Mappers
+    description: Secció de YouthMappers al Vassar College
+  ym-Villanova-University:
+    name: The Villanova Globeplotters
+  ym-West-Virginia-University:
+    name: Maptime Morgantown
+  ym-Western-Michigan-University:
+    name: Geography Club
+    description: Secció de YouthMappers a la Western Michigan University
+  ym-Yarmouk-University:
+    name: YouthMappers a la YU

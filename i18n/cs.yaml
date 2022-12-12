@@ -111,6 +111,7 @@ cs:
     openstreetmapliberia: OpenStreetMap Libérie
     openstreetmaplibya: OpenStreetMap Libye
     openstreetmaplithuania: OpenStreetMap Litva
+    openstreetmapljubljana: OpenStreetMap Lublaň
     openstreetmaplombardia: OpenStreetMap Lombardie
     openstreetmaplondon: OpenStreetMap Londýn
     openstreetmapluneburg: OpenStreetMap Lüneburg
@@ -136,7 +137,9 @@ cs:
     openstreetmapnicaragua: OpenStreetMap Nikaragua
     openstreetmapniger: OpenStreetMap Niger
     openstreetmapnigeria: OpenStreetMap Nigérie
+    openstreetmapnorthkorea: OpenStreetMap Severní Korea
     openstreetmapnorway: OpenStreetMap Norsko
+    openstreetmapoceania: OpenStreetMap Oceánie
     openstreetmapottawa: OpenStreetMap Ottawa
     openstreetmappakistan: OpenStreetMap Pákistán
     openstreetmappanama: OpenStreetMap Panama
@@ -227,6 +230,9 @@ cs:
       name: '{account} mailová konference'
       description: Oficiální mailová konference komunity {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
+    mastodon:
+      name: '{community} účet na Mastodonu'
+      description: Oficiální účet na Mastodonu komunity {community}
     matrix:
       name: '{community} Matrix Chat'
       description: Připojte se k chatu naší komunity na Matrixu
@@ -290,7 +296,7 @@ cs:
     name: Belgický Discourse
     description: Fórum k diskusi ohledně OpenStreetMap v Belgii
   be-irc:
-    extendedDescription: 'Připojte se k #{account} na irc.oftc.net (port 6667), který je propojen s chatovacím kanálem na Matrixu'
+    extendedDescription: 'Připojte se k #{account} na irc.oftc.net (port 6667), který je přemostěn s chatovacím kanálem na Matrixu'
   be-matrix:
     description: Všichni mapovači jsou vítáni!
     extendedDescription: Hlavní chatovací místnost belgické komunity OSM. Neváhejte se zde zeptat na vývojářské otázky!
@@ -345,14 +351,16 @@ cs:
     description: 'Vše, co potřebujete vědět o mapování ve Valencijské komunitě: {url}'
   czech-community:
     description: Mapový portál, webové stránky a kontakty na členy OSM v Česku
+  czech-discord:
+    description: Místnost OpenStreetMap CZ přemostěná s IRC, Matrixem a Telegramem
   czech-irc:
-    description: Místnost OpenStreetMap CZ propojena s Jabberem, Matrixem a Telegramem
+    description: Místnost OpenStreetMap CZ přemostěná s Discordem, Matrixem a Telegramem
   czech-matrix:
-    description: Místnost OpenStreetMap CZ propojena s IRC, Jabberem a Telegramem
+    description: Místnost OpenStreetMap CZ přemostěná s Discordem, IRC a Telegramem
   czech-telegram:
-    description: Místnost OpenStreetMap CZ propojena s IRC, Jabberem a Matrixem
+    description: Místnost OpenStreetMap CZ přemostěná s Discordem, IRC, Jabberem a Matrixem
   czech-xmpp:
-    description: Místnost OpenStreetMap CZ propojena s IRC, Matrixem a Telegramem
+    description: Místnost OpenStreetMap CZ přemostěná s Discordem, IRC, Matrixem a Telegramem
   de-berlin-mailinglist:
     name: Berlínská mailová konference
   de-berlin-wiki:
@@ -413,6 +421,9 @@ cs:
     description: 'Připojte se k naší XMPP víceuživatelskému chatu: {url}'
   DF-telegram:
     extendedDescription: Připojte se ke komunitě a dozvíte se více o OpenStreetMap, můžete klást otázky nebo se účastnit našich setkání. Každý je vítán!
+  dk-discourse:
+    name: '{community} Discourse'
+    description: Diskuzní fórum ohledně OpenStreetMap v Dánsku
   ee-wiki:
     description: Informace týkající se mapování, které je specifické pro Estonsko.
   es-discourse:
@@ -428,7 +439,7 @@ cs:
   fr-discord:
     name: Discord Communauté OpenStreetMap de France
   fr-matrix:
-    description: 'Skupina pro francouzskou komunity OSM na Matrixu: {url} (propojené s Telegramem)'
+    description: 'Skupina pro francouzskou komunity OSM na Matrixu: {url} (přemostěná s Telegramem)'
   fr-montrouge-website:
     description: Ubformace OSM pro místní komunitu v Montrouge
   fr-montrouge-wiki:
@@ -447,8 +458,8 @@ cs:
   gb-mailinglist:
     description: 'Talk-gb je hlavní komunikační fórum OSM komunity ve Velké Británii (včetně Severního Irska) '
   geogeeks_perth_meetup:
-    name: GeoGeeks Perth Meetup
-    description: Setkání založená v Perthu pro lidi se zájmem o mapování, geoprostorová data a otevřené zdroje. Budeme pracovat na čemkoliv, co zahrnuje smysl pro místo.
+    name: Geogeeks Perth
+    description: Setkání založená v Perthu pro lidi se zájmem o mapování, geoprostorová data a otevřené zdroje. Pořádáme pravidelné OSM mapovací večírky, besedy a společenská setkání. Začátečníci jsou srdečně vítáni!
   GeoPhilly:
     name: GeoPhilly
     description: Seznamte se s nadšenci mapování na území Filadelfie
@@ -506,15 +517,17 @@ cs:
     description: Propagace FLOSS od roku 2009
     extendedDescription: Free Libre Open Source Software Kosova (FLOSSK) je nevládní organizace založená v Prištině v roce 2009 s cílem podpořit, propagovat a vyvíjet volné a otevřené zdroje softwaru. Kromě toho také přispíváme k otevřeným a participativním znalostem, vzdělávání v informačních technologií prostřednictvím otevřeného výukového softwaru a otevřených standardů, kultury a otevřené společnosti využívající svobodnou komunikaci.
   kosovo-matrix:
-    description: Polooficiální celokosovská veřejná skupina (propojená s tím v Telegramu). Uvítáme všechny mapovače odkudkoli v jakémkoli jazyce.
+    description: Polooficiální celokosovská veřejná skupina (přemostěná s tím v Telegramu). Uvítáme všechny mapovače odkudkoli v jakémkoli jazyce.
   kosovo-telegram:
     description: Polooficiální celokosovská veřejná skupina na Telegramu. Uvítáme všechny mapovače odkudkoli v jakémkoli jazyce.
+  kp-wiki:
+    description: '{community} průvodce mapování'
   latam-facebook:
     description: Mapovači OpenStreetMap na Facebooku v Latinské Americe
   latam-matrix:
-    description: Chatujte si s ostatními členy latinskoamerické komunity OSM, který je propojen s chatem na Telegramu
+    description: Chatujte si s ostatními členy latinskoamerické komunity OSM, která je přemostěna s chatem na Telegramu
   latam-telegram:
-    description: Chatujte si s ostatními členy latinskoamerické komunity OSM, který je propojen s chatem na Matrixu
+    description: Chatujte si s ostatními členy latinskoamerické komunity OSM, která je přemostěna s chatem na Matrixu
   latam-wiki:
     description: Vše, co potřebujete vědět o mapování v Latinské Americe
   lk-facebook:
@@ -692,7 +705,7 @@ cs:
   osm-india-github:
     description: 'Kódujte s námi: {url}'
   osm-india-matrix:
-    extendedDescription: Neoficiální chatovací místnost pro OSM Indie, také propojená do skupiny osmindia na Telegramu
+    extendedDescription: Neoficiální chatovací místnost pro OSM Indie, také přemostěna do skupiny osmindia na Telegramu
   OSM-India-Puducherry-Facebook:
     name: Free Software Hardware Movement - Facebook
     description: Facebooková stránka FSHM, kde se dozvíte o komunitních akcích a aktivitách
@@ -732,7 +745,7 @@ cs:
     description: 'Kódujte s námi: {url}'
   osm-kerala-matrix:
     description: Společně mapujeme Kéralu. Připojte se k naší skupině na Matrixu
-    extendedDescription: Neoficiální chatovací místnost pro OSM Kérala, také propojená do skupiny osmkerala na Telegramu
+    extendedDescription: Neoficiální chatovací místnost pro OSM Kérala, také přemostěna do skupiny osmkerala na Telegramu
   osm-kerala-telegram:
     description: Společně mapujeme Kéralu. Připojte se k naší skupině na Telegramu
   osm-kerala-website:
@@ -826,8 +839,6 @@ cs:
     name: OpenStreetMap Wyoming
     description: Mapovači a uživatelé OpenStreetMap ve státě Wyoming
     extendedDescription: OpenStreetMap (OSM) Wyoming je místní spolupráce lidí, kteří mají zájem přispět svým úsilím vytvářet bezplatné mapy. Vyzýváme všechny naše tvůrce map, aby organizovali nebo navrhovali mapovací události po celém státě. Setkávací aktivity mohou být jednoduché sociální mixy od základní až pokročilá školení OSM nebo strany mapující komunity.
-  osmcz-facebook:
-    description: Sledujte českou komunitu na Facebooku – včetně přeloženého WeeklyOSM!
   osmcz-twitter:
     description: Sledujte českou komunitu na Twitteru – včetně přeloženého WeeklyOSM!
   OSMF:
@@ -855,6 +866,14 @@ cs:
     extendedDescription: Připojte se ke komunitě a dozvíte se více o OpenStreetMap, můžete klást otázky nebo se účastnit našich setkání. Každý je vítán!
   rs-wiki:
     description: Stránka wikiprojektu pro Srbsko
+  si-discourse:
+    name: '{community} Discourse'
+  si-github:
+    description: '{community} GitHub'
+  si-ljubljana-wiki:
+    description: '{community} Wiki stránka'
+  si-wiki:
+    description: '{community} Wiki stránka'
   sk-freemap:
     name: Web OpenStreetMap Freemap Slovensko
     description: Mapový web OpenStreetMap s nástroji na Slovensku a okolních regionech
@@ -893,6 +912,9 @@ cs:
     description: '{community} Wiki stránka'
   uk-loomio:
     name: OpenStreetMap UK na Loomiu
+  us-discourse:
+    name: '{community} Discourse'
+    description: Diskuzní fórum ohledně OpenStreetMap v Spojených státech
   us-massachusetts-mailinglist:
     name: Mailová konference Talk-us-massachusetts
     description: Tohle je mailová konference pro Massachusettskou OSM komunitu

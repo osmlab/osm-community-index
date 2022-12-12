@@ -50,6 +50,7 @@ zh_TW:
     openstreetmapcuneo: 開放街圖庫內奧
     openstreetmapcz: 開放街圖 CZ
     openstreetmapde: 開放街圖德國
+    openstreetmapdeepsouth: 開放街圖美國深南部
     openstreetmapdenmark: 開放街圖丹麥
     openstreetmapdjibouti: 開放街圖吉布地
     openstreetmapdominicanrepublic: 開放街圖多明尼加共和國
@@ -110,6 +111,7 @@ zh_TW:
     openstreetmapliberia: 開放街圖賴比瑞亞
     openstreetmaplibya: 開放街圖利比亞
     openstreetmaplithuania: 開放街圖立陶宛
+    openstreetmapljubljana: 開放街圖盧比安納
     openstreetmaplombardia: 開放街圖倫巴底
     openstreetmaplondon: 開放街圖倫敦
     openstreetmapluneburg: 開放街圖呂訥堡
@@ -135,7 +137,9 @@ zh_TW:
     openstreetmapnicaragua: 開放街圖尼加拉瓜
     openstreetmapniger: 開放街圖尼日
     openstreetmapnigeria: 開放街圖奈及利亞
+    openstreetmapnorthkorea: 開放街圖北韓
     openstreetmapnorway: 開放街圖挪威
+    openstreetmapoceania: 開放街圖大洋洲
     openstreetmapottawa: 開放街圖渥太華
     openstreetmappakistan: 開放街圖巴基斯坦
     openstreetmappanama: 開放街圖巴拿馬
@@ -226,6 +230,9 @@ zh_TW:
       name: '{account} 郵件論壇'
       description: '{community} 的官方郵件論壇'
       url: https://lists.openstreetmap.org/listinfo/{account}
+    mastodon:
+      name: '{community} 乳齒象社群帳號'
+      description: '{community} 的官方乳齒象社群帳號'
     matrix:
       name: '{community} Matrix 聊天室'
       description: 加入社群的 Matrix 聊天室
@@ -344,14 +351,16 @@ zh_TW:
     description: '您必須知道的在瓦倫西亞製圖的所有事情：{url}'
   czech-community:
     description: 捷克開放街圖成員的地圖入口以及聯繫地方
+  czech-discord:
+    description: 開放街圖捷克連線互連 IRC、Jabber、Matrix 與 Telegram 的空間
   czech-irc:
-    description: 開放街圖捷克連線互連 Jabber、Matrix 與 Telegram 的空間
+    description: 開放街圖捷克連線互連 Discord、Jabber、Matrix 與 Telegram 的空間
   czech-matrix:
-    description: 開放街圖捷克連線互連 IRC、Jabber 與 Telegram 的空間
+    description: 開放街圖捷克連線互連 Discord、IRC、Jabber 與 Telegram 的空間
   czech-telegram:
-    description: 開放街圖捷克連線互連 IRC、Jabber 與 Matrix 的空間
+    description: 開放街圖捷克連線互連 Discord、IRC、Jabber 與 Matrix 的空間
   czech-xmpp:
-    description: 開放街圖捷克連線互連 IRC、Matrix 與 Telegram 的空間
+    description: 開放街圖捷克連線互連 Discord、IRC、Matrix 與 Telegram 的空間
   de-berlin-mailinglist:
     name: 柏林郵件論壇
   de-berlin-wiki:
@@ -446,8 +455,8 @@ zh_TW:
   gb-mailinglist:
     description: 'Talk-gb 是大英國協 (包括北愛爾蘭) 社群的主要溝通郵件論壇 '
   geogeeks_perth_meetup:
-    name: GeoGeeks Perth Meetup
-    description: 針對畫地圖、地理空間資料和開放原始碼有興趣的伯斯聚會群組，只要是牽涉到一點地理都是我們關心的範圍。
+    name: 地理技客伯斯
+    description: 針對畫地圖、地理空間資料和開放原始碼有興趣的伯斯聚會群組，我們定期舉行圖客派對、演講與聚會，歡迎新手加入！
   GeoPhilly:
     name: GeoPhilly
     description: 費城地區的地圖愛好者聚會
@@ -508,6 +517,8 @@ zh_TW:
     description: 半官方的全科索沃公開群組 (與 Telegram 訊息連動)。我們歡迎從任何地方來，說任何語言的製圖者。
   kosovo-telegram:
     description: 半官方的全科索沃 Telegram 公開群組。我們歡迎從任何地方來，說任何語言的製圖者。
+  kp-wiki:
+    description: '{community} 畫地圖指南'
   latam-facebook:
     description: 拉丁美洲圖客和開放街圖 Facebook
   latam-matrix:
@@ -663,6 +674,7 @@ zh_TW:
     description: 開放街圖在德國交流資訊的平台
   osm-deep-south-wiki:
     description: '{community} Wiki 頁面'
+    extendedDescription: 開放街圖美國深南部是美國東南部的在地社群。
   OSM-Discord:
     name: 開放街圖世界 Discord
   OSM-Discourse:
@@ -735,6 +747,8 @@ zh_TW:
     description: 我們一起畫喀拉拉邦，加入我們的 telegram 群。{url}
   osm-kerala-website:
     description: 我們協助喀拉拉邦的開放街圖成長茁壯並改善它。
+  osm-kerala-wiki:
+    description: 想要更瞭解在喀拉拉邦畫地圖的事情？{url}
   osm-mg-facebook:
     description: 馬達加斯加對開放街圖有興趣的人參與的 Facebook 社團。
   osm-michigan-facebook-group:
@@ -807,6 +821,11 @@ zh_TW:
   OSM-US:
     description: 我們協助美國的開放街圖成長茁壯並改善它。
     extendedDescription: '我們透過舉辦年度研討會、提供社群資源、建立合作關係以及推廣來支援開放街圖。在此加入開放街圖美國：{signupUrl}'
+    events:
+      mappingusa2022:
+        name: Mapping USA 2022
+        description: 加入橫跨北美洲，Wiki 與開放街圖社群的虛擬大會！
+        where: 線上大會
   OSM-US-Slack:
     description: 歡迎所有人加入！在 {signupUrl} 註冊
   OSM-Utah:
@@ -817,13 +836,12 @@ zh_TW:
     name: 開放街圖懷俄明
     description: 在懷俄明州的圖客與開放街圖使用者
     extendedDescription: 開放街圖 (OpenStreetMap, OSM) 懷俄明是一個喜歡貢獻他們的心力建立自由地圖的一群地區協作夥伴。我們鼓勵我們所有的圖客組織或建議橫跨整個州的製圖活動。會面活動可以是簡單的社交活動、OSM 基礎到進階訓練，或是社群製圖派對。
-  osmcz-facebook:
-    description: 追蹤捷克開放街圖 Facebook -  包括翻譯 WeeklyOSM！
   osmcz-twitter:
     description: 追蹤捷克開放街圖 Twitter -  包括翻譯 WeeklyOSM！
   OSMF:
     name: 開放街圖基金會
     description: 開放街圖基金會是位於英國，支持開放街圖計劃的非營利組織
+    extendedDescription: '開放街圖基金會藉由募款，維持開放街圖背後的伺服器，舉行年度 State of the Map 大會，以及協調志工維持開放街圖運作，支援開放街圖計畫。你可以在這裡藉由加入開放街圖基金會成為會員：{signupUrl}'
   ph-facebook-group:
     name: '{community} 臉書社團'
   PHXGeo-meetup:
@@ -833,6 +851,10 @@ zh_TW:
   PHXGeo-twitter:
     name: PHXGeo Twitter
     description: 在 {url} 上追隨我們的 Twitter
+  pt-wiki:
+    description: 葡萄牙資訊與協調指南的 WikiProject 頁面
+  rs-discourse:
+    description: 討論開放街圖在塞爾維亞事物的論壇
   rs-gitlab:
     description: 在 GitLab 上面與 OSM 塞爾維亞相關的計劃
   rs-osm:
@@ -841,6 +863,14 @@ zh_TW:
     extendedDescription: 加入社群以得知更多關於開放街圖的資訊，也可以問問題或是參與我們的會面。每個人都很歡迎加入！
   rs-wiki:
     description: 開放街圖維基專案塞爾維亞頁面
+  si-discourse:
+    name: '{community} Discourse'
+  si-github:
+    description: '{community} GitHub'
+  si-ljubljana-wiki:
+    description: '{community} Wiki 頁面'
+  si-wiki:
+    description: '{community} Wiki 頁面'
   sk-freemap:
     name: 開放街圖斯洛伐克的網站
     description: 斯洛伐克以及週邊區域的開放街圖工具網站
@@ -922,6 +952,7 @@ zh_TW:
     description: 亞洲女子大學的年輕圖客分會
     extendedDescription: 亞洲女子大學為了畢業後得到專長與創新專業，或是商業與社群領域服務導向而設立，她們將工作與生活，以及在亞洲甚至到全世界尺度推廣智慧理解與永續人類和經濟發展。
   ym-Ball-State-University:
+    name: 伽瑪、西塔、艾普斯龍 - 艾歐塔、歐美嘉分會
     description: 年輕圖客鮑爾州立大學分會
     extendedDescription: 我們分會相當活躍，主要著重在社群活動、募款與田野調查。我們目前在開發更多畫地圖有關的活動，來吸引更多校園中有興趣的學生來貢獻。
   ym-Busitema-University:
@@ -999,6 +1030,8 @@ zh_TW:
     description: 年輕圖客在大吉德郡社區大學的分會
   ym-Gulu-University:
     extendedDescription: CSGU 圖客是古盧大學電腦社，這個分會具有創新、熱情，以及準備好盡可能突破其他人的想像限制，來畫烏干達與世界的地圖。
+  ym-Institute-of-Rural-Development-Planning-Mwanza:
+    name: 都市計劃學院 - 湖區中心的年青圖客分會
   ym-Institute-of-Science-and-Veterinary-Medicine:
     name: YouthMappers ISSMV Dalaba
   ym-Kansas-State-University:
@@ -1010,14 +1043,19 @@ zh_TW:
     name: Kenyatta University GIS Club
     description: YouthMappers chapter at Kenyatta University
   ym-Khulna-University:
+    name: 庫爾納大學年輕圖客
     extendedDescription: 來自不同學門的 KU 學生與職員，正體驗為 OSM 增加開放資料，來處理開發時的在地挑戰，例如糧食安全與其他主題。
   ym-Kumi-University:
     extendedDescription: 這群熱情的學生組織包括理學院與資訊學院。
   ym-Moi-University:
     extendedDescription: 墨伊大學地理學生協會 (Geography Students Association at Moi University, GEOSAMU) 探索、發現與專注透過年輕地理空間分析師來開發整個世界，GEOSAMU 屬於地理系的一部分。
+  ym-Sacred-Heart-Junior-College:
+    name: 年輕圖客聖心初級學院
   ym-Sherubtse-College:
     name: 地理協會
     extendedDescription: '不丹皇家大學舍魯布策學院地理與規劃學系的地理學會，另外還有氣候變化與空間資訊中心的支援，已經做了不少國家與地方層級，提昇意識和強調重要議題的倡議。我們如今一同在學生為主，國際社團網路的年輕圖客當中「為韌性畫地圖」，為全球「幸福」做貢獻！ '
+  ym-St.-Mawaggali-Trades-Training-Institute:
+    extendedDescription: 我們是喬馬亞聖馬哇干里年輕圖客分會，透過畫地圖進行不同的人道救援任務來服務人群。
   ym-SUNY-at-Fredonia:
     extendedDescription: GeoVenturers 是一群在校園的學生組成的團體，希望能夠用各種地理空間技術發展的工具來服務大家，讓大家聚在一起。這個團體的指導方面目標是從學系的課程和教學帶來科學教育。我們希望我們帶來的技術，能夠幫助人們過得更好。
   ym-Texas-Tech-University:
@@ -1028,6 +1066,10 @@ zh_TW:
     extendedDescription: Connected YouthMappers 由年輕甘比亞組成，希望能改變和協助國家發展。
   ym-The-George-Washington-University:
     extendedDescription: 在領導統御與接觸關懷的使命，HMS 尋求提供援助以及透過人道地理資訊系統(GIS)專案來讓這個世界變得更好。這個共同成立在 GWU 校園的附屬分會樂於分享經驗，以及常常與 USAID、美國紅十字會，以及美國國務院在華盛頓特區一帶合作帶領學生以及服務全球社群。
+  ym-Universidad-de-Costa-Rica:
+    name: 波多黎各大學年輕圖客
+    description: 波多黎各大學的年輕圖客分會
+    extendedDescription: 哥斯大黎各年輕圖客分會由一群關注社會脈動的多樣成員組成。開放街圖允許我們在社群之內聚集、驗證以及分享對大家有益的地理資訊。
   ym-Universidad-Nacional-de-Colombia:
     extendedDescription: 學生一同集結來畫地圖，以及與哥倫比亞全國與全球的大學生交際，地理範圍則包括與微生物與健康學科。
   ym-Universit-de-NZrkor:
@@ -1052,8 +1094,12 @@ zh_TW:
     description: 蘆安達大學海玉校區的年輕圖客分會
   ym-University-of-Southern-California:
     name: SC 圖客
+  ym-University-of-the-Philippines-Resilience-Institute:
+    extendedDescription: 菲律賓大學迪里曼分校防災中心是 2016 年設立，宗旨為藉由防災跨領域的研究與行動培力在地社群。透過菲徑賓大學迪里曼分校 NOAH 中心，及不同協力的組織，我們建構為 82 個省當中的 17 個，以及上傳開放街圖超過 400 萬個建築。
   ym-University-of-the-Philippines-Resilience-Institute-twitter:
     name: 年輕圖客普利托利亞韌性機構 Twitter
+  ym-West-Virginia-University:
+    extendedDescription: 以合作團隊方式，這個共同創辦的分會著重為專案那些感興趣的人，提供開放學習的環境。包括國際開發、緊急應變與地理資訊科學。他們可以藉由提供技術訓練與經驗，聯結初學者與專家，來建造有意義與有用的地理設施資料，同時也與全球的姐妹市聯結。
   ym-Western-Michigan-University:
     name: 地理社團
     description: 年輕圖客分會在西密西根大學

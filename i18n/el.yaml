@@ -101,6 +101,7 @@ el:
     openstreetmapliberia: OpenStreetMap Λιβερία
     openstreetmaplibya: OpenStreetMap Λιβύη
     openstreetmaplithuania: OpenStreetMap Λιθουανία
+    openstreetmapljubljana: OpenStreetMap Λιουμπλιάνα
     openstreetmaplombardia: OpenStreetMap Λομβαρδία
     openstreetmapluxembourg: OpenStreetMap Λουξεμβούργο
     openstreetmapmadagascar: OpenStreetMap Μαδαγασκάρη
@@ -122,7 +123,9 @@ el:
     openstreetmapnicaragua: OpenStreetMap Νικαράγουα
     openstreetmapniger: OpenStreetMap Νίγηρας
     openstreetmapnigeria: OpenStreetMap Νιγηρία
+    openstreetmapnorthkorea: OpenStreetMap Βόρεια Κορέα
     openstreetmapnorway: OpenStreetMap Νορβηγία
+    openstreetmapoceania: OpenStreetMap Ωκεανία
     openstreetmapottawa: OpenStreetMap Οτάβα
     openstreetmappakistan: OpenStreetMap Πακιστάν
     openstreetmappanama: OpenStreetMap Παναμάς
@@ -206,6 +209,9 @@ el:
     mailinglist:
       name: '{account} Λίστα Ταχυδρομείου'
       url: https://lists.openstreetmap.org/listinfo/{account}
+    mastodon:
+      name: '{community} Λογαριασμός στο Mastodon'
+      description: Ο επίσημος λογαριασμός στο Mastodon της κοινότητας {community}
     matrix:
       name: '{community} Matrix Chat'
       description: Γίνετε μέλος της κοινότητάς μας στο Matrix chat
@@ -227,6 +233,8 @@ el:
       description: Εγγραφείτε στο κανάλι μας στο YouTube
   al-maptime-tirana:
     description: Στις κοινωνικές εκδηλώσεις οργανωμένες γύρω από τη χαρτογράφηση - οι αρχάριοι είναι περισσότερο ευπρόσδεκτοι!
+  be-discourse:
+    description: Ένα Forum για συζήτηση του OpenStreetMap στο Βέλγιο
   be-matrix:
     description: Όλοι οι χαρτογράφοι είναι ευπρόσδεκτοι!
     extendedDescription: Κύριο chatroom της βελγικής κοινότητας OSM. Μη διστάσετε να κάνετε ερωτήσεις για αρχάριους εδώ!
@@ -241,6 +249,8 @@ el:
     description: 'Όλα όσα χρειάζεται να ξέρετε για την χαρτογράφηση στην Βαλενθιανική Κοινότητα: {url}'
   de-berlin-mailinglist:
     name: Κατάλογος Αλληλογραφίας Βερολίνου
+  es-discourse:
+    name: Discourse Ισπανικής Κοινότητας
   galicia-wiki:
     description: 'Όλα όσα χρειάζεται να ξέρετε για την χαρτογράφηση στην Γαλικία: {url}'
   Galicia-Xeoinquedos-Twitter:
@@ -251,8 +261,12 @@ el:
     description: Η πλατφόρμα για τη διοργάνωση συναντήσεων στην Ουγγαρία
   hu-mobilizon:
     name: '{community} στο Mobilizon'
+  is-chapter:
+    description: Βοηθάμε την ανάπτυξη και τη βελτίωση του OpenStreetMap στην Ισλανδία
   it-discourse:
     name: Ιταλικό Discourse
+  kp-wiki:
+    description: '{community} Οδηγός Χαρτογράφησης'
   madrid-wiki:
     description: 'Όλα όσα χρειάζεται να ξέρετε για την χαρτογράφηση στην Μαδρίτη: {url}'
   Maptime-ME-meetup:
@@ -303,10 +317,24 @@ el:
     description: Ομάδα Facebook Μαδαγασκαριανών για άτομα που ενδιαφέρονται για το OpenStreetMap
   osm-ni:
     name: MapaNica.net
+  OSM-US:
+    events:
+      mappingusa2022:
+        where: εικονικά
   OSM-US-Slack:
     description: Όλοι είναι ευπρόσδεκτοι! Εγγραφείτε στο {signupUrl}
   PHXGeo-twitter:
     description: Ακολουθήστε μας στο Twitter στο {url}
+  rs-discourse:
+    description: Ένα Forum για συζήτηση του OpenStreetMap στη Σερβία
+  si-discourse:
+    name: '{community} Discourse'
+  si-github:
+    description: '{community} GitHub'
+  si-ljubljana-wiki:
+    description: '{community} Wiki σελίδα'
+  si-wiki:
+    description: '{community} Wiki σελίδα'
   talk-mg:
     description: Τοποθεσία για τους συνδρομητές του OpenStreetMap, τις κοινότητες και τους χρήστες στη Μαδαγασκάρη για συμμετοχή και συζήτηση.
   tw-wiki:

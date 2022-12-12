@@ -176,6 +176,8 @@ sv:
       url: https://discord.gg/{account}
     discourse:
       name: 'Discourse för {community}'
+      description: Officiella forumet för {community}
+      url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
       name: '{community} på Facebook'
       description: Anslut till vår gemenskap på Facebook
@@ -307,14 +309,6 @@ sv:
     description: 'Alla är välkomna! Registrera dig på {signupUrl} och anslut sedan till kanalen #proj-osm'
   czech-community:
     description: Kartportal, webbplats och kontaktuppgifter för OSM-medlemmar i Tjeckien
-  czech-irc:
-    description: Rummet OpenStreetMap CZ bryggar med Jabber, Matrix och Telegram
-  czech-matrix:
-    description: Rummet OpenStreetMap CZ bryggar med IRC, Jabber och Telegram
-  czech-telegram:
-    description: Rummet OpenStreetMap CZ bryggar med IRC, Jabber och Matrix
-  czech-xmpp:
-    description: Rummet OpenStreetMap CZ bryggar med IRC, Matrix och Telegram
   de-berlin-mailinglist:
     name: E-postlista för Berlin
   de-berlin-wiki:
@@ -375,6 +369,8 @@ sv:
     description: 'Anslut till XMPP fleranvändarchatt: {url}'
   DF-telegram:
     extendedDescription: Anslut till gemenskapen för att lära dig mer om OpenStreetMap, ställa frågor eller delta på våra möten. Alla är välkomna!
+  dk-discourse:
+    name: 'Discourse för {community}'
   ee-wiki:
     description: Information relaterad till kartläggning som är specifik för Estland.
   fr-35-wiki:
@@ -402,9 +398,6 @@ sv:
     extendedDescription: 'Anslut #{account} på irc.oftc.net (port 6667). Ha tålamod och vänta några minuter om du ställer en fråga'
   gb-mailinglist:
     description: Talk-gb är den officiella kommunikationslistan för storbritanniska (inklusive nordirländska) OSM-gemenskapen
-  geogeeks_perth_meetup:
-    name: GeoGeeks Perth Meetup
-    description: Perth-baserad meetup-grupp för personer som är intresserade av kartläggning, geospatial data och öppen källkod. Vi kommer att arbeta med allt som innebär en känsla för platsen.
   GeoPhilly:
     name: GeoPhilly
     description: Träffar för kart-entusiaster kring Philadelphia
@@ -574,6 +567,8 @@ sv:
     extendedDescription: OpenStreetMap (OSM) Colorado är en lokal gemenskap med personer som är intresserade av att bidra till att skapa gratiskartor. Vi uppmuntrar alla våra kartläggare att organisera eller föreslå kartläggningsevenemang i hela staten. Meetup-aktiviteter kan vara enkla sociala träffar, enkla eller avancerade utbildningar kring OSM eller gemensamma kartläggningsatsningar.
   osm-de:
     description: Plattformen för information om OpenStreetMap i Tyskland
+  osm-deep-south-wiki:
+    description: 'Wiki-sida för {community}'
   OSM-Discord:
     name: OpenStreetMap World Discord
   OSM-Facebook:
@@ -711,8 +706,6 @@ sv:
     name: OpenStreetMap Wyoming
     description: Kartläggare och OpenStreetMap-användare i staten Wyoming
     extendedDescription: OpenStreetMap (OSM) Wyoming är en lokal gemenskap med personer som är intresserade av att bidra till att skapa gratiskartor. Vi uppmuntrar alla våra kartläggare att organisera eller föreslå kartläggningsevenemang i hela staten. Meetup-aktiviteter kan vara enkla sociala träffar, enkla eller avancerade utbildningar kring OSM eller gemensamma kartläggningsatsningar.
-  osmcz-facebook:
-    description: Följ tjeckiska gemenskapen på Facebook – inkluderar översatt WeeklyOSM!
   osmcz-twitter:
     description: Följ tjeckiska gemenskapen på Twitter – inklusive översatt WeeklyOSM!
   OSMF:
@@ -735,6 +728,14 @@ sv:
     extendedDescription: Anslut till gemenskapen för att lära dig mer om OpenStreetMap, ställa frågor eller delta på våra möten. Alla är välkomna!
   rs-wiki:
     description: Wikiproject-sida för Serbien
+  si-discourse:
+    name: 'Discourse för {community}'
+  si-github:
+    description: 'GitHub för {community}'
+  si-ljubljana-wiki:
+    description: 'Wiki-sida för {community}'
+  si-wiki:
+    description: 'Wiki-sida för {community}'
   sk-freemap:
     name: OpenStreetMap Slovakien Freemap-hemsida
     description: OpenStreetMaps kartwebbplats med verktyg i Slovakien och omgivande regioner
@@ -751,6 +752,12 @@ sv:
     extendedDescription: Vi vill att den här e-postlistan ska stödja allt folk i Stilla havet, i all vår mångfald och ambitioner, för att dela tankar, frågor, projekt och allt relaterat till OpenStreetMap i vårt hav av öar.
   tn-facebook-group:
     name: 'Facebook-grupp för {community}'
+  tw-slack:
+    description: Alla är välkomna! Registrera dig på {signupUrl}
+  tw-wiki:
+    description: 'Allt du behöver veta om kartläggning i Taiwan: {url}'
+  tz-website:
+    description: Tillhandahåller OSM-tjänster och information för den gemenskapen i Tanzania
   ua-github:
     description: OpenStreetMap Ukraina på GitHub
   ua-osm:
@@ -765,6 +772,8 @@ sv:
     description: 'OpenStreetMap London på Twitter: {url}'
   uk-london-wiki:
     description: 'Wiki-sida för {community}'
+  us-discourse:
+    name: 'Discourse för {community}'
   uy-irc:
     description: 'Anslut #{account} på irc.freenode.org (port 6667)'
     extendedDescription: 'Anslut #{account} på irc.freenode.org'

@@ -111,6 +111,7 @@ ja:
     openstreetmapliberia: OpenStreetMap Liberia
     openstreetmaplibya: OpenStreetMap Libya
     openstreetmaplithuania: OpenStreetMap Lithuania
+    openstreetmapljubljana: OpenStreetMap Ljubljana
     openstreetmaplombardia: OpenStreetMap Lombardia
     openstreetmaplondon: OpenStreetMap London
     openstreetmapluneburg: OpenStreetMap Lüneburg
@@ -136,7 +137,9 @@ ja:
     openstreetmapnicaragua: OpenStreetMap Nicaragua
     openstreetmapniger: OpenStreetMap Niger
     openstreetmapnigeria: OpenStreetMap Nigeria
+    openstreetmapnorthkorea: OpenStreetMap North Korea
     openstreetmapnorway: OpenStreetMap Norway
+    openstreetmapoceania: OpenStreetMap Oceania
     openstreetmapottawa: OpenStreetMap Ottawa
     openstreetmappakistan: OpenStreetMap Pakistan
     openstreetmappanama: OpenStreetMap Panama
@@ -227,6 +230,9 @@ ja:
       name: '{account} Mailing List'
       description: The official mailing list for {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
+    mastodon:
+      name: '{community} Mastodon Account'
+      description: The official Mastodon account for {community}
     matrix:
       name: '{community} Matrix Chat'
       description: Join our community Matrix chat
@@ -345,14 +351,16 @@ ja:
     description: 'Everything you need to know about mapping in Valencian Community: {url}'
   czech-community:
     description: Map portal, website and contacts on OSM members in Czechia
+  czech-discord:
+    description: OpenStreetMap CZ room bridged with IRC, Jabber, Matrix and Telegram
   czech-irc:
-    description: OpenStreetMap CZ room bridged with Jabber, Matrix and Telegram
+    description: OpenStreetMap CZ room bridged with Discord, Jabber, Matrix and Telegram
   czech-matrix:
-    description: OpenStreetMap CZ room bridged with IRC, Jabber and Telegram
+    description: OpenStreetMap CZ room bridged with Discord, IRC, Jabber and Telegram
   czech-telegram:
-    description: OpenStreetMap CZ room bridged with IRC, Jabber and Matrix
+    description: OpenStreetMap CZ room bridged with Discord, IRC, Jabber and Matrix
   czech-xmpp:
-    description: OpenStreetMap CZ room bridged with IRC, Matrix and Telegram
+    description: OpenStreetMap CZ room bridged with Discord, IRC, Matrix and Telegram
   de-berlin-mailinglist:
     name: Berlin Mailing List
   de-berlin-wiki:
@@ -413,6 +421,9 @@ ja:
     description: 'Join our XMPP Multi-User Chat: {url}'
   DF-telegram:
     extendedDescription: Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!
+  dk-discourse:
+    name: '{community} Discourse'
+    description: A discussion forum about OpenStreetMap in Denmark
   ee-wiki:
     description: Information relating to mapping activity that is specific to Estonia.
   es-discourse:
@@ -447,8 +458,8 @@ ja:
   gb-mailinglist:
     description: Talk-gb is the main communication forum list for the UK (including Northern Ireland) OSM community
   geogeeks_perth_meetup:
-    name: GeoGeeks Perth Meetup
-    description: Perth-based meetup group for people interested in mapping, geospatial data, and open source. We'll be working on anything that involves a sense of place.
+    name: Geogeeks Perth
+    description: Perth-based meetup group for people interested in mapping, geospatial data, and open source. We run regular OSM mapping parties, talks, and social gatherings. Beginners very welcome!
   GeoPhilly:
     name: GeoPhilly
     description: Meetup for map enthusiasts in the Philadelphia area
@@ -509,6 +520,8 @@ ja:
     description: Semi-official all-Kosovo public group (bridged with the one in Telegram). We welcome all mappers from anywhere in any language.
   kosovo-telegram:
     description: Semi-official all-Kosovo Telegram public group. We welcome all mappers from anywhere in any language.
+  kp-wiki:
+    description: '{community} Mapping Guide'
   latam-facebook:
     description: Mappers and OpenStreetMap on Facebook in Latin America
   latam-matrix:
@@ -811,6 +824,11 @@ ja:
   OSM-US:
     description: We help grow and improve OpenStreetMap in the United States.
     extendedDescription: 'We support OpenStreetMap by holding annual conferences, providing community resources, building partnerships, and by spreading the word. Join OpenStreetMap US here: {signupUrl}'
+    events:
+      mappingusa2022:
+        name: Mapping USA 2022
+        description: Join us for a free virtual conference in celebration of the Wiki and OpenStreetMap communities across North America!
+        where: virtual
   OSM-US-Slack:
     description: All are welcome! Sign up at {signupUrl}
   OSM-Utah:
@@ -821,8 +839,6 @@ ja:
     name: OpenStreetMap Wyoming
     description: Mappers and OpenStreetMap users in the state of Wyoming
     extendedDescription: OpenStreetMap (OSM) Wyoming is a local collaboration of people interested in contributing their efforts to create free maps. We encourage all of our mappers to organize or suggest mapping events throughout the state. Meetup activities can be simple social mixers, OSM basic to advanced training, or community mapping parties.
-  osmcz-facebook:
-    description: Follow the Czech community on Facebook - including translated WeeklyOSM!
   osmcz-twitter:
     description: Follow the Czech community on Twitter - including translated WeeklyOSM!
   OSMF:
@@ -838,6 +854,10 @@ ja:
   PHXGeo-twitter:
     name: PHXGeo Twitter
     description: Follow us on Twitter at {url}
+  pt-wiki:
+    description: WikiProject with information and coordination guidelines for mapping in Portugal.
+  rs-discourse:
+    description: A Forum to discuss OpenStreetMap in Serbia
   rs-gitlab:
     description: Collection of projects related to OSM Serbia on GitLab
   rs-osm:
@@ -846,6 +866,14 @@ ja:
     extendedDescription: Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!
   rs-wiki:
     description: Wikiproject page for Serbia
+  si-discourse:
+    name: '{community} Discourse'
+  si-github:
+    description: '{community} GitHub'
+  si-ljubljana-wiki:
+    description: '{community} Wiki page'
+  si-wiki:
+    description: '{community} Wiki page'
   sk-freemap:
     name: OpenStreetMap Website Freemap Slovakia
     description: OpenStreetMap map website with tools in Slovakia and surrounding regions
@@ -884,6 +912,9 @@ ja:
     description: '{community} Wiki page'
   uk-loomio:
     name: OpenStreetMap UK on Loomio
+  us-discourse:
+    name: '{community} Discourse'
+    description: A discussion forum about OpenStreetMap in the United States
   us-massachusetts-mailinglist:
     name: Talk-us-massachusetts Mailing List
     description: Email mailing list for the Massachusetts OSM community

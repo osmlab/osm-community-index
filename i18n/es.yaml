@@ -111,6 +111,7 @@ es:
     openstreetmapliberia: OpenStreetMap Liberia
     openstreetmaplibya: OpenStreetMap Libia
     openstreetmaplithuania: OpenStreetMap Lituania
+    openstreetmapljubljana: OpenStreetMap Liubliana
     openstreetmaplombardia: OpenStreetMap Lombardía
     openstreetmaplondon: OpenStreetMap Londres
     openstreetmapluneburg: OpenStreetMap Lüneburg
@@ -136,7 +137,9 @@ es:
     openstreetmapnicaragua: OpenStreetMap Nicaragua
     openstreetmapniger: OpenStreetMap Níger
     openstreetmapnigeria: OpenStreetMap Nigeria
+    openstreetmapnorthkorea: OpenStreetMap Corea del Norte
     openstreetmapnorway: OpenStreetMap Noruega
+    openstreetmapoceania: OpenStreetMap Oceanía
     openstreetmapottawa: OpenStreetMap Ottawa
     openstreetmappakistan: OpenStreetMap Pakistán
     openstreetmappanama: OpenStreetMap Panamá
@@ -227,6 +230,9 @@ es:
       name: 'Lista de correo {account}'
       description: La lista de correo oficial de la comunidad {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
+    mastodon:
+      name: 'Cuenta Mastodon de {community}'
+      description: La cuenta oficial de Mastodon de {community}
     matrix:
       name: 'Chat de Matrix de {community}'
       description: Únase a nuestro chat de Matrix de la comunidad
@@ -345,14 +351,16 @@ es:
     description: 'Todo lo que necesitas saber sobre el mapeo en la Comunidad Valenciana: {url}'
   czech-community:
     description: Portal de mapas, sitio web y contactos sobre miembros de OSM en Chequia
+  czech-discord:
+    description: Sala OpenStreetMap CZ conectada con IRC, Jabber, Matrix y Telegram
   czech-irc:
-    description: Sala OpenStreetMap CZ conectada con Jabber, Matrix y Telegram
+    description: Sala OpenStreetMap CZ conectada con Discord, Jabber, Matrix y Telegram
   czech-matrix:
-    description: Sala OpenStreetMap CZ conectada con IRC, Jabber y Telegram
+    description: Sala OpenStreetMap CZ conectada con Discord, IRC, Jabber y Telegram
   czech-telegram:
-    description: Sala OpenStreetMap CZ conectada con IRC, Jabber y Matrix
+    description: Sala OpenStreetMap CZ conectada con Discord, IRC, Jabber y Matrix
   czech-xmpp:
-    description: Sala OpenStreetMap CZ conectada con IRC, Matrix y Telegram
+    description: Sala OpenStreetMap CZ conectada con Discord, IRC, Matrix y Telegram
   de-berlin-mailinglist:
     name: Lista de correo de Berlín
   de-berlin-wiki:
@@ -413,6 +421,9 @@ es:
     description: 'Únase a nuestro chat multiusuario de XMPP: {url}'
   DF-telegram:
     extendedDescription: Únase a la comunidad para obtener más información sobre OpenStreetMap, hacer preguntas o participar en nuestras reuniones. ¡Todos son bienvenidos!
+  dk-discourse:
+    name: 'Discourse de {community}'
+    description: Un foro de debate sobre OpenStreetMap en Dinamarca
   ee-wiki:
     description: Información relacionada con la actividad cartográfica que es específica de Estonia.
   es-discourse:
@@ -447,8 +458,8 @@ es:
   gb-mailinglist:
     description: Talk-gb es la lista principal de foros de comunicación para la comunidad OSM del Reino Unido (incluida Irlanda del Norte)
   geogeeks_perth_meetup:
-    name: Grupo de Meetup de GeoGeeks Perth
-    description: Grupo de reuniones basado en Perth para personas interesadas en mapear, datos geoespaciales y código abierto. Estaremos trabajando en cualquier cosa que implique un sentido de lugar.
+    name: Geogeeks Perth
+    description: Grupo de encuentro en Perth para personas interesadas en la cartografía, los datos geoespaciales y el código abierto. Organizamos regularmente fiestas de mapeo OSM, charlas y reuniones sociales. Los principiantes son bienvenidos.
   GeoPhilly:
     name: GeoPhilly
     description: Encuentro para entusiastas del mapa en el área de Filadelfia
@@ -509,6 +520,8 @@ es:
     description: Grupo público semioficial de todo Kosovo (puenteado con el de Telegram). Damos la bienvenida a todos los mapeadores de cualquier lugar y en cualquier idioma.
   kosovo-telegram:
     description: Grupo público de Telegram semi-oficial sobre Kosovo. Damos la bienvenida a todos los mapeadores de cualquier lugar en cualquier idioma.
+  kp-wiki:
+    description: 'Guía de mapeo de {comunidad}'
   latam-facebook:
     description: Mapeadores y OpenStreetMap en Facebook Latinoamérica
   latam-matrix:
@@ -826,8 +839,6 @@ es:
     name: OpenStreetMap Wyoming
     description: Editores y usuarios de OpenStreetMap en el área de Wyoming
     extendedDescription: OpenStreetMap (OSM) Wyoming es una colaboración local de personas interesadas en contribuir con sus esfuerzos para crear mapas gratuitos. Alentamos a todos nuestros cartógrafos a organizar o sugerir eventos de mapeo en todo el estado. Las actividades de reunión pueden ser simples reuniones sociales, entrenamiento básico a avanzado de OSM o fiestas de mapeo de la comunidad.
-  osmcz-facebook:
-    description: Siga a la comunidad checa en Facebook, incluido el WeeklyOSM traducido
   osmcz-twitter:
     description: Siga a la comunidad checa en Twitter, incluido el WeeklyOSM traducido
   OSMF:
@@ -855,6 +866,14 @@ es:
     extendedDescription: Únase a la comunidad para obtener más información sobre OpenStreetMap, hacer preguntas o participar en nuestras reuniones. ¡Todos son bienvenidos!
   rs-wiki:
     description: Página de Wikiproyecto para Serbia
+  si-discourse:
+    name: 'Discourse de {community}'
+  si-github:
+    description: 'GitHub de {community}'
+  si-ljubljana-wiki:
+    description: 'Página wiki de {community}'
+  si-wiki:
+    description: 'Página wiki de {community}'
   sk-freemap:
     name: Web de OpenStreetMap Freemap Eslovaquia
     description: OpenStreetMapSitio web de mapas de OpenStreetMap con herramientas en Eslovaquia y regiones circundantes
@@ -893,6 +912,9 @@ es:
     description: 'Página wiki de {community}'
   uk-loomio:
     name: OpenStreetMap Reino Unido en Loomio
+  us-discourse:
+    name: 'Discourse de {community}'
+    description: Un foro de debate sobre OpenStreetMap en Estados Unidos
   us-massachusetts-mailinglist:
     name: Lista de correo de Talk-us-massachusetts
     description: Lista de correo de la comunidad OSM de Massachusetts
