@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.4.0",
-    "generated": "2023-01-13T16:41:17.207Z",
+    "generated": "2023-01-13T17:22:13.670Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "6100e7b16256ee03b112c8c3ecb93a84"
+    "hash": "8a187a1d105abf67d5945efd45ca5205"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -212,6 +212,7 @@
     "it-irc": {"id": "it-irc", "type": "irc", "account": "osm-it", "locationSet": {"include": ["it"]}, "languageCodes": ["it"], "order": -4, "strings": {"community": "OpenStreetMap Italy", "communityID": "openstreetmapitaly"}, "contacts": [{"name": "Simone Cortesi", "email": "simone@cortesi.com"}, {"name": "Stefano", "email": "sabas88@gmail.com"}, {"name": "Alessandro Palmas", "email": "alessandro.palmas@wikimedia.it"}]},
     "it-mailinglist": {"id": "it-mailinglist", "type": "mailinglist", "account": "talk-it", "locationSet": {"include": ["it"]}, "languageCodes": ["it"], "order": -3, "strings": {"community": "OpenStreetMap Italy", "communityID": "openstreetmapitaly"}, "contacts": [{"name": "Simone Cortesi", "email": "simone@cortesi.com"}, {"name": "Stefano", "email": "sabas88@gmail.com"}, {"name": "Alessandro Palmas", "email": "alessandro.palmas@wikimedia.it"}]},
     "it-telegram": {"id": "it-telegram", "type": "telegram", "account": "OpenStreetMapItalia", "locationSet": {"include": ["it"]}, "languageCodes": ["it"], "order": 4, "strings": {"community": "OpenStreetMap Italy", "communityID": "openstreetmapitaly"}, "contacts": [{"name": "Simone Cortesi", "email": "simone@cortesi.com"}, {"name": "Stefano", "email": "sabas88@gmail.com"}, {"name": "Alessandro Palmas", "email": "alessandro.palmas@wikimedia.it"}]},
+    "it-torino-telegram": {"id": "it-torino-telegram", "type": "telegram", "account": "OSM_TO", "locationSet": {"include": ["piemonte.geojson"]}, "languageCodes": ["it"], "strings": {"community": "OpenStreetMap Turin", "communityID": "openstreetmapturin"}},
     "it-twitter": {"id": "it-twitter", "type": "twitter", "account": "OpenStreetMapIt", "locationSet": {"include": ["it"]}, "languageCodes": ["it"], "order": 2, "strings": {"community": "OpenStreetMap Italy", "communityID": "openstreetmapitaly"}, "contacts": [{"name": "Simone Cortesi", "email": "simone@cortesi.com"}, {"name": "Stefano", "email": "sabas88@gmail.com"}, {"name": "Alessandro Palmas", "email": "alessandro.palmas@wikimedia.it"}]},
     "kh-facebook": {"id": "kh-facebook", "type": "facebook", "account": "OSM-Cambodia-218656624834943", "locationSet": {"include": ["kh"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Cambodia", "communityID": "openstreetmapcambodia"}},
     "kh-twitter": {"id": "kh-twitter", "type": "twitter", "account": "OSM_KH", "locationSet": {"include": ["kh"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Cambodia", "communityID": "openstreetmapcambodia"}},
