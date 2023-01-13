@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.4.0",
-    "generated": "2023-01-13T17:22:13.670Z",
+    "generated": "2023-01-13T22:37:16.708Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "8a187a1d105abf67d5945efd45ca5205"
+    "hash": "9dd38fa4b5c43b2523fdbd38e50fce20"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -392,6 +392,7 @@
     "osm-kerala-telegram": {"id": "osm-kerala-telegram", "type": "telegram", "account": "osmkerala", "locationSet": {"include": ["india_kerala.geojson"]}, "strings": {"community": "OpenStreetMap Kerala", "communityID": "openstreetmapkerala", "description": "We map Kerala together. Join our telegram group. {url}"}, "contacts": [{"name": "Jaisen Nedumpala", "email": "jaisuvyas@gmail.com"}, {"name": "Naveen Francis", "email": "naveenpf@gmail.com"}]},
     "osm-kerala-website": {"id": "osm-kerala-website", "type": "osm", "locationSet": {"include": ["india_kerala.geojson"]}, "languageCodes": ["en"], "order": 1, "strings": {"community": "OpenStreetMap Kerala", "communityID": "openstreetmapkerala", "description": "We help grow and improve OpenStreetMap in Kerala.", "url": "https://kerala.openstreetmap.in/"}},
     "osm-kerala-wiki": {"id": "osm-kerala-wiki", "type": "wiki", "locationSet": {"include": ["india_kerala.geojson"]}, "strings": {"community": "OpenStreetMap Kerala", "communityID": "openstreetmapkerala", "description": "Want to know more about Kerala Mapping? {url}", "url": "https://wiki.openstreetmap.org/wiki/Kerala"}, "contacts": [{"name": "Kevin", "email": "muzirian@gmail.com"}, {"name": "Naveen Francis", "email": "naveenpf@gmail.com"}]},
+    "OSM-Mastodon": {"id": "OSM-Mastodon", "type": "mastodon", "account": "openstreetmap", "locationSet": {"include": ["001"]}, "languageCodes": ["en"], "order": 3, "strings": {"community": "OpenStreetMap", "communityID": "openstreetmap", "url": "https://en.osm.town/@openstreetmap"}, "contacts": [{"name": "Harry Wood", "email": "mail@harrywood.co.uk"}]},
     "osm-mg-facebook": {"id": "osm-mg-facebook", "type": "facebook", "locationSet": {"include": ["mg"]}, "languageCodes": ["fr", "mg"], "order": 3, "strings": {"community": "OpenStreetMap Madagascar", "communityID": "openstreetmapmadagascar", "description": "Malagasy Facebook group for people interested in OpenStreetMap.", "url": "https://www.facebook.com/groups/1601381123461284"}, "contacts": [{"name": "Brice Ramamonjy", "email": "rafaby21@gmail.com"}, {"name": "Dolly Andriatsiferana", "email": "privatemajory@gmail.com"}]},
     "osm-michigan-facebook-group": {"id": "osm-michigan-facebook-group", "type": "facebook", "locationSet": {"include": ["US-MI.geojson"]}, "languageCodes": ["en"], "order": 5, "strings": {"community": "OpenStreetMap Michigan", "communityID": "openstreetmapmichigan", "name": "{community} Facebook Group", "description": "Discussion about mapping in Michigan.", "url": "https://www.facebook.com/groups/MichiganOSM/"}},
     "osm-michigan-wiki": {"id": "osm-michigan-wiki", "type": "wiki", "account": "Michigan", "locationSet": {"include": ["US-MI.geojson"]}, "languageCodes": ["en"], "order": 5, "strings": {"community": "OpenStreetMap Michigan", "communityID": "openstreetmapmichigan", "description": "{community} Wiki page"}},
