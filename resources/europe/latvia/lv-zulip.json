@@ -1,11 +1,12 @@
 {
   "id": "lv-zulip",
   "type": "zulip",
-  "account": "OSM Latvija",
   "locationSet": {"include": ["lv"]},
   "languageCodes": ["en", "lv"],
   "order": 3,
   "strings": {
-    "community": "OSM Latvija",
-    "url": "osmlatvija.zulipchat.com"}
+    "community": "OpenStreetMap Latvia",
+    "communityID": "openstreetmaplatvia",
+    "url": "osmlatvija.zulipchat.com"
+  }
 }

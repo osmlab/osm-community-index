@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.4.0",
-    "generated": "2022-12-12T17:00:34.709Z",
+    "generated": "2023-01-13T15:06:52.672Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "25886d651c6719cd2086c873fcba783a"
+    "hash": "90fc177f7d8f3647bd042e14fc9cb34f"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -239,8 +239,11 @@
     "lu-github": {"id": "lu-github", "type": "github", "account": "osmlu", "locationSet": {"include": ["lu"]}, "languageCodes": ["de", "en", "fr", "lb"], "order": 2, "strings": {"community": "OpenStreetMap Luxembourg", "communityID": "openstreetmapluxembourg", "description": "GitHub Organization for the OSM community in Luxembourg!"}, "contacts": [{"name": "OSM Luxembourg", "email": "contact@openstreetmap.lu"}]},
     "lu-irc": {"id": "lu-irc", "type": "irc", "account": "osm-lu", "locationSet": {"include": ["lu"]}, "languageCodes": ["de", "en", "fr", "lb"], "order": 4, "strings": {"community": "OpenStreetMap Luxembourg", "communityID": "openstreetmapluxembourg"}, "contacts": [{"name": "OSM Luxembourg", "email": "contact@openstreetmap.lu"}]},
     "lu-matrix": {"id": "lu-matrix", "type": "matrix", "account": "#osmlu", "locationSet": {"include": ["lu"]}, "languageCodes": ["de", "en", "fr", "lb"], "order": 10, "strings": {"community": "OpenStreetMap Luxembourg", "communityID": "openstreetmapluxembourg", "description": "Matrix group for the community in Luxembourg. Let's bring the community together!"}, "contacts": [{"name": "OSM Luxembourg", "email": "contact@openstreetmap.lu"}]},
+    "lv-discord": {"id": "lv-discord", "type": "discord", "account": "osmlatvija", "locationSet": {"include": ["lv"]}, "languageCodes": ["en", "lv"], "order": 3, "strings": {"community": "OpenStreetMap Latvia", "communityID": "openstreetmaplatvia", "url": "https://discord.com/invite/2ACzy4DrRt"}},
+    "lv-signal": {"id": "lv-signal", "type": "signal", "locationSet": {"include": ["lv"]}, "languageCodes": ["en", "lv"], "order": 3, "strings": {"community": "OpenStreetMap Latvia", "communityID": "openstreetmaplatvia", "url": "https://signal.group/#CjQKIBQDZFRYENhgTzY0czaSnYxt6-NCXdW5Rp2o6144bO4wEhCUSXKPmsjKnTbzUgLj0MpL"}},
     "lv-twitter": {"id": "lv-twitter", "type": "twitter", "account": "osmlatvija", "locationSet": {"include": ["lv"]}, "languageCodes": ["en", "lv"], "order": 3, "strings": {"community": "OpenStreetMap Latvia", "communityID": "openstreetmaplatvia"}},
     "lv-wiki": {"id": "lv-wiki", "type": "wiki", "locationSet": {"include": ["lv"]}, "languageCodes": ["en", "lv"], "order": 2, "strings": {"community": "OpenStreetMap Latvia", "communityID": "openstreetmaplatvia", "description": "WikiProject Latvia", "url": "https://wiki.openstreetmap.org/wiki/WikiProject_Latvia"}},
+    "lv-zulip": {"id": "lv-zulip", "type": "zulip", "locationSet": {"include": ["lv"]}, "languageCodes": ["en", "lv"], "order": 3, "strings": {"community": "OpenStreetMap Latvia", "communityID": "openstreetmaplatvia", "url": "osmlatvija.zulipchat.com"}},
     "ly-facebook": {"id": "ly-facebook", "type": "facebook", "account": "openstreetmap.libya", "locationSet": {"include": ["ly"]}, "strings": {"community": "OpenStreetMap Libya", "communityID": "openstreetmaplibya"}},
     "ma-twitter": {"id": "ma-twitter", "type": "twitter", "account": "osmmaroc", "locationSet": {"include": ["ma"]}, "strings": {"community": "OpenStreetMap Morocco", "communityID": "openstreetmapmorocco"}},
     "madrid-telegram": {"id": "madrid-telegram", "type": "telegram", "account": "OSMmadrid", "locationSet": {"include": ["madrid.geojson"]}, "languageCodes": ["es"], "strings": {"community": "OpenStreetMap Madrid", "communityID": "openstreetmapmadrid"}},
