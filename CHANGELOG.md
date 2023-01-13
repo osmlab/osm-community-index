@@ -19,6 +19,36 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.5.0
+##### 2022-Dec-12
+* Support new resource type `zulip` ([#607])
+* Added:
+  * Armenia Telegram ([#632])
+  * Multiple resources for Korea ([#634])
+  * Norway Discourse ([#630])
+  * Turin Telegram ([#626])
+  * Multiple resources for Latvia ([#607])
+  * OpenStreetMap Mastodon ([#550], [#166])
+* Updated:
+  * Fix link to new website for OSM Italia ([#636])
+  * Cleanup redundant text ([#635])
+  * Fix invite link for OSM Japan Slack ([#631])
+* Deleted:
+  * MapColabora meetup shutting down ([#637])
+
+[#166]: https://github.com/osmlab/osm-community-index/issues/166
+[#550]: https://github.com/osmlab/osm-community-index/issues/550
+[#607]: https://github.com/osmlab/osm-community-index/issues/607
+[#626]: https://github.com/osmlab/osm-community-index/issues/626
+[#630]: https://github.com/osmlab/osm-community-index/issues/630
+[#631]: https://github.com/osmlab/osm-community-index/issues/631
+[#632]: https://github.com/osmlab/osm-community-index/issues/632
+[#634]: https://github.com/osmlab/osm-community-index/issues/634
+[#635]: https://github.com/osmlab/osm-community-index/issues/635
+[#636]: https://github.com/osmlab/osm-community-index/issues/636
+[#637]: https://github.com/osmlab/osm-community-index/issues/637
+
+
 # 5.4.0
 ##### 2022-Dec-12
 * Support new resource types `mastodon` ([#605]) and `signal` ([#622])
