@@ -32,7 +32,8 @@ const toBuild = {
   telegram: faTelegram,
   twitter: faTwitter,
   url: faLink,
-  youtube: faYoutube
+  youtube: faYoutube,
+  zulip: faComments
 };
 
 const START = '🏗   ' + chalk.yellow('Building icons...');
