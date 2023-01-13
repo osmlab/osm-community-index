@@ -249,6 +249,9 @@ es:
     reddit:
       name: '{community} en Reddit'
       url: https://www.reddit.com/r/{account}
+    signal:
+      name: 'Signal de {community}'
+      description: Únase al chat de nuestra comunidad en Signal
     slack:
       name: 'Slack de {community}'
     telegram:
@@ -289,7 +292,6 @@ es:
   bd-facebook:
     extendedDescription: ¿Mapeando en Bangladesh? ¿Tiene alguna pregunta, desea conectarse con la comunidad aquí? Únase a nosotros en {url}. ¡Todos son bienvenidos!
   be-chapter:
-    name: Capítulo local de OpenStreetMap Bélgica
     description: Ayudamos a crecer y mejorar OpenStreetMap en Bélgica.
     extendedDescription: Si desea ayudar a mejorar y hacer crecer la comunidad de mapeo en Bélgica, para hacer que aún más personas se vuelvan locas por mapear, ¡OpenStreetMap Belgium es el lugar adecuado para usted!
   be-discourse:
@@ -563,9 +565,6 @@ es:
   MapColabora-mailinglist:
     name: Mapeado Colaborativo / Geoinquietos Zaragoza
     description: Mapeado Colaborativo / Geoinquietos Zaragoza Lista de correo
-  MapColabora-meetup:
-    name: Mapeado Colaborativo / Geoinquietos Zaragoza
-    description: Mapeado Colaborativo / Geoinquietos Zaragoza página Meetup
   MapColabora-twitter:
     name: Mapeado Colaborativo / Geoinquietos Zaragoza
     description: Mapeado Colaborativo / Geoinquietos Zaragoza Cuenta Twitter
@@ -875,7 +874,6 @@ es:
   si-wiki:
     description: 'Página wiki de {community}'
   sk-freemap:
-    name: Web de OpenStreetMap Freemap Eslovaquia
     description: OpenStreetMapSitio web de mapas de OpenStreetMap con herramientas en Eslovaquia y regiones circundantes
   talk-au:
     description: Lugar para que los mapeadores australianos chateen

@@ -249,6 +249,9 @@ fr:
     reddit:
       name: '{community} sur Reddit'
       url: https://www.reddit.com/r/{account}
+    signal:
+      name: 'Signal {community}'
+      description: Rejoignez notre chat en ligne sur Signal
     slack:
       name: 'Slack de {community}'
     telegram:
@@ -289,7 +292,6 @@ fr:
   bd-facebook:
     extendedDescription: Vous cartographiez au Bangladesh ? Vous avez des questions, souhaitez entrer en contact avec la communauté ici ? Rejoignez-nous sur {url}. Vous êtes tous les bienvenus !
   be-chapter:
-    name: Chapitre local OpenStreetMap Belgique
     description: Nous aidons OpenStreetMap à croître et à s'améliorer en Belgique.
     extendedDescription: Si vous désirez aider à améliorer et agrandir la communauté de cartographie en Belgique, pour rendre les gens encore plus enthousiastes à cartographier, OpenStreetMap Belgique est le fait pour vous.
   be-discourse:
@@ -353,6 +355,14 @@ fr:
     description: Portail cartographique, site web et contacts des membres OSM en République Tchèque
   czech-discord:
     description: Salon OpenStreetMap en tchèque, relié avec IRC, Jabber, Matrix et Telegram
+  czech-irc:
+    description: Salon OpenStreetMap en tchèque, relié avec Jabber, Matrix et Telegram
+  czech-matrix:
+    description: Salon OpenStreetMap en tchèque, relié avec IRC, Jabber et Telegram
+  czech-telegram:
+    description: Salon OpenStreetMap en tchèque, relié avec IRC, Jabber et Matrix
+  czech-xmpp:
+    description: Salon OpenStreetMap en tchèque, relié avec IRC, Matrix et Telegram
   de-berlin-mailinglist:
     name: Liste de diffusion pour Berlin
   de-berlin-wiki:
@@ -414,6 +424,7 @@ fr:
   DF-telegram:
     extendedDescription: Rejoignez la communauté pour en apprendre plus sur OpenStreetMap, pour poser des questions ou participer à nos rencontres. Vous êtes tous les bienvenus !
   dk-discourse:
+    name: '{community} Discourse'
     description: Un forum de discussion sur OpenStreetMap au Danemark
   ee-wiki:
     description: Informations concernant la cartographie spécifiques à l'Estonie
@@ -450,6 +461,7 @@ fr:
     description: Talk-gb est la liste de diffusion principale pour la communauté OSM du Royaume-Uni (incluant l'Irlande du Nord)
   geogeeks_perth_meetup:
     name: Geogeeks Perth
+    description: Groupe de rencontre basé à Perth pour les personnes intéressées par la cartographie, les données géospatiales et les logiciels libres. Nous travaillerons sur tout ce qui implique un sens du lieu.
   GeoPhilly:
     name: GeoPhilly
     description: Réunion pour les passionnés de cartographie dans la région de Philadelphie
@@ -553,9 +565,6 @@ fr:
   MapColabora-mailinglist:
     name: Mapeado Colaborativo / Geoinquietos Saragosse
     description: Liste de diffusion de Mapeado Colaborativo / Geoinquietos Saragosse
-  MapColabora-meetup:
-    name: Mapeado Colaborativo / Geoinquietos Saragosse
-    description: Page rencontre Mapeado Colaborativo / Geoinquietos Saragosse
   MapColabora-twitter:
     name: Mapeado Colaborativo / Geoinquietos Saragosse
     description: Compte Twitter de Mapeado Colaborativo / Geoinquietos Saragosse
@@ -856,6 +865,8 @@ fr:
     extendedDescription: Rejoignez la communauté pour apprendre davantage sur OpenStreetMap, poser des questions ou participer à nos réunions. Tout le monde est la bienvenue !
   rs-wiki:
     description: La page wikiproject pour la Serbie
+  si-discourse:
+    name: '{community} Discourse'
   si-github:
     description: 'GitHub de {community}'
   si-ljubljana-wiki:
@@ -863,7 +874,6 @@ fr:
   si-wiki:
     description: 'Page Wiki de {community}'
   sk-freemap:
-    name: Site web Slovaque de "Freemap" d'OpenStreetMap
     description: Site web de la carte OpenStreetMap avec des outils pour la Slovaquie et les régions proches
   talk-au:
     description: Lieu de discussion pour les cartographes australiens
@@ -901,6 +911,7 @@ fr:
   uk-loomio:
     name: OpenStreetMap Grande-Bretagne sur Loomio
   us-discourse:
+    name: '{community} Discourse'
     description: Un forum de discussion sur OpenStreetMap aux États-Unis
   us-massachusetts-mailinglist:
     name: Liste de diffusion Talk-us-massachusetts

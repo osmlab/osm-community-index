@@ -11,6 +11,7 @@ de:
     openstreetmapalba: OpenStreetMap Alba
     openstreetmapalbania: OpenStreetMap Albanien
     openstreetmapargentina: OpenStreetMap Argentinien
+    openstreetmaparmenia: OpenStreetMap Armenien
     openstreetmapasia: OpenStreetMap Asien
     openstreetmapasti: OpenStreetMap Asti
     openstreetmapaustria: OpenStreetMap Österreich
@@ -176,6 +177,7 @@ de:
     openstreetmaptogo: OpenStreetMap Togo
     openstreetmaptoronto: OpenStreetMap Toronto
     openstreetmaptunisia: OpenStreetMap Tunesien
+    openstreetmapturin: OpenStreetMap Turin
     openstreetmapturkey: OpenStreetMap Türkei
     openstreetmapuganda: OpenStreetMap Uganda
     openstreetmapuk: OpenStreetMap UK
@@ -205,7 +207,7 @@ de:
       url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
       name: '{community} auf Facebook'
-      description: Werde Mitglied unserer Gemeinschaft auf Facebook
+      description: Tritt unserer Community auf Facebook bei
       url: https://www.facebook.com/{account}
     forum:
       name: '{community} Forum'
@@ -224,7 +226,7 @@ de:
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} auf LinkedIn'
-      description: Tritt unserer Community aud LinkedIn bei
+      description: Tritt unserer Community auf LinkedIn bei
       url: https://www.linkedin.com/company/{account}
     mailinglist:
       name: '{account} Mailing Liste'
@@ -235,7 +237,7 @@ de:
       description: Das offizielle Mastodon-Konto für {community}
     matrix:
       name: '{community} Matrix Chat'
-      description: Tritt unserer Community Matrix-Chat bei
+      description: Tritt dem Matrix Chat unserer Community bei
       url: https://matrix.to/#/{account}:matrix.org
     meetup:
       name: '{community} Meetup'
@@ -249,16 +251,21 @@ de:
     reddit:
       name: '{community} auf Reddit'
       url: https://www.reddit.com/r/{account}
+    signal:
+      name: '{community} Signal'
+      description: Tritt dem Signal Chat unserer Community bei
     slack:
       name: '{community} Slack'
     telegram:
       name: '{community} Telegram'
-      description: Tritt unserem Community Telegram Chat bei
+      description: Tritt dem Telegram Chat unserer Community bei
       url: https://t.me/{account}
     twitter:
       name: '{community} auf Twitter'
       description: Folge uns auf Twitter
       url: https://twitter.com/{account}
+    website:
+      name: '{community}'
     wiki:
       name: '{community} WikiProject'
       url: https://wiki.openstreetmap.org/wiki/{account}
@@ -268,6 +275,9 @@ de:
       name: '{community} auf YouTube'
       description: Abonniere unseren YouTube-Kanal
       url: https://www.youtube.com/channel/{account}
+    zulip:
+      name: '{community} Zulip'
+      description: Tritt dem Zulip Chat unserer Community bei
   aberdeen-discord:
     name: OSM ABZ Discord
   af-matrix:
@@ -289,7 +299,6 @@ de:
   bd-facebook:
     extendedDescription: Mapping in Bangladesch? Hast du Fragen, willst du dich mit der Community hier verbinden? Tritt uns bei {url} bei. Alle sind willkommen!
   be-chapter:
-    name: OpenStreetMap Belgien Landesverband
     description: Wir helfen OpenStreetMap in Belgien beim besser und größer werden.
     extendedDescription: Wenn du dabei helfen willst die Mapping-Gemeinschaft in Belgien größer und besser zu machen, Menschen verrückt nach Mappen zu machen, dann ist OpenStreetMap Belgien der richtige Platz für dich!
   be-discourse:
@@ -512,6 +521,11 @@ de:
     description: Das italienische Forum, in dem Sie über OpenStreetMap diskutieren können
   ko-facebook:
     description: Mapper und OpenStreetMap Nutzende in Korea
+  ko-github:
+    description: '{community} GitHub'
+  ko-osm:
+    description: Wir helfen OpenStreetMap in Korea beim Wachsen und Verbessern.
+    extendedDescription: Wenn Sie zu OpenStreetMap beitragen oder daran interessiert sind, können Sie gerne bei uns mitmachen. Wir freuen uns jederzeit über Neuanmeldungen!
   kosovo-flossk:
     name: Free Libre Open Source Software Kosovo (FLOSSK)
     description: Förderung von FLOSS seit 2009
@@ -563,9 +577,6 @@ de:
   MapColabora-mailinglist:
     name: Mapeado Colaborativo / Geoinquietos Zaragoza
     description: Mapeado Colaborativo / Geoinquietos Zaragoza Mailing Liste
-  MapColabora-meetup:
-    name: Mapeado Colaborativo / Geoinquietos Zaragoza
-    description: Mapeado Colaborativo / Geoinquietos Zaragoza Meetup page
   MapColabora-twitter:
     name: Mapeado Colaborativo / Geoinquietos Zaragoza
     description: Mapeado Colaborativo / Geoinquietos Zaragoza Twitter Account
@@ -875,7 +886,6 @@ de:
   si-wiki:
     description: '{community} Wiki Seite'
   sk-freemap:
-    name: OpenStreetMap Website Freemap Slowakei
     description: OpenStreetMap Karten-Website mit Werkzeugen in der Slowakei und umgebenden Regionen
   talk-au:
     description: Mappers in Australien chatten hier

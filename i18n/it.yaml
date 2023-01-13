@@ -163,8 +163,12 @@ it:
       name: '{community} su LinkedIn'
     mailinglist:
       name: '{account} Mailing List'
+    matrix:
+      name: '{community} Chat Matrix'
     meetup:
       name: '{community} Meetup'
+    newsletter:
+      name: '{community} Newsletter'
     osm:
       name: '{community}'
     osm-lc:
@@ -172,6 +176,8 @@ it:
     reddit:
       name: '{community} su Reddit'
       url: https://www.reddit.com/r/{account}
+    signal:
+      name: '{community} Signal'
     slack:
       name: '{community} Slack'
     telegram:
@@ -179,6 +185,7 @@ it:
       url: https://t.me/{account}
     twitter:
       name: '{community} su Twitter'
+      description: Seguici su Twitter
       url: https://twitter.com/{account}
     wiki:
       name: '{community} WikiProject'
@@ -187,6 +194,8 @@ it:
       name: '{community} XMPP'
     youtube:
       name: '{community} su YouTube'
+      description: Iscriviti al nostro canale YouTube
+      url: https://www.youtube.com/channel/{account}
   al-maptime-tirana:
     name: Maptime di Tirana
     description: Eventi sociali centrati sulla mappatura—i principianti sono più che benvenuti!
@@ -204,6 +213,10 @@ it:
     extendedDescription: Incontrarsi di persona è una grande occasione per conoscere altri mappatori, fare domande e imparare un sacco di cose. I nuovi utenti sono in special modo i benvenuti!
   bg-wiki:
     description: Pagina Wikiproject per la Bulgaria
+  bo-facebook-group:
+    name: '{community} Gruppo Facebook'
+  bo-matrix:
+    description: Tutti i mappatori sono benvenuti!
   cape-coast-youthmappers:
     name: Giovani mappatori dell’università di Cape Coast
     description: 'Seguici su Twitter: {url}'
@@ -232,6 +245,8 @@ it:
     name: OpenStreetMap DE XMPP
   DF-telegram:
     extendedDescription: Unisciti alla comunità per saperne di più su OpenStreetMap, fare domande e partecipare alle nostre riunioni. Tutti sono i benvenuti!
+  dk-discourse:
+    name: '{community} Discourse'
   Galicia-Xeoinquedos-Twitter:
     name: Xeoinquedos su Twitter
     description: Seguici su Twitter all’indirizzo {url}

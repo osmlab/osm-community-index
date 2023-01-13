@@ -11,6 +11,7 @@ cs:
     openstreetmapalba: OpenStreetMap Alba
     openstreetmapalbania: OpenStreetMap Albánie
     openstreetmapargentina: OpenStreetMap Argentina
+    openstreetmaparmenia: OpenStreetMap Arménie
     openstreetmapasia: OpenStreetMap Asie
     openstreetmapasti: OpenStreetMap Asti
     openstreetmapaustria: OpenStreetMap Rakousko
@@ -176,6 +177,7 @@ cs:
     openstreetmaptogo: OpenStreetMap Togo
     openstreetmaptoronto: OpenStreetMap Toronto
     openstreetmaptunisia: OpenStreetMap Tunisko
+    openstreetmapturin: OpenStreetMap Turín
     openstreetmapturkey: OpenStreetMap Turecko
     openstreetmapuganda: OpenStreetMap Uganda
     openstreetmapuk: OpenStreetMap UK
@@ -249,6 +251,9 @@ cs:
     reddit:
       name: '{community} na Redditu'
       url: https://www.reddit.com/r/{account}
+    signal:
+      name: '{community} Signal'
+      description: Připojte se k chatu naší komunity na Signalu
     slack:
       name: '{community} Slack'
     telegram:
@@ -259,6 +264,8 @@ cs:
       name: '{community} na Twitteru'
       description: Sledujte nás na Twitteru
       url: https://twitter.com/{account}
+    website:
+      name: '{community}'
     wiki:
       name: '{community} wikiprojekt'
       url: https://wiki.openstreetmap.org/wiki/{account}
@@ -268,6 +275,9 @@ cs:
       name: '{community} na YouTube'
       description: Přihlaste se k odběru našeho YouTube kanálu
       url: https://www.youtube.com/channel/{account}
+    zulip:
+      name: '{community} Zulip'
+      description: Připojte se k chatu naší komunity na Zulipu
   aberdeen-discord:
     name: OSM ABZ Discord
   af-matrix:
@@ -289,7 +299,6 @@ cs:
   bd-facebook:
     extendedDescription: Mapujete v Bangladéši? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {url}. Všichni jsou vítáni!
   be-chapter:
-    name: Místní zastoupení OpenStreetMap Belgie
     description: Pomáháme OpenStreetMap v Belgii růst a zlepšovat se.
     extendedDescription: Pokud chcete pomoci zlepšovat a rozšířit mapovací komunitu v Belgii aby se ještě více lidí zbláznilo do mapování, OpenStreetMap Belgie je to správné místo pro vás!
   be-discourse:
@@ -512,6 +521,11 @@ cs:
     description: Fórum, ve kterém můžete diskutovat o OpenStreetMap
   ko-facebook:
     description: Mapovači a uživatelé OpenStreetMap v Koreji
+  ko-github:
+    description: '{community} GitHub'
+  ko-osm:
+    description: Pomáháme OpenStreetMap v Koreji růst a zlepšovat se.
+    extendedDescription: Pokud přispíváte nebo máte zájem přispívat do OpenStreetMap, prosím neváhejte se připojit. Jsme připraveni kdykoliv přijmout nováčky!
   kosovo-flossk:
     name: Free Libre Open Source Software Kosova (FLOSSK)
     description: Propagace FLOSS od roku 2009
@@ -563,9 +577,6 @@ cs:
   MapColabora-mailinglist:
     name: Mapeado Colaborativo / Geoinquietos Zaragoza
     description: Mapeado Colaborativo / Geoinquietos Zaragoza mailová konference
-  MapColabora-meetup:
-    name: Mapeado Colaborativo / Geoinquietos Zaragoza
-    description: Mapeado Colaborativo / Geoinquietos Zaragoza Meetup page
   MapColabora-twitter:
     name: Mapeado Colaborativo / Geoinquietos Zaragoza
     description: Kooperativní mapování / Twitter účet Geoinquietos Zaragoza
@@ -875,7 +886,6 @@ cs:
   si-wiki:
     description: '{community} Wiki stránka'
   sk-freemap:
-    name: Web OpenStreetMap Freemap Slovensko
     description: Mapový web OpenStreetMap s nástroji na Slovensku a okolních regionech
   talk-au:
     description: Místo pro chatování australských mapovačů

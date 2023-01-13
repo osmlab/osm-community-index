@@ -249,6 +249,9 @@ br:
     reddit:
       name: '{community} war Reddit'
       url: https://www.reddit.com/r/{account}
+    signal:
+      name: 'Signal {community}'
+      description: Emezelit ouzh flap hor gumuniezh war Signal
     slack:
       name: 'Slack {community}'
     telegram:
@@ -468,8 +471,6 @@ br:
     name: MapABQ
   MapColabora-mailinglist:
     description: Lizher-kelaouiñ Mapeado Colaborativo / Geoinquietos Zaragoza
-  MapColabora-meetup:
-    name: Mapeado Colaborativo / Geoinquietos Zaragoza
   MapColabora-twitter:
     name: Mapeado Colaborativo / Geoinquietos Zaragoza
     description: Kont Twitter Mapeado Colaborativo / Geoinquietos Zaragoza

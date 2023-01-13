@@ -217,6 +217,8 @@ pl:
       name: 'Lista dyskusyjna {account}'
       description: Oficjalna lista dyskusyjna społeczności {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
+    mastodon:
+      name: 'Konto {community} na Mastodon'
     matrix:
       name: 'Kanał {community} na Matriksie'
       description: Dołącz do naszej społeczności na Matriksie
@@ -231,6 +233,9 @@ pl:
     reddit:
       name: '{community} na Reddit'
       url: https://www.reddit.com/r/{account}
+    signal:
+      name: '{community} Signal'
+      description: Dołącz do czatu społeczności na komunikatorze Signal
     slack:
       name: '{community} na Slack'
     telegram:
@@ -267,7 +272,6 @@ pl:
   bd-facebook:
     extendedDescription: Mapujesz w Bangladeszu? Masz pytania lub chcesz dołączyć do naszej społeczności? Wejdź na {url}. Zapraszamy wszystkich!
   be-chapter:
-    name: Oddział lokalny OpenStreetMap Belgia
     description: Pomagamy rozwijać i ulepszać OpenStreetMap w Belgii.
     extendedDescription: Jeśli chcesz pomóc ulepszać i rozwijać społeczność mapujących w Belgii, aby jeszcze więcej osób oszalało na punkcie tworzenia map, OpenStreetMap Belgia to właściwe miejsce dla ciebie!
   be-irc:
@@ -420,9 +424,6 @@ pl:
   MapColabora-mailinglist:
     name: Mapeado Colaborativo / Geoinquietos Zaragoza
     description: Lista dyskusyjna Mapeado Colaborativo / Geoinquietos Zaragoza
-  MapColabora-meetup:
-    name: Mapeado Colaborativo / Geoinquietos Zaragoza
-    description: Mapeado Colaborativo / Geoinquietos Zaragoza na Meetup
   MapColabora-twitter:
     name: Mapeado Colaborativo / Geoinquietos Zaragoza
     description: Mapeado Colaborativo / Geoinquietos Zaragoza na Twitterze
@@ -648,7 +649,6 @@ pl:
   rs-wiki:
     description: Strona Wikiprojektu dla Serbii
   sk-freemap:
-    name: Strona Freemap Słowacja
     description: Strona OpenStreetMap z narzędziami na Słowacji i w okolicach
   talk-au:
     description: Miejsce rozmów mapujących z Australii

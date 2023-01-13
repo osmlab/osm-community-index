@@ -249,6 +249,9 @@ zh_TW:
     reddit:
       name: 'Reddit 上的 {community}'
       url: https://www.reddit.com/r/{account}
+    signal:
+      name: '{community} 的 Signal'
+      description: 加入社群的 Signal 聊天室
     slack:
       name: '{community} 的 Slack'
     telegram:
@@ -289,7 +292,6 @@ zh_TW:
   bd-facebook:
     extendedDescription: '在孟加拉畫地圖嗎？想要問問題，想要與社群連結？請加入 {url}，所有人都歡迎噢！ '
   be-chapter:
-    name: 開放街圖比利時在地分會
     description: 我們協助比利時的開放街圖成長茁壯並改善它。
     extendedDescription: 如果你想要改進和茁壯比利時的地圖社群，讓更多人瘋狂的參與畫地圖，OpenStreetMap 比利時就是最好的地方了！
   be-discourse:
@@ -421,6 +423,9 @@ zh_TW:
     description: '加入我們 XMPP 多使用者群組聊天：{url}'
   DF-telegram:
     extendedDescription: 加入社群學習更多關於開放街圖的事情，詢問問題或是參加聚會，歡迎所有人噢！
+  dk-discourse:
+    name: '{community} Discourse'
+    description: 討論開放街圖在丹麥事物的 Discourse 論壇
   ee-wiki:
     description: 針對愛沙泥亞畫地圖相關活動的資訊
   es-discourse:
@@ -560,9 +565,6 @@ zh_TW:
   MapColabora-mailinglist:
     name: 協作製圖/薩拉戈薩
     description: 協作製圖/薩拉戈薩的郵件論壇
-  MapColabora-meetup:
-    name: 協作製圖/薩拉戈薩
-    description: 協作製圖/薩拉戈薩聚會頁面
   MapColabora-twitter:
     name: 協作製圖/薩拉戈薩地理資訊
     description: 協作製圖/薩拉戈薩地理信息Twitter帳戶
@@ -872,7 +874,6 @@ zh_TW:
   si-wiki:
     description: '{community} Wiki 頁面'
   sk-freemap:
-    name: 開放街圖斯洛伐克的網站
     description: 斯洛伐克以及週邊區域的開放街圖工具網站
   talk-au:
     description: 讓澳洲圖客聊天的園地
@@ -909,6 +910,9 @@ zh_TW:
     description: '{community} Wiki 頁面'
   uk-loomio:
     name: 開放街圖英國的 Loomio
+  us-discourse:
+    name: '{community} Discourse'
+    description: 討論開放街圖在美國事物的 Discourse 論壇
   us-massachusetts-mailinglist:
     name: Talk-us 麻塞諸塞州郵件論壇
     description: 麻塞諸塞州 OSM 社群 email 郵件論壇
@@ -1012,6 +1016,7 @@ zh_TW:
     description: 年輕圖客在聯邦測繪學校
   ym-Federal-University-of-Technology-Akure:
     name: 年輕圖客富他空間社團
+    description: 阿庫雷聯邦理工大學的年輕圖客分會
     extendedDescription: 我們的任務是提昇下一代的空間領導者，活動則包括研究與遙測、GIS、氣候變遷、天文、氣象、航太工程、全球導航、機器人與太空教育的能力建造。
   ym-Fourah-Bay-College:
     name: 學生地理協會
@@ -1028,8 +1033,21 @@ zh_TW:
   ym-Grand-Gedeh-County-Community-College:
     name: 年輕圖客大吉德郡社區大學分會
     description: 年輕圖客在大吉德郡社區大學的分會
+    extendedDescription: Grand Gedeh Community College 年輕圖客分會的唯一目的是將賴比瑞亞還沒有在地圖上的地方畫上去。我們從 Grand Gedeh Community College 聚集年輕人，讓他們承擔讓這些地方在地理上發光。
+  ym-Gujarat-University:
+    name: CCIM at Ahmedabad
+    description: 古吉拉特大學的年輕圖客分會
   ym-Gulu-University:
+    name: CSGU 圖客
+    description: 古盧大學的年輕圖客分會
     extendedDescription: CSGU 圖客是古盧大學電腦社，這個分會具有創新、熱情，以及準備好盡可能突破其他人的想像限制，來畫烏干達與世界的地圖。
+  ym-Heidelberg-University:
+    name: 海德堡災難救災圖客
+    description: 海德堡大學的年輕圖客分會
+    extendedDescription: 海德堡災難救災圖客是由學生倡議，2014 年成立的。聚集學生、學者與人道救援者的交換平台，災難救災圖客是遺失地圖的成員，在海德堡組織圖客松、工作坊與線上論壇，並且透過研究與應用支援 HOT 與遺失地圖。
+  ym-Ignatius-Ajuru-University-of-Education:
+    name: 伊格內修斯·阿朱魯教育大學圖客小組 (IMT)
+    description: 伊格內修斯·阿朱魯教育大學的年輕圖客分會
   ym-Institute-of-Rural-Development-Planning-Mwanza:
     name: 都市計劃學院 - 湖區中心的年青圖客分會
   ym-Institute-of-Science-and-Veterinary-Medicine:

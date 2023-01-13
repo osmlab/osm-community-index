@@ -249,6 +249,9 @@ uk:
     reddit:
       name: '{community} на Reddit'
       url: https://www.reddit.com/r/{account}
+    signal:
+      name: '{community} Signal'
+      description: Приєднуйтесь до нашого чату у Signal
     slack:
       name: '{community} Slack'
     telegram:
@@ -289,7 +292,6 @@ uk:
   bd-facebook:
     extendedDescription: Мапите в Бангладеш? Маєте питання чи бажаєте поспілкуватись зі спільнотою тут? Приєднуйтесь до нас - {url}. Ласкаво просимо!
   be-chapter:
-    name: OpenStreetMap Бельгія - Місцевий осередок
     description: Ми допомагаємо розвивати та вдосконалювати OpenStreetMap у Бельгії.
     extendedDescription: Якщо ви хочете допомогти вдосконалити та розширити спільноту маперів в Бельгії, щоб змусити ще більше людей долучитись до мапінгу, OpenStreetMap Бельгія – те що вам треба!
   be-discourse:
@@ -563,9 +565,6 @@ uk:
   MapColabora-mailinglist:
     name: Mapeado Colaborativo / Geoinquietos Zaragoza
     description: Mapeado Colaborativo / Geoinquietos Сарагоса Список розсилки
-  MapColabora-meetup:
-    name: Mapeado Colaborativo / Geoinquietos Сарагоса
-    description: Mapeado Colaborativo / Geoinquietos Сарагоса Meetup
   MapColabora-twitter:
     name: Mapeado Colaborativo / Geoinquietos Zaragoza
     description: Mapeado Colaborativo / Geoinquietos Сарагоса Твіттер
@@ -875,7 +874,6 @@ uk:
   si-wiki:
     description: '{community} - сторінка у Вікі'
   sk-freemap:
-    name: Вебсайт OpenStreetMap Freemap Словаччина
     description: Вебсайт з мапами OpenStreetMap та інструментами для Словаччини та прилеглих регіонів
   talk-au:
     description: Місце спілкування маперів з Австралії

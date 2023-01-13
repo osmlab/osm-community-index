@@ -1,7 +1,7 @@
 ko:
   _communities:
-    geolibres: 지오라이버스
-    mappingbotswana: 맵핑 보스와나
+    geolibres: GeoLibres
+    mappingbotswana: 맵핑 보츠와나
     maptimebogota: 맵타임보고타
     maptimehrva: 맵타임HRVA
     openstreetmap: 오픈스트리트맵
@@ -61,6 +61,7 @@ ko:
     openstreetmapespana: 오픈스트리트맵 에스파냐
     openstreetmapestonia: 오픈스트리트맵 에스토니아
     openstreetmapethiopia: 오픈스트리트맵 에티오피아
+    openstreetmapfiji: 오픈스트리트맵 피지
     openstreetmapfinland: 오픈스트리트맵 핀란드
     openstreetmapfrance: 오픈스트리트맵 프랑스
     openstreetmapfreemapslovakia: 오픈스트리트맵 프리맵 슬로바키아
@@ -134,7 +135,9 @@ ko:
     openstreetmapnicaragua: 오픈스트리트맵 니카라과
     openstreetmapniger: 오픈스트리트맵 니제르
     openstreetmapnigeria: 오픈스트리트맵 나이지리아
+    openstreetmapnorthkorea: 오픈스트리트맵 조선
     openstreetmapnorway: 오픈스트리트맵 노르웨이
+    openstreetmapoceania: 오픈스트리트맵 오세아니아
     openstreetmapottawa: 오픈스트리트맵 오타와
     openstreetmappakistan: 오픈스트리트맵 파키스탄
     openstreetmappanama: 오픈스트리트맵 파나마
@@ -144,11 +147,52 @@ ko:
     openstreetmappiemonte: 오픈스트리트맵 피에몬테
     openstreetmappoland: 오픈스트리트맵 폴란드
     openstreetmapportugal: 오픈스트리트맵 포르투갈
+    openstreetmapromania: 오픈스트리트맵 루마니아
+    openstreetmaprussia: 오픈스트리트맵 러시아
+    openstreetmaprwanda: 오픈스트리트맵 르완다
+    openstreetmapsaudiarabia: 오픈스트리트맵 사우디아라비아
+    openstreetmapsenegal: 오픈스트리트맵 세네갈
+    openstreetmapserbia: 오픈스트리트맵 세르비아
+    openstreetmapsierraleone: 오픈스트리트맵 시에라리온
+    openstreetmapslovenia: 오픈스트리트맵 슬로베니아
+    openstreetmapsomalia: 오픈스트리트맵 소말리아
+    openstreetmapsouthafrica: 오픈스트리트맵 남아프리카 공화국
+    openstreetmapsouthsudan: 오픈스트리트맵 남수단
+    openstreetmapsrilanka: 오픈스트리트맵 스리랑카
+    openstreetmapsudan: 오픈스트리트맵 수단
+    openstreetmapsweden: 오픈스트리트맵 스웨덴
+    openstreetmapswitzerland: 오픈스트리트맵 스위스
+    openstreetmapsyria: 오픈스트리트맵 시리아
+    openstreetmaptaiwan: 오픈스트리트맵 대만
+    openstreetmaptanzania: 오픈스트리트맵 탄자니아
+    openstreetmapthailand: 오픈스트리트맵 태국
+    openstreetmaptogo: 오픈스트리트맵 토고
+    openstreetmapturkey: 오픈스트리트맵 튀르키예
+    openstreetmapuganda: 오픈스트리트맵 우간다
+    openstreetmapuk: 오픈스트리트맵 영국
+    openstreetmapukraine: 오픈스트리트맵 우크라이나
+    openstreetmapuruguay: 오픈스트리트맵 우루과이
+    openstreetmapus: 오픈스트리트맵 미국
+    openstreetmapuzbekistan: 오픈스트리트맵 우즈베키스탄
+    openstreetmapvenezuela: 오픈스트리트맵 베네수엘라
+    openstreetmapvietnam: 오픈스트리트맵 베트남
+    openstreetmapwesternsahara: 오픈스트리트맵 서사하라
+    openstreetmapzambia: 오픈스트리트맵 잠비아
+    openstreetmapzimbabwe: 오픈스트리트맵 짐바브웨
+  _defaults:
+    discord:
+      name: '{community} 디스코드'
   Bahia-telegram:
     extendedDescription: 커뮤니티에 참여해서 OpenStreetMap에 대해 더 배우거나, 질문하거나, 미팅에 참여하세요. 누구나 환영합니다!
   Bay-Area-OpenStreetMappers:
     name: Bay Area OpenStreet 기여자
     description: Bay Area 내 오픈스트리트맵 개선하기
+  be-matrix:
+    description: 모든 편집자들을 환영합니다!
+  bg-wiki:
+    description: 불가리아의 위키프로젝트 페이지
+  bo-matrix:
+    description: 모든 편집자들을 환영합니다!
   cape-coast-youthmappers:
     description: '트위터에서 팔로우하기: {url}'
   de-berlin-mailinglist:

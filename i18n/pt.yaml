@@ -219,7 +219,7 @@ pt:
       name: '{community}'
     irc:
       name: '{community} no IRC'
-      description: 'Junta-te a #{account} no irc.oftc.net (port 6667)'
+      description: 'Junta-te a #{account} no irc.oftc.net (porta 6667)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} no LinkedIn'
@@ -284,7 +284,6 @@ pt:
     description: Melhora o OpenStreetMap na Bay Area
     extendedDescription: Este grupo é sobre o crescimento da comunidade OpenStreetMap aqui em Bay Area. Os nossos eventos estão abertos a todos, entusiastas do código aberto, ciclistas, profissionais de GIS, geocachers e muito mais. Qualquer pessoa interessada em mapas, elaboração de mapas e dados dos mapas gratuitos é bem-vinda para se juntar ao nosso grupo e participar nos nossos eventos.
   be-chapter:
-    name: OpenStreetMap Capítulo Local Bélgica
     description: Ajudamos o OpenStreetMap a crescer e melhorar na Bélgica.
   be-discourse:
     name: Discourse Bélgica
@@ -389,6 +388,8 @@ pt:
     name: GeoPhilly
     description: Encontro para entusiastas do mapa na área de Filadélfia
     extendedDescription: GeoPhilly une developers, geógrafos, geeks de dados, entusiastas do código aberto, hackers cívicos e viciados em mapas ao nosso amor partilhado pelos mapas e histórias que contam. Se usa  mapas como parte do seu trabalho ou se quer apenas saber mais, este encontro é para si! Os nossos eventos são abertos, amigáveis, educacionais e sociais e vão desde happy hours, discussões ou até workshops. Junte-se a nós para criar uma comunidade geoespacial diversificada e inspiradora em Filadélfia!
+  hr-irc:
+    description: 'Junta-te a #{account} no irc.freenode.org (porta 6667)'
   hr-wiki:
     description: Página Wikiproject da Comunidade Croata
   hu-facebook-group:
@@ -493,7 +494,7 @@ pt:
   OSM-help:
     name: Ajuda OpenStreetMap
     description: Deixa as tuas dúvidas no sítio de perguntas e respostas conduzidas pela comunidade OSM.
-    extendedDescription: '{url} é para todos aqueles que precisam de ajuda com o OpenStreetMap. Se és um novato ou tens uma questão técnica, estamos aqui para ajudar!'
+    extendedDescription: '{url} é para todos aqueles que precisam de ajuda com o OpenStreetMap. Se estás a começar ou tens uma questão técnica, estamos aqui para ajudar!'
   osm-hr:
     description: A plataforma para informação sobre o OpenStreetMap na Croácia
   OSM-India-facebook:
@@ -516,7 +517,7 @@ pt:
   osm-india-wiki:
     description: 'Tudo o que precisa de saber sobre a mapeamento na Índia: {url}'
   osm-iran-aparat:
-    extendedDescription: Um bom recurso de vídeos sobre actividade relacionada com o OpenStreetMap. Principalmente em persa.
+    extendedDescription: Um bom recurso de vídeos sobre tudo o que está relacionado com o OpenStreetMap. Principalmente em persa.
   OSM-japan-facebook:
     description: Mapeadores e utilizadores do OpenStreetMap no Japão
   OSM-japan-slack:
@@ -551,6 +552,8 @@ pt:
     name: Movimento de Hardware e Software Livre - Lista de discussão
     description: Lista de discussão do FSHM Puducherry para discutir o mapeamento em Puducherry e outras coisas.
     extendedDescription: O FSHM organiza eventos relacionados a software / hardware livre, tecnologia, ativismo e OpenStreetMap.
+  OSM-Reddit:
+    description: /r/{account} é um excelente sítio para aprenderes mais sobre o OpenStreetMap.  Pergunta-nos o que quiseres!
   OSM-Rome-meetup:
     name: Encontro Mappatori Romani
     description: Melhorar o OpenStreetMap na área de Roma
@@ -596,7 +599,8 @@ pt:
     extendedDescription: OpenStreetMap (OSM) Wyoming é uma colaboração local de pessoas interessadas em contribuir com os seus esforços para criar mapas gratuitos. Encorajamos todos os nossos mapeadores a organizar ou sugerir eventos de mapeamento em todo o estado. As actividades do Meetup podem ser simples mixers sociais, formação básica e avançada do OSM ou eventos de mapeamento.
   OSMF:
     name: Fundação OpenStreetMap
-    description: OSMF é uma organização sem fins lucrativos sediada no Reino Unido que apoia o projeto OpenStreetMap
+    description: A OSMF é uma organização sem fins lucrativos sediada no Reino Unido que apoia o projeto OpenStreetMap
+    extendedDescription: 'A OSMF apoia o projeto OpenStreetMap fazendo angariação de fundos, mantendo os servidores que suportam o OSM, organizando a conferência anual State of the Map e coordenando os voluntários que mantêm o OSM a funcionar. Podes mostrar o teu apoio e ter uma voz no rumo do OpenStreetMap participando enquanto membro OSMF aqui: {signupUrl}'
   PHXGeo-meetup:
     name: Encontro PHXGeo
     description: Mapeadores e utilizadores do OpenStreetMap na área de Phoenix, AZ
