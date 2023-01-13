@@ -263,6 +263,8 @@ en:
       name: '{community} on Twitter'
       description: Follow us on Twitter
       url: https://twitter.com/{account}
+    website:
+      name: '{community}'
     wiki:
       name: '{community} WikiProject'
       url: https://wiki.openstreetmap.org/wiki/{account}
@@ -296,7 +298,6 @@ en:
   bd-facebook:
     extendedDescription: Mapping in Bangladesh? Have questions, want to connect with the community here? Join us at {url}. All are welcome!
   be-chapter:
-    name: OpenStreetMap Belgium Local Chapter
     description: We help grow and improve OpenStreetMap in Belgium.
     extendedDescription: If you want to help to improve and grow the mapping community in Belgium, to make even more people crazy about mapping, OpenStreetMap Belgium is the right place for you!
   be-discourse:
@@ -884,7 +885,6 @@ en:
   si-wiki:
     description: '{community} Wiki page'
   sk-freemap:
-    name: OpenStreetMap Website Freemap Slovakia
     description: OpenStreetMap map website with tools in Slovakia and surrounding regions
   talk-au:
     description: Place for Aussie mappers to chat
