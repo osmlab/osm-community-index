@@ -581,7 +581,7 @@ Added:
     * Removed: `featureId` properties and most `.geojson` files (everything that was just a country or a circular point is now gone, as it can be calculated)
     * This approach leverages code from [country-coder](https://github.com/ideditor/country-coder) and [location-conflation](https://github.com/ideditor/location-conflation) projects.
     * `dist/features.json` is now a FeatureCollection that only contains the _custom_ boundaries.
-  * You can now view the community index data on a map at http://openstreetmap.community
+  * You can now view the community index data on a map at https://openstreetmap.community
 
 [#291]: https://github.com/osmlab/osm-community-index/issues/291
 [#298]: https://github.com/osmlab/osm-community-index/issues/298
