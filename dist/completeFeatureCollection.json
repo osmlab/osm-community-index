@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.5.0",
-    "generated": "2023-02-12T16:05:49.470Z",
+    "generated": "2023-02-21T09:53:17.324Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "69d0771d77050b50561c3d1dcfee2614"
+    "hash": "be9f7a9ddfd7ba155287b04c97976e17"
   },
   "type": "FeatureCollection",
   "features": [
@@ -2408,27 +2408,6 @@
               "urlHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osmbe\">https://webchat.oftc.net/?channels=osmbe</a>",
               "descriptionHTML": "Join #osmbe on irc.oftc.net (port 6667)",
               "extendedDescriptionHTML": "Join #osmbe on irc.oftc.net (port 6667), it is bridged with the Matrix chat channel"
-            }
-          },
-          "be-mailinglist": {
-            "id": "be-mailinglist",
-            "type": "mailinglist",
-            "account": "talk-be",
-            "locationSet": {"include": ["be"]},
-            "languageCodes": ["de", "en", "fr", "nl"],
-            "order": 4,
-            "strings": {
-              "community": "OpenStreetMap Belgium",
-              "communityID": "openstreetmapbelgium"
-            },
-            "contacts": [{"name": "BE community", "email": "community@osm.be"}],
-            "resolved": {
-              "name": "talk-be Mailing List",
-              "url": "https://lists.openstreetmap.org/listinfo/talk-be",
-              "description": "The official mailing list for OpenStreetMap Belgium",
-              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-be\">talk-be Mailing List</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-be\">https://lists.openstreetmap.org/listinfo/talk-be</a>",
-              "descriptionHTML": "The official mailing list for OpenStreetMap Belgium"
             }
           },
           "be-mastodon": {
@@ -25404,6 +25383,25 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#OpenstreetmapMalaysia:matrix.org\">OpenStreetMap Malaysia Matrix Chat</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#OpenstreetmapMalaysia:matrix.org\">https://matrix.to/#/#OpenstreetmapMalaysia:matrix.org</a>",
               "descriptionHTML": "Join our community Matrix chat"
+            }
+          },
+          "my-telegram": {
+            "id": "my-telegram",
+            "type": "telegram",
+            "account": "OpenStreetMapsMalaysia",
+            "locationSet": {"include": ["my"]},
+            "languageCodes": ["en", "ms"],
+            "strings": {
+              "community": "OpenStreetMap Malaysia",
+              "communityID": "openstreetmapmalaysia"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Malaysia Telegram",
+              "url": "https://t.me/OpenStreetMapsMalaysia",
+              "description": "Join our community Telegram chat",
+              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/OpenStreetMapsMalaysia\">OpenStreetMap Malaysia Telegram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/OpenStreetMapsMalaysia\">https://t.me/OpenStreetMapsMalaysia</a>",
+              "descriptionHTML": "Join our community Telegram chat"
             }
           },
           "talk-my": {
