@@ -1,7 +1,7 @@
 import bytes from 'bytes';
 import chalk from 'chalk';
 import fs from 'node:fs';
-import glob from 'glob';
+import { globSync } from 'glob';
 import path from 'node:path';
 import Table from 'easy-table';
 
@@ -18,7 +18,7 @@ function getStats() {
   let t = new Table;
   currSize = 0;
   currFiles = 0;
-  glob.sync('./features/**/*.geojson').forEach(addRow);
+  globSync('./features/**/*.geojson').forEach(addRow);
   t.sort(['Size|des']);
   console.log(t.toString());
   featureSize = bytes(currSize, { unitSeparator: ' ' });
@@ -27,7 +27,7 @@ function getStats() {
   t = new Table;
   currSize = 0;
   currFiles = 0;
-  glob.sync('./resources/**/*.json').forEach(addRow);
+  globSync('./resources/**/*.json').forEach(addRow);
   t.sort(['Size|des']);
   console.log(t.toString());
   resourceSize = bytes(currSize, { unitSeparator: ' ' });

@@ -1,7 +1,7 @@
 // External
 import chalk from 'chalk';
 import fs from 'node:fs';
-import glob from 'glob';
+import { globSync } from 'glob';
 import JSON5 from 'json5';
 import jsonschema from 'jsonschema';
 import LocationConflation from '@ideditor/location-conflation';
@@ -99,7 +99,7 @@ function collectFeatures() {
   let files = {};
   process.stdout.write('📦  Features: ');
 
-  glob.sync('./features/**/*', { nodir: true }).forEach(file => {
+  globSync('./features/**/*', { nodir: true }).forEach(file => {
     if (!/\.geojson$/.test(file)) {
       console.error(chalk.red(`Error - file should have a .geojson extension:`));
       console.error('  ' + chalk.yellow(file));
@@ -178,7 +178,7 @@ function collectResources(featureCollection) {
   const loco = new LocationConflation(featureCollection);
   process.stdout.write('📦  Resources: ');
 
-  glob.sync('./resources/**/*.json', { nodir: true }).forEach(file => {
+  globSync('./resources/**/*.json', { nodir: true }).forEach(file => {
     if (!/\.json$/.test(file)) {
       console.error(chalk.red(`Error - file should have a .json extension:`));
       console.error('  ' + chalk.yellow(file));
