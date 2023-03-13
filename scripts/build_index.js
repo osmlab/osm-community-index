@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import { globSync } from 'glob';
 import JSON5 from 'json5';
 import jsonschema from 'jsonschema';
-import LocationConflation from '@ideditor/location-conflation';
+import LocationConflation from '@rapideditor/location-conflation';
 import localeCompare from 'locale-compare';
 import path from 'node:path';
 import geojsonArea from '@mapbox/geojson-area';

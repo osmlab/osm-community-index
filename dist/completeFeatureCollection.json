@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.5.0",
-    "generated": "2023-02-21T09:53:17.324Z",
+    "generated": "2023-03-13T14:37:55.250Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "be9f7a9ddfd7ba155287b04c97976e17"
+    "hash": "62516439368144eded5b4adc49455e03"
   },
   "type": "FeatureCollection",
   "features": [
@@ -4872,6 +4872,30 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-cat\">talk-cat Mailing List</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-cat\">https://lists.openstreetmap.org/listinfo/talk-cat</a>",
               "descriptionHTML": "The official mailing list for OpenStreetMap Catalan Countries"
+            }
+          },
+          "cat-mastodon": {
+            "id": "cat-mastodon",
+            "type": "mastodon",
+            "account": "osmcatala",
+            "locationSet": {"include": ["catalan_countries.geojson"]},
+            "languageCodes": ["ca"],
+            "order": 8,
+            "strings": {
+              "community": "OpenStreetMap Catalan Countries",
+              "communityID": "openstreetmapcatalancountries",
+              "url": "https://mastodont.cat/@osmcatala"
+            },
+            "contacts": [
+              {"name": "Carlos Sánchez", "email": "erielkhan@gmail.com"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Catalan Countries Mastodon Account",
+              "url": "https://mastodont.cat/@osmcatala",
+              "description": "The official Mastodon account for OpenStreetMap Catalan Countries",
+              "nameHTML": "<a target=\"_blank\" href=\"https://mastodont.cat/@osmcatala\">OpenStreetMap Catalan Countries Mastodon Account</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://mastodont.cat/@osmcatala\">https://mastodont.cat/@osmcatala</a>",
+              "descriptionHTML": "The official Mastodon account for OpenStreetMap Catalan Countries"
             }
           },
           "cat-matrix": {
@@ -16860,6 +16884,25 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/316681995197573\">OpenStreetMap Turkey on Facebook</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/316681995197573\">https://www.facebook.com/groups/316681995197573</a>",
               "descriptionHTML": "Join our community on Facebook"
+            }
+          },
+          "tr-telegram": {
+            "id": "tr-telegram",
+            "type": "telegram",
+            "account": "osm_tr",
+            "locationSet": {"include": ["tr"]},
+            "languageCodes": ["tr"],
+            "strings": {
+              "community": "OpenStreetMap Turkey",
+              "communityID": "openstreetmapturkey"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Turkey Telegram",
+              "url": "https://t.me/osm_tr",
+              "description": "Join our community Telegram chat",
+              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/osm_tr\">OpenStreetMap Turkey Telegram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osm_tr\">https://t.me/osm_tr</a>",
+              "descriptionHTML": "Join our community Telegram chat"
             }
           },
           "tr-twitter": {

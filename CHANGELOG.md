@@ -296,7 +296,7 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 * Switch "gb" to use "Q3336843" (UK countries excl. BOTS) ([country-coder#35])
 
 [#476]: https://github.com/osmlab/osm-community-index/issues/476
-[country-coder#35]: https://github.com/ideditor/country-coder/issues/35
+[country-coder#35]: https://github.com/rapideditor/country-coder/issues/35
 
 
 # 5.1.0
@@ -579,7 +579,7 @@ Added:
     * Resource files now use a `locationSet` property to make it easier to specify where the resources are included and excluded.
     * Removed: `countryCodes` properties
     * Removed: `featureId` properties and most `.geojson` files (everything that was just a country or a circular point is now gone, as it can be calculated)
-    * This approach leverages code from [country-coder](https://github.com/ideditor/country-coder) and [location-conflation](https://github.com/ideditor/location-conflation) projects.
+    * This approach leverages code from [country-coder](https://github.com/rapideditor/country-coder) and [location-conflation](https://github.com/rapideditor/location-conflation) projects.
     * `dist/features.json` is now a FeatureCollection that only contains the _custom_ boundaries.
   * You can now view the community index data on a map at https://openstreetmap.community
 
