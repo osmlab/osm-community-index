@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.5.0",
-    "generated": "2023-03-13T14:37:51.207Z",
+    "generated": "2023-04-07T18:08:39.207Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "50d8766d18f4e9f98a47d00e2d26a68d"
+    "hash": "1692ab94efb52ede6d412ad705ba8d4c"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -115,7 +115,6 @@
     "de-matrix": {"id": "de-matrix", "type": "matrix", "account": "#osm-de", "locationSet": {"include": ["de"]}, "languageCodes": ["de"], "order": 4, "strings": {"community": "OpenStreetMap Germany", "communityID": "openstreetmapgermany"}, "contacts": [{"name": "Christopher Rossbach", "email": "public.cr@protonmail.ch"}]},
     "de-munchen-wiki": {"id": "de-munchen-wiki", "type": "wiki", "account": "M%C3%BCnchen", "locationSet": {"include": [[11.57445, 48.13711]]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap München", "communityID": "openstreetmapmunchen", "description": "{community} Wiki page"}},
     "de-mv-mailinglist": {"id": "de-mv-mailinglist", "type": "mailinglist", "locationSet": {"include": ["de-mecklenburg-vorpommern.geojson"]}, "languageCodes": ["de"], "order": -3, "strings": {"community": "OpenStreetMap Mecklenburg-Vorpommern", "communityID": "openstreetmapmecklenburgvorpommern", "name": "Mecklenburg-Vorpommern Mailing List", "url": "https://lists.openstreetmap.de/listinfo/meckpomm"}, "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}]},
-    "de-mv-twitter": {"id": "de-mv-twitter", "type": "twitter", "account": "osmmv", "locationSet": {"include": ["de-mecklenburg-vorpommern.geojson"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Mecklenburg-Vorpommern", "communityID": "openstreetmapmecklenburgvorpommern"}},
     "de-ostwestfalen-lippe-mailinglist": {"id": "de-ostwestfalen-lippe-mailinglist", "type": "mailinglist", "locationSet": {"include": ["de-ostwestfalen-lippe.geojson"]}, "languageCodes": ["de"], "order": -3, "strings": {"name": "OWL Mailing List", "description": "This is the mailing list for the Ostwestfalen-Lippe OSM community", "url": "https://gt.owl.de/mailman/listinfo/osm"}, "contacts": [{"name": "Florian Lohoff", "email": "osm-owner@gt.owl.de"}]},
     "de-stuttgart-mailinglist": {"id": "de-stuttgart-mailinglist", "type": "mailinglist", "locationSet": {"include": ["de-baden-wuerttemberg.geojson"]}, "languageCodes": ["de"], "order": -3, "strings": {"name": "Stuttgart and Baden-Wuerttemberg Mailing List", "description": "This is the mailing list for the OSM community of Stuttgart and whole Baden-Wuerttemberg", "url": "https://lists.openstreetmap.de/listinfo/stuttgart"}, "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}]},
     "de-stuttgart-meetup": {"id": "de-stuttgart-meetup", "type": "meetup", "locationSet": {"include": ["de-stuttgart-meetup.geojson"]}, "languageCodes": ["de"], "order": 5, "strings": {"name": "OpenStreetMap Stuttgart Meetup", "description": "Mappers and OpenStreetMap users in the Stuttgart area", "url": "https://wiki.openstreetmap.org/wiki/Stuttgart/Stammtisch"}, "contacts": [{"name": "Dietmar Seifert", "email": "ostrmap@diesei.de"}]},
