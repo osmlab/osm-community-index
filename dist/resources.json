@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.5.0",
-    "generated": "2023-04-07T18:08:39.207Z",
+    "generated": "2023-04-07T18:09:29.187Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "1692ab94efb52ede6d412ad705ba8d4c"
+    "hash": "bdef574e50cea7cb923f0f1e4875c97d"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -80,7 +80,8 @@
     "co-facebook": {"id": "co-facebook", "type": "facebook", "account": "OsmCol", "locationSet": {"include": ["co"]}, "languageCodes": ["es"], "order": 1, "strings": {"community": "OpenStreetMap Colombia", "communityID": "openstreetmapcolombia", "extendedDescription": "Join the community to learn more about OpenStreetMap. Everyone is welcome!", "url": "https://www.facebook.com/groups/OsmCol"}, "contacts": [{"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}]},
     "co-telegram": {"id": "co-telegram", "type": "telegram", "account": "osmco", "locationSet": {"include": ["co"]}, "languageCodes": ["es"], "order": 2, "strings": {"community": "OpenStreetMap Colombia", "communityID": "openstreetmapcolombia"}, "contacts": [{"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}]},
     "co-twitter": {"id": "co-twitter", "type": "twitter", "account": "OpenStreetMapCo", "locationSet": {"include": ["co"]}, "languageCodes": ["es"], "order": 3, "strings": {"community": "OpenStreetMap Colombia", "communityID": "openstreetmapcolombia"}, "contacts": [{"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}]},
-    "Code-for-San-Jose-Slack": {"id": "Code-for-San-Jose-Slack", "type": "slack", "locationSet": {"include": ["south_sf_bay_area.geojson"]}, "languageCodes": ["en"], "order": 4, "strings": {"name": "Code for San Jose Slack", "description": "All are welcome! Sign up at {signupUrl}, then join the #proj-osm channel.", "signupUrl": "https://join.slack.com/t/codeforsanjose/shared_invite/zt-iwnx99kh-motBC0J47O8ItlR3zjAIBA", "url": "https://codeforsanjose.slack.com/"}},
+    "Code-for-San-Jose-Discord": {"id": "Code-for-San-Jose-Discord", "type": "discord", "account": "3bAd9DAWCp", "locationSet": {"include": ["south_sf_bay_area.geojson"]}, "languageCodes": ["en"], "order": 5, "strings": {"name": "Code for San José Discord", "description": "Get in touch with other mappers on Discord! After signing up, join the #🗺openstreetmap channel."}},
+    "Code-for-San-Jose-Slack": {"id": "Code-for-San-Jose-Slack", "type": "slack", "locationSet": {"include": ["south_sf_bay_area.geojson"]}, "languageCodes": ["en"], "order": 4, "strings": {"name": "Code for San José Slack", "description": "All are welcome! Sign up at {signupUrl}, then join the #proj-osm channel.", "signupUrl": "https://join.slack.com/t/codeforsanjose/shared_invite/zt-iwnx99kh-motBC0J47O8ItlR3zjAIBA", "url": "https://codeforsanjose.slack.com/"}},
     "comunitat-valenciana-telegram": {"id": "comunitat-valenciana-telegram", "type": "telegram", "account": "OSMvalencia", "locationSet": {"include": ["comunitat-valenciana.geojson"]}, "languageCodes": ["ca", "es"], "strings": {"community": "OpenStreetMap Comunitat Valenciana", "communityID": "openstreetmapcomunitatvalenciana"}},
     "comunitat-valenciana-wiki": {"id": "comunitat-valenciana-wiki", "type": "wiki", "locationSet": {"include": ["comunitat-valenciana.geojson"]}, "strings": {"community": "OpenStreetMap Comunitat Valenciana", "communityID": "openstreetmapcomunitatvalenciana", "description": "Everything you need to know about mapping in Valencian Community: {url}", "url": "https://wiki.openstreetmap.org/wiki/Ca:Comunitat_Valenciana"}},
     "cu-telegram": {"id": "cu-telegram", "type": "telegram", "account": "OSM_Cuba", "locationSet": {"include": ["cu"]}, "languageCodes": ["es"], "strings": {"community": "OpenStreetMap Cuba", "communityID": "openstreetmapcuba"}},
