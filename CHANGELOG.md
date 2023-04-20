@@ -19,6 +19,42 @@ _Breaking changes, which may affect downstream projects, are marked with a_ ⚠�
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.5.1
+##### 2022-Apr-20
+* Added:
+  * Belize Telegram ([#639])
+  * Portugal Discourse ([#655])
+  * Aachen region matrix and wiki ([#651])
+  * Restore OSM Turkey Telegram ([#650])
+  * Catalan Countries Mastodon ([#647])
+  * Malaysia Telegram ([#645])
+* Updated:
+  * Rename "Discourse" -> "Commmunity Forum" ([#656])
+  * Fix boundaries for Torino Telegram ([#642])
+  * Update Pakistan Facebook ([#652])
+  * Update Code for San José Slack and Discord ([#654])
+  * Sort Poland Discourse as top result ([#643])
+  * Use https for resources and documentation. ([#638])
+* Deleted:
+  * OSM MV Twitter ([#653])
+  * Belgium mailinglist ([#646])
+
+[#638]: https://github.com/osmlab/osm-community-index/issues/638
+[#639]: https://github.com/osmlab/osm-community-index/issues/639
+[#642]: https://github.com/osmlab/osm-community-index/issues/642
+[#643]: https://github.com/osmlab/osm-community-index/issues/643
+[#645]: https://github.com/osmlab/osm-community-index/issues/645
+[#646]: https://github.com/osmlab/osm-community-index/issues/646
+[#647]: https://github.com/osmlab/osm-community-index/issues/647
+[#650]: https://github.com/osmlab/osm-community-index/issues/650
+[#651]: https://github.com/osmlab/osm-community-index/issues/651
+[#652]: https://github.com/osmlab/osm-community-index/issues/652
+[#653]: https://github.com/osmlab/osm-community-index/issues/653
+[#654]: https://github.com/osmlab/osm-community-index/issues/654
+[#655]: https://github.com/osmlab/osm-community-index/issues/655
+[#656]: https://github.com/osmlab/osm-community-index/issues/656
+
+
 # 5.5.0
 ##### 2022-Dec-12
 * Support new resource type `zulip` ([#607])
