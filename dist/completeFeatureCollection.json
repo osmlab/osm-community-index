@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.5.0",
-    "generated": "2023-04-20T18:59:58.663Z",
+    "generated": "2023-04-20T19:52:54.470Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "da413054cdf2fcb71b3e2750ba5b70ae"
+    "hash": "ed368ed431b340e25971406e8e5801bf"
   },
   "type": "FeatureCollection",
   "features": [
@@ -4620,6 +4620,83 @@
     },
     {
       "type": "Feature",
+      "properties": {
+        "iso1A2": "BZ",
+        "iso1A3": "BLZ",
+        "iso1N3": "084",
+        "wikidata": "Q242",
+        "nameEn": "Belize",
+        "groups": ["013", "003", "419", "019", "UN", "001"],
+        "roadSpeedUnit": "mph",
+        "callingCodes": ["501"],
+        "id": "Q242",
+        "m49": "084",
+        "ccTLD": ".bz",
+        "isoStatus": "official",
+        "level": "country",
+        "emojiFlag": "🇧🇿",
+        "roadHeightUnit": "m",
+        "driveSide": "right",
+        "area": 40852.7,
+        "resources": {
+          "bz-telegram": {
+            "id": "bz-telegram",
+            "type": "telegram",
+            "account": "osm_bz",
+            "locationSet": {"include": ["bz"]},
+            "languageCodes": ["es"],
+            "strings": {
+              "community": "OpenStreetMap Belize",
+              "communityID": "openstreetmapbelize"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Belize Telegram",
+              "url": "https://t.me/osm_bz",
+              "description": "Join our community Telegram chat",
+              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/osm_bz\">OpenStreetMap Belize Telegram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osm_bz\">https://t.me/osm_bz</a>",
+              "descriptionHTML": "Join our community Telegram chat"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [-88.3268, 18.49048],
+              [-88.48242, 18.49164],
+              [-88.71505, 18.0707],
+              [-88.8716, 17.89535],
+              [-89.03839, 18.0067],
+              [-89.15105, 17.95104],
+              [-89.14985, 17.81563],
+              [-89.15025, 17.04813],
+              [-89.22683, 15.88619],
+              [-89.17418, 15.90898],
+              [-89.02415, 15.9063],
+              [-88.95358, 15.88698],
+              [-88.40779, 16.09624],
+              [-86.92368, 17.61462],
+              [-87.84815, 18.18511],
+              [-87.85693, 18.18266],
+              [-87.86657, 18.19971],
+              [-87.87604, 18.18313],
+              [-87.90671, 18.15213],
+              [-88.03165, 18.16657],
+              [-88.03238, 18.41778],
+              [-88.26593, 18.47617],
+              [-88.29909, 18.47591],
+              [-88.3268, 18.49048]
+            ]
+          ]
+        ]
+      },
+      "id": "Q242"
+    },
+    {
+      "type": "Feature",
       "id": "cape_coast_gh.geojson",
       "properties": {
         "id": "cape_coast_gh.geojson",
@@ -8663,6 +8740,73 @@
         ]
       },
       "id": "Q213"
+    },
+    {
+      "type": "Feature",
+      "id": "[6.266,50.715]",
+      "properties": {
+        "id": "[6.266,50.715]",
+        "area": 1963.5,
+        "resources": {
+          "de-aachen-matrix": {
+            "id": "de-aachen-matrix",
+            "type": "matrix",
+            "locationSet": {"include": [[6.266, 50.715]]},
+            "languageCodes": ["de"],
+            "strings": {
+              "community": "OpenStreetMap Aachen",
+              "communityID": "openstreetmapaachen",
+              "url": "https://matrix.to/#/#osm:ccc.ac"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Aachen Matrix Chat",
+              "url": "https://matrix.to/#/#osm:ccc.ac",
+              "description": "Join our community Matrix chat",
+              "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osm:ccc.ac\">OpenStreetMap Aachen Matrix Chat</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osm:ccc.ac\">https://matrix.to/#/#osm:ccc.ac</a>",
+              "descriptionHTML": "Join our community Matrix chat"
+            }
+          },
+          "de-aachen-wiki": {
+            "id": "de-aachen-wiki",
+            "type": "wiki",
+            "account": "Aachen",
+            "locationSet": {"include": [[6.266, 50.715]]},
+            "languageCodes": ["de"],
+            "strings": {
+              "community": "OpenStreetMap Aachen",
+              "communityID": "openstreetmapaachen",
+              "description": "{community} Wiki page"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Aachen WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Aachen",
+              "description": "OpenStreetMap Aachen Wiki page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Aachen\">OpenStreetMap Aachen WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Aachen\">https://wiki.openstreetmap.org/wiki/Aachen</a>",
+              "descriptionHTML": "OpenStreetMap Aachen Wiki page"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [6.266, 50.94],
+            [6.057, 50.897],
+            [5.928, 50.784],
+            [5.929, 50.645],
+            [6.058, 50.533],
+            [6.266, 50.49],
+            [6.474, 50.533],
+            [6.603, 50.645],
+            [6.604, 50.784],
+            [6.475, 50.897],
+            [6.266, 50.94]
+          ]
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -18623,16 +18767,16 @@
     },
     {
       "type": "Feature",
-      "id": "piemonte.geojson",
+      "id": "torino.geojson",
       "properties": {
-        "id": "piemonte.geojson",
-        "area": 28637.19,
+        "id": "torino.geojson",
+        "area": 6879.18,
         "resources": {
           "it-torino-telegram": {
             "id": "it-torino-telegram",
             "type": "telegram",
             "account": "OSM_TO",
-            "locationSet": {"include": ["piemonte.geojson"]},
+            "locationSet": {"include": ["torino.geojson"]},
             "languageCodes": ["it"],
             "strings": {
               "community": "OpenStreetMap Turin",
@@ -18646,126 +18790,135 @@
               "urlHTML": "<a target=\"_blank\" href=\"https://t.me/OSM_TO\">https://t.me/OSM_TO</a>",
               "descriptionHTML": "Join our community Telegram chat"
             }
-          },
-          "osm-piemonte-youtube": {
-            "id": "osm-piemonte-youtube",
-            "type": "youtube",
-            "account": "UC9tFxraZtluvYgq-nBfGI9g",
-            "locationSet": {"include": ["piemonte.geojson"]},
-            "languageCodes": ["it"],
-            "strings": {
-              "community": "OpenStreetMap Piemonte",
-              "communityID": "openstreetmappiemonte"
-            },
-            "contacts": [
-              {"name": "Andrea Musuruane", "email": "musuruan@gmail.com"},
-              {"name": "Marco Brancolini", "email": "mbranco2@gmail.com"},
-              {"name": "Francesco Ansanelli", "email": "francians@gmail.com"},
-              {"name": "Andrea Albani", "email": "aobani@gmail.com"}
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Piemonte on YouTube",
-              "url": "https://www.youtube.com/channel/UC9tFxraZtluvYgq-nBfGI9g",
-              "description": "Subscribe to our YouTube channel",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.youtube.com/channel/UC9tFxraZtluvYgq-nBfGI9g\">OpenStreetMap Piemonte on YouTube</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.youtube.com/channel/UC9tFxraZtluvYgq-nBfGI9g\">https://www.youtube.com/channel/UC9tFxraZtluvYgq-nBfGI9g</a>",
-              "descriptionHTML": "Subscribe to our YouTube channel"
-            }
-          },
-          "talk-it-piemonte_mailinglist": {
-            "id": "talk-it-piemonte_mailinglist",
-            "type": "mailinglist",
-            "account": "talk-it-piemonte",
-            "locationSet": {"include": ["piemonte.geojson"]},
-            "languageCodes": ["it"],
-            "order": 2,
-            "strings": {
-              "community": "OpenStreetMap Italy-Piemonte",
-              "communityID": "openstreetmapitalypiemonte"
-            },
-            "contacts": [
-              {"name": "Marco Brancolini", "email": "mbranco2@gmail.com"},
-              {"name": "Andrea Musuruane", "email": "musuruan@gmail.com"}
-            ],
-            "resolved": {
-              "name": "talk-it-piemonte Mailing List",
-              "url": "https://lists.openstreetmap.org/listinfo/talk-it-piemonte",
-              "description": "The official mailing list for OpenStreetMap Italy-Piemonte",
-              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-it-piemonte\">talk-it-piemonte Mailing List</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-it-piemonte\">https://lists.openstreetmap.org/listinfo/talk-it-piemonte</a>",
-              "descriptionHTML": "The official mailing list for OpenStreetMap Italy-Piemonte"
-            }
           }
         }
       },
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
           [
-            [7.18593, 45.4042],
-            [6.99984, 45.505],
-            [7.00097, 45.63977],
-            [6.80863, 45.72507],
-            [6.81824, 45.83594],
-            [7.04071, 45.92302],
-            [7.10857, 45.85831],
-            [7.29444, 45.92181],
-            [7.3857, 45.89701],
-            [7.57012, 45.98768],
-            [7.86356, 45.9167],
-            [8.15402, 46.14622],
-            [8.08567, 46.26655],
-            [8.44613, 46.4637],
-            [8.44329, 46.25047],
-            [8.71482, 46.09804],
-            [8.72876, 46.02923],
-            [8.57064, 45.90003],
-            [8.55329, 45.78031],
-            [8.8429, 45.39384],
-            [8.71929, 45.37838],
-            [8.76254, 45.34862],
-            [8.69021, 45.29235],
-            [8.55175, 45.36132],
-            [8.52451, 45.19833],
-            [8.57779, 45.20792],
-            [8.65907, 45.01797],
-            [8.8874, 45.0598],
-            [9.07264, 44.81709],
-            [9.21424, 44.74477],
-            [9.2028, 44.59452],
-            [9.11297, 44.58111],
-            [8.9312, 44.67621],
-            [8.9175, 44.56106],
-            [8.82605, 44.56186],
-            [8.78826, 44.48803],
-            [8.721, 44.57987],
-            [8.62386, 44.58638],
-            [8.57614, 44.50693],
-            [8.41829, 44.51377],
-            [8.35768, 44.46472],
-            [8.22571, 44.516],
-            [8.00657, 44.10236],
-            [7.76316, 44.14102],
-            [7.72621, 44.05972],
-            [7.67449, 44.17827],
-            [7.42487, 44.11219],
-            [7.28029, 44.14096],
-            [7.00851, 44.23524],
-            [6.88734, 44.36142],
-            [6.94808, 44.4297],
-            [6.85615, 44.53319],
-            [6.96295, 44.67822],
-            [7.0756, 44.69024],
-            [7.0064, 44.83947],
-            [6.74978, 44.90733],
-            [6.74827, 45.01617],
-            [6.62732, 45.10567],
-            [6.76824, 45.15977],
-            [6.8944, 45.13736],
-            [7.1252, 45.24401],
-            [7.18593, 45.4042]
+            [7.06373, 44.71352],
+            [6.9932, 44.78409],
+            [7.02373, 44.82458],
+            [6.9348, 44.85564],
+            [6.90825, 44.83776],
+            [6.75163, 44.90549],
+            [6.73703, 45.01256],
+            [6.67066, 45.01819],
+            [6.62686, 45.11194],
+            [6.8836, 45.15945],
+            [6.94724, 45.18007],
+            [6.963, 45.20754],
+            [7.00371, 45.21965],
+            [7.0682, 45.21279],
+            [7.13298, 45.25595],
+            [7.1112, 45.32874],
+            [7.18436, 45.40506],
+            [7.1127, 45.43383],
+            [7.09866, 45.465],
+            [7.13793, 45.5078],
+            [7.22105, 45.47103],
+            [7.2715, 45.51182],
+            [7.37383, 45.51584],
+            [7.48734, 45.58228],
+            [7.56216, 45.5883],
+            [7.72726, 45.55319],
+            [7.79471, 45.58434],
+            [7.8486, 45.60164],
+            [7.8889, 45.59749],
+            [7.90274, 45.56253],
+            [7.88443, 45.53101],
+            [7.9234, 45.52161],
+            [7.91781, 45.50991],
+            [7.96486, 45.4829],
+            [7.96617, 45.4776],
+            [8.02699, 45.45063],
+            [8.03843, 45.44164],
+            [8.03413, 45.42993],
+            [8.0294, 45.42987],
+            [8.02244, 45.42325],
+            [8.02736, 45.40363],
+            [8.01132, 45.39738],
+            [8.00803, 45.37992],
+            [8.01241, 45.36765],
+            [8.02465, 45.36279],
+            [8.01933, 45.34351],
+            [8.02178, 45.33011],
+            [8.01638, 45.32957],
+            [8.01545, 45.33301],
+            [8.00938, 45.33794],
+            [7.98997, 45.34586],
+            [7.9583, 45.34642],
+            [7.96123, 45.33357],
+            [7.94868, 45.30875],
+            [7.9721, 45.31734],
+            [7.98839, 45.31114],
+            [7.99043, 45.27031],
+            [7.97892, 45.2627],
+            [7.98876, 45.23713],
+            [8.05043, 45.18443],
+            [8.09286, 45.18665],
+            [8.13958, 45.17862],
+            [8.14687, 45.1701],
+            [8.14505, 45.14729],
+            [8.12774, 45.12222],
+            [8.09767, 45.13026],
+            [8.07763, 45.09779],
+            [8.0462, 45.1084],
+            [8.04438, 45.12737],
+            [7.98698, 45.12769],
+            [7.9282, 45.10544],
+            [7.9397, 45.09241],
+            [7.93846, 45.08224],
+            [7.92378, 45.0831],
+            [7.91889, 45.07562],
+            [7.90666, 45.09577],
+            [7.89606, 45.09606],
+            [7.8928, 45.06426],
+            [7.93519, 45.04929],
+            [7.94253, 45.05735],
+            [7.9568, 45.04583],
+            [7.95639, 45.03057],
+            [7.92174, 45.02307],
+            [7.91644, 45.00463],
+            [7.93479, 45.00117],
+            [7.92949, 44.9833],
+            [7.90258, 44.96715],
+            [7.90136, 44.94176],
+            [7.88424, 44.93599],
+            [7.89203, 44.91553],
+            [7.92006, 44.91698],
+            [7.92631, 44.90352],
+            [7.92066, 44.89377],
+            [7.88613, 44.89599],
+            [7.88649, 44.88482],
+            [7.91681, 44.8838],
+            [7.92619, 44.87365],
+            [7.92571, 44.86436],
+            [7.94424, 44.84645],
+            [7.90538, 44.82427],
+            [7.86791, 44.83095],
+            [7.81556, 44.85227],
+            [7.78444, 44.84425],
+            [7.76569, 44.8164],
+            [7.65782, 44.8154],
+            [7.65136, 44.83994],
+            [7.48999, 44.76443],
+            [7.36716, 44.75883],
+            [7.36716, 44.75232],
+            [7.34695, 44.7521],
+            [7.34316, 44.78102],
+            [7.29737, 44.78102],
+            [7.19348, 44.7604],
+            [7.15937, 44.75972],
+            [7.15183, 44.74335],
+            [7.13042, 44.73867],
+            [7.12178, 44.7261],
+            [7.09007, 44.71527],
+            [7.07196, 44.7182],
+            [7.06373, 44.71352]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     },
     {
@@ -35272,6 +35425,134 @@
     },
     {
       "type": "Feature",
+      "id": "piemonte.geojson",
+      "properties": {
+        "id": "piemonte.geojson",
+        "area": 28637.19,
+        "resources": {
+          "osm-piemonte-youtube": {
+            "id": "osm-piemonte-youtube",
+            "type": "youtube",
+            "account": "UC9tFxraZtluvYgq-nBfGI9g",
+            "locationSet": {"include": ["piemonte.geojson"]},
+            "languageCodes": ["it"],
+            "strings": {
+              "community": "OpenStreetMap Piemonte",
+              "communityID": "openstreetmappiemonte"
+            },
+            "contacts": [
+              {"name": "Andrea Musuruane", "email": "musuruan@gmail.com"},
+              {"name": "Marco Brancolini", "email": "mbranco2@gmail.com"},
+              {"name": "Francesco Ansanelli", "email": "francians@gmail.com"},
+              {"name": "Andrea Albani", "email": "aobani@gmail.com"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Piemonte on YouTube",
+              "url": "https://www.youtube.com/channel/UC9tFxraZtluvYgq-nBfGI9g",
+              "description": "Subscribe to our YouTube channel",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.youtube.com/channel/UC9tFxraZtluvYgq-nBfGI9g\">OpenStreetMap Piemonte on YouTube</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.youtube.com/channel/UC9tFxraZtluvYgq-nBfGI9g\">https://www.youtube.com/channel/UC9tFxraZtluvYgq-nBfGI9g</a>",
+              "descriptionHTML": "Subscribe to our YouTube channel"
+            }
+          },
+          "talk-it-piemonte_mailinglist": {
+            "id": "talk-it-piemonte_mailinglist",
+            "type": "mailinglist",
+            "account": "talk-it-piemonte",
+            "locationSet": {"include": ["piemonte.geojson"]},
+            "languageCodes": ["it"],
+            "order": 2,
+            "strings": {
+              "community": "OpenStreetMap Italy-Piemonte",
+              "communityID": "openstreetmapitalypiemonte"
+            },
+            "contacts": [
+              {"name": "Marco Brancolini", "email": "mbranco2@gmail.com"},
+              {"name": "Andrea Musuruane", "email": "musuruan@gmail.com"}
+            ],
+            "resolved": {
+              "name": "talk-it-piemonte Mailing List",
+              "url": "https://lists.openstreetmap.org/listinfo/talk-it-piemonte",
+              "description": "The official mailing list for OpenStreetMap Italy-Piemonte",
+              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-it-piemonte\">talk-it-piemonte Mailing List</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-it-piemonte\">https://lists.openstreetmap.org/listinfo/talk-it-piemonte</a>",
+              "descriptionHTML": "The official mailing list for OpenStreetMap Italy-Piemonte"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [7.18593, 45.4042],
+            [6.99984, 45.505],
+            [7.00097, 45.63977],
+            [6.80863, 45.72507],
+            [6.81824, 45.83594],
+            [7.04071, 45.92302],
+            [7.10857, 45.85831],
+            [7.29444, 45.92181],
+            [7.3857, 45.89701],
+            [7.57012, 45.98768],
+            [7.86356, 45.9167],
+            [8.15402, 46.14622],
+            [8.08567, 46.26655],
+            [8.44613, 46.4637],
+            [8.44329, 46.25047],
+            [8.71482, 46.09804],
+            [8.72876, 46.02923],
+            [8.57064, 45.90003],
+            [8.55329, 45.78031],
+            [8.8429, 45.39384],
+            [8.71929, 45.37838],
+            [8.76254, 45.34862],
+            [8.69021, 45.29235],
+            [8.55175, 45.36132],
+            [8.52451, 45.19833],
+            [8.57779, 45.20792],
+            [8.65907, 45.01797],
+            [8.8874, 45.0598],
+            [9.07264, 44.81709],
+            [9.21424, 44.74477],
+            [9.2028, 44.59452],
+            [9.11297, 44.58111],
+            [8.9312, 44.67621],
+            [8.9175, 44.56106],
+            [8.82605, 44.56186],
+            [8.78826, 44.48803],
+            [8.721, 44.57987],
+            [8.62386, 44.58638],
+            [8.57614, 44.50693],
+            [8.41829, 44.51377],
+            [8.35768, 44.46472],
+            [8.22571, 44.516],
+            [8.00657, 44.10236],
+            [7.76316, 44.14102],
+            [7.72621, 44.05972],
+            [7.67449, 44.17827],
+            [7.42487, 44.11219],
+            [7.28029, 44.14096],
+            [7.00851, 44.23524],
+            [6.88734, 44.36142],
+            [6.94808, 44.4297],
+            [6.85615, 44.53319],
+            [6.96295, 44.67822],
+            [7.0756, 44.69024],
+            [7.0064, 44.83947],
+            [6.74978, 44.90733],
+            [6.74827, 45.01617],
+            [6.62732, 45.10567],
+            [6.76824, 45.15977],
+            [6.8944, 45.13736],
+            [7.1252, 45.24401],
+            [7.18593, 45.4042]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "properties": {
         "iso1A2": "PL",
         "iso1A3": "POL",
@@ -37980,14 +38261,14 @@
             "strings": {
               "community": "OpenStreetMap Pakistan",
               "communityID": "openstreetmappakistan",
-              "url": "https://www.facebook.com/groups/620764364636530"
+              "url": "https://www.facebook.com/groups/163510627129515"
             },
             "resolved": {
               "name": "OpenStreetMap Pakistan on Facebook",
-              "url": "https://www.facebook.com/groups/620764364636530",
+              "url": "https://www.facebook.com/groups/163510627129515",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/620764364636530\">OpenStreetMap Pakistan on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/620764364636530\">https://www.facebook.com/groups/620764364636530</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/163510627129515\">OpenStreetMap Pakistan on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/163510627129515\">https://www.facebook.com/groups/163510627129515</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           }
@@ -38322,6 +38603,25 @@
         "callingCodes": ["351"],
         "area": 799086.08,
         "resources": {
+          "pt-discourse": {
+            "id": "pt-discourse",
+            "type": "discourse",
+            "account": "pt",
+            "locationSet": {"include": ["pt"]},
+            "languageCodes": ["pt"],
+            "strings": {
+              "community": "OpenStreetMap Portugal",
+              "communityID": "openstreetmapportugal"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Portugal Community Forum",
+              "url": "https://community.openstreetmap.org/c/communities/pt",
+              "description": "The official forum for OpenStreetMap Portugal",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/pt\">OpenStreetMap Portugal Community Forum</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/pt\">https://community.openstreetmap.org/c/communities/pt</a>",
+              "descriptionHTML": "The official forum for OpenStreetMap Portugal"
+            }
+          },
           "pt-telegram": {
             "id": "pt-telegram",
             "type": "telegram",
