@@ -1,6 +1,7 @@
 hu:
   _communities:
     geolibres: GeoLibres
+    kiribatiwomeninmapping: Kiribati Women in Mapping
     mappingbotswana: Mapping Botswana
     maptimebogota: MaptimeBogota
     maptimehrva: MaptimeHRVA
@@ -10,6 +11,7 @@ hu:
     openstreetmapalba: OpenStreetMap Alba
     openstreetmapalbania: OpenStreetMap Albánia
     openstreetmapargentina: OpenStreetMap Argentína
+    openstreetmaparmenia: OpenStreetMap Örményország
     openstreetmapasia: OpenStreetMap Ázsia
     openstreetmapasti: OpenStreetMap Asti
     openstreetmapaustria: OpenStreetMap Ausztria
@@ -49,6 +51,7 @@ hu:
     openstreetmapcuneo: OpenStreetMap Cuneo
     openstreetmapcz: OpenStreetMap CZ
     openstreetmapde: OpenStreetMap DE
+    openstreetmapdeepsouth: OpenStreetMap Deep South
     openstreetmapdenmark: OpenStreetMap Dánia
     openstreetmapdjibouti: OpenStreetMap Dzsibuti
     openstreetmapdominicanrepublic: OpenStreetMap Dominican Republic
@@ -109,6 +112,7 @@ hu:
     openstreetmapliberia: OpenStreetMap Liberia
     openstreetmaplibya: OpenStreetMap Líbia
     openstreetmaplithuania: OpenStreetMap Litvánia
+    openstreetmapljubljana: OpenStreetMap Ljubljana
     openstreetmaplombardia: OpenStreetMap Lombardia
     openstreetmaplondon: OpenStreetMap London
     openstreetmapluneburg: OpenStreetMap Lüneburg
@@ -134,7 +138,9 @@ hu:
     openstreetmapnicaragua: OpenStreetMap Nicaragua
     openstreetmapniger: OpenStreetMap Niger
     openstreetmapnigeria: OpenStreetMap Nigéria
+    openstreetmapnorthkorea: OpenStreetMap Észak-Korea
     openstreetmapnorway: OpenStreetMap Norvégia
+    openstreetmapoceania: OpenStreetMap Óceánia
     openstreetmapottawa: OpenStreetMap Ottawa
     openstreetmappakistan: OpenStreetMap Pakisztán
     openstreetmappanama: OpenStreetMap Panama
@@ -171,6 +177,7 @@ hu:
     openstreetmaptogo: OpenStreetMap Togo
     openstreetmaptoronto: OpenStreetMap Toronto
     openstreetmaptunisia: OpenStreetMap Tunézia
+    openstreetmapturin: OpenStreetMap Torino
     openstreetmapturkey: OpenStreetMap Törökország
     openstreetmapuganda: OpenStreetMap Uganda
     openstreetmapuk: OpenStreetMap UK
@@ -196,6 +203,8 @@ hu:
       url: https://discord.gg/{account}
     discourse:
       name: '{community} Discourse'
+      description: '{community} hivatalos fóruma'
+      url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
       name: '{community} a Facebook-on'
       description: Join our community on Facebook
@@ -223,6 +232,9 @@ hu:
       name: '{account} Mailing List'
       description: The official mailing list for {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
+    mastodon:
+      name: '{community} Mastodon Fiók'
+      description: '{community} hivatalos Mastodon fiókja'
     matrix:
       name: '{community} Matrix Chat'
       description: Join our community Matrix chat
@@ -239,6 +251,9 @@ hu:
     reddit:
       name: '{community} a Reddit-en'
       url: https://www.reddit.com/r/{account}
+    signal:
+      name: '{community} Signal'
+      description: Csatlakozz a közösséghez Signalon
     slack:
       name: '{community} Slack'
     telegram:
@@ -249,6 +264,8 @@ hu:
       name: '{community} a Twitter-en'
       description: Follow us on Twitter
       url: https://twitter.com/{account}
+    website:
+      name: '{community}'
     wiki:
       name: '{community} WikiProject'
       url: https://wiki.openstreetmap.org/wiki/{account}
@@ -258,6 +275,9 @@ hu:
       name: '{community} on YouTube'
       description: Subscribe to our YouTube channel
       url: https://www.youtube.com/channel/{account}
+    zulip:
+      name: '{community} Zulip'
+      description: Csatlakozz a közösség chat-jéhez Zulipon
   aberdeen-discord:
     name: OSM ABZ Discord
   af-matrix:
@@ -327,8 +347,6 @@ hu:
     extendedDescription: Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!
   co-facebook:
     extendedDescription: Join the community to learn more about OpenStreetMap. Everyone is welcome!
-  Code-for-San-Jose-Slack:
-    name: Code for San Jose Slack
   comunitat-valenciana-wiki:
     description: 'Minden, amit a térképezésről tudni kell Valenciában: {url}'
   czech-community:
@@ -623,6 +641,8 @@ hu:
     extendedDescription: OpenStreetMap (OSM) Colorado is a local collaboration of people interested in contributing their efforts to create free maps. We encourage all of our mappers to organize or suggest mapping events throughout the state. Meetup activities can be simple social mixers, OSM basic to advanced training, or community mapping parties.
   osm-de:
     description: The platform for information on OpenStreetMap in Germany
+  osm-deep-south-wiki:
+    description: '{community} Wiki honlap'
   OSM-Discord:
     name: OpenStreetMap World Discord
   OSM-Discourse:

@@ -182,6 +182,14 @@ ko:
   _defaults:
     discord:
       name: '{community} 디스코드'
+    discourse:
+      description: '{community}의 공식 포럼'
+    forum:
+      description: '{community}의 공식 포럼'
+    mailinglist:
+      description: '{community}의 공식 메일링 리스트'
+    telegram:
+      description: 우리 커뮤니티 텔레그램에 참여하세요
   Bahia-telegram:
     extendedDescription: 커뮤니티에 참여해서 OpenStreetMap에 대해 더 배우거나, 질문하거나, 미팅에 참여하세요. 누구나 환영합니다!
   Bay-Area-OpenStreetMappers:
@@ -205,6 +213,8 @@ ko:
     description: 트위터 공식계정 {url}에서 팔로우 하세요!
   ko-facebook:
     description: 한국 거주 오픈스트리트맵 사용자 및 맵퍼
+  ko-osm:
+    description: 우리는 한국 내의 오픈스트리트맵을 성장/개선하도록 돕습니다.
   Maptime-Oceania-Slack:
     description: '{signupUrl]에서 가입하기'
   OpenCleveland-meetup:

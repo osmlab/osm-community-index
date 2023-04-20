@@ -11,6 +11,7 @@ ca:
     openstreetmapalba: OpenStreetMap Alba
     openstreetmapalbania: OpenStreetMap Albània
     openstreetmapargentina: OpenStreetMap Argentina
+    openstreetmaparmenia: OpenStreetMap Armenia
     openstreetmapasia: OpenStreetMap Àsia
     openstreetmapasti: OpenStreetMap Asti
     openstreetmapaustria: OpenStreetMap Àustria
@@ -95,6 +96,7 @@ ca:
     openstreetmapitalylombardia: OpenStreetMap Italy-Lombardia
     openstreetmapitalypiemonte: OpenStreetMap Italy-Piemonte
     openstreetmapitalysouthtyrol: OpenStreetMap Italy-South Tyrol
+    openstreetmapitalytrentino: OpenStreetMap Italia-Trentino
     openstreetmapjapan: OpenStreetMap Japó
     openstreetmapkarlsruhe: OpenStreetMap Karlsruhe
     openstreetmapkazakhstan: OpenStreetMap Kazakhstan
@@ -110,6 +112,7 @@ ca:
     openstreetmapliberia: OpenStreetMap Libèria
     openstreetmaplibya: OpenStreetMap Líbia
     openstreetmaplithuania: OpenStreetMap Lituània
+    openstreetmapljubljana: OpenStreetMap Ljubljana
     openstreetmaplombardia: OpenStreetMap Llombardia
     openstreetmaplondon: OpenStreetMap Londres
     openstreetmapluneburg: OpenStreetMap Lüneburg
@@ -137,6 +140,7 @@ ca:
     openstreetmapnigeria: OpenStreetMap Nigèria
     openstreetmapnorthkorea: OpenStreetMap North Korea
     openstreetmapnorway: OpenStreetMap Noruega
+    openstreetmapoceania: OpenStreetMap Oceania
     openstreetmapottawa: OpenStreetMap Ottawa
     openstreetmappakistan: OpenStreetMap Pakistan
     openstreetmappanama: OpenStreetMap Panamà
@@ -173,6 +177,7 @@ ca:
     openstreetmaptogo: OpenStreetMap Togo
     openstreetmaptoronto: OpenStreetMap Toronto
     openstreetmaptunisia: OpenStreetMap Tunísia
+    openstreetmapturin: OpenStreetMap Turin
     openstreetmapturkey: OpenStreetMap Turquia
     openstreetmapuganda: OpenStreetMap Uganda
     openstreetmapuk: OpenStreetMap Regne Unit
@@ -227,6 +232,8 @@ ca:
       name: 'Llista de correu {account}'
       description: Llista de correu oficial per {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
+    mastodon:
+      name: 'Mastodon de {community}'
     matrix:
       name: 'Xat Matrix d''{community}'
       description: Uniu-vos a la comunitat al xat Matrix
@@ -243,6 +250,8 @@ ca:
     reddit:
       name: '{community} a Reddit'
       url: https://www.reddit.com/r/{account}
+    signal:
+      name: 'Signal de {community}'
     slack:
       name: 'Slack d''{community}'
     telegram:
@@ -253,6 +262,8 @@ ca:
       name: '{community} al Twitter'
       description: Seguiu-nos a Twitter
       url: https://twitter.com/{account}
+    website:
+      name: '{community}'
     wiki:
       name: 'WikiProject d''{community}'
       url: https://wiki.openstreetmap.org/wiki/{account}

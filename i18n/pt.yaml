@@ -10,6 +10,7 @@ pt:
     openstreetmapalba: OpenStreetMap Alba
     openstreetmapalbania: OpenStreetMap Albânia
     openstreetmapargentina: OpenStreetMap Argentina
+    openstreetmaparmenia: OpenStreetMap Arménia
     openstreetmapasia: OpenStreetMap Ásia
     openstreetmapasti: OpenStreetMap Asti
     openstreetmapaustria: OpenStreetMap Áustria
@@ -175,6 +176,7 @@ pt:
     openstreetmaptogo: OpenStreetMap Togo
     openstreetmaptoronto: OpenStreetMap Toronto
     openstreetmaptunisia: OpenStreetMap Tunísia
+    openstreetmapturin: OpenStreetMap Turim
     openstreetmapturkey: OpenStreetMap Turquia
     openstreetmapuganda: OpenStreetMap Uganda
     openstreetmapuk: OpenStreetMap Reino Unido
@@ -248,6 +250,9 @@ pt:
     reddit:
       name: '{community} no Reddit'
       url: https://www.reddit.com/r/{account}
+    signal:
+      name: 'Signal {community}'
+      description: Junta-te ao chat da nossa comunidade no Signal
     slack:
       name: 'Slack {community}'
     telegram:
@@ -258,6 +263,8 @@ pt:
       name: '{community} no Twitter'
       description: Segue-nos no Twitter
       url: https://twitter.com/{account}
+    website:
+      name: '{community}'
     wiki:
       name: 'WikiProject {community}'
       url: https://wiki.openstreetmap.org/wiki/{account}
@@ -267,6 +274,9 @@ pt:
       name: '{community} no YouTube'
       description: Subscreve o nosso canal no Youtube
       url: https://www.youtube.com/channel/{account}
+    zulip:
+      name: 'Zulip {community}'
+      description: Junta-te ao chat da nossa comunidade no Zulip
   af-matrix:
     description: Grupo Matrix para a comunidade no Afeganistão.
   al-maptime-tirana:
@@ -287,6 +297,7 @@ pt:
     description: Ajudamos o OpenStreetMap a crescer e melhorar na Bélgica.
   be-discourse:
     name: Discourse Bélgica
+    description: Um fórum para discutir o OpenStreetMap na Bélgica
   be-matrix:
     description: Todos os mapeadores são bem-vindos!
   be-meetup:
@@ -311,8 +322,6 @@ pt:
     description: Mailing list para a Suíça
   co-facebook:
     extendedDescription: Junta-te à comunidade para aprenderes mais sobre o OpenStreetMap. Todos são bem-vindos!
-  Code-for-San-Jose-Slack:
-    name: Código para San Jose Slack
   czech-community:
     description: Mapa, site e contactos em membros da OSM na República Checa
   de-berlin-mailinglist:
@@ -361,6 +370,7 @@ pt:
     extendedDescription: Entre na comunidade para aprender mais sobre o OpenStreetMap, fazer perguntas ou participar dos nossos encontros. Todos são bem-vindos!
   dk-discourse:
     name: 'Discourse {community}'
+    description: Um fórum de discussão sobre o OpenStreetMap na Dinamarca
   es-discourse:
     name: Comunidade Espanhola de Discourse
   fr-35-wiki:
@@ -406,8 +416,14 @@ pt:
     description: Ajudamos a melhorar e a fazer crescer o OpenStreetMap em Itália.
   it-discourse:
     name: Discourse Itália
+  ko-github:
+    description: 'GitHub {community}'
+  ko-osm:
+    description: Ajudamos a desenvolver e melhorar o OpenStreetMap na Coreia
   kosovo-telegram:
     description: Grupo Telegram público semi-oficial do Kosovo. Aceitamos os mapeadores de qualquer local e qualquer idioma.
+  kp-wiki:
+    description: 'Mapping Guide {community}'
   lv-wiki:
     description: WikiProject Letónia
   MapABQ:
@@ -586,6 +602,7 @@ pt:
     extendedDescription: 'Apoiamos o OpenStreetMap realizando conferências anuais, fornecendo recursos da comunidade, construindo parcerias e espalhando a palavra. Junte-se ao OpenStreetMap US aqui: {signupUrl}'
     events:
       mappingusa2022:
+        name: Mapping USA 2022
         where: virtual
   OSM-US-Slack:
     description: Todos são bem-vindos! Registem-se em {signupUrl}
@@ -610,6 +627,8 @@ pt:
     description: Segue-nos no Twitter em {url}
   pt-wiki:
     description: WikiProject com informação e orientações de coordenação para mapear em Portugal.
+  rs-discourse:
+    description: Um fórum para discutir o OpenStreetMap na Sérvia
   rs-osm:
     description: A plataforma para informação sobre o OpenStreetMap na Sérvia
   RS-telegram:
@@ -618,6 +637,8 @@ pt:
     description: Página Wikiproject da Sérvia
   si-discourse:
     name: 'Discourse {community}'
+  si-github:
+    description: 'GitHub {community}'
   si-ljubljana-wiki:
     description: 'Página wiki {community}'
   si-wiki:
@@ -637,6 +658,7 @@ pt:
     description: 'Página wiki {community}'
   us-discourse:
     name: 'Discourse {community}'
+    description: Um fórum de discussão sobre o OpenStreetMap nos Estados Unidos da América
   ym-Montgomery-College:
     name: GeoMC
   ym-Universidade-Eduardo-Mondlane:

@@ -11,6 +11,7 @@ es:
     openstreetmapalba: OpenStreetMap Alba
     openstreetmapalbania: OpenStreetMap Albania
     openstreetmapargentina: OpenStreetMap Argentina
+    openstreetmaparmenia: OpenStreetMap Armenia
     openstreetmapasia: OpenStreetMap Asia
     openstreetmapasti: OpenStreetMap Asti
     openstreetmapaustria: OpenStreetMap Austria
@@ -98,7 +99,7 @@ es:
     openstreetmapitalytrentino: OpenStreetMap Italia-Trentino
     openstreetmapjapan: OpenStreetMap Japón
     openstreetmapkarlsruhe: OpenStreetMap Karlsruhe
-    openstreetmapkazakhstan: OpenStreetMap Kazajstán
+    openstreetmapkazakhstan: OpenStreetMap Kazajistán
     openstreetmapkenya: OpenStreetMap Kenia
     openstreetmapkerala: OpenStreetMap Kerala
     openstreetmapkorea: OpenStreetMap Corea
@@ -130,7 +131,7 @@ es:
     openstreetmapmongolia: OpenStreetMap Mongolia
     openstreetmapmontrouge: OpenStreetMap Montrouge
     openstreetmapmorocco: OpenStreetMap Marruecos
-    openstreetmapmunchen: OpenStreetMap Munich
+    openstreetmapmunchen: OpenStreetMap Múnich
     openstreetmapmyanmar: OpenStreetMap Birmania
     openstreetmapnepal: OpenStreetMap Nepal
     openstreetmapnetherlands: OpenStreetMap Países Bajos
@@ -176,12 +177,13 @@ es:
     openstreetmaptogo: OpenStreetMap Togo
     openstreetmaptoronto: OpenStreetMap Toronto
     openstreetmaptunisia: OpenStreetMap Túnez
+    openstreetmapturin: OpenStreetMap Turín
     openstreetmapturkey: OpenStreetMap Turquía
     openstreetmapuganda: OpenStreetMap Uganda
     openstreetmapuk: OpenStreetMap Reino Unido
     openstreetmapukraine: OpenStreetMap Ucrania
     openstreetmapuruguay: OpenStreetMap Uruguay
-    openstreetmapus: OpenStreetMap EE.UU.
+    openstreetmapus: OpenStreetMap Estados Unidos
     openstreetmapuzbekistan: OpenStreetMap Uzbekistán
     openstreetmapvenezuela: OpenStreetMap Venezuela
     openstreetmapvietnam: OpenStreetMap Vietnam
@@ -262,6 +264,8 @@ es:
       name: '{community} en Twitter'
       description: Síganos en Twitter
       url: https://twitter.com/{account}
+    website:
+      name: '{community}'
     wiki:
       name: 'Wikiproyecto de {community}'
       url: https://wiki.openstreetmap.org/wiki/{account}
@@ -271,6 +275,9 @@ es:
       name: '{community} en YouTube'
       description: Suscríbase a nuestro canal de YouTube
       url: https://www.youtube.com/channel/{account}
+    zulip:
+      name: 'Zulip de {community}'
+      description: Únase a nuestro chat comunitario en Zulip
   aberdeen-discord:
     name: Discord de OSM ABZ
   af-matrix:
@@ -346,8 +353,11 @@ es:
     extendedDescription: Únete a la comunidad para aprender más sobre OpenStreetMap, realizar preguntas o participar en nuestras reuniones. ¡Todos sois bienvenidos!
   co-facebook:
     extendedDescription: Únete a la comunidad para aprender más sobre OpenStreetMap. ¡Todos sois bienvenidos!
+  Code-for-San-Jose-Discord:
+    name: Código para el Discord de San José
+    description: 'Entable contacto con otros cartógrafos mediante Discord. Luego de darse de alta, únase al canal #🗺openstreetmap.'
   Code-for-San-Jose-Slack:
-    name: Slack de Code for San Jose
+    name: Código para el Slack de San José
     description: '¡Todos son bienvenidos! Regístrese en {signupUrl}, luego únase al canal #proj-osm.'
   comunitat-valenciana-wiki:
     description: 'Todo lo que necesitas saber sobre el mapeo en la Comunidad Valenciana: {url}'
@@ -454,7 +464,7 @@ es:
     description: 'Todo lo que necesitas saber sobre el mapeo en Galicia: {url} (las herramientas del mundo OSM también están disponibles en gallego, ¡anímate!)'
   Galicia-Xeoinquedos-Twitter:
     name: Xeoinquedos en Twitter
-    description: Síguenos en Twitter en {url}
+    description: Síganos en Twitter en {url}
   gb-irc:
     extendedDescription: 'Únase a #{account} en irc.oftc.net (puerto 6667), tenga paciencia y espere unos minutos si hace una pregunta'
   gb-mailinglist:
@@ -514,6 +524,11 @@ es:
     description: El foro para debatir sobre OpenStreetMap
   ko-facebook:
     description: Editores y usuarios de OpenStreetMap en Corea
+  ko-github:
+    description: 'GitHub de {community}'
+  ko-osm:
+    description: Ayudamos a crecer y mejorar OpenStreetMap en Corea.
+    extendedDescription: Si está contribuyendo o está interesado en contribuir con OpenStreetMap, no dude en unirse a nosotros. ¡Estamos listos para aceptar novatos en cualquier momento!
   kosovo-flossk:
     name: Free Libre Open Source Software Kosova (FLOSSK)
     description: Promoviendo el software libre desde 2009

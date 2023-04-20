@@ -7,10 +7,11 @@ ja:
     maptimehrva: MaptimeHRVA
     openstreetmap: OpenStreetMap
     openstreetmapafghanistan: OpenStreetMap Afghanistan
-    openstreetmapafrica: OpenStreetMap Africa
+    openstreetmapafrica: OpenStreetMap アフリカ
     openstreetmapalba: OpenStreetMap Alba
     openstreetmapalbania: OpenStreetMap Albania
     openstreetmapargentina: OpenStreetMap Argentina
+    openstreetmaparmenia: OpenStreetMap Armenia
     openstreetmapasia: OpenStreetMap アジア
     openstreetmapasti: OpenStreetMap Asti
     openstreetmapaustria: OpenStreetMap Austria
@@ -176,6 +177,7 @@ ja:
     openstreetmaptogo: OpenStreetMap Togo
     openstreetmaptoronto: OpenStreetMap Toronto
     openstreetmaptunisia: OpenStreetMap Tunisia
+    openstreetmapturin: OpenStreetMap Turin
     openstreetmapturkey: OpenStreetMap Turkey
     openstreetmapuganda: OpenStreetMap Uganda
     openstreetmapuk: OpenStreetMap UK
@@ -262,6 +264,8 @@ ja:
       name: '{community} on Twitter'
       description: Follow us on Twitter
       url: https://twitter.com/{account}
+    website:
+      name: '{community}'
     wiki:
       name: '{community} ウィキプロジェクト'
       url: https://wiki.openstreetmap.org/wiki/{account}
@@ -271,6 +275,9 @@ ja:
       name: '{community} on YouTube'
       description: Subscribe to our YouTube channel
       url: https://www.youtube.com/channel/{account}
+    zulip:
+      name: '{community} Zulip'
+      description: Join our community chat on Zulip
   aberdeen-discord:
     name: OSM ABZ Discord
   af-matrix:
@@ -347,7 +354,6 @@ ja:
   co-facebook:
     extendedDescription: Join the community to learn more about OpenStreetMap. Everyone is welcome!
   Code-for-San-Jose-Slack:
-    name: Code for San Jose Slack
     description: 'All are welcome! Sign up at {signupUrl}, then join the #proj-osm channel.'
   comunitat-valenciana-wiki:
     description: 'Everything you need to know about mapping in Valencian Community: {url}'
@@ -514,6 +520,11 @@ ja:
     description: Il forum dove poter discutere di OpenStreetMap
   ko-facebook:
     description: Mappers and OpenStreetMap users in Korea
+  ko-github:
+    description: '{community} GitHub'
+  ko-osm:
+    description: We help grow and improve OpenStreetMap in Korea.
+    extendedDescription: OpenStreetMapに貢献してみたいと思ったり興味を感じたら、気軽に参加してください。新しい参加者はいつでも歓迎します！
   kosovo-flossk:
     name: Free Libre Open Source Software Kosova (FLOSSK)
     description: Promoting FLOSS since 2009

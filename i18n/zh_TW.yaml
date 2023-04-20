@@ -11,6 +11,7 @@ zh_TW:
     openstreetmapalba: 開放街圖阿爾巴
     openstreetmapalbania: 開放街圖阿爾巴尼亞
     openstreetmapargentina: 開放街圖阿根廷
+    openstreetmaparmenia: 開放街圖亞美尼亞
     openstreetmapasia: 開放街圖亞洲
     openstreetmapasti: 開放街圖阿斯蒂
     openstreetmapaustria: 開放街圖奧地利
@@ -176,6 +177,7 @@ zh_TW:
     openstreetmaptogo: 開放街圖東加
     openstreetmaptoronto: 開放街圖多倫多
     openstreetmaptunisia: 開放街圖突尼西亞
+    openstreetmapturin: 開放街圖杜林
     openstreetmapturkey: 開放街圖土耳其
     openstreetmapuganda: 開放街圖烏干達
     openstreetmapuk: 開放街圖英國
@@ -262,6 +264,8 @@ zh_TW:
       name: 'Twitter 上的 {community} '
       description: 在 Twitter 追隨我們
       url: https://twitter.com/{account}
+    website:
+      name: '{community}'
     wiki:
       name: '{community} WikiProject'
       url: https://wiki.openstreetmap.org/wiki/{account}
@@ -271,6 +275,9 @@ zh_TW:
       name: 'YouTube 上的 {community}'
       description: 訂閱 YouTube 頻道
       url: https://www.youtube.com/channel/{account}
+    zulip:
+      name: '{community} Zulip'
+      description: 加入社群的 Zulip 聊天室
   aberdeen-discord:
     name: OSM ABZ Discord
   af-matrix:
@@ -346,8 +353,11 @@ zh_TW:
     extendedDescription: 加入社群以得知更多關於開放街圖的資訊，也可以問問題或是參與我們的會面。每個人都很歡迎加入！
   co-facebook:
     extendedDescription: 加入社群學習更多關於開放街圖的事情，歡迎所有人噢！
+  Code-for-San-Jose-Discord:
+    name: Code for San José Discord
+    description: '在 Discord 與其他圖客交流！註冊之後，加入 #🗺openstreetmap 頻道。'
   Code-for-San-Jose-Slack:
-    name: Code for San Jose Slack
+    name: Code for San José Slack
     description: '歡迎所有人加入！在 {signupUrl} 註冊，並加入 #proj-osm 頻道。'
   comunitat-valenciana-wiki:
     description: '您必須知道的在瓦倫西亞製圖的所有事情：{url}'
@@ -514,6 +524,11 @@ zh_TW:
     description: 您可以討論 OpenStreetMap 事務的論壇
   ko-facebook:
     description: 南韓的圖客與開放街圖使用者
+  ko-github:
+    description: '{community} GitHub'
+  ko-osm:
+    description: 我們協助韓國的開放街圖成長茁壯並改善它。
+    extendedDescription: 如果有要或是想貢獻時間給開放街圖的話，歡迎加入我們的行列，我們隨時歡迎新手加入！
   kosovo-flossk:
     name: 科索沃自由與開源軟體 (FLOSSK)
     description: 從 2009 年開始推廣自由與開源軟體

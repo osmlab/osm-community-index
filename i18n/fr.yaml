@@ -11,6 +11,7 @@ fr:
     openstreetmapalba: OpenStreetMap Écosse
     openstreetmapalbania: OpenStreetMap Albanie
     openstreetmapargentina: OpenStreetMap Argentine
+    openstreetmaparmenia: OpenStreetMap Arménie
     openstreetmapasia: OpenStreetMap Asie
     openstreetmapasti: OpenStreetMap Aste
     openstreetmapaustria: OpenStreetMap Autriche
@@ -176,6 +177,7 @@ fr:
     openstreetmaptogo: OpenStreetMap Togo
     openstreetmaptoronto: OpenStreetMap Toronto
     openstreetmaptunisia: OpenStreetMap Tunisie
+    openstreetmapturin: OpenStreetMap Turin
     openstreetmapturkey: OpenStreetMap Turquie
     openstreetmapuganda: OpenStreetMap Ouganda
     openstreetmapuk: OpenStreetMap Royaume-Uni
@@ -262,6 +264,8 @@ fr:
       name: '{community} sur Twitter'
       description: Suivez-nous sur Twitter
       url: https://twitter.com/{account}
+    website:
+      name: '{community}'
     wiki:
       name: 'Projet wiki de {community}'
       url: https://wiki.openstreetmap.org/wiki/{account}
@@ -271,6 +275,9 @@ fr:
       name: '{community} sur YouTube'
       description: Abonnez-vous à notre chaîne YouTube
       url: https://www.youtube.com/channel/{account}
+    zulip:
+      name: 'Zulip de {community}'
+      description: Rejoignez notre chat en ligne sur Zulip
   aberdeen-discord:
     name: OSM ABZ Discord
   af-matrix:
@@ -346,8 +353,10 @@ fr:
     extendedDescription: Rejoignez la communauté pour en apprendre plus sur OpenStreetMap, posez des questions ou participez à nos rencontres. Tout le monde est le bienvenu !
   co-facebook:
     extendedDescription: Rejoindre la communauté pour en savoir plus sur OpenStreetMap. Tout le monde est le bienvenu !
+  Code-for-San-Jose-Discord:
+    name: Code pour le Discord de San José
   Code-for-San-Jose-Slack:
-    name: Code pour le Slack de San Jose
+    name: Code pour le Slack de San José
     description: 'Vous êtes tous les bienvenus ! Inscrivez-vous sur {signupUrl} et rejoignez le canal #proj-osm.'
   comunitat-valenciana-wiki:
     description: 'Tout ce que vous devez savoir sur la cartographie dans la Communauté Valencienne : {url}'
@@ -514,6 +523,11 @@ fr:
     description: Le forum où vous pouvez discuter d'OpenStreetMap
   ko-facebook:
     description: Cartographes et utilisateurs d'OpenStreetMap en Corée.
+  ko-github:
+    description: 'GitHub de {community}'
+  ko-osm:
+    description: Nous aidons à développer et à améliorer OpenStreetMap en Corée.
+    extendedDescription: Si vous contribuez ou désirez contribuer à OpenStreetMap, n'hésitez pas à nous rejoindre. Nous acceptons les nouveaux contributeurs avec plaisir !
   kosovo-flossk:
     name: Free Libre Open Source Software Kosova (FLOSSK)
     description: Nous promouvons FLOSS depuis 2009

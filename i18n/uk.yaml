@@ -11,6 +11,7 @@ uk:
     openstreetmapalba: OpenStreetMap Альба
     openstreetmapalbania: OpenStreetMap Албанія
     openstreetmapargentina: OpenStreetMap Аргентина
+    openstreetmaparmenia: OpenStreetMap Вірменія
     openstreetmapasia: OpenStreetMap Азія
     openstreetmapasti: OpenStreetMap Асті
     openstreetmapaustria: OpenStreetMap Австрія
@@ -176,6 +177,7 @@ uk:
     openstreetmaptogo: OpenStreetMap Того
     openstreetmaptoronto: OpenStreetMap Торонто
     openstreetmaptunisia: OpenStreetMap Туніс
+    openstreetmapturin: OpenStreetMap Турін
     openstreetmapturkey: OpenStreetMap Туреччина
     openstreetmapuganda: OpenStreetMap Уганда
     openstreetmapuk: OpenStreetMap Великобританія
@@ -262,6 +264,8 @@ uk:
       name: '{community} у Twitter'
       description: Слідкуйте за нами у Twitter
       url: https://twitter.com/{account}
+    website:
+      name: '{community}'
     wiki:
       name: '{community} WikiProject'
       url: https://wiki.openstreetmap.org/wiki/{account}
@@ -271,6 +275,9 @@ uk:
       name: '{community} на YouTube'
       description: Підпишіться на наш YouTube канал
       url: https://www.youtube.com/channel/{account}
+    zulip:
+      name: '{community} Zulip'
+      description: Приєднуйтесь до нашого чату у Zulip
   aberdeen-discord:
     name: OSM ABZ Discord
   af-matrix:
@@ -346,8 +353,11 @@ uk:
     extendedDescription: Приєднуйтесь до спільноти, щоб дізнатись більше про OpenStreetMap, щоб щось спитати або взяти участь у наших зустрічах. Запрошуємо всіх!
   co-facebook:
     extendedDescription: Приєднуйтесь до спільноти, щоб дізнатись більше про OpenStreetMap. Запрошуємо всіх!
+  Code-for-San-Jose-Discord:
+    name: Code for San José Discord
+    description: 'Зв’яжіться з іншими маперами в Discord! Після реєстрації приєднуйтесь до каналу #🗺openstreetmap.'
   Code-for-San-Jose-Slack:
-    name: Code for San Jose Slack
+    name: Code for San José Slack
     description: 'Запрошуємо всіх! Зареєструйтеся на {signupUrl} та приєднуйтесь до каналу #proj-osm.'
   comunitat-valenciana-wiki:
     description: 'Все, що вам потрібно знати про мапінг у Валенсії: {url}'
@@ -514,6 +524,11 @@ uk:
     description: Місце де ви можете обговорити питання пов'язані з OpenStreetMap
   ko-facebook:
     description: Мапери та користувачі OpenStreetMap в Кореї
+  ko-github:
+    description: '{community} GitHub'
+  ko-osm:
+    description: Ми допомагаємо розвивати та вдосконалювати OpenStreetMap в Кореї.
+    extendedDescription: Якщо ви сприяєте або хочете посприяти розвитку OpenStreetMap, приєднуйтесь до нас. Ми завжди раді новим учасникам!
   kosovo-flossk:
     name: Free Libre Open Source Software Kosova (FLOSSK)
     description: Популяризуємо вільне програмне забезпечення (FLOSS) з 2009

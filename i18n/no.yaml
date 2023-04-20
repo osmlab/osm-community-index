@@ -9,6 +9,11 @@
     openstreetmapasia: OpenStreetMap Asia
     openstreetmapaustria: OpenStreetMap Østerrike
     openstreetmapindia: OpenStreetMap India
+    openstreetmapnorway: OpenStreetMap Norge
+    openstreetmapus: OpenStreetMap USA
+  _defaults:
+    discord:
+      name: '{community} Discord'
   al-maptime-tirana:
     name: Maptime Tirana
     description: Sosiale arrangementer organisert rundt kartlegging - nybegynnere hjertelig velkomne!
@@ -27,7 +32,7 @@
     description: Virkelige møter med alle som er interessert i OpenStreetMap
     extendedDescription: Fysiske møter er fantastiske å møte andre kartleggere, stille dem spørsmål og lære mye. Spesielt nye bidragsytere er veldig velkomne
   bg-wiki:
-    description: Wikiproject side for Bulgaria
+    description: Wikiproject-side for Bulgaria
   cape-coast-youthmappers:
     name: Universitetet av Cape Coast YouthMappers
     description: 'Følg oss på Twitter: {url}'
@@ -38,8 +43,6 @@
   ch-mailinglist:
     name: OpenStreetMap Sveits e-postliste
     description: E-postliste for Sveits
-  Code-for-San-Jose-Slack:
-    name: Programmere for San Jose Slack
   czech-community:
     description: Kar portal, nettside og kontakter på OSM medlemmer i Tsjekkia
   de-berlin-mailinglist:
@@ -203,8 +206,32 @@
   PHXGeo-twitter:
     name: PHXGeo Twitter
     description: Følg oss på Twitter via {url}
+  pt-wiki:
+    description: WikiProject med informasjon og koordineringsretningslinjer for kartlegging i Portugal.
+  rs-discourse:
+    description: Et forum for å diskutere OpenStreetMap i Serbia
+  rs-gitlab:
+    description: Samling av prosjekter relatert til OSM Serbia på GitLab
+  rs-osm:
+    description: Plattformen for informasjon om OpenStreetMap i Serbia 
   RS-telegram:
     extendedDescription: Bli med i fellesskapet for å lære mer om OpenStreetMap, spørre spørsmål eller delta på møtene våre. Alle er velkommen!
+  rs-wiki:
+    description: Wikiproject-side for Serbia
+  si-discourse:
+    name: '{community} Diskurs'
+  si-github:
+    description: '{community} GitHub'
+  si-ljubljana-wiki:
+    description: '{community} Wiki-side'
+  si-wiki:
+    description: '{community} Wiki-side'
+  talk-au:
+    description: Sted for australske kartleggere å chatte
+  talk-nz:
+    description: New Zealands OSM-samfunnsprat
+  tz-website:
+    description: Tilbyr OSM-tjenester og informasjon til lokalsamfunnet i Tanzania
   ua-github:
     description: OpenStreetMap Ukraina GitHub
   ua-osm:
@@ -212,6 +239,12 @@
   uk-london-twitter:
     name: OpenStreetMap London på Twitter
     description: 'OpenStreetMap London på Twitter: {url}'
+  uk-london-wiki:
+    description: '{community} Wiki-side'
+  uk-loomio:
+    name: OpenStreetMap UK på Loomio
+  us-discourse:
+    name: '{community} Diskurs'
   ym-Abia-State-University:
     name: AbsuMappersTeam
   ym-Dhaka-University:

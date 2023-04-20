@@ -196,7 +196,7 @@ he:
       description: יצירת קשר עם ממפים אחרים דרך Discord
       url: https://discord.gg/{account}
     discourse:
-      name: 'ה־Discord של {community}'
+      name: 'ה־Discourse של {community}'
       description: הפורום הרשמי של {community}
       url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
@@ -322,8 +322,6 @@ he:
   ch-mailinglist:
     name: קבוצת הדיוור של Openstreetmap שווייץ/שוויץ/שוייץ/שויץ/שווייצריה בכל השפות המקומיות
     description: OpenStreetMap שוויץ רשימת תפוצה
-  Code-for-San-Jose-Slack:
-    name: קוד ל־Slack של סן חוזה
   czech-community:
     description: פורטל המפה, האתר ופרטי הקשר של חברי OSM בצ׳כיה
   de-berlin-mailinglist:
@@ -367,6 +365,9 @@ he:
   de-stuttgart-meetup:
     name: קבוצת המפגשים של OpenStreetMap שטוטגרט
     description: ממפים ומשתמשים ב־OpenStreetMap באזור שטוטגרט
+  de-telegram:
+    name: הטלגרם של גרמניה, אוסטריה ושווייץ OpenStreetMap
+    description: ניתן להצטרף לקבוצת העל של OpenStreetMap גרמניה, אוסטריה ושווייץ בטלגרם בכתובת {url}
   de-ulm_neuulm-meetup:
     name: קבוצת המפגשים של OpenStreetMap אולם ונוי-אולם
     description: ממפים ומשתמשים ב־OpenStreetMap באזור אולם ונוי-אולם
@@ -813,10 +814,12 @@ he:
     name: ממפים צעירים INES Ruhengeri
     description: ממפים צעירים בInsititue d' Enseignement Superieur de Ruhengeri
   ym-Institut-Suprieur-de-Management-Kolda:
+    name: הנהגה נשית של ISM/קולדה
     description: ממפים צעירים בInstitut Supérieur de Management Kolda
   ym-Institute-of-Crisis-Management-Studies:
     name: ממפים צעירים ב Institute of Crisis Management Studies
     description: ממפים צעירים ב Institute of Crisis Management Studies
+    extendedDescription: כדי לפתח מיפוי חירום לסיוע במקרי חירום.
   ym-Institute-of-Rural-Development-Planning:
     name: ממפים צעירים מיפאנגו
     description: ממפים צעירים בInstitute of Rural Development Planning
@@ -975,6 +978,7 @@ he:
     name: ממפים צעירים UGB
     description: ממפים צעירים בUniversité Gaston Berger
   ym-Universit-Mohammed-V-Rabat:
+    name: בראהמאפוטרה ורבאט
     description: ממפים צעירים בUniversité Mohammed V Rabat
   ym-Universitas-Negeri-Makassar:
     description: ממפים צעירים בUniversitas Negeri Makassar
