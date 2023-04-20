@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.5.0",
-    "generated": "2023-03-13T14:37:55.250Z",
+    "generated": "2023-04-20T18:59:58.663Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "62516439368144eded5b4adc49455e03"
+    "hash": "da413054cdf2fcb71b3e2750ba5b70ae"
   },
   "type": "FeatureCollection",
   "features": [
@@ -2943,10 +2943,10 @@
               "communityID": "openstreetmapbulgaria"
             },
             "resolved": {
-              "name": "OpenStreetMap Bulgaria Discourse",
+              "name": "OpenStreetMap Bulgaria Community Forum",
               "url": "https://community.openstreetmap.org/c/communities/bg",
               "description": "The official forum for OpenStreetMap Bulgaria",
-              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/bg\">OpenStreetMap Bulgaria Discourse</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/bg\">OpenStreetMap Bulgaria Community Forum</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/bg\">https://community.openstreetmap.org/c/communities/bg</a>",
               "descriptionHTML": "The official forum for OpenStreetMap Bulgaria"
             }
@@ -4796,10 +4796,10 @@
               "communityID": "openstreetmapcatalancountries"
             },
             "resolved": {
-              "name": "OpenStreetMap Catalan Countries Discourse",
+              "name": "OpenStreetMap Catalan Countries Community Forum",
               "url": "https://community.openstreetmap.org/c/communities/lang-ca",
               "description": "The official forum for OpenStreetMap Catalan Countries",
-              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/lang-ca\">OpenStreetMap Catalan Countries Discourse</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/lang-ca\">OpenStreetMap Catalan Countries Community Forum</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/lang-ca\">https://community.openstreetmap.org/c/communities/lang-ca</a>",
               "descriptionHTML": "The official forum for OpenStreetMap Catalan Countries"
             }
@@ -7561,10 +7561,10 @@
               "communityID": "openstreetmapcolombia"
             },
             "resolved": {
-              "name": "OpenStreetMap Colombia Discourse",
+              "name": "OpenStreetMap Colombia Community Forum",
               "url": "https://community.openstreetmap.org/c/communities/co",
               "description": "The official forum for OpenStreetMap Colombia",
-              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/co\">OpenStreetMap Colombia Discourse</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/co\">OpenStreetMap Colombia Community Forum</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/co\">https://community.openstreetmap.org/c/communities/co</a>",
               "descriptionHTML": "The official forum for OpenStreetMap Colombia"
             }
@@ -7805,6 +7805,26 @@
         "id": "south_sf_bay_area.geojson",
         "area": 4030.01,
         "resources": {
+          "Code-for-San-Jose-Discord": {
+            "id": "Code-for-San-Jose-Discord",
+            "type": "discord",
+            "account": "3bAd9DAWCp",
+            "locationSet": {"include": ["south_sf_bay_area.geojson"]},
+            "languageCodes": ["en"],
+            "order": 5,
+            "strings": {
+              "name": "Code for San José Discord",
+              "description": "Get in touch with other mappers on Discord! After signing up, join the #🗺openstreetmap channel."
+            },
+            "resolved": {
+              "name": "Code for San José Discord",
+              "url": "https://discord.gg/3bAd9DAWCp",
+              "description": "Get in touch with other mappers on Discord! After signing up, join the #🗺openstreetmap channel.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://discord.gg/3bAd9DAWCp\">Code for San José Discord</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://discord.gg/3bAd9DAWCp\">https://discord.gg/3bAd9DAWCp</a>",
+              "descriptionHTML": "Get in touch with other mappers on Discord! After signing up, join the #🗺openstreetmap channel."
+            }
+          },
           "Code-for-San-Jose-Slack": {
             "id": "Code-for-San-Jose-Slack",
             "type": "slack",
@@ -7812,17 +7832,17 @@
             "languageCodes": ["en"],
             "order": 4,
             "strings": {
-              "name": "Code for San Jose Slack",
+              "name": "Code for San José Slack",
               "description": "All are welcome! Sign up at {signupUrl}, then join the #proj-osm channel.",
               "signupUrl": "https://join.slack.com/t/codeforsanjose/shared_invite/zt-iwnx99kh-motBC0J47O8ItlR3zjAIBA",
               "url": "https://codeforsanjose.slack.com/"
             },
             "resolved": {
-              "name": "Code for San Jose Slack",
+              "name": "Code for San José Slack",
               "url": "https://codeforsanjose.slack.com/",
               "signupUrl": "https://join.slack.com/t/codeforsanjose/shared_invite/zt-iwnx99kh-motBC0J47O8ItlR3zjAIBA",
               "description": "All are welcome! Sign up at https://join.slack.com/t/codeforsanjose/shared_invite/zt-iwnx99kh-motBC0J47O8ItlR3zjAIBA, then join the #proj-osm channel.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://codeforsanjose.slack.com/\">Code for San Jose Slack</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://codeforsanjose.slack.com/\">Code for San José Slack</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://codeforsanjose.slack.com/\">https://codeforsanjose.slack.com/</a>",
               "signupUrlHTML": "<a target=\"_blank\" href=\"https://join.slack.com/t/codeforsanjose/shared_invite/zt-iwnx99kh-motBC0J47O8ItlR3zjAIBA\">https://join.slack.com/t/codeforsanjose/shared_invite/zt-iwnx99kh-motBC0J47O8ItlR3zjAIBA</a>",
               "descriptionHTML": "All are welcome! Sign up at <a target=\"_blank\" href=\"https://join.slack.com/t/codeforsanjose/shared_invite/zt-iwnx99kh-motBC0J47O8ItlR3zjAIBA\">https://join.slack.com/t/codeforsanjose/shared_invite/zt-iwnx99kh-motBC0J47O8ItlR3zjAIBA</a>, then join the #proj-osm channel."
@@ -9089,10 +9109,10 @@
               "communityID": "openstreetmapgermany"
             },
             "resolved": {
-              "name": "OpenStreetMap Germany Discourse",
+              "name": "OpenStreetMap Germany Community Forum",
               "url": "https://community.openstreetmap.org/c/communities/de",
               "description": "The official forum for OpenStreetMap Germany",
-              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/de\">OpenStreetMap Germany Discourse</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/de\">OpenStreetMap Germany Community Forum</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/de\">https://community.openstreetmap.org/c/communities/de</a>",
               "descriptionHTML": "The official forum for OpenStreetMap Germany"
             }
@@ -10467,25 +10487,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.de/listinfo/meckpomm\">Mecklenburg-Vorpommern Mailing List</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.de/listinfo/meckpomm\">https://lists.openstreetmap.de/listinfo/meckpomm</a>",
               "descriptionHTML": "The official mailing list for OpenStreetMap Mecklenburg-Vorpommern"
-            }
-          },
-          "de-mv-twitter": {
-            "id": "de-mv-twitter",
-            "type": "twitter",
-            "account": "osmmv",
-            "locationSet": {"include": ["de-mecklenburg-vorpommern.geojson"]},
-            "languageCodes": ["de"],
-            "strings": {
-              "community": "OpenStreetMap Mecklenburg-Vorpommern",
-              "communityID": "openstreetmapmecklenburgvorpommern"
-            },
-            "resolved": {
-              "name": "OpenStreetMap Mecklenburg-Vorpommern on Twitter",
-              "url": "https://twitter.com/osmmv",
-              "description": "Follow us on Twitter",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmmv\">OpenStreetMap Mecklenburg-Vorpommern on Twitter</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osmmv\">https://twitter.com/osmmv</a>",
-              "descriptionHTML": "Follow us on Twitter"
             }
           }
         }
@@ -17546,10 +17547,10 @@
               "communityID": "openstreetmapisrael"
             },
             "resolved": {
-              "name": "OpenStreetMap Israel Discourse",
+              "name": "OpenStreetMap Israel Community Forum",
               "url": "https://community.openstreetmap.org/c/communities/il",
               "description": "The official forum for OpenStreetMap Israel",
-              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/il\">OpenStreetMap Israel Discourse</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/il\">OpenStreetMap Israel Community Forum</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/il\">https://community.openstreetmap.org/c/communities/il</a>",
               "descriptionHTML": "The official forum for OpenStreetMap Israel"
             }
@@ -17805,10 +17806,10 @@
               {"name": "OSM Ireland", "email": "board@openstreetmap.ie"}
             ],
             "resolved": {
-              "name": "OpenStreetMap Ireland Discourse",
+              "name": "OpenStreetMap Ireland Community Forum",
               "url": "https://community.openstreetmap.org/c/communities/ie",
               "description": "The official forum for OpenStreetMap Ireland",
-              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/ie\">OpenStreetMap Ireland Discourse</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/ie\">OpenStreetMap Ireland Community Forum</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/ie\">https://community.openstreetmap.org/c/communities/ie</a>",
               "descriptionHTML": "The official forum for OpenStreetMap Ireland"
             }
@@ -19101,10 +19102,10 @@
               "communityID": "openstreetmapkorea"
             },
             "resolved": {
-              "name": "OpenStreetMap Korea Discourse",
+              "name": "OpenStreetMap Korea Community Forum",
               "url": "https://community.openstreetmap.org/c/communities/ko",
               "description": "The official forum for OpenStreetMap Korea",
-              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/ko\">OpenStreetMap Korea Discourse</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/ko\">OpenStreetMap Korea Community Forum</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/ko\">https://community.openstreetmap.org/c/communities/ko</a>",
               "descriptionHTML": "The official forum for OpenStreetMap Korea"
             }
@@ -20231,10 +20232,10 @@
               "communityID": "openstreetmaplatinamerica"
             },
             "resolved": {
-              "name": "OpenStreetMap Latin America Discourse",
+              "name": "OpenStreetMap Latin America Community Forum",
               "url": "https://community.openstreetmap.org/c/communities/latam",
               "description": "The official forum for OpenStreetMap Latin America",
-              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/latam\">OpenStreetMap Latin America Discourse</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/latam\">OpenStreetMap Latin America Community Forum</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/latam\">https://community.openstreetmap.org/c/communities/latam</a>",
               "descriptionHTML": "The official forum for OpenStreetMap Latin America"
             }
@@ -26687,10 +26688,10 @@
               {"name": "OpenStreetMap Norway", "email": "kart@nuug.no"}
             ],
             "resolved": {
-              "name": "OpenStreetMap Norway Discourse",
+              "name": "OpenStreetMap Norway Community Forum",
               "url": "https://community.openstreetmap.org/c/communities/no",
               "description": "The official forum for OpenStreetMap Norway",
-              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/no\">OpenStreetMap Norway Discourse</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/no\">OpenStreetMap Norway Community Forum</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/no\">https://community.openstreetmap.org/c/communities/no</a>",
               "descriptionHTML": "The official forum for OpenStreetMap Norway"
             }
@@ -27287,10 +27288,10 @@
               "communityID": "openstreetmapoceania"
             },
             "resolved": {
-              "name": "OpenStreetMap Oceania Discourse",
+              "name": "OpenStreetMap Oceania Community Forum",
               "url": "https://community.openstreetmap.org/c/communities/oceania",
               "description": "The official forum for OpenStreetMap Oceania",
-              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/oceania\">OpenStreetMap Oceania Discourse</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/oceania\">OpenStreetMap Oceania Community Forum</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/oceania\">https://community.openstreetmap.org/c/communities/oceania</a>",
               "descriptionHTML": "The official forum for OpenStreetMap Oceania"
             }
@@ -28327,10 +28328,10 @@
               "communityID": "openstreetmapargentina"
             },
             "resolved": {
-              "name": "OpenStreetMap Argentina Discourse",
+              "name": "OpenStreetMap Argentina Community Forum",
               "url": "https://community.openstreetmap.org/c/communities/ar",
               "description": "The official forum for OpenStreetMap Argentina",
-              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/ar\">OpenStreetMap Argentina Discourse</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/ar\">OpenStreetMap Argentina Community Forum</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/ar\">https://community.openstreetmap.org/c/communities/ar</a>",
               "descriptionHTML": "The official forum for OpenStreetMap Argentina"
             }
@@ -31304,7 +31305,7 @@
             "languageCodes": ["de", "en", "es", "nl", "pl", "pt-BR"],
             "order": 7,
             "strings": {
-              "name": "OpenStreetMap Discourse",
+              "name": "OpenStreetMap Community Forum",
               "description": "A shared place for conversations about OpenStreetMap",
               "url": "https://community.openstreetmap.org/"
             },
@@ -31313,10 +31314,10 @@
               {"name": "Rubén Martín", "email": "nukeador@protonmail.com"}
             ],
             "resolved": {
-              "name": "OpenStreetMap Discourse",
+              "name": "OpenStreetMap Community Forum",
               "url": "https://community.openstreetmap.org/",
               "description": "A shared place for conversations about OpenStreetMap",
-              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/\">OpenStreetMap Discourse</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/\">OpenStreetMap Community Forum</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/\">https://community.openstreetmap.org/</a>",
               "descriptionHTML": "A shared place for conversations about OpenStreetMap"
             }
@@ -35349,10 +35350,10 @@
               "communityID": "openstreetmappoland"
             },
             "resolved": {
-              "name": "OpenStreetMap Poland Discourse",
+              "name": "OpenStreetMap Poland Community Forum",
               "url": "https://community.openstreetmap.org/c/communities/pl",
               "description": "The official forum for OpenStreetMap Poland",
-              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/pl\">OpenStreetMap Poland Discourse</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/pl\">OpenStreetMap Poland Community Forum</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/pl\">https://community.openstreetmap.org/c/communities/pl</a>",
               "descriptionHTML": "The official forum for OpenStreetMap Poland"
             }
@@ -36549,10 +36550,10 @@
               {"name": "Dennis Raylin Chen", "email": "dennis@wikimedia.tw"}
             ],
             "resolved": {
-              "name": "OpenStreetMap Taiwan Discourse",
+              "name": "OpenStreetMap Taiwan Community Forum",
               "url": "https://community.openstreetmap.org/c/communities/tw",
               "description": "The official forum for OpenStreetMap Taiwan",
-              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/tw\">OpenStreetMap Taiwan Discourse</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/tw\">OpenStreetMap Taiwan Community Forum</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/tw\">https://community.openstreetmap.org/c/communities/tw</a>",
               "descriptionHTML": "The official forum for OpenStreetMap Taiwan"
             }
@@ -37554,10 +37555,10 @@
               "communityID": "openstreetmapsouthafrica"
             },
             "resolved": {
-              "name": "OpenStreetMap South Africa Discourse",
+              "name": "OpenStreetMap South Africa Community Forum",
               "url": "https://community.openstreetmap.org/c/communities/za",
               "description": "The official forum for OpenStreetMap South Africa",
-              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/za\">OpenStreetMap South Africa Discourse</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/za\">OpenStreetMap South Africa Community Forum</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/za\">https://community.openstreetmap.org/c/communities/za</a>",
               "descriptionHTML": "The official forum for OpenStreetMap South Africa"
             }
@@ -39138,10 +39139,10 @@
               "description": "A Forum to discuss OpenStreetMap in Serbia"
             },
             "resolved": {
-              "name": "OpenStreetMap Serbia Discourse",
+              "name": "OpenStreetMap Serbia Community Forum",
               "url": "https://community.openstreetmap.org/c/communities/rs",
               "description": "A Forum to discuss OpenStreetMap in Serbia",
-              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/rs\">OpenStreetMap Serbia Discourse</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/rs\">OpenStreetMap Serbia Community Forum</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/rs\">https://community.openstreetmap.org/c/communities/rs</a>",
               "descriptionHTML": "A Forum to discuss OpenStreetMap in Serbia"
             }
@@ -45630,10 +45631,10 @@
               "communityID": "openstreetmapthailand"
             },
             "resolved": {
-              "name": "OpenStreetMap Thailand Discourse",
+              "name": "OpenStreetMap Thailand Community Forum",
               "url": "https://community.openstreetmap.org/c/communities/th",
               "description": "The official forum for OpenStreetMap Thailand",
-              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/th\">OpenStreetMap Thailand Discourse</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/th\">OpenStreetMap Thailand Community Forum</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/th\">https://community.openstreetmap.org/c/communities/th</a>",
               "descriptionHTML": "The official forum for OpenStreetMap Thailand"
             }

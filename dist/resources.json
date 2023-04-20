@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.5.0",
-    "generated": "2023-04-07T18:09:29.187Z",
+    "generated": "2023-04-20T18:59:54.357Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "bdef574e50cea7cb923f0f1e4875c97d"
+    "hash": "9085aba15dd6aea2619d3ac7febfc22e"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -345,7 +345,7 @@
     "osm-de": {"id": "osm-de", "type": "osm-lc", "locationSet": {"include": ["de"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Germany", "communityID": "openstreetmapgermany", "description": "The platform for information on OpenStreetMap in Germany", "url": "https://www.openstreetmap.de/"}, "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}]},
     "osm-deep-south-wiki": {"id": "osm-deep-south-wiki", "type": "wiki", "account": "OpenStreetMap_Deep_South", "locationSet": {"include": ["deep_south.geojson"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Deep South", "communityID": "openstreetmapdeepsouth", "description": "{community} Wiki page", "extendedDescription": "OpenStreetMap Deep South is a local mapping community in the Southeastern United States."}},
     "OSM-Discord": {"id": "OSM-Discord", "type": "discord", "account": "openstreetmap", "locationSet": {"include": ["001"]}, "languageCodes": ["de", "en", "es", "fr", "it", "pt-BR", "ro", "tr"], "order": 6, "strings": {"name": "OpenStreetMap World Discord"}, "contacts": [{"name": "Austin Harrison", "email": "jaustinharrison@gmail.com"}]},
-    "OSM-Discourse": {"id": "OSM-Discourse", "type": "discourse", "locationSet": {"include": ["001"]}, "languageCodes": ["de", "en", "es", "nl", "pl", "pt-BR"], "order": 7, "strings": {"name": "OpenStreetMap Discourse", "description": "A shared place for conversations about OpenStreetMap", "url": "https://community.openstreetmap.org/"}, "contacts": [{"name": "Grant Slater", "email": "osmfuture@firefishy.com"}, {"name": "Rubén Martín", "email": "nukeador@protonmail.com"}]},
+    "OSM-Discourse": {"id": "OSM-Discourse", "type": "discourse", "locationSet": {"include": ["001"]}, "languageCodes": ["de", "en", "es", "nl", "pl", "pt-BR"], "order": 7, "strings": {"name": "OpenStreetMap Community Forum", "description": "A shared place for conversations about OpenStreetMap", "url": "https://community.openstreetmap.org/"}, "contacts": [{"name": "Grant Slater", "email": "osmfuture@firefishy.com"}, {"name": "Rubén Martín", "email": "nukeador@protonmail.com"}]},
     "OSM-dj-facebook": {"id": "OSM-dj-facebook", "type": "facebook", "account": "OpenStreetMapDjibouti", "locationSet": {"include": ["dj"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Djibouti", "communityID": "openstreetmapdjibouti"}},
     "OSM-dj-twitter": {"id": "OSM-dj-twitter", "type": "twitter", "account": "djiboutiosm", "locationSet": {"include": ["dj"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Djibouti", "communityID": "openstreetmapdjibouti"}},
     "OSM-eg-facebook": {"id": "OSM-eg-facebook", "type": "facebook", "locationSet": {"include": ["eg"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Egypt", "communityID": "openstreetmapegypt", "url": "https://www.facebook.com/groups/405747563534310"}},
