@@ -20,7 +20,7 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 -->
 
 # 5.5.2
-##### 2022-Apr-27
+##### 2023-Apr-27
 * Updated:
   * Fix community name for kosovo-flossk: Kosovo, not Slovakia ([#657])
   * Remove some more instances where resource had "Discourse" in its name ([#656])
@@ -30,7 +30,7 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 
 
 # 5.5.1
-##### 2022-Apr-20
+##### 2023-Apr-20
 * Added:
   * Belize Telegram ([#639])
   * Portugal Discourse ([#655])
@@ -66,7 +66,7 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 
 
 # 5.5.0
-##### 2022-Dec-12
+##### 2023-Jan-13
 * Support new resource type `zulip` ([#607])
 * Added:
   * Armenia Telegram ([#632])
