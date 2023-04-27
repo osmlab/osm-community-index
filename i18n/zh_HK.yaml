@@ -2,11 +2,13 @@ zh_HK:
   _communities:
     geolibres: GeoLibres
     openstreetmap: OpenStreetMap
+    openstreetmapaachen: OpenStreetMap 阿亨
     openstreetmapafghanistan: OpenStreetMap 阿富汗
     openstreetmapafrica: OpenStreetMap 非洲
     openstreetmapalba: OpenStreetMap 蘇格蘭
     openstreetmapalbania: OpenStreetMap 阿爾巴尼亞
     openstreetmapargentina: OpenStreetMap 阿根廷
+    openstreetmaparmenia: OpenStreetMap 亞美尼亞
     openstreetmapasia: OpenStreetMap 亞洲
     openstreetmapasti: OpenStreetMap 阿斯蒂
     openstreetmapaustria: OpenStreetMap 奥地利
@@ -14,9 +16,11 @@ zh_HK:
     openstreetmapbangladesh: OpenStreetMap 孟加拉
     openstreetmapbelarus: OpenStreetMap 白俄羅斯
     openstreetmapbelgium: OpenStreetMap 比利時
+    openstreetmapbelize: OpenStreetMap 伯利茲
     openstreetmapbenin: OpenStreetMap 貝寧
     openstreetmapberlin: OpenStreetMap 柏林
     openstreetmapbivccvl: OpenStreetMap BI-VC-CVL
+    openstreetmapbochum: OpenStreetMap 波琴
     openstreetmapbolivia: OpenStreetMap 玻利維亞
     openstreetmapbosniaandherzegovina: OpenStreetMap 波斯尼亞和黑塞哥維那
     openstreetmapbrasil: OpenStreetMap 巴西
@@ -45,6 +49,7 @@ zh_HK:
     openstreetmapespana: OpenStreetMap 西班牙
     openstreetmapestonia: OpenStreetMap 埃塞俄比亞
     openstreetmapethiopia: OpenStreetMap 埃塞俄比亞
+    openstreetmapfiji: OpenStreetMap 斐濟
     openstreetmapfinland: OpenStreetMap 芬蘭
     openstreetmapfrance: OpenStreetMap 法國
     openstreetmapfreemapslovakia: OpenStreetMap 自由斯洛伐克
@@ -89,8 +94,10 @@ zh_HK:
     openstreetmaplibya: OpenStreetMap 利比亞
     openstreetmaplithuania: OpenStreetMap 立陶宛
     openstreetmaplombardia: OpenStreetMap 倫巴底
+    openstreetmaplondon: OpenStreetMap 倫敦
     openstreetmapluxembourg: OpenStreetMap 盧森堡
     openstreetmapmadagascar: OpenStreetMap 馬達加斯加
+    openstreetmapmadrid: OpenStreetMap 馬德里
     openstreetmapmalawi: OpenStreetMap 馬拉維
     openstreetmapmalaysia: OpenStreetMap 馬來西亞
     openstreetmapmali: OpenStreetMap 馬里
@@ -102,13 +109,16 @@ zh_HK:
     openstreetmapmoldova: OpenStreetMap 摩爾多瓦
     openstreetmapmongolia: OpenStreetMap 蒙古
     openstreetmapmorocco: OpenStreetMap 摩洛哥
+    openstreetmapmunchen: OpenStreetMap 慕尼黑
     openstreetmapmyanmar: OpenStreetMap 緬甸
     openstreetmapnepal: OpenStreetMap 尼泊爾
     openstreetmapnetherlands: OpenStreetMap 荷蘭
     openstreetmapnicaragua: OpenStreetMap 尼加拉瓜
     openstreetmapniger: OpenStreetMap 尼日爾
     openstreetmapnigeria: OpenStreetMap 尼日利亞
+    openstreetmapnorthkorea: OpenStreetMap 北韓
     openstreetmapnorway: OpenStreetMap 挪威
+    openstreetmapoceania: OpenStreetMap 大洋洲
     openstreetmapottawa: OpenStreetMap 渥太華
     openstreetmappakistan: OpenStreetMap 巴基斯坦
     openstreetmappanama: OpenStreetMap 巴拿馬
@@ -142,6 +152,7 @@ zh_HK:
     openstreetmaptanzania: OpenStreetMap 坦桑尼亞
     openstreetmapthailand: OpenStreetMap 泰國
     openstreetmaptogo: OpenStreetMap 多哥
+    openstreetmaptoronto: OpenStreetMap 多倫多
     openstreetmaptunisia: OpenStreetMap 突尼西亞
     openstreetmapturkey: OpenStreetMap 土耳其
     openstreetmapuganda: OpenStreetMap 烏干達
@@ -155,19 +166,21 @@ zh_HK:
     openstreetmapwesternsahara: OpenStreetMap 西撒哈拉
     openstreetmapzambia: OpenStreetMap 贊比亞
     openstreetmapzimbabwe: OpenStreetMap 津巴布韋
+    youthmappersasu: 年輕製圖者ASU
   _defaults:
     aparat:
       name: 'Aparat 上的 {community}'
+      description: 訂閱我們的 Aparat 頻道
       url: https://aparat.com/{account}
     discord:
       name: '{community} Discord'
       url: https://discord.gg/{account}
-    discourse:
-      name: '{community} Discourse'
     facebook:
       name: 'Facebook 上的 {community}'
+      url: https://www.facebook.com/{account}
     forum:
       name: '{community} 論壇'
+      description: '{community} 的官方論壇'
     github:
       name: '{community} GitHub'
       url: https://github.com/{account}
@@ -181,6 +194,7 @@ zh_HK:
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: 'LinkedIn 上的 {community}'
+      url: https://www.linkedin.com/company/{account}
     mailinglist:
       url: https://lists.openstreetmap.org/listinfo/{account}
     matrix:
@@ -188,6 +202,7 @@ zh_HK:
       url: https://matrix.to/#/{account}:matrix.org
     meetup:
       name: '{community} Meetup'
+      url: https://www.meetup.com/{account}
     osm:
       name: '{community}'
     osm-lc:
@@ -195,6 +210,8 @@ zh_HK:
     reddit:
       name: 'Reddit 上的 {community}'
       url: https://www.reddit.com/r/{account}
+    signal:
+      name: '{community} 的 Signal'
     slack:
       name: '{community} Slack'
     telegram:
@@ -204,6 +221,8 @@ zh_HK:
       name: 'Twitter 上的 {community}'
       description: 在 Twitter 跟隨我們
       url: https://twitter.com/{account}
+    website:
+      name: '{community}'
     wiki:
       name: '{community} WikiProject'
       url: https://wiki.openstreetmap.org/wiki/{account}
@@ -213,29 +232,73 @@ zh_HK:
       name: 'YouTube 上的 {community}'
       description: 訂閱 YouTube 頻道
       url: https://www.youtube.com/channel/{account}
+    zulip:
+      name: '{community} Zulip'
+  at-wiki:
+    description: '{community} Wiki 頁面'
+  be-matrix:
+    description: 歡迎所有製圖者！
+  bo-matrix:
+    description: 歡迎所有製圖者！
   cape-coast-youthmappers:
     description: '跟隨我們的 Twitter： {url} '
   cd-chapter:
     name: OpenStreetMap 剛果民主共和國
+  de-bochum-wiki:
+    description: '{community} Wiki 頁面'
+  de-bonn-wiki:
+    description: '{community} Wiki 頁面'
+  de-bremen-wiki:
+    description: '{community} Wiki 頁面'
+  de-cologne-wiki:
+    description: '{community} Wiki 頁面'
+  de-dresden-wiki:
+    description: '{community} Wiki 頁面'
+  de-dusseldorf-wiki:
+    description: '{community} Wiki 頁面'
+  de-luneburg-wiki:
+    description: '{community} Wiki 頁面'
+  de-munchen-wiki:
+    description: '{community} Wiki 頁面'
   de-xmpp:
     name: OpenStreetMap 德國 XMPP
+  fr-35-wiki:
+    description: '{community} Wiki 頁面'
+  fr-38-wiki:
+    description: '{community} Wiki 頁面'
+  fr-montrouge-wiki:
+    description: '{community} Wiki 頁面'
   fr-xmpp:
     description: 加入 osm-fr@chat.jabberfr.org
   Galicia-Xeoinquedos-Twitter:
     description: 在 {url} 於 Twitter 上跟隨我們
   GeoPhilly:
     name: GeoPhilly
+  hu-facebook-group:
+    name: '{community} Facebook 羣組'
   hu-mobilizon:
     name: 'Mobilizon 上的 {community}'
+  hu-wiki:
+    description: '{community} Wiki 頁面'
+  id-facebook-group:
+    name: '{community} Facebook 羣組'
+  ko-github:
+    description: '{community} GitHub'
+  madrid-uam-ym:
+    name: UAM 年輕製圖者
   Maptime-Oceania-Slack:
     description: 在 {signupUrl} 註冊
   md-googlegroup:
     name: '{community} Google 羣組'
     description: 加入 {community} Google 羣組
+  nl-matrix:
+    description: 歡迎所有製圖者！
   OpenCleveland-meetup:
     name: Open 克里夫蘭
   osgeo-oceania:
     name: 'OSGeo 大洋洲 '
+  osm-africa-matrix:
+    description: 歡迎所有製圖者！
   OSM-AR-geolibres:
     name: GeoLibres
   OSM-CA-Slack:
@@ -244,8 +307,12 @@ zh_HK:
     name: OSM 查塔努加
   OSM-Colorado:
     name: OpenStreetMap 科羅拉多州
+  OSM-Discord:
+    name: OpenStreetMap 全球 Discord
   OSM-help:
     name: OpenStreetMap 幫助
+  OSM-India-facebook:
+    description: 改善印度的 OpenStreetMap
   osm-india-github:
     description: '和我們一起編寫程式：{url}'
   OSM-India-Puducherry-Facebook:
@@ -255,10 +322,20 @@ zh_HK:
     description: '和我們一起編寫程式：{url}'
   osm-mg-facebook:
     description: 馬達加斯加 Facebook 社群給對 OpenStreetMap 有興趣的人。
+  osm-michigan-facebook-group:
+    name: '{community} Facebook 羣組'
+  osm-michigan-wiki:
+    description: '{community} Wiki 頁面'
   osm-ni:
     name: MapaNica.net
   OSM-Portland:
     name: OpenStreetMap 波特蘭
+  OSM-Rome-meetup:
+    description: 改善羅馬區域的 OpenStreetMap
+  OSM-Seattle:
+    name: OpenStreetMap 西雅圖
+  OSM-SoCal:
+    name: OpenStreetMap 南加州
   OSM-Tampa-Bay:
     name: OpenStreetMap 坦帕灣
   OSM-TH-CNX-meetup:
@@ -269,6 +346,15 @@ zh_HK:
     name: OpenStreetMap 懷俄明州
   OSMF:
     name: OpenStreetMap 基金會
+  PHXGeo-twitter:
+    name: PHXGeo Twitter
+    description: 在 {url} 於 Twitter 上跟隨我們
+  si-github:
+    description: '{community} GitHub'
+  si-ljubljana-wiki:
+    description: '{community} Wiki 頁面'
+  si-wiki:
+    description: '{community} Wiki 頁面'
   ua-github:
     description: OpenStreetMap 烏克蘭 GitHub
   ua-osm:
@@ -276,6 +362,8 @@ zh_HK:
   uk-london-twitter:
     name: OpenStreetMap 倫敦 Twitter
     description: 'OpenStreetMap 倫敦 Twitter: {url}'
+  uk-london-wiki:
+    description: '{community} Wiki 頁面'
   ym-Montgomery-College:
     name: GeoMC
   ym-University-Muhammadiyah-Surakarta:

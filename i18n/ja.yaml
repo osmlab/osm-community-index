@@ -6,6 +6,7 @@ ja:
     maptimebogota: MaptimeBogota
     maptimehrva: MaptimeHRVA
     openstreetmap: OpenStreetMap
+    openstreetmapaachen: OpenStreetMap Aachen
     openstreetmapafghanistan: OpenStreetMap Afghanistan
     openstreetmapafrica: OpenStreetMap アフリカ
     openstreetmapalba: OpenStreetMap Alba
@@ -19,6 +20,7 @@ ja:
     openstreetmapbangladesh: OpenStreetMap Bangladesh
     openstreetmapbelarus: OpenStreetMap Belarus
     openstreetmapbelgium: OpenStreetMap Belgium
+    openstreetmapbelize: OpenStreetMap Belize
     openstreetmapbenin: OpenStreetMap Benin
     openstreetmapberlin: OpenStreetMap Berlin
     openstreetmapbivccvl: OpenStreetMap BI-VC-CVL
@@ -202,7 +204,7 @@ ja:
       description: Get in touch with other mappers on Discord
       url: https://discord.gg/{account}
     discourse:
-      name: '{community} Discourse'
+      name: '{community} Community Forum'
       description: The official forum for {community}
       url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
@@ -302,7 +304,6 @@ ja:
     description: We help grow and improve OpenStreetMap in Belgium.
     extendedDescription: If you want to help to improve and grow the mapping community in Belgium, to make even more people crazy about mapping, OpenStreetMap Belgium is the right place for you!
   be-discourse:
-    name: Belgium Discourse
     description: A Forum to discuss OpenStreetMap in Belgium
   be-irc:
     extendedDescription: 'Join #{account} on irc.oftc.net (port 6667), it is bridged with the Matrix chat channel'
@@ -353,7 +354,11 @@ ja:
     extendedDescription: Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!
   co-facebook:
     extendedDescription: Join the community to learn more about OpenStreetMap. Everyone is welcome!
+  Code-for-San-Jose-Discord:
+    name: Code for San José Discord
+    description: 'Get in touch with other mappers on Discord! After signing up, join the #🗺openstreetmap channel.'
   Code-for-San-Jose-Slack:
+    name: Code for San José Slack
     description: 'All are welcome! Sign up at {signupUrl}, then join the #proj-osm channel.'
   comunitat-valenciana-wiki:
     description: 'Everything you need to know about mapping in Valencian Community: {url}'
@@ -369,6 +374,8 @@ ja:
     description: OpenStreetMap CZ room bridged with Discord, IRC, Jabber and Matrix
   czech-xmpp:
     description: OpenStreetMap CZ room bridged with Discord, IRC, Matrix and Telegram
+  de-aachen-wiki:
+    description: '{community} Wiki page'
   de-berlin-mailinglist:
     name: Berlin Mailing List
   de-berlin-wiki:
@@ -430,12 +437,9 @@ ja:
   DF-telegram:
     extendedDescription: Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!
   dk-discourse:
-    name: '{community} Discourse'
     description: A discussion forum about OpenStreetMap in Denmark
   ee-wiki:
     description: Information relating to mapping activity that is specific to Estonia.
-  es-discourse:
-    name: Spanish Community Discourse
   fr-35-wiki:
     description: '{community} Wiki page'
   fr-38-wiki:
@@ -516,7 +520,6 @@ ja:
   it-chapter:
     description: We help grow and improve OpenStreetMap in Italy.
   it-discourse:
-    name: Italian Discourse
     description: Il forum dove poter discutere di OpenStreetMap
   ko-facebook:
     description: Mappers and OpenStreetMap users in Korea
@@ -691,7 +694,7 @@ ja:
   OSM-Discord:
     name: OpenStreetMap World Discord
   OSM-Discourse:
-    name: OpenStreetMap Discourse
+    name: OpenStreetMap Community Forum
     description: A shared place for conversations about OpenStreetMap
   OSM-Facebook:
     description: Like us on Facebook for news and updates about OpenStreetMap.
@@ -876,8 +879,6 @@ ja:
     extendedDescription: Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!
   rs-wiki:
     description: Wikiproject page for Serbia
-  si-discourse:
-    name: '{community} Discourse'
   si-github:
     description: '{community} GitHub'
   si-ljubljana-wiki:
@@ -922,7 +923,6 @@ ja:
   uk-loomio:
     name: OpenStreetMap UK on Loomio
   us-discourse:
-    name: '{community} Discourse'
     description: A discussion forum about OpenStreetMap in the United States
   us-massachusetts-mailinglist:
     name: Talk-us-massachusetts Mailing List

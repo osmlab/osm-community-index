@@ -6,6 +6,7 @@ de:
     maptimebogota: MaptimeBogota
     maptimehrva: MaptimeHRVA
     openstreetmap: OpenStreetMap
+    openstreetmapaachen: OpenStreetMap Aachen
     openstreetmapafghanistan: OpenStreetMap Afghanistan
     openstreetmapafrica: OpenStreetMap Afrika
     openstreetmapalba: OpenStreetMap Alba
@@ -19,6 +20,7 @@ de:
     openstreetmapbangladesh: OpenStreetMap Bangladesh
     openstreetmapbelarus: OpenStreetMap Weißrussland
     openstreetmapbelgium: OpenStreetMap Belgien
+    openstreetmapbelize: OpenStreetMap Belize
     openstreetmapbenin: OpenStreetMap Benin
     openstreetmapberlin: OpenStreetMap Berlin
     openstreetmapbivccvl: OpenStreetMap BI-VC-CVL
@@ -202,7 +204,7 @@ de:
       description: Tritt mit anderen Mappern auf Discord in Kontakt
       url: https://discord.gg/{account}
     discourse:
-      name: '{community} Discourse'
+      name: '{community} Community Forum'
       description: Das offizielle Forum für {community}
       url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
@@ -302,7 +304,6 @@ de:
     description: Wir helfen OpenStreetMap in Belgien beim besser und größer werden.
     extendedDescription: Wenn du dabei helfen willst die Mapping-Gemeinschaft in Belgien größer und besser zu machen, Menschen verrückt nach Mappen zu machen, dann ist OpenStreetMap Belgien der richtige Platz für dich!
   be-discourse:
-    name: Belgien Discourse
     description: Ein Forum um OpenStreetMap in Belgien zu diskutieren
   be-irc:
     extendedDescription: 'Tritt #{account} auf irc.oftc.net (port 6667) bei, er ist mit dem Matrix-Chat-Kanal gespiegelt'
@@ -373,6 +374,8 @@ de:
     description: OpenStreetMap CZ Raum überbrückt mit Discord, IRC, Jabber und Matrix
   czech-xmpp:
     description: OpenStreetMap CZ Raum überbrückt mit Discord, IRC, Matrix und Telegram
+  de-aachen-wiki:
+    description: '{community} Wiki Seite'
   de-berlin-mailinglist:
     name: Berlin Mailing Liste
   de-berlin-wiki:
@@ -434,12 +437,9 @@ de:
   DF-telegram:
     extendedDescription: Mach mit, um mehr über OpenStreetMap zu erfahren, Fragen zu stellen oder an unseren Treffen teilzunehmen. Alle sind willkommen!
   dk-discourse:
-    name: '{community} Discourse'
     description: Ein Diskussionsforum über OpenStreetMap in Dänemark
   ee-wiki:
     description: Informationen über die Kartierungsaktivitäten, die speziell für Estland gelten.
-  es-discourse:
-    name: Spanische Discourse-Gemeinschaft
   fr-35-wiki:
     description: '{community} Wiki Seite'
   fr-38-wiki:
@@ -520,7 +520,6 @@ de:
   it-chapter:
     description: Wir helfen OpenStreetMap in Italien beim besser und größer werden.
   it-discourse:
-    name: Discourse Italien
     description: Das italienische Forum, in dem Sie über OpenStreetMap diskutieren können
   ko-facebook:
     description: Mapper und OpenStreetMap Nutzende in Korea
@@ -695,7 +694,7 @@ de:
   OSM-Discord:
     name: OpenStreetMap World Discord
   OSM-Discourse:
-    name: OpenStreetMap Discourse
+    name: OpenStreetMap Community Forum
     description: Ein Platz um sich über OpenStreetMap zu unterhalten
   OSM-Facebook:
     description: Like uns auf Facebook für Nachrichten und Updates über OpenStreetMap.
@@ -880,8 +879,6 @@ de:
     extendedDescription: Beteilige dich an der Gemeinschaft um mehr über OpenStreetMap zu lernen, zu fragen oder an unseren Treffen teilzunehmen. Alle sind willkommen!
   rs-wiki:
     description: Wikiproject Seite für Serbien
-  si-discourse:
-    name: '{community} Discourse'
   si-github:
     description: '{community} GitHub'
   si-ljubljana-wiki:
@@ -926,7 +923,6 @@ de:
   uk-loomio:
     name: OpenStreetMap UK auf Loomio
   us-discourse:
-    name: '{community} Discourse'
     description: Ein Diskussionsforum über OpenStreetMap in den Vereinigten Staaten
   us-massachusetts-mailinglist:
     name: Talk-us-massachusetts Mailing Liste
