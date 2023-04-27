@@ -19,6 +19,16 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.5.2
+##### 2022-Apr-27
+* Updated:
+  * Fix community name for kosovo-flossk: Kosovo, not Slovakia ([#657])
+  * Remove some more instances where resource had "Discourse" in its name ([#656])
+
+[#656]: https://github.com/osmlab/osm-community-index/issues/656
+[#657]: https://github.com/osmlab/osm-community-index/issues/657
+
+
 # 5.5.1
 ##### 2022-Apr-20
 * Added:
