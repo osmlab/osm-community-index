@@ -201,7 +201,7 @@ pt:
       description: Comunica com outros mapeadores no Discord
       url: https://discord.gg/{account}
     discourse:
-      description: O fórum oficial da {community}
+      description: O fórum oficial do {community}
       url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
       name: '{community} no Facebook'
@@ -232,7 +232,7 @@ pt:
       url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
       name: 'Conta Mastodon {community}'
-      description: A conta Mastodon oficial da {community}
+      description: A conta Mastodon oficial do {community}
     matrix:
       name: 'Matrix Chat {community}'
       description: Junta-te ao Matrix chat da nossa comunidade
@@ -554,14 +554,12 @@ pt:
     extendedDescription: OpenStreetMap (OSM) é um mapa do mundo criado por pessoas como tu. Este é um mapa que tu constróis, que é distribuído gratuitamente como a Wikipedia. Visita osm.org para mais informações e encontra-nos numa reunião para discutir mapas, contribuir para o OSM e para te divertires!
   OSM-Portland-forum:
     name: OpenStreetMap PDX Google Group
-    description: Fórum e lista de discussão para usuários do OpenStreetMap na área de Portland
+    description: Fórum e lista de discussão para utilizadores do OpenStreetMap na área de Portland
     extendedDescription: Este grupo é para facilitar melhorias para o OpenStreetMap na área de Portland, Oregon, para suportar aplicações como o Open Trip Planner.
   OSM-Puducherry-Mailing-List:
     name: Movimento de Hardware e Software Livre - Lista de discussão
     description: Lista de discussão do FSHM Puducherry para discutir o mapeamento em Puducherry e outras coisas.
     extendedDescription: O FSHM organiza eventos relacionados a software / hardware livre, tecnologia, ativismo e OpenStreetMap.
-  OSM-Reddit:
-    description: /r/{account} é um excelente sítio para aprenderes mais sobre o OpenStreetMap.  Pergunta-nos o que quiseres!
   OSM-Rome-meetup:
     name: Encontro Mappatori Romani
     description: Melhorar o OpenStreetMap na área de Roma
@@ -575,8 +573,6 @@ pt:
     extendedDescription: OpenStreetMap (OSM) Southern California é para qualquer pessoa interessada em mapear e se juntar ao OpenStreetMap. O OpenStreetMap, é a Wikipédia dos mapas, é um mapa mundial de código aberto criado por mais de 1.000.000 de voluntários em todo o mundo. Todos são bem-vindos. Se não conheces o OpenStreetMap, nós vamos ensinar-te. Se tens uma ideia para um projecto de mapeamento ou até mesmo uma visita de campo com o grupo podes fazer, é perfeito!
   OSM-South-Bay:
     name: OSM South Bay
-    description: Maps Night organizadas por Code para San Jose
-    extendedDescription: O Code for San Jose, é a brigada local do Code for America, recebe mensalmente Map Nights nas noites de quinta-feira no centro de San Jose. Conheça outros mapeadores de South Bay, ajude com projectos de mapeamento local e ouça sobre outros projectos de tecnologia cívica. Ter capacidades de programação e GIS não é obrigatório.
   OSM-Tampa-Bay:
     name: OpenStreetMap Tampa Bay
     description: Mapeadores e utilizadores do OpenStreetMap na área de Tampa Bay

@@ -1,11 +1,13 @@
 cs:
   _communities:
+    freelibreopensourcesoftwarekosovaflossk: Free Libre Open Source Software Kosova (FLOSSK)
     geolibres: GeoLibres
     kiribatiwomeninmapping: Kiribatské ženy v mapování
     mappingbotswana: Mapování Botswany
     maptimebogota: MaptimeBogota
     maptimehrva: MaptimeHRVA
     openstreetmap: OpenStreetMap
+    openstreetmapaachen: OpenStreetMap Cáchy
     openstreetmapafghanistan: OpenStreetMap Afghánistán
     openstreetmapafrica: OpenStreetMap Afrika
     openstreetmapalba: OpenStreetMap Alba
@@ -19,6 +21,7 @@ cs:
     openstreetmapbangladesh: OpenStreetMap Bangladéš
     openstreetmapbelarus: OpenStreetMap Bělorusko
     openstreetmapbelgium: OpenStreetMap Belgie
+    openstreetmapbelize: OpenStreetMap Belize
     openstreetmapbenin: OpenStreetMap Benin
     openstreetmapberlin: OpenStreetMap Berlín
     openstreetmapbivccvl: OpenStreetMap BI-VC-CVL
@@ -202,6 +205,7 @@ cs:
       description: Zůstaňte ve spojení s ostatními mapovači na Discordu
       url: https://discord.gg/{account}
     discourse:
+      name: '{community} Fórum komunity'
       description: Oficiální diskuzní fórum komunity {community}
       url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
@@ -351,7 +355,11 @@ cs:
     extendedDescription: Připojte se ke komunitě a dozvíte se více o OpenStreetMap, můžete klást otázky nebo se účastnit našich setkání. Každý je vítán!
   co-facebook:
     extendedDescription: Připojte se ke komunitě a dozvíte se více o OpenStreetMap. Každý je vítán!
+  Code-for-San-Jose-Discord:
+    name: Code for San José Discord
+    description: 'Zůstaňte ve spojení s ostatními mapovateli na Discordu! Po registraci se připojte ke kanálu #🗺openstreetmap.'
   Code-for-San-Jose-Slack:
+    name: Code for San José Slack
     description: 'Všichni jsou vítáni! Zaregistrujte se na adrese {signupUrl} a připojte se k kanálu #proj-osm.'
   comunitat-valenciana-wiki:
     description: 'Vše, co potřebujete vědět o mapování ve Valencijské komunitě: {url}'
@@ -367,6 +375,8 @@ cs:
     description: Místnost OpenStreetMap CZ přemostěná s Discordem, IRC, Jabberem a Matrixem
   czech-xmpp:
     description: Místnost OpenStreetMap CZ přemostěná s Discordem, IRC, Matrixem a Telegramem
+  de-aachen-wiki:
+    description: '{community} Wiki stránka'
   de-berlin-mailinglist:
     name: Berlínská mailová konference
   de-berlin-wiki:
@@ -685,6 +695,7 @@ cs:
   OSM-Discord:
     name: Světový Discord OpenStreetMap
   OSM-Discourse:
+    name: Fórum komunity OpenStreetMap
     description: Sdílené místo pro konverzace ohledně OpenStreetMap
   OSM-Facebook:
     description: Dejte naší facebookové stránce To se mi líbí, aby vám neunikly žádné novinky ze světa OpenStreetMap.
@@ -789,8 +800,6 @@ cs:
     name: Free Software Hardware Movement - Mailová konference
     description: Mailová konference FSHM Puducherry k diskuzi o mapování v Puducherry a dalších věcech.
     extendedDescription: FSHM pořádá akce týkající se svobodného softwaru/hardwaru, technologie, aktivismu a OpenStreetMap.
-  OSM-Reddit:
-    description: /r/{account} je dobré místo pro získání více informací o OpenStreetMap.  Zeptejte se na cokoliv!
   OSM-Rome-meetup:
     name: Incontro Mappatori Romani
     description: Vylepšete OpenStreetMap na území Říma
@@ -806,8 +815,8 @@ cs:
     extendedDescription: OpenStreetMap (OSM) Jižní Kalifornie je pro každého, kdo se zajímá o mapování, aby se spojil a pracoval s OpenStreetMap. OpenStreetMap, Wikipedie map, je bezplatná mapa světa s otevřeným zdrojovým kódem, kterou vytváří více než 1 000 000 dobrovolníků po celém světě. Každý je vítán. Pokud OpenStreetMap neznáte, naučíme vás to. Pokud máte nápad na projekt mapování nebo dokonce exkurzi, kterou může skupina udělat, skvělé!
   OSM-South-Bay:
     name: OSM South Bay
-    description: Map Nights pořádané Code for San Jose
-    extendedDescription: Code for San Jose, místní brigáda Code for America, pořádá každý čtvrtek večer Map Nights v centru San José. Seznamte se s dalšími mapovači South Bay, pomozte s místními mapovacími projekty a poslechněte si další občanské technologické projekty. Nejsou vyžadovány znalosti programování a GIS.
+    description: Map Nights pořádané Code for San José
+    extendedDescription: Code for San José pořádá každý měsíc v úterý večer Map Nights. Seznamte se s dalšími mapovači South Bay, pomozte s místními mapovacími projekty a poslechněte si další občanské technologické projekty. Nejsou vyžadovány znalosti programování a GIS.
   OSM-Tampa-Bay:
     name: OpenStreetMap Tampa Bay
     description: Mapovači a uživatelé OpenStreetMap na území Tampa Bay

@@ -1,5 +1,6 @@
 br:
   _communities:
+    freelibreopensourcesoftwarekosovaflossk: Free Libre Open Source Software Kosova (FLOSSK)
     geolibres: GeoLibres
     kiribatiwomeninmapping: Kartennourezed Kiribati
     mappingbotswana: Kartennaouiñ Botswana
@@ -204,6 +205,7 @@ br:
       description: Kejit gant kartennour·ien/ezed all war zDiscord
       url: https://discord.gg/{account}
     discourse:
+      name: 'Forom ar gumuniezh {community}'
       description: Forom ofisiel {community}
       url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
@@ -404,6 +406,8 @@ br:
     description: 'Emezelit ouzh hor flap XMPP lies-implijer: {url}'
   DF-telegram:
     extendedDescription: Emezelit er gumuniezh evit deskiñ muioc'h diwar-benn OpenStreetMap, sevel goulennoù pe kemer perzh en emvodoù. An holl 'zo deuet mat!
+  dk-discourse:
+    description: Ur forom flapañ diwar-benn OpenStreetMap e Danmark
   fr-35-wiki:
     description: 'Pajenn Wiki {community}'
   fr-38-wiki:
@@ -605,6 +609,8 @@ br:
     description: Kartennour·ien/ezed hag implijer·ien/ezed OpenStreetMap e Japan
   OSM-japan-website:
     description: Kartennour·ien/ezed hag implijer·ien/ezed OpenStreetMap e Japan
+  osm-kenya-facebook:
+    description: OSM Kenya a zo ur gumuniezh implijerien/ezed ha kenlabourerien/ezed OSM
   OSM-Kerala-facebook:
     description: Gwellaat OpenStreetMap e Kerala
   osm-kerala-github:
@@ -636,8 +642,6 @@ br:
   OSM-Portland-forum:
     name: Strollad Google OpenStreetMap PDX
     description: Forom ha lizher-kelaouiñ implijerien OpenStreetMap rannvro Portland
-  OSM-Reddit:
-    description: /r/{account} a zo ul lec'h dispar evit deskiñ muioc'h diwar-benn OpenStreetMap. Savit ho koulennoù ouzhimp!
   OSM-Rome-meetup:
     description: Gwellaat OpenStreetMap tro-dro da Roma
   OSM-Seattle:
@@ -727,6 +731,8 @@ br:
     description: 'Pajenn Wiki {community}'
   uk-loomio:
     name: OpenStreetMap UK war Loomio
+  us-discourse:
+    description: Ur forom flapañ diwar-benn OpenStreetMap er Stadoù-Unanet
   us-massachusetts-mailinglist:
     name: Lizher-kelaouiñ Talk-us-massachusetts
     description: Lizher-kelaouiñ kumuniezh OSM Massachusetts

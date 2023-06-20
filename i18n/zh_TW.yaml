@@ -1,11 +1,13 @@
 zh_TW:
   _communities:
+    freelibreopensourcesoftwarekosovaflossk: 自由與開放軟體科索沃 (FLOSSK)
     geolibres: 地理自由
     kiribatiwomeninmapping: 吉里巴斯女性在畫地圖
     mappingbotswana: 畫波札那的地圖
     maptimebogota: 波哥大地圖時間
     maptimehrva: 地圖時間HRVA
     openstreetmap: 開放街圖
+    openstreetmapaachen: 開放街圖亞琛
     openstreetmapafghanistan: 開放街圖阿富汗
     openstreetmapafrica: 開放街圖非洲
     openstreetmapalba: 開放街圖阿爾巴
@@ -19,6 +21,7 @@ zh_TW:
     openstreetmapbangladesh: 開放街圖孟加拉
     openstreetmapbelarus: 開放街圖白羅斯
     openstreetmapbelgium: 開放街圖比利時
+    openstreetmapbelize: 開放街圖貝里斯
     openstreetmapbenin: 開放街圖貝南
     openstreetmapberlin: 開放街圖柏林
     openstreetmapbivccvl: 開放街圖BI-VC-CVL
@@ -202,6 +205,7 @@ zh_TW:
       description: 在 Discord 與其他製圖者取得聯繫
       url: https://discord.gg/{account}
     discourse:
+      name: '{community} 社群論壇'
       description: '{community} 的官方論壇'
       url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
@@ -371,6 +375,8 @@ zh_TW:
     description: 開放街圖捷克連線互連 Discord、IRC、Jabber 與 Matrix 的空間
   czech-xmpp:
     description: 開放街圖捷克連線互連 Discord、IRC、Matrix 與 Telegram 的空間
+  de-aachen-wiki:
+    description: '{community} Wiki 頁面'
   de-berlin-mailinglist:
     name: 柏林郵件論壇
   de-berlin-wiki:
@@ -689,6 +695,7 @@ zh_TW:
   OSM-Discord:
     name: 開放街圖世界 Discord
   OSM-Discourse:
+    name: 開放街圖社群論壇
     description: 討論開放街圖的共享空間
   OSM-Facebook:
     description: 在 Facebook 為我們按讚，追蹤開放街圖相關的新聞和動態。
@@ -793,8 +800,6 @@ zh_TW:
     name: 自由軟體硬體運動 - 郵件清單
     description: FSHM Puducherry 郵件清單用來討論在 Puducherry 的製圖與其他事情。
     extendedDescription: FSHM 會組織關於自由軟體／硬體、科技、行動與開放街圖的活動。
-  OSM-Reddit:
-    description: /r/{account} 是一個取得更多關於 OpenStreetMap 資訊的好地方。什麼事都能問！
   OSM-Rome-meetup:
     name: Incontro Mappatori Romani
     description: 改善羅馬區域的開放街圖
@@ -811,7 +816,7 @@ zh_TW:
   OSM-South-Bay:
     name: OSM South Bay
     description: 由為聖荷西寫程式主辦的地圖之夜
-    extendedDescription: 為聖荷西寫程式是為美國寫程式的地區分支，週四晚上在聖荷西市中心舉辦每月地圖之夜。結識南灣區的圖客，與當地的製圖專案交流，聽聽其他的公民科技專案。寫程式或 GIS 相關技能都並非必要。
+    extendedDescription: 為聖荷西寫程式是為美國寫程式的地區分支，週二晚上在聖荷西市中心舉辦每兩週地圖之夜。結識南灣區的圖客，與當地的製圖專案交流，聽聽其他的公民科技專案。寫程式或 GIS 相關技能都並非必要。
   OSM-Tampa-Bay:
     name: 開放街圖坦帕灣
     description: 坦帕灣的圖客與開放街圖使用者

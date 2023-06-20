@@ -1,16 +1,19 @@
 vi:
   _communities:
+    freelibreopensourcesoftwarekosovaflossk: Phần mềm Tự do Nguồn mở Kosovo (FLOSSK)
     geolibres: GeoLibres
     kiribatiwomeninmapping: Người nữ Kiribati Lập Bản đồ
     mappingbotswana: Mapping Botswana
     maptimebogota: MaptimeBogota
     maptimehrva: MaptimeHRVA
     openstreetmap: OpenStreetMap
+    openstreetmapaachen: OpenStreetMap Aachen
     openstreetmapafghanistan: OpenStreetMap Afghanistan
     openstreetmapafrica: OpenStreetMap châu Phi
     openstreetmapalba: OpenStreetMap Scotland
     openstreetmapalbania: OpenStreetMap Albania
     openstreetmapargentina: OpenStreetMap Argentina
+    openstreetmaparmenia: OpenStreetMap Armenia
     openstreetmapasia: OpenStreetMap châu Á
     openstreetmapasti: OpenStreetMap Asti
     openstreetmapaustria: OpenStreetMap Áo
@@ -18,6 +21,7 @@ vi:
     openstreetmapbangladesh: OpenStreetMap Bangladesh
     openstreetmapbelarus: OpenStreetMap Belarus
     openstreetmapbelgium: OpenStreetMap Bỉ
+    openstreetmapbelize: OpenStreetMap Belize
     openstreetmapbenin: OpenStreetMap Bénin
     openstreetmapberlin: OpenStreetMap Berlin
     openstreetmapbivccvl: OpenStreetMap Biella–Vercelli–Canavese
@@ -111,6 +115,7 @@ vi:
     openstreetmapliberia: OpenStreetMap Liberia
     openstreetmaplibya: OpenStreetMap Libya
     openstreetmaplithuania: OpenStreetMap Litva
+    openstreetmapljubljana: OpenStreetMap Ljubljana
     openstreetmaplombardia: OpenStreetMap Lombardia
     openstreetmaplondon: OpenStreetMap Luân Đôn
     openstreetmapluneburg: OpenStreetMap Lüneburg
@@ -136,7 +141,9 @@ vi:
     openstreetmapnicaragua: OpenStreetMap Nicaragua
     openstreetmapniger: OpenStreetMap Niger
     openstreetmapnigeria: OpenStreetMap Nigeria
+    openstreetmapnorthkorea: OpenStreetMap Bắc Triều Tiên
     openstreetmapnorway: OpenStreetMap Na Uy
+    openstreetmapoceania: OpenStreetMap Châu Đại Dương
     openstreetmapottawa: OpenStreetMap Ottawa
     openstreetmappakistan: OpenStreetMap Pakistan
     openstreetmappanama: OpenStreetMap Panama
@@ -173,6 +180,7 @@ vi:
     openstreetmaptogo: OpenStreetMap Togo
     openstreetmaptoronto: OpenStreetMap Toronto
     openstreetmaptunisia: OpenStreetMap Tunisia
+    openstreetmapturin: OpenStreetMap Torino
     openstreetmapturkey: OpenStreetMap Thổ Nhĩ Kỳ
     openstreetmapuganda: OpenStreetMap Uganda
     openstreetmapuk: OpenStreetMap Vương quốc Anh
@@ -197,6 +205,7 @@ vi:
       description: Liên lạc với những người lập bản đồ khác tại Discord
       url: https://discord.gg/{account}
     discourse:
+      name: 'Diễn đàn Cộng đồng {community}'
       description: Diễn đàn chính thức của {community}
       url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
@@ -226,6 +235,9 @@ vi:
       name: 'Danh sách thư {account}'
       description: Danh sách thư chính thức của {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
+    mastodon:
+      name: 'Tài khoản Mastodon {community}'
+      description: Tài khoản Mastodon chính thức của {community}
     matrix:
       name: 'Trò chuyện Matrix {community}'
       description: Hãy tham gia trò chuyện cộng đồng Matrix của chúng ta
@@ -242,6 +254,9 @@ vi:
     reddit:
       name: '{community} tại Reddit'
       url: https://www.reddit.com/r/{account}
+    signal:
+      name: 'Signal {community}'
+      description: Hãy tham gia trò chuyện cộng đồng Signal của chúng ta
     slack:
       name: 'Slack {community}'
     telegram:
@@ -252,6 +267,8 @@ vi:
       name: '{community} tại Twitter'
       description: Theo dõi chúng tôi tại Twitter
       url: https://twitter.com/{account}
+    website:
+      name: '{community}'
     wiki:
       name: 'Dự án Wiki {community}'
       url: https://wiki.openstreetmap.org/wiki/{account}?uselang=vi
@@ -261,6 +278,9 @@ vi:
       name: '{community} tại YouTube'
       description: Đăng ký kênh YouTube của chúng ta
       url: https://www.youtube.com/channel/{account}
+    zulip:
+      name: 'Zulip {community}'
+      description: Hãy tham gia trò chuyện cộng đồng Zulip của chúng ta
   aberdeen-discord:
     name: Discord OpenStreetMap Aberdeen
   af-matrix:
@@ -328,12 +348,28 @@ vi:
     extendedDescription: Mời mọi người tham gia cộng đồng để tìm hiểu thêm về OpenStreetMap, hỏi đáp, và tham dự các cuộc họp mặt của chúng ta.
   co-facebook:
     extendedDescription: Mời mọi người tham gia cộng đồng để tìm hiểu thêm về OpenStreetMap. Mời mọi người tham gia!
+  Code-for-San-Jose-Discord:
+    name: Discord Code for San José
+    description: 'Liên lạc với những người lập bản đồ trên Discord! Sau khi đăng nhập, hãy ghé vào kênh #🗺openstreetmap.'
   Code-for-San-Jose-Slack:
+    name: Slack Code for San José
     description: 'Mời bạn tham gia tại {signupUrl}, rồi tham gia kênh #proj-osm.'
   comunitat-valenciana-wiki:
     description: 'Mọi điều cần biết để lập bản đồ tại Cộng đồng Valencia: {url}'
   czech-community:
     description: Trang bản đồ và thông tin liên lạc với thành viên OSM tại Séc
+  czech-discord:
+    description: Phòng OpenStreetMap Séc được liên kết với IRC, Jabber, Matrix, và Telegram
+  czech-irc:
+    description: Phòng OpenStreetMap Séc được liên kết với Discord, Jabber, Matrix, và Telegram
+  czech-matrix:
+    description: Phòng OpenStreetMap Séc được liên kết với Discord, IRC, Jabber, và Telegram
+  czech-telegram:
+    description: Phòng OpenStreetMap Séc được liên kết với Discord, IRC, Jabber, và Matrix
+  czech-xmpp:
+    description: Phòng OpenStreetMap Séc được liên kết với Discord, IRC, Matrix, và Telegram
+  de-aachen-wiki:
+    description: 'Trang Wiki {community}'
   de-berlin-mailinglist:
     name: Danh sách thư Berlin
   de-berlin-wiki:
@@ -438,6 +474,8 @@ vi:
     name: 'Nhóm Facebook {community}'
   hu-meetup:
     description: Trang tổ chức cuộc họp mặt tại Hungary
+  hu-mobilizon:
+    name: '{community} tại Mobilizon'
   hu-website:
     description: Chúng ta giúp phát triển và cải thiện OpenStreetMap tại Hungary.
   hu-wiki:
@@ -464,9 +502,13 @@ vi:
     description: Chúng ta giúp phát triển và cải thiện OpenStreetMap tại Ý.
   ko-facebook:
     description: Những người lập bản đồ và người dùng OpenStreetMap ở Triều Tiên
+  ko-github:
+    description: 'GitHub {community}'
   kosovo-flossk:
     name: Phần mềm Tự do Nguồn mở Kosovo (FLOSSK)
     description: Ủng hộ phần mềm tự do nguồn mở từ năm 2009.
+  kp-wiki:
+    description: 'Hướng dẫn Lập bản đồ {community}'
   latam-facebook:
     description: Nhóm Facebook của những người lập bản đồ OpenStreetMap ở Mỹ Latinh
   latam-telegram:
@@ -611,6 +653,7 @@ vi:
   OSM-Discord:
     name: Discord OpenStreetMap Thế giới
   OSM-Discourse:
+    name: Diễn đàn Cộng đồng OpenStreetMap
     description: Thảo luận chung về OpenStreetMap
   OSM-Facebook:
     description: Thích chúng tôi tại Facebook để nhận tin tức và cập nhật về OpenStreetMap.
@@ -705,8 +748,6 @@ vi:
   OSM-Puducherry-Mailing-List:
     name: Phong trào Phần cứng Phần mềm Nguồn mở – danh sách thư
     description: Danh sách thư Puducherry FSHM để thảo luận về lập bản đồ tại Puducherry và những thứ khác.
-  OSM-Reddit:
-    description: /r/{account} là nơi để tìm hiểu thêm về OpenStreetMap. Có thắc mắc thì hỏi ở đây!
   OSM-Rome-meetup:
     name: Incontro Mappatori Romani
     description: Cải thiện OpenStreetMap tại khu vực Rôma
@@ -720,8 +761,6 @@ vi:
     extendedDescription: OpenStreetMap Nam Ca Li liên hiệp những người nào quan tâm về bản đồ để ủng hộ OpenStreetMap. OSM là Wikipedia của bản đồ, tức bản đồ thế giới mở do hơn một triệu người tình nguyện xây dựng ở khắp thế giới. Mời mọi người tham gia. Nếu bạn chưa biết đến OpenStreetMap, chúng tôi sẽ giới thiệu cho bạn. Nếu bạn có ý niệm bắt đầu dự án bản đồ hoặc dẫn nhóm đi nơi nào, tuyệt vời!
   OSM-South-Bay:
     name: OSM Miền Nam Vùng Vịnh
-    description: Buổi tối Bản đồ do Code for San Jose tổ chức
-    extendedDescription: Code for San Jose là nhánh Code for America địa phương tổ chức các Buổi tối Bản đồ hàng tháng vào tối thứ 5 dưới phố San José. Gặp mặt những người cùng lập bản đồ ở miền Nam Vùng Vịnh, giúp đỡ các dự án xây dựng bản đồ địa phương, và tìm hiểu về các dự án công nghệ công dân (civic tech) khác. Không nhất thiết phải có kinh nghiệm lập trình hoặc GIS.
   OSM-Tampa-Bay:
     name: OpenStreetMap Vịnh Tampa
     description: Những người lập bản đồ và người dùng OpenStreetMap ở vùng vịnh Tampa
@@ -741,6 +780,9 @@ vi:
   OSM-US:
     description: Chúng ta giúp phát triển và cải thiện OpenStreetMap tại Hoa Kỳ.
     extendedDescription: 'Chúng ta giúp OpenStreetMap bằng cách tổ chức các hội nghị hàng năm, cung cấp tài nguyên cộng đồng, tạo quan hệ đối tác, và truyền bá dự án. Mời tham gia OpenStreetMap Hoa Kỳ tại đây: {signupUrl}'
+    events:
+      mappingusa2022:
+        name: Mapping USA 2022
   OSM-US-Slack:
     description: Mời bạn tham gia tại {signupUrl}
   OSM-Utah:
@@ -773,6 +815,12 @@ vi:
     extendedDescription: Mời mọi người tham gia cộng đồng để tìm hiểu thêm về OpenStreetMap, hỏi đáp, và tham dự các cuộc họp mặt của chúng ta.
   rs-wiki:
     description: Trang wiki về dự án Serbia
+  si-github:
+    description: 'GitHub {community}'
+  si-ljubljana-wiki:
+    description: 'Trang Wiki {community}'
+  si-wiki:
+    description: 'Trang Wiki {community}'
   talk-au:
     description: Nơi trò chuyện của những người Úc lập bản đồ
   talk-bo:

@@ -1,11 +1,13 @@
 sv:
   _communities:
+    freelibreopensourcesoftwarekosovaflossk: Free Libre Open Source Software Kosova (FLOSSK)
     geolibres: GeoLibres
     kiribatiwomeninmapping: Kiribati-kvinnor i kartläggning
     mappingbotswana: Kartlägg Botswana
     maptimebogota: MaptimeBogota
     maptimehrva: MaptimeHRVA
     openstreetmap: OpenStreetMap
+    openstreetmapaachen: OpenStreetMap Aachen
     openstreetmapafghanistan: OpenStreetMap Afghanistan
     openstreetmapafrica: OpenStreetMap Afrika
     openstreetmapalba: OpenStreetMap Alba
@@ -19,6 +21,7 @@ sv:
     openstreetmapbangladesh: OpenStreetMap Bangladesh
     openstreetmapbelarus: OpenStreetMap Belarus
     openstreetmapbelgium: OpenStreetMap Belgien
+    openstreetmapbelize: OpenStreetMap Belize
     openstreetmapbenin: OpenStreetMap Benin
     openstreetmapberlin: OpenStreetMap Berlin
     openstreetmapbivccvl: OpenStreetMap BI-VC-CVL
@@ -202,6 +205,7 @@ sv:
       description: Kom i kontakt med andra kartläggare på Discord
       url: https://discord.gg/{account}
     discourse:
+      name: 'Gemenskapsforum för {community}'
       description: Officiella forumet för {community}
       url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
@@ -371,6 +375,8 @@ sv:
     description: Rummet OpenStreetMap CZ bryggar med Discord, IRC, Jabber och Matrix
   czech-xmpp:
     description: Rummet OpenStreetMap CZ bryggar med Discord, IRC, Matrix och Telegram
+  de-aachen-wiki:
+    description: 'Wiki-sida för {community}'
   de-berlin-mailinglist:
     name: E-postlista för Berlin
   de-berlin-wiki:
@@ -689,6 +695,7 @@ sv:
   OSM-Discord:
     name: OpenStreetMap World Discord
   OSM-Discourse:
+    name: Gemenskapsforum för OpenStreetMap
     description: En delad plats för samtal om OpenStreetMap
   OSM-Facebook:
     description: Gilla oss på Facebook för nyheter och uppdateringar om OpenStreetMap
@@ -793,8 +800,6 @@ sv:
     name: Rörelsen för fri mjukvara och hårdvara – E-postlista
     description: E-postlistan FSHM Puducherry för att diskutera kartläggning i Puducherry  och andra saker.
     extendedDescription: FSHM organiserar evenemang relaterade till fri mjukvara/hårdvara, teknologi, aktivism och OpenStreetMap.
-  OSM-Reddit:
-    description: /r/{account} är ett bra ställe att lära sig mer om OpenStreetMap.  Fråga om vad som helst!
   OSM-Rome-meetup:
     name: Incontro Mappatori Romani
     description: Förbättra OpenStreetMap kring Rom
@@ -810,8 +815,8 @@ sv:
     extendedDescription: OpenStreetMap (SOM) Södra Kalifornien är för alla intresserade av kartläggning för att komma tillsammans för att arbeta med OpenStreetMap. OpenStreetMap, Wikipedia för kartor, är en gratis open source-karta över hela världen som skapats av mer än 1 000 000 volontärer runt hela världen. Alla är välkomna. Om du inte känner till OpenStreetMap lär vi dig. Om du har en idé kring ett kartläggningsprojekt, eller en t.o.m. en studieresa som en grupp människor kan göra, har du fullt stöd från oss!
   OSM-South-Bay:
     name: OSM South Bay
-    description: Kartkvällar arrangerade av Code for San Jose
-    extendedDescription: Code for San Jose, den lokala Code for America-brigaden, arrangerar en gång i månaden kart-kvällar på en torsdag kväll i centrala San José. Träffa andra kartläggare från South Bay, hjälp till i kartläggningsprojekt och hör om andra medborgarorienterade teknikprojekt. Programmerings- och GIS-kunskap är inget krav.
+    description: Kartkvällar arrangerade av Code for San José
+    extendedDescription: Code for San José arrangerar varannan torsdag en kart-kvällar. Träffa andra kartläggare från South Bay, hjälp till i kartläggningsprojekt och hör om andra medborgarorienterade teknikprojekt. Programmerings- och GIS-kunskap är inget krav.
   OSM-Tampa-Bay:
     name: OpenStreetMap Tampa Bay
     description: Kartläggare och OpenStreetMap-användare runt Tampa Bay

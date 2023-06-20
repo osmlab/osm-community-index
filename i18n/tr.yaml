@@ -1,11 +1,13 @@
 tr:
   _communities:
+    freelibreopensourcesoftwarekosovaflossk: Free Libre Open Source Software Kosova (FLOSSK)
     geolibres: GeoLibres
     kiribatiwomeninmapping: Kiribati Women in Mapping
     mappingbotswana: Mapping Botswana
     maptimebogota: MaptimeBogota
     maptimehrva: MaptimeHRVA
     openstreetmap: OpenStreetMap
+    openstreetmapaachen: OpenStreetMap Aachen
     openstreetmapafghanistan: OpenStreetMap Afganistan
     openstreetmapafrica: OpenStreetMap Afrika
     openstreetmapalba: OpenStreetMap Alba
@@ -19,6 +21,7 @@ tr:
     openstreetmapbangladesh: OpenStreetMap Bangladeş
     openstreetmapbelarus: OpenStreetMap Beyaz Rusya
     openstreetmapbelgium: OpenStreetMap Belçika
+    openstreetmapbelize: OpenStreetMap Belize
     openstreetmapbenin: OpenStreetMap Benin
     openstreetmapberlin: OpenStreetMap Berlin
     openstreetmapbivccvl: OpenStreetMap BI-VC-CVL
@@ -202,6 +205,7 @@ tr:
       description: Get in touch with other mappers on Discord
       url: https://discord.gg/{account}
     discourse:
+      name: '{community} Community Forum'
       description: The official forum for {community}
       url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
@@ -351,7 +355,11 @@ tr:
     extendedDescription: Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!
   co-facebook:
     extendedDescription: Join the community to learn more about OpenStreetMap. Everyone is welcome!
+  Code-for-San-Jose-Discord:
+    name: Code for San José Discord
+    description: 'Get in touch with other mappers on Discord! After signing up, join the #🗺openstreetmap channel.'
   Code-for-San-Jose-Slack:
+    name: Code for San José Slack
     description: 'All are welcome! Sign up at {signupUrl}, then join the #proj-osm channel.'
   comunitat-valenciana-wiki:
     description: 'Everything you need to know about mapping in Valencian Community: {url}'
@@ -367,6 +375,8 @@ tr:
     description: OpenStreetMap CZ room bridged with Discord, IRC, Jabber and Matrix
   czech-xmpp:
     description: OpenStreetMap CZ room bridged with Discord, IRC, Matrix and Telegram
+  de-aachen-wiki:
+    description: '{community} Wiki page'
   de-berlin-mailinglist:
     name: Berlin E-posta Listesi
   de-berlin-wiki:
@@ -685,6 +695,7 @@ tr:
   OSM-Discord:
     name: OpenStreetMap World Discord
   OSM-Discourse:
+    name: OpenStreetMap Community Forum
     description: A shared place for conversations about OpenStreetMap
   OSM-Facebook:
     description: OpenStreetMap ile ilgili haberler ve güncellemeler için bizi Facebook'ta beğenin.
@@ -789,8 +800,6 @@ tr:
     name: Özgür Yazılım Donanım Hareketi - E-posta Listesi
     description: Puducherry'deki haritalama ve diğer şeyler hakkında görüşmek için FSHM Puducherry e-posta listesi
     extendedDescription: FSHM yazılım/donanım, teknoloji, aktivizm ve OpenStreetMap ile ilgili ücretsiz etkinlikler düzenler.
-  OSM-Reddit:
-    description: /r/{account} is a great place to learn more about OpenStreetMap.  Ask us anything!
   OSM-Rome-meetup:
     name: Romalı Haritacılar Toplantısı
     description: Roma bölgesinde OpenStreetMap'i geliştirin
@@ -806,8 +815,8 @@ tr:
     extendedDescription: OpenStreetMap (OSM) Güney California, OpenStreetMap ile çalışmak için bir araya gelmek üzere haritalama ile ilgilenen herkes içindir. Haritaların Wikipedia'sı olan OpenStreetMap, dünya çapında 1.000.000'dan fazla gönüllü tarafından oluşturulan dünyanın ücretsiz bir açık kaynaklı haritasıdır. Herkese açığız. OpenStreetMap'i bilmiyorsanız size öğreteceğiz. Bir haritalama projesi hatta grubun yapabileceği bir okul gezisi fikriniz varsa, harika!
   OSM-South-Bay:
     name: OSM Güney Körfezi
-    description: Code for San Jose tarafından ev sahipliği yapılan Harita Geceleri
-    extendedDescription: Code for San Jose, yerel Code for America birimi, San José şehir merkezinde Perşembe geceleri aylık Harita Geceleri düzenliyor. Diğer South Bay haritacılarıyla tanışın, yerel haritalama projelerine yardım edin ve diğer sivil teknoloji projeleri hakkında bilgi edinin. Programlama ve CBS becerileri gerekli değildir.
+    description: Map Nights hosted by Code for San José
+    extendedDescription: Code for San José hosts biweekly Map Nights on Tuesday nights. Meet fellow South Bay mappers, help out with local mapping projects, and hear about other civic tech projects. Programming and GIS skills are not required.
   OSM-Tampa-Bay:
     name: OpenStreetMap Tampa Körfezi
     description: 'Tampa Körfezi bölgesindeki haritacılar ve OpenStreetMap kullanıcıları '
