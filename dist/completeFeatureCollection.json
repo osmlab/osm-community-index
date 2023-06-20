@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.5.2",
-    "generated": "2023-06-13T18:10:29.468Z",
+    "generated": "2023-06-20T15:17:20.666Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "d81e9d91e227d5d8a6d28c3e4f6d1ed8"
+    "hash": "a6a73ab5ac978e16635b30499b2909b1"
   },
   "type": "FeatureCollection",
   "features": [
@@ -31569,30 +31569,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@openstreetmap\">OpenStreetMap Mastodon Account</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@openstreetmap\">https://en.osm.town/@openstreetmap</a>",
               "descriptionHTML": "The official Mastodon account for OpenStreetMap"
-            }
-          },
-          "OSM-Reddit": {
-            "id": "OSM-Reddit",
-            "type": "reddit",
-            "account": "openstreetmap",
-            "locationSet": {"include": ["001"]},
-            "languageCodes": ["en"],
-            "order": 2,
-            "strings": {
-              "community": "OpenStreetMap",
-              "communityID": "openstreetmap",
-              "description": "/r/{account} is a great place to learn more about OpenStreetMap.  Ask us anything!"
-            },
-            "contacts": [
-              {"name": "Serge Wroclawski", "email": "emacsen@gmail.com"}
-            ],
-            "resolved": {
-              "name": "OpenStreetMap on Reddit",
-              "url": "https://www.reddit.com/r/openstreetmap",
-              "description": "/r/openstreetmap is a great place to learn more about OpenStreetMap.  Ask us anything!",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.reddit.com/r/openstreetmap\">OpenStreetMap on Reddit</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.reddit.com/r/openstreetmap\">https://www.reddit.com/r/openstreetmap</a>",
-              "descriptionHTML": "<a target=\"_blank\" href=\"https://www.reddit.com/r/openstreetmap\">/r/openstreetmap</a> is a great place to learn more about OpenStreetMap.  Ask us anything!"
             }
           },
           "OSM-Telegram": {
