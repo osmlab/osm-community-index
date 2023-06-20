@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "5.5.2",
-    "generated": "2023-06-20T15:17:20.666Z",
+    "version": "5.5.3",
+    "generated": "2023-06-20T15:55:23.510Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "a6a73ab5ac978e16635b30499b2909b1"
+    "hash": "16369b9d5b695d90c71c2aa4a0b22297"
   },
   "type": "FeatureCollection",
   "features": [
@@ -3659,6 +3659,25 @@
               "descriptionHTML": "Get in touch with other mappers on Discord"
             }
           },
+          "br-discourse": {
+            "id": "br-discourse",
+            "type": "discourse",
+            "account": "br",
+            "locationSet": {"include": ["br"]},
+            "languageCodes": ["pt"],
+            "strings": {
+              "community": "OpenStreetMap Brasil",
+              "communityID": "openstreetmapbrasil"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Brasil Community Forum",
+              "url": "https://community.openstreetmap.org/c/communities/br",
+              "description": "The official forum for OpenStreetMap Brasil",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/br\">OpenStreetMap Brasil Community Forum</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/br\">https://community.openstreetmap.org/c/communities/br</a>",
+              "descriptionHTML": "The official forum for OpenStreetMap Brasil"
+            }
+          },
           "br-telegram": {
             "id": "br-telegram",
             "type": "telegram",
@@ -5470,6 +5489,57 @@
         ]
       },
       "id": "Q974"
+    },
+    {
+      "type": "Feature",
+      "id": "ceara.geojson",
+      "properties": {
+        "osm_id": -302635,
+        "boundary": "administrative",
+        "admin_level": 4,
+        "parents": "-3360429,-59470",
+        "name": "Ceará",
+        "local_name": "Ceará",
+        "name_en": "Ceará",
+        "id": "ceara.geojson",
+        "area": 165880.52,
+        "resources": {
+          "CE-telegram": {
+            "id": "CE-telegram",
+            "type": "telegram",
+            "account": "osmce",
+            "locationSet": {"include": ["ceara.geojson"]},
+            "languageCodes": ["pt"],
+            "strings": {
+              "community": "OpenStreetMap Ceará",
+              "communityID": "openstreetmapceara"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Ceará Telegram",
+              "url": "https://t.me/osmce",
+              "description": "Join our community Telegram chat",
+              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/osmce\">OpenStreetMap Ceará Telegram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osmce\">https://t.me/osmce</a>",
+              "descriptionHTML": "Join our community Telegram chat"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [-41.4235, -3.36802],
+              [-39.8907, -2.65328],
+              [-37.11205, -4.64007],
+              [-38.96275, -7.84454],
+              [-40.52371, -7.31846],
+              [-41.4235, -3.36802]
+            ]
+          ]
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -34883,6 +34953,80 @@
             [-83.11, 41.95],
             [-83.41, 41.73],
             [-84.81, 41.69]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "us-oh.geojson",
+      "properties": {
+        "id": "us-oh.geojson",
+        "area": 114193.85,
+        "resources": {
+          "osm-ohio-wiki": {
+            "id": "osm-ohio-wiki",
+            "type": "wiki",
+            "account": "Ohio",
+            "locationSet": {"include": ["US-OH.geojson"]},
+            "languageCodes": ["en"],
+            "order": 5,
+            "strings": {
+              "community": "OpenStreetMap Ohio",
+              "communityID": "openstreetmapohio",
+              "description": "{community} Wiki page"
+            },
+            "contacts": [
+              {"name": "Jonathan Brier", "email": "OSMOH@brierjon.com"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Ohio WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Ohio",
+              "description": "OpenStreetMap Ohio Wiki page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Ohio\">OpenStreetMap Ohio WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Ohio\">https://wiki.openstreetmap.org/wiki/Ohio</a>",
+              "descriptionHTML": "OpenStreetMap Ohio Wiki page"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-82.17473, 38.60187],
+            [-82.32578, 38.44464],
+            [-82.57367, 38.4015],
+            [-82.67006, 38.51164],
+            [-82.87854, 38.66216],
+            [-83.66588, 38.63916],
+            [-84.12409, 38.7792],
+            [-84.30459, 38.98692],
+            [-84.43957, 39.09418],
+            [-84.82368, 39.10653],
+            [-84.80676, 41.67774],
+            [-83.46268, 41.69415],
+            [-83.19418, 41.91542],
+            [-82.32593, 41.586],
+            [-80.52051, 42.32439],
+            [-80.51859, 40.63356],
+            [-80.65755, 40.59083],
+            [-80.61523, 40.46384],
+            [-80.60207, 40.27811],
+            [-80.7378, 40.07963],
+            [-80.8671, 39.65908],
+            [-81.1828, 39.43027],
+            [-81.35104, 39.34753],
+            [-81.44891, 39.40915],
+            [-81.55524, 39.34484],
+            [-81.56641, 39.26632],
+            [-81.68965, 39.27261],
+            [-81.79075, 38.92826],
+            [-81.91413, 38.87761],
+            [-81.95012, 38.99908],
+            [-82.03267, 39.02495],
+            [-82.2113, 38.77092],
+            [-82.17473, 38.60187]
           ]
         ]
       }

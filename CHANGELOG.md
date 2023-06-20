@@ -19,6 +19,19 @@ _Breaking changes, which may affect downstream projects, are marked with a_ ⚠�
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.5.3
+##### 2023-Jun-20
+* Added:
+  * Ohio community wiki ([#660])
+  * Brazilian Discourse and Ceará state telegram ([#659])
+* Deleted:
+  * Removed `/r/openstreetmap` subreddit ([#662])
+
+[#659]: https://github.com/osmlab/osm-community-index/issues/659
+[#660]: https://github.com/osmlab/osm-community-index/issues/660
+[#662]: https://github.com/osmlab/osm-community-index/issues/662
+
+
 # 5.5.2
 ##### 2023-Apr-27
 * Updated:
