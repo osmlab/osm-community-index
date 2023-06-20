@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.5.2",
-    "generated": "2023-06-20T15:17:16.083Z",
+    "generated": "2023-06-20T15:29:26.411Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "8384cce013d82916151e0ccc53eb57be"
+    "hash": "17ad946e3c6e776788cbd650b75d98da"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -401,6 +401,7 @@
     "osm-michigan-facebook-group": {"id": "osm-michigan-facebook-group", "type": "facebook", "locationSet": {"include": ["US-MI.geojson"]}, "languageCodes": ["en"], "order": 5, "strings": {"community": "OpenStreetMap Michigan", "communityID": "openstreetmapmichigan", "name": "{community} Facebook Group", "description": "Discussion about mapping in Michigan.", "url": "https://www.facebook.com/groups/MichiganOSM/"}},
     "osm-michigan-wiki": {"id": "osm-michigan-wiki", "type": "wiki", "account": "Michigan", "locationSet": {"include": ["US-MI.geojson"]}, "languageCodes": ["en"], "order": 5, "strings": {"community": "OpenStreetMap Michigan", "communityID": "openstreetmapmichigan", "description": "{community} Wiki page"}},
     "osm-ni": {"id": "osm-ni", "type": "group", "locationSet": {"include": ["ni"]}, "languageCodes": ["es"], "strings": {"name": "MapaNica.net", "description": "Provide OSM services and information for the local community in Nicaragua", "url": "https://www.mapanica.net/"}},
+    "osm-ohio-wiki": {"id": "osm-ohio-wiki", "type": "wiki", "account": "Ohio", "locationSet": {"include": ["US-OH.geojson"]}, "languageCodes": ["en"], "order": 5, "strings": {"community": "OpenStreetMap Ohio", "communityID": "openstreetmapohio", "description": "{community} Wiki page"}, "contacts": [{"name": "Jonathan Brier", "email": "OSMOH@brierjon.com"}]},
     "OSM-Ottawa-meetup": {"id": "OSM-Ottawa-meetup", "type": "meetup", "account": "openstreetmap-ottawa", "locationSet": {"include": ["ottawa_gatineau.geojson"]}, "languageCodes": ["en", "fr"], "strings": {"community": "OpenStreetMap Ottawa", "communityID": "openstreetmapottawa", "description": "Mappers and OpenStreetMap users in the Ottawa area"}, "contacts": [{"name": "Denis Carriere", "email": "carriere.denis@gmail.com"}, {"name": "John Marshall", "email": "rps333@gmail.com"}]},
     "OSM-PE": {"id": "OSM-PE", "type": "osm", "locationSet": {"include": ["pe"]}, "languageCodes": ["es"], "strings": {"community": "OpenStreetMap Peru", "communityID": "openstreetmapperu", "description": "News and resources for the OpenStreetMap Peru community", "url": "https://osmpe.ourproject.org/"}, "contacts": [{"name": "Diego Sangunietti", "email": "diego.sanguinetti@hotmail.com"}, {"name": "Ruben Lopez M.", "email": "rub2106@gmail.com"}]},
     "OSM-PH-telegram": {"id": "OSM-PH-telegram", "type": "telegram", "account": "osmph", "locationSet": {"include": ["ph"]}, "languageCodes": ["en", "tl"], "order": 3, "strings": {"community": "OpenStreetMap Philippines", "communityID": "openstreetmapphilippines", "extendedDescription": "A friendly and very active Telegram group for OSM mappers and friends in the Philippines for small talk, light banter, and quick questions and answers."}, "contacts": [{"name": "OSM PH core team", "email": "osm.pilipinas@gmail.com"}]},
