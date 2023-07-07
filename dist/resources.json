@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.5.3",
-    "generated": "2023-06-20T15:55:22.578Z",
+    "generated": "2023-07-07T19:52:15.542Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "70a861445fc98a90c8c3a170c7fe9449"
+    "hash": "ec29c2276c51177b19ce03827e637e79"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -490,6 +490,7 @@
     "sn-twitter": {"id": "sn-twitter", "type": "twitter", "account": "OpenStreetMapSn", "locationSet": {"include": ["sn"]}, "strings": {"community": "OpenStreetMap Senegal", "communityID": "openstreetmapsenegal"}},
     "so-facebook": {"id": "so-facebook", "type": "facebook", "account": "OSMSomalia", "locationSet": {"include": ["so"]}, "strings": {"community": "OpenStreetMap Somalia", "communityID": "openstreetmapsomalia"}},
     "so-twitter": {"id": "so-twitter", "type": "twitter", "account": "osmsomalia", "locationSet": {"include": ["so"]}, "strings": {"community": "OpenStreetMap Somalia", "communityID": "openstreetmapsomalia"}},
+    "sosm": {"id": "sosm", "type": "osm-lc", "locationSet": {"include": ["ch"]}, "languageCodes": ["de", "en", "fr", "it"], "strings": {"community": "OpenStreetMap Switzerland", "communityID": "openstreetmapswitzerland", "name": "Swiss OpenStreetMap Association", "description": "SOSM was created to further the goals of the OpenStreetMap movement, to strengthen the contacts with authorities and industry, to facilitate the activities of OSM community members in Switzerland, and to represent the Swiss OSM community in other organisations.", "url": "https://sosm.ch/"}, "contacts": [{"name": "Swiss OpenStreetMap Association", "email": "board@sosm.ch"}]},
     "South-Tyrol-Mailing-List": {"id": "South-Tyrol-Mailing-List", "type": "mailinglist", "account": "talk-it-southtyrol", "locationSet": {"include": ["south-tyrol.geojson"]}, "languageCodes": ["de", "en", "it", "lld"], "order": -3, "strings": {"community": "OpenStreetMap Italy-South Tyrol", "communityID": "openstreetmapitalysouthtyrol"}, "contacts": [{"name": "Martin Raifer", "email": "tyr.asd@gmail.com"}]},
     "ss-facebook": {"id": "ss-facebook", "type": "facebook", "account": "OSMSouthSudan", "locationSet": {"include": ["ss"]}, "strings": {"community": "OpenStreetMap South Sudan", "communityID": "openstreetmapsouthsudan"}},
     "ss-twitter": {"id": "ss-twitter", "type": "twitter", "account": "osmsouthsudan", "locationSet": {"include": ["ss"]}, "strings": {"community": "OpenStreetMap South Sudan", "communityID": "openstreetmapsouthsudan"}},
