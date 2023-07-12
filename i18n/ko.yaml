@@ -1,15 +1,19 @@
 ko:
   _communities:
+    freelibreopensourcesoftwarekosovaflossk: 무료 자유 오픈소스 소프트웨어 코소보 (FLOSSK)
     geolibres: GeoLibres
+    kiribatiwomeninmapping: 매핑하는 키리바시 여성
     mappingbotswana: 맵핑 보츠와나
     maptimebogota: 맵타임보고타
     maptimehrva: 맵타임HRVA
     openstreetmap: 오픈스트리트맵
+    openstreetmapaachen: 오픈스트리트맵 아헨
     openstreetmapafghanistan: 오픈스트리트맵 아프가니스탄
     openstreetmapafrica: 오픈스트리트맵 아프리카
     openstreetmapalba: 오픈스트리트맵 아루바
     openstreetmapalbania: 오픈스트리트맵 알바니아
     openstreetmapargentina: 오픈스트리트맵 아르헨티나
+    openstreetmaparmenia: 오픈스트리트맵 아르메니아
     openstreetmapasia: 오픈스트리트맵 아시아
     openstreetmapasti: 오픈스트리트맵 아스티
     openstreetmapaustria: 오픈스트리트맵 오스트리아
@@ -17,6 +21,7 @@ ko:
     openstreetmapbangladesh: 오픈스트리트맵 방글라데시
     openstreetmapbelarus: 오픈스트리트맵 벨라루스
     openstreetmapbelgium: 오픈스트리트맵 벨기에
+    openstreetmapbelize: 오픈스트리트맵 벨리즈
     openstreetmapbenin: 오픈스트리트맵 베냉
     openstreetmapberlin: 오픈스트리트맵 베를린
     openstreetmapbivccvl: 오픈스트리트맵 BI-VC-CVL
@@ -36,6 +41,7 @@ ko:
     openstreetmapcanada: 오픈스트리트맵 캐나다
     openstreetmapcastillayleon: 오픈스트리트맵 카스티야이레온
     openstreetmapcatalancountries: '오픈스트리트맵 카탈루냐 '
+    openstreetmapceara: 오픈스트리트맵 세아라
     openstreetmapchad: 오픈스트리트맵 차드
     openstreetmapchile: 오픈스트리트맵 칠레
     openstreetmapchina: 오픈스트리트맵 중국
@@ -138,6 +144,7 @@ ko:
     openstreetmapnorthkorea: 오픈스트리트맵 조선
     openstreetmapnorway: 오픈스트리트맵 노르웨이
     openstreetmapoceania: 오픈스트리트맵 오세아니아
+    openstreetmapohio: 오픈스트리트맵 오하이오
     openstreetmapottawa: 오픈스트리트맵 오타와
     openstreetmappakistan: 오픈스트리트맵 파키스탄
     openstreetmappanama: 오픈스트리트맵 파나마
@@ -147,12 +154,14 @@ ko:
     openstreetmappiemonte: 오픈스트리트맵 피에몬테
     openstreetmappoland: 오픈스트리트맵 폴란드
     openstreetmapportugal: 오픈스트리트맵 포르투갈
+    openstreetmapreunion: 오픈스트리트맵 레위니옹
     openstreetmapromania: 오픈스트리트맵 루마니아
     openstreetmaprussia: 오픈스트리트맵 러시아
     openstreetmaprwanda: 오픈스트리트맵 르완다
     openstreetmapsaudiarabia: 오픈스트리트맵 사우디아라비아
     openstreetmapsenegal: 오픈스트리트맵 세네갈
     openstreetmapserbia: 오픈스트리트맵 세르비아
+    openstreetmapseychelles: 오픈스트리트맵 세이셸
     openstreetmapsierraleone: 오픈스트리트맵 시에라리온
     openstreetmapslovenia: 오픈스트리트맵 슬로베니아
     openstreetmapsomalia: 오픈스트리트맵 소말리아
@@ -167,6 +176,9 @@ ko:
     openstreetmaptanzania: 오픈스트리트맵 탄자니아
     openstreetmapthailand: 오픈스트리트맵 태국
     openstreetmaptogo: 오픈스트리트맵 토고
+    openstreetmaptoronto: 오픈스트리트맵 토론토
+    openstreetmaptunisia: 오픈스트리트맵 튀니지
+    openstreetmapturin: 오픈스트리트맵 토리노
     openstreetmapturkey: 오픈스트리트맵 튀르키예
     openstreetmapuganda: 오픈스트리트맵 우간다
     openstreetmapuk: 오픈스트리트맵 영국
@@ -176,22 +188,102 @@ ko:
     openstreetmapuzbekistan: 오픈스트리트맵 우즈베키스탄
     openstreetmapvenezuela: 오픈스트리트맵 베네수엘라
     openstreetmapvietnam: 오픈스트리트맵 베트남
+    openstreetmapwarszawa: 오픈스트리트맵 바르샤바
     openstreetmapwesternsahara: 오픈스트리트맵 서사하라
     openstreetmapzambia: 오픈스트리트맵 잠비아
     openstreetmapzimbabwe: 오픈스트리트맵 짐바브웨
   _defaults:
     discord:
       name: '{community} 디스코드'
+      description: Discord로 다른 매퍼들과 소통하세요
+      url: https://discord.gg/{account}
     discourse:
+      name: '{community} 커뮤니티 포럼'
       description: '{community}의 공식 포럼'
+      url: https://community.openstreetmap.org/c/communities/{account}
+    facebook:
+      name: '{community}의 페이스북'
+      description: 저희 페이스북 커뮤니티에 참여하세요
+      url: https://www.facebook.com/{account}
     forum:
+      name: '{community} 포럼'
       description: '{community}의 공식 포럼'
+    github:
+      name: '{community} 깃헙'
+      url: https://github.com/{account}
+    gitlab:
+      name: '{community} 깃랩'
+      url: https://gitlab.com/{account}
+    group:
+      name: '{community}'
+    irc:
+      name: '{community}의 IRC'
+      description: 'irc.oftc.net(6667 포트)의 #{account} 대화방에 참여하세요'
+      url: https://webchat.oftc.net/?channels={account}
+    linkedin:
+      name: '{community}의 링크드인'
+      description: 저희 링크드인 커뮤니티에 참여하세요
+      url: https://www.linkedin.com/company/{account}
     mailinglist:
+      name: '{account} 메일링 리스트'
       description: '{community}의 공식 메일링 리스트'
+      url: https://lists.openstreetmap.org/listinfo/{account}
+    mastodon:
+      name: '{community} 마스토돈 계정'
+      description: '{community}의 공식 마스토돈 계정'
+    matrix:
+      name: '{community} 매트릭스 채팅'
+      description: 저희 매트릭스 챗방에 참여하세요
+      url: https://matrix.to/#/{account}:matrix.org
+    meetup:
+      name: '{community} 밋업'
+      url: https://www.meetup.com/{account}
+    newsletter:
+      name: '{community} 뉴스레터'
+    osm:
+      name: '{community}'
+    osm-lc:
+      name: '{community}'
+    reddit:
+      name: '{community}의 레딧'
+      url: https://www.reddit.com/r/{account}
+    signal:
+      name: '{community} 시그널'
+      description: 저희 시그널 챗방에 참여하세요
+    slack:
+      name: '{community} 슬랙'
     telegram:
-      description: 우리 커뮤니티 텔레그램에 참여하세요
+      name: '{community} 텔레그램'
+      description: 우리 텔레그램 사랑방에 참여하세요
+      url: https://t.me/{account}
+    twitter:
+      name: '{community}의 트위터'
+      description: 저희 트위터를 팔로우 하세요
+      url: https://twitter.com/{account}
+    website:
+      name: '{community}'
+    wiki:
+      name: '{community} 위키프로젝트'
+      url: https://wiki.openstreetmap.org/wiki/{account}
+    xmpp:
+      name: '{community} XMPP'
+    youtube:
+      name: '{community}의 유투브'
+      description: 저희 유투브 채널을 구독하세요
+      url: https://www.youtube.com/channel/{account}
+    zulip:
+      name: '{community} 줄립'
+      description: 저희 커뮤니티 줄립 챗방에 참여하세요
+  aberdeen-discord:
+    name: OSM ABZ 디스코드
+  af-matrix:
+    description: 아프가니스탄 커뮤니티를 위한 매트릭스 그룹.
+  at-matrix:
+    description: 오스트리아 이용자의 비공식 독일어 매트릭스 채널
+  at-wiki:
+    description: '{community} 위키 문서'
   Bahia-telegram:
-    extendedDescription: 커뮤니티에 참여해서 OpenStreetMap에 대해 더 배우거나, 질문하거나, 미팅에 참여하세요. 누구나 환영합니다!
+    extendedDescription: 커뮤니티에 참여해서 오픈스트리트맵에 대해 더 배우거나, 질문하거나, 미팅에 참여하세요. 누구나, 언제든지 반깁니다!
   Bay-Area-OpenStreetMappers:
     name: Bay Area OpenStreet 기여자
     description: Bay Area 내 오픈스트리트맵 개선하기
