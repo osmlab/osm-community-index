@@ -32,6 +32,9 @@ Click "Add Release Notes" and link to the CHANGELOG
 
 ```bash
 curl 'https://purge.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/completeFeatureCollection.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index/dist/defaults.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index/dist/featureCollection.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index/dist/resources.min.json'
 curl 'https://purge.jsdelivr.net/npm/osm-community-index@5/dist/defaults.min.json'
 curl 'https://purge.jsdelivr.net/npm/osm-community-index@5/dist/featureCollection.min.json'
 curl 'https://purge.jsdelivr.net/npm/osm-community-index@5/dist/resources.min.json'

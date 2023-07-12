@@ -19,6 +19,21 @@ _Breaking changes, which may affect downstream projects, are marked with a_ ⚠�
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.5.4
+##### 2023-Jul-12
+* Bump dependencies, including location-conflation v1.2.1 / country-coder v5.2.1
+* Added:
+  * Swiss OSM local chapter ([#664])
+* Updated:
+  * Rename Code for San José to Open Source San José ([#666])
+* Deleted:
+  * Sacred Heart Junior College YouthMappers ([#665])
+
+[#664]: https://github.com/osmlab/osm-community-index/issues/664
+[#665]: https://github.com/osmlab/osm-community-index/issues/665
+[#666]: https://github.com/osmlab/osm-community-index/issues/666
+
+
 # 5.5.3
 ##### 2023-Jun-20
 * Added:

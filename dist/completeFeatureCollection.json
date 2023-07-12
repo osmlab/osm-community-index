@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "5.5.3",
-    "generated": "2023-06-20T15:55:23.510Z",
+    "version": "5.5.4",
+    "generated": "2023-07-12T14:34:58.456Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "16369b9d5b695d90c71c2aa4a0b22297"
+    "hash": "a37f4a0c8b0b3add7c5c9882d90af768"
   },
   "type": "FeatureCollection",
   "features": [
@@ -2047,7 +2047,6 @@
               "description": "Improve OpenStreetMap in the Bay Area",
               "extendedDescription": "This group is about growing the OpenStreetMap community here in the Bay Area. Our events are open to everyone, from open source enthusiasts, cyclists, GIS professionals, geocachers, and beyond. Anyone and everyone who is interested in maps, map making and free map data is welcome to join our group as well as attend our events."
             },
-            "contacts": [{"name": "Ben Discoe", "email": "bdiscoe@gmail.com"}],
             "resolved": {
               "name": "Bay Area OpenStreetMappers",
               "url": "https://www.meetup.com/Bay-Area-OpenStreetMappers",
@@ -6114,6 +6113,33 @@
               "urlHTML": "<a target=\"_blank\" href=\"https://osm.ch/\">https://osm.ch/</a>",
               "descriptionHTML": "The platform for information on OpenStreetMap in Switzerland"
             }
+          },
+          "sosm": {
+            "id": "sosm",
+            "type": "osm-lc",
+            "locationSet": {"include": ["ch"]},
+            "languageCodes": ["de", "en", "fr", "it"],
+            "strings": {
+              "community": "OpenStreetMap Switzerland",
+              "communityID": "openstreetmapswitzerland",
+              "name": "Swiss OpenStreetMap Association",
+              "description": "SOSM was created to further the goals of the OpenStreetMap movement, to strengthen the contacts with authorities and industry, to facilitate the activities of OSM community members in Switzerland, and to represent the Swiss OSM community in other organisations.",
+              "url": "https://sosm.ch/"
+            },
+            "contacts": [
+              {
+                "name": "Swiss OpenStreetMap Association",
+                "email": "board@sosm.ch"
+              }
+            ],
+            "resolved": {
+              "name": "Swiss OpenStreetMap Association",
+              "url": "https://sosm.ch/",
+              "description": "SOSM was created to further the goals of the OpenStreetMap movement, to strengthen the contacts with authorities and industry, to facilitate the activities of OSM community members in Switzerland, and to represent the Swiss OSM community in other organisations.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://sosm.ch/\">Swiss OpenStreetMap Association</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://sosm.ch/\">https://sosm.ch/</a>",
+              "descriptionHTML": "SOSM was created to further the goals of the OpenStreetMap movement, to strengthen the contacts with authorities and industry, to facilitate the activities of OSM community members in Switzerland, and to represent the Swiss OSM community in other organisations."
+            }
           }
         }
       },
@@ -6662,7 +6688,7 @@
         "roadSpeedUnit": "km/h",
         "roadHeightUnit": "m",
         "callingCodes": ["86", "852", "853"],
-        "area": 10270857.82,
+        "area": 10255583.9,
         "resources": {
           "cn-matrix": {
             "id": "cn-matrix",
@@ -7290,8 +7316,12 @@
               [118.28244, 24.51231],
               [118.35291, 24.51645],
               [118.42453, 24.54644],
-              [118.56434, 24.49266],
-              [120.49232, 25.22863],
+              [118.6333, 24.46259],
+              [119.42295, 25.0886],
+              [119.98511, 25.37624],
+              [119.78816, 26.2348],
+              [120.0693, 26.3959],
+              [120.5128, 26.536],
               [121.03532, 26.8787],
               [123.5458, 31.01942],
               [122.29378, 31.76513],
@@ -7943,98 +7973,6 @@
         ]
       },
       "id": "Q739"
-    },
-    {
-      "type": "Feature",
-      "id": "south_sf_bay_area.geojson",
-      "properties": {
-        "id": "south_sf_bay_area.geojson",
-        "area": 4030.01,
-        "resources": {
-          "Code-for-San-Jose-Discord": {
-            "id": "Code-for-San-Jose-Discord",
-            "type": "discord",
-            "account": "3bAd9DAWCp",
-            "locationSet": {"include": ["south_sf_bay_area.geojson"]},
-            "languageCodes": ["en"],
-            "order": 5,
-            "strings": {
-              "name": "Code for San José Discord",
-              "description": "Get in touch with other mappers on Discord! After signing up, join the #🗺openstreetmap channel."
-            },
-            "resolved": {
-              "name": "Code for San José Discord",
-              "url": "https://discord.gg/3bAd9DAWCp",
-              "description": "Get in touch with other mappers on Discord! After signing up, join the #🗺openstreetmap channel.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://discord.gg/3bAd9DAWCp\">Code for San José Discord</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://discord.gg/3bAd9DAWCp\">https://discord.gg/3bAd9DAWCp</a>",
-              "descriptionHTML": "Get in touch with other mappers on Discord! After signing up, join the #🗺openstreetmap channel."
-            }
-          },
-          "Code-for-San-Jose-Slack": {
-            "id": "Code-for-San-Jose-Slack",
-            "type": "slack",
-            "locationSet": {"include": ["south_sf_bay_area.geojson"]},
-            "languageCodes": ["en"],
-            "order": 4,
-            "strings": {
-              "name": "Code for San José Slack",
-              "description": "All are welcome! Sign up at {signupUrl}, then join the #proj-osm channel.",
-              "signupUrl": "https://join.slack.com/t/codeforsanjose/shared_invite/zt-iwnx99kh-motBC0J47O8ItlR3zjAIBA",
-              "url": "https://codeforsanjose.slack.com/"
-            },
-            "resolved": {
-              "name": "Code for San José Slack",
-              "url": "https://codeforsanjose.slack.com/",
-              "signupUrl": "https://join.slack.com/t/codeforsanjose/shared_invite/zt-iwnx99kh-motBC0J47O8ItlR3zjAIBA",
-              "description": "All are welcome! Sign up at https://join.slack.com/t/codeforsanjose/shared_invite/zt-iwnx99kh-motBC0J47O8ItlR3zjAIBA, then join the #proj-osm channel.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://codeforsanjose.slack.com/\">Code for San José Slack</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://codeforsanjose.slack.com/\">https://codeforsanjose.slack.com/</a>",
-              "signupUrlHTML": "<a target=\"_blank\" href=\"https://join.slack.com/t/codeforsanjose/shared_invite/zt-iwnx99kh-motBC0J47O8ItlR3zjAIBA\">https://join.slack.com/t/codeforsanjose/shared_invite/zt-iwnx99kh-motBC0J47O8ItlR3zjAIBA</a>",
-              "descriptionHTML": "All are welcome! Sign up at <a target=\"_blank\" href=\"https://join.slack.com/t/codeforsanjose/shared_invite/zt-iwnx99kh-motBC0J47O8ItlR3zjAIBA\">https://join.slack.com/t/codeforsanjose/shared_invite/zt-iwnx99kh-motBC0J47O8ItlR3zjAIBA</a>, then join the #proj-osm channel."
-            }
-          },
-          "OSM-South-Bay": {
-            "id": "OSM-South-Bay",
-            "type": "meetup",
-            "account": "Code-for-San-Jose",
-            "locationSet": {"include": ["south_sf_bay_area.geojson"]},
-            "languageCodes": ["en"],
-            "order": 5,
-            "strings": {
-              "name": "OSM South Bay",
-              "description": "Map Nights hosted by Code for San José",
-              "extendedDescription": "Code for San José hosts biweekly Map Nights on Tuesday nights. Meet fellow South Bay mappers, help out with local mapping projects, and hear about other civic tech projects. Programming and GIS skills are not required."
-            },
-            "resolved": {
-              "name": "OSM South Bay",
-              "url": "https://www.meetup.com/Code-for-San-Jose",
-              "description": "Map Nights hosted by Code for San José",
-              "extendedDescription": "Code for San José hosts biweekly Map Nights on Tuesday nights. Meet fellow South Bay mappers, help out with local mapping projects, and hear about other civic tech projects. Programming and GIS skills are not required.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/Code-for-San-Jose\">OSM South Bay</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/Code-for-San-Jose\">https://www.meetup.com/Code-for-San-Jose</a>",
-              "descriptionHTML": "Map Nights hosted by Code for San José",
-              "extendedDescriptionHTML": "Code for San José hosts biweekly Map Nights on Tuesday nights. Meet fellow South Bay mappers, help out with local mapping projects, and hear about other civic tech projects. Programming and GIS skills are not required."
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-121.4566, 37.48249],
-            [-121.21628, 37.17673],
-            [-121.20529, 36.95757],
-            [-121.49368, 36.95757],
-            [-121.5596, 36.8928],
-            [-121.98257, 37.12419],
-            [-122.27234, 37.39635],
-            [-122.13501, 37.48903],
-            [-121.4566, 37.48249]
-          ]
-        ]
-      }
     },
     {
       "type": "Feature",
@@ -27890,6 +27828,98 @@
     },
     {
       "type": "Feature",
+      "id": "south_sf_bay_area.geojson",
+      "properties": {
+        "id": "south_sf_bay_area.geojson",
+        "area": 4030.01,
+        "resources": {
+          "Open-Source-San-Jose-Discord": {
+            "id": "Open-Source-San-Jose-Discord",
+            "type": "discord",
+            "account": "3bAd9DAWCp",
+            "locationSet": {"include": ["south_sf_bay_area.geojson"]},
+            "languageCodes": ["en"],
+            "order": 4,
+            "strings": {
+              "name": "Open Source San José Discord",
+              "description": "Get in touch with other mappers on Discord! After signing up, join the #🗺openstreetmap channel."
+            },
+            "resolved": {
+              "name": "Open Source San José Discord",
+              "url": "https://discord.gg/3bAd9DAWCp",
+              "description": "Get in touch with other mappers on Discord! After signing up, join the #🗺openstreetmap channel.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://discord.gg/3bAd9DAWCp\">Open Source San José Discord</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://discord.gg/3bAd9DAWCp\">https://discord.gg/3bAd9DAWCp</a>",
+              "descriptionHTML": "Get in touch with other mappers on Discord! After signing up, join the #🗺openstreetmap channel."
+            }
+          },
+          "Open-Source-San-Jose-Slack": {
+            "id": "Open-Source-San-Jose-Slack",
+            "type": "slack",
+            "locationSet": {"include": ["south_sf_bay_area.geojson"]},
+            "languageCodes": ["en"],
+            "order": 4,
+            "strings": {
+              "name": "Open Source San José Slack",
+              "description": "All are welcome! Sign up at {signupUrl}, then join the #proj-osm channel.",
+              "signupUrl": "https://join.slack.com/t/opensourcesanjose/shared_invite/zt-1yt8dkv1y-Pn47~dt9of8nNHa2U9kioA",
+              "url": "https://opensourcesanjose.slack.com/"
+            },
+            "resolved": {
+              "name": "Open Source San José Slack",
+              "url": "https://opensourcesanjose.slack.com/",
+              "signupUrl": "https://join.slack.com/t/opensourcesanjose/shared_invite/zt-1yt8dkv1y-Pn47~dt9of8nNHa2U9kioA",
+              "description": "All are welcome! Sign up at https://join.slack.com/t/opensourcesanjose/shared_invite/zt-1yt8dkv1y-Pn47~dt9of8nNHa2U9kioA, then join the #proj-osm channel.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://opensourcesanjose.slack.com/\">Open Source San José Slack</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://opensourcesanjose.slack.com/\">https://opensourcesanjose.slack.com/</a>",
+              "signupUrlHTML": "<a target=\"_blank\" href=\"https://join.slack.com/t/opensourcesanjose/shared_invite/zt-1yt8dkv1y-Pn47~dt9of8nNHa2U9kioA\">https://join.slack.com/t/opensourcesanjose/shared_invite/zt-1yt8dkv1y-Pn47~dt9of8nNHa2U9kioA</a>",
+              "descriptionHTML": "All are welcome! Sign up at <a target=\"_blank\" href=\"https://join.slack.com/t/opensourcesanjose/shared_invite/zt-1yt8dkv1y-Pn47~dt9of8nNHa2U9kioA\">https://join.slack.com/t/opensourcesanjose/shared_invite/zt-1yt8dkv1y-Pn47~dt9of8nNHa2U9kioA</a>, then join the #proj-osm channel."
+            }
+          },
+          "OSM-South-Bay": {
+            "id": "OSM-South-Bay",
+            "type": "meetup",
+            "account": "Code-for-San-Jose",
+            "locationSet": {"include": ["south_sf_bay_area.geojson"]},
+            "languageCodes": ["en"],
+            "order": 5,
+            "strings": {
+              "name": "OSM South Bay",
+              "description": "Join our online South Bay Map Nights",
+              "extendedDescription": "Meet fellow South Bay mappers and help out with local mapping projects at our online meetup every other Tuesday night, in partnership with Open Source San José. Programming and GIS skills are not required."
+            },
+            "resolved": {
+              "name": "OSM South Bay",
+              "url": "https://www.meetup.com/Code-for-San-Jose",
+              "description": "Join our online South Bay Map Nights",
+              "extendedDescription": "Meet fellow South Bay mappers and help out with local mapping projects at our online meetup every other Tuesday night, in partnership with Open Source San José. Programming and GIS skills are not required.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/Code-for-San-Jose\">OSM South Bay</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/Code-for-San-Jose\">https://www.meetup.com/Code-for-San-Jose</a>",
+              "descriptionHTML": "Join our online South Bay Map Nights",
+              "extendedDescriptionHTML": "Meet fellow South Bay mappers and help out with local mapping projects at our online meetup every other Tuesday night, in partnership with Open Source San José. Programming and GIS skills are not required."
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-121.4566, 37.48249],
+            [-121.21628, 37.17673],
+            [-121.20529, 36.95757],
+            [-121.49368, 36.95757],
+            [-121.5596, 36.8928],
+            [-121.98257, 37.12419],
+            [-122.27234, 37.39635],
+            [-122.13501, 37.48903],
+            [-121.4566, 37.48249]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "cleveland.geojson",
       "properties": {
         "id": "cleveland.geojson",
@@ -29061,7 +29091,7 @@
           "84",
           "967"
         ],
-        "area": 70709531.04,
+        "area": 70718602.75,
         "resources": {
           "osm-asia-telegram": {
             "id": "osm-asia-telegram",
@@ -29458,7 +29488,7 @@
             ],
             [
               [122.26612, 25.98197],
-              [120.49232, 25.22863],
+              [120.5128, 26.536],
               [121.03532, 26.8787],
               [123.5458, 31.01942],
               [122.29378, 31.76513],
@@ -36906,7 +36936,7 @@
         "roadSpeedUnit": "km/h",
         "roadHeightUnit": "m",
         "driveSide": "right",
-        "area": 114623.56,
+        "area": 138969.19,
         "resources": {
           "osm-tw": {
             "id": "osm-tw",
@@ -37117,8 +37147,12 @@
             [
               [121.8109, 21.77688],
               [122.26612, 25.98197],
-              [120.49232, 25.22863],
-              [118.56434, 24.49266],
+              [120.5128, 26.536],
+              [120.0693, 26.3959],
+              [119.78816, 26.2348],
+              [119.98511, 25.37624],
+              [119.42295, 25.0886],
+              [118.6333, 24.46259],
               [118.42453, 24.54644],
               [118.35291, 24.51645],
               [118.28244, 24.51231],
@@ -51371,53 +51405,6 @@
             [88.863, 24.433],
             [88.774, 24.545],
             [88.628, 24.588]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "[-89.07411,17.161]",
-      "properties": {
-        "id": "[-89.07411,17.161]",
-        "area": 1963.5,
-        "resources": {
-          "ym-Sacred-Heart-Junior-College": {
-            "id": "ym-Sacred-Heart-Junior-College",
-            "type": "youthmappers",
-            "locationSet": {"include": [[-89.07411, 17.161]]},
-            "strings": {
-              "name": "YouthMappers at Sacred Heart Junior College",
-              "description": "YouthMappers chapter at Sacred Heart Junior College",
-              "url": "mailto:jtzib18@gmail.com"
-            },
-            "contacts": [{"name": "Organizer", "email": "jtzib18@gmail.com"}],
-            "resolved": {
-              "name": "YouthMappers at Sacred Heart Junior College",
-              "url": "mailto:jtzib18@gmail.com",
-              "description": "YouthMappers chapter at Sacred Heart Junior College",
-              "nameHTML": "<a target=\"_blank\" href=\"mailto:jtzib18@gmail.com\">YouthMappers at Sacred Heart Junior College</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"mailto:jtzib18@gmail.com\">mailto:jtzib18@gmail.com</a>",
-              "descriptionHTML": "YouthMappers chapter at Sacred Heart Junior College"
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-89.074, 17.386],
-            [-89.212, 17.343],
-            [-89.298, 17.23],
-            [-89.298, 17.091],
-            [-89.212, 16.979],
-            [-89.074, 16.936],
-            [-88.936, 16.979],
-            [-88.851, 17.091],
-            [-88.85, 17.23],
-            [-88.936, 17.343],
-            [-89.074, 17.386]
           ]
         ]
       }
