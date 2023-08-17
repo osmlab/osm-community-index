@@ -245,7 +245,7 @@ de:
       description: Tritt dem Matrix Chat unserer Community bei
       url: https://matrix.to/#/{account}:matrix.org
     meetup:
-      name: '{community} Meetup'
+      name: '{community} Treffen'
       url: https://www.meetup.com/{account}
     newsletter:
       name: '{community} Newsletter'
@@ -357,12 +357,6 @@ de:
     extendedDescription: Tritt der Community bei, um mehr über OpenStreetMap zu erfahren, Fragen zu stellen oder an unseren Treffen teilzunehmen. Jeder ist willkommen!
   co-facebook:
     extendedDescription: Tritt der Community bei, um mehr über OpenStreetMap zu erfahren, Fragen zu stellen oder an unseren Treffen teilzunehmen. Jeder ist willkommen!
-  Code-for-San-Jose-Discord:
-    name: Code für San José Discord
-    description: 'Tritt mit anderen Mappern auf Discord in Kontakt! Nach der Anmeldung trittst du dem Kanal #🗺openstreetmap bei.'
-  Code-for-San-Jose-Slack:
-    name: Code für San José Slack
-    description: 'Alle sind willkommen, melde dich an: {signupUrl} und tritt dem Kanal #proj-osm bei.'
   comunitat-valenciana-wiki:
     description: 'Alles, was du über Mapping in der Gemeinde Valencia wissen musst: {url}'
   czech-community:
@@ -596,6 +590,9 @@ de:
   MappingWR:
     name: Mappen in der Waterloo Region
     description: Hilf dabei niedrigenergierouten in der Waterloo Region leicht auffindbar zu machen.
+  MapRVA:
+    name: MapRVA
+    description: MapRVA Treffen
   maptime-bogota-meetup:
     name: MaptimeBogotá
     description: Wir sind eine Gruppe von Interessierten Menschen um Bogotá und Umgebung in OpenStreetMap zu erfassen.
@@ -637,6 +634,12 @@ de:
     extendedDescription: Seit März 2011 trifft sich eine Gruppe regelmäßig, zuerst in Nottingham, und neuestens in Derby, manchmal auch an einem anderen Ort in den East Midlands. Es sind Gemeinschaftstreffen, aber ein ausgezeichneter Ort um spezielle Fragen über OSM zu stellen. Im Sommer machen wir einfaches Mappen in der Nähe unseres Treffpunkt. Die Gruppe als Ganzes hat ein hohes Interesse öffentliche Fußwege zu mappen und es gibt immer wieder Mapper-Treffen genau zu diesem Zweck.
   np-facebook:
     extendedDescription: Mappen in Nepal? Hast du Fragen, willst du dich mit der Community hier verbinden? Tritt bei {url} bei. Alle sind willkommen!
+  Open-Source-San-Jose-Discord:
+    name: Open Source San José Discord
+    description: 'Tritt mit anderen Mappern auf Discord in Kontakt! Nach der Anmeldung trittst du dem Kanal #🗺openstreetmap bei.'
+  Open-Source-San-Jose-Slack:
+    name: Open Source San José Slack
+    description: 'Alle sind willkommen, melde dich an: {signupUrl} und tritt dem Kanal #proj-osm bei.'
   OpenCleveland-meetup:
     name: Open Cleveland
     description: Verbessere OpenStreetMap in Cleveland, USA
@@ -679,6 +682,7 @@ de:
     description: Mapper und OpenStreetMap Benutzer und um Mount Vernon, USA
     extendedDescription: OpenStreetMap ist eine Weltkarte gemacht von Menschen wie dir. Es ist eine Karte, zu der du beiträgst und die frei zugänglich ist wie Wikipedia. Besuche osm.org für mehr Information. Wir treffen uns immer wieder, um über Karten zu reden, zu mappen und Spaß zu haben!
   osm-ch:
+    name: '{community}'
     description: Die Plattform für Informationen über OpenStreetMap in der Schweiz
   OSM-Chattanooga:
     name: OSM Chattanooga
@@ -819,8 +823,8 @@ de:
     extendedDescription: OpenStreetMap (OSM) Südkalifornien ist für alle am Mappen Interessierte um zusammen zu kommen und mit OpenStreetMap zu arbeiten. OpenStreetMap, das Wikipedia der Karten, ist eine freie weltweite Open-Source-Karte, die von über einer Million von Freiwilligen rund um den Globus gestaltet wird. Wenn du OpenStreetMap nicht kennst, unterstützen wir dich. Wenn du eine Idee für ein Kartenprojekt oder einen Erkundungsrundgang hast, den die Gruppe durchführen kann, wäre das großartig!
   OSM-South-Bay:
     name: OSM South Bay
-    description: Mapping-Nächte veranstaltet von "Code for San Jose"
-    extendedDescription: Code for San José veranstaltet alle zwei Wochen dienstagabends die Map Nights. Treffen Sie andere Mapper der South Bay, helfen Sie bei lokalen Mapping-Projekten mit und erfahren Sie mehr über andere zivilgesellschaftliche Tech-Projekte. Programmier- und GIS-Kenntnisse sind nicht erforderlich.
+    description: Nimm teil an unseren Online South Bay Map Nights
+    extendedDescription: Triff dich mit anderen Mappern der South Bay und hilf bei lokalen Mapping-Projekten bei unserem Online-Treffen jeden zweiten Dienstagabend in Zusammenarbeit mit Open Source San José. Programmier- und GIS-Kenntnisse sind nicht erforderlich.
   OSM-Tampa-Bay:
     name: OpenStreetMap Tampa Bay
     description: Mapper und OpenStreetMap Benutzer in Tampa Bay, USA
@@ -1198,9 +1202,6 @@ de:
     name: YouthMappers at RUET
     description: YouthMappers chapter at Rajshahi University of Engineering & Technology
     extendedDescription: The "YouthMappers at RUET" is a humanitarian mapping group of students of Rajshahi University of Engineering & Technology (RUET) to share, develop and practice the knowledge of GIS.  This group encourages using open source geospatial data and platform to make solution to reach the most vulnerable group of the world.
-  ym-Sacred-Heart-Junior-College:
-    name: YouthMapper am Sacred Heart Junior College
-    description: YouthMappers chapter at Sacred Heart Junior College
   ym-Sherubtse-College:
     name: Geographical Society
     description: YouthMappers chapter at Sherubtse College
@@ -1309,11 +1310,11 @@ de:
     description: YouthMappers Ortsverband an der Eduardo Mondlane Universität
     extendedDescription: Wir sind eine Studentengruppe, die sich der mosambikanischen Gesellschaft anschließen möchte, um eine widerstandsfähige Gemeinschaft humanitärer Kartierungen zu schaffen. Die Gemeinde beabsichtigt, die physische Besetzung unseres Landes abzubilden und offene geografische Daten zu erstellen, die der Öffentlichkeit zugänglich sind und in mehreren Bereichen ohne damit verbundene Kosten verwendet werden können.
   ym-Universit-de-NZrkor:
-    name: Youthmappers à N'Zérékoré
+    name: YouthMappers N'Zérékoré
     description: YouthMappers Ortsverband an der Universität von N'Zérékoré
-    extendedDescription: YouthMappers ist eine Gruppe, die es ermöglicht, Binnenstaaten zu kartieren und bei Katastrophen oder Epidemien Entscheidungen zu treffen. Es erlaubt auch die Erzeugung und Verwendung von Daten in freiem Zugriff.
+    extendedDescription: YouthMappers unterstützt Schüler und Studenten bei der Erstellung von Karten im Falle von Katastrophen oder Epidemien und ermöglicht die Erstellung und Nutzung von Kartendaten mit freiem Zugang.
   ym-Universit-des-Sciences-Sociale-et-de-Gestion-de-Bamako:
-    name: Student im HoPE-Labor
+    name: YouthMappers Bamako
     description: YouthMappers Ortsverband an der Universität für Sozialwissenschaften und Management in Bamako
   ym-Universit-Gaston-Berger:
     name: YouthMappers UGB

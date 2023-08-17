@@ -6,6 +6,7 @@ ca:
     maptimebogota: MaptimeBogota
     maptimehrva: MaptimeHRVA
     openstreetmap: OpenStreetMap
+    openstreetmapaachen: OpenStreetMap Aquisgrà
     openstreetmapafghanistan: OpenStreetMap Afganistan
     openstreetmapafrica: OpenStreetMap Àfrica
     openstreetmapalba: OpenStreetMap Alba
@@ -19,6 +20,7 @@ ca:
     openstreetmapbangladesh: OpenStreetMap Bangladesh
     openstreetmapbelarus: OpenStreetMap Bielorússia
     openstreetmapbelgium: OpenStreetMap Bèlgica
+    openstreetmapbelize: OpenStreetMap Belize
     openstreetmapbenin: OpenStreetMap Benín
     openstreetmapberlin: OpenStreetMap Berlín
     openstreetmapbivccvl: OpenStreetMap BI-VC-CVL
@@ -38,6 +40,7 @@ ca:
     openstreetmapcanada: OpenStreetMap Canadà
     openstreetmapcastillayleon: OpenStreetMap Castella i Lleó
     openstreetmapcatalancountries: OpenStreetMap Països Catalans
+    openstreetmapceara: OpenStreetMap Ceará
     openstreetmapchad: OpenStreetMap Txad
     openstreetmapchile: OpenStreetMap Xile
     openstreetmapchina: OpenStreetMap Xina
@@ -141,6 +144,7 @@ ca:
     openstreetmapnorthkorea: OpenStreetMap North Korea
     openstreetmapnorway: OpenStreetMap Noruega
     openstreetmapoceania: OpenStreetMap Oceania
+    openstreetmapohio: OpenStreetMap Ohio
     openstreetmapottawa: OpenStreetMap Ottawa
     openstreetmappakistan: OpenStreetMap Pakistan
     openstreetmappanama: OpenStreetMap Panamà
@@ -202,6 +206,7 @@ ca:
       description: Estigueu en contacte amb altres mapejadors a Discord
       url: https://discord.gg/{account}
     discourse:
+      name: 'Fòrum de la comunitat {community}'
       description: El fòrum oficial per {community}
       url: https://community.openstreetmap.org/c/communities/{compte}
     facebook:
@@ -252,6 +257,7 @@ ca:
       url: https://www.reddit.com/r/{account}
     signal:
       name: 'Signal de {community}'
+      description: Uniu-vos al nostre xat de la comunitat al Signal
     slack:
       name: 'Slack d''{community}'
     telegram:
@@ -273,6 +279,9 @@ ca:
       name: '{community} a YouTube'
       description: Subscriviu-vos al canal de YouTube
       url: https://www.youtube.com/channel/{account}
+    zulip:
+      name: 'Zulip {community}'
+      description: Uniu-vos al nostre xat de la comunitat al Zulip
   aberdeen-discord:
     name: OSM ABZ Discord
   af-matrix:
@@ -280,10 +289,13 @@ ca:
   al-maptime-tirana:
     name: Maptime Tirana
     description: Esdeveniments socials organitzats al voltant del mapeig - els principiants són benvinguts!
+    extendedDescription: Maptime és un entorn d'aprenentatge obert per a tots els nivells i graus de coneixement, oferint suport educatiu intencionat per a l'iniciador. Maptime és simultàniament flexible i estructurat, creant espai per cartografiar tutorials, tallers, projectes en curs amb un objectiu compartit, i temps de treball independent/col·laboratiu.
   at-matrix:
     description: Canal no oficial de Matrix en alemany per a Àustria
   at-wiki:
     description: 'Pàgina wiki {community}'
+  Bahia-telegram:
+    extendedDescription: Uniu-vos a la comunitat per aprendre més sobre OpenStreetMap, fer preguntes o participar en les nostres reunions. Tots són benvinguts!
   Bay-Area-OpenStreetMappers:
     name: Bay Area OpenStreetMappers
     description: Millora OpenStreetMap a l'Índia
@@ -291,8 +303,14 @@ ca:
     description: Ajudem a fer créixer i millorar OpenStreetMap a Bèlgica
   be-discourse:
     description: Un Forum per discutir sobre OpenStreetMap a Bèlgica
+  bg-wiki:
+    description: Pàgina Viquiprojecte per a Bulgària
+  bi-vc-cvl-meetup:
+    description: Grup local de mapejadors a Biellese, Vercellese, Canavese i Valli di Lanzo
   bo-facebook-group:
     name: 'Grup de Facebook {community}'
+  bo-matrix:
+    description: Tots els mapejadors són benvinguts!
   cape-coast-youthmappers:
     name: Universitat de Cape Coast YouthMappers
     description: 'Segueix-nos a Twitter: {url}'
@@ -303,6 +321,8 @@ ca:
     description: Grup de Matrix per la comunitat d'OpenStreetMap dels Països Catalans
   cat-wiki:
     description: 'Espai de coordinació per la comunitat d''OpenStreetMap als Països Catalans: {url}'
+  cd-chapter:
+    description: D'un carrer a un altre, mapegem el nostre país...
   cl-facebook:
     extendedDescription: Uniu-vos a la comunitat per aprendre més sobre OpenStreetMap, fer preguntes o participar en les nostres reunions. Tothom és benvingut!
   cl-telegram:

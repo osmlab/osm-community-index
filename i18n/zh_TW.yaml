@@ -357,12 +357,6 @@ zh_TW:
     extendedDescription: 加入社群以得知更多關於開放街圖的資訊，也可以問問題或是參與我們的會面。每個人都很歡迎加入！
   co-facebook:
     extendedDescription: 加入社群學習更多關於開放街圖的事情，歡迎所有人噢！
-  Code-for-San-Jose-Discord:
-    name: Code for San José Discord
-    description: '在 Discord 與其他圖客交流！註冊之後，加入 #🗺openstreetmap 頻道。'
-  Code-for-San-Jose-Slack:
-    name: Code for San José Slack
-    description: '歡迎所有人加入！在 {signupUrl} 註冊，並加入 #proj-osm 頻道。'
   comunitat-valenciana-wiki:
     description: '您必須知道的在瓦倫西亞製圖的所有事情：{url}'
   czech-community:
@@ -596,6 +590,9 @@ zh_TW:
   MappingWR:
     name: MappingWR
     description: 讓滑鐵盧地區的低碳路徑更容易探索。
+  MapRVA:
+    name: MapRVA
+    description: MapRVA 聚會
   maptime-bogota-meetup:
     name: 地圖時間波哥大
     description: 我們是一群有興趣畫開放街圖波哥大與週遭地區的人。
@@ -679,6 +676,7 @@ zh_TW:
     description: 華盛頓州弗農山區域的圖客與開放街圖使用者
     extendedDescription: 開放街圖是一幅由像你這樣的人所製作的世界地圖。它是由你所建構，並如同維基百科那樣自由提供給所有人的地圖。看看 osm.org 以取得更多資訊，然後在聚會上加入我們來說說地圖的故事、對 OSM 貢獻然後玩得開心！
   osm-ch:
+    name: '{community}'
     description: 開放街圖在瑞士交流資訊的平台
   OSM-Chattanooga:
     name: OSM 查塔努加
@@ -819,8 +817,6 @@ zh_TW:
     extendedDescription: 開放街圖南加州擁抱任何對共同畫開放街圖有興趣的人。開放街圖是維基百科式運作的地圖，是全世界尺度自由開源的地圖，由全球超過 1,000,000 人的志工製作。我們歡迎所有人，如果你不大知道開放街圖，我們會教你，如果你有關於畫地圖計畫，甚至野外實察，也是很棒的事情！
   OSM-South-Bay:
     name: OSM South Bay
-    description: 由為聖荷西寫程式主辦的地圖之夜
-    extendedDescription: 為聖荷西寫程式是為美國寫程式的地區分支，週二晚上在聖荷西市中心舉辦每兩週地圖之夜。結識南灣區的圖客，與當地的製圖專案交流，聽聽其他的公民科技專案。寫程式或 GIS 相關技能都並非必要。
   OSM-Tampa-Bay:
     name: 開放街圖坦帕灣
     description: 坦帕灣的圖客與開放街圖使用者
@@ -1110,8 +1106,6 @@ zh_TW:
     extendedDescription: 這群熱情的學生組織包括理學院與資訊學院。
   ym-Moi-University:
     extendedDescription: 墨伊大學地理學生協會 (Geography Students Association at Moi University, GEOSAMU) 探索、發現與專注透過年輕地理空間分析師來開發整個世界，GEOSAMU 屬於地理系的一部分。
-  ym-Sacred-Heart-Junior-College:
-    name: 年輕圖客聖心初級學院
   ym-Sherubtse-College:
     name: 地理協會
     extendedDescription: '不丹皇家大學舍魯布策學院地理與規劃學系的地理學會，另外還有氣候變化與空間資訊中心的支援，已經做了不少國家與地方層級，提昇意識和強調重要議題的倡議。我們如今一同在學生為主，國際社團網路的年輕圖客當中「為韌性畫地圖」，為全球「幸福」做貢獻！ '
@@ -1134,7 +1128,12 @@ zh_TW:
   ym-Universidad-Nacional-de-Colombia:
     extendedDescription: 學生一同集結來畫地圖，以及與哥倫比亞全國與全球的大學生交際，地理範圍則包括與微生物與健康學科。
   ym-Universit-de-NZrkor:
-    name: Youthmappers à N'Zérékoré
+    name: 年輕圖客恩澤雷科雷
+    description: 恩澤雷科雷大學的年輕圖客分會
+    extendedDescription: 年輕圖客鼓勵學生在災難或疫情發生時畫地圖，而且也允許自由製作與運用地圖資料。
+  ym-Universit-des-Sciences-Sociale-et-de-Gestion-de-Bamako:
+    name: 年輕圖客巴馬科
+    description: 巴馬科社會科學與管理大學的年輕圖客分會
   ym-University-of-Cape-Coast:
     name: UCC Geographical Society
     description: YouthMappers chapter at University of Cape Coast

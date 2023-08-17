@@ -41,6 +41,7 @@ cs:
     openstreetmapcanada: OpenStreetMap Kanada
     openstreetmapcastillayleon: OpenStreetMap Castilla y León
     openstreetmapcatalancountries: OpenStreetMap Katalánské země
+    openstreetmapceara: OpenStreetMap Ceará
     openstreetmapchad: OpenStreetMap Čad
     openstreetmapchile: OpenStreetMap Chile
     openstreetmapchina: OpenStreetMap Čína
@@ -144,6 +145,7 @@ cs:
     openstreetmapnorthkorea: OpenStreetMap Severní Korea
     openstreetmapnorway: OpenStreetMap Norsko
     openstreetmapoceania: OpenStreetMap Oceánie
+    openstreetmapohio: OpenStreetMap Ohio
     openstreetmapottawa: OpenStreetMap Ottawa
     openstreetmappakistan: OpenStreetMap Pákistán
     openstreetmappanama: OpenStreetMap Panama
@@ -355,12 +357,6 @@ cs:
     extendedDescription: Připojte se ke komunitě a dozvíte se více o OpenStreetMap, můžete klást otázky nebo se účastnit našich setkání. Každý je vítán!
   co-facebook:
     extendedDescription: Připojte se ke komunitě a dozvíte se více o OpenStreetMap. Každý je vítán!
-  Code-for-San-Jose-Discord:
-    name: Code for San José Discord
-    description: 'Zůstaňte ve spojení s ostatními mapovateli na Discordu! Po registraci se připojte ke kanálu #🗺openstreetmap.'
-  Code-for-San-Jose-Slack:
-    name: Code for San José Slack
-    description: 'Všichni jsou vítáni! Zaregistrujte se na adrese {signupUrl} a připojte se k kanálu #proj-osm.'
   comunitat-valenciana-wiki:
     description: 'Vše, co potřebujete vědět o mapování ve Valencijské komunitě: {url}'
   czech-community:
@@ -635,6 +631,12 @@ cs:
     extendedDescription: Skupina se schází od března 2011, původně v Nottinghamu, nověji v Derby a čas od času jinde ve East Midlands. Jedná se o společenská setkání, ale jsou vynikajícím místem, kam přijít a zeptat se na konkrétní otázky týkající se OSM buď v této oblasti, nebo obecně. V letních měsících obvykle děláme nějaké lehké mapování na hodinu v blízkosti našeho místa setkání. Skupina jako celek má zvláštní zájem na mapování stezek s veřejným přístupem a čas od času pro tento účel pořádá schůzky.
   np-facebook:
     extendedDescription: Mapujete v Nepálu? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {url}. Všichni jsou vítáni!
+  Open-Source-San-Jose-Discord:
+    name: Open Source San José Discord
+    description: 'Zůstaňte ve spojení s ostatními mapovateli na Discordu! Po registraci se připojte ke kanálu #🗺openstreetmap.'
+  Open-Source-San-Jose-Slack:
+    name: Open Source San José Slack
+    description: 'Všichni jsou vítáni! Zaregistrujte se na adrese {signupUrl} a připojte se k kanálu #proj-osm.'
   OpenCleveland-meetup:
     name: Open Cleveland
     description: Vylepšete OpenStreetMap na území Clevelandu
@@ -776,6 +778,8 @@ cs:
   osm-ni:
     name: MapaNica.net
     description: Poskytování služeb a informací OSM pro místní komunitu v Nikaragui
+  osm-ohio-wiki:
+    description: '{community} Wiki stránka'
   OSM-Ottawa-meetup:
     description: Mapovači a uživatelé OpenStreetMap na území Ottawy
   OSM-PE:
@@ -815,8 +819,8 @@ cs:
     extendedDescription: OpenStreetMap (OSM) Jižní Kalifornie je pro každého, kdo se zajímá o mapování, aby se spojil a pracoval s OpenStreetMap. OpenStreetMap, Wikipedie map, je bezplatná mapa světa s otevřeným zdrojovým kódem, kterou vytváří více než 1 000 000 dobrovolníků po celém světě. Každý je vítán. Pokud OpenStreetMap neznáte, naučíme vás to. Pokud máte nápad na projekt mapování nebo dokonce exkurzi, kterou může skupina udělat, skvělé!
   OSM-South-Bay:
     name: OSM South Bay
-    description: Map Nights pořádané Code for San José
-    extendedDescription: Code for San José pořádá každý měsíc v úterý večer Map Nights. Seznamte se s dalšími mapovači South Bay, pomozte s místními mapovacími projekty a poslechněte si další občanské technologické projekty. Nejsou vyžadovány znalosti programování a GIS.
+    description: Připojte se online k South Bay Map Nights
+    extendedDescription: Seznamte se s kolegy ze South Bay Mappers a pomozte s místními mapovacími projekty na našem online setkání každou druhou úterní noc ve spolupráci s Open Source San José. Programování a dovednosti GIS nejsou vyžadovány.
   OSM-Tampa-Bay:
     name: OpenStreetMap Tampa Bay
     description: Mapovači a uživatelé OpenStreetMap na území Tampa Bay
@@ -886,6 +890,9 @@ cs:
     description: '{community} Wiki stránka'
   sk-freemap:
     description: Mapový web OpenStreetMap s nástroji na Slovensku a okolních regionech
+  sosm:
+    name: Švýcarské sdružení OpenStreetMap
+    description: SOSM byl vytvořen s cílem podpořit cíle hnutí OpenStreetMap, aby posílil kontakty s úřady a průmyslem, usnadnil činnost členů komunity OSM ve Švýcarsku a zastupoval švýcarskou komunitu OSM v jiných organizacích.
   talk-au:
     description: Místo pro chatování australských mapovačů
   talk-bo:
@@ -1191,9 +1198,6 @@ cs:
     name: YouthMappers na RUET
     description: Zastoupení YouthMappers na Rajshahi University of Engineering & Technology
     extendedDescription: „YouthMappers v RUET“ je humanitární mapovací skupina studentů Rajshahi University of Engineering & Technology (RUET), která sdílí, rozvíjí a procvičuje znalosti GIS. Tato skupina podporuje používání geoprostorových dat a platformy s otevřeným zdrojovým kódem k vytvoření řešení, které osloví nejzranitelnější skupinu na světě.
-  ym-Sacred-Heart-Junior-College:
-    name: YouthMappers na Sacred Heart Junior College
-    description: Zastoupení YouthMappers na Sacred Heart Junior College
   ym-Sherubtse-College:
     name: Zeměpisná společnost
     description: Zastoupení YouthMappers na Sherubtse College
@@ -1301,13 +1305,6 @@ cs:
     name: Mládežnická komunita YouthMappers v Mozambiku
     description: Zastoupení YouthMappers na Universidade Eduardo Mondlane
     extendedDescription: Jsme studentská skupina, která se hodlá připojit k mosambické společnosti a vytvořit odolnou komunitu humanitárního mapování. Záměrem komunity je zmapovat fyzickou okupaci naší země a vytvořit otevřená geografická data, přístupná veřejnosti a využitelná v několika oblastech bez souvisejících nákladů.
-  ym-Universit-de-NZrkor:
-    name: YouthMappers à N'Zérékoré
-    description: Zastoupení YouthMappers na Université de N'Zérékoré
-    extendedDescription: YouthMappers je skupina, která umožňuje mapování izolovaných komunit a rozhodování v případě katastrof nebo epidemií. Umožňuje také produkci a používání dat s volným přístupem.
-  ym-Universit-des-Sciences-Sociale-et-de-Gestion-de-Bamako:
-    name: Etudiant au Laboratoire HoPE
-    description: Zastoupení YouthMappers na Université des Sciences Sociale et de Gestion de Bamako
   ym-Universit-Gaston-Berger:
     name: YouthMappers na UGB
     description: Zastoupení YouthMappers na Université de Gaston Berger
