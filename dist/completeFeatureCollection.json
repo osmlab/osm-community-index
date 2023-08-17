@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "5.5.4",
-    "generated": "2023-07-12T14:34:58.456Z",
+    "version": "5.5.5",
+    "generated": "2023-08-17T16:09:42.174Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "a37f4a0c8b0b3add7c5c9882d90af768"
+    "hash": "6114c37e83c420b8b600370944f334dc"
   },
   "type": "FeatureCollection",
   "features": [
@@ -6052,14 +6052,14 @@
               "communityID": "openstreetmapswitzerland",
               "name": "Openstreetmap Schweiz/Suisse/Svizzera/Svizra Mailing List",
               "description": "Mailing list for Switzerland",
-              "url": "https://lists.openstreetmap.ch/mailman/listinfo/talk-ch"
+              "url": "https://lists.openstreetmap.ch/mailman3/lists/talk-ch.openstreetmap.ch/"
             },
             "resolved": {
               "name": "Openstreetmap Schweiz/Suisse/Svizzera/Svizra Mailing List",
-              "url": "https://lists.openstreetmap.ch/mailman/listinfo/talk-ch",
+              "url": "https://lists.openstreetmap.ch/mailman3/lists/talk-ch.openstreetmap.ch/",
               "description": "Mailing list for Switzerland",
-              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.ch/mailman/listinfo/talk-ch\">Openstreetmap Schweiz/Suisse/Svizzera/Svizra Mailing List</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.ch/mailman/listinfo/talk-ch\">https://lists.openstreetmap.ch/mailman/listinfo/talk-ch</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.ch/mailman3/lists/talk-ch.openstreetmap.ch/\">Openstreetmap Schweiz/Suisse/Svizzera/Svizra Mailing List</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.ch/mailman3/lists/talk-ch.openstreetmap.ch/\">https://lists.openstreetmap.ch/mailman3/lists/talk-ch.openstreetmap.ch/</a>",
               "descriptionHTML": "Mailing list for Switzerland"
             }
           },
@@ -6090,12 +6090,13 @@
           },
           "osm-ch": {
             "id": "osm-ch",
-            "type": "osm-lc",
+            "type": "url",
             "locationSet": {"include": ["ch"]},
             "languageCodes": ["de", "en", "fr", "it"],
             "strings": {
               "community": "OpenStreetMap Switzerland",
               "communityID": "openstreetmapswitzerland",
+              "name": "{community}",
               "description": "The platform for information on OpenStreetMap in Switzerland",
               "url": "https://osm.ch/"
             },
@@ -22975,6 +22976,53 @@
     },
     {
       "type": "Feature",
+      "id": "[-77.476681,37.530353]",
+      "properties": {
+        "id": "[-77.476681,37.530353]",
+        "area": 1963.5,
+        "resources": {
+          "MapRVA": {
+            "id": "MapRVA",
+            "type": "mastodon",
+            "locationSet": {"include": [[-77.476681, 37.530353]]},
+            "strings": {
+              "name": "MapRVA",
+              "description": "MapRVA Meetup",
+              "url": "https://en.osm.town/@maprva"
+            },
+            "contacts": [{"name": "Organizer", "email": "dschep@gmail.com"}],
+            "resolved": {
+              "name": "MapRVA",
+              "url": "https://en.osm.town/@maprva",
+              "description": "MapRVA Meetup",
+              "nameHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@maprva\">MapRVA</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@maprva\">https://en.osm.town/@maprva</a>",
+              "descriptionHTML": "MapRVA Meetup"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-77.477, 37.755],
+            [-77.644, 37.712],
+            [-77.746, 37.599],
+            [-77.746, 37.461],
+            [-77.643, 37.349],
+            [-77.477, 37.306],
+            [-77.311, 37.349],
+            [-77.208, 37.461],
+            [-77.207, 37.599],
+            [-77.31, 37.712],
+            [-77.477, 37.755]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "bogota.geojson",
       "properties": {
         "id": "bogota.geojson",
@@ -27879,7 +27927,7 @@
           "OSM-South-Bay": {
             "id": "OSM-South-Bay",
             "type": "meetup",
-            "account": "Code-for-San-Jose",
+            "account": "open-source-san-jose",
             "locationSet": {"include": ["south_sf_bay_area.geojson"]},
             "languageCodes": ["en"],
             "order": 5,
@@ -27890,11 +27938,11 @@
             },
             "resolved": {
               "name": "OSM South Bay",
-              "url": "https://www.meetup.com/Code-for-San-Jose",
+              "url": "https://www.meetup.com/open-source-san-jose",
               "description": "Join our online South Bay Map Nights",
               "extendedDescription": "Meet fellow South Bay mappers and help out with local mapping projects at our online meetup every other Tuesday night, in partnership with Open Source San José. Programming and GIS skills are not required.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/Code-for-San-Jose\">OSM South Bay</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/Code-for-San-Jose\">https://www.meetup.com/Code-for-San-Jose</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/open-source-san-jose\">OSM South Bay</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/open-source-san-jose\">https://www.meetup.com/open-source-san-jose</a>",
               "descriptionHTML": "Join our online South Bay Map Nights",
               "extendedDescriptionHTML": "Meet fellow South Bay mappers and help out with local mapping projects at our online meetup every other Tuesday night, in partnership with Open Source San José. Programming and GIS skills are not required."
             }
@@ -29997,33 +30045,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-ca\">talk-ca Mailing List</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-ca\">https://lists.openstreetmap.org/listinfo/talk-ca</a>",
               "descriptionHTML": "The official mailing list for OpenStreetMap Canada"
-            }
-          },
-          "OSM-CA-Slack": {
-            "id": "OSM-CA-Slack",
-            "type": "slack",
-            "locationSet": {"include": ["ca"]},
-            "languageCodes": ["en", "fr"],
-            "order": 4,
-            "strings": {
-              "community": "OpenStreetMap Canada",
-              "communityID": "openstreetmapcanada",
-              "description": "All are welcome! Sign up at {signupUrl}.",
-              "signupUrl": "https://slackinviteosmcanada.herokuapp.com/",
-              "url": "https://osm-ca.slack.com/"
-            },
-            "contacts": [
-              {"name": "Denis Carriere", "email": "carriere.denis@gmail.com"}
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Canada Slack",
-              "url": "https://osm-ca.slack.com/",
-              "signupUrl": "https://slackinviteosmcanada.herokuapp.com/",
-              "description": "All are welcome! Sign up at https://slackinviteosmcanada.herokuapp.com/.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://osm-ca.slack.com/\">OpenStreetMap Canada Slack</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://osm-ca.slack.com/\">https://osm-ca.slack.com/</a>",
-              "signupUrlHTML": "<a target=\"_blank\" href=\"https://slackinviteosmcanada.herokuapp.com/\">https://slackinviteosmcanada.herokuapp.com/</a>",
-              "descriptionHTML": "All are welcome! Sign up at <a target=\"_blank\" href=\"https://slackinviteosmcanada.herokuapp.com/\">https://slackinviteosmcanada.herokuapp.com/</a>."
             }
           },
           "OSM-CA-telegram": {
@@ -50904,61 +50925,6 @@
     },
     {
       "type": "Feature",
-      "id": "[-77.15782,39.09718]",
-      "properties": {
-        "id": "[-77.15782,39.09718]",
-        "area": 1963.5,
-        "resources": {
-          "ym-Montgomery-College": {
-            "id": "ym-Montgomery-College",
-            "type": "youthmappers",
-            "locationSet": {"include": [[-77.15782, 39.09718]]},
-            "strings": {
-              "name": "GeoMC",
-              "description": "YouthMappers chapter at Montgomery College",
-              "extendedDescription": "GeoMC’s mission is to provide students with hands-on experience in applying geospatial tools, collecting data, and project management. Most of our students come with a background in GIS and are geography majors. Our chapter’s members come from diverse backgrounds and we all work together to make a positive impact in the world live in.",
-              "url": "mailto:stephanie.calderon@montgomerycollege.edu"
-            },
-            "contacts": [
-              {
-                "name": "Organizer",
-                "email": "stephanie.calderon@montgomerycollege.edu"
-              }
-            ],
-            "resolved": {
-              "name": "GeoMC",
-              "url": "mailto:stephanie.calderon@montgomerycollege.edu",
-              "description": "YouthMappers chapter at Montgomery College",
-              "extendedDescription": "GeoMC’s mission is to provide students with hands-on experience in applying geospatial tools, collecting data, and project management. Most of our students come with a background in GIS and are geography majors. Our chapter’s members come from diverse backgrounds and we all work together to make a positive impact in the world live in.",
-              "nameHTML": "<a target=\"_blank\" href=\"mailto:stephanie.calderon@montgomerycollege.edu\">GeoMC</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"mailto:stephanie.calderon@montgomerycollege.edu\">mailto:stephanie.calderon@montgomerycollege.edu</a>",
-              "descriptionHTML": "YouthMappers chapter at Montgomery College",
-              "extendedDescriptionHTML": "GeoMC’s mission is to provide students with hands-on experience in applying geospatial tools, collecting data, and project management. Most of our students come with a background in GIS and are geography majors. Our chapter’s members come from diverse backgrounds and we all work together to make a positive impact in the world live in."
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-77.158, 39.322],
-            [-77.328, 39.279],
-            [-77.433, 39.166],
-            [-77.433, 39.027],
-            [-77.327, 38.915],
-            [-77.158, 38.873],
-            [-76.988, 38.915],
-            [-76.883, 39.027],
-            [-76.882, 39.166],
-            [-76.987, 39.279],
-            [-77.158, 39.322]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "[17.07709,-22.56572]",
       "properties": {
         "id": "[17.07709,-22.56572]",
@@ -52802,23 +52768,23 @@
             "type": "youthmappers",
             "locationSet": {"include": [[-8.83716, 7.7324]]},
             "strings": {
-              "name": "Youthmappers à N'Zérékoré",
-              "description": "YouthMappers chapter at Université de N'Zérékoré",
-              "extendedDescription": "YouthMappers est un groupe qui permet de faire la cartographie des communautés enclavées et à la prise des décisions en cas de catastrophes ou épidémies. Elle permet aussi la production et l'utilisation des données en accès gratuit.",
+              "name": "YouthMappers N'Zérékoré",
+              "description": "YouthMappers chapter at University of N'Zérékoré",
+              "extendedDescription": "YouthMappers engages students to map in the event of disasters or epidemics. It also allows the production and use of map data with free access.",
               "url": "mailto:donpaul1974@gmail.com"
             },
             "contacts": [
               {"name": "Organizer", "email": "donpaul1974@gmail.com"}
             ],
             "resolved": {
-              "name": "Youthmappers à N'Zérékoré",
+              "name": "YouthMappers N'Zérékoré",
               "url": "mailto:donpaul1974@gmail.com",
-              "description": "YouthMappers chapter at Université de N'Zérékoré",
-              "extendedDescription": "YouthMappers est un groupe qui permet de faire la cartographie des communautés enclavées et à la prise des décisions en cas de catastrophes ou épidémies. Elle permet aussi la production et l'utilisation des données en accès gratuit.",
-              "nameHTML": "<a target=\"_blank\" href=\"mailto:donpaul1974@gmail.com\">Youthmappers à N'Zérékoré</a>",
+              "description": "YouthMappers chapter at University of N'Zérékoré",
+              "extendedDescription": "YouthMappers engages students to map in the event of disasters or epidemics. It also allows the production and use of map data with free access.",
+              "nameHTML": "<a target=\"_blank\" href=\"mailto:donpaul1974@gmail.com\">YouthMappers N'Zérékoré</a>",
               "urlHTML": "<a target=\"_blank\" href=\"mailto:donpaul1974@gmail.com\">mailto:donpaul1974@gmail.com</a>",
-              "descriptionHTML": "YouthMappers chapter at Université de N'Zérékoré",
-              "extendedDescriptionHTML": "YouthMappers est un groupe qui permet de faire la cartographie des communautés enclavées et à la prise des décisions en cas de catastrophes ou épidémies. Elle permet aussi la production et l'utilisation des données en accès gratuit."
+              "descriptionHTML": "YouthMappers chapter at University of N'Zérékoré",
+              "extendedDescriptionHTML": "YouthMappers engages students to map in the event of disasters or epidemics. It also allows the production and use of map data with free access."
             }
           }
         }
@@ -52854,20 +52820,20 @@
             "type": "youthmappers",
             "locationSet": {"include": [[-7.98832, 12.61531]]},
             "strings": {
-              "name": "Etudiant au Laboratoire HoPE",
-              "description": "YouthMappers chapter at Université des Sciences Sociale et de Gestion de Bamako",
+              "name": "YouthMappers Bamako",
+              "description": "YouthMappers chapter at University of Social Sciences and Management of Bamako",
               "url": "mailto:youthmappersfhg@gmail.com"
             },
             "contacts": [
               {"name": "Organizer", "email": "youthmappersfhg@gmail.com"}
             ],
             "resolved": {
-              "name": "Etudiant au Laboratoire HoPE",
+              "name": "YouthMappers Bamako",
               "url": "mailto:youthmappersfhg@gmail.com",
-              "description": "YouthMappers chapter at Université des Sciences Sociale et de Gestion de Bamako",
-              "nameHTML": "<a target=\"_blank\" href=\"mailto:youthmappersfhg@gmail.com\">Etudiant au Laboratoire HoPE</a>",
+              "description": "YouthMappers chapter at University of Social Sciences and Management of Bamako",
+              "nameHTML": "<a target=\"_blank\" href=\"mailto:youthmappersfhg@gmail.com\">YouthMappers Bamako</a>",
               "urlHTML": "<a target=\"_blank\" href=\"mailto:youthmappersfhg@gmail.com\">mailto:youthmappersfhg@gmail.com</a>",
-              "descriptionHTML": "YouthMappers chapter at Université des Sciences Sociale et de Gestion de Bamako"
+              "descriptionHTML": "YouthMappers chapter at University of Social Sciences and Management of Bamako"
             }
           }
         }

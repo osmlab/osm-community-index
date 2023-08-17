@@ -19,19 +19,42 @@ _Breaking changes, which may affect downstream projects, are marked with a_ ⚠�
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.5.5
+##### 2023-Aug-17
+* Added:
+  * Add MapRVA Mastadon ([#671], [#673])
+* Updated:
+  * Update osm.ch to type `url` ([#669])
+  * Update Swiss Mailing List URL ([#668])
+  * Use English language for source strings ([#576], [#577])
+* Deleted:
+  * Remove defunct OSM Canada Slack ([#661])
+  * Remove defunct YouthMappers Montgomery College ([#674])
+
+[#576]: https://github.com/osmlab/osm-community-index/issues/576
+[#577]: https://github.com/osmlab/osm-community-index/issues/577
+[#661]: https://github.com/osmlab/osm-community-index/issues/661
+[#668]: https://github.com/osmlab/osm-community-index/issues/668
+[#669]: https://github.com/osmlab/osm-community-index/issues/669
+[#671]: https://github.com/osmlab/osm-community-index/issues/671
+[#673]: https://github.com/osmlab/osm-community-index/issues/673
+[#674]: https://github.com/osmlab/osm-community-index/issues/674
+
+
 # 5.5.4
 ##### 2023-Jul-12
 * Bump dependencies, including location-conflation v1.2.1 / country-coder v5.2.1
 * Added:
   * Swiss OSM local chapter ([#664])
 * Updated:
-  * Rename Code for San José to Open Source San José ([#666])
+  * Rename Code for San José to Open Source San José ([#666], [#667])
 * Deleted:
   * Sacred Heart Junior College YouthMappers ([#665])
 
 [#664]: https://github.com/osmlab/osm-community-index/issues/664
 [#665]: https://github.com/osmlab/osm-community-index/issues/665
 [#666]: https://github.com/osmlab/osm-community-index/issues/666
+[#667]: https://github.com/osmlab/osm-community-index/issues/667
 
 
 # 5.5.3
