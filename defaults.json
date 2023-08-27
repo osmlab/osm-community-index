@@ -37,7 +37,7 @@
     },
     "irc": {
       "name": "{community} on IRC",
-      "description": "Join #{account} on irc.oftc.net (port 6667)",
+      "description": "Join #{account} on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)",
       "url": "https://webchat.oftc.net/?channels={account}"
     },
     "linkedin": {
