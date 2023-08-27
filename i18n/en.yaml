@@ -227,7 +227,7 @@ en:
       name: '{community}'
     irc:
       name: '{community} on IRC'
-      description: 'Join #{account} on irc.oftc.net (port 6667)'
+      description: 'Join #{account} on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} on LinkedIn'
@@ -238,7 +238,7 @@ en:
       description: The official mailing list for {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
-      name: '{community} Mastodon Account'
+      name: '{community} on Mastodon'
       description: The official Mastodon account for {community}
     matrix:
       name: '{community} Matrix Chat'

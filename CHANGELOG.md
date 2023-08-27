@@ -19,6 +19,21 @@ _Breaking changes, which may affect downstream projects, are marked with a_ ⚠�
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.6.0
+##### 2023-Aug-27
+* Rebrand Twitter to 𝕏, support both `twitter` and `x` interchangeably ([#678])
+* Support new resource type `threads` ([#677])
+* Updated:
+  * OSM mastodon should be higher ([#675])
+  * IRC should list port 6697 ([#676])
+  * Use square icons for consistency, where available
+
+[#675]: https://github.com/osmlab/osm-community-index/issues/675
+[#676]: https://github.com/osmlab/osm-community-index/issues/676
+[#677]: https://github.com/osmlab/osm-community-index/issues/677
+[#678]: https://github.com/osmlab/osm-community-index/issues/678
+
+
 # 5.5.5
 ##### 2023-Aug-17
 * Added:
