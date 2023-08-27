@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.5.5",
-    "generated": "2023-08-17T16:09:41.553Z",
+    "generated": "2023-08-27T03:41:24.121Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/defaults.json",
-    "hash": "fce19e5d6ee47185041568fb559c2953"
+    "hash": "f0bcb1eabeebba2d1352f51b7eac945f"
   },
   "defaults": {
     "aparat": {
@@ -84,15 +84,25 @@
       "description": "Join our community Telegram chat",
       "url": "https://t.me/{account}"
     },
+    "threads": {
+      "name": "{community} on Threads",
+      "description": "Follow us on Threads",
+      "url": "https://threads.net/@{account}"
+    },
     "twitter": {
-      "name": "{community} on Twitter",
-      "description": "Follow us on Twitter",
+      "name": "{community} on 𝕏",
+      "description": "Follow us on 𝕏",
       "url": "https://twitter.com/{account}"
     },
     "website": {"name": "{community}"},
     "wiki": {
       "name": "{community} WikiProject",
       "url": "https://wiki.openstreetmap.org/wiki/{account}"
+    },
+    "x": {
+      "name": "{community} on 𝕏",
+      "description": "Follow us on 𝕏",
+      "url": "https://twitter.com/{account}"
     },
     "xmpp": {"name": "{community} XMPP"},
     "youtube": {

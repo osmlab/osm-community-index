@@ -8,7 +8,7 @@ import {
 
 import {
   faDiscord, faDiscourse, faFacebook, faGithub, faGitlab, faLinkedin,
-  faMastodon, faMeetup, faReddit, faSlack, faSquareThreads, faTelegram, faTwitter, faYoutube
+  faMastodon, faMeetup, faReddit, faSlack, faSquareThreads, faSquareXTwitter, faTelegram, faYoutube
 } from '@fortawesome/free-brands-svg-icons';
 
 const toBuild = {
@@ -31,9 +31,10 @@ const toBuild = {
   slack: faSlack,
   telegram: faTelegram,
   threads: faSquareThreads,
-  twitter: faTwitter,
+  twitter: faSquareXTwitter,
   url: faLink,
   youtube: faYoutube,
+  x: faSquareXTwitter,
   zulip: faComments
 };
 

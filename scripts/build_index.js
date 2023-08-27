@@ -361,7 +361,9 @@ function convertURLs(item) {
     matchUrl = url.match(/meetup.com\/([\-A-Za-z0-9_]+)\/?$/i);
   } else if (item.type === 'telegram') {
     matchUrl = url.match(/t.me\/([\-A-Za-z0-9_]+)\/?$/i);
-  } else if (item.type === 'twitter') {
+  } else if (item.type === 'threads') {
+    matchUrl = url.match(/threads.net\/@([\-A-Za-z0-9_.]+)\/?$/i);
+  } else if (item.type === 'twitter' || item.type === 'x') {
     matchUrl = url.match(/twitter.com\/([\-A-Za-z0-9_.]+)\/?$/i);
   } else if (item.type === 'youtube') {
     matchUrl = url.match(/youtube.com\/channel\/([\-A-Za-z0-9_.]+)\/?$/i);
