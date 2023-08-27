@@ -7,17 +7,18 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 import {
-  faDiscord, faDiscourse, faFacebook, faGithub, faGitlab, faLinkedin,
-  faMastodon, faMeetup, faReddit, faSlack, faSquareThreads, faSquareXTwitter, faTelegram, faYoutube
+  faDiscord, faDiscourse, faLinkedin, faMastodon, faMeetup, faSlack,
+  faSquareFacebook, faSquareGithub, faSquareGitlab, faSquareReddit,
+  faSquareThreads, faSquareXTwitter, faSquareYoutube, faTelegram,
 } from '@fortawesome/free-brands-svg-icons';
 
 const toBuild = {
   discord: faDiscord,
   discourse: faDiscourse,
-  facebook: faFacebook,
+  facebook: faSquareFacebook,
   forum: faComments,
-  github: faGithub,
-  gitlab: faGitlab,
+  github: faSquareGithub,
+  gitlab: faSquareGitlab,
   group: faUsers,
   irc: faKeyboard,
   linkedin: faLinkedin,
@@ -26,14 +27,14 @@ const toBuild = {
   matrix: faComments,
   meetup: faMeetup,
   newsletter: faNewspaper,
-  reddit: faReddit,
+  reddit: faSquareReddit,
   signal: faComment,
   slack: faSlack,
   telegram: faTelegram,
   threads: faSquareThreads,
   twitter: faSquareXTwitter,
   url: faLink,
-  youtube: faYoutube,
+  youtube: faSquareYoutube,
   x: faSquareXTwitter,
   zulip: faComments
 };
