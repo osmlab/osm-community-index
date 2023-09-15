@@ -1,0 +1,17 @@
+{
+  "id": "cat-twitch",
+  "type": "url",
+  "locationSet": {"include": ["catalan_countries.geojson"]},
+  "languageCodes": ["ca"],
+  "order": 6,
+  "strings": {
+    "community": "OpenStreetMap Catalan Countries",
+    "communityID": "openstreetmapcatalancountries",
+    "name": "Twitch channel of the {community}",
+    "url": "https://www.twitch.tv/osmcatala",
+  },
+
+  "contacts": [
+    {"name": "Carlos Sánchez", "email": "erielkhan@gmail.com"},
+  ]
+}
