@@ -65,6 +65,7 @@ var cdnBase = 'https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/
 var map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/light-v11',
+  projection: 'mercator',
   center: [0,0],
   zoom: 1
 });
