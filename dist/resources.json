@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.6.0",
-    "generated": "2023-09-18T16:15:12.147Z",
+    "generated": "2023-09-22T16:40:29.956Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "7b38483693669d156e0d70737d6785d0"
+    "hash": "c7a25b4d9192b390578d989bb201f2ea"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -330,6 +330,9 @@
     "OSM-AR-youtube": {"id": "OSM-AR-youtube", "type": "youtube", "account": "UCY8ecMiXarIiOmcR17Ng2tQ", "locationSet": {"include": ["ar"]}, "languageCodes": ["es"], "order": -1, "strings": {"community": "OpenStreetMap Argentina", "communityID": "openstreetmapargentina"}, "contacts": [{"name": "OpenStreetMap Argentina", "email": "openstreetmap.org.ar@gmail.com"}]},
     "osm-asia-telegram": {"id": "osm-asia-telegram", "type": "telegram", "account": "OpenStreetMapAsia", "locationSet": {"include": ["142"]}, "strings": {"community": "OpenStreetMap Asia", "communityID": "openstreetmapasia"}, "contacts": [{"name": "Erwin Olario", "email": "govvin@gmail.com"}]},
     "osm-at": {"id": "osm-at", "type": "osm-lc", "locationSet": {"include": ["at"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Austria", "communityID": "openstreetmapaustria", "description": "The platform for information on OpenStreetMap in Austria", "url": "https://www.openstreetmap.at/"}, "contacts": [{"name": "AT community", "email": "info@openstreetmap.at"}]},
+    "osm-bengaluru-matrix": {"id": "osm-bengaluru-matrix", "type": "matrix", "account": "#OSM_BLR", "locationSet": {"include": ["india_bengaluru.geojson"]}, "strings": {"community": "OpenStreetMap Bengaluru", "communityID": "openstreetmapbengaluru", "extendedDescription": "Group for OpenStreetMap contributors, users and newbies in Bengaluru. Bridged to Telegram."}},
+    "osm-bengaluru-telegram": {"id": "osm-bengaluru-telegram", "type": "telegram", "account": "OSM_BLR", "locationSet": {"include": ["india_bengaluru.geojson"]}, "strings": {"community": "OpenStreetMap Bengaluru", "communityID": "openstreetmapbengaluru", "extendedDescription": "Group for OpenStreetMap contributors, users and newbies in Bengaluru. Bridged to Matrix."}},
+    "osm-bengaluru-wiki": {"id": "osm-bengaluru-wiki", "type": "wiki", "account": "Bengaluru", "locationSet": {"include": ["india_bengaluru.geojson"]}, "strings": {"community": "OpenStreetMap Bengaluru", "communityID": "openstreetmapbengaluru", "description": "OpenStreetMap in Bengaluru"}},
     "osm-benin-facebook": {"id": "osm-benin-facebook", "type": "facebook", "locationSet": {"include": ["ben"]}, "languageCodes": ["en"], "order": 4, "strings": {"community": "OpenStreetMap Benin", "communityID": "openstreetmapbenin", "description": "Improve OpenStreetMap in Benin", "url": "https://www.facebook.com/groups/425597680895264/?fref=ts"}},
     "OSM-Benin-mailinglist": {"id": "OSM-Benin-mailinglist", "type": "mailinglist", "account": "talk-bj", "locationSet": {"include": ["ben"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Benin", "communityID": "openstreetmapbenin"}},
     "OSM-bf-mailinglist": {"id": "OSM-bf-mailinglist", "type": "mailinglist", "account": "talk-bf", "locationSet": {"include": ["bf"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Burkina Faso", "communityID": "openstreetmapburkinafaso"}},
