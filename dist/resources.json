@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.6.0",
-    "generated": "2023-09-18T16:15:12.147Z",
+    "generated": "2023-10-11T16:20:32.630Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "7b38483693669d156e0d70737d6785d0"
+    "hash": "67edb1b37c4fc8db42af5f8d3ddc5f6f"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -371,6 +371,7 @@
     "OSM-help": {"id": "OSM-help", "type": "forum", "locationSet": {"include": ["001"]}, "languageCodes": ["en"], "order": -2, "strings": {"name": "OpenStreetMap Help", "description": "Ask a question and get answers on OSM's community-driven question and answer site.", "extendedDescription": "{url} is for everyone who needs help with OpenStreetMap.  Whether you are a beginner mapper or have a technical question, we're here to help!", "url": "https://help.openstreetmap.org/"}, "contacts": [{"name": "OSMF Operations", "email": "operations@osmfoundation.org"}]},
     "osm-hr": {"id": "osm-hr", "type": "osm", "locationSet": {"include": ["hr"]}, "languageCodes": ["hr"], "order": 3, "strings": {"community": "OpenStreetMap Croatia", "communityID": "openstreetmapcroatia", "description": "The platform for information on OpenStreetMap in Croatia", "url": "https://osm-hr.org/"}, "contacts": [{"name": "OpenStreetMap Croatia", "email": "info@osm-hr.org"}]},
     "osm-id": {"id": "osm-id", "type": "osm", "locationSet": {"include": ["id"]}, "languageCodes": ["id"], "order": 1, "strings": {"community": "OpenStreetMap Indonesia", "communityID": "openstreetmapindonesia", "description": "Provides OSM services and information for the local community in Indonesia", "url": "https://openstreetmap.or.id/"}},
+    "osm-india-discourse": {"id": "osm-india-discourse", "type": "discourse", "account": "in", "locationSet": {"include": ["in"]}, "strings": {"community": "OpenStreetMap India", "communityID": "openstreetmapindia"}, "contacts": [{"name": "Sahil Dhiman", "email": "sahil@sahilister.in"}]},
     "OSM-India-facebook": {"id": "OSM-India-facebook", "type": "facebook", "account": "mappingindia", "locationSet": {"include": ["in"]}, "order": 3, "strings": {"community": "OpenStreetMap India", "communityID": "openstreetmapindia", "description": "Improve OpenStreetMap in India", "extendedDescription": "Mapping in India? Have questions, want to connect with the community here? Join us at {url}. All are welcome!", "url": "https://www.facebook.com/groups/mappingindia"}, "contacts": [{"name": "Jinal Foflia", "email": "fofliajinal@gmail.com"}, {"name": "Arun Ganesh", "email": "arun.planemad@gmail.com"}]},
     "osm-india-github": {"id": "osm-india-github", "type": "github", "account": "osm-in", "locationSet": {"include": ["in"]}, "strings": {"community": "OpenStreetMap India", "communityID": "openstreetmapindia", "description": "Code with us: {url}"}, "contacts": [{"name": "Naveen Francis", "email": "naveenpf@gmail.com"}]},
     "osm-india-mailinglist": {"id": "osm-india-mailinglist", "type": "mailinglist", "account": "talk-in", "locationSet": {"include": ["in"]}, "order": -3, "strings": {"community": "OpenStreetMap India", "communityID": "openstreetmapindia"}, "contacts": [{"name": "Arun Ganesh", "email": "arun.planemad@gmail.com"}]},
