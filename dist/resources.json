@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.6.0",
-    "generated": "2023-09-18T16:15:12.147Z",
+    "generated": "2023-11-22T22:23:38.061Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "7b38483693669d156e0d70737d6785d0"
+    "hash": "958c1313c1a13aa663321173c0d04ee5"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -278,6 +278,7 @@
     "MaptimeHRVA-twitter": {"id": "MaptimeHRVA-twitter", "type": "twitter", "account": "maptimehrva", "locationSet": {"include": ["hrva.geojson"]}, "languageCodes": ["en"], "strings": {"community": "MaptimeHRVA", "communityID": "maptimehrva"}, "contacts": [{"name": "Jonah Adkins", "email": "jonahadkins@gmail.com"}]},
     "md-googlegroup": {"id": "md-googlegroup", "type": "forum", "locationSet": {"include": ["md"]}, "languageCodes": ["mo", "ro", "ru"], "order": 1, "strings": {"community": "OpenStreetMap Moldova", "communityID": "openstreetmapmoldova", "name": "{community} Google Group", "description": "Join the {community} Google Group", "url": "https://groups.google.com/forum/#!forum/openstreetmap-moldova"}, "contacts": [{"name": "Ion Moldovan", "email": "6yhxhs7t7huf@inbox.ru"}]},
     "md-telegram": {"id": "md-telegram", "type": "telegram", "account": "OSMMoldova", "locationSet": {"include": ["md"]}, "languageCodes": ["mo", "ro", "ru"], "order": 2, "strings": {"community": "OpenStreetMap Moldova", "communityID": "openstreetmapmoldova"}, "contacts": [{"name": "Ion Moldovan", "email": "6yhxhs7t7huf@inbox.ru"}]},
+    "me-telegram": {"id": "me-telegram", "type": "telegram", "account": "osmmne", "locationSet": {"include": ["me"]}, "languageCodes": ["en", "ru"], "order": 1, "strings": {"community": "OpenStreetMap Montenegro", "communityID": "openstreetmapmontenegro", "description": "All are welcome! Sign up at {signupUrl}", "signupUrl": "https://t.me/+lgxdU87aRchjYTQy"}, "contacts": [{"name": "Rinat Sabitov", "email": "me@false.org.ru"}]},
     "mg-twitter": {"id": "mg-twitter", "type": "twitter", "account": "OSM_Mg", "locationSet": {"include": ["mg"]}, "languageCodes": ["fr", "mg"], "strings": {"community": "OpenStreetMap Madagascar", "communityID": "openstreetmapmadagascar"}},
     "ml-facebook": {"id": "ml-facebook", "type": "facebook", "account": "Openstreetmap-Mali-909615379063102", "locationSet": {"include": ["ml"]}, "strings": {"community": "OpenStreetMap Mali", "communityID": "openstreetmapmali"}},
     "ml-twitter": {"id": "ml-twitter", "type": "twitter", "account": "OSM_Mali", "locationSet": {"include": ["ml"]}, "strings": {"community": "OpenStreetMap Mali", "communityID": "openstreetmapmali"}},
