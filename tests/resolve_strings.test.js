@@ -30,7 +30,7 @@ test('resolveStrings', async t => {
 
   await t.test('basic', t => {
     const resolved = resolveStrings(item, defaults);
-    assert.equal(typeof resolved, 'object');
+    assert.ok(resolved instanceof Object);
 
     assert.equal(resolved.name, 'Override Name');
     assert.equal(resolved.url, 'https://lists.openstreetmap.org/listinfo/talk-ru');
@@ -57,7 +57,7 @@ test('resolveStrings', async t => {
     const localizer = (id) => stringids[id];
 
     const resolved = resolveStrings(item, defaults, localizer);
-    assert.equal(typeof resolved, 'object');
+    assert.ok(resolved instanceof Object);
 
     assert.equal(resolved.name, 'переопределить имя');
     assert.equal(resolved.url, 'https://lists.openstreetmap.org/listinfo/talk-ru');
@@ -113,7 +113,7 @@ test('resolveStrings', async t => {
     };
 
     const resolved = resolveStrings(subreddit, defaults);
-    assert.equal(typeof resolved, 'object');
+    assert.ok(resolved instanceof Object);
     assert.equal(resolved.descriptionHTML, '<a target="_blank" href="https://www.reddit.com/r/openstreetmap">/r/openstreetmap</a> is a great place to learn more about OpenStreetMap.');
     assert.equal(resolved.extendedDescriptionHTML, 'Fun times for all at <a target="_blank" href="https://www.reddit.com/r/openstreetmap">/r/openstreetmap</a>');
   });
