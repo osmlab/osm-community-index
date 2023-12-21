@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.6.0",
-    "generated": "2023-11-22T22:23:42.512Z",
+    "generated": "2023-12-21T15:56:14.631Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "2ce6316fcd3fc6333ba4ed381e114fac"
+    "hash": "732d136a4d79866a1ea6b6490909b99f"
   },
   "type": "FeatureCollection",
   "features": [
@@ -1076,28 +1076,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osm-at:matrix.org\">OpenStreetMap Austria Matrix Chat</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osm-at:matrix.org\">https://matrix.to/#/#osm-at:matrix.org</a>",
               "descriptionHTML": "Unofficial German Matrix channel for Austria"
-            }
-          },
-          "at-twitter": {
-            "id": "at-twitter",
-            "type": "twitter",
-            "account": "osm_at",
-            "locationSet": {"include": ["at"]},
-            "languageCodes": ["de"],
-            "strings": {
-              "community": "OpenStreetMap Austria",
-              "communityID": "openstreetmapaustria"
-            },
-            "contacts": [
-              {"name": "AT Community", "email": "info@openstreetmap.at"}
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Austria on 𝕏",
-              "url": "https://twitter.com/osm_at",
-              "description": "Follow us on 𝕏",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_at\">OpenStreetMap Austria on 𝕏</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_at\">https://twitter.com/osm_at</a>",
-              "descriptionHTML": "Follow us on 𝕏"
             }
           },
           "at-wiki": {
@@ -21764,21 +21742,20 @@
           "lv-discord": {
             "id": "lv-discord",
             "type": "discord",
-            "account": "osmlatvija",
+            "account": "2ACzy4DrRt",
             "locationSet": {"include": ["lv"]},
             "languageCodes": ["en", "lv"],
             "order": 3,
             "strings": {
               "community": "OpenStreetMap Latvia",
-              "communityID": "openstreetmaplatvia",
-              "url": "https://discord.com/invite/2ACzy4DrRt"
+              "communityID": "openstreetmaplatvia"
             },
             "resolved": {
               "name": "OpenStreetMap Latvia Discord",
-              "url": "https://discord.com/invite/2ACzy4DrRt",
+              "url": "https://discord.gg/2ACzy4DrRt",
               "description": "Get in touch with other mappers on Discord",
-              "nameHTML": "<a target=\"_blank\" href=\"https://discord.com/invite/2ACzy4DrRt\">OpenStreetMap Latvia Discord</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://discord.com/invite/2ACzy4DrRt\">https://discord.com/invite/2ACzy4DrRt</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://discord.gg/2ACzy4DrRt\">OpenStreetMap Latvia Discord</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://discord.gg/2ACzy4DrRt\">https://discord.gg/2ACzy4DrRt</a>",
               "descriptionHTML": "Get in touch with other mappers on Discord"
             }
           },
@@ -29601,7 +29578,7 @@
               [49.2134, 44.84989],
               [52.26048, 41.69249],
               [51.7708, 40.29239],
-              [52.379880951232124, 39.448603195368854],
+              [52.37988095123213, 39.44860319536884],
               [48.80971, 41.95365],
               [48.5867, 41.84306],
               [48.55078, 41.77917],
@@ -29760,7 +29737,7 @@
               [104.81582, 8.03101],
               [109.55486, 8.10026],
               [111.60491, 13.57105],
-              [118.41314637449923, 24.066881093908783],
+              [118.41314637449923, 24.06688109390878],
               [120.69238, 21.52331],
               [118.82252, 14.67191],
               [115.39742, 10.92666],
@@ -29811,6 +29788,113 @@
         ]
       },
       "id": "Q48"
+    },
+    {
+      "type": "Feature",
+      "id": "india_bengaluru.geojson",
+      "properties": {
+        "id": "india_bengaluru.geojson",
+        "area": 8888.75,
+        "resources": {
+          "osm-bengaluru-matrix": {
+            "id": "osm-bengaluru-matrix",
+            "type": "matrix",
+            "account": "#OSM_BLR",
+            "locationSet": {"include": ["india_bengaluru.geojson"]},
+            "strings": {
+              "community": "OpenStreetMap Bengaluru",
+              "communityID": "openstreetmapbengaluru",
+              "extendedDescription": "Group for OpenStreetMap contributors, users and newbies in Bengaluru. Bridged to Telegram."
+            },
+            "resolved": {
+              "name": "OpenStreetMap Bengaluru Matrix Chat",
+              "url": "https://matrix.to/#/#OSM_BLR:matrix.org",
+              "description": "Join our community Matrix chat",
+              "extendedDescription": "Group for OpenStreetMap contributors, users and newbies in Bengaluru. Bridged to Telegram.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#OSM_BLR:matrix.org\">OpenStreetMap Bengaluru Matrix Chat</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#OSM_BLR:matrix.org\">https://matrix.to/#/#OSM_BLR:matrix.org</a>",
+              "descriptionHTML": "Join our community Matrix chat",
+              "extendedDescriptionHTML": "Group for OpenStreetMap contributors, users and newbies in Bengaluru. Bridged to Telegram."
+            }
+          },
+          "osm-bengaluru-telegram": {
+            "id": "osm-bengaluru-telegram",
+            "type": "telegram",
+            "account": "OSM_BLR",
+            "locationSet": {"include": ["india_bengaluru.geojson"]},
+            "strings": {
+              "community": "OpenStreetMap Bengaluru",
+              "communityID": "openstreetmapbengaluru",
+              "extendedDescription": "Group for OpenStreetMap contributors, users and newbies in Bengaluru. Bridged to Matrix."
+            },
+            "resolved": {
+              "name": "OpenStreetMap Bengaluru Telegram",
+              "url": "https://t.me/OSM_BLR",
+              "description": "Join our community Telegram chat",
+              "extendedDescription": "Group for OpenStreetMap contributors, users and newbies in Bengaluru. Bridged to Matrix.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/OSM_BLR\">OpenStreetMap Bengaluru Telegram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/OSM_BLR\">https://t.me/OSM_BLR</a>",
+              "descriptionHTML": "Join our community Telegram chat",
+              "extendedDescriptionHTML": "Group for OpenStreetMap contributors, users and newbies in Bengaluru. Bridged to Matrix."
+            }
+          },
+          "osm-bengaluru-wiki": {
+            "id": "osm-bengaluru-wiki",
+            "type": "wiki",
+            "account": "Bengaluru",
+            "locationSet": {"include": ["india_bengaluru.geojson"]},
+            "strings": {
+              "community": "OpenStreetMap Bengaluru",
+              "communityID": "openstreetmapbengaluru",
+              "description": "OpenStreetMap in Bengaluru"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Bengaluru WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Bengaluru",
+              "description": "OpenStreetMap in Bengaluru",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Bengaluru\">OpenStreetMap Bengaluru WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Bengaluru\">https://wiki.openstreetmap.org/wiki/Bengaluru</a>",
+              "descriptionHTML": "OpenStreetMap in Bengaluru"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [77.42, 13.50535],
+            [77.83778, 13.34011],
+            [77.83441, 13.26791],
+            [77.97099, 13.25643],
+            [77.95244, 13.06925],
+            [77.90354, 13.03476],
+            [77.87488, 12.86056],
+            [77.82935, 12.84412],
+            [77.7872, 12.68296],
+            [77.62364, 12.64348],
+            [77.59834, 12.53486],
+            [77.64893, 12.48548],
+            [77.63375, 12.35868],
+            [77.482, 12.23347],
+            [77.3471, 12.25654],
+            [77.21895, 12.47725],
+            [77.1279, 12.45091],
+            [77.05876, 12.76684],
+            [77.13296, 12.78987],
+            [77.09923, 12.88686],
+            [77.14476, 12.93453],
+            [77.05876, 13.02654],
+            [77.06045, 13.12837],
+            [77.18052, 13.21466],
+            [77.17848, 13.27284],
+            [77.2257, 13.3155],
+            [77.33083, 13.3345],
+            [77.34327, 13.45767],
+            [77.42, 13.50535]
+          ]
+        ],
+        "type": "Polygon"
+      }
     },
     {
       "type": "Feature",
@@ -32846,16 +32930,16 @@
     },
     {
       "type": "Feature",
-      "id": "[21.00578,52.23196]",
+      "id": "[21.21308,51.98438]",
       "properties": {
-        "id": "[21.00578,52.23196]",
+        "id": "[21.21308,51.98438]",
         "area": 1963.5,
         "resources": {
           "osm-gora-kalwaria-telegram": {
             "id": "osm-gora-kalwaria-telegram",
             "type": "telegram",
             "account": "OSM_Gora_Kalwaria",
-            "locationSet": {"include": [[21.00578, 52.23196]]},
+            "locationSet": {"include": [[21.21308, 51.98438]]},
             "languageCodes": ["pl"],
             "strings": {
               "community": "OpenStreetMap Góra Kalwaria",
@@ -32876,17 +32960,17 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [21.006, 52.457],
-            [20.789, 52.413],
-            [20.657, 52.301],
-            [20.658, 52.162],
-            [20.791, 52.05],
-            [21.006, 52.007],
-            [21.22, 52.05],
-            [21.354, 52.162],
-            [21.355, 52.301],
-            [21.222, 52.413],
-            [21.006, 52.457]
+            [21.213, 52.209],
+            [20.998, 52.166],
+            [20.866, 52.053],
+            [20.867, 51.914],
+            [21, 51.802],
+            [21.213, 51.76],
+            [21.427, 51.802],
+            [21.559, 51.914],
+            [21.56, 52.053],
+            [21.428, 52.166],
+            [21.213, 52.209]
           ]
         ]
       }
@@ -32913,6 +32997,27 @@
         "callingCodes": ["91"],
         "area": 4617262.42,
         "resources": {
+          "osm-india-discourse": {
+            "id": "osm-india-discourse",
+            "type": "discourse",
+            "account": "in",
+            "locationSet": {"include": ["in"]},
+            "strings": {
+              "community": "OpenStreetMap India",
+              "communityID": "openstreetmapindia"
+            },
+            "contacts": [
+              {"name": "Sahil Dhiman", "email": "sahil@sahilister.in"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap India Community Forum",
+              "url": "https://community.openstreetmap.org/c/communities/in",
+              "description": "The official forum for OpenStreetMap India",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/in\">OpenStreetMap India Community Forum</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/in\">https://community.openstreetmap.org/c/communities/in</a>",
+              "descriptionHTML": "The official forum for OpenStreetMap India"
+            }
+          },
           "OSM-India-facebook": {
             "id": "OSM-India-facebook",
             "type": "facebook",
@@ -32983,6 +33088,29 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-in\">talk-in Mailing List</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-in\">https://lists.openstreetmap.org/listinfo/talk-in</a>",
               "descriptionHTML": "The official mailing list for OpenStreetMap India"
+            }
+          },
+          "osm-india-mastodon": {
+            "id": "osm-india-mastodon",
+            "type": "mastodon",
+            "account": "OSMIndia",
+            "locationSet": {"include": ["in"]},
+            "strings": {
+              "community": "OpenStreetMap India",
+              "communityID": "openstreetmapindia",
+              "description": "Home of the OpenStreetMap India community on fediverse",
+              "url": "https://en.osm.town/@OSMIndia"
+            },
+            "contacts": [
+              {"name": "Sahil Dhiman", "email": "sahil@sahilister.in"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap India on Mastodon",
+              "url": "https://en.osm.town/@OSMIndia",
+              "description": "Home of the OpenStreetMap India community on fediverse",
+              "nameHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@OSMIndia\">OpenStreetMap India on Mastodon</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@OSMIndia\">https://en.osm.town/@OSMIndia</a>",
+              "descriptionHTML": "Home of the OpenStreetMap India community on fediverse"
             }
           },
           "osm-india-matrix": {
@@ -38063,16 +38191,16 @@
     },
     {
       "type": "Feature",
-      "id": "[21.21308,51.98438]",
+      "id": "[21.00578,52.23196]",
       "properties": {
-        "id": "[21.21308,51.98438]",
+        "id": "[21.00578,52.23196]",
         "area": 1963.5,
         "resources": {
           "osm-warszawa-telegram": {
             "id": "osm-warszawa-telegram",
             "type": "telegram",
             "account": "OSM_Warszawa",
-            "locationSet": {"include": [[21.21308, 51.98438]]},
+            "locationSet": {"include": [[21.00578, 52.23196]]},
             "languageCodes": ["pl"],
             "strings": {
               "community": "OpenStreetMap Warszawa",
@@ -38093,17 +38221,17 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [21.213, 52.209],
-            [20.998, 52.166],
-            [20.866, 52.053],
-            [20.867, 51.914],
-            [21, 51.802],
-            [21.213, 51.76],
-            [21.427, 51.802],
-            [21.559, 51.914],
-            [21.56, 52.053],
-            [21.428, 52.166],
-            [21.213, 52.209]
+            [21.006, 52.457],
+            [20.789, 52.413],
+            [20.657, 52.301],
+            [20.658, 52.162],
+            [20.791, 52.05],
+            [21.006, 52.007],
+            [21.22, 52.05],
+            [21.354, 52.162],
+            [21.355, 52.301],
+            [21.222, 52.413],
+            [21.006, 52.457]
           ]
         ]
       }
@@ -38955,6 +39083,28 @@
         "callingCodes": ["351"],
         "area": 799086.08,
         "resources": {
+          "pt-discord": {
+            "id": "pt-discord",
+            "type": "discord",
+            "account": "Uhggtd7XpK",
+            "locationSet": {"include": ["pt"]},
+            "languageCodes": ["pt"],
+            "strings": {
+              "community": "OpenStreetMap Portugal",
+              "communityID": "openstreetmapportugal"
+            },
+            "contacts": [
+              {"name": "Diogo Baptista", "email": "diogobaptista98@gmail.com"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Portugal Discord",
+              "url": "https://discord.gg/Uhggtd7XpK",
+              "description": "Get in touch with other mappers on Discord",
+              "nameHTML": "<a target=\"_blank\" href=\"https://discord.gg/Uhggtd7XpK\">OpenStreetMap Portugal Discord</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://discord.gg/Uhggtd7XpK\">https://discord.gg/Uhggtd7XpK</a>",
+              "descriptionHTML": "Get in touch with other mappers on Discord"
+            }
+          },
           "pt-discourse": {
             "id": "pt-discourse",
             "type": "discourse",
@@ -40644,7 +40794,7 @@
               [38.12112, 46.86078],
               [37.62608, 46.82615],
               [35.23066, 45.79231],
-              [35.04993554652997, 45.768273397723824],
+              [35.04993554652997, 45.76827339772382],
               [35.0498, 45.7683],
               [34.9601, 45.7563],
               [34.7991, 45.8101],
@@ -47250,6 +47400,29 @@
         "id": "[-0.12,51.5]",
         "area": 1963.5,
         "resources": {
+          "uk-london-mastodon": {
+            "id": "uk-london-mastodon",
+            "type": "mastodon",
+            "locationSet": {"include": [[-0.12, 51.5]]},
+            "languageCodes": ["en"],
+            "order": 4,
+            "strings": {
+              "name": "OpenStreetMap London on Mastodon",
+              "description": "OpenStreetMap London on Mastodon: {url}",
+              "url": "https://en.osm.town/@OSMLondon"
+            },
+            "contacts": [
+              {"name": "Harry Wood", "email": "mail@harrywood.co.uk"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap London on Mastodon",
+              "url": "https://en.osm.town/@OSMLondon",
+              "description": "OpenStreetMap London on Mastodon: https://en.osm.town/@OSMLondon",
+              "nameHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@OSMLondon\">OpenStreetMap London on Mastodon</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@OSMLondon\">https://en.osm.town/@OSMLondon</a>",
+              "descriptionHTML": "OpenStreetMap London on Mastodon: <a target=\"_blank\" href=\"https://en.osm.town/@OSMLondon\">https://en.osm.town/@OSMLondon</a>"
+            }
+          },
           "uk-london-twitter": {
             "id": "uk-london-twitter",
             "type": "twitter",
