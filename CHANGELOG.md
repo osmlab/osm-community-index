@@ -19,6 +19,37 @@ _Breaking changes, which may affect downstream projects, are marked with a_ ⚠�
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.6.1
+##### 2023-Dec-21
+* Bump reqired node to 18, swap `tap` for `node:test`
+* Added:
+  * Catalan community Twitch channel ([#680])
+  * Bengaluru commmunity resources ([#682])
+  * London Mastodon ([#683])
+  * India Mastodon ([#685])
+  * Canada Matrix ([#686])
+  * India forum ([#687])
+  * Montenegro Telegram ([#690])
+  * Portugal community Discord ([#692])
+* Updated:
+  * Specify language for MapRVA ([#679])
+  * Fix city locations in Poland (Warszawa & Góra Kalwaria were swapped) ([#684])
+* Removed:
+  * Discontinued @osm_at Twitter account ([#689])
+
+[#679]: https://github.com/osmlab/osm-community-index/issues/679
+[#680]: https://github.com/osmlab/osm-community-index/issues/680
+[#682]: https://github.com/osmlab/osm-community-index/issues/682
+[#683]: https://github.com/osmlab/osm-community-index/issues/683
+[#684]: https://github.com/osmlab/osm-community-index/issues/684
+[#685]: https://github.com/osmlab/osm-community-index/issues/685
+[#686]: https://github.com/osmlab/osm-community-index/issues/686
+[#687]: https://github.com/osmlab/osm-community-index/issues/687
+[#689]: https://github.com/osmlab/osm-community-index/issues/689
+[#690]: https://github.com/osmlab/osm-community-index/issues/690
+[#692]: https://github.com/osmlab/osm-community-index/issues/692
+
+
 # 5.6.0
 ##### 2023-Aug-27
 * Rebrand Twitter to 𝕏, support both `twitter` and `x` interchangeably ([#678])
