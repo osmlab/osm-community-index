@@ -186,7 +186,6 @@ gl:
       name: '{community}'
     irc:
       name: '{community} no IRC'
-      description: 'Únete a #{account} en irc.oftc.net (porto 6667)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} no LinkedIn'
@@ -215,8 +214,6 @@ gl:
       description: Únete á conversa da nosa comunidade no Telegram
       url: https://t.me/{account}
     twitter:
-      name: '{community} no Twitter'
-      description: Síguenos no Twitter
       url: https://twitter.com/{account}
     wiki:
       name: 'Wikiproxecto de {community}'

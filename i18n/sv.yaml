@@ -227,7 +227,7 @@ sv:
       name: '{community}'
     irc:
       name: '{community} på IRC'
-      description: 'Anslut #{account} på irc.oftc.net (port 6667)'
+      description: 'Anslut #{account} på irc.oftc.net (port 6667 för icke-SSL eller 6697 för SSL)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} på LinkedIn'
@@ -238,7 +238,7 @@ sv:
       description: Officiella e-postlistan för {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
-      name: 'Mastodon-konto för {community}'
+      name: '{community} på Mastodon'
       description: Officiella Mastodon-kontot för {community}
     matrix:
       name: 'Matrix-chatt för {community}'
@@ -265,15 +265,23 @@ sv:
       name: 'Telegram för {community}'
       description: Anslut till gemenskapens Telegram-chatt
       url: https://t.me/{account}
+    threads:
+      name: '{community} på Threads'
+      description: Följ oss på Threads
+      url: https://threads.net/@{account}
     twitter:
-      name: '{community} på Twitter'
-      description: Följ oss på Twitter
+      name: '{community} på 𝕏'
+      description: Följ oss på 𝕏
       url: https://twitter.com/{account}
     website:
       name: '{community}'
     wiki:
       name: 'WikiProject för {community}'
       url: https://wiki.openstreetmap.org/wiki/{account}
+    x:
+      name: '{community} på 𝕏'
+      description: Följ oss på 𝕏
+      url: https://twitter.com/{account}
     xmpp:
       name: 'XMPP för {community'
     youtube:
@@ -339,6 +347,9 @@ sv:
     description: Projekt från gemenskapen för OpenStreetMap Katalanska länder på GitHub
   cat-matrix:
     description: Matrix-grupp för OpenStreetMap-gemenskapen i de Katalanska länderna.
+  cat-twitch:
+    name: Twitch-kanal för {community}
+    description: OSM live-redigering, HOTosm, OpenData och GIS
   cat-wiki:
     description: 'Koordinationsplats för OpenStreetMap-gemenskapen i katalanska länder: {url}'
   cd-chapter:
@@ -590,6 +601,9 @@ sv:
   MappingWR:
     name: MappingWR
     description: Det är lätt att hitta vägar med låg koldioxidutsläpp runt Waterloo-regionen.
+  MapRVA:
+    name: MapRVA
+    description: MapRVA Meetup
   maptime-bogota-meetup:
     name: MaptimeBogotá
     description: Vi är en grupp intresserade av att kartlägga Bogotá och dess omgivningar till OpenStreetMap.
@@ -671,6 +685,7 @@ sv:
     description: Kartläggare och OpenStreetMap-användare runt Mount Vernon, Washington
     extendedDescription: OpenStreetMap är en världskarta skapad av människor precis som du. Det är en karta du bygger och ger bort gratis, precis som Wikipedia. Ta en titt på osm.org för mer information. Vi träffas hela tiden för att prata om kartor, skapar kartor och har kul!
   osm-ch:
+    name: '{community}'
     description: Plattformen för information om OpenStreetMap i Schweiz
   OSM-Chattanooga:
     name: OSM Chattanooga

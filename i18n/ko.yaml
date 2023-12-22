@@ -155,7 +155,10 @@ ko:
     openstreetmappiemonte: 오픈스트리트맵 피에몬테
     openstreetmappoland: 오픈스트리트맵 폴란드
     openstreetmapportugal: 오픈스트리트맵 포르투갈
+    openstreetmaprdc: 오픈스트리트맵 콩고민주공화국
+    openstreetmaprennes: 오픈스트리트맵 렌
     openstreetmapreunion: 오픈스트리트맵 레위니옹
+    openstreetmapriograndedosul: 오픈스트리트맵 히우그란지두술
     openstreetmapromania: 오픈스트리트맵 루마니아
     openstreetmaprussia: 오픈스트리트맵 러시아
     openstreetmaprwanda: 오픈스트리트맵 르완다
@@ -193,7 +196,12 @@ ko:
     openstreetmapwesternsahara: 오픈스트리트맵 서사하라
     openstreetmapzambia: 오픈스트리트맵 잠비아
     openstreetmapzimbabwe: 오픈스트리트맵 짐바브웨
+    youthmappersasu: YouthMappersASU
   _defaults:
+    aparat:
+      name: '{community}의 아파라트'
+      description: 저희 아파라트 채널을 구독하세요
+      url: https://aparat.com/{account}
     discord:
       name: '{community} 디스코드'
       description: Discord로 다른 매퍼들과 소통하세요
@@ -219,7 +227,6 @@ ko:
       name: '{community}'
     irc:
       name: '{community}의 IRC'
-      description: 'irc.oftc.net(6667 포트)의 #{account} 대화방에 참여하세요'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community}의 링크드인'
@@ -230,7 +237,7 @@ ko:
       description: '{community}의 공식 메일링 리스트'
       url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
-      name: '{community} 마스토돈 계정'
+      name: '{community}의 마스토돈'
       description: '{community}의 공식 마스토돈 계정'
     matrix:
       name: '{community} 매트릭스 채팅'
@@ -257,15 +264,23 @@ ko:
       name: '{community} 텔레그램'
       description: 우리 텔레그램 사랑방에 참여하세요
       url: https://t.me/{account}
+    threads:
+      name: '{community}의 스레드'
+      description: 저희 스레드를 팔로우하세요
+      url: https://threads.net/@{account}
     twitter:
-      name: '{community}의 트위터'
-      description: 저희 트위터를 팔로우 하세요
+      name: '{community}의 𝕏 채널'
+      description: 저희 𝕏 채널을 팔로우하세요
       url: https://twitter.com/{account}
     website:
       name: '{community}'
     wiki:
       name: '{community} 위키프로젝트'
       url: https://wiki.openstreetmap.org/wiki/{account}
+    x:
+      name: '{community}의 𝕏 채널'
+      description: 저희 𝕏 채널을 팔로우하세요
+      url: https://twitter.com/{account}
     xmpp:
       name: '{community} XMPP'
     youtube:
@@ -279,6 +294,8 @@ ko:
     name: OSM ABZ 디스코드
   af-matrix:
     description: 아프가니스탄 커뮤니티를 위한 매트릭스 그룹.
+  al-maptime-tirana:
+    name: 맵타임 티라나
   at-matrix:
     description: 오스트리아 이용자의 비공식 독일어 매트릭스 채널
   at-wiki:
@@ -292,18 +309,82 @@ ko:
     description: 모든 편집자들을 환영합니다!
   bg-wiki:
     description: 불가리아의 위키프로젝트 페이지
+  bo-facebook-group:
+    name: '{community} 페이스북 그룹'
   bo-matrix:
     description: 모든 편집자들을 환영합니다!
   cape-coast-youthmappers:
+    name: 케이프코스트 대학교 유스매퍼
     description: '트위터에서 팔로우하기: {url}'
+  cat-twitch:
+    name: '{community}의 트위치 채널'
+  cd-chapter:
+    name: 오픈스트리트맵 콩고민주공화국
+  Central-Pennsylvania-OSM:
+    name: 펜실베이니아주 중부 OSM
+  co-facebook:
+    extendedDescription: 오픈스트리트맵에 대해 더 알고 싶다면 커뮤니티에 가입해보세요. 누구나 환영입니다!
+  comunitat-valenciana-wiki:
+    description: '발렌시아 커뮤니티의 매핑 작업에 관해 알아야 할 모든 것 - {url}'
+  czech-community:
+    description: 체코 내 OSM 유저들의 지도 포털, 웹사이트, 연락처
+  de-aachen-wiki:
+    description: '{community} 위키 문서'
   de-berlin-mailinglist:
     name: 베를린 메일링리스트
+  de-berlin-wiki:
+    description: '{community} 위키 문서'
+  de-bochum-wiki:
+    description: '{community} 위키 문서'
+  de-bonn-wiki:
+    description: '{community} 위키 문서'
+  de-bremen-wiki:
+    description: '{community} 위키 문서'
+  de-cologne-wiki:
+    description: '{community} 위키 문서'
+  de-dresden-wiki:
+    description: '{community} 위키 문서'
+  de-dusseldorf-wiki:
+    description: '{community} 위키 문서'
+  de-hamburg-xmpp:
+    name: 오픈스트리트맵 함부르크 XMPP
+    description: 'XMPP의 멀티유저 채팅에 참여하세요 - {url}'
+  de-karlsruhe-mailinglist:
+    name: 카를스루에 메일링리스트
+  de-karlsruhe-meetup:
+    description: 독일 카를스루에 거주 오픈스트리트맵 사용자 및 맵퍼
+  de-luneburg-wiki:
+    description: '{community} 위키 문서'
+  de-munchen-wiki:
+    description: '{community} 위키 문서'
+  de-mv-mailinglist:
+    name: 메클렌부르크포어포메른 메일링리스트
   de-ostwestfalen-lippe-mailinglist:
     name: OWL 메일링리스트
+    description: 오스트베스트팔렌리페 오픈스트리트맵 공동체의 메일링리스트입니다.
+  de-stuttgart-mailinglist:
+    name: 슈투트가르트와 바덴뷔르템베르크 메일링리스트
+  de-stuttgart-meetup:
+    name: 오픈스트리트맵 슈투트가르트 정모
+    description: 독일 슈투트가르트 거주 오픈스트리트맵 사용자 및 맵퍼
+  de-ulm_neuulm-meetup:
+    name: 오픈스트리트맵 울름 노이울름 정모
   DF-telegram:
     extendedDescription: 오픈스트리트맵을 더 잘 알고 싶다면, 커뮤니티에 가입해보세요. 회의에 참여할 수도 있고, 질문을 할 수도 있습니다. 누구나 환영합니다!
+  fr-35-wiki:
+    description: '{community} 위키 문서'
+  fr-38-wiki:
+    description: '{community} 위키 문서'
+  fr-chapter:
+    description: 우리는 프랑스 내의 오픈스트리트맵을 성장시키고 개선하도록 돕습니다.
+  fr-montrouge-wiki:
+    description: '{community} 위키 문서'
+  fr-xmpp:
+    description: osm-fr@chat.jabberfr.org 에 합류하기
   Galicia-Xeoinquedos-Twitter:
     description: 트위터 공식계정 {url}에서 팔로우 하세요!
+  is-chapter:
+    description: 우리는 아이슬란드 내의 오픈스트리트맵을 성장시키고 개선하도록 돕습니다.
   ko-facebook:
     description: 한국 거주 오픈스트리트맵 사용자 및 맵퍼
   ko-osm:

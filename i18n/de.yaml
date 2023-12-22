@@ -22,6 +22,7 @@ de:
     openstreetmapbelarus: OpenStreetMap Weißrussland
     openstreetmapbelgium: OpenStreetMap Belgien
     openstreetmapbelize: OpenStreetMap Belize
+    openstreetmapbengaluru: OpenStreetMap Bengaluru
     openstreetmapbenin: OpenStreetMap Benin
     openstreetmapberlin: OpenStreetMap Berlin
     openstreetmapbivccvl: OpenStreetMap BI-VC-CVL
@@ -133,6 +134,7 @@ de:
     openstreetmapmichigan: OpenStreetMap Michigan
     openstreetmapmoldova: OpenStreetMap Moldawien
     openstreetmapmongolia: OpenStreetMap Mongolei
+    openstreetmapmontenegro: OpenStreetMap Montenegro
     openstreetmapmontrouge: OpenStreetMap Montrouge
     openstreetmapmorocco: OpenStreetMap Marokko
     openstreetmapmunchen: OpenStreetMap München
@@ -227,7 +229,7 @@ de:
       name: '{community}'
     irc:
       name: '{community} auf IRC'
-      description: 'Tritt #{account} auf irc.oftc.net (port 6667) bei'
+      description: 'Tritt #{account} auf irc.oftc.net bei (port 6667 ohne SSL oder 6697 mit SLL)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} auf LinkedIn'
@@ -238,7 +240,7 @@ de:
       description: Die offizielle Mailing Liste für {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
-      name: 'Mastodon-Konto'
+      name: '{community} auf Mastodon'
       description: Das offizielle Mastodon-Konto für {community}
     matrix:
       name: '{community} Matrix Chat'
@@ -265,15 +267,23 @@ de:
       name: '{community} Telegram'
       description: Tritt dem Telegram Chat unserer Community bei
       url: https://t.me/{account}
+    threads:
+      name: '{community} auf Threads'
+      description: Folge uns auf Threads
+      url: https://threads.net/@{account}
     twitter:
-      name: '{community} auf Twitter'
-      description: Folge uns auf Twitter
+      name: '{community} auf 𝕏'
+      description: Folge uns auf 𝕏
       url: https://twitter.com/{account}
     website:
       name: '{community}'
     wiki:
       name: '{community} WikiProject'
       url: https://wiki.openstreetmap.org/wiki/{account}
+    x:
+      name: '{community} auf 𝕏'
+      description: Folge uns auf 𝕏
+      url: https://twitter.com/{account}
     xmpp:
       name: '{community} XMPP'
     youtube:
@@ -339,6 +349,9 @@ de:
     description: Projekte der OpenStreetMap der kalatalnischen Länder Gemeinschaft auf GitHub
   cat-matrix:
     description: Matrixgruppe für die OpenStreetMap Catalan Gemeinschaft
+  cat-twitch:
+    name: '{community} Twitch Kanal'
+    description: Live OSM Bearbeitungen, HOTosm, OpenData und GIS
   cat-wiki:
     description: 'Koordinationsraum für die OpenStreetMap Gemeinschaft in den kalatalnischen Ländern: {url}'
   cd-chapter:
@@ -615,6 +628,8 @@ de:
   md-googlegroup:
     name: '{community} Google Gruppe'
     description: Trit der Google-Gruppe {community} bei
+  me-telegram:
+    description: Alle sind willkommen! Anmeldung unter {signupUrl}
   mm-facebook:
     extendedDescription: Mappen in Maynmar? Hast du Fragen, willst du dich mit der Community hier verbinden? Tritt bei {url} bei. Alle sind willkommen!
   mn-facebook:
@@ -669,6 +684,12 @@ de:
     description: Alles was du über Mappen in Argentinien wissen musst.
   osm-at:
     description: Die Plattform für Information über OpenStreetMap in Österreich
+  osm-bengaluru-matrix:
+    extendedDescription: Gruppe für OpenStreetMap-Mitwirkende, Nutzer und Neulinge in Bengaluru. Verbunden mit Telegram.
+  osm-bengaluru-telegram:
+    extendedDescription: Gruppe für OpenStreetMap-Mitwirkende, Nutzer und Neulinge in Bengaluru. Verbunden mit Matrix.
+  osm-bengaluru-wiki:
+    description: OpenStreetMap in Bengaluru
   osm-benin-facebook:
     description: Verbesere OpenStreetMap in Benin
   OSM-Boston:
@@ -722,6 +743,8 @@ de:
     extendedDescription: 'Mappst du in Indien? Hast du Fragen, willst du mit der Community vor Ort Kontakt aufnehmen? Mach mit: {url}. Alle sind willkommen!'
   osm-india-github:
     description: 'Programmiere mit uns: {url}'
+  osm-india-mastodon:
+    description: Das Zuhause von OpenStreetMap India auf Fediverse
   osm-india-matrix:
     extendedDescription: Inoffizieller Chatraum für OSM Indien, er ist mit der osmindia Telegramm Gruppe gespiegelt
   OSM-India-Puducherry-Facebook:
@@ -923,6 +946,9 @@ de:
   uk-localchapter:
     description: Der offizielle Landesverband für UK (inclusive Nordirland).
     extendedDescription: 'Wir unterstützen OpenStreetMap durch Veranstaltungen, Bereitstellen von Ressourcen für die Community, Aufbau von Partnerschaften und durch Verbreitung der Information über OpenStreetMap. Beteilige dich hier: {signupUrl}'
+  uk-london-mastodon:
+    name: OpenStreetMap London auf Mastodon
+    description: 'OpenStreetMap London auf Mastodon: {url}'
   uk-london-twitter:
     name: OpenStreetMap London auf Twitter
     description: 'OpenStreetMap London auf Twitter: {url}'

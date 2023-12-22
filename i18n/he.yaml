@@ -1,13 +1,19 @@
 he:
   _communities:
+    freelibreopensourcesoftwarekosovaflossk: תוכנה חופשית בקוד פתוח קוסובו (FLOSSK)
+    geolibres: GeoLibres
     kiribatiwomeninmapping: נשים מקיריבטי במיפוי
     mappingbotswana: מיפוי בוטסואנה
+    maptimebogota: MaptimeBogota
+    maptimehrva: MaptimeHRVA
     openstreetmap: OpenStreetMap
+    openstreetmapaachen: OpenStreetMap אאכן
     openstreetmapafghanistan: OpenStreetMap אפגניסטן
     openstreetmapafrica: OpenStreetMap אפריקה
     openstreetmapalba: OpenStreetMap אלבה
     openstreetmapalbania: OpenStreetMap אלבניה
     openstreetmapargentina: OpenStreetMap ארגנטינה
+    openstreetmaparmenia: OpenStreetMap ארמניה
     openstreetmapasia: OpenStreetMap אסיה
     openstreetmapasti: OpenStreetMap אסטי
     openstreetmapaustria: OpenStreetMap אוסטריה
@@ -15,6 +21,7 @@ he:
     openstreetmapbangladesh: OpenStreetMap בנגלדש
     openstreetmapbelarus: OpenStreetMap בלרוס
     openstreetmapbelgium: OpenStreetMap בלגיה
+    openstreetmapbelize: OpenStreetMap בליז
     openstreetmapbenin: OpenStreetMap בנין
     openstreetmapberlin: OpenStreetMap ברלין
     openstreetmapbivccvl: OpenStreetMap ביאלה-קנבסה-ורצ׳לי
@@ -34,6 +41,7 @@ he:
     openstreetmapcanada: OpenStreetMap קנדה
     openstreetmapcastillayleon: OpenStreetMap קסטיליה ולאון
     openstreetmapcatalancountries: OpenStreetMap הארצות הקטלאניות
+    openstreetmapceara: OpenStreetMap סיארה
     openstreetmapchad: OpenStreetMap צ׳אד
     openstreetmapchile: OpenStreetMap צ׳ילה
     openstreetmapchina: OpenStreetMap סין
@@ -125,6 +133,7 @@ he:
     openstreetmapmichigan: OpenStreetMap מישיגן
     openstreetmapmoldova: OpenStreetMap מולדובה
     openstreetmapmongolia: OpenStreetMap מונגוליה
+    openstreetmapmontenegro: OpenStreetMap מונטנגרו
     openstreetmapmontrouge: OpenStreetMap מונרוז׳
     openstreetmapmorocco: OpenStreetMap מרוקו
     openstreetmapmunchen: OpenStreetMap מינכן
@@ -137,6 +146,7 @@ he:
     openstreetmapnorthkorea: OpenStreetMap קוריאה הצפונית
     openstreetmapnorway: OpenStreetMap נורווגיה
     openstreetmapoceania: OpenStreetMap אוקיאניה
+    openstreetmapohio: OpenStreetMap אוהיו
     openstreetmapottawa: OpenStreetMap אוטווה
     openstreetmappakistan: OpenStreetMap פקיסטן
     openstreetmappanama: OpenStreetMap פנמה
@@ -173,6 +183,7 @@ he:
     openstreetmaptogo: OpenStreetMap טוגו
     openstreetmaptoronto: OpenStreetMap טורונטו
     openstreetmaptunisia: OpenStreetMap תוניסיה
+    openstreetmapturin: OpenStreetMap טורינו
     openstreetmapturkey: OpenStreetMap טורקיה
     openstreetmapuganda: OpenStreetMap אוגנדה
     openstreetmapuk: OpenStreetMap אנגליה
@@ -186,6 +197,7 @@ he:
     openstreetmapwesternsahara: OpenStreetMap סהרה המערבית
     openstreetmapzambia: OpenStreetMap זמביה
     openstreetmapzimbabwe: OpenStreetMap זימבבואה
+    youthmappersasu: YouthMappersASU (ממפים צעירים מאוניברסיטת אריזונה)
   _defaults:
     aparat:
       name: '{community} ב־Aparat'
@@ -196,6 +208,7 @@ he:
       description: יצירת קשר עם ממפים אחרים דרך Discord
       url: https://discord.gg/{account}
     discourse:
+      name: 'פורום קהילת {community}'
       description: הפורום הרשמי של {community}
       url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
@@ -215,7 +228,7 @@ he:
       name: '{community}'
     irc:
       name: '{community} ב־IRC'
-      description: 'ניתן להצטרף ל־‎#{account} תחת irc.oftc.net (פתחה 6667)'
+      description: 'ניתן להצטרף ל־‎#{account} תחת irc.oftc.net (פתחה 6667 בלי SSL או 6697 עם SSL)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} ב־LinkedIn'
@@ -226,7 +239,7 @@ he:
       description: רשימת הדיוור הרשמי של {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
-      name: 'חשבון המסטודון של {community}'
+      name: '{community} ב־Mastodon'
       description: חשבון המסטודון הרשמי של {community}
     matrix:
       name: 'ערוץ ה־Matrix של {community}'
@@ -235,6 +248,8 @@ he:
     meetup:
       name: 'קבוצת ה־Meetup של {community}'
       url: https://www.meetup.com/{account}
+    newsletter:
+      name: 'רשימת הדיוור של {community}'
     osm:
       name: '{community}'
     osm-lc:
@@ -242,25 +257,43 @@ he:
     reddit:
       name: '{community} ב־Reddit'
       url: https://www.reddit.com/r/{account}
+    signal:
+      name: 'ה־Signal של {community}'
+      description: מזמינים אותך להצטרף לצ׳אט הקהילתי שלנו ב־Signal
     slack:
       name: 'ה־Slack של {community}'
     telegram:
       name: 'הטלגרם של {community}'
       description: מזמינים אותך להצטרף לקבוצה בטלגרם
       url: https://t.me/{account}
+    threads:
+      name: '{community} ב־Threads'
+      description: ניתן לעקוב אחרינו ב־Threads
+      url: https://threads.net/@{account}
     twitter:
-      name: '{community} בטוויטר'
-      description: ניתן לעקוב אחרינו בטוויטר
+      name: '{community} ב־𝕏'
+      description: ניתן לעקוב אחרינו ב־𝕏
       url: https://twitter.com/{account}
+    website:
+      name: '{community}'
     wiki:
       name: 'ויקי־מיזם של {community}'
       url: https://wiki.openstreetmap.org/wiki/{account}
+    x:
+      name: '{community} ב־𝕏'
+      description: ניתן לעקוב אחרינו ב־𝕏
+      url: https://twitter.com/{account}
     xmpp:
       name: 'ה־XMPP של {community} '
     youtube:
       name: '{community} ב־YouTube'
       description: מזמינים אותך להירשם לערוץ ה־YouTube שלנו
       url: https://www.youtube.com/channel/{account}
+    zulip:
+      name: 'ה־Zulip של {community}'
+      description: מזמינים אותך להצטרף לצ׳אט הקהילתי שלנו ב־Zulip
+  aberdeen-discord:
+    name: ה־Discord של OSM ABZ (אברדין)
   af-matrix:
     description: קבוצת Matrix לקהילה האפגניסטנית
   al-maptime-tirana:
@@ -288,6 +321,7 @@ he:
     extendedDescription: 'ניתן להצטרף ל־‎#{account} תחת irc.oftc.net (פתחה 6667), הוא מקושר לערוץ הצ׳אט ב־Matrix'
   be-matrix:
     description: כל הממפים מוזמנים!
+    extendedDescription: חדר הצ׳אט העיקרי של קהילת OSM הבלגית. לא להסס לשאול כאן שאלות של מתחילים!
   be-meetup:
     description: מפגשים פנים אל פנים של כל מי שמעוניין ב־OpenStreetMap.
     extendedDescription: מפגשים בחיים האמתיים מהווים דרך נפלאה לפגוש ממפים אחרים, לשאול אותם שאלות וללמוד הרבה. מתנדבים חדשים מוזמנים במיוחד!
@@ -508,10 +542,13 @@ he:
     description: ממפים ומשתמשי OpenStreetMap סביב מאונט ורנון, וירג׳יניה
     extendedDescription: OpenStreetMap היא מפת העולם שנוצרת על ידי אנשים כמוך. זו מפה בהרכבתך, שמוגשת לציבור בחינם כמו ויקיפדיה. כדאי לבקר ב־osm.org למידע נוסף. אנו נפגשים כל הזמן ומדברים על מפות, ממפים ונהנים!
   osm-ch:
+    name: '{community}'
     description: הפלטפורמה למידע על OpenStreetMap בשווייץ
   OSM-Chattanooga:
     name: OSM צ׳טנוגה
     description: קבוצת משתמשי OpenStreetMap בצ׳טנוגה
+  osm-cn:
+    description: אנו מסייעים לפתח ולטפח את OpenStreetMap בסין.
   OSM-Colorado:
     name: OpenStreetMap קולורדו
     description: ממפים ומשתמשים ב־OpenStreetMap במדינת קולורדו, ארה״ב
@@ -522,16 +559,25 @@ he:
     description: 'עמוד הוויקי של {community}'
   OSM-Discord:
     name: ה־Discord של OpenStreetMap העולמי
+  OSM-Discourse:
+    name: פורום הקהילה של OpenStreetMap
+    description: מקום משותף לדיונים על OpenStreetMap
   OSM-Facebook:
     description: ניתן לעשות לנו ‚לייק’ בפייסבוק כדי לקבל חדשות ועדכונים על OpenStreetMap.
+  osm-fj:
+    description: אספקת שירותי OSM ומידע לקהילה המקומית בפיג׳י
   osm-gh-facebook:
     extendedDescription: ממפים בקהילת גאנה, מקדמים את OpenStreetMap ואת מיזמי צוות OpenStreetMap ההומניטרי (HOT) בגאנה. אפשר להצטרף אלינו.
+  osm-gh-website:
+    description: אספקת שירותי OSM ומידע לקהילה המקומית בגאנה
   OSM-help:
     name: העזרה של OpenStreetMap
     description: ניתן לשאול שאלות ולקבל תשובות באתר השאלות והתשובות בשיתוף קהילת OSM.
     extendedDescription: '{url} מיועד לכל מי שצריך עזרה עם OpenStreetMap.  בין אם עזרה לממפים מתחילים או שאלה טכנית, אנחנו כאן כדי לעזור!'
   osm-hr:
     description: הפלטפורמה למידע על OpenStreetMap בקרואטיה
+  osm-id:
+    description: אספקת שירותי OSM ומידע לקהילה המקומית באינדונזיה
   OSM-India-facebook:
     description: שיפור OpenStreetMap בהודו
     extendedDescription: מעניין אותך מיפוי בהודו? יש לך שאלות? אולי ליצור קשר עם הקהילה המקומית? ניתן להצטרף אלינו ב־{url}. כולם מוזמנים!
@@ -544,7 +590,7 @@ he:
     description: עמוד הפייסבוק של FSHM נועד לעדכון על אירועים ופעילויות של הקהילה
     extendedDescription: FSHM מארגנים אירועים שקשורים לתכנה/חומרה פתוחים, טכנולוגיה, מעורבות חברתית ו־OpenStreetMap. עמוד הפייסבוק הוא הדרך הטוב ביותר לשמור על קשר בנוגע לאירועים.
   OSM-India-Puducherry-Matrix:
-    name: תנועת החומרה והתכנה החופשית - Matrix
+    name: תנועת החומרה והתוכנה החופשית - Matrix
     description: קבוצת ה־Riot של FSHM מיועדת לדיונים, שיתוף ועדכון פעילויות מיפוי ואירועים בתוך ומסביב לפודוצ׳רי.
     extendedDescription: חברי קהילת FSHM משתפים עדכונים / חוויות על המיפוי שלהם עם OSM דרך קבוצה ב־Riot.im, קבוצה זה גם משמשת לדיונים בנוגע תכנה / חומרה חופשיים, טכנולוגיה ומעורבות חברתית.
   OSM-india-twitter:
@@ -552,7 +598,7 @@ he:
   osm-india-website:
     description: ממפי ומשתמשי OpenStreetMap בהודו
   osm-india-wiki:
-    description: 'כל מה שעליך לדעת על מיפוי בהודו {url}'
+    description: 'כל מה שצריך לדעת על מיפוי בהודו {url}'
   osm-iran-aparat:
     extendedDescription: משאב טוב של סרטונים על כל מה שקשור ב־OpenStreetMap. בעיקר בפרסית.
   osm-iran-discord:
@@ -568,6 +614,9 @@ he:
   osm-kenya:
     description: OSM קניה היא קהילה של מתנדבים ומשתמשים ב־OSM
     extendedDescription: OSM היא קהילה מקומית עבור עצמאיים שמתעניינים ב־OpenStreetMap כולל ארגונים, מפתחים וקבוצות ממפים צעירים מקומיות ברחבי המדינה.
+  osm-kenya-facebook:
+    description: OSM קניה היא קהילה של מתנדבים ומשתמשים ב־OSM
+    extendedDescription: OSM היא קהילה מקומית עבור עצמאיים שמתעניינים ב־OpenStreetMap כולל ארגונים, מפתחים וקבוצות ממפים צעירים מקומיות ברחבי המדינה.
   OSM-Kerala-facebook:
     description: שיפור OpenStreetMap בנקראלה
     extendedDescription: מעניין אותך מיפוי בקרלה? יש לך שאלות? אולי ליצור קשר עם הקהילה המקומית? ניתן להצטרף אלינו ב־{url}. כולם מוזמנים!
@@ -575,10 +624,13 @@ he:
     description: 'לפתח אתנו קוד דרך {url}'
   osm-kerala-matrix:
     description: אנחנו ממפים את קרלה ביחד. מזמינים אותך להצטרף לקבוצת ה־Matrix שלנו
+    extendedDescription: חדר שיחה בלתי רשמי ל־OSM קרלה, מקושר גם לקבוצת הטלגרם osmindia.
   osm-kerala-telegram:
     description: אנחנו ממפים את קרלה ביחד. מזמינים אותך להצטרף לקבוצת הטלגרם שלנו. {url}
   osm-kerala-website:
     description: אנו מסייעים לפתח ולטפח את OpenStreetMap בקרלה.
+  osm-kerala-wiki:
+    description: מעניין אותך לדעת יותר על המיפוי בקרלה? {url}
   osm-mg-facebook:
     description: קבוצת פייסבוק במלגשי לאנשים שמתעניינים ב־OpenStreetMap.
   osm-michigan-facebook-group:
@@ -589,12 +641,18 @@ he:
   osm-ni:
     name: 'MapaNica.net '
     description: אספקת שירותים ומידע על OSM עבור הקהילה המקומית בניקרגואה
+  osm-ohio-wiki:
+    description: 'עמוד הוויקי של {community}'
   OSM-Ottawa-meetup:
     description: ממפים ומשתמשים ב־OpenStreetMap באזור אוטווה
   OSM-PE:
     description: חדשות ומשאבים לקהילת OpenStreetMap פרו
+  OSM-PH-telegram:
+    extendedDescription: קבוצת טלגרם ידידותית ופעילה מאוד לממפי OSM וחברים בפיליפינים לשיחות חולין, בדיחות דעת ושאלות ותשובות קצרות.
   OSM-PL-chapter:
     description: הבית של קהילת OpenStreetMap הפולנית
+  OSM-PL-discord:
+    description: המקום העיקרי לשיחות קוליות בקרב קהילת OpenStreetMap הפולנית, ערוצי טקסט פעילים
   OSM-PL-github:
     description: ארגון GitHub לקהילת OpenStreetMap הפולנית
   OSM-Portland:

@@ -209,7 +209,6 @@ nl:
       name: '{community}'
     irc:
       name: '{community} op IRC'
-      description: 'Kom erbij op #{account} op irc.oftc.net (poort 6667)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} op LinkedIn'
@@ -240,8 +239,6 @@ nl:
       description: Kom erbij op de Telegram chat van onze community
       url: https://t.me/{account}
     twitter:
-      name: '{community} op Twitter'
-      description: Volg ons op Twitter
       url: https://twitter.com/{account}
     wiki:
       name: '{community} WikiProject'

@@ -1,16 +1,18 @@
 ar:
   _communities:
     geolibres: GeoLibres
-    kiribatiwomeninmapping: Kiribati Women in Mapping
+    kiribatiwomeninmapping: نساء كيريباتي في رسم الخرائط
     mappingbotswana: رسم خرائط بوتسوانا
     maptimebogota: وقت خرائط بوغوتا
     maptimehrva: وقت خرائط تايمهرفا
     openstreetmap: خريطة الشارع المفتوحة
+    openstreetmapaachen: خريطة الشارع المفتوحة مدينة أوشن
     openstreetmapafghanistan: خريطة الشارع المفتوحة في أفغانستان
     openstreetmapafrica: خريطة الشارع المفتوحة في أفريقيا
     openstreetmapalba: خريطة الشارع المفتوحة في ألبا
     openstreetmapalbania: خريطة الشارع المفتوحة في ألبانيا
-    openstreetmapargentina: خريطة الشارع المفتوحة في الأرجنتين
+    openstreetmapargentina: خريطة الشارع المفتوحة الأرجنتين
+    openstreetmaparmenia: خريطة الشارع المفتوحة أرمينيا
     openstreetmapasia: خريطة الشارع المفتوحة في آسيا
     openstreetmapasti: خريطة الشارع المفتوحة في أستي
     openstreetmapaustria: خريطة الشارع المفتوحة في النمسا
@@ -217,7 +219,6 @@ ar:
       name: 'المجتمع'
     irc:
       name: '{community} على المركز الدولي للبحوث'
-      description: 'انضم إلى #{account} على irc.oftc.net (المنفذ 6667)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} على لينكد إن'
@@ -250,8 +251,6 @@ ar:
       description: انضم إلى دردشة تيليجرام المجتمعية
       url: https://t.me/{account}
     twitter:
-      name: '{community} على تويتر'
-      description: تابعنا على تويتر
       url: https://twitter.com/{account}
     wiki:
       name: '{community} ويكي بروجيكت'

@@ -225,7 +225,6 @@ vi:
       name: '{community}'
     irc:
       name: '{community} trên IRC'
-      description: 'Hãy tham gia #{account} tại irc.oftc.net (cổng 6667)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} tại LinkedIn'
@@ -236,7 +235,6 @@ vi:
       description: Danh sách thư chính thức của {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
-      name: 'Tài khoản Mastodon {community}'
       description: Tài khoản Mastodon chính thức của {community}
     matrix:
       name: 'Trò chuyện Matrix {community}'
@@ -264,8 +262,6 @@ vi:
       description: Hãy tham gia trò chuyện cộng đồng Telegram của chúng ta
       url: https://t.me/{account}
     twitter:
-      name: '{community} tại Twitter'
-      description: Theo dõi chúng tôi tại Twitter
       url: https://twitter.com/{account}
     website:
       name: '{community}'

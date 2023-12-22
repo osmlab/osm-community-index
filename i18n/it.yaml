@@ -133,6 +133,7 @@ it:
     openstreetmapmichigan: OpenStreetMap Michigan
     openstreetmapmoldova: OpenStreetMap Moldova
     openstreetmapmongolia: OpenStreetMap Mongolia
+    openstreetmapmontenegro: OpenStreetMap Montenegro
     openstreetmapmontrouge: OpenStreetMap Montrouge
     openstreetmapmorocco: OpenStreetMap Marocco
     openstreetmapmunchen: OpenStreetMap Monaco di Baviera
@@ -227,7 +228,6 @@ it:
       name: '{community}'
     irc:
       name: '{community} su IRC'
-      description: 'Accedi a #{account} su irc.oftc.net (porta 6667)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} su LinkedIn'
@@ -238,7 +238,6 @@ it:
       description: La mailing list ufficiale di {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
-      name: '{community} Account Mastodonte'
       description: L'account Mastodon ufficiale per {community}
     matrix:
       name: '{community} Chat Matrix'
@@ -265,15 +264,17 @@ it:
       name: '{community} Telegram'
       description: Unisciti alla chat Telegram della nostra comunità
       url: https://t.me/{account}
+    threads:
+      description: Seguici su Threads
     twitter:
-      name: '{community} su Twitter'
-      description: Seguici su Twitter
       url: https://twitter.com/{account}
     website:
       name: '{community}'
     wiki:
       name: '{community} WikiProject'
       url: https://wiki.openstreetmap.org/wiki/{account}
+    x:
+      url: https://twitter.com/{account}
     xmpp:
       name: '{community} XMPP'
     youtube:

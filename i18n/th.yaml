@@ -227,7 +227,7 @@ th:
       name: '{community}'
     irc:
       name: '{community} บน IRC'
-      description: 'เข้าร่วม #{account} บน irc.oftc.net (port 6667)'
+      description: 'เข้าร่วม #{account} ทาง irc.oftc.net (port 6667 สำหรับ non-SSL หรือ 6697 สำหรับ SSL)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} บน LinkedIn'
@@ -238,7 +238,7 @@ th:
       description: จดหมายข้าวอย่างเป็นทางการสำหรับ {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
-      name: 'บัญชี Mastodon ของ {community}'
+      name: '{community} บน Mastodon'
       description: บัญชี Mastodon อย่างเป็นทางการสำหรับ {community}
     matrix:
       name: '{community} Matrix Chat'
@@ -265,15 +265,23 @@ th:
       name: '{community} Telegram'
       description: เข้าร่วมแชทชุมชนของเราบน Telegram
       url: https://t.me/{account}
+    threads:
+      name: '{community} บน Threads'
+      description: ติดตามเราบน Threads
+      url: https://threads.net/@{account}
     twitter:
-      name: '{community} บน Twitter'
-      description: ติดตามเราบน Twitter
+      name: '{community} บน 𝕏'
+      description: ติดตามเราบน 𝕏
       url: https://twitter.com/{account}
     website:
       name: '{community}'
     wiki:
       name: '{community} WikiProject'
       url: https://wiki.openstreetmap.org/wiki/{account}
+    x:
+      name: '{community} บน 𝕏'
+      description: ติดตามเราบน 𝕏
+      url: https://twitter.com/{account}
     xmpp:
       name: '{community} XMPP'
     youtube:

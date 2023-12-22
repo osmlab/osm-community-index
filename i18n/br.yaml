@@ -22,6 +22,7 @@ br:
     openstreetmapbelarus: OpenStreetMap Belarus
     openstreetmapbelgium: OpenStreetMap Belgia
     openstreetmapbelize: OpenStreetMap Belize
+    openstreetmapbengaluru: OpenStreetMap Bengaluru
     openstreetmapbenin: OpenStreetMap Benin
     openstreetmapberlin: OpenStreetMap Berlin
     openstreetmapbivccvl: OpenStreetMap Biella, Vercelli, Canavese ha Traoñiennoù Lanzo
@@ -41,6 +42,7 @@ br:
     openstreetmapcanada: OpenStreetMap Kanada
     openstreetmapcastillayleon: OpenStreetMap Kastilha ha Leon
     openstreetmapcatalancountries: OpenStreetMap Broioù Katalan
+    openstreetmapceara: OpenStreetMap Ceará
     openstreetmapchad: OpenStreetMap Tchad
     openstreetmapchile: OpenStreetMap Chile
     openstreetmapchina: OpenStreetMap Sina
@@ -132,6 +134,7 @@ br:
     openstreetmapmichigan: OpenStreetMap Michigan
     openstreetmapmoldova: OpenStreetMap Moldova
     openstreetmapmongolia: OpenStreetMap Mongolia
+    openstreetmapmontenegro: OpenStreetMap Montenegro
     openstreetmapmontrouge: OpenStreetMap Montrouge
     openstreetmapmorocco: OpenStreetMap Maroko
     openstreetmapmunchen: OpenStreetMap München
@@ -144,6 +147,7 @@ br:
     openstreetmapnorthkorea: 'OpenStreetMap Norzhkorea '
     openstreetmapnorway: OpenStreetMap Norvegia
     openstreetmapoceania: OpenStreetMap Oseania
+    openstreetmapohio: OpenStreetMap Ohio
     openstreetmapottawa: OpenStreetMap Ottawa
     openstreetmappakistan: OpenStreetMap Pakistan
     openstreetmappanama: OpenStreetMap Panama
@@ -225,7 +229,7 @@ br:
       name: '{community}'
     irc:
       name: '{community} war IRC'
-      description: 'Emezelit ouzh #{account} war irc.oftc.net (porzh 6667)'
+      description: 'Kavit #{account} war irc.oftc.net (porzh 6667 evit nann-SSL pe 6697 evit SSL)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} war LinkedIn'
@@ -236,7 +240,7 @@ br:
       description: Lizher-kelaouiñ ofisiel {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
-      name: 'Kont Mastodon {community}'
+      name: '{community} war vMastodon'
       description: Kont Mastodon ofisiel {community}
     matrix:
       name: 'Matrix Chat {community}'
@@ -263,15 +267,23 @@ br:
       name: 'Telegram {community}'
       description: Heuilhit hor c'humuniezh Telegram
       url: https://t.me/{account}
+    threads:
+      name: '{community} war Threads'
+      description: Heuilhit ac'hanomp war Threads
+      url: https://threads.net/@{account}
     twitter:
-      name: '{community} war dTwitter'
-      description: Heuilhit ac'hanomp war dTwitter
+      name: '{community} war 𝕏'
+      description: Heuilhit ac'hanomp war 𝕏
       url: https://twitter.com/{account}
     website:
       name: '{community}'
     wiki:
       name: 'WikiProject {community}'
       url: https://wiki.openstreetmap.org/wiki/{account}
+    x:
+      name: '{community} war 𝕏'
+      description: Heuilhit ac'hanomp war 𝕏
+      url: https://twitter.com/{account}
     xmpp:
       name: 'XMPP {community}'
     youtube:
@@ -323,6 +335,9 @@ br:
     description: 'Heuilhit ac''hanomp war dTwitter: {url}'
   castilla-y-leon-wiki:
     description: 'Ar pep retañ evit kartennaouiñ Kastilha-ha-Leon: {url}'
+  cat-twitch:
+    name: Chadenn Twitch {community}
+    description: OSM live editing, HOTosm, OpenData ha GIS
   cd-chapter:
     name: OpenStreetMap RDK
     description: A straed da straed, kartennaouomp hor vro...
@@ -529,6 +544,8 @@ br:
   md-googlegroup:
     name: 'Strollad Google {community}'
     description: Emezelit ouzh strollad Google {community}
+  me-telegram:
+    description: Pep hini 'zo deuet mat! Lakait hoc'h anv war {signupUrl}
   mm-facebook:
     extendedDescription: O kartennaouiñ e Myanmar? Goulennoù ho peus pe c'hoant ho peus da gejañ gant ar gumuniezh amañ? Deuit ganeomp war {url}. Pep hini 'zo deuet mat!
   mn-facebook:
@@ -568,6 +585,8 @@ br:
     description: 'Ar pep retañ evit kartennaouiñ Arc''hantina: {url}'
   osm-at:
     description: Savenn titouroù diwar-benn OpenStreetMap en Aostria
+  osm-bengaluru-wiki:
+    description: OpenStreetMap e Bengaluru
   osm-benin-facebook:
     description: Gwellaat OpenStreetMap e Benin
   OSM-Boston:
@@ -607,6 +626,8 @@ br:
     extendedDescription: O kartennaouiñ en India? Goulennoù ho peus pe c'hoant ho peus da gejañ gant ar gumuniezh amañ? Deuit ganeomp war {url}. Pep hini 'zo deuet mat!
   osm-india-github:
     description: 'Deuit da godañ ganeomp: {url}'
+  osm-india-mastodon:
+    description: Ti ar gumuniezh OpenStreetMap India war fediverse
   osm-india-website:
     description: Kartennour·ien/ezed hag implijer·ien/ezed OpenStreetMap en India
   osm-india-wiki:
@@ -732,6 +753,9 @@ br:
     description: Lec'hienn OpenStreetMap en Ukraina
   ua-slack:
     description: Emezelit ouzh kumuniezh OpenStreetMap Ukraina war Slack. Krouit ur gont war {signupUrl}
+  uk-london-mastodon:
+    name: OpenStreetMap Londrez war vMastodon
+    description: 'OpenStreetMap Londrez war vMastodon: {url}'
   uk-london-twitter:
     name: OpenStreetMap Londrez war dTwitter
     description: 'OpenStreetMap Londrez war dTwitter: {url}'

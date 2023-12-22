@@ -204,7 +204,6 @@ fa:
       name: '{community}'
     irc:
       name: '{community} در IRC'
-      description: 'به #{account} در irc.oftc.net (پورت 6667) بپیوندید'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} در لینکدین'
@@ -233,8 +232,6 @@ fa:
       description: به گپ تلگرامی انجمن ما بپیوندید
       url: https://t.me/{account}
     twitter:
-      name: '{community} در توییتر'
-      description: در توییتر ما را دنبال کنید
       url: https://twitter.com/{account}
     wiki:
       name: 'ویکی‌پروژهٔ {community}'

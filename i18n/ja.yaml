@@ -227,7 +227,6 @@ ja:
       name: '{community}'
     irc:
       name: '{community} on IRC'
-      description: 'Join #{account} on irc.oftc.net (port 6667)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} on LinkedIn'
@@ -238,7 +237,6 @@ ja:
       description: The official mailing list for {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
-      name: '{community} Mastodon Account'
       description: The official Mastodon account for {community}
     matrix:
       name: '{community} Matrix Chat'
@@ -266,8 +264,6 @@ ja:
       description: Join our community Telegram chat
       url: https://t.me/{account}
     twitter:
-      name: '{community} on Twitter'
-      description: Follow us on Twitter
       url: https://twitter.com/{account}
     website:
       name: '{community}'

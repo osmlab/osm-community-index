@@ -5,6 +5,7 @@ pt:
     maptimebogota: MaptimeBogota
     maptimehrva: MaptimeHRVA
     openstreetmap: OpenStreetMap
+    openstreetmapaachen: OpenStreetMap Aachen
     openstreetmapafghanistan: OpenStreetMap Afeganistão
     openstreetmapafrica: OpenStreetMap África
     openstreetmapalba: OpenStreetMap Alba
@@ -18,6 +19,7 @@ pt:
     openstreetmapbangladesh: OpenStreetMap Bangladexe
     openstreetmapbelarus: OpenStreetMap Bielorrússia
     openstreetmapbelgium: OpenStreetMap Bélgica
+    openstreetmapbelize: OpenStreetMap Belize
     openstreetmapbenin: OpenStreetMap Benim
     openstreetmapberlin: OpenStreetMap Berlim
     openstreetmapbivccvl: OpenStreetMap BI-VC-CVL
@@ -37,6 +39,7 @@ pt:
     openstreetmapcanada: OpenStreetMap Canadá
     openstreetmapcastillayleon: OpenStreetMap Castela e Leão
     openstreetmapcatalancountries: OpenStreetMap Países Catalães
+    openstreetmapceara: OpenStreetMap Ceará
     openstreetmapchad: OpenStreetMap Chade
     openstreetmapchile: OpenStreetMap Chile
     openstreetmapchina: OpenStreetMap China
@@ -140,6 +143,7 @@ pt:
     openstreetmapnorthkorea: OpenStreetMap Coreia do Norte
     openstreetmapnorway: OpenStreetMap Noruega
     openstreetmapoceania: OpenStreetMap Oceânia
+    openstreetmapohio: OpenStreetMap Ohio
     openstreetmapottawa: OpenStreetMap Otava
     openstreetmappakistan: OpenStreetMap Paquistão
     openstreetmappanama: OpenStreetMap Panamá
@@ -220,7 +224,6 @@ pt:
       name: '{community}'
     irc:
       name: '{community} no IRC'
-      description: 'Junta-te a #{account} no irc.oftc.net (porta 6667)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} no LinkedIn'
@@ -231,7 +234,6 @@ pt:
       description: A mailing list oficial do {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
-      name: 'Conta Mastodon {community}'
       description: A conta Mastodon oficial do {community}
     matrix:
       name: 'Matrix Chat {community}'
@@ -259,14 +261,18 @@ pt:
       description: Junta-te ao canal Telegram da nossa comunidade
       url: https://t.me/{account}
     twitter:
-      name: '{community} no Twitter'
-      description: Segue-nos no Twitter
+      name: '{community} no 𝕏'
+      description: Segue-nos no 𝕏
       url: https://twitter.com/{account}
     website:
       name: '{community}'
     wiki:
       name: 'WikiProject {community}'
       url: https://wiki.openstreetmap.org/wiki/{account}
+    x:
+      name: '{community} no 𝕏'
+      description: Segue-nos no 𝕏
+      url: https://twitter.com/{account}
     xmpp:
       name: 'XMPP {community}'
     youtube:
@@ -276,6 +282,8 @@ pt:
     zulip:
       name: 'Zulip {community}'
       description: Junta-te ao chat da nossa comunidade no Zulip
+  aberdeen-discord:
+    name: OSM ABZ Discord
   af-matrix:
     description: Grupo Matrix para a comunidade no Afeganistão.
   al-maptime-tirana:
@@ -311,8 +319,11 @@ pt:
     name: Universidade dos YouthMappers de Cabo Corso
     description: 'Segue-nos no Twitter: {url}'
     extendedDescription: Esta é a descrição oficial do capítulo Youth Mappers da Universidade de Cape Coast, no Gana. adoramos mapas, os dados abertos e ajudar os mais vulneráveis.
+  cat-twitch:
+    name: Canal Twitch do {community}
   cd-chapter:
     name: OpenStreetMap RDC
+    description: De rua em rua, vamos mapear o nosso país...
   Central-Pennsylvania-OSM:
     name: OSM Pensilvânia Central
     description: Comunidade de mapeamento online baseada no Colégio Estadual, PA
@@ -322,6 +333,8 @@ pt:
     extendedDescription: Junta-te à comunidade para aprenderes mais sobre o OpenStreetMap. Todos são bem-vindos!
   czech-community:
     description: Mapa, site e contactos em membros da OSM na República Checa
+  de-aachen-wiki:
+    description: 'Página Wiki {community}'
   de-berlin-mailinglist:
     name: Lista de Discussão Berlim
   de-berlin-wiki:

@@ -226,7 +226,6 @@ ca:
       name: '{community}'
     irc:
       name: '{community} a l''IRC'
-      description: 'Uniu-vos a #{account} a irc.oftc.net (port 6667)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} a LinkedIn'
@@ -237,7 +236,6 @@ ca:
       description: Llista de correu oficial per {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
-      name: 'Mastodon de {community}'
       description: El compte oficial de Mastodon per {community}
     matrix:
       name: 'Xat Matrix d''{community}'
@@ -265,8 +263,6 @@ ca:
       description: Uniu-vos a la comunitat al xat de Telegram
       url: https://t.me/{account}
     twitter:
-      name: '{community} al Twitter'
-      description: Seguiu-nos a Twitter
       url: https://twitter.com/{account}
     website:
       name: '{community}'
@@ -361,6 +357,11 @@ ca:
     description: 'Pàgina wiki {community}'
   hu-wiki:
     description: 'Pàgina wiki {community}'
+  madrid-uam-ym:
+    name: YouthMappers a la UAM
+    description: Secció de YouthMappers a la Universitat Autònoma de Madrid
+  madrid-upm-ym:
+    name: Mapeig Humanitari
   osgeo-oceania:
     name: OSGeo Oceania
   osm-deep-south-wiki:

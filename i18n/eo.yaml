@@ -164,7 +164,6 @@ eo:
       name: '{community}'
     irc:
       name: '{community} ĉe IRC'
-      description: 'Aliĝu al #{account} ĉe irc.oftc.net (pordo 6667)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} ĉe LinkedIn'
@@ -193,8 +192,6 @@ eo:
       description: Aliĝu al nia komunumo ĉe Telegram
       url: https://t.me/{account}
     twitter:
-      name: '{community} ĉe Twitter'
-      description: Abonu nin ĉe Twitter
       url: https://twitter.com/{account}
     wiki:
       name: 'VikiProjekto {community}'

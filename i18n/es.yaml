@@ -133,6 +133,7 @@ es:
     openstreetmapmichigan: OpenStreetMap Michigan
     openstreetmapmoldova: OpenStreetMap Moldavia
     openstreetmapmongolia: OpenStreetMap Mongolia
+    openstreetmapmontenegro: OpenStreetMap Montenegro
     openstreetmapmontrouge: OpenStreetMap Montrouge
     openstreetmapmorocco: OpenStreetMap Marruecos
     openstreetmapmunchen: OpenStreetMap Múnich
@@ -227,7 +228,7 @@ es:
       name: '{community}'
     irc:
       name: '{community} en IRC'
-      description: 'Únase a #{account} en irc.oftc.net (puerto 6667)'
+      description: 'Únete a #{account} en irc.oftc.net (puerto 6667 para no SSL o 6697 para SSL)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} en LinkedIn'
@@ -238,7 +239,7 @@ es:
       description: La lista de correo oficial de la comunidad {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
-      name: 'Cuenta Mastodon de {community}'
+      name: '{community} en Mastodon'
       description: La cuenta oficial de Mastodon de {community}
     matrix:
       name: 'Chat de Matrix de {community}'
@@ -265,15 +266,23 @@ es:
       name: 'Telegram de {community}'
       description: Únase a nuestra comunidad en el chat de Telegram
       url: https://t.me/{account}
+    threads:
+      name: '{community} en Threads'
+      description: Síguenos en Threads
+      url: https://threads.net/@{account}
     twitter:
-      name: '{community} en Twitter'
-      description: Síganos en Twitter
+      name: '{community} en 𝕏'
+      description: Síguenos en 𝕏
       url: https://twitter.com/{account}
     website:
       name: '{community}'
     wiki:
       name: 'Wikiproyecto de {community}'
       url: https://wiki.openstreetmap.org/wiki/{account}
+    x:
+      name: '{community} en 𝕏'
+      description: Síguenos en 𝕏
+      url: https://twitter.com/{account}
     xmpp:
       name: 'XMPP de {community}'
     youtube:
@@ -339,6 +348,9 @@ es:
     description: Proyectos de la comunidad de países catalanes de OpenStreetMap en GitHub
   cat-matrix:
     description: Grupo de Matrix para la comunidad OpenStreetMap de Países Catalanes
+  cat-twitch:
+    name: Canal de Twitch de {community}
+    description: Edición en directo de OSM, HOTosm, OpenData y SIG
   cat-wiki:
     description: 'Espacio de coordinación de la comunidad OpenStreetMap en los países catalanes: {url}'
   cd-chapter:
@@ -615,6 +627,8 @@ es:
   md-googlegroup:
     name: 'Grupos de Google de {community}'
     description: Únase a {community} en Grupos de Google
+  me-telegram:
+    description: ¡Todos son bienvenidos! Regístrate en {signupUrl}
   mm-facebook:
     extendedDescription: ¿Mapeando en Birmania? ¿Tienes preguntas, quiere contactarse con la comunidad aquí? Únase a nosotros en {url}. ¡Todos son bienvenidos!
   mn-facebook:

@@ -22,6 +22,7 @@ fr:
     openstreetmapbelarus: OpenStreetMap Biélorussie
     openstreetmapbelgium: OpenStreetMap Belgique
     openstreetmapbelize: OpenStreetMap Belize
+    openstreetmapbengaluru: OpenStreetMap Bangalore
     openstreetmapbenin: OpenStreetMap Bénin
     openstreetmapberlin: OpenStreetMap Berlin
     openstreetmapbivccvl: OpenStreetMap BI-VC-CVL
@@ -133,6 +134,7 @@ fr:
     openstreetmapmichigan: OpenStreetMap Michigan
     openstreetmapmoldova: OpenStreetMap Moldavie
     openstreetmapmongolia: OpenStreetMap Mongolie
+    openstreetmapmontenegro: OpenStreetMap Monténégro
     openstreetmapmontrouge: OpenStreetMap Montrouge
     openstreetmapmorocco: OpenStreetMap Maroc
     openstreetmapmunchen: OpenStreetMap Munich
@@ -227,7 +229,7 @@ fr:
       name: '{community}'
     irc:
       name: '{community} sur IRC'
-      description: 'Rejoignez #{account} sur irc.oftc.net (port 6667)'
+      description: 'Rejoignez #{account} sur irc.oftc.net (port 6667 sans SSL ou 6697 avec SSL)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} sur LinkedIn'
@@ -238,7 +240,7 @@ fr:
       description: La liste de diffusion officielle de {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
-      name: 'Compte Mastodon de {community}'
+      name: '{community} sur Mastodon'
       description: Compte Mastodon officiel de {community}
     matrix:
       name: 'Chat Matrix de {community}'
@@ -265,15 +267,23 @@ fr:
       name: 'Telegram de {community}'
       description: Rejoignez notre communauté sur Telegram
       url: https://t.me/{account}
+    threads:
+      name: '{community} sur Threads'
+      description: Suivez-nous sur Threads
+      url: https://threads.net/@{account}
     twitter:
-      name: '{community} sur Twitter'
-      description: Suivez-nous sur Twitter
+      name: '{community} sur 𝕏'
+      description: Suivez-nous sur 𝕏
       url: https://twitter.com/{account}
     website:
       name: '{community}'
     wiki:
       name: 'Projet wiki de {community}'
       url: https://wiki.openstreetmap.org/wiki/{account}
+    x:
+      name: '{community} sur 𝕏'
+      description: Suivez-nous sur 𝕏
+      url: https://twitter.com/{account}
     xmpp:
       name: 'X.M.P.P. de {community}'
     youtube:
@@ -339,6 +349,8 @@ fr:
     description: Projets de la communauté OpenStreetMap du pays Catalan sur GitHub
   cat-matrix:
     description: Groupe Matrix pour la communauté OpenStreetMap des Pays Catalans
+  cat-twitch:
+    name: Chaîne Twitch de {community}
   cat-wiki:
     description: 'Espace de coordination pour la communauté OSM autour du pays catalan : {url}'
   cd-chapter:
@@ -615,6 +627,8 @@ fr:
   md-googlegroup:
     name: 'Google Group de {community}'
     description: Rejoindre {community} sur Google Group
+  me-telegram:
+    description: 'Bienvenue ! Enregistrez-vous ici : {signupUrl}'
   mm-facebook:
     extendedDescription: Vous cartographiez en Birmanie ? Vous avez des questions, vous souhaitez rencontrer la communauté ? Rejoignez-nous sur {url}. Vous êtes tous les bienvenus !
   mn-facebook:
@@ -669,6 +683,8 @@ fr:
     description: Tout ce que vous devez savoir sur la cartographie en Argentine.
   osm-at:
     description: La plateforme pour obtenir des informations sur OpenStreetMap en Autriche
+  osm-bengaluru-wiki:
+    description: OpenStreetMap à Bangalore
   osm-benin-facebook:
     description: Améliorer OpenStreetMap au Benin
   OSM-Boston:
@@ -920,6 +936,9 @@ fr:
   uk-localchapter:
     description: Le chapitre local officiel pour le Royaume-Uni (incluant l'Irlande du Nord).
     extendedDescription: 'Nous soutenons OpenStreetMap en organisant des évènements, en fournissant des ressources communautaires, en établissant des partenariats, et en diffusant la bonne parole. Rejoignez OpenStreetMap UK ici: {signupUrl}'
+  uk-london-mastodon:
+    name: OpenStreetMap Londres sur Mastodon
+    description: 'OpenStreetMap Londres sur Mastodon: {url}'
   uk-london-twitter:
     name: OpenStreetMap Londres sur Twitter
     description: 'OpenStreetMap Londres sur Twitter: {url}'

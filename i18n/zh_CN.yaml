@@ -3,8 +3,8 @@ zh_CN:
     freelibreopensourcesoftwarekosovaflossk: 自由及开放源代码软件科索沃（FLOSSK）
     geolibres: GeoLibres
     kiribatiwomeninmapping: 参与绘图的基里巴斯妇女
-    mappingbotswana: Mapping博茨瓦纳
-    maptimebogota: 波哥大地图
+    mappingbotswana: 博茨瓦纳地图绘制
+    maptimebogota: 波哥大地图时间
     maptimehrva: Maptime HRVA
     openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap 亚琛
@@ -133,6 +133,7 @@ zh_CN:
     openstreetmapmichigan: OpenStreetMap 密歇根洲
     openstreetmapmoldova: OpenStreetMap 摩尔多瓦
     openstreetmapmongolia: OpenStreetMap 蒙古
+    openstreetmapmontenegro: OpenStreetMap 黑山
     openstreetmapmontrouge: OpenStreetMap 蒙鲁日
     openstreetmapmorocco: OpenStreetMap 摩洛哥
     openstreetmapmunchen: OpenStreetMap 慕尼黑
@@ -196,6 +197,7 @@ zh_CN:
     openstreetmapwesternsahara: OpenStreetMap 西撒哈拉
     openstreetmapzambia: OpenStreetMap 赞比亚
     openstreetmapzimbabwe: OpenStreetMap 津巴布韦
+    youthmappersasu: 青年绘制者ASU
   _defaults:
     aparat:
       name: 'Aparat 上的 {community}'
@@ -205,9 +207,14 @@ zh_CN:
       name: '{community} Discord'
       description: 在 Discord 上于其他 Mapper 保持联系
       url: https://discord.gg/{account}
+    discourse:
+      name: '{community} 社区论坛'
+      description: '{community} 的官方论坛'
+      url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
       name: 'Facebook 上的 {community}'
       description: 在Facebook上加入我们的社区
+      url: https://www.facebook.com/{account}
     forum:
       name: '{community} 论坛'
       description: '{community} 的官方论坛'
@@ -221,15 +228,18 @@ zh_CN:
       name: '{community}'
     irc:
       name: 'IRC 上的 {community}'
-      description: '在 irc.oftc.net (端口 6667)上加入 #{account} '
+      description: '在 irc.oftc.net 上加入 #{account} （无 SSL 端口 6667 ，或 SSL 端口 6697）'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: 'LinkedIn 上的 {community}'
       description: 在LinkedIn上加入我们的社区
+      url: https://www.linkedin.com/company/{account}
     mailinglist:
       name: '{account} 邮件列表'
       description: '{community} 的官方邮件列表'
       url: https://lists.openstreetmap.org/listinfo/{account}
+    mastodon:
+      name: 'Mastodon 上的 {community}'
     matrix:
       name: '{community} Matrix 聊天室'
       description: 加入我们社区的 Matrix 聊天室
@@ -250,8 +260,6 @@ zh_CN:
       description: 加入我们社区的 Telegram 聊天室
       url: https://t.me/{account}
     twitter:
-      name: 'Twitter 上的 {community}'
-      description: 在推特关注我们
       url: https://twitter.com/{account}
     wiki:
       name: '{community} WikiProject'

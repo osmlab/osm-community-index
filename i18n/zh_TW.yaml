@@ -22,6 +22,7 @@ zh_TW:
     openstreetmapbelarus: 開放街圖白羅斯
     openstreetmapbelgium: 開放街圖比利時
     openstreetmapbelize: 開放街圖貝里斯
+    openstreetmapbengaluru: 開放街圖班加羅爾
     openstreetmapbenin: 開放街圖貝南
     openstreetmapberlin: 開放街圖柏林
     openstreetmapbivccvl: 開放街圖BI-VC-CVL
@@ -133,6 +134,7 @@ zh_TW:
     openstreetmapmichigan: 開放街圖密西根
     openstreetmapmoldova: 開放街圖摩爾多瓦
     openstreetmapmongolia: 開放街圖蒙古
+    openstreetmapmontenegro: 開放街圖蒙特內哥羅
     openstreetmapmontrouge: 開放街圖蒙魯日
     openstreetmapmorocco: 開放街圖摩洛哥
     openstreetmapmunchen: 開放街圖慕尼黑
@@ -227,7 +229,7 @@ zh_TW:
       name: '{community}'
     irc:
       name: 'IRC 上的 {community}'
-      description: '在 irc.oftc.net 上加入 #{account}（連接埠 6667）'
+      description: '在 irc.oftc.net 上加入 #{account}（連接埠 6667，或是安全連線是 6697）'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: 'LinkedIn 上的 {community}'
@@ -238,7 +240,7 @@ zh_TW:
       description: '{community} 的官方郵件論壇'
       url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
-      name: '{community} 乳齒象社群帳號'
+      name: ' {community} 的乳齒象'
       description: '{community} 的官方乳齒象社群帳號'
     matrix:
       name: '{community} Matrix 聊天室'
@@ -265,15 +267,23 @@ zh_TW:
       name: '{community} 的 Telegram'
       description: 加入社群的 Telegram 聊天室
       url: https://t.me/{account}
+    threads:
+      name: 'Threads 上的 {community}'
+      description: 在 Threads 追隨我們
+      url: https://threads.net/@{account}
     twitter:
-      name: 'Twitter 上的 {community} '
-      description: 在 Twitter 追隨我們
+      name: 'X 上的 {community}'
+      description: 在 X 追隨我們
       url: https://twitter.com/{account}
     website:
       name: '{community}'
     wiki:
       name: '{community} WikiProject'
       url: https://wiki.openstreetmap.org/wiki/{account}
+    x:
+      name: 'X 上的 {community}'
+      description: 在 X 追隨我們
+      url: https://twitter.com/{account}
     xmpp:
       name: '{community} XMPP'
     youtube:
@@ -339,6 +349,9 @@ zh_TW:
     description: 開放街圖加泰隆尼亞社群在 GitHub 上的專案
   cat-matrix:
     description: 開放街圖加泰隆尼亞社群在 Matrix 上的群組
+  cat-twitch:
+    name: '{community} 的 Twitch 頻道'
+    description: 即時編輯開放街圖，HOTosm，開放資料與 GIS
   cat-wiki:
     description: '開放街圖在加泰隆尼亞的社群協作空間：{url}'
   cd-chapter:
@@ -615,6 +628,8 @@ zh_TW:
   md-googlegroup:
     name: '{community} Google 群組'
     description: 加入 {community} Google 群組
+  me-telegram:
+    description: 歡迎所有人加入！在 {signupUrl} 註冊
   mm-facebook:
     extendedDescription: 在緬甸畫地圖嗎？有問題，想要與社群互動？來  {url} 加入我們，歡迎所有人。
   mn-facebook:
@@ -634,6 +649,12 @@ zh_TW:
     extendedDescription: 一開始 2011 年 3 月時有一群人在諾丁罕開始聚會，後來則大多在德比，以及不時在東密德蘭的其他地方。大多是社交性質的聚會，但也是相當好詢問有關地方 OSM 或是一般性質問題。在夏季時我們通常會趁有日光時在聚會場地附近出外畫地圖，這群人有個特別興趣，就是繪製公共空間，不時會為了畫地圖而聚會。
   np-facebook:
     extendedDescription: 在尼泊爾畫地圖嗎？有問題，想要與社群互動？來 {url} 加入我們，歡迎所有人。
+  Open-Source-San-Jose-Discord:
+    name: 開源聖荷西的 Discord
+    description: '在 Discord 與其他圖客交流！註冊之後，加入 #🗺openstreetmap 頻道。'
+  Open-Source-San-Jose-Slack:
+    name: 開源聖荷西的 Slack
+    description: '歡迎所有人加入！在 {signupUrl} 註冊，並加入 #proj-osm 頻道。'
   OpenCleveland-meetup:
     name: Open Cleveland
     description: 改善克里夫蘭區域的開放街圖
@@ -663,6 +684,12 @@ zh_TW:
     description: 您必須知道在阿根庭製圖的所有事情
   osm-at:
     description: 開放街圖在奧地利交流資訊的平台
+  osm-bengaluru-matrix:
+    extendedDescription: 在班加羅爾的開放街圖貢獻者、使用者與新手的群組，有連接到 Telegram。
+  osm-bengaluru-telegram:
+    extendedDescription: 在班加羅爾的開放街圖貢獻者、使用者與新手的群組，有連接到 Matrix。
+  osm-bengaluru-wiki:
+    description: 開放街圖在班加羅爾
   osm-benin-facebook:
     description: 改善貝南的開放街圖
   OSM-Boston:
@@ -716,6 +743,8 @@ zh_TW:
     extendedDescription: 在印度畫地圖嗎？想要問問題，想要與社群連結？請加入 {Url}，所有人都歡迎噢！
   osm-india-github:
     description: '和我們一起寫程式：{url}'
+  osm-india-mastodon:
+    description: 在聯邦宇宙上的開放街圖印度的家
   osm-india-matrix:
     extendedDescription: OSM 印度非官方的聊天室，也與 osmindia Telegram 群組同步
   OSM-India-Puducherry-Facebook:
@@ -815,6 +844,8 @@ zh_TW:
     extendedDescription: 開放街圖南加州擁抱任何對共同畫開放街圖有興趣的人。開放街圖是維基百科式運作的地圖，是全世界尺度自由開源的地圖，由全球超過 1,000,000 人的志工製作。我們歡迎所有人，如果你不大知道開放街圖，我們會教你，如果你有關於畫地圖計畫，甚至野外實察，也是很棒的事情！
   OSM-South-Bay:
     name: OSM South Bay
+    description: 加入線上的南灣地圖之夜
+    extendedDescription: 與南灣圖客相會，並且與開源聖荷西合作，每個週二晚上的線上聚會幫助在地畫地圖計畫。參加者不需要寫程式或是 GIS 的技能。
   OSM-Tampa-Bay:
     name: 開放街圖坦帕灣
     description: 坦帕灣的圖客與開放街圖使用者
@@ -915,6 +946,9 @@ zh_TW:
   uk-localchapter:
     description: 大英國協 (包括北愛爾蘭) 的正式地區分會。
     extendedDescription: '我們透過舉辦活動、提供社群資源、建立合作關係以及推廣來支援開放街圖。在此加入開放街圖美國：{signupUrl}'
+  uk-london-mastodon:
+    name: 開放街圖倫敦在 Mastodn
+    description: '開放街圖倫敦在 Mastodn：{url}'
   uk-london-twitter:
     name: 開放街圖倫敦 Twitter
     description: '開放街圖倫敦 Twitter：{url}'

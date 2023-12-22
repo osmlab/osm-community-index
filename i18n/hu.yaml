@@ -1,11 +1,13 @@
 hu:
   _communities:
+    freelibreopensourcesoftwarekosovaflossk: Free Libre Open Source Software Kosova (FLOSSK)
     geolibres: GeoLibres
     kiribatiwomeninmapping: Kiribati Women in Mapping
     mappingbotswana: Mapping Botswana
     maptimebogota: MaptimeBogota
     maptimehrva: MaptimeHRVA
     openstreetmap: OpenStreetMap
+    openstreetmapaachen: OpenStreetMap Aachen
     openstreetmapafghanistan: OpenStreetMap Afganisztán
     openstreetmapafrica: OpenStreetMap Afrika
     openstreetmapalba: OpenStreetMap Alba
@@ -39,6 +41,7 @@ hu:
     openstreetmapcanada: OpenStreetMap Kanada
     openstreetmapcastillayleon: OpenStreetMap Castilla y León
     openstreetmapcatalancountries: OpenStreetMap Catalan Countries
+    openstreetmapceara: OpenStreetMap Ceará
     openstreetmapchad: OpenStreetMap Csád
     openstreetmapchile: OpenStreetMap Chile
     openstreetmapchina: OpenStreetMap Kína
@@ -142,6 +145,7 @@ hu:
     openstreetmapnorthkorea: OpenStreetMap Észak-Korea
     openstreetmapnorway: OpenStreetMap Norvégia
     openstreetmapoceania: OpenStreetMap Óceánia
+    openstreetmapohio: OpenStreetMap Ohio
     openstreetmapottawa: OpenStreetMap Ottawa
     openstreetmappakistan: OpenStreetMap Pakisztán
     openstreetmappanama: OpenStreetMap Panama
@@ -192,16 +196,25 @@ hu:
     openstreetmapwesternsahara: OpenStreetMap Nyugat-Szahara
     openstreetmapzambia: OpenStreetMap Zambia
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
+    youthmappersasu: YouthMappersASU
   _defaults:
+    aparat:
+      url: https://aparat.com/{account}
     discord:
       name: '{community} Discord'
+      description: Lépj kapcsolatba más térképezőkkel a Discordon
       url: https://discord.gg/{account}
     discourse:
+      name: '{community} Közösségi fórum'
       description: '{community} hivatalos fóruma'
+      url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
       name: '{community} a Facebook-on'
+      description: Csatlakozz közösségünkhöz a Facebookon!
+      url: https://www.facebook.com/{account}
     forum:
       name: '{community} Fórum'
+      description: '{community} hivatalos fóruma'
     github:
       name: '{community} GitHub'
       url: https://github.com/{account}
@@ -218,7 +231,6 @@ hu:
     mailinglist:
       url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
-      name: '{community} Mastodon-fiók'
       description: '{community} hivatalos Mastodon-fiókja'
     matrix:
       name: '{community} Matrix Chat'
@@ -244,7 +256,6 @@ hu:
       name: '{community} Telegram'
       url: https://t.me/{account}
     twitter:
-      name: '{community} a Twitter-en'
       url: https://twitter.com/{account}
     website:
       name: '{community}'
@@ -254,6 +265,7 @@ hu:
     xmpp:
       name: '{community} XMPP'
     youtube:
+      description: Iratkozz fel a YouTube csatornánkra!
       url: https://www.youtube.com/channel/{account}
     zulip:
       name: '{community} Zulip'

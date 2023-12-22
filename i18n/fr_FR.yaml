@@ -198,7 +198,6 @@ fr_FR:
       name: '{community}'
     irc:
       name: '{community} sur IRC'
-      description: 'Rejoignez #{account} sur irc.oftc.net (port 6667)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} sur LinkedIn'
@@ -227,8 +226,6 @@ fr_FR:
       description: Rejoignez notre communauté sur Telegram
       url: https://t.me/{account}
     twitter:
-      name: '{community} sur Twitter'
-      description: Suivez-nous sur Twitter
       url: https://twitter.com/{account}
     wiki:
       name: 'Projet wiki de {community}'

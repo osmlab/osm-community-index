@@ -133,6 +133,7 @@ cs:
     openstreetmapmichigan: OpenStreetMap Michigan
     openstreetmapmoldova: OpenStreetMap Molavsko
     openstreetmapmongolia: OpenStreetMap Mongolsko
+    openstreetmapmontenegro: OpenStreetMap Montenegro
     openstreetmapmontrouge: OpenStreetMap Montrouge
     openstreetmapmorocco: OpenStreetMap Maroko
     openstreetmapmunchen: OpenStreetMap Mnichov
@@ -227,7 +228,7 @@ cs:
       name: '{community}'
     irc:
       name: '{community} na IRC'
-      description: 'Připojte se k #{account} na irc.oftc.net (port 6667)'
+      description: 'Připojte se k #{account} na irc.oftc.net (port 6667 ne-SSL nebo 6697 pro SSL)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} na webu LinkedIn'
@@ -238,7 +239,7 @@ cs:
       description: Oficiální mailová konference komunity {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
-      name: '{community} účet na Mastodonu'
+      name: '{community} na Mastodonu'
       description: Oficiální účet na Mastodonu komunity {community}
     matrix:
       name: '{community} Matrix Chat'
@@ -265,15 +266,23 @@ cs:
       name: '{community} Telegram'
       description: Přidejte se ke komunitnímu chatu na Telegramu
       url: https://t.me/{account}
+    threads:
+      name: '{community} na Threads'
+      description: Sledujte nás na Threads
+      url: https://threads.net/@{account}
     twitter:
-      name: '{community} na Twitteru'
-      description: Sledujte nás na Twitteru
+      name: '{community} na 𝕏'
+      description: Sledujte nás na 𝕏
       url: https://twitter.com/{account}
     website:
       name: '{community}'
     wiki:
       name: '{community} wikiprojekt'
       url: https://wiki.openstreetmap.org/wiki/{account}
+    x:
+      name: '{community} na 𝕏'
+      description: Sledujte nás na 𝕏
+      url: https://twitter.com/{account}
     xmpp:
       name: '{community} XMPP'
     youtube:
@@ -339,6 +348,9 @@ cs:
     description: Projekty z komunity OpenStreetMap Katalánské země na GitHubu
   cat-matrix:
     description: Skupina na Matrixu komunity OpenStreetMap Katalánské země
+  cat-twitch:
+    name: Twitch kanál {community}
+    description: Živá editace OSM, HOTosm, OpenData a GIS
   cat-wiki:
     description: 'Koordinační prostor pro komunitu OpenStreetMap kolem katalánských zemí: {url}'
   cd-chapter:
@@ -590,6 +602,9 @@ cs:
   MappingWR:
     name: MappingWR
     description: Usnadnění nalezení nízkouhlíkových tras v regionu Waterloo.
+  MapRVA:
+    name: MapRVA
+    description: Setkání MapRVA
   maptime-bogota-meetup:
     name: MaptimeBogotá
     description: Jsme skupina lidí, kteří mají zájem zmapovat Bogotu a její okolí do OpenStreetMap.
@@ -612,6 +627,8 @@ cs:
   md-googlegroup:
     name: '{community} Skupiny Google'
     description: Připojte se k {community} ve Skupinách Google
+  me-telegram:
+    description: Všichni jsou vítáni! Zaregistrujte se na {signupUrl}
   mm-facebook:
     extendedDescription: Mapujete v Myanmaru? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {url}. Všichni jsou vítáni!
   mn-facebook:
@@ -677,6 +694,7 @@ cs:
     description: Mapovači a uživatelé OpenStreetMap, kolem Mount Vernon, WA
     extendedDescription: OpenStreetMap je mapa světa vytvořená lidmi, jako jste vy. Je to mapa, kterou stavíte, která je k dispozici zdarma jako wikipedie. Podívejte se na osm.org. Po celou dobu se scházíme, abychom si povídali o mapách, vytvářeli je a bavili se!
   osm-ch:
+    name: '{community}'
     description: Informační platforma pro OpenStreetMap ve Švýcarsku
   OSM-Chattanooga:
     name: OSM Chattanooga
@@ -1299,6 +1317,13 @@ cs:
     name: Mládežnická komunita YouthMappers v Mozambiku
     description: Zastoupení YouthMappers na Universidade Eduardo Mondlane
     extendedDescription: Jsme studentská skupina, která se hodlá připojit k mosambické společnosti a vytvořit odolnou komunitu humanitárního mapování. Záměrem komunity je zmapovat fyzickou okupaci naší země a vytvořit otevřená geografická data, přístupná veřejnosti a využitelná v několika oblastech bez souvisejících nákladů.
+  ym-Universit-de-NZrkor:
+    name: YouthMappers N'Zérékoré
+    description: Oddíl YouthMappers na univerzitě v N'Zérékoré
+    extendedDescription: YouthMappers zapojuje studenty do mapování v případě katastrof nebo epidemií. Umožňuje také tvorbu a využívání mapových dat s volným přístupem.
+  ym-Universit-des-Sciences-Sociale-et-de-Gestion-de-Bamako:
+    name: YouthMappers Bamako
+    description: Oddíl YouthMappers na Univerzitě sociálních věd a managementu v Bamaku
   ym-Universit-Gaston-Berger:
     name: YouthMappers na UGB
     description: Zastoupení YouthMappers na Université de Gaston Berger

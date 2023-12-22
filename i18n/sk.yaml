@@ -186,7 +186,6 @@ sk:
       name: '{community}'
     irc:
       name: '{community} na IRC'
-      description: 'Pripojte sa k #{account} na irc.oftc.net (port 6667)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} na LinkedIn'
@@ -215,8 +214,6 @@ sk:
       description: Pridajte sa ku komunitnému chatu na Telegramu
       url: https://t.me/{account}
     twitter:
-      name: '{community} na Twitteri'
-      description: Sledujte nás na Twitteri
       url: https://twitter.com/{account}
     wiki:
       name: 'Wikiprojekt {community}'
