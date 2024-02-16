@@ -57,6 +57,7 @@ en:
     openstreetmapcz: OpenStreetMap CZ
     openstreetmapde: OpenStreetMap DE
     openstreetmapdeepsouth: OpenStreetMap Deep South
+    openstreetmapdelhi: OpenStreetMap Delhi
     openstreetmapdenmark: OpenStreetMap Denmark
     openstreetmapdjibouti: OpenStreetMap Djibouti
     openstreetmapdominicanrepublic: OpenStreetMap Dominican Republic
@@ -195,6 +196,7 @@ en:
     openstreetmapvenezuela: OpenStreetMap Venezuela
     openstreetmapvietnam: OpenStreetMap Vietnam
     openstreetmapwarszawa: OpenStreetMap Warszawa
+    openstreetmapwestbengal: OpenStreetMap West Bengal
     openstreetmapwesternsahara: OpenStreetMap Western Sahara
     openstreetmapzambia: OpenStreetMap Zambia
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
@@ -717,6 +719,10 @@ en:
   osm-deep-south-wiki:
     description: '{community} Wiki page'
     extendedDescription: OpenStreetMap Deep South is a local mapping community in the Southeastern United States.
+  osm-delhi-xmpp:
+    name: OpenStreetMap Delhi XMPP
+    description: 'Join our XMPP room: {url}'
+    extendedDescription: XMPP room for OSM Delhi; not bridged to any proprietary networks.
   OSM-Discord:
     name: OpenStreetMap World Discord
   OSM-Discourse:
@@ -747,6 +753,9 @@ en:
     description: Home of the OpenStreetMap India community on fediverse
   osm-india-matrix:
     extendedDescription: Unofficial chat room for OSM India, also bridged to osmindia Telegram group
+  osm-india-matrix2:
+    name: OpenStreetMap India Matrix
+    extendedDescription: Matrix room for the Indian OSM community; not bridged to any proprietary networks. Also available from XMPP via https://xmpp.link/#osm-in@conference.a3.pm?join
   OSM-India-Puducherry-Facebook:
     name: Free Software Hardware Movement - Facebook
     description: FSHM Facebook page to know about community events, activities
@@ -761,6 +770,10 @@ en:
     description: Mappers and OpenStreetMap users in India
   osm-india-wiki:
     description: 'Everything you need to know about mapping in India: {url}'
+  osm-india-xmpp:
+    name: OpenStreetMap India XMPP
+    description: 'Join our XMPP room: {url}'
+    extendedDescription: 'XMPP room for the Indian OSM community; not bridged to any proprietary networks. Also available from Matrix via #osm-in:poddery.com'
   osm-iran-aparat:
     extendedDescription: A good resource of videos about anything related to OpenStreetMap. Mainly in Persian.
   osm-iran-discord:
@@ -876,10 +889,18 @@ en:
     name: OpenStreetMap Utah
     description: Mappers and OpenStreetMap users in the Salt Lake City area
     extendedDescription: Activities may include things like Learn To Map workshops, mapping parties and outdoor data collection. The events will take place in the SLC area, at least initially.  We are looking for seasoned mappers as well as people new to OSM. Join and let's do some mapping!
+  osm-wb-xmpp:
+    name: OpenStreetMap West Bengal XMPP
+    description: 'Join our XMPP room: {url}'
+    extendedDescription: XMPP room for OSM West Bengal.
   OSM-Wyoming:
     name: OpenStreetMap Wyoming
     description: Mappers and OpenStreetMap users in the state of Wyoming
     extendedDescription: OpenStreetMap (OSM) Wyoming is a local collaboration of people interested in contributing their efforts to create free maps. We encourage all of our mappers to organize or suggest mapping events throughout the state. Meetup activities can be simple social mixers, OSM basic to advanced training, or community mapping parties.
+  osm-xmpp:
+    name: OpenStreetMap XMPP
+    description: 'Join our XMPP room: {url}'
+    extendedDescription: General-purpose, English-language XMPP room for OpenStreetMap; will not be bridged to any proprietary networks.
   osmcz-twitter:
     description: Follow the Czech community on Twitter - including translated WeeklyOSM!
   OSMF:
