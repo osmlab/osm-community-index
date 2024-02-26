@@ -20,6 +20,7 @@ el:
     openstreetmapbelarus: OpenStreetMap Λευκορωσία
     openstreetmapbelgium: OpenStreetMap Βέλγιο
     openstreetmapbelize: OpenStreetMap Μπελίζ
+    openstreetmapbengaluru: OpenStreetMap Μπανγκαλόρ
     openstreetmapbenin: OpenStreetMap Μπενίν
     openstreetmapberlin: OpenStreetMap Βερολίνο
     openstreetmapbivccvl: OpenStreetMap BI-VC-CVL
@@ -404,12 +405,28 @@ el:
     description: Geolibres Civil Association
   osm-at:
     description: Η πλατφόρμα για πληροφορίες σχετικά με το OpenStreetMap στην Αυστρία
+  osm-bengaluru-matrix:
+    extendedDescription: Ομάδα για τους συνεισφέροντες, χρήστες και αρχάριους του OpenStreetMap στη Μπανγκαλόρ. Γεφυρωμένο με το Telegram.
+  osm-bengaluru-telegram:
+    extendedDescription: Ομάδα για τους συνεισφέροντες, χρήστες και αρχάριους του OpenStreetMap στη Μπανγκαλόρ. Γεφυρωμένο με το Matrix.
+  osm-bengaluru-wiki:
+    description: OpenStreetMap στη Μπανγκαλόρ
+  osm-benin-facebook:
+    description: Βελτίωση του OpenStreetMap στο Μπενίν
   OSM-Boston:
     name: OpenStreetMap Βοστώνη
+    description: Χαρτογράφοι και χρήστες του OpenStreetMap στην περιοχή της Βοστώνης
   osm-ch:
     name: '{community}'
+    description: Η πλατφόρμα για πληροφορίες σχετικά με το OpenStreetMap στην Ελβετία
+  OSM-Chattanooga:
+    name: OSM Τσαττανούγκα
+    description: Η ομάδα χρηστών του OpenStreetMap για την Τσαττανούγκα
+  osm-cn:
+    description: Βοηθάμε στην αύξηση και βελτίωση του OpenStreetMap στην Κίνα.
   OSM-Colorado:
     name: OpenStreetMap Κολοράντο
+    description: Χαρτογράφοι και χρήστες του OpenStreetMap στην πολιτεία του Κολοράντο, ΗΠΑ
   osm-de:
     description: Η πλατφόρμα για πληροφορίες σχετικά με το OpenStreetMap στη Γερμανία
   osm-deep-south-wiki:
@@ -418,15 +435,20 @@ el:
     name: OpenStreetMap World Discord
   OSM-Discourse:
     name: Φόρουμ Κοινότητας OpenStreetMap
+    description: Ένας κοινόχρηστος χώρος για συζητήσεις σχετικά με το OpenStreetMap
   osm-gh-facebook:
     extendedDescription: Χαρτογράφοι στην κοινότητα της Γκάνα, προωθούν εργασίες του OpenStreetMap και της Ανθρωπιστικής Ομάδας OpenStreetMap (HOT) στην Γκάνα. Ελάτε μαζί μας.
   OSM-help:
     name: OpenStreetMap Βοήθεια
+  osm-hr:
+    description: Η πλατφόρμα για πληροφορίες σχετικά με το OpenStreetMap στην Κροατία
   OSM-India-facebook:
     description: Βελτιώστε το OpenStreetMap στην Ινδία
     extendedDescription: Χαρτογράφηση στην Ινδία; Έχετε ερωτήσεις, θέλετε να συνδεθείτε με την κοινότητα εδώ; Ελάτε μαζί μας στο {url}. Είναι όλοι ευπρόσδεκτοι!
   osm-india-github:
     description: 'Προγραμματίστε μαζί μας: {url}'
+  osm-india-mastodon:
+    description: Αρχική της κοινότητας OpenStreetMap Ινδίας στο fediverse
   OSM-India-Puducherry-Facebook:
     name: Κίνημα Ελεύθερου Λογισμικού & Υλικού - Facebook
     description: Η FSHM Facebook σελίδα για να ξέρετε για εκδηλώσεις & δραστηριότητες της κοινότητας
@@ -468,6 +490,8 @@ el:
     description: Ακολουθήστε μας στο Twitter στο {url}
   rs-discourse:
     description: Ένα Forum για συζήτηση του OpenStreetMap στη Σερβία
+  rs-osm:
+    description: Η πλατφόρμα για πληροφορίες σχετικά με το OpenStreetMap στη Σερβία
   rs-wiki:
     description: Σελίδα Wikiproject για Σερβία
   si-github:

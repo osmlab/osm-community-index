@@ -22,6 +22,7 @@ zh_CN:
     openstreetmapbelarus: OpenStreetMap 白俄罗斯
     openstreetmapbelgium: OpenStreetMap 比利时
     openstreetmapbelize: OpenStreetMap 伯利兹
+    openstreetmapbengaluru: OpenStreetMap 班加罗尔
     openstreetmapbenin: OpenStreetMap 贝宁
     openstreetmapberlin: OpenStreetMap 柏林
     openstreetmapbivccvl: OpenStreetMap 意大利 BI-VC-CVL
@@ -240,12 +241,16 @@ zh_CN:
       url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
       name: 'Mastodon 上的 {community}'
+      description: '{community} 的官方 Mastodon 账号'
     matrix:
       name: '{community} Matrix 聊天室'
       description: 加入我们社区的 Matrix 聊天室
       url: https://matrix.to/#/{account}:matrix.org
     meetup:
       name: '{community} Meetup'
+      url: https://www.meetup.com/{account}
+    newsletter:
+      name: '{community} 电子报'
     osm:
       name: '{community}'
     osm-lc:
@@ -253,23 +258,43 @@ zh_CN:
     reddit:
       name: 'Reddit 上的 {community}'
       url: https://www.reddit.com/r/{account}
+    signal:
+      name: '{community} 的 Signal'
+      description: 在 Signal 上加入我们的社区聊天
     slack:
       name: '{community} Slack'
     telegram:
       name: '{community} Telegram'
       description: 加入我们社区的 Telegram 聊天室
       url: https://t.me/{account}
+    threads:
+      name: 'Threads 上的 {community}'
+      description: 在 Threads 上关注我们
+      url: https://threads.net/@{account}
     twitter:
+      name: '𝕏 上的 {community}'
+      description: 在 𝕏 上关注我们
       url: https://twitter.com/{account}
+    website:
+      name: '{community}'
     wiki:
       name: '{community} WikiProject'
       url: https://wiki.openstreetmap.org/wiki/{account}
+    x:
+      name: '𝕏 上的 {community}'
+      description: 在 𝕏 上关注我们
+      url: https://twitter.com/{account}
     xmpp:
       name: '{community} XMPP'
     youtube:
       name: 'YouTube 上的 {community}'
       description: 订阅我们的 YouTube 频道
       url: https://www.youtube.com/channel/{account}
+    zulip:
+      name: '{community} Zulip'
+      description: 在 Zulip 上加入我们的社区聊天
+  aberdeen-discord:
+    name: OSM ABZ Discord
   af-matrix:
     description: 阿富汗社区的Martix群
   al-maptime-tirana:

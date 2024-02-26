@@ -235,6 +235,7 @@ vi:
       description: Danh sách thư chính thức của {community}
       url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
+      name: '{community} trên Mastodon'
       description: Tài khoản Mastodon chính thức của {community}
     matrix:
       name: 'Trò chuyện Matrix {community}'
@@ -261,13 +262,23 @@ vi:
       name: 'Telegram {community}'
       description: Hãy tham gia trò chuyện cộng đồng Telegram của chúng ta
       url: https://t.me/{account}
+    threads:
+      name: '{community} trên Threads'
+      description: Theo dõi chúng tôi trên Threads
+      url: https://threads.net/@{account}
     twitter:
+      name: '{community} trên 𝕏'
+      description: Theo dõi chúng tôi trên 𝕏
       url: https://twitter.com/{account}
     website:
       name: '{community}'
     wiki:
       name: 'Dự án Wiki {community}'
       url: https://wiki.openstreetmap.org/wiki/{account}?uselang=vi
+    x:
+      name: '{community} trên 𝕏'
+      description: Theo dõi chúng tôi trên 𝕏
+      url: https://twitter.com/{account}
     xmpp:
       name: '{community} trên XMPP'
     youtube:
@@ -327,6 +338,8 @@ vi:
     description: Các dự án GitHub của cộng đồng OpenStreetMap tại các xứ Catalunya
   cat-matrix:
     description: Nhóm Matrix của cộng đồng OpenStreetMap tại các xứ Catalunya
+  cat-twitch:
+    name: Kênh Twitch của {community}
   cat-wiki:
     description: 'Không gian cộng tác của cộng đồng OpenStreetMap tại các xứ Catalunya: {url}'
   cd-chapter:

@@ -57,6 +57,7 @@ zh_TW:
     openstreetmapcz: 開放街圖 CZ
     openstreetmapde: 開放街圖德國
     openstreetmapdeepsouth: 開放街圖美國深南部
+    openstreetmapdelhi: 開放街圖德里
     openstreetmapdenmark: 開放街圖丹麥
     openstreetmapdjibouti: 開放街圖吉布地
     openstreetmapdominicanrepublic: 開放街圖多明尼加共和國
@@ -195,6 +196,7 @@ zh_TW:
     openstreetmapvenezuela: 開放街圖委內瑞拉
     openstreetmapvietnam: 開放街圖越南
     openstreetmapwarszawa: 開放街圖華沙
+    openstreetmapwestbengal: 開放街圖西孟加拉
     openstreetmapwesternsahara: 開放街圖西撒哈拉
     openstreetmapzambia: 開放街圖桑比亞
     openstreetmapzimbabwe: 開放街圖辛巴威
@@ -717,6 +719,10 @@ zh_TW:
   osm-deep-south-wiki:
     description: '{community} Wiki 頁面'
     extendedDescription: 開放街圖美國深南部是美國東南部的在地社群。
+  osm-delhi-xmpp:
+    name: 開放街圖德里 XMPP
+    description: '加入我們 XMPP 群組聊天室：{url}'
+    extendedDescription: 開放街圖德里的 XMPP 群組聊天室；不會連接到任何專屬網路。
   OSM-Discord:
     name: 開放街圖世界 Discord
   OSM-Discourse:
@@ -747,6 +753,9 @@ zh_TW:
     description: 在聯邦宇宙上的開放街圖印度的家
   osm-india-matrix:
     extendedDescription: OSM 印度非官方的聊天室，也與 osmindia Telegram 群組同步
+  osm-india-matrix2:
+    name: 開放街圖印度 Matrix
+    extendedDescription: 印度 OSM 社群的 Matrix 聊天室；未橋接至任何專有網路。也可以透過 XMPP 的 https://xmpp.link/#osm-in@conference.a3.pm?join 位址加入
   OSM-India-Puducherry-Facebook:
     name: Free Software Hardware Movement - Facebook
     description: FSHM Facebook 粉絲頁讓你知道社群活動
@@ -761,6 +770,10 @@ zh_TW:
     description: 印度圖客和開放街圖使用者
   osm-india-wiki:
     description: '您必須知道的在印度製圖的所有事情：{url}'
+  osm-india-xmpp:
+    name: 開放街圖印度 XMPP
+    description: '加入我們的 XMPP 聊天室：{url}'
+    extendedDescription: '印度 OSM 社群的 XMPP 聊天室；未橋接至任何專有網路。也可以透過 Matrix 的 #osm-in:poddery.com 位址加入'
   osm-iran-aparat:
     extendedDescription: 這裡有開放街圖相關的影片資源，主要用波斯文。
   osm-iran-discord:
@@ -876,10 +889,18 @@ zh_TW:
     name: 開放街圖猶他
     description: 在鹽湖城區域的圖客與開放街圖使用者
     extendedDescription: 我們可能會舉辦的活動有：學習製圖工作坊、製圖派對與戶外資料蒐集。活動將會在鹽湖城區舉辦，至少一開始是這樣。我們正在尋找經驗豐富的圖客與 OSM 新手。加入我們，一起來製圖吧！
+  osm-wb-xmpp:
+    name: 開放街圖西孟加拉 XMPP
+    description: '加入我們的 XMPP 聊天室：{url}'
+    extendedDescription: OSM 西孟加拉的 XMPP 聊天室
   OSM-Wyoming:
     name: 開放街圖懷俄明
     description: 在懷俄明州的圖客與開放街圖使用者
     extendedDescription: 開放街圖 (OpenStreetMap, OSM) 懷俄明是一個喜歡貢獻他們的心力建立自由地圖的一群地區協作夥伴。我們鼓勵我們所有的圖客組織或建議橫跨整個州的製圖活動。會面活動可以是簡單的社交活動、OSM 基礎到進階訓練，或是社群製圖派對。
+  osm-xmpp:
+    name: 開放街圖 XMPP
+    description: '加入我們的 XMPP 聊天室：{url}'
+    extendedDescription: OpenStreetMap 的通用英語 XMPP 聊天室；不會橋接到任何專有網路。
   osmcz-twitter:
     description: 追蹤捷克開放街圖 Twitter -  包括翻譯 WeeklyOSM！
   OSMF:
@@ -1123,42 +1144,212 @@ zh_TW:
   ym-Istanbul-Technical-University:
     name: 伊斯坦堡科技大學年輕圖客分會
     description: 伊斯坦堡科技大學的年輕圖客分會
+    extendedDescription: 年輕圖客 ITU 由跨學科與科技整合的學生社群組成，目的是推廣為脆弱的人類聚落進行人道救援畫地圖，以及採用地理資訊系列與開放資料為未來城市發展與分享空間資訊。
+  ym-Jacksonville-State-University:
+    name: 傑克森維爾州立大學災難圖客小組
+    description: 傑克森維爾州立大學的年輕圖客分會
+    extendedDescription: 傑克森維爾州立大學災難圖客小組是傑克林維爾州立大學下面的計畫，宗旨為在災難發生時協助災難救助工作。這包括龍捲風、暴雨、洪水等災難。災難圖客小組能夠動員傑克哥維爾州立大學的地理科學系學生，運用所學在災難發生時協助週邊地區。我們的目標是運用學生的所以整合災難發生時的應變與復原流程
+  ym-Jahangirnagar-University:
+    name: 賈漢吉爾諾戈爾大學年輕圖客
+    description: 賈漢吉爾諾戈爾大學的年輕圖客分會
+  ym-Jomo-Kenyatta-University-of-Agriculture-and-Technology:
+    name: 大地工程學生協會
+    description: 喬莫‧肯雅塔農業與工程大學的年輕圖客分會
+    extendedDescription: 大地工程學生協會 (Association of Geomatics Engineering Students, AGES) 關注推廣 GIS 產業與服務，同時也訓練學生如何使用。該組織不只促進學生與專業人士間的交流，也透過在大學舉行新 GIS 與探察活動還有訓練課程提供交換新點子的平台。
   ym-Kansas-State-University:
+    name: '伽碼西塔艾普斯隆：貝塔普西分會'
+    description: 堪薩斯州立大學的年輕圖客分會
     extendedDescription: 我們是堪塞斯州立大學 Chapter of Gamma Theta Upsilon，與年輕圖客有從屬關係。我們相當熱衷繪製 OSM 以及主導圖客松活動 "Map for Nepal"，在 2015 年泥泊爾大地震數位化還沒有繪製的地方。
   ym-Karatina-University:
     name: Nature Club Karatina University
     description: YouthMappers chapter at Karatina University
+    extendedDescription: 這個分會的宗旨為聚集所有的 GIS 愛好者，包括環境議題專案、野生動物專案、水域與觀光官員等等。主要的目的為提供學生彼此學習的平台，而在過程當中瞭解如何在職涯當中運用學到的 GIS 技能解決環境相關議題。
   ym-Kenyatta-University:
     name: Kenyatta University GIS Club
     description: YouthMappers chapter at Kenyatta University
+    extendedDescription: 肯亞塔大學 GIS 社團 (Kenyatta University GIS Club, KUGISC) 是在 2016 年 10 月 28 日成立的，擁有超過 200 位遍佈校園與學院的教職員。我們承諾透過培力成員的空間知識與技能，來讓他們瞭解地球。我們藉由在專案當中整合地理空間資料以及實務的田野資料收集來繪製地圖。
   ym-Khulna-University:
     name: 庫爾納大學年輕圖客
+    description: 庫爾納大學年輕圖客分會
     extendedDescription: 來自不同學門的 KU 學生與職員，正體驗為 OSM 增加開放資料，來處理開發時的在地挑戰，例如糧食安全與其他主題。
   ym-Kumi-University:
+    name: 永久年輕圖客
+    description: 庫米大學年輕圖客分會
     extendedDescription: 這群熱情的學生組織包括理學院與資訊學院。
+  ym-Kwame-Nkrumah-University-of-Science-and-Technology:
+    name: 誇梅·恩克魯瑪科技大學年輕圖客分會
+    description: 誇梅·恩克魯瑪科技大學的年輕圖客分會
+  ym-Makerere-University:
+    name: 地理年輕圖客
+    description: 馬凱雷雷大學年輕圖客
+    extendedDescription: 馬凱雷雷大學地理年輕圖客是在大學裡的圖客分會，宗旨為在現實世界套用空間概念。我們統合 OSM 生態系的眾多活動，主要想要簡化資料並且讓資料在災難發生前能即時應對。我們繪製世界的地圖而且改善生活。
+  ym-Mbarara-University-of-Science-and-Technology:
+    name: 姆巴拉拉科技大學街頭圖客
+    description: 姆巴拉拉科技大學的年輕圖客分會
+    extendedDescription: 姆巴拉拉科技大學街頭圖客是在姆巴拉拉科技大學為根基的組織，成立目的為透過繪製地圖讓我們的國家與整個世界變成更好的地方。我們透過已知模式與資料探堪收集資訊，來呈現與社會現況與利益資訊。
+  ym-McGill-University:
+    name: '開放畫地圖組織麥格：麥格大學地理社群'
+    description: 麥格大學的年輕圖客分會
+    extendedDescription: '麥格爾開放畫地圖社團：麥格爾大學部的地理社團 (OMG McGill)，目標是連結學生與地理空間資料和技術，讓他們在蒙特婁、在加拿大，在國外能夠成長、社群建構與在校園學習繪製地圖。'
+  ym-Miami-University:
+    name: 地理與都市計畫社團
+    description: 邁阿密大學的年輕圖客分會
+    extendedDescription: 邁阿密的 GPS 社團目標是透過趣味、學習與更多關於領域的職涯與高等教育機會，與專業人才網路一同工作，創造都市規畫師與地理專家緊密結合的社群。
   ym-Moi-University:
+    name: 地理學生社團
+    description: 莫伊大學的年輕圖客分會
     extendedDescription: 墨伊大學地理學生協會 (Geography Students Association at Moi University, GEOSAMU) 探索、發現與專注透過年輕地理空間分析師來開發整個世界，GEOSAMU 屬於地理系的一部分。
+  ym-Monroe-Community-College:
+    name: MCC 畫地圖公社
+    description: 門羅社區學院的年輕圖客分會
+  ym-Namibia-University-of-Science-and-Technology:
+    name: 地理資訊科技學生社團
+    description: 納米比亞科技大學的年輕圖客分會
+  ym-Nimba-County-Community-College:
+    name: 寧巴大學年輕圖客
+    description: 寧巴大學的年輕圖客分會
+  ym-Njala-University-Freetown-Campus:
+    name: 尼加拉自由城年輕圖客
+    description: 尼加拉自由城大學校區的年輕圖客分會
+    extendedDescription: 我們是尼加拉自由城大學校區的學生，大都在獅子山自由城亨利街的物理與電腦科學系就讀。
+  ym-Njala-University-Njala-Campus:
+    name: 尼加拉大學尼加拉校區年輕圖客
+    description: 尼加拉大學尼加拉校區的年輕圖客分會
+  ym-Ohio-Wesleyan-University:
+    name: 自然環境與野生動物社團
+    description: 俄亥俄衛斯連大學的年輕圖客分會
+    extendedDescription: 自然環境與野生動物社團關注校園內、德拉瓦，甚至是國家層級的環境議題！我們主持校園與社區的專案，遊覽與享受戶外生活，擔任志工，在這當中從生活各層面推廣環境保育。
+  ym-Oklahoma-State-University:
+    name: 地理社團
+    description: 奧克荷馬州立大學的年輕圖客分會
+  ym-Open-University-of-Tanzania:
+    name: 坦尚尼亞開放大學年輕圖客
+    description: 坦尚尼亞開放大學的年輕圖客分會
+    extendedDescription: |-
+        坦尚尼亞開放大學的年輕圖客
+
+        由坦尚尼亞開放大學地理系學生與成員所成立的，而主要的目的是藉由共同與在地組織如密可可童軍 (www.msg.or.tz) 合作的專案，增進參與者的職涯與幫助年輕社群，開始與國際學院與大學由密可可童軍準備的地理研究交換計畫合作，並藉由與密可可童軍的連結，連結在地大學與其他大學有相同興趣的國際自然與環境年輕圖客 2019 (www.campsite.msg.or.tz/nature.html)
+
+        我們分會即將被承認為年輕網路計畫的一員，意味著打開學生學習與進行在地研究的機會。
+  ym-Politecnico-di-Milano:
+    name: 理工圖客
+    description: 米蘭理工大學的年輕圖客分會
+    extendedDescription: 理工圖客是由米蘭理工大學的學生組成的志工社團，整個團體的目標是訓練與激勵下一代的志工圖工，並且能在大學以及小學與中學當中，採用自由及開源軟體來畫地圖。
+  ym-Queen-Mary-University-of-London:
+    name: 瑪麗女王年輕圖客
+    description: 倫敦瑪麗女王大學的年輕圖客分會
+    extendedDescription: 這個分會屬於瑪麗女王地理社團活動的一部分。
+  ym-Rajshahi-University-of-Engineering-Technology:
+    name: 拉傑沙希工程技術大學年輕圖客
+    description: 拉傑沙希工程技術大學的年輕圖客分會
+    extendedDescription: 拉傑沙希工程技術大學年輕圖客是由拉傑沙希工程技術大學關注人道救援畫地圖的學生組成，他們想要分享、開發與實踐 GIS 知識。這個社團鼓勵採用開源地理空間資料，以及進行相關的解決方案來解決全世界易受災組織的問題。
   ym-Sherubtse-College:
     name: 地理協會
+    description: 舍魯布策學院年輕圖客
     extendedDescription: '不丹皇家大學舍魯布策學院地理與規劃學系的地理學會，另外還有氣候變化與空間資訊中心的支援，已經做了不少國家與地方層級，提昇意識和強調重要議題的倡議。我們如今一同在學生為主，國際社團網路的年輕圖客當中「為韌性畫地圖」，為全球「幸福」做貢獻！ '
+  ym-Sokoine-University-of-Agriculture:
+    name: 索科因農業大學年輕圖客
+    description: 索科因農業大學的年輕圖客分會
+    extendedDescription: 主要關注環境科學與管理的學生在地理學系下進行地理研究，而我們也會套用概念與理論展現畫地圖技能，協助、探索與捕捉不同目標下能進行的行動。
+  ym-St.-Augustine-International-University:
+    name: 聖奧古斯丁國際大學年輕圖客
+    description: 聖奧古斯丁國際大學的年輕圖客分會
   ym-St.-Mawaggali-Trades-Training-Institute:
+    name: 瑪瓦格里圖客
+    description: 聖馬哇干里貿易訓練中心的年輕圖客分會
     extendedDescription: 我們是喬馬亞聖馬哇干里年輕圖客分會，透過畫地圖進行不同的人道救援任務來服務人群。
+  ym-State-University-of-New-York-Geneseo:
+    name: 陽光精靈 GIS 協會
+    description: 紐約州立大學傑納蘇分校的年輕圖客分會
+    extendedDescription: 我們引起大家在紐約州立大學傑納蘇分校的校園、在地以及全球社群，對地理資訊系統跨領域與部分的重視、支援、教育、投入志工行列，以及職涯發展的機會。
+  ym-Stella-Maris-Polytechnic:
+    name: 斯特拉·馬里斯理工大學年輕圖客
+    description: 斯特拉·馬里斯理工大學的年輕圖客分會
   ym-SUNY-at-Fredonia:
+    name: Geoventurers
+    description: 紐約州立大學弗雷多尼爾學院年輕圖客
     extendedDescription: GeoVenturers 是一群在校園的學生組成的團體，希望能夠用各種地理空間技術發展的工具來服務大家，讓大家聚在一起。這個團體的指導方面目標是從學系的課程和教學帶來科學教育。我們希望我們帶來的技術，能夠幫助人們過得更好。
+  ym-Technical-University-of-Kenya:
+    name: 地理空間科學學生社團
+    description: 肯亞科技大學的年輕圖客分會
+    extendedDescription: 這個社團主要是地理資訊，由相當熱情投入的相關領域的學生組成。我們訓練成員市場上最新的技術，並且時時保持技術領先。
   ym-Texas-Tech-University:
+    name: 德州理工大學年輕圖客
+    description: 德州理工大學的年輕圖客分會
     extendedDescription: 身為整個網路共同創辦的分會之一，TTU 年輕圖客是由跨領域，創建開放地理資料與分析來解決全球的在地者指出的發展議題的的熱心者。分會希望能與全球其他分會交換與合作，提供德州理工學生組織自身在地資源與服務，透過畫地圖來增加校園活動的價值。
+  ym-The-Citadel:
+    name: 要塞軍校年輕圖客
+    description: 要塞軍校的年輕圖客分會
+    extendedDescription: 這個分會同時也是扶青社，屬於國際扶青網路的一員。多重成員身份，以及領導層級也表達想要參與年輕圖客，並且成為扶青社身份的年輕圖客。
   ym-The-Gambia-YMCA-University-of-the-Gambia:
-    name: YouthMappers 接觸
-    description: YouthMappers chapter at The Gambia YMCA / University of the Gambia
+    name: 年輕圖客連接
+    description: 甘比亞YMCA/甘比亞大學的年輕圖客分會
     extendedDescription: Connected YouthMappers 由年輕甘比亞組成，希望能改變和協助國家發展。
   ym-The-George-Washington-University:
+    name: 人道救援畫地圖社團
+    description: 喬治‧華盛頓大學的年輕圖客分會
     extendedDescription: 在領導統御與接觸關懷的使命，HMS 尋求提供援助以及透過人道地理資訊系統(GIS)專案來讓這個世界變得更好。這個共同成立在 GWU 校園的附屬分會樂於分享經驗，以及常常與 USAID、美國紅十字會，以及美國國務院在華盛頓特區一帶合作帶領學生以及服務全球社群。
+  ym-The-Johns-Hopkins-University-SAIS:
+    name: 保羅·H·尼采高級國際研究學院年輕圖客
+    description: 約翰‧霍普金斯大學保羅·H·尼采高級國際研究學院的年輕圖客分會
+    extendedDescription: 保羅‧H‧尼采高級國際研究學院年輕圖客的任務是提供學生成為受訓的人道救援圖客。而身為南亞的分會，主要是支援印太地區的人道圖客專案。
+  ym-The-Pennsylvania-State-University:
+    name: 賓州 GIS 聯盟
+    description: 賓州大學的年輕圖客分會
+    extendedDescription: 賓州 GIS 聯盟是提供主修、副修的學生，或是對 GIS 有興趣的人發展專業知識與技能的組織，進而能在專業 GIS 產業有成功的職涯。
+  ym-The-University-of-Zambia:
+    name: 年輕圖客贊比亞大學
+    description: 贊比亞大學的的年輕圖客分會
+  ym-Uganda-Christian-University-Mbale-Campus:
+    name: 為了生命擔任圖客
+    description: 烏干達基督教大學姆巴萊校區的年輕圖客分會
+    extendedDescription: 我們是為了生命擔任圖客！請加入我們一起畫地圖吧！這個團體與烏干達基督教大學資訊科技系合作。
+  ym-Uganda-Pentecostal-University:
+    name: 高科技年輕圖客
+    description: 烏干達五旬節大學的年輕圖客分會
+    extendedDescription: 烏干達西部新的年輕圖客分會，準備畫地圖以及運用開放街圖在發展目的來準備開放資料。
+  ym-Universidad-de-Antioquia:
+    name: Geomatica UDEA
+    description: 安蒂奧基亞大學的年輕圖客分會
+    extendedDescription: 我們是一群在我們與其他國家，以及年輕圖客網絡中，對地理空間資料、志願性製圖，以及參與式製圖有興趣的人。
   ym-Universidad-de-Costa-Rica:
     name: 波多黎各大學年輕圖客
     description: 波多黎各大學的年輕圖客分會
     extendedDescription: 哥斯大黎各年輕圖客分會由一群關注社會脈動的多樣成員組成。開放街圖允許我們在社群之內聚集、驗證以及分享對大家有益的地理資訊。
+  ym-Universidad-de-La-Guajira:
+    name: Grupo Mesh
+    description: 瓜希拉大學的年輕圖客分會
+    extendedDescription: Grupo Mesh 是哥倫比亞瓜希拉大學的學生組織，包括學習繪製地圖以及開放畫地圖的環境工程學程的學生。
+  ym-Universidad-de-Los-Andes:
+    name: Cartografos Uniandes
+    description: 安地斯大學的年輕圖客分會
+    extendedDescription: 我們是一群採用畫地圖與空間思考的學生，藉由不同的空間、社會、政治、經濟與文化上的激盪，想要與大學和社會創建連結與整合。
+  ym-Universidad-de-Puerto-Rico-Rio-Piedras:
+    name: 波多黎各大學聖胡安波多黎各校區年輕圖客
+    description: 波多黎各大學聖胡安波多黎各校區的年輕圖客分會
+  ym-Universidad-de-San-Buenaventura:
+    name: 聖布埃納文圖拉年輕圖客
+    description: 聖布埃納文圖拉大學的年輕圖客分會
+    extendedDescription: 我們相當高興能參與年輕圖客的大家庭，並且透過畫地圖造就更好的世界與社群。
+  ym-Universidad-Distrital-Francisco-Jose-de-Caldas:
+    name: 波哥大年輕圖客
+    description: 波哥大大學的年輕圖客分會
+    extendedDescription: 波哥大大學是位於哥倫比亞波哥大的公立、共學、研究型大學，擁有 26,140 位學生。
+  ym-Universidad-Nacional-Autnoma-de-Honduras:
+    name: PumaGis Hn
+    description: 宏都拉斯國立自治大學的年輕圖客分會
   ym-Universidad-Nacional-de-Colombia:
+    name: Grupo UN
+    description: 哥倫比亞國立大學的年輕圖客分會
     extendedDescription: 學生一同集結來畫地圖，以及與哥倫比亞全國與全球的大學生交際，地理範圍則包括與微生物與健康學科。
+  ym-Universidad-Nacional-de-Ingenieria:
+    name: Yeka Street MGA
+    description: 國立工程大學的年輕圖客分會
+    extendedDescription: YEKA STREET 是一群尼加拉瓜國立工程大學的學生組成，主要目的是運用知識與技能，套用許多工具與 app 來畫我們城市的地圖，貢獻在社群專案與災難應對計畫。我們想要邀請更多學生加入，增進社區的人生活品質與減少其人口受到的傷害。
+  ym-Universidade-Eduardo-Mondlane:
+    name: 莫三比克年輕圖客社群
+    description: 蒙德拉內大學的年輕圖客分會
+    extendedDescription: 我們的學生想加入莫三比克社會來創建有人道救援畫地圖的社群。社群打算繪製我們國家的物理設施與創造開放地圖資料，公共可及的公共設施，以及能在多個區域使用卻不用額外花費。
   ym-Universit-de-NZrkor:
     name: 年輕圖客恩澤雷科雷
     description: 恩澤雷科雷大學的年輕圖客分會
@@ -1166,31 +1357,158 @@ zh_TW:
   ym-Universit-des-Sciences-Sociale-et-de-Gestion-de-Bamako:
     name: 年輕圖客巴馬科
     description: 巴馬科社會科學與管理大學的年輕圖客分會
+  ym-Universit-Gaston-Berger:
+    name: 加斯頓·伯傑大學年輕圖客
+    description: 加斯頓·伯傑大學的年輕圖客分會
+    extendedDescription: 加斯頓·伯傑大學年輕圖客是由對畫地圖有熱情的年輕學生與學者組成。我們的目標是增進學生在現地製圖能力與參與創建開放地理資料，能夠應對全世界的特別是非洲的開發挑戰。
+  ym-Universit-Mohammed-V-Rabat:
+    name: 拉巴特的布拉馬普特拉
+    description: 穆罕穆德五世大學拉巴特的年輕圖客分會
+    extendedDescription: 我們這分會視加入年輕圖客是分享我們的知識來與不同國家其他分會創建新的工作關係的機會
+  ym-Universitas-Negeri-Makassar:
+    name: Kontur Geografi
+    description: 望加錫公立大學的年輕圖客分會
+  ym-University-Muhammadiyah-Surakarta:
+    name: SpaceTime
+    description: 穆罕默迪亞.蘇拉卡爾塔大學的年輕圖客分會
+    extendedDescription: SpaceTime 是穆罕默迪亞‧蘇拉爾塔大學地理機構的社群畫圖行動，由布魯斯‧曼迪‧帔塔瑪、穆斯斯‧亞卡巴與伊凡迪‧法茲創立。他們是由穆罕默迪亞‧蘇拉爾塔大學地理機構活躍學生組成。
+  ym-University-of-California-Davis:
+    name: 畫地圖社團
+    description: 加州大學戴維斯的年輕圖客分會
   ym-University-of-Cape-Coast:
-    name: UCC Geographical Society
-    description: YouthMappers chapter at University of Cape Coast
+    name: 海岸角大學地理社團
+    description: 海岸角大學的年輕圖客分會
+    extendedDescription: 我們是就讀海岸角大學地理暨地區計畫學習的學生。我們主要的目標是推廣學科的興趣到教室裡或是課堂之外，而我們的格言是「我們幫助地球及其棲息者。」
   ym-University-of-Central-Florida:
+    name: 地理空間資訊社團
+    description: 中佛羅里達大學的年輕圖客分會
     extendedDescription: 我們的使命是培育關心 GIS 應用與討論，主修社會與教育環境的人。團體與社群活動則在學年當中進行，透過社群為基礎的 GIS 專案，組織學生來當志工幫助在地與區域社群，並且教育當地中小學學生來使用 GIS 應用。
+  ym-University-of-Chicago:
+    name: Tobler Society
+    description: 芝加哥大學的年輕圖客分會
+  ym-University-of-Dar-es-Salaam:
+    name: 達蘭沙拉大學年輕圖客
+    description: 達蘭沙拉大學的年輕圖客分會
+    extendedDescription: 達蘭沙拉大學年輕圖客的目標是運用與推廣開源資料與 GIS 技術來繪製可能易到災難侵襲的地方，並且提供緊急救助管理所需要的資源，還有連結達蘭沙拉市裡的開源與 GIS 組織，以及計畫伙伴所需要做的計畫。
   ym-University-of-Energy-and-Natural-Resources:
-    name: Eco-Club
+    name: 生態社團
+    description: 能源與自然資源大學的年輕圖客分會
+    extendedDescription: 喚醒大眾對惡化的自然環境與最佳化環境休憩與人類生存所需資料。
+  ym-University-of-Exeter:
+    name: 艾希特大學大學英國紅十字會遺失地圖
+    description: 艾希特大學的年輕圖客分會
+    extendedDescription: 我們是一群關注 GIS 的熱情地理人，相關熱衷支援英國紅十字會與其他人道援助活動。我們也是遙測畫地圖的重要師資，以及幫助現場的人士。我們的圖客松則強調地理系之下不同 GIS 研究的領域，藉由邀請講者談論 GIS/英國紅十字同時也喚起大眾的注意。
   ym-University-of-Ghana:
-    description: YouthMappers chapter at University of Ghana
+    name: 迦納大學年輕圖客
+    description: 迦納大學的年輕圖客分會
+    extendedDescription: 迦納大學年輕圖客由關注 GIS 與遙測知識與技能的研究生以及大學部學生組成。這個社團是充滿活力的團隊，藉由畫地圖強調社會議題與環境議題。我們主要的原則是能力建構、培力與團隊合作。
+  ym-University-of-Liberia-YouthMappers:
+    name: 賴比瑞亞大學年輕圖客
+    description: 賴比瑞亞大學的年輕圖客分會
+    extendedDescription: 賴比瑞亞大學年輕圖客屬於全球年輕圖客網絡下的分會組織，我們是非營利的學生畫地圖組織，專注繪製賴比瑞亞與全世界的發展建築。我們組織的目的是整合科技與地理空間知識，同時也創建與發展地圖；收集與分析可解決在地與全球議題的資料。我們專注支援與創建學生進行畫地圖發展興趣與技能的機會。我們的願景是共同合作，能與賴比瑞亞大學年輕圖客一同努力的統一的學生社群，共同提昇彼此的生活。
+  ym-University-of-Malawi:
+    name: 馬拉威大學領袖學院年輕圖客
+    description: 馬拉威大學的年輕圖客分會
+    extendedDescription: 馬拉威大學領袖學院年輕圖客是馬拉威大學領袖學院下的學生畫地圖組織。這個分會的學生專注繪製馬拉威發展與科技所需要的地方。
+  ym-University-of-Maryland-College-Park:
+    name: 地理社團
+    description: 馬里亞納大學公園校區的年輕圖客分會
+    extendedDescription: 馬里亞納大學公園校區地理社團的目標是接觸與鼓勵學生在校園或是社群內探索地理興趣。
   ym-University-of-Mines-and-Technology:
-    name: YouthMappers chapter at University of Ghana
+    name: 冶金與科技大學年輕圖客
+    description: 冶金與科技大學的年輕圖客分會
+    extendedDescription: 冶金與科技大學年輕圖客分會是一群追求改進現地畫地圖，創建開放地理資料，與為了全球開發挑戰分析地方地埋址的志工學生組織而成。
+  ym-University-of-Nairobi:
+    name: 地理空間工程學生聯盟
+    description: 奈洛比大學的年輕圖客分會
+    extendedDescription: 奈洛比大學的學生與在地 OSM 社群合作，如 Map Kibera 與在地事實一同學習如何開放畫地圖與貢獻都會社群所需的資料。
+  ym-University-of-Nigeria-Enugu-Campus:
+    name: 獅子圖客小組 (LMT) 埃努古校區
+    description: 奈吉利亞大學埃努古校區的年輕圖客分會
+    extendedDescription: 獅子圖客小組 (LMT) 埃努古校區屬於年輕圖客網絡的一員，目標是提供成員學習與精進他們地理資訊的能力，以及創建開放地理資料與分析的能力，還有識別在地定義的全球挑戰。獅子圖客小組 (LMT) 埃努古校區是群眾外包畫圖與開放街圖、公民科學與其他地理空間科技用在研究、訓練與回應韌性社群挑戰的地理資訊生成者的志工。我們涉入網路製圖、GIS 與遙測研究。我們對志願性地理資訊、參與式 GIS 與公民科學相當有熱情。我們主要的活動包括線上群眾外包地理製圖，現在畫地圖，訓練工作坊與中學的推廣活動，以及人道救援/災難應對的畫地圖。
+  ym-University-of-Nigeria-Nsukka:
+    name: 獅子圖客小組 (LMT) 努思卡
+    description: 奈吉利亞大學努思卡的年輕圖客分會
+    extendedDescription: 獅子圖客小組 (LMT) 屬於年輕圖客網絡的一員，目標是提供成員學習與精進他們地理資訊的能力，以及創建開放地理資料與分析的能力，還有識別在地定義的全球挑戰。獅子圖客小組 (LMT) 區是群眾外包畫圖與開放街圖、公民科學與其他地理空間科技用在研究、訓練與回應韌性社群挑戰的地理資訊生成者的志工。我們涉入網路製圖、GIS 與遙測研究。我們對志願性地理資訊、參與式 GIS 與公民科學相當有熱情。我們主要的活動包括線上群眾外包地理製圖，現在畫地圖，訓練工作坊與中學的推廣活動，以及人道救援/災難應對的畫地圖。
+  ym-University-of-North-Texas:
+    name: 北德州大學地理社團
+    description: 北德州大學的年輕圖客分會
+    extendedDescription: 地理社團是北德州大學的學生組織，歡迎所有對地理有興趣的學生。地理社團的目標是向主修與地理系學生與職員推廣地理學科的興趣。地理社團也會尋求地理學科當中代表學生的需求與願望，以及提供整個大學社群的創新點子的代表平台。
+  ym-University-of-Northern-Colorado:
+    name: 北科羅拉多大學地理與 GIS 社團
+    description: 北科羅拉多大學的年輕圖客分會
+    extendedDescription: '在北科羅拉多大學的官方地理與 GIS 社團分會，目標為學習、分享與連結週邊。#MakingSenseofTheWorld'
   ym-University-of-Oregon:
+    name: 西北繪製地圖
+    description: 奧勒岡大學的年輕圖客分會
     extendedDescription: 西北繪製地圖著重在接觸奧勒岡大學大學生，讓他們協助人道救援與進行地理研究相關的繪圖專案。我們歡迎任何學科的學生來加入我們的畫地圖冒險。
+  ym-University-of-Port-Harcourt:
+    name: 獨特圖客小組 (UMT) 哈科特港
+    description: 哈科特港大學的年輕圖客分會
+    extendedDescription: 獨特圖客小姐 (UMT) 哈科特港是進行合作線上畫地圖，專注在訓練與培力成員最新的畫地圖技能的一群行動小姐與志工，進而專注在地關注與地理資訊相關挑戰，並且提供尼加拉三角洲與其他地方遭遇災難的應對措施。我們推廣採用開放街圖平台以及其他可及的平台，進行群眾外包的畫地圖與志願性地理資訊，來應對快速畫地圖，災難場景畫地圖，地理情報畫地圖，更新地圖與訓練。這個分會屬於校園內的人道救援開放街圖小組 (HOT) 的一員，並且有年輕圖客的小組來提供成員學習與提昇他們地理資訊技能的機會，同時也探索畫地品與地理資訊的全球機會。
   ym-University-of-Pretoria:
+    name: 地理資訊科學中心
+    description: 普利托利亞大學的年輕圖客分會
     extendedDescription: 畫普利托利亞地圖的學生由普利托利亞大學地理資訊科學中心來支援，提供普利托利亞大學個人與團體有關地理資訊科學研究、教育與訓練的平台，另外也鼓勵專業發展與社群介接，並且透過與南非各界的聯盟合作、教育與訓練來強化，
+  ym-University-of-Redlands:
+    name: 雷德蘭茲大學空間地理思考者
+    description: 雷德蘭茲大學的年輕圖客分會
+    extendedDescription: 藉由社會介接還有教育校園社群關於畫地圖的力量與社群服務活動的空間分析，建構成員手上工具與方法的 GIS 技能與知識。
   ym-University-of-Rwanda-Huye-Campus:
     name: 蘆安達年輕圖客
     description: 蘆安達大學海玉校區的年輕圖客分會
+    extendedDescription: 根據承諾與目的來推廣畫地圖，而依據年輕圖客的公開演講資訊，我們組織地理系裡承諾要畫地圖的學生來組成校園內的分會。我們也支援指導教授 Gaspard Rwanyiziri 博士(CGIS-Rwanda 主任) 與相關課程的助教工作。
+  ym-University-of-South-Carolina:
+    name: 地理畢業生聯盟
+    description: 南卡羅萊那大學的年輕圖客分會
+    extendedDescription: 地理畢業生聯盟是全學生運作的組織，目標是藉由相關資源整合，成為學系與學生之間的中間人角色。我們想要追求地理領域與次領域的專業、學術與個人發展。
   ym-University-of-Southern-California:
-    name: SC 圖客
+    name: 南加大圖客
+    description: 南加州大學的年輕圖客分會
+    extendedDescription: '我們用不同角度看待這世界，我們用空間的角度看待。而擁有空間思考的力量，我們連結場所與空間來協助全球挑戰。與我們合作吧！'
   ym-University-of-the-Philippines-Resilience-Institute:
-    extendedDescription: 菲律賓大學迪里曼分校防災中心是 2016 年設立，宗旨為藉由防災跨領域的研究與行動培力在地社群。透過菲徑賓大學迪里曼分校 NOAH 中心，及不同協力的組織，我們建構為 82 個省當中的 17 個，以及上傳開放街圖超過 400 萬個建築。
+    name: 菲律賓大學防災中心
+    description: 菲律賓大學防災中心的年輕圖客分會
+    extendedDescription: 菲律賓大學迪里曼分校防災中心是 2016 年設立，宗旨為藉由防災跨領域的研究與行動培力在地社群。透過菲徑賓大學迪里曼分校 NOAH 中心，及不同協力的組織，我們建構為 82 個省當中的 17 個，以及上傳開放街圖超過 400 萬棟建築。
   ym-University-of-the-Philippines-Resilience-Institute-twitter:
-    name: 年輕圖客普利托利亞韌性機構 Twitter
+    name: 年輕圖客普利托利亞防災機構 Twitter
+  ym-University-of-the-West-Indies-Mona-Campus:
+    name: 圖書館推廣 - ODL
+    description: 西印度群島大學莫娜校區的年輕圖客分會
+    extendedDescription: 西印度群島大學莫娜校區圖書館與大眾互動，進行推廣與特殊專案，允許圖書館進行空間識別知識與倡議空間資料分享與連結牙買加與加勒比海地區的共同興趣。我們有防災救難與溝通需求，以及地球科學與地理資料，能夠更為服務校園與社區。特別值得一提，我們的科學圖書館能向職員與學生展示上諸事務。
+  ym-University-of-Vermont:
+    name: 佛蒙特大學人道主義畫地圖社團
+    description: 佛蒙特大學的年輕圖客分會
+  ym-University-of-Victoria:
+    name: 地理科系社團
+    description: 維多利亞大學的年輕圖客分會
+    extendedDescription: '地理科系社團推廣與代表地理科係的社會與學術的興趣。我們透過四項目標來表述：提供地理教育與品質的討論平台；提供學生能在系間與系務會議表達的整合意見；表述反映學生利益，達成共識的地理領域集體行動；成為代表維多利亞大學與課程委員議會的學生代表。'
+  ym-University-of-Warwick:
+    name: 華威商學院防災畫地圖社團
+    description: 華威商學院的年輕圖客分會
+    extendedDescription: 我們是一群來個華威商學院的熱情圖客，我們的目標是讓人們對人道救援畫地圖感到有興趣，並且瞭解他們的行動最終能對現場有意義。我們與遺失地圖與無國醫生組織英國合作，透過進行 HOT 任務畫地圖與進行工作坊。我們的圖客松如同行事曆記錄會列在遺失地圖頁面。
+  ym-University-of-Wyoming:
+    name: 伽碼西塔厄普西隆/地理社團
+    description: 懷俄明大學的年輕圖客分會
+  ym-University-of-Zimbabwe:
+    name: 辛巴威大學圖客
+    description: 辛巴威大學的年輕圖客分會
+    extendedDescription: 辛巴威大學圖客是使用開放街圖在開放資料繪圖與人道救援災難反應畫地圖的志工組成。團隊以開放原始碼地理空間技術能力培力成員。
+  ym-UW-Madison:
+    name: 徽章地圖
+    description: 威斯康辛大學麥迪遜分校的年輕圖客分會
+    extendedDescription: 徽章地圖是威斯康辛大學麥迪遜分校的年輕圖客分會，致力於人道救援與社群畫地圖服務。我們透過各種機會創建 GIS 資料連結志工網絡，來提供給需要的人在專案上使用。
+  ym-Vassar-College:
+    name: 哈德森谷圖客
+    description: 瓦薩學院的年輕圖客分會
+    extendedDescription: 我們的使命是為了同儕、教育者與社團組織提供跨領域平台連結地方畫圖專案，強化本地生態系，建構環境，以及社群的健康。我們也尋求在全球人道救援與開發方面貢獻地理空間技能。
+  ym-Villanova-University:
+    name: 維拉諾瓦全球繪圖員
+    description: 維拉諾瓦大學的年輕圖客分會
+    extendedDescription: 維拉諾瓦全球繪圖員依據聖奧思定準則行事 ，無私服務全球社群。而混合休閒與社會互動，不論參與學生的種族、學術主修、學生所屬組織，或是學術階級，我們仍然提供地理空間成果給那些需要的人。
   ym-West-Virginia-University:
+    name: 地圖時間摩根敦
+    description: 西維吉尼亞大學的年輕圖客分會
     extendedDescription: 以合作團隊方式，這個共同創辦的分會著重為專案那些感興趣的人，提供開放學習的環境。包括國際開發、緊急應變與地理資訊科學。他們可以藉由提供技術訓練與經驗，聯結初學者與專家，來建造有意義與有用的地理設施資料，同時也與全球的姐妹市聯結。
   ym-Western-Michigan-University:
     name: 地理社團
