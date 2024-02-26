@@ -19,6 +19,23 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.6.2
+##### 2024-Feb-26
+* Add Armenia Wiki, Singapore Wiki and Telegram ([#693])
+* Remove nonexistant `talk-al` mailing list ([#695])
+* Add Iraq Telegram ([#696])
+* Add West Bengal, Dehli, Indian XMPP resources ([#697])
+* Update Portugal and Brazil sort orders, added Brazil wiki ([#698])
+* Remove `help.osm.org`, as it will be readonly from March 1 ([#700])
+
+[#693]: https://github.com/osmlab/osm-community-index/issues/693
+[#695]: https://github.com/osmlab/osm-community-index/issues/695
+[#696]: https://github.com/osmlab/osm-community-index/issues/696
+[#697]: https://github.com/osmlab/osm-community-index/issues/697
+[#698]: https://github.com/osmlab/osm-community-index/issues/698
+[#700]: https://github.com/osmlab/osm-community-index/issues/700
+
+
 # 5.6.1
 ##### 2023-Dec-21
 * Bump reqired node to 18, swap `tap` for `node:test`
