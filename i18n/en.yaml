@@ -170,6 +170,7 @@ en:
     openstreetmapserbia: OpenStreetMap Serbia
     openstreetmapseychelles: OpenStreetMap Seychelles
     openstreetmapsierraleone: OpenStreetMap Sierra Leone
+    openstreetmapsingapore: OpenStreetMap Singapore
     openstreetmapslovenia: OpenStreetMap Slovenia
     openstreetmapsomalia: OpenStreetMap Somalia
     openstreetmapsouthafrica: OpenStreetMap South Africa
@@ -303,6 +304,8 @@ en:
     name: Maptime Tirana
     description: Social events organized around mapping - beginners most welcome!
     extendedDescription: Maptime is an open learning environment for all levels and degrees of knowledge, offering intentional educational support for the beginner. Maptime is simultaneously flexible and structured, creating space for mapping tutorials, workshops, ongoing projects with a shared goal, and independent/collaborative work time.
+  am-wiki:
+    description: '{community} Wiki page'
   at-matrix:
     description: Unofficial German Matrix channel for Austria
   at-wiki:
@@ -341,6 +344,8 @@ en:
     description: All mappers are welcome!
   br-telegram:
     extendedDescription: Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!
+  br-wiki:
+    description: WikiProject with information and coordination guidelines for mapping in Brazil.
   cape-coast-youthmappers:
     name: University of Cape Coast YouthMappers
     description: 'Follow us on Twitter: {url}'
@@ -736,10 +741,6 @@ en:
     extendedDescription: Mappers in Ghana community, promoting OpenStreetMap and Humanitarian OpenStreetMap Team (HOT) projects in Ghana. Join us.
   osm-gh-website:
     description: Provides OSM services and information for the local community in Ghana
-  OSM-help:
-    name: OpenStreetMap Help
-    description: Ask a question and get answers on OSM's community-driven question and answer site.
-    extendedDescription: '{url} is for everyone who needs help with OpenStreetMap.  Whether you are a beginner mapper or have a technical question, we''re here to help!'
   osm-hr:
     description: The platform for information on OpenStreetMap in Croatia
   osm-id:
@@ -753,9 +754,6 @@ en:
     description: Home of the OpenStreetMap India community on fediverse
   osm-india-matrix:
     extendedDescription: Unofficial chat room for OSM India, also bridged to osmindia Telegram group
-  osm-india-matrix2:
-    name: OpenStreetMap India Matrix
-    extendedDescription: Matrix room for the Indian OSM community; not bridged to any proprietary networks. Also available from XMPP via https://xmpp.link/#osm-in@conference.a3.pm?join
   OSM-India-Puducherry-Facebook:
     name: Free Software Hardware Movement - Facebook
     description: FSHM Facebook page to know about community events, activities
@@ -928,6 +926,8 @@ en:
     extendedDescription: Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!
   rs-wiki:
     description: Wikiproject page for Serbia
+  sg-wiki:
+    description: '{community} Wiki page'
   si-github:
     description: '{community} GitHub'
   si-ljubljana-wiki:

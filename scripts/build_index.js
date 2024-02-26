@@ -234,8 +234,8 @@ function collectResources(featureCollection) {
     if (item.locationSet.include)  { obj.locationSet.include = item.locationSet.include; }
     if (item.locationSet.exclude)  { obj.locationSet.exclude = item.locationSet.exclude; }
 
-    if (item.languageCodes)  { obj.languageCodes = item.languageCodes.sort(withLocale); }
-    if (item.order)          { obj.order = item.order; }
+    if (item.languageCodes)        { obj.languageCodes = item.languageCodes.sort(withLocale); }
+    if (item.order !== undefined)  { obj.order = item.order; }
 
     obj.strings = {};
 
