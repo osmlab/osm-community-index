@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.6.2",
-    "generated": "2024-02-26T16:41:57.186Z",
+    "generated": "2024-04-02T15:05:56.259Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "b5d33514520817daa8bb91ad23537391"
+    "hash": "4120635614e5bd032e8b4b22d49009a3"
   },
   "type": "FeatureCollection",
   "features": [
@@ -10585,6 +10585,94 @@
             [10.764, 53.318],
             [10.628, 53.43],
             [10.407, 53.473]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[8.27,50,10]",
+      "properties": {
+        "id": "[8.27,50,10]",
+        "area": 314.16,
+        "resources": {
+          "de-mainz-mailinglist": {
+            "id": "de-mainz-mailinglist",
+            "type": "mailinglist",
+            "account": "mainz",
+            "locationSet": {"include": [[8.27, 50, 10]]},
+            "languageCodes": ["de"],
+            "strings": {
+              "community": "OSM Mainz",
+              "communityID": "osmmainz",
+              "description": "OpenStreetMap in Mainz und Umgebung"
+            },
+            "resolved": {
+              "name": "mainz Mailing List",
+              "url": "https://lists.openstreetmap.org/listinfo/mainz",
+              "description": "OpenStreetMap in Mainz und Umgebung",
+              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/mainz\">mainz Mailing List</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/mainz\">https://lists.openstreetmap.org/listinfo/mainz</a>",
+              "descriptionHTML": "OpenStreetMap in Mainz und Umgebung"
+            }
+          },
+          "de-mainz-telegram": {
+            "id": "de-mainz-telegram",
+            "type": "telegram",
+            "account": "osm_mainz",
+            "locationSet": {"include": [[8.27, 50, 10]]},
+            "languageCodes": ["de"],
+            "strings": {
+              "community": "OSM Mainz",
+              "communityID": "osmmainz",
+              "description": "OpenStreetMap in Mainz und Umgebung"
+            },
+            "resolved": {
+              "name": "OSM Mainz Telegram",
+              "url": "https://t.me/osm_mainz",
+              "description": "OpenStreetMap in Mainz und Umgebung",
+              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/osm_mainz\">OSM Mainz Telegram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osm_mainz\">https://t.me/osm_mainz</a>",
+              "descriptionHTML": "OpenStreetMap in Mainz und Umgebung"
+            }
+          },
+          "de-mainz-wiki": {
+            "id": "de-mainz-wiki",
+            "type": "wiki",
+            "account": "Mainz",
+            "locationSet": {"include": [[8.27, 50, 10]]},
+            "languageCodes": ["de"],
+            "strings": {
+              "community": "OSM Mainz",
+              "communityID": "osmmainz",
+              "description": "OpenStreetMap in Mainz und Umgebung"
+            },
+            "resolved": {
+              "name": "OSM Mainz WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Mainz",
+              "description": "OpenStreetMap in Mainz und Umgebung",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Mainz\">OSM Mainz WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Mainz\">https://wiki.openstreetmap.org/wiki/Mainz</a>",
+              "descriptionHTML": "OpenStreetMap in Mainz und Umgebung"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [8.27, 50.09],
+            [8.188, 50.073],
+            [8.137, 50.028],
+            [8.137, 49.972],
+            [8.188, 49.927],
+            [8.27, 49.91],
+            [8.352, 49.927],
+            [8.403, 49.972],
+            [8.403, 50.028],
+            [8.352, 50.073],
+            [8.27, 50.09]
           ]
         ]
       }

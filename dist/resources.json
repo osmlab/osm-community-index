@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.6.2",
-    "generated": "2024-02-26T16:41:53.424Z",
+    "generated": "2024-04-02T15:05:53.547Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "226c8b0c2894fd943acac8a98abd1b35"
+    "hash": "8fab42293c10049820ed4857a2280cf2"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -118,6 +118,9 @@
     "de-karlsruhe-meetup": {"id": "de-karlsruhe-meetup", "type": "meetup", "locationSet": {"include": [[8.3966, 49.0149]]}, "languageCodes": ["de"], "order": 5, "strings": {"community": "OpenStreetMap Karlsruhe", "communityID": "openstreetmapkarlsruhe", "description": "Mappers and OpenStreetMap users in the Karlsruhe area", "url": "https://wiki.openstreetmap.org/wiki/Karlsruhe"}},
     "de-luneburg-wiki": {"id": "de-luneburg-wiki", "type": "wiki", "account": "L%C3%BCneburg", "locationSet": {"include": [[10.40692, 53.24871]]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Lüneburg", "communityID": "openstreetmapluneburg", "description": "{community} Wiki page"}},
     "de-mailinglist": {"id": "de-mailinglist", "type": "mailinglist", "account": "talk-de", "locationSet": {"include": ["de"]}, "languageCodes": ["de"], "order": -3, "strings": {"community": "OpenStreetMap Germany", "communityID": "openstreetmapgermany"}, "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}]},
+    "de-mainz-mailinglist": {"id": "de-mainz-mailinglist", "type": "mailinglist", "account": "mainz", "locationSet": {"include": [[8.27, 50, 10]]}, "languageCodes": ["de"], "strings": {"community": "OSM Mainz", "communityID": "osmmainz", "description": "OpenStreetMap in Mainz und Umgebung"}},
+    "de-mainz-telegram": {"id": "de-mainz-telegram", "type": "telegram", "account": "osm_mainz", "locationSet": {"include": [[8.27, 50, 10]]}, "languageCodes": ["de"], "strings": {"community": "OSM Mainz", "communityID": "osmmainz", "description": "OpenStreetMap in Mainz und Umgebung"}},
+    "de-mainz-wiki": {"id": "de-mainz-wiki", "type": "wiki", "account": "Mainz", "locationSet": {"include": [[8.27, 50, 10]]}, "languageCodes": ["de"], "strings": {"community": "OSM Mainz", "communityID": "osmmainz", "description": "OpenStreetMap in Mainz und Umgebung"}},
     "de-matrix": {"id": "de-matrix", "type": "matrix", "account": "#osm-de", "locationSet": {"include": ["de"]}, "languageCodes": ["de"], "order": 4, "strings": {"community": "OpenStreetMap Germany", "communityID": "openstreetmapgermany"}, "contacts": [{"name": "Christopher Rossbach", "email": "public.cr@protonmail.ch"}]},
     "de-munchen-wiki": {"id": "de-munchen-wiki", "type": "wiki", "account": "M%C3%BCnchen", "locationSet": {"include": [[11.57445, 48.13711]]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap München", "communityID": "openstreetmapmunchen", "description": "{community} Wiki page"}},
     "de-mv-mailinglist": {"id": "de-mv-mailinglist", "type": "mailinglist", "locationSet": {"include": ["de-mecklenburg-vorpommern.geojson"]}, "languageCodes": ["de"], "order": -3, "strings": {"community": "OpenStreetMap Mecklenburg-Vorpommern", "communityID": "openstreetmapmecklenburgvorpommern", "name": "Mecklenburg-Vorpommern Mailing List", "url": "https://lists.openstreetmap.de/listinfo/meckpomm"}, "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}]},
