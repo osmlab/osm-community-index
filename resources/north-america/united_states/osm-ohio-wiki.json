@@ -1,0 +1,16 @@
+{
+  "id": "osm-ohio-wiki",
+  "type": "wiki",
+  "account": "Ohio",
+  "locationSet": {"include": ["US-OH.geojson"]},
+  "languageCodes": ["en"],
+  "order": 5,
+  "strings": {
+    "community": "OpenStreetMap Ohio",
+    "communityID": "openstreetmapohio",
+    "description": "{community} Wiki page"
+  },
+  "contacts": [
+    {"name": "Jonathan Brier", "email": "OSMOH@brierjon.com"}
+  ]
+}

@@ -1,10 +1,10 @@
 // External
 import chalk from 'chalk';
 import fs from 'node:fs';
-import glob from 'glob';
+import { globSync } from 'glob';
 import JSON5 from 'json5';
 import jsonschema from 'jsonschema';
-import LocationConflation from '@ideditor/location-conflation';
+import LocationConflation from '@rapideditor/location-conflation';
 import localeCompare from 'locale-compare';
 import path from 'node:path';
 import geojsonArea from '@mapbox/geojson-area';
@@ -99,7 +99,7 @@ function collectFeatures() {
   let files = {};
   process.stdout.write('📦  Features: ');
 
-  glob.sync('./features/**/*', { nodir: true }).forEach(file => {
+  globSync('./features/**/*', { nodir: true }).forEach(file => {
     if (!/\.geojson$/.test(file)) {
       console.error(chalk.red(`Error - file should have a .geojson extension:`));
       console.error('  ' + chalk.yellow(file));
@@ -178,7 +178,7 @@ function collectResources(featureCollection) {
   const loco = new LocationConflation(featureCollection);
   process.stdout.write('📦  Resources: ');
 
-  glob.sync('./resources/**/*.json', { nodir: true }).forEach(file => {
+  globSync('./resources/**/*.json', { nodir: true }).forEach(file => {
     if (!/\.json$/.test(file)) {
       console.error(chalk.red(`Error - file should have a .json extension:`));
       console.error('  ' + chalk.yellow(file));
@@ -214,10 +214,10 @@ function collectResources(featureCollection) {
     let resolvedStrings;
     try {
       resolvedStrings = resolveStrings(item, _defaults);
-
       if (!resolvedStrings.name)         { throw new Error('Cannot resolve a value for name'); }
       if (!resolvedStrings.description)  { throw new Error('Cannot resolve a value for description'); }
       if (!resolvedStrings.url)          { throw new Error('Cannot resolve a value for url'); }
+
     } catch (err) {
       console.error(chalk.red(`Error - ${err.message} in:`));
       console.error('  ' + chalk.yellow(file));
@@ -234,18 +234,30 @@ function collectResources(featureCollection) {
     if (item.locationSet.include)  { obj.locationSet.include = item.locationSet.include; }
     if (item.locationSet.exclude)  { obj.locationSet.exclude = item.locationSet.exclude; }
 
-    if (item.languageCodes)  { obj.languageCodes = item.languageCodes.sort(withLocale); }
-    if (item.order)          { obj.order = item.order; }
+    if (item.languageCodes)        { obj.languageCodes = item.languageCodes.sort(withLocale); }
+    if (item.order !== undefined)  { obj.order = item.order; }
 
     obj.strings = {};
-    if (item.strings.community)            { obj.strings.community = item.strings.community; }
+
+    // If this item has a "community name" string, generate `communityID` and store it.
+    // https://github.com/osmlab/osm-community-index/issues/616
+    if (item.strings.community) {
+      const communityID = simplify(item.strings.community);
+      if (!communityID) {
+        console.error(chalk.red(`Error - Generated empty communityID in:`));
+        console.error('  ' + chalk.yellow(file));
+        process.exit(1);
+      }
+      _tstrings._communities[communityID] = item.strings.community;
+      obj.strings.community = item.strings.community;
+      obj.strings.communityID = communityID;
+    }
+
     if (item.strings.name)                 { obj.strings.name = item.strings.name; }
     if (item.strings.description)          { obj.strings.description = item.strings.description; }
     if (item.strings.extendedDescription)  { obj.strings.extendedDescription = item.strings.extendedDescription; }
     if (item.strings.signupUrl)            { obj.strings.signupUrl = item.strings.signupUrl; }
     if (item.strings.url)                  { obj.strings.url = item.strings.url; }
-
-    // obj.resolved = resolvedStrings;
 
     if (item.contacts)  { obj.contacts = item.contacts; }
     if (item.events)    { obj.events = item.events; }
@@ -268,11 +280,6 @@ function collectResources(featureCollection) {
 
     // Collect translation strings for this resource
     let translateStrings = {};
-
-    if (item.strings.community) {
-      const communityID = simplify(item.strings.community);
-      _tstrings._communities[communityID] = item.strings.community;
-    }
     if (item.strings.name)                 { translateStrings.name = item.strings.name; }
     if (item.strings.description)          { translateStrings.description = item.strings.description; }
     if (item.strings.extendedDescription)  { translateStrings.extendedDescription = item.strings.extendedDescription; }
@@ -354,7 +361,9 @@ function convertURLs(item) {
     matchUrl = url.match(/meetup.com\/([\-A-Za-z0-9_]+)\/?$/i);
   } else if (item.type === 'telegram') {
     matchUrl = url.match(/t.me\/([\-A-Za-z0-9_]+)\/?$/i);
-  } else if (item.type === 'twitter') {
+  } else if (item.type === 'threads') {
+    matchUrl = url.match(/threads.net\/@([\-A-Za-z0-9_.]+)\/?$/i);
+  } else if (item.type === 'twitter' || item.type === 'x') {
     matchUrl = url.match(/twitter.com\/([\-A-Za-z0-9_.]+)\/?$/i);
   } else if (item.type === 'youtube') {
     matchUrl = url.match(/youtube.com\/channel\/([\-A-Za-z0-9_.]+)\/?$/i);

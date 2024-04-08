@@ -33,20 +33,25 @@
         "irc",
         "linkedin",
         "mailinglist",
+        "mastodon",
         "matrix",
         "meetup",
         "newsletter",
         "osm",
         "osm-lc",
         "reddit",
+        "signal",
         "slack",
         "telegram",
+        "threads",
         "twitter",
         "url",
         "wiki",
+        "x",
         "xmpp",
         "youthmappers",
-        "youtube"
+        "youtube",
+        "zulip"
       ]
     },
 
@@ -57,7 +62,7 @@
     },
 
     "locationSet": {
-      "$comment": "See location-conflation documentation for compatible values: https://github.com/ideditor/location-conflation#readme",
+      "$comment": "See location-conflation documentation for compatible values: https://github.com/rapideditor/location-conflation#readme",
       "description": "(required) included and excluded locations for this item",
       "$ref": "#/definitions/locationSet"
     },
@@ -80,8 +85,15 @@
       "properties": {
         "community": {
           "description": "(optional) Community Name",
-          "examples": ["OSM Afghanistan"],
+          "examples": ["OpenStreetMap Afghanistan"],
           "type": "string"
+        },
+        "communityID": {
+          "description": "(generated) A unique identifier generated automatically from the Community Name string",
+          "$comment": "Only generated if community is present . See https://github.com/osmlab/osm-community-index/issues/616",
+          "examples": ["openstreetmapafghanistan"],
+          "type": "string",
+          "pattern": "^[-_.A-Za-z0-9]+$"
         },
         "name": {
           "description": "(optional) Display name for this community resource",
@@ -193,7 +205,7 @@
   "definitions": {
 
     "countryCoder": {
-      "$comment": "See country-coder documentation for compatible values: https://github.com/ideditor/country-coder#readme",
+      "$comment": "See country-coder documentation for compatible values: https://github.com/rapideditor/country-coder#readme",
       "description": "A country code (ISO 3166-1, United Nations M49, or anything recognized by country-coder)",
       "type": "string"
     },
@@ -215,7 +227,7 @@
     },
 
     "locationSet": {
-      "$comment": "See location-conflation documentation for compatible values: https://github.com/ideditor/location-conflation#readme",
+      "$comment": "See location-conflation documentation for compatible values: https://github.com/rapideditor/location-conflation#readme",
       "type": "object",
       "additionalProperties": false,
       "required": ["include"],

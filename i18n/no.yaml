@@ -5,11 +5,15 @@
     openstreetmapafrica: OpenStreetMap Afrika
     openstreetmapalba: OpenStreetMap Alba
     openstreetmapalbania: OpenStreetMap Albania
-    openstreetmapalgeria: OpenStreetMap Algerie
     openstreetmapargentina: OpenStreetMap Argentina
     openstreetmapasia: OpenStreetMap Asia
     openstreetmapaustria: OpenStreetMap Østerrike
     openstreetmapindia: OpenStreetMap India
+    openstreetmapnorway: OpenStreetMap Norge
+    openstreetmapus: OpenStreetMap USA
+  _defaults:
+    discord:
+      name: '{community} Discord'
   al-maptime-tirana:
     name: Maptime Tirana
     description: Sosiale arrangementer organisert rundt kartlegging - nybegynnere hjertelig velkomne!
@@ -20,17 +24,15 @@
     description: Forbedre OpenStreetMap i Bay Area
     extendedDescription: Denne gruppen handler om å utvide OpenStreetMap-fellesskapet her i Bay Area. Hendelsene våre er åpne for alle, fra åpen-kildekode-entusiaster, syklister, GIS-profesjonelle, geocachere, og videre. Hvem som helst og alle som er interesserte i kart, lage kart og åpne kartdata er velkommen for å bli med i gruppen vår og delta på hendelsene våre.
   be-chapter:
-    name: OpenStreetMap Belgium Local Chapter
     description: Vi hjelper med å vokse og forbedre OpenStreetMap i Belgia.
     extendedDescription: Hvis du vil bidra til å forbedre og utvide kartleggingssamfunnet i Belgia, for å gjøre enda flere gale etter kartlegging, er OpenStreetMap Belgium det rette stedet for deg!
   be-matrix:
     description: Alle kartleggere er velkomne!
-    extendedDescription: Mest snakk skjer på kanalen "OpenStreetMap Belgium". Du kan spørre hva som helst der! De andre rommene er for spesifikke emner.
   be-meetup:
     description: Virkelige møter med alle som er interessert i OpenStreetMap
     extendedDescription: Fysiske møter er fantastiske å møte andre kartleggere, stille dem spørsmål og lære mye. Spesielt nye bidragsytere er veldig velkomne
   bg-wiki:
-    description: Wikiproject side for Bulgaria
+    description: Wikiproject-side for Bulgaria
   cape-coast-youthmappers:
     name: Universitetet av Cape Coast YouthMappers
     description: 'Følg oss på Twitter: {url}'
@@ -41,8 +43,6 @@
   ch-mailinglist:
     name: OpenStreetMap Sveits e-postliste
     description: E-postliste for Sveits
-  Code-for-San-Jose-Slack:
-    name: Programmere for San Jose Slack
   czech-community:
     description: Kar portal, nettside og kontakter på OSM medlemmer i Tsjekkia
   de-berlin-mailinglist:
@@ -57,9 +57,6 @@
     description: OSM samfunnet og brukernes oppmøte Kreis Viersen og Mönchengladbach
   DF-telegram:
     extendedDescription: Bli med i fellesskapet for å lære mer om OpenStreetMap, spørre spørsmål eller delta på møtene våre. Alle er velkommen!
-  fr-35-wiki:
-    name: OpenStreetMap Rennes Wiki side
-    description: Wiki side av Rennes OSM lokal gruppe
   fr-bzh-website:
     description: Kartet som snakker bretonsk
   fr-chapter:
@@ -70,8 +67,6 @@
     description: 'Alt du trenger å vite om kartlegging i Galicia: {url}'
   Galicia-Xeoinquedos-Twitter:
     description: Følg oss på Twitter på {url}
-  geogeeks_perth_meetup:
-    name: GeoGeeks Perth Oppmøte
   GeoPhilly:
     name: GeoPhilly
     description: Oppmøte for kartentusiaster i Philadelphia-området
@@ -81,19 +76,12 @@
   MapColabora-mailinglist:
     name: Mapeado Colaborativo / Geoinquietos Zaragoza
     description: Mapeado Colaborativo / Geoinquietos Zaragoza e-postliste
-  MapColabora-meetup:
-    name: Mapeado Colaborativo / Geoinquietos Zaragoza
-    description: Mapeado Colaborativo / Geoinquietos Zaragoza oppmøte-side
   MapColabora-twitter:
     name: Mapeado Colaborativo / Geoinquietos Zaragoza
     description: Mapeado Colaborativo / Geoinquietos Zaragoza Twitter-konto
   MappingWR:
     name: MappingWR
     description: Gjør lav-karbonutslipps ruter rundt Waterloo Region enkle å finne.
-  Maptime-Bogota:
-    name: Maptime Bogotá
-    description: Vi er en gruppe kartleggere interessert i kartlegging på OpenStreetMap rundt Bogotá.
-    extendedDescription: Lær å samle data utendørs og digitalisere det på OpenStreetMap. Det er ikke nødvendig å ha tidligere erfaring! Du trenger bare lysten til å bidra, lære og ha det gøy.
   Maptime-ME-meetup:
     name: MaptimeME
     description: Kartleggere og OpenStreetMap-brukere, rundt Portland, ME
@@ -113,22 +101,12 @@
   OpenCleveland-meetup:
     name: Open Cleveland
     description: Forbedre OpenStreetMap i Cleveland området
-  OSM-AR-forum:
-    extendedDescription: Ideelt for lange eller viktige diskusjoner. Treg responstid.
-  OSM-AR-irc:
-    extendedDescription: Du kan kanskje finne den mest nerdete brukeren i fellesskapet.
-  OSM-AR-mailinglist:
-    description: Historisk postliste. Nesten ubrukt i dag.
-  OSM-AR-telegram:
-    extendedDescription: De mest aktive kanalene i fellesskapet, ideelt for å chatte og å få svar på spørsmålene dine veldig raskt. Alle er velkomne!
   OSM-AR-twitter:
     extendedDescription: Nyheter fra det lokale fellesskapet og OpenStreetMap generelt.
   OSM-Boston:
     name: OpenStreetMap Boston
     description: Kartleggere og OpenStreetMap-brukere i Boston-området
     extendedDescription: OpenStreetMap er det gratise og åpne, wiki-aktige kartet over verden, med flere hundre tusen bidrag hver dag fra folk som deg. Å redigere kartet er enkelt, og morsomt! Bli med oss både innendørs og utendørs i å lage det beste kartet i Boston-området og resten av verden!
-  OSM-CA-Slack:
-    description: Alle er velkomne! Registrer deg på {signupUrl}.
   OSM-Central-Salish-Sea:
     name: OpenStreetMap Central Salish Sea
     description: Kartleggere og OpenStreetMap-brukere, rundt Mount Vernon, WA
@@ -136,8 +114,6 @@
   OSM-Chattanooga:
     name: OSM Chattanooga
     description: OpenStreetMap-brukergruppen for Chattanooga
-  OSM-CO:
-    description: Nyheter fra OpenStreetMap Colombia-fellesskapet og OSMCo Foundation
   OSM-Colorado:
     name: OpenStreetMap Colorado
     description: Kartleggere og OpenStreetMap-brukere i Colorado, USA
@@ -192,8 +168,6 @@
     name: Incontro Mappatori Romani
     description: Forbedre OpenStreetMap i Romani-området
     extendedDescription: Vi har som mål å være en ressurs der folk kan diskutere og dele kunnskap om å bruke geografiske datasett, spesielt OpenStreetMap, og åpne geospatial programvare som behandler, endrer og viser geografiske data, og støtter bruken i Lazio.
-  osm-se:
-    name: OpenStreetMap.se
   OSM-Seattle:
     name: OpenStreetMap Seattle
     description: Kartleggere og OpenStreetMap-brukere i Seattle-området
@@ -230,10 +204,30 @@
   PHXGeo-twitter:
     name: PHXGeo Twitter
     description: Følg oss på Twitter via {url}
+  pt-wiki:
+    description: WikiProject med informasjon og koordineringsretningslinjer for kartlegging i Portugal.
+  rs-discourse:
+    description: Et forum for å diskutere OpenStreetMap i Serbia
+  rs-gitlab:
+    description: Samling av prosjekter relatert til OSM Serbia på GitLab
+  rs-osm:
+    description: Plattformen for informasjon om OpenStreetMap i Serbia 
   RS-telegram:
     extendedDescription: Bli med i fellesskapet for å lære mer om OpenStreetMap, spørre spørsmål eller delta på møtene våre. Alle er velkommen!
-  sk-freemap:
-    name: OpenStreetMap nettsted Freemap Slovakia
+  rs-wiki:
+    description: Wikiproject-side for Serbia
+  si-github:
+    description: '{community} GitHub'
+  si-ljubljana-wiki:
+    description: '{community} Wiki-side'
+  si-wiki:
+    description: '{community} Wiki-side'
+  talk-au:
+    description: Sted for australske kartleggere å chatte
+  talk-nz:
+    description: New Zealands OSM-samfunnsprat
+  tz-website:
+    description: Tilbyr OSM-tjenester og informasjon til lokalsamfunnet i Tanzania
   ua-github:
     description: OpenStreetMap Ukraina GitHub
   ua-osm:
@@ -241,12 +235,10 @@
   uk-london-twitter:
     name: OpenStreetMap London på Twitter
     description: 'OpenStreetMap London på Twitter: {url}'
-  Western-Slope-facebook:
-    name: Western Slope OSM Facebook
-    description: Kartleggere og OpenStreetMap brukere rundt Grand Junction, CO
-  Western-Slope-meetup:
-    name: Western Slope OSM oppmøte
-    description: Kartleggere og OpenStreetMap brukere rundt Grand Junction, CO
+  uk-london-wiki:
+    description: '{community} Wiki-side'
+  uk-loomio:
+    name: OpenStreetMap UK på Loomio
   ym-Abia-State-University:
     name: AbsuMappersTeam
   ym-Dhaka-University:

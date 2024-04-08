@@ -1,0 +1,17 @@
+{
+  "id": "osm-west-bengal-xmpp",
+  "type": "xmpp",
+  "locationSet": {"include": ["india_westbengal.geojson"]},
+  "strings": {
+    "community": "OpenStreetMap West Bengal",
+    "communityID": "openstreetmapwestbengal",
+    "name": "OpenStreetMap West Bengal XMPP",
+    "description": "Join our XMPP room: {url}",
+    "extendedDescription": "XMPP room for OSM West Bengal.",
+    "url": "https://xmpp.link/#osmbengal@conference.conversations.im?join"
+  },
+  "contacts": [
+    {"name": "Projjal", "email": "moitraprojjal@disroot.org"},
+    {"name": "NLBRT", "email": "contact.crezyt@gmail.com"}
+  ]
+}

@@ -4,8 +4,10 @@
   "account": "talk-at",
   "locationSet": {"include": ["at"]},
   "languageCodes": ["de"],
-  "order": -3,
-  "strings": {"community": "OpenStreetMap Austria"},
+  "strings": {
+    "community": "OpenStreetMap Austria",
+    "communityID": "openstreetmapaustria"
+  },
   "contacts": [
     {"name": "AT community", "email": "info@openstreetmap.at"}
   ]

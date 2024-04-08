@@ -1,0 +1,16 @@
+{
+  "id": "OSM-Mastodon",
+  "type": "mastodon",
+  "account": "openstreetmap",
+  "locationSet": {"include": ["001"]},
+  "languageCodes": ["en"],
+  "order": 6,
+  "strings": {
+    "community": "OpenStreetMap",
+    "communityID": "openstreetmap",
+    "url": "https://en.osm.town/@openstreetmap"
+  },
+  "contacts": [
+    {"name": "Harry Wood", "email": "mail@harrywood.co.uk"}
+  ]
+}

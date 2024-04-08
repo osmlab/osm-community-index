@@ -5,7 +5,10 @@
   "locationSet": {"include": ["cm"]},
   "languageCodes": ["en", "fr"],
   "order": 1,
-  "strings": {"community": "OpenStreetMap Cameroon"},
+  "strings": {
+    "community": "OpenStreetMap Cameroon",
+    "communityID": "openstreetmapcameroon"
+  },
   "contacts": [
     {"name": "OSM Cameroon", "email": "osmcameroun@gmail.com"}
   ]

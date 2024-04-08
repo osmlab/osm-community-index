@@ -3,7 +3,10 @@
   "type": "telegram",
   "account": "OSMAfrica",
   "locationSet": {"include": ["002"]},
-  "strings": {"community": "OpenStreetMap Africa"},
+  "strings": {
+    "community": "OpenStreetMap Africa",
+    "communityID": "openstreetmapafrica"
+  },
   "contacts": [
     {"name": "OSM Africa", "email": "info@openstreetmap.africa"}
   ]

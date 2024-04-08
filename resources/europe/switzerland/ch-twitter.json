@@ -4,7 +4,10 @@
   "account": "SwissOSM",
   "locationSet": {"include": ["ch"]},
   "languageCodes": ["de", "en", "fr", "it"],
-  "strings": {"community": "OpenStreetMap Switzerland"},
+  "strings": {
+    "community": "OpenStreetMap Switzerland",
+    "communityID": "openstreetmapswitzerland"
+  },
   "contacts": [
     {
       "name": "Swiss OpenStreetMap Association",

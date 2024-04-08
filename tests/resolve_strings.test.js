@@ -1,4 +1,5 @@
-import { test } from 'tap';
+import { test } from 'node:test';
+import { strict as assert } from 'node:assert';
 import { resolveStrings } from '../index.mjs';
 
 const item = {
@@ -25,28 +26,27 @@ const defaults = {
 };
 
 
-test('resolveStrings', t => {
+test('resolveStrings', async t => {
 
-  t.test('basic', t => {
+  await t.test('basic', t => {
     const resolved = resolveStrings(item, defaults);
-    t.type(resolved, 'object');
+    assert.ok(resolved instanceof Object);
 
-    t.equal(resolved.name, 'Override Name');
-    t.equal(resolved.url, 'https://lists.openstreetmap.org/listinfo/talk-ru');
-    t.equal(resolved.signupUrl, undefined);
-    t.equal(resolved.description, 'The official mailing list for OpenStreetMap Russia');
-    t.equal(resolved.extendedDescription, 'Fun times for all at https://lists.openstreetmap.org/listinfo/talk-ru');
+    assert.equal(resolved.name, 'Override Name');
+    assert.equal(resolved.url, 'https://lists.openstreetmap.org/listinfo/talk-ru');
+    assert.equal(resolved.signupUrl, undefined);
+    assert.equal(resolved.description, 'The official mailing list for OpenStreetMap Russia');
+    assert.equal(resolved.extendedDescription, 'Fun times for all at https://lists.openstreetmap.org/listinfo/talk-ru');
 
-    t.equal(resolved.nameHTML, '<a target="_blank" href="https://lists.openstreetmap.org/listinfo/talk-ru">Override Name</a>');
-    t.equal(resolved.urlHTML, '<a target="_blank" href="https://lists.openstreetmap.org/listinfo/talk-ru">https://lists.openstreetmap.org/listinfo/talk-ru</a>');
-    t.equal(resolved.signupUrlHTML, undefined);
-    t.equal(resolved.descriptionHTML, 'The official mailing list for OpenStreetMap Russia');
-    t.equal(resolved.extendedDescriptionHTML, 'Fun times for all at <a target="_blank" href="https://lists.openstreetmap.org/listinfo/talk-ru">https://lists.openstreetmap.org/listinfo/talk-ru</a>');
-    t.end();
+    assert.equal(resolved.nameHTML, '<a target="_blank" href="https://lists.openstreetmap.org/listinfo/talk-ru">Override Name</a>');
+    assert.equal(resolved.urlHTML, '<a target="_blank" href="https://lists.openstreetmap.org/listinfo/talk-ru">https://lists.openstreetmap.org/listinfo/talk-ru</a>');
+    assert.equal(resolved.signupUrlHTML, undefined);
+    assert.equal(resolved.descriptionHTML, 'The official mailing list for OpenStreetMap Russia');
+    assert.equal(resolved.extendedDescriptionHTML, 'Fun times for all at <a target="_blank" href="https://lists.openstreetmap.org/listinfo/talk-ru">https://lists.openstreetmap.org/listinfo/talk-ru</a>');
   });
 
 
-  t.test('localized', t => {
+  await t.test('localized', t => {
     const stringids = {
       'talk-ru.name': 'переопределить имя',
       '_communities.openstreetmaprussia': 'OpenStreetMap Россия',
@@ -57,24 +57,23 @@ test('resolveStrings', t => {
     const localizer = (id) => stringids[id];
 
     const resolved = resolveStrings(item, defaults, localizer);
-    t.type(resolved, 'object');
+    assert.ok(resolved instanceof Object);
 
-    t.equal(resolved.name, 'переопределить имя');
-    t.equal(resolved.url, 'https://lists.openstreetmap.org/listinfo/talk-ru');
-    t.equal(resolved.signupUrl, undefined);
-    t.equal(resolved.description, 'Официальный список рассылки для OpenStreetMap Россия');
-    t.equal(resolved.extendedDescription, 'Время развлечений для всех на https://lists.openstreetmap.org/listinfo/talk-ru');
+    assert.equal(resolved.name, 'переопределить имя');
+    assert.equal(resolved.url, 'https://lists.openstreetmap.org/listinfo/talk-ru');
+    assert.equal(resolved.signupUrl, undefined);
+    assert.equal(resolved.description, 'Официальный список рассылки для OpenStreetMap Россия');
+    assert.equal(resolved.extendedDescription, 'Время развлечений для всех на https://lists.openstreetmap.org/listinfo/talk-ru');
 
-    t.equal(resolved.nameHTML, '<a target="_blank" href="https://lists.openstreetmap.org/listinfo/talk-ru">переопределить имя</a>');
-    t.equal(resolved.urlHTML, '<a target="_blank" href="https://lists.openstreetmap.org/listinfo/talk-ru">https://lists.openstreetmap.org/listinfo/talk-ru</a>');
-    t.equal(resolved.signupUrlHTML, undefined);
-    t.equal(resolved.descriptionHTML, 'Официальный список рассылки для OpenStreetMap Россия');
-    t.equal(resolved.extendedDescriptionHTML, 'Время развлечений для всех на <a target="_blank" href="https://lists.openstreetmap.org/listinfo/talk-ru">https://lists.openstreetmap.org/listinfo/talk-ru</a>');
-    t.end();
+    assert.equal(resolved.nameHTML, '<a target="_blank" href="https://lists.openstreetmap.org/listinfo/talk-ru">переопределить имя</a>');
+    assert.equal(resolved.urlHTML, '<a target="_blank" href="https://lists.openstreetmap.org/listinfo/talk-ru">https://lists.openstreetmap.org/listinfo/talk-ru</a>');
+    assert.equal(resolved.signupUrlHTML, undefined);
+    assert.equal(resolved.descriptionHTML, 'Официальный список рассылки для OpenStreetMap Россия');
+    assert.equal(resolved.extendedDescriptionHTML, 'Время развлечений для всех на <a target="_blank" href="https://lists.openstreetmap.org/listinfo/talk-ru">https://lists.openstreetmap.org/listinfo/talk-ru</a>');
   });
 
 
-  t.test('Throws if an expected replacement token cannot be resolved', t => {
+  await t.test('Throws if an expected replacement token cannot be resolved', t => {
     const missing = {
       id: 'talk-ru',
       type: 'mailinglist',
@@ -82,12 +81,11 @@ test('resolveStrings', t => {
       strings: { community: 'OpenStreetMap Russia' }
     };
 
-    t.throws(() => resolveStrings(missing, defaults), /cannot resolve token:/i);
-    t.end();
+    assert.throws(() => resolveStrings(missing, defaults), /cannot resolve token:/i);
   });
 
 
-  t.test('Throws if any extra replacement tokens remain unresolved', t => {
+  await t.test('Throws if any extra replacement tokens remain unresolved', t => {
     const extra = {
       id: 'talk-ru',
       type: 'mailinglist',
@@ -98,12 +96,11 @@ test('resolveStrings', t => {
       }
     };
 
-    t.throws(() => resolveStrings(extra, defaults), /cannot resolve tokens:/i);
-    t.end();
+    assert.throws(() => resolveStrings(extra, defaults), /cannot resolve tokens:/i);
   });
 
 
-  t.test('Linkify subreddits in description, extendedDescription', t => {
+  await t.test('Linkify subreddits in description, extendedDescription', t => {
     const subreddit = {
       id: 'OSM-Reddit',
       type: 'reddit',
@@ -116,11 +113,9 @@ test('resolveStrings', t => {
     };
 
     const resolved = resolveStrings(subreddit, defaults);
-    t.type(resolved, 'object');
-    t.equal(resolved.descriptionHTML, '<a target="_blank" href="https://www.reddit.com/r/openstreetmap">/r/openstreetmap</a> is a great place to learn more about OpenStreetMap.');
-    t.equal(resolved.extendedDescriptionHTML, 'Fun times for all at <a target="_blank" href="https://www.reddit.com/r/openstreetmap">/r/openstreetmap</a>');
-    t.end();
+    assert.ok(resolved instanceof Object);
+    assert.equal(resolved.descriptionHTML, '<a target="_blank" href="https://www.reddit.com/r/openstreetmap">/r/openstreetmap</a> is a great place to learn more about OpenStreetMap.');
+    assert.equal(resolved.extendedDescriptionHTML, 'Fun times for all at <a target="_blank" href="https://www.reddit.com/r/openstreetmap">/r/openstreetmap</a>');
   });
 
-  t.end();
 });
