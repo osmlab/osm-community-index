@@ -5,7 +5,10 @@
   "locationSet": {"include": ["piemonte.geojson"]},
   "languageCodes": ["it"],
   "order": 2,
-  "strings": {"community": "OpenStreetMap Italy-Piemonte"},
+  "strings": {
+    "community": "OpenStreetMap Italy-Piemonte",
+    "communityID": "openstreetmapitalypiemonte"
+  },
   "contacts": [
     {"name": "Marco Brancolini", "email": "mbranco2@gmail.com"},
     {"name": "Andrea Musuruane", "email": "musuruan@gmail.com"}

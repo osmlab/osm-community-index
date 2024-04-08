@@ -4,8 +4,11 @@
   "account": "talk-br",
   "locationSet": {"include": ["br"]},
   "languageCodes": ["pt"],
-  "order": 5,
-  "strings": {"community": "OpenStreetMap Brasil"},
+  "order": -3,
+  "strings": {
+    "community": "OpenStreetMap Brasil",
+    "communityID": "openstreetmapbrasil"
+  },
   "contacts": [
     {"name": "Arlindo Pereira", "email": "nighto@gmail.com"}
   ]

@@ -8,7 +8,6 @@ sk:
     openstreetmapafrica: OpenStreetMap Afrika
     openstreetmapalba: OpenStreetMap Alba
     openstreetmapalbania: OpenStreetMap Albánsko
-    openstreetmapalgeria: OpenStreetMap Alžírsko
     openstreetmapargentina: OpenStreetMap Argentína
     openstreetmapasia: OpenStreetMap Ázia
     openstreetmapasti: OpenStreetMap Asti
@@ -62,7 +61,6 @@ sk:
     openstreetmapgeorgia: OpenStreetMap Gruzínsko
     openstreetmapgermany: OpenStreetMap Nemecko
     openstreetmapghana: OpenStreetMap Ghana
-    openstreetmapgraz: OpenStreetMap Graz
     openstreetmapgreece: OpenStreetMap Grécko
     openstreetmapguatemala: OpenStreetMap Guatemala
     openstreetmapguinea: OpenStreetMap Guinea
@@ -111,7 +109,6 @@ sk:
     openstreetmapmichigan: OpenStreetMap Michigan
     openstreetmapmoldova: OpenStreetMap Moldavsko
     openstreetmapmongolia: OpenStreetMap Mongolsko
-    openstreetmapmontenegro: OpenStreetMap Čierna Hora
     openstreetmapmorocco: OpenStreetMap Maroko
     openstreetmapmyanmar: OpenStreetMap Mjanmarsko
     openstreetmapnepal: OpenStreetMap Nepál
@@ -119,7 +116,6 @@ sk:
     openstreetmapnicaragua: OpenStreetMap Nikaragua
     openstreetmapniger: OpenStreetMap Niger
     openstreetmapnigeria: OpenStreetMap Nigéria
-    openstreetmapnorthmacedonia: OpenStreetMap Severné Macedónsko
     openstreetmapnorway: OpenStreetMap Nórsko
     openstreetmapottawa: OpenStreetMap Ottawa
     openstreetmappakistan: OpenStreetMap Pakistan
@@ -174,16 +170,12 @@ sk:
       name: 'Discord {community} '
       description: Skontaktujte sa s inými mapermi cez Discord
       url: https://discord.gg/{account}
-    discourse:
-      name: '{community} na Discourse'
     facebook:
       name: '{community} na Facebooku'
       description: Pridajte se k našej komunite na Facebooku.
-      url: https://facebook.com/{account}
     forum:
       name: 'Fórum {community}'
       description: Oficiálne fórum {community}
-      url: https://forum.openstreetmap.org/viewforum.php?id={account}
     github:
       name: '{community} na GitHube'
       url: https://github.com/{account}
@@ -194,12 +186,10 @@ sk:
       name: '{community}'
     irc:
       name: '{community} na IRC'
-      description: 'Pripojte sa k #{account} na irc.oftc.net (port 6667)'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} na LinkedIn'
       description: Pridajte sa k našej komunite na LinkedIn
-      url: https://linkedin.com/company/{account}
     mailinglist:
       name: 'Mailovacia skupina {account}'
       description: Oficuálna mailovacia skupina pre {community}
@@ -210,7 +200,6 @@ sk:
       url: https://matrix.to/#/{account}:matrix.org
     meetup:
       name: 'Meetup {community}'
-      url: https://meetup.com/{account}
     osm:
       name: '{community}'
     osm-lc:
@@ -225,8 +214,6 @@ sk:
       description: Pridajte sa ku komunitnému chatu na Telegramu
       url: https://t.me/{account}
     twitter:
-      name: '{community} na Twitteri'
-      description: Sledujte nás na Twitteri
       url: https://twitter.com/{account}
     wiki:
       name: 'Wikiprojekt {community}'
@@ -244,15 +231,12 @@ sk:
     description: Spoločenské podujatia organizované popri mapovaní - Začiatočníci obzvlášť vítaní!
   at-matrix:
     description: Neoficiálny Martix kanál pre Rakúsko (v nemčine)
-  az-facebook:
-    name: 'OpenStreetMap Azerbajdžan '
   Bay-Area-OpenStreetMappers:
     name: OpenStreetMaperi v Bay Area
     description: Vylepšite OpenStreetMap v Bay Area
   bd-facebook:
     extendedDescription: 'Mapujete v Bangladéši? Máte otázky, chcete sa spojiť s miestnou komunitou? Pridajte sa k nám na adrese {url}. Všetci sú vítaní! '
   be-chapter:
-    name: Lokálna časť OpenStreetMaps Belgicko
     description: 'Pomáhame OpenStreetMap v Belgicku rásť a zlepšovať sa. '
   be-irc:
     extendedDescription: 'Pripojte sa k #{account} na irc.oftc.net (port 6667), chat je premostený s Matrix kanálom. '
@@ -274,8 +258,6 @@ sk:
   OSM-Boston:
     name: OpenStreetMap Boston
     description: Maperi a užívatelia OpenStreetMap v oblasti Bostonu
-  OSM-CA-Slack:
-    description: Všetci sú vítaní! Zaregistrujte se na {signupUrl}.
   OSM-Facebook:
     description: Ak chcete novinky a updaty o OpenStreetMap, lajkujte nás na Facebooku
   osm-ni:
@@ -283,10 +265,7 @@ sk:
   OSM-TH-CNX-meetup:
     extendedDescription: Členovia OpenStreetMap komunity sa stretávajú každých pár mesiacov v meste Chiang Mai. Spojte sa a zistite {url} kedy je naplánované ďalšie stretnutie
   sk-freemap:
-    name: Webstránky OpenStreetMap Freemap Slovensko
     description: Pokročilý mapový portál OpenStreetMap pre Slovensko a okolité regióny
-  sk-freemap-wiki:
-    description: OpenStreetMap wiki stránky slovenských mapperov a komunity
   uk-london-twitter:
     name: OpenStreetMap Londýn na Twitteri
   ym-Abia-State-University:

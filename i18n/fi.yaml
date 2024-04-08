@@ -4,7 +4,6 @@ fi:
     openstreetmapafghanistan: OpenStreetMap Afganistan
     openstreetmapafrica: OpenStreetMap Afrikka
     openstreetmapalbania: OpenStreetMap Albania
-    openstreetmapalgeria: OpenStreetMap Algeria
     openstreetmapargentina: OpenStreetMap Argentiina
     openstreetmapasia: OpenStreetMap Aasia
     openstreetmapaustria: OpenStreetMap Itävalta
@@ -52,7 +51,11 @@ fi:
     openstreetmapitaly: OpenStreetMap Italia
     openstreetmapjapan: OpenStreetMap Japani
     openstreetmapkorea: OpenStreetMap Korea
+    openstreetmaplatinamerica: OpenStreetMap Latinalainen Amerikka
+    openstreetmaplithuania: OpenStreetMap Liettua
+    openstreetmaplondon: OpenStreetMap Lontoo
     openstreetmapmexico: OpenStreetMap Meksiko
+    openstreetmapnetherlands: OpenStreetMap Alankomaat
     openstreetmapnorway: OpenStreetMap Norja
     openstreetmappoland: OpenStreetMap Puola
     openstreetmapportugal: OpenStreetMap Portugali
@@ -65,6 +68,8 @@ fi:
     openstreetmapturkey: OpenStreetMap Turkki
     openstreetmapus: OpenStreetMap Yhdysvallat
   _defaults:
+    facebook:
+      description: Liity yhteisöömme Facebookissa
     linkedin:
       description: Liity yhteisöömme LinkedIn:ssä
   OSM-Facebook:
@@ -73,8 +78,6 @@ fi:
     description: Hanki vastauksia kysymyksiisi OpenStreetMapin yhteisön ylläpitämällä vastausfoorumilla.
   OSM-India-facebook:
     description: Paranna Intian OpenStreetMapia
-  osm-se:
-    description: OSM-palvelut ja -neuvonta Ruotsin paikallisyhteisölle
   OSMF:
     name: OpenStreetMap-säätiö
     description: OSMF on Iso-Britanniasta toimiva voittoa tavoittelematon, OpenStreetMapin toimintaa edistävä säätiö

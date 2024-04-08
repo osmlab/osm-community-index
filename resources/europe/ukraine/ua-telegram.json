@@ -4,6 +4,9 @@
   "account": "osmUA",
   "locationSet": {"include": ["ukraine.geojson"]},
   "languageCodes": ["en", "ru", "uk"],
-  "strings": {"community": "OpenStreetMap Ukraine"},
+  "strings": {
+    "community": "OpenStreetMap Ukraine",
+    "communityID": "openstreetmapukraine"
+  },
   "contacts": [{"name": "Andrii Holovin", "email": "andygol@ua.fm"}]
 }

@@ -19,19 +19,319 @@ _Breaking changes, which may affect downstream projects, are marked with a_ ⚠�
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
-# 5.3.0
-##### unreleased
-* Support new resource type `newsletter`
-* Added
-  * OpenStreetmap Belgium quarterly newsletter ([#549])
+# 5.6.2
+##### 2024-Feb-26
+* Add Armenia Wiki, Singapore Wiki and Telegram ([#693])
+* Remove nonexistant `talk-al` mailing list ([#695])
+* Add Iraq Telegram ([#696])
+* Add West Bengal, Dehli, Indian XMPP resources ([#697])
+* Update Portugal and Brazil sort orders, added Brazil wiki ([#698])
+* Remove `help.osm.org`, as it will be readonly from March 1 ([#700])
 
+[#693]: https://github.com/osmlab/osm-community-index/issues/693
+[#695]: https://github.com/osmlab/osm-community-index/issues/695
+[#696]: https://github.com/osmlab/osm-community-index/issues/696
+[#697]: https://github.com/osmlab/osm-community-index/issues/697
+[#698]: https://github.com/osmlab/osm-community-index/issues/698
+[#700]: https://github.com/osmlab/osm-community-index/issues/700
+
+
+# 5.6.1
+##### 2023-Dec-21
+* Bump reqired node to 18, swap `tap` for `node:test`
+* Added:
+  * Catalan community Twitch channel ([#680])
+  * Bengaluru commmunity resources ([#682])
+  * London Mastodon ([#683])
+  * India Mastodon ([#685])
+  * Canada Matrix ([#686])
+  * India forum ([#687])
+  * Montenegro Telegram ([#690])
+  * Portugal community Discord ([#692])
+* Updated:
+  * Specify language for MapRVA ([#679])
+  * Fix city locations in Poland (Warszawa & Góra Kalwaria were swapped) ([#684])
+* Removed:
+  * Discontinued @osm_at Twitter account ([#689])
+
+[#679]: https://github.com/osmlab/osm-community-index/issues/679
+[#680]: https://github.com/osmlab/osm-community-index/issues/680
+[#682]: https://github.com/osmlab/osm-community-index/issues/682
+[#683]: https://github.com/osmlab/osm-community-index/issues/683
+[#684]: https://github.com/osmlab/osm-community-index/issues/684
+[#685]: https://github.com/osmlab/osm-community-index/issues/685
+[#686]: https://github.com/osmlab/osm-community-index/issues/686
+[#687]: https://github.com/osmlab/osm-community-index/issues/687
+[#689]: https://github.com/osmlab/osm-community-index/issues/689
+[#690]: https://github.com/osmlab/osm-community-index/issues/690
+[#692]: https://github.com/osmlab/osm-community-index/issues/692
+
+
+# 5.6.0
+##### 2023-Aug-27
+* Rebrand Twitter to 𝕏, support both `twitter` and `x` interchangeably ([#678])
+* Support new resource type `threads` ([#677])
+* Updated:
+  * OSM mastodon should be higher ([#675])
+  * IRC should list port 6697 ([#676])
+  * Use square icons for consistency, where available
+
+[#675]: https://github.com/osmlab/osm-community-index/issues/675
+[#676]: https://github.com/osmlab/osm-community-index/issues/676
+[#677]: https://github.com/osmlab/osm-community-index/issues/677
+[#678]: https://github.com/osmlab/osm-community-index/issues/678
+
+
+# 5.5.5
+##### 2023-Aug-17
+* Added:
+  * Add MapRVA Mastadon ([#671], [#673])
+* Updated:
+  * Update osm.ch to type `url` ([#669])
+  * Update Swiss Mailing List URL ([#668])
+  * Use English language for source strings ([#576], [#577])
+* Deleted:
+  * Remove defunct OSM Canada Slack ([#661])
+  * Remove defunct YouthMappers Montgomery College ([#674])
+
+[#576]: https://github.com/osmlab/osm-community-index/issues/576
+[#577]: https://github.com/osmlab/osm-community-index/issues/577
+[#661]: https://github.com/osmlab/osm-community-index/issues/661
+[#668]: https://github.com/osmlab/osm-community-index/issues/668
+[#669]: https://github.com/osmlab/osm-community-index/issues/669
+[#671]: https://github.com/osmlab/osm-community-index/issues/671
+[#673]: https://github.com/osmlab/osm-community-index/issues/673
+[#674]: https://github.com/osmlab/osm-community-index/issues/674
+
+
+# 5.5.4
+##### 2023-Jul-12
+* Bump dependencies, including location-conflation v1.2.1 / country-coder v5.2.1
+* Added:
+  * Swiss OSM local chapter ([#664])
+* Updated:
+  * Rename Code for San José to Open Source San José ([#666], [#667])
+* Deleted:
+  * Sacred Heart Junior College YouthMappers ([#665])
+
+[#664]: https://github.com/osmlab/osm-community-index/issues/664
+[#665]: https://github.com/osmlab/osm-community-index/issues/665
+[#666]: https://github.com/osmlab/osm-community-index/issues/666
+[#667]: https://github.com/osmlab/osm-community-index/issues/667
+
+
+# 5.5.3
+##### 2023-Jun-20
+* Added:
+  * Ohio community wiki ([#660])
+  * Brazilian Discourse and Ceará state telegram ([#659])
+* Deleted:
+  * Removed `/r/openstreetmap` subreddit ([#662])
+
+[#659]: https://github.com/osmlab/osm-community-index/issues/659
+[#660]: https://github.com/osmlab/osm-community-index/issues/660
+[#662]: https://github.com/osmlab/osm-community-index/issues/662
+
+
+# 5.5.2
+##### 2023-Apr-27
+* Updated:
+  * Fix community name for kosovo-flossk: Kosovo, not Slovakia ([#657])
+  * Remove some more instances where resource had "Discourse" in its name ([#656])
+
+[#656]: https://github.com/osmlab/osm-community-index/issues/656
+[#657]: https://github.com/osmlab/osm-community-index/issues/657
+
+
+# 5.5.1
+##### 2023-Apr-20
+* Added:
+  * Belize Telegram ([#639])
+  * Portugal Discourse ([#655])
+  * Aachen region matrix and wiki ([#651])
+  * Restore OSM Turkey Telegram ([#650])
+  * Catalan Countries Mastodon ([#647])
+  * Malaysia Telegram ([#645])
+* Updated:
+  * Rename "Discourse" -> "Commmunity Forum" ([#656])
+  * Fix boundaries for Torino Telegram ([#642])
+  * Update Pakistan Facebook ([#652])
+  * Update Code for San José Slack and Discord ([#654])
+  * Sort Poland Discourse as top result ([#643])
+  * Use https for resources and documentation. ([#638])
+* Deleted:
+  * OSM MV Twitter ([#653])
+  * Belgium mailinglist ([#646])
+
+[#638]: https://github.com/osmlab/osm-community-index/issues/638
+[#639]: https://github.com/osmlab/osm-community-index/issues/639
+[#642]: https://github.com/osmlab/osm-community-index/issues/642
+[#643]: https://github.com/osmlab/osm-community-index/issues/643
+[#645]: https://github.com/osmlab/osm-community-index/issues/645
+[#646]: https://github.com/osmlab/osm-community-index/issues/646
+[#647]: https://github.com/osmlab/osm-community-index/issues/647
+[#650]: https://github.com/osmlab/osm-community-index/issues/650
+[#651]: https://github.com/osmlab/osm-community-index/issues/651
+[#652]: https://github.com/osmlab/osm-community-index/issues/652
+[#653]: https://github.com/osmlab/osm-community-index/issues/653
+[#654]: https://github.com/osmlab/osm-community-index/issues/654
+[#655]: https://github.com/osmlab/osm-community-index/issues/655
+[#656]: https://github.com/osmlab/osm-community-index/issues/656
+
+
+# 5.5.0
+##### 2023-Jan-13
+* Support new resource type `zulip` ([#607])
+* Added:
+  * Armenia Telegram ([#632])
+  * Multiple resources for Korea ([#634])
+  * Norway Discourse ([#630])
+  * Turin Telegram ([#626])
+  * Multiple resources for Latvia ([#607])
+  * OpenStreetMap Mastodon ([#550], [#166])
+* Updated:
+  * Fix link to new website for OSM Italia ([#636])
+  * Cleanup redundant text ([#635])
+  * Fix invite link for OSM Japan Slack ([#631])
+* Deleted:
+  * MapColabora meetup shutting down ([#637])
+
+[#166]: https://github.com/osmlab/osm-community-index/issues/166
+[#550]: https://github.com/osmlab/osm-community-index/issues/550
+[#607]: https://github.com/osmlab/osm-community-index/issues/607
+[#626]: https://github.com/osmlab/osm-community-index/issues/626
+[#630]: https://github.com/osmlab/osm-community-index/issues/630
+[#631]: https://github.com/osmlab/osm-community-index/issues/631
+[#632]: https://github.com/osmlab/osm-community-index/issues/632
+[#634]: https://github.com/osmlab/osm-community-index/issues/634
+[#635]: https://github.com/osmlab/osm-community-index/issues/635
+[#636]: https://github.com/osmlab/osm-community-index/issues/636
+[#637]: https://github.com/osmlab/osm-community-index/issues/637
+
+
+# 5.4.0
+##### 2022-Dec-12
+* Support new resource types `mastodon` ([#605]) and `signal` ([#622])
+* If `community` name string is present, also include generated `communityID` translation key ([#616])
+* Update to location-conflation v1.1 / country-coder v5.1 (and update other dependencies)
+* Added:
+  * Bulgaria Discourse ([#598])
+  * Oceania Discourse ([#599])
+  * Geogeeks Perth ([#600])
+  * Multiple Slovenian resources ([#601], [#602], [#603])
+  * Belgium Mastodon ([#605])
+  * United States Discourse
+  * Austria Mastodon ([#606])
+  * Denmark Discourse ([#615])
+  * Poland Discourse ([#619])
+  * China Matrix ([#608])
+  * South Africa Discourse ([#629])
+* Updated:
+  * Update Czech resource links and sorting ([#604])
+  * Fix Ireland Telegram invite link ([#609])
+  * Set OSM Austria as an official local chapter ([#625])
+  * Fix link to Geospatial Engineering Students Association ([#624], [#628])
+* Removed:
+  * Türkiye telegram group, requires payment ([#610])
+  * Togo telegram group, now readonly ([#611])
+  * Benin telegram group no longer active ([#612])
+
+[#598]: https://github.com/osmlab/osm-community-index/issues/598
+[#599]: https://github.com/osmlab/osm-community-index/issues/599
+[#600]: https://github.com/osmlab/osm-community-index/issues/600
+[#601]: https://github.com/osmlab/osm-community-index/issues/601
+[#602]: https://github.com/osmlab/osm-community-index/issues/602
+[#603]: https://github.com/osmlab/osm-community-index/issues/603
+[#604]: https://github.com/osmlab/osm-community-index/issues/604
+[#605]: https://github.com/osmlab/osm-community-index/issues/605
+[#606]: https://github.com/osmlab/osm-community-index/issues/606
+[#608]: https://github.com/osmlab/osm-community-index/issues/608
+[#609]: https://github.com/osmlab/osm-community-index/issues/609
+[#610]: https://github.com/osmlab/osm-community-index/issues/610
+[#611]: https://github.com/osmlab/osm-community-index/issues/611
+[#612]: https://github.com/osmlab/osm-community-index/issues/612
+[#615]: https://github.com/osmlab/osm-community-index/issues/615
+[#616]: https://github.com/osmlab/osm-community-index/issues/616
+[#619]: https://github.com/osmlab/osm-community-index/issues/619
+[#622]: https://github.com/osmlab/osm-community-index/issues/622
+[#624]: https://github.com/osmlab/osm-community-index/issues/624
+[#625]: https://github.com/osmlab/osm-community-index/issues/625
+[#628]: https://github.com/osmlab/osm-community-index/issues/628
+[#629]: https://github.com/osmlab/osm-community-index/issues/629
+
+
+# 5.3.1
+##### 2022-Nov-01
+* Added:
+  * Serbia Discourse ([#587])
+  * Portual WikiProject ([#589])
+  * Catalan Countries Discourse ([#591])
+  * North Korea Wikiproject ([#554])
+  * Mapping USA virtual conference
+* Updated:
+  * Fix escaping of hashes in Matrix URLs ([#592], [#593])
+  * Fix sorting of OSM Austria resources ([#590])
+* Removed:
+  * Deprecated links to forum.openstreetmap.org ([#594])
+
+[#554]: https://github.com/osmlab/osm-community-index/issues/554
+[#587]: https://github.com/osmlab/osm-community-index/issues/587
+[#589]: https://github.com/osmlab/osm-community-index/issues/589
+[#590]: https://github.com/osmlab/osm-community-index/issues/590
+[#591]: https://github.com/osmlab/osm-community-index/issues/591
+[#592]: https://github.com/osmlab/osm-community-index/issues/592
+[#593]: https://github.com/osmlab/osm-community-index/issues/593
+[#594]: https://github.com/osmlab/osm-community-index/issues/594
+
+
+# 5.3.0
+##### 2022-Oct-04
+* Support new resource type `newsletter`
+* Updated to FontAwesome 6.2.x, some icons updated ([#567])
+* Added:
+  * Swap Belgium Forum -> Discourse ([#585])
+  * Spain Discourse ([#584])
+  * Italy Discourse ([#582])
+  * Swap German Forum -> Discourse ([#581])
+  * Thailand Discourse ([#571])
+  * Ireland Discourse ([#569])
+  * Israel Discourse ([#568])
+  * Colombia Discourse ([#562])
+  * LATAM Discourse ([#561])
+  * OpenStreetMap Deep South (US) ([#559])
+  * Belgium quarterly newsletter ([#549])
+* Updated:
+  * Fix Taiwan Discourse type ([#570])
+  * Many updates to spelling and punctuation for YouthMappers resources
+* Removed:
+  * Belgium Facebook page ([#586])
+  * Japan Teletram ([#560])
+  * Azerbaijan Facebook page ([#547])
+  * Albania Teletram ([#546])
+
+[#546]: https://github.com/osmlab/osm-community-index/issues/546
+[#547]: https://github.com/osmlab/osm-community-index/issues/547
 [#549]: https://github.com/osmlab/osm-community-index/issues/549
+[#559]: https://github.com/osmlab/osm-community-index/issues/559
+[#560]: https://github.com/osmlab/osm-community-index/issues/560
+[#561]: https://github.com/osmlab/osm-community-index/issues/561
+[#562]: https://github.com/osmlab/osm-community-index/issues/562
+[#567]: https://github.com/osmlab/osm-community-index/issues/567
+[#568]: https://github.com/osmlab/osm-community-index/issues/568
+[#569]: https://github.com/osmlab/osm-community-index/issues/569
+[#570]: https://github.com/osmlab/osm-community-index/issues/570
+[#571]: https://github.com/osmlab/osm-community-index/issues/571
+[#581]: https://github.com/osmlab/osm-community-index/issues/581
+[#582]: https://github.com/osmlab/osm-community-index/issues/582
+[#584]: https://github.com/osmlab/osm-community-index/issues/584
+[#585]: https://github.com/osmlab/osm-community-index/issues/585
+[#586]: https://github.com/osmlab/osm-community-index/issues/586
 
 
 # 5.2.0
 ##### 2022-Jun-18
 * Many various updates to use more consistent names and ids ([#524])
-* Added
+* Added:
   * OpenStreetmap Discourse ([#530])
   * Maptime Catalan Communities ([#525])
 * Updated:
@@ -156,7 +456,7 @@ _Breaking changes, which may affect downstream projects, are marked with a_ ⚠�
 * Switch "gb" to use "Q3336843" (UK countries excl. BOTS) ([country-coder#35])
 
 [#476]: https://github.com/osmlab/osm-community-index/issues/476
-[country-coder#35]: https://github.com/ideditor/country-coder/issues/35
+[country-coder#35]: https://github.com/rapideditor/country-coder/issues/35
 
 
 # 5.1.0
@@ -439,9 +739,9 @@ Added:
     * Resource files now use a `locationSet` property to make it easier to specify where the resources are included and excluded.
     * Removed: `countryCodes` properties
     * Removed: `featureId` properties and most `.geojson` files (everything that was just a country or a circular point is now gone, as it can be calculated)
-    * This approach leverages code from [country-coder](https://github.com/ideditor/country-coder) and [location-conflation](https://github.com/ideditor/location-conflation) projects.
+    * This approach leverages code from [country-coder](https://github.com/rapideditor/country-coder) and [location-conflation](https://github.com/rapideditor/location-conflation) projects.
     * `dist/features.json` is now a FeatureCollection that only contains the _custom_ boundaries.
-  * You can now view the community index data on a map at http://openstreetmap.community
+  * You can now view the community index data on a map at https://openstreetmap.community
 
 [#291]: https://github.com/osmlab/osm-community-index/issues/291
 [#298]: https://github.com/osmlab/osm-community-index/issues/298

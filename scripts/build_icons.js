@@ -1,36 +1,42 @@
 import chalk from 'chalk';
 import fs from 'node:fs';
-import fontawesome from '@fortawesome/fontawesome-svg-core';
+import { icon } from '@fortawesome/fontawesome-svg-core';
 
 import {
-  faAt, faComments, faKeyboard, faLink, faNewspaper, faUsers
+  faAt, faComment, faComments, faKeyboard, faLink, faNewspaper, faUsers
 } from '@fortawesome/free-solid-svg-icons';
 
 import {
-  faDiscord, faDiscourse, faFacebook, faGithub, faGitlab, faLinkedin,
-  faMeetup, faReddit, faSlack, faTelegram, faTwitter, faYoutube
+  faDiscord, faDiscourse, faLinkedin, faMastodon, faMeetup, faSlack,
+  faSquareFacebook, faSquareGithub, faSquareGitlab, faSquareReddit,
+  faSquareThreads, faSquareXTwitter, faSquareYoutube, faTelegram,
 } from '@fortawesome/free-brands-svg-icons';
 
 const toBuild = {
   discord: faDiscord,
   discourse: faDiscourse,
-  facebook: faFacebook,
+  facebook: faSquareFacebook,
   forum: faComments,
-  github: faGithub,
-  gitlab: faGitlab,
+  github: faSquareGithub,
+  gitlab: faSquareGitlab,
   group: faUsers,
   irc: faKeyboard,
   linkedin: faLinkedin,
   mailinglist: faAt,
+  mastodon: faMastodon,
   matrix: faComments,
   meetup: faMeetup,
   newsletter: faNewspaper,
-  reddit: faReddit,
+  reddit: faSquareReddit,
+  signal: faComment,
   slack: faSlack,
   telegram: faTelegram,
-  twitter: faTwitter,
+  threads: faSquareThreads,
+  twitter: faSquareXTwitter,
   url: faLink,
-  youtube: faYoutube
+  youtube: faSquareYoutube,
+  x: faSquareXTwitter,
+  zulip: faComments
 };
 
 const START = '🏗   ' + chalk.yellow('Building icons...');
@@ -44,8 +50,8 @@ for (const [key, value] of Object.entries(toBuild)) {
   const file = `dist/img/${key}.svg`;
   console.log(chalk.yellow(file));
 
-  // console.log( JSON.stringify(fontawesome.icon(value).html[0], null, 2) );
-  fs.writeFileSync(file, fontawesome.icon(value).html[0]);
+  // console.log( JSON.stringify(icon(value).html[0], null, 2) );
+  fs.writeFileSync(file, icon(value).html[0]);
 }
 
 console.timeEnd(END);

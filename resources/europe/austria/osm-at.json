@@ -1,10 +1,11 @@
 {
   "id": "osm-at",
-  "type": "osm",
+  "type": "osm-lc",
   "locationSet": {"include": ["at"]},
   "languageCodes": ["de"],
   "strings": {
     "community": "OpenStreetMap Austria",
+    "communityID": "openstreetmapaustria",
     "description": "The platform for information on OpenStreetMap in Austria",
     "url": "https://www.openstreetmap.at/"
   },

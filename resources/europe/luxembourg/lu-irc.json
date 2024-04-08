@@ -5,7 +5,10 @@
   "locationSet": {"include": ["lu"]},
   "languageCodes": ["de", "en", "fr", "lb"],
   "order": 4,
-  "strings": {"community": "OpenStreetMap Luxembourg"},
+  "strings": {
+    "community": "OpenStreetMap Luxembourg",
+    "communityID": "openstreetmapluxembourg"
+  },
   "contacts": [
     {"name": "OSM Luxembourg", "email": "contact@openstreetmap.lu"}
   ]

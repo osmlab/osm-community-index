@@ -41,4 +41,4 @@ Instances of unacceptable behavior may be reported privately to the project main
 
 #### See Also
 
-This Code of Conduct is adapted from the [Contributor Covenant](http://contributor-covenant.org).
+This Code of Conduct is adapted from the [Contributor Covenant](https://contributor-covenant.org).

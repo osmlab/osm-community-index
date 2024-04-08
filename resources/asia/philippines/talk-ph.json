@@ -5,7 +5,10 @@
   "locationSet": {"include": ["ph"]},
   "languageCodes": ["en", "tl"],
   "order": 2,
-  "strings": {"community": "OpenStreetMap Philippines"},
+  "strings": {
+    "community": "OpenStreetMap Philippines",
+    "communityID": "openstreetmapphilippines"
+  },
   "contacts": [
     {"name": "OSM PH core team", "email": "osm.pilipinas@gmail.com"}
   ]

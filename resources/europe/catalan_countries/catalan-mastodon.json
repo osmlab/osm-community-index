@@ -1,0 +1,16 @@
+{
+  "id": "cat-mastodon",
+  "type": "mastodon",
+  "account": "osmcatala",
+  "locationSet": {"include": ["catalan_countries.geojson"]},
+  "languageCodes": ["ca"],
+  "order": 8,
+  "strings": {
+    "community": "OpenStreetMap Catalan Countries",
+    "communityID": "openstreetmapcatalancountries",
+    "url": "https://mastodont.cat/@osmcatala"
+  },
+  "contacts": [
+    {"name": "Carlos Sánchez", "email": "erielkhan@gmail.com"}
+  ]
+}

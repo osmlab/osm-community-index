@@ -1,9 +1,9 @@
 // External
 import chalk from 'chalk';
 import fs from 'node:fs';
-import glob from 'glob';
+import { globSync } from 'glob';
 import JSON5 from 'json5';
-import LocationConflation from '@ideditor/location-conflation';
+import LocationConflation from '@rapideditor/location-conflation';
 import shell from 'shelljs';
 import stringify from '@aitodotai/json-stringify-pretty-compact';
 
@@ -40,7 +40,7 @@ function buildAll() {
 
   // minify all .json files under dist/
   shell.rm('-f', ['dist/*.min.json']);  // start clean
-  glob.sync(`dist/**/*.json`).forEach(file => {
+  globSync(`dist/**/*.json`).forEach(file => {
     const minFile = file.replace('.json', '.min.json');
     minifySync(file, minFile);
   });

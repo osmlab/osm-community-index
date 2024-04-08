@@ -1,10 +1,12 @@
 {
   "id": "osm-ch",
-  "type": "osm-lc",
+  "type": "url",
   "locationSet": {"include": ["ch"]},
   "languageCodes": ["de", "en", "fr", "it"],
   "strings": {
     "community": "OpenStreetMap Switzerland",
+    "communityID": "openstreetmapswitzerland",
+    "name": "{community}",
     "description": "The platform for information on OpenStreetMap in Switzerland",
     "url": "https://osm.ch/"
   },

@@ -4,8 +4,8 @@
 <meta charset='utf-8' />
 <title>OSM Community Index</title>
 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'/>
-<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.13.1/mapbox-gl.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.13.1/mapbox-gl.css' rel='stylesheet'/>
+<script src='https://cdn.jsdelivr.net/npm/mapbox-gl@2.15.0/dist/mapbox-gl.min.js'></script>
+<link href='https://cdn.jsdelivr.net/npm/mapbox-gl@2.15.0/dist/mapbox-gl.min.css' rel='stylesheet'/>
 <style>
   body { margin: 0; padding: 0; }
   h2 { margin: 10px; font-size: 1.2em; }
@@ -58,16 +58,14 @@
 <div class='map-overlay' id='features'><h2>OSM Communities</h2><div id='resultPane'></div></div>
 
 <script>
-
-// define access token
-mapboxgl.accessToken = 'pk.eyJ1IjoibWlrZWxtYXJvbiIsImEiOiJjaWZlY25lZGQ2cTJjc2trbmdiZDdjYjllIn0.Wx1n0X7aeCQyDTnK6_mrGw';
-// cdn base address
+mapboxgl.accessToken = 'pk.eyJ1IjoiYmhvdXNlbCIsImEiOiJjbGZ1NG5qbTgwMzJyM3JydmJoY3ZvdDZzIn0.45qwn8YXGm4QofNsZryK4g';
 var cdnBase = 'https://cdn.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/';
 
 // create map
 var map = new mapboxgl.Map({
   container: 'map',
-  style: 'mapbox://styles/mapbox/light-v10',
+  style: 'mapbox://styles/mapbox/light-v11',
+  projection: 'mercator',
   center: [0,0],
   zoom: 1
 });

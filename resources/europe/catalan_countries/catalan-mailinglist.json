@@ -5,7 +5,10 @@
   "locationSet": {"include": ["catalan_countries.geojson"]},
   "languageCodes": ["ca"],
   "order": 9,
-  "strings": {"community": "OpenStreetMap Catalan Countries"},
+  "strings": {
+    "community": "OpenStreetMap Catalan Countries",
+    "communityID": "openstreetmapcatalancountries"
+  },
   "contacts": [
     {"name": "Xavier Barnada", "email": "xbarnada@gmail.com"}
   ]

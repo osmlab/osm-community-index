@@ -1,0 +1,16 @@
+{
+  "id": "osm-delhi-xmpp",
+  "type": "xmpp",
+  "locationSet": {"include": [[77.092, 28.644]]},
+  "strings": {
+    "community": "OpenStreetMap Delhi",
+    "communityID": "openstreetmapdelhi",
+    "name": "OpenStreetMap Delhi XMPP",
+    "description": "Join our XMPP room: {url}",
+    "extendedDescription": "XMPP room for OSM Delhi; not bridged to any proprietary networks.",
+    "url": "https://xmpp.link/#osm-in@conference.a3.pm?join"
+  },
+  "contacts": [
+    {"name": "Kashish", "email": "contrapunctus@disroot.org"}
+  ]
+}
