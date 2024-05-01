@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.6.2",
-    "generated": "2024-05-01T13:36:48.046Z",
+    "generated": "2024-05-01T14:16:09.399Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "463d19e68233c5b211f87a15f558629d"
+    "hash": "8c16577e226da2b2587312a4edbb3ba5"
   },
   "type": "FeatureCollection",
   "features": [
@@ -10648,6 +10648,94 @@
             [10.764, 53.318],
             [10.628, 53.43],
             [10.407, 53.473]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[8.27,50,10]",
+      "properties": {
+        "id": "[8.27,50,10]",
+        "area": 314.16,
+        "resources": {
+          "de-mainz-mailinglist": {
+            "id": "de-mainz-mailinglist",
+            "type": "mailinglist",
+            "account": "mainz",
+            "locationSet": {"include": [[8.27, 50, 10]]},
+            "languageCodes": ["de"],
+            "strings": {
+              "community": "OSM Mainz",
+              "communityID": "osmmainz",
+              "description": "OpenStreetMap in Mainz und Umgebung"
+            },
+            "resolved": {
+              "name": "mainz Mailing List",
+              "url": "https://lists.openstreetmap.org/listinfo/mainz",
+              "description": "OpenStreetMap in Mainz und Umgebung",
+              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/mainz\">mainz Mailing List</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/mainz\">https://lists.openstreetmap.org/listinfo/mainz</a>",
+              "descriptionHTML": "OpenStreetMap in Mainz und Umgebung"
+            }
+          },
+          "de-mainz-telegram": {
+            "id": "de-mainz-telegram",
+            "type": "telegram",
+            "account": "osm_mainz",
+            "locationSet": {"include": [[8.27, 50, 10]]},
+            "languageCodes": ["de"],
+            "strings": {
+              "community": "OSM Mainz",
+              "communityID": "osmmainz",
+              "description": "OpenStreetMap in Mainz und Umgebung"
+            },
+            "resolved": {
+              "name": "OSM Mainz Telegram",
+              "url": "https://t.me/osm_mainz",
+              "description": "OpenStreetMap in Mainz und Umgebung",
+              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/osm_mainz\">OSM Mainz Telegram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osm_mainz\">https://t.me/osm_mainz</a>",
+              "descriptionHTML": "OpenStreetMap in Mainz und Umgebung"
+            }
+          },
+          "de-mainz-wiki": {
+            "id": "de-mainz-wiki",
+            "type": "wiki",
+            "account": "Mainz",
+            "locationSet": {"include": [[8.27, 50, 10]]},
+            "languageCodes": ["de"],
+            "strings": {
+              "community": "OSM Mainz",
+              "communityID": "osmmainz",
+              "description": "OpenStreetMap in Mainz und Umgebung"
+            },
+            "resolved": {
+              "name": "OSM Mainz WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Mainz",
+              "description": "OpenStreetMap in Mainz und Umgebung",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Mainz\">OSM Mainz WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Mainz\">https://wiki.openstreetmap.org/wiki/Mainz</a>",
+              "descriptionHTML": "OpenStreetMap in Mainz und Umgebung"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [8.27, 50.09],
+            [8.188, 50.073],
+            [8.137, 50.028],
+            [8.137, 49.972],
+            [8.188, 49.927],
+            [8.27, 49.91],
+            [8.352, 49.927],
+            [8.403, 49.972],
+            [8.403, 50.028],
+            [8.352, 50.073],
+            [8.27, 50.09]
           ]
         ]
       }
@@ -27170,6 +27258,27 @@
         ],
         "area": 81054.06,
         "resources": {
+          "nl-discourse": {
+            "id": "nl-discourse",
+            "type": "discourse",
+            "account": "nl",
+            "locationSet": {"include": ["nl"]},
+            "languageCodes": ["nl"],
+            "order": 7,
+            "strings": {
+              "community": "OpenStreetMap Netherlands",
+              "communityID": "openstreetmapnetherlands",
+              "description": "A Forum to discuss OpenStreetMap in the Netherlands"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Netherlands Community Forum",
+              "url": "https://community.openstreetmap.org/c/communities/nl",
+              "description": "A Forum to discuss OpenStreetMap in the Netherlands",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/nl\">OpenStreetMap Netherlands Community Forum</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/nl\">https://community.openstreetmap.org/c/communities/nl</a>",
+              "descriptionHTML": "A Forum to discuss OpenStreetMap in the Netherlands"
+            }
+          },
           "nl-matrix": {
             "id": "nl-matrix",
             "type": "matrix",
@@ -27562,9 +27671,6 @@
               "community": "OpenStreetMap Norway",
               "communityID": "openstreetmapnorway"
             },
-            "contacts": [
-              {"name": "OpenStreetMap Norway", "email": "kart@nuug.no"}
-            ],
             "resolved": {
               "name": "OpenStreetMap Norway Community Forum",
               "url": "https://community.openstreetmap.org/c/communities/no",
@@ -27580,15 +27686,12 @@
             "account": "osm-no",
             "locationSet": {"include": ["no"]},
             "languageCodes": ["no"],
-            "order": -4,
+            "order": -1,
             "strings": {
               "community": "OpenStreetMap Norway",
               "communityID": "openstreetmapnorway",
               "description": "Chat room for mappers and OpenStreetMap users, developers and enthusiasts in Norway"
             },
-            "contacts": [
-              {"name": "OpenStreetMap Norway", "email": "kart@nuug.no"}
-            ],
             "resolved": {
               "name": "OpenStreetMap Norway on IRC",
               "url": "https://webchat.oftc.net/?channels=osm-no",
@@ -27598,52 +27701,25 @@
               "descriptionHTML": "Chat room for mappers and OpenStreetMap users, developers and enthusiasts in Norway"
             }
           },
-          "no-mailinglist": {
-            "id": "no-mailinglist",
-            "type": "mailinglist",
-            "locationSet": {"include": ["no"]},
-            "languageCodes": ["no"],
-            "order": -3,
-            "strings": {
-              "community": "OpenStreetMap Norway",
-              "communityID": "openstreetmapnorway",
-              "name": "{community} Mailing List",
-              "description": "Mailing list for mappers and OpenStreetMap users, developers and enthusiasts in Norway",
-              "url": "https://lists.nuug.no/mailman/listinfo/kart"
-            },
-            "contacts": [
-              {"name": "OpenStreetMap Norway", "email": "kart@nuug.no"}
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Norway Mailing List",
-              "url": "https://lists.nuug.no/mailman/listinfo/kart",
-              "description": "Mailing list for mappers and OpenStreetMap users, developers and enthusiasts in Norway",
-              "nameHTML": "<a target=\"_blank\" href=\"https://lists.nuug.no/mailman/listinfo/kart\">OpenStreetMap Norway Mailing List</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://lists.nuug.no/mailman/listinfo/kart\">https://lists.nuug.no/mailman/listinfo/kart</a>",
-              "descriptionHTML": "Mailing list for mappers and OpenStreetMap users, developers and enthusiasts in Norway"
-            }
-          },
           "no-matrix": {
             "id": "no-matrix",
             "type": "matrix",
             "account": "#openstreetmap-no",
             "locationSet": {"include": ["no"]},
             "languageCodes": ["no"],
-            "order": -1,
+            "order": -2,
             "strings": {
               "community": "OpenStreetMap Norway",
-              "communityID": "openstreetmapnorway"
+              "communityID": "openstreetmapnorway",
+              "description": "Bridge of IRC chat room"
             },
-            "contacts": [
-              {"name": "OpenStreetMap Norway", "email": "kart@nuug.no"}
-            ],
             "resolved": {
               "name": "OpenStreetMap Norway Matrix Chat",
               "url": "https://matrix.to/#/#openstreetmap-no:matrix.org",
-              "description": "Join our community Matrix chat",
+              "description": "Bridge of IRC chat room",
               "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#openstreetmap-no:matrix.org\">OpenStreetMap Norway Matrix Chat</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#openstreetmap-no:matrix.org\">https://matrix.to/#/#openstreetmap-no:matrix.org</a>",
-              "descriptionHTML": "Join our community Matrix chat"
+              "descriptionHTML": "Bridge of IRC chat room"
             }
           },
           "no-telegram": {
@@ -27652,6 +27728,7 @@
             "account": "OSM_no",
             "locationSet": {"include": ["no"]},
             "languageCodes": ["no"],
+            "order": -3,
             "strings": {
               "community": "OpenStreetMap Norway",
               "communityID": "openstreetmapnorway"
@@ -30735,57 +30812,6 @@
         ]
       },
       "id": "Q965"
-    },
-    {
-      "type": "Feature",
-      "id": "boston_metro.geojson",
-      "properties": {
-        "id": "boston_metro.geojson",
-        "area": 6992.97,
-        "resources": {
-          "OSM-Boston": {
-            "id": "OSM-Boston",
-            "type": "meetup",
-            "account": "OpenStreetMap-Boston",
-            "locationSet": {"include": ["boston_metro.geojson"]},
-            "languageCodes": ["en"],
-            "order": 5,
-            "strings": {
-              "name": "OpenStreetMap Boston",
-              "description": "Mappers and OpenStreetMap users in the Boston area",
-              "extendedDescription": "OpenStreetMap is the free and open, wiki-style map of the world, with hundreds of thousands of contributions every day from people like you. Editing the map is simple, and fun! Join us both indoors and outdoors in our effort to create the best map of the Boston area and the rest of the world!"
-            },
-            "contacts": [{"name": "Lars Ahlzen", "email": "lars@ahlzen.com"}],
-            "resolved": {
-              "name": "OpenStreetMap Boston",
-              "url": "https://www.meetup.com/OpenStreetMap-Boston",
-              "description": "Mappers and OpenStreetMap users in the Boston area",
-              "extendedDescription": "OpenStreetMap is the free and open, wiki-style map of the world, with hundreds of thousands of contributions every day from people like you. Editing the map is simple, and fun! Join us both indoors and outdoors in our effort to create the best map of the Boston area and the rest of the world!",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Boston\">OpenStreetMap Boston</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Boston\">https://www.meetup.com/OpenStreetMap-Boston</a>",
-              "descriptionHTML": "Mappers and OpenStreetMap users in the Boston area",
-              "extendedDescriptionHTML": "OpenStreetMap is the free and open, wiki-style map of the world, with hundreds of thousands of contributions every day from people like you. Editing the map is simple, and fun! Join us both indoors and outdoors in our effort to create the best map of the Boston area and the rest of the world!"
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-70.5, 41.91],
-            [-71, 41.91],
-            [-71.42, 42.05],
-            [-71.57, 42.18],
-            [-71.64, 42.4],
-            [-71.57, 42.52],
-            [-71.35, 42.64],
-            [-71.1, 42.7],
-            [-70.5, 42.7],
-            [-70.5, 41.91]
-          ]
-        ]
-      }
     },
     {
       "type": "Feature",
@@ -35770,28 +35796,6 @@
         "id": "us-mi.geojson",
         "area": 251333.06,
         "resources": {
-          "osm-michigan-facebook-group": {
-            "id": "osm-michigan-facebook-group",
-            "type": "facebook",
-            "locationSet": {"include": ["US-MI.geojson"]},
-            "languageCodes": ["en"],
-            "order": 5,
-            "strings": {
-              "community": "OpenStreetMap Michigan",
-              "communityID": "openstreetmapmichigan",
-              "name": "{community} Facebook Group",
-              "description": "Discussion about mapping in Michigan.",
-              "url": "https://www.facebook.com/groups/MichiganOSM/"
-            },
-            "resolved": {
-              "name": "OpenStreetMap Michigan Facebook Group",
-              "url": "https://www.facebook.com/groups/MichiganOSM/",
-              "description": "Discussion about mapping in Michigan.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/MichiganOSM/\">OpenStreetMap Michigan Facebook Group</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/MichiganOSM/\">https://www.facebook.com/groups/MichiganOSM/</a>",
-              "descriptionHTML": "Discussion about mapping in Michigan."
-            }
-          },
           "osm-michigan-wiki": {
             "id": "osm-michigan-wiki",
             "type": "wiki",
@@ -55521,53 +55525,6 @@
             [-76.521, 18.076],
             [-76.607, 18.188],
             [-76.746, 18.231]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "[-73.21289,44.46493]",
-      "properties": {
-        "id": "[-73.21289,44.46493]",
-        "area": 1963.5,
-        "resources": {
-          "ym-University-of-Vermont": {
-            "id": "ym-University-of-Vermont",
-            "type": "youthmappers",
-            "locationSet": {"include": [[-73.21289, 44.46493]]},
-            "strings": {
-              "name": "University of Vermont Humanitarian Mapping Club",
-              "description": "YouthMappers chapter at University of Vermont",
-              "url": "https://www.facebook.com/UVMHMC"
-            },
-            "contacts": [{"name": "Organizer", "email": "uvm.hmc@gmail.com"}],
-            "resolved": {
-              "name": "University of Vermont Humanitarian Mapping Club",
-              "url": "https://www.facebook.com/UVMHMC",
-              "description": "YouthMappers chapter at University of Vermont",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/UVMHMC\">University of Vermont Humanitarian Mapping Club</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/UVMHMC\">https://www.facebook.com/UVMHMC</a>",
-              "descriptionHTML": "YouthMappers chapter at University of Vermont"
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-73.213, 44.69],
-            [-73.398, 44.646],
-            [-73.513, 44.534],
-            [-73.512, 44.395],
-            [-73.397, 44.283],
-            [-73.213, 44.24],
-            [-73.029, 44.283],
-            [-72.914, 44.395],
-            [-72.913, 44.534],
-            [-73.027, 44.646],
-            [-73.213, 44.69]
           ]
         ]
       }
