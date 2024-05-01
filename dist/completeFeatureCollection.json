@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.6.2",
-    "generated": "2024-02-26T16:41:57.186Z",
+    "generated": "2024-05-01T13:36:48.046Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "b5d33514520817daa8bb91ad23537391"
+    "hash": "463d19e68233c5b211f87a15f558629d"
   },
   "type": "FeatureCollection",
   "features": [
@@ -7785,7 +7785,7 @@
               "url": "https://www.facebook.com/groups/OsmCol"
             },
             "contacts": [
-              {"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}
+              {"name": "Contacto Colombia", "email": "colombia@osm.lat"}
             ],
             "resolved": {
               "name": "OpenStreetMap Colombia on Facebook",
@@ -7798,54 +7798,50 @@
               "extendedDescriptionHTML": "Join the community to learn more about OpenStreetMap. Everyone is welcome!"
             }
           },
-          "co-telegram": {
-            "id": "co-telegram",
-            "type": "telegram",
-            "account": "osmco",
+          "co-github": {
+            "id": "co-github",
+            "type": "github",
+            "account": "OpenStreetMapColombia",
             "locationSet": {"include": ["co"]},
             "languageCodes": ["es"],
-            "order": 2,
+            "order": 5,
             "strings": {
               "community": "OpenStreetMap Colombia",
-              "communityID": "openstreetmapcolombia"
+              "communityID": "openstreetmapcolombia",
+              "description": "Git projects about Colombia"
             },
-            "contacts": [
-              {"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}
-            ],
             "resolved": {
-              "name": "OpenStreetMap Colombia Telegram",
-              "url": "https://t.me/osmco",
-              "description": "Join our community Telegram chat",
-              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/osmco\">OpenStreetMap Colombia Telegram</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osmco\">https://t.me/osmco</a>",
-              "descriptionHTML": "Join our community Telegram chat"
+              "name": "OpenStreetMap Colombia GitHub",
+              "url": "https://github.com/OpenStreetMapColombia",
+              "description": "Git projects about Colombia",
+              "nameHTML": "<a target=\"_blank\" href=\"https://github.com/OpenStreetMapColombia\">OpenStreetMap Colombia GitHub</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://github.com/OpenStreetMapColombia\">https://github.com/OpenStreetMapColombia</a>",
+              "descriptionHTML": "Git projects about Colombia"
             }
           },
-          "co-twitter": {
-            "id": "co-twitter",
-            "type": "twitter",
-            "account": "OpenStreetMapCo",
+          "co-mastodon": {
+            "id": "co-mastodon",
+            "type": "mastodon",
+            "account": "@OSM_Colombia@en.osm.town",
             "locationSet": {"include": ["co"]},
             "languageCodes": ["es"],
-            "order": 3,
+            "order": 5,
             "strings": {
               "community": "OpenStreetMap Colombia",
-              "communityID": "openstreetmapcolombia"
+              "communityID": "openstreetmapcolombia",
+              "url": "https://en.osm.town/@OSM_Colombia"
             },
-            "contacts": [
-              {"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}
-            ],
             "resolved": {
-              "name": "OpenStreetMap Colombia on 𝕏",
-              "url": "https://twitter.com/OpenStreetMapCo",
-              "description": "Follow us on 𝕏",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapCo\">OpenStreetMap Colombia on 𝕏</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OpenStreetMapCo\">https://twitter.com/OpenStreetMapCo</a>",
-              "descriptionHTML": "Follow us on 𝕏"
+              "name": "OpenStreetMap Colombia on Mastodon",
+              "url": "https://en.osm.town/@OSM_Colombia",
+              "description": "The official Mastodon account for OpenStreetMap Colombia",
+              "nameHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@OSM_Colombia\">OpenStreetMap Colombia on Mastodon</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@OSM_Colombia\">https://en.osm.town/@OSM_Colombia</a>",
+              "descriptionHTML": "The official Mastodon account for OpenStreetMap Colombia"
             }
           },
-          "talk-co": {
-            "id": "talk-co",
+          "co-talk": {
+            "id": "co-talk",
             "type": "mailinglist",
             "account": "talk-co",
             "locationSet": {"include": ["co"]},
@@ -7856,7 +7852,7 @@
               "communityID": "openstreetmapcolombia"
             },
             "contacts": [
-              {"name": "Fredy Rivera", "email": "fredyrivera@gmail.com"}
+              {"name": "Contacto Colombia", "email": "colombia@osm.lat"}
             ],
             "resolved": {
               "name": "talk-co Mailing List",
@@ -7865,6 +7861,73 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-co\">talk-co Mailing List</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-co\">https://lists.openstreetmap.org/listinfo/talk-co</a>",
               "descriptionHTML": "The official mailing list for OpenStreetMap Colombia"
+            }
+          },
+          "co-telegram": {
+            "id": "co-telegram",
+            "type": "telegram",
+            "account": "OSM_Colombia",
+            "locationSet": {"include": ["co"]},
+            "languageCodes": ["es"],
+            "order": 2,
+            "strings": {
+              "community": "OpenStreetMap Colombia",
+              "communityID": "openstreetmapcolombia"
+            },
+            "contacts": [
+              {"name": "Contacto Colombia", "email": "colombia@osm.lat"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Colombia Telegram",
+              "url": "https://t.me/OSM_Colombia",
+              "description": "Join our community Telegram chat",
+              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/OSM_Colombia\">OpenStreetMap Colombia Telegram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/OSM_Colombia\">https://t.me/OSM_Colombia</a>",
+              "descriptionHTML": "Join our community Telegram chat"
+            }
+          },
+          "co-twitter": {
+            "id": "co-twitter",
+            "type": "twitter",
+            "account": "OSM_Colombia",
+            "locationSet": {"include": ["co"]},
+            "languageCodes": ["es"],
+            "order": 5,
+            "strings": {
+              "community": "OpenStreetMap Colombia",
+              "communityID": "openstreetmapcolombia"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Colombia on 𝕏",
+              "url": "https://twitter.com/OSM_Colombia",
+              "description": "Follow us on 𝕏",
+              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_Colombia\">OpenStreetMap Colombia on 𝕏</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSM_Colombia\">https://twitter.com/OSM_Colombia</a>",
+              "descriptionHTML": "Follow us on 𝕏"
+            }
+          },
+          "co-wiki": {
+            "id": "co-wiki",
+            "type": "wiki",
+            "account": "ES:Colombia",
+            "locationSet": {"include": ["co"]},
+            "languageCodes": ["es"],
+            "order": 1,
+            "strings": {
+              "community": "OpenStreetMap Colombia",
+              "communityID": "openstreetmapcolombia",
+              "description": "Wiki page with the documentation to map Colombia"
+            },
+            "contacts": [
+              {"name": "Contacto Colombia", "email": "colombia@osm.lat"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Colombia WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/ES:Colombia",
+              "description": "Wiki page with the documentation to map Colombia",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/ES:Colombia\">OpenStreetMap Colombia WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/ES:Colombia\">https://wiki.openstreetmap.org/wiki/ES:Colombia</a>",
+              "descriptionHTML": "Wiki page with the documentation to map Colombia"
             }
           }
         }
@@ -23313,6 +23376,119 @@
         "id": "bogota.geojson",
         "area": 3842.38,
         "resources": {
+          "maptime-bogota-facebook": {
+            "id": "maptime-bogota-facebook",
+            "type": "facebook",
+            "account": "MaptimeBogota",
+            "locationSet": {"include": ["bogota.geojson"]},
+            "languageCodes": ["es"],
+            "order": 5,
+            "strings": {
+              "community": "MaptimeBogota",
+              "communityID": "maptimebogota",
+              "name": "MaptimeBogotá",
+              "description": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+              "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun."
+            },
+            "contacts": [
+              {"name": "Andrés Gómez Casanova", "email": "angoca@gmail.com"}
+            ],
+            "resolved": {
+              "name": "MaptimeBogotá",
+              "url": "https://www.facebook.com/MaptimeBogota",
+              "description": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+              "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/MaptimeBogota\">MaptimeBogotá</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/MaptimeBogota\">https://www.facebook.com/MaptimeBogota</a>",
+              "descriptionHTML": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+              "extendedDescriptionHTML": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun."
+            }
+          },
+          "maptime-bogota-github": {
+            "id": "maptime-bogota-github",
+            "type": "github",
+            "account": "maptimeBogota",
+            "locationSet": {"include": ["bogota.geojson"]},
+            "languageCodes": ["es"],
+            "order": 5,
+            "strings": {
+              "community": "MaptimeBogota",
+              "communityID": "maptimebogota",
+              "name": "MaptimeBogotá",
+              "description": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+              "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun."
+            },
+            "contacts": [
+              {"name": "Andrés Gómez Casanova", "email": "angoca@gmail.com"}
+            ],
+            "resolved": {
+              "name": "MaptimeBogotá",
+              "url": "https://github.com/maptimeBogota",
+              "description": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+              "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://github.com/maptimeBogota\">MaptimeBogotá</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://github.com/maptimeBogota\">https://github.com/maptimeBogota</a>",
+              "descriptionHTML": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+              "extendedDescriptionHTML": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun."
+            }
+          },
+          "maptime-bogota-linkedin": {
+            "id": "maptime-bogota-linkedin",
+            "type": "linkedin",
+            "account": "12990474",
+            "locationSet": {"include": ["bogota.geojson"]},
+            "languageCodes": ["es"],
+            "order": 5,
+            "strings": {
+              "community": "MaptimeBogota",
+              "communityID": "maptimebogota",
+              "name": "MaptimeBogotá",
+              "description": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+              "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun."
+            },
+            "contacts": [
+              {"name": "Andrés Gómez Casanova", "email": "angoca@gmail.com"}
+            ],
+            "resolved": {
+              "name": "MaptimeBogotá",
+              "url": "https://www.linkedin.com/company/12990474",
+              "description": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+              "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.linkedin.com/company/12990474\">MaptimeBogotá</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.linkedin.com/company/12990474\">https://www.linkedin.com/company/12990474</a>",
+              "descriptionHTML": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+              "extendedDescriptionHTML": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun."
+            }
+          },
+          "maptime-bogota-mastodon": {
+            "id": "maptime-bogota-mastodon",
+            "type": "mastodon",
+            "account": "@MaptimeBogota@en.osm.town",
+            "locationSet": {"include": ["bogota.geojson"]},
+            "languageCodes": ["es"],
+            "order": 5,
+            "strings": {
+              "community": "MaptimeBogota",
+              "communityID": "maptimebogota",
+              "name": "MaptimeBogotá",
+              "description": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+              "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun.",
+              "url": "https://en.osm.town/@MaptimeBogota"
+            },
+            "contacts": [
+              {"name": "Andrés Gómez Casanova", "email": "angoca@gmail.com"}
+            ],
+            "resolved": {
+              "name": "MaptimeBogotá",
+              "url": "https://en.osm.town/@MaptimeBogota",
+              "description": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+              "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@MaptimeBogota\">MaptimeBogotá</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@MaptimeBogota\">https://en.osm.town/@MaptimeBogota</a>",
+              "descriptionHTML": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+              "extendedDescriptionHTML": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun."
+            }
+          },
           "maptime-bogota-meetup": {
             "id": "maptime-bogota-meetup",
             "type": "meetup",
@@ -23337,6 +23513,34 @@
               "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun.",
               "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/maptime-bogota-colombia-osm\">MaptimeBogotá</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/maptime-bogota-colombia-osm\">https://www.meetup.com/maptime-bogota-colombia-osm</a>",
+              "descriptionHTML": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+              "extendedDescriptionHTML": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun."
+            }
+          },
+          "maptime-bogota-telegram": {
+            "id": "maptime-bogota-telegram",
+            "type": "telegram",
+            "account": "maptimeBogota",
+            "locationSet": {"include": ["bogota.geojson"]},
+            "languageCodes": ["es"],
+            "order": 5,
+            "strings": {
+              "community": "MaptimeBogota",
+              "communityID": "maptimebogota",
+              "name": "MaptimeBogotá",
+              "description": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+              "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun."
+            },
+            "contacts": [
+              {"name": "Andrés Gómez Casanova", "email": "angoca@gmail.com"}
+            ],
+            "resolved": {
+              "name": "MaptimeBogotá",
+              "url": "https://t.me/maptimeBogota",
+              "description": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+              "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/maptimeBogota\">MaptimeBogotá</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/maptimeBogota\">https://t.me/maptimeBogota</a>",
               "descriptionHTML": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
               "extendedDescriptionHTML": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun."
             }
@@ -23393,6 +23597,34 @@
               "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun.",
               "nameHTML": "<a target=\"_blank\" href=\"https://maptime.io/bogota/\">MaptimeBogotá</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://maptime.io/bogota/\">https://maptime.io/bogota/</a>",
+              "descriptionHTML": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+              "extendedDescriptionHTML": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun."
+            }
+          },
+          "maptime-bogota-youtube": {
+            "id": "maptime-bogota-youtube",
+            "type": "youtube",
+            "account": "maptimebogota",
+            "locationSet": {"include": ["bogota.geojson"]},
+            "languageCodes": ["es"],
+            "order": 5,
+            "strings": {
+              "community": "MaptimeBogota",
+              "communityID": "maptimebogota",
+              "name": "MaptimeBogotá",
+              "description": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+              "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun."
+            },
+            "contacts": [
+              {"name": "Andrés Gómez Casanova", "email": "angoca@gmail.com"}
+            ],
+            "resolved": {
+              "name": "MaptimeBogotá",
+              "url": "https://www.youtube.com/channel/maptimebogota",
+              "description": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
+              "extendedDescription": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.youtube.com/channel/maptimebogota\">MaptimeBogotá</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.youtube.com/channel/maptimebogota\">https://www.youtube.com/channel/maptimebogota</a>",
               "descriptionHTML": "We are a group of interested people to map Bogotá and its surroundings into OpenStreetMap.",
               "extendedDescriptionHTML": "Learn to collect data in the field and digitize onto OpenStreetMap. It is not necessary to have previous knowledge! You just need the desire to participate, learn, and have fun."
             }
@@ -36865,80 +37097,6 @@
         ]
       },
       "id": "Q36"
-    },
-    {
-      "type": "Feature",
-      "id": "portland_or.geojson",
-      "properties": {
-        "id": "portland_or.geojson",
-        "area": 37748.1,
-        "resources": {
-          "OSM-Portland": {
-            "id": "OSM-Portland",
-            "type": "meetup",
-            "account": "OpenStreetMap-Portland",
-            "locationSet": {"include": ["portland_or.geojson"]},
-            "languageCodes": ["en"],
-            "order": 5,
-            "strings": {
-              "name": "OpenStreetMap Portland",
-              "description": "Mappers and OpenStreetMap users in the Portland area",
-              "extendedDescription": "OpenStreetMap (OSM) is a map of the world made by people like you. It's a map that you build, that's given away for free like wikipedia. Check out osm.org for more, and come join us at a meetup to talk maps, contribute to OSM, and have fun!"
-            },
-            "contacts": [
-              {"name": "Madeline Steele", "email": "madeline.steele@gmail.com"}
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Portland",
-              "url": "https://www.meetup.com/OpenStreetMap-Portland",
-              "description": "Mappers and OpenStreetMap users in the Portland area",
-              "extendedDescription": "OpenStreetMap (OSM) is a map of the world made by people like you. It's a map that you build, that's given away for free like wikipedia. Check out osm.org for more, and come join us at a meetup to talk maps, contribute to OSM, and have fun!",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Portland\">OpenStreetMap Portland</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Portland\">https://www.meetup.com/OpenStreetMap-Portland</a>",
-              "descriptionHTML": "Mappers and OpenStreetMap users in the Portland area",
-              "extendedDescriptionHTML": "OpenStreetMap (OSM) is a map of the world made by people like you. It's a map that you build, that's given away for free like wikipedia. Check out osm.org for more, and come join us at a meetup to talk maps, contribute to OSM, and have fun!"
-            }
-          },
-          "OSM-Portland-forum": {
-            "id": "OSM-Portland-forum",
-            "type": "forum",
-            "locationSet": {"include": ["portland_or.geojson"]},
-            "languageCodes": ["en"],
-            "order": -2,
-            "strings": {
-              "name": "OpenStreetMap PDX Google Group",
-              "description": "Forum and mailing list for OpenStreetMap users in the Portland area",
-              "extendedDescription": "This group is to facilitate improvements to OpenStreetMap in the Portland, Oregon area to support applications such as the Open Trip Planner.",
-              "url": "https://groups.google.com/group/osm-pdx"
-            },
-            "contacts": [
-              {"name": "Madeline Steele", "email": "madeline.steele@gmail.com"}
-            ],
-            "resolved": {
-              "name": "OpenStreetMap PDX Google Group",
-              "url": "https://groups.google.com/group/osm-pdx",
-              "description": "Forum and mailing list for OpenStreetMap users in the Portland area",
-              "extendedDescription": "This group is to facilitate improvements to OpenStreetMap in the Portland, Oregon area to support applications such as the Open Trip Planner.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://groups.google.com/group/osm-pdx\">OpenStreetMap PDX Google Group</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://groups.google.com/group/osm-pdx\">https://groups.google.com/group/osm-pdx</a>",
-              "descriptionHTML": "Forum and mailing list for OpenStreetMap users in the Portland area",
-              "extendedDescriptionHTML": "This group is to facilitate improvements to OpenStreetMap in the Portland, Oregon area to support applications such as the Open Trip Planner."
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-124.4, 44.8],
-            [-124.4, 46.3],
-            [-121.5, 46.3],
-            [-121.5, 44.8],
-            [-124.4, 44.8]
-          ]
-        ]
-      }
     },
     {
       "type": "Feature",
@@ -53145,15 +53303,15 @@
     },
     {
       "type": "Feature",
-      "id": "[-75.58594,6.22791]",
+      "id": "[-75.56886,6.26748]",
       "properties": {
-        "id": "[-75.58594,6.22791]",
+        "id": "[-75.56886,6.26748]",
         "area": 1963.5,
         "resources": {
           "ym-Universidad-de-Antioquia": {
             "id": "ym-Universidad-de-Antioquia",
             "type": "youthmappers",
-            "locationSet": {"include": [[-75.58594, 6.22791]]},
+            "locationSet": {"include": [[-75.56886, 6.26748]]},
             "strings": {
               "name": "Geomatica UDEA",
               "description": "YouthMappers chapter at Universidad de Antioquia",
@@ -53173,33 +53331,6 @@
               "descriptionHTML": "YouthMappers chapter at Universidad de Antioquia",
               "extendedDescriptionHTML": "We are a group interested in geospatial data, voluntary cartography, and participating in mapping with others in our country and within the YouthMappers network."
             }
-          },
-          "ym-Universidad-de-San-Buenaventura": {
-            "id": "ym-Universidad-de-San-Buenaventura",
-            "type": "youthmappers",
-            "locationSet": {"include": [[-75.58594, 6.22791]]},
-            "strings": {
-              "name": "YouthMappers San Buenaventura",
-              "description": "YouthMappers chapter at Universidad de San Buenaventura",
-              "extendedDescription": "We are pleased to join YouthMappers mapping for a better world and community.",
-              "url": "https://www.facebook.com/groups/1742657446017065/"
-            },
-            "contacts": [
-              {
-                "name": "Organizer",
-                "email": "ingenieria.sistemas@usbmed.edu.co"
-              }
-            ],
-            "resolved": {
-              "name": "YouthMappers San Buenaventura",
-              "url": "https://www.facebook.com/groups/1742657446017065/",
-              "description": "YouthMappers chapter at Universidad de San Buenaventura",
-              "extendedDescription": "We are pleased to join YouthMappers mapping for a better world and community.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/1742657446017065/\">YouthMappers San Buenaventura</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/1742657446017065/\">https://www.facebook.com/groups/1742657446017065/</a>",
-              "descriptionHTML": "YouthMappers chapter at Universidad de San Buenaventura",
-              "extendedDescriptionHTML": "We are pleased to join YouthMappers mapping for a better world and community."
-            }
           }
         }
       },
@@ -53207,17 +53338,17 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [-75.586, 6.452],
-            [-75.719, 6.41],
-            [-75.801, 6.297],
-            [-75.801, 6.158],
-            [-75.719, 6.046],
-            [-75.586, 6.003],
-            [-75.453, 6.046],
-            [-75.371, 6.158],
-            [-75.371, 6.297],
-            [-75.453, 6.41],
-            [-75.586, 6.452]
+            [-75.569, 6.492],
+            [-75.702, 6.449],
+            [-75.784, 6.337],
+            [-75.784, 6.198],
+            [-75.702, 6.086],
+            [-75.569, 6.043],
+            [-75.436, 6.086],
+            [-75.354, 6.198],
+            [-75.354, 6.337],
+            [-75.436, 6.449],
+            [-75.569, 6.492]
           ]
         ]
       }
@@ -53279,15 +53410,15 @@
     },
     {
       "type": "Feature",
-      "id": "[-72.86133,11.52304]",
+      "id": "[-72.87047,11.51193]",
       "properties": {
-        "id": "[-72.86133,11.52304]",
+        "id": "[-72.87047,11.51193]",
         "area": 1963.5,
         "resources": {
           "ym-Universidad-de-La-Guajira": {
             "id": "ym-Universidad-de-La-Guajira",
             "type": "youthmappers",
-            "locationSet": {"include": [[-72.86133, 11.52304]]},
+            "locationSet": {"include": [[-72.87047, 11.51193]]},
             "strings": {
               "name": "Grupo Mesh",
               "description": "YouthMappers chapter at Universidad de La Guajira",
@@ -53314,32 +53445,32 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [-72.861, 11.748],
-            [-72.996, 11.705],
-            [-73.079, 11.592],
-            [-73.079, 11.454],
-            [-72.996, 11.341],
-            [-72.861, 11.298],
-            [-72.727, 11.341],
-            [-72.643, 11.454],
-            [-72.643, 11.592],
-            [-72.727, 11.705],
-            [-72.861, 11.748]
+            [-72.87, 11.737],
+            [-73.005, 11.694],
+            [-73.088, 11.581],
+            [-73.088, 11.442],
+            [-73.005, 11.33],
+            [-72.87, 11.287],
+            [-72.736, 11.33],
+            [-72.653, 11.442],
+            [-72.652, 11.581],
+            [-72.736, 11.694],
+            [-72.87, 11.737]
           ]
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "[-74.0918,4.56545]",
+      "id": "[-74.06509,4.60142]",
       "properties": {
-        "id": "[-74.0918,4.56545]",
+        "id": "[-74.06509,4.60142]",
         "area": 1963.5,
         "resources": {
           "ym-Universidad-de-Los-Andes": {
             "id": "ym-Universidad-de-Los-Andes",
             "type": "youthmappers",
-            "locationSet": {"include": [[-74.0918, 4.56545]]},
+            "locationSet": {"include": [[-74.06509, 4.60142]]},
             "strings": {
               "name": "Cartografos Uniandes",
               "description": "YouthMappers chapter at Universidad de Los Andes",
@@ -53366,17 +53497,17 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [-74.092, 4.79],
-            [-74.224, 4.747],
-            [-74.306, 4.635],
-            [-74.306, 4.496],
-            [-74.224, 4.384],
-            [-74.092, 4.341],
-            [-73.959, 4.384],
-            [-73.878, 4.496],
-            [-73.878, 4.635],
-            [-73.959, 4.747],
-            [-74.092, 4.79]
+            [-74.065, 4.826],
+            [-74.198, 4.783],
+            [-74.279, 4.671],
+            [-74.279, 4.532],
+            [-74.197, 4.42],
+            [-74.065, 4.377],
+            [-73.933, 4.42],
+            [-73.851, 4.532],
+            [-73.851, 4.671],
+            [-73.933, 4.783],
+            [-74.065, 4.826]
           ]
         ]
       }
@@ -53432,15 +53563,70 @@
     },
     {
       "type": "Feature",
-      "id": "[-74.0918,4.65306]",
+      "id": "[-75.57358,6.25466]",
       "properties": {
-        "id": "[-74.0918,4.65306]",
+        "id": "[-75.57358,6.25466]",
+        "area": 1963.5,
+        "resources": {
+          "ym-Universidad-de-San-Buenaventura": {
+            "id": "ym-Universidad-de-San-Buenaventura",
+            "type": "youthmappers",
+            "locationSet": {"include": [[-75.57358, 6.25466]]},
+            "strings": {
+              "name": "YouthMappers San Buenaventura",
+              "description": "YouthMappers chapter at Universidad de San Buenaventura",
+              "extendedDescription": "We are pleased to join YouthMappers mapping for a better world and community.",
+              "url": "https://www.facebook.com/groups/1742657446017065/"
+            },
+            "contacts": [
+              {
+                "name": "Organizer",
+                "email": "ingenieria.sistemas@usbmed.edu.co"
+              }
+            ],
+            "resolved": {
+              "name": "YouthMappers San Buenaventura",
+              "url": "https://www.facebook.com/groups/1742657446017065/",
+              "description": "YouthMappers chapter at Universidad de San Buenaventura",
+              "extendedDescription": "We are pleased to join YouthMappers mapping for a better world and community.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/1742657446017065/\">YouthMappers San Buenaventura</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/1742657446017065/\">https://www.facebook.com/groups/1742657446017065/</a>",
+              "descriptionHTML": "YouthMappers chapter at Universidad de San Buenaventura",
+              "extendedDescriptionHTML": "We are pleased to join YouthMappers mapping for a better world and community."
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-75.574, 6.479],
+            [-75.706, 6.436],
+            [-75.788, 6.324],
+            [-75.788, 6.185],
+            [-75.706, 6.073],
+            [-75.574, 6.03],
+            [-75.441, 6.073],
+            [-75.359, 6.185],
+            [-75.359, 6.324],
+            [-75.441, 6.436],
+            [-75.574, 6.479]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[-74.0657,4.62801]",
+      "properties": {
+        "id": "[-74.0657,4.62801]",
         "area": 1963.5,
         "resources": {
           "ym-Universidad-Distrital-Francisco-Jose-de-Caldas": {
             "id": "ym-Universidad-Distrital-Francisco-Jose-de-Caldas",
             "type": "youthmappers",
-            "locationSet": {"include": [[-74.0918, 4.65306]]},
+            "locationSet": {"include": [[-74.0657, 4.62801]]},
             "strings": {
               "name": "YouthMappers at Bogota",
               "description": "YouthMappers chapter at Universidad Distrital Francisco Jose de Caldas",
@@ -53460,30 +53646,6 @@
               "descriptionHTML": "YouthMappers chapter at Universidad Distrital Francisco Jose de Caldas",
               "extendedDescriptionHTML": "The Universidad Distrital Francisco José de Caldas is a public, coeducational, research university based in Bogotá, Colombia with a population of 26,140 students."
             }
-          },
-          "ym-Universidad-Nacional-de-Colombia": {
-            "id": "ym-Universidad-Nacional-de-Colombia",
-            "type": "youthmappers",
-            "locationSet": {"include": [[-74.0918, 4.65306]]},
-            "strings": {
-              "name": "Grupo UN",
-              "description": "YouthMappers chapter at Universidad Nacional de Colombia",
-              "extendedDescription": "Students are uniting to map and network with university students across the country of Colombia and across the globe.  Geographic specialties include affiliation with microbiology and health disciplines.",
-              "url": "mailto:raknudsono@unal.edu.co?subject=Youth%20Mappers%20y%20Grupo%20UN%20Colombia"
-            },
-            "contacts": [
-              {"name": "Organizer", "email": "raknudsono@unal.edu.co"}
-            ],
-            "resolved": {
-              "name": "Grupo UN",
-              "url": "mailto:raknudsono@unal.edu.co?subject=Youth%20Mappers%20y%20Grupo%20UN%20Colombia",
-              "description": "YouthMappers chapter at Universidad Nacional de Colombia",
-              "extendedDescription": "Students are uniting to map and network with university students across the country of Colombia and across the globe.  Geographic specialties include affiliation with microbiology and health disciplines.",
-              "nameHTML": "<a target=\"_blank\" href=\"mailto:raknudsono@unal.edu.co?subject=Youth%20Mappers%20y%20Grupo%20UN%20Colombia\">Grupo UN</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"mailto:raknudsono@unal.edu.co?subject=Youth%20Mappers%20y%20Grupo%20UN%20Colombia\">mailto:raknudsono@unal.edu.co?subject=Youth%20Mappers%20y%20Grupo%20UN%20Colombia</a>",
-              "descriptionHTML": "YouthMappers chapter at Universidad Nacional de Colombia",
-              "extendedDescriptionHTML": "Students are uniting to map and network with university students across the country of Colombia and across the globe.  Geographic specialties include affiliation with microbiology and health disciplines."
-            }
           }
         }
       },
@@ -53491,17 +53653,17 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [-74.092, 4.878],
-            [-74.224, 4.835],
-            [-74.306, 4.722],
-            [-74.306, 4.584],
-            [-74.224, 4.471],
-            [-74.092, 4.428],
-            [-73.959, 4.471],
-            [-73.878, 4.584],
-            [-73.877, 4.722],
-            [-73.959, 4.835],
-            [-74.092, 4.878]
+            [-74.066, 4.853],
+            [-74.198, 4.81],
+            [-74.28, 4.697],
+            [-74.28, 4.559],
+            [-74.198, 4.446],
+            [-74.066, 4.403],
+            [-73.933, 4.446],
+            [-73.851, 4.559],
+            [-73.851, 4.697],
+            [-73.933, 4.81],
+            [-74.066, 4.853]
           ]
         ]
       }
@@ -53549,6 +53711,58 @@
             [-86.946, 14.154],
             [-87.03, 14.267],
             [-87.166, 14.31]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[-74.08338,4.63657]",
+      "properties": {
+        "id": "[-74.08338,4.63657]",
+        "area": 1963.5,
+        "resources": {
+          "ym-Universidad-Nacional-de-Colombia": {
+            "id": "ym-Universidad-Nacional-de-Colombia",
+            "type": "youthmappers",
+            "locationSet": {"include": [[-74.08338, 4.63657]]},
+            "strings": {
+              "name": "Grupo UN",
+              "description": "YouthMappers chapter at Universidad Nacional de Colombia",
+              "extendedDescription": "Students are uniting to map and network with university students across the country of Colombia and across the globe.  Geographic specialties include affiliation with microbiology and health disciplines.",
+              "url": "mailto:raknudsono@unal.edu.co?subject=Youth%20Mappers%20y%20Grupo%20UN%20Colombia"
+            },
+            "contacts": [
+              {"name": "Organizer", "email": "raknudsono@unal.edu.co"}
+            ],
+            "resolved": {
+              "name": "Grupo UN",
+              "url": "mailto:raknudsono@unal.edu.co?subject=Youth%20Mappers%20y%20Grupo%20UN%20Colombia",
+              "description": "YouthMappers chapter at Universidad Nacional de Colombia",
+              "extendedDescription": "Students are uniting to map and network with university students across the country of Colombia and across the globe.  Geographic specialties include affiliation with microbiology and health disciplines.",
+              "nameHTML": "<a target=\"_blank\" href=\"mailto:raknudsono@unal.edu.co?subject=Youth%20Mappers%20y%20Grupo%20UN%20Colombia\">Grupo UN</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"mailto:raknudsono@unal.edu.co?subject=Youth%20Mappers%20y%20Grupo%20UN%20Colombia\">mailto:raknudsono@unal.edu.co?subject=Youth%20Mappers%20y%20Grupo%20UN%20Colombia</a>",
+              "descriptionHTML": "YouthMappers chapter at Universidad Nacional de Colombia",
+              "extendedDescriptionHTML": "Students are uniting to map and network with university students across the country of Colombia and across the globe.  Geographic specialties include affiliation with microbiology and health disciplines."
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-74.083, 4.861],
+            [-74.216, 4.818],
+            [-74.298, 4.706],
+            [-74.298, 4.567],
+            [-74.216, 4.455],
+            [-74.083, 4.412],
+            [-73.951, 4.455],
+            [-73.869, 4.567],
+            [-73.869, 4.706],
+            [-73.951, 4.818],
+            [-74.083, 4.861]
           ]
         ]
       }
