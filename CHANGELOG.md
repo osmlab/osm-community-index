@@ -19,6 +19,29 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.6.3
+##### 2024-May-01
+* Added:
+  * Resources for Colombia and Bogota ([#709])
+  * Resources for Mainz, Germany ([#707])
+  * Netherlands Discourse ([#705])
+* Removed:
+  * Inactive Portland resources ([#711])
+  * Michigan Facebook ([#706])
+  * Inactive Norway mailing list, update other resources ([#704])
+  * Inactive Boston Meetup group ([#703])
+  * Inactive UVM Humanitarian Mapping club ([#702])
+
+[#702]: https://github.com/osmlab/osm-community-index/issues/702
+[#703]: https://github.com/osmlab/osm-community-index/issues/703
+[#704]: https://github.com/osmlab/osm-community-index/issues/704
+[#705]: https://github.com/osmlab/osm-community-index/issues/705
+[#706]: https://github.com/osmlab/osm-community-index/issues/706
+[#707]: https://github.com/osmlab/osm-community-index/issues/707
+[#709]: https://github.com/osmlab/osm-community-index/issues/709
+[#711]: https://github.com/osmlab/osm-community-index/issues/711
+
+
 # 5.6.2
 ##### 2024-Feb-26
 * Add Armenia Wiki, Singapore Wiki and Telegram ([#693])
