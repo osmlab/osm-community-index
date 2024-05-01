@@ -1,15 +1,14 @@
 {
-  "id": "co-facebook",
-  "type": "facebook",
-  "account": "OsmCol",
+  "id": "co-wiki",
+  "type": "wiki",
+  "account": "ES:Colombia",
   "locationSet": {"include": ["co"]},
   "languageCodes": ["es"],
   "order": 1,
   "strings": {
     "community": "OpenStreetMap Colombia",
     "communityID": "openstreetmapcolombia",
-    "extendedDescription": "Join the community to learn more about OpenStreetMap. Everyone is welcome!",
-    "url": "https://www.facebook.com/groups/OsmCol"
+    "description": "Wiki page with the documentation to map Colombia"
   },
   "contacts": [
     {"name": "Contacto Colombia", "email": "colombia@osm.lat"}
