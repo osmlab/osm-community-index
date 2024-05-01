@@ -57,6 +57,7 @@ cy:
     openstreetmapcz: OpenStreetMap CZ
     openstreetmapde: OpenStreetMap DE
     openstreetmapdeepsouth: OpenStreetMap Deep South
+    openstreetmapdelhi: OpenStreetMap Delhi
     openstreetmapdenmark: OpenStreetMap Denmark
     openstreetmapdjibouti: OpenStreetMap Djibouti
     openstreetmapdominicanrepublic: OpenStreetMap Dominican Republic
@@ -169,6 +170,7 @@ cy:
     openstreetmapserbia: OpenStreetMap Serbia
     openstreetmapseychelles: OpenStreetMap Seychelles
     openstreetmapsierraleone: OpenStreetMap Sierra Leone
+    openstreetmapsingapore: OpenStreetMap Singapore
     openstreetmapslovenia: OpenStreetMap Slovenia
     openstreetmapsomalia: OpenStreetMap Somalia
     openstreetmapsouthafrica: OpenStreetMap South Africa
@@ -195,6 +197,7 @@ cy:
     openstreetmapvenezuela: OpenStreetMap Venezuela
     openstreetmapvietnam: OpenStreetMap Vietnam
     openstreetmapwarszawa: OpenStreetMap Warszawa
+    openstreetmapwestbengal: OpenStreetMap Gorllewin Bengal
     openstreetmapwesternsahara: OpenStreetMap Western Sahara
     openstreetmapzambia: OpenStreetMap Zambia
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
@@ -301,6 +304,10 @@ cy:
     name: Maptime Tirana
     description: Digwyddiadau cymdeithasol wedi'u trefnu o amgylch mapio - croeso i ddechreuwyr ymuno!
     extendedDescription: Mae Maptime yn amgylchedd dysgu agored ar gyfer pob lefel o wybodaeth, gan gynnig cefnogaeth addysgol i ddechreuwyr. Mae Maptime yn hyblyg a hefyd yn strwythuredig, gan greu lle ar gyfer tiwtorialau mapio, gweithdai, prosiectau parhaus gyda nod cyffredin, a chyfleuoedd gweithio annibynnol / cydweithredol.
+  am-wiki:
+    description: 'Tudalen Wici {community}'
+  at-matrix:
+    description: Sianel Matrix Almaeneg answyddogol ar gyfer Awstria
   at-wiki:
     description: 'Tudalen Wici {community}'
   Bahia-telegram:
@@ -345,6 +352,7 @@ cy:
   de-berlin-wiki:
     description: 'Tudalen Wici {community}'
   de-berlin-xmpp:
+    name: XMPP OpenStreetMap Berlin-Brandenburg
     description: 'Ymunwch â''n Sgwrs Aml-Ddefnyddiwr XMPP: {url}'
   de-bochum-wiki:
     description: 'Tudalen Wici {community}'
@@ -433,6 +441,8 @@ cy:
     description: Rydym yn tyfu a gwella OpenStreetMap yn yr Eidal.
   it-discourse:
     description: Fforwm i drafod OpenStreetMap yn yr Eidal
+  ko-facebook:
+    description: Mapwyr a defnyddwyr OpenStreetMap yng Nghorea
   ko-github:
     description: '{community} GitHub'
   ko-osm:
@@ -508,6 +518,8 @@ cy:
   OSM-AR-geolibres:
     name: GeoLibres
     description: Geolibres Civil Association
+  OSM-AR-twitter:
+    extendedDescription: Newyddion o'r gymuned leol ac OpenStreetMap yn gyffredinol.
   osm-bengaluru-wiki:
     description: OpenStreetMap ym Mengaluru
   osm-benin-facebook:
@@ -526,12 +538,12 @@ cy:
     name: OpenStreetMap Colorado
   osm-deep-south-wiki:
     description: 'Tudalen Wici {community}'
+  osm-delhi-xmpp:
+    description: 'Ymunwch â''n hystafell XMPP: {url}'
   OSM-Discord:
     name: Discord OpenStreetMap World
   OSM-Discourse:
     name: Fforwm Cymunedol OpenStreetMap
-  OSM-help:
-    name: OpenStreetMap Help
   OSM-India-facebook:
     description: Gwella OpenStreetMap yn India
   osm-india-github:
@@ -542,6 +554,9 @@ cy:
     name: Free Software Hardware Movement - Matrix
   OSM-india-twitter:
     description: 'Dim ond trydariad i ffwrdd: {url}'
+  osm-india-xmpp:
+    name: XMPP OpenStreetMap India
+    description: 'Ymunwch â''n hystafell XMPP: {url}'
   osm-iran-discord:
     extendedDescription: Gweinydd Discord ar gyfer OpenStreetMap Iran. Dewch yn llu!
   OSM-japan-facebook:
@@ -604,6 +619,8 @@ cy:
     description: Fforwm i drafod OpenStreetMap yn Serbia
   rs-wiki:
     description: Tudalen WiciBrosiect am Serbia
+  sg-wiki:
+    description: 'Tudalen Wici {community}'
   si-github:
     description: '{community} ar GitHub'
   si-ljubljana-wiki:
@@ -621,6 +638,9 @@ cy:
   uk-localchapter:
     description: Y Siapter Lleol swyddogol ar gyfer y DU (gan gynnwys Gogledd Iwerddon).
     extendedDescription: 'Rydym yn cefnogi OpenStreetMap drwy gynnal digwyddiadau, darparu adnoddau cymunedol, adeiladu partneriaethau, ac yn lledaenu''r neges. Ymunwch ag OpenStreetMap UK yma: {signupUrl}'
+  uk-london-mastodon:
+    name: OpenStreetMap Llundain ar Mastodon
+    description: 'OpenStreetMap Llundain ar Mastodon: {url}'
   uk-london-twitter:
     name: OpenStreetMap London ar Twitter
     description: 'OpenStreetMap London ar Twitter: {url}'
@@ -721,20 +741,54 @@ cy:
     name: 'Gamma Theta Upsilon: Beta Psi Chapter'
   ym-Kumi-University:
     name: Ever Last YouthMappers
+  ym-Politecnico-di-Milano:
+    name: PoliMappers
+  ym-Sokoine-University-of-Agriculture:
+    name: SMCoSE YouthMappers
+  ym-St.-Mawaggali-Trades-Training-Institute:
+    name: MawaggaliMappers
   ym-Stella-Maris-Polytechnic:
     name: YouthMappers-SMP
   ym-Uganda-Pentecostal-University:
     name: HiTech Youth Mappers
   ym-Universidad-de-Antioquia:
     name: Geomatica UDEA
+  ym-Universidad-de-La-Guajira:
+    name: Grupo Mesh
+  ym-Universidad-de-Los-Andes:
+    name: Cartografos Uniandes
+  ym-Universidad-Nacional-Autnoma-de-Honduras:
+    name: PumaGis Hn
+  ym-Universidad-Nacional-de-Colombia:
+    name: Grupo UN
+  ym-Universidad-Nacional-de-Ingenieria:
+    name: Yeka Street MGA
   ym-Universit-de-NZrkor:
     name: YouthMappers N'Zérékoré
     description: Siapter YouthMappers ym Mhrifysgol N'Zérékoré
   ym-Universit-des-Sciences-Sociale-et-de-Gestion-de-Bamako:
     name: YouthMappers Bamako
+  ym-Universitas-Negeri-Makassar:
+    name: Kontur Geografi
+  ym-University-of-California-Davis:
+    name: Mapping Club
+  ym-University-of-Chicago:
+    name: Cymdeithas Tobler
+  ym-University-of-Energy-and-Natural-Resources:
+    name: Eco-Club
+  ym-University-of-Malawi:
+    name: Chanco Malawi YouthMappers
   ym-University-of-Maryland-College-Park:
     name: Geography Club
     extendedDescription: Nod Clwb Daearyddiaeth Prifysgol Maryland College Park yw ymgysylltu ac annog myfyrwyr i archwilio diddordebau daearyddol yn y campws a'r gymuned.
+  ym-University-of-Mines-and-Technology:
+    name: UMaT YouthMappers
+  ym-University-of-North-Texas:
+    name: UNT Geography Club
+  ym-University-of-Redlands:
+    name: URSpatial Geo-Thinkers
+  ym-University-of-Rwanda-Huye-Campus:
+    name: Rwanda YouthMappers
   ym-University-of-Wyoming:
     name: Gamma Theta Upsilon/Geography Club
   ym-University-of-Zimbabwe:

@@ -57,6 +57,7 @@ uk:
     openstreetmapcz: OpenStreetMap CZ
     openstreetmapde: OpenStreetMap DE
     openstreetmapdeepsouth: OpenStreetMap Далекий Південь
+    openstreetmapdelhi: OpenStreetMap Делі
     openstreetmapdenmark: OpenStreetMap Данія
     openstreetmapdjibouti: OpenStreetMap Джибуті
     openstreetmapdominicanrepublic: OpenStreetMap Домініканська Республіка
@@ -169,6 +170,7 @@ uk:
     openstreetmapserbia: OpenStreetMap Сербія
     openstreetmapseychelles: OpenStreetMap Сейшельські острови
     openstreetmapsierraleone: OpenStreetMap Сьєрра-Леоне
+    openstreetmapsingapore: OpenStreetMap Сінгапур
     openstreetmapslovenia: OpenStreetMap Словенія
     openstreetmapsomalia: OpenStreetMap Сомалі
     openstreetmapsouthafrica: OpenStreetMap Південна Африка
@@ -195,6 +197,7 @@ uk:
     openstreetmapvenezuela: OpenStreetMap Венесуела
     openstreetmapvietnam: OpenStreetMap В'єтнам
     openstreetmapwarszawa: OpenStreetMap Варшава
+    openstreetmapwestbengal: OpenStreetMap Західна Бенгалія
     openstreetmapwesternsahara: OpenStreetMap Західна Сахара
     openstreetmapzambia: OpenStreetMap Замбія
     openstreetmapzimbabwe: OpenStreetMap Зімбабве
@@ -301,6 +304,8 @@ uk:
     name: Maptime Тирана
     description: Соціальні заходи, пов'язані з мапінгом — в першу чергу запрошуємо початківців!
     extendedDescription: Maptime – це відкрите навчальне середовище для всіх, з різним ступенем  знань, пропонує особисту ​​освітню підтримку для початківців. Maptime одночасно є гнучким та структурованим, створюючи простір для посібників з мапінгу, семінарів, поточних проєктів зі спільною метою та незалежним/спільним робочим часом.
+  am-wiki:
+    description: '{community} - сторінка у Вікі'
   at-matrix:
     description: Неофіційний чат в Matrix маперів з Австрії (німецька)
   at-wiki:
@@ -339,6 +344,8 @@ uk:
     description: Ласкаво просимо!
   br-telegram:
     extendedDescription: Приєднуйтесь до спільноти, щоб дізнатись більше про OpenStreetMap, щоб щось спитати або взяти участь у наших зустрічах. Запрошуємо всіх!
+  br-wiki:
+    description: WikiProject з інформацією та рекомендаціями щодо координації мапінгу в Бразилії.
   cape-coast-youthmappers:
     name: Університет Кейп-Кост - YouthMappers
     description: 'Приєднуйтесь до нас у Twitter: {url}'
@@ -717,6 +724,10 @@ uk:
   osm-deep-south-wiki:
     description: '{community} - сторінка у Вікі'
     extendedDescription: OpenStreetMap Далекий Південь – місцева спільнота маперів з  південно-східних штатів.
+  osm-delhi-xmpp:
+    name: OpenStreetMap Делі XMPP
+    description: 'Приєднуйтесь до нашого чату XMPP: {url}'
+    extendedDescription: XMPP чат OSM Делі; не має зʼєднання з будь-якими пропрієтарними мережами.
   OSM-Discord:
     name: OpenStreetMap World Discord
   OSM-Discourse:
@@ -730,10 +741,6 @@ uk:
     extendedDescription: Місцева спільнота маперів Гани, розповсюджуємо інформацію про проєкти OpenStreetMap та Humanitarian OpenStreetMap Team (HOT) в Гані. Приєднуйтесь до нас.
   osm-gh-website:
     description: Надає послуги та інформацію на основі OSM для місцевої спільноти у Гані
-  OSM-help:
-    name: OpenStreetMap Help
-    description: Поставте питання та отримайте відповіді на вебсайті із запитаннями та відповідями що підтримується спільнотою OSM.
-    extendedDescription: '{url} для всіх, хто потребує допомоги в OpenStreetMap. Неважливо, або ви новачок в мапінгу або вам потрібна відповідь на суто технічне питання, ми тут, щоб допомогти вам!'
   osm-hr:
     description: Інформація про OpenStreetMap в Хорватії
   osm-id:
@@ -761,6 +768,10 @@ uk:
     description: Мапери та користувачі OpenStreetMap в Індії
   osm-india-wiki:
     description: 'Все що вам треба знати про мапінг в Індії: {url}'
+  osm-india-xmpp:
+    name: OpenStreetMap Індія XMPP
+    description: 'Приєднуйтесь до нашого чату XMPP: {url}'
+    extendedDescription: 'XMPP чат індійської OSM спільноти; не має зʼєднання з будь-якими пропрієтарними мережами. Також доступний з Matrix через #osm-in:poddery.com'
   osm-iran-aparat:
     extendedDescription: Відео про все, що пов'язано з OpenStreetMap. Переважно перською.
   osm-iran-discord:
@@ -876,6 +887,10 @@ uk:
     name: OpenStreetMap Юта
     description: Мапери та користувачі OpenStreetMap з Солт-Лейк-Сіті
     extendedDescription: Серед напрямків діяльності семінари про мапінг, мапатони та дослідження місцевості та збір даних. Події відбуваються в районі SLC, принаймні їх початок. Ми запрошуємо як досвідчених маперів, так і новачків в OSM. Приєднуйтесь до створення мапи!
+  osm-west-bengal-xmpp:
+    name: OpenStreetMap Західна Бенгалія XMPP
+    description: 'Приєднуйтесь до нашого чату XMPP: {url}'
+    extendedDescription: XMPP чат OSM Західної Бенгалії.
   OSM-Wyoming:
     name: OpenStreetMap Вайомінг
     description: Мапери та користувачі OpenStreetMap у штаті Вайомінг
@@ -907,6 +922,8 @@ uk:
     extendedDescription: Приєднуйтесь до спільноти, щоб дізнатися більше про OpenStreetMap, поставити питання або взяти участь у наших зустрічах. Запрошуємо всіх!
   rs-wiki:
     description: Сторінка Wikiproject Сербії
+  sg-wiki:
+    description: '{community} - сторінка у Вікі'
   si-github:
     description: '{community} GitHub'
   si-ljubljana-wiki:

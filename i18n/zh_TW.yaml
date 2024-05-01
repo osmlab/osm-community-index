@@ -170,6 +170,7 @@ zh_TW:
     openstreetmapserbia: 開放街圖塞爾維亞
     openstreetmapseychelles: 開放街圖塞席爾
     openstreetmapsierraleone: 開放街圖獅子山
+    openstreetmapsingapore: 開放街圖新加坡
     openstreetmapslovenia: 開放街圖斯洛維尼亞
     openstreetmapsomalia: 開放街圖索馬利亞
     openstreetmapsouthafrica: 開放街圖南非
@@ -303,6 +304,8 @@ zh_TW:
     name: 地圖時間地拉那
     description: 與畫地圖相關的社交活動-尤其歡迎新手！
     extendedDescription: Maptime 是開放給所有等級和知識程度的學習環境，提供給初學者的國際教育支援。Maptime 同時具有彈性和架構的環境，創造畫地圖的教學、工作坊，分享共同目標的進行中計畫，以及獨立/協同的工作時間。
+  am-wiki:
+    description: '{community} Wiki 頁面'
   at-matrix:
     description: 澳地利非官方的德語 Matrix 頻道
   at-wiki:
@@ -341,6 +344,8 @@ zh_TW:
     description: 歡迎所有的圖客！
   br-telegram:
     extendedDescription: 加入社群以得知更多關於開放街圖的資訊，也可以問問題或是參與我們的會面。每個人都很歡迎加入！
+  br-wiki:
+    description: 巴西資訊與協調指南的 WikiProject 頁面
   cape-coast-youthmappers:
     name: 海角海岸大學年輕圖客
     description: '追隨我們的 Twitter： {url} '
@@ -736,10 +741,6 @@ zh_TW:
     extendedDescription: 迦納社群中的圖客，推廣迦納開放街圖和人道救援開放街圖計畫。加入我們吧！
   osm-gh-website:
     description: 提供嘉納在地社群 OSM 服務和資訊
-  OSM-help:
-    name: 開放街圖幫助論壇
-    description: 在開放街圖社群驅動的問答站，詢問問題以及得到答案。
-    extendedDescription: '{url} 是讓對開放街圖有需要幫助的人，無論你是初學者，或是有技術問題，來到這邊尋求協助吧！'
   osm-hr:
     description: 開放街圖在克羅埃西亞交流資訊的平台
   osm-id:
@@ -753,9 +754,6 @@ zh_TW:
     description: 在聯邦宇宙上的開放街圖印度的家
   osm-india-matrix:
     extendedDescription: OSM 印度非官方的聊天室，也與 osmindia Telegram 群組同步
-  osm-india-matrix2:
-    name: 開放街圖印度 Matrix
-    extendedDescription: 印度 OSM 社群的 Matrix 聊天室；未橋接至任何專有網路。也可以透過 XMPP 的 https://xmpp.link/#osm-in@conference.a3.pm?join 位址加入
   OSM-India-Puducherry-Facebook:
     name: Free Software Hardware Movement - Facebook
     description: FSHM Facebook 粉絲頁讓你知道社群活動
@@ -889,18 +887,14 @@ zh_TW:
     name: 開放街圖猶他
     description: 在鹽湖城區域的圖客與開放街圖使用者
     extendedDescription: 我們可能會舉辦的活動有：學習製圖工作坊、製圖派對與戶外資料蒐集。活動將會在鹽湖城區舉辦，至少一開始是這樣。我們正在尋找經驗豐富的圖客與 OSM 新手。加入我們，一起來製圖吧！
-  osm-wb-xmpp:
+  osm-west-bengal-xmpp:
     name: 開放街圖西孟加拉 XMPP
     description: '加入我們的 XMPP 聊天室：{url}'
-    extendedDescription: OSM 西孟加拉的 XMPP 聊天室
+    extendedDescription: OSM 西孟加拉的 XMPP 聊天室。
   OSM-Wyoming:
     name: 開放街圖懷俄明
     description: 在懷俄明州的圖客與開放街圖使用者
     extendedDescription: 開放街圖 (OpenStreetMap, OSM) 懷俄明是一個喜歡貢獻他們的心力建立自由地圖的一群地區協作夥伴。我們鼓勵我們所有的圖客組織或建議橫跨整個州的製圖活動。會面活動可以是簡單的社交活動、OSM 基礎到進階訓練，或是社群製圖派對。
-  osm-xmpp:
-    name: 開放街圖 XMPP
-    description: '加入我們的 XMPP 聊天室：{url}'
-    extendedDescription: OpenStreetMap 的通用英語 XMPP 聊天室；不會橋接到任何專有網路。
   osmcz-twitter:
     description: 追蹤捷克開放街圖 Twitter -  包括翻譯 WeeklyOSM！
   OSMF:
@@ -928,6 +922,8 @@ zh_TW:
     extendedDescription: 加入社群以得知更多關於開放街圖的資訊，也可以問問題或是參與我們的會面。每個人都很歡迎加入！
   rs-wiki:
     description: 開放街圖維基專案塞爾維亞頁面
+  sg-wiki:
+    description: '{community} Wiki 頁面'
   si-github:
     description: '{community} GitHub'
   si-ljubljana-wiki:

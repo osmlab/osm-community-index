@@ -2,7 +2,7 @@ es:
   _communities:
     freelibreopensourcesoftwarekosovaflossk: Free Libre Open Source Software Kosova (FLOSSK)
     geolibres: GeoLibres
-    kiribatiwomeninmapping: Mujeres de Kiribati en el mapeo
+    kiribatiwomeninmapping: Kiribatianas Cartógrafas
     mappingbotswana: Mapeo de Botsuana
     maptimebogota: MaptimeBogota
     maptimehrva: MaptimeHRVA
@@ -46,7 +46,7 @@ es:
     openstreetmapchad: OpenStreetMap Chad
     openstreetmapchile: OpenStreetMap Chile
     openstreetmapchina: OpenStreetMap China
-    openstreetmapcologne: OpenStreetMap Cologne
+    openstreetmapcologne: OpenStreetMap Colonia
     openstreetmapcolombia: OpenStreetMap Colombia
     openstreetmapcomunitatvalenciana: OpenStreetMap Comunitat Valenciana
     openstreetmapcostarica: OpenStreetMap Costa Rica
@@ -57,6 +57,7 @@ es:
     openstreetmapcz: OpenStreetMap CZ
     openstreetmapde: OpenStreetMap DE
     openstreetmapdeepsouth: OpenStreetMap Sur Profundo
+    openstreetmapdelhi: OpenStreetMap Delhi
     openstreetmapdenmark: OpenStreetMap Dinamarca
     openstreetmapdjibouti: OpenStreetMap Yibuti
     openstreetmapdominicanrepublic: OpenStreetMap República Dominicana
@@ -169,6 +170,7 @@ es:
     openstreetmapserbia: OpenStreetMap Serbia
     openstreetmapseychelles: OpenStreetMap Seychelles
     openstreetmapsierraleone: OpenStreetMap Sierra Leona
+    openstreetmapsingapore: OpenStreetMap Singapur
     openstreetmapslovenia: OpenStreetMap Eslovenia
     openstreetmapsomalia: OpenStreetMap Somalia
     openstreetmapsouthafrica: OpenStreetMap Sudáfrica
@@ -195,6 +197,7 @@ es:
     openstreetmapvenezuela: OpenStreetMap Venezuela
     openstreetmapvietnam: OpenStreetMap Vietnam
     openstreetmapwarszawa: OpenStreetMap Varsovia
+    openstreetmapwestbengal: OpenStreetMap Bengala Occidental
     openstreetmapwesternsahara: OpenStreetMap Sahara Occidental
     openstreetmapzambia: OpenStreetMap Zambia
     openstreetmapzimbabwe: OpenStreetMap Zimbabue
@@ -202,11 +205,11 @@ es:
   _defaults:
     aparat:
       name: '{community} en Aparat'
-      description: Suscríbase a nuestro canal Aparat
+      description: Suscríbete a nuestro canal de Aparat
       url: https://aparat.com/{account}
     discord:
       name: 'Discord de {community}'
-      description: Póngase en contacto con otros mapeadores en Discord
+      description: Contacta con otros mapeadores en Discord
       url: https://discord.gg/{account}
     discourse:
       name: 'Foro de la comunidad {community}'
@@ -214,7 +217,7 @@ es:
       url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
       name: '{community} en Facebook'
-      description: Únase a nuestra comunidad en Facebook
+      description: Únete a nuestra comunidad de Facebook
       url: https://www.facebook.com/{account}
     forum:
       name: 'Foro de {community}'
@@ -244,7 +247,7 @@ es:
       description: La cuenta oficial de Mastodon de {community}
     matrix:
       name: 'Chat de Matrix de {community}'
-      description: Únase a nuestro chat de Matrix de la comunidad
+      description: Únete a nuestro chat de Matrix de la comunidad
       url: https://matrix.to/#/{account}:matrix.org
     meetup:
       name: 'Meetup de {community}'
@@ -260,12 +263,12 @@ es:
       url: https://www.reddit.com/r/{account}
     signal:
       name: 'Signal de {community}'
-      description: Únase al chat de nuestra comunidad en Signal
+      description: Únete al chat de nuestra comunidad en Signal
     slack:
       name: 'Slack de {community}'
     telegram:
       name: 'Telegram de {community}'
-      description: Únase a nuestra comunidad en el chat de Telegram
+      description: Únete a nuestra comunidad en el chat de Telegram
       url: https://t.me/{account}
     threads:
       name: '{community} en Threads'
@@ -288,11 +291,11 @@ es:
       name: 'XMPP de {community}'
     youtube:
       name: '{community} en YouTube'
-      description: Suscríbase a nuestro canal de YouTube
+      description: Suscríbete a nuestro canal de YouTube
       url: https://www.youtube.com/channel/{account}
     zulip:
       name: 'Zulip de {community}'
-      description: Únase a nuestro chat comunitario en Zulip
+      description: Únete a nuestro chat comunitario de Zulip
   aberdeen-discord:
     name: Discord de OSM ABZ
   af-matrix:
@@ -301,25 +304,27 @@ es:
     name: Maptime Tirana
     description: ¡Eventos sociales organizados alrededor del mapeando - principiantes más bienvenidos!
     extendedDescription: Maptime es un entorno de aprendizaje abierto para todos los niveles y grados de conocimiento, que ofrece apoyo educativo intencional para el principiante. Maptime es a la vez flexible y estructurado, creando espacio para mapeando de tutoriales, talleres, proyectos en curso con un objetivo compartido, y tiempo de trabajo independiente/colaborativo.
+  am-wiki:
+    description: 'Página Wiki de {community}'
   at-matrix:
     description: Canal Matrix no oficial alemán para Austria
   at-wiki:
     description: 'Página wiki de {community}'
   Bahia-telegram:
-    extendedDescription: Únase a la comunidad para obtener más información sobre OpenStreetMap, hacer preguntas o participar en nuestras reuniones. ¡Todos son bienvenidos!
+    extendedDescription: Únete a la comunidad para obtener más información sobre OpenStreetMap, hacer preguntas o participar en nuestras reuniones. ¡Todos son bienvenidos!
   Bay-Area-OpenStreetMappers:
     name: OpenStreetMappers del área de la bahía
     description: Mejore OpenStreetMap en el área de la bahía
     extendedDescription: En este grupo se trata de hacer crecer la comunidad OpenStreetMap aquí en el Área de la Bahía. Nuestros eventos están abiertos a todos, desde entusiastas del código abierto, ciclistas, profesionales SIG, geocachers y más. Cualquier persona y todos los que estén interesados en mapas, creación de mapas y datos de mapa gratuitos pueden unirse a nuestro grupo y asistir a nuestros eventos.
   bd-facebook:
-    extendedDescription: ¿Mapeando en Bangladesh? ¿Tiene alguna pregunta, desea conectarse con la comunidad aquí? Únase a nosotros en {url}. ¡Todos son bienvenidos!
+    extendedDescription: ¿Mapeando en Bangladesh? ¿Tienes preguntas, quieres conectarte con la comunidad aquí? Únete a nosotros en {url}. ¡Todos son bienvenidos!
   be-chapter:
     description: Ayudamos a crecer y mejorar OpenStreetMap en Bélgica.
     extendedDescription: Si desea ayudar a mejorar y hacer crecer la comunidad de mapeo en Bélgica, para hacer que aún más personas se vuelvan locas por mapear, ¡OpenStreetMap Belgium es el lugar adecuado para usted!
   be-discourse:
     description: Un foro para discutir OpenStreetMap en Bélgica
   be-irc:
-    extendedDescription: 'Únase a #{account} en irc.oftc.net (puerto 6667), está conectado con el canal de chat Matrix'
+    extendedDescription: 'Únete a #{account} en irc.oftc.net (puerto 6667), está conectado con el canal de chat Matrix'
   be-matrix:
     description: ¡Todos los mapeadores son bienvenidos!
     extendedDescription: Sala de chat principal de la comunidad OSM belga. ¡No dudes en hacer preguntas para principiantes aquí!
@@ -339,6 +344,8 @@ es:
     description: ¡Todos los mapeadores son bienvenidos!
   br-telegram:
     extendedDescription: Únete a la comunidad para aprender más sobre OpenStreetMap, realizar preguntas o participar en nuestras reuniones. ¡Todos sois bienvenidos!
+  br-wiki:
+    description: WikiProyecto con información y pautas de coordinación para el mapeo en Brasil.
   cape-coast-youthmappers:
     name: Universidad de Cape Coast YouthMappers
     description: 'Síguenos en Twitter: {url}'
@@ -392,7 +399,7 @@ es:
     description: 'Página wiki de {community}'
   de-berlin-xmpp:
     name: OpenStreetMap Berlín-Brandenburg XMPP
-    description: 'Únase a nuestro chat multiusuario XMPP: {url}'
+    description: 'Únete a nuestro chat multiusuario XMPP: {url}'
   de-bochum-wiki:
     description: 'Página wiki de {community}'
   de-bonn-wiki:
@@ -409,7 +416,7 @@ es:
     description: 'Página wiki de {community}'
   de-hamburg-xmpp:
     name: OpenStreetMap Hamburgo XMPP
-    description: 'Únase a nuestro chat multiusuario de XMPP: {url}'
+    description: 'Únete a nuestro chat multiusuario de XMPP: {url}'
   de-karlsruhe-mailinglist:
     name: Lista de correo de Karlsruhe
   de-karlsruhe-meetup:
@@ -431,7 +438,7 @@ es:
     description: Editores y usuarios de OpenStreetMap en el área de Stuttgart
   de-telegram:
     name: Telegram de OpenStreetMap D-A-CH
-    description: Únase al supergrupo de Telegram OpenStreetMap D-A-CH en {url}
+    description: Únete al supergrupo de Telegram OpenStreetMap D-A-CH en {url}
   de-ulm_neuulm-meetup:
     name: Meetup de OpenStreetMap Ulm Neu-Ulm
     description: Editores y usuarios de OpenStreetMap en el área de Ulm y Neu-Ulm
@@ -443,9 +450,9 @@ es:
     description: Reunión de la comunidad y usuarios de OSM Kreis Viersen y Mönchengladbach
   de-xmpp:
     name: OpenStreetMap DE XMPP
-    description: 'Únase a nuestro chat multiusuario de XMPP: {url}'
+    description: 'Únete a nuestro chat multiusuario de XMPP: {url}'
   DF-telegram:
-    extendedDescription: Únase a la comunidad para obtener más información sobre OpenStreetMap, hacer preguntas o participar en nuestras reuniones. ¡Todos son bienvenidos!
+    extendedDescription: Únete a la comunidad para obtener más información sobre OpenStreetMap, hacer preguntas o participar en nuestras reuniones. ¡Todos son bienvenidos!
   dk-discourse:
     description: Un foro de debate sobre OpenStreetMap en Dinamarca
   ee-wiki:
@@ -469,14 +476,14 @@ es:
   fr-telegram:
     description: 'Un grupo de Telegram para la comunidad de OSM Francia: {url}'
   fr-xmpp:
-    description: Únase a osm-fr@chat.jabberfr.org
+    description: Únete a osm-fr@chat.jabberfr.org
   galicia-wiki:
     description: 'Todo lo que necesitas saber sobre el mapeo en Galicia: {url} (las herramientas del mundo OSM también están disponibles en gallego, ¡anímate!)'
   Galicia-Xeoinquedos-Twitter:
     name: Xeoinquedos en Twitter
-    description: Síganos en Twitter en {url}
+    description: Síguenos en Twitter en {url}
   gb-irc:
-    extendedDescription: 'Únase a #{account} en irc.oftc.net (puerto 6667), tenga paciencia y espere unos minutos si hace una pregunta'
+    extendedDescription: 'Únase a #{account} en irc.oftc.net (puerto 6667); sea paciente y espere unos minutos si hace una pregunta.'
   gb-mailinglist:
     description: Talk-gb es la lista principal de foros de comunicación para la comunidad OSM del Reino Unido (incluida Irlanda del Norte)
   geogeeks_perth_meetup:
@@ -489,7 +496,7 @@ es:
   gr-matrix:
     name: Matrix de OpenStreetMap Grecia
   hr-irc:
-    description: 'Únase a #{account} en irc.freenode.org (puerto 6667)'
+    description: 'Únete a #{account} en irc.freenode.org (puerto 6667)'
   hr-wiki:
     description: Página de Wikiproyecto para Croacia
   hu-facebook-group:
@@ -510,17 +517,17 @@ es:
     description: 'Página wiki de {community}'
   humanitarian-osm-tr-slack:
     name: Slack Humanitario OpenStreetMap Turquía
-    description: Únase al canal Humanitario OpenStreetMap Turquía en el servidor Slack de HOTOSM en {url}
+    description: Únete al canal Humanitario OpenStreetMap Turquía en el servidor Slack de HOTOSM en {url}
   id-facebook:
-    extendedDescription: ¿Mapeando en Indonesia? ¿Tiene preguntas, quiere conectarse con la comunidad aquí? Únase a nosotros en {url}. ¡Todos son bienvenidos!
+    extendedDescription: ¿Mapeando en Indonesia? ¿Tienes preguntas, quieres conectarte con la comunidad aquí? Únete a nosotros en {url}. ¡Todos son bienvenidos!
   id-facebook-group:
     name: 'Grupo de Facebook de {community}'
-    extendedDescription: ¿Mapeando en Indonesia? ¿Tiene preguntas, quiere conectarse con la comunidad aquí? Únase a nosotros en {url}. ¡Todos son bienvenidos!
+    extendedDescription: ¿Mapeando en Indonesia? ¿Tienes preguntas, quieres conectarte con la comunidad aquí? Únete a nosotros en {url}. ¡Todos son bienvenidos!
   ireland-chapter:
     description: Ayudamos a crecer y mejorar OpenStreetMap en Irlanda.
     extendedDescription: OpenStreetMap Irlanda ofrece una voz de defensa para el proyecto OpenStreetMap en la isla de Irlanda, además de interactuar con otras iniciativas abiertas.
   ireland-irc:
-    extendedDescription: 'Únase a #{account} en irc.oftc.net (puerto 6667), tenga paciencia y espere unos minutos si hace una pregunta'
+    extendedDescription: 'Únase a #{account} en irc.oftc.net (puerto 6667); sea paciente y espere unos minutos si hace una pregunta.'
   ireland-matrix:
     description: 'Una puerta de enlace de Matrix para el canal IRC de OSM Irlanda: {url}'
   ireland-meetup:
@@ -537,7 +544,7 @@ es:
     description: 'GitHub de {community}'
   ko-osm:
     description: Ayudamos a crecer y mejorar OpenStreetMap en Corea.
-    extendedDescription: Si está contribuyendo o está interesado en contribuir con OpenStreetMap, no dude en unirse a nosotros. ¡Estamos listos para aceptar novatos en cualquier momento!
+    extendedDescription: Si estás contribuyendo o estás interesado en contribuir a OpenStreetMap, no dudes en unirte a nosotros. Estamos listos para aceptar novatos en cualquier momento.
   kosovo-flossk:
     name: Free Libre Open Source Software Kosova (FLOSSK)
     description: Promoviendo el software libre desde 2009
@@ -557,7 +564,7 @@ es:
   latam-wiki:
     description: Todo lo que necesitas saber sobre el mapeo en Latinoamérica
   lk-facebook:
-    extendedDescription: ¿Mapeando en Sri Lanka? ¿Tiene preguntas, quiere conectarse con la comunidad aquí? Únase a nosotros en {url}. ¡Todos son bienvenidos!
+    extendedDescription: ¿Mapeando en Sri Lanka? ¿Tienes preguntas, quieres conectarte con la comunidad aquí? Únete a nosotros en {url}. ¡Todos son bienvenidos!
   local-polynesie-mailinglist:
     extendedDescription: Para informar y conocer las acciones de la comunidad OSM, buscar respuestas a preguntas, coordinar y todo lo que la comunidad OSM pueda tener que decir. ¡Todos son bienvenidos!
   lu-github:
@@ -627,15 +634,15 @@ es:
     description: Registrarse en {signupUrl}
   md-googlegroup:
     name: 'Grupos de Google de {community}'
-    description: Únase a {community} en Grupos de Google
+    description: Únete a {community} en Grupos de Google
   me-telegram:
     description: ¡Todos son bienvenidos! Regístrate en {signupUrl}
   mm-facebook:
-    extendedDescription: ¿Mapeando en Birmania? ¿Tienes preguntas, quiere contactarse con la comunidad aquí? Únase a nosotros en {url}. ¡Todos son bienvenidos!
+    extendedDescription: ¿Mapeando en Myanmar? ¿Tienes preguntas, quieres conectarte con la comunidad aquí? Únete a nosotros en {url}. ¡Todos son bienvenidos!
   mn-facebook:
-    extendedDescription: ¿Mapeando en Mongolia? ¿Tiene preguntas, quiere conectarse con la comunidad aquí? Únase a nosotros en {url}. ¡Todos son bienvenidos!
+    extendedDescription: ¿Mapeando en Mongolia? ¿Tienes preguntas, quieres conectarte con la comunidad aquí? Únete a nosotros en {url}. ¡Todos son bienvenidos!
   mt-irc:
-    extendedDescription: 'Únase a #{account} en irc.oftc.net (puerto 6667), tenga paciencia y espere unos minutos si hace una pregunta'
+    extendedDescription: 'Únase a #{account} en irc.oftc.net (puerto 6667); sea paciente y espere unos minutos si hace una pregunta.'
   nl-matrix:
     description: ¡Todos los mapeadores son bienvenidos!
   no-irc:
@@ -648,10 +655,10 @@ es:
     description: Reunión social de mapeadores y usuarios de East Midlands
     extendedDescription: Un grupo se ha estado reuniendo desde marzo de 2011, inicialmente en Nottingham, y más recientemente en Derby, y de vez en cuando en otras partes de East Midlands. Estas son reuniones sociales, pero son un excelente lugar para venir y hacer preguntas específicas sobre OSM, ya sea en el área o en general. En los meses de verano usualmente hacemos un mapeo ligero durante una hora en las cercanías de nuestro lugar de reunión. El grupo como un todo tiene un interés especial en el mapeo de los derechos de paso públicos y de vez en cuando tiene reuniones de mapeo para este propósito.
   np-facebook:
-    extendedDescription: ¿Mapeando en Nepal? ¿Tiene preguntas, quiere conectarse con la comunidad aquí? Únase a nosotros en {url}. ¡Todos son bienvenidos!
+    extendedDescription: ¿Mapeando en Nepal? ¿Tienes preguntas, quieres conectarte con la comunidad aquí? Únete a nosotros en {url}. ¡Todos son bienvenidos!
   Open-Source-San-Jose-Discord:
     name: Discord de Open Source San José
-    description: 'Ponte en contacto con otros mapeadores en Discord! Después de registrarte, únete al canal #🗺openstreetmap'
+    description: 'Contacta con otros mapeadores en Discord. Después de registrarte, únete al canal #🗺openstreetmap'
   Open-Source-San-Jose-Slack:
     name: Slack de Open Source San José
     description: '¡Todos son bienvenidos! Regístrate en {signupUrl}, luego únete al canal #proj-osm.'
@@ -717,30 +724,30 @@ es:
   osm-deep-south-wiki:
     description: 'Página wiki de {community}'
     extendedDescription: OpenStreetMap Sur Profundo es una comunidad de mapeo local del sureste de Estados Unidos.
+  osm-delhi-xmpp:
+    name: OpenStreetMap Delhi XMPP
+    description: 'Únete a nuestra sala XMPP: {url}'
+    extendedDescription: Sala XMPP para OSM Delhi; no conectada a ninguna red propietaria.
   OSM-Discord:
     name: Discord de OpenStreetMap Mundial
   OSM-Discourse:
     name: Foro de la comunidad de OpenStreetMap
     description: Un lugar compartido para conversar sobre OpenStreetMap
   OSM-Facebook:
-    description: Dénos me gusta en Facebook para recibir noticias y actualizaciones sobre OpenStreetMap.
+    description: Dale a Me gusta en Facebook para recibir noticias y actualizaciones sobre OpenStreetMap.
   osm-fj:
     description: Proporcionar servicios e información OSM para la comunidad local en Fiyi
   osm-gh-facebook:
     extendedDescription: Mapeadores en la comunidad de Ghana, promocionando los proyectos OpenStreetMap y Humanitarian OpenStreetMap Team (HOT) en Ghana. Únete a nosotros.
   osm-gh-website:
     description: Proporcionar servicios e información OSM para la comunidad local en Ghana
-  OSM-help:
-    name: Ayuda de OpenStreetMap
-    description: Haga una pregunta y obtenga respuestas en el sitio de preguntas y respuestas dirigido por la comunidad de OSM.
-    extendedDescription: '{url} es para todos los que necesitan ayuda con OpenStreetMap. Si usted es un mapeador principiante o tiene una pregunta técnica, ¡estamos aquí para ayudarlo!'
   osm-hr:
     description: La plataforma de información sobre OpenStreetMap en Croacia
   osm-id:
     description: Proporcionar servicios e información OSM para la comunidad local en Indonesia
   OSM-India-facebook:
     description: Mejore OpenStreetMap en India
-    extendedDescription: ¿Mapeando en India? ¿Tiene preguntas, quiere conectarse con la comunidad aquí? Únase a nosotros en {url}. ¡Todos son bienvenidos!
+    extendedDescription: ¿Mapeando en India? ¿Tienes preguntas, quieres conectarte con la comunidad aquí? Únete a nosotros en {url}. ¡Todos son bienvenidos!
   osm-india-github:
     description: 'Codifique con nosotros: {url}'
   osm-india-mastodon:
@@ -761,12 +768,16 @@ es:
     description: Editores y usuarios de OpenStreetMap en India
   osm-india-wiki:
     description: 'Todo lo que necesitas saber sobre el mapeo en la India: {url}'
+  osm-india-xmpp:
+    name: OpenStreetMap India XMPP
+    description: 'Únete a nuestra sala XMPP: {url}'
+    extendedDescription: 'Sala XMPP para la comunidad OSM de India; no conectada a ninguna red propietaria. También disponible desde Matrix a través de #osm-in:poddery.com'
   osm-iran-aparat:
     extendedDescription: Un buen recurso de videos sobre cualquier cosa relacionada con OpenStreetMap. Principalmente en persa.
   osm-iran-discord:
-    extendedDescription: Un servidor de Discord para OpenStreetMap Irán. ¡Siéntase libre de unirse!
+    extendedDescription: Un servidor Discord para OpenStreetMap Irán. Siéntete libre de unirte.
   osm-iran-telegram:
-    extendedDescription: Le invitamos a unirse a nuestro canal de Telegram en {url}. También tenemos un supergrupo de muchos mapeadores interesados ​​en Irán. Encuentre el enlace en la biografía del canal.
+    extendedDescription: Te invitamos a unirte a nuestro canal de Telegram en {url}. También tenemos un supergrupo de muchos mapeadores interesados ​​en Irán. Encuentra el enlace en la biografía del canal.
   OSM-japan-facebook:
     description: Editores y usuarios de OpenStreetMap en Japón
   OSM-japan-slack:
@@ -781,14 +792,14 @@ es:
     extendedDescription: OSM es una comunidad local para individuos interesados ​​en OpenStreetMap que incluye organizaciones, desarrolladores y capítulos de YouthMappers en el país.
   OSM-Kerala-facebook:
     description: Mejore OpenStreetMap en Kerala
-    extendedDescription: ¿Mapeando en Kerala? ¿Tiene preguntas, quiere conectarse con la comunidad aquí? Únase a nosotros en {url}. ¡Todos son bienvenidos!
+    extendedDescription: ¿Mapeando en Kerala? ¿Tienes preguntas, quieres conectarte con la comunidad aquí? Únete a nosotros en {url}. ¡Todos son bienvenidos!
   osm-kerala-github:
     description: 'Codifique con nosotros: {url}'
   osm-kerala-matrix:
-    description: Mapeamos Kerala juntos. Únase a nuestro grupo Matrix
+    description: Mapeamos Kerala juntos. Únete a nuestro grupo Matrix.
     extendedDescription: Sala de chat no oficial para OSM Kerala, también conectada al grupo osmkerala Telegram
   osm-kerala-telegram:
-    description: Mapeamos Kerala juntos. Únase a nuestro grupo de telegram. {url}
+    description: Mapeamos Kerala juntos. Únete a nuestro grupo de Telegram. {url}
   osm-kerala-website:
     description: Ayudamos a crecer y mejorar OpenStreetMap en Kerala.
   osm-kerala-wiki:
@@ -853,18 +864,18 @@ es:
   osm-td-facebook:
     description: Mejore OpenStreetMap en Chad
   OSM-Telegram:
-    description: Únase al supergrupo global Telegram de OpenStreetMap en {url}
+    description: Únete al supergrupo global Telegram de OpenStreetMap en {url}
   OSM-TH-CNX-meetup:
     name: Meetup de OSM en Chiang Mai
     description: Reunión irregular de la comunidad OpenStreetMap en Chiang Mai
-    extendedDescription: Los miembros de la comunidad OpenStreetMap se reúnen cada pocos meses en Chiang Mai. Póngase en contacto y eche un vistazo a {url} para ver cuándo está programada la próxima reunión
+    extendedDescription: Los miembros de la comunidad de OpenStreetMap se reúnen cada pocos meses en Chiang Mai. Ponte en contacto y visita {url} para ver cuándo está programada la próxima reunión.
   osm-toronto-meetup:
     description: Editores y usuarios de OpenStreetMap en el área de Toronto
   osm-tw:
     description: Ayudamos a crecer y mejorar OpenStreetMap en Taiwán.
   OSM-US:
     description: Ayudamos a crecer y mejorar OpenStreetMap en los Estados Unidos.
-    extendedDescription: 'Apoyamos OpenStreetMap celebrando conferencias anuales, proporcionando recursos comunitarios, creando alianzas y dando a conocer. Únase a OpenStreetMap EE.UU. aquí: {signupUrl}'
+    extendedDescription: 'Apoyamos a OpenStreetMap organizando conferencias anuales, proporcionando recursos comunitarios, estableciendo alianzas y difundiendo el mensaje. Únete a OpenStreetMap EE.UU. aquí: {signupUrl}'
     events:
       mappingusa2022:
         name: Mapping USA 2022
@@ -875,7 +886,11 @@ es:
   OSM-Utah:
     name: OpenStreetMap Utah
     description: Editores y usuarios de OpenStreetMap en el área de Salt Lake City
-    extendedDescription: Las actividades pueden incluir cosas como talleres para Aprender a Hacer Mapas, actividades de mapeo y recolección de datos al aire libre. Los eventos tendrán lugar en el área de SLC, al menos inicialmente. Estamos buscando mapeadores experimentados, así como personas nuevas en OSM. ¡Únase y mapeemos juntos!
+    extendedDescription: Las actividades pueden incluir cosas como talleres de Aprender a Mapear, fiestas de mapeo y recolección de datos al aire libre. Los eventos se realizarán en el área de SLC, al menos inicialmente. Estamos buscando mapeadores experimentados y también personas nuevas en OSM. Únete y hagamos algunos mapas.
+  osm-west-bengal-xmpp:
+    name: OpenStreetMap Bengala Occidental XMPP
+    description: 'Únete a nuestra sala XMPP: {url}'
+    extendedDescription: Sala XMPP para OSM Bengala Occidental.
   OSM-Wyoming:
     name: OpenStreetMap Wyoming
     description: Editores y usuarios de OpenStreetMap en el área de Wyoming
@@ -904,9 +919,11 @@ es:
   rs-osm:
     description: La plataforma de información sobre OpenStreetMap en Serbia
   RS-telegram:
-    extendedDescription: Únase a la comunidad para obtener más información sobre OpenStreetMap, hacer preguntas o participar en nuestras reuniones. ¡Todos son bienvenidos!
+    extendedDescription: Únete a la comunidad para obtener más información sobre OpenStreetMap, hacer preguntas o participar en nuestras reuniones. ¡Todos son bienvenidos!
   rs-wiki:
     description: Página de Wikiproyecto para Serbia
+  sg-wiki:
+    description: 'Página Wiki de {community}'
   si-github:
     description: 'GitHub de {community}'
   si-ljubljana-wiki:
@@ -921,7 +938,7 @@ es:
   talk-au:
     description: Lugar para que los mapeadores australianos chateen
   talk-bo:
-    extendedDescription: ¿Mapeando en Bolivia? ¿Tiene preguntas, quiere conectarse con la comunidad aquí? Únase a nosotros en {url}. ¡Todos son bienvenidos!
+    extendedDescription: ¿Mapeando en Bolivia? ¿Tienes preguntas, quieres conectarte con la comunidad aquí? Únete a nosotros en {url}. ¡Todos son bienvenidos!
   talk-mg:
     description: Lugar para contribuidores, comunidades y usuarios de OpenStreetMap en Madagascar para compartir y debatir.
   talk-nz:
@@ -945,7 +962,7 @@ es:
     description: Únete a la comunidad de OpenStreetMap Ucrania en Slack. Regístrese en {signupUrl}
   uk-localchapter:
     description: El Capítulo local oficial para el Reino Unido (incluida Irlanda del Norte)
-    extendedDescription: 'Apoyamos OpenStreetMap mediante la organización de eventos, el suministro de recursos a la comunidad, la creación de asociaciones y la difusión. Únase a OpenStreetMap Reino Unido aquí: {signupUrl}'
+    extendedDescription: 'Apoyamos a OpenStreetMap organizando eventos, proporcionando recursos comunitarios, estableciendo alianzas y difundiendo el mensaje. Únete a OpenStreetMap Reino Unido aquí: {signupUrl}'
   uk-london-mastodon:
     name: OpenStreetMap London en Mastodon
     description: 'OpenStreetMap London en Mastodon: {url}'
@@ -965,8 +982,8 @@ es:
     name: Lista de correo de Talk-us-newyork
     description: Lista de correo de la comunidad OSM del estado de Nueva York
   uy-irc:
-    description: 'Únase a #{account} en irc.freenode.org (puerto 6667)'
-    extendedDescription: 'Únase a #{account} en irc.freenode.org'
+    description: 'Únete a #{account} en irc.freenode.org (puerto 6667)'
+    extendedDescription: 'Únete a #{account} en irc.freenode.org'
   vn-mailinglist:
     description: Lista de correo sobre OpenStreetMap en Vietnam o en vietnamita
   YerCizenler-TR:
@@ -1080,7 +1097,7 @@ es:
   ym-Grand-Gedeh-County-Community-College:
     name: YouthMappers en el Colegio Comunitario del Condado de Grand Gedeh
     description: Capítulo de los YouthMappers en el colegio comunitario de Grand Gedeh County
-    extendedDescription: El único propósito de los Youth Mappers de GGCCC es poner lugares en Liberia y sus alrededores que no estén en el mapa. Reunimos a jóvenes de la universidad dentro del Colegio Comunitario de Grand Gedeh para que cumplan con su deber de unirse y traer estos lugares a la luz del lugar geográficamente.
+    extendedDescription: El único propósito de los Youth Mappers de GGCCC es poner lugares dentro y alrededor de Liberia que no están en el mapa. Reunimos a jóvenes del colegio dentro del Grand Gedeh Community College para que sea su deber unirse y llevar estos lugares a la luz geográficamente.
   ym-Gujarat-University:
     name: CCIM en Ahmedabad
     description: Capítulo de los YouthMappers en la Universidad de Gujarat
@@ -1330,7 +1347,7 @@ es:
   ym-Universidade-Eduardo-Mondlane:
     name: Comunidad YouthMappers Mozambique
     description: Capítulo de YouthMappers en la Universidade Eduardo Mondlane
-    extendedDescription: Somos un grupo de estudiantes que pretende unirse a la sociedad mozambiqueña para crear una comunidad resistente de mapeo humanitario. La comunidad tiene la intención de mapear la ocupación física de nuestro país y crear datos geográficos abiertos, accesibles al público y que puedan usarse en varias áreas sin costos asociados.
+    extendedDescription: Somos un grupo de estudiantes que tiene la intención de unirse a la sociedad mozambiqueña para crear una comunidad resiliente de mapeo humanitario. La comunidad pretende mapear la ocupación física de nuestro país y crear datos geográficos abiertos, accesibles al público y que puedan ser utilizados en varias áreas sin costos asociados.
   ym-Universit-de-NZrkor:
     name: YouthMappers N'Zérékoré
     description: Capítulo de YouthMappers en la Universidad de N’Zérékoré

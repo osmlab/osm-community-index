@@ -22,6 +22,7 @@ pt_BR:
     openstreetmapbelarus: OpenStreetMap Bielorrússia
     openstreetmapbelgium: OpenStreetMap Bélgica
     openstreetmapbelize: OpenStreetMap Belize
+    openstreetmapbengaluru: OpenStreetMap Bangalore
     openstreetmapbenin: OpenStreetMap Benim
     openstreetmapberlin: OpenStreetMap Berlim
     openstreetmapbivccvl: OpenStreetMap BI-VC-CVL
@@ -56,6 +57,7 @@ pt_BR:
     openstreetmapcz: OpenStreetMap República Tcheca
     openstreetmapde: OpenStreetMap Alemanha
     openstreetmapdeepsouth: OpenStreetMap Deep South
+    openstreetmapdelhi: OpenStreetMap Déli
     openstreetmapdenmark: OpenStreetMap Dinamarca
     openstreetmapdjibouti: OpenStreetMap Djibuti
     openstreetmapdominicanrepublic: OpenStreetMap República Dominicana
@@ -133,6 +135,7 @@ pt_BR:
     openstreetmapmichigan: OpenStreetMap Michigan
     openstreetmapmoldova: OpenStreetMap Moldávia
     openstreetmapmongolia: OpenStreetMap Mongólia
+    openstreetmapmontenegro: OpenStreetMap Montenegro
     openstreetmapmontrouge: OpenStreetMap Montrouge
     openstreetmapmorocco: OpenStreetMap Marrocos
     openstreetmapmunchen: OpenStreetMap Munique
@@ -167,6 +170,7 @@ pt_BR:
     openstreetmapserbia: OpenStreetMap Sérvia
     openstreetmapseychelles: OpenStreetMap Seychelles
     openstreetmapsierraleone: OpenStreetMap Serra Leoa
+    openstreetmapsingapore: OpenStreetMap Singapura
     openstreetmapslovenia: OpenStreetMap Eslovênia
     openstreetmapsomalia: OpenStreetMap Somália
     openstreetmapsouthafrica: OpenStreetMap África do Sul
@@ -193,6 +197,7 @@ pt_BR:
     openstreetmapvenezuela: OpenStreetMap Venezuela
     openstreetmapvietnam: OpenStreetMap Vietnã
     openstreetmapwarszawa: OpenStreetMap Varsóvia
+    openstreetmapwestbengal: OpenStreetMap Bengala Ocidental
     openstreetmapwesternsahara: OpenStreetMap Saara Ocidental
     openstreetmapzambia: OpenStreetMap Zâmbia
     openstreetmapzimbabwe: OpenStreetMap Zimbábue
@@ -299,6 +304,8 @@ pt_BR:
     name: Maptime Tirana
     description: Eventos sociais organizados sobre mapeamento - iniciantes são muito bem-vindos!
     extendedDescription: O Maptime é um ambiente de aprendizagem aberto para todos os níveis e graus de conhecimento, oferecendo suporte educacional intencional para o iniciante. O Maptime é simultaneamente flexível e estruturado, criando espaço para tutoriais de mapeamento, workshops, projetos em curso com um objectivo partilhado e tempo de trabalho independente ou colaborativo.
+  am-wiki:
+    description: 'Página wiki {community}'
   at-matrix:
     description: Canal Matrix em alemão não-oficial para a Áustria
   at-wiki:
@@ -335,17 +342,37 @@ pt_BR:
     name: 'Grupo Facebook {community}'
   bo-matrix:
     description: Todos os mapeadores são bem-vindos!
+  br-telegram:
+    extendedDescription: Junte-se à comunidade para aprender mais sobre o OpenStreetMap, fazer perguntas ou participar dos nossos encontros. Todos são bem-vindos!
+  br-wiki:
+    description: WikiProject com informação e orientações de coordenação para mapear no Brasil.
   cape-coast-youthmappers:
     name: YouthMappers da Universidade de Cape Coast
     description: 'Siga-nos no Twitter: {url}'
     extendedDescription: Esta é a descrição oficial do capítulo Youth Mappers da Universidade de Cape Coast, no Gana. adoramos mapas, os dados abertos e ajudar os mais vulneráveis.
+  castilla-y-leon-wiki:
+    description: 'Tudo o que você precisa de saber sobre mapeamento em Castela e Leão: {url}'
+  cat-github:
+    description: Projetos da comunidade OpenStreetMap dos Países Catalães no GitHub
+  cat-matrix:
+    description: Grupo matrix para a comunidade OpenStreetMap dos Países Catalães
+  cat-twitch:
+    name: Canal Twitch do {community}
+    description: Edições OSM ao vivo, HOTosm, OpenData e GIS
   cat-wiki:
     description: 'Espaço de coordenação para a comunidade OpenStreetMap nos países catalães: {url}'
   cd-chapter:
     name: OpenStreetMap RDC
+    description: De rua em rua, vamos mapear o nosso país...
+    extendedDescription: Somos apaixonados pelo projeto OSM, compartilhando parte do nosso tempo para tornar o projeto conhecido por outros. Ainda somos poucos, junte-se a nós!
   Central-Pennsylvania-OSM:
     name: Pensilvânia central OSM
     description: Comunidade de mapeamento on-line baseada no State College, PA
+  ch-mailinglist:
+    name: Lista de discussão do OpenStreetMap Suíça
+    description: Lista de discussão para a Suíça
+  de-aachen-wiki:
+    description: 'Página wiki {community}'
   de-berlin-mailinglist:
     name: Lista de discussão de Berlim
   de-berlin-wiki:
@@ -354,6 +381,8 @@ pt_BR:
     description: 'Página wiki {community}'
   de-bonn-wiki:
     description: 'Página wiki {community}'
+  de-bremen-mailinglist:
+    name: Lista de discussão de Bremen
   de-bremen-wiki:
     description: 'Página wiki {community}'
   de-cologne-wiki:
@@ -362,12 +391,17 @@ pt_BR:
     description: 'Página wiki {community}'
   de-dusseldorf-wiki:
     description: 'Página wiki {community}'
+  de-karlsruhe-mailinglist:
+    name: Lista de discussão de Karlsruhe
   de-luneburg-wiki:
     description: 'Página wiki {community}'
   de-munchen-wiki:
     description: 'Página wiki {community}'
+  de-mv-mailinglist:
+    name: Lista de discussão de Meclemburgo-Pomerânia Ocidental
   de-ostwestfalen-lippe-mailinglist:
     name: Lista de discussão OWL
+    description: Lista de discussão de Vestfália Oriental-Lipa
   de-ulm_neuulm-meetup:
     description: Mapeadores e usuários do OpenStreetMap na área de Ulm e Neu-Ulm
   DF-telegram:
@@ -427,6 +461,7 @@ pt_BR:
     name: Slack Maptime Oceania
     description: Cadastre-se em {signupUrl}
   no-mailinglist:
+    name: 'Lista de discussão {community}'
     description: Lista de discussão para usuários, desenvolvedores e entusiastas do OpenStreetMap na Noruega
   Nottingham-OSM-pub-meetup:
     name: Encontro mensal no bar em Midlands Orientais (Nottingham)
@@ -469,10 +504,6 @@ pt_BR:
     description: Curta-nos no Facebook para novidades e atualizações sobre o OpenStreetMap.
   osm-gh-facebook:
     extendedDescription: A comunidade de cartógrafos do Gana está a promover os projetos OpenStreetMap e Humanitarian OpenStreetMap Team (HOT) no Gana. Junte-se a nós.
-  OSM-help:
-    name: Ajuda do OpenStreetMap
-    description: Faça uma pergunta e obtenha respostas no site de respostas OSM mantido pela comunidade.
-    extendedDescription: '{url} é para todos que precisem de ajuda com o OpenStreetMap.  Se você for iniciante ou tem uma questão técnica, estamos aqui para ajudar!'
   OSM-India-facebook:
     description: Melhore o OpenStreetMap na Índia
     extendedDescription: Mapeando na Índia? Tem dúvidas, quer conectar-se com a comunidade aqui?  Junte-se a nós em {url}.  Todos são bem-vindos!
@@ -503,6 +534,8 @@ pt_BR:
   osm-mg-facebook:
     description: Grupo malgaxe no Facebook para pessoas interessadas no OpenStreetMap.
   osm-michigan-wiki:
+    description: 'Página wiki {community}'
+  osm-ohio-wiki:
     description: 'Página wiki {community}'
   OSM-PE:
     description: Notícias e recursos para a comunidade OpenStreetMap do Peru
@@ -554,6 +587,8 @@ pt_BR:
     description: Siga-nos no Twitter em {url}
   RS-telegram:
     extendedDescription: Entre na comunidade para aprender mais sobre o OpenStreetMap, fazer perguntas ou participar dos nossos encontros. Todos são bem-vindos!
+  sg-wiki:
+    description: 'Página wiki {community}'
   si-ljubljana-wiki:
     description: 'Página wiki {community}'
   si-wiki:
@@ -565,6 +600,14 @@ pt_BR:
     description: 'OpenStreetMap Londres no Twitter: {url}'
   uk-london-wiki:
     description: 'Página wiki {community}'
+  us-massachusetts-mailinglist:
+    name: Lista de discussão de Massachusetts
+    description: Lista de discussão para a comunidade OSM de Massachusetts
+  us-newyork-mailinglist:
+    name: Lista de discussão de Nova Iorque
+    description: Lista de discussão para a comunidade OSM do estado de Nova Iorque
+  vn-mailinglist:
+    description: Lista de discussão sobre o OpenStreetMap no Vietnã ou em vietnamita.
   ym-Dedan-Kimathi-University-of-Technology:
     name: GDEV
   ym-Kwame-Nkrumah-University-of-Science-and-Technology:
@@ -591,5 +634,25 @@ pt_BR:
     name: Clube Ecológico
   ym-University-of-Ghana:
     name: Universidade de Ghana YouthMappers
+  ym-University-of-Maryland-College-Park:
+    name: Clube de Geografia da Universidade de Maryland em College Park
+  ym-University-of-Nairobi:
+    name: Associação dos Estudantes de Engenharia Aeroespacial da Universidade de Nairóbi
+    description: YouthMappers capítulo da Universidade de Nairóbi
+  ym-University-of-Pretoria:
+    name: Centro de Ciências de Geo Informação (Centre for Geoinformation Science)
+  ym-University-of-Rwanda-Huye-Campus:
+    name: Ruanda YouthMappers
+  ym-University-of-Southern-California:
+    name: SC Mappers
+  ym-University-of-the-West-Indies-Mona-Campus:
+    name: Bibliotecas de Outreach - ODL
+  ym-University-of-Zimbabwe:
+    name: UZMappers
+  ym-Villanova-University:
+    name: Os Villanova Globeplotters
   ym-Western-Michigan-University:
     name: Clube de Geografia
+  ym-Yarmouk-University:
+    name: YouthMappers na Universidade de Yarmouk
+    description: YouthMappers capítulo da Universidade de Yarmouk

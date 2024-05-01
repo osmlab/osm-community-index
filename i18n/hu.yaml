@@ -209,7 +209,7 @@ hu:
       description: '{community} hivatalos fóruma'
       url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
-      name: '{community} a Facebook-on'
+      name: '{community} a Facebookon'
       description: Csatlakozz közösségünkhöz a Facebookon!
       url: https://www.facebook.com/{account}
     forum:
@@ -245,7 +245,7 @@ hu:
     osm-lc:
       name: '{community}'
     reddit:
-      name: '{community} a Reddit-en'
+      name: '{community} a Redditen'
       url: https://www.reddit.com/r/{account}
     signal:
       name: '{community} Signal'
@@ -256,6 +256,7 @@ hu:
       name: '{community} Telegram'
       url: https://t.me/{account}
     twitter:
+      name: '{community} az 𝕏-en'
       url: https://twitter.com/{account}
     website:
       name: '{community}'
@@ -423,10 +424,6 @@ hu:
     name: OpenStreetMap World Discord
   OSM-Facebook:
     description: A OpenStreetMappel kapcsolatos hírekért és frissítésekért kedvelj minket Facebookon.
-  OSM-help:
-    name: OpenStreetMap Súgó
-    description: Tegyél fel kérdéseket az OSM közösségi kérdezz-felelek oldalán.
-    extendedDescription: '{url} elérhető bárkinek, aki OpenStreetMappel kapcsolatban szeretne segítséget. Ha kezdő szerkesztő vagy, vagy technikai kérdésed van, szívesen segítünk!'
   osm-india-github:
     description: 'Kódolj velünk: {url}'
   osm-india-website:

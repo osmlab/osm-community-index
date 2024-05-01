@@ -170,6 +170,7 @@ fr:
     openstreetmapserbia: OpenStreetMap Serbie
     openstreetmapseychelles: OpenStreetMap Seychelles
     openstreetmapsierraleone: OpenStreetMap Sierra Leone
+    openstreetmapsingapore: OpenStreetMap Singapour
     openstreetmapslovenia: OpenStreetMap Slovénie
     openstreetmapsomalia: OpenStreetMap Somalie
     openstreetmapsouthafrica: OpenStreetMap Afrique du Sud
@@ -303,6 +304,8 @@ fr:
     name: Maptime Tirana
     description: Événements sociaux organisés autour de la cartographie — les débutants sont les bienvenus !
     extendedDescription: Maptime est un environnement d'apprentissage ouvert pour tous les niveaux et degrés de connaissance, offrant un support éducatif volontaire pour le débutant. Maptime est aussi flexible que structuré, créant un espace pour les tutoriels de cartographie, les ateliers, les projets en cours avec un but commun et des temps de travail indépendants ou communs.
+  am-wiki:
+    description: 'Page Wiki de {community}'
   at-matrix:
     description: Chaîne Matrix non-officelle allemande pour l’Autriche
   at-wiki:
@@ -685,6 +688,10 @@ fr:
     description: Tout ce que vous devez savoir sur la cartographie en Argentine.
   osm-at:
     description: La plateforme pour obtenir des informations sur OpenStreetMap en Autriche
+  osm-bengaluru-matrix:
+    extendedDescription: Groupe pour les contributeurs, utilisateurs et débutants d'OpenStreetMap à Bengaluru. Relié à Telegram.
+  osm-bengaluru-telegram:
+    extendedDescription: Groupe pour les contributeurs, utilisateurs et débutants d'OpenStreetMap à Bengaluru. Relié à Matrix.
   osm-bengaluru-wiki:
     description: OpenStreetMap à Bangalore
   osm-benin-facebook:
@@ -716,6 +723,7 @@ fr:
     extendedDescription: OpenStreetMap Deep South est une communauté locale de cartographes du sud-est des États-Unis.
   osm-delhi-xmpp:
     name: OpenStreetMap Delhi XMPP
+    description: 'Rejoignez notre salle XMPP : {url}'
   OSM-Discord:
     name: Discord d'OpenStreetMap Monde
   OSM-Discourse:
@@ -729,10 +737,6 @@ fr:
     extendedDescription: Cartographes de la communauté du Ghana qui promeuvent les projets OpenStreetMap et les projets Humanitarian OpenStreetMap Team (HOT) au Ghana. Rejoignez-nous.
   osm-gh-website:
     description: Fournit des services et des informations OSM à la communauté locale du Ghana
-  OSM-help:
-    name: Aide d'OpenStreetMap
-    description: Posez des questions et recevez des réponses sur le site de question-réponse de la communauté OSM.
-    extendedDescription: 'Le site {url} s''adresse à tous ceux qui ont besoin d''aide sur OpenStreetMap. Que vous soyez un débutant ou que vous ayez une question technique, nous sommes là pour vous aider !'
   osm-hr:
     description: La plateforme pour obtenir des informations sur OpenStreetMap en Croatie
   osm-id:
@@ -758,6 +762,9 @@ fr:
     description: Cartographes et utilisateurs d'OpenStreetMap en Inde
   osm-india-wiki:
     description: 'Tout ce dont vous avez besoin pour cartographier en Inde : {url}'
+  osm-india-xmpp:
+    name: XMPP OpenStreetMap Inde
+    description: 'Rejoignez notre salle XMPP : {url}'
   osm-iran-aparat:
     extendedDescription: Une bonne ressource de vidéos sur tout ce qui a trait à OpenStreetMap. Surtout en persan.
   osm-iran-discord:
@@ -871,6 +878,9 @@ fr:
     name: OpenStreetMap Utah
     description: Cartographes et utilisateurs d'OpenStreetMap dans la région de Salt Lake City
     extendedDescription: Les activités peuvent être des ateliers pour apprendre à cartographier, des cartoparties et des collectes de données en extérieur. Les événement se déroulent dans la zone de SLC au moins au départ. Nous cherchons des cartographes chevronnés ainsi que des nouveaux sur OSM. Rejoignez-nous et cartographions !
+  osm-west-bengal-xmpp:
+    name: XMPP OpenStreetMap Bengale-Occidental
+    description: 'Rejoignez notre salle XMPP : {url}'
   OSM-Wyoming:
     name: OpenStreetMap Wyoming
     description: Cartographes et utilisateurs d'OpenStreetMap dans la région de Wyoming
@@ -902,6 +912,8 @@ fr:
     extendedDescription: Rejoignez la communauté pour apprendre davantage sur OpenStreetMap, poser des questions ou participer à nos réunions. Tout le monde est la bienvenue !
   rs-wiki:
     description: La page wikiproject pour la Serbie
+  sg-wiki:
+    description: 'Page Wiki de {community}'
   si-github:
     description: 'GitHub de {community}'
   si-ljubljana-wiki:

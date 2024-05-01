@@ -22,6 +22,7 @@ cs:
     openstreetmapbelarus: OpenStreetMap Bělorusko
     openstreetmapbelgium: OpenStreetMap Belgie
     openstreetmapbelize: OpenStreetMap Belize
+    openstreetmapbengaluru: OpenStreetMap Bengalúru
     openstreetmapbenin: OpenStreetMap Benin
     openstreetmapberlin: OpenStreetMap Berlín
     openstreetmapbivccvl: OpenStreetMap BI-VC-CVL
@@ -56,6 +57,7 @@ cs:
     openstreetmapcz: OpenStreetMap CZ
     openstreetmapde: OpenStreetMap DE
     openstreetmapdeepsouth: OpenStreetMap Deep South
+    openstreetmapdelhi: OpenStreetMap Dillí
     openstreetmapdenmark: OpenStreetMap Dánsko
     openstreetmapdjibouti: OpenStreetMap Džibutsko
     openstreetmapdominicanrepublic: OpenStreetMap Dominikánská republika
@@ -168,6 +170,7 @@ cs:
     openstreetmapserbia: OpenStreetMap Srbsko
     openstreetmapseychelles: OpenStreetMap Seychely
     openstreetmapsierraleone: OpenStreetMap Sierra Leone
+    openstreetmapsingapore: OpenStreetMap Singapur
     openstreetmapslovenia: OpenStreetMap Slovinsko
     openstreetmapsomalia: OpenStreetMap Somálsko
     openstreetmapsouthafrica: OpenStreetMap Jihoafrická republika
@@ -194,6 +197,7 @@ cs:
     openstreetmapvenezuela: OpenStreetMap Venezuela
     openstreetmapvietnam: OpenStreetMap Vietnam
     openstreetmapwarszawa: OpenStreetMap Varšava
+    openstreetmapwestbengal: OpenStreetMap Západní Bengálsko
     openstreetmapwesternsahara: OpenStreetMap Západní Sahara
     openstreetmapzambia: OpenStreetMap Zambie
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
@@ -300,6 +304,8 @@ cs:
     name: Maptime Tirana
     description: Sociální události pořádané ohledně mapování - začátečníci jsou obzvlášť vítáni!
     extendedDescription: Maptime je svobodné vzdělávací prostředí pro všechny úrovně a stupně znalostí a nabízí záměrnou vzdělávací podporu pro začátečníky. Maptime je zároveň flexibilní a strukturovaný a vytváří prostor pro tutoriály mapování, workshopy, probíhající projekty se společným cílem a nezávislou/spolupráci pracovní doby.
+  am-wiki:
+    description: '{community} Wiki stránka'
   at-matrix:
     description: Neoficiální německý kanál pro Rakousko na Matrixu
   at-wiki:
@@ -338,6 +344,8 @@ cs:
     description: Všichni mapovači jsou vítáni!
   br-telegram:
     extendedDescription: Připojte se ke komunitě a dozvíte se více o OpenStreetMap, můžete klást otázky nebo se účastnit našich setkání. Každý je vítán!
+  br-wiki:
+    description: WikiProject s informacemi a koordinační podmínky pro mapování v Brazílii.
   cape-coast-youthmappers:
     name: YouthMappers Univerzity v Cape Coast
     description: 'Sledujte nás na Twitteru: {url}'
@@ -683,6 +691,12 @@ cs:
     description: Vše, co potřebujete vědět o mapování v Argentině.
   osm-at:
     description: Informační platforma pro OpenStreetMap v Rakousku
+  osm-bengaluru-matrix:
+    extendedDescription: Skupina pro přispěvatele, uživatele a nováčky OpenStreetMap v Bengalúru. Propojeno do Telegramu.
+  osm-bengaluru-telegram:
+    extendedDescription: Skupina pro přispěvatele, uživatele a nováčky OpenStreetMap v Bengalúru. Propojeno do Matrixu.
+  osm-bengaluru-wiki:
+    description: OpenStreetMap v Bengalúru
   osm-benin-facebook:
     description: Vylepšete OpenStreetMap v Beninu
   OSM-Boston:
@@ -710,6 +724,10 @@ cs:
   osm-deep-south-wiki:
     description: '{community} Wiki stránka'
     extendedDescription: OpenStreetMap Deep South je lokální mapovací komunita v jihovýchodních Spojených státech.
+  osm-delhi-xmpp:
+    name: OpenStreetMap Dillí XMPP
+    description: 'Připojte se k naší XMPP místnosti: {url}'
+    extendedDescription: XMPP místnost pro OSM Dillí, není propojena do žádné proprietární sítě.
   OSM-Discord:
     name: Světový Discord OpenStreetMap
   OSM-Discourse:
@@ -723,10 +741,6 @@ cs:
     extendedDescription: Mapovači z komunity v Ghaně propagující OpenStreetMap a projekty Humanitárního OpenStreetMap týmu (HOT) v Ghaně. Připojte se k nám.
   osm-gh-website:
     description: Poskytování služeb a informací OSM pro místní komunitu v Ghaně
-  OSM-help:
-    name: Pomoc s OpenStreetMap
-    description: Pokládejte otázky a získejte na ně odpovědi na komunitním webu OSM pro otázky a odpovědi.
-    extendedDescription: '{url} je pro každého, kdo potřebuje pomoc s OpenStreetMap. Ať už jste začínající mapovač nebo máte technický dotaz, jsme tu, abychom vám pomohli!'
   osm-hr:
     description: Informační platforma pro OpenStreetMap v Chorvatsku
   osm-id:
@@ -736,6 +750,8 @@ cs:
     extendedDescription: Mapujete v Indii? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {url}. Všichni jsou vítáni!
   osm-india-github:
     description: 'Kódujte s námi: {url}'
+  osm-india-mastodon:
+    description: Domov komunity OpenStreetMap Indie na fediverse
   osm-india-matrix:
     extendedDescription: Neoficiální chatovací místnost pro OSM Indie, také přemostěna do skupiny osmindia na Telegramu
   OSM-India-Puducherry-Facebook:
@@ -752,6 +768,10 @@ cs:
     description: Mapovači a uživatelé OpenStreetMap v Indii
   osm-india-wiki:
     description: 'Vše, co potřebujete vědět o mapování v Indii: {url}'
+  osm-india-xmpp:
+    name: OpenStreetMap Indie XMPP
+    description: 'Připojte se k naší XMPP místnosti: {url}'
+    extendedDescription: 'Místnost XMPP pro indickou komunitu OSM; není propojena do žádné proprietární sítě. Dostupné také od Matrix přes #osm-in:poddery.com'
   osm-iran-aparat:
     extendedDescription: Dobrý zdroj videí o čemkoli souvisejícím s OpenStreetMap. Hlavně v perštině.
   osm-iran-discord:
@@ -867,6 +887,10 @@ cs:
     name: OpenStreetMap Utah
     description: Mapovači a uživatelé OpenStreetMap na území Salt Lake City
     extendedDescription: Aktivity mohou zahrnovat události, jako jsou workshopy Learn To Map, mapovací večírky a sběr venkovních dat. Události se budou konat v oblasti SLC, alespoň zpočátku. Hledáme ostřílené mapovače i lidi, kteří v OSM začínají. Připojte se a pojďte dělat nějaké mapování!
+  osm-west-bengal-xmpp:
+    name: OpenStreetMap Západní Bengálsko XMPP
+    description: 'Připojte se k naší XMPP místnosti: {url}'
+    extendedDescription: XMPP místnost pro OSM Západní Bengálsko.
   OSM-Wyoming:
     name: OpenStreetMap Wyoming
     description: Mapovači a uživatelé OpenStreetMap ve státě Wyoming
@@ -898,6 +922,8 @@ cs:
     extendedDescription: Připojte se ke komunitě a dozvíte se více o OpenStreetMap, můžete klást otázky nebo se účastnit našich setkání. Každý je vítán!
   rs-wiki:
     description: Stránka wikiprojektu pro Srbsko
+  sg-wiki:
+    description: '{community} Wiki stránka'
   si-github:
     description: '{community} GitHub'
   si-ljubljana-wiki:
@@ -937,6 +963,9 @@ cs:
   uk-localchapter:
     description: Oficiální místní zastoupení pro Spojené království (včetně Severního Irska).
     extendedDescription: 'Podporujeme OpenStreetMap pořádáním událostí, poskytováním komunitních zdrojů, budováním partnerství a šířením informací. Připojte se k OpenStreetMap UK zde: {signupUrl}'
+  uk-london-mastodon:
+    name: OpenStreetMap Londýn na Mastodonu
+    description: 'OpenStreetMap Londýn na Mastodonu: {url}'
   uk-london-twitter:
     name: OpenStreetMap Londýn na Twitteru
     description: 'OpenStreetMap Londýn na Twitteru: {url}'

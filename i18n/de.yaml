@@ -170,6 +170,7 @@ de:
     openstreetmapserbia: OpenStreetMap Serbien
     openstreetmapseychelles: OpenStreetMap Seychellen
     openstreetmapsierraleone: OpenStreetMap Sierra Leone
+    openstreetmapsingapore: OpenStreetMap Singapur
     openstreetmapslovenia: OpenStreetMap Slowenien
     openstreetmapsomalia: OpenStreetMap Somalia
     openstreetmapsouthafrica: OpenStreetMap Südafrika
@@ -303,6 +304,8 @@ de:
     name: Maptime Tirana
     description: Soziale Events zum Mappen werden organisiert -Anfänger sind sehr willkommen!
     extendedDescription: Maptime ist eine offene Lernumgebung für alle Erfahrungsstufen und biete internationale Ausbildung für Anfänger. Maptime ist gleichzeitig flexibel und strukturiert, schafft Freiraum für Mapping Einführungen, Workshops, laufende Projekte mit einem gemeinsamen Ziel und unabhängige Gemeinschaftsprojekte.
+  am-wiki:
+    description: '{community} Wiki Seite'
   at-matrix:
     description: Inoffizieller deutscher Matrix Kanal für Österreich
   at-wiki:
@@ -341,6 +344,8 @@ de:
     description: Alle Mapper sind willkommen!
   br-telegram:
     extendedDescription: Tritt der Community bei, um mehr über OpenStreetMap zu erfahren, Fragen zu stellen oder an unseren Treffen teilzunehmen. Jeder ist willkommen!
+  br-wiki:
+    description: WikiProjekt mit Informationen und Koordinierungsrichtlinien für die Kartierung in Brasilien.
   cape-coast-youthmappers:
     name: Universität von Cape Coast YouthMappers
     description: 'Folge uns auf Twitter: {url}'
@@ -721,6 +726,8 @@ de:
     extendedDescription: OpenStreetMap Tiefer Süden ist eine lokale Mapping-Gemeinschaft im Südosten der U.S.A.
   osm-delhi-xmpp:
     name: OpenStreetMap Delhi XMPP
+    description: 'Trete unserem XMPP-Raum bei: {url}'
+    extendedDescription: XMPP-Raum für OSM Delhi; nicht mit proprietären Netzwerken verbunden.
   OSM-Discord:
     name: OpenStreetMap World Discord
   OSM-Discourse:
@@ -734,10 +741,6 @@ de:
     extendedDescription: Community der Mapper in Ghana, Förderung von OpenStreetMap und den Projekten des Humanitarian OpenStreetMap Team (HOT) in Ghana. Mach mit!
   osm-gh-website:
     description: Stellt Information und Service für die lokale OSM Gemeinschaft in Ghana bereit
-  OSM-help:
-    name: OpenStreetMap Hilfe
-    description: Stelle Fragen und erhalte Antworten auf der FAQ-Seite der OSM-Gemeinschaft
-    extendedDescription: '{url} ist für alle, die Hilfe mit OpenStreetMap brauchen. Egal ob du zu mappen beginnst oder eine technische Frage hast, wir sind hier um dir zu helfen!'
   osm-hr:
     description: Die Plattform für Information über OpenStreetMap in Kroatien
   osm-id:
@@ -751,8 +754,6 @@ de:
     description: Das Zuhause von OpenStreetMap India auf Fediverse
   osm-india-matrix:
     extendedDescription: Inoffizieller Chatraum für OSM Indien, er ist mit der osmindia Telegramm Gruppe gespiegelt
-  osm-india-matrix2:
-    name: OpenStreetMap Indien Matrix
   OSM-India-Puducherry-Facebook:
     name: Freie Software Hardware Bewegung - Facebook
     description: FSHM Facebook Seite für Veranstaltungen und Aktivitäten der Gemeinschaft
@@ -769,6 +770,8 @@ de:
     description: 'Alles was du über Mappen in Indien wissen musst: {url}'
   osm-india-xmpp:
     name: OpenStreetMap Indien XMPP
+    description: 'Trete unserem XMPP-Raum bei: {url}'
+    extendedDescription: 'XMPP-Raum für die indische OSM-Community; nicht mit proprietären Netzwerken verbunden. Auch über Matrix über #osm-in:poddery.com verfügbar.'
   osm-iran-aparat:
     extendedDescription: Eine gute Sammlung von Videos über OpenstreetMap. Hautsächlich in Persisch.
   osm-iran-discord:
@@ -884,12 +887,14 @@ de:
     name: OpenStreetMap Utah
     description: Mapper und OpenStreetMap Benutzer in Salt Lake City, USA
     extendedDescription: Activitäten beinhalten Workshop zum Erlernen des Mappens, Mapathong (Mapping Parties und Datensammlung vor Ort. Die Veranstaltungen finden in der SLC area statt, zumindest anfänglichen.  Wir suchen erfahrene Mapper und Menschen die OSM kennenlernenn wollen. Beteilige dich und lass und mappen!
+  osm-west-bengal-xmpp:
+    name: OpenStreetMap Westbengalen XMPP
+    description: 'Trete unserem XMPP-Raum bei: {url}'
+    extendedDescription: XMPP-Raum für OSM Westbengalen.
   OSM-Wyoming:
     name: OpenStreetMap Wyoming
     description: Mapper und OpenStreetMap Benutzer in Wyoming, USA
     extendedDescription: OpenStreetMap (OSM) Wyoming ist eine lokale Gemeinschaftsinitiative von Menschen, die gerne frei zugängliche Karten mitgestalten wollen. Wir ermuten alle unsere Mapper, Veranstaltungen zum Mappen in Wyoming vorzuschlagen oder zu organisieren. Treffen können einfach zum Kennenlernen, zum Erlernen von OSM-Grundlagen, fortgeschrittenem Training oder einfach Mapathons sein.
-  osm-xmpp:
-    name: OpenStreetMap XMPP
   osmcz-twitter:
     description: Folge der tschechischen Community auf Twitter - einschließlich des übersetzten WeeklyOSM!
   OSMF:
@@ -917,6 +922,8 @@ de:
     extendedDescription: Beteilige dich an der Gemeinschaft um mehr über OpenStreetMap zu lernen, zu fragen oder an unseren Treffen teilzunehmen. Alle sind willkommen!
   rs-wiki:
     description: Wikiproject Seite für Serbien
+  sg-wiki:
+    description: '{community} Wiki Seite'
   si-github:
     description: '{community} GitHub'
   si-ljubljana-wiki:
