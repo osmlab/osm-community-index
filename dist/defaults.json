@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "5.6.3",
-    "generated": "2024-05-01T14:43:25.839Z",
+    "version": "5.7.0",
+    "generated": "2024-05-24T15:54:31.386Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/defaults.json",
-    "hash": "9046ade31b8fcf0345565b94d87ce3d8"
+    "hash": "83806c664d138ace4c8e73af7d66fd5a"
   },
   "defaults": {
     "aparat": {
@@ -26,6 +26,7 @@
       "description": "Join our community on Facebook",
       "url": "https://www.facebook.com/{account}"
     },
+    "fediverse": {"name": "{community}"},
     "forum": {
       "name": "{community} Forum",
       "description": "The official forum for {community}"
@@ -39,6 +40,11 @@
       "url": "https://gitlab.com/{account}"
     },
     "group": {"name": "{community}"},
+    "instagram": {
+      "name": "{community} on Instagram",
+      "description": "Follow us on Instagram",
+      "url": "https://instagram.com/{account}"
+    },
     "irc": {
       "name": "{community} on IRC",
       "description": "Join #{account} on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)",
@@ -88,6 +94,11 @@
       "name": "{community} on Threads",
       "description": "Follow us on Threads",
       "url": "https://threads.net/@{account}"
+    },
+    "tiktok": {
+      "name": "{community} on TikTok",
+      "description": "Follow us on TikTok",
+      "url": "https://tiktok.com/@{account}"
     },
     "twitter": {
       "name": "{community} on 𝕏",

@@ -19,6 +19,25 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.7.0
+##### 2024-May-24
+* Support new resource types: `fediverse`, `instagram`, `tiktok` ([#670], [#710])
+* Added:
+  * United Kingdom Discourse ([#713])
+  * YouthMappers Oregon State University ([#714])
+* Updated:
+  * Fixed mailing list for OSM Mainz ([#712])
+* Removed:
+  * Inactive OSMChina website ([#715])
+
+[#670]: https://github.com/osmlab/osm-community-index/issues/670
+[#710]: https://github.com/osmlab/osm-community-index/issues/710
+[#712]: https://github.com/osmlab/osm-community-index/issues/712
+[#713]: https://github.com/osmlab/osm-community-index/issues/713
+[#714]: https://github.com/osmlab/osm-community-index/issues/714
+[#715]: https://github.com/osmlab/osm-community-index/issues/715
+
+
 # 5.6.3
 ##### 2024-May-01
 * Added:

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "5.6.3",
-    "generated": "2024-05-01T14:43:26.417Z",
+    "version": "5.7.0",
+    "generated": "2024-05-24T15:54:31.971Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "bfd8a519d37dcee0d39672e40af2f9e3"
+    "hash": "c617eb8c4988a1d4e1b9ef6faf0e8b58"
   },
   "type": "FeatureCollection",
   "features": [
@@ -6756,30 +6756,6 @@
               "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osmchina\">https://t.me/osmchina</a>",
               "descriptionHTML": "Join our community Telegram chat"
             }
-          },
-          "osm-cn": {
-            "id": "osm-cn",
-            "type": "osm",
-            "locationSet": {"include": ["cn"]},
-            "languageCodes": ["zh"],
-            "order": 6,
-            "strings": {
-              "community": "OpenStreetMap China",
-              "communityID": "openstreetmapchina",
-              "description": "We help grow and improve OpenStreetMap in China.",
-              "url": "https://osmchina.org/"
-            },
-            "contacts": [
-              {"name": "快乐的老鼠宝宝", "email": "keaitianxinmail@qq.com"}
-            ],
-            "resolved": {
-              "name": "OpenStreetMap China",
-              "url": "https://osmchina.org/",
-              "description": "We help grow and improve OpenStreetMap in China.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://osmchina.org/\">OpenStreetMap China</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://osmchina.org/\">https://osmchina.org/</a>",
-              "descriptionHTML": "We help grow and improve OpenStreetMap in China."
-            }
           }
         }
       },
@@ -10668,14 +10644,15 @@
             "strings": {
               "community": "OSM Mainz",
               "communityID": "osmmainz",
-              "description": "OpenStreetMap in Mainz und Umgebung"
+              "description": "OpenStreetMap in Mainz und Umgebung",
+              "url": "https://lists.openstreetmap.de/listinfo/mainz"
             },
             "resolved": {
               "name": "mainz Mailing List",
-              "url": "https://lists.openstreetmap.org/listinfo/mainz",
+              "url": "https://lists.openstreetmap.de/listinfo/mainz",
               "description": "OpenStreetMap in Mainz und Umgebung",
-              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/mainz\">mainz Mailing List</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/mainz\">https://lists.openstreetmap.org/listinfo/mainz</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.de/listinfo/mainz\">mainz Mailing List</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.de/listinfo/mainz\">https://lists.openstreetmap.de/listinfo/mainz</a>",
               "descriptionHTML": "OpenStreetMap in Mainz und Umgebung"
             }
           },
@@ -15419,6 +15396,25 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-gb\">talk-gb Mailing List</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-gb\">https://lists.openstreetmap.org/listinfo/talk-gb</a>",
               "descriptionHTML": "Talk-gb is the main communication forum list for the UK (including Northern Ireland) OSM community"
+            }
+          },
+          "uk-discourse": {
+            "id": "uk-discourse",
+            "type": "discourse",
+            "account": "uk",
+            "locationSet": {"include": ["Q3336843"]},
+            "languageCodes": ["en"],
+            "strings": {
+              "community": "OpenStreetMap UK",
+              "communityID": "openstreetmapuk"
+            },
+            "resolved": {
+              "name": "OpenStreetMap UK Community Forum",
+              "url": "https://community.openstreetmap.org/c/communities/uk",
+              "description": "The official forum for OpenStreetMap UK",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/uk\">OpenStreetMap UK Community Forum</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/uk\">https://community.openstreetmap.org/c/communities/uk</a>",
+              "descriptionHTML": "The official forum for OpenStreetMap UK"
             }
           },
           "uk-twitter": {
@@ -52330,6 +52326,58 @@
             [39.48, -6.714],
             [39.398, -6.602],
             [39.265, -6.559]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "[-123.2747,44.5639]",
+      "properties": {
+        "id": "[-123.2747,44.5639]",
+        "area": 1963.5,
+        "resources": {
+          "ym-Oregon-State-University": {
+            "id": "ym-Oregon-State-University",
+            "type": "youthmappers",
+            "locationSet": {"include": [[-123.2747, 44.5639]]},
+            "strings": {
+              "name": "YouthMappers at Oregon State University",
+              "description": "YouthMappers chapter at Oregon State University",
+              "url": "https://health.oregonstate.edu/clubs/YouthMappers"
+            },
+            "contacts": [
+              {
+                "name": "Organizer",
+                "email": "youthmappers.club@oregonstate.edu"
+              }
+            ],
+            "resolved": {
+              "name": "YouthMappers at Oregon State University",
+              "url": "https://health.oregonstate.edu/clubs/YouthMappers",
+              "description": "YouthMappers chapter at Oregon State University",
+              "nameHTML": "<a target=\"_blank\" href=\"https://health.oregonstate.edu/clubs/YouthMappers\">YouthMappers at Oregon State University</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://health.oregonstate.edu/clubs/YouthMappers\">https://health.oregonstate.edu/clubs/YouthMappers</a>",
+              "descriptionHTML": "YouthMappers chapter at Oregon State University"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-123.275, 44.788],
+            [-123.461, 44.745],
+            [-123.575, 44.633],
+            [-123.574, 44.494],
+            [-123.459, 44.382],
+            [-123.275, 44.339],
+            [-123.09, 44.382],
+            [-122.975, 44.494],
+            [-122.975, 44.633],
+            [-123.089, 44.745],
+            [-123.275, 44.788]
           ]
         ]
       }
