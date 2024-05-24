@@ -333,6 +333,7 @@ function collectResources(featureCollection) {
 }
 
 
+// If we have a url that matches a known format, try to extract the `account` value from it.
 function convertURLs(item) {
   const url = item.strings && item.strings.url;
   if (!url) return;
@@ -351,6 +352,8 @@ function convertURLs(item) {
     matchUrl = url.match(/github.com\/([\-A-Za-z0-9_.]+)\/?$/i);
   } else if (item.type === 'gitlab') {
     matchUrl = url.match(/gitlab.com\/([\-A-Za-z0-9_.]+)\/?$/i);
+  } else if (item.type === 'instagram') {
+    matchUrl = url.match(/instagram.com\/([\-A-Za-z0-9_.]+)\/?$/i);
   } else if (item.type === 'irc') {
     matchUrl = url.match(/webchat.oftc.net\/\?channels=([\-A-Za-z0-9_]+)\/?$/i);
   } else if (item.type === 'linkedin') {

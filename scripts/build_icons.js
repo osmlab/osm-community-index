@@ -12,7 +12,7 @@ import {
 
 import {
   faDiscord, faDiscourse, faLinkedin, faMastodon, faMeetup, faSlack,
-  faSquareFacebook, faSquareGithub, faSquareGitlab, faSquareReddit,
+  faSquareFacebook, faSquareGithub, faSquareGitlab, faSquareInstagram, faSquareReddit,
   faSquareThreads, faSquareXTwitter, faSquareYoutube, faTelegram,
 } from '@fortawesome/free-brands-svg-icons';
 
@@ -26,6 +26,7 @@ const toBuild = {
   gitlab: faSquareGitlab,
   group: faUsers,
   irc: faKeyboard,
+  instagram: faSquareInstagram,
   linkedin: faLinkedin,
   mailinglist: faAt,
   mastodon: faMastodon,
