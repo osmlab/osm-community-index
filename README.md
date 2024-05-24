@@ -1,4 +1,4 @@
-[![build](https://github.com/osmlab/osm-community-index/workflows/build/badge.svg)](https://github.com/osmlab/osm-community-index/actions?query=workflow%3A%22build%22)
+[![build](https://github.com/osmlab/osm-community-index/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/osmlab/osm-community-index/actions/workflows/build.yml)
 [![npm version](https://badge.fury.io/js/osm-community-index.svg)](https://badge.fury.io/js/osm-community-index)
 [![](https://data.jsdelivr.com/v1/package/npm/osm-community-index/badge?style=rounded)](https://www.jsdelivr.com/package/npm/osm-community-index)
 
