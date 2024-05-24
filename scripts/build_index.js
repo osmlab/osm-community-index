@@ -366,6 +366,8 @@ function convertURLs(item) {
     matchUrl = url.match(/t.me\/([\-A-Za-z0-9_]+)\/?$/i);
   } else if (item.type === 'threads') {
     matchUrl = url.match(/threads.net\/@([\-A-Za-z0-9_.]+)\/?$/i);
+  } else if (item.type === 'tiktok') {
+    matchUrl = url.match(/tiktok.com\/@([\-A-Za-z0-9_.]+)\/?$/i);
   } else if (item.type === 'twitter' || item.type === 'x') {
     matchUrl = url.match(/twitter.com\/([\-A-Za-z0-9_.]+)\/?$/i);
   } else if (item.type === 'youtube') {
