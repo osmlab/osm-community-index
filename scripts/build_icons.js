@@ -2,6 +2,10 @@ import chalk from 'chalk';
 import fs from 'node:fs';
 import { icon } from '@fortawesome/fontawesome-svg-core';
 
+// This script will update _only_ the FontAwesome icons in `dist/img/*.svg`
+// There are other icons in that folder that are not Font Awesome icons,
+// (e.g. osm, youthmappers, fediverse) - this script won't touch them.
+
 import {
   faAt, faComment, faComments, faKeyboard, faLink, faNewspaper, faUsers
 } from '@fortawesome/free-solid-svg-icons';
@@ -11,6 +15,7 @@ import {
   faSquareFacebook, faSquareGithub, faSquareGitlab, faSquareReddit,
   faSquareThreads, faSquareXTwitter, faSquareYoutube, faTelegram,
 } from '@fortawesome/free-brands-svg-icons';
+
 
 const toBuild = {
   discord: faDiscord,
