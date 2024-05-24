@@ -201,6 +201,7 @@ cs:
     openstreetmapwesternsahara: OpenStreetMap Západní Sahara
     openstreetmapzambia: OpenStreetMap Zambie
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
+    osmmainz: OSM Mohuč
     youthmappersasu: YouthMappersASU
   _defaults:
     aparat:
@@ -377,6 +378,10 @@ cs:
     extendedDescription: Připojte se ke komunitě a dozvíte se více o OpenStreetMap, můžete klást otázky nebo se účastnit našich setkání. Každý je vítán!
   co-facebook:
     extendedDescription: Připojte se ke komunitě a dozvíte se více o OpenStreetMap. Každý je vítán!
+  co-github:
+    description: Projekty Git o Kolumbii
+  co-wiki:
+    description: Wiki stránka s dokumentací k mapování Kolumbie
   comunitat-valenciana-wiki:
     description: 'Vše, co potřebujete vědět o mapování ve Valencijské komunitě: {url}'
   czech-community:
@@ -423,6 +428,12 @@ cs:
     description: Mapovači a uživatelé OpenStreetMap na území Karlsruhe
   de-luneburg-wiki:
     description: '{community} Wiki stránka'
+  de-mainz-mailinglist:
+    description: OpenStreetMap v Mohuči a okolí
+  de-mainz-telegram:
+    description: OpenStreetMap v Mohuči a okolí
+  de-mainz-wiki:
+    description: OpenStreetMap v Mohuči a okolí
   de-munchen-wiki:
     description: '{community} Wiki stránka'
   de-mv-mailinglist:
@@ -613,7 +624,27 @@ cs:
   MapRVA:
     name: MapRVA
     description: Setkání MapRVA
+  maptime-bogota-facebook:
+    name: MaptimeBogotá
+    description: Jsme skupina lidí, kteří mají zájem zmapovat Bogotu a její okolí do OpenStreetMap.
+    extendedDescription: Naučte se shromažďovat data v terénu a digitalizovat je na OpenStreetMap. Není nutné mít předchozí znalosti! Potřebujete pouze touhu účastnit se, učit se a bavit se.
+  maptime-bogota-github:
+    name: MaptimeBogotá
+    description: Jsme skupina lidí, kteří mají zájem zmapovat Bogotu a její okolí do OpenStreetMap.
+    extendedDescription: Naučte se shromažďovat data v terénu a digitalizovat je na OpenStreetMap. Není nutné mít předchozí znalosti! Potřebujete pouze touhu účastnit se, učit se a bavit se.
+  maptime-bogota-linkedin:
+    name: MaptimeBogotá
+    description: Jsme skupina lidí, kteří mají zájem zmapovat Bogotu a její okolí do OpenStreetMap.
+    extendedDescription: Naučte se shromažďovat data v terénu a digitalizovat je na OpenStreetMap. Není nutné mít předchozí znalosti! Potřebujete pouze touhu účastnit se, učit se a bavit se.
+  maptime-bogota-mastodon:
+    name: MaptimeBogotá
+    description: Jsme skupina lidí, kteří mají zájem zmapovat Bogotu a její okolí do OpenStreetMap.
+    extendedDescription: Naučte se shromažďovat data v terénu a digitalizovat je na OpenStreetMap. Není nutné mít předchozí znalosti! Potřebujete pouze touhu účastnit se, učit se a bavit se.
   maptime-bogota-meetup:
+    name: MaptimeBogotá
+    description: Jsme skupina lidí, kteří mají zájem zmapovat Bogotu a její okolí do OpenStreetMap.
+    extendedDescription: Naučte se shromažďovat data v terénu a digitalizovat je na OpenStreetMap. Není nutné mít předchozí znalosti! Potřebujete pouze touhu účastnit se, učit se a bavit se.
+  maptime-bogota-telegram:
     name: MaptimeBogotá
     description: Jsme skupina lidí, kteří mají zájem zmapovat Bogotu a její okolí do OpenStreetMap.
     extendedDescription: Naučte se shromažďovat data v terénu a digitalizovat je na OpenStreetMap. Není nutné mít předchozí znalosti! Potřebujete pouze touhu účastnit se, učit se a bavit se.
@@ -622,6 +653,10 @@ cs:
     description: Jsme skupina lidí, kteří mají zájem zmapovat Bogotu a její okolí do OpenStreetMap.
     extendedDescription: Naučte se shromažďovat data v terénu a digitalizovat je na OpenStreetMap. Není nutné mít předchozí znalosti! Potřebujete pouze touhu účastnit se, učit se a bavit se.
   maptime-bogota-website:
+    name: MaptimeBogotá
+    description: Jsme skupina lidí, kteří mají zájem zmapovat Bogotu a její okolí do OpenStreetMap.
+    extendedDescription: Naučte se shromažďovat data v terénu a digitalizovat je na OpenStreetMap. Není nutné mít předchozí znalosti! Potřebujete pouze touhu účastnit se, učit se a bavit se.
+  maptime-bogota-youtube:
     name: MaptimeBogotá
     description: Jsme skupina lidí, kteří mají zájem zmapovat Bogotu a její okolí do OpenStreetMap.
     extendedDescription: Naučte se shromažďovat data v terénu a digitalizovat je na OpenStreetMap. Není nutné mít předchozí znalosti! Potřebujete pouze touhu účastnit se, učit se a bavit se.
@@ -643,13 +678,14 @@ cs:
     extendedDescription: Mapujete v Mongolsku? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {url}. Všichni jsou vítáni!
   mt-irc:
     extendedDescription: 'Připojte se k #{account} na irc.oftc.net (port 6667), buďte prosím trpěliví a počkejte pár minut, pokud položíte otázku'
+  nl-discourse:
+    description: Fórum k diskusi ohledně OpenStreetMap v Nizozemsku
   nl-matrix:
     description: Všichni mapovači jsou vítáni!
   no-irc:
     description: Chatovací místnosti pro mapovače a uživatele OpenStreetMap, vývojáře a milovníky v Norsku
-  no-mailinglist:
-    name: '{community} mailová konference'
-    description: Mailová konference pro mapovače a uživatele OpenStreetMap, vývojáře a milovníky v Norsku
+  no-matrix:
+    description: Most chatovací místnosti IRC
   Nottingham-OSM-pub-meetup:
     name: Měsíční pivo ve Východní Midlands (Nottingham)
     description: Společenské setkání pro mapovače a uživatele ve Východní Midlands
@@ -699,10 +735,6 @@ cs:
     description: OpenStreetMap v Bengalúru
   osm-benin-facebook:
     description: Vylepšete OpenStreetMap v Beninu
-  OSM-Boston:
-    name: OpenStreetMap Boston
-    description: Mapovači a uživatelé OpenStreetMap na území Bostonu
-    extendedDescription: OpenStreetMap je bezplatná a otevřená mapa světa ve stylu wiki se stovkami tisíc příspěvků každý den od lidí, jako jste vy. Upravování map je jednoduché a zábavné! Připojte se k nám doma i venku v našem úsilí vytvořit nejlepší mapu oblasti Bostonu i celého světa!
   OSM-Central-Salish-Sea:
     name: OpenStreetMap Central Salish Sea
     description: Mapovači a uživatelé OpenStreetMap, kolem Mount Vernon, WA
@@ -806,9 +838,6 @@ cs:
     description: Chcete se dozvědět více o mapování v Kérale? {url}
   osm-mg-facebook:
     description: Malgašská facebooková skupina pro lidi zajímající se o OpenStreetMap.
-  osm-michigan-facebook-group:
-    name: '{community} skupina na Facebooku'
-    description: Diskuze o mapování v Michiganu.
   osm-michigan-wiki:
     description: '{community} Wiki stránka'
   osm-ni:
@@ -828,14 +857,6 @@ cs:
     description: Hlavní místo pro hlasové chaty mezi polskou komunitou OpenStreetMap, aktivní textové kanály
   OSM-PL-github:
     description: Organizace GitHub polské komunity OpenStreetMap
-  OSM-Portland:
-    name: OpenStreetMap Portland
-    description: Mapovači a uživatelé OpenStreetMap na území Portlandu
-    extendedDescription: OpenStreetMap (OSM) je mapa světa vytvořená lidmi jako jste vy. Je to mapa, kterou tvoříte, která je k dispozici zdarma jako Wikipedie. Podívejte se na osm.org pro více informací a připojte se k nám na setkání, abyste si popovídali o mapách, přispívali k OSM a bavili se!
-  OSM-Portland-forum:
-    name: OpenStreetMap PDX skupina Google
-    description: Fórum a mailová konference pro mapovače a uživatele OpenStreetMap na území Portlandu
-    extendedDescription: Tato skupina má usnadnit vylepšení OpenStreetMap v Portlandu v Oregonu na podporu aplikací, jako je Open Trip Planner.
   OSM-Puducherry-Mailing-List:
     name: Free Software Hardware Movement - Mailová konference
     description: Mailová konference FSHM Puducherry k diskuzi o mapování v Puducherry a dalších věcech.
@@ -1472,9 +1493,6 @@ cs:
     name: Knihovny Outreach – ODL
     description: Zastoupení YouthMappers na University of the West Indies, Mona (JA)
     extendedDescription: UWI, Knihovna Mona Campus se zapojuje do veřejných, informačních a speciálních projektů. To naší knihovně umožní být katalyzátorem prostorové gramotnosti a obhájcem sdílení prostorových dat a přístupu k zájmům Jamajky a Karibiku. Potřebujeme pomoc při katastrofách a komunikaci a potřebujeme rozsáhlé vědy o Zemi a georizika, abychom lépe sloužili našemu kampusu a komunitě. Konkrétně máme Vědeckou knihovnu, která takové věci představí všem učitelům a studentům.
-  ym-University-of-Vermont:
-    name: Humanitární mapovací klub Univerzity ve Vermontu
-    description: Zastoupení YouthMappers na Univerzitě v Vermontu
   ym-University-of-Victoria:
     name: Společnost studentů geografie
     description: Zastoupení YouthMappers na Univerzitě v Viktorii

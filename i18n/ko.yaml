@@ -201,6 +201,7 @@ ko:
     openstreetmapwesternsahara: 오픈스트리트맵 서사하라
     openstreetmapzambia: 오픈스트리트맵 잠비아
     openstreetmapzimbabwe: 오픈스트리트맵 짐바브웨
+    osmmainz: OSM 마인츠
     youthmappersasu: YouthMappersASU
   _defaults:
     aparat:
@@ -377,6 +378,10 @@ ko:
     extendedDescription: 오픈스트리트맵을 더 잘 알고 싶다면, 커뮤니티에 가입해보세요. 회의에 참여할 수도 있고, 질문을 할 수도 있습니다. 누구나 환영합니다!
   co-facebook:
     extendedDescription: 오픈스트리트맵에 대해 더 알고 싶다면 커뮤니티에 가입해보세요. 누구나 환영입니다!
+  co-github:
+    description: 콜롬비아에 관한 깃 프로젝트
+  co-wiki:
+    description: 콜롬비아 지도제작 문서가 포함된 위키 페이지
   comunitat-valenciana-wiki:
     description: '발렌시아 지도제작에 대해 알아야 할 모든 것: {url}'
   czech-community:
@@ -423,6 +428,12 @@ ko:
     description: 독일 카를스루에 거주 오픈스트리트맵 사용자 및 맵퍼
   de-luneburg-wiki:
     description: '{community} 위키 문서'
+  de-mainz-mailinglist:
+    description: 마인츠 및 주변 지역 OpenStreetMap
+  de-mainz-telegram:
+    description: 마인츠 및 주변 지역 OpenStreetMap
+  de-mainz-wiki:
+    description: 마인츠 및 주변 지역 OpenStreetMap
   de-munchen-wiki:
     description: '{community} 위키 문서'
   de-mv-mailinglist:
@@ -613,7 +624,27 @@ ko:
   MapRVA:
     name: MapRVA
     description: MapRVA 정모
+  maptime-bogota-facebook:
+    name: Maptime 보고타
+    description: 우리는 보고타와 그 주변을 오픈스트리트맵에 맵핑하기 위해 관심 있는 사람들의 그룹입니다.
+    extendedDescription: 현장에서 데이터를 수집하고 OpenStreetMap으로 디지털화하는 법을 배웁니다. 사전 지식을 가질 필요가 없습니다! 여러분은 참여하고, 배우고, 즐기고 싶은 욕망만 있으면 됩니다.
+  maptime-bogota-github:
+    name: Maptime 보고타
+    description: 우리는 보고타와 그 주변을 오픈스트리트맵에 맵핑하기 위해 관심 있는 사람들의 그룹입니다.
+    extendedDescription: 현장에서 데이터를 수집하고 OpenStreetMap으로 디지털화하는 법을 배웁니다. 사전 지식을 가질 필요가 없습니다! 여러분은 참여하고, 배우고, 즐기고 싶은 욕망만 있으면 됩니다.
+  maptime-bogota-linkedin:
+    name: Maptime 보고타
+    description: 우리는 보고타와 그 주변을 오픈스트리트맵에 맵핑하기 위해 관심 있는 사람들의 그룹입니다.
+    extendedDescription: 현장에서 데이터를 수집하고 OpenStreetMap으로 디지털화하는 법을 배웁니다. 사전 지식을 가질 필요가 없습니다! 여러분은 참여하고, 배우고, 즐기고 싶은 욕망만 있으면 됩니다.
+  maptime-bogota-mastodon:
+    name: Maptime 보고타
+    description: 우리는 보고타와 그 주변을 오픈스트리트맵에 맵핑하기 위해 관심 있는 사람들의 그룹입니다.
+    extendedDescription: 현장에서 데이터를 수집하고 OpenStreetMap으로 디지털화하는 법을 배웁니다. 사전 지식을 가질 필요가 없습니다! 여러분은 참여하고, 배우고, 즐기고 싶은 욕망만 있으면 됩니다.
   maptime-bogota-meetup:
+    name: Maptime 보고타
+    description: 우리는 보고타와 그 주변을 오픈스트리트맵에 맵핑하기 위해 관심 있는 사람들의 그룹입니다.
+    extendedDescription: 현장에서 데이터를 수집하고 OpenStreetMap으로 디지털화하는 법을 배웁니다. 사전 지식을 가질 필요가 없습니다! 여러분은 참여하고, 배우고, 즐기고 싶은 욕망만 있으면 됩니다.
+  maptime-bogota-telegram:
     name: Maptime 보고타
     description: 우리는 보고타와 그 주변을 오픈스트리트맵에 맵핑하기 위해 관심 있는 사람들의 그룹입니다.
     extendedDescription: 현장에서 데이터를 수집하고 OpenStreetMap으로 디지털화하는 법을 배웁니다. 사전 지식을 가질 필요가 없습니다! 여러분은 참여하고, 배우고, 즐기고 싶은 욕망만 있으면 됩니다.
@@ -622,6 +653,10 @@ ko:
     description: 우리는 보고타와 그 주변을 오픈스트리트맵에 맵핑하기 위해 관심 있는 사람들의 그룹입니다.
     extendedDescription: 현장에서 데이터를 수집하고 OpenStreetMap으로 디지털화하는 법을 배웁니다. 사전 지식을 가질 필요가 없습니다! 여러분은 참여하고, 배우고, 즐기고 싶은 욕망만 있으면 됩니다.
   maptime-bogota-website:
+    name: Maptime 보고타
+    description: 우리는 보고타와 그 주변을 오픈스트리트맵에 맵핑하기 위해 관심 있는 사람들의 그룹입니다.
+    extendedDescription: 현장에서 데이터를 수집하고 OpenStreetMap으로 디지털화하는 법을 배웁니다. 사전 지식을 가질 필요가 없습니다! 여러분은 참여하고, 배우고, 즐기고 싶은 욕망만 있으면 됩니다.
+  maptime-bogota-youtube:
     name: Maptime 보고타
     description: 우리는 보고타와 그 주변을 오픈스트리트맵에 맵핑하기 위해 관심 있는 사람들의 그룹입니다.
     extendedDescription: 현장에서 데이터를 수집하고 OpenStreetMap으로 디지털화하는 법을 배웁니다. 사전 지식을 가질 필요가 없습니다! 여러분은 참여하고, 배우고, 즐기고 싶은 욕망만 있으면 됩니다.
@@ -643,13 +678,14 @@ ko:
     extendedDescription: 몽골에서 맵핑중이신가요? 질문이 있고, 여기 커뮤니티와 연결하고 싶으신가요? {url}에서 참여하세요! 모두 환영합니다!
   mt-irc:
     extendedDescription: 'irc.oftc.net (포트 6667)에서 #{account}에 가입하십시오. 질문이 있으시면 잠시 기다려 주십시오'
+  nl-discourse:
+    description: 네덜란드 오픈스트리트맵 논의 포럼
   nl-matrix:
     description: 모든 맵퍼들을 환영합니다!
   no-irc:
     description: 노르웨이의 맵퍼 및 OpenStreetMap 사용자, 개발자 및 애호가를 위한 채팅방
-  no-mailinglist:
-    name: '{community} 메일링 리스트'
-    description: 노르웨이의 맵퍼 및 OpenStreetMap 사용자, 개발자 및 애호가를 위한 메일링 목록
+  no-matrix:
+    description: IRC 대화방의 연결
   Nottingham-OSM-pub-meetup:
     name: East Midlands (Notingham) 월간 펍 미팅업
     description: East Midlands 맵퍼와 사용자를 위한 모임
@@ -699,10 +735,6 @@ ko:
     description: 오픈스트리트맵 벵갈루루
   osm-benin-facebook:
     description: 베냉 오픈스트리트맵 개선
-  OSM-Boston:
-    name: 오픈스트리트맵 보스턴
-    description: 보스턴 지역의 맵퍼와 오픈스트리트맵 사용자
-    extendedDescription: 오픈스트리트맵은 개방되어 있고 무료이며, 위키스타일에 세계 지도이며, 매일 수십만 건의 기부금이 여러분과 같은 사람들로부터 나옵니다. 지도를 편집하는 것은 간단하고 재미있습니다! 실내와 실외 모두에서 보스턴 지역과 세계 최고의 지도를 만드는 노력에 동참해 주십시오!
   OSM-Central-Salish-Sea:
     name: 오픈스트리트맵 중앙 살리시해
     description: 워싱턴주 마운트버논 주변의 맵퍼와 오픈스트리트맵 사용자
@@ -806,9 +838,6 @@ ko:
     description: 케랄라주 맵핑에 대해 자세히 알고 싶으신가요? {url}
   osm-mg-facebook:
     description: 오픈스트리트맵에 관심있는 사람들을 위한 마다가스카르 페이스북 그룹
-  osm-michigan-facebook-group:
-    name: '{community} Facebook 그룹'
-    description: 미시간주 맵핑에 대한 토론.
   osm-michigan-wiki:
     description: '{community} 위키 페이지'
   osm-ni:
@@ -828,14 +857,6 @@ ko:
     description: 폴란드 오픈스트리트맵 커뮤니티 중 음성 채팅의 주요 장소, 활성 텍스트 채널
   OSM-PL-github:
     description: 폴란드 오픈스트리트맵 커뮤니티를 위한 GitHub 조직
-  OSM-Portland:
-    name: 오픈스트리트맵 포틀랜드
-    description: 포틀랜드 지역의 맵퍼와 오픈스트리트맵 사용자
-    extendedDescription: 오픈스트리트맵(OSM)은 여러분과 같은 사람들이 만든 세계의 지도입니다. 그것은 위키피디아처럼 무료로 제공되는 여러분이 만든 지도입니다. osm.org 를 확인하고, 지도에 대해 이야기하고, OSM에 기여하고, 재밌는 편집하세요!
-  OSM-Portland-forum:
-    name: 오픈스트리트맵 PDX Google 그룹
-    description: 포틀랜드 지역의 오픈스트리트맵 사용자를 위한 포럼 및 메일링 리스트
-    extendedDescription: 이 그룹은 오픈 트립 플래너와 같은 애플리케이션을 지원하기 위해, 오리건주 포틀랜드 지역의 오픈스트리트맵을 개선하기 위한 것입니다.
   OSM-Puducherry-Mailing-List:
     name: 자유 소프트웨어 하드웨어 운동 메일링리스트
     description: FSHM 푸두체리 메일링 리스트는 푸두체리에서의 매핑 및 기타 사항에 대해 논의합니다.
@@ -1472,9 +1493,6 @@ ko:
     name: 도서관 봉사 활동 - ODL
     description: West Indies 대학교 Mona 캠퍼스 YouthMappers 지부
     extendedDescription: UWI, Mona Campus Library는 공공, 봉사활동 및 특별 프로젝트를 수행합니다. 이를 통해 우리 도서관은 공간 리터러시의 촉매제가 되고, 공간 데이터 공유 및 자메이카와 카리브해 지역의 이익에 대한 접근을 옹호하는 수단이 될 수 있습니다. 우리는 재난 구호 및 커뮤니케이션 요구를 가지고 있으며, 광범위한 지구과학 및 지구-재난에 따라 우리의 캠퍼스와 지역사회에 더 나은 서비스를 제공합니다. 특히, 우리는 모든 교직원과 학생들에게 이러한 것을 보여줄 과학 도서관을 보유하고 있습니다.
-  ym-University-of-Vermont:
-    name: 버몬트 대학교 인도주의 지도 클럽
-    description: 버몬트 대학교 YouthMappers 지부
   ym-University-of-Victoria:
     name: 지리학과 학생회
     description: Victoria 대학교 YouthMappers 지부

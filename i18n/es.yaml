@@ -201,6 +201,7 @@ es:
     openstreetmapwesternsahara: OpenStreetMap Sahara Occidental
     openstreetmapzambia: OpenStreetMap Zambia
     openstreetmapzimbabwe: OpenStreetMap Zimbabue
+    osmmainz: OSM Maguncia
     youthmappersasu: YouthMappersASU
   _defaults:
     aparat:
@@ -377,6 +378,10 @@ es:
     extendedDescription: Únete a la comunidad para aprender más sobre OpenStreetMap, realizar preguntas o participar en nuestras reuniones. ¡Todos sois bienvenidos!
   co-facebook:
     extendedDescription: Únete a la comunidad para aprender más sobre OpenStreetMap. ¡Todos sois bienvenidos!
+  co-github:
+    description: Proyectos de Git sobre Colombia
+  co-wiki:
+    description: Página Wiki con la documentación para mapear Colombia
   comunitat-valenciana-wiki:
     description: 'Todo lo que necesitas saber sobre el mapeo en la Comunidad Valenciana: {url}'
   czech-community:
@@ -423,6 +428,12 @@ es:
     description: Editores y usuarios de OpenStreetMap en el área de Karlsruhe
   de-luneburg-wiki:
     description: 'Página wiki de {community}'
+  de-mainz-mailinglist:
+    description: OpenStreetMap en Maguncia y alrededores
+  de-mainz-telegram:
+    description: OpenStreetMap en Maguncia y alrededores
+  de-mainz-wiki:
+    description: OpenStreetMap en Maguncia y alrededores
   de-munchen-wiki:
     description: 'Página wiki de {community}'
   de-mv-mailinglist:
@@ -613,10 +624,30 @@ es:
   MapRVA:
     name: MapRVA
     description: Meetup de MapRVA
+  maptime-bogota-facebook:
+    name: MaptimeBogotá
+    description: Somos un grupo de personas interesadas en mapear Bogotá y sus alrededores en OpenStreetMap.
+    extendedDescription: Aprende a recopilar datos en el campo y digitalizarlos en OpenStreetMap. No es necesario tener conocimientos previos. Solo ganas de participar, aprender y divertirte.
+  maptime-bogota-github:
+    name: MaptimeBogotá
+    description: Somos un grupo de personas interesadas en mapear Bogotá y sus alrededores en OpenStreetMap.
+    extendedDescription: Aprende a recopilar datos en el campo y digitalizarlos en OpenStreetMap. No es necesario tener conocimientos previos. Solo ganas de participar, aprender y divertirte.
+  maptime-bogota-linkedin:
+    name: MaptimeBogotá
+    description: Somos un grupo de personas interesadas en mapear Bogotá y sus alrededores en OpenStreetMap.
+    extendedDescription: Aprende a recopilar datos en el campo y digitalizarlos en OpenStreetMap. No es necesario tener conocimientos previos. Solo ganas de participar, aprender y divertirte.
+  maptime-bogota-mastodon:
+    name: MaptimeBogotá
+    description: Somos un grupo de personas interesadas en mapear Bogotá y sus alrededores en OpenStreetMap.
+    extendedDescription: Aprende a recopilar datos en el campo y digitalizarlos en OpenStreetMap. No es necesario tener conocimientos previos. Solo ganas de participar, aprender y divertirte.
   maptime-bogota-meetup:
     name: MaptimeBogotá
     description: Somos un grupo de personas interesadas en mapear Bogotá y sus alrededores en OpenStreetMap.
     extendedDescription: Aprenda a recopilar datos en el campo y digitalice en OpenStreetMap. ¡No es necesario tener conocimiento previo! Solo necesitas el deseo de participar, aprender y divertirte.
+  maptime-bogota-telegram:
+    name: MaptimeBogotá
+    description: Somos un grupo de personas interesadas en mapear Bogotá y sus alrededores en OpenStreetMap.
+    extendedDescription: Aprende a recopilar datos en el campo y digitalizarlos en OpenStreetMap. No es necesario tener conocimientos previos. Solo ganas de participar, aprender y divertirte.
   maptime-bogota-twitter:
     name: MaptimeBogotá
     description: Somos un grupo de personas interesadas en mapear Bogotá y sus alrededores en OpenStreetMap.
@@ -625,6 +656,10 @@ es:
     name: MaptimeBogotá
     description: Somos un grupo de personas interesadas en mapear Bogotá y sus alrededores en OpenStreetMap.
     extendedDescription: Aprenda a recopilar datos en el campo y digitalice en OpenStreetMap. ¡No es necesario tener conocimiento previo! Solo necesitas el deseo de participar, aprender y divertirte.
+  maptime-bogota-youtube:
+    name: MaptimeBogotá
+    description: Somos un grupo de personas interesadas en mapear Bogotá y sus alrededores en OpenStreetMap.
+    extendedDescription: Aprende a recopilar datos en el campo y digitalizarlos en OpenStreetMap. No es necesario tener conocimientos previos. Solo ganas de participar, aprender y divertirte.
   Maptime-ME-meetup:
     name: MaptimeME
     description: Editores y usuarios de OpenStreetMap, en Portland, ME
@@ -643,13 +678,14 @@ es:
     extendedDescription: ¿Mapeando en Mongolia? ¿Tienes preguntas, quieres conectarte con la comunidad aquí? Únete a nosotros en {url}. ¡Todos son bienvenidos!
   mt-irc:
     extendedDescription: 'Únase a #{account} en irc.oftc.net (puerto 6667); sea paciente y espere unos minutos si hace una pregunta.'
+  nl-discourse:
+    description: Un foro para discutir OpenStreetMap en los Países Bajos
   nl-matrix:
     description: ¡Todos los mapeadores son bienvenidos!
   no-irc:
     description: Sala de chat para editores y usuarios de OpenStreetMap, desarrolladores y entusiastas en Noruega
-  no-mailinglist:
-    name: 'Lista de correo de {community}'
-    description: Lista de correo para editores y usuarios de OpenStreetMap, desarrolladores y entusiastas en Noruega
+  no-matrix:
+    description: Puente de sala de chat IRC
   Nottingham-OSM-pub-meetup:
     name: Reunión mensual pub de East Midlands (Nottingham)
     description: Reunión social de mapeadores y usuarios de East Midlands
@@ -699,10 +735,6 @@ es:
     description: OpenStreetMap en Bengaluru
   osm-benin-facebook:
     description: Mejore OpenStreetMap en Benin
-  OSM-Boston:
-    name: OpenStreetMap Boston
-    description: Editores y usuarios de OpenStreetMap en el área de Boston
-    extendedDescription: OpenStreetMap es el mapa del mundo gratuito y abierto al estilo wiki, con cientos de miles de contribuciones diarias de personas como usted. ¡Editar el mapa es simple y divertido! ¡Únete a nosotros tanto en el interior como en el exterior en nuestro esfuerzo por crear el mejor mapa del área de Boston y el resto del mundo!
   OSM-Central-Salish-Sea:
     name: OpenStreetMap Central Salish Sea
     description: Editores y usuarios de OpenStreetMap en Mount Vernon, WA
@@ -806,9 +838,6 @@ es:
     description: ¿Quiere saber más sobre el mapeo de Kerala? {url}
   osm-mg-facebook:
     description: Grupo de Facebook Malgache para gente interesada en OpenStreetMap
-  osm-michigan-facebook-group:
-    name: 'Grupo de Facebook de {community}'
-    description: Discusión sobre mapeo en Michigan.
   osm-michigan-wiki:
     description: 'Página wiki de {community}'
   osm-ni:
@@ -828,14 +857,6 @@ es:
     description: Sitio principal para chats de voz entre la comunidad polaca de OpenStreetMap, canales de texto activos
   OSM-PL-github:
     description: Organización GitHub para la comunidad polaca de OpenStreetMap
-  OSM-Portland:
-    name: OpenStreetMap Portland
-    description: Editores y usuarios de OpenStreetMap en el área de Portland
-    extendedDescription: OpenStreetMap (OSM) es un mapa del mundo creado por personas como tú. Es un mapa que tú creas, que se regala gratis como wikipedia. Visita osm.org para obtener más información, ¡y únete a nosotros en un encuentro para hablar de mapas, contribuir con OSM y divertirse!
-  OSM-Portland-forum:
-    name: Grupo de Google de OpenStreetMap PDX
-    description: Foro y lista de correo para usuarios de OpenStreetMap en el área de Portland
-    extendedDescription: Este grupo es para facilitar las mejoras en OpenStreetMap en el área de Portland, Oregon, para dar soporte a aplicaciones como Open Trip Planner.
   OSM-Puducherry-Mailing-List:
     name: Movimiento de hardware software libre - Lista de correo
     description: Lista de correo de FSHM Puducherry para discutir el mapeo en Puducherry y otras cosas.
@@ -1474,9 +1495,6 @@ es:
     name: Divulgación a las bibliotecas - ODL
     description: Capítulo de los YouthMappers en la Universidad de las Indias Occidentales, Campus Mona
     extendedDescription: La Biblioteca Universitaria Mona de la UWI participa en proyectos públicos, de divulgación y especiales. Esto permitirá a nuestra biblioteca los medios para ser un catalizador para la alfabetización espacial y abogar por el intercambio de datos espaciales y el acceso a los intereses de Jamaica y el Caribe. Tenemos necesidades de comunicación y socorro en casos de desastre, y una amplia variedad de necesidades de geomedia y ciencias de la Tierra para servir mejor a nuestro campus y comunidad. Específicamente, tenemos una biblioteca de ciencias para mostrar a todos los profesores y estudiantes.
-  ym-University-of-Vermont:
-    name: Club de cartografía humanitaria de la Universidad de Vermont
-    description: Capítulo de los YouthMappers en la Universidad de Vermont
   ym-University-of-Victoria:
     name: Sociedad de Estudiantes de Geografía
     description: Capítulo de los YouthMappers en la Universidad de Victoria

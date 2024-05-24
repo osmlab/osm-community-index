@@ -188,6 +188,7 @@ el:
     openstreetmapwesternsahara: OpenStreetMap Δυτική Σαχάρα
     openstreetmapzambia: OpenStreetMap Ζάμπια
     openstreetmapzimbabwe: OpenStreetMap Ζιμπάμπουε
+    osmmainz: OSM Μάιντς
   _defaults:
     aparat:
       name: '{community} στο Aparat'
@@ -381,11 +382,23 @@ el:
     name: MappingWR
   MapRVA:
     name: MapRVA
+  maptime-bogota-facebook:
+    name: MaptimeBogotá
+  maptime-bogota-github:
+    name: MaptimeBogotá
+  maptime-bogota-linkedin:
+    name: MaptimeBogotá
+  maptime-bogota-mastodon:
+    name: MaptimeBogotá
   maptime-bogota-meetup:
+    name: MaptimeBogotá
+  maptime-bogota-telegram:
     name: MaptimeBogotá
   maptime-bogota-twitter:
     name: MaptimeBogotá
   maptime-bogota-website:
+    name: MaptimeBogotá
+  maptime-bogota-youtube:
     name: MaptimeBogotá
   Maptime-ME-meetup:
     name: MaptimeME
@@ -413,9 +426,6 @@ el:
     description: OpenStreetMap στη Μπανγκαλόρ
   osm-benin-facebook:
     description: Βελτίωση του OpenStreetMap στο Μπενίν
-  OSM-Boston:
-    name: OpenStreetMap Βοστώνη
-    description: Χαρτογράφοι και χρήστες του OpenStreetMap στην περιοχή της Βοστώνης
   osm-ch:
     name: '{community}'
     description: Η πλατφόρμα για πληροφορίες σχετικά με το OpenStreetMap στην Ελβετία
@@ -465,8 +475,6 @@ el:
     description: 'Προγραμματίστε μαζί μας: {url}'
   osm-mg-facebook:
     description: Ομάδα Facebook Μαδαγασκαριανών για άτομα που ενδιαφέρονται για το OpenStreetMap
-  osm-michigan-facebook-group:
-    name: '{community} Ομάδα Facebook'
   osm-michigan-wiki:
     description: '{community} Wiki σελίδα'
   osm-ni:
@@ -530,6 +538,8 @@ el:
     name: Geomatica UDEA
   ym-Universidad-de-Puerto-Rico-Rio-Piedras:
     name: UPR YouthMappers
+  ym-Universit-de-NZrkor:
+    name: YouthMappers N'Zérékoré
   ym-University-Muhammadiyah-Surakarta:
     name: SpaceTime
   ym-University-of-California-Davis:

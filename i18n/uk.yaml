@@ -201,6 +201,7 @@ uk:
     openstreetmapwesternsahara: OpenStreetMap Західна Сахара
     openstreetmapzambia: OpenStreetMap Замбія
     openstreetmapzimbabwe: OpenStreetMap Зімбабве
+    osmmainz: OSM Майнц
     youthmappersasu: YouthMappersASU
   _defaults:
     aparat:
@@ -377,6 +378,10 @@ uk:
     extendedDescription: Приєднуйтесь до спільноти, щоб дізнатись більше про OpenStreetMap, щоб щось спитати або взяти участь у наших зустрічах. Запрошуємо всіх!
   co-facebook:
     extendedDescription: Приєднуйтесь до спільноти, щоб дізнатись більше про OpenStreetMap. Запрошуємо всіх!
+  co-github:
+    description: Проєкти Git про Колумбію
+  co-wiki:
+    description: Вікі-сторінка з документацією для мапінгу Колумбії
   comunitat-valenciana-wiki:
     description: 'Все, що вам потрібно знати про мапінг у Валенсії: {url}'
   czech-community:
@@ -423,6 +428,12 @@ uk:
     description: Мапери та користувачі OpenStreetMap з Карлсруе
   de-luneburg-wiki:
     description: '{community} - сторінка у Вікі'
+  de-mainz-mailinglist:
+    description: OpenStreetMap в Майнці та околицях
+  de-mainz-telegram:
+    description: OpenStreetMap в Майнці та околицях
+  de-mainz-wiki:
+    description: OpenStreetMap в Майнці та околицях
   de-munchen-wiki:
     description: '{community} - сторінка у Вікі'
   de-mv-mailinglist:
@@ -613,10 +624,30 @@ uk:
   MapRVA:
     name: MapRVA
     description: MapRVA Meetup
+  maptime-bogota-facebook:
+    name: MaptimeBogotá
+    description: 'Ми група осіб зацікавлених в мапігу в OpenStreetMap в Боготі та навколо. '
+    extendedDescription: Навчіться збирати дані у полі та додавати їх в OpenStreetMap. Не обовʼязково мати попередні знання! Вам просто потрібно бажання брати участь, вчитися та отримувати задоволення.
+  maptime-bogota-github:
+    name: MaptimeBogotá
+    description: 'Ми група осіб зацікавлених в мапігу в OpenStreetMap в Боготі та навколо. '
+    extendedDescription: Навчіться збирати дані у полі та додавати їх в OpenStreetMap. Не обовʼязково мати попередні знання! Вам просто потрібно бажання брати участь, вчитися та отримувати задоволення.
+  maptime-bogota-linkedin:
+    name: MaptimeBogotá
+    description: 'Ми група осіб зацікавлених в мапігу в OpenStreetMap в Боготі та навколо. '
+    extendedDescription: Навчіться збирати дані у полі та додавати їх в OpenStreetMap. Не обовʼязково мати попередні знання! Вам просто потрібно бажання брати участь, вчитися та отримувати задоволення.
+  maptime-bogota-mastodon:
+    name: MaptimeBogotá
+    description: 'Ми група осіб зацікавлених в мапігу в OpenStreetMap в Боготі та навколо. '
+    extendedDescription: Навчіться збирати дані у полі та додавати їх в OpenStreetMap. Не обовʼязково мати попередні знання! Вам просто потрібно бажання брати участь, вчитися та отримувати задоволення.
   maptime-bogota-meetup:
     name: MaptimeBogotá
     description: 'Ми група осіб зацікавлених в мапігу в OpenStreetMap в Боготі на навколо. '
     extendedDescription: Навчіться збирати дані у полі та додавати їх в OpenStreetMap. Не обов’язково мати попередні знання! Вам просто потрібно бажання брати участь, вчитися та отримувати задоволення.
+  maptime-bogota-telegram:
+    name: MaptimeBogotá
+    description: 'Ми група осіб зацікавлених в мапігу в OpenStreetMap в Боготі та навколо. '
+    extendedDescription: Навчіться збирати дані у полі та додавати їх в OpenStreetMap. Не обовʼязково мати попередні знання! Вам просто потрібно бажання брати участь, вчитися та отримувати задоволення.
   maptime-bogota-twitter:
     name: MaptimeBogotá
     description: 'Ми група осіб зацікавлених в мапігу в OpenStreetMap в Боготі на навколо. '
@@ -625,6 +656,10 @@ uk:
     name: MaptimeBogotá
     description: 'Ми група осіб зацікавлених в мапігу в OpenStreetMap в Боготі на навколо. '
     extendedDescription: Навчіться збирати дані у полі та додавати їх в OpenStreetMap. Не обов’язково мати попередні знання! Вам просто потрібно бажання брати участь, вчитися та отримувати задоволення.
+  maptime-bogota-youtube:
+    name: MaptimeBogotá
+    description: 'Ми група осіб зацікавлених в мапігу в OpenStreetMap в Боготі та навколо. '
+    extendedDescription: Навчіться збирати дані у полі та додавати їх в OpenStreetMap. Не обовʼязково мати попередні знання! Вам просто потрібно бажання брати участь, вчитися та отримувати задоволення.
   Maptime-ME-meetup:
     name: MaptimeME
     description: Мапери та учасники OpenStreetMap з Портленда, штат Мен
@@ -643,13 +678,14 @@ uk:
     extendedDescription: Мапите в Монголії? Маєте питання, бажаєте зв'язатись зі спільнотою? Приєднуйтесь до нас за адресою {url}. Ласкаво просимо!
   mt-irc:
     extendedDescription: 'Приєднуйтесь до #{account} на irc.oftc.net (порт 6667), будь ласка, будьте терплячі та зачекайте кілька хвилин, після того, як ви поставите питання'
+  nl-discourse:
+    description: Форум обговорення питань OpenStreetMap в Нідерландах
   nl-matrix:
     description: Ласкаво просимо!
   no-irc:
     description: Місце для обговорення для маперів та користувачів OpenStreetMap, розробників та  ентузіастів з Норвегії
-  no-mailinglist:
-    name: 'Список розсилки {community}'
-    description: Список розсилки для маперів та користувачів OpenStreetMap, розробників та ентузіастів з Норвегії
+  no-matrix:
+    description: Місток чату IRC
   Nottingham-OSM-pub-meetup:
     name: Іст-Мідлендс (Ноттінгем) Щомісячні зустрічі в пабі
     description: Збори для маперів та користувачів Східного Мідлендса
@@ -699,10 +735,6 @@ uk:
     description: OpenStreetMap Бенгалуру
   osm-benin-facebook:
     description: Покращуйте OpenStreetMap у Беніні
-  OSM-Boston:
-    name: OpenStreetMap Бостон
-    description: Мапери та користувачі OpenStreetMap з Бостона
-    extendedDescription: OpenStreetMap – це вільна та відкрита вікіподібна мапа світу, що має сотні тисяч внесків щодня від таких людей, як ви. Редагувати мапу просто і весело! Приєднуйтесь до нас як у дистанційного мапінгу, так для мапінгу прямо з вулиць, у намірі створити найкращу мапу району Бостона та решти світу!
   OSM-Central-Salish-Sea:
     name: OpenStreetMap море Селіш
     description: Мапери та користувачі OpenStreetMap навколо гори Вернон, Вашингтон
@@ -806,9 +838,6 @@ uk:
     description: 'Хочете дізнатись більше про мапінг Керали: {url}'
   osm-mg-facebook:
     description: Малагасійська група у Facebook для тих, хто цікавиться OpenStreetMap.
-  osm-michigan-facebook-group:
-    name: '{community} - група у Facebook'
-    description: Обговорення мапінгу в Мічигані.
   osm-michigan-wiki:
     description: '{community} - сторінка у Вікі'
   osm-ni:
@@ -828,14 +857,6 @@ uk:
     description: Основне місце для голосових чатів польської спільноти OpenStreetMap, активні текстові канали
   OSM-PL-github:
     description: GitHub польської спільноти OpenStreetMap
-  OSM-Portland:
-    name: OpenStreetMap Портленд
-    description: Мапери та користувачі OpenStreetMap з Портленда
-    extendedDescription: OpenStreetMap – це мапа світу, створена такими людьми, як ви. Це мапа, подібна до Вікіпедії, яка розповсюджується вільно. Перегляньте osm.org, щоб дізнатися більше. Ми постійно зустрічаємось, щоб поговорити про мапи, помапити та отримати задоволення!
-  OSM-Portland-forum:
-    name: OpenStreetMap PDX Google Group
-    description: Форум та список розсилки користувачів OpenStreetMap у районі Портленда
-    extendedDescription: Ця група сприяє вдосконаленню OpenStreetMap в Портленді, штат Орегон, для підтримки таких програм, як Open Trip Planner.
   OSM-Puducherry-Mailing-List:
     name: Free Software Hardware Movement – Список розсилки
     description: Список розсилки FSHM Puducherry для обговорення мапінгу та інших речей в Пудучеррі.
@@ -1474,9 +1495,6 @@ uk:
     name: Libraries Outreach - ODL
     description: Осередок YouthMappers в Університеті Вест-Індії, кампус Мона
     extendedDescription: UWI, бібліотека кампусу Мона бере участь у громадських, інформаційних і спеціальних проєктах. Це дасть нашій бібліотеці можливість стати каталізатором просторової грамотності та виступати за обмін просторовими даними та доступ за для інтересів Ямайки та Карибського басейну. У нас є потреби в допомозі в разі стихійних лих та налагодження зв’язку, а також у науках про Землю та геонебезпеці, щоб краще обслуговувати наш кампус і громаду. Зокрема, ми маємо Наукову бібліотеку, щоб продемонструвати її всім викладачам і студентам.
-  ym-University-of-Vermont:
-    name: Гуманітарний картографічний клуб університету Вермонта
-    description: Осередок YouthMappers в Університеті Вермонта
   ym-University-of-Victoria:
     name: Товариство студентів географії
     description: Осередок YouthMappers в Університеті Вікторії

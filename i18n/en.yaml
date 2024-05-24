@@ -220,6 +220,8 @@ en:
       name: '{community} on Facebook'
       description: Join our community on Facebook
       url: https://www.facebook.com/{account}
+    fediverse:
+      name: '{community}'
     forum:
       name: '{community} Forum'
       description: The official forum for {community}
@@ -231,6 +233,10 @@ en:
       url: https://gitlab.com/{account}
     group:
       name: '{community}'
+    instagram:
+      name: '{community} on Instagram'
+      description: Follow us on Instagram
+      url: https://instagram.com/{account}
     irc:
       name: '{community} on IRC'
       description: 'Join #{account} on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)'
@@ -275,6 +281,10 @@ en:
       name: '{community} on Threads'
       description: Follow us on Threads
       url: https://threads.net/@{account}
+    tiktok:
+      name: '{community} on TikTok'
+      description: Follow us on TikTok
+      url: https://tiktok.com/@{account}
     twitter:
       name: '{community} on 𝕏'
       description: Follow us on 𝕏
@@ -745,8 +755,6 @@ en:
   OSM-Chattanooga:
     name: OSM Chattanooga
     description: The OpenStreetMap user group for Chattanooga
-  osm-cn:
-    description: We help grow and improve OpenStreetMap in China.
   OSM-Colorado:
     name: OpenStreetMap Colorado
     description: Mappers and OpenStreetMap users in the state of Colorado, USA
@@ -1248,6 +1256,9 @@ en:
       Had been founded by members and students of Open University of Tanzania in Department of Geography who are mainly need to improve their career and help young community through joint and partnership projects with local community groups such as Mikoko Scout Group (www.msg.or.tz) and start cooperation with international colleges and universities for exchange programs in relation to Geography Studies as some programs prepared by Mikoko Scout Group which will link local university and other universities of the same interest through International Nature & Environmental Youth Camp 2019 (www.campsite.msg.or.tz/nature.html )
 
       Our chapter will soon be recognized as youth network program that will open opportunity for students to study and conduct research studies at a local levels.
+  ym-Oregon-State-University:
+    name: YouthMappers at Oregon State University
+    description: YouthMappers chapter at Oregon State University
   ym-Politecnico-di-Milano:
     name: PoliMappers
     description: YouthMappers chapter at Politecnico di Milano

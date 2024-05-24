@@ -201,6 +201,7 @@ br:
     openstreetmapwesternsahara: OpenStreetMap Sahara ar C'hornôg
     openstreetmapzambia: OpenStreetMap Zambia
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
+    osmmainz: OSM Mainz
     youthmappersasu: YouthMappersASU
   _defaults:
     aparat:
@@ -358,6 +359,10 @@ br:
     extendedDescription: Adkavit ar gumuniezh evit deskiñ muioc'h diwar-benn OpenStreetMap, sevel goulennoù pe kemer perzh en emvodoù. An holl 'zo deuet mat!
   co-facebook:
     extendedDescription: Adkavit ar gumuniezh evit deskiñ muioc'h diwar-benn OpenStreetMap. Pep hini 'zo deuet mat!
+  co-github:
+    description: Raktresoù Git diwar-benn Kolombia
+  co-wiki:
+    description: Pajenn wiki gant an teuliadur evit kartennaouiñ Kolombia
   comunitat-valenciana-wiki:
     description: 'Ar pep retañ evit kartennaouiñ Kumuniezh València: {url}'
   de-aachen-wiki:
@@ -392,6 +397,12 @@ br:
     description: Kartennour·ien/ezed hag implijer·ien/ezed OpenStreetMap e korn-bro Karlsruhe
   de-luneburg-wiki:
     description: 'Pajenn Wiki {community}'
+  de-mainz-mailinglist:
+    description: OpenStreetMap e Mainz hag Umgebung
+  de-mainz-telegram:
+    description: OpenStreetMap e Mainz hag Umgebung
+  de-mainz-wiki:
+    description: OpenStreetMap e Mainz hag Umgebung
   de-munchen-wiki:
     description: 'Pajenn Wiki {community}'
   de-mv-mailinglist:
@@ -532,15 +543,27 @@ br:
   MapRVA:
     name: MapRVA
     description: Emvod MapRVA
+  maptime-bogota-facebook:
+    name: MaptimeBogotá
+  maptime-bogota-github:
+    name: MaptimeBogotá
+  maptime-bogota-linkedin:
+    name: MaptimeBogotá
+  maptime-bogota-mastodon:
+    name: MaptimeBogotá
   maptime-bogota-meetup:
     name: MaptimeBogotá
     description: Ni 'zo ur strollad a dud dedennet da gartennaouiñ Bogotá hag he c'horn-bro e OpenStreetMap.
+  maptime-bogota-telegram:
+    name: MaptimeBogotá
   maptime-bogota-twitter:
     name: MaptimeBogotá
     description: Ni 'zo ur strollad a dud dedennet da gartennaouiñ Bogotá hag he c'horn-bro e OpenStreetMap.
   maptime-bogota-website:
     name: MaptimeBogotá
     description: Ni 'zo ur strollad a dud dedennet da gartennaouiñ Bogotá hag he c'horn-bro e OpenStreetMap.
+  maptime-bogota-youtube:
+    name: MaptimeBogotá
   Maptime-ME-meetup:
     name: MaptimeME
     description: Kartennour·ien/ezed hag implijer·ien/ezed OpenStreetMap tro-dro da bPortland (Maine)
@@ -555,10 +578,10 @@ br:
     extendedDescription: O kartennaouiñ e Myanmar? Goulennoù ho peus pe c'hoant ho peus da gejañ gant ar gumuniezh amañ? Deuit ganeomp war {url}. Pep hini 'zo deuet mat!
   mn-facebook:
     extendedDescription: O kartennaouiñ e Mongolia? Goulennoù ho peus pe c'hoant ho peus da gejañ gant ar gumuniezh amañ? Deuit ganeomp war {url}. Pep hini 'zo deuet mat!
+  nl-discourse:
+    description: Ur forom evit kartennourien OpenStreetMap en Izelvroioù
   nl-matrix:
     description: Kement kartennour·ez 'zo deuet mat!
-  no-mailinglist:
-    name: 'Lizher-kelaouiñ {community}'
   np-facebook:
     extendedDescription: O kartennaouiñ e Nepal? Goulennoù ho peus pe c'hoant ho peus da gejañ gant ar gumuniezh amañ? Deuit ganeomp war {url}. Pep hini 'zo deuet mat!
   Open-Source-San-Jose-Discord:
@@ -594,9 +617,6 @@ br:
     description: OpenStreetMap e Bengaluru
   osm-benin-facebook:
     description: Gwellaat OpenStreetMap e Benin
-  OSM-Boston:
-    name: OpenStreetMap Boston
-    description: Kartennour·ien/ezed hag implijer·ien/ezed OpenStreetMap e korn-bro Boston
   OSM-Central-Salish-Sea:
     description: Kartennour·ien/ezed hag implijer·ien/ezed OpenStreetMap e korn-bro Mount Vernon (Washington)
   osm-ch:
@@ -661,9 +681,6 @@ br:
     description: 'C''hoant ho peus da zeskiñ muioc''h diwar-benn kartennouriezh Kerala? Klikit amañ: {url}'
   osm-mg-facebook:
     description: Strollad Facebook maleziat evit tud dedennet gant OpenStreetMap.
-  osm-michigan-facebook-group:
-    name: 'Strollad Facebook {community}'
-    description: Kaozeadenn diwar-benn kartennaouiñ Michigan.
   osm-michigan-wiki:
     description: 'Pajenn Wiki {community}'
   osm-ni:
@@ -672,12 +689,6 @@ br:
     description: Kartennour·ien/ezed hag implijer·ien/ezed OpenStreetMap e korn-bro Ottawa
   OSM-PL-chapter:
     description: Kêr kumuniezh OpenStreetMap Polonia
-  OSM-Portland:
-    name: OpenStreetMap Portland
-    description: Kartennour·ien/ezed hag implijer·ien/ezed OpenStreetMap e korn-bro Portland
-  OSM-Portland-forum:
-    name: Strollad Google OpenStreetMap PDX
-    description: Forom ha lizher-kelaouiñ implijerien OpenStreetMap rannvro Portland
   OSM-Rome-meetup:
     description: Gwellaat OpenStreetMap tro-dro da Roma
   OSM-Seattle:
@@ -1002,8 +1013,6 @@ br:
   ym-University-of-Southern-California:
     name: Kartennour·ien/ezed Karolina ar Su
     description: Kevrenn YouthMappers skol-veur Kalifornia ar Su
-  ym-University-of-Vermont:
-    description: Kevrenn YouthMappers skol-veur Vermont
   ym-University-of-Victoria:
     description: Kevrenn YouthMappers skol-veur Victoria
   ym-University-of-Warwick:

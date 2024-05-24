@@ -201,6 +201,7 @@ cy:
     openstreetmapwesternsahara: OpenStreetMap Western Sahara
     openstreetmapzambia: OpenStreetMap Zambia
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
+    osmmainz: OSM Mainz
     youthmappersasu: YouthMappersASU
   _defaults:
     aparat:
@@ -375,6 +376,12 @@ cy:
     name: Rhestr Bostio Karlsruhe
   de-luneburg-wiki:
     description: 'Tudalen Wici {community}'
+  de-mainz-mailinglist:
+    description: OpenStreetMap ym Mainz und Umgebung
+  de-mainz-telegram:
+    description: OpenStreetMap ym Mainz und Umgebung
+  de-mainz-wiki:
+    description: OpenStreetMap ym Mainz und Umgebung
   de-munchen-wiki:
     description: 'Tudalen Wici {community}'
   de-mv-mailinglist:
@@ -477,11 +484,23 @@ cy:
   MapRVA:
     name: MapRVA
     description: MapRVA Meetup
+  maptime-bogota-facebook:
+    name: MaptimeBogotá
+  maptime-bogota-github:
+    name: MaptimeBogotá
+  maptime-bogota-linkedin:
+    name: MaptimeBogotá
+  maptime-bogota-mastodon:
+    name: MaptimeBogotá
   maptime-bogota-meetup:
+    name: MaptimeBogotá
+  maptime-bogota-telegram:
     name: MaptimeBogotá
   maptime-bogota-twitter:
     name: MaptimeBogotá
   maptime-bogota-website:
+    name: MaptimeBogotá
+  maptime-bogota-youtube:
     name: MaptimeBogotá
   Maptime-ME-meetup:
     name: MaptimeME
@@ -495,8 +514,6 @@ cy:
     description: Croeso i bawb! Cofrestrwch nawr {signupUrl}
   nl-matrix:
     description: Croeso i bob mapiwr!
-  no-mailinglist:
-    name: 'Rhestr Bostio {community}'
   Open-Source-San-Jose-Discord:
     name: Discord Open Source San José
   Open-Source-San-Jose-Slack:
@@ -524,8 +541,6 @@ cy:
     description: OpenStreetMap ym Mengaluru
   osm-benin-facebook:
     description: Gwella OpenStreetMap ym Menin
-  OSM-Boston:
-    name: OpenStreetMap Boston
   OSM-Central-Salish-Sea:
     name: OpenStreetMap Central Salish Sea
   osm-ch:
@@ -539,6 +554,7 @@ cy:
   osm-deep-south-wiki:
     description: 'Tudalen Wici {community}'
   osm-delhi-xmpp:
+    name: XMPP OpenStreetMap Delhi
     description: 'Ymunwch â''n hystafell XMPP: {url}'
   OSM-Discord:
     name: Discord OpenStreetMap World
@@ -563,8 +579,6 @@ cy:
     description: Mapwyr a defnyddwyr OpenStreetMap yn Japan
   osm-kerala-github:
     description: 'Codio â ni: {url}'
-  osm-michigan-facebook-group:
-    name: 'Grŵp Facebook {community}'
   osm-michigan-wiki:
     description: 'Tudalen Wici {community}'
   osm-ni:
@@ -573,10 +587,6 @@ cy:
     description: 'Tudalen Wici {community}'
   OSM-PL-chapter:
     description: Cartref i gymuned OpenStreetMap Gwlad Pwyl
-  OSM-Portland:
-    name: OpenStreetMap Portland
-  OSM-Portland-forum:
-    name: Grŵp Google OpenStreetMap PDX
   OSM-Puducherry-Mailing-List:
     name: Free Software Hardware Movement - Rhestr Bostio
   OSM-Rome-meetup:

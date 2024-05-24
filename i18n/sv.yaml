@@ -196,6 +196,7 @@ sv:
     openstreetmapwesternsahara: OpenStreetMap Västsahara
     openstreetmapzambia: OpenStreetMap Zambia
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
+    osmmainz: OSM Mainz
     youthmappersasu: YouthMappersASU
   _defaults:
     aparat:
@@ -299,6 +300,8 @@ sv:
     name: Maptime Tirana
     description: Sociala evenemang organiserade runt kartläggning – nybörjare är varmt välkomna!
     extendedDescription: Maptime är en öppen inlärningsmiljö för alla kunskapsnivåer, och erbjuder riktat pedagogiskt stöd till nybörjaren. Maptime är både flexibel och strukturerad, vilket skapar möjlighet för kartläggningsguider, workshops, pågående projekt med gemensamt mål samt arbetstid för oberoende projekt eller samarbetande.
+  am-wiki:
+    description: 'Wiki-sida för {community}'
   at-matrix:
     description: Inofficiell tysk Matrix-kanal för Österrike
   at-wiki:
@@ -368,6 +371,10 @@ sv:
     extendedDescription: Anslut till gemenskapen för att lära dig mer om OpenStreetMap, ställa frågor eller delta på våra möten. Alla är välkomna!
   co-facebook:
     extendedDescription: Anslut till gemenskapen för att lära dig mer om OpenStreetMap. Alla är välkomna!
+  co-github:
+    description: Git-projekt om Colombia
+  co-wiki:
+    description: Wikisidan med dokumentationen för att kartera Colombia
   comunitat-valenciana-wiki:
     description: 'Gemenskap för allt du behöver veta om kartläggning i Valencia: {url}'
   czech-community:
@@ -414,6 +421,12 @@ sv:
     description: Kartläggare och OpenStreetMap-användare runt Karlsruhe
   de-luneburg-wiki:
     description: 'Wiki-sida för {community}'
+  de-mainz-mailinglist:
+    description: OpenStreetMap i Mainz med omgivning
+  de-mainz-telegram:
+    description: OpenStreetMap i Mainz med omgivning
+  de-mainz-wiki:
+    description: OpenStreetMap i Mainz med omgivning
   de-munchen-wiki:
     description: 'Wiki-sida för {community}'
   de-mv-mailinglist:
@@ -604,10 +617,23 @@ sv:
   MapRVA:
     name: MapRVA
     description: MapRVA Meetup
+  maptime-bogota-facebook:
+    name: MaptimeBogotá
+    description: Vi är en grupp människor som är intresserade av att kartlägga Bogotá och dess omgivningar i OpenStreetMap.
+  maptime-bogota-github:
+    name: MaptimeBogotá
+    description: Vi är en grupp människor som är intresserade av att kartlägga Bogotá och dess omgivningar i OpenStreetMap.
+  maptime-bogota-linkedin:
+    name: MaptimeBogotá
+  maptime-bogota-mastodon:
+    name: MaptimeBogotá
+    description: Vi är en grupp människor som är intresserade av att kartlägga Bogotá och dess omgivningar i OpenStreetMap.
   maptime-bogota-meetup:
     name: MaptimeBogotá
     description: Vi är en grupp intresserade av att kartlägga Bogotá och dess omgivningar till OpenStreetMap.
     extendedDescription: Lär dig att samla in data på fältet och digitalisera det i OpenStreetMap. Det finns inga krav på förkunskaper! Du behöver bara lusten att delta, lära dig och ha kul.
+  maptime-bogota-telegram:
+    name: MaptimeBogotá
   maptime-bogota-twitter:
     name: MaptimeBogotá
     description: Vi är en grupp intresserade av att kartlägga Bogotá och dess omgivningar i OpenStreetMap.
@@ -616,6 +642,9 @@ sv:
     name: MaptimeBogotá
     description: Vi är en grupp intresserade av att kartlägga Bogotá och dess omgivningar till OpenStreetMap.
     extendedDescription: Lär dig att samla in data på fältet och digitalisera det i OpenStreetMap. Det finns inga krav på förkunskaper! Du behöver bara lusten att delta, lära dig och ha kul.
+  maptime-bogota-youtube:
+    name: MaptimeBogotá
+    description: Vi är en grupp människor som är intresserade av att kartlägga Bogotá och dess omgivningar i OpenStreetMap.
   Maptime-ME-meetup:
     name: MaptimeME
     description: Kartläggare och OpenStreetMap-användare runt Portland, Maine
@@ -626,25 +655,30 @@ sv:
   md-googlegroup:
     name: 'Google-grupp för {community}'
     description: Anslut till Google-gruppen för {community}
+  me-telegram:
+    description: Alla är välkomna! Registrera dig på {signupUrl}
   mm-facebook:
     extendedDescription: Kartlägger i Myanmar? Har du frågor, vill du ansluta till gemenskapen här? Anslut dig på {url}. Alla är välkomna!
   mn-facebook:
     extendedDescription: Kartlägger i Mongoliet? Har du frågor, vill du ansluta till gemenskapen här? Anslut dig på {url}. Alla är välkomna!
   mt-irc:
     extendedDescription: 'Anslut #{account} på irc.oftc.net (port 6667). Ha tålamod och vänta några minuter om du ställer en fråga'
+  nl-discourse:
+    description: Ett forum för att diskutera OpenStreetMap i Nederländerna
   nl-matrix:
     description: Alla kartläggare är välkomna!
   no-irc:
     description: Chattrum för kartläggare och OpenStreetMap-användare, utvecklare och entusiaster i Norge
-  no-mailinglist:
-    name: 'E-postlista för {community}'
-    description: E-postlista för kartläggare och OpenStreetMap-användare, utvecklare och entusiaster i Norge
   Nottingham-OSM-pub-meetup:
     name: Pub-möte en gång i månaden i East Midlands (Nottingham)
     description: Social sammankomst för kartläggare och användare i East Midlands
     extendedDescription: En grupp har träffats sedan mars 2011, ursprungligen i Nottingham, och senare i Derby och ibland någon annanstans i East Midlands. Det är sociala träffar, men det är en utmärkt plats att komma till för att ställa specifika frågor om OSM, antingen i närområdet eller i allmänhet. Under sommarmånaderna brukar vi göra lite lätt kartläggning i en timme i närheten av vår mötesplats. Gruppen som helhet har ett särskilt intresse för att kartlägga vägrestriktioner  och då och då har vi kartläggningsmöten för detta ändamål.
   np-facebook:
     extendedDescription: Kartlägger i Nepal? Har du frågor, vill du ansluta till gemenskapen här? Anslut dig på {url}. Alla är välkomna!
+  Open-Source-San-Jose-Discord:
+    description: 'Kom i kontakt med andra kartläggare på Discord! Efter du registrerat dig, anslut till kanalen #🗺openstreetmap.'
+  Open-Source-San-Jose-Slack:
+    description: 'Alla är välkomna! Registrera dig på {signupUrl} och anslut sedan till kanalen #proj-osm'
   OpenCleveland-meetup:
     name: Open Cleveland
     description: Förbättra OpenStreetMap kring Cleveland
@@ -674,12 +708,10 @@ sv:
     description: Allt du behöver veta om kartläggning i Argentina.
   osm-at:
     description: Plattformen för information om OpenStreetMap i Österrike
+  osm-bengaluru-wiki:
+    description: OpenStreetMap i Bengaluru
   osm-benin-facebook:
     description: Förbättra OpenStreetMap i Benin
-  OSM-Boston:
-    name: OpenStreetMap Boston
-    description: Kartläggare och OpenStreetMap-användare runt Boston
-    extendedDescription: OpenStreetMap är en fria och öppna, wiki-liknande världskarta med hundratusentals bidrag varje dag från människor precis som du. Redigering av kartan är enkelt och roligt! Följ med oss både inomhus och utomhus i vårt försök att skapa den bästa kartan över Boston-området och resten av världen!
   OSM-Central-Salish-Sea:
     name: OpenStreetMap Central Salish Sea
     description: Kartläggare och OpenStreetMap-användare runt Mount Vernon, Washington
@@ -773,9 +805,6 @@ sv:
     description: Vill du veta mer om kartläggning i Kerala? {url}
   osm-mg-facebook:
     description: Malagasy Facebook-grupp för personer intresserade av OpenStreetMap.
-  osm-michigan-facebook-group:
-    name: 'Facebook-grupp för {community}'
-    description: Diskutera kartläggning i Michigan.
   osm-michigan-wiki:
     description: 'Wiki-sida för {community}'
   osm-ni:
@@ -795,14 +824,6 @@ sv:
     description: Huvudplats för röstchattar bland polska OpenStreetMap-gemenskapen, aktiva textkanaler
   OSM-PL-github:
     description: GitHub-organisation för den polska OpenStreetMap-gemenskapen
-  OSM-Portland:
-    name: OpenStreetMap Portland
-    description: Kartläggare och OpenStreetMap-användare runt Portland
-    extendedDescription: OpenStreetMap (OSM) är en världskarta skapad av människor precis som du. Det är en karta du bygger och ger bort gratis, precis som Wikipedia. Ta en titt på osm.org för mer information, och kom med på ett meetup för att prata om kartor, bidra till OSM och ha kul!
-  OSM-Portland-forum:
-    name: OpenStreetMap PDX på Google Group
-    description: Forum och e-postlista för OpenStreetMap-användare runt Portland
-    extendedDescription: Denna grupp syfta till att samordna förbättringar av OpenStreetMap runt Portland, Oregon, för att stöda tillämpningar så som Open Trip Planer.
   OSM-Puducherry-Mailing-List:
     name: Rörelsen för fri mjukvara och hårdvara – E-postlista
     description: E-postlistan FSHM Puducherry för att diskutera kartläggning i Puducherry  och andra saker.
@@ -1420,9 +1441,6 @@ sv:
     name: Libraries Outreach - ODL
     description: YouthMappers-filial vid University of the West Indies, Mona Campus
     extendedDescription: UWI, Mona Campus Library deltar i offentliga, uppsökande och speciella projekt. Detta gör det möjligt för vårt bibliotek att vara en katalysator för rumslig kompetens och förespråka delning av rumslig data och tillgång till jamaicanska och karibiska intressen. Vi har katastrofhjälp och kommunikationsbehov och omfattande jordvetenskapliga och geo-risker måste bättre tjäna vårt campus och samhälle. Närmare bestämt vill vi ha ett vetenskapsbibliotek för att visa upp sådant för alla lärare och studenter.
-  ym-University-of-Vermont:
-    name: University of Vermont Humanitarian Mapping Club
-    description: YouthMappers-filial vid University of Vermont
   ym-University-of-Victoria:
     name: Society of Geography Students
     description: YouthMappers-filial vid University of Victoria
