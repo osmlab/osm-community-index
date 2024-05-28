@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "5.7.0",
-    "generated": "2024-05-24T15:54:31.971Z",
+    "version": "5.7.1",
+    "generated": "2024-05-28T20:41:44.014Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "c617eb8c4988a1d4e1b9ef6faf0e8b58"
+    "hash": "82b50468f4f27c630cdc71232471d715"
   },
   "type": "FeatureCollection",
   "features": [
@@ -14212,6 +14212,26 @@
               "descriptionHTML": "Join #osm-fr on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)"
             }
           },
+          "fr-linkedin": {
+            "id": "fr-linkedin",
+            "type": "linkedin",
+            "locationSet": {"include": ["fr"]},
+            "languageCodes": ["fr"],
+            "order": -5,
+            "strings": {
+              "community": "OpenStreetMap France",
+              "communityID": "openstreetmapfrance",
+              "url": "https://www.linkedin.com/groups/4143506"
+            },
+            "resolved": {
+              "name": "OpenStreetMap France on LinkedIn",
+              "url": "https://www.linkedin.com/groups/4143506",
+              "description": "Join our community on LinkedIn",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.linkedin.com/groups/4143506\">OpenStreetMap France on LinkedIn</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.linkedin.com/groups/4143506\">https://www.linkedin.com/groups/4143506</a>",
+              "descriptionHTML": "Join our community on LinkedIn"
+            }
+          },
           "fr-mailinglist": {
             "id": "fr-mailinglist",
             "type": "mailinglist",
@@ -15911,6 +15931,25 @@
         "driveSide": "right",
         "area": 443616.7,
         "resources": {
+          "gr-discourse": {
+            "id": "gr-discourse",
+            "type": "discourse",
+            "account": "gr",
+            "locationSet": {"include": ["gr"]},
+            "languageCodes": ["el"],
+            "strings": {
+              "community": "OpenStreetMap Greece",
+              "communityID": "openstreetmapgreece"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Greece Community Forum",
+              "url": "https://community.openstreetmap.org/c/communities/gr",
+              "description": "The official forum for OpenStreetMap Greece",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/gr\">OpenStreetMap Greece Community Forum</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/gr\">https://community.openstreetmap.org/c/communities/gr</a>",
+              "descriptionHTML": "The official forum for OpenStreetMap Greece"
+            }
+          },
           "gr-matrix": {
             "id": "gr-matrix",
             "type": "matrix",
@@ -15918,12 +15957,15 @@
             "locationSet": {"include": ["gr"]},
             "languageCodes": ["el"],
             "order": 2,
-            "strings": {"name": "OpenStreetMap Greece Matrix"},
+            "strings": {
+              "community": "OpenStreetMap Greece",
+              "communityID": "openstreetmapgreece"
+            },
             "resolved": {
-              "name": "OpenStreetMap Greece Matrix",
+              "name": "OpenStreetMap Greece Matrix Chat",
               "url": "https://matrix.to/#/#osm-gr:matrix.org",
               "description": "Join our community Matrix chat",
-              "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osm-gr:matrix.org\">OpenStreetMap Greece Matrix</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osm-gr:matrix.org\">OpenStreetMap Greece Matrix Chat</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osm-gr:matrix.org\">https://matrix.to/#/#osm-gr:matrix.org</a>",
               "descriptionHTML": "Join our community Matrix chat"
             }
@@ -18831,6 +18873,26 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-it\">OpenStreetMap Italy on IRC</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm-it\">https://webchat.oftc.net/?channels=osm-it</a>",
               "descriptionHTML": "Join #osm-it on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)"
+            }
+          },
+          "it-linkedin": {
+            "id": "it-linkedin",
+            "type": "linkedin",
+            "locationSet": {"include": ["it"]},
+            "languageCodes": ["it"],
+            "order": -5,
+            "strings": {
+              "community": "OpenStreetMap Italy",
+              "communityID": "openstreetmapitaly",
+              "url": "https://www.linkedin.com/groups/8971366"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Italy on LinkedIn",
+              "url": "https://www.linkedin.com/groups/8971366",
+              "description": "Join our community on LinkedIn",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.linkedin.com/groups/8971366\">OpenStreetMap Italy on LinkedIn</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.linkedin.com/groups/8971366\">https://www.linkedin.com/groups/8971366</a>",
+              "descriptionHTML": "Join our community on LinkedIn"
             }
           },
           "it-mailinglist": {
@@ -26615,7 +26677,7 @@
           "ne-facebook": {
             "id": "ne-facebook",
             "type": "facebook",
-            "account": "mappingforniger",
+            "account": "osmniger",
             "locationSet": {"include": ["ne"]},
             "strings": {
               "community": "OpenStreetMap Niger",
@@ -26623,10 +26685,10 @@
             },
             "resolved": {
               "name": "OpenStreetMap Niger on Facebook",
-              "url": "https://www.facebook.com/mappingforniger",
+              "url": "https://www.facebook.com/osmniger",
               "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/mappingforniger\">OpenStreetMap Niger on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/mappingforniger\">https://www.facebook.com/mappingforniger</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmniger\">OpenStreetMap Niger on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/osmniger\">https://www.facebook.com/osmniger</a>",
               "descriptionHTML": "Join our community on Facebook"
             }
           },
@@ -40837,6 +40899,26 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://gitlab.com/osm-serbia\">OpenStreetMap Serbia GitLab</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://gitlab.com/osm-serbia\">https://gitlab.com/osm-serbia</a>",
               "descriptionHTML": "Collection of projects related to OSM Serbia on GitLab"
+            }
+          },
+          "rs-linkedin": {
+            "id": "rs-linkedin",
+            "type": "linkedin",
+            "locationSet": {"include": ["rs"]},
+            "languageCodes": ["en", "sr"],
+            "order": -5,
+            "strings": {
+              "community": "OpenStreetMap Serbia",
+              "communityID": "openstreetmapserbia",
+              "url": "https://www.linkedin.com/groups/13782056"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Serbia on LinkedIn",
+              "url": "https://www.linkedin.com/groups/13782056",
+              "description": "Join our community on LinkedIn",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.linkedin.com/groups/13782056\">OpenStreetMap Serbia on LinkedIn</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.linkedin.com/groups/13782056\">https://www.linkedin.com/groups/13782056</a>",
+              "descriptionHTML": "Join our community on LinkedIn"
             }
           },
           "rs-osm": {

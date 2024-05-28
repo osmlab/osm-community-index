@@ -19,6 +19,19 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.7.1
+##### 2024-May-28
+* Added:
+  * Italy, France, Serbia Linkedin groups ([#563])
+  * Greece Discourse ([#716])
+* Updated:
+  * Niger Facebook link ([#691])
+
+[#563]: https://github.com/osmlab/osm-community-index/issues/563
+[#691]: https://github.com/osmlab/osm-community-index/issues/691
+[#716]: https://github.com/osmlab/osm-community-index/issues/716
+
+
 # 5.7.0
 ##### 2024-May-24
 * Support new resource types: `fediverse`, `instagram`, `tiktok` ([#670], [#710])
