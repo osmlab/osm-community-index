@@ -220,6 +220,8 @@ br:
       name: '{community} war Facebook'
       description: Heuilhit hor c'humuniezh war Facebook
       url: https://www.facebook.com/{account}
+    fediverse:
+      name: '{community}'
     forum:
       name: 'Forom {community}'
       description: Forom ofisiel {community}
@@ -231,6 +233,10 @@ br:
       url: https://gitlab.com/{account}
     group:
       name: '{community}'
+    instagram:
+      name: '{community} war Instagram'
+      description: Heuilhit ac'hanomp war Instagram
+      url: https://instagram.com/{account}
     irc:
       name: '{community} war IRC'
       description: 'Kavit #{account} war irc.oftc.net (porzh 6667 evit nann-SSL pe 6697 evit SSL)'
@@ -275,6 +281,10 @@ br:
       name: '{community} war Threads'
       description: Heuilhit ac'hanomp war Threads
       url: https://threads.net/@{account}
+    tiktok:
+      name: '{community} war dTikTok'
+      description: Heuilhit ac'hanomp war dTikTok
+      url: https://tiktok.com/@{account}
     twitter:
       name: '{community} war 𝕏'
       description: Heuilhit ac'hanomp war 𝕏
@@ -625,8 +635,6 @@ br:
   OSM-Chattanooga:
     name: OSM Chattanooga
     description: Strollad implijerien OpenStreetMap e Chattanooga
-  osm-cn:
-    description: Ni a sikour diorren ha gwellaat OpenStreetMap e Sina.
   OSM-Colorado:
     name: OpenStreetMap Colorado
     description: Kartennour·ien/ezed hag implijer·ien/ezed OpenStreetMap e Colorado
@@ -905,6 +913,9 @@ br:
     description: Kevrenn YouthMappers skol-veur Ohio Wesleyan
   ym-Oklahoma-State-University:
     description: Kevrenn YouthMappers skol-veur-stad Oklahoma
+  ym-Oregon-State-University:
+    name: YouthMappers e skol-veur stad Oregon
+    description: Kevrenn YouthMappers skol-veur stad Oregon
   ym-Politecnico-di-Milano:
     name: PoliMappers
   ym-Queen-Mary-University-of-London:

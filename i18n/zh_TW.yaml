@@ -220,6 +220,8 @@ zh_TW:
       name: 'Facebook 上的 {community}'
       description: 加入 Facebook 上的 {community}
       url: https://www.facebook.com/{account}
+    fediverse:
+      name: '{community}'
     forum:
       name: '{community} 論壇'
       description: '{community} 的官方郵件論壇'
@@ -231,6 +233,10 @@ zh_TW:
       url: https://gitlab.com/{account}
     group:
       name: '{community}'
+    instagram:
+      name: 'Instagram 上的 {community}'
+      description: 在 Instagram 上追蹤我們
+      url: https://instagram.com/{account}
     irc:
       name: 'IRC 上的 {community}'
       description: '在 irc.oftc.net 上加入 #{account}（連接埠 6667，或是安全連線是 6697）'
@@ -275,6 +281,10 @@ zh_TW:
       name: 'Threads 上的 {community}'
       description: 在 Threads 追隨我們
       url: https://threads.net/@{account}
+    tiktok:
+      name: 'TikTok 上的 {community}'
+      description: 在 TikTok 上追蹤我們
+      url: https://tiktok.com/@{account}
     twitter:
       name: 'X 上的 {community}'
       description: 在 X 追隨我們
@@ -745,8 +755,6 @@ zh_TW:
   OSM-Chattanooga:
     name: OSM 查塔努加
     description: 查塔努加的開放街圖使用者群組
-  osm-cn:
-    description: 我們協助中國的開放街圖成長茁壯並改善它。
   OSM-Colorado:
     name: 開放街圖科羅拉多
     description: 在美國科羅拉多州的圖客與開放街圖使用者
@@ -1248,6 +1256,9 @@ zh_TW:
         由坦尚尼亞開放大學地理系學生與成員所成立的，而主要的目的是藉由共同與在地組織如密可可童軍 (www.msg.or.tz) 合作的專案，增進參與者的職涯與幫助年輕社群，開始與國際學院與大學由密可可童軍準備的地理研究交換計畫合作，並藉由與密可可童軍的連結，連結在地大學與其他大學有相同興趣的國際自然與環境年輕圖客 2019 (www.campsite.msg.or.tz/nature.html)
 
         我們分會即將被承認為年輕網路計畫的一員，意味著打開學生學習與進行在地研究的機會。
+  ym-Oregon-State-University:
+    name: 在奧勒岡州立大學的 YouthMappers
+    description: 在奧勒岡州立大學的 YouthMappers 分會
   ym-Politecnico-di-Milano:
     name: 理工圖客
     description: 米蘭理工大學的年輕圖客分會

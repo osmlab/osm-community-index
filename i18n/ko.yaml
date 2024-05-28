@@ -220,6 +220,8 @@ ko:
       name: '{community}의 페이스북'
       description: 저희 페이스북 커뮤니티에 참여하세요
       url: https://www.facebook.com/{account}
+    fediverse:
+      name: '{community}'
     forum:
       name: '{community} 포럼'
       description: '{community}의 공식 포럼'
@@ -231,6 +233,10 @@ ko:
       url: https://gitlab.com/{account}
     group:
       name: '{community}'
+    instagram:
+      name: '{community}의 인스타그램'
+      description: 저희 인스타그램을 팔로우 하세요
+      url: https://instagram.com/{account}
     irc:
       name: '{community}의 IRC'
       description: 'irc.oftc.net(6667 포트)의 #{account} 대화방에 참여하세요'
@@ -275,6 +281,10 @@ ko:
       name: '{community}의 스레드'
       description: 저희 스레드를 팔로우하세요
       url: https://threads.net/@{account}
+    tiktok:
+      name: '{community}의 틱톡'
+      description: 저희 틱톡을 팔로우 하세요
+      url: https://tiktok.com/@{account}
     twitter:
       name: '{community}의 𝕏 채널'
       description: 저희 𝕏 채널을 팔로우하세요
@@ -745,8 +755,6 @@ ko:
   OSM-Chattanooga:
     name: 오픈스트리트맵 채터누가
     description: Chattanooga OpenStreetMap 사용자 그룹
-  osm-cn:
-    description: 우리는 중국 내의 오픈스트리트맵을 성장시키고 개선하도록 돕습니다.
   OSM-Colorado:
     name: 오픈스트리트맵 콜로라도
     description: 미국 콜로라도주의 맵퍼와 오픈스트리트맵 사용자
@@ -1248,6 +1256,9 @@ ko:
         Mikoko Scout Group (www.msg.or.tz) 등 지역사회 단체와의 공동 및 파트너십 사업을 통해 경력 향상과 지역사회에 도움이 필요한 탄자니아 오픈대학교 지리학과 회원 및 학생들에 의해 설립되었으며, Mikoko Scout Group이 준비한 국제자연환경청소년캠프 2019(www.campsite.msg.or.tz/nature.html )를 통해 지역 대학 및 같은 관심 대학을 연계하는 프로그램으로 지리학과 관련된 교류 프로그램을 위해 국제 단과대학 및 대학과의 협력을 시작합니다
 
         우리 장은 곧 학생들이 지역 수준에서 공부하고 연구를 수행할 수 있는 기회를 열어줄 청소년 네트워크 프로그램으로 인식될 것입니다.
+  ym-Oregon-State-University:
+    name: 오리건 주립대학교 YouthMappers
+    description: 오리건 주립대학교 YouthMappers 지부
   ym-Politecnico-di-Milano:
     name: PoliMappers
     description: 밀라노 공과대학교 YouthMappers 지부

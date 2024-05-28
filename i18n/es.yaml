@@ -220,6 +220,8 @@ es:
       name: '{community} en Facebook'
       description: Únete a nuestra comunidad de Facebook
       url: https://www.facebook.com/{account}
+    fediverse:
+      name: '{community}'
     forum:
       name: 'Foro de {community}'
       description: El foro oficial de {community}
@@ -231,6 +233,10 @@ es:
       url: https://gitlab.com/{account}
     group:
       name: '{community}'
+    instagram:
+      name: '{community} en Instagram'
+      description: Síguenos en Instagram
+      url: https://instagram.com/{account}
     irc:
       name: '{community} en IRC'
       description: 'Únete a #{account} en irc.oftc.net (puerto 6667 para no SSL o 6697 para SSL)'
@@ -275,6 +281,10 @@ es:
       name: '{community} en Threads'
       description: Síguenos en Threads
       url: https://threads.net/@{account}
+    tiktok:
+      name: '{community} en TikTok'
+      description: Síguenos en TikTok
+      url: https://tiktok.com/@{account}
     twitter:
       name: '{community} en 𝕏'
       description: Síguenos en 𝕏
@@ -745,8 +755,6 @@ es:
   OSM-Chattanooga:
     name: OSM Chattanooga
     description: El grupo de usuarios de OpenStreetMap para Chattanooga
-  osm-cn:
-    description: Ayudamos a crecer y mejorar OpenStreetMap en China.
   OSM-Colorado:
     name: OpenStreetMap Colorado
     description: Editores y usuarios de OpenStreetMap en el Estado de Colorado, EE.UU.
@@ -1250,6 +1258,9 @@ es:
         Fue fundada por miembros y estudiantes de la Open University of Tanzania en el Departamento de Geografía, que necesitan principalmente mejorar su carrera y ayudar a la comunidad joven a través de proyectos conjuntos y de asociación con grupos de la comunidad local como Mikoko Scout Group (www.msg.or.tz) e iniciar la cooperación con colegios y universidades internacionales para programas de intercambio en relación con los Estudios de Geografía, como algunos programas preparados por Mikoko Scout Group, que vincula a universidades locales y otras universidades del mismo interés a través del Campamento Internacional de Jóvenes de Naturaleza y Medio Ambiente 2019 (www.campsite msg.or.tz/nature.html)
 
         Nuestro capítulo pronto será reconocido como un programa de red juvenil que abrirá una oportunidad para que los estudiantes estudien y realicen estudios de investigación a nivel local.
+  ym-Oregon-State-University:
+    name: YouthMappers en la Universidad Estatal de Oregon
+    description: Capítulo YouthMappers en la Universidad Estatal de Oregon
   ym-Politecnico-di-Milano:
     name: PoliMappers
     description: Capítulo de YouthMappers en el Politécnico de Milán
