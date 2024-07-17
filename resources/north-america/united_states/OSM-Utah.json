@@ -1,14 +1,14 @@
 {
   "id": "OSM-Utah",
   "type": "url",
-  "locationSet": { "include": ["salt_lake_city.geojson"] },
+  "locationSet": {"include": ["salt_lake_city.geojson"]},
   "languageCodes": ["en"],
   "order": 5,
   "strings": {
     "name": "OpenStreetMap Utah",
-    "url": "https://osmutah.org/",
     "description": "Your OSM Mapping Community for the Salt Lake City area",
-    "extendedDescription": "We meet monthly in Salt Lake City, usually on the second Wednesday of the month. All are welcome!"
+    "extendedDescription": "We meet monthly in Salt Lake City, usually on the second Wednesday of the month. All are welcome!",
+    "url": "https://osmutah.org/"
   },
-  "contacts": [{ "name": "Martijn van Exel", "email": "m@rtijn.org" }]
+  "contacts": [{"name": "Martijn van Exel", "email": "m@rtijn.org"}]
 }
