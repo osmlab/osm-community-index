@@ -1,18 +1,15 @@
 {
   "id": "osm-asia-facebook",
   "type": "facebook",
-  "account": "OpenStreetMapAsia",
   "locationSet": {"include": ["142"]},
-  "order": 1,
   "languageCodes": ["en"],
+  "order": 1,
   "strings": {
-    "community": "OpenStreetMap Asia Facebook Group",
+    "community": "OpenStreetMap Asia",
     "communityID": "openstreetmapasia",
     "description": "OpenStreetMap Asia Facebook Group",
-    "url": "https://www.facebook.com/groups/osmasia/",
-    "extendedDescription": "A group for integrated mapping support for Asia. We especially want to be a place for mappers without a local community to share information and collaborate on solving problems in their areas that they otherwise wouldn't be able to address because of the lack of a local community."
+    "extendedDescription": "A group for integrated mapping support for Asia. We especially want to be a place for mappers without a local community to share information and collaborate on solving problems in their areas that they otherwise wouldn't be able to address because of the lack of a local community.",
+    "url": "https://www.facebook.com/groups/osmasia/"
   },
-  "contacts": [
-    {"name": "adreamy", "email": "ykmail-2014@yahoo.com"}
-  ]
+  "contacts": [{"name": "adreamy", "email": "ykmail-2014@yahoo.com"}]
 }

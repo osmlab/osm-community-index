@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.7.1",
-    "generated": "2024-07-17T20:31:39.167Z",
+    "generated": "2024-07-17T21:32:10.314Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "e5812b7ef7e315273aff9231c5f33788"
+    "hash": "0a8c8b59c3898cc1b6e3b08d82088441"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -349,6 +349,7 @@
     "OSM-AR-twitter": {"id": "OSM-AR-twitter", "type": "twitter", "account": "OpenStreetMapAR", "locationSet": {"include": ["ar"]}, "languageCodes": ["es"], "order": 3, "strings": {"community": "OpenStreetMap Argentina", "communityID": "openstreetmapargentina", "extendedDescription": "News from the local community and OpenStreetMap in general."}, "contacts": [{"name": "OpenStreetMap Argentina", "email": "openstreetmap.org.ar@gmail.com"}]},
     "OSM-AR-wiki": {"id": "OSM-AR-wiki", "type": "wiki", "locationSet": {"include": ["ar"]}, "languageCodes": ["es"], "order": 1, "strings": {"community": "OpenStreetMap Argentina", "communityID": "openstreetmapargentina", "description": "Everything you need to know about mapping in Argentina.", "url": "https://wiki.openstreetmap.org/wiki/ES:Argentina"}, "contacts": [{"name": "OpenStreetMap Argentina", "email": "openstreetmap.org.ar@gmail.com"}]},
     "OSM-AR-youtube": {"id": "OSM-AR-youtube", "type": "youtube", "account": "UCY8ecMiXarIiOmcR17Ng2tQ", "locationSet": {"include": ["ar"]}, "languageCodes": ["es"], "order": -1, "strings": {"community": "OpenStreetMap Argentina", "communityID": "openstreetmapargentina"}, "contacts": [{"name": "OpenStreetMap Argentina", "email": "openstreetmap.org.ar@gmail.com"}]},
+    "osm-asia-facebook": {"id": "osm-asia-facebook", "type": "facebook", "locationSet": {"include": ["142"]}, "languageCodes": ["en"], "order": 1, "strings": {"community": "OpenStreetMap Asia", "communityID": "openstreetmapasia", "description": "OpenStreetMap Asia Facebook Group", "extendedDescription": "A group for integrated mapping support for Asia. We especially want to be a place for mappers without a local community to share information and collaborate on solving problems in their areas that they otherwise wouldn't be able to address because of the lack of a local community.", "url": "https://www.facebook.com/groups/osmasia/"}, "contacts": [{"name": "adreamy", "email": "ykmail-2014@yahoo.com"}]},
     "osm-asia-telegram": {"id": "osm-asia-telegram", "type": "telegram", "account": "OpenStreetMapAsia", "locationSet": {"include": ["142"]}, "strings": {"community": "OpenStreetMap Asia", "communityID": "openstreetmapasia"}, "contacts": [{"name": "Erwin Olario", "email": "govvin@gmail.com"}]},
     "osm-at": {"id": "osm-at", "type": "osm-lc", "locationSet": {"include": ["at"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Austria", "communityID": "openstreetmapaustria", "description": "The platform for information on OpenStreetMap in Austria", "url": "https://www.openstreetmap.at/"}, "contacts": [{"name": "AT community", "email": "info@openstreetmap.at"}]},
     "osm-bengaluru-matrix": {"id": "osm-bengaluru-matrix", "type": "matrix", "account": "#OSM_BLR", "locationSet": {"include": ["india_bengaluru.geojson"]}, "strings": {"community": "OpenStreetMap Bengaluru", "communityID": "openstreetmapbengaluru", "extendedDescription": "Group for OpenStreetMap contributors, users and newbies in Bengaluru. Bridged to Telegram."}},
