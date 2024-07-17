@@ -19,6 +19,24 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.8.0
+##### 2024-Jul-17
+* Updated dependencies, bump to location-conflation v1.4.0 / country-coder v5.3.0
+* Updated to FontAwesome v6.6.x, some icons updated
+* Added:
+  * Cypriot Matrix ([#718], [#720])
+  * Georgia Telegram ([#723])
+  * Asia Facebook Group ([#725])
+* Updated:
+  * Utah Meetup is now a website ([#719])
+
+[#718]: https://github.com/osmlab/osm-community-index/issues/718
+[#719]: https://github.com/osmlab/osm-community-index/issues/719
+[#720]: https://github.com/osmlab/osm-community-index/issues/720
+[#723]: https://github.com/osmlab/osm-community-index/issues/723
+[#725]: https://github.com/osmlab/osm-community-index/issues/725
+
+
 # 5.7.1
 ##### 2024-May-28
 * Added:

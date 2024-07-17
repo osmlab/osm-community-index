@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "5.7.1",
-    "generated": "2024-05-28T20:41:44.014Z",
+    "version": "5.8.0",
+    "generated": "2024-07-17T21:53:26.498Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "82b50468f4f27c630cdc71232471d715"
+    "hash": "ca5112faf0c888076135dced5e0f13c7"
   },
   "type": "FeatureCollection",
   "features": [
@@ -8291,6 +8291,168 @@
     {
       "type": "Feature",
       "properties": {
+        "iso1A2": "CY",
+        "iso1A3": "CYP",
+        "iso1N3": "196",
+        "wikidata": "Q229",
+        "nameEn": "Republic of Cyprus",
+        "groups": ["Q644636", "145", "142", "EU", "UN", "001"],
+        "driveSide": "left",
+        "callingCodes": ["357"],
+        "id": "Q229",
+        "m49": "196",
+        "ccTLD": ".cy",
+        "isoStatus": "official",
+        "level": "country",
+        "emojiFlag": "🇨🇾",
+        "roadSpeedUnit": "km/h",
+        "roadHeightUnit": "m",
+        "area": 20335.37,
+        "resources": {
+          "cyprus-matrix": {
+            "id": "cyprus-matrix",
+            "type": "matrix",
+            "account": "#osm-cyprus",
+            "locationSet": {"include": ["cy"]},
+            "languageCodes": ["en"],
+            "order": 2,
+            "strings": {
+              "community": "OpenStreetMap Cyprus",
+              "communityID": "openstreetmapcyprus"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Cyprus Matrix Chat",
+              "url": "https://matrix.to/#/#osm-cyprus:matrix.org",
+              "description": "Join our community Matrix chat",
+              "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osm-cyprus:matrix.org\">OpenStreetMap Cyprus Matrix Chat</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#osm-cyprus:matrix.org\">https://matrix.to/#/#osm-cyprus:matrix.org</a>",
+              "descriptionHTML": "Join our community Matrix chat"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [32.46489, 35.48584],
+              [30.15137, 34.08517],
+              [32.74412, 34.43926],
+              [32.75515, 34.64985],
+              [32.76136, 34.68318],
+              [32.79433, 34.67883],
+              [32.82717, 34.70622],
+              [32.86014, 34.70585],
+              [32.86167, 34.68734],
+              [32.9068, 34.66102],
+              [32.91398, 34.67343],
+              [32.93043, 34.67091],
+              [32.92807, 34.66736],
+              [32.93449, 34.66241],
+              [32.93693, 34.67027],
+              [32.94379, 34.67111],
+              [32.94683, 34.67907],
+              [32.95539, 34.68471],
+              [32.99135, 34.68061],
+              [32.98668, 34.67268],
+              [32.99014, 34.65518],
+              [32.97736, 34.65277],
+              [32.97079, 34.66112],
+              [32.95325, 34.66462],
+              [32.94796, 34.6587],
+              [32.94976, 34.65204],
+              [32.95471, 34.64528],
+              [32.95323, 34.64075],
+              [32.95891, 34.62919],
+              [32.96718, 34.63446],
+              [32.96968, 34.64046],
+              [33.0138, 34.64424],
+              [33.26744, 34.49942],
+              [33.83531, 34.73974],
+              [33.70575, 34.97947],
+              [33.70639, 34.99303],
+              [33.71514, 35.00294],
+              [33.69731, 35.01754],
+              [33.69938, 35.03123],
+              [33.67678, 35.03866],
+              [33.63765, 35.03869],
+              [33.61215, 35.0527],
+              [33.59658, 35.03635],
+              [33.567, 35.04803],
+              [33.57478, 35.06049],
+              [33.53975, 35.08151],
+              [33.48915, 35.06594],
+              [33.47666, 35.00701],
+              [33.45256, 35.00288],
+              [33.45178, 35.02078],
+              [33.47825, 35.04103],
+              [33.48136, 35.0636],
+              [33.46813, 35.10564],
+              [33.41675, 35.16325],
+              [33.4076, 35.20062],
+              [33.38575, 35.2018],
+              [33.37248, 35.18698],
+              [33.3717, 35.1788],
+              [33.36569, 35.17479],
+              [33.35612, 35.17402],
+              [33.35596, 35.17942],
+              [33.34964, 35.17803],
+              [33.35056, 35.18328],
+              [33.31955, 35.18096],
+              [33.3072, 35.16816],
+              [33.27068, 35.16815],
+              [33.15138, 35.19504],
+              [33.11105, 35.15639],
+              [33.08249, 35.17319],
+              [33.01192, 35.15639],
+              [32.94471, 35.09422],
+              [32.86406, 35.1043],
+              [32.85733, 35.07742],
+              [32.70779, 35.14127],
+              [32.70947, 35.18328],
+              [32.64864, 35.19967],
+              [32.60361, 35.16647],
+              [32.46489, 35.48584]
+            ]
+          ],
+          [
+            [
+              [33.74144, 35.01053],
+              [33.7492, 35.01319],
+              [33.74983, 35.02274],
+              [33.74265, 35.02329],
+              [33.73781, 35.02181],
+              [33.7343, 35.01178],
+              [33.74144, 35.01053]
+            ]
+          ],
+          [
+            [
+              [33.77312, 34.9976],
+              [33.75994, 35.00113],
+              [33.75682, 34.99916],
+              [33.76605, 34.99543],
+              [33.76738, 34.99188],
+              [33.7778, 34.98981],
+              [33.77843, 34.988],
+              [33.78149, 34.98854],
+              [33.78318, 34.98699],
+              [33.78571, 34.98951],
+              [33.78917, 34.98854],
+              [33.79191, 34.98914],
+              [33.78516, 34.99582],
+              [33.77553, 34.99518],
+              [33.77312, 34.9976]
+            ]
+          ]
+        ]
+      },
+      "id": "Q229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "iso1A2": "CZ",
         "iso1A3": "CZE",
         "iso1N3": "203",
@@ -15586,6 +15748,25 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/osmgeo\">OpenStreetMap Georgia on Facebook</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/osmgeo\">https://www.facebook.com/groups/osmgeo</a>",
               "descriptionHTML": "Join our community on Facebook"
+            }
+          },
+          "ge-telegram": {
+            "id": "ge-telegram",
+            "type": "telegram",
+            "account": "osm_ge",
+            "locationSet": {"include": ["ge"]},
+            "languageCodes": ["en"],
+            "strings": {
+              "community": "OpenStreetMap Georgia",
+              "communityID": "openstreetmapgeorgia"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Georgia Telegram",
+              "url": "https://t.me/osm_ge",
+              "description": "Join our community Telegram chat",
+              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/osm_ge\">OpenStreetMap Georgia Telegram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osm_ge\">https://t.me/osm_ge</a>",
+              "descriptionHTML": "Join our community Telegram chat"
             }
           }
         }
@@ -29949,6 +30130,31 @@
         ],
         "area": 70718602.75,
         "resources": {
+          "osm-asia-facebook": {
+            "id": "osm-asia-facebook",
+            "type": "facebook",
+            "locationSet": {"include": ["142"]},
+            "languageCodes": ["en"],
+            "order": 1,
+            "strings": {
+              "community": "OpenStreetMap Asia",
+              "communityID": "openstreetmapasia",
+              "description": "OpenStreetMap Asia Facebook Group",
+              "extendedDescription": "A group for integrated mapping support for Asia. We especially want to be a place for mappers without a local community to share information and collaborate on solving problems in their areas that they otherwise wouldn't be able to address because of the lack of a local community.",
+              "url": "https://www.facebook.com/groups/osmasia/"
+            },
+            "contacts": [{"name": "adreamy", "email": "ykmail-2014@yahoo.com"}],
+            "resolved": {
+              "name": "OpenStreetMap Asia on Facebook",
+              "url": "https://www.facebook.com/groups/osmasia/",
+              "description": "OpenStreetMap Asia Facebook Group",
+              "extendedDescription": "A group for integrated mapping support for Asia. We especially want to be a place for mappers without a local community to share information and collaborate on solving problems in their areas that they otherwise wouldn't be able to address because of the lack of a local community.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/osmasia/\">OpenStreetMap Asia on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/osmasia/\">https://www.facebook.com/groups/osmasia/</a>",
+              "descriptionHTML": "OpenStreetMap Asia Facebook Group",
+              "extendedDescriptionHTML": "A group for integrated mapping support for Asia. We especially want to be a place for mappers without a local community to share information and collaborate on solving problems in their areas that they otherwise wouldn't be able to address because of the lack of a local community."
+            }
+          },
           "osm-asia-telegram": {
             "id": "osm-asia-telegram",
             "type": "telegram",
@@ -31842,9 +32048,9 @@
           "Q3311985",
           "Q9143535",
           "Q9206745",
-          "680",
           "AC",
           "CP",
+          "CQ",
           "DG",
           "FX",
           "IC",
@@ -38705,26 +38911,26 @@
         "resources": {
           "OSM-Utah": {
             "id": "OSM-Utah",
-            "type": "meetup",
-            "account": "OpenStreetMap-Utah",
+            "type": "url",
             "locationSet": {"include": ["salt_lake_city.geojson"]},
             "languageCodes": ["en"],
             "order": 5,
             "strings": {
               "name": "OpenStreetMap Utah",
-              "description": "Mappers and OpenStreetMap users in the Salt Lake City area",
-              "extendedDescription": "Activities may include things like Learn To Map workshops, mapping parties and outdoor data collection. The events will take place in the SLC area, at least initially.  We are looking for seasoned mappers as well as people new to OSM. Join and let's do some mapping!"
+              "description": "Your OSM Mapping Community for the Salt Lake City area",
+              "extendedDescription": "We meet monthly in Salt Lake City, usually on the second Wednesday of the month. All are welcome!",
+              "url": "https://osmutah.org/"
             },
             "contacts": [{"name": "Martijn van Exel", "email": "m@rtijn.org"}],
             "resolved": {
               "name": "OpenStreetMap Utah",
-              "url": "https://www.meetup.com/OpenStreetMap-Utah",
-              "description": "Mappers and OpenStreetMap users in the Salt Lake City area",
-              "extendedDescription": "Activities may include things like Learn To Map workshops, mapping parties and outdoor data collection. The events will take place in the SLC area, at least initially.  We are looking for seasoned mappers as well as people new to OSM. Join and let's do some mapping!",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Utah\">OpenStreetMap Utah</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Utah\">https://www.meetup.com/OpenStreetMap-Utah</a>",
-              "descriptionHTML": "Mappers and OpenStreetMap users in the Salt Lake City area",
-              "extendedDescriptionHTML": "Activities may include things like Learn To Map workshops, mapping parties and outdoor data collection. The events will take place in the SLC area, at least initially.  We are looking for seasoned mappers as well as people new to OSM. Join and let's do some mapping!"
+              "url": "https://osmutah.org/",
+              "description": "Your OSM Mapping Community for the Salt Lake City area",
+              "extendedDescription": "We meet monthly in Salt Lake City, usually on the second Wednesday of the month. All are welcome!",
+              "nameHTML": "<a target=\"_blank\" href=\"https://osmutah.org/\">OpenStreetMap Utah</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://osmutah.org/\">https://osmutah.org/</a>",
+              "descriptionHTML": "Your OSM Mapping Community for the Salt Lake City area",
+              "extendedDescriptionHTML": "We meet monthly in Salt Lake City, usually on the second Wednesday of the month. All are welcome!"
             }
           }
         }

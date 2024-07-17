@@ -38,7 +38,7 @@ curl 'https://purge.jsdelivr.net/npm/osm-community-index/dist/resources.min.json
 curl 'https://purge.jsdelivr.net/npm/osm-community-index@5/dist/defaults.min.json'
 curl 'https://purge.jsdelivr.net/npm/osm-community-index@5/dist/featureCollection.min.json'
 curl 'https://purge.jsdelivr.net/npm/osm-community-index@5/dist/resources.min.json'
-curl 'https://purge.jsdelivr.net/npm/osm-community-index@5.7/dist/defaults.min.json'
-curl 'https://purge.jsdelivr.net/npm/osm-community-index@5.7/dist/featureCollection.min.json'
-curl 'https://purge.jsdelivr.net/npm/osm-community-index@5.7/dist/resources.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@5.8/dist/defaults.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@5.8/dist/featureCollection.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@5.8/dist/resources.min.json'
 ```
