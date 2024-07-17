@@ -4,9 +4,6 @@ be:
     geolibres: ГеаЛібрэс
     kiribatiwomeninmapping: Жанчыны Кірыбаці ў картаграфаванні
     mappingbotswana: Картаграфаванне Батсваны
-    maptimebogota: MaptimeBogota
-    maptimehrva: MaptimeHRVA
-    openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap Ахен
     openstreetmapafghanistan: OpenStreetMap Афганістан
     openstreetmapafrica: OpenStreetMap Афрыка
@@ -24,7 +21,6 @@ be:
     openstreetmapbelize: OpenStreetMap Беліз
     openstreetmapbenin: OpenStreetMap Бенін
     openstreetmapberlin: OpenStreetMap Берлін
-    openstreetmapbivccvl: OpenStreetMap BI-VC-CVL
     openstreetmapbochum: OpenStreetMap Бохум
     openstreetmapbolivia: OpenStreetMap Балівія
     openstreetmapbonn: OpenStreetMap Бон
@@ -196,7 +192,6 @@ be:
     openstreetmapwesternsahara: OpenStreetMap Заходняя Сахара
     openstreetmapzambia: OpenStreetMap Замбія
     openstreetmapzimbabwe: OpenStreetMap Зімбабвэ
-    youthmappersasu: YouthMappersASU
   _defaults:
     aparat:
       name: '{супольнасць} у Апарат'
@@ -232,67 +227,39 @@ be:
     linkedin:
       name: '{супольнасць} у LinkedIn'
       description: Далучайцеся да суполкі ў LinkedIn
-      url: https://www.linkedin.com/company/{account}
     mailinglist:
       name: '{account} Спіс рассылкі'
       description: Афіцыйны спіс рассылкі для {community}
-      url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
       name: '{community} на Mastodon'
       description: Афіцыйны акаўнт Mastodon для {community}
     matrix:
       name: '{community} гутарка Matrix'
       description: Далучайцеся да нашай гутарцы ў Matrix 
-      url: https://matrix.to/#/{account}:matrix.org
-    meetup:
-      name: '{community} Meetup'
-      url: https://www.meetup.com/{account}
     newsletter:
       name: '{community} Інфармацыйны веснік'
-    osm:
-      name: '{community}'
-    osm-lc:
-      name: '{community}'
     reddit:
       name: '{community} у Reddit'
-      url: https://www.reddit.com/r/{account}
     signal:
-      name: '{community} Signal'
       description: Далучайцеся да гутарцы супольнасці ў Signal
-    slack:
-      name: '{community} Slack'
     telegram:
-      name: '{community} Telegram'
       description: Далучайцеся да гутарцы супольнасці ў Telegram
-      url: https://t.me/{account}
     threads:
       name: '{community} у Threads'
       description: Падпішыцеся на нас у Threads
-      url: https://threads.net/@{account}
     twitter:
       name: '{community} у 𝕏'
       description: Падпішыцеся на нас у 𝕏
-      url: https://twitter.com/{account}
-    website:
-      name: '{community}'
     wiki:
       name: '{community} ВікіПраект'
-      url: https://wiki.openstreetmap.org/wiki/{account}
     x:
       name: '{community} у 𝕏'
       description: Падпішыцеся на нас у 𝕏
-      url: https://twitter.com/{account}
-    xmpp:
-      name: '{community} XMPP'
     youtube:
       name: 'community} у YouTube'
       description: Пішыцеся на наш YouTube-канал
-      url: https://www.youtube.com/channel/{account}
     zulip:
-      name: '{community} Zulip'
       description: Далучыцеся да гутарцы супольнасці ў Zulip
-  aberdeen-discord:
-    name: OSM ABZ Discord
   af-matrix:
     description: Група Matrix для супольнасці ў Афганістане.
   al-maptime-tirana:

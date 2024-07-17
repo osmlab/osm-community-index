@@ -145,48 +145,25 @@ ckb:
     openstreetmapzambia: نەخشەی شەقامی کراوەی زامبیا
     openstreetmapzimbabwe: نەخشەی شەقامی کراوەی زیمبابۆی
   _defaults:
-    aparat:
-      url: https://aparat.com/{account}
     discord:
       name: '{community} دیسکۆرد'
-      url: https://discord.gg/{account}
-    discourse:
-      url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
       name: '{community} لە فەیسبووک'
       description: لەگەڵمان بن لەسەر فەیسبووک
-      url: https://www.facebook.com/{account}
     github:
       name: '{community} گیتهەب'
-      url: https://github.com/{account}
     gitlab:
       name: '{community} گیتلاب'
-      url: https://gitlab.com/{account}
-    group:
-      name: '{community}'
-    irc:
-      url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} لە لینکدئین'
       description: لەگەڵمان بن لەسەر لینکدئین
-      url: https://www.linkedin.com/company/{account}
-    mailinglist:
-      url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
       name: '{community} لەسەر ماستادۆن'
       description: هەژماری فەرمی {community} لە ماستادۆن
-    matrix:
-      url: https://matrix.to/#/{account}:matrix.org
     meetup:
       name: '{community} میتئەپ'
-      url: https://www.meetup.com/{account}
-    osm:
-      name: '{community}'
-    osm-lc:
-      name: '{community}'
     reddit:
       name: '{community} لە ڕێدیت'
-      url: https://www.reddit.com/r/{account}
     signal:
       name: '{community} سیگنال'
       description: لەگەڵمان بن لەسەر سیگنال
@@ -195,20 +172,8 @@ ckb:
     telegram:
       name: '{community} تێلیگرام'
       description: لەگەڵمان بن لە تێلیگرام
-      url: https://t.me/{account}
-    threads:
-      url: https://threads.net/@{account}
-    twitter:
-      url: https://twitter.com/{account}
-    website:
-      name: '{community}'
-    wiki:
-      url: https://wiki.openstreetmap.org/wiki/{account}
-    x:
-      url: https://twitter.com/{account}
     youtube:
       name: '{community} لە یوتیوب'
-      url: https://www.youtube.com/channel/{account}
   at-wiki:
     description: 'پەڕەی ویکیی {community}'
   be-matrix:

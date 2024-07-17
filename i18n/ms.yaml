@@ -1,102 +1,21 @@
 ms:
   _communities:
-    freelibreopensourcesoftwarekosovaflossk: Free Libre Open Source Software Kosova (FLOSSK)
-    geolibres: GeoLibres
-    kiribatiwomeninmapping: Kiribati Women in Mapping
-    mappingbotswana: Mapping Botswana
-    maptimebogota: MaptimeBogota
-    maptimehrva: MaptimeHRVA
-    openstreetmap: OpenStreetMap
-    openstreetmapaachen: OpenStreetMap Aachen
-    openstreetmapafghanistan: OpenStreetMap Afghanistan
     openstreetmapafrica: OpenStreetMap Afrika
-    openstreetmapalba: OpenStreetMap Alba
-    openstreetmapalbania: OpenStreetMap Albania
-    openstreetmapargentina: OpenStreetMap Argentina
-    openstreetmaparmenia: OpenStreetMap Armenia
-    openstreetmapasia: OpenStreetMap Asia
-    openstreetmapasti: OpenStreetMap Asti
-    openstreetmapaustria: OpenStreetMap Austria
-    openstreetmapbahia: OpenStreetMap Bahia
-    openstreetmapbangladesh: OpenStreetMap Bangladesh
-    openstreetmapbelarus: OpenStreetMap Belarus
-    openstreetmapbelgium: OpenStreetMap Belgium
-    openstreetmapbelize: OpenStreetMap Belize
-    openstreetmapbengaluru: OpenStreetMap Bengaluru
-    openstreetmapbenin: OpenStreetMap Benin
-    openstreetmapberlin: OpenStreetMap Berlin
-    openstreetmapbivccvl: OpenStreetMap BI-VC-CVL
-    openstreetmapbochum: OpenStreetMap Bochum
-    openstreetmapbolivia: OpenStreetMap Bolivia
-    openstreetmapbonn: OpenStreetMap Bonn
     openstreetmapbosniaandherzegovina: OpenStreetMap Bosnia dan Herzegovina
-    openstreetmapbrasil: OpenStreetMap Brasil
-    openstreetmapbrasilia: OpenStreetMap Brasília
-    openstreetmapbremen: OpenStreetMap Bremen
-    openstreetmapbulgaria: OpenStreetMap Bulgaria
-    openstreetmapburkinafaso: OpenStreetMap Burkina Faso
-    openstreetmapburundi: OpenStreetMap Burundi
-    openstreetmapbzh: OpenStreetMap BZH
     openstreetmapcambodia: OpenStreetMap Kemboja
-    openstreetmapcameroon: OpenStreetMap Cameroon
     openstreetmapcanada: OpenStreetMap Kanada
-    openstreetmapcastillayleon: OpenStreetMap Castilla y León
-    openstreetmapcatalancountries: OpenStreetMap Catalan Countries
-    openstreetmapceara: OpenStreetMap Ceará
-    openstreetmapchad: OpenStreetMap Chad
-    openstreetmapchile: OpenStreetMap Chile
-    openstreetmapchina: OpenStreetMap China
-    openstreetmapcologne: OpenStreetMap Cologne
-    openstreetmapcolombia: OpenStreetMap Colombia
-    openstreetmapcomunitatvalenciana: OpenStreetMap Comunitat Valenciana
-    openstreetmapcostarica: OpenStreetMap Costa Rica
-    openstreetmapcotedivoire: OpenStreetMap Cote d'Ivoire
-    openstreetmapcroatia: OpenStreetMap Croatia
-    openstreetmapcuba: OpenStreetMap Cuba
-    openstreetmapcuneo: OpenStreetMap Cuneo
-    openstreetmapcz: OpenStreetMap CZ
-    openstreetmapde: OpenStreetMap DE
-    openstreetmapdeepsouth: OpenStreetMap Deep South
-    openstreetmapdelhi: OpenStreetMap Delhi
-    openstreetmapdenmark: OpenStreetMap Denmark
-    openstreetmapdjibouti: OpenStreetMap Djibouti
-    openstreetmapdominicanrepublic: OpenStreetMap Dominican Republic
-    openstreetmapdresden: OpenStreetMap Dresden
-    openstreetmapdusseldorf: OpenStreetMap Düsseldorf
-    openstreetmapecuador: OpenStreetMap Ecuador
     openstreetmapegypt: OpenStreetMap Mesir
-    openstreetmaperitrea: OpenStreetMap Eritrea
-    openstreetmaphongkong: OpenStreetMap Hong Kong
-    openstreetmaphungary: OpenStreetMap Hungary
-    openstreetmapiceland: OpenStreetMap Iceland
-    openstreetmapindia: OpenStreetMap India
-    openstreetmapindonesia: OpenStreetMap Indonesia
-    openstreetmapiran: OpenStreetMap Iran
-    openstreetmapiraq: OpenStreetMap Iraq
-    openstreetmapireland: OpenStreetMap Ireland
-    openstreetmapisrael: OpenStreetMap Israel
     openstreetmaprussia: OpenStreetMap Rusia
-    openstreetmaprwanda: OpenStreetMap Rwanda
     openstreetmapsaudiarabia: OpenStreetMap Arab Saudi
-    openstreetmapsenegal: OpenStreetMap Senegal
-    openstreetmapserbia: OpenStreetMap Serbia
-    openstreetmapseychelles: OpenStreetMap Seychelles
-    openstreetmapsierraleone: OpenStreetMap Sierra Leone
     openstreetmapsingapore: OpenStreetMap Singapura
     openstreetmapsouthsudan: OpenStreetMap Sudan Selatan
   _defaults:
     meetup:
       name: 'Meetup {community}'
-      url: https://www.meetup.com/{account}
     newsletter:
       name: 'Newsletter {community}'
-    osm:
-      name: '{community}'
-    osm-lc:
-      name: '{community}'
     reddit:
       name: '{community} di Reddit'
-      url: https://www.reddit.com/r/{account}
     signal:
       name: 'Signal {community}'
       description: Sertai perbualan komuniti kami di Signal
@@ -105,39 +24,28 @@ ms:
     telegram:
       name: 'Telegram {community}'
       description: 'Sertai perbualan komuniti Telegram kami '
-      url: https://t.me/{account}
     threads:
       name: '{community} di Threads'
       description: Ikuti kami di Threads
-      url: https://threads.net/@{account}
     twitter:
       name: '{community} di 𝕏'
       description: Ikuti kami di 𝕏
-      url: https://twitter.com/{account}
-    website:
-      name: '{community}'
     wiki:
       name: 'WikiProject {community}'
-      url: https://wiki.openstreetmap.org/wiki/{account}
     x:
       name: '{community} di 𝕏'
       description: Ikuti kami di 𝕏
-      url: https://twitter.com/{account}
     xmpp:
       name: 'XMPP {community}'
     youtube:
       name: '{community} di YouTube'
       description: Langgan saluran YouTube kami
-      url: https://www.youtube.com/channel/{account}
     zulip:
       name: 'Zulip {community}'
       description: Sertai perbualan komuniti kami di Zulip
-  aberdeen-discord:
-    name: OSM ABZ Discord
   af-matrix:
     description: Group MATRIK bagi komuniti di Afghanistan.
   al-maptime-tirana:
-    name: Maptime Tirana
     description: Majlis bersosial dianjurkan berkenaan pemetaan - peserta baru dialu-alukan!
     extendedDescription: Maptime ialah persekitaran pembelajaran terbuka untuk setiap peringkat, menawarkan bantuan pendidikan untuk pemula. Maptime yang fleksibel dan berstruktur sesuai untuk mewujudkan ruang untuk tutorial, bengkel, projek berterusan untuk suatu objektif, serta masa untuk bekerja secara bersendirian/kolaboratif dalam bidang pemetaan.
   am-wiki:
@@ -158,11 +66,9 @@ ms:
     name: OSM Pennsylvania Pusat
     description: Komuniti pemetaan atas talian yang berpusat di luar State College, PA
   GeoPhilly:
-    name: GeoPhilly
     description: Pertemuan untuk peminat-peminat peta di kawasan Philadelphia
     extendedDescription: GeoPhilly menyatukan pemaju, ahli geografi, gek data, peminat sumber terbuka, penggodam awam dan kaki peta dalam perkongsian minat kita tentang peta dan cerita-cerita yang dikongsi sama. Jika anda menggunakan peta sebagai sebahagian dari kerja anda atau hanya untuk mempelajari dengan lebih lanjut, ini ialah pertemuan untuk anda! Acara kami bertujuan untuk menjadi terbuka, mesra, berpendidikan dan bersosial dan berjulat dari jam gembira kepada ceramah kilat atau malah bengkel. Datanglah untuk mencipta komuniti yang berpelbagai, berinspirasi di Philadelphia dengan kami!
   OSM-Chattanooga:
-    name: OSM Chattanooga
     description: Kumpulan pengguna OpenStreetMap bagi Chattanooga
   OSM-US-Slack:
     description: Semua dialu-alukan hadir! Daftar di {signupUrl}

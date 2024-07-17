@@ -1,6 +1,5 @@
 fa:
   _communities:
-    geolibres: GeoLibres
     kiribatiwomeninmapping: زنان کیریباتی در نقشه برداری
     mappingbotswana: نقشه برداری از بوتسوانا
     maptimebogota: maptime بوگوتا
@@ -185,11 +184,9 @@ fa:
     aparat:
       name: '{community} در آپارات'
       description: مشترک کانال آپارات ما شوید
-      url: https://aparat.com/{account}
     discord:
       name: 'دیسکورد {community}'
       description: با سایر نقشه‌کش‌ها در دیسکورد تماس بگیرید
-      url: https://discord.gg/{account}
     facebook:
       name: '{community} در فیس‌بوک'
       description: به انجمن ما در فیس‌بوک بپیوندید
@@ -198,52 +195,33 @@ fa:
       description: فروم رسمی {community}
     github:
       name: 'گیت‌هاب {community}'
-      url: https://github.com/{account}
     gitlab:
       name: 'گیت‌لب {community}'
-      url: https://gitlab.com/{account}
-    group:
-      name: '{community}'
     irc:
       name: '{community} در IRC'
-      url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} در لینکدین'
       description: به انجمن ما در لینکدین بپیوندید
     mailinglist:
       name: 'لیست پستی {account}'
       description: فهرست پستی رسمی برای {community}
-      url: https://lists.openstreetmap.org/listinfo/{account}
     matrix:
       name: 'ماتریکس چت {community}'
       description: به چت ماتریکس انجمن ما بپیوندید
-      url: https://matrix.to/#/{account}:matrix.org
     meetup:
       name: '{community} جلسات'
-    osm:
-      name: '{community}'
-    osm-lc:
-      name: '{community}'
     reddit:
       name: '{community} در ردیت'
-      url: https://www.reddit.com/r/{account}
     slack:
       name: 'اسلک {community}'
     telegram:
       name: 'تلگرام {community}'
       description: به گپ تلگرامی انجمن ما بپیوندید
-      url: https://t.me/{account}
-    twitter:
-      url: https://twitter.com/{account}
     wiki:
       name: 'ویکی‌پروژهٔ {community}'
-      url: https://wiki.openstreetmap.org/wiki/{account}
-    xmpp:
-      name: '{community} XMPP'
     youtube:
       name: '{community} در یوتیوب'
       description: در کانال یوتیوب ما مشترک شوید
-      url: https://www.youtube.com/channel/{account}
   af-matrix:
     description: گروه ماتریکس برای انجمن در افغانستان.
   al-maptime-tirana:
@@ -344,8 +322,6 @@ fa:
     name: ژئوفیلی
     description: Meetup برای علاقمندان به نقشه در منطقه فیلادلفیا
     extendedDescription: ژئوفیلی (GeoPhilly) برنامه نویسان، جغرافی‌دانان، حرفه‌ای‌های داده‌ها، علاقه‌مندان به منبع‌باز، هکرهای شهری، معتادان نقشه را در عشق مشترک ما به نقشه‌ها و داستان‌هایی که آنها می‌گویند، متحد می‌کند. اگر از نقشه‌ها به عنوان بخشی از کار خود استفاده می‌کنید یا می‌خواهید اطلاعات بیشتری کسب کنید، این ملاقات برای شماست! در برنامه‌های ما هدف این است که باز، دوستانه، آموزشی و اجتماعی باشد و از ساعات شاد گرفته تا صحبت‌های مؤثر و نورانی یا حتی کارگاه‌ها باشد. بیا با ما یک جامعه جغرافیایی متنوع و الهام بخش در فیلادلفیا ایجاد کنیم!
-  gr-matrix:
-    name: ماتریکس اوپن‌استریت‌مپ یونان
   hr-irc:
     description: 'به #{account} در irc.freenode.org (پورت 6667) بپیوندید'
   hr-wiki:
@@ -409,7 +385,6 @@ fa:
     description: خانه ای برای علاقه مندان اوپن‌استریت‌مپ در میدلندز
     extendedDescription: Mappa Mercia یک پروژه برای توسعه اوپن‌استریت‌مپ در وست میدلندز انگلستان است. ما رویدادهای اجتماعی را اجرا می کنیم ، آموزش ارائه می دهیم و از سازمان های محلی که مایل به باز کردن داده های خود هستند پشتیبانی می کنیم.
   MappingDC-meetup:
-    name: MappingDC
     description: بهبود اُپِن‌استریت‌مپ در منطقه DC
     extendedDescription: ما گروهی از نقشه‌برداران داوطلب هستیم که هدفشان بهبود اُپِن‌استریت‌مپ در حوزه DC است. ما همچنین قصد داریم به دیگران در مورد اکوسیستم OSM ، تجزیه و تحلیل داده‌ها ، نقشه‌برداری و GIS آموزش دهیم. ما هر ماه یک بار در جلسات جمع می‌شویم تا در یک منطقه از شهر خود تمرکز کنیم.
   MappingWR:
@@ -573,8 +548,6 @@ fa:
     description: همگی خوش آمدید! ثبت نام کنید در {signupUrl}
   OSM-Utah:
     name: اوپن‌استریت‌مپ یوتا
-    description: نقشه‌کشان و کاربران اوپن‌استریت‌مپ در منطقهٔ سالت‌لِیک‌سیتی
-    extendedDescription: فعالیتها ممکن است شامل مواردی مانند کارگاههای آموختن نقشه برداری ، مهمانیهای نگاشت و جمع آوری داده در فضای باز باشد. این رویدادها حداقل در ابتدا در منطقه SLC برگزار می شود. ما به دنبال نقشه نگاران با تجربه و همچنین افراد تازه کار در OSM هستیم. بپیوندید و اجازه دهید نقشه برداری انجام دهیم!
   OSM-Wyoming:
     name: اوپن‌استریت‌مپ وایومینگ
     description: نقشه برداران و کاربران اوپن‌استریت‌مپ در ایالت وایومینگ
@@ -668,7 +641,6 @@ fa:
     description: بخش نقشه برداران جوان در دانشگاه کاتینگتون
     extendedDescription: نقشه برداران جوان در دانشگاه کاتینگتون، سواکوکو، و شهرستان بونگ متشکل از دانشجویان از سه بخش مختلف است. یعنی دپارتمان مدیریت منابع طبیعی "DONRM"، دپارتمان علوم محیطی و دپارتمان علوم طبیعی. از زمان تأسیس این بخش در فوریه 2017، اعضای کلی 20 دانشجو هستند که هر بخش شامل 5 دانشجو است.
   ym-Dedan-Kimathi-University-of-Technology:
-    name: GDEV
     description: بخش نقشه برداران جوان در دانشگاه صنعتی ددان کیماثی
     extendedDescription: GDEV گروهی از گروه GIS مشتاق در DeKUT است که هدف آن کمک به دانش‌آموزان برای اشتراک‌گذاری، مشارکت و یادگیری از یکدیگر در زمینه‌های مکانی است.
   ym-Dhaka-College:

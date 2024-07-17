@@ -1,12 +1,10 @@
 zh_CN:
   _communities:
     freelibreopensourcesoftwarekosovaflossk: 自由及开放源代码软件科索沃（FLOSSK）
-    geolibres: GeoLibres
     kiribatiwomeninmapping: 参与绘图的基里巴斯妇女
     mappingbotswana: 博茨瓦纳地图绘制
     maptimebogota: 波哥大地图时间
     maptimehrva: Maptime HRVA
-    openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap 亚琛
     openstreetmapafghanistan: OpenStreetMap 阿富汗
     openstreetmapafrica: OpenStreetMap 非洲
@@ -206,98 +204,61 @@ zh_CN:
     aparat:
       name: 'Aparat 上的 {community}'
       description: 订阅我们的 Aparat 频道
-      url: https://aparat.com/{account}
     discord:
-      name: '{community} Discord'
       description: 在 Discord 上于其他 Mapper 保持联系
-      url: https://discord.gg/{account}
     discourse:
       name: '{community} 社区论坛'
       description: '{community} 的官方论坛'
-      url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
       name: 'Facebook 上的 {community}'
       description: 在Facebook上加入我们的社区
-      url: https://www.facebook.com/{account}
     forum:
       name: '{community} 论坛'
       description: '{community} 的官方论坛'
-    github:
-      name: '{community} GitHub'
-      url: https://github.com/{account}
-    gitlab:
-      name: '{community} GitLab'
-      url: https://gitlab.com/{account}
-    group:
-      name: '{community}'
+    instagram:
+      name: 'Instagram 上的 {community}'
+      description: 在 Instagram 上关注我们
     irc:
       name: 'IRC 上的 {community}'
       description: '在 irc.oftc.net 上加入 #{account} （无 SSL 端口 6667 ，或 SSL 端口 6697）'
-      url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: 'LinkedIn 上的 {community}'
       description: 在LinkedIn上加入我们的社区
-      url: https://www.linkedin.com/company/{account}
     mailinglist:
       name: '{account} 邮件列表'
       description: '{community} 的官方邮件列表'
-      url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
       name: 'Mastodon 上的 {community}'
       description: '{community} 的官方 Mastodon 账号'
     matrix:
       name: '{community} Matrix 聊天室'
       description: 加入我们社区的 Matrix 聊天室
-      url: https://matrix.to/#/{account}:matrix.org
-    meetup:
-      name: '{community} Meetup'
-      url: https://www.meetup.com/{account}
     newsletter:
       name: '{community} 电子报'
-    osm:
-      name: '{community}'
-    osm-lc:
-      name: '{community}'
     reddit:
       name: 'Reddit 上的 {community}'
-      url: https://www.reddit.com/r/{account}
     signal:
       name: '{community} 的 Signal'
       description: 在 Signal 上加入我们的社区聊天
-    slack:
-      name: '{community} Slack'
     telegram:
-      name: '{community} Telegram'
       description: 加入我们社区的 Telegram 聊天室
-      url: https://t.me/{account}
     threads:
       name: 'Threads 上的 {community}'
       description: 在 Threads 上关注我们
-      url: https://threads.net/@{account}
+    tiktok:
+      name: 'TikTok 上的 {community}'
+      description: 在 TikTok 上关注我们
     twitter:
       name: '𝕏 上的 {community}'
       description: 在 𝕏 上关注我们
-      url: https://twitter.com/{account}
-    website:
-      name: '{community}'
-    wiki:
-      name: '{community} WikiProject'
-      url: https://wiki.openstreetmap.org/wiki/{account}
     x:
       name: '𝕏 上的 {community}'
       description: 在 𝕏 上关注我们
-      url: https://twitter.com/{account}
-    xmpp:
-      name: '{community} XMPP'
     youtube:
       name: 'YouTube 上的 {community}'
       description: 订阅我们的 YouTube 频道
-      url: https://www.youtube.com/channel/{account}
     zulip:
-      name: '{community} Zulip'
       description: 在 Zulip 上加入我们的社区聊天
-  aberdeen-discord:
-    name: OSM ABZ Discord
   af-matrix:
     description: 阿富汗社区的Martix群
   al-maptime-tirana:
@@ -347,9 +308,7 @@ zh_CN:
   br-wiki:
     description: 提供巴西绘图信息和协调指南的维基项目。
   cape-coast-youthmappers:
-    name: 海岸角大学 YouthMappers
     description: '在 Twitter 上关注我们：{url}'
-    extendedDescription: 此为加纳海岸角大学的 Youth Mappers 官方分会。我们热爱地图、开放数据以及帮助弱势群体。
   castilla-y-leon-wiki:
     description: '在卡斯蒂利亚和莱昂绘图所需要知道的所有事情：{url}'
   cat-github:
@@ -413,11 +372,8 @@ zh_CN:
   gb-mailinglist:
     description: Talk-gb 是英国(包括北爱尔兰) OSM 社区的主要交流论坛
   GeoPhilly:
-    name: GeoPhilly
     description: 费城地区地图爱好者聚会
     extendedDescription: GeoPhilly 将开发人员、地理学家、数据极客、开源代码爱好者、民间黑客和地图迷们团结在一起，共同分享我们对地图及其故事的热爱。 如果您在工作中使用地图，或者只是想了解更多信息，这就是为您提供的聚会！ 我们的活动旨在开放、友好、具有教育性和社交性。活动范围从欢乐时光到闪电演讲，甚至是研讨会。 与我们一起在费城创建一个多样化、启发性的地理空间社区！
-  gr-matrix:
-    name: OpenStreetMap 希腊 Matrix
   hr-irc:
     description: '在 irc.freenode.org (端口 6667)上加入 #{account} '
   hu-meetup:
@@ -432,12 +388,9 @@ zh_CN:
     description: 我们帮助在冰岛发展和改善OpenStreetMap。
   it-chapter:
     description: 我们帮助在意大利发展和改善OpenStreetMap。
-  ko-github:
-    description: '{community} GitHub'
   ko-osm:
     description: 我们帮助在韩国发展和改善OpenStreetMap。
   map-kibera:
-    name: Map Kibera Trust
     description: Map Kibera 是位于肯尼亚的注册组织
     extendedDescription: Map Kibera Trust的使命是通过创造性地使用数字化行动工具来增加边缘化社区的影响力和代表性。
   MapColabora-mailinglist:
@@ -449,12 +402,23 @@ zh_CN:
     name: Mappa Mercia 本地社区
     description: 中部英格兰的 OpenStreetMap 爱好者的家园
   MappingDC-meetup:
-    name: MappingDC
     description: 改善华盛顿特区区域的OpenStreetMap
     extendedDescription: 我们是一个志愿地图绘制者团体，我们的目标是改善华盛顿特区的 OpenStreetMap。 我们还旨在向其他人讲授 OSM 生态、数据分析、制图和 GIS。 我们每隔一个月聚会一次，关注城市的某个区域。
   MappingWR:
     name: 正在绘制滑铁卢地区
     description: 轻松找到滑铁卢地区附近的低碳路线。
+  maptime-bogota-facebook:
+    extendedDescription: 了解如何在现场收集数据并将其数字化到 OpenStreetMap 上。 没不需要有基础知识！ 您只需乐于参与、渴望学习和并收获快乐。
+  maptime-bogota-github:
+    extendedDescription: 了解如何在现场收集数据并将其数字化到 OpenStreetMap 上。 没不需要有基础知识！ 您只需乐于参与、渴望学习和并收获快乐。
+  maptime-bogota-linkedin:
+    extendedDescription: 了解如何在现场收集数据并将其数字化到 OpenStreetMap 上。 没不需要有基础知识！ 您只需乐于参与、渴望学习和并收获快乐。
+  maptime-bogota-mastodon:
+    extendedDescription: 了解如何在现场收集数据并将其数字化到 OpenStreetMap 上。 没不需要有基础知识！ 您只需乐于参与、渴望学习和并收获快乐。
+  maptime-bogota-telegram:
+    extendedDescription: 了解如何在现场收集数据并将其数字化到 OpenStreetMap 上。 没不需要有基础知识！ 您只需乐于参与、渴望学习和并收获快乐。
+  maptime-bogota-youtube:
+    extendedDescription: 了解如何在现场收集数据并将其数字化到 OpenStreetMap 上。 没不需要有基础知识！ 您只需乐于参与、渴望学习和并收获快乐。
   Maptime-ME-meetup:
     name: Maptime 缅因州
     description: 位于缅因州波特兰地区的绘图者和 OpenStreetMap 用户
@@ -494,6 +458,8 @@ zh_CN:
     extendedDescription: 科罗拉多州 OpenStreetMap 是一个有志于为创建免费地图做出贡献的人们的本地协作。 我们鼓励所有制图员组织或提倡举行全州制图活动。 聚会活动可以是简单的社交混合器，从基础到高级的 OSM 技术培训、或社区绘图聚会。
   osm-de:
     description: 位于德国的 OpenStreetMap 信息平台
+  osm-delhi-xmpp:
+    description: '加入我们的XMPP多用户聊天：{url}'
   OSM-Discord:
     name: OpenStreetMap 全球 Discord
   OSM-Facebook:
@@ -517,6 +483,9 @@ zh_CN:
     description: 位于印度的绘图者和 OpenStreetMap 用户
   osm-india-wiki:
     description: '在印度绘图所需要知道的所有事情: {url}'
+  osm-india-xmpp:
+    description: '加入我们的XMPP多用户聊天：{url}'
+    extendedDescription: '印度 OSM 社群的 Matrix 聊天室；未橋接至任何專有網路。也可以透過 XMPP 的 https://xmpp.link/#osm-in:poddery.com 位址加入'
   osm-iran-aparat:
     extendedDescription: 关于OpenStreetMap相关的诸多内容的波斯语视频资源。
   OSM-japan-facebook:
@@ -567,7 +536,8 @@ zh_CN:
     description: 欢迎所有人加入！在 {signupUrl} 上注册。
   OSM-Utah:
     name: OpenStreetMap 犹他州
-    description: 位于盐湖城区域的绘图者和 OpenStreetMap 用户
+  osm-west-bengal-xmpp:
+    description: '加入我们的XMPP多用户聊天：{url}'
   OSM-Wyoming:
     name: OpenStreetMap 怀俄明州
     description: 位于怀俄明州的绘图者和 OpenStreetMap 用户
@@ -578,8 +548,9 @@ zh_CN:
     name: PHXGeo会议
     description: 位于亚利桑那州凤凰城地区的绘图者和 OpenStreetMap 用户
   PHXGeo-twitter:
-    name: PHXGeo Twitter
     description: 在 Twitter 上关注我们：{url}
+  sg-wiki:
+    description: '{community} Wiki 页面'
   sk-freemap:
     description: OpenStreetMap 地图网站及工具于斯洛伐克及周边区域
   talk-au:
@@ -611,7 +582,6 @@ zh_CN:
   ym-Heidelberg-University:
     name: 海德堡灾难地图绘制者
   ym-Institute-of-Science-and-Veterinary-Medicine:
-    name: YouthMappers ISSMV Dalaba
     description: 科学和兽医学院 YouthMappers 分会
     extendedDescription: YouthMappers ISSMV Dabala是一个非营利组织，致力于促进人道主义地图绘制以及使用开源和开放数据在几内亚建立决策工具。
   ym-Karatina-University:
@@ -624,15 +594,12 @@ zh_CN:
   ym-Oklahoma-State-University:
     name: 地理俱乐部
   ym-The-Gambia-YMCA-University-of-the-Gambia:
-    name: Connected YouthMappers
-    description: 冈比亚基督教青年会/冈比亚大学的 YouthMappers 分会
     extendedDescription: Connected YouthMappers 由年轻甘比亚人组成，希望能改变和协助国家发展
   ym-University-of-Cape-Coast:
     name: UCC地理学协会
     description: 海岸角大学的 YouthMappers 分会
     extendedDescription: 我们协会涵盖了开普敦大学地理与区域规划系所有正在阅读和阅读地理的学生。 我们的主要目的是提高对教室内外学科的兴趣。 我们的座右铭是“我们了解地球及其居民”。
   ym-University-of-Energy-and-Natural-Resources:
-    name: Eco-Club
     description: 加纳能源与自然资源大学的 YouthMappers 分会
     extendedDescription: 为所有公民提供有关不断恶化的环境的良好教育，并最大程度地利用环境的重建来维持人类的生存。
   ym-University-of-Ghana:

@@ -1,6 +1,5 @@
 sr:
   _communities:
-    openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap Ахен
     openstreetmapafghanistan: OpenStreetMap Авганистан
     openstreetmapafrica: OpenStreetMap Африка
@@ -182,29 +181,12 @@ sr:
     openstreetmapzambia: OpenStreetMap Замбија
     openstreetmapzimbabwe: OpenStreetMap Зимбабве
   _defaults:
-    aparat:
-      url: https://aparat.com/{account}
-    discord:
-      name: '{community} Discord'
-      url: https://discord.gg/{account}
     facebook:
       name: '{community} на Фејсбуку'
       description: Придружи се нашој заједници на Фејсбуку
     forum:
       name: '{community} Форум'
       description: Званичан форум за {community}
-    github:
-      url: https://github.com/{account}
-    gitlab:
-      url: https://gitlab.com/{account}
-    mailinglist:
-      url: https://lists.openstreetmap.org/listinfo/{account}
-    matrix:
-      url: https://matrix.to/#/{account}:matrix.org
-    reddit:
-      url: https://www.reddit.com/r/{account}
-    youtube:
-      url: https://www.youtube.com/channel/{account}
   Maptime-Oceania-Slack:
     description: Пријавите се на {signupUrl}
   osm-benin-facebook:

@@ -1,12 +1,8 @@
 he:
   _communities:
     freelibreopensourcesoftwarekosovaflossk: תוכנה חופשית בקוד פתוח קוסובו (FLOSSK)
-    geolibres: GeoLibres
     kiribatiwomeninmapping: נשים מקיריבטי במיפוי
     mappingbotswana: מיפוי בוטסואנה
-    maptimebogota: MaptimeBogota
-    maptimehrva: MaptimeHRVA
-    openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap אאכן
     openstreetmapafghanistan: OpenStreetMap אפגניסטן
     openstreetmapafrica: OpenStreetMap אפריקה
@@ -202,61 +198,43 @@ he:
     aparat:
       name: '{community} ב־Aparat'
       description: מוזמנים להירשם לערוץ ה־Aparat שלנו
-      url: https://aparat.com/{account}
     discord:
       name: 'ה־Discord של {community}'
       description: יצירת קשר עם ממפים אחרים דרך Discord
-      url: https://discord.gg/{account}
     discourse:
       name: 'פורום קהילת {community}'
       description: הפורום הרשמי של {community}
-      url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
       name: '{community} בפייסבוק'
       description: מזמינים אותך להצטרף לקהילה שלנו בפייסבוק
-      url: https://www.facebook.com/{account}
     forum:
       name: 'הפורום של {community}'
       description: הפורום הרשמי של {community}
     github:
       name: 'ה־GitHub של {community}'
-      url: https://github.com/{account}
     gitlab:
       name: 'ה־GitLab של {community}'
-      url: https://gitlab.com/{account}
-    group:
-      name: '{community}'
     irc:
       name: '{community} ב־IRC'
       description: 'ניתן להצטרף ל־‎#{account} תחת irc.oftc.net (פתחה 6667 בלי SSL או 6697 עם SSL)'
-      url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community} ב־LinkedIn'
       description: מזמינים אותך להצטרף לקהילה שלנו ב־LinkedIn
-      url: https://www.linkedin.com/company/{account}
     mailinglist:
       name: 'רשימת הדיוור של {account}'
       description: רשימת הדיוור הרשמי של {community}
-      url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
       name: '{community} ב־Mastodon'
       description: חשבון המסטודון הרשמי של {community}
     matrix:
       name: 'ערוץ ה־Matrix של {community}'
       description: ניתן להצטרף לערוץ ה־Matrix של הקהילה שלנו
-      url: https://matrix.to/#/{account}:matrix.org
     meetup:
       name: 'קבוצת ה־Meetup של {community}'
-      url: https://www.meetup.com/{account}
     newsletter:
       name: 'רשימת הדיוור של {community}'
-    osm:
-      name: '{community}'
-    osm-lc:
-      name: '{community}'
     reddit:
       name: '{community} ב־Reddit'
-      url: https://www.reddit.com/r/{account}
     signal:
       name: 'ה־Signal של {community}'
       description: מזמינים אותך להצטרף לצ׳אט הקהילתי שלנו ב־Signal
@@ -265,30 +243,22 @@ he:
     telegram:
       name: 'הטלגרם של {community}'
       description: מזמינים אותך להצטרף לקבוצה בטלגרם
-      url: https://t.me/{account}
     threads:
       name: '{community} ב־Threads'
       description: ניתן לעקוב אחרינו ב־Threads
-      url: https://threads.net/@{account}
     twitter:
       name: '{community} ב־𝕏'
       description: ניתן לעקוב אחרינו ב־𝕏
-      url: https://twitter.com/{account}
-    website:
-      name: '{community}'
     wiki:
       name: 'ויקי־מיזם של {community}'
-      url: https://wiki.openstreetmap.org/wiki/{account}
     x:
       name: '{community} ב־𝕏'
       description: ניתן לעקוב אחרינו ב־𝕏
-      url: https://twitter.com/{account}
     xmpp:
       name: 'ה־XMPP של {community} '
     youtube:
       name: '{community} ב־YouTube'
       description: מזמינים אותך להירשם לערוץ ה־YouTube שלנו
-      url: https://www.youtube.com/channel/{account}
     zulip:
       name: 'ה־Zulip של {community}'
       description: מזמינים אותך להצטרף לצ׳אט הקהילתי שלנו ב־Zulip
@@ -435,11 +405,8 @@ he:
   gb-mailinglist:
     description: Talk-gb היא קבוצת הדיוור הרשמית של קהילת OSM של הממלכה המאוחדת (כולל צפון אירלנד)
   GeoPhilly:
-    name: GeoPhilly
     description: קבוצת מפגשים לחובבי מפות באזור פילדלפיה
     extendedDescription: GeoPhilly היא קבוצה של מפתחים, מומחי גאוגרפיה, גיקים של מידע, חובבי קוד פתוח, האקרים אזרחיים ומכורי מפות שמתאגדים סביב אהבתם המשותפת למפות ולסיפורים שהן מספרות. אם מפות משמשות אותך כחלק מהעבודה שלך או שפשוט מעניין אותך לדעת יותר, המפגש הזה מיועד לך! האירועים שלנו מתוכננים להיות פתוחים, ידידותיים, חינוכיים וחברתיים, החל מהרמת כוסית דרך הרצאות בזק ואפילו סדנאות. מזמינים אותך ליצור קהילה גאו־‏מרחבית מגוונת ומעוררת השראה בפילדלפיה ביחד אתנו!
-  gr-matrix:
-    name: ה־Matrix של OpenStreetMap יוון
   hr-irc:
     description: 'ניתן להצטרף ל־‎#{account} ב־irc.freenode.org (פתחה 6667)'
   hr-wiki:
@@ -491,14 +458,11 @@ he:
     description: בית לחובבי OpenStreetMap במידלנדס
     extendedDescription: מיזם Mappa Mercia מיועד לטפל את OpenStreetMap במערב המידלנדס, אנגליה. אנו מגבשים אירועים קהילתיים, מספקים הכשרה ותומכים בארגונים מקומיים שרוצים לפתוח את הנתונים שלהם.
   MappingDC-meetup:
-    name: MappingDC
     description: שיפור OpenStreetMap באיזור DC
     extendedDescription: אנחנו קבוצה של ממפים מתנדבים שחותרים לשפר את OpenStreetMap באיזור DC. אנו גם מוכוונים ללמד אחרים על המערכת שעוטפת את OSM, ניתוח הנתונים, רישום מפות ומערכות גאו אינפורמציה. אנו נפגשים אחת לחודשיים כדי להתמקד באזור אחד בעיר שלנו.
   MappingWR:
-    name: MappingWR
     description: מסייעים בהנגשת המסלולים מופחתי הפחמן באזור ווטרלו.
   Maptime-ME-meetup:
-    name: MaptimeME
     description: ממפים ומשתמשי OpenStreetMap סביב פורטלנד, מיין
     extendedDescription: Maptime כשמו כן הוא, זמן ליצירת מפות. המטרה שלנו היא לפתוח את הדלת לאפשרויות מגוונות ליצירת מפות לכל מי שמעוניין על ידי יצירת מקום ללמידה שיתופית, חקירה ויצירת מפות באמצעות כלים וטכנולוגיות למיפוי.
   Maptime-Oceania-Slack:
@@ -535,7 +499,6 @@ he:
     description: ממפים ומשתמשי OpenStreetMap סביב מאונט ורנון, וירג׳יניה
     extendedDescription: OpenStreetMap היא מפת העולם שנוצרת על ידי אנשים כמוך. זו מפה בהרכבתך, שמוגשת לציבור בחינם כמו ויקיפדיה. כדאי לבקר ב־osm.org למידע נוסף. אנו נפגשים כל הזמן ומדברים על מפות, ממפים ונהנים!
   osm-ch:
-    name: '{community}'
     description: הפלטפורמה למידע על OpenStreetMap בשווייץ
   OSM-Chattanooga:
     name: OSM צ׳טנוגה
@@ -682,8 +645,6 @@ he:
     description: כולם מוזמנים! ניתן להירשם בכתובת {signupUrl}
   OSM-Utah:
     name: OpenStreetMap יוטה
-    description: ממפים ומשתמשים ב־OpenStreetMap באזור סולט לייק סיטי
-    extendedDescription: פעילויות עשויות לכלול דברים כגון סדנאות הדרכה למיפוי, מסיבות מיפוי ואיסוף נתונים באוויר הפתוח. האירועים מתקיימים באזור סולט לייק סיטי, לפחות בתחילת הדרך. אנו מחפשים ממפים מנוסים לצד מתחילים ב־OSM. מזמינים אותך להצטרף אלינו ופשוט למפות!
   OSM-Wyoming:
     name: OpenStreetMap ויומינג
     description: ממפים ומשתמשים ב־OpenStreetMap במדינת ויומינג
@@ -751,13 +712,11 @@ he:
     name: ממפים צערים בAASTU
     description: ממפים צעירים אוניברסיטת Addis Ababa Science and Technology University
   ym-Abia-State-University:
-    name: AbsuMappersTeam
     description: ממפים צעירים בAbia State University
   ym-African-Methodist-Episcopal-University:
     name: ממפים צעירים-AMEU
     description: ממפים צעירים African Methodist Episcopal University
   ym-Ahmadu-Bello-University:
-    name: ABU Geomappers
     description: ממפים צעירים אוניברסיטת אהמדו באלו
   ym-Ardhi-University:
     name: ממפים ARU
@@ -790,7 +749,6 @@ he:
     name: ממפים צעירים אוניברסיטת קטינגטון
     description: ממפים צעירים אוניברסיטת קטינגטון
   ym-Dedan-Kimathi-University-of-Technology:
-    name: GDEV
     description: ממפים צעירים אוניברסיטת קימאת'י לטכנולוגיה
   ym-Dhaka-College:
     name: ממפים צעירים בDaka College
@@ -833,7 +791,6 @@ he:
     name: ממפי אסונות היידלברג
     description: ממפים צעירים היידלברג
   ym-Ignatius-Ajuru-University-of-Education:
-    name: IgnatiusMappersTeam (IMT)
     description: ממפים צעירים בIgnatius Ajuru University of Education
   ym-Indiana-University-of-Pennsylvania:
     name: מועדון מדי גאוספציאלי
@@ -916,7 +873,6 @@ he:
     name: ממפים צעירים אוניברסיטה פתוחה טנזניה
     description: פרק ממפים צעירים אוניברסיטת טנזניה
   ym-Politecnico-di-Milano:
-    name: PoliMappers
     description: ממפים צעירים Politecnico di Milano
   ym-Queen-Mary-University-of-London:
     description: ממפים צעירים ב Queen Mary University of London
@@ -933,7 +889,6 @@ he:
     name: ממפים צעירים בSt Augustine International University
     description: ממפים צעירים בSt Augustine International University
   ym-St.-Mawaggali-Trades-Training-Institute:
-    name: MawaggaliMappers
     description: ממפים צעירים בSt. Mawaggali Trades Training Institute
   ym-State-University-of-New-York-Geneseo:
     description: ממפים צעירים ב State University of New York Geneseo
@@ -941,7 +896,6 @@ he:
     name: ממפים צעירים-SMP
     description: ממפים צעירים בStella Maris Polytechnic
   ym-SUNY-at-Fredonia:
-    name: Geoventurers
     description: ממפים צעירים בSUNY at Fredonia
   ym-Technical-University-of-Kenya:
     description: ממפים צעירים בTechnical University of Kenya
@@ -985,10 +939,8 @@ he:
   ym-Universidad-Nacional-Autnoma-de-Honduras:
     description: ממפים צעירים Universidad Nacional Autónoma de Honduras
   ym-Universidad-Nacional-de-Colombia:
-    name: Grupo UN
     description: ממפים צעירים Universidad Nacional de Colombia
   ym-Universidad-Nacional-de-Ingenieria:
-    name: Yeka Street MGA
     description: ממפים צעירים Universidad Nacional de Ingenieria
   ym-Universidade-Eduardo-Mondlane:
     description: ממפים צעירים בUniversidade Eduardo Mondlane
@@ -1017,7 +969,6 @@ he:
     name: ממפים צעירים בUniversity of Dar es Salaam
     description: ממפים צעירים בUniversity of Dar es Salaam
   ym-University-of-Energy-and-Natural-Resources:
-    name: Eco-Club
     description: ממפים צעירים בUniversity of Energy and Natural Resources
   ym-University-of-Exeter:
     description: ממפים צעירים ב University of Exeter
@@ -1056,7 +1007,6 @@ he:
     name: מרכז למדעי גיאואינפורמציה
     description: ממפים צעירים ב University of Pretoria
   ym-University-of-Redlands:
-    name: URSpatial Geo-Thinkers
     description: ממפים צעירים בUniversity of Redlands
   ym-University-of-Rwanda-Huye-Campus:
     name: ממפים צעירים רוואנדה
@@ -1078,8 +1028,6 @@ he:
     description: ממפים צעירים ב University of Warwick
   ym-University-of-Wyoming:
     description: ממפים צעירים ב University of Wyoming
-  ym-University-of-Zimbabwe:
-    name: UZMappers
   ym-UW-Madison:
     name: מפות בדג'ר
     description: ממפים צעירים בUW-Madison
@@ -1089,7 +1037,6 @@ he:
   ym-Villanova-University:
     description: ממפים צעירים Villanova University
   ym-West-Virginia-University:
-    name: Maptime Morgantown
     description: ממפים צעירים בWest Virginia University
   ym-Western-Michigan-University:
     name: מועדון גיאוגרפיה

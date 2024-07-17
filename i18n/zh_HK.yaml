@@ -1,7 +1,5 @@
 zh_HK:
   _communities:
-    geolibres: GeoLibres
-    openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap 阿亨
     openstreetmapafghanistan: OpenStreetMap 阿富汗
     openstreetmapafrica: OpenStreetMap 非洲
@@ -19,7 +17,6 @@ zh_HK:
     openstreetmapbelize: OpenStreetMap 伯利茲
     openstreetmapbenin: OpenStreetMap 貝寧
     openstreetmapberlin: OpenStreetMap 柏林
-    openstreetmapbivccvl: OpenStreetMap BI-VC-CVL
     openstreetmapbochum: OpenStreetMap 波琴
     openstreetmapbolivia: OpenStreetMap 玻利維亞
     openstreetmapbosniaandherzegovina: OpenStreetMap 波斯尼亞和黑塞哥維那
@@ -171,67 +168,24 @@ zh_HK:
     aparat:
       name: 'Aparat 上的 {community}'
       description: 訂閱我們的 Aparat 頻道
-      url: https://aparat.com/{account}
-    discord:
-      name: '{community} Discord'
-      url: https://discord.gg/{account}
     facebook:
       name: 'Facebook 上的 {community}'
-      url: https://www.facebook.com/{account}
     forum:
       name: '{community} 論壇'
       description: '{community} 的官方論壇'
-    github:
-      name: '{community} GitHub'
-      url: https://github.com/{account}
-    gitlab:
-      name: '{community} GitLab'
-      url: https://gitlab.com/{account}
-    group:
-      name: '{community}'
     irc:
       name: 'IRC 上的 {community}'
-      url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: 'LinkedIn 上的 {community}'
-      url: https://www.linkedin.com/company/{account}
-    mailinglist:
-      url: https://lists.openstreetmap.org/listinfo/{account}
     matrix:
       name: '{community} Matrix 聊天室'
-      url: https://matrix.to/#/{account}:matrix.org
-    meetup:
-      name: '{community} Meetup'
-      url: https://www.meetup.com/{account}
-    osm:
-      name: '{community}'
-    osm-lc:
-      name: '{community}'
     reddit:
       name: 'Reddit 上的 {community}'
-      url: https://www.reddit.com/r/{account}
     signal:
       name: '{community} 的 Signal'
-    slack:
-      name: '{community} Slack'
-    telegram:
-      name: '{community} Telegram'
-      url: https://t.me/{account}
-    twitter:
-      url: https://twitter.com/{account}
-    website:
-      name: '{community}'
-    wiki:
-      name: '{community} WikiProject'
-      url: https://wiki.openstreetmap.org/wiki/{account}
-    xmpp:
-      name: '{community} XMPP'
     youtube:
       name: 'YouTube 上的 {community}'
       description: 訂閱 YouTube 頻道
-      url: https://www.youtube.com/channel/{account}
-    zulip:
-      name: '{community} Zulip'
   at-wiki:
     description: '{community} Wiki 頁面'
   be-matrix:
@@ -270,8 +224,6 @@ zh_HK:
     description: 加入 osm-fr@chat.jabberfr.org
   Galicia-Xeoinquedos-Twitter:
     description: 在 {url} 於 Twitter 上跟隨我們
-  GeoPhilly:
-    name: GeoPhilly
   hu-facebook-group:
     name: '{community} Facebook 羣組'
   hu-mobilizon:
@@ -280,8 +232,6 @@ zh_HK:
     description: '{community} Wiki 頁面'
   id-facebook-group:
     name: '{community} Facebook 羣組'
-  ko-github:
-    description: '{community} GitHub'
   madrid-uam-ym:
     name: UAM 年輕製圖者
   Maptime-Oceania-Slack:
@@ -297,8 +247,6 @@ zh_HK:
     name: 'OSGeo 大洋洲 '
   osm-africa-matrix:
     description: 歡迎所有製圖者！
-  OSM-AR-geolibres:
-    name: GeoLibres
   OSM-Chattanooga:
     name: OSM 查塔努加
   OSM-Colorado:
@@ -310,7 +258,6 @@ zh_HK:
   osm-india-github:
     description: '和我們一起編寫程式：{url}'
   OSM-India-Puducherry-Facebook:
-    name: Free Software Hardware Movement - Facebook
     description: FSHM Facebook 專頁使你知道社群活動
   osm-kerala-github:
     description: '和我們一起編寫程式：{url}'
@@ -318,8 +265,6 @@ zh_HK:
     description: 馬達加斯加 Facebook 社群給對 OpenStreetMap 有興趣的人。
   osm-michigan-wiki:
     description: '{community} Wiki 頁面'
-  osm-ni:
-    name: MapaNica.net
   OSM-Rome-meetup:
     description: 改善羅馬區域的 OpenStreetMap
   OSM-Seattle:
@@ -337,10 +282,7 @@ zh_HK:
   OSMF:
     name: OpenStreetMap 基金會
   PHXGeo-twitter:
-    name: PHXGeo Twitter
     description: 在 {url} 於 Twitter 上跟隨我們
-  si-github:
-    description: '{community} GitHub'
   si-ljubljana-wiki:
     description: '{community} Wiki 頁面'
   si-wiki:
@@ -354,9 +296,5 @@ zh_HK:
     description: 'OpenStreetMap 倫敦 Twitter: {url}'
   uk-london-wiki:
     description: '{community} Wiki 頁面'
-  ym-University-Muhammadiyah-Surakarta:
-    name: SpaceTime
-  ym-UW-Madison:
-    name: BadgerMaps
   ym-Western-Michigan-University:
     name: 地理學會
