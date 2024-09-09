@@ -11,7 +11,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 import {
-  faDiscord, faDiscourse, faLinkedin, faMastodon, faMeetup, faSlack, faTiktok,
+  faDiscord, faDiscourse, faLinkedin, faMastodon, faMeetup, faSlack, faSignalMessenger, faTiktok,
   faSquareFacebook, faSquareGithub, faSquareGitlab, faSquareInstagram, faSquareReddit,
   faSquareThreads, faSquareXTwitter, faSquareYoutube, faTelegram,
 } from '@fortawesome/free-brands-svg-icons';
@@ -34,7 +34,7 @@ const toBuild = {
   meetup: faMeetup,
   newsletter: faNewspaper,
   reddit: faSquareReddit,
-  signal: faComment,
+  signal: faSignalMessenger,
   slack: faSlack,
   telegram: faTelegram,
   threads: faSquareThreads,
