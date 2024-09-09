@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.8.0",
-    "generated": "2024-09-09T19:44:58.611Z",
+    "generated": "2024-09-09T21:08:06.725Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "4275da4efa4ffc88243eaea52a16c9ba"
+    "hash": "a2f68e9fdbcf192480a65c42d35c8c37"
   },
   "type": "FeatureCollection",
   "features": [
@@ -9100,7 +9100,6 @@
               "community": "OpenStreetMap Berlin",
               "communityID": "openstreetmapberlin",
               "name": "OpenStreetMap Berlin-Brandenburg XMPP",
-              "description": "Join our XMPP Multi-User Chat: {url}",
               "url": "https://conversations.im/j/osm-bb@rooms.dismail.de"
             },
             "contacts": [
@@ -9110,10 +9109,10 @@
             "resolved": {
               "name": "OpenStreetMap Berlin-Brandenburg XMPP",
               "url": "https://conversations.im/j/osm-bb@rooms.dismail.de",
-              "description": "Join our XMPP Multi-User Chat: https://conversations.im/j/osm-bb@rooms.dismail.de",
+              "description": "Join our XMPP community chat: https://conversations.im/j/osm-bb@rooms.dismail.de",
               "nameHTML": "<a target=\"_blank\" href=\"https://conversations.im/j/osm-bb@rooms.dismail.de\">OpenStreetMap Berlin-Brandenburg XMPP</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://conversations.im/j/osm-bb@rooms.dismail.de\">https://conversations.im/j/osm-bb@rooms.dismail.de</a>",
-              "descriptionHTML": "Join our XMPP Multi-User Chat: <a target=\"_blank\" href=\"https://conversations.im/j/osm-bb@rooms.dismail.de\">https://conversations.im/j/osm-bb@rooms.dismail.de</a>"
+              "descriptionHTML": "Join our XMPP community chat: <a target=\"_blank\" href=\"https://conversations.im/j/osm-bb@rooms.dismail.de\">https://conversations.im/j/osm-bb@rooms.dismail.de</a>"
             }
           }
         }
@@ -9506,16 +9505,15 @@
               "community": "OpenStreetMap DE",
               "communityID": "openstreetmapde",
               "name": "OpenStreetMap DE XMPP",
-              "description": "Join our XMPP Multi-User Chat: {url}",
               "url": "xmpp:openstreetmap-de@rooms.dismail.de?join"
             },
             "resolved": {
               "name": "OpenStreetMap DE XMPP",
               "url": "xmpp:openstreetmap-de@rooms.dismail.de?join",
-              "description": "Join our XMPP Multi-User Chat: xmpp:openstreetmap-de@rooms.dismail.de?join",
+              "description": "Join our XMPP community chat: xmpp:openstreetmap-de@rooms.dismail.de?join",
               "nameHTML": "<a target=\"_blank\" href=\"xmpp:openstreetmap-de@rooms.dismail.de?join\">OpenStreetMap DE XMPP</a>",
               "urlHTML": "<a target=\"_blank\" href=\"xmpp:openstreetmap-de@rooms.dismail.de?join\">xmpp:openstreetmap-de@rooms.dismail.de?join</a>",
-              "descriptionHTML": "Join our XMPP Multi-User Chat: <a target=\"_blank\" href=\"xmpp:openstreetmap-de@rooms.dismail.de?join\">xmpp:openstreetmap-de@rooms.dismail.de?join</a>"
+              "descriptionHTML": "Join our XMPP community chat: <a target=\"_blank\" href=\"xmpp:openstreetmap-de@rooms.dismail.de?join\">xmpp:openstreetmap-de@rooms.dismail.de?join</a>"
             }
           },
           "osm-de": {
@@ -10584,16 +10582,15 @@
               "community": "OpenStreetMap Hamburg",
               "communityID": "openstreetmaphamburg",
               "name": "OpenStreetMap Hamburg XMPP",
-              "description": "Join our XMPP Multi-User Chat: {url}",
               "url": "xmpp:osm-hh@conference.jabber.de?join"
             },
             "resolved": {
               "name": "OpenStreetMap Hamburg XMPP",
               "url": "xmpp:osm-hh@conference.jabber.de?join",
-              "description": "Join our XMPP Multi-User Chat: xmpp:osm-hh@conference.jabber.de?join",
+              "description": "Join our XMPP community chat: xmpp:osm-hh@conference.jabber.de?join",
               "nameHTML": "<a target=\"_blank\" href=\"xmpp:osm-hh@conference.jabber.de?join\">OpenStreetMap Hamburg XMPP</a>",
               "urlHTML": "<a target=\"_blank\" href=\"xmpp:osm-hh@conference.jabber.de?join\">xmpp:osm-hh@conference.jabber.de?join</a>",
-              "descriptionHTML": "Join our XMPP Multi-User Chat: <a target=\"_blank\" href=\"xmpp:osm-hh@conference.jabber.de?join\">xmpp:osm-hh@conference.jabber.de?join</a>"
+              "descriptionHTML": "Join our XMPP community chat: <a target=\"_blank\" href=\"xmpp:osm-hh@conference.jabber.de?join\">xmpp:osm-hh@conference.jabber.de?join</a>"
             }
           }
         }
@@ -13868,30 +13865,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMFiji\">OpenStreetMap Fiji on 𝕏</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/OSMFiji\">https://twitter.com/OSMFiji</a>",
               "descriptionHTML": "Follow us on 𝕏"
-            }
-          },
-          "osm-fj": {
-            "id": "osm-fj",
-            "type": "osm",
-            "locationSet": {"include": ["fj"]},
-            "languageCodes": ["en"],
-            "order": 1,
-            "strings": {
-              "community": "OpenStreetMap Fiji",
-              "communityID": "openstreetmapfiji",
-              "description": "Provide OSM services and information for the local community in Fiji",
-              "url": "https://openstreetmapfiji.com/"
-            },
-            "contacts": [
-              {"name": "OpenStreetMap Fiji", "email": "OSMFiji@gmail.com"}
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Fiji",
-              "url": "https://openstreetmapfiji.com/",
-              "description": "Provide OSM services and information for the local community in Fiji",
-              "nameHTML": "<a target=\"_blank\" href=\"https://openstreetmapfiji.com/\">OpenStreetMap Fiji</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://openstreetmapfiji.com/\">https://openstreetmapfiji.com/</a>",
-              "descriptionHTML": "Provide OSM services and information for the local community in Fiji"
             }
           }
         }
@@ -31951,7 +31924,6 @@
               "community": "OpenStreetMap Delhi",
               "communityID": "openstreetmapdelhi",
               "name": "OpenStreetMap Delhi XMPP",
-              "description": "Join our XMPP room: {url}",
               "extendedDescription": "XMPP room for OSM Delhi; not bridged to any proprietary networks.",
               "url": "https://xmpp.link/#osm-in@conference.a3.pm?join"
             },
@@ -31961,11 +31933,11 @@
             "resolved": {
               "name": "OpenStreetMap Delhi XMPP",
               "url": "https://xmpp.link/#osm-in@conference.a3.pm?join",
-              "description": "Join our XMPP room: https://xmpp.link/#osm-in@conference.a3.pm?join",
+              "description": "Join our XMPP community chat: https://xmpp.link/#osm-in@conference.a3.pm?join",
               "extendedDescription": "XMPP room for OSM Delhi; not bridged to any proprietary networks.",
               "nameHTML": "<a target=\"_blank\" href=\"https://xmpp.link/#osm-in@conference.a3.pm?join\">OpenStreetMap Delhi XMPP</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://xmpp.link/#osm-in@conference.a3.pm?join\">https://xmpp.link/#osm-in@conference.a3.pm?join</a>",
-              "descriptionHTML": "Join our XMPP room: <a target=\"_blank\" href=\"https://xmpp.link/#osm-in@conference.a3.pm?join\">https://xmpp.link/#osm-in@conference.a3.pm?join</a>",
+              "descriptionHTML": "Join our XMPP community chat: <a target=\"_blank\" href=\"https://xmpp.link/#osm-in@conference.a3.pm?join\">https://xmpp.link/#osm-in@conference.a3.pm?join</a>",
               "extendedDescriptionHTML": "XMPP room for OSM Delhi; not bridged to any proprietary networks."
             }
           }
@@ -34052,7 +34024,6 @@
               "community": "OpenStreetMap India",
               "communityID": "openstreetmapindia",
               "name": "OpenStreetMap India XMPP",
-              "description": "Join our XMPP room: {url}",
               "extendedDescription": "XMPP room for the Indian OSM community; not bridged to any proprietary networks. Also available from Matrix via #osm-in:poddery.com",
               "url": "https://xmpp.link/#osm-in@conference.a3.pm?join"
             },
@@ -34063,11 +34034,11 @@
             "resolved": {
               "name": "OpenStreetMap India XMPP",
               "url": "https://xmpp.link/#osm-in@conference.a3.pm?join",
-              "description": "Join our XMPP room: https://xmpp.link/#osm-in@conference.a3.pm?join",
+              "description": "Join our XMPP community chat: https://xmpp.link/#osm-in@conference.a3.pm?join",
               "extendedDescription": "XMPP room for the Indian OSM community; not bridged to any proprietary networks. Also available from Matrix via #osm-in:poddery.com",
               "nameHTML": "<a target=\"_blank\" href=\"https://xmpp.link/#osm-in@conference.a3.pm?join\">OpenStreetMap India XMPP</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://xmpp.link/#osm-in@conference.a3.pm?join\">https://xmpp.link/#osm-in@conference.a3.pm?join</a>",
-              "descriptionHTML": "Join our XMPP room: <a target=\"_blank\" href=\"https://xmpp.link/#osm-in@conference.a3.pm?join\">https://xmpp.link/#osm-in@conference.a3.pm?join</a>",
+              "descriptionHTML": "Join our XMPP community chat: <a target=\"_blank\" href=\"https://xmpp.link/#osm-in@conference.a3.pm?join\">https://xmpp.link/#osm-in@conference.a3.pm?join</a>",
               "extendedDescriptionHTML": "XMPP room for the Indian OSM community; not bridged to any proprietary networks. Also available from Matrix via #osm-in:poddery.com"
             }
           },
@@ -38994,6 +38965,48 @@
         "id": "india_westbengal.geojson",
         "area": 92224.26,
         "resources": {
+          "osm-west-bengal-matrix": {
+            "id": "osm-west-bengal-matrix",
+            "type": "matrix",
+            "account": "#OSMBengal",
+            "locationSet": {"include": ["india_westbengal.geojson"]},
+            "strings": {
+              "community": "OpenStreetMap West Bengal",
+              "communityID": "openstreetmapwestbengal"
+            },
+            "contacts": [
+              {"name": "NLBRT", "email": "contact.crezyt@gmail.com"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap West Bengal Matrix Chat",
+              "url": "https://matrix.to/#/#OSMBengal:matrix.org",
+              "description": "Join our community Matrix chat",
+              "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#OSMBengal:matrix.org\">OpenStreetMap West Bengal Matrix Chat</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/#OSMBengal:matrix.org\">https://matrix.to/#/#OSMBengal:matrix.org</a>",
+              "descriptionHTML": "Join our community Matrix chat"
+            }
+          },
+          "osm-west-bengal-telegram": {
+            "id": "osm-west-bengal-telegram",
+            "type": "telegram",
+            "account": "osmwb",
+            "locationSet": {"include": ["india_westbengal.geojson"]},
+            "strings": {
+              "community": "OpenStreetMap West Bengal",
+              "communityID": "openstreetmapwestbengal"
+            },
+            "contacts": [
+              {"name": "NLBRT", "email": "contact.crezyt@gmail.com"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap West Bengal Telegram",
+              "url": "https://t.me/osmwb",
+              "description": "Join our community Telegram chat",
+              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/osmwb\">OpenStreetMap West Bengal Telegram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osmwb\">https://t.me/osmwb</a>",
+              "descriptionHTML": "Join our community Telegram chat"
+            }
+          },
           "osm-west-bengal-xmpp": {
             "id": "osm-west-bengal-xmpp",
             "type": "xmpp",
@@ -39001,9 +39014,6 @@
             "strings": {
               "community": "OpenStreetMap West Bengal",
               "communityID": "openstreetmapwestbengal",
-              "name": "OpenStreetMap West Bengal XMPP",
-              "description": "Join our XMPP room: {url}",
-              "extendedDescription": "XMPP room for OSM West Bengal.",
               "url": "https://xmpp.link/#osmbengal@conference.conversations.im?join"
             },
             "contacts": [
@@ -39013,12 +39023,10 @@
             "resolved": {
               "name": "OpenStreetMap West Bengal XMPP",
               "url": "https://xmpp.link/#osmbengal@conference.conversations.im?join",
-              "description": "Join our XMPP room: https://xmpp.link/#osmbengal@conference.conversations.im?join",
-              "extendedDescription": "XMPP room for OSM West Bengal.",
+              "description": "Join our XMPP community chat: https://xmpp.link/#osmbengal@conference.conversations.im?join",
               "nameHTML": "<a target=\"_blank\" href=\"https://xmpp.link/#osmbengal@conference.conversations.im?join\">OpenStreetMap West Bengal XMPP</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://xmpp.link/#osmbengal@conference.conversations.im?join\">https://xmpp.link/#osmbengal@conference.conversations.im?join</a>",
-              "descriptionHTML": "Join our XMPP room: <a target=\"_blank\" href=\"https://xmpp.link/#osmbengal@conference.conversations.im?join\">https://xmpp.link/#osmbengal@conference.conversations.im?join</a>",
-              "extendedDescriptionHTML": "XMPP room for OSM West Bengal."
+              "descriptionHTML": "Join our XMPP community chat: <a target=\"_blank\" href=\"https://xmpp.link/#osmbengal@conference.conversations.im?join\">https://xmpp.link/#osmbengal@conference.conversations.im?join</a>"
             }
           }
         }
@@ -49037,7 +49045,7 @@
             "type": "facebook",
             "locationSet": {"include": ["vn"]},
             "languageCodes": ["en", "vn"],
-            "order": 3,
+            "order": 2,
             "strings": {
               "community": "OpenStreetMap Vietnam",
               "communityID": "openstreetmapvietnam",
@@ -49073,6 +49081,29 @@
               "descriptionHTML": "Mailing list about OpenStreetMap in Vietnam or in Vietnamese"
             }
           },
+          "vn-mastodon": {
+            "id": "vn-mastodon",
+            "type": "mastodon",
+            "locationSet": {"include": ["vn"]},
+            "languageCodes": ["en", "vn"],
+            "order": 4,
+            "strings": {
+              "community": "OpenStreetMap Vietnam",
+              "communityID": "openstreetmapvietnam",
+              "url": "https://en.osm.town/@vietnam"
+            },
+            "contacts": [
+              {"name": "logus2", "email": "nguyenhoangan1235@gmail.com"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Vietnam on Mastodon",
+              "url": "https://en.osm.town/@vietnam",
+              "description": "The official Mastodon account for OpenStreetMap Vietnam",
+              "nameHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@vietnam\">OpenStreetMap Vietnam on Mastodon</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://en.osm.town/@vietnam\">https://en.osm.town/@vietnam</a>",
+              "descriptionHTML": "The official Mastodon account for OpenStreetMap Vietnam"
+            }
+          },
           "vn-telegram": {
             "id": "vn-telegram",
             "type": "telegram",
@@ -49099,7 +49130,7 @@
             "account": "Vietnam",
             "locationSet": {"include": ["vn"]},
             "languageCodes": ["en", "vn"],
-            "order": 3,
+            "order": 1,
             "strings": {
               "community": "OpenStreetMap Vietnam",
               "communityID": "openstreetmapvietnam",

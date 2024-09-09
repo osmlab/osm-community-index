@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.8.0",
-    "generated": "2024-07-17T21:53:25.906Z",
+    "generated": "2024-09-09T21:08:06.064Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/defaults.json",
-    "hash": "20eb95cb3ce2bce96fba1c92b4826834"
+    "hash": "215fe13ce92b920da3bbbdfbdcfc00b0"
   },
   "defaults": {
     "aparat": {
@@ -115,7 +115,10 @@
       "description": "Follow us on 𝕏",
       "url": "https://twitter.com/{account}"
     },
-    "xmpp": {"name": "{community} XMPP"},
+    "xmpp": {
+      "name": "{community} XMPP",
+      "description": "Join our XMPP community chat: {url}"
+    },
     "youtube": {
       "name": "{community} on YouTube",
       "description": "Subscribe to our YouTube channel",

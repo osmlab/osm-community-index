@@ -303,6 +303,7 @@ en:
       url: https://twitter.com/{account}
     xmpp:
       name: '{community} XMPP'
+      description: 'Join our XMPP community chat: {url}'
     youtube:
       name: '{community} on YouTube'
       description: Subscribe to our YouTube channel
@@ -417,7 +418,6 @@ en:
     description: '{community} Wiki page'
   de-berlin-xmpp:
     name: OpenStreetMap Berlin-Brandenburg XMPP
-    description: 'Join our XMPP Multi-User Chat: {url}'
   de-bochum-wiki:
     description: '{community} Wiki page'
   de-bonn-wiki:
@@ -434,7 +434,6 @@ en:
     description: '{community} Wiki page'
   de-hamburg-xmpp:
     name: OpenStreetMap Hamburg XMPP
-    description: 'Join our XMPP Multi-User Chat: {url}'
   de-karlsruhe-mailinglist:
     name: Karlsruhe Mailing List
   de-karlsruhe-meetup:
@@ -474,7 +473,6 @@ en:
     description: OSM community and users meetup Kreis Viersen and Mönchengladbach
   de-xmpp:
     name: OpenStreetMap DE XMPP
-    description: 'Join our XMPP Multi-User Chat: {url}'
   DF-telegram:
     extendedDescription: Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!
   dk-discourse:
@@ -776,7 +774,6 @@ en:
     extendedDescription: OpenStreetMap Deep South is a local mapping community in the Southeastern United States.
   osm-delhi-xmpp:
     name: OpenStreetMap Delhi XMPP
-    description: 'Join our XMPP room: {url}'
     extendedDescription: XMPP room for OSM Delhi; not bridged to any proprietary networks.
   OSM-Discord:
     name: OpenStreetMap World Discord
@@ -786,8 +783,6 @@ en:
     description: A shared place for conversations about OpenStreetMap
   OSM-Facebook:
     description: Like us on Facebook for news and updates about OpenStreetMap.
-  osm-fj:
-    description: Provide OSM services and information for the local community in Fiji
   osm-gh-facebook:
     extendedDescription: Mappers in Ghana community, promoting OpenStreetMap and Humanitarian OpenStreetMap Team (HOT) projects in Ghana. Join us.
   osm-gh-website:
@@ -821,7 +816,6 @@ en:
     description: 'Everything you need to know about mapping in India: {url}'
   osm-india-xmpp:
     name: OpenStreetMap India XMPP
-    description: 'Join our XMPP room: {url}'
     extendedDescription: 'XMPP room for the Indian OSM community; not bridged to any proprietary networks. Also available from Matrix via #osm-in:poddery.com'
   osm-iran-aparat:
     extendedDescription: A good resource of videos about anything related to OpenStreetMap. Mainly in Persian.
@@ -923,10 +917,6 @@ en:
     name: OpenStreetMap Utah
     description: Your OSM Mapping Community for the Salt Lake City area
     extendedDescription: We meet monthly in Salt Lake City, usually on the second Wednesday of the month. All are welcome!
-  osm-west-bengal-xmpp:
-    name: OpenStreetMap West Bengal XMPP
-    description: 'Join our XMPP room: {url}'
-    extendedDescription: XMPP room for OSM West Bengal.
   OSM-Wyoming:
     name: OpenStreetMap Wyoming
     description: Mappers and OpenStreetMap users in the state of Wyoming
