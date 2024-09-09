@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.8.0",
-    "generated": "2024-09-09T21:08:06.725Z",
+    "generated": "2024-09-09T21:22:24.429Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "a2f68e9fdbcf192480a65c42d35c8c37"
+    "hash": "7b57f3c9b652d0e44a91e06342b6d60c"
   },
   "type": "FeatureCollection",
   "features": [
@@ -6274,13 +6274,33 @@
               "descriptionHTML": "Join our community on LinkedIn"
             }
           },
+          "cl-matrix": {
+            "id": "cl-matrix",
+            "type": "matrix",
+            "account": "%21ajnQRTrntSvNydcQET",
+            "locationSet": {"include": ["cl"]},
+            "languageCodes": ["es"],
+            "order": 2,
+            "strings": {
+              "community": "OpenStreetMap Chile",
+              "communityID": "openstreetmapchile"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Chile Matrix Chat",
+              "url": "https://matrix.to/#/%21ajnQRTrntSvNydcQET:matrix.org",
+              "description": "Join our community Matrix chat",
+              "nameHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/%21ajnQRTrntSvNydcQET:matrix.org\">OpenStreetMap Chile Matrix Chat</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://matrix.to/#/%21ajnQRTrntSvNydcQET:matrix.org\">https://matrix.to/#/%21ajnQRTrntSvNydcQET:matrix.org</a>",
+              "descriptionHTML": "Join our community Matrix chat"
+            }
+          },
           "cl-telegram": {
             "id": "cl-telegram",
             "type": "telegram",
             "account": "OSMcl",
             "locationSet": {"include": ["cl"]},
             "languageCodes": ["es"],
-            "order": 2,
+            "order": 3,
             "strings": {
               "community": "OpenStreetMap Chile",
               "communityID": "openstreetmapchile",
@@ -38970,6 +38990,7 @@
             "type": "matrix",
             "account": "#OSMBengal",
             "locationSet": {"include": ["india_westbengal.geojson"]},
+            "languageCodes": ["bn", "en", "hi"],
             "strings": {
               "community": "OpenStreetMap West Bengal",
               "communityID": "openstreetmapwestbengal"
@@ -38991,6 +39012,7 @@
             "type": "telegram",
             "account": "osmwb",
             "locationSet": {"include": ["india_westbengal.geojson"]},
+            "languageCodes": ["bn", "en", "hi"],
             "strings": {
               "community": "OpenStreetMap West Bengal",
               "communityID": "openstreetmapwestbengal"
@@ -39011,6 +39033,7 @@
             "id": "osm-west-bengal-xmpp",
             "type": "xmpp",
             "locationSet": {"include": ["india_westbengal.geojson"]},
+            "languageCodes": ["bn", "en", "hi"],
             "strings": {
               "community": "OpenStreetMap West Bengal",
               "communityID": "openstreetmapwestbengal",

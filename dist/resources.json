@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.8.0",
-    "generated": "2024-09-09T21:09:34.046Z",
+    "generated": "2024-09-09T21:22:14.166Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "a19a583ea1dacde0c55405cec0058470"
+    "hash": "6adfd957355bad8d9911e02a9137a6c1"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -77,7 +77,8 @@
     "ch-twitter": {"id": "ch-twitter", "type": "twitter", "account": "SwissOSM", "locationSet": {"include": ["ch"]}, "languageCodes": ["de", "en", "fr", "it"], "strings": {"community": "OpenStreetMap Switzerland", "communityID": "openstreetmapswitzerland"}, "contacts": [{"name": "Swiss OpenStreetMap Association", "email": "board@sosm.ch"}]},
     "cl-facebook": {"id": "cl-facebook", "type": "facebook", "account": "OpenStreetMap-Chile-145127198882915", "locationSet": {"include": ["cl"]}, "languageCodes": ["es"], "order": 1, "strings": {"community": "OpenStreetMap Chile", "communityID": "openstreetmapchile", "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"}, "contacts": [{"name": "Julio Costa", "email": "julio.costa@openstreetmap.cl"}]},
     "cl-linkedin": {"id": "cl-linkedin", "type": "linkedin", "account": "openstreetmap-chile", "locationSet": {"include": ["cl"]}, "strings": {"community": "OpenStreetMap Chile", "communityID": "openstreetmapchile"}},
-    "cl-telegram": {"id": "cl-telegram", "type": "telegram", "account": "OSMcl", "locationSet": {"include": ["cl"]}, "languageCodes": ["es"], "order": 2, "strings": {"community": "OpenStreetMap Chile", "communityID": "openstreetmapchile", "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"}, "contacts": [{"name": "Julio Costa", "email": "julio.costa@openstreetmap.cl"}]},
+    "cl-matrix": {"id": "cl-matrix", "type": "matrix", "account": "%21ajnQRTrntSvNydcQET", "locationSet": {"include": ["cl"]}, "languageCodes": ["es"], "order": 2, "strings": {"community": "OpenStreetMap Chile", "communityID": "openstreetmapchile"}},
+    "cl-telegram": {"id": "cl-telegram", "type": "telegram", "account": "OSMcl", "locationSet": {"include": ["cl"]}, "languageCodes": ["es"], "order": 3, "strings": {"community": "OpenStreetMap Chile", "communityID": "openstreetmapchile", "extendedDescription": "Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!"}, "contacts": [{"name": "Julio Costa", "email": "julio.costa@openstreetmap.cl"}]},
     "cl-twitter": {"id": "cl-twitter", "type": "twitter", "account": "osmCL", "locationSet": {"include": ["cl"]}, "languageCodes": ["es"], "order": 4, "strings": {"community": "OpenStreetMap Chile", "communityID": "openstreetmapchile"}, "contacts": [{"name": "Julio Costa", "email": "julio.costa@openstreetmap.cl"}]},
     "cm-facebook": {"id": "cm-facebook", "type": "facebook", "locationSet": {"include": ["cm"]}, "languageCodes": ["en", "fr"], "order": 1, "strings": {"community": "OpenStreetMap Cameroon", "communityID": "openstreetmapcameroon", "url": "https://www.facebook.com/OpenStreetMap-Cameroun-799439470157013/Local"}, "contacts": [{"name": "osmcameroun@gmail.com", "email": "osmcameroun@gmail.com"}]},
     "cm-twitter": {"id": "cm-twitter", "type": "twitter", "account": "OSMCameroun", "locationSet": {"include": ["cm"]}, "languageCodes": ["en", "fr"], "order": 1, "strings": {"community": "OpenStreetMap Cameroon", "communityID": "openstreetmapcameroon"}, "contacts": [{"name": "OSM Cameroon", "email": "osmcameroun@gmail.com"}]},
