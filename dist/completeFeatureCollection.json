@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.8.0",
-    "generated": "2024-07-17T21:53:26.498Z",
+    "generated": "2024-09-09T19:44:58.611Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "ca5112faf0c888076135dced5e0f13c7"
+    "hash": "4275da4efa4ffc88243eaea52a16c9ba"
   },
   "type": "FeatureCollection",
   "features": [
@@ -6040,6 +6040,25 @@
         "driveSide": "right",
         "area": 41228.44,
         "resources": {
+          "ch-discourse": {
+            "id": "ch-discourse",
+            "type": "discourse",
+            "account": "ch",
+            "locationSet": {"include": ["ch"]},
+            "languageCodes": ["de", "en", "fr", "it"],
+            "strings": {
+              "community": "OpenStreetMap Switzerland",
+              "communityID": "openstreetmapswitzerland"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Switzerland Community Forum",
+              "url": "https://community.openstreetmap.org/c/communities/ch",
+              "description": "The official forum for OpenStreetMap Switzerland",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/ch\">OpenStreetMap Switzerland Community Forum</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/ch\">https://community.openstreetmap.org/c/communities/ch</a>",
+              "descriptionHTML": "The official forum for OpenStreetMap Switzerland"
+            }
+          },
           "ch-irc": {
             "id": "ch-irc",
             "type": "irc",
@@ -6086,6 +6105,25 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.ch/mailman3/lists/talk-ch.openstreetmap.ch/\">Openstreetmap Schweiz/Suisse/Svizzera/Svizra Mailing List</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.ch/mailman3/lists/talk-ch.openstreetmap.ch/\">https://lists.openstreetmap.ch/mailman3/lists/talk-ch.openstreetmap.ch/</a>",
               "descriptionHTML": "Mailing list for Switzerland"
+            }
+          },
+          "ch-mastodon": {
+            "id": "ch-mastodon",
+            "type": "mastodon",
+            "locationSet": {"include": ["ch"]},
+            "languageCodes": ["de", "en"],
+            "strings": {
+              "community": "Swiss OpenStreetMap",
+              "communityID": "swissopenstreetmap",
+              "url": "https://mastodon.social/@osm_at"
+            },
+            "resolved": {
+              "name": "Swiss OpenStreetMap on Mastodon",
+              "url": "https://mastodon.social/@osm_at",
+              "description": "The official Mastodon account for Swiss OpenStreetMap",
+              "nameHTML": "<a target=\"_blank\" href=\"https://mastodon.social/@osm_at\">Swiss OpenStreetMap on Mastodon</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://mastodon.social/@osm_at\">https://mastodon.social/@osm_at</a>",
+              "descriptionHTML": "The official Mastodon account for Swiss OpenStreetMap"
             }
           },
           "ch-twitter": {
@@ -8291,29 +8329,23 @@
     {
       "type": "Feature",
       "properties": {
-        "iso1A2": "CY",
-        "iso1A3": "CYP",
-        "iso1N3": "196",
-        "wikidata": "Q229",
-        "nameEn": "Republic of Cyprus",
-        "groups": ["Q644636", "145", "142", "EU", "UN", "001"],
-        "driveSide": "left",
-        "callingCodes": ["357"],
-        "id": "Q229",
-        "m49": "196",
-        "ccTLD": ".cy",
-        "isoStatus": "official",
-        "level": "country",
-        "emojiFlag": "🇨🇾",
+        "wikidata": "Q644636",
+        "nameEn": "Cyprus",
+        "level": "sharedLandform",
+        "id": "Q644636",
+        "groups": ["145", "142", "001"],
+        "members": ["Q9143535", "Q9206745", "Q37362", "Q23681", "CY"],
         "roadSpeedUnit": "km/h",
         "roadHeightUnit": "m",
-        "area": 20335.37,
+        "driveSide": "left",
+        "callingCodes": ["90 392", "357"],
+        "area": 50432.3,
         "resources": {
           "cyprus-matrix": {
             "id": "cyprus-matrix",
             "type": "matrix",
             "account": "#osm-cyprus",
-            "locationSet": {"include": ["cy"]},
+            "locationSet": {"include": ["Q644636"]},
             "languageCodes": ["en"],
             "order": 2,
             "strings": {
@@ -8336,119 +8368,21 @@
         "coordinates": [
           [
             [
-              [32.46489, 35.48584],
               [30.15137, 34.08517],
               [32.74412, 34.43926],
-              [32.75515, 34.64985],
-              [32.76136, 34.68318],
-              [32.79433, 34.67883],
-              [32.82717, 34.70622],
-              [32.86014, 34.70585],
-              [32.86167, 34.68734],
-              [32.9068, 34.66102],
-              [32.91398, 34.67343],
-              [32.93043, 34.67091],
-              [32.92807, 34.66736],
-              [32.93449, 34.66241],
-              [32.93693, 34.67027],
-              [32.94379, 34.67111],
-              [32.94683, 34.67907],
-              [32.95539, 34.68471],
-              [32.99135, 34.68061],
-              [32.98668, 34.67268],
-              [32.99014, 34.65518],
-              [32.97736, 34.65277],
-              [32.97079, 34.66112],
-              [32.95325, 34.66462],
-              [32.94796, 34.6587],
-              [32.94976, 34.65204],
-              [32.95471, 34.64528],
-              [32.95323, 34.64075],
-              [32.95891, 34.62919],
-              [32.96718, 34.63446],
-              [32.96968, 34.64046],
-              [33.0138, 34.64424],
               [33.26744, 34.49942],
               [33.83531, 34.73974],
-              [33.70575, 34.97947],
-              [33.70639, 34.99303],
-              [33.71514, 35.00294],
-              [33.69731, 35.01754],
-              [33.69938, 35.03123],
-              [33.67678, 35.03866],
-              [33.63765, 35.03869],
-              [33.61215, 35.0527],
-              [33.59658, 35.03635],
-              [33.567, 35.04803],
-              [33.57478, 35.06049],
-              [33.53975, 35.08151],
-              [33.48915, 35.06594],
-              [33.47666, 35.00701],
-              [33.45256, 35.00288],
-              [33.45178, 35.02078],
-              [33.47825, 35.04103],
-              [33.48136, 35.0636],
-              [33.46813, 35.10564],
-              [33.41675, 35.16325],
-              [33.4076, 35.20062],
-              [33.38575, 35.2018],
-              [33.37248, 35.18698],
-              [33.3717, 35.1788],
-              [33.36569, 35.17479],
-              [33.35612, 35.17402],
-              [33.35596, 35.17942],
-              [33.34964, 35.17803],
-              [33.35056, 35.18328],
-              [33.31955, 35.18096],
-              [33.3072, 35.16816],
-              [33.27068, 35.16815],
-              [33.15138, 35.19504],
-              [33.11105, 35.15639],
-              [33.08249, 35.17319],
-              [33.01192, 35.15639],
-              [32.94471, 35.09422],
-              [32.86406, 35.1043],
-              [32.85733, 35.07742],
-              [32.70779, 35.14127],
-              [32.70947, 35.18328],
-              [32.64864, 35.19967],
-              [32.60361, 35.16647],
-              [32.46489, 35.48584]
-            ]
-          ],
-          [
-            [
-              [33.74144, 35.01053],
-              [33.7492, 35.01319],
-              [33.74983, 35.02274],
-              [33.74265, 35.02329],
-              [33.73781, 35.02181],
-              [33.7343, 35.01178],
-              [33.74144, 35.01053]
-            ]
-          ],
-          [
-            [
-              [33.77312, 34.9976],
-              [33.75994, 35.00113],
-              [33.75682, 34.99916],
-              [33.76605, 34.99543],
-              [33.76738, 34.99188],
-              [33.7778, 34.98981],
-              [33.77843, 34.988],
-              [33.78149, 34.98854],
-              [33.78318, 34.98699],
-              [33.78571, 34.98951],
-              [33.78917, 34.98854],
-              [33.79191, 34.98914],
-              [33.78516, 34.99582],
-              [33.77553, 34.99518],
-              [33.77312, 34.9976]
+              [33.98684, 34.76642],
+              [35.48515, 34.70851],
+              [35.51152, 36.10954],
+              [32.82353, 35.70297],
+              [32.46489, 35.48584],
+              [30.15137, 34.08517]
             ]
           ]
         ]
       },
-      "id": "Q229"
+      "id": "Q644636"
     },
     {
       "type": "Feature",
@@ -23493,6 +23427,56 @@
     },
     {
       "type": "Feature",
+      "id": "[-79.1798,37.3923]",
+      "properties": {
+        "id": "[-79.1798,37.3923]",
+        "area": 1963.5,
+        "resources": {
+          "MapLYH": {
+            "id": "MapLYH",
+            "type": "signal",
+            "locationSet": {"include": [[-79.1798, 37.3923]]},
+            "languageCodes": ["en"],
+            "strings": {
+              "name": "MapLYH",
+              "description": "MapLYH group",
+              "url": "https://signal.group/#CjQKIL1jGgWB33mnMdfvh55Ku0bn_InsGxfoYDVIYL0Q_6TeEhAWYhTVF5l_8sofCOldYZbW"
+            },
+            "contacts": [
+              {"name": "Signal Admin", "email": "maplyh@nathanwyand.com"}
+            ],
+            "resolved": {
+              "name": "MapLYH",
+              "url": "https://signal.group/#CjQKIL1jGgWB33mnMdfvh55Ku0bn_InsGxfoYDVIYL0Q_6TeEhAWYhTVF5l_8sofCOldYZbW",
+              "description": "MapLYH group",
+              "nameHTML": "<a target=\"_blank\" href=\"https://signal.group/#CjQKIL1jGgWB33mnMdfvh55Ku0bn_InsGxfoYDVIYL0Q_6TeEhAWYhTVF5l_8sofCOldYZbW\">MapLYH</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://signal.group/#CjQKIL1jGgWB33mnMdfvh55Ku0bn_InsGxfoYDVIYL0Q_6TeEhAWYhTVF5l_8sofCOldYZbW\">https://signal.group/#CjQKIL1jGgWB33mnMdfvh55Ku0bn_InsGxfoYDVIYL0Q_6TeEhAWYhTVF5l_8sofCOldYZbW</a>",
+              "descriptionHTML": "MapLYH group"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-79.18, 37.617],
+            [-79.346, 37.574],
+            [-79.449, 37.461],
+            [-79.448, 37.323],
+            [-79.346, 37.21],
+            [-79.18, 37.168],
+            [-79.014, 37.21],
+            [-78.911, 37.323],
+            [-78.911, 37.461],
+            [-79.013, 37.574],
+            [-79.18, 37.617]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "england-west-midlands.geojson",
       "properties": {
         "id": "england-west-midlands.geojson",
@@ -28890,6 +28874,31 @@
               "descriptionHTML": "Get in touch with other mappers on Discord! After signing up, join the #🗺openstreetmap channel."
             }
           },
+          "Open-Source-San-Jose-Mastodon": {
+            "id": "Open-Source-San-Jose-Mastodon",
+            "type": "mastodon",
+            "account": "@opensourcesanjose@sfba.social",
+            "locationSet": {"include": ["south_sf_bay_area.geojson"]},
+            "languageCodes": ["en"],
+            "order": 4,
+            "strings": {
+              "community": "Open Source San José",
+              "communityID": "opensourcesanjose",
+              "description": "Follow Open Source San José on Mastodon.",
+              "extendedDescription": "Open Source San José is a local nonprofit organization that connects volunteer coders and designers with community needs through civic technology. OSSJ sponsors the local volunteer mapping community’s biweekly South Bay Map Nights.",
+              "url": "https://sfba.social/@opensourcesanjose"
+            },
+            "resolved": {
+              "name": "Open Source San José on Mastodon",
+              "url": "https://sfba.social/@opensourcesanjose",
+              "description": "Follow Open Source San José on Mastodon.",
+              "extendedDescription": "Open Source San José is a local nonprofit organization that connects volunteer coders and designers with community needs through civic technology. OSSJ sponsors the local volunteer mapping community’s biweekly South Bay Map Nights.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://sfba.social/@opensourcesanjose\">Open Source San José on Mastodon</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://sfba.social/@opensourcesanjose\">https://sfba.social/@opensourcesanjose</a>",
+              "descriptionHTML": "Follow Open Source San José on Mastodon.",
+              "extendedDescriptionHTML": "Open Source San José is a local nonprofit organization that connects volunteer coders and designers with community needs through civic technology. OSSJ sponsors the local volunteer mapping community’s biweekly South Bay Map Nights."
+            }
+          },
           "Open-Source-San-Jose-Slack": {
             "id": "Open-Source-San-Jose-Slack",
             "type": "slack",
@@ -28911,29 +28920,6 @@
               "urlHTML": "<a target=\"_blank\" href=\"https://opensourcesanjose.slack.com/\">https://opensourcesanjose.slack.com/</a>",
               "signupUrlHTML": "<a target=\"_blank\" href=\"https://join.slack.com/t/opensourcesanjose/shared_invite/zt-1yt8dkv1y-Pn47~dt9of8nNHa2U9kioA\">https://join.slack.com/t/opensourcesanjose/shared_invite/zt-1yt8dkv1y-Pn47~dt9of8nNHa2U9kioA</a>",
               "descriptionHTML": "All are welcome! Sign up at <a target=\"_blank\" href=\"https://join.slack.com/t/opensourcesanjose/shared_invite/zt-1yt8dkv1y-Pn47~dt9of8nNHa2U9kioA\">https://join.slack.com/t/opensourcesanjose/shared_invite/zt-1yt8dkv1y-Pn47~dt9of8nNHa2U9kioA</a>, then join the #proj-osm channel."
-            }
-          },
-          "OSM-South-Bay": {
-            "id": "OSM-South-Bay",
-            "type": "meetup",
-            "account": "open-source-san-jose",
-            "locationSet": {"include": ["south_sf_bay_area.geojson"]},
-            "languageCodes": ["en"],
-            "order": 5,
-            "strings": {
-              "name": "OSM South Bay",
-              "description": "Join our online South Bay Map Nights",
-              "extendedDescription": "Meet fellow South Bay mappers and help out with local mapping projects at our online meetup every other Tuesday night, in partnership with Open Source San José. Programming and GIS skills are not required."
-            },
-            "resolved": {
-              "name": "OSM South Bay",
-              "url": "https://www.meetup.com/open-source-san-jose",
-              "description": "Join our online South Bay Map Nights",
-              "extendedDescription": "Meet fellow South Bay mappers and help out with local mapping projects at our online meetup every other Tuesday night, in partnership with Open Source San José. Programming and GIS skills are not required.",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/open-source-san-jose\">OSM South Bay</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/open-source-san-jose\">https://www.meetup.com/open-source-san-jose</a>",
-              "descriptionHTML": "Join our online South Bay Map Nights",
-              "extendedDescriptionHTML": "Meet fellow South Bay mappers and help out with local mapping projects at our online meetup every other Tuesday night, in partnership with Open Source San José. Programming and GIS skills are not required."
             }
           }
         }
@@ -32669,27 +32655,32 @@
             "account": "openstreetmap",
             "locationSet": {"include": ["001"]},
             "languageCodes": [
+              "da",
               "de",
               "en",
               "es",
               "fr",
-              "it",
+              "nl",
+              "no",
               "pt-BR",
-              "ro",
+              "sv",
               "tr"
             ],
             "order": 7,
-            "strings": {"name": "OpenStreetMap World Discord"},
+            "strings": {
+              "name": "OpenStreetMap World Discord",
+              "description": "Unofficial, community-ran Discord server for the global OpenStreetMap community. Regional channels are available."
+            },
             "contacts": [
               {"name": "Austin Harrison", "email": "jaustinharrison@gmail.com"}
             ],
             "resolved": {
               "name": "OpenStreetMap World Discord",
               "url": "https://discord.gg/openstreetmap",
-              "description": "Get in touch with other mappers on Discord",
+              "description": "Unofficial, community-ran Discord server for the global OpenStreetMap community. Regional channels are available.",
               "nameHTML": "<a target=\"_blank\" href=\"https://discord.gg/openstreetmap\">OpenStreetMap World Discord</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://discord.gg/openstreetmap\">https://discord.gg/openstreetmap</a>",
-              "descriptionHTML": "Get in touch with other mappers on Discord"
+              "descriptionHTML": "Unofficial, community-ran Discord server for the global OpenStreetMap community. Regional channels are available."
             }
           },
           "OSM-Discourse": {
@@ -41545,44 +41536,6 @@
               "urlHTML": "<a target=\"_blank\" href=\"https://t.me/ruosm\">https://t.me/ruosm</a>",
               "descriptionHTML": "Join our community Telegram chat"
             }
-          },
-          "ru-twitter": {
-            "id": "ru-twitter",
-            "type": "twitter",
-            "account": "shtosm",
-            "locationSet": {"include": ["ru"]},
-            "languageCodes": ["ru"],
-            "strings": {
-              "community": "OpenStreetMap Russia",
-              "communityID": "openstreetmaprussia"
-            },
-            "contacts": [{"name": "Ilya Zverev", "email": "ilya@zverev.info"}],
-            "resolved": {
-              "name": "OpenStreetMap Russia on 𝕏",
-              "url": "https://twitter.com/shtosm",
-              "description": "Follow us on 𝕏",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/shtosm\">OpenStreetMap Russia on 𝕏</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/shtosm\">https://twitter.com/shtosm</a>",
-              "descriptionHTML": "Follow us on 𝕏"
-            }
-          },
-          "talk-ru": {
-            "id": "talk-ru",
-            "type": "mailinglist",
-            "account": "talk-ru",
-            "locationSet": {"include": ["ru"]},
-            "strings": {
-              "community": "OpenStreetMap Russia",
-              "communityID": "openstreetmaprussia"
-            },
-            "resolved": {
-              "name": "talk-ru Mailing List",
-              "url": "https://lists.openstreetmap.org/listinfo/talk-ru",
-              "description": "The official mailing list for OpenStreetMap Russia",
-              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-ru\">talk-ru Mailing List</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-ru\">https://lists.openstreetmap.org/listinfo/talk-ru</a>",
-              "descriptionHTML": "The official mailing list for OpenStreetMap Russia"
-            }
           }
         }
       },
@@ -49118,6 +49071,47 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-vi\">talk-vi Mailing List</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-vi\">https://lists.openstreetmap.org/listinfo/talk-vi</a>",
               "descriptionHTML": "Mailing list about OpenStreetMap in Vietnam or in Vietnamese"
+            }
+          },
+          "vn-telegram": {
+            "id": "vn-telegram",
+            "type": "telegram",
+            "account": "osm_vietnam",
+            "locationSet": {"include": ["vn"]},
+            "languageCodes": ["en", "vn"],
+            "order": 3,
+            "strings": {
+              "community": "OpenStreetMap Vietnam",
+              "communityID": "openstreetmapvietnam"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Vietnam Telegram",
+              "url": "https://t.me/osm_vietnam",
+              "description": "Join our community Telegram chat",
+              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/osm_vietnam\">OpenStreetMap Vietnam Telegram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osm_vietnam\">https://t.me/osm_vietnam</a>",
+              "descriptionHTML": "Join our community Telegram chat"
+            }
+          },
+          "vn-wiki": {
+            "id": "vn-wiki",
+            "type": "wiki",
+            "account": "Vietnam",
+            "locationSet": {"include": ["vn"]},
+            "languageCodes": ["en", "vn"],
+            "order": 3,
+            "strings": {
+              "community": "OpenStreetMap Vietnam",
+              "communityID": "openstreetmapvietnam",
+              "description": "{community} Wiki page"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Vietnam WikiProject",
+              "url": "https://wiki.openstreetmap.org/wiki/Vietnam",
+              "description": "OpenStreetMap Vietnam Wiki page",
+              "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Vietnam\">OpenStreetMap Vietnam WikiProject</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Vietnam\">https://wiki.openstreetmap.org/wiki/Vietnam</a>",
+              "descriptionHTML": "OpenStreetMap Vietnam Wiki page"
             }
           }
         }
