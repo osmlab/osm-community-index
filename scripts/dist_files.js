@@ -12,9 +12,10 @@ import { resolveStrings } from '../lib/resolve_strings.js';
 import { writeFileWithMeta } from '../lib/write_file_with_meta.js';
 
 // JSON
-import featureCollectionJSON from '../dist/featureCollection.json' assert {type: 'json'};
-import resourcesJSON from '../dist/resources.json' assert {type: 'json'};
-import defaultsJSON from '../defaults.json' assert {type: 'json'};
+const featureCollectionJSON = JSON5.parse(fs.readFileSync('dist/featureCollection.json', 'utf8'));
+const resourcesJSON = JSON5.parse(fs.readFileSync('dist/resources.json', 'utf8'));
+const defaultsJSON = JSON5.parse(fs.readFileSync('defaults.json', 'utf8'));
+
 const resources = resourcesJSON.resources;
 const defaults = defaultsJSON.defaults;
 

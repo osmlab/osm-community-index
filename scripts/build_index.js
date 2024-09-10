@@ -23,9 +23,9 @@ import { simplify } from '../lib/simplify.js';
 import { writeFileWithMeta } from '../lib/write_file_with_meta.js';
 
 // JSON
-import geojsonSchemaJSON from '../schema/geojson.json' assert {type: 'json'};
-import featureSchemaJSON from '../schema/feature.json' assert {type: 'json'};
-import resourceSchemaJSON from '../schema/resource.json' assert {type: 'json'};
+const geojsonSchemaJSON = JSON5.parse(fs.readFileSync('schema/geojson.json', 'utf8'));
+const featureSchemaJSON = JSON5.parse(fs.readFileSync('schema/feature.json', 'utf8'));
+const resourceSchemaJSON = JSON5.parse(fs.readFileSync('schema/resource.json', 'utf8'));
 
 const Validator = jsonschema.Validator;
 let v = new Validator();
