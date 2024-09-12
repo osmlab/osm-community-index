@@ -19,6 +19,44 @@ _Breaking changes, which may affect downstream projects, are marked with a_ ⚠�
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.8.1
+##### 2024-Sep-12
+* Project has been tested and works on Node 22
+* Added:
+  * Chile Matrix ([#717])
+  * West Bengal Telegram and Matrix ([#722])
+  * Vietnam Mastodon ([#727])
+  * Vietnam Telegram and Wiki page ([#728])
+  * Swiss Mastodon and Discourse ([#732], [#733], [#734])
+  * MapLYH Signal group for Lynchburg, Virginia, USA ([#735])
+  * Japan Discord ([#738])
+* Updated:
+  * Language codes and description for OSM World Discord ([#726])
+  * Switch OSM San José from Meetup to Mastodon ([#730])
+  * Cypriot locationSet to include the entire island ([#731])
+  * Use better icon for Signal Messenger resource type ([#737])
+* Removed:
+  * OSM Fiji website ([#729])
+  * `talk-ru` mailing list and OSM Russia Twitter account ([#736])
+  * Japan Slack ([#738])
+
+[#717]: https://github.com/osmlab/osm-community-index/issues/717
+[#722]: https://github.com/osmlab/osm-community-index/issues/722
+[#726]: https://github.com/osmlab/osm-community-index/issues/726
+[#727]: https://github.com/osmlab/osm-community-index/issues/727
+[#728]: https://github.com/osmlab/osm-community-index/issues/728
+[#729]: https://github.com/osmlab/osm-community-index/issues/729
+[#730]: https://github.com/osmlab/osm-community-index/issues/730
+[#731]: https://github.com/osmlab/osm-community-index/issues/731
+[#732]: https://github.com/osmlab/osm-community-index/issues/732
+[#733]: https://github.com/osmlab/osm-community-index/issues/733
+[#734]: https://github.com/osmlab/osm-community-index/issues/734
+[#735]: https://github.com/osmlab/osm-community-index/issues/735
+[#736]: https://github.com/osmlab/osm-community-index/issues/736
+[#737]: https://github.com/osmlab/osm-community-index/issues/737
+[#738]: https://github.com/osmlab/osm-community-index/issues/738
+
+
 # 5.8.0
 ##### 2024-Jul-17
 * Updated dependencies, bump to location-conflation v1.4.0 / country-coder v5.3.0

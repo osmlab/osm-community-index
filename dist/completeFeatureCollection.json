@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "5.8.0",
-    "generated": "2024-09-09T21:22:24.429Z",
+    "version": "5.8.1",
+    "generated": "2024-09-12T14:00:35.588Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "7b57f3c9b652d0e44a91e06342b6d60c"
+    "hash": "30f67c218c87a969fc01dd52c53c6181"
   },
   "type": "FeatureCollection",
   "features": [
@@ -35354,6 +35354,27 @@
         "roadHeightUnit": "m",
         "area": 5560523.24,
         "resources": {
+          "OSM-japan-discord": {
+            "id": "OSM-japan-discord",
+            "type": "discord",
+            "account": "pNuUM99kUX",
+            "locationSet": {"include": ["jp"]},
+            "languageCodes": ["ja"],
+            "strings": {
+              "community": "OpenStreetMap Japan",
+              "communityID": "openstreetmapjapan",
+              "description": "A Discord workspace for the OSM Japan community: {url}"
+            },
+            "contacts": [{"name": "OSMF Japan", "email": "info@osmf.jp"}],
+            "resolved": {
+              "name": "OpenStreetMap Japan Discord",
+              "url": "https://discord.gg/pNuUM99kUX",
+              "description": "A Discord workspace for the OSM Japan community: https://discord.gg/pNuUM99kUX",
+              "nameHTML": "<a target=\"_blank\" href=\"https://discord.gg/pNuUM99kUX\">OpenStreetMap Japan Discord</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://discord.gg/pNuUM99kUX\">https://discord.gg/pNuUM99kUX</a>",
+              "descriptionHTML": "A Discord workspace for the OSM Japan community: <a target=\"_blank\" href=\"https://discord.gg/pNuUM99kUX\">https://discord.gg/pNuUM99kUX</a>"
+            }
+          },
           "OSM-japan-facebook": {
             "id": "OSM-japan-facebook",
             "type": "facebook",
@@ -35398,30 +35419,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-ja\">talk-ja Mailing List</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-ja\">https://lists.openstreetmap.org/listinfo/talk-ja</a>",
               "descriptionHTML": "The official mailing list for OpenStreetMap Japan"
-            }
-          },
-          "OSM-japan-slack": {
-            "id": "OSM-japan-slack",
-            "type": "slack",
-            "locationSet": {"include": ["jp"]},
-            "languageCodes": ["ja"],
-            "strings": {
-              "community": "OpenStreetMap Japan",
-              "communityID": "openstreetmapjapan",
-              "description": "A Slack workspace for the OSM Japan community {signupUrl}",
-              "signupUrl": "https://osm-japan.slack.com/join/shared_invite/zt-dwn2soub-E_rssqukJeSIiFsvYWozWw",
-              "url": "https://osm-japan.slack.com/"
-            },
-            "contacts": [{"name": "OSMF Japan", "email": "info@osmf.jp"}],
-            "resolved": {
-              "name": "OpenStreetMap Japan Slack",
-              "url": "https://osm-japan.slack.com/",
-              "signupUrl": "https://osm-japan.slack.com/join/shared_invite/zt-dwn2soub-E_rssqukJeSIiFsvYWozWw",
-              "description": "A Slack workspace for the OSM Japan community https://osm-japan.slack.com/join/shared_invite/zt-dwn2soub-E_rssqukJeSIiFsvYWozWw",
-              "nameHTML": "<a target=\"_blank\" href=\"https://osm-japan.slack.com/\">OpenStreetMap Japan Slack</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://osm-japan.slack.com/\">https://osm-japan.slack.com/</a>",
-              "signupUrlHTML": "<a target=\"_blank\" href=\"https://osm-japan.slack.com/join/shared_invite/zt-dwn2soub-E_rssqukJeSIiFsvYWozWw\">https://osm-japan.slack.com/join/shared_invite/zt-dwn2soub-E_rssqukJeSIiFsvYWozWw</a>",
-              "descriptionHTML": "A Slack workspace for the OSM Japan community <a target=\"_blank\" href=\"https://osm-japan.slack.com/join/shared_invite/zt-dwn2soub-E_rssqukJeSIiFsvYWozWw\">https://osm-japan.slack.com/join/shared_invite/zt-dwn2soub-E_rssqukJeSIiFsvYWozWw</a>"
             }
           },
           "OSM-japan-twitter": {
