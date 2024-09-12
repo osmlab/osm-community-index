@@ -205,46 +205,67 @@ ko:
     aparat:
       name: '{community}의 아파라트'
       description: 저희 아파라트 채널을 구독하세요
+      url: https://aparat.com/{account}
     discord:
       name: '{community} 디스코드'
       description: Discord로 다른 매퍼들과 소통하세요
+      url: https://discord.gg/{account}
     discourse:
       name: '{community} 커뮤니티 포럼'
       description: '{community}의 공식 포럼'
+      url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
       name: '{community}의 페이스북'
       description: 저희 페이스북 커뮤니티에 참여하세요
+      url: https://www.facebook.com/{account}
+    fediverse:
+      name: '{community}'
     forum:
       name: '{community} 포럼'
       description: '{community}의 공식 포럼'
     github:
       name: '{community} 깃헙'
+      url: https://github.com/{account}
     gitlab:
       name: '{community} 깃랩'
+      url: https://gitlab.com/{account}
+    group:
+      name: '{community}'
     instagram:
       name: '{community}의 인스타그램'
       description: 저희 인스타그램을 팔로우 하세요
+      url: https://instagram.com/{account}
     irc:
       name: '{community}의 IRC'
       description: 'irc.oftc.net(6667 포트)의 #{account} 대화방에 참여하세요'
+      url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{community}의 링크드인'
       description: 저희 링크드인 커뮤니티에 참여하세요
+      url: https://www.linkedin.com/company/{account}
     mailinglist:
       name: '{account} 메일링 리스트'
       description: '{community}의 공식 메일링 리스트'
+      url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
       name: '{community}의 마스토돈'
       description: '{community}의 공식 마스토돈 계정'
     matrix:
       name: '{community} 매트릭스 채팅'
       description: 저희 매트릭스 챗방에 참여하세요
+      url: https://matrix.to/#/{account}:matrix.org
     meetup:
       name: '{community} 밋업'
+      url: https://www.meetup.com/{account}
     newsletter:
       name: '{community} 뉴스레터'
+    osm:
+      name: '{community}'
+    osm-lc:
+      name: '{community}'
     reddit:
       name: '{community}의 레딧'
+      url: https://www.reddit.com/r/{account}
     signal:
       name: '{community} 시그널'
       description: 저희 시그널 챗방에 참여하세요
@@ -253,23 +274,34 @@ ko:
     telegram:
       name: '{community} 텔레그램'
       description: 우리 텔레그램 사랑방에 참여하세요
+      url: https://t.me/{account}
     threads:
       name: '{community}의 스레드'
       description: 저희 스레드를 팔로우하세요
+      url: https://threads.net/@{account}
     tiktok:
       name: '{community}의 틱톡'
       description: 저희 틱톡을 팔로우 하세요
+      url: https://tiktok.com/@{account}
     twitter:
       name: '{community}의 𝕏 채널'
       description: 저희 𝕏 채널을 팔로우하세요
+      url: https://twitter.com/{account}
+    website:
+      name: '{community}'
     wiki:
       name: '{community} 위키프로젝트'
+      url: https://wiki.openstreetmap.org/wiki/{account}
     x:
       name: '{community}의 𝕏 채널'
       description: 저희 𝕏 채널을 팔로우하세요
+      url: https://twitter.com/{account}
+    xmpp:
+      name: '{community} XMPP'
     youtube:
       name: '{community}의 유투브'
       description: 저희 유투브 채널을 구독하세요
+      url: https://www.youtube.com/channel/{account}
     zulip:
       name: '{community} 줄립'
       description: 저희 커뮤니티 줄립 챗방에 참여하세요
@@ -380,7 +412,6 @@ ko:
     description: '{community} 위키 문서'
   de-berlin-xmpp:
     name: 오픈스트리트맵 베를린-브란덴부르크 XMPP
-    description: '우리 XMPP 그룹 채팅에 가입하세요: {url}'
   de-bochum-wiki:
     description: '{community} 위키 문서'
   de-bonn-wiki:
@@ -397,7 +428,6 @@ ko:
     description: '{community} 위키 문서'
   de-hamburg-xmpp:
     name: 오픈스트리트맵 함부르크 XMPP
-    description: '우리 XMPP 그룹 채팅에 가입하세요: {url}'
   de-karlsruhe-mailinglist:
     name: 카를스루에 메일링리스트
   de-karlsruhe-meetup:
@@ -437,7 +467,6 @@ ko:
     description: OSM 커뮤니티와 사용자 모임 Kreis Viersen과 Mönchengladbach
   de-xmpp:
     name: 오픈스트리트맵 독일 XMPP
-    description: '우리 XMPP 그룹 채팅에 가입하세요: {url}'
   DF-telegram:
     extendedDescription: 오픈스트리트맵을 더 잘 알고 싶다면, 커뮤니티에 가입해보세요. 회의에 참여할 수도 있고, 질문을 할 수도 있습니다. 누구나 환영합니다!
   dk-discourse:
@@ -662,16 +691,22 @@ ko:
   Open-Source-San-Jose-Discord:
     name: 오픈소스 San José Discord
     description: 'Discord의 다른 맵퍼들과 소통하세요! 가입 후 #🗺openstreetmap 채널에 가입하세요.'
+  Open-Source-San-Jose-Mastodon:
+    description: Mastodon에서 오픈 소스 San José를 팔로우하세요.
+    extendedDescription: 오픈 소스 San José는 시민 기술을 통해 자원봉사 코더들과 디자이너들을 지역 사회의 필요와 연결하는 지역 비영리 단체입니다. OSSJ는 지역 자원봉사 매핑 커뮤니티의 South Bay Map Nights를 격주로 후원합니다.
   Open-Source-San-Jose-Slack:
     name: 오픈소스 San José Slack
     description: '모두 환영합니다! {signupUrl}에서 가입한 다음, #proj-osm 채널에 참여하세요.'
   OpenCleveland-meetup:
+    name: 오픈 클리블랜드
     description: 클리블랜드 지역 내 오픈스트리트맵 개선하기
     extendedDescription: Open Geo Cleveland는 사람들이 무료 지리 데이터, 특히 OpenStreetMap과 지리 데이터를 관리, 편집 및 표시하는 Open Geo- spatial 소프트웨어를 사용하는 것에 대한 지식을 공유하고 북동부 오하이오에서 사용을 옹호할 수 있는 자원을 목표로 합니다. 우리는 또한 maptime 지부입니다 =)
   osgeo-oceania:
+    name: OSGeo 오세아니아
     description: 오세아니아의 오픈스트리트맵 커뮤니티의 발전을 지원합니다.
     extendedDescription: OSGeo Oceania의 목적은 FOSS4G SotM Oceania 협의들의 감독 및 사회적 책무를 포함한 오세아니아 지역의 열린 지리 공간 커뮤니티를 지원하고 성장시키는 것입니다.
   osm-africa-eventbrite:
+    name: '{community} EventBrite'
     description: '{community} EventBrite 페이지'
   osm-africa-facebook-group:
     name: '{community} Facebook 그룹'
@@ -689,6 +724,9 @@ ko:
     extendedDescription: 지역사회와 오픈스트리트맵의 소식입니다.
   OSM-AR-wiki:
     description: 아르헨티나 지도 제작에 대해 알아야 할 모든 것.
+  osm-asia-facebook:
+    description: 오픈스트리트맵 아시아 페이스북 그룹
+    extendedDescription: 아시아를 위한 통합 지도 제작 지원을 위한 단체입니다. 특히 지역 커뮤니티가 없는 맵퍼들이 지역 커뮤니티가 없어 해결할 수 없었던 지역의 문제를 해결하기 위해 정보를 공유하고 협력하는 장이 되기를 원합니다.
   osm-at:
     description: 오스트리아 오픈스트리트맵 정보 플랫폼
   osm-bengaluru-matrix:
@@ -704,6 +742,7 @@ ko:
     description: 워싱턴주 마운트버논 주변의 맵퍼와 오픈스트리트맵 사용자
     extendedDescription: 오픈스트리트맵은 당신 같은 사람들이 만든 세계지도입니다. 그것은 위키피디아처럼 무료로 제공하는 여러분이 만든 지도입니다. 자세한 내용은 osm.org을 참조하십시오. 우리는 항상 만나서 지도에 대해 이야기하고 지도를 만들고 재미있게 놀아요!
   osm-ch:
+    name: '{community}'
     description: 스위스 오픈스트리트맵 정보 플랫폼
   OSM-Chattanooga:
     name: 오픈스트리트맵 채터누가
@@ -719,7 +758,6 @@ ko:
     extendedDescription: OpenStreetMap Deep South는 미국 남동부의 지역 맵핑 커뮤니티입니다.
   osm-delhi-xmpp:
     name: 오픈스트리트맵 델리 XMPP
-    description: '우리 XMPP 룸에 가입하세요: {url}'
     extendedDescription: OSM Delhi를 위한 XMPP 공간; 독점 네트워크에 연결되지 않습니다.
   OSM-Discord:
     name: 오픈스트리트맵 전세계 디스코드
@@ -728,8 +766,6 @@ ko:
     description: OpenStreetMap에 대한 대화를 나눌 수 있는 공유 공간
   OSM-Facebook:
     description: 좋아요를 누르고 OpenStreetMap의 뉴스나 업데이트를 받아보세요.
-  osm-fj:
-    description: 피지 지역사회를 위한 OSM 서비스 및 정보 제공
   osm-gh-facebook:
     extendedDescription: 가나에서 오픈스트리트맵과 인도주의적 오픈스트리트맵 팀(HOT) 프로젝트를 추진하는 가나 커뮤니티의 맵퍼들이 함께 합니다.
   osm-gh-website:
@@ -763,7 +799,6 @@ ko:
     description: '인도 지도제작에 대해 알아야 할 모든 것: {url}'
   osm-india-xmpp:
     name: 오픈스트리트맵 인도 XMPP
-    description: '우리 XMPP 룸에 가입하세요: {url}'
     extendedDescription: '인도 OSM 커뮤니티를 위한 XMPP 공간, 독점 네트워크에 브리지되지 않음. 또한 #osm-in:poddery.com 을 통해 매트릭스에서 제공됩니다'
   osm-iran-aparat:
     extendedDescription: 오픈 스트리트 맵과 관련된 모든 것에 대한 좋은 비디오 리소스. 주로 페르시아어.
@@ -802,6 +837,7 @@ ko:
   osm-michigan-wiki:
     description: '{community} 위키 페이지'
   osm-ni:
+    name: MapaNica.net
     description: 니카라과 지역사회를 위한 OSM 서비스 및 정보 제공
   osm-ohio-wiki:
     description: '{community} 위키 페이지'
@@ -834,10 +870,6 @@ ko:
     name: 오픈스트리트맵 남부 캘리포니아
     description: 재미있게 놀고, 로스앤젤레스에 뭔가를 기여하고, 지도 제작에 대해 배워봅시다!
     extendedDescription: OpenStreetMap (OSM) Southern California는 매핑에 관심이있는 모든 사람들이 OpenStreetMap과 함께 일하기 위해 모일 수 있습니다. 지도의 위키백과인 OpenStreetMap은 전 세계 1,000,000명 이상의 자원봉사자가 만든 세계의 무료 오픈 소스 지도입니다. 누구나 환영합니다. OpenStreetMap을 모른다면, 우리는 당신을 가르 칠 것입니다. 매핑 프로젝트 또는 그룹이 할 수있는 견학에 대한 아이디어가 있다면 좋습니다!
-  OSM-South-Bay:
-    name: OSM 사우스베이
-    description: 우리의 온라인 사우스 베이 지도 나이트에 참여하세요
-    extendedDescription: 오픈 소스 산호세와 협력하여 격주 화요일 밤에 열리는 온라인 미팅에서 사우스 베이의 지도 제작자들을 만나 현지 지도 제작 프로젝트에 도움을 받으십시오. 프로그래밍 및 GIS 기술은 필요하지 않습니다.
   OSM-Tampa-Bay:
     name: 오픈스트리트맵 탬파베이
     description: 탬파베이 지역의 맵퍼와 오픈스트리트맵 사용자
@@ -866,10 +898,8 @@ ko:
     description: 모두 환영합니다! {signupUrl}에서 가입하세요!
   OSM-Utah:
     name: 오픈스트리트맵 유타
-  osm-west-bengal-xmpp:
-    name: 오픈스트리트맵 서벵골 XMPP
-    description: '우리 XMPP 룸에 가입하세요: {url}'
-    extendedDescription: OSM 서벵갈을 위한 XMPP 공간입니다.
+    description: 솔트레이크시티 지역의 OSM 매핑 커뮤니티
+    extendedDescription: 우리는 보통 매달의 두 번째 수요일, 솔트 레이크 시티에서 만납니다. 모두 환영합니다!
   OSM-Wyoming:
     name: 오픈스트리트맵 와이오밍
     description: 미국 와이오밍주의 맵퍼와 오픈스트리트맵 사용자

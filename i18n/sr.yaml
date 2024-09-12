@@ -1,5 +1,7 @@
 sr:
   _communities:
+    freelibreopensourcesoftwarekosovaflossk: Бесплатни софтвер отвореног кода Косова (FLOSSK)
+    openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap Ахен
     openstreetmapafghanistan: OpenStreetMap Авганистан
     openstreetmapafrica: OpenStreetMap Африка
@@ -16,6 +18,7 @@ sr:
     openstreetmapbelize: OpenStreetMap Белизе
     openstreetmapbenin: OpenStreetMap Бенин
     openstreetmapberlin: OpenStreetMap Берлин
+    openstreetmapbochum: OpenStreetMap Бохум
     openstreetmapbolivia: OpenStreetMap Боливија
     openstreetmapbonn: OpenStreetMap Бон
     openstreetmapbosniaandherzegovina: OpenStreetMap Босна и Херцеговина
@@ -41,6 +44,8 @@ sr:
     openstreetmapcotedivoire: OpenStreetMap Обала Слоноваче
     openstreetmapcroatia: OpenStreetMap Хрватска
     openstreetmapcuba: OpenStreetMap Куба
+    openstreetmapcyprus: OpenStreetMap Кипар
+    openstreetmapdelhi: OpenStreetMap Делхи
     openstreetmapdenmark: OpenStreetMap Данска
     openstreetmapdjibouti: OpenStreetMap Џибути
     openstreetmapdominicanrepublic: OpenStreetMap Доминиканска Република
@@ -118,6 +123,7 @@ sr:
     openstreetmapmichigan: OpenStreetMap Мичиген
     openstreetmapmoldova: OpenStreetMap Молдавија
     openstreetmapmongolia: OpenStreetMap Монголија
+    openstreetmapmontenegro: OpenStreetMap Црна Гора
     openstreetmapmontrouge: OpenStreetMap Монруж
     openstreetmapmorocco: OpenStreetMap Мороко
     openstreetmapmunchen: OpenStreetMap Минхен
@@ -151,6 +157,7 @@ sr:
     openstreetmapserbia: OpenStreetMap Србија
     openstreetmapseychelles: OpenStreetMap Сејшели
     openstreetmapsierraleone: OpenStreetMap Сијера Леоне
+    openstreetmapsingapore: OpenStreetMap Сингапур
     openstreetmapslovenia: OpenStreetMap Словенија
     openstreetmapsomalia: OpenStreetMap Сомалија
     openstreetmapsouthafrica: OpenStreetMap Јужна Африка
@@ -187,6 +194,20 @@ sr:
     forum:
       name: '{community} Форум'
       description: Званичан форум за {community}
+    gitlab:
+      name: '{community} GitLab'
+    group:
+      name: '{community}'
+    instagram:
+      name: '{community} на Instagram-у'
+      description: Запратите нас на Instagram-у
+      url: https://instagram.com/{account}
+    linkedin:
+      name: '{community} на LinkedIn-у'
+    newsletter:
+      name: '{community} њузлетер'
+    reddit:
+      name: '{community} на Reddit-у'
   Maptime-Oceania-Slack:
     description: Пријавите се на {signupUrl}
   osm-benin-facebook:

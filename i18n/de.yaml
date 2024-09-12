@@ -6,6 +6,7 @@ de:
     mappingbotswana: Mappen in Botswana
     maptimebogota: MaptimeBogota
     maptimehrva: MaptimeHRVA
+    opensourcesanjose: Open Source San José
     openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap Aachen
     openstreetmapafghanistan: OpenStreetMap Afghanistan
@@ -54,6 +55,7 @@ de:
     openstreetmapcroatia: OpenStreetMap Kroatien
     openstreetmapcuba: OpenStreetMap Kuba
     openstreetmapcuneo: OpenStreetMap Cuneo
+    openstreetmapcyprus: OpenStreetMap Zypern
     openstreetmapcz: OpenStreetMap Tschechien
     openstreetmapde: OpenStreetMap DE
     openstreetmapdeepsouth: OpenStreetMap Tiefer Süden
@@ -202,6 +204,7 @@ de:
     openstreetmapzambia: OpenStreetMap Sambia
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
     osmmainz: OSM Mainz
+    swissopenstreetmap: OpenStreetMap Schweiz
     youthmappersasu: YouthMappersASU
   _defaults:
     aparat:
@@ -300,6 +303,7 @@ de:
       url: https://twitter.com/{account}
     xmpp:
       name: '{community} XMPP'
+      description: 'Nimm an unserem XMPP-Community-Chat teil: {url}'
     youtube:
       name: '{community} auf YouTube'
       description: Abonniere unseren YouTube-Kanal
@@ -414,7 +418,6 @@ de:
     description: '{community} Wiki Seite'
   de-berlin-xmpp:
     name: OpenStreetMap Berlin-Brandenburg XMPP
-    description: 'Mach mit bei unserem XMPP Multi-User Chat: {url}'
   de-bochum-wiki:
     description: '{community} Wiki Seite'
   de-bonn-wiki:
@@ -431,7 +434,6 @@ de:
     description: '{community} Wiki Seite'
   de-hamburg-xmpp:
     name: OpenStreetMap Hamburg XMPP
-    description: 'Mach mit bei unserem XMPP Multi-User Chat: {url}'
   de-karlsruhe-mailinglist:
     name: Karlsruhe Mailing Liste
   de-karlsruhe-meetup:
@@ -471,7 +473,6 @@ de:
     description: Treffen der OSM Gemeinschaft im Kreis Viersen und Mönchengladbach
   de-xmpp:
     name: OpenStreetMap DE XMPP
-    description: 'Mach mit bei unserem XMPP Multi-User Chat: {url}'
   DF-telegram:
     extendedDescription: Mach mit, um mehr über OpenStreetMap zu erfahren, Fragen zu stellen oder an unseren Treffen teilzunehmen. Alle sind willkommen!
   dk-discourse:
@@ -618,6 +619,9 @@ de:
   MapColabora-twitter:
     name: Mapeado Colaborativo / Geoinquietos Zaragoza
     description: Mapeado Colaborativo / Geoinquietos Zaragoza Twitter Account
+  MapLYH:
+    name: MapLYH
+    description: MapLYH Gruppe
   mappa-mercia-group:
     name: Mappa Mercia lokale Gruppe
     description: Ein Platz für OpenStreetMap Enthusiasten in den Midlands
@@ -703,6 +707,9 @@ de:
   Open-Source-San-Jose-Discord:
     name: Open Source San José Discord
     description: 'Tritt mit anderen Mappern auf Discord in Kontakt! Nach der Anmeldung trittst du dem Kanal #🗺openstreetmap bei.'
+  Open-Source-San-Jose-Mastodon:
+    description: Folge Open Source San José auf Mastodon.
+    extendedDescription: Open Source San José ist eine lokale gemeinnützige Organisation, die freiwillige Programmierer und Designer mit den Bedürfnissen der Gemeinschaft durch bürgerliche Technologie verbindet. OSSJ sponsert die zweiwöchentlich stattfindenden South Bay Map Nights der lokalen freiwilligen Mapping-Community.
   Open-Source-San-Jose-Slack:
     name: Open Source San José Slack
     description: 'Alle sind willkommen, melde dich an: {signupUrl} und tritt dem Kanal #proj-osm bei.'
@@ -733,6 +740,9 @@ de:
     extendedDescription: Nachrichten von der lokalen Gemeinschaft und OpenStreetMap in Allgemeinen.
   OSM-AR-wiki:
     description: Alles was du über Mappen in Argentinien wissen musst.
+  osm-asia-facebook:
+    description: OpenStreetMap Asien Facebook-Gruppe
+    extendedDescription: Eine Gruppe für integrierte Mapping-Unterstützung für Asien. Wir wollen vor allem ein Ort sein, an dem Kartographen ohne lokale Gemeinschaft Informationen austauschen und gemeinsam an der Lösung von Problemen in ihren Gebieten arbeiten können, die sie sonst aufgrund des Fehlens einer lokalen Gemeinschaft nicht angehen könnten.
   osm-at:
     description: Die Plattform für Information über OpenStreetMap in Österreich
   osm-bengaluru-matrix:
@@ -764,17 +774,15 @@ de:
     extendedDescription: OpenStreetMap Tiefer Süden ist eine lokale Mapping-Gemeinschaft im Südosten der U.S.A.
   osm-delhi-xmpp:
     name: OpenStreetMap Delhi XMPP
-    description: 'Trete unserem XMPP-Raum bei: {url}'
     extendedDescription: XMPP-Raum für OSM Delhi; nicht mit proprietären Netzwerken verbunden.
   OSM-Discord:
     name: OpenStreetMap World Discord
+    description: Inoffizieller, von der Community betriebener Discord-Server für die weltweite OpenStreetMap-Community. Regionale Kanäle sind verfügbar.
   OSM-Discourse:
     name: OpenStreetMap Community Forum
     description: Ein Platz um sich über OpenStreetMap zu unterhalten
   OSM-Facebook:
     description: Like uns auf Facebook für Nachrichten und Updates über OpenStreetMap.
-  osm-fj:
-    description: Stellt Information und Service für die lokale OSM Gemeinschaft in Fiji bereit
   osm-gh-facebook:
     extendedDescription: Community der Mapper in Ghana, Förderung von OpenStreetMap und den Projekten des Humanitarian OpenStreetMap Team (HOT) in Ghana. Mach mit!
   osm-gh-website:
@@ -808,7 +816,6 @@ de:
     description: 'Alles was du über Mappen in Indien wissen musst: {url}'
   osm-india-xmpp:
     name: OpenStreetMap Indien XMPP
-    description: 'Trete unserem XMPP-Raum bei: {url}'
     extendedDescription: 'XMPP-Raum für die indische OSM-Community; nicht mit proprietären Netzwerken verbunden. Auch über Matrix über #osm-in:poddery.com verfügbar.'
   osm-iran-aparat:
     extendedDescription: Eine gute Sammlung von Videos über OpenstreetMap. Hautsächlich in Persisch.
@@ -880,10 +887,6 @@ de:
     name: OpenStreetMap Süd-Kalifornien, USA
     description: Lass uns Spaß haben, etwas zu OSM Los Angeles beitragen und mehr über Mappen lernen!
     extendedDescription: OpenStreetMap (OSM) Südkalifornien ist für alle am Mappen Interessierte um zusammen zu kommen und mit OpenStreetMap zu arbeiten. OpenStreetMap, das Wikipedia der Karten, ist eine freie weltweite Open-Source-Karte, die von über einer Million von Freiwilligen rund um den Globus gestaltet wird. Wenn du OpenStreetMap nicht kennst, unterstützen wir dich. Wenn du eine Idee für ein Kartenprojekt oder einen Erkundungsrundgang hast, den die Gruppe durchführen kann, wäre das großartig!
-  OSM-South-Bay:
-    name: OSM South Bay
-    description: Nimm teil an unseren Online South Bay Map Nights
-    extendedDescription: Triff dich mit anderen Mappern der South Bay und hilf bei lokalen Mapping-Projekten bei unserem Online-Treffen jeden zweiten Dienstagabend in Zusammenarbeit mit Open Source San José. Programmier- und GIS-Kenntnisse sind nicht erforderlich.
   OSM-Tampa-Bay:
     name: OpenStreetMap Tampa Bay
     description: Mapper und OpenStreetMap Benutzer in Tampa Bay, USA
@@ -912,10 +915,8 @@ de:
     description: Alle sind willkommen! Melde dich unter {signupUrl}
   OSM-Utah:
     name: OpenStreetMap Utah
-  osm-west-bengal-xmpp:
-    name: OpenStreetMap Westbengalen XMPP
-    description: 'Trete unserem XMPP-Raum bei: {url}'
-    extendedDescription: XMPP-Raum für OSM Westbengalen.
+    description: Deine OSM Mapping Community für die Region Salt Lake City
+    extendedDescription: Wir treffen uns monatlich in Salt Lake City, normalerweise am zweiten Mittwoch des Monats. Alle sind willkommen!
   OSM-Wyoming:
     name: OpenStreetMap Wyoming
     description: Mapper und OpenStreetMap Benutzer in Wyoming, USA
@@ -1011,6 +1012,8 @@ de:
     extendedDescription: 'Tritt #{account} auf irc.frreenode.org bei'
   vn-mailinglist:
     description: Mailing Liste über OpenStreetMap in Vietnam oder in Vietnamesisch
+  vn-wiki:
+    description: '{community} Wiki Seite'
   YerCizenler-TR:
     name: Yer Çizenler
     description: Yer Çizenler Vereinigung Mappen für Alle
