@@ -1,13 +1,13 @@
 {
   "id": "OSM-japan-discord",
   "type": "discord",
+  "account": "pNuUM99kUX",
   "locationSet": {"include": ["jp"]},
   "languageCodes": ["ja"],
   "strings": {
     "community": "OpenStreetMap Japan",
     "communityID": "openstreetmapjapan",
-    "description": "A Discord workspace for the OSM Japan community {signupUrl}",
-    "signupUrl": "https://discord.gg/pNuUM99kUX"
+    "description": "A Discord workspace for the OSM Japan community: {url}"
   },
   "contacts": [{"name": "OSMF Japan", "email": "info@osmf.jp"}]
 }
