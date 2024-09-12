@@ -1,13 +1,13 @@
 {
-  "id": "OSM-japan-slack",
-  "type": "slack",
+  "id": "OSM-japan-discord",
+  "type": "discord",
   "locationSet": {"include": ["jp"]},
   "languageCodes": ["ja"],
   "strings": {
     "community": "OpenStreetMap Japan",
     "communityID": "openstreetmapjapan",
-    "description": "Deprecated: A Slack workspace for the OSM Japan community",
-    "url": "https://osm-japan.slack.com/"
+    "description": "A Discord workspace for the OSM Japan community {signupUrl}",
+    "signupUrl": "https://discord.gg/pNuUM99kUX"
   },
   "contacts": [{"name": "OSMF Japan", "email": "info@osmf.jp"}]
 }
