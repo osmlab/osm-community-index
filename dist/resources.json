@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.8.1",
-    "generated": "2024-09-12T14:00:32.187Z",
+    "generated": "2024-09-26T11:51:22.083Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "2fd60c8107dcb6a589d6ecf0514315fa"
+    "hash": "ebf0cd4c8377ed7532cf026b04d4622c"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -106,8 +106,8 @@
     "de-aachen-matrix": {"id": "de-aachen-matrix", "type": "matrix", "locationSet": {"include": [[6.266, 50.715]]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Aachen", "communityID": "openstreetmapaachen", "url": "https://matrix.to/#/#osm:ccc.ac"}},
     "de-aachen-wiki": {"id": "de-aachen-wiki", "type": "wiki", "account": "Aachen", "locationSet": {"include": [[6.266, 50.715]]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Aachen", "communityID": "openstreetmapaachen", "description": "{community} Wiki page"}},
     "de-berlin-mailinglist": {"id": "de-berlin-mailinglist", "type": "mailinglist", "locationSet": {"include": ["de-berlin-brandenburg.geojson"]}, "languageCodes": ["de"], "order": -3, "strings": {"community": "OpenStreetMap Berlin", "communityID": "openstreetmapberlin", "name": "Berlin Mailing List", "url": "https://lists.openstreetmap.de/listinfo/berlin"}, "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}]},
+    "de-berlin-mastodon": {"id": "de-berlin-mastodon", "type": "mastodon", "account": "osmberlin", "locationSet": {"include": ["de-berlin-brandenburg.geojson"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Berlin", "communityID": "openstreetmapberlin", "url": "https://en.osm.town/@osmberlin"}, "contacts": [{"name": "Christopher Lorenz", "email": "osm@lorenz.lu"}]},
     "de-berlin-matrix": {"id": "de-berlin-matrix", "type": "matrix", "account": "#osmberlin", "locationSet": {"include": ["de-berlin-brandenburg.geojson"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Berlin", "communityID": "openstreetmapberlin"}, "contacts": [{"name": "Christopher Lorenz", "email": "osm@lorenz.lu"}]},
-    "de-berlin-telegram": {"id": "de-berlin-telegram", "type": "telegram", "account": "osmberlin", "locationSet": {"include": ["de-berlin-brandenburg.geojson"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Berlin", "communityID": "openstreetmapberlin"}, "contacts": [{"name": "Christopher Lorenz", "email": "osm@lorenz.lu"}]},
     "de-berlin-twitter": {"id": "de-berlin-twitter", "type": "twitter", "account": "osmberlin", "locationSet": {"include": ["de-berlin-brandenburg.geojson"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Berlin", "communityID": "openstreetmapberlin"}, "contacts": [{"name": "Christopher Lorenz", "email": "osm@lorenz.lu"}]},
     "de-berlin-wiki": {"id": "de-berlin-wiki", "type": "wiki", "account": "Berlin", "locationSet": {"include": ["de-berlin-brandenburg.geojson"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Berlin", "communityID": "openstreetmapberlin", "description": "{community} Wiki page"}},
     "de-berlin-xmpp": {"id": "de-berlin-xmpp", "type": "xmpp", "locationSet": {"include": ["de-berlin-brandenburg.geojson"]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Berlin", "communityID": "openstreetmapberlin", "name": "OpenStreetMap Berlin-Brandenburg XMPP", "url": "https://conversations.im/j/osm-bb@rooms.dismail.de"}, "contacts": [{"name": "Bernd", "email": "bergaufsee@dismail.de"}, {"name": "Christopher Lorenz", "email": "osm@lorenz.lu"}]},
