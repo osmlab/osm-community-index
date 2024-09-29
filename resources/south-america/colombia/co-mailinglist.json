@@ -3,11 +3,14 @@
   "type": "mailinglist",
   "account": "talk-co",
   "locationSet": {"include": ["co"]},
-  "languageCodes": ["es"],
-  "order": 4,
+  "languageCodes": ["es", "en"],
+  "order": 1,
   "strings": {
-    "community": "OpenStreetMap Colombia",
-    "communityID": "openstreetmapcolombia"
+    "community": "OSM Colombia",
+    "communityID": "openstreetmapcolombia",
+    "name": "Lista de correo de {community}",
+    "description": "Correos electrónicos que requieren comunicar la información con la comunidad"
+
   },
   "contacts": [
     {"name": "Contacto Colombia", "email": "colombia@osm.lat"}

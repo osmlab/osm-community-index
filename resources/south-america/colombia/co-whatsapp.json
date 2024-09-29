@@ -1,0 +1,18 @@
+{
+  "id": "co-whatsapp",
+  "type": "url",
+
+  "locationSet": {"include": ["co"]},
+  "languageCodes": ["es"],
+  "order": 6,
+  "strings": {
+    "community": "OSM Colombia",
+    "communityID": "openstreetmapcolombia",
+    "name": "Noticias de la comunidad de {community} en WhatsApp",
+    "description": "Publicaciones sobre actividades o información de la comunidad",
+    "url": "https://whatsapp.com/channel/0029ValEkkH0gcfAhUcLhJ0Q"
+  },
+  "contacts": [
+    {"name": "Contacto Colombia", "email": "colombia@osm.lat"}
+  ]
+}
