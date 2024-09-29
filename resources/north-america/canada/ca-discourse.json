@@ -1,10 +1,10 @@
 {
-  "id": "OSM-CA-mailinglist",
-  "type": "mailinglist",
-  "account": "talk-ca",
+  "id": "ca-discourse",
+  "type": "discourse",
+  "account": "ca",
   "locationSet": {"include": ["ca"]},
   "languageCodes": ["en", "fr"],
-  "order": -1,
+  "order": 1,
   "strings": {
     "community": "OpenStreetMap Canada",
     "communityID": "openstreetmapcanada"
