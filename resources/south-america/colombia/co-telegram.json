@@ -1,13 +1,16 @@
 {
   "id": "co-telegram",
   "type": "telegram",
-  "account": "OSM_Colombia",
+  "account": "osmco",
   "locationSet": {"include": ["co"]},
   "languageCodes": ["es"],
-  "order": 2,
+  "order": 13,
   "strings": {
-    "community": "OpenStreetMap Colombia",
-    "communityID": "openstreetmapcolombia"
+    "community": "OSM Colombia",
+    "communityID": "openstreetmapcolombia",
+    "name": "Grupo de conversación sobre {community} en Telegram",
+    "description": "Discusiones abiertas sobre temas que interesan a toda la comundidad. Es el canal más activo"
+
   },
   "contacts": [
     {"name": "Contacto Colombia", "email": "colombia@osm.lat"}

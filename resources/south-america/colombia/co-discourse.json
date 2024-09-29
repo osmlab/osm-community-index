@@ -3,9 +3,13 @@
   "type": "discourse",
   "account": "co",
   "locationSet": {"include": ["co"]},
-  "languageCodes": ["en", "es"],
+  "languageCodes": ["es", "en"],
+  "order": 12,
   "strings": {
-    "community": "OpenStreetMap Colombia",
-    "communityID": "openstreetmapcolombia"
+    "community": "OSM Colombia",
+    "communityID": "openstreetmapcolombia",
+    "name": "Temas de discusión en OSM Communities sobre Colombia",
+    "description": "Estos son los temas relacionados con cambios del mapa en Colombia"
+    
   }
 }

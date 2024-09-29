@@ -1,13 +1,15 @@
 {
   "id": "co-github",
   "type": "github",
-  "account": "OpenStreetMapColombia",
+  "account": "OSM-Colombia",
   "locationSet": {"include": ["co"]},
   "languageCodes": ["es"],
-  "order": 5,
+  "order": 3,
   "strings": {
-    "community": "OpenStreetMap Colombia",
+    "community": "OSM Colombia",
     "communityID": "openstreetmapcolombia",
-    "description": "Git projects about Colombia"
+    "name": "Proyectos de {community} en GitHub",
+    "description": "Proyectos de código desarrollados por la comunidad"
+
   }
 }
