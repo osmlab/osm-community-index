@@ -1,15 +1,12 @@
 {
-  "id": "at-irc",
-  "type": "irc",
-  "account": "osm-at",
+  "id": "at-discourse",
+  "type": "discourse",
+  "account": "at",
   "locationSet": {"include": ["at"]},
   "languageCodes": ["de"],
-  "order": 1,
+  "order": 2,
   "strings": {
     "community": "OpenStreetMap Austria",
     "communityID": "openstreetmapaustria"
-  },
-  "contacts": [
-    {"name": "StefanCT", "email": "talk-at@openstreetmap.org"}
-  ]
+  }
 }
