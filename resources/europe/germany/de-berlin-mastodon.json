@@ -1,12 +1,13 @@
 {
-  "id": "de-berlin-telegram",
-  "type": "telegram",
+  "id": "de-berlin-mastodon",
+  "type": "mastodon",
   "account": "osmberlin",
   "locationSet": {"include": ["de-berlin-brandenburg.geojson"]},
   "languageCodes": ["de"],
   "strings": {
     "community": "OpenStreetMap Berlin",
-    "communityID": "openstreetmapberlin"
+    "communityID": "openstreetmapberlin",
+    "url": "https://en.osm.town/@osmberlin"
   },
   "contacts": [
     {"name": "Christopher Lorenz", "email": "osm@lorenz.lu"}

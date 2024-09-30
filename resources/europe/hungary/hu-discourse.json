@@ -1,9 +1,10 @@
 {
-  "id": "hu-facebook",
-  "type": "facebook",
-  "account": "OpenStreetMap.hu",
+  "id": "hu-discourse",
+  "type": "discourse",
+  "account": "hu",
   "locationSet": {"include": ["hu"]},
   "languageCodes": ["hu"],
+  "order": 1,
   "strings": {
     "community": "OpenStreetMap Hungary",
     "communityID": "openstreetmaphungary"
