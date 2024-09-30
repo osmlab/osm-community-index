@@ -1,10 +1,10 @@
 {
-  "id": "my-telegram",
-  "type": "telegram",
-  "account": "OpenStreetMapsMalaysia",
-  "locationSet": {"include": ["my"]},
+  "id": "my-discourse",
+  "type": "discourse",
+  "account": "my",
+  "locationSet": {"include": ["id"]},
   "languageCodes": ["en", "ms"],
-  "order": 1,
+  "order": 2,
   "strings": {
     "community": "OpenStreetMap Malaysia",
     "communityID": "openstreetmapmalaysia"
