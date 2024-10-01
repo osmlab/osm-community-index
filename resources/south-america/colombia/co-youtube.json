@@ -1,15 +1,15 @@
 {
-  "id": "co-facebook",
-  "type": "facebook",
-  "account": "OsmCol",
+  "id": "co-youtube",
+  "type": "youtube",
+  "account": "OSM_Colombia",
   "locationSet": {"include": ["co"]},
   "languageCodes": ["es"],
-  "order": 2,
+  "order": 7,
   "strings": {
     "community": "OSM Colombia",
     "communityID": "osmcolombia",
-    "name": "Grupo de {community} en Facebook",
-    "description": "Grupo de conversación sobre temas de OSM en Colombia",
+    "name": "Videos de {community} en YouTube",
+    "description": "Videos de actividades de la comunidad o explicaciones de cosas de OSM",
     "url": "https://www.facebook.com/groups/OsmCol"
   },
   "contacts": [

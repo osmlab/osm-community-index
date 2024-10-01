@@ -48,7 +48,6 @@ en:
     openstreetmapchile: OpenStreetMap Chile
     openstreetmapchina: OpenStreetMap China
     openstreetmapcologne: OpenStreetMap Cologne
-    openstreetmapcolombia: OpenStreetMap Colombia
     openstreetmapcomunitatvalenciana: OpenStreetMap Comunitat Valenciana
     openstreetmapcostarica: OpenStreetMap Costa Rica
     openstreetmapcotedivoire: OpenStreetMap Cote d'Ivoire
@@ -203,8 +202,10 @@ en:
     openstreetmapwesternsahara: OpenStreetMap Western Sahara
     openstreetmapzambia: OpenStreetMap Zambia
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
+    osmcolombia: OSM Colombia
     osmmainz: OSM Mainz
     swissopenstreetmap: Swiss OpenStreetMap
+    tadeomappers: TadeoMappers
     youthmappersasu: YouthMappersASU
   _defaults:
     aparat:
@@ -390,12 +391,48 @@ en:
     extendedDescription: Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!
   cl-telegram:
     extendedDescription: Join the community to learn more about OpenStreetMap, ask questions or participate in our meetings. Everyone is welcome!
+  co-discourse:
+    name: Temas de discusión en OSM Communities sobre Colombia
+    description: Estos son los temas relacionados con cambios del mapa en Colombia
   co-facebook:
-    extendedDescription: Join the community to learn more about OpenStreetMap. Everyone is welcome!
+    name: Grupo de {community} en Facebook
+    description: Grupo de conversación sobre temas de OSM en Colombia
   co-github:
-    description: Git projects about Colombia
+    name: Proyectos de {community} en GitHub
+    description: Proyectos de código desarrollados por la comunidad
+  co-instagram:
+    name: Publicaciones de {community} en Instagram
+    description: Publicaciones sobre actividades o información de la comunidad
+  co-linkedin:
+    name: Publicaciones de {community} en LinkedIn
+    description: Publicaciones sobre actividades o información de la comunidad
+  co-mastodon:
+    name: Publicaciones de {community} en Mastodon
+    description: Publicaciones sobre actividades o información de la comunidad
+  co-talk:
+    name: Lista de correo de {community}
+    description: Correos electrónicos que requieren comunicar la información con la comunidad
+  co-telegram:
+    name: Grupo de conversación sobre {community} en Telegram
+    description: Discusiones abiertas sobre temas que interesan a toda la comundidad. Es el canal más activo
+  co-thread:
+    name: Publicaciones de {community} en Threads
+    description: Publicaciones sobre actividades o información de la comunidad
+  co-tiktok:
+    name: Videos cortos de {community} en Tiktok
+    description: Publicaciones sobre actividades de la comunidad
+  co-twitter:
+    name: Comunidad {community} en x-Twitter
+    description: Publicaciones sobre actividades o información de la comunidad
+  co-whatsapp:
+    name: Noticias de la comunidad de {community} en WhatsApp
+    description: Publicaciones sobre actividades o información de la comunidad
   co-wiki:
-    description: Wiki page with the documentation to map Colombia
+    name: Página wiki con la documentación sobre el proyecto de mapear Colombia
+    description: Documentación sobre todo lo relaciones con OpenStreetMap en Colombia.
+  co-youtube:
+    name: Videos de {community} en YouTube
+    description: Videos de actividades de la comunidad o explicaciones de cosas de OSM
   comunitat-valenciana-wiki:
     description: 'Everything you need to know about mapping in Valencian Community: {url}'
   czech-community:
@@ -1360,6 +1397,16 @@ en:
     name: YouthMappers at Bogota
     description: YouthMappers chapter at Universidad Distrital Francisco Jose de Caldas
     extendedDescription: The Universidad Distrital Francisco José de Caldas is a public, coeducational, research university based in Bogotá, Colombia with a population of 26,140 students.
+  ym-Universidad-Jorge-Tadeo-Lozano:
+    name: TadeoMappers at Universidad Jorge Tadeo Lozano
+    description: YouthMappers chapter at Universidad Jorge Tadeo Lozano
+    extendedDescription: Students from Bogota passionate about mapping activities that support biodiversity. They focus on mapping trees and bringing these activities to schools, aiming to involve the entire community in environmental efforts.
+  ym-Universidad-Jorge-Tadeo-Lozano-github:
+    description: GitHub of YouthMappers chapter TadeoMappers
+    extendedDescription: TadeoMappers, in collaboration with the GNUTADEO Free Software collective, offers repositories for their work. Both groups are affiliated with Universidad Jorge Tadeo Lozano, promoting the use of mapping tools and software in support of community-driven projects.
+  ym-Universidad-Jorge-Tadeo-Lozano-instagram:
+    description: Instagram of YouthMappers chapter TadeoMappers
+    extendedDescription: TadeoMappers is part of Free Software group GNUTADEO, collective from Universidad Jorge Tadeo Lozano
   ym-Universidad-Nacional-Autnoma-de-Honduras:
     name: PumaGis Hn
     description: YouthMappers chapter at Universidad Nacional Autónoma de Honduras

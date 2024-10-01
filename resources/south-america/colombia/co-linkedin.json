@@ -1,14 +1,17 @@
 {
-  "id": "co-twitter",
-  "type": "twitter",
-  "account": "OSM_Colombia",
+  "id": "co-linkedin",
+  "type": "linkedin",
+  "account": "osmcolombia",
   "locationSet": {"include": ["co"]},
   "languageCodes": ["es"],
-  "order": 9,
+  "order": 11,
   "strings": {
     "community": "OSM Colombia",
     "communityID": "osmcolombia",
-    "name": "Comunidad {community} en x-Twitter",
+    "name": "Publicaciones de {community} en LinkedIn",
     "description": "Publicaciones sobre actividades o información de la comunidad"
-  }
+  },
+  "contacts": [
+    {"name": "Contacto Colombia", "email": "colombia@osm.lat"}
+  ]
 }
