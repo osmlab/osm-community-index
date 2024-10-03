@@ -1,15 +1,18 @@
 {
-  "id": "co-twitter",
-  "type": "twitter",
+  "id": "co-thread",
+  "type": "threads",
   "account": "OSM_Colombia",
   "locationSet": {"include": ["co"]},
   "languageCodes": ["es"],
-  "order": 9,
+  "order": 5,
   "strings": {
     "community": "OSM Colombia",
     "communityID": "openstreetmapcolombia",
-    "name": "Community {community} on x-Twitter",
+    "name": "Posts by {community} in Threads",
     "description": "Publications on community activities or information"
-
-  }
+    
+  },
+  "contacts": [
+    {"name": "Contacto Colombia", "email": "colombia@osm.lat"}
+  ]
 }

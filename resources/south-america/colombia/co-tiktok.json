@@ -1,16 +1,16 @@
 {
-  "id": "co-facebook",
-  "type": "facebook",
-  "account": "OsmCol",
+  "id": "co-tiktok",
+  "type": "tiktok",
+  "account": "OSM_Colombia",
   "locationSet": {"include": ["co"]},
   "languageCodes": ["es"],
-  "order": 2,
+  "order": 4,
   "strings": {
     "community": "OSM Colombia",
     "communityID": "openstreetmapcolombia",
-    "name": "Group of {community} on Facebook",
-    "description": "Conversation group on OSM issues in Colombia",
-    "url": "https://www.facebook.com/groups/OsmCol"
+    "name": "Short videos of {community} on Tiktok",
+    "description": "Publications on community activities"
+    
   },
   "contacts": [
     {"name": "Contacto Colombia", "email": "colombia@osm.lat"}

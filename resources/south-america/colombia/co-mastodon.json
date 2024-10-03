@@ -1,13 +1,15 @@
 {
   "id": "co-mastodon",
   "type": "mastodon",
-  "account": "@OSM_Colombia@en.osm.town",
+
   "locationSet": {"include": ["co"]},
   "languageCodes": ["es"],
-  "order": 5,
+  "order": 8,
   "strings": {
-    "community": "OpenStreetMap Colombia",
+    "community": "OSM Colombia",
     "communityID": "openstreetmapcolombia",
+    "name": "Posts by {community} on Mastodon",
+    "description": "Publications on community activities or information",
     "url": "https://en.osm.town/@OSM_Colombia"
   }
 }
