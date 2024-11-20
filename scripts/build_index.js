@@ -342,6 +342,8 @@ function convertURLs(item) {
 
   if (item.type === 'aparat') {
     matchUrl = url.match(/aparat.com\/([\-A-Za-z0-9_.]+)\/?$/i);
+  } else if (item.type === 'bluesky') {
+    matchUrl = url.match(/bsky.app\/profile\/([\-A-Za-z0-9_.]+)\/?$/i);
   } else if (item.type === 'discord') {
     matchUrl = url.match(/discord.gg\/(\w+)\/?$/i);
   } else if (item.type === 'facebook') {

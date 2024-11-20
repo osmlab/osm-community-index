@@ -11,13 +11,14 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 import {
-  faDiscord, faDiscourse, faLinkedin, faMastodon, faMeetup, faSlack, faSignalMessenger, faTiktok,
-  faSquareFacebook, faSquareGithub, faSquareGitlab, faSquareInstagram, faSquareReddit,
+  faBluesky, faDiscord, faDiscourse, faLinkedin, faMastodon, faMeetup, faSlack, faSignalMessenger,
+  faTiktok, faSquareFacebook, faSquareGithub, faSquareGitlab, faSquareInstagram, faSquareReddit,
   faSquareThreads, faSquareXTwitter, faSquareYoutube, faTelegram,
 } from '@fortawesome/free-brands-svg-icons';
 
 
 const toBuild = {
+  bluesky: faBluesky,
   discord: faDiscord,
   discourse: faDiscourse,
   facebook: faSquareFacebook,
