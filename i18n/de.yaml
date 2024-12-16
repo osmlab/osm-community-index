@@ -48,7 +48,6 @@ de:
     openstreetmapchile: OpenStreetMap Chile
     openstreetmapchina: OpenStreetMap China
     openstreetmapcologne: OpenStreetMap Köln
-    openstreetmapcolombia: OpenStreetMap Kolumbien
     openstreetmapcomunitatvalenciana: OpenStreetMap Comunitat Valenciana
     openstreetmapcostarica: OpenStreetMap Costa Rica
     openstreetmapcotedivoire: OpenStreetMap Elfenbeinküste
@@ -203,6 +202,7 @@ de:
     openstreetmapwesternsahara: OpenStreetMap Westsahara
     openstreetmapzambia: OpenStreetMap Sambia
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
+    osmcolombia: OSM Kolumbien
     osmmainz: OSM Mainz
     swissopenstreetmap: OpenStreetMap Schweiz
     youthmappersasu: YouthMappersASU
@@ -303,7 +303,7 @@ de:
       url: https://twitter.com/{account}
     xmpp:
       name: '{community} XMPP'
-      description: 'Nimm an unserem XMPP-Community-Chat teil: {url}'
+      description: '{url}Nimm an unserem XMPP-Community-Chat teil:'
     youtube:
       name: '{community} auf YouTube'
       description: Abonniere unseren YouTube-Kanal
@@ -390,12 +390,6 @@ de:
     extendedDescription: Tritt der Community bei, um mehr über OpenStreetMap zu erfahren, Fragen zu stellen oder an unseren Treffen teilzunehmen. Jeder ist willkommen!
   cl-telegram:
     extendedDescription: Tritt der Community bei, um mehr über OpenStreetMap zu erfahren, Fragen zu stellen oder an unseren Treffen teilzunehmen. Jeder ist willkommen!
-  co-facebook:
-    extendedDescription: Tritt der Community bei, um mehr über OpenStreetMap zu erfahren, Fragen zu stellen oder an unseren Treffen teilzunehmen. Jeder ist willkommen!
-  co-github:
-    description: Git Projekte zu Kolumbien
-  co-wiki:
-    description: Wikiseite mit Dokumentation zum Kartieren von Kolumbien
   comunitat-valenciana-wiki:
     description: 'Alles, was du über Mapping in der Gemeinde Valencia wissen musst: {url}'
   czech-community:
@@ -515,8 +509,10 @@ de:
     name: GeoPhilly
     description: Treffen für Kartenliebhaber in und um Philadelphia
     extendedDescription: GeoPhilly vereint Entwickler, Geographen, Data geeks, Open Source Liebhaber, civic hacker und Kartensüchtige in unserer gemeinsamen Leidenschaft für Karten und die Geschichten die sie erzählen. Wenn du Karten in deiner Arbeit benutzten oder einfach nur lernen willst, ist das der Treffpunkt für dich! Unsere Veranstaltungen beabsichtigen offen, freundlich, lehrreich und sozial zu sein und reichen von "happy hours" bis "lightning talks" oder sogar Workshops. Bilde mit uns eine diverse und inspirierende OSM-Gemeinschaft in Philadelphia!
-  hr-irc:
-    description: 'Tritt #{account} auf irc.frreenode.org (port 6667) bei'
+  hr-github:
+    description: '{community} GitHub'
+  hr-tm:
+    name: '{community} Tasking Manager'
   hr-wiki:
     description: Wikiproject page für Kroatien
   hu-facebook-group:
@@ -550,8 +546,6 @@ de:
     extendedDescription: 'Tritt #{account} auf irc.oftc.net (port 6667) bei, bitte sei geduldig und warte ein paar Minuten wenn du eine Frage stellst'
   ireland-matrix:
     description: 'Ein Matrix gateway für den OSM Irland IRC channel: {url}'
-  ireland-meetup:
-    description: Treffen von allen die an OpenStreetMap interessiert sind
   is-chapter:
     description: Wir helfen OpenStreetMap in Island beim besser und größer werden.
   it-chapter:
@@ -609,13 +603,6 @@ de:
     name: Map Kibera Stiftung
     description: Map Kibera ist eine registrierte Organisation die in Kenia arbeitet
     extendedDescription: Die Aufgabe der Map Kibera Stiftung besteht in der Vertretung und Vergrößerung des Einfluss von marginalisierten Gemeinschaften durch die kreative Nutzung von digitalen Mitteln
-  MapABQ:
-    name: MapABQ
-    description: Monatliches Treffen von OpenStreetMap-Nutzern in Albuquerque und Nord-New Mexico
-    extendedDescription: Alle sind willkommen und wir helfen dir gerne, mit der Kartierung zu beginnen. Die Treffen finden in einem offenen Format statt, damit sich die Teilnehmer auf die Erweiterung von OpenStreetMap für Albuquerque und Umgebung konzentrieren können.
-  MapColabora-mailinglist:
-    name: Mapeado Colaborativo / Geoinquietos Zaragoza
-    description: Mapeado Colaborativo / Geoinquietos Zaragoza Mailing Liste
   MapColabora-twitter:
     name: Mapeado Colaborativo / Geoinquietos Zaragoza
     description: Mapeado Colaborativo / Geoinquietos Zaragoza Twitter Account
@@ -626,10 +613,6 @@ de:
     name: Mappa Mercia lokale Gruppe
     description: Ein Platz für OpenStreetMap Enthusiasten in den Midlands
     extendedDescription: Mappa Mercia ist ein Projekt umOpenStreetMap in tden West Midlands, UK zu Erbessern. Wir veranstalten Gemeinschaftstreffen, Trainings, und unterstützen lokale Organisationen die ihre Daten öffnen wollen.
-  MappingDC-meetup:
-    name: MappingDC
-    description: Verbessere OpenStreetMap in DC
-    extendedDescription: Wir sind eine Gruppe freiwilliger Mapper, die darauf abzielen, die OpenStreetMap im DC-Bereich zu verbessern. Wir möchten auch andere über das OSM-Ökosystem, Datenanalyse, Kartografie und GIS informieren. Wir treffen uns alle zwei Monate bei Meetups, um uns auf einen Bereich unserer Stadt zu konzentrieren.
   MappingWR:
     name: Mappen in der Waterloo Region
     description: Hilf dabei niedrigenergierouten in der Waterloo Region leicht auffindbar zu machen.
@@ -823,10 +806,10 @@ de:
     extendedDescription: Ein Discord Server für OpenStreetMap Iran. Macht gerne mit!
   osm-iran-telegram:
     extendedDescription: Du bist herzlich eingeladen, unserem Telegram-Kanal unter {url} beizutreten. Wir haben auch eine Supergruppe von vielen OSMern, die sich für den Iran interessieren. Den Link dazu findenst du in der Bio des Kanals.
+  OSM-japan-discord:
+    description: 'Ein Discord- Workspace für die OSM Japan Community: {url}'
   OSM-japan-facebook:
     description: Mapper und OpenStreetMap Benutzer in Japan
-  OSM-japan-slack:
-    description: Ein Slack Workspace für die OSM Gemeinschaft in Japan {signupUrl}
   OSM-japan-website:
     description: Mapper und OpenStreetMap Benutzer in Japan
   osm-kenya:
@@ -881,8 +864,6 @@ de:
   OSM-Seattle:
     name: OpenStreetMap Seattle
     description: Mapper und OpenStreetMap Benutzer in Seattlem USA
-  osm-sierra-leone:
-    description: Wir konzentrieren uns auf die Erstellung und Nutzung offener Daten zur Lösung sozialer, wirtschaftlicher und gesellschaftlicher Herausforderungen.
   OSM-SoCal:
     name: OpenStreetMap Süd-Kalifornien, USA
     description: Lass uns Spaß haben, etwas zu OSM Los Angeles beitragen und mehr über Mappen lernen!
@@ -1104,18 +1085,10 @@ de:
   ym-Federal-School-of-Surveys:
     name: OyoMappersTeam (OMT) Oyo
     description: YouthMappers Ortsverband an der Federal School of Surveys
-  ym-Federal-University-of-Technology-Akure:
-    name: YouthMappers Futa Space Club
-    description: YouthMappers Ortsverband an der Staatlichen Technischen Universität Akure
-    extendedDescription: Unsere Mission ist es, die nächste Generation von Space Leaders zu erziehen. Die Aktivitäten umfassen Forschung und Kapazitätsaufbau in den Bereichen Fernerkundung, GIS, Klimawandel, Astronomie, Kosmologie, Weltraumtechnik, globale Navigation, Robotik und Weltraumbildung.
   ym-Fourah-Bay-College:
     name: Vereinigung der Geographie-Stundierenden
     description: YouthMappers Ortsgruppe des Fourah Bay College
     extendedDescription: Die Student's Geographical Association - YouthMappers ist ein Zusammenschluss von Studenten des Fourah Bay College mit dem gemeinsamen Ziel, gefährdete Orte in Sierra Leone und in der ganzen Welt zu kartieren, um Hilfe zu leisten und andere nützliche Zwecke zu verwirklichen sowie Forschungs- und andere Bildungsprojekte durchzuführen. Die Ortsgruppe besteht aus jungen Menschen mit großartigen Ideen, die entwicklungsorientiert sind und die Fähigkeit haben, miteinander in Beziehung zu treten, nachhaltige Entwicklungsprojekte zu verstehen und als Team umzusetzen.
-  ym-General-Lansana-Conte-University:
-    name: YouthMappers Allgemeine Lansana Conte Universität
-    description: YouthMappers Ortsverband an der Allgemeinen Lansana Conte Universität
-    extendedDescription: Die YouthMappers der Allgemeine Lansana Conte Universität sind eine gemeinnützige Gemeinschaft, die bereit ist, einen Beitrag zu Map Guinea und anderen Teilen der Welt zu leisten. Wir fördern die Nutzung von GIS und Open Data, um Tools zur Entscheidungsunterstützung zu erstellen. Wir arbeiten auch daran, Föähigkeiten unter den Studenten und den lokalen Gemeinschaften aufzubauen.
   ym-George-Mason-University:
     name: Mason Mappers
     description: YouthMappers Ortsgruppe der George Mason University
@@ -1463,10 +1436,6 @@ de:
     name: UNCO Geography and GIS Club
     description: YouthMappers Ortsgruppe der University of Northern Colorado
     extendedDescription: 'Offizieller Geographie- und GIS-Club der University of Northern Colorado, der sich zum Ziel gesetzt hat, zu lernen, zu teilen und sich mit anderen zu verbinden. #MakingSenseOfTheWorld'
-  ym-University-of-Oregon:
-    name: Map by Northwest
-    description: YouthMappers Ortsgruppe der University of Oregon
-    extendedDescription: Map By Northwest zielt darauf ab, Studenten der Universität von Oregon in Kartierungsprojekte einzubinden, um humanitäre Zwecke zu unterstützen und geografische Forschung zu betreiben. Wir heißen Studenten aller Fachrichtungen willkommen, sich uns bei unseren Kartierungsabenteuern anzuschließen.
   ym-University-of-Port-Harcourt:
     name: UniqueMappersTeam (UMT) Port Harcourt
     description: YouthMappers Ortsverband an der Universität von Port Harcourt

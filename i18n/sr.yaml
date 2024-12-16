@@ -38,7 +38,6 @@ sr:
     openstreetmapchile: OpenStreetMap Чиле
     openstreetmapchina: OpenStreetMap Кина
     openstreetmapcologne: OpenStreetMap Келн
-    openstreetmapcolombia: OpenStreetMap Колумбија
     openstreetmapcomunitatvalenciana: OpenStreetMap Валенсијана
     openstreetmapcostarica: OpenStreetMap Костарика
     openstreetmapcotedivoire: OpenStreetMap Обала Слоноваче
@@ -188,9 +187,13 @@ sr:
     openstreetmapzambia: OpenStreetMap Замбија
     openstreetmapzimbabwe: OpenStreetMap Зимбабве
   _defaults:
+    discourse:
+      description: Званичан форум за {community}
     facebook:
       name: '{community} на Фејсбуку'
       description: Придружи се нашој заједници на Фејсбуку
+    fediverse:
+      name: '{community}'
     forum:
       name: '{community} Форум'
       description: Званичан форум за {community}
@@ -206,12 +209,22 @@ sr:
       name: '{community} на LinkedIn-у'
     newsletter:
       name: '{community} њузлетер'
+    osm:
+      name: '{community}'
+    osm-lc:
+      name: '{community}'
     reddit:
       name: '{community} на Reddit-у'
+    website:
+      name: '{community}'
+  kosovo-flossk:
+    name: Бесплатни софтвер отвореног кода Косова (FLOSSK)
   Maptime-Oceania-Slack:
     description: Пријавите се на {signupUrl}
   osm-benin-facebook:
     description: Унапреди OpenStreetMap у Бенину
+  osm-ch:
+    name: '{community}'
   OSM-Colorado:
     name: OpenStreetMap Колорадо
   rs-gitlab:

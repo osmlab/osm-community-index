@@ -48,7 +48,6 @@ uk:
     openstreetmapchile: OpenStreetMap Чилі
     openstreetmapchina: OpenStreetMap Китай
     openstreetmapcologne: OpenStreetMap Кельн
-    openstreetmapcolombia: OpenStreetMap Колумбія
     openstreetmapcomunitatvalenciana: OpenStreetMap Спільнота Валенсії
     openstreetmapcostarica: OpenStreetMap Коста-Ріка
     openstreetmapcotedivoire: OpenStreetMap Кот-д'Івуар
@@ -203,7 +202,11 @@ uk:
     openstreetmapwesternsahara: OpenStreetMap Західна Сахара
     openstreetmapzambia: OpenStreetMap Замбія
     openstreetmapzimbabwe: OpenStreetMap Зімбабве
+    osmcolombia: OSM  Колумбія
     osmmainz: OSM Майнц
+    osmnelson: OSM Nelson
+    swissopenstreetmap: Swiss OpenStreetMap
+    tadeomappers: TadeoMappers
     youthmappersasu: YouthMappersASU
   _defaults:
     aparat:
@@ -302,6 +305,7 @@ uk:
       url: https://twitter.com/{account}
     xmpp:
       name: '{community} XMPP'
+      description: 'Приєднуйтесь до нашого чату XMPP: {url}'
     youtube:
       name: '{community} на YouTube'
       description: Підпишіться на наш YouTube канал
@@ -388,12 +392,48 @@ uk:
     extendedDescription: Приєднуйтесь до спільноти, щоб дізнатись більше про OpenStreetMap, щоб щось спитати або взяти участь у наших зустрічах. Запрошуємо всіх!
   cl-telegram:
     extendedDescription: Приєднуйтесь до спільноти, щоб дізнатись більше про OpenStreetMap, щоб щось спитати або взяти участь у наших зустрічах. Запрошуємо всіх!
+  co-discourse:
+    name: 'Теми для обговорення про Колумбію в спільнотах OSM '
+    description: Ось теми, повʼязані зі змінами на мапі в Колумбії
   co-facebook:
-    extendedDescription: Приєднуйтесь до спільноти, щоб дізнатись більше про OpenStreetMap. Запрошуємо всіх!
+    name: Група {community} у Facebook
+    description: Група спілкування з питань OSM у Колумбії
   co-github:
-    description: Проєкти Git про Колумбію
+    name: '{community} проєкт на GitHub'
+    description: Проєкти коду, розроблені спільнотою
+  co-instagram:
+    name: Дописи {community} в Instagram
+    description: 'Публікації та інформаційні матеріали про діяльність спільноти '
+  co-linkedin:
+    name: Дописи {community} в LinkedIn
+    description: 'Публікації та інформаційні матеріали про діяльність спільноти '
+  co-mastodon:
+    name: Дописи {community} в Mastodon
+    description: 'Публікації та інформаційні матеріали про діяльність спільноти '
+  co-talk:
+    name: 'Список розсилки {community}'
+    description: Електронні листи для донесення інформації до спільноти
+  co-telegram:
+    name:  Група спілкування {community} в Telegram
+    description: Відкриті дискусії на теми, що цікавлять усю спільноту. Це найактивніший канал
+  co-thread:
+    name: Дописи {community} в Threads
+    description: 'Публікації та інформаційні матеріали про діяльність спільноти '
+  co-tiktok:
+    name: Короткі відео {community} в Tiktok
+    description: 'Публікації про діяльність спільноти '
+  co-twitter:
+    name: Спільнота {community} в x-Twitter
+    description: 'Публікації та інформаційні матеріали про діяльність спільноти '
+  co-whatsapp:
+    name: Новини {community} спільноти у  WhatsApp
+    description: 'Публікації та інформаційні матеріали про діяльність спільноти '
   co-wiki:
-    description: Вікі-сторінка з документацією для мапінгу Колумбії
+    name: Вікі-сторінка з документацією про мапінг-проєкти в Колумбії
+    description: Документація про все, що стосується OpenStreetMap в Колумбії
+  co-youtube:
+    name: Відео {community} в YouTube
+    description: Відеозаписи заходів спільноти або пояснення діяльності OSM
   comunitat-valenciana-wiki:
     description: 'Все, що вам потрібно знати про мапінг у Валенсії: {url}'
   czech-community:
@@ -506,6 +546,8 @@ uk:
     extendedDescription: 'Приєднуйтесь до #{account} на irc.oftc.net (порт 6667), будь ласка, будьте терплячі та зачекайте кілька хвилин, після того, як ви поставите питання'
   gb-mailinglist:
     description: Talk-gb - це основне місце спілкування для британської (включаючи Північну Ірландію) спільноти OSM
+  ge-matrix:
+    description: Загальний чат про OpenStreetMap в Грузії, підключений через міст до чату в Telegram
   geogeeks_perth_meetup:
     name: GeoGeeks Перт
     description: Група у Перті для людей, які цікавляться картографією, геопросторовими даними та відкритим кодом. Ми проводимо регулярні зустрічі, дискусії та соціальні заходи присвячені OSM. Ласкаво просимо початківців!
@@ -513,8 +555,11 @@ uk:
     name: GeoPhilly
     description: Зустріч маперів-ентузіастів у Філадельфії
     extendedDescription: GeoPhilly об'єднує розробників, географів, користувачів даних, ентузіастів відкритого коду, хактивістів та всіх хто любить мапи у нашій загальній любові до мап та історії, які вони розповідають. Якщо ви використовуєте мапи у вашій роботі або просто хочете дізнатись більше, ці зустрічі для вас! Наші заходи спрямовані на те, щоб бути відкритими, доброзичливими, освітніми та соціальними, від простого спілкування до коротких виступів чи навіть семінарів. Долучайтеся до створення строкатої, геопросторової спільноти у Філадельфії, що надихає до подальших дій, разом з нами!
-  hr-irc:
-    description: 'Приєднуйтесь до # {account} на irc.oftc.net (порт 6667)'
+  hr-github:
+    description: '{community} GitHub'
+  hr-tm:
+    name: '{community} Tasking Manager'
+    description: Дізнайтесь про поточні завдання для мапінгу в Хорватії
   hr-wiki:
     description: Сторінка Wikiproject Хорватії
   hu-facebook-group:
@@ -548,8 +593,6 @@ uk:
     extendedDescription: 'Приєднуйтесь до #{account} на irc.oftc.net (порт 6667), будь ласка, будьте терплячі та зачекайте кілька хвилин, після того, як ви поставите питання'
   ireland-matrix:
     description: 'Matrix шлюз до IRC OSM Ірландія: {url}'
-  ireland-meetup:
-    description: Зустрічі для всіх, хто цікавиться OpenStreetMap
   is-chapter:
     description: Ми допомагаємо розвивати та вдосконалювати OpenStreetMap в Ісландії.
   it-chapter:
@@ -607,24 +650,16 @@ uk:
     name: Map Kibera Trust
     description: Map Kibera – це офіційна організація, яка працює в Кенії
     extendedDescription: Місія компанії “Map Kibera Trust” полягає у збільшенні впливу та представництва маргіналізованих громад шляхом творчого використання цифрових інструментів.
-  MapABQ:
-    name: MapABQ
-    description: Щомісячні зустрічі учасників OpenStreetMap з Альбукерке та Північного Нью-Мексико
-    extendedDescription: Ласкаво просимо всіх, ми раді допомогти вам дізнатись про створення мап. Зустрічі проходять у відкритому форматі, переважно учасники зосереджуються на мапінгу в OpenStreetMap для Альбукерке та прилеглих районів.
-  MapColabora-mailinglist:
-    name: Mapeado Colaborativo / Geoinquietos Zaragoza
-    description: Mapeado Colaborativo / Geoinquietos Сарагоса Список розсилки
   MapColabora-twitter:
     name: Mapeado Colaborativo / Geoinquietos Zaragoza
     description: Mapeado Colaborativo / Geoinquietos Сарагоса Твіттер
+  MapLYH:
+    name: MapLYH
+    description: MapLYH group
   mappa-mercia-group:
     name: Місцева група Mappa Mercia
     description: Місце для ентузіастів OpenStreetMap у Мідлендс
     extendedDescription: Mappa Mercia – це проєкт з розвитку OpenStreetMap у Вест-Мідлендс, Великобританія. Ми проводимо спільні заходи, проводимо навчання та підтримуємо місцеві організації, які бажають зробити свої дані відкритими.
-  MappingDC-meetup:
-    name: MappingDC
-    description: Покращуйте OpenStreetMap у Вашингтоні, округ Колумбія
-    extendedDescription: Ми є групою маперів-волонтерів, які прагнуть вдосконалити OpenStreetMap в окрузі Колумбія. Ми також намагаємось поширити інформацію про екосистему OSM, аналіз даних, мапінг та ГІС серед зацікавлених осіб. Ми збираємося щомісяця на зустрічах, щоб покращити якусь частину нашого міста.
   MappingWR:
     name: MappingWR
     description: Робимо простим пошук маршрутів з обмеженнями рівня викидів вуглецю у регіоні Ватерлоо.
@@ -772,6 +807,7 @@ uk:
     extendedDescription: XMPP чат OSM Делі; не має зʼєднання з будь-якими пропрієтарними мережами.
   OSM-Discord:
     name: OpenStreetMap World Discord
+    description: Неофіційний сервер Discord для глобальної спільноти OpenStreetMap. Доступні регіональні канали.
   OSM-Discourse:
     name: Форум OpenStreetMap
     description: Спільне місце для обговорення питань пов'язаних з OpenStreetMap
@@ -817,10 +853,10 @@ uk:
     extendedDescription: Сервер Discord OpenStreetMap Іран. Раді вас бачити!
   osm-iran-telegram:
     extendedDescription: Ви можете приєднатися до нашого каналу Telegram за адресою {url}. У нас також є супергрупа де збираються OSMери, зацікавлених в розвитку мапи в Ірані. Посилання в описі каналу.
+  OSM-japan-discord:
+    description: 'Робочий простір Discord спільноти OSM Japan: {url}'
   OSM-japan-facebook:
     description: Мапери та користувачі OpenStreetMap в Японії
-  OSM-japan-slack:
-    description: 'Slack спільноти OSM Японії: {signupUrl}'
   OSM-japan-website:
     description: Мапери та користувачі OpenStreetMap в Японії
   osm-kenya:
@@ -847,6 +883,8 @@ uk:
     description: Малагасійська група у Facebook для тих, хто цікавиться OpenStreetMap.
   osm-michigan-wiki:
     description: '{community} - сторінка у Вікі'
+  osm-nelson:
+    description: Група OpenStreetMap у Нельсоні, Нова Зеландія.
   osm-ni:
     name: MapaNica.net
     description: Надає послуги та інформацію на основі OSM для місцевої спільноти в Нікарагуа
@@ -875,8 +913,6 @@ uk:
   OSM-Seattle:
     name: OpenStreetMap Сіетл
     description: Мапери та користувачі OpenStreetMap з Сіетлу
-  osm-sierra-leone:
-    description: Ми зосереджуємося на створенні та використання відкритих даних для вирішення соціальних, економічних та соціальних потреб.
   OSM-SoCal:
     name: OpenStreetMap Південна Каліфорнія
     description: Проведімо гарно час, покращуючи мапу в Лос-Анджелесі, водночас дізнаючись нового про мапінг!
@@ -1006,6 +1042,8 @@ uk:
     extendedDescription: 'Приєднуйтесь до # {account} на irc.freenode.org'
   vn-mailinglist:
     description: Список розсилки OpenStreetMap у В'єтнамі
+  vn-wiki:
+    description: '{community} - сторінка у Вікі'
   YerCizenler-TR:
     name: Yer Çizenler
     description: Асоціація Yer Çizenler Mapping for Everyone
@@ -1096,18 +1134,10 @@ uk:
   ym-Federal-School-of-Surveys:
     name: OyoMappersTeam (OMT) Oyo
     description: Осередок YouthMappers у Федеральній школі геодезії
-  ym-Federal-University-of-Technology-Akure:
-    name: YouthMappers Futa Space Club
-    description: Осередок YouthMappers у Федеральному технологічному університеті, Акюре
-    extendedDescription: Наша місія — виховати наступне покоління космічних лідерів. Діяльність включає дослідження та розвиток потенціалу в галузі дистанційного зондування, ГІС, зміни клімату, астрономії, космології, космічної інженерії, глобальної навігації, робототехніки та космічної освіти.
   ym-Fourah-Bay-College:
     name: Студентська географічна асоціація
     description: Осередок YouthMappers в Коледжі Фура Бей
     extendedDescription: 'Студентська географічна асоціація YouthMappers — це асоціація студентів коледжу Фура Бей, які мають спільні цілі: замапити вразливі місця у Сьєрра-Леоне та світі в цілому для надання допомоги та інших корисних цілей, проведення досліджень та інших освітніх заходів. Осередок складається з молодих людей з чудовими ідеями, орієнтованими на розвиток, здатними спілкуватися один з одним, розуміти та реалізовувати проєкти сталого розвитку як команда.'
-  ym-General-Lansana-Conte-University:
-    name: YouthMappers Університету генерала Лансана Конте
-    description: Осередок YouthMappers в Університеті генерала Лансана Конте
-    extendedDescription: YouthMappers Університету генерала Лансана Конте — це неприбуткова спільнота, яка бажає зробити свій внесок у мапу Гвінеї та інших частин світу. Ми сприяємо використанню ГІС та відкритих даних для створення інструментів підтримки прийняття рішень. Ми також працюємо над розширенням потенціалу серед студентів та місцевих громад.
   ym-George-Mason-University:
     name: Mason Mappers
     description: Осередок YouthMappers в Університеті Джорджа Мейсона
@@ -1354,6 +1384,16 @@ uk:
     name: YouthMappers у Боготі
     description: Осередок YouthMappers в Університеті округу Франсіско Хосе де Калдас
     extendedDescription: Universidad Distrital Francisco José de Caldas — це державний дослідницький університет зі спільним навчанням у Боготі, Колумбія, з 26 140 студентами.
+  ym-Universidad-Jorge-Tadeo-Lozano:
+    name: TadeoMappers в Університеті Хорхе Тадео Лозано
+    description: Осередок YouthMappers в в Університеті Хорхе Тадео Лозано
+    extendedDescription: Студенти з Боготи захоплені картографічною діяльністю на підтримку біорізноманіття. Вони зосереджуються на картографуванні дерев і проводять такі заходи у школах, прагнучи залучити всю громаду до природоохоронної діяльності.
+  ym-Universidad-Jorge-Tadeo-Lozano-github:
+    description: GitHub осередку YouthMappers TadeoMappers
+    extendedDescription: TadeoMappers, у співпраці з колективом GNUTADEO Free Software, пропонує репозиторії для своїх робіт. Обидві групи повʼязані з Університетом Хорхе Тадео Лозано, що сприяє використанню картографічних інструментів та програмного забезпечення для підтримки громадських проєктів.
+  ym-Universidad-Jorge-Tadeo-Lozano-instagram:
+    description: Instagram осередку YouthMappers TadeoMappers
+    extendedDescription: TadeoMappers є частиною групи вільного програмного забезпечення GNUTADEO, колективу з Університету Хорхе Тадео Лозано.
   ym-Universidad-Nacional-Autnoma-de-Honduras:
     name: PumaGis Hn
     description: Осередок YouthMappers у Національному автономному університеті Гондурасу
@@ -1459,10 +1499,6 @@ uk:
     extendedDescription: 'Офіційне відділення Клубу географії та ГІС, пов’язане з Університетом Північного Колорадо, де наша мета — навчатися, ділитися та спілкуватися з оточуючими.
 
       #MakingSenseOfTheWorld'
-  ym-University-of-Oregon:
-    name: Map by Northwest
-    description: Осередок YouthMappers в Університеті Орегону
-    extendedDescription: Map By Northwest має на меті залучити студентів бакалаврату Університету Орегону до картографічних проєктів для допомоги в гуманітарних справах і для проведення географічних досліджень. Ми запрошуємо студентів усіх спеціальностей приєднатися до нас у наших картографічних пригодах.
   ym-University-of-Port-Harcourt:
     name: UniqueMappersTeam (UMT) Порт-Харкорт
     description: Осередок YouthMappers в Університеті Порт-Гаркорта

@@ -48,7 +48,6 @@ th:
     openstreetmapchile: OpenStreetMap ชิลี
     openstreetmapchina: OpenStreetMap จีน
     openstreetmapcologne: OpenStreetMap โคโลญ
-    openstreetmapcolombia: OpenStreetMap โคลอมเบีย
     openstreetmapcomunitatvalenciana: OpenStreetMap วาเล็นซิอา กมมูนิตาด
     openstreetmapcostarica: OpenStreetMap คอสตาริกา
     openstreetmapcotedivoire: OpenStreetMap โกตดิวัวร์
@@ -203,7 +202,11 @@ th:
     openstreetmapwesternsahara: OpenStreetMap เวสเทิร์นสะฮารา
     openstreetmapzambia: OpenStreetMap แซมเบีย
     openstreetmapzimbabwe: OpenStreetMap ซิมบับเว
+    osmcolombia: OSM โคลอมเบีย
     osmmainz: OSM ไมนทซ์
+    osmnelson: OSM เนลสัน
+    swissopenstreetmap: OpenStreetMap สวิส
+    tadeomappers: TadeoMappers
     youthmappersasu: YouthMappersASU
   _defaults:
     aparat:
@@ -302,6 +305,7 @@ th:
       url: https://twitter.com/{account}
     xmpp:
       name: '{community} XMPP'
+      description: 'เข้าร่วมชุมชน XMPP ของเราได้ที่: {url}'
     youtube:
       name: '{community} บน YouTube'
       description: ติดตามช่องของเราบน YouTube
@@ -389,11 +393,9 @@ th:
   cl-telegram:
     extendedDescription: เข้าร่วมชุมชนเพื่อเรียนรู้เพิ่มเติมเกี่ยวกับ OpenStreetMap ถามคำถามหรือเข้าร่วมการประชุมของเรา เราต้อนรับทุกคน!
   co-facebook:
-    extendedDescription: เข้าร่วมชุมชนเพื่อเรียนรู้เพิ่มเติมเกี่ยวกับ OpenStreetMap เราต้อนรับทุกคน!
+    name: กลุม่ของ{community}บน Facebook
   co-github:
-    description: โครงการ Git เกี่ยวกับประเทศโคลอมเบีย
-  co-wiki:
-    description: หน้าวิกิและคำอธิบายในการอธิบายการทำแผนที่ในประเทศโคลอมเบีย
+    name: 'โปรเจค{community}บน GitHub'
   comunitat-valenciana-wiki:
     description: 'ทุกสิ่งที่คุณต้องรู้เกี่ยวกับการทำแผนที่ในชุมชนบาเลนเซีย: {url}'
   czech-community:
@@ -513,8 +515,10 @@ th:
     name: GeoPhilly
     description: การพบปะสำหรับผู้ที่ชื่นชอบแผนที่ในพื้นที่ฟิลาเดลเฟีย
     extendedDescription: GeoPhilly นั้นได้รวบรวมนักพัฒนา นักภูมิศาสตร์ ผู้สนใจข้อมูล ผู้คลั่งไคล้ข้อมูลเปิด แฮ็กเกอร์พลเรือน และผู้ติดแผนที่ด้วยความรักที่มีต่อแผนที่และเรื่องราวที่พวกเขาบอกเล่า หากคุณใช้แผนที่เป็นส่วนหนึ่งของงานหรือเพียงแค่ต้องการเรียนรู้เพิ่มเติม นี่คืองานพบปะสำหรับคุณ! กิจกรรมของเรามีเป้าหมายที่จะเปิดกว้าง เป็นมิตร ให้การศึกษาและสังคม โดยมีตั้งแต่ช่วงเวลาแห่งความสุขไปจนถึงการพูดคุยแบบสายฟ้าแลบหรือแม้แต่เวิร์กช็อป มาสร้างชุมชนภูมิสารสนเทศที่มีความหลากหลายและสร้างแรงบันดาลใจในฟิลาเดลเฟียไปกับเรา!
-  hr-irc:
-    description: 'เข้าร่วม #{account} บน irc.freenode.org (port 6667)'
+  hr-github:
+    description: 'หน้า GitHub {community}'
+  hr-tm:
+    name: 'แผนงานสำหรับ {community}'
   hr-wiki:
     description: หน้า Wikiproject สำหรับโครเอเชีย
   hu-facebook-group:
@@ -548,8 +552,6 @@ th:
     extendedDescription: 'เข้าร่วม #{account} บน irc.oftc.net (port 6667), และโปรดรอสักครู่หากคุณมีคำถาม'
   ireland-matrix:
     description: 'Matrix gateway สำหรับช่องการสนทนา OSM ไอร์แลนด์ IRC: {url}'
-  ireland-meetup:
-    description: การพบปะในชีวิตจริงของผู้คนที่สนใจ OpenStreetMap
   is-chapter:
     description: เราช่วยกันพัฒนาและปรับปรุง OpenStreetMap ในไอร์แลนด์
   it-chapter:
@@ -607,24 +609,16 @@ th:
     name: Map Kibera Trust
     description: Map Kibera นั้นเป็นองค์การจดทะเบียนในเคนยา
     extendedDescription: ภารกิจของ Map Kibera Trust คือการเพิ่มอิทธิพลและการเป็นตัวแทนของชุมชนชายขอบผ่านการใช้เครื่องมือดิจิทัลดำเนินการอย่างสร้างสรรค์
-  MapABQ:
-    name: MapABQ
-    description: การพบปะรายเดือนของผู้ใช้ OpenStreetMap ในแอลบูเคอร์คี และนิวเม็กซิโกเหนือ
-    extendedDescription: เราต้อนรับทุก ๆ คนในการเข้าร่วม เรายินดีที่จะช่วยเหลือคุณในการเริ่มทำแผนที่ การพบปะนั้นเป็นรูปแบบเปิดให้ผู้ที่มีส่วนร่วมในการโฟกัสไปยัง OpenStreetMap สำหรับพื้นที่แอลบูเคอร์คี และนิวเม็กซิโกเหนือ
-  MapColabora-mailinglist:
-    name: Mapeado Colaborativo / Geoinquietos Zaragoza
-    description: Mapeado Colaborativo / Geoinquietos Zaragoza Mailing list
   MapColabora-twitter:
     name: Mapeado Colaborativo / Geoinquietos Zaragoza
     description: บัญชีทวิตเตอร์ของ Mapeado Colaborativo / Geoinquietos Zaragoza
+  MapLYH:
+    name: MapLYH
+    description: กลุ่ม MapLYH
   mappa-mercia-group:
     name: 'กลุ่มท้องถิ่น Mappa Mercia '
     description: บ้านสำหรับผู้ที่สนใจ OpenStreetMap ในมิดแลนส์
     extendedDescription: Mappa Mercia นั้นเป็นโปรเจคในการเสริมสร้าง OpenStreetMap ใน ภาคมิดแลนส์ตะวันตกของอังกฤษ พวกเราจัดกิจกรรมชุมชน ให้การฝึกอบรม และสนับสนุนองค์กรท้องถิ่นที่ต้องการเปิดข้อมูล
-  MappingDC-meetup:
-    name: MappingDC
-    description: ปรับปรุง OpenStreetMap ในพื้นที่ดี.ซี.
-    extendedDescription: พวกเราคือกลุ่มของนักทำแผนที่อาสาสมัคร โดยมีเป้าหมายในการพัฒนา OpenStreetMap ในพื้นที่ดี.ซี. เรายังมีเป้าหมายในการสอนผู้อื่นเกี่ยวกับระบบของ OSM, การวิเคราห์ข้อมูล, การทำแผนที่ และ GIS พวกเราจะรวมตัวกันในทุก ๆ เดือนเพื่อพบปะและโฟกัสในพื้นที่หนึ่งของเมืองของเรา
   MappingWR:
     name: MappingWR
     description: 'หาเส้นทางคาร์บอนต่ำรอบ ๆ พื้นที่วอเตอร์ลู '
@@ -741,9 +735,9 @@ th:
   osm-at:
     description: แพลตฟอร์มสำหรับข้อมูลเกี่ยวกับ OpenStreetMap ในออสเตรีย
   osm-bengaluru-matrix:
-    extendedDescription: กลุ่มสำหรับผู้สนับสนุน OpenStreetMap ผู้ใช้ และผู้เริ่มต้นใช้งานในบังคาลอร์ เชื่อมต่อกับ Telegram
+    extendedDescription: กลุ่มสำหรับผู้ร่วมให้ข้อมูล OpenStreetMap ผู้ใช้ และผู้เริ่มต้นใช้งานในบังคาลอร์ เชื่อมต่อกับ Telegram
   osm-bengaluru-telegram:
-    extendedDescription: กลุ่มสำหรับผู้สนับสนุน OpenStreetMap ผู้ใช้ และผู้เริ่มต้นใช้งานในบังคาลอร์ เชื่อมต่อกับ Matrix
+    extendedDescription: กลุ่มสำหรับผู้ร่วมให้ข้อมูล OpenStreetMap ผู้ใช้ และผู้เริ่มต้นใช้งานในบังคาลอร์ เชื่อมต่อกับ Matrix
   osm-bengaluru-wiki:
     description: OpenStreetMap ในเบงคลูรู
   osm-benin-facebook:
@@ -772,6 +766,7 @@ th:
     extendedDescription: ห้อง XMPP สำหรับ OSM Delhi ไม่ได้เชื่อมโยงกับเครือข่ายที่เป็นกรรมสิทธิ์ใดๆ
   OSM-Discord:
     name: Discord OpenStreetMap โลก
+    description: เซิร์ฟเวอร์ Discord ที่ไม่เป็นทางการซึ่งดำเนินการโดยชุมชนสำหรับชุมชน OpenStreetMap ทั่วโลก มีช่องรายการตามภูมิภาคให้เลือกใช้
   OSM-Discourse:
     name: ฟอรัมชุมชน OpenStreetMap
     description: พื้นที่แบ่งปันสำหรับการสนทนาเกี่ยวกับ OpenStreetMap
@@ -817,17 +812,17 @@ th:
     extendedDescription: เซิร์ฟเวอร์ Discord สำหรับ OpenStreetMap อิหร่าน เข้าร่วมได้เลย!
   osm-iran-telegram:
     extendedDescription: เรายินดีต้อนรับคุณเข้าร่วมช่อง Telegram ของเราได้ที่ {url} เรายังมีกลุ่ม OSM จำนวนมากที่สนใจในอิหร่านอีกด้วย ค้นหาลิงก์ในไบโอของช่อง
+  OSM-japan-discord:
+    description: 'Discord workspace สำหรับชุมชน OSM ญี่ปุ่น: {url}'
   OSM-japan-facebook:
     description: ผู้ใช้ Mappers และ OpenStreetMap ในญี่ปุ่น
-  OSM-japan-slack:
-    description: พื้นที่ Slack สำหรับชุมชน OSM ญี่ปุ่น {signupUrl}
   OSM-japan-website:
     description: ผู้ใช้ Mappers และ OpenStreetMap ในญี่ปุ่น
   osm-kenya:
-    description: OSM Kenya เป็นชุมชนของผู้สนับสนุนและผู้ใช้ OSM
+    description: OSM Kenya เป็นชุมชนของผู้ร่วมให้ข้อมูลและผู้ใช้ OSM
     extendedDescription: OSM เป็นชุมชนท้องถิ่นสำหรับบุคคลที่สนใจ OpenStreetMap รวมถึงองค์กร นักพัฒนา และกลุ่ม YouthMappers ทั่วประเทศ
   osm-kenya-facebook:
-    description: OSM Kenya เป็นชุมชนของผู้สนับสนุนและผู้ใช้ OSM
+    description: OSM Kenya เป็นชุมชนของผู้ร่วมให้ข้อมูลและผู้ใช้ OSM
     extendedDescription: OSM เป็นชุมชนท้องถิ่นสำหรับบุคคลที่สนใจ OpenStreetMap รวมถึงองค์กร นักพัฒนา และกลุ่ม YouthMappers ทั่วประเทศ
   OSM-Kerala-facebook:
     description: พัฒนา OpenStreetMap ในเกรละ
@@ -875,8 +870,6 @@ th:
   OSM-Seattle:
     name: OpenStreetMap ซีแอตเทิล
     description: ผู้ใช้ Mappers และ OpenStreetMap ในพื้นที่ซีแอตเทิล
-  osm-sierra-leone:
-    description: เรามุ่งเน้นไปที่การสร้างและการใช้งานข้อมูลเปิดเพื่อแก้ไขปัญหาทางสังคม เศรษฐกิจ และชุมชน
   OSM-SoCal:
     name: OpenStreetMap แคลิฟอร์เนียตอนใต้
     description: มาสนุกสนานกัน ร่วมมีส่วนร่วมให้กับลอสแองเจลิส และเรียนรู้เกี่ยวกับการทำแผนที่กันเถอะ!
@@ -936,6 +929,12 @@ th:
     description: ฟอรัมเพื่อการหารือเกี่ยวกับ OpenStreetMap ในเซอร์เบีย
   rs-gitlab:
     description: การรวบรวมโครงการที่เกี่ยวข้องกับ OSM Serbia บน GitLab
+  rs-osm:
+    description: แพลตฟอร์มข้อมูลเกี่ยวกับ OpenStreetMap ในเซอร์เบีย
+  RS-telegram:
+    extendedDescription: เข้าร่วมชุมชนเพื่อเรียนรู้เพิ่มเติมเกี่ยวกับ OpenStreetMap ถามคำถามหรือเข้าร่วมการประชุมของเรา เราต้อนรับทุกคน!
+  rs-wiki:
+    description: หน้า Wikiproject สำหรับเซอร์เบีย
   sg-wiki:
     description: 'หน้า wiki สำหรับ {community}'
   si-github:
@@ -944,15 +943,98 @@ th:
     description: 'หน้า wiki สำหรับ {community}'
   si-wiki:
     description: 'หน้า wiki สำหรับ {community}'
+  sk-freemap:
+    description: เว็บไซต์แผนที่ OpenStreetMap พร้อมเครื่องมือในสโลวาเกียและภูมิภาคโดยรอบ
+  sosm:
+    name: สมาคม OpenStreetMap สวิส
+    description: SOSM ก่อตั้งขึ้นเพื่อส่งเสริมเป้าหมายของการเคลื่อนไหว OpenStreetMap เพื่อเสริมสร้างการติดต่อกับหน่วยงาน และอุตสาหกรรมต่างๆ เพื่ออำนวยความสะดวกในการดำเนินกิจกรรมของสมาชิกชุมชน OSM ในสวิตเซอร์แลนด์ และเพื่อเป็นตัวแทนของชุมชน OSM ของสวิตเซอร์แลนด์ในองค์กรอื่นๆ
+  talk-au:
+    description: พื้นที่พูดคุยสำหรับนักทำแผนที่ชาวออสซี่
+  talk-bo:
+    extendedDescription: ทำแผนที่ในโบลิเวีย? หากมีคำถาม ต้องการที่จะมีปฏิสัมพันธ์กับชุมชนที่นี่? สามารถเข้าร่วมกับเราได้ที่ {url} เรายินดีต้อนรับทุกคน!
+  talk-mg:
+    description: พื้นที่สำหรับผู้ร่วมให้ข้อมูล OpenStreetMap, ชุมชน, และผู้ใช้ในมาดากัสการ์เพื่อแบ่งปันและพูดคุย
+  talk-nz:
+    description: ห้องสนทนาของชุมชน OSM นิวซีแลนด์
+  talk-pacific:
+    description: Mailing list OSM ประจำภูมิภาคสำหรับและโดยผู้คนในหมู่เกาะโมอานา/โอเชียเนีย/แปซิฟิก
+    extendedDescription: เราต้องการรายชื่อผู้รับจดหมายนี้เพื่อสนับสนุนให้ทุกคนในแปซิฟิกมีความหลากหลายและมีความต้องการแบ่งปันความคิด คำถาม โปรเจ็กต์ และทุกสิ่งที่เกี่ยวข้องกับ OpenStreetMap ในทะเลแห่งเกาะของเรา
   tn-facebook-group:
     name: 'หน้า Facebook Group สำหรับ {community}'
+  tw-slack:
+    description: เราต้อนรับทุกคน! ลงทะเบียนได้ที่ {signupUrl}
+  tw-wiki:
+    description: 'ทุกสิ่งที่คุณต้องรู้เกี่ยวกับการทำแผนที่ในไต้หวัน: {url}'
+  tz-website:
+    description: ให้บริการ OSM และข้อมูลสำหรับชุมชนท้องถิ่นในแทนซาเนีย
+  ua-github:
+    description: OpenStreetMap Ukraine GitHub
+  ua-osm:
+    description: เว็บไซต์ OpenStreetMap ในยูเครน
+  ua-slack:
+    description: เข้าร่วมชุมชน OpenStreetMap Ukraine บน Slack ลงทะเบียนได้ที่ {signupUrl}
+  uk-localchapter:
+    description: สาขาท้องถิ่นอย่างเป็นทางการสำหรับสหราชอาณาจักร (รวมทั้งไอร์แลนด์เหนือ)
+    extendedDescription: 'เราสนับสนุน OpenStreetMap โดยการจัดงาน จัดเตรียมทรัพยากรชุมชน สร้างความร่วมมือ และเผยแพร่ข้อมูล เข้าร่วม OpenStreetMap UK ได้ที่นี่: {signupUrl}'
+  uk-london-mastodon:
+    name: OpenStreetMap ลอนดอนบน Mastodon
+    description: 'OpenStreetMap ลอนดอนบน Mastodon: {url}'
+  uk-london-twitter:
+    name: OpenStreetMap ลอนดอนบน Twitter
+    description: 'OpenStreetMap ลอนดอนบน Twitter: {url}'
   uk-london-wiki:
     description: 'หน้า wiki สำหรับ {community}'
+  uk-loomio:
+    name: OpenStreetMap ลอนดอนบน Loomio
+  us-discourse:
+    description: ฟอรัมสนทนาเกี่ยวกับ OpenStreetMap ในสหรัฐอเมริกา
+  us-massachusetts-mailinglist:
+    name: 'Mailing List Talk-us-massachusetts '
+    description: อีเมล mailing list สำหรับชุมชน OSM แมสซาชูเซตส์
+  us-newyork-mailinglist:
+    name: 'Mailing List Talk-us-newyork '
+    description: อีเมล mailing list สำหรับชุมชน OSM รัฐนิวยอร์ก
+  uy-irc:
+    description: 'เข้าร่วม #{account} บน irc.freenode.org (port 6667)'
+    extendedDescription: 'เข้าร่วม #{account} บน irc.freenode.org'
+  vn-mailinglist:
+    description: Mailing list เกี่ยวกับ OpenStreetMap ในเวียดนามหรือในภาษาเวียดนาม
+  vn-wiki:
+    description: 'หน้าวิกิ{community}'
+  YerCizenler-TR:
+    name: Yer Çizenler
+    description: สมาคมการทำแผนที่ Yer Çizenler สำหรับทุกคน
+    extendedDescription: Yer Çizenler เป็นองค์การนอกภาครัฐท้องถิ่นซึ่งเป็นส่วนหนึ่งของชุมชน OSM ตุรกี โดยมีเป้าหมายเพื่อส่งเสริมการใช้งานข้อมูลภูมิสารสนเทศเปิดและเครื่องมือต่างๆ ภายในชุมชนการทำแผนที่ระดับประเทศ
+  ym-AASTU:
+    name: AASTU Youth Mappers
+    description: สายา YouthMappers แห่งมหาวิทยาลัยวิทยาศาสตร์และเทคโนโลยีแอดดิสอาบาบา
+    extendedDescription: สมาคมนักศึกษาสาขาวิศวกรรมภูมิสารสนเทศ (AGES) มีเป้าหมายเพื่อส่งเสริมผลิตภัณฑ์และบริการด้านภูมิสารสนเทศ ตลอดจนฝึกอบรมนักศึกษาเกี่ยวกับการใช้งาน โดยไม่เพียงแต่ส่งเสริมการเข้าสังคมระหว่างนักศึกษาและผู้เชี่ยวชาญเท่านั้น แต่ยังเป็นเวทีสำหรับแลกเปลี่ยนแนวคิดใหม่ๆ สำหรับการจัดงานและการฝึกอบรมด้านภูมิสารสนเทศและการสำรวจใหม่ๆ ในมหาวิทยาลัย
+  ym-Abia-State-University:
+    name: AbsuMappersTeam
+    description: สาขา YouthMappers มหาวิทยาลัยแห่งรัฐอาเบีย
+    extendedDescription: AbsuMappersTeam เป็นทีมอาสาสมัครของผู้ชื่นชอบแผนที่ซึ่งใช้ OpenStreetMap, GIS และเทคโนโลยีภูมิสารสนเทศโอเพนซอร์สอื่นๆ เพื่อแก้ปัญหา โดยเป็นทีมที่อุทิตตนเพื่อการตอบสนองต่อภัยพิบัติโดยใช้ OpenStreetMap เป็นแพลตฟอร์มการให้คำปรึกษาและเสริมพลังระดับมืออาชีพสำหรับผู้ที่ชื่นชอบใน GIS และการทำแผนที่ และยังเป็นชุมชนของอาสาสมัครสำหรับการสร้างข้อมูลภูมิสารสนเทศ การรวบรวมข้อมูลภาคสนาม และการทำแผนที่ ทีมนี้ได้รับการร่วมก่อตั้งโดย Victor N.Sunday (ที่ปรึกษาของทีม) และศาสตราจารย์ J.U.Ogbonna ผู้ประสานงานทีมและที่ปรึกษาคณะ AbsuMapperTeam เป็นบริษัทในเครือของ UniiqueMappersTeam-Port Harcourt ทีมนี้มุ่งมั่นที่จะสนับสนุนการพัฒนาอย่างยั่งยืนโดยใช้เทคโนโลยีภูมิสารสนเทศ
+  ym-African-Methodist-Episcopal-University:
+    name: YouthMappers-AMEU
+    description: สาขา YouthMappers มหาวิทยาลัยแอฟริกาเมธอดิสต์อิปิสโคปอล
+  ym-Ahmadu-Bello-University:
+    name: ABU Geomappers
+    description: สาขา YouthMappers มหาวิทยาลัยอาห์มาดูเบลโล
+    extendedDescription: 'พวกเราเป็นกลุ่มผู้จัดทำแผนที่ด้านมนุษยธรรมที่ขับเคลื่อนด้วยข้อมูล ซึ่งทุ่มเทเพื่อให้บริการด้านมนุษยธรรมในการตอบสนองต่อภัยพิบัติและการบรรเทาทุกข์ เรายินดีที่จะนำความเชี่ยวชาญและความรู้ของเรามาแบ่งปันผ่านการทำแผนที่ และช่วยเผยแพร่ #OpenEvangelism ผ่านการฝึกอบรมและการทำงานร่วมกัน'
+  ym-Ardhi-University:
+    name: ARU Mapper
+    description: สาขา YouthMappers แห่งมหาวิทยาลัยอาร์ดิห์
   ym-California-University-of-Pennsylvania:
     name: สโมสร CalU PA GIS
   ym-Central-Washington-University:
     name: สโมสรภูมิศาสตร์
+  ym-Jomo-Kenyatta-University-of-Agriculture-and-Technology:
+    extendedDescription: สมาคมนักศึกษาสาขาวิศวกรรมภูมิสารสนเทศ (AGES) มีเป้าหมายเพื่อส่งเสริมผลิตภัณฑ์และบริการด้านภูมิสารสนเทศ ตลอดจนฝึกอบรมนักศึกษาเกี่ยวกับการใช้งาน โดยไม่เพียงแต่ส่งเสริมการเข้าสังคมระหว่างนักศึกษาและผู้เชี่ยวชาญเท่านั้น แต่ยังเป็นเวทีสำหรับแลกเปลี่ยนแนวคิดใหม่ๆ สำหรับการจัดงานและการฝึกอบรมด้านภูมิสารสนเทศและการสำรวจใหม่ๆ ในมหาวิทยาลัย
+  ym-Oklahoma-State-University:
+    name: สโมสรภูมิศาสตร์
+  ym-University-of-Maryland-College-Park:
+    name: สโมสรภูมิศาสตร์
   ym-University-of-Southern-California:
+    name: SC Mappers
     extendedDescription: 'เรามองโลกในมุมมองที่แตกต่างออกไป: เรามองโลกผ่านมุมมองเชิงพื้นที่ ด้วยพลังของการคิดเชิงพื้นที่ เราเชื่อมโยงสถานที่และพื้นที่เพื่อช่วยรับมือกับความท้าทายระดับโลก ร่วมมือกับเรา!'
   ym-University-of-the-Philippines-Resilience-Institute:
     name: YouthMappers UP Resilience Institute

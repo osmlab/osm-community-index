@@ -40,7 +40,6 @@ el:
     openstreetmapchile: OpenStreetMap Χιλή
     openstreetmapchina: OpenStreetMap Κίνα
     openstreetmapcologne: OpenStreetMap Κολωνία
-    openstreetmapcolombia: OpenStreetMap Κολομβία
     openstreetmapcomunitatvalenciana: OpenStreetMap Βαλενθιανική Κοινότητα
     openstreetmapcostarica: OpenStreetMap Κόστα Ρίκα
     openstreetmapcotedivoire: OpenStreetMap Ακτή Ελεφαντοστού
@@ -195,11 +194,18 @@ el:
     openstreetmapwesternsahara: OpenStreetMap Δυτική Σαχάρα
     openstreetmapzambia: OpenStreetMap Ζάμπια
     openstreetmapzimbabwe: OpenStreetMap Ζιμπάμπουε
+    osmcolombia: OSM Κολομβία
     osmmainz: OSM Μάιντς
+    osmnelson: OSM Νέλσον
+    tadeomappers: TadeoMappers
   _defaults:
     aparat:
       name: '{community} στο Aparat'
       description: Εγγραφείτε στο κανάλι μας στο Aparat
+    bluesky:
+      name: '{community} στο Bluesky'
+      description: Ακολουθήστε μας στο Bluesky
+      url: https://bsky.app/profile/{account}
     discord:
       description: Ελάτε σε επαφή με άλλους χαρτογράφους στο Discord
     discourse:
@@ -213,6 +219,8 @@ el:
     forum:
       name: '{community} Φόρουμ'
       description: Το επίσημο forum του {community}
+    group:
+      name: '{community}'
     instagram:
       name: '{community} στο Instagram'
       description: Ακολουθήστε μας στο Instagram
@@ -234,6 +242,10 @@ el:
       description: Γίνετε μέλος της κοινότητάς μας στη συνομιλία Matrix
     newsletter:
       name: '{community} ενημερωτικό δελτίο'
+    osm:
+      name: '{community}'
+    osm-lc:
+      name: '{community}'
     reddit:
       name: '{community} στο Reddit'
     telegram:
@@ -248,6 +260,8 @@ el:
     twitter:
       name: '{community} στο 𝕏'
       description: Ακολουθήστε μας στο 𝕏
+    website:
+      name: '{community}'
     wiki:
       name: '{community} ΒικιΈργο'
     x:
@@ -268,6 +282,8 @@ el:
     description: '{community} Wiki σελίδα'
   at-wiki:
     description: '{community} Wiki σελίδα'
+  bd-facebook:
+    extendedDescription: Χαρτογράφηση στο Μπαγκλαντές; Έχετε ερωτήσεις, θέλετε να συνδεθείτε με την κοινότητα εδώ; Ελάτε μαζί μας στο {url}. Είναι όλοι ευπρόσδεκτοι!
   be-discourse:
     description: Ένα Forum για συζήτηση του OpenStreetMap στο Βέλγιο
   be-matrix:
@@ -277,6 +293,8 @@ el:
     description: Σελίδα Wikiproject για Βουλγαρία
   bo-facebook-group:
     name: '{community} Ομάδα Facebook'
+  bo-matrix:
+    description: Όλοι οι χαρτογράφοι είναι ευπρόσδεκτοι!
   cape-coast-youthmappers:
     name: Πανεπιστήμιο του Cape Coast YouthMappers
     description: 'Ακολουθήστε μας στο Twitter: {url}'
@@ -284,10 +302,32 @@ el:
     description: 'Όλα όσα χρειάζεται να ξέρετε για την χαρτογράφηση στην Καστίλλη και Λεόν: {url}'
   cat-twitch:
     name: Κανάλι Twitch για {community}
+  cd-chapter:
+    name: OpenStreetMap RDC (Κονγκό)
   ch-mailinglist:
     description: Λίστα αλληλογραφίας για Ελβετία
+  co-facebook:
+    name: Ομάδα του {community} στο Facebook
   co-github:
-    description: Έργα git για την Κολομβία
+    name: '{community} έργα στο GitHub'
+  co-instagram:
+    name: Δημοσιεύσεις από {community} στο Instagram
+  co-linkedin:
+    name: Δημοσιεύσεις από {community} στο LinkedIn
+  co-mastodon:
+    name: Δημοσιεύσεις από {community} στο Mastodon
+  co-talk:
+    name: 'Λίστα αλληλογραφίας {community}'
+  co-thread:
+    name: Δημοσιεύσεις από {community} στο Threads
+  co-tiktok:
+    name: Μικρά βίντεο του {community} στο Tiktok
+  co-twitter:
+    name: Κοινότητα {community} στο x-Twitter
+  co-whatsapp:
+    name: Νέα από την κοινότητα {community} στο WhatsApp
+  co-youtube:
+    name: Βίντεο του {community} στο YouTube
   comunitat-valenciana-wiki:
     description: 'Όλα όσα χρειάζεται να ξέρετε για την χαρτογράφηση στην Βαλενθιανική Κοινότητα: {url}'
   de-aachen-wiki:
@@ -351,16 +391,44 @@ el:
     description: 'Όλα όσα χρειάζεται να ξέρετε για την χαρτογράφηση στην Μαδρίτη: {url}'
   MapLYH:
     description: Ομάδα MapLYH
+  maptime-bogota-facebook:
+    description: Είμαστε μια ομάδα ενδιαφερομένων για να χαρτογραφήσουμε τη Μπογκοτά και τα περίχωρά της στο OpenStreetMap.
+  maptime-bogota-github:
+    description: Είμαστε μια ομάδα ενδιαφερομένων για να χαρτογραφήσουμε τη Μπογκοτά και τα περίχωρά της στο OpenStreetMap.
+  maptime-bogota-linkedin:
+    description: Είμαστε μια ομάδα ενδιαφερομένων για να χαρτογραφήσουμε τη Μπογκοτά και τα περίχωρά της στο OpenStreetMap.
+  maptime-bogota-mastodon:
+    description: Είμαστε μια ομάδα ενδιαφερομένων για να χαρτογραφήσουμε τη Μπογκοτά και τα περίχωρά της στο OpenStreetMap.
+  maptime-bogota-meetup:
+    description: Είμαστε μια ομάδα ενδιαφερομένων για να χαρτογραφήσουμε τη Μπογκοτά και τα περίχωρά της στο OpenStreetMap.
+  maptime-bogota-telegram:
+    description: Είμαστε μια ομάδα ενδιαφερομένων για να χαρτογραφήσουμε τη Μπογκοτά και τα περίχωρά της στο OpenStreetMap.
+  maptime-bogota-twitter:
+    description: Είμαστε μια ομάδα ενδιαφερομένων για να χαρτογραφήσουμε τη Μπογκοτά και τα περίχωρά της στο OpenStreetMap.
+  maptime-bogota-website:
+    description: Είμαστε μια ομάδα ενδιαφερομένων για να χαρτογραφήσουμε τη Μπογκοτά και τα περίχωρά της στο OpenStreetMap.
+  maptime-bogota-youtube:
+    description: Είμαστε μια ομάδα ενδιαφερομένων για να χαρτογραφήσουμε τη Μπογκοτά και τα περίχωρά της στο OpenStreetMap.
   Maptime-Oceania-Slack:
     description: Εγγραφείτε στο {signupUrl}
   md-googlegroup:
     name: '{community} Ομάδα Facebook'
+  me-telegram:
+    description: Όλοι είναι ευπρόσδεκτοι! Εγγραφείτε στο {signupUrl}
+  nl-matrix:
+    description: Όλοι οι χαρτογράφοι είναι ευπρόσδεκτοι!
   no-irc:
     description: Χώρος συζήτησης για τους ζαρτογράφους και τους χρήστες του OpenStreetMap, τους προγραμματιστές και τους λάτρεις στην Νορβηγία
+  Open-Source-San-Jose-Slack:
+    description: 'Όλοι είναι ευπρόσδεκτοι! Εγγραφείτε στο {signupUrl}, μετά μπείτε στο κανάλι #proj-osm'
   osm-africa-eventbrite:
     description: '{community} σελίδα EventBrite'
   osm-africa-facebook-group:
     name: '{community} Ομάδα Facebook'
+  osm-africa-matrix:
+    description: Όλοι οι χαρτογράφοι είναι ευπρόσδεκτοι!
+  osm-africa-slack:
+    description: Όλοι είναι ευπρόσδεκτοι! Εγγραφείτε στο {signupUrl}
   osm-asia-facebook:
     description: Ομάδα Facebook OpenStreetMap Ασίας
   osm-at:
@@ -374,6 +442,7 @@ el:
   osm-benin-facebook:
     description: Βελτίωση του OpenStreetMap στο Μπενίν
   osm-ch:
+    name: '{community}'
     description: Η πλατφόρμα για πληροφορίες σχετικά με το OpenStreetMap στην Ελβετία
   OSM-Chattanooga:
     name: OSM Τσαττανούγκα
@@ -415,6 +484,8 @@ el:
     description: 'Όλα όσα χρειάζεται να ξέρετε για την χαρτογράφηση στην Ινδία: {url}'
   osm-iran-telegram:
     extendedDescription: Είστε ευπρόσδεκτοι να εγγραφείτε στο κανάλι μας στο Telegram στη διεύθυνση {url}. Έχουμε επίσης μια υπερομάδα πολλών OSMers που ενδιαφέρονται για το Ιράν. Βρείτε τον σύνδεσμο της στο βιογραφικό του καναλιού.
+  OSM-japan-discord:
+    description: 'Ένας χώρος εργασίας στο Discord για την κοινότητα του OSM Ιαπωνία: {url}'
   OSM-japan-facebook:
     description: Χαρτογράφοι και χρήστες του OpenStreetMap στην Ιαπωνία
   OSM-japan-website:
@@ -451,6 +522,8 @@ el:
     description: Η πλατφόρμα για πληροφορίες σχετικά με το OpenStreetMap στη Σερβία
   rs-wiki:
     description: Σελίδα Wikiproject για Σερβία
+  sg-wiki:
+    description: '{community} Wiki σελίδα'
   si-ljubljana-wiki:
     description: '{community} Wiki σελίδα'
   si-wiki:
@@ -459,6 +532,8 @@ el:
     description: Τοποθεσία για τους συνδρομητές του OpenStreetMap, τις κοινότητες και τους χρήστες στη Μαδαγασκάρη για συμμετοχή και συζήτηση.
   tn-facebook-group:
     name: '{community} Ομάδα Facebook'
+  tw-slack:
+    description: Όλοι είναι ευπρόσδεκτοι! Εγγραφείτε στο {signupUrl}
   tw-wiki:
     description: 'Όλα όσα χρειάζεται να ξέρετε για την χαρτογράφηση στην Ταϊβάν: {url}'
   ua-github:

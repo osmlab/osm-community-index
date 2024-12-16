@@ -48,7 +48,6 @@ cy:
     openstreetmapchile: OpenStreetMap Chile
     openstreetmapchina: OpenStreetMap Tsieina
     openstreetmapcologne: OpenStreetMap Cologne
-    openstreetmapcolombia: OpenStreetMap Colombia
     openstreetmapcomunitatvalenciana: OpenStreetMap Comunitat Valenciana
     openstreetmapcostarica: OpenStreetMap Costa Rica
     openstreetmapcotedivoire: OpenStreetMap Cote d'Ivoire
@@ -56,7 +55,9 @@ cy:
     openstreetmapcuba: OpenStreetMap Ciwba
     openstreetmapcuneo: OpenStreetMap Cuneo
     openstreetmapcyprus: OpenStreetMap Cyprus
+    openstreetmapcz: OpenStreetMap Gweriniaeth Tsiec
     openstreetmapde: OpenStreetMap Yr Almaen
+    openstreetmapdeepsouth: OpenStreetMap De UDA
     openstreetmapdelhi: OpenStreetMap Delhi
     openstreetmapdenmark: OpenStreetMap Denmarc
     openstreetmapdjibouti: OpenStreetMap Djibouti
@@ -67,8 +68,10 @@ cy:
     openstreetmapespana: OpenStreetMap Sbaen
     openstreetmapestonia: OpenStreetMap Estonia
     openstreetmapethiopia: OpenStreetMap Ethiopia
+    openstreetmapfiji: OpenStreetMap Ffiji
     openstreetmapfinland: OpenStreetMap Ffindir
     openstreetmapfrance: OpenStreetMap Ffrainc
+    openstreetmapfreemapslovakia: OpenStreetMap Freemap Slofacia
     openstreetmapgabon: OpenStreetMap Gabon
     openstreetmapgeorgia: OpenStreetMap Georgia
     openstreetmapgermany: OpenStreetMap Yr Almaen
@@ -183,6 +186,7 @@ cy:
     openstreetmapzambia: OpenStreetMap Sambia
     openstreetmapzimbabwe: OpenStreetMap Simbabwe
     osmmainz: OSM Mainz
+    swissopenstreetmap: OpenStreetMap Y Swistir
     youthmappersasu: YouthMappersASU
   _defaults:
     aparat:
@@ -323,7 +327,10 @@ cy:
     name: 'Grŵp Facebook {community}'
   bo-matrix:
     description: Croeso i bob mapiwr!
+  br-telegram:
+    extendedDescription: Ymunwch â'r gymuned i ddysgu mwy am OpenStreetMap, gofyn cwestiynau neu gymryd rhan yn ein cyfarfodydd. Croeso i bawb ymuno!
   cape-coast-youthmappers:
+    name: University of Cape Coast YouthMappers
     description: 'Dilynwch ni ar Twitter: {url}'
   cat-twitch:
     name: Sianel Twitch {community}
@@ -331,11 +338,15 @@ cy:
   cd-chapter:
     name: OpenStreetMap RDC
     description: O un stryd i'r llall, gadewch i ni fapio ein gwlad...
+  Central-Pennsylvania-OSM:
+    name: Central Pennsylvania OSM
   ch-mailinglist:
     name: Rhestr Bost OpenStreetMap Y Swistir
     description: Rhestr Bost y Swistir
-  co-github:
-    description: Prosiectau Git am Golombia
+  cl-facebook:
+    extendedDescription: Ymunwch â'r gymuned i ddysgu mwy am OpenStreetMap, gofyn cwestiynau neu gymryd rhan yn ein cyfarfodydd. Croeso i bawb ymuno!
+  cl-telegram:
+    extendedDescription: Ymunwch â'r gymuned i ddysgu mwy am OpenStreetMap, gofyn cwestiynau neu gymryd rhan yn ein cyfarfodydd. Croeso i bawb ymuno!
   de-aachen-wiki:
     description: 'Tudalen Wici {community}'
   de-berlin-mailinglist:
@@ -419,8 +430,10 @@ cy:
     name: Geogeeks Perth
   GeoPhilly:
     name: GeoPhilly
-  hr-irc:
-    description: 'Ymunwch â #{account} ar irc.freenode.org (porth 6667)'
+  hr-github:
+    description: '{community} ar GitHub'
+  hr-tm:
+    name: 'Rheolwr Tasgau {community}'
   hr-wiki:
     description: Tudalen WiciBrosiect am Groatia
   hu-facebook-group:
@@ -450,29 +463,27 @@ cy:
   ko-osm:
     description: Rydym yn tyfu a gwella OpenStreetMap yng Nghorea.
   kosovo-flossk:
+    name: Free Libre Open Source Software Kosova (FLOSSK)
     description: Yn hyrwyddo FLOSS ers 2009
   kp-wiki:
     description: 'Canllaw Mapio {community}'
   lv-wiki:
     description: WiciBrosiect Latvia
+  madrid-uam-ym:
+    name: YouthMappers at UAM
   madrid-upm-ym:
     name: Mapeo Humanitario
   mailinglist-sk-googlegroups:
     name: Rhestr Bost Slofacia ar Google Groups
     description: Y restr bost swyddogol ar gyfer y gymuned yn Slofacia
-  MapABQ:
-    name: MapABQ
-  MapColabora-mailinglist:
-    name: Mapeado Colaborativo / Geoinquietos Zaragoza
-    description: Rhestr Bost Mapeado Colaborativo / Geoinquietos Zaragoza
   MapColabora-twitter:
     name: Mapeado Colaborativo / Geoinquietos Zaragoza
+  MapLYH:
+    name: MapLYH
+    description: Grŵp MapLYH
   mappa-mercia-group:
     name: Grŵp lleol Mappa Mercia
     description: Cartref i ddefnyddwyr OpenStreetMap yn y Canolbarth
-  MappingDC-meetup:
-    name: MappingDC
-    description: Gwella OpenStreetMap yn yr ardal DC
   MappingWR:
     name: MappingWR
   MapRVA:
@@ -563,6 +574,8 @@ cy:
     extendedDescription: Gweinydd Discord ar gyfer OpenStreetMap Iran. Dewch yn llu!
   OSM-japan-facebook:
     description: Mapwyr a defnyddwyr OpenStreetMap yn Japan
+  OSM-japan-website:
+    description: Mapwyr a defnyddwyr OpenStreetMap yn Japan
   osm-kerala-github:
     description: 'Codio â ni: {url}'
   osm-michigan-wiki:
@@ -610,6 +623,8 @@ cy:
     description: 'Dilynwch ni ar Twitter: {url}'
   rs-discourse:
     description: Fforwm i drafod OpenStreetMap yn Serbia
+  RS-telegram:
+    extendedDescription: Ymunwch â'r gymuned i ddysgu mwy am OpenStreetMap, gofyn cwestiynau neu gymryd rhan yn ein cyfarfodydd. Croeso i bawb ymuno!
   rs-wiki:
     description: Tudalen WiciBrosiect am Serbia
   sg-wiki:
@@ -650,6 +665,8 @@ cy:
   uy-irc:
     description: 'Ymunwch â #{account} ar irc.freenode.org (porth 6667)'
     extendedDescription: 'Ymunwch â #{account} ar irc.freenode.org'
+  vn-wiki:
+    description: 'Tudalen Wici {community}'
   YerCizenler-TR:
     name: Yer Çizenler
   ym-Abia-State-University:
@@ -721,7 +738,17 @@ cy:
     name: Rwanda YouthMappers
   ym-University-of-Southern-California:
     name: SC Mappers
+  ym-University-of-the-West-Indies-Mona-Campus:
+    name: Libraries Outreach - ODL
+  ym-University-of-Wyoming:
+    name: Gamma Theta Upsilon/Geography Club
   ym-University-of-Zimbabwe:
     name: UZMappers
   ym-UW-Madison:
     name: BadgerMaps
+  ym-Vassar-College:
+    name: Hudson Valley Mappers
+  ym-Villanova-University:
+    name: The Villanova Globeplotters
+  ym-Yarmouk-University:
+    name: YouthMappers at YU

@@ -3,6 +3,8 @@ it:
     kiribatiwomeninmapping: Kiribati Donne nella mappatura
     mappingbotswana: Mappando Botswana
     openstreetmapaachen: OpenStreetMap Aquisgrana
+    openstreetmapaustria: OpenStreetMap dell’Austria
+    openstreetmapbangladesh: OpenStreetMap del Bangladesh
     openstreetmapbelarus: OpenStreetMap Bielorussia
     openstreetmapbelgium: OpenStreetMap Belgio
     openstreetmapberlin: OpenStreetMap Berlino
@@ -42,6 +44,8 @@ it:
     openstreetmaphamburg: OpenStreetMap Amburgo
     openstreetmaphungary: OpenStreetMap Ungheria
     openstreetmapiceland: OpenStreetMap Islanda
+    openstreetmapindia: OpenStreetMap dell’India
+    openstreetmapindonesia: OpenStreetMap dell’Indonesia
     openstreetmapireland: OpenStreetMap Irlanda
     openstreetmapisrael: OpenStreetMap Israele
     openstreetmapitaly: OpenStreetMap Italia
@@ -63,8 +67,10 @@ it:
     openstreetmapluxembourg: OpenStreetMap Lussemburgo
     openstreetmapmalaysia: OpenStreetMap Malasia
     openstreetmapmexico: OpenStreetMap Messico
+    openstreetmapmongolia: OpenStreetMap della Mongolia
     openstreetmapmorocco: OpenStreetMap Marocco
     openstreetmapmunchen: OpenStreetMap Monaco di Baviera
+    openstreetmapnepal: OpenStreetMap del Nepal
     openstreetmapnetherlands: OpenStreetMap Paesi Bassi
     openstreetmapnorthkorea: OpenStreetMap Corea del Nord
     openstreetmapnorway: OpenStreetMap Norvegia
@@ -77,6 +83,7 @@ it:
     openstreetmapsaudiarabia: OpenStreetMap Arabia Saudita
     openstreetmapsouthafrica: OpenStreetMap Sud Africa
     openstreetmapsouthsudan: OpenStreetMap Sud Sudan
+    openstreetmapsrilanka: OpenStreetMap dello Sri Lanka
     openstreetmapsweden: OpenStreetMap Svezia
     openstreetmapswitzerland: OpenStreetMap Svizzera
     openstreetmapsyria: OpenStreetMap Siria
@@ -84,6 +91,7 @@ it:
     openstreetmapturin: OpenStreetMap Torino
     openstreetmapturkey: OpenStreetMap Turchia
     openstreetmapukraine: OpenStreetMap Ucraina
+    openstreetmapus: OpenStreetMap degli Stati Uniti
     openstreetmapwarszawa: OpenStreetMap Varsavia
     openstreetmapwesternsahara: OpenStreetMap Sahara occidentale
   _defaults:
@@ -134,6 +142,8 @@ it:
     name: Maptime di Tirana
     description: Eventi sociali centrati sulla mappatura—i principianti sono più che benvenuti!
     extendedDescription: Maptime è un ambiente di apprendimento libero per tutti i livelli e gradi di conoscenza, che offre supporto educativo in particolare ai principianti. Maptime è allo stesso tempo flessibile e strutturato, rendendo in questo modo possibile l’organizzazione di lezioni di mappatura, corsi di specializzazione, lavori a progetto indipendenti e/o collaborativi.
+  am-wiki:
+    description: '{community} Pagina wiki'
   at-matrix:
     description: Canale Matrix tedesco non ufficiale per l'Austria
   at-wiki:
@@ -196,8 +206,6 @@ it:
     extendedDescription: Unisciti alla community per saperne di più su OpenStreetMap, fare domande o partecipare ai nostri incontri. Tutti sono benvenuti!
   cl-telegram:
     extendedDescription: Unisciti alla community per saperne di più su OpenStreetMap, fare domande o partecipare ai nostri incontri. Tutti sono benvenuti!
-  co-facebook:
-    extendedDescription: Unisciti alla comunità per saperne di più su OpenStreetMap. Tutti sono i benvenuti!
   comunitat-valenciana-wiki:
     description: 'Tutto ciò che devi sapere sulla mappatura nella Comunità Valenciana: {url}'
   czech-community:
@@ -297,8 +305,6 @@ it:
   GeoPhilly:
     description: Meetup per appassionati di mappe nella zona di Philadelphia
     extendedDescription: Geophilly unisce sviluppatori, geografi, data geek, appassionati open source, civic hacker e drogati di mappe nella comune passione passione per le mappe e delle storie che possono raccontare. Se usate delle mappe nel vostro lavoro o se voltete soltanto saperne di più, questo è il meetup adatto per voi! I nostri eventi mirano a essere aperti, amichevoli, educativi e sociali, e spaziano dalle piacevoli chiacchierate agli incontri lampo e perfino agli workshop. Venite a creare una community geospaziale variegata e ispirativa con noi a Philadelphia!
-  hr-irc:
-    description: 'Iscriviti a #{account} su irc.freenode.org (porta 6667)'
   hr-wiki:
     description: Pagina Wikiproject per la Croazia
   hu-facebook-group:
@@ -331,8 +337,6 @@ it:
     extendedDescription: 'Iscriviti a #{account} su irc.oftc.net (porta 6667), sii paziente e attendi qualche minuto se fai una domanda'
   ireland-matrix:
     description: 'Un gateway Matrix per il canale IRC di OSM Irlanda: {url}'
-  ireland-meetup:
-    description: Meetup di tutti coloro che sono interessati a OpenStreetMap
   is-chapter:
     description: Aiutiamo a far crescere e migliorare OpenStreetMap in Islanda.
   it-chapter:
@@ -385,12 +389,6 @@ it:
     name: Mappa Kibera Trust
     description: Map Kibera è un'organizzazione registrata che opera in Kenya
     extendedDescription: La missione di Map Kibera Trust è aumentare l'influenza e la rappresentanza delle comunità emarginate attraverso l'uso creativo di strumenti digitali per l'azione.
-  MapABQ:
-    description: Incontro mensile degli utenti di OpenStreetMap ad Albuquerque e nel nord del New Mexico
-    extendedDescription: Chiunque è invitato a partecipare e siamo felici di aiutarti a iniziare a mappare. Gli incontri sono in un formato aperto per consentire ai contributori di concentrarsi sull'aggiunta a OpenStreetMap per Albuquerque e le aree circostanti.
-  MapColabora-mailinglist:
-    name: Mappatura collaborativa / Georestless Zaragoza
-    description: Mappatura collaborativa / Mailing list Georestless Zaragoza
   MapColabora-twitter:
     name: Mappatura collaborativa / Georestless Zaragoza
     description: Mappatura collaborativa / Account Twitter Georestless Zaragoza
@@ -398,20 +396,35 @@ it:
     name: Gruppo locale Mappa Mercia
     description: Un posto per gli appassionati di OpenStreetMap nelle Midlands
     extendedDescription: Mappa Mercia è un progetto per sviluppare OpenStreetMap nelle West Midlands nel Regno Unito. Organizziamo eventi per la comunità,  lezioni e supportiamo gli enti locali che vogliano rendere aperti i dati in loro possesso.
-  MappingDC-meetup:
-    description: Migliora OpenStreetMap nell'area di DC
-    extendedDescription: Siamo un gruppo di mappatori volontari che mirano a migliorare OpenStreetMap nell'area DC. Miriamo anche a insegnare agli altri l'ecosistema OSM, l'analisi dei dati, la cartografia e il GIS. Ci riuniamo ogni due mesi ai meetup per concentrarci su un'area della nostra città.
   MappingWR:
     description: Rendere facili da trovare percorsi a basse emissioni di carbonio nella regione di Waterloo.
   MapRVA:
     description: Incontrarsi su MapRVA
+  maptime-bogota-facebook:
+    description: Siamo un gruppo di persone interessate a mappare Bogotà e dintorni in OpenStreetMap.
+    extendedDescription: Impara a raccogliere dati sul campo e a digitalizzarli su OpenStreetMap. Non è necessario avere conoscenze pregresse! Basta avere voglia di partecipare, imparare e divertirsi.
+  maptime-bogota-github:
+    description: Siamo un gruppo di persone interessate a mappare Bogotà e dintorni in OpenStreetMap.
+    extendedDescription: Impara a raccogliere dati sul campo e a digitalizzarli su OpenStreetMap. Non è necessario avere conoscenze pregresse! Basta avere voglia di partecipare, imparare e divertirsi.
+  maptime-bogota-linkedin:
+    description: Siamo un gruppo di persone interessate a mappare Bogotà e dintorni in OpenStreetMap.
+    extendedDescription: Impara a raccogliere dati sul campo e a digitalizzarli su OpenStreetMap. Non è necessario avere conoscenze pregresse! Basta avere voglia di partecipare, imparare e divertirsi.
+  maptime-bogota-mastodon:
+    description: Siamo un gruppo di persone interessate a mappare Bogotà e dintorni in OpenStreetMap.
+    extendedDescription: Impara a raccogliere dati sul campo e a digitalizzarli su OpenStreetMap. Non è necessario avere conoscenze pregresse! Basta avere voglia di partecipare, imparare e divertirsi.
   maptime-bogota-meetup:
+    description: Siamo un gruppo di persone interessate a mappare Bogotà e dintorni in OpenStreetMap.
+    extendedDescription: Impara a raccogliere dati sul campo e a digitalizzarli su OpenStreetMap. Non è necessario avere conoscenze pregresse! Basta avere voglia di partecipare, imparare e divertirsi.
+  maptime-bogota-telegram:
     description: Siamo un gruppo di persone interessate a mappare Bogotà e dintorni in OpenStreetMap.
     extendedDescription: Impara a raccogliere dati sul campo e a digitalizzarli su OpenStreetMap. Non è necessario avere conoscenze pregresse! Basta avere voglia di partecipare, imparare e divertirsi.
   maptime-bogota-twitter:
     description: Siamo un gruppo di persone interessate a mappare Bogotà e dintorni in OpenStreetMap.
     extendedDescription: Impara a raccogliere dati sul campo e a digitalizzarli su OpenStreetMap. Non è necessario avere conoscenze pregresse! Basta avere voglia di partecipare, imparare e divertirsi.
   maptime-bogota-website:
+    description: Siamo un gruppo di persone interessate a mappare Bogotà e dintorni in OpenStreetMap.
+    extendedDescription: Impara a raccogliere dati sul campo e a digitalizzarli su OpenStreetMap. Non è necessario avere conoscenze pregresse! Basta avere voglia di partecipare, imparare e divertirsi.
+  maptime-bogota-youtube:
     description: Siamo un gruppo di persone interessate a mappare Bogotà e dintorni in OpenStreetMap.
     extendedDescription: Impara a raccogliere dati sul campo e a digitalizzarli su OpenStreetMap. Non è necessario avere conoscenze pregresse! Basta avere voglia di partecipare, imparare e divertirsi.
   Maptime-ME-meetup:
@@ -421,6 +434,8 @@ it:
     description: Registrati all'indirizzo {signupUrl}
   md-googlegroup:
     description: Unisciti al gruppo Google {community}
+  me-telegram:
+    description: Tutti sono i benvenuti! Iscriviti a {signupUrl}
   mm-facebook:
     extendedDescription: Mappatura in Birmania? Hai domande, vuoi entrare in contatto con la community qui? Unisciti a noi su {url}. Tutti sono benvenuti!
   mn-facebook:
@@ -529,8 +544,6 @@ it:
     extendedDescription: Ti invitiamo a unirti al nostro canale Telegram all'indirizzo {url}. Abbiamo anche un supergruppo di molti OSM interessati all'Iran. Trovi il suo link nella bio del canale.
   OSM-japan-facebook:
     description: Mappatori e utenti OpenStreetMap del Giappone
-  OSM-japan-slack:
-    description: Uno spazio di lavoro Slack per la comunità OSM Japan {signupUrl}
   OSM-japan-website:
     description: Mappatori e utenti di OpenStreetMap in Giappone
   osm-kenya:
@@ -583,8 +596,6 @@ it:
   OSM-Seattle:
     name: OpenStreetMap di Seattle
     description: Mappatori e utenti OpenStreetMap nell’area di Seattle
-  osm-sierra-leone:
-    description: Ci concentriamo sulla creazione e l'utilizzo di dati aperti per risolvere sfide sociali, economiche e comunitarie.
   OSM-SoCal:
     name: OpenStreetMap della California del sud
     description: Divertiamoci, contribuiamo con qualunque cosa a Los Angeles e impariamo a mappare!
@@ -647,6 +658,8 @@ it:
     extendedDescription: Unisciti alla comunità per saperne di più su OpenStreetMap, fare domande e partecipare alle nostre riunioni. Chiunque è il benvenuto!
   rs-wiki:
     description: Pagina Wikiproject per la Serbia
+  sg-wiki:
+    description: '{community} Pagina wiki'
   si-ljubljana-wiki:
     description: '{community} Pagina wiki'
   si-wiki:
@@ -704,6 +717,8 @@ it:
     extendedDescription: 'Iscriviti a #{account} su irc.freenode.org'
   vn-mailinglist:
     description: Mailing list su OpenStreetMap in Vietnam o in vietnamita
+  vn-wiki:
+    description: '{community} Pagina wiki'
   YerCizenler-TR:
     description: La tua associazione Çizenler Mapping per Everyone
     extendedDescription: Yer Çizenler è una ONG locale, parte della comunità OSM turca, che mira a promuovere l'uso di dati e strumenti geospaziali aperti all'interno della comunità cartografica nazionale.
@@ -784,17 +799,10 @@ it:
     extendedDescription: FEU è stata riconosciuta come una delle principali università nelle Filippine. La sua missione è incentrata sulla produzione di laureati che hanno contribuito al progresso del Paese. L'università si sfida continuamente per alzare l'asticella dell'eccellenza per raggiungere uno status di alto livello non solo nelle Filippine ma anche nella regione del sud-est asiatico
   ym-Federal-School-of-Surveys:
     description: Capitolo YouthMappers presso la Federal School of Surveys
-  ym-Federal-University-of-Technology-Akure:
-    description: Capitolo YouthMappers presso la Federal University of Technology, Akure
-    extendedDescription: La nostra missione è crescere la prossima generazione di Space Leader. Le attività includono la ricerca e lo sviluppo di capacità in telerilevamento, GIS, cambiamenti climatici, astronomia, cosmologia, ingegneria spaziale, navigazione globale, robotica e educazione spaziale.
   ym-Fourah-Bay-College:
     name: Associazione Geografica degli Studenti
     description: Capitolo YouthMappers al Fourah Bay College
     extendedDescription: The Student's Geographical Association- YouthMappers è un'associazione di studenti del Fourah Bay College con gli obiettivi comuni di mappare i luoghi vulnerabili in Sierra Leone e nel mondo in generale per scopi di soccorso e altri scopi benefici, svolgere ricerche e altri sforzi educativi. Il capitolo è composto da giovani con grandi idee, orientati allo sviluppo con la capacità di relazionarsi tra loro, comprendere e realizzare progetti di sviluppo sostenibile come una squadra.
-  ym-General-Lansana-Conte-University:
-    name: YouthMappers Generale Lansana Conte University
-    description: Capitolo YouthMappers presso la General Lansana Conte University
-    extendedDescription: Gli YouthMappers dell'Università Generale Lansana Conté è una comunità senza scopo di lucro disposta a contribuire a Map Guinea e altre parti del mondo. Stiamo promuovendo l'uso di GIS e dati aperti per costruire strumenti di supporto alle decisioni. Lavoriamo anche per costruire capacità tra gli studenti e le comunità locali.
   ym-George-Mason-University:
     name: Mappatori massoni
     description: Capitolo YouthMappers alla George Mason University
@@ -1113,10 +1121,6 @@ it:
     name: UNCO Club Geografico e GIS
     description: Capitolo YouthMappers presso la University of Northern Colorado
     extendedDescription: 'Sezione ufficiale di Geografia e GIS Club affiliata alla University of Northern Colorado, dove il nostro obiettivo è imparare, condividere e connetterci con coloro che ci circondano. #MakingSenseOfTheWorld'
-  ym-University-of-Oregon:
-    name: Mappa dal Nordovest
-    description: Capitolo YouthMappers presso l'Università dell'Oregon
-    extendedDescription: Map By Northwest mira a coinvolgere studenti universitari presso l'Università dell'Oregon in progetti di mappatura per assistere in cause umanitarie e per condurre ricerche geografiche. Diamo il benvenuto a studenti di tutte le discipline per unirsi a noi nelle nostre avventure di mappatura.
   ym-University-of-Port-Harcourt:
     description: Capitolo YouthMappers presso l'Università di Port Harcourt
     extendedDescription: UniqueMappersTeam (UMT) Port Harcourt è un gruppo di azione e un team di volontari per una mappatura online collaborativa mirata alla formazione e all'empowerment dei membri con capacità di mappatura di tendenza per creare dati e analisi geospaziali aperti che affrontino sfide definite localmente per la geoinformazione e per fornire servizi di mappatura umanitaria alle comunità resilienti nel Delta del Niger, in Nigeria e altrove. Promuoviamo la mappatura di Crowdsoucred e il volontariato di informazioni geografiche utilizzando la piattaforma OpenStreetMap (OSM) e altre piattaforme accessibili per la mappatura della risposta rapida, la mappatura dei disastri, la mappatura geo-intelligence, gli aggiornamenti delle mappe e la formazione. È un affiliato Capitolo del campus dell'Humanitarian OpenStreetMap Team (HOT). È un team di attività di progetto di YouthMappers che offre ai membri l'opportunità di apprendere e migliorare le proprie competenze in Geoinformatica in modo da esplorare le opportunità globali nel campo della mappatura e della geoinformazione.

@@ -41,7 +41,6 @@ pa_PK:
     openstreetmapchile: چیلے ‘تے اوپن سٹریٹ میپ
     openstreetmapchina: چینی ‘تے اوپن سٹریٹ میپ
     openstreetmapcologne: کولون ‘تے اوپن سٹریٹ میپ
-    openstreetmapcolombia: کولومبیا ‘تے اوپن سٹریٹ میپ
     openstreetmapcomunitatvalenciana: کمونیٹٹ ولینسیانا ‘تے اوپن سٹریٹ میپ
     openstreetmapcostarica: کوسٹا ریکا ‘تے اوپن سٹریٹ میپ
     openstreetmapcotedivoire: کوٹ ڈیوار ‘تے اوپن سٹریٹ میپ
@@ -68,8 +67,21 @@ pa_PK:
     openstreetmappakistan: پاکستان ‘تے اوپن سٹریٹ میپ
     openstreetmaprdc: آر دی سی ‘تے اوپن سٹریٹ میپ
     openstreetmapuk: یو کے ‘تے اوپن سٹریٹ میپ
+  _defaults:
+    youtube:
+      description: ਸਾਡੇ YouTube ਚੈਨਲ ਨੂੰ ਸਬਸਕ੍ਰਾਈਬ ਕਰੋ
   af-matrix:
     description: افغانی لوک لئی میٹرِکس ‘تے گروپ
+  am-wiki:
+    description: 'وِکی تے {community} دا صفحہ'
+  at-wiki:
+    description: 'وِکی تے {community} دا صفحہ'
+  bo-facebook-group:
+    name: 'فیس‌بوک تے {community} دا صفحہ'
+  cd-chapter:
+    name: آر دی سی ‘تے اوپن سٹریٹ میپ
+  de-aachen-wiki:
+    description: 'وِکی تے {community} دا صفحہ'
   de-berlin-wiki:
     description: 'وِکی تے {community} دا صفحہ'
   de-bochum-wiki:
@@ -88,18 +100,18 @@ pa_PK:
     description: 'وِکی تے {community} دا صفحہ'
   de-munchen-wiki:
     description: 'وِکی تے {community} دا صفحہ'
+  fr-35-wiki:
+    description: 'وِکی تے {community} دا صفحہ'
+  fr-38-wiki:
+    description: 'وِکی تے {community} دا صفحہ'
   fr-montrouge-wiki:
     description: 'وِکی تے {community} دا صفحہ'
-  hr-irc:
-    description: 'irc.freenode.org (پورٹ 6667) ‘تے #{account} جوڑو'
   hu-facebook-group:
     name: 'فیس‌بوک تے {community} دا صفحہ'
   hu-wiki:
     description: 'وِکی تے {community} دا صفحہ'
   id-facebook-group:
     name: 'فیس‌بوک تے {community} دا صفحہ'
-  MappingDC-meetup:
-    name: ڈی سی ‘تے نقشہ کرن
   osm-africa-facebook-group:
     name: 'فیس‌بوک تے {community} دا صفحہ'
   OSM-AR-geolibres:
@@ -110,8 +122,16 @@ pa_PK:
     description: بھارت ‘تے نقشہ ٹھیک کریو
   osm-michigan-wiki:
     description: 'وِکی تے {community} دا صفحہ'
+  osm-ohio-wiki:
+    description: 'وِکی تے {community} دا صفحہ'
   ph-facebook-group:
     name: 'فیس‌بوک تے {community} دا صفحہ'
+  sg-wiki:
+    description: 'وِکی تے {community} دا صفحہ'
+  si-ljubljana-wiki:
+    description: 'وِکی تے {community} دا صفحہ'
+  si-wiki:
+    description: 'وِکی تے {community} دا صفحہ'
   tn-facebook-group:
     name: 'فیس‌بوک تے {community} دا صفحہ'
   uk-london-wiki:
@@ -119,3 +139,11 @@ pa_PK:
   uy-irc:
     description: 'irc.freenode.org (پورٹ 6667) ‘تے #{account} جوڑو'
     extendedDescription: 'irc.freenode.org ‘تے #{account} جوڑو'
+  vn-wiki:
+    description: 'وِکی تے {community} دا صفحہ'
+  ym-AASTU:
+    extendedDescription: ਜਿਓਮੈਟਿਕਸ ਇੰਜਨੀਅਰਿੰਗ ਸਟੂਡੈਂਟਸ ਦੀ ਐਸੋਸੀਏਸ਼ਨ (AGES), ਦਾ ਉਦੇਸ਼ GIS ਉਤਪਾਦਾਂ ਅਤੇ ਸੇਵਾਵਾਂ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕਰਨ ਦੇ ਨਾਲ-ਨਾਲ ਵਿਦਿਆਰਥੀਆਂ ਨੂੰ ਉਹਨਾਂ ਦੀ ਵਰਤੋਂ ਬਾਰੇ ਸਿਖਲਾਈ ਦੇਣਾ ਹੈ। ਇਹ ਨਾ ਸਿਰਫ਼ ਵਿਦਿਆਰਥੀਆਂ ਅਤੇ ਅਭਿਆਸ ਕਰਨ ਵਾਲੇ ਪੇਸ਼ੇਵਰਾਂ ਵਿਚਕਾਰ ਸਮਾਜਿਕਤਾ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕਰਦਾ ਹੈ, ਸਗੋਂ ਯੂਨੀਵਰਸਿਟੀ ਵਿੱਚ ਨਵੇਂ ਜੀਆਈਐਸ ਰੱਖਣ ਅਤੇ ਸਰਵੇਖਣ ਸਮਾਗਮਾਂ ਅਤੇ ਸਿਖਲਾਈ ਲਈ ਨਵੇਂ ਵਿਚਾਰਾਂ ਦਾ ਆਦਾਨ-ਪ੍ਰਦਾਨ ਕਰਨ ਲਈ ਇੱਕ ਪਲੇਟਫਾਰਮ ਵੀ ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ।
+  ym-Ahmadu-Bello-University:
+    extendedDescription: 'ਅਸੀਂ ਡੇਟਾ ਸੰਚਾਲਿਤ ਮਾਨਵਤਾਵਾਦੀ ਮੈਪਰਾਂ ਦਾ ਇੱਕ ਸਮੂਹ ਹਾਂ, ਜੋ ਆਫ਼ਤ ਅਤੇ ਨਿਵਾਰਣ ਦੇ ਜਵਾਬ ਵਿੱਚ ਮਾਨਵਤਾਵਾਦੀ ਸੇਵਾ ਪ੍ਰਦਾਨ ਕਰਨ ਲਈ ਸਮਰਪਿਤ ਹਨ। ਅਸੀਂ ਮੈਪਿੰਗ ਦੁਆਰਾ, ਅਤੇ ਸਿਖਲਾਈ, ਅਤੇ ਸਹਿਯੋਗ ਦੁਆਰਾ #OpenEvangelism ਨੂੰ ਫੈਲਾਉਣ ਵਿੱਚ ਮਦਦ ਕਰਕੇ ਆਪਣੀ ਮੁਹਾਰਤ ਅਤੇ ਗਿਆਨ ਦਾ ਯੋਗਦਾਨ ਪਾ ਕੇ ਖੁਸ਼ ਹਾਂ।'
+  ym-Jomo-Kenyatta-University-of-Agriculture-and-Technology:
+    extendedDescription: ਜਿਓਮੈਟਿਕਸ ਇੰਜਨੀਅਰਿੰਗ ਸਟੂਡੈਂਟਸ ਦੀ ਐਸੋਸੀਏਸ਼ਨ (AGES), ਦਾ ਉਦੇਸ਼ GIS ਉਤਪਾਦਾਂ ਅਤੇ ਸੇਵਾਵਾਂ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕਰਨ ਦੇ ਨਾਲ-ਨਾਲ ਵਿਦਿਆਰਥੀਆਂ ਨੂੰ ਉਹਨਾਂ ਦੀ ਵਰਤੋਂ ਬਾਰੇ ਸਿਖਲਾਈ ਦੇਣਾ ਹੈ। ਇਹ ਨਾ ਸਿਰਫ਼ ਵਿਦਿਆਰਥੀਆਂ ਅਤੇ ਅਭਿਆਸ ਕਰਨ ਵਾਲੇ ਪੇਸ਼ੇਵਰਾਂ ਵਿਚਕਾਰ ਸਮਾਜਿਕਤਾ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕਰਦਾ ਹੈ, ਸਗੋਂ ਯੂਨੀਵਰਸਿਟੀ ਵਿੱਚ ਨਵੇਂ ਜੀਆਈਐਸ ਰੱਖਣ ਅਤੇ ਸਰਵੇਖਣ ਸਮਾਗਮਾਂ ਅਤੇ ਸਿਖਲਾਈ ਲਈ ਨਵੇਂ ਵਿਚਾਰਾਂ ਦਾ ਆਦਾਨ-ਪ੍ਰਦਾਨ ਕਰਨ ਲਈ ਇੱਕ ਪਲੇਟਫਾਰਮ ਵੀ ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ।

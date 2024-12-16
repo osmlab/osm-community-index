@@ -6,6 +6,7 @@ sv:
     mappingbotswana: Kartlägg Botswana
     maptimebogota: MaptimeBogota
     maptimehrva: MaptimeHRVA
+    opensourcesanjose: Öppen källa San José
     openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap Aachen
     openstreetmapafghanistan: OpenStreetMap Afghanistan
@@ -47,7 +48,6 @@ sv:
     openstreetmapchile: OpenStreetMap Chile
     openstreetmapchina: OpenStreetMap Kina
     openstreetmapcologne: OpenStreetMap Köln
-    openstreetmapcolombia: OpenStreetMap Colombia
     openstreetmapcomunitatvalenciana: OpenStreetMap regionen Valencia
     openstreetmapcostarica: OpenStreetMap Costa Rica
     openstreetmapcotedivoire: OpenStreetMap Elfenbenskusten
@@ -86,6 +86,7 @@ sv:
     openstreetmapgrenoble: OpenStreetMap Grenoble
     openstreetmapguatemala: OpenStreetMap Guatemala
     openstreetmapguinea: OpenStreetMap Guinea
+    openstreetmaphaiti: OpenStreetMap Haiti
     openstreetmaphamburg: OpenStreetMap Hamburg
     openstreetmaphonduras: OpenStreetMap Honduras
     openstreetmaphongkong: OpenStreetMap Hong Kong
@@ -202,6 +203,7 @@ sv:
     openstreetmapzambia: OpenStreetMap Zambia
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
     osmmainz: OSM Mainz
+    tadeomappers: TadeoMappers
     youthmappersasu: YouthMappersASU
   _defaults:
     aparat:
@@ -300,6 +302,7 @@ sv:
       url: https://twitter.com/{account}
     xmpp:
       name: 'XMPP för {community'
+      description: 'Anslut till vår gemenskapschatt på XMPP: {url}'
     youtube:
       name: '{community} på YouTube'
       description: Prenumerera på vår YouTube-kanal
@@ -307,6 +310,8 @@ sv:
     zulip:
       name: 'Zulip för {community}'
       description: Anslut till gemenskapenschatten på Zulip
+  aberdeen-discord:
+    name: OSM ABZ Discord
   af-matrix:
     description: Matrisgrupp för gemenskapen i Afghanistan.
   al-maptime-tirana:
@@ -378,12 +383,6 @@ sv:
     extendedDescription: Anslut till gemenskapen för att lära dig mer om OpenStreetMap, ställa frågor eller delta på våra möten. Alla är välkomna!
   cl-telegram:
     extendedDescription: Anslut till gemenskapen för att lära dig mer om OpenStreetMap, ställa frågor eller delta på våra möten. Alla är välkomna!
-  co-facebook:
-    extendedDescription: Anslut till gemenskapen för att lära dig mer om OpenStreetMap. Alla är välkomna!
-  co-github:
-    description: Git-projekt om Colombia
-  co-wiki:
-    description: Wikisidan med dokumentationen för att kartera Colombia
   comunitat-valenciana-wiki:
     description: 'Gemenskap för allt du behöver veta om kartläggning i Valencia: {url}'
   czech-community:
@@ -500,8 +499,8 @@ sv:
   GeoPhilly:
     description: Träffar för kart-entusiaster kring Philadelphia
     extendedDescription: GeoPhilly förenar utvecklare, geografer, data-nördar, open source-entusiaster, civila hackare och kartmissbrukare i vår gemensamma kärlek för kartor och vad de berättar för oss. Om du använder kartor som en del av ditt arbete eller bara vill lära dig mer, är det här samlingspunkten för dig! Våra aktiviteter syftar till att vara öppna, vänliga, pedagogiska och sociala och spänna allt från roliga stunder till korta föreläsningar eller till och med workshops. Kom och skapa en varierad, inspirerande geo-gemenskap i Philadelphia med oss!
-  hr-irc:
-    description: 'Anslut #{account} på irc.freenode.org (port 6667)'
+  hr-github:
+    description: 'GitHub för {community}'
   hr-wiki:
     description: Wikiproject-sida för Kroatien
   hu-facebook-group:
@@ -534,8 +533,6 @@ sv:
     extendedDescription: 'Anslut #{account} på irc.oftc.net (port 6667). Ha tålamod och vänta några minuter om du ställer en fråga'
   ireland-matrix:
     description: 'En Matrix-gateway för OSM Irelands IRC-kanal: {url}'
-  ireland-meetup:
-    description: Meetups med alla som är intresserade av OpenStreetMap
   is-chapter:
     description: Vi hjälper till att utöka och förbättra OpenStreetMap på Island.
   it-chapter:
@@ -550,6 +547,7 @@ sv:
     description: Vi hjälper till att utöka och förbättra OpenStreetMap i Korea.
     extendedDescription: Om du bidrar eller är intresserad av att bidra till OpenStreetMap får du gärna gå med oss. Vi är redo att ta emot nybörjare när som helst!
   kosovo-flossk:
+    name: Free Libre Open Source Software Kosova (FLOSSK)
     description: Promoting FLOSS sedan 2009
     extendedDescription: Free Libre Open Source Software Kosova (FLOSSK) är en icke-statlig organisation baserad i Prishtina som grundades 2009 för att stödja, främja och utveckla fri programvara och programvara med öppen källkod. Vi bidrar också till öppen och deltagande kunskap, utbildning i informationsteknik genom öppna utbildningsresurser, öppna standarder, kultur och ett öppet samhälle genom fri kommunikation.
   kosovo-matrix:
@@ -591,38 +589,38 @@ sv:
   map-kibera:
     description: Map Kibera är en registrerad organisation som verkar i Kenya
     extendedDescription: Map Kibera Trusts uppdrag är att öka inflytande och representation av marginaliserade samhällen genom kreativ användning av digitala verktyg för handling.
-  MapABQ:
-    description: Möte en gång i månaden för OpenStreetMap-användare i Albuquerque och norra New Mexico
-    extendedDescription: Alla är välkomna att gå med och vi hjälper dig gärna att komma igång med kartläggningen. Mötena är i ett öppet format så att bidragsgivare kan fokusera på att lägga till OpenStreetMap för Albuquerque och omgivande områden.
-  MapColabora-mailinglist:
-    description: E-postlista för Mapeado Colaborativo / Geoinquietos Zaragoza
   MapColabora-twitter:
     description: Twitter-konto för Mapeado Colaborativo / Geoinquietos Zaragoza
   mappa-mercia-group:
     name: Lokalgrupp Mappa Mercia
     description: Ett hem för OpenStreetMap-entusiaster i Midlands
     extendedDescription: Mappa Mercia är ett projekt att förbättra OpenStreetMap i West Midlands, Storbritannien. Vi har gemenskapsevenemang, tillhandahåller upplärning och ger support till lokala organisationer som vill öppna upp sin data.
-  MappingDC-meetup:
-    description: Förbättra OpenStreetMap i DC-området
-    extendedDescription: Vi är en grupp volontär-kartläggare med syfte att förbättra OpenStreetMap i DC-området. Vi strävar även efter att lära andra om ekosystemet i OSM, dataanalys, kartografi och GIS. Vi samlas varannan månad för att fokusera på ett område i vår stad.
   MappingWR:
     description: Det är lätt att hitta vägar med låg koldioxidutsläpp runt Waterloo-regionen.
   maptime-bogota-facebook:
+    name: MaptimeBogotá
     description: Vi är en grupp människor som är intresserade av att kartlägga Bogotá och dess omgivningar i OpenStreetMap.
+    extendedDescription: Lär dig att samla in data på fältet och digitalisera det i OpenStreetMap. Det finns inga krav på förkunskaper! Du behöver bara lusten att delta, lära dig och ha kul.
   maptime-bogota-github:
     name: MaptimeBogotá
     description: Vi är en grupp människor som är intresserade av att kartlägga Bogotá och dess omgivningar i OpenStreetMap.
+    extendedDescription: Lär dig att samla in data på fältet och digitalisera det i OpenStreetMap. Det finns inga krav på förkunskaper! Du behöver bara lusten att delta, lära dig och ha kul.
   maptime-bogota-linkedin:
     name: MaptimeBogotá
+    description: Vi är en grupp människor som är intresserade av att kartlägga Bogotá och dess omgivningar i OpenStreetMap.
+    extendedDescription: Lär dig att samla in data på fältet och digitalisera det i OpenStreetMap. Det finns inga krav på förkunskaper! Du behöver bara lusten att delta, lära dig och ha kul.
   maptime-bogota-mastodon:
     name: MaptimeBogotá
     description: Vi är en grupp människor som är intresserade av att kartlägga Bogotá och dess omgivningar i OpenStreetMap.
+    extendedDescription: Lär dig att samla in data på fältet och digitalisera det i OpenStreetMap. Det finns inga krav på förkunskaper! Du behöver bara lusten att delta, lära dig och ha kul.
   maptime-bogota-meetup:
     name: MaptimeBogotá
     description: Vi är en grupp intresserade av att kartlägga Bogotá och dess omgivningar till OpenStreetMap.
     extendedDescription: Lär dig att samla in data på fältet och digitalisera det i OpenStreetMap. Det finns inga krav på förkunskaper! Du behöver bara lusten att delta, lära dig och ha kul.
   maptime-bogota-telegram:
     name: MaptimeBogotá
+    description: Vi är en grupp människor som är intresserade av att kartlägga Bogotá och dess omgivningar i OpenStreetMap.
+    extendedDescription: Lär dig att samla in data på fältet och digitalisera det i OpenStreetMap. Det finns inga krav på förkunskaper! Du behöver bara lusten att delta, lära dig och ha kul.
   maptime-bogota-twitter:
     name: MaptimeBogotá
     description: Vi är en grupp intresserade av att kartlägga Bogotá och dess omgivningar i OpenStreetMap.
@@ -634,6 +632,7 @@ sv:
   maptime-bogota-youtube:
     name: MaptimeBogotá
     description: Vi är en grupp människor som är intresserade av att kartlägga Bogotá och dess omgivningar i OpenStreetMap.
+    extendedDescription: Lär dig att samla in data på fältet och digitalisera det i OpenStreetMap. Det finns inga krav på förkunskaper! Du behöver bara lusten att delta, lära dig och ha kul.
   Maptime-ME-meetup:
     name: MaptimeME
     description: Kartläggare och OpenStreetMap-användare runt Portland, Maine
@@ -684,6 +683,7 @@ sv:
   osm-africa-slack:
     description: Alla är välkomna! Registrera dig på {signupUrl}
   OSM-AR-geolibres:
+    name: GeoLibres
     description: Geolibres Civilföreningen
     extendedDescription: Vi främjar skapandet och användningen av fritt tillgängliga geografiska data, antagandet av geografiska standarder och användningen av programvara med fri och öppen källkod.
   OSM-AR-telegram:
@@ -702,6 +702,7 @@ sv:
     description: Kartläggare och OpenStreetMap-användare runt Mount Vernon, Washington
     extendedDescription: OpenStreetMap är en världskarta skapad av människor precis som du. Det är en karta du bygger och ger bort gratis, precis som Wikipedia. Ta en titt på osm.org för mer information. Vi träffas hela tiden för att prata om kartor, skapar kartor och har kul!
   osm-ch:
+    name: '{community}'
     description: Plattformen för information om OpenStreetMap i Schweiz
   OSM-Chattanooga:
     description: OpenStreetMap-användargruppen för Chattanooga, Tennessee
@@ -755,8 +756,6 @@ sv:
     extendedDescription: Du är välkommen att gå med i vår Telegram-kanal på {url}. Vi har också en supergrupp med många OSM:are intresserade av Iran. Hitta dess länk i beskrivningen av kanalen.
   OSM-japan-facebook:
     description: Kartläggare och OpenStreetMap-användare i Japan
-  OSM-japan-slack:
-    description: En Slack-arbetsgrupp för den japanska OSM-gemenskapen {signupUrl}
   OSM-japan-website:
     description: Kartläggare och OpenStreetMap-användare i Japan
   osm-kenya:
@@ -808,8 +807,6 @@ sv:
     extendedDescription: Vi siktar på att vara en resurs för människor att diskutera och dela kunskaper om hur man använder fri geografiska datasamlingar, speciellt OpenStreetMap, och öppen geo-mjukvara som hanterar, redigerar och visar geografiska data och förespråkar för dess användning i Lazio.
   OSM-Seattle:
     description: Kartläggare och OpenStreetMap-användare runt Seattle
-  osm-sierra-leone:
-    description: Vi fokuserar på skapande och användning av öppna data för att lösa sociala, ekonomiska och samhällsrelaterade utmaningar.
   OSM-SoCal:
     name: OpenStreetMap södra Kalifornien
     description: Låt oss ha lite kul, bidra med något till Los Angeles och lär dig om kartläggning!
@@ -868,6 +865,8 @@ sv:
     extendedDescription: Anslut till gemenskapen för att lära dig mer om OpenStreetMap, ställa frågor eller delta på våra möten. Alla är välkomna!
   rs-wiki:
     description: Wikiproject-sida för Serbien
+  sg-wiki:
+    description: 'Wiki-sida för {community}'
   si-github:
     description: 'GitHub för {community}'
   si-ljubljana-wiki:
@@ -924,6 +923,8 @@ sv:
     extendedDescription: 'Anslut #{account} på irc.freenode.org'
   vn-mailinglist:
     description: E-postlista om OpenStreetMap i Vietnam eller på vietnamesiska
+  vn-wiki:
+    description: 'Wiki-sida för {community}'
   YerCizenler-TR:
     description: Yer Çizenler-kartläggning för alla  sammanslutningar
     extendedDescription: Yer Çizenler är en lokal icke-statlig organisation, en del av det turkiska OSM-gemenskapen, som syftar till att främja användningen av öppna geospatiala data och verktyg inom det nationella kartläggningsgemenskapen.
@@ -960,6 +961,7 @@ sv:
     description: YouthMappers-filial vid California University of Pennsylvania
     extendedDescription: GIS Students vid Cal U lär sig att tillämpa rumslig teori på den verkliga världen. Universitetsutbildningen fokuserar på geografi och använder GIS i nödhantering.
   ym-Central-Washington-University:
+    name: Geografiska klubben
     description: YouthMappers-filial vid Central Washington University
     extendedDescription: Vårt mål med att samarbeta med Youthmappers är att ge lättnad till områden som behöver humanitär kartläggning. Genom att göra det tjänar vi våra bröder och systrar runt om i världen och främjar våra egna kartografiska färdigheter.
   ym-Clemson-University:
@@ -995,15 +997,9 @@ sv:
     extendedDescription: FEU har erkänts som ett av de ledande universiteten på Filippinerna. Dess uppdrag är att producera akademiker som har bidragit till landets framgång. Universitetet utmanar sig ständigt för att höja gränsen för spetskompetens för att uppnå en högsta status inte bara i Filippinerna utan också i den sydostasiatiska regionen
   ym-Federal-School-of-Surveys:
     description: YouthMappers-filial vid Federal School of Surveys
-  ym-Federal-University-of-Technology-Akure:
-    description: YouthMappers-filial vid Federal University of Technology, Akure
-    extendedDescription: Vårt uppdrag är att höja nästa generation rymdledare. Bland aktiviteterna ingår forskning och kapacitetsuppbyggnad inom fjärravkänning, GIS, klimatförändring, astronomi, kosmologi, rymdteknik, global navigering, robotik och rymdutbildning.
   ym-Fourah-Bay-College:
     description: YouthMappers-filial vid Fourah Bay College
     extendedDescription: Student's Geographical Association- YouthMappers är en sammanslutning av Fourah Bay College-studenter med de gemensamma målen att kartlägga utsatta platser i Sierra Leone och världen i stort för lättnad och andra fördelaktiga ändamål, genomföra forskning och andra utbildningsinsatser. Kapitlet består av ungdomar med fantastiska idéer, utvecklingsorienterade med förmåga att relatera till varandra, förstå och genomföra hållbara utvecklingsprojekt som ett team.
-  ym-General-Lansana-Conte-University:
-    description: YouthMappers-filial vid General Lansana Conte University
-    extendedDescription: YouthMappers of University General Lansana Conté är en ideell sammanslutning som är villigt att bidra till Map Guinea och andra delar av världen. Vi främjar användningen av GIS och Open data för att bygga verktyg för beslutsstöd. Vi arbetar också för att bygga upp kapacitet bland eleverna och lokala samhällen.
   ym-George-Mason-University:
     description: YouthMappers-filial vid George Mason University
     extendedDescription: Mason Mappers Student Society är en humanitär kartläggning av studentorganisationer i George Mason University GGS-avdelningen, och dess mål är att främja utbildning och kunskap inom geo-teknik, geo-infovetenskap, för att främja god global förvaltning och engagera sig i professionell utveckling samtidigt som man bygger en positiva, interaktiva geosamhällen, liksom att forma eleverna till morgondagens ledare.
@@ -1107,6 +1103,7 @@ sv:
     description: YouthMappers-filial vid Ohio Wesleyan University
     extendedDescription: Environment and Wildlife Club tittar på miljöfrågor på campus, i Delaware och till och med nationellt! Vi skapar campus- och samhällsprojekt, utforskar och njuter av friluftsliv, arbetar frivilligt och försöker främja miljöarbete i alla aspekter av våra liv.
   ym-Oklahoma-State-University:
+    name: Geografiska klubben
     description: YouthMappers-filial vid Oklahoma State University
   ym-Open-University-of-Tanzania:
     name: Youth Mappers vid Open University of Tanzania
@@ -1254,6 +1251,7 @@ sv:
     description: YouthMappers-filial vid University of Malawi
     extendedDescription: Chanco Malawi YouthMappers är studentkartororganisationen för University of Malawis Chancellor College. Studenterna i denna filial fokuserar på kartläggning för Malawis utvecklings- och vetenskapsbehov.
   ym-University-of-Maryland-College-Park:
+    name: Geografiska klubben
     description: YouthMappers-filial vid University of Maryland - College Park
     extendedDescription: Geografiklubbens uppdrag vid University of Maryland College Park är att engagera och uppmuntra studenter att utforska geografiska intressen inom campus och samhället.
   ym-University-of-Mines-and-Technology:
@@ -1274,9 +1272,6 @@ sv:
   ym-University-of-Northern-Colorado:
     description: YouthMappers-filial vid University of Northern Colorado
     extendedDescription: 'Filialen Official Geography and GIS Club som är kopplat till University of Northern Colorado där vårt mål är att lära, dela och få kontakt med dem omkring oss. #MakingSenseOfTheWorld'
-  ym-University-of-Oregon:
-    description: YouthMappers-filial vid University of Oregon
-    extendedDescription: Map By Northwest syftar till att engagera studenter vid University of Oregon i kartläggningsprojekt för att hjälpa humanitära mål och för att bedriva geografisk forskning. Vi välkomnar studenter från alla discipliner för att följa med i våra kartupplevelser.
   ym-University-of-Port-Harcourt:
     description: YouthMappers-filial vid University of Port Harcourt
     extendedDescription: UniqueMappersTeam (UMT) Port Harcourt är en åtgärdsgrupp och ett team av frivilliga för en samarbetsdriven online-kartläggning riktad mot utbildning och bemyndigande av medlemmar med trending kartläggningskompetens för att skapa öppen geospatial data och analys som adresserar lokalt definierade utmaningar för geoinformation och tillhandahålla humanitära kartläggningstjänster för att motståndskraftiga samhällen i Niger Delta, Nigeria och på andra håll. Vi främjar Crowdsoucred Mapping och geografisk information som volontär med hjälp av OpenStreetMap (OSM) -plattform och andra tillgängliga plattformar för snabbkartläggning, katastrofkartläggning, kartläggning av geo-intelligens, kartuppdateringar och utbildning. Det är dotterbolag till Campusfilialen Humanitarian OpenStreetMap Team (HOT). Det är ett projektuppgiftsteam av YouthMappers som ger medlemmarna möjlighet att lära sig och förbättra sina färdigheter inom geoinformatik för att utforska globala möjligheter inom kartläggning och geoinformation.

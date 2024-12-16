@@ -64,6 +64,7 @@ gl:
     openstreetmapmexico: OpenStreetMap México
     openstreetmapmichigan: OpenStreetMap Míchigan
     openstreetmapmoldova: OpenStreetMap Moldavia
+    openstreetmapmontenegro: OpenStreetMap Montenegro
     openstreetmapmorocco: OpenStreetMap Marrocos
     openstreetmapnetherlands: OpenStreetMap Países Baixos
     openstreetmapniger: OpenStreetMap Níxer
@@ -105,6 +106,8 @@ gl:
     discord:
       name: 'Discord de {community}'
       description: Ponte en contacto con outros cartógrafos en Discord
+    discourse:
+      description: O foro oficial para {community}
     facebook:
       name: '{community} no Facebook'
       description: Únete á nosa comunidade no Facebook
@@ -149,11 +152,17 @@ gl:
   Bay-Area-OpenStreetMappers:
     name: OpenStreetMappers da área da badía
     description: Mellore o OpenStreetMap na área da badía
+  bd-facebook:
+    extendedDescription: Cartografando en Bangladesh? Tes algunha pregunta e desexas contactar ca comunidade aquí? Únete a nós en {url}. Todos son benvidos!
   be-matrix:
     description: Tódolos cartógrafos son benvidos!
   be-meetup:
     description: Xuntanzas presenciais de tódolos interesados no OpenStreetMap
     extendedDescription: As xuntanzas presenciais son xeniais para coñecer a outros cartógrafos, facerlles cuestións e aprender moito. Son de xeito especial benvidos os novos contribuíntes!
+  bo-matrix:
+    description: Tódolos cartógrafos son benvidos!
+  br-telegram:
+    extendedDescription: Únete á comunidade para obter máis información acerca do OpenStreetMap, facer cuestións ou participar nas nosas xuntanzas. Todos son benvidos!
   cape-coast-youthmappers:
     name: Universidade de Cape Coast YouthMappers
     description: 'Séguenos no Twitter: {url}'
@@ -162,15 +171,31 @@ gl:
     description: Proxectos da comunidade de OpenStreetMap Países Cataláns no GitHub
   cat-wiki:
     description: 'Espazo de coordinación para a comunidade de OpenStreetMap na zona dos Países Cataláns: {url}'
+  cl-facebook:
+    extendedDescription: Únete á comunidade para obter máis información acerca do OpenStreetMap, facer cuestións ou participar nas nosas xuntanzas. Todos son benvidos!
+  cl-telegram:
+    extendedDescription: Únete á comunidade para obter máis información acerca do OpenStreetMap, facer cuestións ou participar nas nosas xuntanzas. Todos son benvidos!
+  DF-telegram:
+    extendedDescription: Únete á comunidade para obter máis información acerca do OpenStreetMap, facer cuestións ou participar nas nosas xuntanzas. Todos son benvidos!
   galicia-wiki:
     description: 'Todo o que precisas saber sobre o cartografado en Galiza: {url} (todas as ferramentas do mundo do OSM están en galego, emprégaas!)'
   Galicia-Xeoinquedos-Twitter:
     name: Xeoinquedos no Twitter
     description: Síguenos no Twitter en {url}
-  MapColabora-mailinglist:
-    description: Lista de correo de Mapeado Colaborativo / Geoinquietos Zaragoza
+  hr-github:
+    description: 'GitHub de {community}'
+  ko-github:
+    description: 'GitHub de {community}'
+  madrid-upm-ym:
+    name: Mapeo Humanitario
   MapColabora-twitter:
     description: Twitter de Mapeado Colaborativo / Xeoinquedos Zaragoza
+  Maptime-Oceania-Slack:
+    description: Rexistrarse en {signupUrl}
+  nl-matrix:
+    description: Tódolos cartógrafos son benvidos!
+  osm-africa-matrix:
+    description: Tódolos cartógrafos son benvidos!
   OSM-AR-twitter:
     extendedDescription: 'Novas da comunidade local e do OpenStreetMap en xeral. '
   OSM-Facebook:
@@ -206,6 +231,12 @@ gl:
   PHXGeo-twitter:
     name: Twitter de PHXGeo
     description: Séguenos no Twitter en {url}
+  RS-telegram:
+    extendedDescription: Únete á comunidade para obter máis información acerca do OpenStreetMap, facer cuestións ou participar nas nosas xuntanzas. Todos son benvidos!
+  si-github:
+    description: 'GitHub de {community}'
+  talk-bo:
+    extendedDescription: Cartografando en Bolivia? Tes cuestións e desexas contactar ca comunidade aquí? Únete a nós en {url}. Todos son benvidos!
   talk-mg:
     description: Lugar para contribuíntes, comunidades e usuarios do OpenStreetMap en Madagascar para compartir e debater.
   uk-london-twitter:
