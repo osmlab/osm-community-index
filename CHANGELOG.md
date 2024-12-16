@@ -24,23 +24,8 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 * Updated dependencies, bump to location-conflation v1.4.1 / country-coder v5.3.1
 * Support new resource type: `bluesky`
 * Added:
-  * Many community forum links ([#741],[#742],[#743],[#744],[#745],[#746],[#747],[#748],[#752]):
-    * Africa
-    * Austria
-    * Bangladesh
-    * Canada
-    * Croatia
-    * Estonia
-    * Finland
-    * Hungary
-    * Indonesia
-    * Malaysia
-    * Mexico
-    * Nepal
-    * Russia
-    * Sweden
-    * Ukraine
-    * Venezuela
+  * Many community forum links ([#741], [#742], [#743], [#744], [#745], [#746], [#747], [#748], [#752]):
+    * Africa, Austria, Bangladesh, Canada, Croatia, Estonia, Finland, Hungary, Indonesia, Malaysia, Mexico, Nepal, Russia, Sweden, Ukraine, Venezuela
   * Social networks for OSM Colombia ([#749])
   * Social networks for TadeoMappers ([#754])
   * Nelson, New Zealand mapping group ([#755])
@@ -49,12 +34,8 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
   * Bulgaria Matrix ([#766])
 * Updated:
   * Switch OSM Berlin from Telegram to Mastodon ([#740])
-  * Many sort orders updated ([#750],[#751],[#753]):
-    * India
-    * Ireland
-    * Italy
-    * Serbia
-    * Thailand
+  * Many sort orders updated ([#750], [#751], [#753]):
+    * India, Ireland, Italy, Serbia, Thailand
 * Removed:
   * Ireland Meetup ([#750])
   * Indonesia mailing list
