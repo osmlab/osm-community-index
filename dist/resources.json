@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "5.8.1",
-    "generated": "2024-11-19T16:45:07.136Z",
+    "version": "5.9.0",
+    "generated": "2024-12-16T16:06:28.062Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "2fce9a6887a2d83a9cf6d2684aca72f7"
+    "hash": "44236de9de1d2bb48352d56c243ea0b6"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -38,6 +38,7 @@
     "be-twitter": {"id": "be-twitter", "type": "twitter", "account": "osm_be", "locationSet": {"include": ["be"]}, "languageCodes": ["de", "en", "fr", "nl"], "order": 4, "strings": {"community": "OpenStreetMap Belgium", "communityID": "openstreetmapbelgium"}, "contacts": [{"name": "BE community", "email": "community@osm.be"}]},
     "bg-discourse": {"id": "bg-discourse", "type": "discourse", "account": "bg", "locationSet": {"include": ["bg"]}, "languageCodes": ["bg"], "strings": {"community": "OpenStreetMap Bulgaria", "communityID": "openstreetmapbulgaria"}},
     "bg-facebook": {"id": "bg-facebook", "type": "facebook", "locationSet": {"include": ["bg"]}, "languageCodes": ["en"], "strings": {"community": "OpenStreetMap Bulgaria", "communityID": "openstreetmapbulgaria", "url": "https://www.facebook.com/groups/636048026407613"}},
+    "bg-matrix": {"id": "bg-matrix", "type": "matrix", "account": "#osm-bg", "locationSet": {"include": ["bg"]}, "languageCodes": ["bg"], "strings": {"community": "OpenStreetMap Bulgaria", "communityID": "openstreetmapbulgaria"}},
     "bg-wiki": {"id": "bg-wiki", "type": "wiki", "locationSet": {"include": ["bg"]}, "languageCodes": ["bg", "en"], "order": 10, "strings": {"community": "OpenStreetMap Bulgaria", "communityID": "openstreetmapbulgaria", "description": "Wikiproject page for Bulgaria", "url": "https://wiki.openstreetmap.org/wiki/WikiProject_Bulgaria"}},
     "bi-twitter": {"id": "bi-twitter", "type": "twitter", "account": "osmburundi", "locationSet": {"include": ["bi"]}, "languageCodes": ["en"], "order": 2, "strings": {"community": "OpenStreetMap Burundi", "communityID": "openstreetmapburundi"}},
     "bi-vc-cvl-meetup": {"id": "bi-vc-cvl-meetup", "type": "meetup", "locationSet": {"include": ["bi-vc-cvl.geojson"]}, "languageCodes": ["it"], "order": 3, "strings": {"community": "OpenStreetMap BI-VC-CVL", "communityID": "openstreetmapbivccvl", "description": "Local group for mappers in Biellese, Vercellese, Canavese e Valli di Lanzo", "extendedDescription": "Meeting since February 2018, usually in Biella or Ivrea.", "url": "https://wiki.openstreetmap.org/wiki/OSMers_BI-VC-CVL"}, "contacts": [{"name": "Andrea Musuruane", "email": "musuruan@gmail.com"}, {"name": "Marco Brancolini", "email": "mbranco2@gmail.com"}]},

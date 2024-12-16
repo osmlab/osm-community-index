@@ -1,15 +1,20 @@
 {
   "_meta": {
-    "version": "5.8.1",
-    "generated": "2024-09-12T14:00:34.994Z",
+    "version": "5.9.0",
+    "generated": "2024-12-16T16:11:20.725Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/defaults.json",
-    "hash": "9d13c7a6c7b26f2d87a89d5786a6faff"
+    "hash": "f8c061ebdc78d18b42fd83f519813ae5"
   },
   "defaults": {
     "aparat": {
       "name": "{community} on Aparat",
       "description": "Subscribe to our Aparat channel",
       "url": "https://aparat.com/{account}"
+    },
+    "bluesky": {
+      "name": "{community} on Bluesky",
+      "description": "Follow us on Bluesky",
+      "url": "https://bsky.app/profile/{account}"
     },
     "discord": {
       "name": "{community} Discord",

@@ -19,6 +19,71 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.9.0
+##### 2024-Dec-16
+* Updated dependencies, bump to location-conflation v1.4.1 / country-coder v5.3.1
+* Support new resource type: `bluesky`
+* Added:
+  * Many community forum links ([#741],[#742],[#743],[#744],[#745],[#746],[#747],[#748],[#752]):
+    * Africa
+    * Austria
+    * Bangladesh
+    * Canada
+    * Croatia
+    * Estonia
+    * Finland
+    * Hungary
+    * Indonesia
+    * Malaysia
+    * Mexico
+    * Nepal
+    * Russia
+    * Sweden
+    * Ukraine
+    * Venezuela
+  * Social networks for OSM Colombia ([#749])
+  * Social networks for TadeoMappers ([#754])
+  * Nelson, New Zealand mapping group ([#755])
+  * Georgia Matrix ([#760])
+  * Croatia resources and remove IRC ([#762])
+  * Bulgaria Matrix ([#766])
+* Updated:
+  * Switch OSM Berlin from Telegram to Mastodon ([#740])
+  * Many sort orders updated ([#750],[#751],[#753]):
+    * India
+    * Ireland
+    * Italy
+    * Serbia
+    * Thailand
+* Removed:
+  * Ireland Meetup ([#750])
+  * Indonesia mailing list
+  * Many groups with dead links ([#757])
+  * MapABQ ([#759])
+
+[#740]: https://github.com/osmlab/osm-community-index/issues/740
+[#741]: https://github.com/osmlab/osm-community-index/issues/741
+[#742]: https://github.com/osmlab/osm-community-index/issues/742
+[#743]: https://github.com/osmlab/osm-community-index/issues/743
+[#744]: https://github.com/osmlab/osm-community-index/issues/744
+[#745]: https://github.com/osmlab/osm-community-index/issues/745
+[#746]: https://github.com/osmlab/osm-community-index/issues/746
+[#747]: https://github.com/osmlab/osm-community-index/issues/747
+[#748]: https://github.com/osmlab/osm-community-index/issues/748
+[#749]: https://github.com/osmlab/osm-community-index/issues/749
+[#750]: https://github.com/osmlab/osm-community-index/issues/750
+[#751]: https://github.com/osmlab/osm-community-index/issues/751
+[#752]: https://github.com/osmlab/osm-community-index/issues/752
+[#753]: https://github.com/osmlab/osm-community-index/issues/753
+[#754]: https://github.com/osmlab/osm-community-index/issues/754
+[#755]: https://github.com/osmlab/osm-community-index/issues/755
+[#757]: https://github.com/osmlab/osm-community-index/issues/757
+[#759]: https://github.com/osmlab/osm-community-index/issues/759
+[#760]: https://github.com/osmlab/osm-community-index/issues/760
+[#762]: https://github.com/osmlab/osm-community-index/issues/762
+[#766]: https://github.com/osmlab/osm-community-index/issues/766
+
+
 # 5.8.1
 ##### 2024-Sep-12
 * Project has been tested and works on Node 22
