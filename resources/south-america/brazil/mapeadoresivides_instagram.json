@@ -1,0 +1,34 @@
+{
+  "id": "OSM-group",
+  "type": "group",
+  "locationSet": {
+  
+    "include": ["076"],
+    "include": ["005"],
+    "include": ["019"],
+    "include": ["rio_de_janeiro.geojson"]
+  
+  },
+  "languageCodes": ["pt"],
+  "order": 4,
+  "strings": {
+    "community": "Mapeadores IVIDES",
+    "comunityID": "mapeadoresIVIDES",
+    "description": "Todos são bem-vindos! Para ver os detalhes, por favor, visite {signupUrl}. All are welcome! To see details, please, visit {signupUrl}",
+    "signupUrl": "https://tasks.hotosm.org/teams/392/membership/",
+    "url": "https://ivides.org"
+  },
+  "contacts": [
+    {"name": "Raquel Dezidério Souto, Dr.", "email": "ivides@ivides.org"}
+  ],
+  
+  
+  "defaults": {
+  
+   "instagram": {
+
+      "name": "Mapeadores IVIDES on Instagram",
+      "description": "Join our community on Instagram",
+      "url": "https://www.instagram.com/ivides_org/"
+    }
+  }
