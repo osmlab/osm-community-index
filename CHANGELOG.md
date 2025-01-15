@@ -21,13 +21,13 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 
 # 5.9.1
 ##### 2025-Jan-15
-Added:
+* Added:
   * YouthMappers UFRJ and IVIDES ([#765])
   * DE Mainz Signal Group ([#767])
   * OSM Iraq Twitter ([#768])
-Updated:
+* Updated:
   * Swedish community resources ([#775])
-Removed:
+* Removed:
   * OSM Belgium Twitter ([#776])
 
 [#765]: https://github.com/osmlab/osm-community-index/issues/765
