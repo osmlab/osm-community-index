@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.9.0",
-    "generated": "2025-01-05T10:11:50.907Z",
+    "generated": "2025-01-15T14:59:03.692Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "e4b18489470fae0c3993aece22d0d8ae"
+    "hash": "8cdefa6936d93ebe2af51f34f2c1eee9"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -136,6 +136,7 @@
     "de-luneburg-wiki": {"id": "de-luneburg-wiki", "type": "wiki", "account": "L%C3%BCneburg", "locationSet": {"include": [[10.40692, 53.24871]]}, "languageCodes": ["de"], "strings": {"community": "OpenStreetMap Lüneburg", "communityID": "openstreetmapluneburg", "description": "{community} Wiki page"}},
     "de-mailinglist": {"id": "de-mailinglist", "type": "mailinglist", "account": "talk-de", "locationSet": {"include": ["de"]}, "languageCodes": ["de"], "order": -3, "strings": {"community": "OpenStreetMap Germany", "communityID": "openstreetmapgermany"}, "contacts": [{"name": "FOSSGIS e.V.", "email": "info@fossgis.de"}]},
     "de-mainz-mailinglist": {"id": "de-mainz-mailinglist", "type": "mailinglist", "account": "mainz", "locationSet": {"include": [[8.27, 50, 10]]}, "languageCodes": ["de"], "strings": {"community": "OSM Mainz", "communityID": "osmmainz", "description": "OpenStreetMap in Mainz und Umgebung", "url": "https://lists.openstreetmap.de/listinfo/mainz"}},
+    "de-mainz-signal": {"id": "de-mainz-signal", "type": "signal", "locationSet": {"include": [[8.27, 50, 10]]}, "languageCodes": ["de"], "strings": {"community": "OSM Mainz", "communityID": "osmmainz", "description": "OpenStreetMap in Mainz, Wiesbaden und Umgebung", "url": "https://signal.group/#CjQKIJUReW0GI6oi97leIr_OdN2EpdopcGLB0PJmTpepkSSOEhAqTQBb93nQMow_YwHCDu9S"}},
     "de-mainz-telegram": {"id": "de-mainz-telegram", "type": "telegram", "account": "osm_mainz", "locationSet": {"include": [[8.27, 50, 10]]}, "languageCodes": ["de"], "strings": {"community": "OSM Mainz", "communityID": "osmmainz", "description": "OpenStreetMap in Mainz und Umgebung"}},
     "de-mainz-wiki": {"id": "de-mainz-wiki", "type": "wiki", "account": "Mainz", "locationSet": {"include": [[8.27, 50, 10]]}, "languageCodes": ["de"], "strings": {"community": "OSM Mainz", "communityID": "osmmainz", "description": "OpenStreetMap in Mainz und Umgebung"}},
     "de-matrix": {"id": "de-matrix", "type": "matrix", "account": "#osm-de", "locationSet": {"include": ["de"]}, "languageCodes": ["de"], "order": 4, "strings": {"community": "OpenStreetMap Germany", "communityID": "openstreetmapgermany"}, "contacts": [{"name": "Christopher Rossbach", "email": "public.cr@protonmail.ch"}]},
@@ -520,6 +521,7 @@
     "ru-telegram": {"id": "ru-telegram", "type": "telegram", "account": "ruosm", "locationSet": {"include": ["ru"]}, "languageCodes": ["ru"], "strings": {"community": "OpenStreetMap Russia", "communityID": "openstreetmaprussia"}, "contacts": [{"name": "Ilya Zverev", "email": "ilya@zverev.info"}]},
     "rw-facebook": {"id": "rw-facebook", "type": "facebook", "account": "osmrwanda", "locationSet": {"include": ["rw"]}, "strings": {"community": "OpenStreetMap Rwanda", "communityID": "openstreetmaprwanda"}},
     "sa-telegram": {"id": "sa-telegram", "type": "telegram", "account": "OSMSaudi", "locationSet": {"include": ["sa"]}, "order": 5, "strings": {"community": "OpenStreetMap Saudi Arabia", "communityID": "openstreetmapsaudiarabia"}},
+    "scandinavia-discord": {"id": "scandinavia-discord", "type": "discord", "locationSet": {"include": ["se"]}, "languageCodes": ["sv"], "order": 2, "strings": {"community": "OpenStreetMap Sweden", "communityID": "openstreetmapsweden", "name": "Scandinavian channel on OpenStreetMap World Discord", "url": "https://discord.com/channels/413070382636072960/937709499211477092"}},
     "scotland-twitter": {"id": "scotland-twitter", "type": "twitter", "account": "OSMScotland", "locationSet": {"include": ["gb-sct"]}, "languageCodes": ["en"], "order": 4, "strings": {"community": "OpenStreetMap Alba", "communityID": "openstreetmapalba"}},
     "sd-facebook": {"id": "sd-facebook", "type": "facebook", "account": "OpenstreetmapSudan", "locationSet": {"include": ["sd"]}, "strings": {"community": "OpenStreetMap Sudan", "communityID": "openstreetmapsudan"}},
     "se-discourse": {"id": "se-discourse", "type": "discourse", "account": "se", "locationSet": {"include": ["se"]}, "languageCodes": ["sv"], "order": 4, "strings": {"community": "OpenStreetMap Sweden", "communityID": "openstreetmapsweden"}},
@@ -534,7 +536,6 @@
     "sk-facebook": {"id": "sk-facebook", "type": "facebook", "account": "FreemapSlovakia", "locationSet": {"include": ["sk"]}, "languageCodes": ["sk"], "order": 3, "strings": {"community": "OpenStreetMap Freemap Slovakia", "communityID": "openstreetmapfreemapslovakia"}, "contacts": [{"name": "OpenStreetMap Freemap Slovakia", "email": "podpora@freemap.sk"}]},
     "sk-freemap": {"id": "sk-freemap", "type": "osm-lc", "locationSet": {"include": ["sk"]}, "languageCodes": ["cz", "hu", "sk"], "strings": {"community": "OpenStreetMap Freemap Slovakia", "communityID": "openstreetmapfreemapslovakia", "description": "OpenStreetMap map website with tools in Slovakia and surrounding regions", "url": "https://www.freemap.sk"}, "contacts": [{"name": "osm_sk", "email": "osm_sk@googlegroups.com"}]},
     "sk-twitter": {"id": "sk-twitter", "type": "twitter", "account": "FreemapSlovakia", "locationSet": {"include": ["sk"]}, "languageCodes": ["sk"], "strings": {"community": "OpenStreetMap Freemap Slovakia", "communityID": "openstreetmapfreemapslovakia"}, "contacts": [{"name": "OpenStreetMap Freemap Slovensko", "email": "podpora@freemap.sk"}]},
-    "skandinaviskt-discord": {"id": "skandinaviskt-discord", "type": "discord", "account": "se", "locationSet": {"include": ["se"]}, "languageCodes": ["sv"], "order": 2, "strings": {"community": "Scandinavian discord channel on OpenStreetMap World Discord", "communityID": "scandinaviandiscordchannelonopenstreetmapworlddiscord", "url": "https://discord.com/channels/413070382636072960/937709499211477092"}},
     "sl-twitter": {"id": "sl-twitter", "type": "twitter", "account": "osmsierraleone", "locationSet": {"include": ["sl"]}, "strings": {"community": "OpenStreetMap Sierra Leone", "communityID": "openstreetmapsierraleone"}},
     "sn-facebook": {"id": "sn-facebook", "type": "facebook", "account": "OpenStreetMap.Senegal", "locationSet": {"include": ["sn"]}, "strings": {"community": "OpenStreetMap Senegal", "communityID": "openstreetmapsenegal"}},
     "sn-twitter": {"id": "sn-twitter", "type": "twitter", "account": "OpenStreetMapSn", "locationSet": {"include": ["sn"]}, "strings": {"community": "OpenStreetMap Senegal", "communityID": "openstreetmapsenegal"}},
