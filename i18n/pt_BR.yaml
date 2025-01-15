@@ -202,6 +202,7 @@ pt_BR:
     openstreetmapwesternsahara: OpenStreetMap Saara Ocidental
     openstreetmapzambia: OpenStreetMap Zâmbia
     openstreetmapzimbabwe: OpenStreetMap Zimbábue
+    osmcolombia: OSM Colômbia
     osmmainz: OSM Mainz
     swissopenstreetmap: OpenStreetMap Suíça
     youthmappersasu: YouthMappersASU
@@ -210,6 +211,9 @@ pt_BR:
       name: '{community} no Aparat'
       description: Inscreva-se no nosso canal Aparat
       url: https://aparat.com/{account}
+    bluesky:
+      description: Siga-nos no Bluesky
+      url: https://bsky.app/profile/{account}
     discord:
       name: 'Discord {community}'
       description: Entre em contato com outros mapeadores no Discord
@@ -291,7 +295,7 @@ pt_BR:
       name: '{community} no 𝕏'
       description: Siga-nos no 𝕏
       url: https://twitter.com/{account}
-    website:
+    url:
       name: '{community}'
     wiki:
       name: 'WikiProject {community}'
@@ -389,6 +393,8 @@ pt_BR:
     extendedDescription: Junte-se à comunidade para aprender mais sobre o OpenStreetMap, fazer perguntas ou participar de nossas reuniões. Todos são bem-vindos!
   cl-telegram:
     extendedDescription: Junte-se à comunidade para aprender mais sobre o OpenStreetMap, fazer perguntas ou participar de nossas reuniões. Todos são bem-vindos!
+  co-facebook:
+    description: Grupo de conversação sobre problemas do OSM na Colômbia
   czech-community:
     description: Mapa, site e contactos em membros da OSM na República Checa
   de-aachen-wiki:

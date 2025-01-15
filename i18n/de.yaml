@@ -204,13 +204,19 @@ de:
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
     osmcolombia: OSM Kolumbien
     osmmainz: OSM Mainz
+    osmnelson: OSM Nelson
     swissopenstreetmap: OpenStreetMap Schweiz
+    tadeomappers: TadeoMappers
     youthmappersasu: YouthMappersASU
   _defaults:
     aparat:
       name: '{community} auf Aparat'
       description: Abonniere unseren Aparat-Kanal
       url: https://aparat.com/{account}
+    bluesky:
+      name: '{community} auf Bluesky'
+      description: Auf Bluesky folgen
+      url: https://bsky.app/profile/{account}
     discord:
       name: '{community} Discord'
       description: Tritt mit anderen Mappern auf Discord in Kontakt
@@ -292,7 +298,7 @@ de:
       name: '{community} auf 𝕏'
       description: Folge uns auf 𝕏
       url: https://twitter.com/{account}
-    website:
+    url:
       name: '{community}'
     wiki:
       name: '{community} WikiProject'
@@ -390,6 +396,48 @@ de:
     extendedDescription: Tritt der Community bei, um mehr über OpenStreetMap zu erfahren, Fragen zu stellen oder an unseren Treffen teilzunehmen. Jeder ist willkommen!
   cl-telegram:
     extendedDescription: Tritt der Community bei, um mehr über OpenStreetMap zu erfahren, Fragen zu stellen oder an unseren Treffen teilzunehmen. Jeder ist willkommen!
+  co-discourse:
+    name: OSM Communities Diskussionsthemen über Kolumbien
+    description: Themen zu Kartenänderungen in Kolumbien
+  co-facebook:
+    name: '{community} Gruppe auf Facebook'
+    description: Gesprächsgruppe zu OSM-Themen in Kolumbien
+  co-github:
+    name: '{community} Projekte auf GitHub'
+    description: Von der Community entwickelte Code-Projekte
+  co-instagram:
+    name: Posts von {community} auf Instagram
+    description: Veröffentlichungen über Aktivitäten oder Informationen der Community
+  co-linkedin:
+    name: Posts von {community} auf LinkedIn
+    description: Veröffentlichungen über Aktivitäten oder Informationen der Community
+  co-mastodon:
+    name: Posts von {community} auf Mastodon
+    description: Veröffentlichungen über Aktivitäten oder Informationen der Community
+  co-talk:
+    name: '{community} Mailing Liste'
+    description: E-Mails zum Informationsaustausch mit der Community
+  co-telegram:
+    name: Gesprächsgruppe über {community} in Telegram
+    description: Offene Diskussionen über Themen, die für die gesamte Community von Interesse sind. Es ist der aktivste Kanal
+  co-thread:
+    name: Posts von {community} in Threads
+    description: Veröffentlichungen über Aktivitäten oder Informationen der Community
+  co-tiktok:
+    name: Kurze Videos von {community} auf Tiktok
+    description: Veröffentlichungen über Aktivitäten der Community
+  co-twitter:
+    name: Community {community} auf x-Twitter
+    description: Veröffentlichungen über Aktivitäten oder Informationen der Community
+  co-whatsapp:
+    name: Neuigkeiten von der {community} Community auf WhatsApp
+    description: Veröffentlichungen über Aktivitäten oder Informationen der Community
+  co-wiki:
+    name: Wiki-Seite mit Dokumentation zum Kartierungsprojekt in Kolumbien
+    description: Dokumentation über alles, was mit OpenStreetMap in Kolumbien zu tun hat
+  co-youtube:
+    name: Videos von {community} auf YouTube
+    description: Videos von Aktionen der Community oder Erläuterungen zu OSM-Aktivitäten
   comunitat-valenciana-wiki:
     description: 'Alles, was du über Mapping in der Gemeinde Valencia wissen musst: {url}'
   czech-community:
@@ -502,6 +550,8 @@ de:
     extendedDescription: 'Tritt #{account} auf irc.oftc.net (port 6667) bei, bitte sei geduldig und warte ein paar Minuten wenn du eine Frage stellst'
   gb-mailinglist:
     description: Talk-gb ist das Hauptkommunikationsforum für die OSM Gemeinschaft in UK (inklusive Nordirland)
+  ge-matrix:
+    description: Allgemeiner Chat über OpenStreetMap in Georgien, verbunden über eine Schnittstelle mit dem Telegram-Chat
   geogeeks_perth_meetup:
     name: Geogeeks Perth
     description: Eine in Perth ansässige Gruppe für Leute, die sich für Kartierung, Geodaten und Open Source interessieren. Wir veranstalten regelmäßig OSM-Mapping-Partys, Vorträge und geselliges Beisammensein. Anfänger sind herzlich willkommen!
@@ -513,6 +563,7 @@ de:
     description: '{community} GitHub'
   hr-tm:
     name: '{community} Tasking Manager'
+    description: Aktive Kartierungsaufgaben in Kroatien erkunden
   hr-wiki:
     description: Wikiproject page für Kroatien
   hu-facebook-group:
@@ -836,6 +887,8 @@ de:
     description: Madagaskar Facebook Gruppe für Menschen mit Interesse an OpenStreetMap.
   osm-michigan-wiki:
     description: '{community} Wiki Seite'
+  osm-nelson:
+    description: Eine OpenStreetMap-Gruppe in Nelson, Neuseeland.
   osm-ni:
     name: MapaNica.net
     description: Stelle OSM service und Information für die lokale Gemeinschaft in Nicaragua zur Verfügung
@@ -1333,6 +1386,16 @@ de:
     name: YouthMappers in Bogotá
     description: YouthMappers Ortsverband an der Universidad Distrital Francisco Jose de Caldas
     extendedDescription: Die Universidad Distrital Francisco José de Caldas ist eine öffentliche, koedukative Forschungsuniversität mit Sitz in Bogotá, Kolumbien mit einer Studentenzahl von 26.140.
+  ym-Universidad-Jorge-Tadeo-Lozano:
+    name: TadeoMappers an der Universidad Jorge Tadeo Lozano
+    description: YouthMappers chapter an der Universidad Jorge Tadeo Lozano
+    extendedDescription: Studenten aus Bogota, die sich für die Kartierung von Aktivitäten zur Förderung der biologischen Vielfalt einsetzen. Sie konzentrieren sich auf die Kartierung von Bäumen und bringen diese Aktivitäten in die Schulen, um die gesamte Gemeinschaft in die Umweltarbeit einzubeziehen.
+  ym-Universidad-Jorge-Tadeo-Lozano-github:
+    description: GitHub der YouthMappers Ortsgruppe TadeoMappers
+    extendedDescription: Die TadeoMappers bieten in Zusammenarbeit mit GNUTADEO Repositories für ihre Arbeit an. Beide Gruppen sind der Universidad Jorge Tadeo Lozano angegliedert und setzen sich für die Nutzung von Kartierungswerkzeugen und -software zur Unterstützung von gemeinschaftsorientierten Projekten ein.
+  ym-Universidad-Jorge-Tadeo-Lozano-instagram:
+    description: Instagram der YouthMappers Ortsgruppe TadeoMappers
+    extendedDescription: TadeoMappers sind Teil der Freien Software Gruppe GNUTADEO der Universidad Jorge Tadeo Lozano
   ym-Universidad-Nacional-Autnoma-de-Honduras:
     name: PumaGis Hn
     description: YouthMappers Ortsgruppe der Universidad Nacional Autónoma de Honduras

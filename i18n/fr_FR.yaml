@@ -202,7 +202,9 @@ fr_FR:
     openstreetmapwesternsahara: OpenStreetMap Sahara occidental
     openstreetmapzambia: OpenStreetMap Zambie
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
+    osmcolombia: OSM Colombie
     osmmainz: OSM Mayence
+    osmnelson: OSM Nelson
     swissopenstreetmap: OpenStreetMap Suisse
     youthmappersasu: YouthMappers Université de l’État d'Arizona
   _defaults:
@@ -210,6 +212,9 @@ fr_FR:
       name: '{community} sur Aparat'
       description: Abonnez-vous à notre chaîne Aparat
       url: https://aparat.com/{account}
+    bluesky:
+      name: '{community} sur Bluesky'
+      url: https://bsky.app/profile/{account}
     discord:
       name: 'Discord de {community}'
       description: Discutez avec d’autres cartographes sur Discord
@@ -291,7 +296,7 @@ fr_FR:
       name: '{community} sur 𝕏'
       description: Suivez-nous sur 𝕏
       url: https://twitter.com/{account}
-    website:
+    url:
       name: '{community}'
     wiki:
       name: 'Projet wiki de {community}'
@@ -826,6 +831,8 @@ fr_FR:
     description: Groupe Facebook malgache pour les gens intéressé par OpenStreetMap.
   osm-michigan-wiki:
     description: 'Page Wiki de {community}'
+  osm-nelson:
+    description: Un groupe OpenStreetMap à Nelson, Nouvelle-Zélande
   osm-ni:
     name: MapaNica.net
     description: Fournit des services OSM et des informations pour la communauté locale au Nicaragua

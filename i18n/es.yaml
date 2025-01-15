@@ -213,6 +213,10 @@ es:
       name: '{community} en Aparat'
       description: Suscríbete a nuestro canal de Aparat
       url: https://aparat.com/{account}
+    bluesky:
+      name: '{community} en Bluesky'
+      description: Síguenos en Bluesky
+      url: https://bsky.app/profile/{account}
     discord:
       name: 'Discord de {community}'
       description: Contacta con otros mapeadores en Discord
@@ -294,7 +298,7 @@ es:
       name: '{community} en X'
       description: Síguenos en X
       url: https://twitter.com/{account}
-    website:
+    url:
       name: '{community}'
     wiki:
       name: 'Wikiproyecto de {community}'

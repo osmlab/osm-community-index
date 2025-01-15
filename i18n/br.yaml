@@ -224,7 +224,7 @@ br:
     twitter:
       name: '{community} war 𝕏'
       description: Heuilhit ac'hanomp war 𝕏
-    website:
+    url:
       name: '{community}'
     wiki:
       name: 'WikiProject {community}'
@@ -573,13 +573,15 @@ br:
   osm-india-mastodon:
     description: Ti ar gumuniezh OpenStreetMap India war fediverse
   osm-india-website:
-    description: Kartennour·ien/ezed hag implijer·ien/ezed OpenStreetMap en India
+    description: Kartennourien hag implijerien OpenStreetMap en India
   osm-india-wiki:
     description: 'Ar pep retañ evit kartennaouiñ India: {url}'
   osm-india-xmpp:
     name: XMPP OpenStreetMap India
   osm-iran-discord:
     extendedDescription: Ur servijer Discord evit OpenStreetMap Iran. Emezelit 'ta!
+  OSM-japan-discord:
+    description: 'Ul lec''h labour war Discord evit kumuniezh OSM Japan: {url}'
   OSM-japan-facebook:
     description: Kartennour·ien/ezed hag implijer·ien/ezed OpenStreetMap e Japan
   OSM-japan-website:
@@ -608,6 +610,8 @@ br:
     description: 'Pajenn Wiki {community}'
   OSM-Ottawa-meetup:
     description: Kartennour·ien/ezed hag implijer·ien/ezed OpenStreetMap e korn-bro Ottawa
+  OSM-PE:
+    description: Keleier ha danvezioù evit kumuniezh OpenStreetMap Perou
   OSM-PL-chapter:
     description: Kêr kumuniezh OpenStreetMap Polonia
   OSM-Rome-meetup:
@@ -622,6 +626,8 @@ br:
     description: Kartennour·ien/ezed hag implijer·ien/ezed OpenStreetMap e bae Tampa
   osm-td-facebook:
     description: Gwellaat OpenStreetMap e Tchad
+  OSM-Telegram:
+    description: 'Kit e-barzh strollad meur Telegram evit OpenStreetMap amañ: {url}'
   OSM-TH-CNX-meetup:
     name: Emvod OSM e Chiang Mai
   osm-toronto-meetup:
@@ -649,6 +655,7 @@ br:
     name: Emvod PHXGeo
     description: Kartennour·ien/ezed hag implijer·ien/ezed OpenStreetMap e korn-bro Phoenix (Arizona)
   PHXGeo-twitter:
+    name: Twitter eus PHXGeo
     description: Heuilhit ac'hanomp war dTwitter e {url}
   pt-wiki:
     description: WikiProject gant titouroù ha sturiadoù evit kartennaouiñ Portugal.
@@ -669,7 +676,7 @@ br:
   si-wiki:
     description: 'Pajenn Wiki {community}'
   talk-au:
-    description: Al lec'h ma c'hall flapañ kartennour·ien/ezed aostralianat
+    description: Al lec'h ma c'hall flapañ kartennourezed ha kartennourien aostralianat
   talk-bo:
     extendedDescription: O kartennaouiñ e Bolivia? Goulennoù ho peus pe c'hoant ho peus da gejañ gant ar gumuniezh amañ? Deuit ganeomp war {url}. Pep hini 'zo deuet mat!
   talk-nz:
@@ -677,7 +684,7 @@ br:
   tn-facebook-group:
     name: 'Strollad Facebook {community}'
   tw-slack:
-    description: Pep hini 'zo deuet mat! Lakait hoc'h anv war {signupUrl}.
+    description: Pep hini 'zo deuet mat! Lakait hoc'h anv war {signupUrl}
   tw-wiki:
     description: 'Ar pep retañ evit kartennaouiñ Taiwan: {url}'
   ua-github:
@@ -686,6 +693,8 @@ br:
     description: Lec'hienn OpenStreetMap en Ukraina
   ua-slack:
     description: Emezelit ouzh kumuniezh OpenStreetMap Ukraina war Slack. Krouit ur gont war {signupUrl}
+  uk-localchapter:
+    description: Kevrenn lec'hel ofisiel evit ar Rouantelezh-Unanet (enni Iwerzhon an Hanternoz)
   uk-london-mastodon:
     name: OpenStreetMap Londrez war vMastodon
     description: 'OpenStreetMap Londrez war vMastodon: {url}'
@@ -873,6 +882,7 @@ br:
   ym-University-of-Nigeria-Enugu-Campus:
     description: Kevrenn YouthMappers skol-veur Nigeria, kampus Enugu
   ym-University-of-Nigeria-Nsukka:
+    name: LionMappersTeam (LMT) Nsukka
     description: Kevrenn YouthMappers skol-veur Nigeria, Nsukka
   ym-University-of-North-Texas:
     description: Kevrenn YouthMappers skol-veur Texas an Norzh

@@ -145,33 +145,57 @@ pl:
     openstreetmapsouthafrica: OpenStreetMap RPA
     openstreetmapsouthsudan: OpenStreetMap Sudan Południowy
     openstreetmapsrilanka: OpenStreetMap Sri Lanka
+    openstreetmapsudan: OpenStreetMap Sudan
     openstreetmapsweden: OpenStreetMap Szwecja
     openstreetmapswitzerland: OpenStreetMap Szwajcaria
+    openstreetmapsyria: OpenStreetMap Syria
     openstreetmaptaiwan: OpenStreetMap Tajwan
+    openstreetmaptanzania: OpenStreetMap Tanzania
     openstreetmapthailand: OpenStreetMap Tajlandia
+    openstreetmaptogo: OpenStreetMap Togo
+    openstreetmaptoronto: OpenStreetMap Toronto
     openstreetmaptunisia: OpenStreetMap Tunezja
     openstreetmapturin: OpenStreetMap Turyn
     openstreetmapturkey: OpenStreetMap Turcja
+    openstreetmapuganda: OpenStreetMap Uganda
     openstreetmapuk: OpenStreetMap Wielka Brytania
     openstreetmapukraine: OpenStreetMap Ukraina
     openstreetmapuruguay: OpenStreetMap Urugwaj
     openstreetmapus: OpenStreetMap USA
+    openstreetmapuzbekistan: OpenStreetMap Uzbekistan
     openstreetmapvenezuela: OpenStreetMap Wenezuela
     openstreetmapvietnam: OpenStreetMap Wietnam
+    openstreetmapwarszawa: OpenStreetMap Warszawa
+    openstreetmapwestbengal: OpenStreetMap Zachodni Bengal
     openstreetmapwesternsahara: OpenStreetMap Sahara Zachodnia
+    openstreetmapzambia: OpenStreetMap Zambia
+    openstreetmapzimbabwe: OpenStreetMap Zimbabwe
+    osmcolombia: OSM Kolumbia
+    osmmainz: OSM Mainz
+    swissopenstreetmap: Szwajcarska OpenStreetMap
   _defaults:
     aparat:
       name: '{community} na Aparat'
       description: Subskrybuj nasz kanał na Aparat
+      url: https://aparat.com/{account}
+    bluesky:
+      name: '{community} na Bluesky'
+      description: Śledź nas na Bluesky
+      url: https://bsky.app/profile/{account}
     discord:
       name: '{community} na Discord'
       description: Pozostawaj w kontakcie z innymi mapującymi dzięki Discord
+      url: https://discord.gg/{account}
     discourse:
       name: 'Forum {community}'
       description: Oficjalne forum {community}
+      url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
       name: '{community} na Facebooku'
       description: Dołącz do naszej społeczności na Facebooku
+      url: https://www.facebook.com/{account}
+    fediverse:
+      name: '{community}'
     forum:
       name: 'Forum {community}'
       description: Oficjalne forum {community}
@@ -181,6 +205,8 @@ pl:
     gitlab:
       name: '{community} na GitLab'
       url: https://gitlab.com/{account}
+    group:
+      name: '{community}'
     instagram:
       name: '{community} na Instagramie'
       description: Obserwuj nas na Instagramie
@@ -188,6 +214,7 @@ pl:
     irc:
       name: '{community} na IRC-u'
       description: 'Dołącz #{account} na irc.oftc.net (port 6667 dla non-SSL lub 6697 dla SSL)'
+      url: https://webchat.oftc.net/?channels={account}
     linkedin:
       name: '{społeczność} na Linkedln'
       description: Dołącz do naszej społeczności na Linkedln
@@ -195,43 +222,63 @@ pl:
     mailinglist:
       name: 'Lista dyskusyjna {account}'
       description: Oficjalna lista dyskusyjna społeczności {community}
+      url: https://lists.openstreetmap.org/listinfo/{account}
     mastodon:
       name: '{community} na Mastadonie'
       description: Oficjalne konto na Mastadonie {community}
     matrix:
       name: 'Kanał {community} na Matriksie'
       description: Dołącz do naszej społeczności na Matriksie
+      url: https://matrix.to/#/{account}:matrix.org
     meetup:
       name: '{community} na Meetup'
       url: https://www.meetup.com/{konto}
     newsletter:
       name: 'Newsletter {community}'
+    osm:
+      name: '{community}'
+    osm-lc:
+      name: '{community}'
     reddit:
       name: '{community} na Reddit'
+      url: https://www.reddit.com/r/{account}
     signal:
+      name: '{community} Signal'
       description: Dołącz do czatu społeczności na komunikatorze Signal
     slack:
       name: '{community} na Slack'
     telegram:
       name: '{community} na Telegramie'
       description: Dołącz do naszej społeczności na Telegramie
+      url: https://t.me/{account}
     threads:
       name: '{community} na Threads'
       description: Obserwuj nas na Threads
+      url: https://threads.net/@{account}
     tiktok:
       name: '{community} na TikToku'
       description: Obserwuj nas na TikToku
+      url: https://tiktok.com/@{account}
     twitter:
       name: '{community} na 𝕏'
       description: Obserwuj nas na 𝕏
+      url: https://twitter.com/{account}
+    url:
+      name: '{community}'
+    wiki:
+      name: '{community} WikiProject'
+      url: https://wiki.openstreetmap.org/wiki/{account}
     x:
       name: '{community} na 𝕏'
       description: Obserwuj nas na 𝕏
+      url: https://twitter.com/{account}
     xmpp:
       name: 'XMPP {community}'
+      description: 'Dołącz do naszego czatu społeczności na XMPP: {url}'
     youtube:
       name: '{community} na YouTube'
       description: Subskrybuj nasz kanał na YouTube
+      url: https://www.youtube.com/channel/{account}
     zulip:
       name: 'Zulip {community}'
       description: Dołącz do naszego czatu na Zulip
@@ -584,6 +631,7 @@ pl:
     description: Mapujący i użytkownicy OpenStreetMap z okolic Mount Vernon
     extendedDescription: OpenStreetMap to mapa świata robiona przez ludzi takich, jak ty. To mapa, którą ty tworzysz, która jest rozdawana za darmo, jak Wikipedia. Wejdź na osm.org, aby dowiedzieć się więcej. Spotykamy się ciągle, żeby porozmawiać o mapach, tworzyć je i dobrze się bawić!
   osm-ch:
+    name: '{community}'
     description: Platforma z informacjami o OpenStreetMap w Szwajcarii
   OSM-Chattanooga:
     description: Grupa użytkowników OpenStreetMap z Chattanooga

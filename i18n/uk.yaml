@@ -213,6 +213,10 @@ uk:
       name: '{community} на Aparat'
       description: Підпишіться на наш канал Aparat
       url: https://aparat.com/{account}
+    bluesky:
+      name: '{community} у Bluesky'
+      description: Слідкуйте за нами у Bluesky
+      url: https://bsky.app/profile/{account}
     discord:
       name: '{community} Discord'
       description: Спілкуйтеся з іншими маперами у Discord
@@ -294,7 +298,7 @@ uk:
       name: '{community} в 𝕏'
       description: Слідкуйте за нами в 𝕏
       url: https://twitter.com/{account}
-    website:
+    url:
       name: '{community}'
     wiki:
       name: '{community} WikiProject'
