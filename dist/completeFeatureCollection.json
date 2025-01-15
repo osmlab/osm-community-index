@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "5.9.0",
-    "generated": "2024-12-16T16:11:21.032Z",
+    "version": "5.9.1",
+    "generated": "2025-01-15T18:27:03.926Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "ef3b39a99535f4976557ea78ef1cca67"
+    "hash": "279591f99ee96318ec18805d37698f64"
   },
   "type": "FeatureCollection",
   "features": [
@@ -2518,27 +2518,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://members.osm.be/subscribe/newsletter\">OpenStreetMap Belgium Newsletter</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://members.osm.be/subscribe/newsletter\">https://members.osm.be/subscribe/newsletter</a>",
               "descriptionHTML": "Quarterly newsletter of the Belgian community"
-            }
-          },
-          "be-twitter": {
-            "id": "be-twitter",
-            "type": "twitter",
-            "account": "osm_be",
-            "locationSet": {"include": ["be"]},
-            "languageCodes": ["de", "en", "fr", "nl"],
-            "order": 4,
-            "strings": {
-              "community": "OpenStreetMap Belgium",
-              "communityID": "openstreetmapbelgium"
-            },
-            "contacts": [{"name": "BE community", "email": "community@osm.be"}],
-            "resolved": {
-              "name": "OpenStreetMap Belgium on 𝕏",
-              "url": "https://twitter.com/osm_be",
-              "description": "Follow us on 𝕏",
-              "nameHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_be\">OpenStreetMap Belgium on 𝕏</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://twitter.com/osm_be\">https://twitter.com/osm_be</a>",
-              "descriptionHTML": "Follow us on 𝕏"
             }
           }
         }
@@ -5987,13 +5966,6 @@
       "type": "Feature",
       "id": "ceara.geojson",
       "properties": {
-        "osm_id": -302635,
-        "boundary": "administrative",
-        "admin_level": 4,
-        "parents": "-3360429,-59470",
-        "name": "Ceará",
-        "local_name": "Ceará",
-        "name_en": "Ceará",
         "id": "ceara.geojson",
         "area": 165880.52,
         "resources": {
@@ -6019,17 +5991,15 @@
         }
       },
       "geometry": {
-        "type": "MultiPolygon",
+        "type": "Polygon",
         "coordinates": [
           [
-            [
-              [-41.4235, -3.36802],
-              [-39.8907, -2.65328],
-              [-37.11205, -4.64007],
-              [-38.96275, -7.84454],
-              [-40.52371, -7.31846],
-              [-41.4235, -3.36802]
-            ]
+            [-41.4235, -3.36802],
+            [-39.8907, -2.65328],
+            [-37.11205, -4.64007],
+            [-38.96275, -7.84454],
+            [-40.52371, -7.31846],
+            [-41.4235, -3.36802]
           ]
         ]
       }
@@ -11372,6 +11342,26 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.de/listinfo/mainz\">mainz Mailing List</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.de/listinfo/mainz\">https://lists.openstreetmap.de/listinfo/mainz</a>",
               "descriptionHTML": "OpenStreetMap in Mainz und Umgebung"
+            }
+          },
+          "de-mainz-signal": {
+            "id": "de-mainz-signal",
+            "type": "signal",
+            "locationSet": {"include": [[8.27, 50, 10]]},
+            "languageCodes": ["de"],
+            "strings": {
+              "community": "OSM Mainz",
+              "communityID": "osmmainz",
+              "description": "OpenStreetMap in Mainz, Wiesbaden und Umgebung",
+              "url": "https://signal.group/#CjQKIJUReW0GI6oi97leIr_OdN2EpdopcGLB0PJmTpepkSSOEhAqTQBb93nQMow_YwHCDu9S"
+            },
+            "resolved": {
+              "name": "OSM Mainz Signal",
+              "url": "https://signal.group/#CjQKIJUReW0GI6oi97leIr_OdN2EpdopcGLB0PJmTpepkSSOEhAqTQBb93nQMow_YwHCDu9S",
+              "description": "OpenStreetMap in Mainz, Wiesbaden und Umgebung",
+              "nameHTML": "<a target=\"_blank\" href=\"https://signal.group/#CjQKIJUReW0GI6oi97leIr_OdN2EpdopcGLB0PJmTpepkSSOEhAqTQBb93nQMow_YwHCDu9S\">OSM Mainz Signal</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://signal.group/#CjQKIJUReW0GI6oi97leIr_OdN2EpdopcGLB0PJmTpepkSSOEhAqTQBb93nQMow_YwHCDu9S\">https://signal.group/#CjQKIJUReW0GI6oi97leIr_OdN2EpdopcGLB0PJmTpepkSSOEhAqTQBb93nQMow_YwHCDu9S</a>",
+              "descriptionHTML": "OpenStreetMap in Mainz, Wiesbaden und Umgebung"
             }
           },
           "de-mainz-telegram": {
@@ -20248,6 +20238,179 @@
           ]
         ],
         "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rio_de_janeiro.geojson",
+      "properties": {
+        "id": "rio_de_janeiro.geojson",
+        "area": 29447.6,
+        "resources": {
+          "ivides_facebook": {
+            "id": "ivides_facebook",
+            "type": "facebook",
+            "account": "ivides.org",
+            "locationSet": {"include": ["rio_de_janeiro.geojson"]},
+            "languageCodes": ["pt"],
+            "strings": {
+              "community": "Mapeadores IVIDES",
+              "communityID": "mapeadoresivides"
+            },
+            "contacts": [
+              {
+                "name": "Raquel Dezidério Souto, Dr.",
+                "email": "ym.ufrj@gmail.com"
+              }
+            ],
+            "resolved": {
+              "name": "Mapeadores IVIDES on Facebook",
+              "url": "https://www.facebook.com/ivides.org",
+              "description": "Join our community on Facebook",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/ivides.org\">Mapeadores IVIDES on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/ivides.org\">https://www.facebook.com/ivides.org</a>",
+              "descriptionHTML": "Join our community on Facebook"
+            }
+          },
+          "ivides_instagram": {
+            "id": "ivides_instagram",
+            "type": "instagram",
+            "account": "ivides.org",
+            "locationSet": {"include": ["rio_de_janeiro.geojson"]},
+            "languageCodes": ["pt"],
+            "strings": {
+              "community": "Mapeadores IVIDES",
+              "communityID": "mapeadoresivides"
+            },
+            "contacts": [
+              {
+                "name": "Raquel Dezidério Souto, Dr.",
+                "email": "ym.ufrj@gmail.com"
+              }
+            ],
+            "resolved": {
+              "name": "Mapeadores IVIDES on Instagram",
+              "url": "https://instagram.com/ivides.org",
+              "description": "Follow us on Instagram",
+              "nameHTML": "<a target=\"_blank\" href=\"https://instagram.com/ivides.org\">Mapeadores IVIDES on Instagram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://instagram.com/ivides.org\">https://instagram.com/ivides.org</a>",
+              "descriptionHTML": "Follow us on Instagram"
+            }
+          },
+          "ivides_website": {
+            "id": "ivides_website",
+            "type": "url",
+            "locationSet": {"include": ["rio_de_janeiro.geojson"]},
+            "languageCodes": ["pt"],
+            "strings": {
+              "community": "Mapeadores IVIDES",
+              "communityID": "mapeadoresivides",
+              "description": "We are focused on sustainable development, mapping, and support of the OpenStreetMap community.",
+              "url": "https://ivides.org"
+            },
+            "contacts": [
+              {
+                "name": "Raquel Dezidério Souto, Dr.",
+                "email": "ym.ufrj@gmail.com"
+              }
+            ],
+            "resolved": {
+              "name": "Mapeadores IVIDES",
+              "url": "https://ivides.org",
+              "description": "We are focused on sustainable development, mapping, and support of the OpenStreetMap community.",
+              "nameHTML": "<a target=\"_blank\" href=\"https://ivides.org\">Mapeadores IVIDES</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://ivides.org\">https://ivides.org</a>",
+              "descriptionHTML": "We are focused on sustainable development, mapping, and support of the OpenStreetMap community."
+            }
+          },
+          "ivides_youtube": {
+            "id": "ivides_youtube",
+            "type": "youtube",
+            "account": "IVIDES",
+            "locationSet": {"include": ["rio_de_janeiro.geojson"]},
+            "languageCodes": ["pt"],
+            "strings": {
+              "community": "Mapeadores IVIDES",
+              "communityID": "mapeadoresivides"
+            },
+            "contacts": [
+              {
+                "name": "Raquel Dezidério Souto, Dr.",
+                "email": "ym.ufrj@gmail.com"
+              }
+            ],
+            "resolved": {
+              "name": "Mapeadores IVIDES on YouTube",
+              "url": "https://www.youtube.com/channel/IVIDES",
+              "description": "Subscribe to our YouTube channel",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.youtube.com/channel/IVIDES\">Mapeadores IVIDES on YouTube</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.youtube.com/channel/IVIDES\">https://www.youtube.com/channel/IVIDES</a>",
+              "descriptionHTML": "Subscribe to our YouTube channel"
+            }
+          },
+          "ym-ufrj_facebook": {
+            "id": "ym-ufrj_facebook",
+            "type": "facebook",
+            "account": "youthmappers.ufrj",
+            "locationSet": {"include": ["rio_de_janeiro.geojson"]},
+            "languageCodes": ["pt"],
+            "strings": {
+              "community": "YouthMappers UFRJ",
+              "communityID": "youthmappersufrj"
+            },
+            "contacts": [
+              {
+                "name": "Raquel Dezidério Souto, Dr.",
+                "email": "ym.ufrj@gmail.com"
+              }
+            ],
+            "resolved": {
+              "name": "YouthMappers UFRJ on Facebook",
+              "url": "https://www.facebook.com/youthmappers.ufrj",
+              "description": "Join our community on Facebook",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/youthmappers.ufrj\">YouthMappers UFRJ on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/youthmappers.ufrj\">https://www.facebook.com/youthmappers.ufrj</a>",
+              "descriptionHTML": "Join our community on Facebook"
+            }
+          },
+          "ym-ufrj_instagram": {
+            "id": "ym-ufrj_instagram",
+            "type": "instagram",
+            "account": "youthmappers.ufrj",
+            "locationSet": {"include": ["rio_de_janeiro.geojson"]},
+            "languageCodes": ["pt"],
+            "strings": {
+              "community": "YouthMappers UFRJ",
+              "communityID": "youthmappersufrj"
+            },
+            "contacts": [
+              {
+                "name": "Raquel Dezidério Souto, Dr.",
+                "email": "ym.ufrj@gmail.com"
+              }
+            ],
+            "resolved": {
+              "name": "YouthMappers UFRJ on Instagram",
+              "url": "https://instagram.com/youthmappers.ufrj",
+              "description": "Follow us on Instagram",
+              "nameHTML": "<a target=\"_blank\" href=\"https://instagram.com/youthmappers.ufrj\">YouthMappers UFRJ on Instagram</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://instagram.com/youthmappers.ufrj\">https://instagram.com/youthmappers.ufrj</a>",
+              "descriptionHTML": "Follow us on Instagram"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-44.72466, -22.52213],
+            [-41.78791, -22.52213],
+            [-41.78791, -23.40094],
+            [-44.72466, -23.40094],
+            [-44.72466, -22.52213]
+          ]
+        ]
       }
     },
     {
@@ -42913,6 +43076,231 @@
     {
       "type": "Feature",
       "properties": {
+        "iso1A2": "SE",
+        "iso1A3": "SWE",
+        "iso1N3": "752",
+        "wikidata": "Q34",
+        "nameEn": "Sweden",
+        "groups": ["154", "150", "EU", "UN", "001"],
+        "callingCodes": ["46"],
+        "id": "Q34",
+        "m49": "752",
+        "ccTLD": ".se",
+        "isoStatus": "official",
+        "level": "country",
+        "emojiFlag": "🇸🇪",
+        "roadSpeedUnit": "km/h",
+        "roadHeightUnit": "m",
+        "driveSide": "right",
+        "area": 589396.28,
+        "resources": {
+          "scandinavia-discord": {
+            "id": "scandinavia-discord",
+            "type": "discord",
+            "locationSet": {"include": ["se"]},
+            "languageCodes": ["sv"],
+            "order": 2,
+            "strings": {
+              "community": "OpenStreetMap Sweden",
+              "communityID": "openstreetmapsweden",
+              "name": "Scandinavian channel on OpenStreetMap World Discord",
+              "url": "https://discord.com/channels/413070382636072960/937709499211477092"
+            },
+            "resolved": {
+              "name": "Scandinavian channel on OpenStreetMap World Discord",
+              "url": "https://discord.com/channels/413070382636072960/937709499211477092",
+              "description": "Get in touch with other mappers on Discord",
+              "nameHTML": "<a target=\"_blank\" href=\"https://discord.com/channels/413070382636072960/937709499211477092\">Scandinavian channel on OpenStreetMap World Discord</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://discord.com/channels/413070382636072960/937709499211477092\">https://discord.com/channels/413070382636072960/937709499211477092</a>",
+              "descriptionHTML": "Get in touch with other mappers on Discord"
+            }
+          },
+          "se-discourse": {
+            "id": "se-discourse",
+            "type": "discourse",
+            "account": "se",
+            "locationSet": {"include": ["se"]},
+            "languageCodes": ["sv"],
+            "order": 4,
+            "strings": {
+              "community": "OpenStreetMap Sweden",
+              "communityID": "openstreetmapsweden"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Sweden Community Forum",
+              "url": "https://community.openstreetmap.org/c/communities/se",
+              "description": "The official forum for OpenStreetMap Sweden",
+              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/se\">OpenStreetMap Sweden Community Forum</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/se\">https://community.openstreetmap.org/c/communities/se</a>",
+              "descriptionHTML": "The official forum for OpenStreetMap Sweden"
+            }
+          },
+          "se-facebook": {
+            "id": "se-facebook",
+            "type": "facebook",
+            "locationSet": {"include": ["se"]},
+            "languageCodes": ["sv"],
+            "order": 3,
+            "strings": {
+              "community": "OpenStreetMap Sweden",
+              "communityID": "openstreetmapsweden",
+              "url": "https://www.facebook.com/groups/osmsweden"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Sweden on Facebook",
+              "url": "https://www.facebook.com/groups/osmsweden",
+              "description": "Join our community on Facebook",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/osmsweden\">OpenStreetMap Sweden on Facebook</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/osmsweden\">https://www.facebook.com/groups/osmsweden</a>",
+              "descriptionHTML": "Join our community on Facebook"
+            }
+          },
+          "talk-se": {
+            "id": "talk-se",
+            "type": "mailinglist",
+            "account": "talk-se",
+            "locationSet": {"include": ["se"]},
+            "languageCodes": ["sv"],
+            "order": 1,
+            "strings": {
+              "community": "OpenStreetMap Sweden",
+              "communityID": "openstreetmapsweden"
+            },
+            "resolved": {
+              "name": "talk-se Mailing List",
+              "url": "https://lists.openstreetmap.org/listinfo/talk-se",
+              "description": "The official mailing list for OpenStreetMap Sweden",
+              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-se\">talk-se Mailing List</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-se\">https://lists.openstreetmap.org/listinfo/talk-se</a>",
+              "descriptionHTML": "The official mailing list for OpenStreetMap Sweden"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [24.15791, 65.85385],
+              [23.90497, 66.15802],
+              [23.71339, 66.21299],
+              [23.64982, 66.30603],
+              [23.67591, 66.3862],
+              [23.63776, 66.43568],
+              [23.85959, 66.56434],
+              [23.89488, 66.772],
+              [23.98059, 66.79585],
+              [23.98563, 66.84149],
+              [23.56214, 67.17038],
+              [23.58735, 67.20752],
+              [23.54701, 67.25435],
+              [23.75372, 67.29914],
+              [23.75372, 67.43688],
+              [23.39577, 67.46974],
+              [23.54701, 67.59306],
+              [23.45627, 67.85297],
+              [23.65793, 67.9497],
+              [23.40081, 68.05545],
+              [23.26469, 68.15134],
+              [23.15377, 68.14759],
+              [23.10336, 68.26551],
+              [22.73028, 68.40881],
+              [22.00429, 68.50692],
+              [21.03001, 68.88969],
+              [20.90649, 68.89696],
+              [20.85104, 68.93142],
+              [20.91658, 68.96764],
+              [20.78802, 69.03087],
+              [20.55258, 69.06069],
+              [20.0695, 69.04469],
+              [20.28444, 68.93283],
+              [20.33435, 68.80174],
+              [20.22027, 68.67246],
+              [19.95647, 68.55546],
+              [20.22027, 68.48759],
+              [19.93508, 68.35911],
+              [18.97255, 68.52416],
+              [18.63032, 68.50849],
+              [18.39503, 68.58672],
+              [18.1241, 68.53721],
+              [18.13836, 68.20874],
+              [17.90787, 67.96537],
+              [17.30416, 68.11591],
+              [16.7409, 67.91037],
+              [16.38441, 67.52923],
+              [16.12774, 67.52106],
+              [16.09922, 67.4364],
+              [16.39154, 67.21653],
+              [16.35589, 67.06419],
+              [15.37197, 66.48217],
+              [15.49318, 66.28509],
+              [15.05113, 66.15572],
+              [14.53778, 66.12399],
+              [14.50926, 65.31786],
+              [13.64276, 64.58402],
+              [14.11117, 64.46674],
+              [14.16051, 64.18725],
+              [13.98222, 64.00953],
+              [13.23411, 64.09087],
+              [12.74105, 64.02171],
+              [12.14928, 63.59373],
+              [12.19919, 63.47935],
+              [11.98529, 63.27487],
+              [12.19919, 63.00104],
+              [12.07085, 62.6297],
+              [12.29187, 62.25699],
+              [12.14746, 61.7147],
+              [12.40595, 61.57226],
+              [12.57707, 61.56547],
+              [12.86939, 61.35427],
+              [12.69115, 61.06584],
+              [12.2277, 61.02442],
+              [12.59133, 60.50559],
+              [12.52003, 60.13846],
+              [12.36317, 59.99259],
+              [12.15641, 59.8926],
+              [11.87121, 59.86039],
+              [11.92112, 59.69531],
+              [11.69297, 59.59442],
+              [11.8213, 59.24985],
+              [11.65732, 58.90177],
+              [11.45199, 58.89604],
+              [11.4601, 58.99022],
+              [11.34459, 59.11672],
+              [11.15367, 59.07862],
+              [11.08911, 58.98745],
+              [10.64958, 58.89391],
+              [10.40861, 58.38489],
+              [12.16597, 56.60205],
+              [12.07466, 56.29488],
+              [12.65312, 56.04345],
+              [12.6372, 55.91371],
+              [12.88472, 55.63369],
+              [12.60345, 55.42675],
+              [12.84405, 55.13257],
+              [14.28399, 55.1553],
+              [14.89259, 55.5623],
+              [15.79951, 55.54655],
+              [19.64795, 57.06466],
+              [19.84909, 57.57876],
+              [20.5104, 59.15546],
+              [19.08191, 60.19152],
+              [19.23413, 60.61414],
+              [20.15877, 63.06556],
+              [24.14112, 65.39731],
+              [24.15107, 65.81427],
+              [24.14798, 65.83466],
+              [24.15791, 65.85385]
+            ]
+          ]
+        ]
+      },
+      "id": "Q34"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "wikidata": "Q22",
         "nameEn": "Scotland",
         "aliases": ["GB-SCT"],
@@ -43164,250 +43552,6 @@
         ]
       },
       "id": "Q1049"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "iso1A2": "SE",
-        "iso1A3": "SWE",
-        "iso1N3": "752",
-        "wikidata": "Q34",
-        "nameEn": "Sweden",
-        "groups": ["154", "150", "EU", "UN", "001"],
-        "callingCodes": ["46"],
-        "id": "Q34",
-        "m49": "752",
-        "ccTLD": ".se",
-        "isoStatus": "official",
-        "level": "country",
-        "emojiFlag": "🇸🇪",
-        "roadSpeedUnit": "km/h",
-        "roadHeightUnit": "m",
-        "driveSide": "right",
-        "area": 589396.28,
-        "resources": {
-          "se-discourse": {
-            "id": "se-discourse",
-            "type": "discourse",
-            "account": "se",
-            "locationSet": {"include": ["se"]},
-            "languageCodes": ["sv"],
-            "order": 5,
-            "strings": {
-              "community": "OpenStreetMap Sweden",
-              "communityID": "openstreetmapsweden"
-            },
-            "resolved": {
-              "name": "OpenStreetMap Sweden Community Forum",
-              "url": "https://community.openstreetmap.org/c/communities/se",
-              "description": "The official forum for OpenStreetMap Sweden",
-              "nameHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/se\">OpenStreetMap Sweden Community Forum</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://community.openstreetmap.org/c/communities/se\">https://community.openstreetmap.org/c/communities/se</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap Sweden"
-            }
-          },
-          "se-facebook": {
-            "id": "se-facebook",
-            "type": "facebook",
-            "locationSet": {"include": ["se"]},
-            "languageCodes": ["sv"],
-            "order": 3,
-            "strings": {
-              "community": "OpenStreetMap Sweden",
-              "communityID": "openstreetmapsweden",
-              "url": "https://www.facebook.com/groups/osmsweden"
-            },
-            "resolved": {
-              "name": "OpenStreetMap Sweden on Facebook",
-              "url": "https://www.facebook.com/groups/osmsweden",
-              "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/osmsweden\">OpenStreetMap Sweden on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/groups/osmsweden\">https://www.facebook.com/groups/osmsweden</a>",
-              "descriptionHTML": "Join our community on Facebook"
-            }
-          },
-          "se-irc": {
-            "id": "se-irc",
-            "type": "irc",
-            "account": "osm.se",
-            "locationSet": {"include": ["se"]},
-            "languageCodes": ["sv"],
-            "order": -4,
-            "strings": {
-              "community": "OpenStreetMap Sweden",
-              "communityID": "openstreetmapsweden"
-            },
-            "resolved": {
-              "name": "OpenStreetMap Sweden on IRC",
-              "url": "https://webchat.oftc.net/?channels=osm.se",
-              "description": "Join #osm.se on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)",
-              "nameHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm.se\">OpenStreetMap Sweden on IRC</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://webchat.oftc.net/?channels=osm.se\">https://webchat.oftc.net/?channels=osm.se</a>",
-              "descriptionHTML": "Join #osm.se on irc.oftc.net (port 6667 for non-SSL or 6697 for SSL)"
-            }
-          },
-          "se-telegram": {
-            "id": "se-telegram",
-            "type": "telegram",
-            "account": "osmSE",
-            "locationSet": {"include": ["se"]},
-            "languageCodes": ["sv"],
-            "order": 4,
-            "strings": {
-              "community": "OpenStreetMap Sweden",
-              "communityID": "openstreetmapsweden"
-            },
-            "resolved": {
-              "name": "OpenStreetMap Sweden Telegram",
-              "url": "https://t.me/osmSE",
-              "description": "Join our community Telegram chat",
-              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/osmSE\">OpenStreetMap Sweden Telegram</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osmSE\">https://t.me/osmSE</a>",
-              "descriptionHTML": "Join our community Telegram chat"
-            }
-          },
-          "talk-se": {
-            "id": "talk-se",
-            "type": "mailinglist",
-            "account": "talk-se",
-            "locationSet": {"include": ["se"]},
-            "languageCodes": ["sv"],
-            "order": -3,
-            "strings": {
-              "community": "OpenStreetMap Sweden",
-              "communityID": "openstreetmapsweden"
-            },
-            "resolved": {
-              "name": "talk-se Mailing List",
-              "url": "https://lists.openstreetmap.org/listinfo/talk-se",
-              "description": "The official mailing list for OpenStreetMap Sweden",
-              "nameHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-se\">talk-se Mailing List</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://lists.openstreetmap.org/listinfo/talk-se\">https://lists.openstreetmap.org/listinfo/talk-se</a>",
-              "descriptionHTML": "The official mailing list for OpenStreetMap Sweden"
-            }
-          }
-        }
-      },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [24.15791, 65.85385],
-              [23.90497, 66.15802],
-              [23.71339, 66.21299],
-              [23.64982, 66.30603],
-              [23.67591, 66.3862],
-              [23.63776, 66.43568],
-              [23.85959, 66.56434],
-              [23.89488, 66.772],
-              [23.98059, 66.79585],
-              [23.98563, 66.84149],
-              [23.56214, 67.17038],
-              [23.58735, 67.20752],
-              [23.54701, 67.25435],
-              [23.75372, 67.29914],
-              [23.75372, 67.43688],
-              [23.39577, 67.46974],
-              [23.54701, 67.59306],
-              [23.45627, 67.85297],
-              [23.65793, 67.9497],
-              [23.40081, 68.05545],
-              [23.26469, 68.15134],
-              [23.15377, 68.14759],
-              [23.10336, 68.26551],
-              [22.73028, 68.40881],
-              [22.00429, 68.50692],
-              [21.03001, 68.88969],
-              [20.90649, 68.89696],
-              [20.85104, 68.93142],
-              [20.91658, 68.96764],
-              [20.78802, 69.03087],
-              [20.55258, 69.06069],
-              [20.0695, 69.04469],
-              [20.28444, 68.93283],
-              [20.33435, 68.80174],
-              [20.22027, 68.67246],
-              [19.95647, 68.55546],
-              [20.22027, 68.48759],
-              [19.93508, 68.35911],
-              [18.97255, 68.52416],
-              [18.63032, 68.50849],
-              [18.39503, 68.58672],
-              [18.1241, 68.53721],
-              [18.13836, 68.20874],
-              [17.90787, 67.96537],
-              [17.30416, 68.11591],
-              [16.7409, 67.91037],
-              [16.38441, 67.52923],
-              [16.12774, 67.52106],
-              [16.09922, 67.4364],
-              [16.39154, 67.21653],
-              [16.35589, 67.06419],
-              [15.37197, 66.48217],
-              [15.49318, 66.28509],
-              [15.05113, 66.15572],
-              [14.53778, 66.12399],
-              [14.50926, 65.31786],
-              [13.64276, 64.58402],
-              [14.11117, 64.46674],
-              [14.16051, 64.18725],
-              [13.98222, 64.00953],
-              [13.23411, 64.09087],
-              [12.74105, 64.02171],
-              [12.14928, 63.59373],
-              [12.19919, 63.47935],
-              [11.98529, 63.27487],
-              [12.19919, 63.00104],
-              [12.07085, 62.6297],
-              [12.29187, 62.25699],
-              [12.14746, 61.7147],
-              [12.40595, 61.57226],
-              [12.57707, 61.56547],
-              [12.86939, 61.35427],
-              [12.69115, 61.06584],
-              [12.2277, 61.02442],
-              [12.59133, 60.50559],
-              [12.52003, 60.13846],
-              [12.36317, 59.99259],
-              [12.15641, 59.8926],
-              [11.87121, 59.86039],
-              [11.92112, 59.69531],
-              [11.69297, 59.59442],
-              [11.8213, 59.24985],
-              [11.65732, 58.90177],
-              [11.45199, 58.89604],
-              [11.4601, 58.99022],
-              [11.34459, 59.11672],
-              [11.15367, 59.07862],
-              [11.08911, 58.98745],
-              [10.64958, 58.89391],
-              [10.40861, 58.38489],
-              [12.16597, 56.60205],
-              [12.07466, 56.29488],
-              [12.65312, 56.04345],
-              [12.6372, 55.91371],
-              [12.88472, 55.63369],
-              [12.60345, 55.42675],
-              [12.84405, 55.13257],
-              [14.28399, 55.1553],
-              [14.89259, 55.5623],
-              [15.79951, 55.54655],
-              [19.64795, 57.06466],
-              [19.84909, 57.57876],
-              [20.5104, 59.15546],
-              [19.08191, 60.19152],
-              [19.23413, 60.61414],
-              [20.15877, 63.06556],
-              [24.14112, 65.39731],
-              [24.15107, 65.81427],
-              [24.14798, 65.83466],
-              [24.15791, 65.85385]
-            ]
-          ]
-        ]
-      },
-      "id": "Q34"
     },
     {
       "type": "Feature",

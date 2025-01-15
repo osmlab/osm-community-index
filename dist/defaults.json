@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "5.9.0",
-    "generated": "2024-12-16T16:11:20.725Z",
+    "version": "5.9.1",
+    "generated": "2025-01-15T18:27:03.615Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/defaults.json",
-    "hash": "f8c061ebdc78d18b42fd83f519813ae5"
+    "hash": "373389fc3bcc9dd9c6f70898e1b35237"
   },
   "defaults": {
     "aparat": {
@@ -110,7 +110,7 @@
       "description": "Follow us on 𝕏",
       "url": "https://twitter.com/{account}"
     },
-    "website": {"name": "{community}"},
+    "url": {"name": "{community}"},
     "wiki": {
       "name": "{community} WikiProject",
       "url": "https://wiki.openstreetmap.org/wiki/{account}"

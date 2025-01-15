@@ -19,6 +19,24 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.9.1
+##### 2025-Jan-15
+Added:
+  * YouthMappers UFRJ and IVIDES ([#765])
+  * DE Mainz Signal Group ([#767])
+  * OSM Iraq Twitter ([#768])
+Updated:
+  * Swedish community resources ([#775])
+Removed:
+  * OSM Belgium Twitter ([#776])
+
+[#765]: https://github.com/osmlab/osm-community-index/issues/765
+[#767]: https://github.com/osmlab/osm-community-index/issues/767
+[#768]: https://github.com/osmlab/osm-community-index/issues/768
+[#775]: https://github.com/osmlab/osm-community-index/issues/775
+[#776]: https://github.com/osmlab/osm-community-index/issues/776
+
+
 # 5.9.0
 ##### 2024-Dec-16
 * Updated dependencies, bump to location-conflation v1.4.1 / country-coder v5.3.1
