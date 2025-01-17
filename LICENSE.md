@@ -1,4 +1,4 @@
-ISC License
+## ISC License
 
 Copyright (c) 2025, osm-community-index contributors
 
