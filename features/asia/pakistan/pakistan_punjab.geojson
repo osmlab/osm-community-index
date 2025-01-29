@@ -1,10 +1,13 @@
 {
-  "type": "Feature",
-  "id": "pakistan_punjab.geojson",
-  "properties": {},
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+        "@id": "pakistan_punjab",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
           [
             [
               [
@@ -39648,7 +39651,9 @@
                 28.329806
               ]
             ]
-      ]
-    ]
-  }
+          ]
+        ]
+      }
+}
+]
 }
