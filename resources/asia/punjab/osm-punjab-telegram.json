@@ -2,13 +2,16 @@
   "id": "osm-punjab-telegram",
   "type": "telegram",
   "account": "OSMPunjab",
-  "locationSet": {"include": ["pakistan_punjab.geojson"]},
+  "locationSet": {"include": ["punjab.geojson"]},
   "strings": {
     "community": "OpenStreetMap Punjab",
     "communityID": "openstreetmappunjab",
     "description": "We map Punjab together. Join our telegram group. {url}"
   },
   "contacts": [
-    {"name": "Kuldeep Singh", "email": "kuldeepburjbhalaike@gmail.com"}
+    {
+      "name": "Kuldeep Singh",
+      "email": "kuldeepburjbhalaike@gmail.com"
+    }
   ]
 }
