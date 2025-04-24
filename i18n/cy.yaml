@@ -3,6 +3,7 @@ cy:
     freelibreopensourcesoftwarekosovaflossk: Free Libre Open Source Software Kosova (FLOSSK)
     geolibres: GeoLibres
     kiribatiwomeninmapping: Kiribati Women in Mapping
+    mapeadoresivides: Mapeadores IVIDES
     mappingbotswana: Mapping Botswana
     maptimebogota: MaptimeBogota
     maptimehrva: MaptimeHRVA
@@ -208,6 +209,7 @@ cy:
     swissopenstreetmap: OpenStreetMap Y Swistir
     tadeomappers: TadeoMappers
     youthmappersasu: YouthMappersASU
+    youthmappersufrj: YouthMappers UFRJ
   _defaults:
     aparat:
       name: '{community} ar Aparat'
@@ -295,8 +297,6 @@ cy:
       description: Dilynwch ni ar TikTok
       url: https://tiktok.com/@{account}
     twitter:
-      name: '{community} ar X'
-      description: Dilynwch ni ar X
       url: https://twitter.com/{account}
     url:
       name: '{community}'
@@ -304,8 +304,6 @@ cy:
       name: 'WiciBrosiect {community}'
       url: https://wiki.openstreetmap.org/wiki/{account}
     x:
-      name: '{community} ar X'
-      description: Dilynwch ni ar X
       url: https://twitter.com/{account}
     xmpp:
       name: 'XMPP {community}'
@@ -430,8 +428,6 @@ cy:
     description: 'Tudalen Wici {community}'
   de-mainz-mailinglist:
     description: OpenStreetMap ym Mainz und Umgebung
-  de-mainz-telegram:
-    description: OpenStreetMap ym Mainz und Umgebung
   de-mainz-wiki:
     description: OpenStreetMap ym Mainz und Umgebung
   de-munchen-wiki:
@@ -495,8 +491,6 @@ cy:
     name: '{community} ar Mobilizon'
   hu-tm:
     name: 'Rheolwr Tasgau {community}'
-  hu-website:
-    description: Rydym yn tyfu a gwella OpenStreetMap yn Hwngari.
   hu-wiki:
     description: 'Tudalen Wici {community}'
   id-facebook-group:
@@ -533,6 +527,7 @@ cy:
     name: Map Kibera Trust
   MapColabora-twitter:
     name: Mapeado Colaborativo / Geoinquietos Zaragoza
+    description: Cyfrif Twitter Mapeado Colaborativo / Geoinquietos Zaragoza
   MapLYH:
     name: MapLYH
     description: Grŵp MapLYH
@@ -543,7 +538,6 @@ cy:
     name: MappingWR
   MapRVA:
     name: MapRVA
-    description: Meetup MapRVA
   maptime-bogota-facebook:
     name: MaptimeBogotá
     description: Rydym yn grŵp o bobl sydd â diddordeb i fapio Bogotá a'r ardal o'i gwmpas ar OpenStreetMap.
@@ -591,6 +585,8 @@ cy:
     description: Ymunwch â'r Grŵp Google {community}
   me-telegram:
     description: Croeso i bawb! Cofrestrwch nawr {signupUrl}
+  nl-discourse:
+    description: Fforwm i drafod OpenStreetMap yn yr Iseldiroedd
   nl-matrix:
     description: Croeso i bob mapiwr!
   no-matrix:
@@ -758,8 +754,6 @@ cy:
     description: 'OpenStreetMap Llundain ar Twitter: {url}'
   uk-london-wiki:
     description: 'Tudalen Wici {community}'
-  uk-loomio:
-    name: OpenStreetMap y DU ar Loomio
   us-massachusetts-mailinglist:
     name: Rhestr Bost Talk-us-massachusetts
     description: Dyma rhestr bost ar gyfer y gymuned OSM yn Massachusetts
@@ -872,6 +866,11 @@ cy:
     name: Geoventurers
   ym-Technical-University-of-Kenya:
     name: Geospatial Science Student Association
+  ym-The-Citadel:
+    name: YouthMappers yn The Citadel
+    description: Siapter YouthMappers yn The Citadel
+  ym-The-Gambia-YMCA-University-of-the-Gambia:
+    name: Connected YouthMappers
   ym-The-George-Washington-University:
     name: Humanitarian Mapping Society
   ym-The-Johns-Hopkins-University-SAIS:
@@ -904,6 +903,7 @@ cy:
     name: Yeka Street MGA
   ym-Universidade-Eduardo-Mondlane:
     name: Comunidade YouthMappers Moçambique
+    description: Siapter YouthMappers yn Universidade Eduardo Mondlane
   ym-Universit-de-NZrkor:
     name: YouthMappers N'Zérékoré
     description: Siapter YouthMappers ym Mhrifysgol N'Zérékoré
@@ -913,16 +913,22 @@ cy:
     name: YouthMappers at UGB
   ym-Universit-Mohammed-V-Rabat:
     name: Brahmapoutre at Rabat
+    description: Siapter YouthMappers yn Université Mohammed V Rabat
   ym-Universitas-Negeri-Makassar:
     name: Kontur Geografi
+    description: Siapter YouthMappers yn Universitas Negeri Makassar
   ym-University-Muhammadiyah-Surakarta:
     name: SpaceTime
+    description: Siapter YouthMappers yn University Muhammadiyah Surakarta
   ym-University-of-California-Davis:
     name: Mapping Club
   ym-University-of-Cape-Coast:
     name: UCC Geographical Society
   ym-University-of-Chicago:
     name: Cymdeithas Tobler
+    description: Siapter YouthMappers ym Mhrifysgol Chicago
+  ym-University-of-Dar-es-Salaam:
+    name: YouthMappers ym Mhrifysgol Dar es Salaam
   ym-University-of-Energy-and-Natural-Resources:
     name: Eco-Club
   ym-University-of-Exeter:

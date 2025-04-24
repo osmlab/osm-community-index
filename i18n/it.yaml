@@ -1,7 +1,10 @@
 it:
   _communities:
-    kiribatiwomeninmapping: Kiribati Donne nella mappatura
+    freelibreopensourcesoftwarekosovaflossk: Free Libre Open Source Software Kosova (FLOSSK)
+    geolibres: GeoLibres
+    kiribatiwomeninmapping: Donne del Kiribati nella mappatura
     mappingbotswana: Mappando Botswana
+    openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap Aquisgrana
     openstreetmapaustria: OpenStreetMap dell’Austria
     openstreetmapbangladesh: OpenStreetMap del Bangladesh
@@ -109,6 +112,8 @@ it:
       description: Unisciti alla nostra comunità su Facebook
     forum:
       description: Il forum ufficiale per {community}
+    github:
+      name: '{community}GitHub'
     irc:
       name: '{community} su IRC'
     linkedin:
@@ -305,21 +310,19 @@ it:
   GeoPhilly:
     description: Meetup per appassionati di mappe nella zona di Philadelphia
     extendedDescription: Geophilly unisce sviluppatori, geografi, data geek, appassionati open source, civic hacker e drogati di mappe nella comune passione passione per le mappe e delle storie che possono raccontare. Se usate delle mappe nel vostro lavoro o se voltete soltanto saperne di più, questo è il meetup adatto per voi! I nostri eventi mirano a essere aperti, amichevoli, educativi e sociali, e spaziano dalle piacevoli chiacchierate agli incontri lampo e perfino agli workshop. Venite a creare una community geospaziale variegata e ispirativa con noi a Philadelphia!
+  hr-github:
+    description: '{community}GitHub'
   hr-wiki:
     description: Pagina Wikiproject per la Croazia
   hu-facebook-group:
     name: '{comunità} Gruppo Facebook'
   hu-matrix:
     extendedDescription: Chat di OpenStreetMap sugli argomenti della mappa. Uno dei forum di supporto della comunità OSM.
-  hu-meetup:
-    description: La piattaforma per organizzare incontri in Ungheria
   hu-mobilizon:
     name: '{community} su Mobilizon'
     description: Prossimi eventi per la comunità di OpenStreetMap Ungheria
   hu-tm:
     description: Esplora le attività di mappatura attive in Ungheria
-  hu-website:
-    description: Aiutiamo a far crescere e migliorare OpenStreetMap in Ungheria.
   hu-wiki:
     description: '{community} Pagina wiki'
   humanitarian-osm-tr-slack:
@@ -343,10 +346,13 @@ it:
     description: Aiutiamo OpenStreetMap a crescere e migliorare in Italia.
   ko-facebook:
     description: Mapper e utenti di OpenStreetMap in Corea
+  ko-github:
+    description: '{community}GitHub'
   ko-osm:
     description: Aiutiamo a far crescere e migliorare OpenStreetMap in Corea.
     extendedDescription: Se stai contribuendo o sei interessato a contribuire a OpenStreetMap, sentiti libero di unirti a noi. Siamo pronti ad accettare neofiti in qualsiasi momento!
   kosovo-flossk:
+    name: Free Libre Open Source Software Kosova (FLOSSK)
     description: Promuove FLOSS dal 2009
     extendedDescription: Free Libre Open Source Software Kosova (FLOSSK) è un'organizzazione non governativa con sede a Prishtina fondata nel 2009 per supportare, promuovere e sviluppare software libero e open source. Inoltre, contribuiamo anche alla conoscenza aperta e partecipativa, all'educazione nelle tecnologie dell'informazione attraverso corsi aperti e standard aperti, cultura e società aperta utilizzando la comunicazione libera.
   kosovo-matrix:
@@ -398,8 +404,6 @@ it:
     extendedDescription: Mappa Mercia è un progetto per sviluppare OpenStreetMap nelle West Midlands nel Regno Unito. Organizziamo eventi per la comunità,  lezioni e supportiamo gli enti locali che vogliano rendere aperti i dati in loro possesso.
   MappingWR:
     description: Rendere facili da trovare percorsi a basse emissioni di carbonio nella regione di Waterloo.
-  MapRVA:
-    description: Incontrarsi su MapRVA
   maptime-bogota-facebook:
     description: Siamo un gruppo di persone interessate a mappare Bogotà e dintorni in OpenStreetMap.
     extendedDescription: Impara a raccogliere dati sul campo e a digitalizzarli su OpenStreetMap. Non è necessario avere conoscenze pregresse! Basta avere voglia di partecipare, imparare e divertirsi.
@@ -471,6 +475,7 @@ it:
   osm-africa-slack:
     description: Tutti sono i benvenuti! Iscriviti su {signupUrl}
   OSM-AR-geolibres:
+    name: GeoLibres
     description: Associazione Civile Geolibres
     extendedDescription: Promuoviamo la creazione e l'uso di dati geografici ad accesso libero, l'adozione di standard geografici e l'uso di software libero e open source.
   OSM-AR-telegram:
@@ -660,6 +665,8 @@ it:
     description: Pagina Wikiproject per la Serbia
   sg-wiki:
     description: '{community} Pagina wiki'
+  si-github:
+    description: '{community}GitHub'
   si-ljubljana-wiki:
     description: '{community} Pagina wiki'
   si-wiki:
@@ -702,8 +709,6 @@ it:
     description: 'OpenStreetMap Londra su Twitter: {url}'
   uk-london-wiki:
     description: '{community} Pagina wiki'
-  uk-loomio:
-    name: OpenStreetMap Regno Unito su Loomio
   us-discourse:
     description: Un forum di discussione su OpenStreetMap negli Stati Uniti
   us-massachusetts-mailinglist:

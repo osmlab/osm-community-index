@@ -1,10 +1,46 @@
 ja:
   _communities:
+    openstreetmap: OpenStreetMap
+    openstreetmapafghanistan: OpenStreetMap アフガニスタン
     openstreetmapafrica: OpenStreetMap アフリカ
+    openstreetmapalba: OpenStreetMap アルバ
+    openstreetmapalbania: OpenStreetMap アルバニア
+    openstreetmapargentina: OpenStreetMap アルゼンチン
+    openstreetmaparmenia: OpenStreetMap アルメニア
     openstreetmapasia: OpenStreetMap アジア
+    openstreetmapaustria: OpenStreetMap オーストリア
     openstreetmapjapan: OpenStreetMap 日本
-    openstreetmapmontenegro: OpenStreetMap Montenegro
+    openstreetmapmontenegro: OpenStreetMap モンテネグロ
   _defaults:
+    bluesky:
+      description: Bluesky でフォロー
+    discord:
+      name: '{community} Discord'
+      url: https://discord.gg/{account}
+    fediverse:
+      name: '{community}'
+    gitlab:
+      url: https://gitlab.com/{account}
+    group:
+      name: '{community}'
+    matrix:
+      url: https://matrix.to/#/{account}:matrix.org
+    meetup:
+      url: https://www.meetup.com/{account}
+    osm:
+      name: '{community}'
+    osm-lc:
+      name: '{community}'
+    reddit:
+      url: https://www.reddit.com/r/{account}
+    telegram:
+      url: https://t.me/{account}
+    threads:
+      url: https://threads.net/@{account}
+    tiktok:
+      url: https://tiktok.com/@{account}
+    url:
+      name: '{community}'
     wiki:
       name: '{community} ウィキプロジェクト'
   am-wiki:
@@ -41,6 +77,8 @@ ja:
     description: '{community} ウィキページ'
   ko-osm:
     extendedDescription: OpenStreetMapに貢献してみたいと思ったり興味を感じたら、気軽に参加してください。新しい参加者はいつでも歓迎します！
+  osm-ch:
+    name: '{community}'
   osm-deep-south-wiki:
     description: '{community} ウィキページ'
   OSM-japan-facebook:

@@ -3,6 +3,7 @@ zh_TW:
     freelibreopensourcesoftwarekosovaflossk: 自由與開放軟體科索沃 (FLOSSK)
     geolibres: 地理自由
     kiribatiwomeninmapping: 吉里巴斯女性在畫地圖
+    mapeadoresivides: Mapeadores IVIDES
     mappingbotswana: 畫波札那的地圖
     maptimebogota: 波哥大地圖時間
     maptimehrva: 地圖時間HRVA
@@ -159,6 +160,7 @@ zh_TW:
     openstreetmappiemonte: 開放街圖皮埃蒙特
     openstreetmappoland: 開放街圖波蘭
     openstreetmapportugal: 開放街圖葡萄牙
+    openstreetmappunjab: 開放街圖旁遮普
     openstreetmaprdc: 開放街圖剛果民主共和國
     openstreetmaprennes: 開放街圖雷恩
     openstreetmapreunion: 開放街圖留尼旺
@@ -208,6 +210,7 @@ zh_TW:
     swissopenstreetmap: 瑞士 OpenStreetMap
     tadeomappers: 塔德奧圖客
     youthmappersasu: 年輕圖客ASU
+    youthmappersufrj: 年輕圖客 UFRJ
   _defaults:
     aparat:
       name: 'Aparat 上的 {community}'
@@ -296,7 +299,7 @@ zh_TW:
       url: https://tiktok.com/@{account}
     twitter:
       name: 'X 上的 {community}'
-      description: 在 X 追蹤我們
+      description: 在 X 上追蹤我們
       url: https://twitter.com/{account}
     url:
       name: '{community}'
@@ -305,7 +308,7 @@ zh_TW:
       url: https://wiki.openstreetmap.org/wiki/{account}
     x:
       name: 'X 上的 {community}'
-      description: 在 X 追蹤我們
+      description: 在 X 上追蹤我們
       url: https://twitter.com/{account}
     xmpp:
       name: '{community} 的 XMPP'
@@ -484,8 +487,8 @@ zh_TW:
     description: '{community} 的維基頁面'
   de-mainz-mailinglist:
     description: 美因茨一帶的開放街圖
-  de-mainz-telegram:
-    description: 美因茨一帶的開放街圖
+  de-mainz-signal:
+    description: 美茵茲、威斯巴登及周邊地區的 OpenStreetMap
   de-mainz-wiki:
     description: 美因茨一帶的開放街圖
   de-munchen-wiki:
@@ -570,16 +573,12 @@ zh_TW:
     name: '{community} Facebook 社團'
   hu-matrix:
     extendedDescription: 有關地圖主題的開放街圖聊天群組，為 OSM 社群支援論壇其中之一
-  hu-meetup:
-    description: 匈牙利舉行聚會的平台
   hu-mobilizon:
     name: 'Mobilizon 上的 {community}'
     description: 開放街圖匈牙利社群的未來活動
   hu-tm:
     name: '{community} 任務分配管理器'
     description: 探索匈牙利的啟動畫地圖任務
-  hu-website:
-    description: 我們協助匈牙利的開放街圖成長茁壯並改善它。
   hu-wiki:
     description: '{community} 的維基頁面'
   humanitarian-osm-tr-slack:
@@ -603,6 +602,8 @@ zh_TW:
     description: 我們協助義大利的開放街圖成長茁壯並改善它。
   it-discourse:
     description: 您可以討論 OpenStreetMap 事務的論壇
+  ivides_website:
+    description: 我們專注於永續發展、繪圖及支援 OpenStreetMap 社群。
   ko-facebook:
     description: 南韓的圖客與開放街圖使用者
   ko-github:
@@ -669,7 +670,7 @@ zh_TW:
     description: 讓滑鐵盧地區的低碳路徑更容易探索。
   MapRVA:
     name: MapRVA
-    description: MapRVA 聚會
+    description: MapRVA 是維吉尼亞州里奇蒙市的一群地圖愛好者，他們使用 OpenStreetMap 建立並分享本市的地理空間資料。
   maptime-bogota-facebook:
     name: 地圖時間波哥大
     description: 我們是一群有興趣畫開放街圖波哥大與週遭地區的人。
@@ -910,6 +911,11 @@ zh_TW:
     name: 自由軟體硬體運動 - 郵件清單
     description: FSHM Puducherry 郵件清單用來討論在 Puducherry 的製圖與其他事情。
     extendedDescription: FSHM 會組織關於自由軟體／硬體、科技、行動與開放街圖的活動。
+  osm-punjab-matrix:
+    description: 我們一起繪製旁遮普。加入我們的 Matrix 群組
+    extendedDescription: OSM 旁遮普非官方的聊天室，也與 OSMPunjab Telegram 群組同步
+  osm-punjab-telegram:
+    description: 我們一起繪製旁遮普。加入我們的 Telegram 群組。{url}
   OSM-Rome-meetup:
     name: Incontro Mappatori Romani
     description: 改善羅馬區域的開放街圖
@@ -982,6 +988,8 @@ zh_TW:
     extendedDescription: 加入社群以得知更多關於開放街圖的資訊，也可以問問題或是參與我們的會面。每個人都很歡迎加入！
   rs-wiki:
     description: 開放街圖維基專題的塞爾維亞頁面
+  scandinavia-discord:
+    name: 開放街圖世界 Discord 的斯堪的納維亞語頻道
   sg-wiki:
     description: '{community} 的維基頁面'
   si-github:
@@ -1031,8 +1039,6 @@ zh_TW:
     description: '開放街圖倫敦 Twitter：{url}'
   uk-london-wiki:
     description: '{community} 的維基頁面'
-  uk-loomio:
-    name: 開放街圖英國的 Loomio
   us-discourse:
     description: 討論開放街圖在美國事物的 Discourse 論壇
   us-massachusetts-mailinglist:

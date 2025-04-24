@@ -193,40 +193,40 @@ be:
     openstreetmapzimbabwe: OpenStreetMap Зімбабвэ
   _defaults:
     aparat:
-      name: '{супольнасць} у Апарат'
+      name: '{community} у Апарат'
       description: Падпішыцеся да нашага Апарат-каналу
-      url: https://aparat.com/{акаўнт}
+      url: https://aparat.com/{account}
     discord:
-      name: '{супольнасць} Discord'
+      name: '{community} Discord'
       description: Узаемадзейнічайце з іншымі картографамі ў Discord
-      url: https://discord.gg/{акаўнт}
+      url: https://discord.gg/{account}
     discourse:
-      name: '{супольнасць} Форум Супольнасці'
-      description: Афіцыйны форум {супольнасць}
-      url: https://community.openstreetmap.org/c/communities/{акаўнт}
+      name: '{community} Форум Супольнасці'
+      description: Афіцыйны форум {community}
+      url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
-      name: '{супольнасць} у Facebook'
+      name: '{community} у Facebook'
       description: Далучайцеся да нашай суполкі ў Facebook
-      url: https://www.facebook.com/{акаўнт}
+      url: https://www.facebook.com/{account}
     fediverse:
-      name: '{супольнасць}'
+      name: '{community}'
     forum:
-      name: '{супольнасць} Форум'
-      description: Афіцыйны форум для {супольнасць}
+      name: '{community} Форум'
+      description: Афіцыйны форум для {community}
     github:
-      name: '{супольнасць} GitHub'
-      url: https://github.com/{акаўнт}
+      name: '{community} GitHub'
+      url: https://github.com/{account}
     gitlab:
-      name: '{супольнасць} GitLab'
-      url: https://gitlab.com/{акаўнт}
+      name: '{community} GitLab'
+      url: https://gitlab.com/{account}
     group:
-      name: '{супольнасць}'
+      name: '{community}'
     irc:
-      name: '{супольнасць} у IRC'
-      description: 'Далучайцеся, #{акаўнт}, праз  irc.oftc.net (порт6667 для non-SSL або 6697 для SSL)'
-      url: https://webchat.oftc.net/?channels={акаўнт}
+      name: '{community} у IRC'
+      description: 'Далучайцеся, #{account}, праз  irc.oftc.net (порт6667 для non-SSL або 6697 для SSL)'
+      url: https://webchat.oftc.net/?channels={account}
     linkedin:
-      name: '{супольнасць} у LinkedIn'
+      name: '{community} у LinkedIn'
       description: Далучайцеся да суполкі ў LinkedIn
     mailinglist:
       name: '{account} Спіс рассылкі'
@@ -240,9 +240,9 @@ be:
     newsletter:
       name: '{community} Інфармацыйны веснік'
     osm:
-      name: '{супольнасць}'
+      name: '{community}'
     osm-lc:
-      name: '{супольнасць}'
+      name: '{community}'
     reddit:
       name: '{community} у Reddit'
     signal:
@@ -252,16 +252,10 @@ be:
     threads:
       name: '{community} у Threads'
       description: Падпішыцеся на нас у Threads
-    twitter:
-      name: '{community} у X'
-      description: Падпішыцеся на нас у X
     url:
-      name: '{супольнасць}'
+      name: '{community}'
     wiki:
       name: '{community} ВікіПраект'
-    x:
-      name: '{community} у X'
-      description: Падпішыцеся на нас у X
     youtube:
       name: 'community} у YouTube'
       description: Пішыцеся на наш YouTube-канал
@@ -322,17 +316,17 @@ be:
   fr-montrouge-wiki:
     description: '{community} старонка Вікіпедыі'
   hr-github:
-    description: '{супольнасць} GitHub'
+    description: '{community} GitHub'
   hu-wiki:
     description: '{community} старонка Вікіпедыі'
   ko-github:
-    description: '{супольнасць} GitHub'
+    description: '{community} GitHub'
   kosovo-flossk:
     name: Бясплатнае праграмнае забеспячэнне Лібрэ ад Kosova
   OSM-AR-geolibres:
     name: ГеаЛібрэс
   osm-ch:
-    name: '{супольнасць}'
+    name: '{community}'
   osm-deep-south-wiki:
     description: '{community} старонка Вікіпедыі'
   osm-michigan-wiki:
@@ -344,7 +338,7 @@ be:
   sg-wiki:
     description: '{community} старонка Вікіпедыі'
   si-github:
-    description: '{супольнасць} GitHub'
+    description: '{community} GitHub'
   si-ljubljana-wiki:
     description: '{community} старонка Вікіпедыі'
   si-wiki:

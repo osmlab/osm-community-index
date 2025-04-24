@@ -6,11 +6,14 @@ pl:
     openstreetmapaachen: OpenStreetMap Akwizgran
     openstreetmapafghanistan: OpenStreetMap Afganistan
     openstreetmapafrica: OpenStreetMap Afryka
+    openstreetmapalba: OpenStreetMap Alba
     openstreetmapalbania: OpenStreetMap Albania
     openstreetmapargentina: OpenStreetMap Argentyna
     openstreetmaparmenia: OpenStreetMap Armenia
     openstreetmapasia: OpenStreetMap Azja
+    openstreetmapasti: OpenStreetMap Asti
     openstreetmapaustria: OpenStreetMap Austria
+    openstreetmapbahia: OpenStreetMap Bahia
     openstreetmapbangladesh: OpenStreetMap Bangladesz
     openstreetmapbelarus: OpenStreetMap Białoruś
     openstreetmapbelgium: OpenStreetMap Belgia
@@ -18,6 +21,7 @@ pl:
     openstreetmapbengaluru: OpenStreetMap w Bengaluru
     openstreetmapbenin: OpenStreetMap Benin
     openstreetmapberlin: OpenStreetMap Berlin
+    openstreetmapbivccvl: OpenStreetMap BI-VC-CVL
     openstreetmapbolivia: OpenStreetMap Boliwia
     openstreetmapbonn: OpenStreetMap Bonn
     openstreetmapbosniaandherzegovina: OpenStreetMap Bośnia i Hercegowina
@@ -44,6 +48,7 @@ pl:
     openstreetmapcuba: OpenStreetMap Kuba
     openstreetmapcyprus: OpenStreetMap Cypr
     openstreetmapcz: OpenStreetMap Czechy
+    openstreetmapde: OpenStreetMap Niemcy
     openstreetmapdeepsouth: OpenStreetMap głebokie południe
     openstreetmapdelhi: OpenStreetMap w Delhi
     openstreetmapdenmark: OpenStreetMap Dania
@@ -67,6 +72,7 @@ pl:
     openstreetmapgeorgia: OpenStreetMap Gruzja
     openstreetmapgermany: OpenStreetMap Niemcy
     openstreetmapghana: OpenStreetMap Ghana
+    openstreetmapgorakalwaria: OpenStreetMap Góra Kalwaria
     openstreetmapgreece: OpenStreetMap Grecja
     openstreetmapguatemala: OpenStreetMap Gwatemala
     openstreetmapguinea: OpenStreetMap Gwinea
@@ -127,7 +133,10 @@ pl:
     openstreetmapnorthkorea: OpenStreetMap Korea Północna
     openstreetmapnorway: OpenStreetMap Norwegia
     openstreetmapohio: OpenStreetMap Ohio
+    openstreetmappakistan: OpenStreetMap Pakistan
+    openstreetmappanama: OpenStreetMap Panama
     openstreetmapparaguay: OpenStreetMap Paragwaj
+    openstreetmapperu: OpenStreetMap Peru
     openstreetmapphilippines: OpenStreetMap Filipiny
     openstreetmappiemonte: OpenStreetMap Piemont
     openstreetmappoland: OpenStreetMap Polska
@@ -139,6 +148,7 @@ pl:
     openstreetmapsaudiarabia: OpenStreetMap Arabia Saudyjska
     openstreetmapserbia: OpenStreetMap Serbia
     openstreetmapseychelles: OpenStreetMap Seszele
+    openstreetmapsierraleone: OpenStreetMap Sierra Leone
     openstreetmapsingapore: OpenStreetMap Singapur
     openstreetmapslovenia: OpenStreetMap Słowenia
     openstreetmapsomalia: OpenStreetMap Somalia
@@ -260,8 +270,6 @@ pl:
       description: Obserwuj nas na TikToku
       url: https://tiktok.com/@{account}
     twitter:
-      name: '{community} na X'
-      description: Obserwuj nas na X
       url: https://twitter.com/{account}
     url:
       name: '{community}'
@@ -269,8 +277,6 @@ pl:
       name: '{community} WikiProject'
       url: https://wiki.openstreetmap.org/wiki/{account}
     x:
-      name: '{community} na X'
-      description: Obserwuj nas na X
       url: https://twitter.com/{account}
     xmpp:
       name: 'XMPP {community}'
@@ -459,16 +465,12 @@ pl:
     name: 'Grupa {community} na Facebooku'
   hu-matrix:
     extendedDescription: Czat OpenStreetMap na tematy mapowania. Jedno z forów wsparcia społeczności OSM.
-  hu-meetup:
-    description: Platforma do organizowania spotkań na Węgrzech
   hu-mobilizon:
     name: '{community} na Mobilizon'
     description: 'Nadchodzące wydarzenia dla społeczności Węgierskiej OpenStreetMap '
   hu-tm:
     name: 'Menedżer zadań {community}'
     description: Przeglądaj aktywne zadania mapowe na Węgrzech
-  hu-website:
-    description: Pomagamy rozwijać i ulepszać OpenStreetMap na Węgrzech.
   hu-wiki:
     description: 'Strona Wiki {community}'
   humanitarian-osm-tr-slack:

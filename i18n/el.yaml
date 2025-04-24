@@ -1,5 +1,6 @@
 el:
   _communities:
+    mapeadoresivides: Mapeadores IVIDES
     mappingbotswana: Mapping Μποτσουάνα
     openstreetmapaachen: OpenStreetMap Άαχεν
     openstreetmapafghanistan: OpenStreetMap Αφγανιστάν
@@ -198,6 +199,7 @@ el:
     osmmainz: OSM Μάιντς
     osmnelson: OSM Νέλσον
     tadeomappers: TadeoMappers
+    youthmappersufrj: YouthMappers UFRJ
   _defaults:
     aparat:
       name: '{community} στο Aparat'
@@ -257,16 +259,10 @@ el:
       name: '{community} στο TikTok'
       description: Ακολουθήστε μας στο TikTok
       url: https://tiktok.com/@{account}
-    twitter:
-      name: '{community} στο X'
-      description: Ακολουθήστε μας στο X
     url:
       name: '{community}'
     wiki:
       name: '{community} ΒικιΈργο'
-    x:
-      name: '{community} στο X'
-      description: Ακολουθήστε μας στο X
     xmpp:
       description: 'Γίνετε μέλος της κοινότητάς μας στο XMPP: {url}'
     youtube:
@@ -352,6 +348,8 @@ el:
     name: OpenStreetMap Αμβούργο XMPP
   de-luneburg-wiki:
     description: '{community} Wiki σελίδα'
+  de-mainz-signal:
+    description: OpenStreetMap σε Μάιντς, Βίζμπαντεν και περίχωρα
   de-munchen-wiki:
     description: '{community} Wiki σελίδα'
   de-telegram:
@@ -373,8 +371,6 @@ el:
     description: Σελίδα Wikiproject για Κροατία
   hu-facebook-group:
     name: '{community} Ομάδα Facebook'
-  hu-meetup:
-    description: Η πλατφόρμα για τη διοργάνωση συναντήσεων στην Ουγγαρία
   hu-mobilizon:
     name: '{community} στο Mobilizon'
   hu-wiki:
@@ -383,6 +379,8 @@ el:
     name: '{community} Ομάδα Facebook'
   is-chapter:
     description: Βοηθάμε την ανάπτυξη και τη βελτίωση του OpenStreetMap στην Ισλανδία
+  ivides_website:
+    description: Εστιάζουμε στην βιώσιμη ανάπτυξη, χαρτογράφηση, και υποστήριξη της κοινότητας του OpenStreetMap.
   kp-wiki:
     description: '{community} Οδηγός Χαρτογράφησης'
   lv-wiki:
@@ -522,6 +520,8 @@ el:
     description: Η πλατφόρμα για πληροφορίες σχετικά με το OpenStreetMap στη Σερβία
   rs-wiki:
     description: Σελίδα Wikiproject για Σερβία
+  scandinavia-discord:
+    name: Σκανδιναβικό κανάλι στο OpenStreetMap World Discord
   sg-wiki:
     description: '{community} Wiki σελίδα'
   si-ljubljana-wiki:

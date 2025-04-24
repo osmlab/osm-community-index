@@ -1,11 +1,13 @@
 br:
   _communities:
+    freelibreopensourcesoftwarekosovaflossk: Poellad frank hag Open Source eus Kosovo (FLOSSK)
     geolibres: GeoLibres
     kiribatiwomeninmapping: Kartennourezed Kiribati
+    mapeadoresivides: Kartennourien an IVIDES
     mappingbotswana: Kartennaouiñ Botswana
     maptimebogota: MaptimeBogotá
     openstreetmap: OpenStreetMap
-    openstreetmapaachen: OpenStreetMap Aachen
+    openstreetmapaachen: OpenStreetMap Aac'hen
     openstreetmapafghanistan: OpenStreetMap Afghanistan
     openstreetmapafrica: OpenStreetMap Afrika
     openstreetmapalba: OpenStreetMap Alba
@@ -15,7 +17,7 @@ br:
     openstreetmapasia: OpenStreetMap Azia
     openstreetmapasti: OpenStreetMap Asti
     openstreetmapaustria: OpenStreetMap Aostria
-    openstreetmapbahia: OpenStreetMap Bahia
+    openstreetmapbahia: OpenStreetMap Bahía
     openstreetmapbangladesh: OpenStreetMap Bangladesh
     openstreetmapbelarus: OpenStreetMap Belarus
     openstreetmapbelgium: OpenStreetMap Belgia
@@ -54,6 +56,7 @@ br:
     openstreetmapcyprus: OpenStreetMap Kiprenez
     openstreetmapcz: OpenStreetMap Republik Tchek
     openstreetmapde: OpenStreetMap Alamagn
+    openstreetmapdeepsouth: OpenStreetMap Stadoù-Unanet ar Su
     openstreetmapdelhi: OpenStreetMap Delhi
     openstreetmapdenmark: OpenStreetMap Danmark
     openstreetmapdjibouti: OpenStreetMap Djibouti
@@ -147,6 +150,7 @@ br:
     openstreetmapuganda: OpenStreetMap Ouganda
     openstreetmapuk: OpenStreetMap Rouantelezh-Unanet
     openstreetmapukraine: OpenStreetMap Ukraina
+    openstreetmapus: OpenStreetMap Stadoù-Unanet
     openstreetmapuzbekistan: OpenStreetMap Ouzbekistan
     openstreetmapvietnam: OpenStreetMap Viêt Nam
     openstreetmapwestbengal: OpenStreetMap Kornôg Bengal
@@ -159,6 +163,10 @@ br:
     aparat:
       name: '{community} war Aparat'
       description: Koumanantit d'hor chadenn Aparat
+    bluesky:
+      name: '{community} war Bluesky'
+      description: Heuilhit ac'hanomp war Bluesky
+      url: https://bsky.app/profile/{account}
     discord:
       name: 'Discord {community}'
       description: Kejit gant kartennour·ien/ezed all war zDiscord
@@ -221,16 +229,10 @@ br:
     tiktok:
       name: '{community} war dTikTok'
       description: Heuilhit ac'hanomp war dTikTok
-    twitter:
-      name: '{community} war X'
-      description: Heuilhit ac'hanomp war X
     url:
       name: '{community}'
     wiki:
       name: 'WikiProject {community}'
-    x:
-      name: '{community} war X'
-      description: Heuilhit ac'hanomp war X
     xmpp:
       name: 'XMPP {community}'
     youtube:
@@ -239,6 +241,8 @@ br:
     zulip:
       name: 'Zulip {community}'
       description: Heuilhit hor gumuniezh war Zulip
+  aberdeen-discord:
+    name: OSM ABZ war Discord
   af-matrix:
     description: Strollad Matrix kumuniezh Afghanistan
   al-maptime-tirana:
@@ -346,8 +350,6 @@ br:
     description: 'Pajenn Wiki {community}'
   de-mainz-mailinglist:
     description: OpenStreetMap e Mainz hag Umgebung
-  de-mainz-telegram:
-    description: OpenStreetMap e Mainz hag Umgebung
   de-mainz-wiki:
     description: OpenStreetMap e Mainz hag Umgebung
   de-munchen-wiki:
@@ -418,8 +420,6 @@ br:
     description: Darvoudoù kumuniezh OpenStreetMap Hungaria da zont
   hu-tm:
     name: 'Merer trevelloù {community}'
-  hu-website:
-    description: Ni a sikour diorren ha gwellaat OpenStreetMap e Hungaria.
   hu-wiki:
     description: 'Pajenn Wiki {community}'
   id-facebook:
@@ -442,6 +442,7 @@ br:
   ko-osm:
     description: Ni a sikour diorren ha gwellaat OpenStreetMap e Korea.
   kosovo-flossk:
+    name: Poellad frank hag Open Source eus Kosovo (FLOSSK)
     description: O vrudañ FLOSS abaoe 2009
   kp-wiki:
     description: 'Sturlevr kartennouriezh {community}'
@@ -467,8 +468,6 @@ br:
   MapLYH:
     name: MapLYH
     description: Strollad MapLYH
-  MapRVA:
-    description: Emvod MapRVA
   maptime-bogota-facebook:
     description: Ni 'zo ur strollad a dud dedennet da gartennaouiñ Bogotá hag he c'horn-bro e OpenStreetMap.
   maptime-bogota-github:
@@ -703,8 +702,6 @@ br:
     description: 'OpenStreetMap Londrez war dTwitter: {url}'
   uk-london-wiki:
     description: 'Pajenn Wiki {community}'
-  uk-loomio:
-    name: OpenStreetMap UK war Loomio
   us-discourse:
     description: Ur forom flapañ diwar-benn OpenStreetMap er Stadoù-Unanet
   us-massachusetts-mailinglist:

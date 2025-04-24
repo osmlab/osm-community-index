@@ -3,6 +3,7 @@ uk:
     freelibreopensourcesoftwarekosovaflossk: Free Libre Open Source Software Kosova (FLOSSK)
     geolibres: GeoLibres
     kiribatiwomeninmapping: Жінки Кірибаті в картографії
+    mapeadoresivides: Mapeadores IVIDES
     mappingbotswana: Мапінг Ботсвани
     maptimebogota: MaptimeBogota
     maptimehrva: MaptimeHRVA
@@ -208,6 +209,7 @@ uk:
     swissopenstreetmap: Swiss OpenStreetMap
     tadeomappers: TadeoMappers
     youthmappersasu: YouthMappersASU
+    youthmappersufrj: YouthMappers UFRJ
   _defaults:
     aparat:
       name: '{community} на Aparat'
@@ -295,8 +297,6 @@ uk:
       description: Слідкуйте за нами у TikTok
       url: https://tiktok.com/@{account}
     twitter:
-      name: '{community} в X'
-      description: Слідкуйте за нами в X
       url: https://twitter.com/{account}
     url:
       name: '{community}'
@@ -304,8 +304,6 @@ uk:
       name: '{community} WikiProject'
       url: https://wiki.openstreetmap.org/wiki/{account}
     x:
-      name: '{community} в X'
-      description: Слідкуйте за нами в X
       url: https://twitter.com/{account}
     xmpp:
       name: '{community} XMPP'
@@ -484,8 +482,8 @@ uk:
     description: '{community} - сторінка у Вікі'
   de-mainz-mailinglist:
     description: OpenStreetMap в Майнці та околицях
-  de-mainz-telegram:
-    description: OpenStreetMap в Майнці та околицях
+  de-mainz-signal:
+    description: OpenStreetMap в Майнці, Вісбадені та Умгебунзі
   de-mainz-wiki:
     description: OpenStreetMap в Майнці та околицях
   de-munchen-wiki:
@@ -570,16 +568,12 @@ uk:
     name: '{community} - група у Facebook'
   hu-matrix:
     extendedDescription: OpenStreetMap чат про мапи. Один з форумів підтримки спільноти OSM.
-  hu-meetup:
-    description: Платформа для організації зустрічей маперів з Угорщині
   hu-mobilizon:
     name: '{community} на Mobilizon'
     description: Найближчі події спільноти OpenStreetMap в Угорщині
   hu-tm:
     name: '{community} Tasking Manager'
     description: Дізнайтесь про поточні завдання для мапінгу в Угорщині
-  hu-website:
-    description: Ми допомагаємо розвивати та вдосконалювати OpenStreetMap в Угорщині.
   hu-wiki:
     description: '{community} - сторінка у Вікі'
   humanitarian-osm-tr-slack:
@@ -603,6 +597,8 @@ uk:
     description: Ми допомагаємо розвивати та вдосконалювати OpenStreetMap в Італії.
   it-discourse:
     description: Місце де ви можете обговорити питання пов'язані з OpenStreetMap
+  ivides_website:
+    description: Ми зосереджені на сталому розвитку, картографії та підтримці спільноти OpenStreetMap.
   ko-facebook:
     description: Мапери та користувачі OpenStreetMap в Кореї
   ko-github:
@@ -669,7 +665,6 @@ uk:
     description: Робимо простим пошук маршрутів з обмеженнями рівня викидів вуглецю у регіоні Ватерлоо.
   MapRVA:
     name: MapRVA
-    description: MapRVA Meetup
   maptime-bogota-facebook:
     name: MaptimeBogotá
     description: 'Ми група осіб зацікавлених в мапігу в OpenStreetMap в Боготі та навколо. '
@@ -982,6 +977,8 @@ uk:
     extendedDescription: Приєднуйтесь до спільноти, щоб дізнатися більше про OpenStreetMap, поставити питання або взяти участь у наших зустрічах. Запрошуємо всіх!
   rs-wiki:
     description: Сторінка Wikiproject Сербії
+  scandinavia-discord:
+    name: Скандинавський канал на OpenStreetMap World Discord
   sg-wiki:
     description: '{community} - сторінка у Вікі'
   si-github:
@@ -1031,8 +1028,6 @@ uk:
     description: 'OpenStreetMap London у Twitter: {url}'
   uk-london-wiki:
     description: '{community} - сторінка у Вікі'
-  uk-loomio:
-    name: OpenStreetMap UK у Loomio
   us-discourse:
     description: Форум для обговорення OpenStreetMap в Сполучених Штатах
   us-massachusetts-mailinglist:

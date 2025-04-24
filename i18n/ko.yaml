@@ -284,8 +284,6 @@ ko:
       description: 저희 틱톡을 팔로우 하세요
       url: https://tiktok.com/@{account}
     twitter:
-      name: '{community}의 X 채널'
-      description: 저희 X 채널을 팔로우하세요
       url: https://twitter.com/{account}
     url:
       name: '{community}'
@@ -293,8 +291,6 @@ ko:
       name: '{community} 위키프로젝트'
       url: https://wiki.openstreetmap.org/wiki/{account}
     x:
-      name: '{community}의 X 채널'
-      description: 저희 X 채널을 팔로우하세요
       url: https://twitter.com/{account}
     xmpp:
       name: '{community} XMPP'
@@ -430,8 +426,6 @@ ko:
     description: '{community} 위키 문서'
   de-mainz-mailinglist:
     description: 마인츠 및 주변 지역 OpenStreetMap
-  de-mainz-telegram:
-    description: 마인츠 및 주변 지역 OpenStreetMap
   de-mainz-wiki:
     description: 마인츠 및 주변 지역 OpenStreetMap
   de-munchen-wiki:
@@ -511,16 +505,12 @@ ko:
     name: '{community} Facebook 그룹'
   hu-matrix:
     extendedDescription: 지도 주제에 대한 오픈스트리트맵 채팅 OSM 커뮤니티 지원 포럼 중 하나입니다.
-  hu-meetup:
-    description: 헝가리에서 모임을 조직하는 플랫폼
   hu-mobilizon:
     name: '{community}의 모빌리존'
     description: 오픈스트리트맵 헝가리 커뮤니티를 위한 예정 이벤트들
   hu-tm:
     name: '{community} 작업 매니저'
     description: 헝가리의 활성 맵핑 작업 탐색
-  hu-website:
-    description: 우리는 헝가리 내의 오픈스트리트맵을 성장시키고 개선하도록 돕습니다.
   hu-wiki:
     description: '{community} 위키 페이지'
   humanitarian-osm-tr-slack:
@@ -603,8 +593,6 @@ ko:
     extendedDescription: Mappa Mercia는 영국 웨스트 미들랜즈에서 오픈스트리트맵을 개발하는 프로젝트입니다. 저희는 커뮤니티 이벤트를 운영하고, 교육을 제공하고, 데이터 개방을 희망하는 지역 기관을 지원합니다.
   MappingWR:
     description: 워털루 지역 주변의 저탄소 경로를 쉽게 찾을 수 있습니다.
-  MapRVA:
-    description: MapRVA 정모
   maptime-bogota-facebook:
     name: Maptime 보고타
     description: 우리는 보고타와 그 주변을 오픈스트리트맵에 맵핑하기 위해 관심 있는 사람들의 그룹입니다.
@@ -961,8 +949,6 @@ ko:
     description: '오픈스트리트맵 런던 트위터: {url}'
   uk-london-wiki:
     description: '{community} 위키 페이지'
-  uk-loomio:
-    name: 오픈스트리트맵 영국 루미오
   us-discourse:
     description: 미국 오픈스트리트맵에 관한 토론회
   us-massachusetts-mailinglist:

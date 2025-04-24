@@ -3,6 +3,7 @@ fr_FR:
     freelibreopensourcesoftwarekosovaflossk: Logiciel libre et open source du Kosovo (FLOSSK)
     geolibres: GeoLibres
     kiribatiwomeninmapping: Les femmes cartographes de Kiribati
+    mapeadoresivides: Mapeadores IVIDES
     mappingbotswana: Cartographier le Botswana
     maptimebogota: MaptimeBogota
     maptimehrva: MaptimeCroatie
@@ -206,7 +207,9 @@ fr_FR:
     osmmainz: OSM Mayence
     osmnelson: OSM Nelson
     swissopenstreetmap: OpenStreetMap Suisse
+    tadeomappers: TadeoMappers
     youthmappersasu: YouthMappers Université de l’État d'Arizona
+    youthmappersufrj: YouthMappers UFRJ
   _defaults:
     aparat:
       name: '{community} sur Aparat'
@@ -214,6 +217,7 @@ fr_FR:
       url: https://aparat.com/{account}
     bluesky:
       name: '{community} sur Bluesky'
+      description: Suivez-nous sur Bluesky
       url: https://bsky.app/profile/{account}
     discord:
       name: 'Discord de {community}'
@@ -293,8 +297,6 @@ fr_FR:
       description: Suivez-nous sur TikTok
       url: https://tiktok.com/@{account}
     twitter:
-      name: '{community} sur X'
-      description: Suivez-nous sur X
       url: https://twitter.com/{account}
     url:
       name: '{community}'
@@ -302,8 +304,6 @@ fr_FR:
       name: 'Projet wiki de {community}'
       url: https://wiki.openstreetmap.org/wiki/{account}
     x:
-      name: '{community} sur X'
-      description: Suivez-nous sur X
       url: https://twitter.com/{account}
     xmpp:
       name: 'X.M.P.P. de {community}'
@@ -440,8 +440,6 @@ fr_FR:
     description: 'Page Wiki de {community}'
   de-mainz-mailinglist:
     description: OpenStreetMap à Mayence et ses environs
-  de-mainz-telegram:
-    description: OpenStreetMap à Mayence et ses environs
   de-mainz-wiki:
     description: OpenStreetMap à Mayence et ses environs
   de-munchen-wiki:
@@ -522,16 +520,12 @@ fr_FR:
     name: 'Groupe Facebook de {community} '
   hu-matrix:
     extendedDescription: Le forum de discussion d'OpenStreetMap concernant la cartographie. Un des forums support de la communauté OSM.
-  hu-meetup:
-    description: La plate-forme pour l'organisation des réunions en Hongrie
   hu-mobilizon:
     name: '{community} sur Mobilizon'
     description: Evènements à venir pour la communauté hongroise d'OSM
   hu-tm:
     name: '{community} Gestionnaire de tâches'
     description: Explorer les activités de cartographie en cours en Hongrie
-  hu-website:
-    description: Nous aidons OpenStreetMap à croître et à s'améliorer en Hongrie.
   hu-wiki:
     description: 'Page Wiki de {community}'
   humanitarian-osm-tr-slack:
@@ -621,7 +615,6 @@ fr_FR:
     description: Rendre les chemins à faible émission de carbone faciles à trouver dans la région de Waterloo.
   MapRVA:
     name: MapRVA
-    description: Rencontre MapRVA
   maptime-bogota-facebook:
     name: MaptimeBogotá
     description: Nous sommes un groupe de personnes intéressées pour cartographier Bogotá et ses environs dans OpenStreetMap.
@@ -701,6 +694,7 @@ fr_FR:
     description: Améliorez OpenStreetMap dans la région de Cleveland
     extendedDescription: Open Geo Cleveland souhaite être une ressource pour les gens où discuter et partager notre connaissance sur l'utilisation des données géographiques libres, en particulier OpenStreetMap, et des logiciels géospatiaux qui gèrent, modifient et affichent des données géographiques et militons pour leur utilisation au nord-est de l'Ohio. Nous sommes aussi un chapitre maptime =)
   osgeo-oceania:
+    name: OSGeo Oceania
     description: Nous soutenons le développement de la communauté OpenStreetMap en Océanie.
     extendedDescription: L'objet de l'OSGeo Oceania est de soutenir et de développer la communauté géospatiale libre  en Océanie, par exemple via la supervision et la gestion des conférences FOSS4G SotM Oceania.
   osm-africa-eventbrite:
@@ -723,6 +717,7 @@ fr_FR:
   OSM-AR-wiki:
     description: Tout ce que vous devez savoir sur la cartographie en Argentine.
   osm-asia-facebook:
+    description: Groupe Facebook OpenStreetMap Asia
     extendedDescription: Un groupe pour le support cartographique intégré pour l'Asie. Nous souhaitons particulièrement être un lieu permettant aux cartographes sans communauté locale de partager des informations et de collaborer pour résoudre des problèmes dans leurs régions qu'ils ne seraient pas en mesure de résoudre autrement en raison du manque de communauté locale.
   osm-at:
     description: La plateforme pour obtenir des informations sur OpenStreetMap en Autriche
@@ -754,6 +749,7 @@ fr_FR:
     description: 'Page Wiki de {community}'
     extendedDescription: OpenStreetMap Deep South est une communauté locale de cartographes du sud-est des États-Unis.
   osm-delhi-xmpp:
+    name: OpenStreetMap Delhi XMPP
     extendedDescription: Salle XMPP pour OSM Delhi ; non relié à des réseaux propriétaires.
   OSM-Discord:
     name: OpenStreetMap Monde sur Discord
@@ -855,6 +851,7 @@ fr_FR:
     description: Liste de diffusion de FSHM Pondichéry pour discuter de cartographie à Pondichéry et d'autres choses.
     extendedDescription: FSHM organise des événements liés au logiciel et au matériel libre, les technologies, l'activisme et OpenStreetMap.
   OSM-Rome-meetup:
+    name: Incontro Mappatori Romani
     description: Améliorez OpenStreetMap dans la région de Rome
     extendedDescription: Nous souhaitons être une ressource pour les gens où discuter et partager notre connaissance sur l'utilisation des données géographiques libres, en particulier OpenStreetMap, et des logiciels géospatiaux qui gèrent, modifient et affichent des données géographiques et militons pour leur utilisation à Lazio.
   OSM-Seattle:
@@ -974,8 +971,6 @@ fr_FR:
     description: 'OpenStreetMap Londres sur Twitter: {url}'
   uk-london-wiki:
     description: 'Page Wiki de {community}'
-  uk-loomio:
-    name: OpenStreetMap Grande-Bretagne sur Loomio
   us-discourse:
     description: Un forum de discussion sur OpenStreetMap aux États-Unis
   us-massachusetts-mailinglist:
@@ -996,6 +991,7 @@ fr_FR:
     description: Association Yer Çizenler Mapping for Everyone
     extendedDescription: Yer Çizenler est une ONG locale, membre de la communauté OSM turque, visant à promouvoir l'utilisation de données et d'outils géospatiaux ouverts au sein de la communauté cartographique nationale.
   ym-AASTU:
+    name: AASTU Youth Mappers
     description: YouthMappers, section de l'Université des Sciences et Technologies d'Addis-Abeba
     extendedDescription: L'Association des Étudiants en Ingénierie Géomatique (AGES) vise tant à promouvoir les produits et services SIG qu'à entraîner les étudiants à leur utilisation. Elle ne se limite pas à la socialisation entre les étudiants et les professionnels, mais développe également une plate-forme d'échange d'idées sur de nouveaux SIG, une veille sur les évènements à venir, et la pratique à l'université.
   ym-Abia-State-University:
@@ -1153,6 +1149,7 @@ fr_FR:
     description: YouthMappers, section de l'Université d’État du Kansas
     extendedDescription: Nous sommes la section Gamma Theta Upsilon de l'Université d'Etat du Kansas, une société honorifique internationale de géographie affiliée à YouthMappers. Nous avons été actifs dans la cartographie pour OSM et avons mené un mapathon appelé « Map for Nepal » dans lequel nous avons utilisé OpenStreetMap pour numériser des zones non cartographiées du Népal après le tremblement de terre de 2015.
   ym-Karatina-University:
+    name: Nature Club Karatina University
     description: YouthMappers, section de l'Université de Karatina
     extendedDescription: Ce chapitre essaye de réunir tous les enthousiastes du SIG. Il inclut des experts de l'environnement, des experts de la vie sauvage, des responsables du tourismes et des activités aquatiques, pour n'en citer que quelques uns. Son but principal est de fournir une plateforme où les étudiants peuvent apprendre les uns des autres et, ce faisant, comprendre comment intégrer les compétences en SIG dans leurs diverses carrières ainsi que fournir des solutions aux défis environnementaux.
   ym-Kenyatta-University:
@@ -1194,6 +1191,7 @@ fr_FR:
     name: MCC Mapping Corps
     description: YouthMappers, section du Collège Communautaire Monroe
   ym-Namibia-University-of-Science-and-Technology:
+    name: Geoinformation Technology Student Society
     description: YouthMappers, section de l'Université des Sciences et des Technologies en Namibie
   ym-Nimba-County-Community-College:
     name: YouthMappers de Nimba County Community College
@@ -1206,6 +1204,7 @@ fr_FR:
     name: YouthMappers de l'Université Njala, Njala Campus
     description: YouthMappers, section de l'université de Njala, campus de Njala
   ym-Ohio-Wesleyan-University:
+    name: Environment and Wildlife Club
     description: YouthMappers, section de l'Ohio Wesleyan University
     extendedDescription: Environment and Wildlife Club se penche sur les problèmes environnementaux sur le campus, dans le Delaware et même à l'échelle nationale ! Nous créons des projets centrés sur le campus ou communautaires, explorons et profitons du grand air, faisons du bénévolat et essayons de promouvoir l'environnement dans tous les aspects de notre vie.
   ym-Oklahoma-State-University:
@@ -1275,6 +1274,7 @@ fr_FR:
     description: YouthMappers, section de l'Université de Gambie (The Gambia YMCA)
     extendedDescription: Connected YouthMappers se compose de jeunes gambiens résolus qui cherchent à changer le pays et à aider le développement national.
   ym-The-George-Washington-University:
+    name: Humanitarian Mapping Society
     description: YouthMappers, section de l'Université George Washington
     extendedDescription: Modèle de leadership et d'engagement, HMS cherche à apporter de l'aide et à améliorer le monde grâce à des projets humanitaires de systèmes d'information géographique (SIG). Cette section affiliée co-fondatrice située sur le campus de l'Université George Washington a une pléthore d'expériences à partager et s'associe fréquemment directement avec l'Agence des États-Unis pour le développement international, la Croix-Rouge Américaine et le Département d'État Américain du District de Colombia pour accroitre les efforts menés par les étudiants et servir l'intérêt général.
   ym-The-Johns-Hopkins-University-SAIS:
@@ -1282,6 +1282,7 @@ fr_FR:
     description: YouthMappers, section de l'Université The Johns Hopkins, SAIS
     extendedDescription: La mission de la section SAIS Youth Mappers est de fournir aux étudiants de l'Ecole des Etudes Internationales Avancées (SAIS) de l'Université Johns Hopkins la possibilité de devenir des cartographes humanitaires hautement qualifiés. En tant que groupe au sein du South Asia Club, son objectif principal est de soutenir les projets de cartographie humanitaire dans la région indopacifique.
   ym-The-Pennsylvania-State-University:
+    name: Penn State GIS Coalition
     description: YouthMappers, section de l'Université d’État de Pennsylvanie
     extendedDescription: La Penn State Geospatial Information Science (GIS) Coalition est une organisation qui offre aux étudiants ayant une spécialisation, une option ou simplement partageant un intérêt pour les SIG des opportunités de développer des connaissances et des compétences supplémentaires nécessaires pour réussir dans le domaine professionnelle des SIG.
   ym-The-University-of-Zambia:
@@ -1308,6 +1309,7 @@ fr_FR:
     description: YouthMappers, section de l'Université de La Guajira
     extendedDescription: Grupo Mesh est une organisation étudiante de l'Université de La Guajira en Colombie, avec des étudiants du programme d'Ingénierie Environnementale qui apprennent la cartographie (notamment ouverte).
   ym-Universidad-de-Los-Andes:
+    name: Cartografos Uniandes
     description: YouthMappers, section de l'Université des Andes
     extendedDescription: Nous sommes un cercle de participation étudiante qui cherche à utiliser la cartographie et le raisonnement spatial comme moyen de créer des liens de coopération et d'intégration entre l'université et la société en abordant différentes dynamiques spatiales, sociales, politiques, économiques et culturelles.
   ym-Universidad-de-Puerto-Rico-Rio-Piedras:
@@ -1362,6 +1364,7 @@ fr_FR:
     name: Club de cartographie
     description: YouthMappers, section de l'Université de Californie, Davis
   ym-University-of-Cape-Coast:
+    name: UCC Geographical Society
     description: YouthMappers, section de l'Université de Cape Coast
     extendedDescription: Nous sommes une société qui comprend tous les étudiants du département de géographie et de planification locale à l'Université de Cape Coast. Notre principal objectif est de promouvoir l'intérêt pour la discipline en classe et en dehors. Notre devise est « nous comprenons la Terre et ses habitants ».
   ym-University-of-Central-Florida:
@@ -1392,6 +1395,7 @@ fr_FR:
     description: YouthMappers, section de l'Université du Liberia
     extendedDescription: YouthMappers de l'Université du Liberia est une organisation qui fait partie de Global YouthMappers. Nous somme une organisation à but non lucratif d'étudiants cartographes qui cartographions pour développer le Liberia et le monde entier. Le but de cette organisation est d'utiliser les technologies et la connaissance géospatiale comme moyen pour créer et développer des cartes ; collecter et analyser des données qui répondront aux défis locaux et mondiaux. Notre but est d'aider à créer des opportunités pour les étudiants pour qu'ils développent un intérêt et des compétences dans la cartographie. Nous avons pour vision une communauté d'étudiants unis, collaborative, active et volontaire pour travailler avec YouthMappers de l'Université du Liberia pour améliorer la vie des autres.
   ym-University-of-Malawi:
+    name: Chanco Malawi YouthMappers
     description: YouthMappers, section de l'Université du Malawi
     extendedDescription: Chanco Malawi YouthMappers est l'organisation étudiante de cartographie de Chancellor College à l'Université du Malawi. Les étudiants de ce chapitre se concentrent sur la cartographie pour les besoins en développement et scientifiques du Malawi.
   ym-University-of-Maryland-College-Park:
@@ -1439,6 +1443,7 @@ fr_FR:
     description: YouthMappers, section de l'Université du Ruanda, Campus Huye
     extendedDescription: Basé sur l'engagement et le but de promouvoir la cartographie et l'information donnée à travers les conférences YouthMappers publiques, nous sommes organisés comme étudiants du département de géographie engagés dans la cartographie pour fonder un chapitre sur notre campus. Nous sommes supportés par notre facilitateur, le Dr. Gaspard Rwanyiziri (Directeur de CGIS-Rwanda) et diverse mentors.
   ym-University-of-South-Carolina:
+    name: Geography Graduate Student Association
     description: YouthMappers, section de l'Université de Caroline du Sud
     extendedDescription: La GGSA est une organisation entièrement gérée par des étudiants, conçue pour servir de défenseur et de ressource pour tous les étudiants diplômés en géographie en remplissant le rôle de liaison entre le département et les étudiants. Notre objectif est de favoriser le développement professionnel, académique et personnel des étudiants diplômés intéressés par le domaine de la géographie et de ses filières.
   ym-University-of-Southern-California:
@@ -1478,6 +1483,7 @@ fr_FR:
     description: YouthMappers, section du Collège Vassar
     extendedDescription: Notre mission est de fournir une plate-forme multidisciplinaire aux collègues, aux éducateurs et aux organisations communautaires afin de permettre des projets de cartographie locale en mettant l'accent sur le renforcement de nos écosystèmes locaux et de notre environnement bâti tout en veillant au bien-être de notre communauté. Nous cherchons également à apporter un soutien géospatial à l'aide humanitaire mondiale et aux efforts de développement.
   ym-Villanova-University:
+    name: The Villanova Globeplotters
     description: YouthMappers, section de l'Université Villanova
     extendedDescription: Les Villanova Globeplotters se basent sur le principe augustinien de Villanova d'un service désintéressé à la communauté mondiale. Mélangés à une interaction sociale détendue, nous nous efforçons de fournir une sensibilisation géospatiale à ceux qui en ont besoin, indépendamment de la race des étudiants participants, de la spécialisation universitaire, de quelle association d'étudiants ils font parties ou de leur niveau universitaire.
   ym-West-Virginia-University:

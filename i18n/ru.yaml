@@ -155,7 +155,7 @@ ru:
     openstreetmappoland: OpenStreetMap Польша
     openstreetmapportugal: OpenStreetMap Португалия
     openstreetmapromania: OpenStreetMap Румыния
-    openstreetmaprussia: Cообщество OpenStreetMap России
+    openstreetmaprussia: OpenStreetMap в России
     openstreetmaprwanda: OpenStreetMap Руанда
     openstreetmapsaudiarabia: OpenStreetMap Саудовская Аравия
     openstreetmapsenegal: OpenStreetMap Сенегал
@@ -192,12 +192,14 @@ ru:
     openstreetmapzimbabwe: OpenStreetMap Зимбабве
     osmmainz: OpenStreetMap Майнц
   _defaults:
+    bluesky:
+      description: Подпишитесь на нас в Bluesky
     discord:
       name: '{community} в Discord'
       description: Свяжитесь с другими картографами через Discord
     discourse:
-      name: 'Форум Сообщества {community}'
-      description: Официальный форум сообщества OpenStreetMap России
+      name: 'Форум сообщества {community}'
+      description: Официальный форум {community}
     facebook:
       name: '{community} в Facebook'
       description: Присоединяйтесь к нашему сообществу на Facebook
@@ -321,6 +323,8 @@ ru:
     description: Подписывайтесь на нас в Twitter {url}
   gb-irc:
     extendedDescription: 'Подключайтесь к #{account} на irc.oftc.net (порт 6667), будьте терпеливы, ответов на вопрос обычно нужно ждать'
+  ge-matrix:
+    description: Общий чат OpenStreetMap в Грузии, соединенный мостом с чатом в Telegram
   GeoPhilly:
     extendedDescription: GeoPhilly объединяет разработчиков, географов, любителей обработки данных, энтузиастов открытого исходного кода, гражданских хакеров и любителей карт в нашей общей любви к картам и историям, которые они рассказывают. Если вы используете карты как часть своей работы или просто хотите узнать больше, эта встреча для вас! Наши мероприятия нацелены на то, чтобы быть открытыми, дружелюбными, образовательными и социальными и варьироваться от "счастливых часов" до молниеносных бесед или даже мастер-классов. Приходите и создавайте разнообразное, вдохновляющее геопространственное сообщество в Филадельфии вместе с нами!
   hr-github:

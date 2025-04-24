@@ -12,6 +12,9 @@ da:
     openstreetmapsrilanka: OpenStreetMap Sri Lanka
     openstreetmapus: OpenStreetMap US
   _defaults:
+    bluesky:
+      name: '{community} på Bluesky'
+      description: Følg os på Bluesky
     discord:
       description: Kom i kontakt med andre kortlæggere på Discord
     irc:
@@ -23,10 +26,6 @@ da:
       description: Den officielle Mastodon-konto for {community}
     threads:
       description: Følg os på Threads
-    twitter:
-      description: Følg os på X
-    x:
-      description: Følg os på X
   Bay-Area-OpenStreetMappers:
     description: Forbedr OpenStreetMap i Bay Area
   be-matrix:
@@ -37,6 +36,8 @@ da:
     description: Alle kortlæggere er velkomne!
   cape-coast-youthmappers:
     description: 'Følg os på Twitter på {url}'
+  co-talk:
+    name: '{community} mailing-liste'
   de-berlin-mailinglist:
     name: Berlin maillingliste
   dk-discourse:

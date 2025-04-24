@@ -3,6 +3,7 @@ es:
     freelibreopensourcesoftwarekosovaflossk: Software Libre y de Código Abierto Kosova (FLOSSK)
     geolibres: GeoLibres
     kiribatiwomeninmapping: Mujeres Cartógrafas de Kiribati
+    mapeadoresivides: Mapeadores IVIDES
     mappingbotswana: Mapeo de Botsuana
     maptimebogota: Maptime Bogotá
     maptimehrva: MaptimeHRVA
@@ -159,6 +160,7 @@ es:
     openstreetmappiemonte: OpenStreetMap Piamonte
     openstreetmappoland: OpenStreetMap Polonia
     openstreetmapportugal: OpenStreetMap Portugal
+    openstreetmappunjab: OpenStreetMap Punjab
     openstreetmaprdc: OpenStreetMap RDC
     openstreetmaprennes: OpenStreetMap Rennes
     openstreetmapreunion: OpenStreetMap Reunión
@@ -208,6 +210,7 @@ es:
     swissopenstreetmap: OpenStreetMap Suiza
     tadeomappers: TadeoMappers
     youthmappersasu: YouthMappersASU
+    youthmappersufrj: YouthMappers UFRJ
   _defaults:
     aparat:
       name: '{community} en Aparat'
@@ -484,8 +487,8 @@ es:
     description: 'Página wiki de {community}'
   de-mainz-mailinglist:
     description: OpenStreetMap en Maguncia y alrededores
-  de-mainz-telegram:
-    description: OpenStreetMap en Maguncia y alrededores
+  de-mainz-signal:
+    description: OpenStreetMap en Mainz, Wiesbaden y alrededores
   de-mainz-wiki:
     description: OpenStreetMap en Maguncia y alrededores
   de-munchen-wiki:
@@ -570,8 +573,6 @@ es:
     name: 'Grupo de Facebook de {community}'
   hu-matrix:
     extendedDescription: Chat de OpenStreetMap sobre temas del mapa. Uno de los foros de soporte de la comunidad OSM.
-  hu-meetup:
-    description: La plataforma para organizar encuentros en Hungría
   hu-mobilizon:
     name: '{community} en Mobilizon'
     description: Próximos eventos de la comunidad de OpenStreetMap Hungría
@@ -579,9 +580,11 @@ es:
     name: 'Gestor de tareas de {community}'
     description: Explora las tareas de mapeo activas en Hungría
   hu-website:
-    description: Ayudamos a crecer y mejorar OpenStreetMap en Hungría.
+    description: El sitio web de la comunidad húngara de OpenStreetMap
   hu-wiki:
     description: 'Página wiki de {community}'
+  hu-youtube:
+    description: Transmisiones en vivo y grabaciones de encuentros de OpenStreetMap Hungría
   humanitarian-osm-tr-slack:
     name: Slack de OpenStreetMap Humanitario Turquía
     description: Únete al canal Humanitario OpenStreetMap Turquía en el servidor Slack de HOTOSM en {url}
@@ -603,6 +606,8 @@ es:
     description: Ayudamos a crecer y mejorar OpenStreetMap en Italia.
   it-discourse:
     description: El foro para debatir sobre OpenStreetMap
+  ivides_website:
+    description: Nos enfocamos en el desarrollo sostenible, la cartografía y el apoyo a la comunidad de OpenStreetMap.
   ko-facebook:
     description: Mapeadores y usuarios de OpenStreetMap en Corea
   ko-github:
@@ -669,7 +674,7 @@ es:
     description: Haciendo que las rutas bajas en carbono en la región de Waterloo sean fáciles de encontrar.
   MapRVA:
     name: MapRVA
-    description: Meetup de MapRVA
+    description: MapRVA es un grupo de entusiastas de la cartografía en Richmond, Virginia, que trabajan para crear y compartir datos geoespaciales de nuestra ciudad usando OpenStreetMap.
   maptime-bogota-facebook:
     name: Maptime Bogotá
     description: Somos un grupo de personas interesadas en mapear Bogotá y sus alrededores en OpenStreetMap.
@@ -910,6 +915,11 @@ es:
     name: Movimiento de Software y Hardware Libre - Lista de correo
     description: Lista de correo de FSHM Puducherry para debatir sobre mapeo en Puducherry y otros temas.
     extendedDescription: FSHM organiza eventos relacionados con software/hardware libre, tecnología, activismo y OpenStreetMap.
+  osm-punjab-matrix:
+    description: Mapeamos Punjab en conjunto. Únete a nuestro grupo de Matrix
+    extendedDescription: Sala de chat no oficial de OSM Punjab, también conectada al grupo de Telegram de OSMPunjab
+  osm-punjab-telegram:
+    description: Mapeamos Punjab en conjunto. Únete a nuestro grupo de Telegram. {url}
   OSM-Rome-meetup:
     name: Encuentro de mapeadores de Roma
     description: Mejora OpenStreetMap en el área de Roma
@@ -982,6 +992,8 @@ es:
     extendedDescription: Únete a la comunidad para saber más sobre OpenStreetMap, pregunta o participa en nuestras reuniones. ¡Todos son bienvenidos!
   rs-wiki:
     description: Página del wikiproyecto para Serbia
+  scandinavia-discord:
+    name: Canal escandinavo en el Discord mundial de OpenStreetMap.
   sg-wiki:
     description: 'Página wiki de {community}'
   si-github:
@@ -1031,8 +1043,6 @@ es:
     description: 'OpenStreetMap Londres en Twitter: {url}'
   uk-london-wiki:
     description: 'Página wiki de {community}'
-  uk-loomio:
-    name: OpenStreetMap Reino Unido en Loomio
   us-discourse:
     description: Un foro de debate sobre OpenStreetMap en Estados Unidos
   us-massachusetts-mailinglist:

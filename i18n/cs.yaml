@@ -3,6 +3,7 @@ cs:
     freelibreopensourcesoftwarekosovaflossk: Free Libre Open Source Software Kosova (FLOSSK)
     geolibres: GeoLibres
     kiribatiwomeninmapping: Kiribatské ženy v mapování
+    mapeadoresivides: Mapovači IVIDES
     mappingbotswana: Mapování Botswany
     maptimebogota: MaptimeBogota
     maptimehrva: MaptimeHRVA
@@ -41,20 +42,20 @@ cs:
     openstreetmapcambodia: OpenStreetMap Kambodža
     openstreetmapcameroon: OpenStreetMap Kamerun
     openstreetmapcanada: OpenStreetMap Kanada
-    openstreetmapcastillayleon: OpenStreetMap Castilla y León
+    openstreetmapcastillayleon: OpenStreetMap Kastilie a León
     openstreetmapcatalancountries: OpenStreetMap Katalánské země
     openstreetmapceara: OpenStreetMap Ceará
     openstreetmapchad: OpenStreetMap Čad
     openstreetmapchile: OpenStreetMap Chile
     openstreetmapchina: OpenStreetMap Čína
     openstreetmapcologne: OpenStreetMap Kolín nad Rýnem
-    openstreetmapcomunitatvalenciana: OpenStreetMap Comunitat Valenciana
+    openstreetmapcomunitatvalenciana: OpenStreetMap Valencijské společenství
     openstreetmapcostarica: OpenStreetMap Kostarika
     openstreetmapcotedivoire: OpenStreetMap Pobřeží Slonoviny
     openstreetmapcroatia: OpenStreetMap Chorvatsko
     openstreetmapcuba: OpenStreetMap Kuba
     openstreetmapcuneo: OpenStreetMap Cuneo
-    openstreetmapcyprus: OpenStreetMap Cyprus
+    openstreetmapcyprus: OpenStreetMap Kypr
     openstreetmapcz: OpenStreetMap CZ
     openstreetmapde: OpenStreetMap DE
     openstreetmapdeepsouth: OpenStreetMap Deep South
@@ -134,9 +135,9 @@ cs:
     openstreetmapmecklenburgvorpommern: OpenStreetMap Meklenburako-Přední Pomořansko
     openstreetmapmexico: OpenStreetMap Mexiko
     openstreetmapmichigan: OpenStreetMap Michigan
-    openstreetmapmoldova: OpenStreetMap Molavsko
+    openstreetmapmoldova: OpenStreetMap Moldavsko
     openstreetmapmongolia: OpenStreetMap Mongolsko
-    openstreetmapmontenegro: OpenStreetMap Montenegro
+    openstreetmapmontenegro: OpenStreetMap Černá Hora
     openstreetmapmontrouge: OpenStreetMap Montrouge
     openstreetmapmorocco: OpenStreetMap Maroko
     openstreetmapmunchen: OpenStreetMap Mnichov
@@ -159,6 +160,7 @@ cs:
     openstreetmappiemonte: OpenStreetMap Piemont
     openstreetmappoland: OpenStreetMap Polsko
     openstreetmapportugal: OpenStreetMap Portugalsko
+    openstreetmappunjab: OpenStreetMap Paňdžáb
     openstreetmaprdc: OpenStreetMap RDC
     openstreetmaprennes: OpenStreetMap Rennes
     openstreetmapreunion: OpenStreetMap Réunion
@@ -202,14 +204,22 @@ cs:
     openstreetmapwesternsahara: OpenStreetMap Západní Sahara
     openstreetmapzambia: OpenStreetMap Zambie
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
+    osmcolombia: OSM Kolumbie
     osmmainz: OSM Mohuč
+    osmnelson: OSM Nelson
     swissopenstreetmap: Swiss OpenStreetMap
+    tadeomappers: TadeoMappers
     youthmappersasu: YouthMappersASU
+    youthmappersufrj: YouthMappers UFRJ
   _defaults:
     aparat:
       name: '{community} na Aparatu'
       description: Odebírejte náš kanál na Aparatu
       url: https://aparat.com/{account}
+    bluesky:
+      name: '{community} na Bluesky'
+      description: Sledujte nás na Bluesky
+      url: https://bsky.app/profile/{account}
     discord:
       name: '{community} Discord'
       description: Zůstaňte ve spojení s ostatními mapovači na Discordu
@@ -288,8 +298,6 @@ cs:
       description: Sledujte nás na TikToku
       url: https://tiktok.com/@{account}
     twitter:
-      name: '{community} na X'
-      description: Sledujte nás na X
       url: https://twitter.com/{account}
     url:
       name: '{community}'
@@ -297,8 +305,6 @@ cs:
       name: '{community} wikiprojekt'
       url: https://wiki.openstreetmap.org/wiki/{account}
     x:
-      name: '{community} na X'
-      description: Sledujte nás na X
       url: https://twitter.com/{account}
     xmpp:
       name: '{community} XMPP'
@@ -389,6 +395,48 @@ cs:
     extendedDescription: Připojte se ke komunitě a dozvíte se více o OpenStreetMap, můžete klást otázky nebo se účastnit našich setkání. Každý je vítán!
   cl-telegram:
     extendedDescription: Připojte se ke komunitě a dozvíte se více o OpenStreetMap, můžete klást otázky nebo se účastnit našich setkání. Každý je vítán!
+  co-discourse:
+    name: Diskusní témata komunit OSM o Kolumbii
+    description: Toto jsou témata související se změnami map v Kolumbii
+  co-facebook:
+    name: Skupina {community} na Facebooku
+    description: Diskuzní skupina o problematice OSM v Kolumbii
+  co-github:
+    name: '{community} projekty na GitHubu'
+    description: Kódovací projekty vyvinuté komunitou
+  co-instagram:
+    name: Posty od {community} na Instagramu
+    description: Publikace o komunitních aktivitách nebo informacích
+  co-linkedin:
+    name: Posty od {community} na LinkedIn
+    description: Publikace o komunitních aktivitách nebo informacích
+  co-mastodon:
+    name: Posty od {community} na Mastodonu
+    description: Publikace o komunitních aktivitách nebo informacích
+  co-talk:
+    name: '{community} mailová konference'
+    description: Emaily, které vyžadují předávání informací komunitě
+  co-telegram:
+    name: Diskuzní skupina {community} na Telegramu
+    description: Otevřené diskuse o tématech, která zajímají celou komunitu. Jedná se o nejaktivnější kanál
+  co-thread:
+    name: Posty od {community} na Threads
+    description: Publikace o komunitních aktivitách nebo informacích
+  co-tiktok:
+    name: Krátká videa {community} na TikToku
+    description: Publikace o komunitních aktivitách
+  co-twitter:
+    name: Komunita {community} na x-Twitteru
+    description: Publikace o komunitních aktivitách nebo informacích
+  co-whatsapp:
+    name: Zprávy z komunity {community} na WhatsAppu
+    description: Publikace o komunitních aktivitách nebo informacích
+  co-wiki:
+    name: Wiki stránka s dokumentací k mapování Kolumbie.
+    description: Dokumentace ke všemu souvisejícímu s OpenStreetMap v Kolumbii
+  co-youtube:
+    name: Videa {community} na YouTube
+    description: Videa aktivit komunity nebo vysvětlení OSM aktivit
   comunitat-valenciana-wiki:
     description: 'Vše, co potřebujete vědět o mapování ve Valencijské komunitě: {url}'
   czech-community:
@@ -435,8 +483,8 @@ cs:
     description: '{community} Wiki stránka'
   de-mainz-mailinglist:
     description: OpenStreetMap v Mohuči a okolí
-  de-mainz-telegram:
-    description: OpenStreetMap v Mohuči a okolí
+  de-mainz-signal:
+    description: OpenStreetMap v Mohuči, Wiesbadenu a okolí
   de-mainz-wiki:
     description: OpenStreetMap v Mohuči a okolí
   de-munchen-wiki:
@@ -501,6 +549,8 @@ cs:
     extendedDescription: 'Připojte se k #{account} na irc.oftc.net (port 6667), buďte prosím trpěliví a počkejte pár minut, pokud položíte otázku'
   gb-mailinglist:
     description: 'Talk-gb je hlavní komunikační fórum OSM komunity ve Velké Británii (včetně Severního Irska) '
+  ge-matrix:
+    description: Obecný chat o OpenStreetMap v Gruzii propojený přemostěním na Telegram chat
   geogeeks_perth_meetup:
     name: Geogeeks Perth
     description: Setkání založená v Perthu pro lidi se zájmem o mapování, geoprostorová data a otevřené zdroje. Pořádáme pravidelné OSM mapovací večírky, besedy a společenská setkání. Začátečníci jsou srdečně vítáni!
@@ -512,22 +562,19 @@ cs:
     description: '{community} GitHub'
   hr-tm:
     name: '{community} Správce úloh'
+    description: Prozkoumejte aktivní mapovací úlohy v Chorvatsku
   hr-wiki:
     description: Stránka wikiprojektu pro Chorvatsko
   hu-facebook-group:
     name: '{community} skupina na Facebooku'
   hu-matrix:
     extendedDescription: Chat OpenStreetMap na mapová témata. Jedna z fór podpory komunity OSM.
-  hu-meetup:
-    description: Platforma pro organizování setkání v Maďarsku
   hu-mobilizon:
     name: '{community} na Mobilizonu'
     description: Nadcházející události pro maďarskou komunitu OpenStreetMap
   hu-tm:
     name: '{community} Správce úloh'
     description: Prozkoumejte aktivní mapovací úlohy v Maďarsku
-  hu-website:
-    description: Pomáháme OpenStreetMap v Maďarsku růst a zlepšovat se.
   hu-wiki:
     description: '{community} Wiki stránka'
   humanitarian-osm-tr-slack:
@@ -551,6 +598,8 @@ cs:
     description: Pomáháme OpenStreetMap v Itálii růst a zlepšovat se.
   it-discourse:
     description: Fórum, ve kterém můžete diskutovat o OpenStreetMap
+  ivides_website:
+    description: Zaměřujeme se na udržitelný rozvoj, mapování a podporu komunity OpenStreetMap.
   ko-facebook:
     description: Mapovači a uživatelé OpenStreetMap v Koreji
   ko-github:
@@ -617,7 +666,7 @@ cs:
     description: Usnadnění nalezení nízkouhlíkových tras v regionu Waterloo.
   MapRVA:
     name: MapRVA
-    description: Setkání MapRVA
+    description: MapRVA je skupina nadšenců mapování v Richmondu ve Virginii, kteří vytváří a sdílí geoprostorová data našeho města s využitím OpenStreetMap.
   maptime-bogota-facebook:
     name: MaptimeBogotá
     description: Jsme skupina lidí, kteří mají zájem zmapovat Bogotu a její okolí do OpenStreetMap.
@@ -835,6 +884,8 @@ cs:
     description: Malgašská facebooková skupina pro lidi zajímající se o OpenStreetMap.
   osm-michigan-wiki:
     description: '{community} Wiki stránka'
+  osm-nelson:
+    description: Skupina OpenStreetMap v Nelsonu na Novém Zélandu
   osm-ni:
     name: MapaNica.net
     description: Poskytování služeb a informací OSM pro místní komunitu v Nikaragui
@@ -856,6 +907,11 @@ cs:
     name: Free Software Hardware Movement - Mailová konference
     description: Mailová konference FSHM Puducherry k diskuzi o mapování v Puducherry a dalších věcech.
     extendedDescription: FSHM pořádá akce týkající se svobodného softwaru/hardwaru, technologie, aktivismu a OpenStreetMap.
+  osm-punjab-matrix:
+    description: Společně mapujeme Paňdžáb. Připojte se k naší skupině na Matrixu
+    extendedDescription: Neoficiální chatovací místnost pro OSM Paňdžáb, také přemostěna do skupiny OSMPunjab na Telegramu
+  osm-punjab-telegram:
+    description: Společně mapujeme Paňdžáb. Připojte se k naší skupině na Telegramu {url}
   OSM-Rome-meetup:
     name: Incontro Mappatori Romani
     description: Vylepšete OpenStreetMap na území Říma
@@ -928,6 +984,8 @@ cs:
     extendedDescription: Připojte se ke komunitě a dozvíte se více o OpenStreetMap, můžete klást otázky nebo se účastnit našich setkání. Každý je vítán!
   rs-wiki:
     description: Stránka wikiprojektu pro Srbsko
+  scandinavia-discord:
+    name: Skandinávský kanál na Světovém Discordu OpenStreetMap
   sg-wiki:
     description: '{community} Wiki stránka'
   si-github:
@@ -977,8 +1035,6 @@ cs:
     description: 'OpenStreetMap Londýn na Twitteru: {url}'
   uk-london-wiki:
     description: '{community} Wiki stránka'
-  uk-loomio:
-    name: OpenStreetMap UK na Loomiu
   us-discourse:
     description: Diskuzní fórum ohledně OpenStreetMap v Spojených státech
   us-massachusetts-mailinglist:
@@ -1334,6 +1390,16 @@ cs:
     name: YouthMappers v Bogotě
     description: Zastoupení YouthMappers na Universidad de Distrital Francisco Jose de Caldas
     extendedDescription: Universidad Distrital Francisco José de Caldas je veřejná, koedukovaná, výzkumná univerzita se sídlem v Bogotě v Kolumbii s populací 26 140 studentů.
+  ym-Universidad-Jorge-Tadeo-Lozano:
+    name: TadeoMappers na Univerzitě Jorge Tadeo Lozano
+    description: Zastoupení YouthMappers na Univerzitě Jorge Tadeo Lozano
+    extendedDescription: Studenti z Bogoty nadšení pro mapování aktivit podporujících biodiverzitu. Zaměřují se na mapování stromů a přenášejí tyto aktivity do škol s cílem zapojit celou komunitu do úsilí o ochranu životního prostředí.
+  ym-Universidad-Jorge-Tadeo-Lozano-github:
+    description: GitHub TadeoMappers zastupujících YouthMappers
+    extendedDescription: TadeoMappers, ve spolupráci s kolektivem Svobodného Softwaru GNUTADEO, nabízejí repozitáře pro svou práci. Obě skupiny jsou spojeny s Univerzitou Jorge Tadeo Lozano a prosazují používání mapovacích nástrojů a softwaru na podporu projektů řízených komunitou.
+  ym-Universidad-Jorge-Tadeo-Lozano-instagram:
+    description: Instagram TadeoMappers zastupujících YouthMappers
+    extendedDescription: TadeoMappers je součástí skupiny Svobodného Softwaru GNUTADEO, kolektivu z Univerzity Jorge Tadeo Lozano
   ym-Universidad-Nacional-Autnoma-de-Honduras:
     name: PumaGis Hn
     description: Zastoupení YouthMappers na Universidad Nacional Autónoma de Honduras
