@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.9.1",
-    "generated": "2025-04-23T21:01:47.608Z",
+    "generated": "2025-04-24T00:14:36.105Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "f49d9f439a84151556e14a15c66697b9"
+    "hash": "eef726f9a3f9caa7827743e59ebaef42"
   },
   "type": "FeatureCollection",
   "features": [
@@ -11362,26 +11362,6 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://signal.group/#CjQKIJUReW0GI6oi97leIr_OdN2EpdopcGLB0PJmTpepkSSOEhAqTQBb93nQMow_YwHCDu9S\">OSM Mainz Signal</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://signal.group/#CjQKIJUReW0GI6oi97leIr_OdN2EpdopcGLB0PJmTpepkSSOEhAqTQBb93nQMow_YwHCDu9S\">https://signal.group/#CjQKIJUReW0GI6oi97leIr_OdN2EpdopcGLB0PJmTpepkSSOEhAqTQBb93nQMow_YwHCDu9S</a>",
               "descriptionHTML": "OpenStreetMap in Mainz, Wiesbaden und Umgebung"
-            }
-          },
-          "de-mainz-telegram": {
-            "id": "de-mainz-telegram",
-            "type": "telegram",
-            "account": "osm_mainz",
-            "locationSet": {"include": [[8.27, 50, 10]]},
-            "languageCodes": ["de"],
-            "strings": {
-              "community": "OSM Mainz",
-              "communityID": "osmmainz",
-              "description": "OpenStreetMap in Mainz und Umgebung"
-            },
-            "resolved": {
-              "name": "OSM Mainz Telegram",
-              "url": "https://t.me/osm_mainz",
-              "description": "OpenStreetMap in Mainz und Umgebung",
-              "nameHTML": "<a target=\"_blank\" href=\"https://t.me/osm_mainz\">OSM Mainz Telegram</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://t.me/osm_mainz\">https://t.me/osm_mainz</a>",
-              "descriptionHTML": "OpenStreetMap in Mainz und Umgebung"
             }
           },
           "de-mainz-wiki": {
@@ -23313,14 +23293,14 @@
             "strings": {
               "community": "OpenStreetMap Latvia",
               "communityID": "openstreetmaplatvia",
-              "url": "osmlatvija.zulipchat.com"
+              "url": "https://osmlatvija.zulipchat.com/"
             },
             "resolved": {
               "name": "OpenStreetMap Latvia Zulip",
-              "url": "osmlatvija.zulipchat.com",
+              "url": "https://osmlatvija.zulipchat.com/",
               "description": "Join our community chat on Zulip",
-              "nameHTML": "<a target=\"_blank\" href=\"osmlatvija.zulipchat.com\">OpenStreetMap Latvia Zulip</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"osmlatvija.zulipchat.com\">osmlatvija.zulipchat.com</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://osmlatvija.zulipchat.com/\">OpenStreetMap Latvia Zulip</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://osmlatvija.zulipchat.com/\">https://osmlatvija.zulipchat.com/</a>",
               "descriptionHTML": "Join our community chat on Zulip"
             }
           },
@@ -48959,30 +48939,6 @@
               "signupUrlHTML": "<a target=\"_blank\" href=\"https://osmuk.org/become-member/\">https://osmuk.org/become-member/</a>",
               "descriptionHTML": "The official Local Chapter for the UK (including Northern Ireland).",
               "extendedDescriptionHTML": "We support OpenStreetMap by holding events, providing community resources, building partnerships, and by spreading the word. Join OpenStreetMap UK here: <a target=\"_blank\" href=\"https://osmuk.org/become-member/\">https://osmuk.org/become-member/</a>"
-            }
-          },
-          "uk-loomio": {
-            "id": "uk-loomio",
-            "type": "forum",
-            "locationSet": {"include": ["Q3336843", "Q185086"]},
-            "languageCodes": ["en"],
-            "order": 2,
-            "strings": {
-              "community": "OpenStreetMap UK",
-              "communityID": "openstreetmapuk",
-              "name": "OpenStreetMap UK on Loomio",
-              "url": "https://www.loomio.org/openstreetmap-uk/"
-            },
-            "contacts": [
-              {"name": "OpenStreetMap UK", "email": "board@osmuk.org"}
-            ],
-            "resolved": {
-              "name": "OpenStreetMap UK on Loomio",
-              "url": "https://www.loomio.org/openstreetmap-uk/",
-              "description": "The official forum for OpenStreetMap UK",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.loomio.org/openstreetmap-uk/\">OpenStreetMap UK on Loomio</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.loomio.org/openstreetmap-uk/\">https://www.loomio.org/openstreetmap-uk/</a>",
-              "descriptionHTML": "The official forum for OpenStreetMap UK"
             }
           }
         }
