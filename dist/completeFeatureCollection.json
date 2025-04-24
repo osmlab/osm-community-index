@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "5.9.1",
-    "generated": "2025-04-24T00:14:36.105Z",
+    "version": "5.9.2",
+    "generated": "2025-04-24T19:05:47.177Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/completeFeatureCollection.json",
-    "hash": "eef726f9a3f9caa7827743e59ebaef42"
+    "hash": "21782b4463c779d782ba9341cd57f0fa"
   },
   "type": "FeatureCollection",
   "features": [
@@ -17580,7 +17580,7 @@
             "account": "hu",
             "locationSet": {"include": ["hu"]},
             "languageCodes": ["hu"],
-            "order": 1,
+            "order": -2,
             "strings": {
               "community": "OpenStreetMap Hungary",
               "communityID": "openstreetmaphungary"
@@ -17600,6 +17600,7 @@
             "account": "OpenStreetMap.hu",
             "locationSet": {"include": ["hu"]},
             "languageCodes": ["hu"],
+            "order": 2,
             "strings": {
               "community": "OpenStreetMap Hungary",
               "communityID": "openstreetmaphungary"
@@ -17643,7 +17644,7 @@
             "account": "talk-hu",
             "locationSet": {"include": ["hu"]},
             "languageCodes": ["hu"],
-            "order": -2,
+            "order": 1,
             "strings": {
               "community": "OpenStreetMap Hungary",
               "communityID": "openstreetmaphungary"
@@ -17663,6 +17664,7 @@
             "type": "matrix",
             "locationSet": {"include": ["hu"]},
             "languageCodes": ["en", "hu"],
+            "order": 6,
             "strings": {
               "community": "OpenStreetMap Hungary",
               "communityID": "openstreetmaphungary",
@@ -17683,36 +17685,11 @@
               "extendedDescriptionHTML": "OpenStreetMap chat on map topics. One of the OSM community support forums."
             }
           },
-          "hu-meetup": {
-            "id": "hu-meetup",
-            "type": "meetup",
-            "account": "OpenStreetMap-Hungary",
-            "locationSet": {"include": ["hu"]},
-            "languageCodes": ["hu"],
-            "order": 5,
-            "strings": {
-              "community": "OpenStreetMap Hungary",
-              "communityID": "openstreetmaphungary",
-              "description": "The platform for organizing meetups in Hungary"
-            },
-            "contacts": [
-              {"name": "Ferenc Veres", "email": "info@openstreetmap.hu"}
-            ],
-            "resolved": {
-              "name": "OpenStreetMap Hungary Meetup",
-              "url": "https://www.meetup.com/OpenStreetMap-Hungary",
-              "description": "The platform for organizing meetups in Hungary",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Hungary\">OpenStreetMap Hungary Meetup</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.meetup.com/OpenStreetMap-Hungary\">https://www.meetup.com/OpenStreetMap-Hungary</a>",
-              "descriptionHTML": "The platform for organizing meetups in Hungary"
-            }
-          },
           "hu-mobilizon": {
             "id": "hu-mobilizon",
             "type": "forum",
             "locationSet": {"include": ["hu"]},
             "languageCodes": ["hu"],
-            "order": -3,
             "strings": {
               "community": "OpenStreetMap Hungary",
               "communityID": "openstreetmaphungary",
@@ -17758,20 +17735,20 @@
             "type": "osm",
             "locationSet": {"include": ["hu"]},
             "languageCodes": ["hu"],
-            "order": 1,
+            "order": -3,
             "strings": {
               "community": "OpenStreetMap Hungary",
               "communityID": "openstreetmaphungary",
-              "description": "We help grow and improve OpenStreetMap in Hungary.",
+              "description": "The website of the Hungarian OpenStreetMap community",
               "url": "https://www.openstreetmap.hu/"
             },
             "resolved": {
               "name": "OpenStreetMap Hungary",
               "url": "https://www.openstreetmap.hu/",
-              "description": "We help grow and improve OpenStreetMap in Hungary.",
+              "description": "The website of the Hungarian OpenStreetMap community",
               "nameHTML": "<a target=\"_blank\" href=\"https://www.openstreetmap.hu/\">OpenStreetMap Hungary</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://www.openstreetmap.hu/\">https://www.openstreetmap.hu/</a>",
-              "descriptionHTML": "We help grow and improve OpenStreetMap in Hungary."
+              "descriptionHTML": "The website of the Hungarian OpenStreetMap community"
             }
           },
           "hu-wiki": {
@@ -17780,6 +17757,7 @@
             "account": "Hungary",
             "locationSet": {"include": ["hu"]},
             "languageCodes": ["hu"],
+            "order": 5,
             "strings": {
               "community": "OpenStreetMap Hungary",
               "communityID": "openstreetmaphungary",
@@ -17792,6 +17770,27 @@
               "nameHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Hungary\">OpenStreetMap Hungary WikiProject</a>",
               "urlHTML": "<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Hungary\">https://wiki.openstreetmap.org/wiki/Hungary</a>",
               "descriptionHTML": "OpenStreetMap Hungary Wiki page"
+            }
+          },
+          "hu-youtube": {
+            "id": "hu-youtube",
+            "type": "youtube",
+            "account": "OpenStreetMapHungary",
+            "locationSet": {"include": ["hu"]},
+            "languageCodes": ["hu"],
+            "order": 4,
+            "strings": {
+              "community": "OpenStreetMap Hungary",
+              "communityID": "openstreetmaphungary",
+              "description": "OpenStreetMap Hungary meetup live streams and recordings"
+            },
+            "resolved": {
+              "name": "OpenStreetMap Hungary on YouTube",
+              "url": "https://www.youtube.com/channel/OpenStreetMapHungary",
+              "description": "OpenStreetMap Hungary meetup live streams and recordings",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.youtube.com/channel/OpenStreetMapHungary\">OpenStreetMap Hungary on YouTube</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.youtube.com/channel/OpenStreetMapHungary\">https://www.youtube.com/channel/OpenStreetMapHungary</a>",
+              "descriptionHTML": "OpenStreetMap Hungary meetup live streams and recordings"
             }
           }
         }
@@ -20225,12 +20224,12 @@
       "id": "rio_de_janeiro.geojson",
       "properties": {
         "id": "rio_de_janeiro.geojson",
-        "area": 29447.6,
+        "area": 57015.37,
         "resources": {
-          "ivides_facebook": {
-            "id": "ivides_facebook",
-            "type": "facebook",
-            "account": "ivides.org",
+          "ivides_bluesky": {
+            "id": "ivides_bluesky",
+            "type": "bluesky",
+            "account": "ivides-org",
             "locationSet": {"include": ["rio_de_janeiro.geojson"]},
             "languageCodes": ["pt"],
             "strings": {
@@ -20240,22 +20239,22 @@
             "contacts": [
               {
                 "name": "Raquel Dezidério Souto, Dr.",
-                "email": "ym.ufrj@gmail.com"
+                "email": "ivides@ivides.org"
               }
             ],
             "resolved": {
-              "name": "Mapeadores IVIDES on Facebook",
-              "url": "https://www.facebook.com/ivides.org",
-              "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/ivides.org\">Mapeadores IVIDES on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/ivides.org\">https://www.facebook.com/ivides.org</a>",
-              "descriptionHTML": "Join our community on Facebook"
+              "name": "Mapeadores IVIDES on Bluesky",
+              "url": "https://bsky.app/profile/ivides-org",
+              "description": "Follow us on Bluesky",
+              "nameHTML": "<a target=\"_blank\" href=\"https://bsky.app/profile/ivides-org\">Mapeadores IVIDES on Bluesky</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://bsky.app/profile/ivides-org\">https://bsky.app/profile/ivides-org</a>",
+              "descriptionHTML": "Follow us on Bluesky"
             }
           },
-          "ivides_instagram": {
-            "id": "ivides_instagram",
-            "type": "instagram",
-            "account": "ivides.org",
+          "ivides_linkedin": {
+            "id": "ivides_linkedin",
+            "type": "linkedin",
+            "account": "ivides-org",
             "locationSet": {"include": ["rio_de_janeiro.geojson"]},
             "languageCodes": ["pt"],
             "strings": {
@@ -20265,16 +20264,16 @@
             "contacts": [
               {
                 "name": "Raquel Dezidério Souto, Dr.",
-                "email": "ym.ufrj@gmail.com"
+                "email": "ivides@ivides.org"
               }
             ],
             "resolved": {
-              "name": "Mapeadores IVIDES on Instagram",
-              "url": "https://instagram.com/ivides.org",
-              "description": "Follow us on Instagram",
-              "nameHTML": "<a target=\"_blank\" href=\"https://instagram.com/ivides.org\">Mapeadores IVIDES on Instagram</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://instagram.com/ivides.org\">https://instagram.com/ivides.org</a>",
-              "descriptionHTML": "Follow us on Instagram"
+              "name": "Mapeadores IVIDES on LinkedIn",
+              "url": "https://www.linkedin.com/company/ivides-org",
+              "description": "Join our community on LinkedIn",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.linkedin.com/company/ivides-org\">Mapeadores IVIDES on LinkedIn</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.linkedin.com/company/ivides-org\">https://www.linkedin.com/company/ivides-org</a>",
+              "descriptionHTML": "Join our community on LinkedIn"
             }
           },
           "ivides_website": {
@@ -20306,7 +20305,7 @@
           "ivides_youtube": {
             "id": "ivides_youtube",
             "type": "youtube",
-            "account": "IVIDES",
+            "account": "UCJmRe14-B0ubas3IRveF22g",
             "locationSet": {"include": ["rio_de_janeiro.geojson"]},
             "languageCodes": ["pt"],
             "strings": {
@@ -20321,17 +20320,17 @@
             ],
             "resolved": {
               "name": "Mapeadores IVIDES on YouTube",
-              "url": "https://www.youtube.com/channel/IVIDES",
+              "url": "https://www.youtube.com/channel/UCJmRe14-B0ubas3IRveF22g",
               "description": "Subscribe to our YouTube channel",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.youtube.com/channel/IVIDES\">Mapeadores IVIDES on YouTube</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.youtube.com/channel/IVIDES\">https://www.youtube.com/channel/IVIDES</a>",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.youtube.com/channel/UCJmRe14-B0ubas3IRveF22g\">Mapeadores IVIDES on YouTube</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.youtube.com/channel/UCJmRe14-B0ubas3IRveF22g\">https://www.youtube.com/channel/UCJmRe14-B0ubas3IRveF22g</a>",
               "descriptionHTML": "Subscribe to our YouTube channel"
             }
           },
-          "ym-ufrj_facebook": {
-            "id": "ym-ufrj_facebook",
-            "type": "facebook",
-            "account": "youthmappers.ufrj",
+          "ym-ufrj_bluesky": {
+            "id": "ym-ufrj_bluesky",
+            "type": "bluesky",
+            "account": "youthmappers-ufrj",
             "locationSet": {"include": ["rio_de_janeiro.geojson"]},
             "languageCodes": ["pt"],
             "strings": {
@@ -20339,24 +20338,21 @@
               "communityID": "youthmappersufrj"
             },
             "contacts": [
-              {
-                "name": "Raquel Dezidério Souto, Dr.",
-                "email": "ym.ufrj@gmail.com"
-              }
+              {"name": "YouthMappers UFRJ", "email": "ym.ufrj@gmail.com"}
             ],
             "resolved": {
-              "name": "YouthMappers UFRJ on Facebook",
-              "url": "https://www.facebook.com/youthmappers.ufrj",
-              "description": "Join our community on Facebook",
-              "nameHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/youthmappers.ufrj\">YouthMappers UFRJ on Facebook</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://www.facebook.com/youthmappers.ufrj\">https://www.facebook.com/youthmappers.ufrj</a>",
-              "descriptionHTML": "Join our community on Facebook"
+              "name": "YouthMappers UFRJ on Bluesky",
+              "url": "https://bsky.app/profile/youthmappers-ufrj",
+              "description": "Follow us on Bluesky",
+              "nameHTML": "<a target=\"_blank\" href=\"https://bsky.app/profile/youthmappers-ufrj\">YouthMappers UFRJ on Bluesky</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://bsky.app/profile/youthmappers-ufrj\">https://bsky.app/profile/youthmappers-ufrj</a>",
+              "descriptionHTML": "Follow us on Bluesky"
             }
           },
-          "ym-ufrj_instagram": {
-            "id": "ym-ufrj_instagram",
-            "type": "instagram",
-            "account": "youthmappers.ufrj",
+          "ym-ufrj_linkedin": {
+            "id": "ym-ufrj_linkedin",
+            "type": "linkedin",
+            "account": "youthmappers-ufrj",
             "locationSet": {"include": ["rio_de_janeiro.geojson"]},
             "languageCodes": ["pt"],
             "strings": {
@@ -20370,12 +20366,12 @@
               }
             ],
             "resolved": {
-              "name": "YouthMappers UFRJ on Instagram",
-              "url": "https://instagram.com/youthmappers.ufrj",
-              "description": "Follow us on Instagram",
-              "nameHTML": "<a target=\"_blank\" href=\"https://instagram.com/youthmappers.ufrj\">YouthMappers UFRJ on Instagram</a>",
-              "urlHTML": "<a target=\"_blank\" href=\"https://instagram.com/youthmappers.ufrj\">https://instagram.com/youthmappers.ufrj</a>",
-              "descriptionHTML": "Follow us on Instagram"
+              "name": "YouthMappers UFRJ on LinkedIn",
+              "url": "https://www.linkedin.com/company/youthmappers-ufrj",
+              "description": "Join our community on LinkedIn",
+              "nameHTML": "<a target=\"_blank\" href=\"https://www.linkedin.com/company/youthmappers-ufrj\">YouthMappers UFRJ on LinkedIn</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://www.linkedin.com/company/youthmappers-ufrj\">https://www.linkedin.com/company/youthmappers-ufrj</a>",
+              "descriptionHTML": "Join our community on LinkedIn"
             }
           }
         }
@@ -20384,11 +20380,51 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [-44.72466, -22.52213],
-            [-41.78791, -22.52213],
-            [-41.78791, -23.40094],
-            [-44.72466, -23.40094],
-            [-44.72466, -22.52213]
+            [-44.8829, -22.32982],
+            [-44.47127, -22.21049],
+            [-44.0646, -22.11863],
+            [-43.70752, -21.98073],
+            [-43.3306, -21.92093],
+            [-43.05783, -21.97613],
+            [-42.44782, -21.66766],
+            [-42.28912, -21.19678],
+            [-42.19985, -20.87739],
+            [-42.06594, -20.78468],
+            [-41.95684, -20.73831],
+            [-41.76342, -20.74758],
+            [-41.61463, -20.87275],
+            [-41.60472, -21.03485],
+            [-41.24764, -21.15516],
+            [-41.02446, -21.16903],
+            [-40.89552, -21.28923],
+            [-40.91039, -21.41856],
+            [-40.95999, -21.53855],
+            [-40.93023, -21.81047],
+            [-40.8856, -22.01752],
+            [-41.13357, -22.16916],
+            [-41.45593, -22.28393],
+            [-41.7039, -22.36651],
+            [-41.81301, -22.5132],
+            [-41.89236, -22.63226],
+            [-41.77334, -22.74665],
+            [-41.97667, -23.03449],
+            [-42.21969, -23.02537],
+            [-42.87929, -23.02993],
+            [-43.17686, -23.05731],
+            [-43.44963, -23.12574],
+            [-43.57361, -23.14399],
+            [-43.8315, -22.98885],
+            [-44.04972, -23.071],
+            [-44.26297, -23.12574],
+            [-44.41672, -23.1303],
+            [-44.47623, -23.33993],
+            [-44.68949, -23.46283],
+            [-44.89778, -23.35815],
+            [-44.96721, -23.18958],
+            [-44.81843, -22.91578],
+            [-44.61013, -22.76495],
+            [-44.79859, -22.559],
+            [-44.8829, -22.32982]
           ]
         ]
       }
@@ -25720,6 +25756,162 @@
         ]
       },
       "id": "Q1019"
+    },
+    {
+      "type": "Feature",
+      "id": "minas_gerais.geojson",
+      "properties": {
+        "id": "minas_gerais.geojson",
+        "area": 600504.44,
+        "resources": {
+          "minas_gerais-discord": {
+            "id": "minas_gerais-discord",
+            "type": "discord",
+            "account": "YnG4MSuHpc",
+            "locationSet": {"include": ["minas_gerais.geojson"]},
+            "languageCodes": ["en", "es", "pt-bt"],
+            "order": 1,
+            "strings": {
+              "community": "OpenStreetMap Brasil Minas Gerais",
+              "communityID": "openstreetmapbrasilminasgerais",
+              "extendedDescription": "Welcome to the OSM Minas Gerais Discord! We’re a community of mappers passionate about building detailed, open-source maps for Minas Gerais, Brazil. Join us to collaborate, share tips, and help make MG’s maps the best on OpenStreetMap. Whether you’re a newbie or a pro, let’s map together!"
+            },
+            "contacts": [
+              {"name": "Juan Colchete", "email": "juancolchete@gmail.com"},
+              {"name": "dannilobr", "email": "dfs@uaibit.com.br"}
+            ],
+            "resolved": {
+              "name": "OpenStreetMap Brasil Minas Gerais Discord",
+              "url": "https://discord.gg/YnG4MSuHpc",
+              "description": "Get in touch with other mappers on Discord",
+              "extendedDescription": "Welcome to the OSM Minas Gerais Discord! We’re a community of mappers passionate about building detailed, open-source maps for Minas Gerais, Brazil. Join us to collaborate, share tips, and help make MG’s maps the best on OpenStreetMap. Whether you’re a newbie or a pro, let’s map together!",
+              "nameHTML": "<a target=\"_blank\" href=\"https://discord.gg/YnG4MSuHpc\">OpenStreetMap Brasil Minas Gerais Discord</a>",
+              "urlHTML": "<a target=\"_blank\" href=\"https://discord.gg/YnG4MSuHpc\">https://discord.gg/YnG4MSuHpc</a>",
+              "descriptionHTML": "Get in touch with other mappers on Discord",
+              "extendedDescriptionHTML": "Welcome to the OSM Minas Gerais Discord! We’re a community of mappers passionate about building detailed, open-source maps for Minas Gerais, Brazil. Join us to collaborate, share tips, and help make MG’s maps the best on OpenStreetMap. Whether you’re a newbie or a pro, let’s map together!"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [-44.99475, -22.48002],
+            [-45.29827, -22.62669],
+            [-45.81114, -22.7087],
+            [-45.72565, -22.71658],
+            [-45.70856, -22.79541],
+            [-46.14453, -22.9267],
+            [-46.14738, -22.86895],
+            [-46.35539, -22.91357],
+            [-46.39243, -22.87682],
+            [-46.34969, -22.76652],
+            [-46.45227, -22.74024],
+            [-46.48076, -22.67189],
+            [-46.41523, -22.65349],
+            [-46.42425, -22.54696],
+            [-46.65506, -22.44692],
+            [-46.72345, -22.29673],
+            [-46.61517, -22.13581],
+            [-46.72914, -22.09621],
+            [-46.64936, -22.0117],
+            [-46.6921, -21.84782],
+            [-46.64651, -21.67316],
+            [-46.57527, -21.67845],
+            [-46.52683, -21.45585],
+            [-46.81178, -21.38423],
+            [-47.00839, -21.42403],
+            [-47.2392, -20.9032],
+            [-47.17081, -20.69276],
+            [-47.10812, -20.69009],
+            [-47.15656, -20.53006],
+            [-47.31248, -20.4452],
+            [-47.24774, -20.22288],
+            [-47.4757, -19.97402],
+            [-47.56973, -19.99544],
+            [-47.61248, -20.05434],
+            [-47.64952, -20.05434],
+            [-47.69796, -19.99009],
+            [-47.86038, -19.99544],
+            [-47.86323, -20.09181],
+            [-47.89457, -20.12392],
+            [-47.93447, -20.10251],
+            [-47.93731, -20.05166],
+            [-47.98006, -20.04096],
+            [-48.00855, -20.12124],
+            [-48.12823, -20.15067],
+            [-48.21656, -20.03292],
+            [-48.25076, -20.04631],
+            [-48.21765, -20.14884],
+            [-48.84345, -20.17474],
+            [-48.86909, -20.4313],
+            [-48.96882, -20.41795],
+            [-48.99162, -20.15602],
+            [-49.05146, -20.15335],
+            [-49.13979, -20.30307],
+            [-49.24907, -20.31005],
+            [-49.34254, -20.00686],
+            [-50.32232, -19.87758],
+            [-50.48585, -19.80732],
+            [-51.01738, -20.08423],
+            [-51.0494, -19.71692],
+            [-50.76122, -19.17345],
+            [-50.57551, -19.119],
+            [-50.33216, -18.70705],
+            [-49.50606, -18.50069],
+            [-49.4164, -18.6039],
+            [-48.97454, -18.288],
+            [-47.9148, -18.44557],
+            [-47.29672, -18.04461],
+            [-47.37997, -17.82527],
+            [-47.28391, -17.63618],
+            [-47.34795, -17.54461],
+            [-47.47603, -17.55682],
+            [-47.53367, -17.38579],
+            [-47.16864, -17.00649],
+            [-47.24549, -16.70619],
+            [-47.46322, -16.50981],
+            [-47.31946, -16.01932],
+            [-46.84204, -15.84558],
+            [-46.9381, -15.01222],
+            [-46.64352, -15.06788],
+            [-46.53466, -15.04314],
+            [-46.57308, -14.77705],
+            [-46.50264, -14.66556],
+            [-46.25289, -14.91323],
+            [-46.02875, -14.85134],
+            [-45.9455, -14.99985],
+            [-46.07998, -15.22241],
+            [-44.33069, -14.2196],
+            [-43.77801, -14.32546],
+            [-43.89328, -14.61689],
+            [-43.54747, -14.75317],
+            [-43.20166, -14.64168],
+            [-41.82482, -15.07496],
+            [-41.35093, -15.4765],
+            [-41.31891, -15.72322],
+            [-40.77458, -15.63691],
+            [-39.81461, -16.05206],
+            [-40.32692, -16.76465],
+            [-40.23726, -16.80757],
+            [-40.26288, -16.8995],
+            [-40.48702, -16.89337],
+            [-40.6151, -17.34626],
+            [-40.18603, -17.77975],
+            [-40.27569, -17.90776],
+            [-40.98021, -18.20025],
+            [-40.94179, -19.47905],
+            [-41.36445, -20.2079],
+            [-41.69745, -20.24996],
+            [-42.30582, -21.6077],
+            [-42.2674, -21.72673],
+            [-43.0999, -22.12476],
+            [-43.33685, -22.05355],
+            [-44.99475, -22.48002]
+          ]
+        ],
+        "type": "Polygon"
+      }
     },
     {
       "type": "Feature",

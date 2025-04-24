@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "5.9.1",
-    "generated": "2025-04-24T14:56:41.700Z",
+    "version": "5.9.2",
+    "generated": "2025-04-24T19:05:46.657Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "6f56bb71f72b871b09b11e8aba329699"
+    "hash": "defe9e87f318601f6d76e9889b7c8ba8"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -319,6 +319,7 @@
     "md-telegram": {"id": "md-telegram", "type": "telegram", "account": "OSMMoldova", "locationSet": {"include": ["md"]}, "languageCodes": ["mo", "ro", "ru"], "order": 2, "strings": {"community": "OpenStreetMap Moldova", "communityID": "openstreetmapmoldova"}, "contacts": [{"name": "Ion Moldovan", "email": "6yhxhs7t7huf@inbox.ru"}]},
     "me-telegram": {"id": "me-telegram", "type": "telegram", "account": "osmmne", "locationSet": {"include": ["me"]}, "languageCodes": ["en", "ru"], "order": 1, "strings": {"community": "OpenStreetMap Montenegro", "communityID": "openstreetmapmontenegro", "description": "All are welcome! Sign up at {signupUrl}", "signupUrl": "https://t.me/+lgxdU87aRchjYTQy"}, "contacts": [{"name": "Rinat Sabitov", "email": "me@false.org.ru"}]},
     "mg-twitter": {"id": "mg-twitter", "type": "twitter", "account": "OSM_Mg", "locationSet": {"include": ["mg"]}, "languageCodes": ["fr", "mg"], "strings": {"community": "OpenStreetMap Madagascar", "communityID": "openstreetmapmadagascar"}},
+    "minas_gerais-discord": {"id": "minas_gerais-discord", "type": "discord", "account": "YnG4MSuHpc", "locationSet": {"include": ["minas_gerais.geojson"]}, "languageCodes": ["en", "es", "pt-bt"], "order": 1, "strings": {"community": "OpenStreetMap Brasil Minas Gerais", "communityID": "openstreetmapbrasilminasgerais", "extendedDescription": "Welcome to the OSM Minas Gerais Discord! We’re a community of mappers passionate about building detailed, open-source maps for Minas Gerais, Brazil. Join us to collaborate, share tips, and help make MG’s maps the best on OpenStreetMap. Whether you’re a newbie or a pro, let’s map together!"}, "contacts": [{"name": "Juan Colchete", "email": "juancolchete@gmail.com"}, {"name": "dannilobr", "email": "dfs@uaibit.com.br"}]},
     "ml-facebook": {"id": "ml-facebook", "type": "facebook", "account": "Openstreetmap-Mali-909615379063102", "locationSet": {"include": ["ml"]}, "strings": {"community": "OpenStreetMap Mali", "communityID": "openstreetmapmali"}},
     "ml-twitter": {"id": "ml-twitter", "type": "twitter", "account": "OSM_Mali", "locationSet": {"include": ["ml"]}, "strings": {"community": "OpenStreetMap Mali", "communityID": "openstreetmapmali"}},
     "mm-facebook": {"id": "mm-facebook", "type": "facebook", "locationSet": {"include": ["mm"]}, "order": 3, "strings": {"community": "OpenStreetMap Myanmar", "communityID": "openstreetmapmyanmar", "extendedDescription": "Mapping in Myanmar? Have questions, want to connect with the community here? Join us at {url}. All are welcome!", "url": "https://www.facebook.com/groups/osmmm/"}, "contacts": [{"name": "Yan Naung Oak", "email": "yan@phandeeyar.org"}, {"name": "Patrick Oswald", "email": "patrickoswald.omm@gmail.com"}, {"name": "Set Khaing Oo", "email": "setkhaing@phandeeyar.org"}]},

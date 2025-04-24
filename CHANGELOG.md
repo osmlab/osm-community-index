@@ -12,12 +12,50 @@ _Breaking changes, which may affect downstream projects, are marked with a_ ‚ö†Ô
 # A.B.C
 ##### YYYY-MMM-DD
 
-* Added resources:
-* Added events:
+* Added:
 * Updated:
+* Removed:
 
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
+
+
+# 5.9.2
+##### 2025-Apr-24
+* Bump required Node to 22
+* Added:
+  * Minas Gerais, Brazil Discord ([#803])
+  * Punjab region resources ([#784])
+  * YouthMappers UFRJ and IVIDES Bluesky, LinkedIn ([#781], [#790], [#791], [#792])
+* Updated:
+  * Rename Twitter to "X" instead of "ùïè" due to accessibility concerns ([#804])
+  * Fix Latvia Zulip Chat URL ([#795])
+  * Hungary resources and sort orders ([#794])
+  * MapRVA links ([#782])
+  * IVIDES Youtube channel ID ([#779])
+* Removed:
+  * United Kingdom Loomio Chat ([#801])
+  * Mainz Telegram Chat ([#798])
+  * YouthMappers UFRJ and IVIDES Instagram, Facebook ([#785], [#786], [#787], [#788])
+
+[#779]: https://github.com/osmlab/osm-community-index/issues/779
+[#781]: https://github.com/osmlab/osm-community-index/issues/781
+[#782]: https://github.com/osmlab/osm-community-index/issues/782
+[#784]: https://github.com/osmlab/osm-community-index/issues/784
+[#785]: https://github.com/osmlab/osm-community-index/issues/785
+[#786]: https://github.com/osmlab/osm-community-index/issues/786
+[#787]: https://github.com/osmlab/osm-community-index/issues/787
+[#788]: https://github.com/osmlab/osm-community-index/issues/788
+[#790]: https://github.com/osmlab/osm-community-index/issues/790
+[#791]: https://github.com/osmlab/osm-community-index/issues/791
+[#792]: https://github.com/osmlab/osm-community-index/issues/792
+[#794]: https://github.com/osmlab/osm-community-index/issues/794
+[#795]: https://github.com/osmlab/osm-community-index/issues/795
+[#798]: https://github.com/osmlab/osm-community-index/issues/798
+[#801]: https://github.com/osmlab/osm-community-index/issues/801
+[#803]: https://github.com/osmlab/osm-community-index/issues/803
+[#804]: https://github.com/osmlab/osm-community-index/issues/804
+
 
 # 5.9.1
 ##### 2025-Jan-15
@@ -213,7 +251,7 @@ _Breaking changes, which may affect downstream projects, are marked with a_ ‚ö†Ô
 
 # 5.6.1
 ##### 2023-Dec-21
-* Bump reqired node to 18, swap `tap` for `node:test`
+* Bump required Node to 18, swap `tap` for `node:test`
 * Added:
   * Catalan community Twitch channel ([#680])
   * Bengaluru commmunity resources ([#682])
