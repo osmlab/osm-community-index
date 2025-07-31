@@ -19,6 +19,26 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.9.3
+##### 2025-Jul-31
+* Updated dependencies, bump to location-conflation v1.5.0 / country-coder v5.4.0
+* Updated:
+  * URL for Swiss OSM Mastodon ([#809])
+  * URL for Belgium Newsletter ([#812])
+  * Fixed language code for Estonian resources ([#813])
+* Removed:
+  * Belgium IRC ([#812])
+  * Maptime HRVA ([#802])
+  * Deprecated mailing lists: ([#805], [#808])
+    * talk-bf, talk-mw, talk-nz, talk-sc, talk-so, talk-za, talk-zm, talk-af, talk-vn, talk-at, talk-hr, talk-ir, talk-iq, talk-sy, talk-ec, talk-latam
+
+[#802]: https://github.com/osmlab/osm-community-index/issues/802
+[#805]: https://github.com/osmlab/osm-community-index/issues/805
+[#808]: https://github.com/osmlab/osm-community-index/issues/808
+[#809]: https://github.com/osmlab/osm-community-index/issues/809
+[#812]: https://github.com/osmlab/osm-community-index/issues/812
+[#813]: https://github.com/osmlab/osm-community-index/issues/813
+
 
 # 5.9.2
 ##### 2025-Apr-24
