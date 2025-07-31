@@ -6,7 +6,6 @@ sv:
     mapeadoresivides: Mapeadores IVIDES
     mappingbotswana: Kartlägg Botswana
     maptimebogota: MaptimeBogota
-    maptimehrva: MaptimeHRVA
     opensourcesanjose: Öppen källa San José
     openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap Aachen
@@ -36,7 +35,6 @@ sv:
     openstreetmapbrasilia: OpenStreetMap Brasília
     openstreetmapbremen: OpenStreetMap Bremen
     openstreetmapbulgaria: OpenStreetMap Bulgarien
-    openstreetmapburkinafaso: OpenStreetMap Burkina Faso
     openstreetmapburundi: OpenStreetMap Burundi
     openstreetmapbzh: OpenStreetMap BZH
     openstreetmapcambodia: OpenStreetMap Kambodja
@@ -170,7 +168,6 @@ sv:
     openstreetmapsaudiarabia: OpenStreetMap Saudiarabien
     openstreetmapsenegal: OpenStreetMap Senegal
     openstreetmapserbia: OpenStreetMap Serbien
-    openstreetmapseychelles: OpenStreetMap Seychellerna
     openstreetmapsierraleone: OpenStreetMap Sierra Leone
     openstreetmapsingapore: OpenStreetMap Singapore
     openstreetmapslovenia: OpenStreetMap Slovenien
@@ -181,7 +178,6 @@ sv:
     openstreetmapsudan: OpenStreetMap Sudan
     openstreetmapsweden: OpenStreetMap Sverige
     openstreetmapswitzerland: OpenStreetMap Schweiz
-    openstreetmapsyria: OpenStreetMap Syrien
     openstreetmaptaiwan: OpenStreetMap Taiwan
     openstreetmaptanzania: OpenStreetMap Tanzania
     openstreetmapthailand: OpenStreetMap Thailand
@@ -297,6 +293,8 @@ sv:
       description: Följ oss på TikTok
       url: https://tiktok.com/@{account}
     twitter:
+      name: '{community} på X'
+      description: Följ oss på X
       url: https://twitter.com/{account}
     url:
       name: '{community}'
@@ -304,6 +302,8 @@ sv:
       name: 'WikiProject för {community}'
       url: https://wiki.openstreetmap.org/wiki/{account}
     x:
+      name: '{community} på X'
+      description: Följ oss på X
       url: https://twitter.com/{account}
     xmpp:
       name: 'XMPP för {community'
@@ -342,8 +342,6 @@ sv:
     extendedDescription: 'Om du vill hjälpa till att förbättra och utöka kartläggningsgemenskapen i Belgien, genom att göra fler människor galna i kartläggning, är OpenStreatMap Belgien den rätta platsen för dig! '
   be-discourse:
     description: Ett forum för att diskutera OpenStreetMap i Belgien
-  be-irc:
-    extendedDescription: 'Anslut #{account} på irc.oftc.net (port 6667), den är bryggad med chatt-kanalen Matrix'
   be-matrix:
     description: Alla kartläggare är välkomna!
     extendedDescription: Primära chattrummet för den belgiska OSM-gemenskapen. Tveka inte att ställa nybörjarfrågor här!
@@ -1000,8 +998,6 @@ sv:
     extendedDescription: Kartlägger i Bolivia? Har du frågor, vill komma i kontakt med gemenskapen här? Gå med på {url}. Alla är välkomna!
   talk-mg:
     description: Plats för bidragsgivare till OpenStreetMap, sammanslutningar och användare i Madagaskar för att dela och diskutera.
-  talk-nz:
-    description: Femenskapsdiskussion för Nya Zeelands OSM
   talk-pacific:
     description: Den regionala OSM-epostlistan för och av folken i Moana/Oceanien/Stillahavsområdet
     extendedDescription: Vi vill att den här e-postlistan ska stödja allt folk i Stilla havet, i all vår mångfald och ambitioner, för att dela tankar, frågor, projekt och allt relaterat till OpenStreetMap i vårt hav av öar.
@@ -1041,8 +1037,6 @@ sv:
   uy-irc:
     description: 'Anslut #{account} på irc.freenode.org (port 6667)'
     extendedDescription: 'Anslut #{account} på irc.freenode.org'
-  vn-mailinglist:
-    description: E-postlista om OpenStreetMap i Vietnam eller på vietnamesiska
   vn-wiki:
     description: 'Wiki-sida för {community}'
   YerCizenler-TR:

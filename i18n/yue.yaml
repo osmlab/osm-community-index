@@ -6,7 +6,6 @@ yue:
     mapeadoresivides: Mapeadores IVIDES
     mappingbotswana: 博次彎拿國製圖組
     maptimebogota: 波哥大地图时间
-    maptimehrva: 維珍尼亞咸頓道製圖組
     opensourcesanjose: 开源圣何塞
     openstreetmap: 公家街圖
     openstreetmapaachen: 開放街圖亞琛
@@ -34,9 +33,9 @@ yue:
     openstreetmapbosniaandherzegovina: OpenStreetMap 波斯尼亞和黑塞哥維那
     openstreetmapbrasil: OpenStreetMap 巴西
     openstreetmapbrasilia: OpenStreetMap 巴西利亞
+    openstreetmapbrasilminasgerais: 開放街圖巴西米納斯吉拉斯州
     openstreetmapbremen: OpenStreetMap 不來梅
     openstreetmapbulgaria: OpenStreetMap 保加利亞
-    openstreetmapburkinafaso: OpenStreetMap 布基納法索
     openstreetmapburundi: OpenStreetMap 布隆迪
     openstreetmapbzh: OpenStreetMap 布列塔尼
     openstreetmapcambodia: OpenStreetMap 柬埔寨
@@ -124,7 +123,7 @@ yue:
     openstreetmaplombardia: OpenStreetMap 倫巴底
     openstreetmaplondon: OpenStreetMap 伦敦
     openstreetmapluneburg: OpenStreetMap 吕纳堡
-    openstreetmapluxembourg: OpenStreetMap 盧森堡
+    openstreetmapluxembourg: 公家街圖盧森堡
     openstreetmapmadagascar: OpenStreetMap 馬達加斯加
     openstreetmapmadrid: OpenStreetMap 马德里
     openstreetmapmalawi: OpenStreetMap 馬拉維
@@ -133,7 +132,7 @@ yue:
     openstreetmapmalta: OpenStreetMap 馬耳他
     openstreetmapmauritania: OpenStreetMap 毛里塔尼亞
     openstreetmapmecklenburgvorpommern: OpenStreetMap 梅克倫堡-西波美恩
-    openstreetmapmexico: OpenStreetMap 墨西哥
+    openstreetmapmexico: 公家街圖墨西哥
     openstreetmapmichigan: OpenStreetMap 密芝根州
     openstreetmapmoldova: OpenStreetMap 摩爾多瓦
     openstreetmapmongolia: 蒙古公家街圖組
@@ -171,7 +170,6 @@ yue:
     openstreetmapsaudiarabia: OpenStreetMap 沙地阿拉伯
     openstreetmapsenegal: OpenStreetMap 塞內加爾
     openstreetmapserbia: OpenStreetMap 塞爾維亞
-    openstreetmapseychelles: OpenStreetMap 塞舌爾
     openstreetmapsierraleone: OpenStreetMap 塞拉利昂
     openstreetmapsingapore: OpenStreetMap 新加坡
     openstreetmapslovenia: OpenStreetMap 斯洛文尼亞
@@ -182,7 +180,6 @@ yue:
     openstreetmapsudan: OpenStreetMap 蘇丹
     openstreetmapsweden: OpenStreetMap 瑞典
     openstreetmapswitzerland: OpenStreetMap 瑞士
-    openstreetmapsyria: OpenStreetMap 敘利亞
     openstreetmaptaiwan: 臺灣公家街圖組
     openstreetmaptanzania: OpenStreetMap 坦桑尼亞
     openstreetmapthailand: 泰國公家街圖組
@@ -213,11 +210,11 @@ yue:
     youthmappersufrj: 年輕圖客 UFRJ
   _defaults:
     aparat:
-      name: 'Aparat 上的 {community}'
+      name: 'Aparat 上 {community}'
       description: 訂閱我們的 Aparat 頻道
       url: https://aparat.com/{account}
     bluesky:
-      name: 'Bluesky 上的 {community}'
+      name: 'Bluesky 上 {community}'
       description: 在 Bluesky 追蹤我們
       url: https://bsky.app/profile/{account}
     discord:
@@ -229,7 +226,7 @@ yue:
       description: '{community} 官方論壇'
       url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
-      name: '面簿上 {community}'
+      name: '面簿 {community}'
       description: 面簿上加入我哋
       url: https://www.facebook.com/{account}
     fediverse:
@@ -241,12 +238,12 @@ yue:
       name: '{community} GitHub'
       url: https://github.com/{account}
     gitlab:
-      name: '{community} 的 GitLab'
+      name: '{community}  GitLab'
       url: https://gitlab.com/{account}
     group:
       name: '{community}'
     instagram:
-      name: 'Instagram 上的 {community}'
+      name: 'Instagram 上 {community}'
       description: 在 Instagram 追蹤我們
       url: https://instagram.com/{account}
     irc:
@@ -254,7 +251,7 @@ yue:
       description: '在 irc.oftc.net 上加入 #{account}（連接埠 6667，安全連線是 6697）'
       url: https://webchat.oftc.net/?channels={account}
     linkedin:
-      name: 'LinkedIn 上的 {community}'
+      name: 'LinkedIn 上 {community}'
       description: 在LinkedIn上加入我们的社区
       url: https://www.linkedin.com/company/{account}
     mailinglist:
@@ -266,40 +263,40 @@ yue:
       description: '{community}   乳齒象官方帳號'
     matrix:
       name: '{community} Matrix 聊天室'
-      description: 加入我們的 Matrix 聊天室
+      description: 加入我哋 Matrix 聊天室
       url: https://matrix.to/#/{account}:matrix.org
     meetup:
       name: '{community} Meetup'
       url: https://www.meetup.com/{account}
     newsletter:
-      name: '{community} 电子报'
+      name: '{community} 電子報'
     osm:
       name: '{community}'
     osm-lc:
       name: '{community}'
     reddit:
-      name: 'Reddit 上的 {community}'
+      name: 'Reddit 上 {community}'
       url: https://www.reddit.com/r/{account}
     signal:
-      name: '{community} 的 Signal'
-      description: 加入我們的 Signal 聊天室
+      name: '{community}  Signal'
+      description: 加入我哋 Signal 聊天室
     slack:
-      name: '{community} 的 Slack'
+      name: '{community}  Slack'
     telegram:
       name: '{community}電報'
       description: 加入我哋電報聊天室
       url: https://t.me/{account}
     threads:
-      name: 'Threads 上的 {community}'
+      name: 'Threads 上 {community}'
       description: 在 Threads 追蹤我們
       url: https://threads.net/@{account}
     tiktok:
-      name: 'TikTok 上的 {community}'
+      name: 'TikTok 上 {community}'
       description: 在 TikTok 追蹤我們
       url: https://tiktok.com/@{account}
     twitter:
-      name: 'X 上的 {community}'
-      description: 在 X 上追蹤我們
+      name: 'X 上 {community}'
+      description: 喺𝕏跟我哋
       url: https://twitter.com/{account}
     url:
       name: '{community}'
@@ -307,12 +304,12 @@ yue:
       name: '{community} 的維基專題'
       url: https://wiki.openstreetmap.org/wiki/{account}
     x:
-      name: 'X 上的 {community}'
-      description: 在 X 上追蹤我們
+      name: '𝕏 上 {community}'
+      description: 喺𝕏跟我哋
       url: https://twitter.com/{account}
     xmpp:
-      name: '{community} 的 XMPP'
-      description: '加入我們的 XMPP 社群聊天：{url}'
+      name: '{community}  XMPP'
+      description: '加入我哋 XMPP 社群聊天：{url}'
     youtube:
       name: 'YouTube 上的 {community}'
       description: 訂閱我們的 YouTube 頻道
@@ -347,8 +344,6 @@ yue:
     extendedDescription: 如果你想帮助改善和发展比利时的制图社区，让更多的人痴狂于绘制地图，比利时OpenStreetMap就是你的理想选择！
   be-discourse:
     description: 個論壇討論比利時公家街圖
-  be-irc:
-    extendedDescription: '在 irc.oftc.net (端口 6667)上加入 #{account} ，它已与 Matrix聊天室 频道互通'
   be-matrix:
     description: 凡製圖者皆觀迎！
     extendedDescription: 比利时 OSM 社区的主要聊天室。如果您是新手，请不要犹豫害羞，随意提问！
@@ -579,8 +574,12 @@ yue:
   hu-tm:
     name: '{community} 任務分配管理器'
     description: 探索匈牙利的啟動畫地圖任務
+  hu-website:
+    description: 匈牙利開放街圖社群的網站
   hu-wiki:
     description: '{community} Wiki 頁面'
+  hu-youtube:
+    description: 開放街圖匈牙利聚會直播串流與錄影
   humanitarian-osm-tr-slack:
     name: 人道救援開放街圖土耳其 Slack
     description: 加入人道救援開放街圖土耳其的 Slack 頻道 {url}
@@ -719,6 +718,8 @@ yue:
     description: 加入 {community} Google 羣組
   me-telegram:
     description: 歡迎所有人加入！在 {signupUrl} 註冊
+  minas_gerais-discord:
+    extendedDescription: 歡迎加入開放街圖巴西米納斯吉拉斯州的 Discord！我們是一個由熱衷於為巴西米納斯吉拉斯州建立詳細、開放原始碼地圖的圖客所組成的社群。加入我們來協作、分享技巧，並幫助 MG 的地圖成為開放街圖上最好的地圖。無論您是新手或專家，讓我們一起製圖！
   mm-facebook:
     extendedDescription: 畫緬圖嗎？有問題，想要與社群互動？來  {url} 加入我們，歡迎所有人。
   mn-facebook:
@@ -913,7 +914,7 @@ yue:
     extendedDescription: FSHM 會組織關於自由軟體／硬體、科技、行動與開放街圖的活動。
   osm-punjab-matrix:
     description: 我們一起繪製旁遮普。加入我們的 Matrix 群組
-    extendedDescription: OSM 旁遮普非官方的聊天室，也與 OSMPunjab Telegram 群組同步
+    extendedDescription: 公家街圖旁遮普非官方聊天室，同公家街圖旁遮普電報羣組同步
   osm-punjab-telegram:
     description: 我們一起繪製旁遮普。加入我們的 Telegram 群組。{url}
   OSM-Rome-meetup:
@@ -934,7 +935,7 @@ yue:
   osm-td-facebook:
     description: 改善查德的開放街圖
   OSM-Telegram:
-    description: 加入開放街圖 Telegram 超級聊天室 {url}
+    description: 加入公家街圖電報超級羣組 {url}
   OSM-TH-CNX-meetup:
     name: OpenStreetMap 清邁聚會
     description: 清迈OpenStreetMap社区的不定期会议
@@ -965,7 +966,7 @@ yue:
     description: 追蹤捷克開放街圖 Twitter -  包括翻譯 WeeklyOSM！
   OSMF:
     name: 公家街圖基金會
-    description: OSMF 是总部位于英国的非营利组织，用于支持 OpenStreetMap 项目。
+    description: 公家街圖基金會設喺英國非營利組織，支持公家街圖項目
     extendedDescription: '開放街圖基金會藉由募款，維持開放街圖背後的伺服器，舉行年度 State of the Map 大會，以及協調志工維持開放街圖運作，支援開放街圖計畫。你可以在這裡藉由加入開放街圖基金會成為會員：{signupUrl}'
   ph-facebook-group:
     name: '{community} 面簿社團'
@@ -1009,8 +1010,6 @@ yue:
     extendedDescription: 在玻利維亞畫地圖嗎？想要問問題，想要與社群連結？請加入 {url}，所有人都歡迎噢！
   talk-mg:
     description: 位于马达加斯加的 OpenStreetMap 贡献者、社区和用户分享和讨论的地方。
-  talk-nz:
-    description: 紐西蘭 OSM 社群聊天群
   talk-pacific:
     description: 莫亞納／大洋洲／太平洋一帶啲人公家街圖地區信件單論壇
     extendedDescription: 我們這個郵件論壇能夠支援所有太平洋的子民，不論他們的多元背景與動機，能夠分享想法、問題、專案與其他這片海域有關的開放街圖事務。
@@ -1050,8 +1049,6 @@ yue:
   uy-irc:
     description: '在 irc.freenode.org (端口 6667)上加入 #{account} '
     extendedDescription: '在 irc.freenode.org 上加入 #{account} '
-  vn-mailinglist:
-    description: 開放街圖越南或越南語的郵件論壇
   vn-wiki:
     description: '{community} Wiki 頁面'
   YerCizenler-TR:

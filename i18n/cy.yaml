@@ -6,7 +6,6 @@ cy:
     mapeadoresivides: Mapeadores IVIDES
     mappingbotswana: Mapping Botswana
     maptimebogota: MaptimeBogota
-    maptimehrva: MaptimeHRVA
     opensourcesanjose: Open Source San José
     openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap Aachen
@@ -34,9 +33,9 @@ cy:
     openstreetmapbosniaandherzegovina: OpenStreetMap Bosnia a Herzegovina
     openstreetmapbrasil: OpenStreetMap Brasil
     openstreetmapbrasilia: OpenStreetMap Brasília
+    openstreetmapbrasilminasgerais: OpenStreetMap Brasil Minas Gerais
     openstreetmapbremen: OpenStreetMap Bremen
     openstreetmapbulgaria: OpenStreetMap Bwlgaria
-    openstreetmapburkinafaso: OpenStreetMap Burkina Faso
     openstreetmapburundi: OpenStreetMap Burundi
     openstreetmapbzh: OpenStreetMap Llydaw
     openstreetmapcambodia: OpenStreetMap Cambodia
@@ -160,6 +159,7 @@ cy:
     openstreetmappiemonte: OpenStreetMap Piemonte
     openstreetmappoland: OpenStreetMap Gwlad Pwyl
     openstreetmapportugal: OpenStreetMap Portiwgal
+    openstreetmappunjab: OpenStreetMap Punjab
     openstreetmaprdc: OpenStreetMap RDC
     openstreetmaprennes: OpenStreetMap Rennes
     openstreetmapreunion: OpenStreetMap Réunion
@@ -170,7 +170,6 @@ cy:
     openstreetmapsaudiarabia: OpenStreetMap Saudi Arabia
     openstreetmapsenegal: OpenStreetMap Senegal
     openstreetmapserbia: OpenStreetMap Serbia
-    openstreetmapseychelles: OpenStreetMap Seychelles
     openstreetmapsierraleone: OpenStreetMap Sierra Leone
     openstreetmapsingapore: OpenStreetMap Singapore
     openstreetmapslovenia: OpenStreetMap Slofenia
@@ -181,7 +180,6 @@ cy:
     openstreetmapsudan: OpenStreetMap Sudan
     openstreetmapsweden: OpenStreetMap Sweden
     openstreetmapswitzerland: OpenStreetMap Swistir
-    openstreetmapsyria: OpenStreetMap Syria
     openstreetmaptaiwan: OpenStreetMap Taiwan
     openstreetmaptanzania: OpenStreetMap Tanzania
     openstreetmapthailand: OpenStreetMap Thailand
@@ -265,7 +263,7 @@ cy:
       description: Y cyfrif Mastodon swyddogol ar gyfer {community}
     matrix:
       name: 'Sgwrs Matrix {community}'
-      description: Ymunwch â'n cymuned ar Matrix
+      description: Ymunwch â'n sgwrs gymunedol ar Matrix
       url: https://matrix.to/#/{account}:matrix.org
     meetup:
       name: 'Meetup {community}'
@@ -281,12 +279,12 @@ cy:
       url: https://www.reddit.com/r/{account}
     signal:
       name: 'Signal {community}'
-      description: Ymunwch â'n cymuned ar Signal
+      description: Ymunwch â'n sgwrs gymunedol ar Signal
     slack:
       name: 'Slack {community}'
     telegram:
       name: 'Telegram {community}'
-      description: Ymunwch â'n cymuned ar Telegram
+      description: Ymunwch â'n sgwrs gymunedol ar Telegram
       url: https://t.me/{account}
     threads:
       name: '{community} ar Threads'
@@ -297,6 +295,8 @@ cy:
       description: Dilynwch ni ar TikTok
       url: https://tiktok.com/@{account}
     twitter:
+      name: '{community} ar X'
+      description: Dilynwch ni ar X
       url: https://twitter.com/{account}
     url:
       name: '{community}'
@@ -304,17 +304,19 @@ cy:
       name: 'WiciBrosiect {community}'
       url: https://wiki.openstreetmap.org/wiki/{account}
     x:
+      name: '{community} ar X'
+      description: Dilynwch ni ar X
       url: https://twitter.com/{account}
     xmpp:
       name: 'XMPP {community}'
-      description: 'Ymunwch â''n sgwrs cymuned XMPP: {url}'
+      description: 'Ymunwch â''n sgwrs gymunedol ar XMPP: {url}'
     youtube:
       name: '{community} ar YouTube'
       description: Tanysgrifiwch i'n sianel YouTube
       url: https://www.youtube.com/channel/{account}
     zulip:
       name: 'Zulip {community}'
-      description: Ymunwch â'n gymuned ar Zulip
+      description: Ymunwch â'n sgwrs gymunedol ar Zulip
   aberdeen-discord:
     name: Discord OSM ABZ
   af-matrix:
@@ -353,7 +355,7 @@ cy:
   br-telegram:
     extendedDescription: Ymunwch â'r gymuned i ddysgu mwy am OpenStreetMap, gofyn cwestiynau neu gymryd rhan yn ein cyfarfodydd. Croeso i bawb ymuno!
   cape-coast-youthmappers:
-    name: University of Cape Coast YouthMappers
+    name: YouthMappers University of Cape Coast
     description: 'Dilynwch ni ar Twitter: {url}'
   cat-twitch:
     name: Sianel Twitch {community}
@@ -491,6 +493,8 @@ cy:
     name: '{community} ar Mobilizon'
   hu-tm:
     name: 'Rheolwr Tasgau {community}'
+  hu-website:
+    description: Gwefan y gymuned OpenStreetMap Hwngari
   hu-wiki:
     description: 'Tudalen Wici {community}'
   id-facebook-group:
@@ -508,7 +512,7 @@ cy:
   ko-github:
     description: 'GitHub {community}'
   ko-osm:
-    description: Rydym yn tyfu a gwella OpenStreetMap yng Nghorea.
+    description: Rydym yn tyfu ac yn gwella OpenStreetMap yng Nghorea.
   kosovo-flossk:
     name: Free Libre Open Source Software Kosova (FLOSSK)
     description: Yn hyrwyddo FLOSS ers 2009
@@ -517,9 +521,11 @@ cy:
   lv-wiki:
     description: WiciBrosiect Latfia
   madrid-uam-ym:
-    name: YouthMappers at UAM
+    name: YouthMappers yn UAM
+    description: Siapter YouthMappers yn Universidad Autonoma de Madrid
   madrid-upm-ym:
     name: Mapeo Humanitario
+    description: Siapter YouthMappers yn Universidad Politécnica de Madrid
   mailinglist-sk-googlegroups:
     name: Rhestr Bost Slofacia ar Google Groups
     description: Y restr bost swyddogol ar gyfer y gymuned yn Slofacia
@@ -733,8 +739,6 @@ cy:
     description: 'Tudalen Wici {community}'
   talk-au:
     description: Lle i fapwyr o Awstralia sgwrsio
-  talk-nz:
-    description: Sgwrs y gymuned OSM Seland Newydd
   tn-facebook-group:
     name: 'Grŵp Facebook {community}'
   tw-slack:
@@ -754,6 +758,8 @@ cy:
     description: 'OpenStreetMap Llundain ar Twitter: {url}'
   uk-london-wiki:
     description: 'Tudalen Wici {community}'
+  us-discourse:
+    description: Fforwm trafodaeth am OpenStreetMap yn Unol Daleithiau America
   us-massachusetts-mailinglist:
     name: Rhestr Bost Talk-us-massachusetts
     description: Dyma rhestr bost ar gyfer y gymuned OSM yn Massachusetts
@@ -770,59 +776,102 @@ cy:
     description: Yer Çizenler Mapping for Everyone Association
   ym-AASTU:
     name: AASTU Youth Mappers
+    description: Siapter YouthMappers yn Addis Ababa Science and Technology University
   ym-Abia-State-University:
     name: AbsuMappersTeam
+    description: Siapter YouthMappers yn Abia State University
   ym-African-Methodist-Episcopal-University:
     name: YouthMappers-AMEU
+    description: Siapter YouthMappers yn African Methodist Episcopal University
   ym-Ahmadu-Bello-University:
     name: ABU Geomappers
+    description: Siapter YouthMappers yn Ahmadu Bello University
   ym-Ardhi-University:
     name: ARU Mapper
+    description: Siapter YouthMappers yn Ardhi University
+  ym-Arizona-State-University-facebook:
+    description: Siapter YouthMappers yn Arizona State University
+  ym-Arizona-State-University-twitter:
+    description: Siapter YouthMappers yn Arizona State University
   ym-Asian-University-for-Women:
-    name: YouthMappers at AUW
+    name: YouthMappers yn AUW
+    description: Siapter YouthMappers yn Asian University for Women
   ym-Ball-State-University:
     name: Gamma Theta Upsilon - Iota Omega Chapter
+    description: Siapter YouthMappers yn Ball State University
   ym-Busitema-University:
     name: Good Mappers
+    description: Siapter YouthMappers yn Busitema University
   ym-California-University-of-Pennsylvania:
     name: CalU PA GIS Club
+    description: Siapter YouthMappers yn California University of Pennsylvania
   ym-Central-Washington-University:
     name: Geography Club
+    description: Siapter YouthMappers yn Central Washington University
   ym-Clemson-University:
     name: Clemson Mappers
+    description: Siapter YouthMappers yn Clemson University
   ym-College-of-William-and-Mary:
     name: Ledled y map!
+    description: Siapter YouthMappers yn College of William and Mary
   ym-Cornell-University:
     name: Mapping Society
-    description: Siapter YouthMappers ym Mhrifysgol Cornell
+    description: Siapter YouthMappers yn Cornell University
   ym-CURAT:
-    name: YouthMappers CURAT
+    name: CURAT YouthMappers
+    description: Siapter YouthMappers yn Centre Universitaire de Recherche et d'Application en Télédétection (CURAT) de l'Université Felix Houphouet Boigny
   ym-Cuttington-University:
-    name: Cuttington University YouthMappers
+    name: YouthMappers Cuttington University
+    description: Siapter YouthMappers yn Cuttington University
   ym-Dedan-Kimathi-University-of-Technology:
     name: GDEV
+    description: Siapter YouthMappers yn Dedan Kimathi University of Technology
   ym-Dhaka-College:
     name: YouthMappers Daka College
+    description: Siapter YouthMappers yn Dhaka College
   ym-Dhaka-University:
     name: Openstreetmap YouthMappers
+    description: Siapter YouthMappers yn Dhaka University
+  ym-Eastern-University:
+    name: YouthMappers yn Eastern University
+    description: Siapter YouthMappers yn Eastern University
+  ym-Far-Eastern-University-Institute-of-Technology:
+    description: Siapter YouthMappers yn Far Eastern University -Institute of Technology
   ym-Federal-School-of-Surveys:
     name: OyoMappersTeam (OMT) Oyo
+    description: Siapter YouthMappers yn Federal School of Surveys
   ym-Fourah-Bay-College:
     name: Student's Geographical Association
+    description: Siapter YouthMappers yn Fourah Bay College
   ym-George-Mason-University:
     name: Mason Mappers
+    description: Siapter YouthMappers yn George Mason University
+  ym-Grand-Gedeh-County-Community-College:
+    name: YouthMappers yn Grand Gedeh County Community College
+    description: Siapter YouthMappers yn Grand Gedeh County Community College
   ym-Gujarat-University:
     name: CCIM at Ahmedabad
+    description: Siapter YouthMappers yn Gujarat University
   ym-Gulu-University:
     name: CSGU Mappers
+    description: Siapter YouthMappers yn Gulu University
   ym-Heidelberg-University:
     name: disastermappers heidelberg
+    description: Siapter YouthMappers yn Heidelberg University
   ym-Ignatius-Ajuru-University-of-Education:
     name: IgnatiusMappersTeam (IMT)
+    description: Siapter YouthMappers yn Ignatius Ajuru University of Education
   ym-Indiana-University-of-Pennsylvania:
     name: Geospatial Science Club
+    description: Siapter YouthMappers yn Indiana University of Pennsylvania
+  ym-Insititue-d-Enseignement-Superieur-de-Ruhengeri:
+    name: YouthMappers yn Indiana INES Ruhengeri
+    description: Siapter YouthMappers yn Insititue d' Enseignement Superieur de Ruhengeri
   ym-Institut-Suprieur-de-Management-Kolda:
     name: Les Femmes Leaders de ISM/Kolda
+    description: Siapter YouthMappers yn Institut Supérieur de Management Kolda
+  ym-Institute-of-Crisis-Management-Studies:
+    name: YouthMappers Institute of Crisis Management Studies
   ym-Institute-of-Science-and-Veterinary-Medicine:
     name: YouthMappers ISSMV Dalaba
   ym-Istanbul-Technical-University:

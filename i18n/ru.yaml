@@ -30,7 +30,6 @@ ru:
     openstreetmapbrasilia: OpenStreetMap Бразилиа
     openstreetmapbremen: OpenStreetMap Бремен
     openstreetmapbulgaria: OpenStreetMap Болгария
-    openstreetmapburkinafaso: OpenStreetMap Буркина-Фасо
     openstreetmapburundi: OpenStreetMap Бурунди
     openstreetmapbzh: OpenStreetMap БЖ
     openstreetmapcambodia: OpenStreetMap Камбоджа
@@ -160,7 +159,6 @@ ru:
     openstreetmapsaudiarabia: OpenStreetMap Саудовская Аравия
     openstreetmapsenegal: OpenStreetMap Сенегал
     openstreetmapserbia: OpenStreetMap Сербия
-    openstreetmapseychelles: OpenStreetMap Сейшелы
     openstreetmapsierraleone: OpenStreetMap Сьерра-Леоне
     openstreetmapsingapore: OpenStreetMap Сингапур
     openstreetmapslovenia: OpenStreetMap Словения
@@ -171,7 +169,6 @@ ru:
     openstreetmapsudan: OpenStreetMap Судан
     openstreetmapsweden: 'OpenStreetMap Швеция '
     openstreetmapswitzerland: OpenStreetMap Швейцария
-    openstreetmapsyria: OpenStreetMap Сирия
     openstreetmaptaiwan: OpenStreetMap Тайвань
     openstreetmaptanzania: OpenStreetMap Танзания
     openstreetmapthailand: OpenStreetMap Тайланд
@@ -281,8 +278,12 @@ ru:
     extendedDescription: Картографируете в Бангладеше? Есть вопросы, хотите пообщаться с сообществом? Присоединяйтесь к нам по ссылке {Url}. Рады всем!
   be-chapter:
     description: Мы помогаем OpenStreetMap расти и развиваться в Бельгии
+  be-matrix:
+    description: Все картографы приветствуются!
   bo-facebook-group:
     name: 'Группа {community} в Facebook'
+  bo-matrix:
+    description: Все картографы приветствуются!
   br-telegram:
     extendedDescription: Присоединиться к сообществу, чтобы узнать больше об OpenStreetMap, задавать вопросы или участвовать в наших встречах. Всем добро пожаловать!
   cape-coast-youthmappers:
@@ -356,12 +357,17 @@ ru:
     description: Приглашаются все! Регистрация на {signupUrl}
   mt-irc:
     extendedDescription: 'Подключайтесь к #{account} на irc.oftc.net (порт 6667), будьте терпеливы, ответов на вопрос обычно нужно ждать'
+  nl-matrix:
+    description: Все картографы приветствуются!
   Nottingham-OSM-pub-meetup:
     extendedDescription: Группа встречалась с марта 2011 года, сначала в Ноттингеме, а в последнее время в Дерби и время от времени в других местах Ист-Мидлендс. Это общественные мероприятия, но они являются отличным местом для того, чтобы прийти и задать конкретные вопросы об OSM как в данном районе, так и в целом. В летние месяцы мы обычно в течение часа проводим световое картографирование поблизости от места нашей встречи. Группа в целом проявляет особый интерес к картографированию общественных полос движения и время от времени проводит картографические встречи с этой целью.
   OpenCleveland-meetup:
+    description: Картографы и пользователи OpenStreetMap в районе Кливлэнда
     extendedDescription: ' Open Geo Cleveland стремится стать ресурсом для обсуждения и обмена знаниями об использовании бесплатных наборов географических данных, особенно OpenStreetMap, и открытого геопространственного программного обеспечения, которое управляет, редактирует и отображает географические данные и выступает за их использование в Северо-Восточном Огайо. Мы также являемся подразделением maptime =)'
   osm-africa-facebook-group:
     name: 'Группа {community} в Facebook'
+  osm-africa-matrix:
+    description: Все картографы приветствуются!
   osm-africa-slack:
     description: Приглашаются все! Регистрация на {signupUrl}
   OSM-Central-Salish-Sea:
@@ -383,8 +389,14 @@ ru:
     description: Место, где любой может обсудить OpenStreetMap с другими участниками
   OSM-Facebook:
     description: Нажмите Like на нашей странице в Facebook, чтобы подписаться на новости и обновления в OpenStreetMap.
+  OSM-India-facebook:
+    description: Улучшить OpenStreetMap в Индии
   osm-india-github:
     description: 'Кодируй вместе с нами: {url}'
+  OSM-japan-facebook:
+    description: Картографы и пользователи OpenStreetMap в Японии
+  OSM-japan-website:
+    description: Картографы и пользователи OpenStreetMap в Японии
   osm-kerala-github:
     description: 'Кодируй вместе с нами: {url}'
   osm-michigan-wiki:
@@ -395,13 +407,16 @@ ru:
     extendedDescription: Мы стремимся стать ресурсом для обсуждения и обмена знаниями об использовании бесплатных наборов географических данных, особенно OpenStreetMap, и открытого геопространственного программного обеспечения, которое управляет, редактирует и отображает географические данные, и выступает за их использование в Лацио.
   OSM-Seattle:
     name: OpenStreetMap Сиэтл
+    description: Картографы и пользователи OpenStreetMap в районе Сиэтла
   OSM-SoCal:
     extendedDescription: ' OpenStreetMap (OSM) Южная Калифорния предназначена для всех, кто интересуется картографией, чтобы собраться вместе и поработать с OpenStreetMap. OpenStreetMap, раздел карт в Википедии, представляет собой бесплатную карту мира с открытым исходным кодом, созданную более чем 1 000 000 волонтеров по всему миру. Приглашаются все желающие. Если вы не знаете OpenStreetMap, мы научим вас. Если у вас есть идея для картографического проекта или даже экскурсии, которую может провести группа, отлично!'
   OSM-Tampa-Bay:
+    description: Картографы и пользователи OpenStreetMap в районе залива Тампа
     extendedDescription: OSM Tampa Bay group приглашает местных жителей собраться вместе и составить полную карту Тампа-Бэй с помощью OpenStreetMap, бесплатной и редактируемой карты мира. Если вы интересуетесь картами, данными, открытым исходным кодом, GPS, пешими прогулками, велоспортом и так далее, вам понравится работать с OpenStreetMap - так что присоединяйтесь! Мы будем собираться вместе, составлять карту и обсуждать новые темы примерно раз в месяц.
   OSM-Telegram:
     description: Присоединяйтесь к глобальной супергруппе OpenStreetMap в Telegram по адресу {url}
   OSM-US:
+    description: Мы помогаем OpenStreetMap в США расти и развиваться
     events:
       mappingusa2022:
         description: Присоединяйтесь к нам на бесплатной виртуальной конференции в честь сообществ Wiki и OpenStreetMap по всей Северной Америке!
@@ -432,6 +447,8 @@ ru:
     description: 'Вики-страница'
   si-wiki:
     description: 'Вики-страница'
+  talk-au:
+    description: Место для общения австралийских картографов
   tn-facebook-group:
     name: 'Группа {community} в Facebook'
   tw-slack:
