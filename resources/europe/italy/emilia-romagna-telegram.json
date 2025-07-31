@@ -1,0 +1,17 @@
+{
+  "id": "it-emilia-romagna-telegram",
+  "type": "telegram",
+  "account": "OSM e Wiki Emilia-Romagna",
+  "locationSet": {"include": ["emilia-romagna.geojson"]},
+  "languageCodes": ["it"],
+  "order": 3,
+  "strings": {
+    "community": "OSM e Wiki Emilia-Romagna",
+    "communityID": "osmewikiemiliaromagna",
+    "description": "Tutti sono benvenuti! Puoi entrare con questo link: {signupUrl}",
+    "signupUrl": "https://t.me/+QHfVINrUPN44YjFk"
+  },
+  "contacts": [
+    {"name": "Daniele Santini", "email": "danysan95@gmail.com"}
+  ]
+}
