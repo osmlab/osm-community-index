@@ -6,7 +6,6 @@ cs:
     mapeadoresivides: Mapovači IVIDES
     mappingbotswana: Mapování Botswany
     maptimebogota: MaptimeBogota
-    maptimehrva: MaptimeHRVA
     opensourcesanjose: Open Source San José
     openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap Cáchy
@@ -34,9 +33,9 @@ cs:
     openstreetmapbosniaandherzegovina: OpenStreetMap Bosna a Hercegovina
     openstreetmapbrasil: OpenStreetMap Brazílie
     openstreetmapbrasilia: OpenStreetMap Brasília
+    openstreetmapbrasilminasgerais: OpenStreetMap Minas Gerais v Brazílii
     openstreetmapbremen: OpenStreetMap Brémy
     openstreetmapbulgaria: OpenStreetMap Bulharsko
-    openstreetmapburkinafaso: OpenStreetMap Burkina Faso
     openstreetmapburundi: OpenStreetMap Burundi
     openstreetmapbzh: OpenStreetMap BZH
     openstreetmapcambodia: OpenStreetMap Kambodža
@@ -171,7 +170,6 @@ cs:
     openstreetmapsaudiarabia: OpenStreetMap Saúdská Arábie
     openstreetmapsenegal: OpenStreetMap Senegal
     openstreetmapserbia: OpenStreetMap Srbsko
-    openstreetmapseychelles: OpenStreetMap Seychely
     openstreetmapsierraleone: OpenStreetMap Sierra Leone
     openstreetmapsingapore: OpenStreetMap Singapur
     openstreetmapslovenia: OpenStreetMap Slovinsko
@@ -182,7 +180,6 @@ cs:
     openstreetmapsudan: OpenStreetMap Súdán
     openstreetmapsweden: OpenStreetMap Švédsko
     openstreetmapswitzerland: OpenStreetMap Švýcarsko
-    openstreetmapsyria: OpenStreetMap Sýrie
     openstreetmaptaiwan: OpenStreetMap Tchaj-wan
     openstreetmaptanzania: OpenStreetMap Tanzanie
     openstreetmapthailand: OpenStreetMap Thajsko
@@ -298,6 +295,8 @@ cs:
       description: Sledujte nás na TikToku
       url: https://tiktok.com/@{account}
     twitter:
+      name: '{community} na X'
+      description: Sledujte nás na X
       url: https://twitter.com/{account}
     url:
       name: '{community}'
@@ -305,6 +304,8 @@ cs:
       name: '{community} wikiprojekt'
       url: https://wiki.openstreetmap.org/wiki/{account}
     x:
+      name: '{community} na X'
+      description: Sledujte nás na X
       url: https://twitter.com/{account}
     xmpp:
       name: '{community} XMPP'
@@ -343,8 +344,6 @@ cs:
     extendedDescription: Pokud chcete pomoci zlepšovat a rozšířit mapovací komunitu v Belgii aby se ještě více lidí zbláznilo do mapování, OpenStreetMap Belgie je to správné místo pro vás!
   be-discourse:
     description: Fórum k diskusi ohledně OpenStreetMap v Belgii
-  be-irc:
-    extendedDescription: 'Připojte se k #{account} na irc.oftc.net (port 6667), který je přemostěn s chatovacím kanálem na Matrixu'
   be-matrix:
     description: Všichni mapovači jsou vítáni!
     extendedDescription: Hlavní chatovací místnost belgické komunity OSM. Neváhejte se zde zeptat na vývojářské otázky!
@@ -511,7 +510,7 @@ cs:
     description: Mapovači a uživatelé OpenStreetMap na území Ulmer Alb
   de-viersen-meetup:
     name: OpenStreetMap Viersen Meetup
-    description: Komunita OSM a uživatelé setkání Kreis Virsen a Mönchengladbachu
+    description: Komunita OSM a uživatelé setkání Kreis Viersen a Mönchengladbachu
   de-xmpp:
     name: OpenStreetMap DE XMPP
   DF-telegram:
@@ -575,8 +574,12 @@ cs:
   hu-tm:
     name: '{community} Správce úloh'
     description: Prozkoumejte aktivní mapovací úlohy v Maďarsku
+  hu-website:
+    description: Webové stránky Maďarské komunity OpenStreetMap
   hu-wiki:
     description: '{community} Wiki stránka'
+  hu-youtube:
+    description: Živé přenosy a záznamy ze setkání OpenStreetMap Maďarsko
   humanitarian-osm-tr-slack:
     name: Humanitární OpenStreetMap Turecko Slack
     description: Připojte se k Humanitárnímu tureckému kanálu OpenStreetMap na HOTOSM Slack serveru na {url}
@@ -715,6 +718,8 @@ cs:
     description: Připojte se k {community} ve Skupinách Google
   me-telegram:
     description: Všichni jsou vítáni! Zaregistrujte se na {signupUrl}
+  minas_gerais-discord:
+    extendedDescription: Vítejte na Discordu OSM Minas Gerais! Jsme komunita mapovačů nadšených do budování datailních open-source map pro stát Minas Gerais v Brazílii. Připojte se k nám, spolupracujte, sdílejte tipy a pomáhejte vytvářet nejlepší mapy Minas Gerais (MG) na OpenStreetMap. Ať už jsi nováček, nebo profesionál, pojďme mapovat společně!
   mm-facebook:
     extendedDescription: Mapujete v Myanmaru? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {url}. Všichni jsou vítáni!
   mn-facebook:
@@ -1005,8 +1010,6 @@ cs:
     extendedDescription: Mapujete v Bolívii? Máte dotazy, chcete se zde spojit s komunitou? Připojte se k nám na {url}. Všichni jsou vítáni!
   talk-mg:
     description: Místo pro přispěvatele OpenStreetMap, komunity a uživatele na Madagaskaru, kde mohou sdílet a diskutovat.
-  talk-nz:
-    description: Diskuse komunity OSM na Novém Zélandu
   talk-pacific:
     description: Regionální mailová konference OSM pro národy Moany/Oceánie/Pacifiku
     extendedDescription: Rádi bychom, aby tato mailová konference podporovala všechny národy Pacifiku, ve vší naší rozmanitosti a aspiracích, aby sdílely myšlenky, otázky, projekty a vše, co souvisí s OpenStreetMap v našem moři ostrovů.
@@ -1046,8 +1049,6 @@ cs:
   uy-irc:
     description: 'Připojte se k #{account} na irc.freenode.org (port 6667)'
     extendedDescription: 'Připojte se k #{account} na irc.freenode.org'
-  vn-mailinglist:
-    description: Mailová konference OpenStreetMap ve Vietnamu nebo ve vietnamštině
   vn-wiki:
     description: '{community} Wiki page'
   YerCizenler-TR:

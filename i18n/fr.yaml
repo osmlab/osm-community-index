@@ -6,7 +6,6 @@ fr:
     mapeadoresivides: Mapeadores IVIDES
     mappingbotswana: Cartographier le Botswana
     maptimebogota: MaptimeBogota
-    maptimehrva: MaptimeCroatie
     opensourcesanjose: Open Source San José
     openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap Aix-la-Chapelle
@@ -36,7 +35,6 @@ fr:
     openstreetmapbrasilia: OpenStreetMap Brasilia
     openstreetmapbremen: OpenStreetMap Brême
     openstreetmapbulgaria: OpenStreetMap Bulgarie
-    openstreetmapburkinafaso: OpenStreetMap Burkina Faso
     openstreetmapburundi: OpenStreetMap Burundi
     openstreetmapbzh: OpenStreetMap Bretagne
     openstreetmapcambodia: OpenStreetMap Cambodge
@@ -160,6 +158,7 @@ fr:
     openstreetmappiemonte: OpenStreetMap du Piémont
     openstreetmappoland: OpenStreetMap Pologne
     openstreetmapportugal: OpenStreetMap Portugal
+    openstreetmappunjab: OpenStreetMap Punjab
     openstreetmaprdc: OpenStreetMap République démocratique du Congo
     openstreetmaprennes: OpenStreetMap Rennes
     openstreetmapreunion: OpenStreetMap Réunion
@@ -170,7 +169,6 @@ fr:
     openstreetmapsaudiarabia: OpenStreetMap Arabie saoudite
     openstreetmapsenegal: OpenStreetMap Sénégal
     openstreetmapserbia: OpenStreetMap Serbie
-    openstreetmapseychelles: OpenStreetMap Seychelles
     openstreetmapsierraleone: OpenStreetMap Sierra Leone
     openstreetmapsingapore: OpenStreetMap Singapour
     openstreetmapslovenia: OpenStreetMap Slovénie
@@ -181,7 +179,6 @@ fr:
     openstreetmapsudan: OpenStreetMap Soudan
     openstreetmapsweden: OpenStreetMap Suède
     openstreetmapswitzerland: OpenStreetMap Suisse
-    openstreetmapsyria: OpenStreetMap Syrie
     openstreetmaptaiwan: OpenStreetMap Taïwan
     openstreetmaptanzania: OpenStreetMap Tanzanie
     openstreetmapthailand: OpenStreetMap Thaïlande
@@ -297,6 +294,8 @@ fr:
       description: Suivez-nous sur TikTok
       url: https://tiktok.com/@{account}
     twitter:
+      name: '{community} sur 𝕏'
+      description: Suivez-nous sur 𝕏
       url: https://twitter.com/{account}
     url:
       name: '{community}'
@@ -304,6 +303,8 @@ fr:
       name: 'Projet wiki de {community}'
       url: https://wiki.openstreetmap.org/wiki/{account}
     x:
+      name: '{community} sur 𝕏'
+      description: Suivez-nous sur 𝕏
       url: https://twitter.com/{account}
     xmpp:
       name: 'X.M.P.P. de {community}'
@@ -344,8 +345,6 @@ fr:
     extendedDescription: Si vous désirez aider à améliorer et agrandir la communauté de cartographie en Belgique, pour rendre les gens encore plus enthousiastes à cartographier, OpenStreetMap Belgique est le fait pour vous.
   be-discourse:
     description: Un forum pour discuter d'OpenStreetMap en Belgique
-  be-irc:
-    extendedDescription: 'Rejoignez #{account} sur irc.oftc.net (port 6667), c’est relié avec la chaîne Matrix'
   be-matrix:
     description: Tous les cartographes sont les bienvenus !
     extendedDescription: Salon de discussion principal de la communauté belge OSM. N'hésitez pas à poser des questions de débutant ici !
@@ -396,6 +395,46 @@ fr:
     extendedDescription: Rejoignez la communauté pour en apprendre plus sur OpenStreetMap, posez des questions ou participez à nos rencontres. Tout le monde est le bienvenu !
   cl-telegram:
     extendedDescription: Rejoignez la communauté pour en apprendre plus sur OpenStreetMap, posez des questions ou participez à nos rencontres. Tout le monde est le bienvenu !
+  co-discourse:
+    name: Discussions des communautés OSM sur la Colombie
+    description: Voici les sujets liés aux changements cartographiques en Colombie
+  co-facebook:
+    name: Groupe de {community} sur Facebook
+    description: Groupe de discussion sur les questions OSM en Colombie
+  co-github:
+    name: 'Projets de {community} sur GitHub'
+    description: Projets de code élaborés par la communauté
+  co-instagram:
+    name: Posts de {community} sur Instagram
+    description: Publications sur les activités communautaires ou l’information
+  co-linkedin:
+    name: Posts de {community} sur LinkedIn
+    description: Publications sur les activités communautaires ou l’information
+  co-mastodon:
+    name: Posts de {community} sur Mastodon
+    description: Publications sur les activités communautaires ou l’information
+  co-talk:
+    name: 'Mailing liste de {community}'
+    description: Courriels qui nécessitent de communiquer des renseignements à la collectivité
+  co-telegram:
+    name: Groupe de conversation de {community} sur Telegram
+    description: Ouvrir les discussions sur des sujets d’intérêt pour toute la communauté. C’est le canal le plus actif
+  co-thread:
+    name: Posts de {community} sur Threads
+    description: Publications sur les activités communautaires ou l’information
+  co-tiktok:
+    name: Vidéos courtes de {community} sur Tiktok
+    description: Publications sur les activités communautaires
+  co-twitter:
+    name: Communauté {community} sur X-Twitter
+    description: Publications sur les activités communautaires ou l’information
+  co-whatsapp:
+    name: Nouvelles de la communauté {community} sur WhatsApp
+    description: Publications sur les activités communautaires ou l’information
+  co-wiki:
+    name: Page wiki avec documentation sur le projet de cartographie de la Colombie.
+  co-youtube:
+    name: Vidéos de {community} sur YouTube
   comunitat-valenciana-wiki:
     description: 'Tout ce que vous devez savoir sur la cartographie dans la Communauté Valencienne : {url}'
   czech-community:
@@ -516,6 +555,7 @@ fr:
     description: 'GitHub de {community}'
   hr-tm:
     name: '{community} Gestionnaire de tâches'
+    description: Explorer les activités de cartographie en cours en Croatie
   hr-wiki:
     description: Page du wikiprojet pour la Croatie
   hu-facebook-group:
@@ -528,6 +568,8 @@ fr:
   hu-tm:
     name: '{community} Gestionnaire de tâches'
     description: Explorer les activités de cartographie en cours en Hongrie
+  hu-website:
+    description: Le site de la communauté Hongroise d'OpenStreetMap
   hu-wiki:
     description: 'Page wiki de {community}'
   humanitarian-osm-tr-slack:
@@ -852,6 +894,10 @@ fr:
     name: Mouvement logiciel libre et matériel (Free Software Hardware Movement, FSHM) - Liste de diffusion
     description: Liste de diffusion de FSHM Pondichéry pour discuter de cartographie à Pondichéry et d'autres choses.
     extendedDescription: FSHM organise des événements liés au logiciel et au matériel libre, les technologies, l'activisme et OpenStreetMap.
+  osm-punjab-matrix:
+    description: Nous cartographions le Pendjab ensemble. Rejoignez notre groupe Matrix
+  osm-punjab-telegram:
+    description: Nous cartographions le Pendjab ensemble. Rejoignez notre groupe Telegram. {url}
   OSM-Rome-meetup:
     name: Incontro Mappatori Romani
     description: Améliorez OpenStreetMap dans la région de Rome
@@ -943,8 +989,6 @@ fr:
     extendedDescription: Vous cartographiez en Bolivie ? Vous avez des questions, vous souhaitez rencontrer la communauté ? Rejoignez-nous sur {url}. Vous êtes tous les bienvenus !
   talk-mg:
     description: Le lieu de rencontre des contributeurs OpenStreetMap, des communautés et des utilisateurs à Madagascar où partager et discuter.
-  talk-nz:
-    description: Discussion de la communauté OSM en Nouvelle-Zélande
   talk-pacific:
     description: La liste de diffusion OSM régionale pour et par les peuples de la région Moana/Océanie/Pacifique
     extendedDescription: Nous aimerions que cette liste de diffusion soutienne tous les peuples du Pacifique, dans toutes nos diversités et aspirations, pour partager des réflexions, des questions, des projets et tout ce qui concerne OpenStreetMap dans notre océan d'îles.
@@ -984,8 +1028,6 @@ fr:
   uy-irc:
     description: 'Rejoignez #{account} sur irc.freenode.org (port 6667)'
     extendedDescription: 'Rejoignez #{account} sur irc.freenode.org'
-  vn-mailinglist:
-    description: Liste de diffusion d'OpenStreetMap au Vietnam ou en vietnamien
   vn-wiki:
     description: 'Page Wiki de {community}'
   YerCizenler-TR:
@@ -1221,6 +1263,9 @@ fr:
         Ce groupe a été fondé par des étudiants du Département de Géographie de l'Université Ouverte de Tanzanie afin de développer leurs compétences et d'aider la communauté des jeunes, à travers des projets et des partenariats avec des groupes locaux tels que Mikoko Scout Group (www.msg.or.tz), et de mener des coopérations avec des universités internationales par des programmes d'échanges en relation avec les études en Géographie, comme ceux préparés par Mikoko Scout Group qui lient des universités locales ou lointaines par leur intérêt pour l' International Nature & Environmental Youth Camp 2019 (www.campsite.msg.or.tz/nature.html )
 
         Notre chapitre sera bientôt reconnu comme membre du réseau  pour la jeunesse, ce qui offrira aux étudiants des opportunités d'étudier et de mener des recherches dans ce cadre.
+  ym-Oregon-State-University:
+    name: YouthMappers à l'Université d'État de l'Oregon
+    description: Section YouthMappers à l'Université d'État de l'Oregon
   ym-Politecnico-di-Milano:
     name: PoliMappers
     description: YouthMappers, section de l’École Polytechnique de Milan

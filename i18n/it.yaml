@@ -4,9 +4,19 @@ it:
     geolibres: GeoLibres
     kiribatiwomeninmapping: Donne del Kiribati nella mappatura
     mappingbotswana: Mappando Botswana
+    opensourcesanjose: San José Open Source
     openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap Aquisgrana
+    openstreetmapafghanistan: OpenStreetMap Afghanistan
+    openstreetmapafrica: OpenStreetMap Africa
+    openstreetmapalba: OpenStreetMap Alba
+    openstreetmapalbania: OpenStreetMap Albania
+    openstreetmapargentina: OpenStreetMap Argentina
+    openstreetmaparmenia: OpenStreetMap Armenia
+    openstreetmapasia: OpenStreetMap Asia
+    openstreetmapasti: OpenStreetMap Asti
     openstreetmapaustria: OpenStreetMap dell’Austria
+    openstreetmapbahia: OpenStreetMap Bahia
     openstreetmapbangladesh: OpenStreetMap del Bangladesh
     openstreetmapbelarus: OpenStreetMap Bielorussia
     openstreetmapbelgium: OpenStreetMap Belgio
@@ -19,12 +29,16 @@ it:
     openstreetmapcameroon: OpenStreetMap Camerun
     openstreetmapcastillayleon: OpenStreetMap Castiglia e León
     openstreetmapcatalancountries: OpenStreetMap Paesi Catalani
+    openstreetmapchad: OpenStreetMap Ciad
     openstreetmapchile: OpenStreetMap Cile
     openstreetmapchina: OpenStreetMap Cina
     openstreetmapcologne: OpenStreetMap Colonia
     openstreetmapcomunitatvalenciana: OpenStreetMap Comunità Valenciana
     openstreetmapcotedivoire: OpenStreetMap Costa d'Avorio
     openstreetmapcroatia: OpenStreetMap Croazia
+    openstreetmapcyprus: OpenStreetMap Cipro
+    openstreetmapcz: OpenStreetMap CZ
+    openstreetmapde: OpenStreetMap DE
     openstreetmapdeepsouth: OpenStreetMap Profondo Sud
     openstreetmapdenmark: OpenStreetMap Danimarca
     openstreetmapdjibouti: OpenStreetMap Gibuti
@@ -41,6 +55,7 @@ it:
     openstreetmapfrenchguiana: OpenStreetMap Guiana francese
     openstreetmapfrenchpolynesia: OpenStreetMap Polinesia francese
     openstreetmapgalicia: OpenStreetMap Galizia
+    openstreetmapgeorgia: OpenStreetMap Georgia
     openstreetmapgermany: OpenStreetMap Germania
     openstreetmapgorakalwaria: OpenStreetMap Gora Kalwaria
     openstreetmapgreece: OpenStreetMap Grecia
@@ -58,6 +73,7 @@ it:
     openstreetmapitalysouthtyrol: OpenStreetMap Italy-Sud Tirolo
     openstreetmapitalytrentino: OpenStreetMap Italia-Trentino
     openstreetmapjapan: OpenStreetMap Giappone
+    openstreetmapkazakhstan: OpenStreetMap Kazakistan
     openstreetmapkorea: OpenStreetMap Corea
     openstreetmaplatinamerica: OpenStreetMap America Latina
     openstreetmaplatvia: OpenStreetMap Lettonia
@@ -65,6 +81,7 @@ it:
     openstreetmaplibya: OpenStreetMap Libia
     openstreetmaplithuania: OpenStreetMap Lituania
     openstreetmapljubljana: OpenStreetMap Lubiana
+    openstreetmaplombardia: OpenStreetMap Lombardia
     openstreetmaplondon: OpenStreetMap Londra
     openstreetmapluneburg: OpenStreetMap Luneburgo
     openstreetmapluxembourg: OpenStreetMap Lussemburgo
@@ -89,54 +106,108 @@ it:
     openstreetmapsrilanka: OpenStreetMap dello Sri Lanka
     openstreetmapsweden: OpenStreetMap Svezia
     openstreetmapswitzerland: OpenStreetMap Svizzera
-    openstreetmapsyria: OpenStreetMap Siria
     openstreetmapthailand: OpenStreetMap Thailandia
     openstreetmapturin: OpenStreetMap Torino
     openstreetmapturkey: OpenStreetMap Turchia
     openstreetmapukraine: OpenStreetMap Ucraina
-    openstreetmapus: OpenStreetMap degli Stati Uniti
+    openstreetmapus: OpenStreetMap Stati Uniti
     openstreetmapwarszawa: OpenStreetMap Varsavia
     openstreetmapwesternsahara: OpenStreetMap Sahara occidentale
   _defaults:
     aparat:
       name: '{community} su Aparat'
       description: Iscriviti al nostro canale Aparat
+    bluesky:
+      description: Seguici su Bluesky
+      url: https://bsky.app/profile/{account}
     discord:
       name: '{community} Discordia'
       description: Prendi contatto con gli altri mappatori su Discord
+      url: https://discord.gg/{account}
     discourse:
       name: '{community} comunità Forum'
       description: Il forum ufficiale per {community}
+      url: https://community.openstreetmap.org/c/communities/{account}
     facebook:
       name: '{community} su Facebook'
       description: Unisciti alla nostra comunità su Facebook
+      url: https://www.facebook.com/{account}
+    fediverse:
+      name: '{community}'
     forum:
+      name: '{community} Forum'
       description: Il forum ufficiale per {community}
     github:
       name: '{community}GitHub'
+      url: https://github.com/{account}
+    gitlab:
+      name: '{community} GitLab'
+      url: https://gitlab.com/{account}
+    group:
+      name: '{community}'
+    instagram:
+      name: '{community} su Instagram'
+      description: Seguici su Instagram
+      url: https://instagram.com/{account}
     irc:
       name: '{community} su IRC'
+      description: 'Unisciti a #{account} su irc.oftc.net (port 6667 senza SSL o 6697 con SSL)'
     linkedin:
       name: '{community} su LinkedIn'
       description: Unisciti alla nostra comunità su LinkedIn
     mailinglist:
       description: La mailing list ufficiale di {community}
     mastodon:
+      name: '{community} su Mastodon'
       description: L'account Mastodon ufficiale per {community}
     matrix:
       name: '{community} Chat Matrix'
       description: Unisciti alla nostra chat Matrix della community
+    meetup:
+      name: '{community} Meetup'
+    osm:
+      name: '{community}'
+    osm-lc:
+      name: '{community}'
     reddit:
       name: '{community} su Reddit'
     signal:
+      name: '{community} Signal'
       description: Unisciti alla chat della nostra community su Signal
+    slack:
+      name: '{community} Slack'
     telegram:
+      name: '{community} Telegram'
       description: Unisciti alla chat Telegram della nostra comunità
+      url: https://t.me/{account}
     threads:
+      name: '{community} on Threads'
       description: Seguici su Threads
+      url: https://threads.net/@{account}
+    tiktok:
+      name: '{community} su TikTok'
+      description: Seguici su TikTok
+      url: https://tiktok.com/@{account}
+    twitter:
+      name: '{community} su X'
+      description: Seguici su X
+      url: https://twitter.com/{account}
+    url:
+      name: '{community}'
+    wiki:
+      name: '{community} WikiProject'
+      url: https://wiki.openstreetmap.org/wiki/{account}
+    x:
+      name: '{community}su X'
+      description: Seguici su X
+      url: https://twitter.com/{account}
+    xmpp:
+      name: '{community} XMPP'
+      description: 'Entra nella nostra chat XMPP della community: {url}'
     youtube:
       name: '{community} su YouTube'
       description: Iscriviti al nostro canale YouTube
+      url: https://www.youtube.com/channel/{account}
     zulip:
       description: Unisciti alla chat della nostra community su Zulip
   aberdeen-discord:
@@ -166,8 +237,6 @@ it:
     extendedDescription: Se vuoi aiutare a migliorare e far crescere la community di mappe in Belgio, per far impazzire ancora più persone per la mappatura, OpenStreetMap Belgio è il posto giusto per te!
   be-discourse:
     description: Un forum per discutere di OpenStreetMap in Belgio
-  be-irc:
-    extendedDescription: 'Unisciti a #{account} su irc.oftc.net (porta 6667), è collegato al canale di chat Matrix'
   be-matrix:
     description: Tutti i mappatori sono benvenuti!
     extendedDescription: Chatroom principale della comunità belga di OSM. Non esitare a fare domande per principianti qui!
@@ -493,6 +562,7 @@ it:
     description: Mappatori e utenti di OpenStreetMap nei dintorni di Mount Vernon, nello stato di Washington
     extendedDescription: OpenStreetMap è la mappa del mondo creata da persone come te. È una mappa che tu puoi costruire e che è gratis come Wikipedia. Vai su osm.org per altre informazioni. Noi ci riuniamo sempre per parlare di mappe, mappare e divertirci!
   osm-ch:
+    name: '{community}'
     description: La piattaforma per le informazioni su OpenStreetMap in Svizzera
   OSM-Chattanooga:
     description: Gruppo utenti OpenStreetMap di Chattanooga
@@ -682,8 +752,6 @@ it:
     extendedDescription: Mappi in Bolivia? Hai domande o vuoi connetterti con la comunità di quaggiù? Unisciti a noi all’indirizzo {url}. Tutti sono i benvenuti!
   talk-mg:
     description: Un posto dove i collaboratori, le comunità e gli utenti di OpenStreetMap del Madagascar possono condividere e discutere.
-  talk-nz:
-    description: Il discorso della comunità OSM della Nuova Zelanda
   talk-pacific:
     description: La mailing list OSM regionale per e dai popoli di Moana/Oceania/Pacifico
     extendedDescription: Vorremmo che questa mailing list supportasse tutti i popoli del Pacifico, in tutte le nostre diversità e aspirazioni, per condividere pensieri, domande, progetti e tutto ciò che riguarda OpenStreetMap nel nostro mare di isole.
@@ -720,8 +788,6 @@ it:
   uy-irc:
     description: 'Iscriviti a #{account} su irc.freenode.org (porta 6667)'
     extendedDescription: 'Iscriviti a #{account} su irc.freenode.org'
-  vn-mailinglist:
-    description: Mailing list su OpenStreetMap in Vietnam o in vietnamita
   vn-wiki:
     description: '{community} Pagina wiki'
   YerCizenler-TR:
