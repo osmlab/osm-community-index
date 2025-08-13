@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "5.9.2",
-    "generated": "2025-07-26T09:27:00.778Z",
+    "generated": "2025-08-13T07:41:35.196Z",
     "url": "https://raw.githubusercontent.com/osmlab/osm-community-index/main/dist/resources.json",
-    "hash": "a1aa3f18ec5d96fb1df17d4f2260e3a2"
+    "hash": "a5ac763a89b7372f89e9027a0c25c9f5"
   },
   "resources": {
     "aberdeen-discord": {"id": "aberdeen-discord", "type": "discord", "account": "vY7KBZx2M9", "locationSet": {"include": [[-2.09375, 57.14824]]}, "languageCodes": ["en"], "strings": {"name": "OSM ABZ Discord"}},
@@ -240,8 +240,8 @@
     "is-facebook": {"id": "is-facebook", "type": "facebook", "account": "osmiceland", "locationSet": {"include": ["is"]}, "languageCodes": ["en", "is"], "order": 3, "strings": {"community": "OpenStreetMap Iceland", "communityID": "openstreetmapiceland"}},
     "is-twitter": {"id": "is-twitter", "type": "twitter", "account": "openstreetmapis", "locationSet": {"include": ["is"]}, "languageCodes": ["en", "is"], "order": 2, "strings": {"community": "OpenStreetMap Iceland", "communityID": "openstreetmapiceland"}},
     "it-chapter": {"id": "it-chapter", "type": "osm-lc", "locationSet": {"include": ["it"]}, "languageCodes": ["it"], "order": 1, "strings": {"community": "OpenStreetMap Italy", "communityID": "openstreetmapitaly", "description": "We help grow and improve OpenStreetMap in Italy.", "url": "https://osmit.it/#chisiamo"}, "contacts": [{"name": "Anisa Kuci", "email": "anisa.kuci@wikimedia.it"}]},
-    "it-discourse": {"id": "it-discourse", "type": "discourse", "account": "it", "locationSet": {"include": ["it"]}, "languageCodes": ["en", "it"], "order": 2, "strings": {"community": "OpenStreetMap Italy", "communityID": "openstreetmapitaly", "description": "Il forum dove poter discutere di OpenStreetMap"}, "contacts": [{"name": "Manuel", "email": "mannivuwiki@gmail.com"}]},
-    "it-emilia-romagna-telegram": {"id": "it-emilia-romagna-telegram", "type": "telegram", "account": "OSM e Wiki Emilia-Romagna", "locationSet": {"include": ["emilia-romagna.geojson"]}, "languageCodes": ["it"], "order": 3, "strings": {"community": "OSM e Wiki Emilia-Romagna", "communityID": "osmewikiemiliaromagna", "description": "Tutti sono benvenuti! Puoi entrare con questo link: {signupUrl}", "signupUrl": "https://t.me/+QHfVINrUPN44YjFk"}, "contacts": [{"name": "Daniele Santini", "email": "danysan95@gmail.com"}]},
+    "it-discourse": {"id": "it-discourse", "type": "discourse", "account": "it", "locationSet": {"include": ["it"]}, "languageCodes": ["en", "it"], "order": 2, "strings": {"community": "OpenStreetMap Italy", "communityID": "openstreetmapitaly", "description": "A Forum to discuss OpenStreetMap in Italy"}, "contacts": [{"name": "Manuel", "email": "mannivuwiki@gmail.com"}]},
+    "it-emilia-romagna-telegram": {"id": "it-emilia-romagna-telegram", "type": "telegram", "account": "OSM e Wiki Emilia-Romagna", "locationSet": {"include": ["emilia-romagna.geojson"]}, "languageCodes": ["it"], "order": 3, "strings": {"community": "OSM e Wiki Emilia-Romagna", "communityID": "osmewikiemiliaromagna", "description": "Everybody is welcome! You can enter the chat with this link: {signupUrl}", "signupUrl": "https://t.me/+QHfVINrUPN44YjFk"}, "contacts": [{"name": "Daniele Santini", "email": "danysan95@gmail.com"}]},
     "it-facebook": {"id": "it-facebook", "type": "facebook", "account": "OpenStreetMap.Italia", "locationSet": {"include": ["it"]}, "languageCodes": ["it"], "strings": {"community": "OpenStreetMap Italy", "communityID": "openstreetmapitaly"}, "contacts": [{"name": "Simone Cortesi", "email": "simone@cortesi.com"}, {"name": "Stefano", "email": "sabas88@gmail.com"}, {"name": "Alessandro Palmas", "email": "alessandro.palmas@wikimedia.it"}]},
     "it-irc": {"id": "it-irc", "type": "irc", "account": "osm-it", "locationSet": {"include": ["it"]}, "languageCodes": ["it"], "order": -4, "strings": {"community": "OpenStreetMap Italy", "communityID": "openstreetmapitaly"}, "contacts": [{"name": "Simone Cortesi", "email": "simone@cortesi.com"}, {"name": "Stefano", "email": "sabas88@gmail.com"}, {"name": "Alessandro Palmas", "email": "alessandro.palmas@wikimedia.it"}]},
     "it-linkedin": {"id": "it-linkedin", "type": "linkedin", "locationSet": {"include": ["it"]}, "languageCodes": ["it"], "order": -5, "strings": {"community": "OpenStreetMap Italy", "communityID": "openstreetmapitaly", "url": "https://www.linkedin.com/groups/8971366"}},
