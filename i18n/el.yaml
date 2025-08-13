@@ -28,7 +28,6 @@ el:
     openstreetmapbrasilia: OpenStreetMap Μπραζίλια
     openstreetmapbremen: OpenStreetMap Βρέμη
     openstreetmapbulgaria: OpenStreetMap Βουλγαρία
-    openstreetmapburkinafaso: OpenStreetMap Μπουρκίνα Φάσο
     openstreetmapburundi: OpenStreetMap Μπουρούντι
     openstreetmapbzh: OpenStreetMap BZH (Βρετάνη)
     openstreetmapcambodia: OpenStreetMap Καμπότζη
@@ -162,7 +161,6 @@ el:
     openstreetmapsaudiarabia: OpenStreetMap Σαουδική Αραβία
     openstreetmapsenegal: OpenStreetMap Σενεγάλη
     openstreetmapserbia: OpenStreetMap Σερβία
-    openstreetmapseychelles: OpenStreetMap Σεϋχέλλες
     openstreetmapsierraleone: OpenStreetMap Σιέρρα Λεόνε
     openstreetmapsingapore: OpenStreetMap Σιγκαπούρη
     openstreetmapslovenia: OpenStreetMap Σλοβενία
@@ -173,7 +171,6 @@ el:
     openstreetmapsudan: OpenStreetMap Σουδάν
     openstreetmapsweden: OpenStreetMap Σουηδία
     openstreetmapswitzerland: OpenStreetMap Ελβετία
-    openstreetmapsyria: OpenStreetMap Συρία
     openstreetmaptaiwan: OpenStreetMap Ταϊβάν
     openstreetmaptanzania: OpenStreetMap Τανζανία
     openstreetmapthailand: OpenStreetMap Ταϊλάνδη
@@ -221,6 +218,8 @@ el:
     forum:
       name: '{community} Φόρουμ'
       description: Το επίσημο forum του {community}
+    github:
+      name: '{community} στο GitHub'
     group:
       name: '{community}'
     instagram:
@@ -259,10 +258,16 @@ el:
       name: '{community} στο TikTok'
       description: Ακολουθήστε μας στο TikTok
       url: https://tiktok.com/@{account}
+    twitter:
+      name: '{community} στο X'
+      description: Ακολουθήστε μας στο X
     url:
       name: '{community}'
     wiki:
       name: '{community} ΒικιΈργο'
+    x:
+      name: '{community} στο X'
+      description: Ακολουθήστε μας στο X
     xmpp:
       description: 'Γίνετε μέλος της κοινότητάς μας στο XMPP: {url}'
     youtube:
@@ -367,12 +372,16 @@ el:
   Galicia-Xeoinquedos-Twitter:
     name: Xeoinquedos στο Twitter
     description: Ακολουθήστε μας στο Twitter στο {url}
+  hr-github:
+    description: '{community} στο GitHub'
   hr-wiki:
     description: Σελίδα Wikiproject για Κροατία
   hu-facebook-group:
     name: '{community} Ομάδα Facebook'
   hu-mobilizon:
     name: '{community} στο Mobilizon'
+  hu-website:
+    description: Ο ιστότοπος της Ουγγρικής κοινότητας του OpenStreetMap
   hu-wiki:
     description: '{community} Wiki σελίδα'
   id-facebook-group:
@@ -381,6 +390,8 @@ el:
     description: Βοηθάμε την ανάπτυξη και τη βελτίωση του OpenStreetMap στην Ισλανδία
   ivides_website:
     description: Εστιάζουμε στην βιώσιμη ανάπτυξη, χαρτογράφηση, και υποστήριξη της κοινότητας του OpenStreetMap.
+  ko-github:
+    description: '{community} στο GitHub'
   kp-wiki:
     description: '{community} Οδηγός Χαρτογράφησης'
   lv-wiki:
@@ -496,6 +507,8 @@ el:
     description: '{community} Wiki σελίδα'
   osm-ohio-wiki:
     description: '{community} Wiki σελίδα'
+  OSM-Rome-meetup:
+    name: Incontro Mappatori Romani
   OSM-Telegram:
     description: Συνδεθείτε στην παγκόσμια υπερομάδα Telegram του OpenStreetMap στο {url}
   OSM-US:
@@ -524,6 +537,8 @@ el:
     name: Σκανδιναβικό κανάλι στο OpenStreetMap World Discord
   sg-wiki:
     description: '{community} Wiki σελίδα'
+  si-github:
+    description: '{community} στο GitHub'
   si-ljubljana-wiki:
     description: '{community} Wiki σελίδα'
   si-wiki:
@@ -550,3 +565,15 @@ el:
     description: '{community} Wiki σελίδα'
   vn-wiki:
     description: '{community} Wiki σελίδα'
+  YerCizenler-TR:
+    name: Yer Çizenler
+  ym-Abia-State-University:
+    name: AbsuMappersTeam
+  ym-African-Methodist-Episcopal-University:
+    name: YouthMappers-AMEU
+  ym-Ahmadu-Bello-University:
+    name: ABU Geomappers
+  ym-College-of-William-and-Mary:
+    name: Σε όλο τον χάρτη!
+  ym-Dedan-Kimathi-University-of-Technology:
+    name: GDEV

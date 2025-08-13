@@ -6,7 +6,6 @@ de:
     mapeadoresivides: IVIDES-Mapper
     mappingbotswana: Mappen in Botswana
     maptimebogota: MaptimeBogota
-    maptimehrva: MaptimeHRVA
     opensourcesanjose: Open Source San José
     openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap Aachen
@@ -34,9 +33,9 @@ de:
     openstreetmapbosniaandherzegovina: OpenStreetMap Bosnien und Herzegowina
     openstreetmapbrasil: OpenStreetMap Brasilien
     openstreetmapbrasilia: OpenStreetMap Brasília
+    openstreetmapbrasilminasgerais: OpenStreetMap Brasilien Minas Gerais
     openstreetmapbremen: OpenStreetMap Bremen
     openstreetmapbulgaria: OpenStreetMap Bulgarien
-    openstreetmapburkinafaso: OpenStreetMap Burkina Faso
     openstreetmapburundi: OpenStreetMap Burundi
     openstreetmapbzh: OpenStreetMap BZH
     openstreetmapcambodia: OpenStreetMap Kambodscha
@@ -171,7 +170,6 @@ de:
     openstreetmapsaudiarabia: OpenStreetMap Saudi Arabien
     openstreetmapsenegal: OpenStreetMap Senegal
     openstreetmapserbia: OpenStreetMap Serbien
-    openstreetmapseychelles: OpenStreetMap Seychellen
     openstreetmapsierraleone: OpenStreetMap Sierra Leone
     openstreetmapsingapore: OpenStreetMap Singapur
     openstreetmapslovenia: OpenStreetMap Slowenien
@@ -182,7 +180,6 @@ de:
     openstreetmapsudan: OpenStreetMap Sudan
     openstreetmapsweden: OpenStreetMap Schweden
     openstreetmapswitzerland: OpenStreetMap Schweiz
-    openstreetmapsyria: OpenStreetMap Syrien
     openstreetmaptaiwan: OpenStreetMap Taiwan
     openstreetmaptanzania: OpenStreetMap Tanzania
     openstreetmapthailand: OpenStreetMap Thailand
@@ -298,6 +295,8 @@ de:
       description: Folge uns auf TikTok
       url: https://tiktok.com/@{account}
     twitter:
+      name: '{community} auf X'
+      description: Folge uns auf X
       url: https://twitter.com/{account}
     url:
       name: '{community}'
@@ -305,10 +304,12 @@ de:
       name: '{community} WikiProject'
       url: https://wiki.openstreetmap.org/wiki/{account}
     x:
+      name: '{community} auf X'
+      description: Folge uns auf X
       url: https://twitter.com/{account}
     xmpp:
       name: '{community} XMPP'
-      description: '{url}Nimm an unserem XMPP-Community-Chat teil:'
+      description: 'Nimm an unserem XMPP-Community-Chat teil: {url}'
     youtube:
       name: '{community} auf YouTube'
       description: Abonniere unseren YouTube-Kanal
@@ -343,8 +344,6 @@ de:
     extendedDescription: Wenn du dabei helfen willst die Mapping-Gemeinschaft in Belgien größer und besser zu machen, Menschen verrückt nach Mappen zu machen, dann ist OpenStreetMap Belgien der richtige Platz für dich!
   be-discourse:
     description: Ein Forum um OpenStreetMap in Belgien zu diskutieren
-  be-irc:
-    extendedDescription: 'Tritt #{account} auf irc.oftc.net (port 6667) bei, er ist mit dem Matrix-Chat-Kanal gespiegelt'
   be-matrix:
     description: Alle Mapper sind willkommen!
     extendedDescription: Haupt-Chatroom der belgischen OSM-Community. Zöger nicht, hier Fragen für Anfänger zu stellen!
@@ -575,8 +574,12 @@ de:
   hu-tm:
     name: '{community} Tasking Manager'
     description: Erkunde aktive Kartierungsaufgaben in Ungarn
+  hu-website:
+    description: Die Webseite der ungarischen OpenStreetMap-Gemeinschaft
   hu-wiki:
     description: '{community} Wiki Seite'
+  hu-youtube:
+    description: OpenStreetMap Ungarn meetup Live Streams und Aufzeichnungen
   humanitarian-osm-tr-slack:
     name: Humanitarian OpenStreetMap Türkei Slack
     description: Tritt dem Humanitarian OpenStreetMap Turkey-Kanal auf dem Slack-Server von HOTOSM bei {url}
@@ -715,6 +718,8 @@ de:
     description: Trit der Google-Gruppe {community} bei
   me-telegram:
     description: Alle sind willkommen! Anmeldung unter {signupUrl}
+  minas_gerais-discord:
+    extendedDescription: Willkommen im OSM Minas Gerais Discord! Wir sind eine Gemeinschaft von Mappern, die leidenschaftlich gerne detaillierte Open-Source-Karten für Minas Gerais, Brasilien, erstellen. Tritt uns bei, um zusammenzuarbeiten, Tipps auszutauschen und zu helfen, die Karten von MG zu den besten auf OpenStreetMap zu machen. Egal ob du ein Neuling oder ein Profi bist, lass uns gemeinsam kartieren!
   mm-facebook:
     extendedDescription: Mappen in Maynmar? Hast du Fragen, willst du dich mit der Community hier verbinden? Tritt bei {url} bei. Alle sind willkommen!
   mn-facebook:
@@ -1005,8 +1010,6 @@ de:
     extendedDescription: Mappenin Bolivien? Hast duFragen, willst du dich mit der Community hier verbinden? Tritt uns bei {url} bei. Alle sind willkommen!
   talk-mg:
     description: Ort für OpenStreetMap-Mitwirkende, Communitys und Benutzer in Madagaskar um sich auszutauschen und zu diskutieren.
-  talk-nz:
-    description: Neuseeland OSM Gemeinschafts-atalk
   talk-pacific:
     description: Die regionale OSM-Mailingliste für und von den Menschen in Moana/Ozeanien/Pazifik
     extendedDescription: Wir möchten, dass diese Mailingliste alle Menschen des Pazifiks in all ihrer Vielfalt und ihren Bestrebungen unterstützt, um Gedanken, Fragen, Projekte und alles, was mit OpenStreetMap in unserem Meer von Inseln zu tun hat, auszutauschen.
@@ -1046,8 +1049,6 @@ de:
   uy-irc:
     description: 'Tritt #{account} auf irc.frreenode.org (port 6667) bei'
     extendedDescription: 'Tritt #{account} auf irc.frreenode.org bei'
-  vn-mailinglist:
-    description: Mailing Liste über OpenStreetMap in Vietnam oder in Vietnamesisch
   vn-wiki:
     description: '{community} Wiki Seite'
   YerCizenler-TR:

@@ -6,7 +6,6 @@ th:
     mapeadoresivides: Mapeadores IVIDES
     mappingbotswana: Mapping Botswana
     maptimebogota: MaptimeBogota
-    maptimehrva: MaptimeHRVA
     opensourcesanjose: Open Source ซานโฮเซ
     openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap อาเคิน
@@ -34,9 +33,9 @@ th:
     openstreetmapbosniaandherzegovina: OpenStreetMap บอสเนียและเฮอร์เซโกวีนา
     openstreetmapbrasil: OpenStreetMap บราซิล
     openstreetmapbrasilia: OpenStreetMap บราซิเลีย
+    openstreetmapbrasilminasgerais: OpenStreetMap บราซิล มีนัชเจไรช์
     openstreetmapbremen: OpenStreetMap เบรเมิน
     openstreetmapbulgaria: OpenStreetMap บัลแกเรีย
-    openstreetmapburkinafaso: OpenStreetMap บูร์กินาฟาโซ
     openstreetmapburundi: OpenStreetMap บุรุนดี
     openstreetmapbzh: OpenStreetMap เบรอตาญ
     openstreetmapcambodia: OpenStreetMap กัมพูชา
@@ -160,6 +159,7 @@ th:
     openstreetmappiemonte: OpenStreetMap ปีเยมอนเต
     openstreetmappoland: OpenStreetMap โปแลนด์
     openstreetmapportugal: OpenStreetMap โปรตุเกส
+    openstreetmappunjab: OpenStreetMap ปัญจาบ
     openstreetmaprdc: OpenStreetMap สาธารณรัฐประชาธิปไตยคองโก
     openstreetmaprennes: OpenStreetMap แรน
     openstreetmapreunion: OpenStreetMap เรอูว์นียง
@@ -170,7 +170,6 @@ th:
     openstreetmapsaudiarabia: OpenStreetMap ซาอุดีอาระเบีย
     openstreetmapsenegal: OpenStreetMap เซเนกัล
     openstreetmapserbia: OpenStreetMap เซอร์เบีย
-    openstreetmapseychelles: OpenStreetMap เซเชลส์
     openstreetmapsierraleone: OpenStreetMap เซียร์ราลีโอน
     openstreetmapsingapore: OpenStreetMap สิงคโปร์
     openstreetmapslovenia: OpenStreetMap สโลวีเนีย
@@ -181,7 +180,6 @@ th:
     openstreetmapsudan: OpenStreetMap ซูดาน
     openstreetmapsweden: OpenStreetMap สวีเดน
     openstreetmapswitzerland: OpenStreetMap สวิตเซอร์แลนด์
-    openstreetmapsyria: OpenStreetMap ซีเรีย
     openstreetmaptaiwan: OpenStreetMap ไต้หวัน
     openstreetmaptanzania: OpenStreetMap แทนซาเนีย
     openstreetmapthailand: OpenStreetMap ไทย
@@ -297,6 +295,8 @@ th:
       description: ติดตามเราบน TikTok
       url: https://tiktok.com/@{account}
     twitter:
+      name: '{community} บน X'
+      description: ติดตามเราบน X
       url: https://twitter.com/{account}
     url:
       name: '{community}'
@@ -304,6 +304,8 @@ th:
       name: '{community} WikiProject'
       url: https://wiki.openstreetmap.org/wiki/{account}
     x:
+      name: '{community} บน X'
+      description: ติดตามเราบน X
       url: https://twitter.com/{account}
     xmpp:
       name: '{community} XMPP'
@@ -342,8 +344,6 @@ th:
     extendedDescription: หากคุณต้องการช่วยปรับปรุงและขยายชุมชนการทำแผนที่ในเบลเยียม เพื่อทำให้ผู้คนคลั่งไคล้การทำแผนที่มากยิ่งขึ้น OpenStreetMap เบลเยียม นั้นเป็นสถานที่ที่เหมาะสำหรับคุณ!
   be-discourse:
     description: ฟอรัมเพื่อการหารือเกี่ยวกับ OpenStreetMap ในเบลเยียม
-  be-irc:
-    extendedDescription: 'เข้าร่วม #{account} บน irc.oftc.net (port 6667) ซึ่งเชื่อมโยงกับช่องแชท Matrix'
   be-matrix:
     description: เราต้อนรับนักทำแผนที่ทุกคน!
     extendedDescription: ห้องสนทนาหลักของชุมชน Belgian OSM อย่าลังเลที่จะถามคำถามสำหรับผู้เริ่มต้นที่นี่!
@@ -574,8 +574,12 @@ th:
   hu-tm:
     name: 'แผนงานสำหรับ {community}'
     description: สำรวจแผนงานการทำแผนที่ที่กำลังดำเนินอยู่ในฮังการี
+  hu-website:
+    description: เว็บไซต์ของชุมชน OpenStreetMap ฮังการี
   hu-wiki:
     description: 'หน้า wiki สำหรับ {community}'
+  hu-youtube:
+    description: การถ่ายทอดสดและการบันทึกการพบปะของ OpenStreetMap ฮังการี
   humanitarian-osm-tr-slack:
     name: Humanitarian OpenStreetMap Turkey Slack
     description: เข้าร่วมช่องสนทนา Humanitarian OpenStreetMap Turkey บน HOTOSM's Slack server ได้ที่ {url}
@@ -665,6 +669,7 @@ th:
     description: 'หาเส้นทางคาร์บอนต่ำรอบ ๆ พื้นที่วอเตอร์ลู '
   MapRVA:
     name: MapRVA
+    description: MapRVA เป็นกลุ่มผู้ที่ชื่นชอบการทำแผนที่ในเมืองริชมอนด์ รัฐเวอร์จิเนีย ซึ่งทำงานเพื่อสร้างและแบ่งปันข้อมูลภูมิสารสนเทศของเมืองของเราโดยใช้ OpenStreetMap
   maptime-bogota-facebook:
     name: MaptimeBogotá
     description: พวกเราเป็นกลุ่มของผู้คนที่สนใจในการทำแผนที่โบโกตา และพื้นที่โดยรอบไปยัง OpenStreetMap.
@@ -713,6 +718,8 @@ th:
     description: เข้าร่วมกลุ่ม Google {community} 
   me-telegram:
     description: เราต้อนรับทุกคน! ลงทะเบียนได้ที่ {signupUrl}
+  minas_gerais-discord:
+    extendedDescription: ยินดีต้อนรับสู่ Discord ของ OSM บราซิล มีนัชเจไรช์! เราเป็นชุมชนของนักทำแผนที่ที่หลงใหลในการสร้างแผนที่โอเพ่นซอร์สที่มีรายละเอียดสำหรับรัฐมีนัชเจไรช์ ประเทศบราซิล เข้าร่วมกับเราเพื่อร่วมมือกัน แบ่งปันเคล็ดลับ และช่วยทำให้แผนที่ของ MG เป็นแผนที่ที่ดีที่สุดบน OpenStreetMap ไม่ว่าคุณจะเป็นมือใหม่หรือมืออาชีพ มาทำแผนที่ด้วยกัน!
   mm-facebook:
     extendedDescription: กำลังทำแผนที่ในเมียนมาร์หรือเปล่า? มีคำถามหรือต้องการเชื่อมต่อกับชุมชนที่นี่หรือไม่ เข้าร่วมกับเราได้ที่ {url} เราต้อนรับทุกคน!
   mn-facebook:
@@ -905,6 +912,11 @@ th:
     name: การเคลื่อนไหวฮาร์ดแวร์ซอฟต์แวร์เสรี - Mailing List
     description: Mailing List ของการเคลื่อนไหวฮาร์ดแวร์ซอฟต์แวร์เสรีปุฑุเจรีเพื่อหารือเรื่องการทำแผนที่ในปุฑุเจรีและเรื่องอื่นๆ
     extendedDescription: การเคลื่อนไหวฮาร์ดแวร์ซอฟต์แวร์เสรีจัดกิจกรรมเกี่ยวกับซอฟต์แวร์เสรี/ฮาร์ดแวร์เสรี เทคโนโลยีเสรี กิจกรรมเพื่อสังคม และ OpenStreetMap
+  osm-punjab-matrix:
+    description: เรามาทำแผนที่ปัญจาบด้วยกัน เข้าร่วมกลุ่มเมทริกซ์ของเรา
+    extendedDescription: ห้องสนทนาไม่เป็นทางการสำหรับ OSM Punjab ซึ่งเชื่อมโยงกับกลุ่ม Telegram ของ OSMPunjab ด้วย
+  osm-punjab-telegram:
+    description: พวกเราทำแผนที่แคว้นปัญจาบด้วยกัน เข้าร่วมกลุ่ม Telegram ของเรา {url}
   OSM-Rome-meetup:
     name: การประชุมของนักทำแผนที่ชาวโรม
     description: พัฒนา OpenStreetMap ในพื้นที่โรม
@@ -998,8 +1010,6 @@ th:
     extendedDescription: ทำแผนที่ในโบลิเวีย? หากมีคำถาม ต้องการที่จะมีปฏิสัมพันธ์กับชุมชนที่นี่? สามารถเข้าร่วมกับเราได้ที่ {url} เรายินดีต้อนรับทุกคน!
   talk-mg:
     description: พื้นที่สำหรับผู้ร่วมให้ข้อมูล OpenStreetMap, ชุมชน, และผู้ใช้ในมาดากัสการ์เพื่อแบ่งปันและพูดคุย
-  talk-nz:
-    description: ห้องสนทนาของชุมชน OSM นิวซีแลนด์
   talk-pacific:
     description: Mailing list OSM ประจำภูมิภาคสำหรับและโดยผู้คนในหมู่เกาะโมอานา/โอเชียเนีย/แปซิฟิก
     extendedDescription: เราต้องการรายชื่อผู้รับจดหมายนี้เพื่อสนับสนุนให้ทุกคนในแปซิฟิกมีความหลากหลายและมีความต้องการแบ่งปันความคิด คำถาม โปรเจ็กต์ และทุกสิ่งที่เกี่ยวข้องกับ OpenStreetMap ในทะเลแห่งเกาะของเรา
@@ -1039,8 +1049,6 @@ th:
   uy-irc:
     description: 'เข้าร่วม #{account} บน irc.freenode.org (port 6667)'
     extendedDescription: 'เข้าร่วม #{account} บน irc.freenode.org'
-  vn-mailinglist:
-    description: Mailing list เกี่ยวกับ OpenStreetMap ในเวียดนามหรือในภาษาเวียดนาม
   vn-wiki:
     description: 'หน้าวิกิ{community}'
   YerCizenler-TR:

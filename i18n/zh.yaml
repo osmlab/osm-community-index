@@ -6,7 +6,6 @@ zh:
     mapeadoresivides: Mapeadores IVIDES
     mappingbotswana: 博茨瓦纳地图绘制
     maptimebogota: 波哥大地图时间
-    maptimehrva: 地圖時間HRVA
     opensourcesanjose: 开源圣何塞
     openstreetmap: OpenStreetMap
     openstreetmapaachen: 開放街圖亞琛
@@ -34,9 +33,9 @@ zh:
     openstreetmapbosniaandherzegovina: OpenStreetMap 波斯尼亞和黑塞哥維那
     openstreetmapbrasil: OpenStreetMap 巴西
     openstreetmapbrasilia: OpenStreetMap 巴西利亞
+    openstreetmapbrasilminasgerais: 開放街圖巴西米納斯吉拉斯州
     openstreetmapbremen: OpenStreetMap 不來梅
     openstreetmapbulgaria: OpenStreetMap 保加利亞
-    openstreetmapburkinafaso: OpenStreetMap 布基納法索
     openstreetmapburundi: OpenStreetMap 布隆迪
     openstreetmapbzh: OpenStreetMap 布列塔尼
     openstreetmapcambodia: OpenStreetMap 柬埔寨
@@ -171,7 +170,6 @@ zh:
     openstreetmapsaudiarabia: OpenStreetMap 沙地阿拉伯
     openstreetmapsenegal: OpenStreetMap 塞內加爾
     openstreetmapserbia: OpenStreetMap 塞爾維亞
-    openstreetmapseychelles: OpenStreetMap 塞舌爾
     openstreetmapsierraleone: OpenStreetMap 塞拉利昂
     openstreetmapsingapore: OpenStreetMap 新加坡
     openstreetmapslovenia: OpenStreetMap 斯洛文尼亞
@@ -182,7 +180,6 @@ zh:
     openstreetmapsudan: OpenStreetMap 蘇丹
     openstreetmapsweden: OpenStreetMap 瑞典
     openstreetmapswitzerland: OpenStreetMap 瑞士
-    openstreetmapsyria: OpenStreetMap 敘利亞
     openstreetmaptaiwan: OpenStreetMap 臺灣
     openstreetmaptanzania: OpenStreetMap 坦桑尼亞
     openstreetmapthailand: OpenStreetMap 泰國
@@ -347,8 +344,6 @@ zh:
     extendedDescription: 如果你想帮助改善和发展比利时的制图社区，让更多的人痴狂于绘制地图，比利时OpenStreetMap就是你的理想选择！
   be-discourse:
     description: 讨论在比利时 OpenStreetMap 的论坛
-  be-irc:
-    extendedDescription: '在 irc.oftc.net (端口 6667)上加入 #{account} ，它已与 Matrix聊天室 频道互通'
   be-matrix:
     description: 欢迎所有的绘图者！
     extendedDescription: 比利时 OSM 社区的主要聊天室。如果您是新手，请不要犹豫害羞，随意提问！
@@ -579,8 +574,12 @@ zh:
   hu-tm:
     name: '{community} 任務分配管理器'
     description: 探索匈牙利的啟動畫地圖任務
+  hu-website:
+    description: 匈牙利開放街圖社群的網站
   hu-wiki:
     description: '{community} Wiki 頁面'
+  hu-youtube:
+    description: 開放街圖匈牙利聚會直播串流與錄影
   humanitarian-osm-tr-slack:
     name: 人道救援開放街圖土耳其 Slack
     description: 加入人道救援開放街圖土耳其的 Slack 頻道 {url}
@@ -719,6 +718,8 @@ zh:
     description: 加入 {community} Google 羣組
   me-telegram:
     description: 歡迎所有人加入！在 {signupUrl} 註冊
+  minas_gerais-discord:
+    extendedDescription: 歡迎加入開放街圖巴西米納斯吉拉斯州的 Discord！我們是一個由熱衷於為巴西米納斯吉拉斯州建立詳細、開放原始碼地圖的圖客所組成的社群。加入我們來協作、分享技巧，並幫助 MG 的地圖成為開放街圖上最好的地圖。無論您是新手或專家，讓我們一起製圖！
   mm-facebook:
     extendedDescription: 在緬甸畫地圖嗎？有問題，想要與社群互動？來  {url} 加入我們，歡迎所有人。
   mn-facebook:
@@ -1009,8 +1010,6 @@ zh:
     extendedDescription: 在玻利維亞畫地圖嗎？想要問問題，想要與社群連結？請加入 {url}，所有人都歡迎噢！
   talk-mg:
     description: 位于马达加斯加的 OpenStreetMap 贡献者、社区和用户分享和讨论的地方。
-  talk-nz:
-    description: 紐西蘭 OSM 社群聊天群
   talk-pacific:
     description: 莫阿納/大洋洲/太平洋一帶人民的 OSM 地區郵件論壇
     extendedDescription: 我們這個郵件論壇能夠支援所有太平洋的子民，不論他們的多元背景與動機，能夠分享想法、問題、專案與其他這片海域有關的開放街圖事務。
@@ -1050,8 +1049,6 @@ zh:
   uy-irc:
     description: '在 irc.freenode.org (端口 6667)上加入 #{account} '
     extendedDescription: '在 irc.freenode.org 上加入 #{account} '
-  vn-mailinglist:
-    description: 開放街圖越南或越南語的郵件論壇
   vn-wiki:
     description: '{community} Wiki 頁面'
   YerCizenler-TR:
