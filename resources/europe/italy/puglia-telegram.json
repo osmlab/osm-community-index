@@ -1,0 +1,19 @@
+
+{
+  "id": "puglia-telegram",
+  "type": "telegram",
+  "account": "OSMPuglia",
+  "locationSet": {"include": ["puglia.geojson"]},
+  "languageCodes": ["it"],
+  "order": 3,
+  "strings": {
+    "community": "OpenStreetMap Puglia",
+    "communityID": "openstreetmappuglia"
+  },
+  "contacts": [
+    {
+      "name": "Domenica Coratella",
+      "email": "pomenssocial@proton.me"
+    }
+  ]
+}
