@@ -1,5 +1,5 @@
-import chalk from 'chalk';
 import fs from 'node:fs';
+import { styleText } from 'node:util';
 
 // This script will update _only_ the FontAwesome icons in `dist/img/*.svg`
 // There are other icons in that folder that are not Font Awesome icons,
@@ -34,8 +34,8 @@ const toCopy = {
   zulip: 'solid/comments.svg'
 };
 
-const START = '🏗   ' + chalk.yellow('Building icons...');
-const END = '👍  ' + chalk.green('icons built');
+const START = '🏗   ' + styleText('yellow', 'Building icons...');
+const END = '👍  ' + styleText('green', 'icons built');
 
 console.log('');
 console.log(START);
@@ -45,7 +45,7 @@ for (const [key, file] of Object.entries(toCopy)) {
   // copy and remove the comments
   const src = fs.readFileSync(`node_modules/@fortawesome/fontawesome-free/svgs/${file}`, 'utf8');
   fs.writeFileSync(`dist/img/${key}.svg`, src.replace(/<!--[\s\S\n]*?-->/g, ''));
-  console.log(chalk.yellow(`${key}.svg`));
+  console.log(styleText('yellow', `${key}.svg`));
 }
 
 console.timeEnd(END);

@@ -1,11 +1,10 @@
 // External
-import chalk from 'chalk';
 import fs from 'node:fs';
-import { globSync } from 'glob';
 import JSON5 from 'json5';
 import LocationConflation from '@rapideditor/location-conflation';
 import shell from 'shelljs';
 import stringify from '@aitodotai/json-stringify-pretty-compact';
+import { styleText } from 'node:util';
 
 // Internal
 import { resolveStrings } from '../lib/resolve_strings.js';
@@ -23,8 +22,8 @@ buildAll();
 
 
 function buildAll() {
-  const START = '🏗   ' + chalk.yellow('Building dist…');
-  const END = '👍  ' + chalk.green('dist built');
+  const START = '🏗   ' + styleText('yellow', 'Building dist…');
+  const END = '👍  ' + styleText('green', 'dist built');
 
   console.log('');
   console.log(START);
@@ -41,10 +40,10 @@ function buildAll() {
 
   // minify all .json files under dist/
   shell.rm('-f', ['dist/*.min.json']);  // start clean
-  globSync(`dist/**/*.json`).forEach(file => {
+  for (const file of fs.globSync('dist/**/*.json')) {
     const minFile = file.replace('.json', '.min.json');
     minifySync(file, minFile);
-  });
+  }
 
   console.timeEnd(END);
 }
@@ -74,8 +73,8 @@ function minifySync(inPath, outPath) {
     const minified = JSON.stringify(JSON5.parse(contents));
     fs.writeFileSync(outPath, minified);
   } catch (err) {
-    console.error(chalk.red(`Error - ${err.message} minifying:`));
-    console.error('  ' + chalk.yellow(inPath));
+    console.error(styleText('red', `Error - ${err.message} minifying:`));
+    console.error(styleText('yellow', '  ' + inPath));
     process.exit(1);
   }
 }

@@ -1,17 +1,15 @@
 // External
-import chalk from 'chalk';
 import fs from 'node:fs';
-import { globSync } from 'glob';
 import JSON5 from 'json5';
 import jsonschema from 'jsonschema';
 import LocationConflation from '@rapideditor/location-conflation';
 import localeCompare from 'locale-compare';
-import path from 'node:path';
 import geojsonArea from '@mapbox/geojson-area';
 import geojsonBounds from 'geojson-bounds';
 import geojsonPrecision from 'geojson-precision';
 import geojsonRewind from '@mapbox/geojson-rewind';
 import stringify from '@aitodotai/json-stringify-pretty-compact';
+import { styleText } from 'node:util';
 import YAML from 'js-yaml';
 
 const withLocale = localeCompare('en-US');
@@ -40,8 +38,8 @@ buildAll();
 
 
 function buildAll() {
-  const START = '🏗   ' + chalk.yellow('Building data...');
-  const END = '👍  ' + chalk.green('data built');
+  const START = '🏗   ' + styleText('yellow', 'Building data...');
+  const END = '👍  ' + styleText('green', 'data built');
 
   console.log('');
   console.log(START);
@@ -79,14 +77,14 @@ function collectDefaults() {
   try {
     defaults = JSON5.parse(contents).defaults;
   } catch (jsonParseError) {
-    console.error(chalk.red(`Error - ${jsonParseError.message} in:`));
-    console.error('  ' + chalk.yellow('./defaults.json'));
+    console.error(styleText('red', `Error - ${jsonParseError.message} in:`));
+    console.error(styleText('yellow', '  ./defaults.json'));
     process.exit(1);
   }
 
   Object.keys(defaults).forEach(k => _tstrings._defaults[k] = defaults[k]);
 
-  process.stdout.write(chalk.green('✓') + ' 1\n');
+  process.stdout.write(styleText('green', '✓') + ' 1\n');
   return defaults;
 }
 
@@ -99,10 +97,13 @@ function collectFeatures() {
   let files = {};
   process.stdout.write('📦  Features: ');
 
-  globSync('./features/**/*', { nodir: true }).forEach(file => {
+  for (const dirent of fs.globSync('./features/**/*', { withFileTypes: true })) {
+    if (dirent.isDirectory()) continue;
+    const file = dirent.parentPath + '/' + dirent.name;
+
     if (!/\.geojson$/.test(file)) {
-      console.error(chalk.red(`Error - file should have a .geojson extension:`));
-      console.error('  ' + chalk.yellow(file));
+      console.error(styleText('red', `Error - file should have a .geojson extension:`));
+      console.error(styleText('yellow', '  ' + file));
       process.exit(1);
     }
 
@@ -111,8 +112,8 @@ function collectFeatures() {
     try {
       parsed = JSON5.parse(contents);
     } catch (jsonParseError) {
-      console.error(chalk.red(`Error - ${jsonParseError.message} in:`));
-      console.error('  ' + chalk.yellow(file));
+      console.error(styleText('red', `Error - ${jsonParseError.message} in:`));
+      console.error(styleText('yellow', '  ' + file));
       process.exit(1);
     }
 
@@ -132,12 +133,12 @@ function collectFeatures() {
       const lon = ((extent[0] + extent[2]) / 2).toFixed(4);
       const lat = ((extent[1] + extent[3]) / 2).toFixed(4);
       console.warn('');
-      console.warn(chalk.yellow(`Warning for ` + chalk.yellow(file) + `:`));
-      console.warn(chalk.yellow(`GeoJSON feature for small area (${area} km²).  Consider circular include location instead: [${lon}, ${lat}]`));
+      console.warn(styleText('yellow', `Warning for ` + styleText('yellow', file) + `:`));
+      console.warn(styleText('yellow', `GeoJSON feature for small area (${area} km²).  Consider circular include location instead: [${lon}, ${lat}]`));
     }
 
     // use the filename as the feature.id
-    const id = path.basename(file).toLowerCase();
+    const id = dirent.name.toLowerCase();
     feature.id = id;
 
     // sort properties
@@ -152,16 +153,16 @@ function collectFeatures() {
     prettifyFile(file, feature, contents);
 
     if (files[id]) {
-      console.error(chalk.red('Error - Duplicate filenames: ') + chalk.yellow(id));
-      console.error('  ' + chalk.yellow(files[id]));
-      console.error('  ' + chalk.yellow(file));
+      console.error(styleText('red', 'Error - Duplicate filenames: ') + styleText('yellow', id));
+      console.error(styleText('yellow', '  ' + files[id]));
+      console.error(styleText('yellow', '  ' + file));
       process.exit(1);
     }
     features.push(feature);
     files[id] = file;
 
-    process.stdout.write(chalk.green('✓'));
-  });
+    process.stdout.write(styleText('green', '✓'));
+  }
 
   process.stdout.write(' ' + Object.keys(files).length + '\n');
 
@@ -178,10 +179,13 @@ function collectResources(featureCollection) {
   const loco = new LocationConflation(featureCollection);
   process.stdout.write('📦  Resources: ');
 
-  globSync('./resources/**/*.json', { nodir: true }).forEach(file => {
+  for (const dirent of fs.globSync('./resources/**/*', { withFileTypes: true })) {
+    if (dirent.isDirectory()) continue;
+    const file = dirent.parentPath + '/' + dirent.name;
+
     if (!/\.json$/.test(file)) {
-      console.error(chalk.red(`Error - file should have a .json extension:`));
-      console.error('  ' + chalk.yellow(file));
+      console.error(styleText('red', `Error - file should have a .json extension:`));
+      console.error(styleText('yellow', '  ' + file));
       process.exit(1);
     }
 
@@ -190,8 +194,8 @@ function collectResources(featureCollection) {
     try {
       item = JSON5.parse(contents);
     } catch (jsonParseError) {
-      console.error(chalk.red(`Error - ${jsonParseError.message} in:`));
-      console.error('  ' + chalk.yellow(file));
+      console.error(styleText('red', `Error - ${jsonParseError.message} in:`));
+      console.error(styleText('yellow', '  ' + file));
       process.exit(1);
     }
 
@@ -203,8 +207,8 @@ function collectResources(featureCollection) {
         throw new Error(`locationSet ${resolved.id} resolves to an empty feature.`);
       }
     } catch (err) {
-      console.error(chalk.red(`Error - ${err.message} in:`));
-      console.error('  ' + chalk.yellow(file));
+      console.error(styleText('red', `Error - ${err.message} in:`));
+      console.error(styleText('yellow', '  ' + file));
       process.exit(1);
     }
 
@@ -219,8 +223,8 @@ function collectResources(featureCollection) {
       if (!resolvedStrings.url)          { throw new Error('Cannot resolve a value for url'); }
 
     } catch (err) {
-      console.error(chalk.red(`Error - ${err.message} in:`));
-      console.error('  ' + chalk.yellow(file));
+      console.error(styleText('red', `Error - ${err.message} in:`));
+      console.error(styleText('yellow', '  ' + file));
       process.exit(1);
     }
 
@@ -244,8 +248,8 @@ function collectResources(featureCollection) {
     if (item.strings.community) {
       const communityID = simplify(item.strings.community);
       if (!communityID) {
-        console.error(chalk.red(`Error - Generated empty communityID in:`));
-        console.error('  ' + chalk.yellow(file));
+        console.error(styleText('red', `Error - Generated empty communityID in:`));
+        console.error(styleText('yellow', '  ' + file));
         process.exit(1);
       }
       _tstrings._communities[communityID] = item.strings.community;
@@ -269,9 +273,9 @@ function collectResources(featureCollection) {
 
     const itemID = item.id;
     if (files[itemID]) {
-      console.error(chalk.red('Error - Duplicate resource id: ') + chalk.yellow(itemID));
-      console.error('  ' + chalk.yellow(files[itemID]));
-      console.error('  ' + chalk.yellow(file));
+      console.error(styleText('red', 'Error - Duplicate resource id: ') + styleText('yellow', itemID));
+      console.error(styleText('yellow', '  ' + files[itemID]));
+      console.error(styleText('yellow', '  ' + file));
       process.exit(1);
     }
 
@@ -295,16 +299,16 @@ function collectResources(featureCollection) {
         // check date
         const d = new Date(event.when);
         if (isNaN(d.getTime())) {
-          console.error(chalk.red('Error - Bad date: ') + chalk.yellow(event.when));
-          console.error('  ' + chalk.yellow(file));
+          console.error(styleText('red', 'Error - Bad date: ') + styleText('yellow', event.when));
+          console.error(styleText('yellow', '  ' + file));
           process.exit(1);
         }
 
         if (!event.i18n) continue;
 
         if (estrings[event.id]) {
-          console.error(chalk.red('Error - Duplicate event id: ') + chalk.yellow(event.id));
-          console.error('  ' + chalk.yellow(file));
+          console.error(styleText('red', 'Error - Duplicate event id: ') + styleText('yellow', event.id));
+          console.error(styleText('yellow', '  ' + file));
           process.exit(1);
         }
 
@@ -324,8 +328,8 @@ function collectResources(featureCollection) {
       _tstrings[itemID] = translateStrings;
     }
 
-    process.stdout.write(chalk.green('✓'));
-  });
+    process.stdout.write(styleText('green', '✓'));
+  }
 
   process.stdout.write(' ' + Object.keys(files).length + '\n');
 
@@ -386,13 +390,13 @@ function convertURLs(item) {
 function validateFile(file, resource, schema) {
   const validationErrors = v.validate(resource, schema).errors;
   if (validationErrors.length) {
-    console.error(chalk.red('Error - Schema validation:'));
-    console.error('  ' + chalk.yellow(file + ': '));
+    console.error(styleText('red', 'Error - Schema validation:'));
+    console.error(styleText('yellow', '  ' + file + ': '));
     validationErrors.forEach(error => {
       if (error.property) {
-        console.error('  ' + chalk.yellow(error.property + ' ' + error.message));
+        console.error(styleText('yellow', '  ' + error.property + ' ' + error.message));
       } else {
-        console.error('  ' + chalk.yellow(error));
+        console.error(styleText('yellow', '  ' + error));
       }
     });
     process.exit(1);
