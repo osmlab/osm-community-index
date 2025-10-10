@@ -1,65 +1,51 @@
-import chalk from 'chalk';
 import fs from 'node:fs';
-import { icon } from '@fortawesome/fontawesome-svg-core';
+import { styleText } from 'node:util';
 
 // This script will update _only_ the FontAwesome icons in `dist/img/*.svg`
 // There are other icons in that folder that are not Font Awesome icons,
 // (e.g. osm, youthmappers, fediverse) - this script won't touch them.
 
-import {
-  faAt, faComment, faComments, faKeyboard, faLink, faNewspaper, faUsers
-} from '@fortawesome/free-solid-svg-icons';
-
-import {
-  faBluesky, faDiscord, faDiscourse, faLinkedin, faMastodon, faMeetup, faSlack, faSignalMessenger,
-  faTiktok, faSquareFacebook, faSquareGithub, faSquareGitlab, faSquareInstagram, faSquareReddit,
-  faSquareThreads, faSquareXTwitter, faSquareYoutube, faTelegram,
-} from '@fortawesome/free-brands-svg-icons';
-
-
-const toBuild = {
-  bluesky: faBluesky,
-  discord: faDiscord,
-  discourse: faDiscourse,
-  facebook: faSquareFacebook,
-  forum: faComments,
-  github: faSquareGithub,
-  gitlab: faSquareGitlab,
-  group: faUsers,
-  irc: faKeyboard,
-  instagram: faSquareInstagram,
-  linkedin: faLinkedin,
-  mailinglist: faAt,
-  mastodon: faMastodon,
-  matrix: faComments,
-  meetup: faMeetup,
-  newsletter: faNewspaper,
-  reddit: faSquareReddit,
-  signal: faSignalMessenger,
-  slack: faSlack,
-  telegram: faTelegram,
-  threads: faSquareThreads,
-  telegram: faTelegram,
-  tiktok: faTiktok,
-  url: faLink,
-  youtube: faSquareYoutube,
-  x: faSquareXTwitter,
-  zulip: faComments
+const toCopy = {
+  bluesky: 'brands/bluesky.svg',
+  discord: 'brands/discord.svg',
+  discourse: 'brands/discourse.svg',
+  facebook: 'brands/square-facebook.svg',
+  forum: 'solid/comments.svg',
+  github: 'brands/square-github.svg',
+  gitlab: 'brands/square-gitlab.svg',
+  group: 'solid/users.svg',
+  irc: 'solid/keyboard.svg',
+  instagram: 'brands/square-instagram.svg',
+  linkedin: 'brands/square-linkedin.svg',
+  mailinglist: 'solid/at.svg',
+  mastodon: 'brands/mastodon.svg',
+  matrix: 'solid/comments.svg',
+  meetup: 'brands/meetup.svg',
+  newsletter: 'solid/newspaper.svg',
+  reddit: 'brands/square-reddit.svg',
+  signal: 'brands/signal-messenger.svg',
+  slack: 'brands/slack.svg',
+  telegram: 'brands/telegram.svg',
+  threads: 'brands/square-threads.svg',
+  tiktok: 'brands/tiktok.svg',
+  url: 'solid/link.svg',
+  youtube: 'brands/square-youtube.svg',
+  x: 'brands/square-x-twitter.svg',
+  zulip: 'solid/comments.svg'
 };
 
-const START = '🏗   ' + chalk.yellow('Building icons...');
-const END = '👍  ' + chalk.green('icons built');
+const START = '🏗   ' + styleText('yellow', 'Building icons...');
+const END = '👍  ' + styleText('green', 'icons built');
 
 console.log('');
 console.log(START);
 console.time(END);
 
-for (const [key, value] of Object.entries(toBuild)) {
-  const file = `dist/img/${key}.svg`;
-  console.log(chalk.yellow(file));
-
-  // console.log( JSON.stringify(icon(value).html[0], null, 2) );
-  fs.writeFileSync(file, icon(value).html[0]);
+for (const [key, file] of Object.entries(toCopy)) {
+  // copy and remove the comments
+  const src = fs.readFileSync(`node_modules/@fortawesome/fontawesome-free/svgs/${file}`, 'utf8');
+  fs.writeFileSync(`dist/img/${key}.svg`, src.replace(/<!--[\s\S\n]*?-->/g, ''));
+  console.log(styleText('yellow', `${key}.svg`));
 }
 
 console.timeEnd(END);
