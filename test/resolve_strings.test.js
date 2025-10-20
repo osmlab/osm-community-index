@@ -1,6 +1,7 @@
-import { test } from 'node:test';
-import { strict as assert } from 'node:assert';
-import { resolveStrings } from '../index.mjs';
+import { describe, it } from 'bun:test';
+import { strict as assert } from 'bun:assert';
+import { resolveStrings } from '../src/oci.mjs';
+
 
 const item = {
   id: 'talk-ru',
@@ -26,9 +27,9 @@ const defaults = {
 };
 
 
-test('resolveStrings', async t => {
+describe('resolveStrings', () => {
 
-  await t.test('basic', t => {
+  it('basic', () => {
     const resolved = resolveStrings(item, defaults);
     assert.ok(resolved instanceof Object);
 
@@ -46,7 +47,7 @@ test('resolveStrings', async t => {
   });
 
 
-  await t.test('localized', t => {
+  it('localized', () => {
     const stringids = {
       'talk-ru.name': 'переопределить имя',
       '_communities.openstreetmaprussia': 'OpenStreetMap Россия',
@@ -73,7 +74,7 @@ test('resolveStrings', async t => {
   });
 
 
-  await t.test('Throws if an expected replacement token cannot be resolved', t => {
+  it('Throws if an expected replacement token cannot be resolved', () => {
     const missing = {
       id: 'talk-ru',
       type: 'mailinglist',
@@ -85,7 +86,7 @@ test('resolveStrings', async t => {
   });
 
 
-  await t.test('Throws if any extra replacement tokens remain unresolved', t => {
+  it('Throws if any extra replacement tokens remain unresolved', () => {
     const extra = {
       id: 'talk-ru',
       type: 'mailinglist',
@@ -100,7 +101,7 @@ test('resolveStrings', async t => {
   });
 
 
-  await t.test('Linkify subreddits in description, extendedDescription', t => {
+  it('Linkify subreddits in description, extendedDescription', () => {
     const subreddit = {
       id: 'OSM-Reddit',
       type: 'reddit',

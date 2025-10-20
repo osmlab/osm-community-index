@@ -1,15 +1,16 @@
 // External
-import fs from 'node:fs';
-import JSON5 from 'json5';
-import jsonschema from 'jsonschema';
-import LocationConflation from '@rapideditor/location-conflation';
-import localeCompare from 'locale-compare';
 import geojsonArea from '@mapbox/geojson-area';
 import geojsonBounds from 'geojson-bounds';
 import geojsonPrecision from 'geojson-precision';
 import geojsonRewind from '@mapbox/geojson-rewind';
+import { Glob } from 'bun';
+import JSON5 from 'json5';
+import jsonschema from 'jsonschema';
+import LocationConflation from '@rapideditor/location-conflation';
+import localeCompare from 'locale-compare';
+import path from 'bun:path';
 import stringify from '@aitodotai/json-stringify-pretty-compact';
-import { styleText } from 'node:util';
+import { styleText } from 'bun:util';
 import YAML from 'js-yaml';
 
 const withLocale = localeCompare('en-US');
@@ -21,9 +22,9 @@ import { simplify } from '../lib/simplify.js';
 import { writeFileWithMeta } from '../lib/write_file_with_meta.js';
 
 // JSON
-const geojsonSchemaJSON = JSON5.parse(fs.readFileSync('schema/geojson.json', 'utf8'));
-const featureSchemaJSON = JSON5.parse(fs.readFileSync('schema/feature.json', 'utf8'));
-const resourceSchemaJSON = JSON5.parse(fs.readFileSync('schema/resource.json', 'utf8'));
+const geojsonSchemaJSON = await Bun.file('schema/geojson.json').json();
+const featureSchemaJSON = await Bun.file('schema/feature.json').json();
+const resourceSchemaJSON = await Bun.file('schema/resource.json').json();
 
 const Validator = jsonschema.Validator;
 let v = new Validator();
@@ -32,55 +33,53 @@ v.addSchema(geojsonSchemaJSON, 'http://json.schemastore.org/geojson.json');
 
 let _tstrings = { _defaults: {}, _communities: {} };
 let _defaults = {};
-let _features = {};
+let _features = [];
 let _resources = {};
+
 buildAll();
 
-
-function buildAll() {
-  const START = '🏗   ' + styleText('yellow', 'Building data...');
-  const END = '👍  ' + styleText('green', 'data built');
-
+async function buildAll() {
+  const START = '🏗   ' + styleText('yellow', 'Building json…');
+  const END = '👍  ' + styleText('green', 'json built');
   console.log('');
   console.log(START);
   console.time(END);
 
   // Defaults
-  _defaults = collectDefaults();
+  _defaults = await collectDefaults();
+  await writeFileWithMeta('./dist/json/defaults.json', stringify({ defaults: sortObject(_defaults) }) + '\n');
 
   // Features
-  _features = collectFeatures();
+  _features = await collectFeatures();
   const featureCollection = { type: 'FeatureCollection', features: _features };
-  writeFileWithMeta('dist/featureCollection.json', stringify(featureCollection, { maxLength: 9999 }) + '\n');
+  await writeFileWithMeta('./dist/json/featureCollection.json', stringify(featureCollection, { maxLength: 9999 }) + '\n');
+  const loco = new LocationConflation(featureCollection);
 
   // Resources
-  _resources = collectResources(featureCollection);
-  writeFileWithMeta('dist/resources.json', stringify({ resources: sortObject(_resources) }, { maxLength: 9999 }) + '\n');
+  _resources = await collectResources(loco);
+  await writeFileWithMeta('./dist/json/resources.json', stringify({ resources: sortObject(_resources) }, { maxLength: 9999 }) + '\n');
+
+  // Generate the combined file - a FeatureCollection with everything included.
+  const combined = generateCombined(loco);
+  await writeFileWithMeta('./dist/json/completeFeatureCollection.json', stringify(combined) + '\n');
 
   // Translations
   _tstrings._defaults = sortObject(_tstrings._defaults);
   _tstrings._communities = sortObject(_tstrings._communities);
-  fs.writeFileSync('i18n/en.yaml', YAML.dump({ en: sortObject(_tstrings) }, { lineWidth: -1 }) );
+  await Bun.write('./i18n/en.yaml', YAML.dump({ en: sortObject(_tstrings) }, { lineWidth: -1 }) );
 
   console.timeEnd(END);
 }
 
 
 //
-// Gather default strings from `defaults.json`
+// Gather default strings from `./src/defaults.json`
 //
-function collectDefaults() {
+async function collectDefaults() {
   process.stdout.write('📦  Defaults: ');
 
-  let contents = fs.readFileSync('./defaults.json', 'utf8');
-  let defaults;
-  try {
-    defaults = JSON5.parse(contents).defaults;
-  } catch (jsonParseError) {
-    console.error(styleText('red', `Error - ${jsonParseError.message} in:`));
-    console.error(styleText('yellow', '  ./defaults.json'));
-    process.exit(1);
-  }
+  const contents = await Bun.file('./src/defaults.json').json();
+  const defaults = contents.defaults;
 
   Object.keys(defaults).forEach(k => _tstrings._defaults[k] = defaults[k]);
 
@@ -90,30 +89,28 @@ function collectDefaults() {
 
 
 //
-// Gather feature files from `/features/**/*.geojson`
+// Gather feature files from `./features/**/*.geojson`
 //
-function collectFeatures() {
+async function collectFeatures() {
   let features = [];
-  let files = {};
+  const seen = new Map();   // Map<id, filepath>
   process.stdout.write('📦  Features: ');
 
-  for (const dirent of fs.globSync('./features/**/*', { withFileTypes: true })) {
-    if (dirent.isDirectory()) continue;
-    const file = dirent.parentPath + '/' + dirent.name;
-
-    if (!/\.geojson$/.test(file)) {
+  const glob = new Glob('./features/**/*');
+  for (const filepath of glob.scanSync()) {
+    if (!/\.geojson$/.test(filepath)) {
       console.error(styleText('red', `Error - file should have a .geojson extension:`));
-      console.error(styleText('yellow', '  ' + file));
+      console.error(styleText('yellow', '  ' + filepath));
       process.exit(1);
     }
 
-    const contents = fs.readFileSync(file, 'utf8');
+    const contents = await Bun.file(filepath).text();
     let parsed;
     try {
       parsed = JSON5.parse(contents);
     } catch (jsonParseError) {
       console.error(styleText('red', `Error - ${jsonParseError.message} in:`));
-      console.error(styleText('yellow', '  ' + file));
+      console.error(styleText('yellow', '  ' + filepath));
       process.exit(1);
     }
 
@@ -133,12 +130,12 @@ function collectFeatures() {
       const lon = ((extent[0] + extent[2]) / 2).toFixed(4);
       const lat = ((extent[1] + extent[3]) / 2).toFixed(4);
       console.warn('');
-      console.warn(styleText('yellow', `Warning for ` + styleText('yellow', file) + `:`));
+      console.warn(styleText('yellow', `Warning for ` + styleText('yellow', filepath) + `:`));
       console.warn(styleText('yellow', `GeoJSON feature for small area (${area} km²).  Consider circular include location instead: [${lon}, ${lat}]`));
     }
 
     // use the filename as the feature.id
-    const id = dirent.name.toLowerCase();
+    const id = path.basename(filepath).toLowerCase();
     feature.id = id;
 
     // sort properties
@@ -149,53 +146,50 @@ function collectFeatures() {
     if (feature.geometry)   { obj.geometry = feature.geometry; }
     feature = obj;
 
-    validateFile(file, feature, featureSchemaJSON);
-    prettifyFile(file, feature, contents);
+    validateFile(filepath, feature, featureSchemaJSON);
+    await prettifyFile(filepath, feature, contents);
 
-    if (files[id]) {
+    if (seen.has(id)) {
       console.error(styleText('red', 'Error - Duplicate filenames: ') + styleText('yellow', id));
-      console.error(styleText('yellow', '  ' + files[id]));
-      console.error(styleText('yellow', '  ' + file));
+      console.error(styleText('yellow', '  ' + seen.get(id)));
+      console.error(styleText('yellow', '  ' + filepath));
       process.exit(1);
     }
     features.push(feature);
-    files[id] = file;
+    seen.set(id, filepath);
 
     process.stdout.write(styleText('green', '✓'));
   }
 
-  process.stdout.write(' ' + Object.keys(files).length + '\n');
+  process.stdout.write(' ' + seen.size + '\n');
 
   return features;
 }
 
 
 //
-// Gather resource files from `/resources/**/*.json`
+// Gather resource files from `./resources/**/*.json`
 //
-function collectResources(featureCollection) {
+async function collectResources(loco) {
   let resources = {};
-  let files = {};
-  const loco = new LocationConflation(featureCollection);
+  const seen = new Map();   // Map<id, filepath>
   process.stdout.write('📦  Resources: ');
 
-  for (const dirent of fs.globSync('./resources/**/*', { withFileTypes: true })) {
-    if (dirent.isDirectory()) continue;
-    const file = dirent.parentPath + '/' + dirent.name;
-
-    if (!/\.json$/.test(file)) {
+  const glob = new Glob('./resources/**/*');
+  for (const filepath of glob.scanSync()) {
+    if (!/\.json$/.test(filepath)) {
       console.error(styleText('red', `Error - file should have a .json extension:`));
-      console.error(styleText('yellow', '  ' + file));
+      console.error(styleText('yellow', '  ' + filepath));
       process.exit(1);
     }
 
-    let contents = fs.readFileSync(file, 'utf8');
+    const contents = await Bun.file(filepath).text();
     let item;
     try {
       item = JSON5.parse(contents);
     } catch (jsonParseError) {
       console.error(styleText('red', `Error - ${jsonParseError.message} in:`));
-      console.error(styleText('yellow', '  ' + file));
+      console.error(styleText('yellow', '  ' + filepath));
       process.exit(1);
     }
 
@@ -208,7 +202,7 @@ function collectResources(featureCollection) {
       }
     } catch (err) {
       console.error(styleText('red', `Error - ${err.message} in:`));
-      console.error(styleText('yellow', '  ' + file));
+      console.error(styleText('yellow', '  ' + filepath));
       process.exit(1);
     }
 
@@ -224,7 +218,7 @@ function collectResources(featureCollection) {
 
     } catch (err) {
       console.error(styleText('red', `Error - ${err.message} in:`));
-      console.error(styleText('yellow', '  ' + file));
+      console.error(styleText('yellow', '  ' + filepath));
       process.exit(1);
     }
 
@@ -249,7 +243,7 @@ function collectResources(featureCollection) {
       const communityID = simplify(item.strings.community);
       if (!communityID) {
         console.error(styleText('red', `Error - Generated empty communityID in:`));
-        console.error(styleText('yellow', '  ' + file));
+        console.error(styleText('yellow', '  ' + filepath));
         process.exit(1);
       }
       _tstrings._communities[communityID] = item.strings.community;
@@ -268,19 +262,19 @@ function collectResources(featureCollection) {
 
     item = obj;
 
-    validateFile(file, item, resourceSchemaJSON);
-    prettifyFile(file, item, contents);
+    validateFile(filepath, item, resourceSchemaJSON);
+    await prettifyFile(filepath, item, contents);
 
     const itemID = item.id;
-    if (files[itemID]) {
+    if (seen.has(itemID)) {
       console.error(styleText('red', 'Error - Duplicate resource id: ') + styleText('yellow', itemID));
-      console.error(styleText('yellow', '  ' + files[itemID]));
-      console.error(styleText('yellow', '  ' + file));
+      console.error(styleText('yellow', '  ' + seen.get(itemID)));
+      console.error(styleText('yellow', '  ' + filepath));
       process.exit(1);
     }
 
     resources[itemID] = item;
-    files[itemID] = file;
+    seen.set(itemID, filepath);
 
     // Collect translation strings for this resource
     let translateStrings = {};
@@ -300,7 +294,7 @@ function collectResources(featureCollection) {
         const d = new Date(event.when);
         if (isNaN(d.getTime())) {
           console.error(styleText('red', 'Error - Bad date: ') + styleText('yellow', event.when));
-          console.error(styleText('yellow', '  ' + file));
+          console.error(styleText('yellow', '  ' + filepath));
           process.exit(1);
         }
 
@@ -308,7 +302,7 @@ function collectResources(featureCollection) {
 
         if (estrings[event.id]) {
           console.error(styleText('red', 'Error - Duplicate event id: ') + styleText('yellow', event.id));
-          console.error(styleText('yellow', '  ' + file));
+          console.error(styleText('yellow', '  ' + filepath));
           process.exit(1);
         }
 
@@ -331,7 +325,7 @@ function collectResources(featureCollection) {
     process.stdout.write(styleText('green', '✓'));
   }
 
-  process.stdout.write(' ' + Object.keys(files).length + '\n');
+  process.stdout.write(' ' + seen.size + '\n');
 
   return resources;
 }
@@ -404,9 +398,74 @@ function validateFile(file, resource, schema) {
 }
 
 
-function prettifyFile(file, object, contents) {
+async function prettifyFile(file, object, contents) {
   const pretty = stringify(object, { maxLength: 70 }) + '\n';
   if (pretty !== contents) {
-    fs.writeFileSync(file, pretty);
+    await Bun.write(file, pretty);
   }
+}
+
+
+// generateCombined
+// Generate a combined GeoJSON FeatureCollection
+// containing all the features w/ resources stored in properties
+//
+// {
+//   type: 'FeatureCollection',
+//   features: [
+//     {
+//       type: 'Feature',
+//       id: 'Q117',
+//       geometry: { … },
+//       properties: {
+//         'area': 297118.3,
+//         'resources': {
+//           'osm-gh-facebook': { … },
+//           'osm-gh-twitter': { … },
+//           'talk-gh': { … }
+//         }
+//       }
+//     }, {
+//       type: 'Feature',
+//       id: 'Q1019',
+//       geometry: { … },
+//       properties: {
+//         'area': 964945.85,
+//         'resources': {
+//           'osm-mg-facebook': { … },
+//           'osm-mg-twitter': { … },
+//           'talk-mg': { … }
+//         }
+//       }
+//     },
+//     …
+//   ]
+// }
+//
+function generateCombined(loco) {
+  let keepFeatures = {};
+
+  Object.keys(_resources).forEach(resourceID => {
+    const resource = _resources[resourceID];
+    const feature = loco.resolveLocationSet(resource.locationSet).feature;
+
+    let keepFeature = keepFeatures[feature.id];
+    if (!keepFeature) {
+      keepFeature = deepClone(feature);
+      keepFeature.properties.resources = {};
+      keepFeatures[feature.id] = keepFeature;
+    }
+
+    const item = deepClone(resource);
+    item.resolved = resolveStrings(item, _defaults);
+
+    keepFeature.properties.resources[resourceID] = item;
+  });
+
+  return { type: 'FeatureCollection', features: Object.values(keepFeatures) };
+}
+
+
+function deepClone(obj) {
+  return JSON.parse(JSON.stringify(obj));
 }

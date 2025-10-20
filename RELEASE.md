@@ -1,37 +1,36 @@
 ## Release Checklist
 
-### Update Icons
+#### Update Icons
 This project bundles some icons from FontAwesome, corresponding to the types of
 community resources.  Whenever the list of resource types changes:
 
 ```bash
-# Edit `scripts/build_icons.js`
-npm run icons
+# Edit `./scripts/icons.ts` if needed
+bun run icons
 ```
 
-
-### Update changelog, version, tag, and publish
+#### Update version, tag, and publish
 
 ```bash
 # Make sure your main branch is up to date and all tests pass
 git checkout main
 git pull origin
-npm install
-npm run test
+bun install
+bun run all
 
 # Update translations
-npm run txpull
-git add i18n/ && git commit -m 'npm run txpull'
+bun run txpull
+git add i18n/ && git commit -m 'bun run txpull'
 
 # Pick a version, see https://semver.org/ - for example: 'A.B.C' or 'A.B.C-pre.D'
 # Update version number in `package.json`
-# Update CHANGELOG.md and docs as needed
+# Update CHANGELOG.md
+
 export VERSION=vA.B.C-pre.D
-npm run dist
 git add . && git commit -m "$VERSION"
 git tag "$VERSION"
 git push origin main "$VERSION"
-npm publish
+bun publish
 ```
 
 Set as latest release on GitHub:
@@ -44,7 +43,6 @@ Set as latest release on GitHub:
 Include any URLs that anyone might request.
 
 ```bash
-curl 'https://purge.jsdelivr.net/gh/osmlab/osm-community-index@main/dist/completeFeatureCollection.min.json'
 curl 'https://purge.jsdelivr.net/npm/osm-community-index/dist/defaults.min.json'
 curl 'https://purge.jsdelivr.net/npm/osm-community-index/dist/featureCollection.min.json'
 curl 'https://purge.jsdelivr.net/npm/osm-community-index/dist/resources.min.json'
