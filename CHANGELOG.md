@@ -19,6 +19,39 @@ _Breaking changes, which may affect downstream projects, are marked with a_ ⚠�
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 5.10.0
+##### 2025-Oct-21
+* This project uses [`bun`](https://bun.com/) now, for simpler developer tooling ([#827])
+* ⚠️  Exported files under `/dist` have changed:
+  * _Generated files are no longer checked into git, but they are published to npm and available on JSDelivr CDN._
+  * JSON files are now under `/dist/json/*`
+  * JavaScript files are now under `/dist/js/*`
+* Updated dependencies, bump to location-conflation v1.7.0 / country-coder v5.6.0
+* Added:
+  * Emilia-Romagna Telegram ([#815])
+  * Puglia Telegram ([#822])
+* Updated:
+  * Swiss mailing list URL ([#820])
+* Removed:
+  * Vietnam Mastodon ([#817])
+  * Asia Facebook Group ([#819])
+  * Catalan Twitter and mailing list ([#821])
+  * W&M YouthMappers ([#823])
+  * UW Badger Maps ([#824])
+  * Central Salish Sea Meetup ([#825])
+
+[#815]: https://github.com/osmlab/osm-community-index/issues/815
+[#817]: https://github.com/osmlab/osm-community-index/issues/817
+[#819]: https://github.com/osmlab/osm-community-index/issues/819
+[#820]: https://github.com/osmlab/osm-community-index/issues/820
+[#821]: https://github.com/osmlab/osm-community-index/issues/821
+[#822]: https://github.com/osmlab/osm-community-index/issues/822
+[#823]: https://github.com/osmlab/osm-community-index/issues/823
+[#824]: https://github.com/osmlab/osm-community-index/issues/824
+[#825]: https://github.com/osmlab/osm-community-index/issues/825
+[#827]: https://github.com/osmlab/osm-community-index/issues/827
+
+
 # 5.9.3
 ##### 2025-Jul-31
 * Updated dependencies, bump to location-conflation v1.5.0 / country-coder v5.4.0
