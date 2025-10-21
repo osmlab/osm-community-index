@@ -42,14 +42,14 @@ const server = Bun.serve({
       path.shift();            // (remove leading 'docs')
     }
 
-    const filePath = './' + path.join('/');
+    const filepath = './' + path.join('/');
 
     try {
-      const file = Bun.file(filePath);
+      const file = Bun.file(filepath);
       if (await file.exists()) {
-        console.log(styleText('greenBright', `200:  Found → '${filePath}'`));
+        console.log(styleText('greenBright', `200:  Found → '${filepath}'`));
 
-        if (/html$/.test(filePath)) {
+        if (/html$/.test(filepath)) {
           const content: string = await file.text();
           return new Response(replaceCDNPath(content), { headers: { 'content-type': 'text/html' }});
         } else {
@@ -58,11 +58,11 @@ const server = Bun.serve({
       }
     } catch (error) {
       // Handle potential errors during file access
-      console.error(`Error serving file: ${filePath}`, error);
+      console.error(`Error serving file: ${filepath}`, error);
     }
 
     // If file not found or error, return 404
-    console.log(styleText('redBright', `404:  Not Found → '${filePath}'`));
+    console.log(styleText('redBright', `404:  Not Found → '${filepath}'`));
     return new Response('Not Found', { status: 404 });
   }
 });
