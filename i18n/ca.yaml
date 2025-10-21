@@ -43,7 +43,6 @@ ca:
     openstreetmapgermany: OpenStreetMap Alemanya
     openstreetmapgreece: OpenStreetMap Grècia
     openstreetmaphaiti: OpenStreetMap Haití
-    openstreetmaphonduras: OpenStreetMap Hondures
     openstreetmaphungary: OpenStreetMap Hongria
     openstreetmapiceland: OpenStreetMap Islàndia
     openstreetmapindia: OpenStreetMap Índia
@@ -53,10 +52,8 @@ ca:
     openstreetmapitalytrentino: OpenStreetMap Italia-Trentino
     openstreetmapjapan: OpenStreetMap Japó
     openstreetmapkorea: OpenStreetMap Corea
-    openstreetmapkyrgyzstan: OpenStreetMap Kirguizstan
     openstreetmaplatinamerica: OpenStreetMap Amèrica Llatina
     openstreetmaplatvia: OpenStreetMap Letònia
-    openstreetmaplebanon: OpenStreetMap Líban
     openstreetmapliberia: OpenStreetMap Libèria
     openstreetmaplibya: OpenStreetMap Líbia
     openstreetmaplithuania: OpenStreetMap Lituània
@@ -204,10 +201,14 @@ ca:
     name: Universitat de Cape Coast YouthMappers
     description: 'Segueix-nos a Twitter: {url}'
     extendedDescription: Aquest és l'identificacdor oficial dels Joves Cartografistes de la Universitat de Cape Coast, Ghana. Ens encanten els mapes, les dades obertes i ajudar a les persones vulnerables.
+  castilla-y-leon-wiki:
+    description: 'Tot el que has de saber sobre mapejar en Castella i Lleó: {url}'
   cat-github:
     description: Projectes de la comunitat dels Països Catalans d'OpenStreetMap a GitHub
   cat-matrix:
     description: Grup de Matrix per la comunitat d'OpenStreetMap dels Països Catalans
+  cat-twitch:
+    name: Canal de Twitch de {community}
   cat-wiki:
     description: 'Espai de coordinació per la comunitat d''OpenStreetMap als Països Catalans: {url}'
   cd-chapter:
@@ -216,8 +217,20 @@ ca:
     extendedDescription: Uniu-vos a la comunitat per aprendre més sobre OpenStreetMap, fer preguntes o participar en les nostres reunions. Tothom és benvingut!
   cl-telegram:
     extendedDescription: Uniu-vos a la comunitat per aprendre més sobre OpenStreetMap, fer preguntes o participar en les nostres reunions. Tothom és benvingut!
+  co-discourse:
+    name: Tòpic de debats de la comunitat d'OSM sobre Colòmbia
+    description: Aquests són els tòpics relacionats amb canvis del mapa a Colòmbia
+  co-facebook:
+    name: Grup de {community} a Facebook
+    description: Grup de conversació de problemes amb OSM a Colòmbia
+  co-talk:
+    name: 'Llista de correus electrònics de {community}'
+    description: Correus electrònics que requereixen comunicar informació amb la comunitat
+  co-telegram:
+    name: Grup de conversació de {community} a Telegram
+    description: Debats oberts sobre tòpics d'interés general de la comunitat sencera. És el canal més actiu
   comunitat-valenciana-wiki:
-    description: 'Tot el que necessites conèixer sobre mapejar a la Comunitat Valenciana'
+    description: 'Tot el que necessites conèixer sobre mapejar a la Comunitat Valenciana: {url}'
   de-aachen-wiki:
     description: 'Pàgina wiki {community}'
   de-berlin-wiki:
@@ -246,24 +259,58 @@ ca:
     description: 'Pàgina wiki {community}'
   DF-telegram:
     extendedDescription: Uniu-vos a la comunitat per aprendre més sobre OpenStreetMap, fer preguntes o participar en les nostres reunions. Tots són benvinguts!
+  dk-discourse:
+    description: Un fòrum de debat sobre OpenStreetMap a Dinamarca
+  ee-wiki:
+    description: Informació relacionada amb mapejat específicament a Estònia.
   fr-35-wiki:
     description: 'Pàgina wiki {community}'
   fr-38-wiki:
     description: 'Pàgina wiki {community}'
+  fr-bzh-website:
+    description: El mapa que parla Bretó
+  fr-chapter:
+    description: Ajudem a OpenStreetMap a créixer i millorar a França.
+  fr-discord:
+    name: Comunitat de Discord d'OpenStreetMap de França
   fr-montrouge-wiki:
     description: 'Pàgina wiki {community}'
+  fr-telegram:
+    description: 'Grup de Telegram per a la comunitat d''OSM de França: {url}'
+  galicia-wiki:
+    description: 'Tot el que has de saber sobre mapejar a Galícia: {url}'
   Galicia-Xeoinquedos-Twitter:
+    name: Xeoinquedos a Twitter
     description: 'Segueix-nos a Twitter: {url}'
   hr-github:
     description: 'GitHub d''{community}'
+  hr-wiki:
+    description: Pàgina wikiproject per a Croàcia
   hu-facebook-group:
     name: 'Grup de Facebook {community}'
+  hu-mobilizon:
+    description: Esdeveniments pròxims per a la comunitat d'OpenStreetMap a Hongria
+  hu-tm:
+    description: Explorar tasques actives de mapejat a Hongria
+  hu-website:
+    description: El lloc web de la comunitat hongaresa d'OpenStreetMap
   hu-wiki:
     description: 'Pàgina wiki {community}'
+  id-facebook:
+    extendedDescription: Mapejant a Indonèsia? Tens preguntes, vols connectar amb la comunitat d'ací? Uniu-vos a {url}. Tots són benvinguts!
   id-facebook-group:
     name: 'Grup de Facebook {community}'
+    extendedDescription: Mapejant a Indonèsia? Tens preguntes, vols connectar amb la comunitat d'ací? Uniu-vos a {url}. Tots són benvinguts!
+  ireland-chapter:
+    description: Ajudem a OpenStreetMap a créixer i millorar a Irlanda.
+  is-chapter:
+    description: Ajudem OpenStreetMap a créixer i millorar a Islàndia.
+  it-chapter:
+    description: Ajudem OpenStreetMap a créixer i millorar a Itàlia.
   ko-github:
     description: 'GitHub d''{community}'
+  ko-osm:
+    description: Ajudem OpenStreetMap a créixer i millorar a Corea.
   madrid-uam-ym:
     name: YouthMappers a la UAM
     description: Secció de YouthMappers a la Universitat Autònoma de Madrid
@@ -290,6 +337,10 @@ ca:
   OSM-SoCal:
     name: OpenStreetMap Califòrnia del Sud
     extendedDescription: OpenStreetMap (OSM) Califòrnia del Sud és per a tothom interessat en el mapatge que s'uneixi a treballar amb OpenStreetMap. OpenStreetMap, la Viquipèdia dels mapes, és un mapa de codi obert gratuït del món sent creat per més de 1000000 de voluntaris al voltant del món. Tothom és benvingut. Si no coneixes OpenStreetMap, t'ensenyarem. Si tens una idea d'un projecte de mapatge o fins i tot una excursió de camp que el grup pot fer, genial!
+  osm-tw:
+    description: Ajudem OpenStreetMap a créixer i millorar a Taiwan.
+  OSM-US:
+    description: Ajudem OpenStreetMap a créixer i millorar als Estats Units.
   OSMF:
     name: Fundació OpenStreetMap
     description: OSMF és una fundació sense ànim de lucre establerta al Regne Unit que dona suport al projecte OpenStreetMap

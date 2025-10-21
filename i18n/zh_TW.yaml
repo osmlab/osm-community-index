@@ -49,7 +49,6 @@ zh_TW:
     openstreetmapchina: 開放街圖中國
     openstreetmapcologne: 開放街圖科隆
     openstreetmapcomunitatvalenciana: 開放街圖瓦倫西亞社群
-    openstreetmapcostarica: 開放街圖哥斯大黎加
     openstreetmapcotedivoire: 開放街圖象牙海岸
     openstreetmapcroatia: 開放街圖克羅埃西亞
     openstreetmapcuba: 開放街圖古巴
@@ -88,7 +87,6 @@ zh_TW:
     openstreetmapguinea: 開放街圖幾內亞
     openstreetmaphaiti: 開放街圖海地
     openstreetmaphamburg: 開放街圖漢堡
-    openstreetmaphonduras: 開放街圖宏都拉斯
     openstreetmaphongkong: 開放街圖香港
     openstreetmaphungary: 開放街圖匈牙利
     openstreetmapiceland: 開放街圖冰島
@@ -102,7 +100,6 @@ zh_TW:
     openstreetmapitalylazio: 開放街圖義大利拉吉歐
     openstreetmapitalylombardia: 開放街圖義大利倫巴底
     openstreetmapitalypiemonte: 開放街圖義大利皮埃蒙特
-    openstreetmapitalysouthtyrol: 開放街圖義大利波爾察諾-上阿迪傑
     openstreetmapitalytrentino: 開放街圖義大利特倫蒂諾
     openstreetmapjapan: 開放街圖日本
     openstreetmapkarlsruhe: 開放街圖卡爾斯魯爾
@@ -111,10 +108,8 @@ zh_TW:
     openstreetmapkerala: 開放街圖喀拉拉邦
     openstreetmapkorea: 開放街圖韓國
     openstreetmapkosovo: 開放街圖科索渥
-    openstreetmapkyrgyzstan: 開放街圖吉爾吉斯
     openstreetmaplatinamerica: 開放街圖拉丁美洲
     openstreetmaplatvia: 開放街圖拉脫維亞
-    openstreetmaplebanon: 開放街圖黎巴嫩
     openstreetmaplesotho: 開放街圖賴索托
     openstreetmapliberia: 開放街圖賴比瑞亞
     openstreetmaplibya: 開放街圖利比亞
@@ -159,6 +154,7 @@ zh_TW:
     openstreetmappiemonte: 開放街圖皮埃蒙特
     openstreetmappoland: 開放街圖波蘭
     openstreetmapportugal: 開放街圖葡萄牙
+    openstreetmappuglia: 開放街圖普利亞
     openstreetmappunjab: 開放街圖旁遮普
     openstreetmaprdc: 開放街圖剛果民主共和國
     openstreetmaprennes: 開放街圖雷恩
@@ -202,6 +198,7 @@ zh_TW:
     openstreetmapzambia: 開放街圖桑比亞
     openstreetmapzimbabwe: 開放街圖辛巴威
     osmcolombia: OSM 哥倫比亞
+    osmewikiemiliaromagna: OSM 與 Wiki 艾米利亞‧羅馬涅
     osmmainz: 開放街圖美因茨
     osmnelson: OSM 尼爾森
     swissopenstreetmap: 瑞士 OpenStreetMap
@@ -600,7 +597,9 @@ zh_TW:
   it-chapter:
     description: 我們協助義大利的開放街圖成長茁壯並改善它。
   it-discourse:
-    description: 您可以討論 OpenStreetMap 事務的論壇
+    description: 討論開放街圖在義大利事物的論壇
+  it-emilia-romagna-telegram:
+    description: '歡迎大家參與！你可以透過這個連結加入交流：{signupUrl}'
   ivides_website:
     description: 我們專注於永續發展、繪圖及支援 OpenStreetMap 社群。
   ko-facebook:
@@ -776,9 +775,6 @@ zh_TW:
     extendedDescription: 一般在地社群和開放街圖消息。
   OSM-AR-wiki:
     description: 您必須知道在阿根庭製圖的所有事情
-  osm-asia-facebook:
-    description: 開放街圖亞洲 Facebook 社團
-    extendedDescription: 為亞洲提供綜合繪圖支援的社團。我們特別希望成為沒有在地社群的圖客可以分享資訊並協作解決其所在地區問題的地方，否則他們將無法解決由於缺乏當地社群而無法解決的問題。
   osm-at:
     description: 開放街圖在奧地利交流資訊的平台
   osm-bengaluru-matrix:
@@ -789,10 +785,6 @@ zh_TW:
     description: 開放街圖在班加羅爾
   osm-benin-facebook:
     description: 改善貝南的開放街圖
-  OSM-Central-Salish-Sea:
-    name: 開放街圖中薩利希海
-    description: 華盛頓州弗農山區域的圖客與開放街圖使用者
-    extendedDescription: 開放街圖是一幅由像你這樣的人所製作的世界地圖。它是由你所建構，並如同維基百科那樣自由提供給所有人的地圖。看看 osm.org 以取得更多資訊，然後在聚會上加入我們來說說地圖的故事、對 OSM 貢獻然後玩得開心！
   osm-ch:
     name: '{community}'
     description: 開放街圖在瑞士交流資訊的平台
@@ -1010,9 +1002,6 @@ zh_TW:
     extendedDescription: 在玻利維亞畫地圖嗎？想要問問題，想要與社群連結？請加入 {url}，所有人都歡迎噢！
   talk-mg:
     description: 馬達加斯加開放街圖貢獻者、社群和使用者分享和討論的園地
-  talk-pacific:
-    description: 莫阿納/大洋洲/太平洋一帶人民的 OSM 地區郵件論壇
-    extendedDescription: 我們這個郵件論壇能夠支援所有太平洋的子民，不論他們的多元背景與動機，能夠分享想法、問題、專案與其他這片海域有關的開放街圖事務。
   tn-facebook-group:
     name: '{community} Facebook 社團'
   tw-slack:
@@ -1043,9 +1032,6 @@ zh_TW:
   us-massachusetts-mailinglist:
     name: Talk-us 麻塞諸塞州郵件論壇
     description: 麻塞諸塞州 OSM 社群 email 郵件論壇
-  us-newyork-mailinglist:
-    name: Talk-us-newyork 郵件論壇
-    description: 紐約州 OSM 社群 email 郵件論壇
   uy-irc:
     description: '在 irc.freenode.org (port 6667) 上面加入 #{account} '
     extendedDescription: '在 irc.freenode.org 上面加入 #{account} '
@@ -1102,10 +1088,6 @@ zh_TW:
     name: 克門森圖客
     description: 年輕圖客分會在克門森大學
     extendedDescription: 克萊門森大學的學生由地理空間技術中心支援，跨學科的地理空間科學參與者社群支援研究、教學以及推廣活動，使用能夠收集、分析與應用地理空間資料的技術。學生整合地理空間技術用到他們跨越不同學門的學術活動，以及與世界連結起來。
-  ym-College-of-William-and-Mary:
-    name: 全世界都有！
-    description: 威廉與瑪麗學院的年輕圖客分會
-    extendedDescription: 整個地圖所有的學生是由群在課堂整合的 GIS，提供學生與單位硬體、軟體與專案的地理空間分析中心進行支援工作。整個校園所有用到 GIS 學科學生，包括環境科學與政策、地理、歷史、商業、社會、生物、人類學、公共政策與海洋科學。
   ym-Cornell-University:
     name: 畫地圖社團
     description: 年輕圖客分會在康乃爾大學
@@ -1553,10 +1535,6 @@ zh_TW:
     name: 辛巴威大學圖客
     description: 辛巴威大學的年輕圖客分會
     extendedDescription: 辛巴威大學圖客是使用開放街圖在開放資料繪圖與人道救援災難反應畫地圖的志工組成。團隊以開放原始碼地理空間技術能力培力成員。
-  ym-UW-Madison:
-    name: 徽章地圖
-    description: 威斯康辛大學麥迪遜分校的年輕圖客分會
-    extendedDescription: 徽章地圖是威斯康辛大學麥迪遜分校的年輕圖客分會，致力於人道救援與社群畫地圖服務。我們透過各種機會創建 GIS 資料連結志工網絡，來提供給需要的人在專案上使用。
   ym-Vassar-College:
     name: 哈德森谷圖客
     description: 瓦薩學院的年輕圖客分會

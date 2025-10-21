@@ -49,7 +49,6 @@ de:
     openstreetmapchina: OpenStreetMap China
     openstreetmapcologne: OpenStreetMap Köln
     openstreetmapcomunitatvalenciana: OpenStreetMap Comunitat Valenciana
-    openstreetmapcostarica: OpenStreetMap Costa Rica
     openstreetmapcotedivoire: OpenStreetMap Elfenbeinküste
     openstreetmapcroatia: OpenStreetMap Kroatien
     openstreetmapcuba: OpenStreetMap Kuba
@@ -88,7 +87,6 @@ de:
     openstreetmapguinea: OpenStreetMap Guinea
     openstreetmaphaiti: OpenStreetMap Haiti
     openstreetmaphamburg: OpenStreetMap Hamburg
-    openstreetmaphonduras: OpenStreetMap Honduras
     openstreetmaphongkong: OpenStreetMap Hong Kong
     openstreetmaphungary: OpenStreetMap Ungarn
     openstreetmapiceland: OpenStreetMap Island
@@ -102,7 +100,6 @@ de:
     openstreetmapitalylazio: OpenStreetMap Italien-Lazio
     openstreetmapitalylombardia: OpenStreetMap Italien-Lombardei
     openstreetmapitalypiemonte: OpenStreetMap Italien-Piemont
-    openstreetmapitalysouthtyrol: OpenStreetMap Italien-Südtirol
     openstreetmapitalytrentino: OpenStreetMap Italien-Trentino
     openstreetmapjapan: OpenStreetMap Japan
     openstreetmapkarlsruhe: OpenStreetMap Karlsruhe
@@ -111,10 +108,8 @@ de:
     openstreetmapkerala: OpenStreetMap Kerala
     openstreetmapkorea: OpenStreetMap Korea
     openstreetmapkosovo: OpenStreetMap Kosovo
-    openstreetmapkyrgyzstan: OpenStreetMap Kirgisistan
     openstreetmaplatinamerica: OpenStreetMap Lateinamerika
     openstreetmaplatvia: OpenStreetMap Litauen
-    openstreetmaplebanon: OpenStreetMap Libanon
     openstreetmaplesotho: OpenStreetMap Lesotho
     openstreetmapliberia: OpenStreetMap Liberia
     openstreetmaplibya: OpenStreetMap Libyen
@@ -159,6 +154,7 @@ de:
     openstreetmappiemonte: OpenStreetMap Piemont
     openstreetmappoland: OpenStreetMap Polen
     openstreetmapportugal: OpenStreetMap Portugal
+    openstreetmappuglia: OpenStreetMap Puglia
     openstreetmappunjab: OpenStreetMap Punjab
     openstreetmaprdc: OpenStreetMap RDC
     openstreetmaprennes: OpenStreetMap Rennes
@@ -202,6 +198,7 @@ de:
     openstreetmapzambia: OpenStreetMap Sambia
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
     osmcolombia: OSM Kolumbien
+    osmewikiemiliaromagna: OSM und Wiki Emilia-Romagna
     osmmainz: OSM Mainz
     osmnelson: OSM Nelson
     swissopenstreetmap: OpenStreetMap Schweiz
@@ -600,7 +597,9 @@ de:
   it-chapter:
     description: Wir helfen OpenStreetMap in Italien beim besser und größer werden.
   it-discourse:
-    description: Das italienische Forum, in dem Sie über OpenStreetMap diskutieren können
+    description: Ein Forum zur Diskussion über OpenStreetMap in Italien
+  it-emilia-romagna-telegram:
+    description: 'Jeder ist willkommen! Über diesen Link kannst du dem Chat beitreten: {signupUrl}'
   ivides_website:
     description: Wir konzentrieren uns auf nachhaltige Entwicklung, Kartierung und Unterstützung der OpenStreetMap-Community.
   ko-facebook:
@@ -776,9 +775,6 @@ de:
     extendedDescription: Nachrichten von der lokalen Gemeinschaft und OpenStreetMap in Allgemeinen.
   OSM-AR-wiki:
     description: Alles was du über Mappen in Argentinien wissen musst.
-  osm-asia-facebook:
-    description: OpenStreetMap Asien Facebook-Gruppe
-    extendedDescription: Eine Gruppe für integrierte Mapping-Unterstützung für Asien. Wir wollen vor allem ein Ort sein, an dem Kartographen ohne lokale Gemeinschaft Informationen austauschen und gemeinsam an der Lösung von Problemen in ihren Gebieten arbeiten können, die sie sonst aufgrund des Fehlens einer lokalen Gemeinschaft nicht angehen könnten.
   osm-at:
     description: Die Plattform für Information über OpenStreetMap in Österreich
   osm-bengaluru-matrix:
@@ -789,10 +785,6 @@ de:
     description: OpenStreetMap in Bengaluru
   osm-benin-facebook:
     description: Verbesere OpenStreetMap in Benin
-  OSM-Central-Salish-Sea:
-    name: OpenStreetMap Central Salish Sea
-    description: Mapper und OpenStreetMap Benutzer und um Mount Vernon, USA
-    extendedDescription: OpenStreetMap ist eine Weltkarte gemacht von Menschen wie dir. Es ist eine Karte, zu der du beiträgst und die frei zugänglich ist wie Wikipedia. Besuche osm.org für mehr Information. Wir treffen uns immer wieder, um über Karten zu reden, zu mappen und Spaß zu haben!
   osm-ch:
     name: '{community}'
     description: Die Plattform für Informationen über OpenStreetMap in der Schweiz
@@ -1010,9 +1002,6 @@ de:
     extendedDescription: Mappenin Bolivien? Hast duFragen, willst du dich mit der Community hier verbinden? Tritt uns bei {url} bei. Alle sind willkommen!
   talk-mg:
     description: Ort für OpenStreetMap-Mitwirkende, Communitys und Benutzer in Madagaskar um sich auszutauschen und zu diskutieren.
-  talk-pacific:
-    description: Die regionale OSM-Mailingliste für und von den Menschen in Moana/Ozeanien/Pazifik
-    extendedDescription: Wir möchten, dass diese Mailingliste alle Menschen des Pazifiks in all ihrer Vielfalt und ihren Bestrebungen unterstützt, um Gedanken, Fragen, Projekte und alles, was mit OpenStreetMap in unserem Meer von Inseln zu tun hat, auszutauschen.
   tn-facebook-group:
     name: '{community} Facebook Gruppe'
   tw-slack:
@@ -1043,9 +1032,6 @@ de:
   us-massachusetts-mailinglist:
     name: Talk-us-massachusetts Mailing Liste
     description: Email Liste für die OSM Gemeinschaft in Massachusetts
-  us-newyork-mailinglist:
-    name: Talk-us-newyork Mailing Liste
-    description: Email Liste für die OSM Gemeinschaft im Staat New York
   uy-irc:
     description: 'Tritt #{account} auf irc.frreenode.org (port 6667) bei'
     extendedDescription: 'Tritt #{account} auf irc.frreenode.org bei'
@@ -1102,10 +1088,6 @@ de:
     name: Clemson Mappers
     description: YouthMappers Ortsgruppe der Clemson University
     extendedDescription: Die Studenten in Clemson werden vom Center for Geospatial Technologies unterstützt, einer Gemeinschaft von interdisziplinären Geowissenschaftlern, die Forschung, Lehre und Outreach-Aktivitäten mit Technologien unterstützen, die die Sammlung, Analyse und Anwendung von Geodaten ermöglichen. Die Studenten integrieren Geospatial-Technologien in ihre wissenschaftlichen Aktivitäten über alle Disziplinen hinweg und bauen Verbindungen in der ganzen Welt auf.
-  ym-College-of-William-and-Mary:
-    name: All over the map!
-    description: YouthMappers Ortsgruppe des College of William and Mary
-    extendedDescription: Die Studenten, die überall auf der Karte sind, werden vom Center for Geospatial Analysis unterstützt, einer Gruppe, die GIS in den Lehrplan integriert und Studenten und Dozenten mit Hardware, Software und Know-how versorgt. Studenten aller Fachrichtungen nutzen GIS auf dem gesamten Campus, einschließlich Umweltwissenschaft und -politik, Geologie, Geschichte, Wirtschaft, Soziologie, Biologie, Anthropologie, öffentliche Ordnung und Meereswissenschaften.
   ym-Cornell-University:
     name: Mapping Society
     description: YouthMappers Ortsgruppe der Cornell University
@@ -1551,10 +1533,6 @@ de:
     name: UZMappers
     description: YouthMappers Ortsgruppe der University of Zimbabwe
     extendedDescription: Das UzMappersTeam Zimbabwe ist ein Team von Freiwilligen, die OpenStreetMap für die Kartierung offener Daten und humanitärer Katastropheneinsätze nutzen und ihre Mitglieder mit Open-Source-Geodaten-Technologie ausstatten.
-  ym-UW-Madison:
-    name: BadgerMaps
-    description: YouthMappers Ortsgruppe der UW-Madison
-    extendedDescription: BadgerMaps ist die UW-Campusgruppe von Youthmappers, einer Organisation, die sich für humanitäre und kommunale Kartierungsdienste einsetzt. Wir verbinden unser Freiwilligen-Netzwerk mit Möglichkeiten zur Erstellung von GIS-Daten für Projekte, die sie benötigen.
   ym-Vassar-College:
     name: Hudson Valley Mappers
     description: YouthMappers Ortsgruppe der Vassar College

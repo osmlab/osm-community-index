@@ -3,7 +3,7 @@ zh_CN:
     freelibreopensourcesoftwarekosovaflossk: 自由及开放源代码软件科索沃（FLOSSK）
     geolibres: GeoLibres
     kiribatiwomeninmapping: 参与绘图的基里巴斯妇女
-    mapeadoresivides: Mapeadores IVIDES
+    mapeadoresivides: 虚拟可持续发展研究所地图制作者
     mappingbotswana: 博茨瓦纳地图绘制
     maptimebogota: 波哥大地图时间
     opensourcesanjose: 开源圣何塞
@@ -33,7 +33,7 @@ zh_CN:
     openstreetmapbosniaandherzegovina: OpenStreetMap 波黑
     openstreetmapbrasil: OpenStreetMap 巴西
     openstreetmapbrasilia: OpenStreetMap 巴西利亚
-    openstreetmapbrasilminasgerais: 開放街圖巴西米納斯吉拉斯州
+    openstreetmapbrasilminasgerais: OpenStreetMap 巴西米纳斯吉拉斯州
     openstreetmapbremen: OpenStreetMap 不来梅
     openstreetmapbulgaria: OpenStreetMap 保加利亚
     openstreetmapburundi: OpenStreetMap 布隆迪
@@ -49,12 +49,11 @@ zh_CN:
     openstreetmapchina: OpenStreetMap 中国
     openstreetmapcologne: OpenStreetMap 科隆
     openstreetmapcomunitatvalenciana: OpenStreetMap 巴伦西亚社区
-    openstreetmapcostarica: OpenStreetMap 哥斯达黎加
     openstreetmapcotedivoire: OpenStreetMap 科特迪瓦
     openstreetmapcroatia: OpenStreetMap 克罗地亚
     openstreetmapcuba: OpenStreetMap 古巴
     openstreetmapcuneo: OpenStreetMap 库内奥
-    openstreetmapcyprus: 开放街道地图 塞浦路斯
+    openstreetmapcyprus: OpenStreetMap 塞浦路斯
     openstreetmapcz: OpenStreetMap 捷克
     openstreetmapde: OpenStreetMap 德国
     openstreetmapdeepsouth: OpenStreetMap 美国南部诸州
@@ -88,7 +87,6 @@ zh_CN:
     openstreetmapguinea: OpenStreetMap 几内亚
     openstreetmaphaiti: OpenStreetMap 海地
     openstreetmaphamburg: OpenStreetMap 汉堡
-    openstreetmaphonduras: OpenStreetMap 洪都拉斯
     openstreetmaphongkong: OpenStreetMap 中国香港
     openstreetmaphungary: OpenStreetMap 匈牙利
     openstreetmapiceland: OpenStreetMap 冰岛
@@ -102,7 +100,6 @@ zh_CN:
     openstreetmapitalylazio: OpenStreetMap 意大利-拉齐奥
     openstreetmapitalylombardia: OpenStreetMap 意大利-伦巴第
     openstreetmapitalypiemonte: OpenStreetMap 意大利-皮埃蒙特
-    openstreetmapitalysouthtyrol: OpenStreetMap 意大利-南蒂罗尔
     openstreetmapitalytrentino: OpenStreetMap 意大利-特伦蒂诺
     openstreetmapjapan: OpenStreetMap 日本
     openstreetmapkarlsruhe: OpenStreetMap 卡尔斯鲁厄
@@ -111,10 +108,8 @@ zh_CN:
     openstreetmapkerala: OpenStreetMap 喀拉拉邦
     openstreetmapkorea: OpenStreetMap 韩国
     openstreetmapkosovo: OpenStreetMap 科索沃
-    openstreetmapkyrgyzstan: OpenStreetMap 吉尔吉斯斯坦
     openstreetmaplatinamerica: OpenStreetMap 拉丁美洲
     openstreetmaplatvia: OpenStreetMap 拉脱维亚
-    openstreetmaplebanon: OpenStreetMap 黎巴嫩
     openstreetmaplesotho: OpenStreetMap 莱索托
     openstreetmapliberia: OpenStreetMap 利比里亚
     openstreetmaplibya: OpenStreetMap 利比亚
@@ -159,7 +154,8 @@ zh_CN:
     openstreetmappiemonte: OpenStreetMap 皮埃蒙特
     openstreetmappoland: OpenStreetMap 波兰
     openstreetmapportugal: OpenStreetMap 葡萄牙
-    openstreetmappunjab: 開放街圖旁遮普
+    openstreetmappuglia: OpenStreetMap 普利亚
+    openstreetmappunjab: OpenStreetMap 旁遮普邦
     openstreetmaprdc: OpenStreetMap 刚果（金）
     openstreetmaprennes: OpenStreetMap 雷恩
     openstreetmapreunion: OpenStreetMap 留尼汪岛
@@ -201,13 +197,14 @@ zh_CN:
     openstreetmapwesternsahara: OpenStreetMap 西撒哈拉
     openstreetmapzambia: OpenStreetMap 赞比亚
     openstreetmapzimbabwe: OpenStreetMap 津巴布韦
-    osmcolombia: OSM 哥倫比亞
-    osmmainz: 開放街圖美因茨
-    osmnelson: OSM 尼爾森
+    osmcolombia: OSM 哥伦比亚
+    osmewikiemiliaromagna: OSM 和 Wiki 艾米利亚-罗马涅
+    osmmainz: OSM 美因茨
+    osmnelson: OSM 尼尔森
     swissopenstreetmap: 瑞士 OpenStreetMap
     tadeomappers: TadeoMappers
-    youthmappersasu: 青年绘制者ASU
-    youthmappersufrj: 年輕圖客 UFRJ
+    youthmappersasu: YouthMappers 亚利桑那州立大学分会
+    youthmappersufrj: YouthMappers 里约热内卢联邦大学分会
   _defaults:
     aparat:
       name: 'Aparat 上的 {community}'
@@ -215,7 +212,7 @@ zh_CN:
       url: https://aparat.com/{account}
     bluesky:
       name: 'Bluesky 上的 {community}'
-      description: 在 Bluesky 追蹤我們
+      description: 在 Bluesky 关注我们
       url: https://bsky.app/profile/{account}
     discord:
       name: '{community} 的 Discord'
@@ -296,20 +293,20 @@ zh_CN:
       url: https://tiktok.com/@{account}
     twitter:
       name: 'X 上的 {community}'
-      description: 在 X 上追蹤我們
+      description: 在 X 上关注我们
       url: https://twitter.com/{account}
     url:
       name: '{community}'
     wiki:
-      name: '{community} 的維基專題'
+      name: '{community} 的维基专题'
       url: https://wiki.openstreetmap.org/wiki/{account}
     x:
       name: 'X 上的 {community}'
-      description: 在 X 上追蹤我們
+      description: 在 X 上关注我们
       url: https://twitter.com/{account}
     xmpp:
       name: '{community} 的 XMPP'
-      description: '加入我們的 XMPP 社群聊天：{url}'
+      description: '加入我们的 XMPP 社区聊天：{url}'
     youtube:
       name: 'YouTube 上的 {community}'
       description: 订阅我们的 YouTube 频道
@@ -323,7 +320,7 @@ zh_CN:
     description: 阿富汗社区的Martix群
   al-maptime-tirana:
     name: Maptime 地拉那
-    description: 围绕制图组织的社交活动——最欢迎初学者！
+    description: 以制图为主题的社交活动——欢迎新手参与！
     extendedDescription: Maptime 是一个开放的学习环境，适合各种知识水平和程度的人，并为初学者提供有意的教育支持。Maptime 是一个同时具有灵活性和结构性的环境，其为制图教程、工作坊、具有共同目标的持续项目，以及独立/协作工作时间等创造了空间。
   am-wiki:
     description: '{community} Wiki 页面'
@@ -341,7 +338,7 @@ zh_CN:
     extendedDescription: 在孟加拉国绘图？有任何疑问，想要与当地的社区交流？在 {url} 加入我们。欢迎所有人！
   be-chapter:
     description: 我们帮助在比利时发展和改善OpenStreetMap。
-    extendedDescription: 如果你想帮助改善和发展比利时的制图社区，让更多的人痴狂于绘制地图，比利时OpenStreetMap就是你的理想选择！
+    extendedDescription: 如果你想帮助改善和发展比利时的绘图社区，让更多的人痴狂于绘制地图，比利时OpenStreetMap就是你的理想选择！
   be-discourse:
     description: 讨论在比利时 OpenStreetMap 的论坛
   be-matrix:
@@ -366,7 +363,7 @@ zh_CN:
   br-wiki:
     description: 提供巴西绘图信息和协调指南的维基项目。
   cape-coast-youthmappers:
-    name: 海角海岸大學年輕圖客
+    name: 加纳海岸角大学青年地图制作者
     description: '在 Twitter 上关注我们：{url}'
     extendedDescription: 此为加纳海岸角大学的 Youth Mappers 官方分会。我们热爱地图、开放数据以及帮助弱势群体。
   castilla-y-leon-wiki:
@@ -388,14 +385,14 @@ zh_CN:
     name: 宾夕法尼亚中部 OSM
     description: 来自宾夕法尼亚州立大学的在线制图社区
   ch-mailinglist:
-    name: 開放街圖瑞士郵件論壇
+    name: OpenStreetMap 瑞士邮件列表
     description: 瑞士的邮件列表
   cl-facebook:
     extendedDescription: 加入社区以进一步了解OpenStreetMap，可以提出问题或参加我们的会面。欢迎每个人的到来！
   cl-telegram:
     extendedDescription: 加入社区以进一步了解OpenStreetMap，可以提出问题或参加我们的会面。欢迎每个人的到来！
   co-discourse:
-    name: OSM 社群討論有關哥倫比亞的事項
+    name: OSM 社区关于哥伦比亚的讨论主题
     description: 討論與哥倫比亞相關的地圖變動
   co-facebook:
     name: 在 Facebook 的{community}社團
@@ -432,7 +429,7 @@ zh_CN:
     description: 社群活動或是資訊的內容
   co-wiki:
     name: 哥倫比亞畫地圖專案的相關維基頁面文件
-    description: 任何跟在哥倫比亞的開放街圖相關的文件
+    description: 有关 OpenStreetMap 在哥伦比亚的所有相关文档
   co-youtube:
     name: '{community}在 YouTube 的影片'
     description: 社群活動或是 OSM 活動的講解影片
@@ -441,15 +438,15 @@ zh_CN:
   czech-community:
     description: 捷克開放街圖成員的地圖入口以及聯繫地方
   czech-discord:
-    description: 開放街圖捷克連線互連 IRC、Jabber、Matrix 與 Telegram 的空間
+    description: OpenStreetMap CZ 与 IRC、Jabber、Matrix 和 Telegram 连接的聊天室
   czech-irc:
-    description: 開放街圖捷克連線互連 Discord、Jabber、Matrix 與 Telegram 的空間
+    description: OpenStreetMap CZ 与 Discord、Jabber、Matrix 和 Telegram 连接的聊天室
   czech-matrix:
-    description: 開放街圖捷克連線互連 Discord、IRC、Jabber 與 Telegram 的空間
+    description: OpenStreetMap CZ 与 Discord、IRC、Jabber 和 Telegram 连接的聊天室
   czech-telegram:
-    description: 開放街圖捷克連線互連 Discord、IRC、Jabber 與 Matrix 的空間
+    description: OpenStreetMap CZ 与 Discord、IRC、Jabber 和 Matrix 连接的聊天室
   czech-xmpp:
-    description: 開放街圖捷克連線互連 Discord、IRC、Matrix 與 Telegram 的空間
+    description: OpenStreetMap CZ 与 Discord、IRC、Matrix 和 Telegram 连接的聊天室
   de-aachen-wiki:
     description: '{community} Wiki 页面'
   de-berlin-mailinglist:
@@ -477,15 +474,15 @@ zh_CN:
   de-karlsruhe-mailinglist:
     name: 卡爾斯魯爾郵件論壇
   de-karlsruhe-meetup:
-    description: 在卡爾斯魯爾的圖客與開放街圖使用者
+    description: 卡尔斯鲁厄地区的地图绘制者和 OpenStreetMap 用户
   de-luneburg-wiki:
     description: '{community} Wiki 页面'
   de-mainz-mailinglist:
-    description: 美因茨一帶的開放街圖
+    description: 美因茨及其周边地区的 OpenStreetMap
   de-mainz-signal:
-    description: 美茵茲、威斯巴登及周邊地區的 OpenStreetMap
+    description: 美因茨、威斯巴登及周边地区的 OpenStreetMap
   de-mainz-wiki:
-    description: 美因茨一帶的開放街圖
+    description: 美因茨及其周边地区的 OpenStreetMap
   de-munchen-wiki:
     description: '{community} Wiki 页面'
   de-mv-mailinglist:
@@ -498,16 +495,16 @@ zh_CN:
     description: 這是斯徒加特和巴登-符騰堡邦地區開放街圖社群的郵件論壇
   de-stuttgart-meetup:
     name: OpenStreetMap 斯图加特聚会
-    description: 在斯徒加特的圖客與開放街圖使用者
+    description: 斯图加特地区的地图绘制者和 OpenStreetMap 用户
   de-telegram:
     name: OpenStreetMap 德语区（德国-奥地利-瑞士） Telegram
     description: 加入 OpenStreetMap 德语区（德国-奥地利-瑞士） Telegram大群：{url}
   de-ulm_neuulm-meetup:
-    name: OpenStreetMap Ulm Neu-Ulm聚会
-    description: 烏姆和新烏姆區域的圖客與開放街圖使用者
+    name: OpenStreetMap 乌尔姆、新乌尔姆聚会
+    description: 乌尔姆和新乌尔姆地区的地图绘制者和 OpenStreetMap 用户
   de-ulmeralb-meetup:
-    name: OpenStreetMap Ulmer Alb聚会
-    description: Ulmer Alb一帶的圖客與開放街圖使用者
+    name: OpenStreetMap Ulmer Alb 聚会
+    description: Ulmer Alb 地区的地图绘制者和 OpenStreetMap 用户
   de-viersen-meetup:
     name: OpenStreetMap 菲尔森聚会
     description: OSM 菲爾森和門興格拉德巴赫社群與使用者聚會
@@ -552,7 +549,7 @@ zh_CN:
     description: 開放街圖在喬治亞的一般討論群組，有與 Telegram 群組連結
   geogeeks_perth_meetup:
     name: 地理技客伯斯
-    description: 針對畫地圖、地理空間資料和開放原始碼有興趣的伯斯聚會群組，我們定期舉行圖客派對、演講與聚會，歡迎新手加入！
+    description: 珀斯本地地图制作、地理空间数据及开源技术爱好者聚会小组。我们定期举办开放街道地图（OSM）地图制作活动、专题讲座及社交聚会。欢迎新手加入！
   GeoPhilly:
     name: GeoPhilly
     description: 费城地区地图爱好者聚会
@@ -575,11 +572,11 @@ zh_CN:
     name: '{community} 任務分配管理器'
     description: 探索匈牙利的啟動畫地圖任務
   hu-website:
-    description: 匈牙利開放街圖社群的網站
+    description: 匈牙利开放街道地图社区的官方网站
   hu-wiki:
     description: '{community} Wiki 页面'
   hu-youtube:
-    description: 開放街圖匈牙利聚會直播串流與錄影
+    description: 开放街道地图匈牙利线下聚会直播及录播
   humanitarian-osm-tr-slack:
     name: 人道救援開放街圖土耳其 Slack
     description: 加入人道救援開放街圖土耳其的 Slack 頻道 {url}
@@ -592,7 +589,7 @@ zh_CN:
     description: 我们帮助在爱尔兰发展和改善OpenStreetMap。
     extendedDescription: 開放街圖愛爾蘭提供整個愛爾蘭島有關開放街圖計畫的聲音，並且與其他開放倡議的組織互動。
   ireland-irc:
-    extendedDescription: '在 irc.oftc.net (端口 6667)上加入 #{account} ，若您想要提问需耐心等待几分钟'
+    extendedDescription: '在 irc.oftc.net（端口 6667）上加入 #{account} ，若你想要提问需耐心等待几分钟'
   ireland-matrix:
     description: 'OSM 愛爾蘭 IRC 頻道的 Matrix 閘口：{url}'
   is-chapter:
@@ -600,16 +597,18 @@ zh_CN:
   it-chapter:
     description: 我们帮助在意大利发展和改善OpenStreetMap。
   it-discourse:
-    description: 您可以討論 OpenStreetMap 事務的論壇
+    description: 在意大利讨论开放街道地图的论坛
+  it-emilia-romagna-telegram:
+    description: '欢迎各位！你可以通过以下链接进入聊天：{signupUrl}'
   ivides_website:
-    description: 我們專注於永續發展、繪圖及支援 OpenStreetMap 社群。
+    description: 我们致力于可持续发展、地图制作以及对开放街道地图社区的支持。
   ko-facebook:
     description: 南韓的圖客與開放街圖使用者
   ko-github:
     description: '{community} GitHub'
   ko-osm:
     description: 我们帮助在韩国发展和改善OpenStreetMap。
-    extendedDescription: 如果有要或是想貢獻時間給開放街圖的話，歡迎加入我們的行列，我們隨時歡迎新手加入！
+    extendedDescription: 如果你正在为 OpenStreetMap 做出贡献，或者有兴趣参与贡献，欢迎加入我们。我们随时欢迎新成员！
   kosovo-flossk:
     name: 自由及开放源代码软件科索沃（FLOSSK）
     description: 從 2009 年開始推廣自由與開源軟體
@@ -617,7 +616,7 @@ zh_CN:
   kosovo-matrix:
     description: 半官方的全科索沃公開群組 (與 Telegram 訊息連動)。我們歡迎從任何地方來，說任何語言的製圖者。
   kosovo-telegram:
-    description: 半官方的全科索沃 Telegram 公開群組。我們歡迎從任何地方來，說任何語言的製圖者。
+    description: 半官方的科索沃全境 Telegram 公共群组。我们欢迎来自世界各地、使用任何语言的地图制作者加入。
   kp-wiki:
     description: '{community} 畫地圖指南'
   latam-facebook:
@@ -627,7 +626,7 @@ zh_CN:
   latam-telegram:
     description: 在開放街圖拉丁美洲社群的成員聊天，與 Matrix 聊天室連通。
   latam-wiki:
-    description: 您必須知道的在拉丁美洲製圖的所有事情
+    description: 你必须知道的在拉丁美洲绘图的所有事情
   lk-facebook:
     extendedDescription: 在斯里蘭卡畫地圖嗎？有問題，想要與社群互動？來  {url} 加入我們，歡迎所有人。
   local-polynesie-mailinglist:
@@ -637,7 +636,7 @@ zh_CN:
   lu-matrix:
     description: 盧森堡社群的 Matrix 群組，整合整個社群。
   lv-wiki:
-    description: 拉脫維亞維基專題
+    description: 拉脱维亚维基专题
   madrid-uam-ym:
     name: UAM 年輕製圖者
     description: 馬德里自治大學的年輕圖客分會
@@ -646,7 +645,7 @@ zh_CN:
     description: 馬德里技術大學的年輕圖客分會
     extendedDescription: '蒙克洛亞校區在 2017 年 11 月組成的地理志工團體，差不多有從三所大學 (Complutense、CEU 與 UPM) 來的 20 位成員。大學部學生、碩士、博士學生從 Geoinquietos 獲得訓練一起合作組織 (MSF、Acción contra el Hambre…) 活動。由 UPM 正式認可為教育創新專案 (Code IE1718.0411) '
   madrid-wiki:
-    description: '您必須知道的在馬德里製圖的所有事情：{url}'
+    description: '你必须知道的在马德里绘图的所有事情：{url}'
   mailinglist-sk-googlegroups:
     name: 在 Google 群組的斯洛伐克郵件論壇
     description: 斯洛伐克的官方郵件論壇
@@ -659,7 +658,7 @@ zh_CN:
     description: Mapeado Colaborativo / Geoinquietos Zaragoza 推特账号
   MapLYH:
     name: MapLYH
-    description: MapLYH 群組
+    description: MapLYH 群组
   mappa-mercia-group:
     name: Mappa Mercia 本地社区
     description: 中部英格兰的 OpenStreetMap 爱好者的家园
@@ -669,43 +668,43 @@ zh_CN:
     description: 轻松找到滑铁卢地区附近的低碳路线。
   MapRVA:
     name: MapRVA
-    description: MapRVA 是維吉尼亞州里奇蒙市的一群地圖愛好者，他們使用 OpenStreetMap 建立並分享本市的地理空間資料。
+    description: MapRVA 是弗吉尼亚州里士满市的一群地图爱好者，他们致力于利用 OpenStreetMap 创建并分享我们城市的地理空间数据。
   maptime-bogota-facebook:
     name: 地圖時間波哥大
     description: 我們是一群有興趣畫開放街圖波哥大與週遭地區的人。
-    extendedDescription: 了解如何在现场收集数据并将其数字化到 OpenStreetMap 上。 没不需要有基础知识！ 您只需乐于参与、渴望学习和并收获快乐。
+    extendedDescription: 了解如何在现场收集数据并将其数字化到 OpenStreetMap 上。 没不需要有基础知识！ 你只需乐于参与、渴望学习和并收获快乐。
   maptime-bogota-github:
     name: 地圖時間波哥大
     description: 我們是一群有興趣畫開放街圖波哥大與週遭地區的人。
-    extendedDescription: 了解如何在现场收集数据并将其数字化到 OpenStreetMap 上。 没不需要有基础知识！ 您只需乐于参与、渴望学习和并收获快乐。
+    extendedDescription: 了解如何在现场收集数据并将其数字化到 OpenStreetMap 上。 没不需要有基础知识！ 你只需乐于参与、渴望学习和并收获快乐。
   maptime-bogota-linkedin:
     name: 地圖時間波哥大
     description: 我們是一群有興趣畫開放街圖波哥大與週遭地區的人。
-    extendedDescription: 了解如何在现场收集数据并将其数字化到 OpenStreetMap 上。 没不需要有基础知识！ 您只需乐于参与、渴望学习和并收获快乐。
+    extendedDescription: 了解如何在现场收集数据并将其数字化到 OpenStreetMap 上。 没不需要有基础知识！ 你只需乐于参与、渴望学习和并收获快乐。
   maptime-bogota-mastodon:
     name: 地圖時間波哥大
     description: 我們是一群有興趣畫開放街圖波哥大與週遭地區的人。
-    extendedDescription: 了解如何在现场收集数据并将其数字化到 OpenStreetMap 上。 没不需要有基础知识！ 您只需乐于参与、渴望学习和并收获快乐。
+    extendedDescription: 了解如何在现场收集数据并将其数字化到 OpenStreetMap 上。 没不需要有基础知识！ 你只需乐于参与、渴望学习和并收获快乐。
   maptime-bogota-meetup:
     name: 地圖時間波哥大
     description: 我們是一群有興趣畫開放街圖波哥大與週遭地區的人。
-    extendedDescription: 了解如何在现场收集数据并将其数字化到 OpenStreetMap 上。 没不需要有基础知识！ 您只需乐于参与、渴望学习和并收获快乐。
+    extendedDescription: 了解如何在现场收集数据并将其数字化到 OpenStreetMap 上。 没不需要有基础知识！ 你只需乐于参与、渴望学习和并收获快乐。
   maptime-bogota-telegram:
     name: 地圖時間波哥大
     description: 我們是一群有興趣畫開放街圖波哥大與週遭地區的人。
-    extendedDescription: 了解如何在现场收集数据并将其数字化到 OpenStreetMap 上。 没不需要有基础知识！ 您只需乐于参与、渴望学习和并收获快乐。
+    extendedDescription: 了解如何在现场收集数据并将其数字化到 OpenStreetMap 上。 没不需要有基础知识！ 你只需乐于参与、渴望学习和并收获快乐。
   maptime-bogota-twitter:
     name: 地圖時間波哥大
     description: 我們是一群有興趣畫開放街圖波哥大與週遭地區的人。
-    extendedDescription: 了解如何在现场收集数据并将其数字化到 OpenStreetMap 上。 没不需要有基础知识！ 您只需乐于参与、渴望学习和并收获快乐。
+    extendedDescription: 了解如何在现场收集数据并将其数字化到 OpenStreetMap 上。 没不需要有基础知识！ 你只需乐于参与、渴望学习和并收获快乐。
   maptime-bogota-website:
     name: 地圖時間波哥大
     description: 我們是一群有興趣畫開放街圖波哥大與週遭地區的人。
-    extendedDescription: 了解如何在现场收集数据并将其数字化到 OpenStreetMap 上。 没不需要有基础知识！ 您只需乐于参与、渴望学习和并收获快乐。
+    extendedDescription: 了解如何在现场收集数据并将其数字化到 OpenStreetMap 上。 没不需要有基础知识！ 你只需乐于参与、渴望学习和并收获快乐。
   maptime-bogota-youtube:
     name: 地圖時間波哥大
     description: 我們是一群有興趣畫開放街圖波哥大與週遭地區的人。
-    extendedDescription: 了解如何在现场收集数据并将其数字化到 OpenStreetMap 上。 没不需要有基础知识！ 您只需乐于参与、渴望学习和并收获快乐。
+    extendedDescription: 了解如何在现场收集数据并将其数字化到 OpenStreetMap 上。 没不需要有基础知识！ 你只需乐于参与、渴望学习和并收获快乐。
   Maptime-ME-meetup:
     name: Maptime 缅因州
     description: 位于缅因州波特兰地区的绘图者和 OpenStreetMap 用户
@@ -719,13 +718,13 @@ zh_CN:
   me-telegram:
     description: 欢迎所有人加入！在 {signupUrl} 上注册。
   minas_gerais-discord:
-    extendedDescription: 歡迎加入開放街圖巴西米納斯吉拉斯州的 Discord！我們是一個由熱衷於為巴西米納斯吉拉斯州建立詳細、開放原始碼地圖的圖客所組成的社群。加入我們來協作、分享技巧，並幫助 MG 的地圖成為開放街圖上最好的地圖。無論您是新手或專家，讓我們一起製圖！
+    extendedDescription: 欢迎加入OSM米纳斯吉拉斯州Discord社区！我们是一群热衷于为巴西的米纳斯吉拉斯州制作详细开源地图的地图制作者。加入我们，一起合作、分享技巧，共同将米吉州的地图打造成开放街道地图上最优质的地图。无论你是新手还是资深地图制作者，让我们一起绘制地图吧！
   mm-facebook:
     extendedDescription: 在緬甸畫地圖嗎？有問題，想要與社群互動？來  {url} 加入我們，歡迎所有人。
   mn-facebook:
     extendedDescription: 在蒙古畫地圖嗎？有問題，想要與社群互動？來 {url} 加入我們，歡迎所有人。
   mt-irc:
-    extendedDescription: '在 irc.oftc.net (端口 6667)上加入 #{account} ，若您想要提问需耐心等待几分钟'
+    extendedDescription: '在 irc.oftc.net (端口 6667)上加入 #{account} ，若你想要提问需耐心等待几分钟'
   nl-discourse:
     description: 討論開放街圖在尼德蘭事物的論壇
   nl-matrix:
@@ -742,20 +741,20 @@ zh_CN:
     extendedDescription: 在尼泊爾畫地圖嗎？有問題，想要與社群互動？來 {url} 加入我們，歡迎所有人。
   Open-Source-San-Jose-Discord:
     name: 開源聖荷西的 Discord
-    description: '在 Discord 與其他圖客交流！註冊之後，加入 #🗺openstreetmap 頻道。'
+    description: '在 Discord 上与其他地图绘制者交流！注册后，加入 #🗺openstreetmap 频道。'
   Open-Source-San-Jose-Mastodon:
-    description: 在 Mastodon 上追蹤開放原始碼聖荷西。
-    extendedDescription: 開放原始碼聖荷西是在地的非營利組織，透過公民科技將程式設計師及設計師志願者與社群需求相互連結。OSSJ 贊助當地志願者每兩週舉辦一次的南灣繪圖之夜。
+    description: 关注开源圣何塞（Open Source San José）的 Mastodon 账号。
+    extendedDescription: 开源圣何塞（Open Source San José）是一家本地非营利组织，通过公民科技（Civic Technology）将编程志愿者和设计师与社区需求相连接。OSSJ 赞助本地志愿者制图社区的每两周开展的南湾制图之夜活动。
   Open-Source-San-Jose-Slack:
     name: 開源聖荷西的 Slack
     description: '歡迎所有人加入！在 {signupUrl} 註冊，並加入 #proj-osm 頻道。'
   OpenCleveland-meetup:
     name: 开放克利夫兰
     description: 在克利夫兰地区改进 OpenStreetMap
-    extendedDescription: Open Geo 克里夫兰宗旨是成为人们讨论和分享他们关于自由地理数据集的资源库，尤其是OpenStreetMap数据集，以及管理、编辑和展示地理数据的开放地理空间软件，以及推动它们在俄亥俄洲东北部的使用。我们同时也是一个Maptime本地分会
+    extendedDescription: Open Geo 克利夫兰 旨在为人们提供一个资源平台，让他们能够讨论和分享如何使用免费地理数据集（尤其是 OpenStreetMap）以及管理、编辑和显示地理数据的开放地理空间软件，并倡导在俄亥俄州东北部推广这些软件。我们也是 maptime 的一个分会 =)
   osgeo-oceania:
     name: 'OSGeo 大洋洲 '
-    description: 我們支援大洋洲的開放街圖社群的發展。
+    description: 我们支持大洋洲OpenStreetMap社区的发展。
     extendedDescription: OSGeo 大洋洲的目的是支援與茁壯大洋洲的開放地理空間社群，包括監督與管理 FOSS4G SotM 大洋洲大會。
   osm-africa-eventbrite:
     name: '{community} EventBrite'
@@ -773,12 +772,9 @@ zh_CN:
   OSM-AR-telegram:
     extendedDescription: 這是社群最活躍的頻道，適合聊天和馬上解答你的問題，歡迎所有人！
   OSM-AR-twitter:
-    extendedDescription: 当地社区和 OpenStreetMap 大体的新闻
+    extendedDescription: 本地社区动态及 OpenStreetMap 相关资讯。
   OSM-AR-wiki:
-    description: 您必須知道在阿根庭製圖的所有事情
-  osm-asia-facebook:
-    description: 開放街圖亞洲 Facebook 社團
-    extendedDescription: 為亞洲提供綜合繪圖支援的社團。我們特別希望成為沒有在地社群的圖客可以分享資訊並協作解決其所在地區問題的地方，否則他們將無法解決由於缺乏當地社群而無法解決的問題。
+    description: 你必须知道的在阿根廷绘图的所有事情
   osm-at:
     description: 位于奥地利的 OpenStreetMap 信息平台
   osm-bengaluru-matrix:
@@ -789,10 +785,6 @@ zh_CN:
     description: 開放街圖在班加羅爾
   osm-benin-facebook:
     description: 改善貝南的開放街圖
-  OSM-Central-Salish-Sea:
-    name: OpenStreetMap 中央盐海
-    description: 位于华盛顿州弗农山地区的绘图者和 OpenStreetMap 用户
-    extendedDescription: OpenStreetMap 是由您这样的人制作的世界地图。 这是您创建的地图，像维基百科一样免费赠送。 查看 osm.org 了解更多。 我们一直在开会，讨论地图，制作地图并尽享乐趣！
   osm-ch:
     name: '{community}'
     description: 位于瑞士的 OpenStreetMap 信息平台
@@ -802,7 +794,7 @@ zh_CN:
   OSM-Colorado:
     name: OpenStreetMap 科罗拉多州
     description: 位于美国科罗拉多州的绘图者和 OpenStreetMap 用户
-    extendedDescription: 科罗拉多州 OpenStreetMap 是一个有志于为创建免费地图做出贡献的人们的本地协作。 我们鼓励所有制图员组织或提倡举行全州制图活动。 聚会活动可以是简单的社交混合器，从基础到高级的 OSM 技术培训、或社区绘图聚会。
+    extendedDescription: OpenStreetMap (OSM) 科罗拉多 是一个由热衷于免费地图创作的人士组成的本地合作组织。我们鼓励所有地图绘制者在科罗拉多州组织或推荐地图绘制活动。聚会活动可以是简单的社交聚会、从基础到高级的 OSM 培训，或社区地图绘制派对。
   osm-de:
     description: 位于德国的 OpenStreetMap 信息平台
   osm-deep-south-wiki:
@@ -813,7 +805,7 @@ zh_CN:
     extendedDescription: 開放街圖德里的 XMPP 群組聊天室；不會連接到任何專屬網路。
   OSM-Discord:
     name: OpenStreetMap 全球 Discord
-    description: 全球 OpenStreetMap 社群的非官方、社群運作的 Discord 伺服器。提供區域頻道。
+    description: 非官方的、由社区运营的Discord服务器，专为全球的开放街道地图社区服务。提供区域频道。
   OSM-Discourse:
     name: 開放街圖社群論壇
     description: 討論開放街圖的共享空間
@@ -833,7 +825,7 @@ zh_CN:
   osm-india-github:
     description: '和我们一起编程: {url}'
   osm-india-mastodon:
-    description: 在聯邦宇宙上的開放街圖印度的家
+    description: Fediverse 上的 OpenStreetMap 印度社区主页
   osm-india-matrix:
     extendedDescription: OSM 印度非官方的聊天室，也與 osmindia Telegram 群組同步
   OSM-India-Puducherry-Facebook:
@@ -851,26 +843,26 @@ zh_CN:
   osm-india-wiki:
     description: '在印度绘图所需要知道的所有事情: {url}'
   osm-india-xmpp:
-    name: 開放街圖印度 XMPP
+    name: OpenStreetMap 印度 XMPP
     extendedDescription: '印度 OSM 社群的 Matrix 聊天室；未橋接至任何專有網路。也可以透過 XMPP 的 https://xmpp.link/#osm-in:poddery.com 位址加入'
   osm-iran-aparat:
     extendedDescription: 关于OpenStreetMap相关的诸多内容的波斯语视频资源。
   osm-iran-discord:
-    extendedDescription: 開放街圖伊朗的 Discord 伺服器，歡迎加入！
+    extendedDescription: OpenStreetMap 伊朗的 Discord 服务器。欢迎加入！
   osm-iran-telegram:
     extendedDescription: 欢迎你加入我们的 Telegram 频道 {url}。 我们也有一个有着众多对伊朗感兴趣的 OSM 绘图者的超级群组，请在频道的介绍页面找寻链接。
   OSM-japan-discord:
-    description: 'OSM 日本社群的 Discord 工作空間：{url}'
+    description: 'OSM 日本社区的 Discord 工作区：{url}'
   OSM-japan-facebook:
     description: 在日本的绘图者和 OpenStreetMap 用户
   OSM-japan-website:
     description: 位于日本的绘图者和 OpenStreetMap 用户
   osm-kenya:
     description: OSM Kenya 是 OSM 贡献者及用户的社群
-    extendedDescription: OSM 肯亞是對開放街圖有興趣的個人的社群，包括國境內的組織、開發者、以及 YouthMappers 分會。
+    extendedDescription: OSM 肯尼亚是一个面向对 OpenStreetMap 感兴趣的个人的本地社区，其中包括该国的组织、开发人员和 YouthMappers 分会。
   osm-kenya-facebook:
     description: OSM Kenya 是 OSM 贡献者及用户的社群
-    extendedDescription: OSM 肯亞是對開放街圖有興趣的個人的社群，包括國境內的組織、開發者、以及 YouthMappers 分會。
+    extendedDescription: OSM 肯尼亚是一个面向对 OpenStreetMap 感兴趣的个人的本地社区，其中包括该国的组织、开发人员和 YouthMappers 分会。
   OSM-Kerala-facebook:
     description: 改进位于喀拉拉邦的 OpenStreetMap
     extendedDescription: 在喀拉拉畫地圖嗎？有問題，想要與社群互動？來 {url} 加入我們，歡迎所有人。
@@ -890,7 +882,7 @@ zh_CN:
   osm-michigan-wiki:
     description: '{community} Wiki 页面'
   osm-nelson:
-    description: 開放街紐西蘭尼爾森的群組
+    description: 新西兰尼尔森的一个 OpenStreetMap 小组。
   osm-ni:
     name: MapaNica.net
     description: 提供尼加拉瓜在地社群 OSM 服務和資訊
@@ -918,7 +910,7 @@ zh_CN:
   osm-punjab-telegram:
     description: 我们一起绘制旁遮普。加入我们的 Telegram 群组。{url}
   OSM-Rome-meetup:
-    name: Incontro Mappatori Romani
+    name: 罗马地图制作者会议
     description: 在罗马地区改进 OpenStreetMap
     extendedDescription: 我们是一群热情讨论和分享自由地理数据集知识的人，特别是 OpenStreetMap 的数据，以及管理、编辑和显示地理数据的开放地理空间软件，以及在拉齐奥推广的团体。
   OSM-Seattle:
@@ -931,7 +923,7 @@ zh_CN:
   OSM-Tampa-Bay:
     name: OpenStreetMap 坦帕湾
     description: 坦帕湾地区的 OpenStreetMap 贡献者和使用者
-    extendedDescription: OSM 坦帕湾群组让当地居民聚在一起，用开放街图创建坦帕湾的准确地图。如果您使用地图、数据、开放原代码、GPS、徒步旅行或是骑自行车等等，您将会很喜欢与 OpenStreetMap 合作，所以请加入吧！我们会聚在一起，制图并讨论每月的新主题。
+    extendedDescription: OSM 坦帕湾群组让当地居民聚在一起，用开放街图创建坦帕湾的准确地图。如果你使用地图、数据、开放原代码、GPS、徒步旅行或是骑自行车等等，你将会很喜欢与 OpenStreetMap 合作，所以请加入吧！我们会聚在一起，制图并讨论每月的新主题。
   osm-td-facebook:
     description: 改善乍得的 OpenStreetMap
   OSM-Telegram:
@@ -956,26 +948,26 @@ zh_CN:
     description: 欢迎所有人加入！在 {signupUrl} 上注册。
   OSM-Utah:
     name: OpenStreetMap 犹他州
-    description: 您的鹽湖城地區 OSM 繪圖社群
+    description: 你在盐湖城地区的 OSM 地图制作社区
     extendedDescription: 我們每個月在鹽湖城聚會，通常是每個月的第二個星期三。歡迎大家參與！
   OSM-Wyoming:
     name: OpenStreetMap 怀俄明州
     description: 位于怀俄明州的绘图者和 OpenStreetMap 用户
-    extendedDescription: 開放街圖 (OpenStreetMap, OSM) 懷俄明是一個喜歡貢獻他們的心力建立自由地圖的一群地區協作夥伴。我們鼓勵我們所有的圖客組織或建議橫跨整個州的製圖活動。會面活動可以是簡單的社交活動、OSM 基礎到進階訓練，或是社群製圖派對。
+    extendedDescription: 开放街道地图（OSM）怀俄明州是一个本地协作组织，汇集了致力于制作自由地图的热心人士。我们鼓励所有制图者在全州范围内组织或提出制图活动。聚会形式可以多种多样，包括简单的社交交流、从基础到进阶的OSM培训，或是社区制图聚会。
   osmcz-twitter:
     description: 追蹤捷克開放街圖 Twitter -  包括翻譯 WeeklyOSM！
   OSMF:
     name: OpenStreetMap 基金会
     description: OSMF 是总部位于英国的非营利组织，用于支持 OpenStreetMap 项目。
-    extendedDescription: '開放街圖基金會藉由募款，維持開放街圖背後的伺服器，舉行年度 State of the Map 大會，以及協調志工維持開放街圖運作，支援開放街圖計畫。你可以在這裡藉由加入開放街圖基金會成為會員：{signupUrl}'
+    extendedDescription: 'OSMF 通过筹款、维护 OSM 的服务器、组织年度地图现状大会以及协调维护 OSM 运行的志愿者来支持 OpenStreetMap 项目。你可以通过以下方式加入 OSMF 会员，表达你的支持并为 OpenStreetMap 的发展方向发声：{signupUrl}'
   ph-facebook-group:
     name: '{community} Facebook 群组'
   PHXGeo-meetup:
     name: PHXGeo会议
     description: 位于亚利桑那州凤凰城地区的绘图者和 OpenStreetMap 用户
-    extendedDescription: 這是一個給住在鳳凰城，喜歡地圖、GIS、開放街圖、製圖與其他東西的群組。
+    extendedDescription: 这是一个面向凤凰城地区对地图、地理信息系统（GIS）、开放街道地图（OpenStreetMap）、制图学以及相关领域感兴趣的人士的聚会小组。
   PHXGeo-twitter:
-    name: PHXGeo Twitter
+    name: PHXGeo 的推特
     description: 在 Twitter 上关注我们：{url}
   pt-wiki:
     description: 提供葡萄牙製圖資訊與協調指南的維基主題。
@@ -990,7 +982,7 @@ zh_CN:
   rs-wiki:
     description: 開放街圖維基專題的塞爾維亞頁面
   scandinavia-discord:
-    name: 開放街圖世界 Discord 的 Scandinavian 頻道
+    name: 开放街道地图全球 Discord 上的斯堪的纳维亚频道
   sg-wiki:
     description: '{community} Wiki 页面'
   si-github:
@@ -1000,25 +992,22 @@ zh_CN:
   si-wiki:
     description: '{community} Wiki 页面'
   sk-freemap:
-    description: OpenStreetMap 地图网站及工具于斯洛伐克及周边区域
+    description: 斯洛伐克及周边地区 OpenStreetMap 网站及配套工具
   sosm:
     name: 瑞士開放街圖協會
     description: 瑞士開放街圖協會的創立宗旨為推廣開放街圖運動，加強與官方與業界的關係，協助瑞士開放街圖社群成員的活動，並且向其他組織代表瑞士的開放街圖社群。
   talk-au:
     description: 澳大利亚绘图者交流的地方
   talk-bo:
-    extendedDescription: 在玻利维亚绘图？有任何疑问，想要与当地的社区交流？在 {Url} 加入我们。欢迎所有人！
+    extendedDescription: 在玻利维亚绘图？有任何疑问，想要与当地的社区交流？在{url}加入我们。欢迎所有人！
   talk-mg:
     description: 位于马达加斯加的 OpenStreetMap 贡献者、社区和用户分享和讨论的地方。
-  talk-pacific:
-    description: 莫阿納/大洋洲/太平洋一帶人民的 OSM 地區郵件論壇
-    extendedDescription: 我們這個郵件論壇能夠支援所有太平洋的子民，不論他們的多元背景與動機，能夠分享想法、問題、專案與其他這片海域有關的開放街圖事務。
   tn-facebook-group:
     name: '{community} Facebook 群组'
   tw-slack:
     description: 欢迎所有人加入！在 {signupUrl} 上注册。
   tw-wiki:
-    description: '您必須知道的在台灣製圖的所有事情：{url}'
+    description: '你必须知道的在台湾绘图的所有事情：{url}'
   tz-website:
     description: 提供坦尚尼亞在地社群 OSM 服務和資訊
   ua-github:
@@ -1043,9 +1032,6 @@ zh_CN:
   us-massachusetts-mailinglist:
     name: Talk-us-massachusetts 邮件列表
     description: 麻塞諸塞州 OSM 社群 email 郵件論壇
-  us-newyork-mailinglist:
-    name: Talk-us-newyork 郵件論壇
-    description: 紐約州 OSM 社群 email 郵件論壇
   uy-irc:
     description: '在 irc.freenode.org (端口 6667)上加入 #{account} '
     extendedDescription: '在 irc.freenode.org 上加入 #{account} '
@@ -1056,13 +1042,13 @@ zh_CN:
     description: Yer Çizenler 畫任何與人有關的事情
     extendedDescription: Yer Çizenler 是在地 NGO 團體，屬於土耳其 OSM 社群的一份子，主要目標是在美國的測繪畫地圖社群當中，推廣使用開放地理空間資料與工具。
   ym-AASTU:
-    name: AASTU Youth Mappers
+    name: 爱沙尼亚科技大学青年地图制作者
     description: 年輕圖客阿迪斯阿貝巴科技大學分會
     extendedDescription: 大地工程學生協會 (Association of Geomatics Engineering Students, AGES) 關注推廣 GIS 產業與服務，同時也訓練學生如何使用。該組織不只促進學生與專業人士間的交流，也透過在大學舉行新 GIS 與探察活動還有訓練課程提供交換新點子的平台。
   ym-Abia-State-University:
     name: Absu 圖客小組
     description: 年輕圖客阿比亞州立大學分會
-    extendedDescription: AbsuMappersTeam 是由地圖愛好者，做用開放街圖、GIS 與其他開源地理空間技術來解決問題的志工團隊組成，目標是採用開放街圖來應對災難。這個組織由專家指導，以及透過賦能平台來指導熱愛 GIS 與畫地圖的人。這是創造地理空間資料、現地探查與畫地圖的志工社群。AbsuMappersTeam 由 Victor N.Sunday (團隊指導者) 與團隊協調者與設施顧問 J.U.Ogbonna 教授共同創辦。AbsuMappersTeam 與 UniiqueMappersTeam-Port Harcourt 有相關，團隊同樣支持運用地理空間科技來永續發展。
+    extendedDescription: AbsuMappersTeam 是由地图爱好者组成的志愿团队，使用 OpenStreetMap、GIS 和其他开源地理空间技术解决问题。它致力于使用 OpenStreetMap 进行灾难应急响应。它是一个面向 GIS 和地图绘制爱好者的专业指导和赋能平台。它是一个由志愿者组成的社区，致力于地理空间数据创建、现场数据收集和地图绘制。该团队由 Victor N.Sunday（团队导师）和 J.U.Ogbonna 教授（团队协调员兼教职顾问）共同创立。AbsuMapperTeam 是 UniiqueMappersTeam-Port Harcourt 的附属机构。该团队致力于利用地理空间技术支持可持续发展。
   ym-African-Methodist-Episcopal-University:
     name: AMEU 的年輕圖客分會
     description: 非洲衛理公會主教大學的年輕圖客分會
@@ -1102,10 +1088,6 @@ zh_CN:
     name: 克門森圖客
     description: 年輕圖客分會在克門森大學
     extendedDescription: 克萊門森大學的學生由地理空間技術中心支援，跨學科的地理空間科學參與者社群支援研究、教學以及推廣活動，使用能夠收集、分析與應用地理空間資料的技術。學生整合地理空間技術用到他們跨越不同學門的學術活動，以及與世界連結起來。
-  ym-College-of-William-and-Mary:
-    name: 全世界都有！
-    description: 威廉與瑪麗學院的年輕圖客分會
-    extendedDescription: 整個地圖所有的學生是由群在課堂整合的 GIS，提供學生與單位硬體、軟體與專案的地理空間分析中心進行支援工作。整個校園所有用到 GIS 學科學生，包括環境科學與政策、地理、歷史、商業、社會、生物、人類學、公共政策與海洋科學。
   ym-Cornell-University:
     name: 畫地圖社團
     description: 年輕圖客分會在康乃爾大學
@@ -1120,7 +1102,7 @@ zh_CN:
     extendedDescription: 蘇阿科科和邦縣的年輕圖客在卡丁頓大學，由來自三個不同系所的學生組成：自然資源管理學系 (DONRM)、環境科學系，以及自然科學系。自從 2017 年 2 月開始成立後，目前有 20 位學生，每個系所有 5 位學生。
   ym-Dedan-Kimathi-University-of-Technology:
     name: GDEV
-    description: Dedan Kimathi 科技大學的 YouthMappers 分會
+    description: 德丹·基马蒂科技大学青年地图制作者分会
     extendedDescription: GDEV 是由 DEKUT GIS 群組的熱情者組成，主要幫助學生分享、介接與學生有關地理空間的事物。
   ym-Dhaka-College:
     name: 年輕圖客達卡大學
@@ -1154,7 +1136,7 @@ zh_CN:
     description: 年輕圖客在大吉德郡社區大學的分會
     extendedDescription: Grand Gedeh Community College 年輕圖客分會的唯一目的是將賴比瑞亞還沒有在地圖上的地方畫上去。我們從 Grand Gedeh Community College 聚集年輕人，讓他們承擔讓這些地方在地理上發光。
   ym-Gujarat-University:
-    name: 亞美達巴德的 CCIM
+    name: 艾哈迈达巴德 CCIM
     description: 古吉拉特大學的年輕圖客分會
   ym-Gulu-University:
     name: CSGU 圖客
@@ -1191,7 +1173,7 @@ zh_CN:
     name: 都市計劃學院 - 湖區中心的年青圖客分會
     description: 姆萬扎區鄉村計畫學院的年輕圖客分會
   ym-Institute-of-Science-and-Veterinary-Medicine:
-    name: YouthMappers ISSMV Dalaba
+    name: 青年地图制作者国际科学与社会地图制作协会（ISSMV）达拉巴分会
     description: 科学和兽医学院 YouthMappers 分会
     extendedDescription: YouthMappers ISSMV Dabala是一个非营利组织，致力于促进人道主义地图绘制以及使用开源和开放数据在几内亚建立决策工具。
   ym-Istanbul-Technical-University:
@@ -1215,11 +1197,11 @@ zh_CN:
     extendedDescription: 我們是堪塞斯州立大學 Chapter of Gamma Theta Upsilon，與年輕圖客有從屬關係。我們相當熱衷繪製 OSM 以及主導圖客松活動 "Map for Nepal"，在 2015 年泥泊爾大地震數位化還沒有繪製的地方。
   ym-Karatina-University:
     name: 卡蒂纳大学自然俱乐部
-    description: Karatina 大學的 YouthMappers 分會
+    description: 卡拉蒂纳大学青年地图制作者分会
     extendedDescription: 這個分會的宗旨為聚集所有的 GIS 愛好者，包括環境議題專案、野生動物專案、水域與觀光官員等等。主要的目的為提供學生彼此學習的平台，而在過程當中瞭解如何在職涯當中運用學到的 GIS 技能解決環境相關議題。
   ym-Kenyatta-University:
-    name: Kenyatta University GIS Club
-    description: 肯雅塔大學的 YouthMappers 分會
+    name: 肯雅塔大学地理信息系统俱乐部
+    description: 肯雅塔大学青年地图制作者分会
     extendedDescription: 肯亞塔大學 GIS 社團 (Kenyatta University GIS Club, KUGISC) 是在 2016 年 10 月 28 日成立的，擁有超過 200 位遍佈校園與學院的教職員。我們承諾透過培力成員的空間知識與技能，來讓他們瞭解地球。我們藉由在專案當中整合地理空間資料以及實務的田野資料收集來繪製地圖。
   ym-Khulna-University:
     name: 庫爾納大學年輕圖客
@@ -1491,11 +1473,11 @@ zh_CN:
   ym-University-of-Nigeria-Enugu-Campus:
     name: 獅子圖客小組 (LMT) 埃努古校區
     description: 奈吉利亞大學埃努古校區的年輕圖客分會
-    extendedDescription: 獅子圖客小組 (LMT) 埃努古校區屬於年輕圖客網絡的一員，目標是提供成員學習與精進他們地理資訊的能力，以及創建開放地理資料與分析的能力，還有識別在地定義的全球挑戰。獅子圖客小組 (LMT) 埃努古校區是群眾外包畫圖與開放街圖、公民科學與其他地理空間科技用在研究、訓練與回應韌性社群挑戰的地理資訊生成者的志工。我們涉入網路製圖、GIS 與遙測研究。我們對志願性地理資訊、參與式 GIS 與公民科學相當有熱情。我們主要的活動包括線上群眾外包地理製圖，現在畫地圖，訓練工作坊與中學的推廣活動，以及人道救援/災難應對的畫地圖。
+    extendedDescription: 尼日利亚大学埃努古分校的 LionMappersTeam (LMT) 是 YouthMappers Network 的附属机构，其唯一目标是为成员提供学习和提高地理信息学技能的机会，并创建开放的地理数据和分析，以解决全球范围内的本地挑战。这是一个由志愿者组成的团队，使用 OpenStreetMap、公民科学和其他地理空间技术提供众包地图和地理信息，用于研究、培训和应对弹性社区挑战。我们参与网络制图、GIS 和遥感应用和研究。我们对志愿地理信息、参与式 GIS 和公民科学充满热情。我们的主要活动包括在线众包地图、现场制图、培训研讨会和高中推广以及人道主义/灾难响应地图绘制。
   ym-University-of-Nigeria-Nsukka:
     name: 獅子圖客小組 (LMT) 努思卡
     description: 奈吉利亞大學努思卡的年輕圖客分會
-    extendedDescription: 獅子圖客小組 (LMT) 屬於年輕圖客網絡的一員，目標是提供成員學習與精進他們地理資訊的能力，以及創建開放地理資料與分析的能力，還有識別在地定義的全球挑戰。獅子圖客小組 (LMT) 區是群眾外包畫圖與開放街圖、公民科學與其他地理空間科技用在研究、訓練與回應韌性社群挑戰的地理資訊生成者的志工。我們涉入網路製圖、GIS 與遙測研究。我們對志願性地理資訊、參與式 GIS 與公民科學相當有熱情。我們主要的活動包括線上群眾外包地理製圖，現在畫地圖，訓練工作坊與中學的推廣活動，以及人道救援/災難應對的畫地圖。
+    extendedDescription: LionMappersTeam 隶属于 YouthMappers Network，其唯一目标是为成员提供学习和提升地图科学技能的机会，并创建开放的地理数据和分析，以应对全球范围内的本地挑战。这是一个由志愿者组成的团队，致力于众包地图和地理信息提供，使用 OpenStreetMap、公民科学和其他地理空间技术进行研究、培训和应对韧性社区挑战。我们参与 GIS 和遥感应用与研究、参与式 GIS 和公民科学、实地测绘、培训研讨会以及面向高中的推广活动。
   ym-University-of-North-Texas:
     name: 北德州大學地理社團
     description: 北德州大學的年輕圖客分會
@@ -1553,10 +1535,6 @@ zh_CN:
     name: 辛巴威大學圖客
     description: 辛巴威大學的年輕圖客分會
     extendedDescription: 辛巴威大學圖客是使用開放街圖在開放資料繪圖與人道救援災難反應畫地圖的志工組成。團隊以開放原始碼地理空間技術能力培力成員。
-  ym-UW-Madison:
-    name: 徽章地圖
-    description: 威斯康辛大學麥迪遜分校的年輕圖客分會
-    extendedDescription: 徽章地圖是威斯康辛大學麥迪遜分校的年輕圖客分會，致力於人道救援與社群畫地圖服務。我們透過各種機會創建 GIS 資料連結志工網絡，來提供給需要的人在專案上使用。
   ym-Vassar-College:
     name: 哈德森谷圖客
     description: 瓦薩學院的年輕圖客分會

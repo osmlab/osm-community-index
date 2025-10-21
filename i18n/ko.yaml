@@ -31,6 +31,7 @@ ko:
     openstreetmapbosniaandherzegovina: 오픈스트리트맵 보스니아헤르체코비나
     openstreetmapbrasil: 오픈스트리트맵 브라질
     openstreetmapbrasilia: 오픈스트리트맵 브라질리아
+    openstreetmapbrasilminasgerais: 오픈스트리트맵 브라질 미나스제라이스 주
     openstreetmapbremen: 오픈스트리트맵 브레멘
     openstreetmapbulgaria: 오픈스트리트맵 불가리아
     openstreetmapburundi: 오픈스트리트맵 부룬디
@@ -46,7 +47,6 @@ ko:
     openstreetmapchina: 오픈스트리트맵 중국
     openstreetmapcologne: 오픈스트리트맵 쾰른
     openstreetmapcomunitatvalenciana: 오픈스트리트맵 코무니타트 발렌시아나
-    openstreetmapcostarica: 오픈스트리트맵 코스타리카
     openstreetmapcotedivoire: 오픈스트리트맵 코트디부아르
     openstreetmapcroatia: 오픈스트리트맵 크로아티아
     openstreetmapcuba: 오픈스트리트맵 쿠바
@@ -84,7 +84,6 @@ ko:
     openstreetmapguinea: 오픈스트리트맵 기니
     openstreetmaphaiti: 오픈스트리트맵 아이티
     openstreetmaphamburg: 오픈스트리트맵 함부르크
-    openstreetmaphonduras: 오픈스트리트맵 온두라스
     openstreetmaphongkong: 오픈스트리트맵 홍콩
     openstreetmaphungary: 오픈스트리트맵 헝가리
     openstreetmapiceland: 오픈스트리트맵 아이슬란드
@@ -98,7 +97,6 @@ ko:
     openstreetmapitalylazio: 오픈스트리트맵 이탈리아-라치오
     openstreetmapitalylombardia: 오픈스트리트맵 이탈리아-롬바르디아
     openstreetmapitalypiemonte: 오픈스트리트맵 이탈리아-피에몬테
-    openstreetmapitalysouthtyrol: 오픈스트리트맵 이탈리아-남티롤
     openstreetmapitalytrentino: 오픈스트리트맵 이탈리아-트렌티노
     openstreetmapjapan: 오픈스트리트맵 일본
     openstreetmapkarlsruhe: 오픈스트리트맵 카를스루에
@@ -107,10 +105,8 @@ ko:
     openstreetmapkerala: 오픈스트리트맵 케랄라
     openstreetmapkorea: 오픈스트리트맵 한국
     openstreetmapkosovo: 오픈스트리트맵 코소보
-    openstreetmapkyrgyzstan: 오픈스트리트맵 키르기스스탄
     openstreetmaplatinamerica: 오픈스트리트맵 라틴 아메리카
     openstreetmaplatvia: 오픈스트리트맵 라트비아
-    openstreetmaplebanon: 오픈스트리트맵 레바논
     openstreetmaplesotho: 오픈스트리트맵 레소토
     openstreetmapliberia: 오픈스트리트맵 라이베리아
     openstreetmaplibya: 오픈스트리트맵 리비아
@@ -202,6 +198,9 @@ ko:
       name: '{community}의 아파라트'
       description: 저희 아파라트 채널을 구독하세요
       url: https://aparat.com/{account}
+    bluesky:
+      name: '{community} on Bluesky'
+      url: https://bsky.app/profile/{account}
     discord:
       name: '{community} 디스코드'
       description: Discord로 다른 매퍼들과 소통하세요
@@ -280,6 +279,8 @@ ko:
       description: 저희 틱톡을 팔로우 하세요
       url: https://tiktok.com/@{account}
     twitter:
+      name: '{community}의 X 채널'
+      description: 저희 X 채널을 팔로우하세요
       url: https://twitter.com/{account}
     url:
       name: '{community}'
@@ -287,6 +288,8 @@ ko:
       name: '{community} 위키프로젝트'
       url: https://wiki.openstreetmap.org/wiki/{account}
     x:
+      name: '{community}의 X 채널'
+      description: 저희 X 채널을 팔로우하세요
       url: https://twitter.com/{account}
     xmpp:
       name: '{community} XMPP'
@@ -374,6 +377,8 @@ ko:
     extendedDescription: 오픈스트리트맵을 더 잘 알고 싶다면, 커뮤니티에 가입해보세요. 회의에 참여할 수도 있고, 질문을 할 수도 있습니다. 누구나 환영합니다!
   cl-telegram:
     extendedDescription: 오픈스트리트맵을 더 잘 알고 싶다면, 커뮤니티에 가입해보세요. 회의에 참여할 수도 있고, 질문을 할 수도 있습니다. 누구나 환영합니다!
+  co-facebook:
+    name: Facebook의 {community} 그룹
   comunitat-valenciana-wiki:
     description: '발렌시아 지도제작에 대해 알아야 할 모든 것: {url}'
   czech-community:
@@ -526,8 +531,6 @@ ko:
     description: 우리는 아이슬란드 내의 오픈스트리트맵을 성장시키고 개선하도록 돕습니다.
   it-chapter:
     description: 우리는 이탈리아 내의 오픈스트리트맵을 성장시키고 개선하도록 돕습니다.
-  it-discourse:
-    description: 오픈스트리트맵에 대해 논의할 수 있는 포럼
   ko-facebook:
     description: 한국 거주 오픈스트리트맵 사용자 및 맵퍼
   ko-github:
@@ -691,9 +694,6 @@ ko:
     extendedDescription: 지역사회와 오픈스트리트맵의 소식입니다.
   OSM-AR-wiki:
     description: 아르헨티나 지도 제작에 대해 알아야 할 모든 것.
-  osm-asia-facebook:
-    description: 오픈스트리트맵 아시아 페이스북 그룹
-    extendedDescription: 아시아를 위한 통합 지도 제작 지원을 위한 단체입니다. 특히 지역 커뮤니티가 없는 맵퍼들이 지역 커뮤니티가 없어 해결할 수 없었던 지역의 문제를 해결하기 위해 정보를 공유하고 협력하는 장이 되기를 원합니다.
   osm-at:
     description: 오스트리아 오픈스트리트맵 정보 플랫폼
   osm-bengaluru-matrix:
@@ -704,10 +704,6 @@ ko:
     description: 오픈스트리트맵 벵갈루루
   osm-benin-facebook:
     description: 베냉 오픈스트리트맵 개선
-  OSM-Central-Salish-Sea:
-    name: 오픈스트리트맵 중앙 살리시해
-    description: 워싱턴주 마운트버논 주변의 맵퍼와 오픈스트리트맵 사용자
-    extendedDescription: 오픈스트리트맵은 당신 같은 사람들이 만든 세계지도입니다. 그것은 위키피디아처럼 무료로 제공하는 여러분이 만든 지도입니다. 자세한 내용은 osm.org을 참조하십시오. 우리는 항상 만나서 지도에 대해 이야기하고 지도를 만들고 재미있게 놀아요!
   osm-ch:
     name: '{community}'
     description: 스위스 오픈스트리트맵 정보 플랫폼
@@ -913,9 +909,6 @@ ko:
     extendedDescription: 볼리비아에서 맵핑 중이신가요? 질문이 있고, 여기 커뮤니티와 연결하고 싶으신가요? {url}에서 참여하세요! 모두 환영합니다!
   talk-mg:
     description: 마다가스카르 내 오픈스트리트맵 기여자와 공동체, 사용자가 공유하고 논의하기 위한 장소.
-  talk-pacific:
-    description: 모아나/오세아니아/태평양 지역 OSM 메일링 목록
-    extendedDescription: 우리는 이 메일링 리스트가 태평양의 모든 사람들과 우리의 다양성과 열망에 대해, 우리의 섬 바다에서 열린 거리 지도와 관련된 생각, 질문, 프로젝트 및 모든 것을 공유할 수 있도록 지원하기를 바랍니다.
   tn-facebook-group:
     name: '{community} Facebook 그룹'
   tw-slack:
@@ -946,9 +939,6 @@ ko:
   us-massachusetts-mailinglist:
     name: Talk-us-massachusetts 메일링 리스트
     description: 매사추세츠 오픈스트리트맵 공동체의 메일링리스트입니다.
-  us-newyork-mailinglist:
-    name: Talk-us-newyork 메일링 리스트
-    description: 뉴욕 오픈스트리트맵 공동체의 메일링리스트입니다.
   uy-irc:
     description: 'irc.freenode.org 에서 #{account} 가입(포트 6667)'
     extendedDescription: 'irc.freenode.org 에서 #{account} 가입'
@@ -1003,10 +993,6 @@ ko:
     name: 클램손 맵퍼스
     description: 클램손 유니버시티 YouthMappers 지부
     extendedDescription: 클렘슨의 학생들은 지리 공간 데이터의 수집, 분석 및 적용을 가능하게 하는 기술을 사용하여 연구, 교육 및 봉사 활동을 지원하는 학제 간 지리 공간 과학 종사자들의 커뮤니티인 지리 공간 기술 센터의 지원을 받습니다. 학생들은 모든 학문 분야에 걸쳐 지리 공간 기술을 학문적 활동 내에 통합하고 전 세계에 걸쳐 인맥을 구축합니다.
-  ym-College-of-William-and-Mary:
-    name: 지도 곳곳에 모입니다!
-    description: 윌리엄 & 메리 대학교 YouthMappers 지부
-    extendedDescription: 그 지도 곳곳에 있는 학생들은 GIS를 교육과정 전반에 걸쳐 통합하고 학생과 교수진에게 하드웨어, 소프트웨어, 전문지식을 제공하는 단체인 지리공간분석센터의 지원을 받습니다. 환경과학과 정책, 지질학, 역사학, 경영학, 사회학, 생물학, 인류학, 공공정책, 해양과학 등 모든 배경의 학생들이 캠퍼스 전체에서 GIS를 활용합니다.
   ym-Cornell-University:
     name: 지도제작학회
     description: 코넬 대학교 YouthMappers 지부
@@ -1421,9 +1407,6 @@ ko:
   ym-University-of-Zimbabwe:
     description: Zimbabwe 대학교 YouthMappers 지부
     extendedDescription: 짐바브웨 UzMappersTeam은 오픈 데이터 매핑 및 인도주의적 재난 대응 매핑을 위해 OpenStreetMap을 사용하는 자원봉사자 팀입니다. 이 팀은 구성원들에게 오픈 소스 지리 공간 기술 기술을 제공합니다.
-  ym-UW-Madison:
-    description: 위스콘신대학교 매디슨 YouthMappers 지부
-    extendedDescription: BadgerMaps는 Youthmapers의 위스콘신대학교 캠퍼스 지부로, 인도주의 및 지역사회 지도제작 서비스에 전념하는 조직입니다. 우리는 우리의 자원봉사 네트워크를 그것이 필요한 프로젝트를 위한 GIS 데이터를 만들 수 있는 기회와 연결합니다.
   ym-Vassar-College:
     name: 허드슨 밸리 맵퍼
     description: 바사르 대학 YouthMappers 지부

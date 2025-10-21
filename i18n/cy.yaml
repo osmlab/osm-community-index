@@ -49,7 +49,6 @@ cy:
     openstreetmapchina: OpenStreetMap Tsieina
     openstreetmapcologne: OpenStreetMap Cologne
     openstreetmapcomunitatvalenciana: OpenStreetMap Comunitat Valenciana
-    openstreetmapcostarica: OpenStreetMap Costa Rica
     openstreetmapcotedivoire: OpenStreetMap Y Traeth Ifori
     openstreetmapcroatia: OpenStreetMap Croatia
     openstreetmapcuba: OpenStreetMap Ciwba
@@ -88,7 +87,6 @@ cy:
     openstreetmapguinea: OpenStreetMap Guinea
     openstreetmaphaiti: OpenStreetMap Haiti
     openstreetmaphamburg: OpenStreetMap Hamburg
-    openstreetmaphonduras: OpenStreetMap Honduras
     openstreetmaphongkong: OpenStreetMap Hong Cong
     openstreetmaphungary: OpenStreetMap Hwngari
     openstreetmapiceland: OpenStreetMap Gwlad yr Iâ
@@ -102,7 +100,6 @@ cy:
     openstreetmapitalylazio: OpenStreetMap Yr Eidal-Lazio
     openstreetmapitalylombardia: OpenStreetMap Yr Eidal-Lombardia
     openstreetmapitalypiemonte: OpenStreetMap Yr Eidal-Piemonte
-    openstreetmapitalysouthtyrol: OpenStreetMap Yr Eidal-De Tyrol
     openstreetmapitalytrentino: OpenStreetMap Yr Eidal-Trentino
     openstreetmapjapan: OpenStreetMap Japan
     openstreetmapkarlsruhe: OpenStreetMap Karlsruhe
@@ -111,10 +108,8 @@ cy:
     openstreetmapkerala: OpenStreetMap Kerala
     openstreetmapkorea: OpenStreetMap Korea
     openstreetmapkosovo: OpenStreetMap Kosovo
-    openstreetmapkyrgyzstan: OpenStreetMap Kyrgyzstan
     openstreetmaplatinamerica: OpenStreetMap Lladin America
     openstreetmaplatvia: OpenStreetMap Latfia
-    openstreetmaplebanon: OpenStreetMap Lebanon
     openstreetmaplesotho: OpenStreetMap Lesotho
     openstreetmapliberia: OpenStreetMap Liberia
     openstreetmaplibya: OpenStreetMap Libya
@@ -159,6 +154,7 @@ cy:
     openstreetmappiemonte: OpenStreetMap Piemonte
     openstreetmappoland: OpenStreetMap Gwlad Pwyl
     openstreetmapportugal: OpenStreetMap Portiwgal
+    openstreetmappuglia: OpenStreetMap Puglia
     openstreetmappunjab: OpenStreetMap Punjab
     openstreetmaprdc: OpenStreetMap RDC
     openstreetmaprennes: OpenStreetMap Rennes
@@ -202,6 +198,7 @@ cy:
     openstreetmapzambia: OpenStreetMap Zambia
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
     osmcolombia: OSM Colombia
+    osmewikiemiliaromagna: OSM a Wiki Emilia-Romagna
     osmmainz: OSM Mainz
     osmnelson: OSM Nelson
     swissopenstreetmap: OpenStreetMap Y Swistir
@@ -430,6 +427,8 @@ cy:
     description: 'Tudalen Wici {community}'
   de-mainz-mailinglist:
     description: OpenStreetMap ym Mainz und Umgebung
+  de-mainz-signal:
+    description: OpenStreetMap ym Mainz, Wiesbaden und Umgebung
   de-mainz-wiki:
     description: OpenStreetMap ym Mainz und Umgebung
   de-munchen-wiki:
@@ -505,8 +504,6 @@ cy:
     description: Rydym yn tyfu a gwella OpenStreetMap yng Ngwlad yr Iâ.
   it-chapter:
     description: Rydym yn tyfu a gwella OpenStreetMap yn yr Eidal.
-  it-discourse:
-    description: Fforwm i drafod OpenStreetMap yn yr Eidal
   ko-facebook:
     description: Mapwyr a defnyddwyr OpenStreetMap yng Nghorea
   ko-github:
@@ -623,20 +620,18 @@ cy:
     description: Geolibres Civil Association
   OSM-AR-twitter:
     extendedDescription: Newyddion o'r gymuned leol ac OpenStreetMap yn gyffredinol.
-  osm-asia-facebook:
-    description: Grŵp Facebook OpenStreetMap Asia
   osm-bengaluru-wiki:
     description: OpenStreetMap ym Mengaluru
   osm-benin-facebook:
     description: Gwella OpenStreetMap ym Menin
-  OSM-Central-Salish-Sea:
-    name: OpenStreetMap Central Salish Sea
   osm-ch:
     name: '{community}'
   OSM-Chattanooga:
     name: OSM Chattanooga
+    description: Grŵp defnyddwyr OpenStreetMap ar gyfer Chattanooga
   OSM-Colorado:
     name: OpenStreetMap Colorado
+    description: Mapwyr a defnyddwyr OpenStreetMap yn nhalaith Colorado, UDA
   osm-deep-south-wiki:
     description: 'Tudalen Wici {community}'
   osm-delhi-xmpp:
@@ -763,9 +758,6 @@ cy:
   us-massachusetts-mailinglist:
     name: Rhestr Bost Talk-us-massachusetts
     description: Dyma rhestr bost ar gyfer y gymuned OSM yn Massachusetts
-  us-newyork-mailinglist:
-    name: Rhestr Bost Talk-us-newyork
-    description: Dyma rhestr bost ar gyfer y gymuned OSM yn Efrog Newydd
   uy-irc:
     description: 'Ymunwch â #{account} ar irc.freenode.org (porth 6667)'
     extendedDescription: 'Ymunwch â #{account} ar irc.freenode.org'
@@ -811,9 +803,6 @@ cy:
   ym-Clemson-University:
     name: Clemson Mappers
     description: Siapter YouthMappers yn Clemson University
-  ym-College-of-William-and-Mary:
-    name: Ledled y map!
-    description: Siapter YouthMappers yn College of William and Mary
   ym-Cornell-University:
     name: Mapping Society
     description: Siapter YouthMappers yn Cornell University
@@ -1015,8 +1004,6 @@ cy:
     name: Gamma Theta Upsilon/Geography Club
   ym-University-of-Zimbabwe:
     name: UZMappers
-  ym-UW-Madison:
-    name: BadgerMaps
   ym-Vassar-College:
     name: Hudson Valley Mappers
   ym-Villanova-University:
@@ -1025,5 +1012,7 @@ cy:
     name: Maptime Morgantown
   ym-Western-Michigan-University:
     name: Geography Club
+    description: Siapter YouthMappers yn Western Michigan University
   ym-Yarmouk-University:
     name: YouthMappers at YU
+    description: Siapter YouthMappers yn Yarmouk University
