@@ -49,4 +49,4 @@ If you have any questions or want to reach out to a maintainer, ping [@bhousel][
 See the [LICENSE.md](LICENSE.md) file for more details.
 
 This project also bundles some icons from [FontAwesome](https://fontawesome.com/).
-The icons are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+The icons are licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
