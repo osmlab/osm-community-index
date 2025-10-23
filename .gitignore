@@ -1,12 +1,12 @@
-/.nyc_output
-/coverage
-/dist/javascript
-/dist/js
-/dist/json
-/docs-local
-/node_modules
+coverage/
+dist/javascript/
+dist/js/
+dist/json/
+docs-local/
+node_modules/
 
 .DS_Store
+.vscode
 npm-debug.log
 package-lock.json
 pnpm-lock.yaml
