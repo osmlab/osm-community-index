@@ -8,10 +8,11 @@
       },
       "devDependencies": {
         "@aitodotai/json-stringify-pretty-compact": "^1.3.0",
+        "@eslint/js": "^9.38.0",
         "@fortawesome/fontawesome-free": "^7.1.0",
         "@mapbox/geojson-area": "^0.2.2",
         "@mapbox/geojson-rewind": "^0.5.2",
-        "@rapideditor/location-conflation": "~1.6.0",
+        "@rapideditor/location-conflation": "~1.7.0",
         "@types/bun": "^1.3.0",
         "bytes": "^3.1.2",
         "easy-table": "^1.2.0",
@@ -64,9 +65,9 @@
 
     "@mapbox/geojson-rewind": ["@mapbox/geojson-rewind@0.5.2", "", { "dependencies": { "get-stream": "^6.0.1", "minimist": "^1.2.6" }, "bin": { "geojson-rewind": "geojson-rewind" } }, "sha512-tJaT+RbYGJYStt7wI3cq4Nl4SXxG8W7JDG5DMJu97V25RnbNg3QtQtf+KD+VLjNpWKYsRvXDNmNrBgEETr1ifA=="],
 
-    "@rapideditor/country-coder": ["@rapideditor/country-coder@5.5.1", "", { "dependencies": { "which-polygon": "^2.2.1" } }, "sha512-2xMKd48WOlbThWuYcBibbo6FkiagV51LpIIppfNIf25rrOTaO/5wEJM0zYH7m3AxtN9BE8aZSTYfKhkLiPXRJw=="],
+    "@rapideditor/country-coder": ["@rapideditor/country-coder@5.6.0", "", { "dependencies": { "which-polygon": "^2.2.1" } }, "sha512-lqu2uyAHJWJ/E0j2ISF8HcGvior6wRxZRnvuCAQJBGtj+Ye2cqokqK4BGMWOCOE13QcZg6SOEiUevO+18NP3+g=="],
 
-    "@rapideditor/location-conflation": ["@rapideditor/location-conflation@1.6.0", "", { "dependencies": { "@aitodotai/json-stringify-pretty-compact": "^1.3.0", "@mapbox/geojson-area": "^0.2.2", "@rapideditor/country-coder": "^5.5.1", "circle-to-polygon": "^2.2.0", "geojson-precision": "^1.0.0", "polyclip-ts": "~0.16.8" } }, "sha512-GKYFOLYVNgCv1IqGP2tiYp+F4Z8+7noUGfBJuFG5PJxPAr7GJhZFyO21Jg0SVro0zEe/GFh9tjxxlNzqByBtCQ=="],
+    "@rapideditor/location-conflation": ["@rapideditor/location-conflation@1.7.0", "", { "dependencies": { "@aitodotai/json-stringify-pretty-compact": "^1.3.0", "@mapbox/geojson-area": "^0.2.2", "@rapideditor/country-coder": "^5.6.0", "circle-to-polygon": "^2.2.0", "geojson-precision": "^1.0.0", "polyclip-ts": "~0.16.8" } }, "sha512-rNmKgE/BZHEisU2wdpyhJvhVZczpmsuabBi3DE3Bd3/06z0SGZ1SbMUcgCqFeuVfvYhGehT4fSgj/yNHCaKQiQ=="],
 
     "@types/bun": ["@types/bun@1.3.0", "", { "dependencies": { "bun-types": "1.3.0" } }, "sha512-+lAGCYjXjip2qY375xX/scJeVRmZ5cY0wyHYyCYxNcdEXrQ4AOe3gACgd4iQ8ksOslJtW4VNxBJ8llUwc3a6AA=="],
 
