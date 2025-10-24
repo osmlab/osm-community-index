@@ -143,7 +143,23 @@ async function collectFeatures() {
     if (feature.type)       { obj.type = feature.type; }
     if (feature.id)         { obj.id = feature.id; }
     if (feature.properties) { obj.properties = feature.properties; }
-    if (feature.geometry)   { obj.geometry = feature.geometry; }
+
+    // validate that the feature has a suitable geometry
+    if (feature.geometry?.type !== 'Polygon' && feature.geometry?.type !== 'MultiPolygon') {
+      console.error(styleText('red', 'Error - Feature type must be "Polygon" or "MultiPolygon" in:'));
+      console.error('  ' + styleText('yellow', file));
+      process.exit(1);
+    }
+    if (!feature.geometry?.coordinates) {
+      console.error(styleText('red', 'Error - Feature missing coordinates in:'));
+      console.error('  ' + styleText('yellow', file));
+      process.exit(1);
+    }
+    obj.geometry = {
+      type: feature.geometry.type,
+      coordinates: feature.geometry.coordinates
+    };
+
     feature = obj;
 
     validateFile(filepath, feature, featureSchemaJSON);
@@ -161,8 +177,10 @@ async function collectFeatures() {
     process.stdout.write(styleText('green', '✓'));
   }
 
-  process.stdout.write(' ' + seen.size + '\n');
+  // sort features by id
+  features.sort((a, b) => withLocale(a.id, b.id));
 
+  process.stdout.write(' ' + features.length + '\n');
   return features;
 }
 
