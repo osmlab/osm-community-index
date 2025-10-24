@@ -15,9 +15,9 @@ This project uses **Bun** as our development environment.
 - (It's similar to other JavaScript tools like Node/Jest/Esbuild/Vite, so knowing any of those already will help you a lot).
 - Bun supports both JavaScript and TypeScript.
 
-If you want to contribute to location-conflation, you'll probably need to:
+If you want to contribute to osm-community-index, you'll probably need to:
 - [Install Bun](https://bun.com/docs/installation)
-- `git clone` location-conflation
+- `git clone` osm-community-index
 - `cd` into the project folder
 - `bun install` the dependencies
 
