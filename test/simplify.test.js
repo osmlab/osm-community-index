@@ -1,6 +1,6 @@
 import { describe, it } from 'bun:test';
 import { strict as assert } from 'bun:assert';
-import { simplify } from '../src/oci.mjs';
+import { simplify } from '../src/oci.ts';
 
 
 describe('simplify', () => {

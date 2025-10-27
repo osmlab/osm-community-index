@@ -10,21 +10,21 @@ await Promise.all([
   }),
 
   Bun.build({
-    entrypoints: ['./src/oci.mjs'],
+    entrypoints: ['./src/oci.ts'],
     outdir: './dist/js',
     target: 'node',
     format: 'cjs',
-    external: ['*'],
+    external: ['diacritics'],
     sourcemap: 'linked',
     naming: 'oci.c[ext]'  // .cjs
   }),
 
   Bun.build({
-    entrypoints: ['./src/oci.mjs'],
+    entrypoints: ['./src/oci.ts'],
     outdir: './dist/js',
     target: 'node',
     format: 'esm',
-    external: ['*'],
+    external: ['diacritics'],
     sourcemap: 'linked',
     naming: 'oci.m[ext]'  // .mjs
   })
