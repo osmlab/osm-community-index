@@ -1,6 +1,6 @@
 import { describe, it } from 'bun:test';
 import { strict as assert } from 'bun:assert';
-import { resolveStrings } from '../src/oci.mjs';
+import { resolveStrings } from '../src/oci.ts';
 
 
 const item = {

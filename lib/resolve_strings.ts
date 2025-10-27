@@ -1,4 +1,39 @@
-import { simplify } from './simplify.js';
+import { simplify } from './simplify.ts';
+
+export type ItemStrings = {
+  community: string;
+  communityID: string;
+  name: string;
+  description: string;
+  extendedDescription: string;
+  signupUrl: string;
+  url: string;
+}
+
+export type Item = {
+  id: string;
+  type: string;
+  account?: string | undefined | null;
+  strings: Partial<ItemStrings>;
+}
+
+export type Defaults = Record<string, Partial<ItemStrings>>;
+
+export type Resolved = {
+  name: string | undefined;
+  url: string | undefined;
+  signupUrl: string | undefined;
+  description: string | undefined;
+  extendedDescription: string | undefined;
+  nameHTML: string | undefined;
+  urlHTML: string | undefined;
+  signupUrlHTML: string | undefined;
+  descriptionHTML: string | undefined;
+  extendedDescriptionHTML: string | undefined;
+}
+
+export type LocalizerFn = (a: string) => string;
+
 
 //
 // `resolveStrings`
@@ -26,7 +61,7 @@ import { simplify } from './simplify.js';
 //     extendedDescriptionHTML:  the extendedDescription with urls and signupUrls linkified
 //   }
 //
-export function resolveStrings(item, defaults, localizerFn) {
+export function resolveStrings(item: Item, defaults: Defaults, localizerFn?: LocalizerFn): Resolved {
   const itemStrings = Object.assign({}, item.strings);             // shallow clone
   const defaultStrings = Object.assign({}, defaults[item.type]);   // shallow clone
   const anyToken = new RegExp(/(\{\w+\})/, 'gi');
@@ -37,10 +72,10 @@ export function resolveStrings(item, defaults, localizerFn) {
       const communityID = simplify(itemStrings.community);
       itemStrings.community = localizerFn(`_communities.${communityID}`);
     }
-    ['name', 'description', 'extendedDescription'].forEach(prop => {
+    for (const prop of ['name', 'description', 'extendedDescription']) {
       if (defaultStrings[prop])  defaultStrings[prop] = localizerFn(`_defaults.${item.type}.${prop}`);
       if (itemStrings[prop])     itemStrings[prop]    = localizerFn(`${item.id}.${prop}`);
-    });
+    }
   }
 
   const replacements = {
@@ -60,7 +95,7 @@ export function resolveStrings(item, defaults, localizerFn) {
     signupUrl:           resolve(itemStrings.signupUrl || defaultStrings.signupUrl),
     description:         resolve(itemStrings.description || defaultStrings.description),
     extendedDescription: resolve(itemStrings.extendedDescription || defaultStrings.extendedDescription)
-  };
+  } as Resolved;
 
   // Generate linkified strings
   resolved.nameHTML = linkify(resolved.url, resolved.name);
@@ -72,7 +107,7 @@ export function resolveStrings(item, defaults, localizerFn) {
   return resolved;
 
 
-  function resolve(s, addLinks) {
+  function resolve(s?: string, addLinks?: boolean): string | undefined {
     if (!s) return undefined;
     let result = s;
 
@@ -101,14 +136,14 @@ export function resolveStrings(item, defaults, localizerFn) {
     // Linkify subreddits like `/r/openstreetmap`
     // https://github.com/osmlab/osm-community-index/issues/82
     // https://github.com/openstreetmap/iD/issues/4997
-    if (addLinks && item.type === 'reddit') {
-      result = result.replace(/(\/r\/\w+\/*)/i, match => linkify(resolved.url, match));
+    if (addLinks && resolved.url && item.type === 'reddit') {
+      result = result.replace(/(\/r\/\w+\/*)/i, match => linkify(resolved.url, match) as string);
     }
 
     return result;
   }
 
-  function linkify(url, text) {
+  function linkify(url?: string, text?: string): string | undefined {
     if (!url) return undefined;
     text = text || url;
     return `<a target="_blank" href="${url}">${text}</a>`;

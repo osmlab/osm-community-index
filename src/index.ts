@@ -1,2 +1,2 @@
-import * as oci from './oci.mjs';
+import * as oci from './oci.ts';
 globalThis.oci = oci;

@@ -7,7 +7,7 @@ const URLRoot = 'https://raw.githubusercontent.com/osmlab/osm-community-index/ma
 // @param  {string}  filepath - the path to the file we want to write
 // @param  {string}  contents - should be stringified json containing an object {}
 //
-export async function writeFileWithMeta(filepath, contents) {
+export async function writeFileWithMeta(filepath: string, contents: string): void {
   // Calculate md5 of contents
   const message = packageJSON.version + contents;
   const hash = new Bun.CryptoHasher('md5').update(message).digest('hex');

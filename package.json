@@ -28,19 +28,21 @@
   ],
   "type": "module",
   "exports": {
+    "bun": "./src/oci.ts",
+    "types": "./dist/ts/src/oci.d.ts",
     "import": "./dist/js/oci.mjs",
     "require": "./dist/js/oci.cjs",
-    "browser": "./dist/js/oci.iife.js",
-    "*": "./*"
+    "browser": "./dist/js/oci.iife.js"
   },
   "scripts": {
     "all": "run-s clean lint build test",
-    "build": "run-p build:js build:json",
+    "build": "run-p build:js build:json build:ts",
     "build:js": "bun ./scripts/build_js.ts",
     "build:json": "bun ./scripts/build_json.ts",
+    "build:ts": "tsc",
     "clean": "bun ./scripts/clean.ts",
     "icons": "bun ./scripts/icons.ts",
-    "lint": "eslint ./lib/*.js ./test/*.js",
+    "lint": "eslint ./test/*.js",
     "prepublishOnly": "bun ./scripts/prepublish.ts",
     "start": "bun ./scripts/server.ts",
     "stats": "bun ./scripts/stats.ts",

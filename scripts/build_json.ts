@@ -12,14 +12,13 @@ import path from 'bun:path';
 import stringify from '@aitodotai/json-stringify-pretty-compact';
 import { styleText } from 'bun:util';
 import YAML from 'js-yaml';
-
 const withLocale = localeCompare('en-US');
 
 // Internal
-import { resolveStrings } from '../lib/resolve_strings.js';
-import { sortObject } from '../lib/sort_object.js';
-import { simplify } from '../lib/simplify.js';
-import { writeFileWithMeta } from '../lib/write_file_with_meta.js';
+import { resolveStrings } from '../lib/resolve_strings.ts';
+import { sortObject } from '../lib/sort_object.ts';
+import { simplify } from '../lib/simplify.ts';
+import { writeFileWithMeta } from '../lib/write_file_with_meta.ts';
 
 // JSON
 const geojsonSchemaJSON = await Bun.file('schema/geojson.json').json();
