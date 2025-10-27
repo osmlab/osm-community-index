@@ -3,7 +3,7 @@ import geojsonArea from '@mapbox/geojson-area';
 import geojsonBounds from 'geojson-bounds';
 import geojsonPrecision from 'geojson-precision';
 import geojsonRewind from '@mapbox/geojson-rewind';
-import { Glob } from 'bun';
+import { Glob, YAML } from 'bun';
 import JSON5 from 'json5';
 import jsonschema from 'jsonschema';
 import LocationConflation from '@rapideditor/location-conflation';
@@ -11,7 +11,6 @@ import localeCompare from 'locale-compare';
 import path from 'bun:path';
 import stringify from '@aitodotai/json-stringify-pretty-compact';
 import { styleText } from 'bun:util';
-import YAML from 'js-yaml';
 const withLocale = localeCompare('en-US');
 
 // Internal
@@ -65,7 +64,7 @@ async function buildAll() {
   // Translations
   _tstrings._defaults = sortObject(_tstrings._defaults);
   _tstrings._communities = sortObject(_tstrings._communities);
-  await Bun.write('./i18n/en.yaml', YAML.dump({ en: sortObject(_tstrings) }, { lineWidth: -1 }) );
+  await Bun.write('./i18n/en.yaml', YAML.stringify({ en: sortObject(_tstrings) }, null, 2));
 
   console.timeEnd(END);
 }
