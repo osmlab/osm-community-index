@@ -43,16 +43,28 @@ Set as latest release on GitHub:
 Include any URLs that anyone might request.
 
 ```bash
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@latest/dist/json/completeFeatureCollection.json'
 curl 'https://purge.jsdelivr.net/npm/osm-community-index@latest/dist/json/completeFeatureCollection.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@latest/dist/json/defaults.json'
 curl 'https://purge.jsdelivr.net/npm/osm-community-index@latest/dist/json/defaults.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@latest/dist/json/featureCollection.json'
 curl 'https://purge.jsdelivr.net/npm/osm-community-index@latest/dist/json/featureCollection.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@latest/dist/json/resources.json'
 curl 'https://purge.jsdelivr.net/npm/osm-community-index@latest/dist/json/resources.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@6/dist/json/completeFeatureCollection.json'
 curl 'https://purge.jsdelivr.net/npm/osm-community-index@6/dist/json/completeFeatureCollection.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@6/dist/json/defaults.json'
 curl 'https://purge.jsdelivr.net/npm/osm-community-index@6/dist/json/defaults.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@6/dist/json/featureCollection.json'
 curl 'https://purge.jsdelivr.net/npm/osm-community-index@6/dist/json/featureCollection.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@6/dist/json/resources.json'
 curl 'https://purge.jsdelivr.net/npm/osm-community-index@6/dist/json/resources.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@6.0/dist/json/completeFeatureCollection.json'
 curl 'https://purge.jsdelivr.net/npm/osm-community-index@6.0/dist/json/completeFeatureCollection.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@6.0/dist/json/defaults.json'
 curl 'https://purge.jsdelivr.net/npm/osm-community-index@6.0/dist/json/defaults.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@6.0/dist/json/featureCollection.json'
 curl 'https://purge.jsdelivr.net/npm/osm-community-index@6.0/dist/json/featureCollection.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@6.0/dist/json/resources.json'
 curl 'https://purge.jsdelivr.net/npm/osm-community-index@6.0/dist/json/resources.min.json'
 ```
