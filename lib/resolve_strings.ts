@@ -1,6 +1,6 @@
 import { simplify } from './simplify.ts';
 
-export type ItemStrings = {
+export interface ItemStrings {
   community: string;
   communityID: string;
   name: string;
@@ -8,18 +8,18 @@ export type ItemStrings = {
   extendedDescription: string;
   signupUrl: string;
   url: string;
-}
+};
 
-export type Item = {
+export interface Item {
   id: string;
   type: string;
   account?: string | undefined | null;
   strings: Partial<ItemStrings>;
-}
+};
 
 export type Defaults = Record<string, Partial<ItemStrings>>;
 
-export type Resolved = {
+export interface Resolved {
   name: string | undefined;
   url: string | undefined;
   signupUrl: string | undefined;
@@ -30,7 +30,7 @@ export type Resolved = {
   signupUrlHTML: string | undefined;
   descriptionHTML: string | undefined;
   extendedDescriptionHTML: string | undefined;
-}
+};
 
 export type LocalizerFn = (a: string) => string;
 
@@ -111,7 +111,7 @@ export function resolveStrings(item: Item, defaults: Defaults, localizerFn?: Loc
     if (!s) return undefined;
     let result = s;
 
-    for (let key in replacements) {
+    for (const key in replacements) {
       const token = `{${key}}`;
       const regex = new RegExp(token, 'g');
       if (regex.test(result)) {

@@ -3,7 +3,7 @@ const withLocale = localeCompare('en-US');
 
 // Returns an object with sorted keys and sorted values.
 // (This is useful for file diffing)
-export function sortObject(obj: Record<string, any>): Record<string, any> {
+export function sortObject(obj: Record<string, unknown>): Record<string, unknown> {
   if (!obj) return null;
 
   const sorted = {};

@@ -1,6 +1,8 @@
 import js from '@eslint/js';
+import ts from 'typescript-eslint';
+import globals from 'globals';
 
-const common = {
+const rules = {
   rules: {
     "accessor-pairs": "error",
     "array-callback-return": "warn",
@@ -16,10 +18,10 @@ const common = {
     "eqeqeq": ["error", "smart"],
     "func-call-spacing": ["warn", "never"],
     "grouped-accessor-pairs": "error",
-    "indent": ["off", 4],
+    "indent": ["off", 2],
     "keyword-spacing": "error",
     "linebreak-style": ["error", "unix"],
-    "no-await-in-loop": "error",
+    "no-await-in-loop": "off",
     "no-caller": "error",
     "no-catch-shadow": "error",
     "no-constructor-return": "error",
@@ -88,20 +90,36 @@ const common = {
     "semi": ["error", "always"],
     "semi-spacing": "error",
     "space-unary-ops": "error",
-    "wrap-regex": "off"
+    "wrap-regex": "off",
+
+    "@typescript-eslint/array-type": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/no-explicit-any": "warn",
+    "@typescript-eslint/no-inferrable-types": ["warn", { "ignoreParameters": true }],
+    "@typescript-eslint/no-unused-vars": ["warn", { "vars": "all", "args": "none", "caughtErrors": "none" }]
   }
 };
 
-
 export default [
   js.configs.recommended,
-  common,
+  ...ts.configs.recommended,
+  ...ts.configs.stylistic,
+  rules,
   {
+    files: [ '**/*.{js,ts}' ],
     languageOptions: {
       globals: {
+        ...globals.browser
+      }
+    }
+  },
+  {
+    files: [ 'lib/*', 'scripts/*', 'test/*' ],
+    languageOptions: {
+      globals: {
+        ...globals.node,
         Bun: false
       }
     }
   }
 ];
-
