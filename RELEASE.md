@@ -43,13 +43,16 @@ Set as latest release on GitHub:
 Include any URLs that anyone might request.
 
 ```bash
-curl 'https://purge.jsdelivr.net/npm/osm-community-index@latest/dist/defaults.min.json'
-curl 'https://purge.jsdelivr.net/npm/osm-community-index@latest/dist/featureCollection.min.json'
-curl 'https://purge.jsdelivr.net/npm/osm-community-index@latest/dist/resources.min.json'
-curl 'https://purge.jsdelivr.net/npm/osm-community-index@5/dist/defaults.min.json'
-curl 'https://purge.jsdelivr.net/npm/osm-community-index@5/dist/featureCollection.min.json'
-curl 'https://purge.jsdelivr.net/npm/osm-community-index@5/dist/resources.min.json'
-curl 'https://purge.jsdelivr.net/npm/osm-community-index@5.10/dist/defaults.min.json'
-curl 'https://purge.jsdelivr.net/npm/osm-community-index@5.10/dist/featureCollection.min.json'
-curl 'https://purge.jsdelivr.net/npm/osm-community-index@5.10/dist/resources.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@latest/dist/json/completeFeatureCollection.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@latest/dist/json/defaults.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@latest/dist/json/featureCollection.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@latest/dist/json/resources.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@6/dist/json/completeFeatureCollection.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@6/dist/json/defaults.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@6/dist/json/featureCollection.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@6/dist/json/resources.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@6.0/dist/json/completeFeatureCollection.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@6.0/dist/json/defaults.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@6.0/dist/json/featureCollection.min.json'
+curl 'https://purge.jsdelivr.net/npm/osm-community-index@6.0/dist/json/resources.min.json'
 ```
