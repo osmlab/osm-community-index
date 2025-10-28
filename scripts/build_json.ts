@@ -25,11 +25,11 @@ const featureSchemaJSON = await Bun.file('schema/feature.json').json();
 const resourceSchemaJSON = await Bun.file('schema/resource.json').json();
 
 const Validator = jsonschema.Validator;
-let v = new Validator();
+const v = new Validator();
 v.addSchema(geojsonSchemaJSON, 'http://json.schemastore.org/geojson.json');
 
 
-let _tstrings = { _defaults: {}, _communities: {} };
+const _tstrings = { _defaults: {}, _communities: {} };
 let _defaults = {};
 let _features = [];
 let _resources = {};
@@ -90,7 +90,7 @@ async function collectDefaults() {
 // Gather feature files from `./features/**/*.geojson`
 //
 async function collectFeatures() {
-  let features = [];
+  const features = [];
   const seen = new Map();   // Map<id, filepath>
   process.stdout.write('📦  Features: ');
 
@@ -113,7 +113,7 @@ async function collectFeatures() {
     }
 
     let feature = geojsonPrecision(geojsonRewind(parsed, true), 5);
-    let fc = feature.features;
+    const fc = feature.features;
 
     // A FeatureCollection with a single feature inside (geojson.io likes to make these).
     if (feature.type === 'FeatureCollection' && Array.isArray(fc) && fc.length === 1) {
@@ -137,7 +137,7 @@ async function collectFeatures() {
     feature.id = id;
 
     // sort properties
-    let obj = {};
+    const obj = {};
     if (feature.type)       { obj.type = feature.type; }
     if (feature.id)         { obj.id = feature.id; }
     if (feature.properties) { obj.properties = feature.properties; }
@@ -145,12 +145,12 @@ async function collectFeatures() {
     // validate that the feature has a suitable geometry
     if (feature.geometry?.type !== 'Polygon' && feature.geometry?.type !== 'MultiPolygon') {
       console.error(styleText('red', 'Error - Feature type must be "Polygon" or "MultiPolygon" in:'));
-      console.error('  ' + styleText('yellow', file));
+      console.error('  ' + styleText('yellow', filepath));
       process.exit(1);
     }
     if (!feature.geometry?.coordinates) {
       console.error(styleText('red', 'Error - Feature missing coordinates in:'));
-      console.error('  ' + styleText('yellow', file));
+      console.error('  ' + styleText('yellow', filepath));
       process.exit(1);
     }
     obj.geometry = {
@@ -187,7 +187,7 @@ async function collectFeatures() {
 // Gather resource files from `./resources/**/*.json`
 //
 async function collectResources(loco) {
-  let resources = {};
+  const resources = {};
   const seen = new Map();   // Map<id, filepath>
   process.stdout.write('📦  Resources: ');
 
@@ -239,7 +239,7 @@ async function collectResources(loco) {
     }
 
     // Clean and sort the properties for consistency, save them that way.
-    let obj = {};
+    const obj = {};
     if (item.id)       { obj.id = item.id; }
     if (item.type)     { obj.type = item.type; }
     if (item.account)  { obj.account = item.account; }
@@ -293,19 +293,17 @@ async function collectResources(loco) {
     seen.set(itemID, filepath);
 
     // Collect translation strings for this resource
-    let translateStrings = {};
+    const translateStrings = {};
     if (item.strings.name)                 { translateStrings.name = item.strings.name; }
     if (item.strings.description)          { translateStrings.description = item.strings.description; }
     if (item.strings.extendedDescription)  { translateStrings.extendedDescription = item.strings.extendedDescription; }
 
 
     // Validate event dates and collect translation strings from upcoming events (where `i18n=true`)
-    if (item.events) {
-      let estrings = {};
+    if (Array.isArray(item.events)) {
+      const estrings = {};
 
-      for (let i = 0; i < item.events.length; i++) {
-        const event = item.events[i];
-
+      for (const event of item.events) {
         // check date
         const d = new Date(event.when);
         if (isNaN(d.getTime())) {
@@ -459,7 +457,7 @@ async function prettifyFile(file, object, contents) {
 // }
 //
 function generateCombined(loco) {
-  let keepFeatures = {};
+  const keepFeatures = {};
 
   Object.keys(_resources).forEach(resourceID => {
     const resource = _resources[resourceID];
