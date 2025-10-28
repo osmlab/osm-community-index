@@ -19,6 +19,21 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 6.0.0
+##### 2025-Oct-28
+* Various fixes, see [#829]
+  * Fix broken .cjs and .mjs bundles ([#828])
+  * Converts a bunch of the project to TypeScript and generate d.ts files under `./dist/ts`
+  * Adds the "bun" export specifier to package.json, which would allow consumers to import TypeScript directly without going through a bundle.
+  * Restore linting
+  * Drops js-yaml dependency, Bun has this builtin too!
+  * Remove Node version from `package.json` `engines` ([c3738945])
+
+[#829]: https://github.com/osmlab/osm-community-index/issues/829
+[#828]: https://github.com/osmlab/osm-community-index/issues/828
+[c3738945]: https://github.com/osmlab/osm-community-index/commit/c3738945eeda5c43d6130d0139dc21d36352d39f#r168978734
+
+
 # 5.10.0
 ##### 2025-Oct-21
 * This project uses [`bun`](https://bun.com/) now, for simpler developer tooling ([#827])
