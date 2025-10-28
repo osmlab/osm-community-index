@@ -44,6 +44,7 @@
     "icons": "bun ./scripts/icons.ts",
     "lint": "eslint ./lib ./scripts ./src ./test",
     "prepublishOnly": "bun ./scripts/prepublish.ts",
+    "postpublish": "bun ./scripts/postpublish.ts",
     "start": "bun ./scripts/server.ts",
     "stats": "bun ./scripts/stats.ts",
     "test": "bun test --dots --coverage ./test/*.js",
