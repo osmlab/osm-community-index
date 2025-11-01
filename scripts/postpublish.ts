@@ -1,7 +1,19 @@
 import { Glob } from 'bun';
 import { styleText } from 'bun:util';
 
-const CDNRoot = `https://purge.jsdelivr.net/npm/osm-community-index`;
+const CDNRoot = 'https://purge.jsdelivr.net/npm/osm-community-index';
+const packageJSON = await Bun.file('./package.json').json();
+
+// Gather versions that need cache invalidation
+const versions = ['@latest'];
+const match = packageJSON.version.match(/^(\d+)\.(\d+)/);
+if (match[1]) {
+  versions.push(`@${match[1]}`);   // major
+  if (match[2]) {
+    versions.push(`@${match[1]}.${match[2]}`);  // minor
+  }
+}
+
 
 postpublish();
 
@@ -20,18 +32,8 @@ async function postpublish() {
   console.log('');
   console.log(styleText('blueBright', 'Purging JSDelivr caches…'));
 
-  const versions = ['@latest'];
-  const packageJSON = await Bun.file('package.json').json();
-  const match = packageJSON.version.match(/^(\d+)\.(\d+)\.(\d+)/);
-  if (match[1]) {
-    versions.push(`@${match[1]}`);   // major
-    if (match[2]) {
-      versions.push(`@${match[1]}.${match[2]}`);  // minor
-    }
-  }
-
   const promises = [];
-  const glob = new Glob('./dist/json/*.json');
+  const glob = new Glob('./dist/**/*');
   for (const filepath of glob.scanSync()) {
     // Keep just the end part of the path without extension, e.g. `dist/json/file.json`
     const path = filepath.replace(/(.*)(\/dist.*)/i, '$2');
@@ -42,6 +44,7 @@ async function postpublish() {
         .then(response => response.json())
         .then(json => console.log(styleText('greenBright', `'${url}' → ${json.status}`)))
         .catch(err => console.log(styleText('redBright', `'${url}' → ${err}`)));
+
       promises.push(promise);
     }
   }

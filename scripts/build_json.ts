@@ -17,7 +17,6 @@ const withLocale = localeCompare('en-US');
 import { resolveStrings } from '../lib/resolve_strings.ts';
 import { sortObject } from '../lib/sort_object.ts';
 import { simplify } from '../lib/simplify.ts';
-import { writeFileWithMeta } from '../lib/write_file_with_meta.ts';
 
 // JSON
 const geojsonSchemaJSON = await Bun.file('schema/geojson.json').json();
@@ -45,21 +44,21 @@ async function buildAll() {
 
   // Defaults
   _defaults = await collectDefaults();
-  await writeFileWithMeta('./dist/json/defaults.json', stringify({ defaults: sortObject(_defaults) }) + '\n');
+  await Bun.write('./dist/json/defaults.json', stringify({ defaults: sortObject(_defaults) }) + '\n');
 
   // Features
   _features = await collectFeatures();
   const featureCollection = { type: 'FeatureCollection', features: _features };
-  await writeFileWithMeta('./dist/json/featureCollection.json', stringify(featureCollection, { maxLength: 9999 }) + '\n');
+  await Bun.write('./dist/json/featureCollection.json', stringify(featureCollection, { maxLength: 9999 }) + '\n');
   const loco = new LocationConflation(featureCollection);
 
   // Resources
   _resources = await collectResources(loco);
-  await writeFileWithMeta('./dist/json/resources.json', stringify({ resources: sortObject(_resources) }, { maxLength: 9999 }) + '\n');
+  await Bun.write('./dist/json/resources.json', stringify({ resources: sortObject(_resources) }, { maxLength: 9999 }) + '\n');
 
   // Generate the combined file - a FeatureCollection with everything included.
   const combined = generateCombined(loco);
-  await writeFileWithMeta('./dist/json/completeFeatureCollection.json', stringify(combined) + '\n');
+  await Bun.write('./dist/json/completeFeatureCollection.json', stringify(combined) + '\n');
 
   // Translations
   _tstrings._defaults = sortObject(_tstrings._defaults);
