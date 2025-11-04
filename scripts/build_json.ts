@@ -9,7 +9,7 @@ import jsonschema from 'jsonschema';
 import LocationConflation from '@rapideditor/location-conflation';
 import localeCompare from 'locale-compare';
 import path from 'bun:path';
-import stringify from '@aitodotai/json-stringify-pretty-compact';
+import stringify from 'json-stringify-pretty-compact';
 import { styleText } from 'bun:util';
 const withLocale = localeCompare('en-US');
 
