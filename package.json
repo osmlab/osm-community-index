@@ -4,7 +4,10 @@
   "license": "ISC",
   "description": "An index of community resources for OpenStreetMap",
   "homepage": "https://openstreetmap.community",
-  "repository": "github:osmlab/osm-community-index",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osmlab/osm-community-index.git"
+  },
   "contributors": [
     "Andrew Wiseman (https://github.com/aawiseman)",
     "Bryan Housel <bhousel@gmail.com> (https://github.com/bhousel)",
@@ -55,25 +58,25 @@
     "diacritics": "^1.3.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.38.0",
+    "@eslint/js": "^9.39.1",
     "@fortawesome/fontawesome-free": "^7.1.0",
     "@mapbox/geojson-area": "^0.2.2",
     "@mapbox/geojson-rewind": "^0.5.2",
     "@rapideditor/location-conflation": "~1.7.0",
-    "@types/bun": "^1.3.1",
+    "@types/bun": "^1.3.4",
     "bytes": "^3.1.2",
     "easy-table": "^1.2.0",
-    "eslint": "^9.38.0",
+    "eslint": "^9.39.1",
     "geojson-bounds": "^1.0.4",
     "geojson-precision": "^1.0.0",
-    "globals": "^16.4.0",
+    "globals": "^16.5.0",
     "json5": "^2.2.3",
     "jsonschema": "^1.5.0",
     "json-stringify-pretty-compact": "^4.0.0",
     "locale-compare": "^2.0.0",
     "npm-run-all2": "^8.0.4",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.46.2"
+    "typescript-eslint": "^8.49.0"
   },
   "publishConfig": {
     "access": "public"
