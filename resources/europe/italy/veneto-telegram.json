@@ -1,0 +1,14 @@
+{
+  "id": "it-veneto-telegram",
+  "type": "telegram",
+  "account": "OSM Veneto",
+  "locationSet": {"include": ["veneto.geojson"]},
+  "languageCodes": ["it"],
+  "order": 3,
+  "strings": {
+    "community": "OSM Veneto",
+    "communityID": "osmveneto",
+    "description": "Group for editors in the Veneto region. You can enter the chat using this link: {signupUrl}",
+    "signupUrl": "https://t.me/osm_veneto"
+  }
+}
