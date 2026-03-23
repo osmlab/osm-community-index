@@ -1,2 +1,13 @@
 # Force LF line endings for all text files
 * text=auto eol=lf
+
+*.geojson linguist-detectable
+*.json linguist-detectable
+*.jsonc linguist-detectable
+*.json5 linguist-detectable
+*.md linguist-documentation
+*.yaml linguist-detectable
+
+docs/** linguist-documentation
+dist/** linguist-generated
+i18n/** linguist-vendored

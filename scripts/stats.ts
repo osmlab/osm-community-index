@@ -4,31 +4,23 @@ import path from 'bun:path';
 import { styleText } from 'bun:util';
 import Table from 'easy-table';
 
-
-let featureSize = 0;
-let resourceSize = 0;
-let featureFiles = 0;
-let resourceFiles = 0;
 let currSize = 0;
 let currFiles = 0;
-
 let t = new Table;
-currSize = 0;
-currFiles = 0;
 fs.globSync('./features/**/*.geojson').forEach(addRow);
 t.sort(['Size|des']);
 console.log(t.toString());
-featureSize = bytes(currSize, { unitSeparator: ' ' });
-featureFiles = currFiles;
+const featureSize = bytes(currSize, { unitSeparator: ' ' });
+const featureFiles = currFiles;
 
-t = new Table;
 currSize = 0;
 currFiles = 0;
+t = new Table;
 fs.globSync('./resources/**/*.json').forEach(addRow);
 t.sort(['Size|des']);
 console.log(t.toString());
-resourceSize = bytes(currSize, { unitSeparator: ' ' });
-resourceFiles = currFiles;
+const resourceSize = bytes(currSize, { unitSeparator: ' ' });
+const resourceFiles = currFiles;
 
 console.info(`\nTotals:`);
 console.info(`-------`);
