@@ -7,16 +7,16 @@ import { Glob, YAML } from 'bun';
 import JSON5 from 'json5';
 import jsonschema from 'jsonschema';
 import LocationConflation from '@rapideditor/location-conflation';
-import localeCompare from 'locale-compare';
-import path from 'bun:path';
+import path from 'node:path';
 import stringify from 'json-stringify-pretty-compact';
-import { styleText } from 'bun:util';
-const withLocale = localeCompare('en-US');
+import { styleText } from 'node:util';
 
 // Internal
 import { resolveStrings } from '../lib/resolve_strings.ts';
 import { sortObject } from '../lib/sort_object.ts';
 import { simplify } from '../lib/simplify.ts';
+
+const withLocale = new Intl.Collator('en-US').compare;  // specify 'en-US' for stable sorting
 
 // JSON
 const geojsonSchemaJSON = await Bun.file('schema/geojson.json').json();

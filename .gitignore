@@ -1,3 +1,12 @@
+.DS_Store
+SCRATCHPAD.md
+
+npm-debug.log
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+.vscode/
 coverage/
 dist/javascript/
 dist/js/
@@ -5,10 +14,3 @@ dist/json/
 dist/ts/
 docs-local/
 node_modules/
-
-.DS_Store
-.vscode
-npm-debug.log
-package-lock.json
-pnpm-lock.yaml
-yarn.lock

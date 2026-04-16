@@ -1,0 +1,17 @@
+{
+  "id": "OSMFR-Mastodon",
+  "type": "mastodon",
+  "account": "osm_fr",
+  "locationSet": {"include": ["fr"]},
+  "languageCodes": ["fr"],
+  "order": 10,
+  "strings": {
+    "community": "OpenStreetMap",
+    "communityID": "openstreetmap",
+    "url": "https://fr.osm.social/@osm_fr",
+    "name":"Compte Mastodon d'OpenStreetMap France"
+  },
+  "contacts": [
+    {"name": "OSM France", "email": "contact@openstreetmap.fr"}
+  ]
+}

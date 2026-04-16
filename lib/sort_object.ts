@@ -1,12 +1,16 @@
-import localeCompare from 'locale-compare';
-const withLocale = localeCompare('en-US');
+const withLocale = new Intl.Collator('en-US').compare;  // specify 'en-US' for stable sorting
 
-// Returns an object with sorted keys and sorted values.
-// (This is useful for file diffing)
-export function sortObject(obj: Record<string, unknown>): Record<string, unknown> {
+/**
+ * Returns a shallow copy of an object with its keys sorted and any array values sorted.
+ * This is useful for producing deterministic JSON output for file diffing.
+ *
+ * @param   obj - The input object to sort
+ * @returns A new object with sorted keys and sorted array values, or `null` if the input is falsy.
+ */
+export function sortObject(obj: Record<string, unknown>): Record<string, unknown> | null {
   if (!obj) return null;
 
-  const sorted = {};
+  const sorted: Record<string, unknown> = {};
   const keys = Object.keys(obj).sort(withLocale);
   for (const k of keys) {
     const v = obj[k];

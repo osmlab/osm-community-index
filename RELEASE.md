@@ -1,6 +1,16 @@
-## Release Checklist
+# Release Checklist
 
-#### Update Icons
+## Prepare the release
+
+Use the `/release` prompt in Copilot Chat — it will:
+- Validate the version number
+- Identify commits since the last release and look up PR numbers
+- Update `CHANGELOG.md` with a new entry
+- Bump the version in `package.json`
+
+Review the changes, then commit using the `/commit` prompt.
+
+## Update Icons
 This project bundles some icons from FontAwesome, corresponding to the types of
 community resources.  Whenever the list of resource types changes:
 
@@ -9,7 +19,7 @@ community resources.  Whenever the list of resource types changes:
 bun run icons
 ```
 
-#### Update version, tag, and publish
+## Tag and publish
 
 ```bash
 # Make sure your main branch is up to date and all tests pass
