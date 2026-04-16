@@ -1,4 +1,4 @@
-import { styleText } from 'bun:util';
+import { styleText } from 'node:util';
 
 // This script will update _only_ the FontAwesome icons in `dist/img/*.svg`
 // There are other icons in that folder that are not Font Awesome icons,

@@ -1,7 +1,7 @@
 import bytes from 'bytes';
-import fs from 'bun:fs';
-import path from 'bun:path';
-import { styleText } from 'bun:util';
+import fs from 'node:fs';
+import path from 'node:path';
+import { styleText } from 'node:util';
 import Table from 'easy-table';
 
 let currSize = 0;

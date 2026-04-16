@@ -1,5 +1,5 @@
 import { Glob } from 'bun';
-import { styleText } from 'bun:util';
+import { styleText } from 'node:util';
 
 const CDNRoot = 'https://cdn.jsdelivr.net/npm/osm-community-index';
 const packageJSON = await Bun.file('./package.json').json();
