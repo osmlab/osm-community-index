@@ -63,7 +63,9 @@ async function buildAll() {
   // Translations
   _tstrings._defaults = sortObject(_tstrings._defaults);
   _tstrings._communities = sortObject(_tstrings._communities);
-  await Bun.write('./i18n/en.yaml', YAML.stringify({ en: sortObject(_tstrings) }, null, 2));
+  // Workaround for https://github.com/oven-sh/bun/issues/23501 - Bun's YAML.stringify adds trailing spaces
+  const yaml = YAML.stringify({ en: sortObject(_tstrings) }, null, 2).replace(/ +$/gm, '');
+  await Bun.write('./i18n/en.yaml', yaml);
 
   console.timeEnd(END);
 }
