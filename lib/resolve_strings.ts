@@ -72,13 +72,13 @@ export function resolveStrings(item: Item, defaults: Defaults, localizerFn?: Loc
       const communityID = simplify(itemStrings.community);
       itemStrings.community = localizerFn(`_communities.${communityID}`);
     }
-    for (const prop of ['name', 'description', 'extendedDescription']) {
+    for (const prop of ['name', 'description', 'extendedDescription'] as const) {
       if (defaultStrings[prop])  defaultStrings[prop] = localizerFn(`_defaults.${item.type}.${prop}`);
       if (itemStrings[prop])     itemStrings[prop]    = localizerFn(`${item.id}.${prop}`);
     }
   }
 
-  const replacements = {
+  const replacements: Record<string, string | undefined | null> = {
     account: item.account,
     community: itemStrings.community,
     signupUrl: itemStrings.signupUrl,
@@ -120,7 +120,7 @@ export function resolveStrings(item: Item, defaults: Defaults, localizerFn?: Loc
           throw new Error(`Cannot resolve token: ${token}`);
         } else {
           if (addLinks && (key === 'signupUrl' || key === 'url')) {
-            replacement = linkify(replacement);
+            replacement = linkify(replacement) ?? replacement;
           }
           result = result.replace(regex, replacement);
         }

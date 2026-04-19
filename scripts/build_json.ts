@@ -1,20 +1,19 @@
-// External
 import geojsonArea from '@mapbox/geojson-area';
 import geojsonBounds from 'geojson-bounds';
 import geojsonPrecision from 'geojson-precision';
 import geojsonRewind from '@mapbox/geojson-rewind';
 import { Glob, YAML } from 'bun';
 import JSON5 from 'json5';
-import jsonschema from 'jsonschema';
-import LocationConflation from '@rapideditor/location-conflation';
+import jsonschema, { type Schema } from 'jsonschema';
+import LocationConflation, { type FeatureCollection as LCFeatureCollection } from '@rapideditor/location-conflation';
 import path from 'node:path';
 import stringify from 'json-stringify-pretty-compact';
 import { styleText } from 'node:util';
 
-// Internal
 import { resolveStrings } from '../lib/resolve_strings.ts';
 import { sortObject } from '../lib/sort_object.ts';
 import { simplify } from '../lib/simplify.ts';
+import type { OciDefaults, OciResource, OciTranslationStrings } from '../lib/types.ts';
 
 const withLocale = new Intl.Collator('en-US').compare;  // specify 'en-US' for stable sorting
 
@@ -28,10 +27,10 @@ const v = new Validator();
 v.addSchema(geojsonSchemaJSON, 'http://json.schemastore.org/geojson.json');
 
 
-const _tstrings = { _defaults: {}, _communities: {} };
-let _defaults = {};
-let _features = [];
-let _resources = {};
+const _tstrings: OciTranslationStrings = { _defaults: {}, _communities: {} };
+let _defaults: OciDefaults = {};
+let _features: GeoJSON.Feature[] = [];
+let _resources: Record<string, OciResource> = {};
 
 buildAll();
 
@@ -48,9 +47,9 @@ async function buildAll() {
 
   // Features
   _features = await collectFeatures();
-  const featureCollection = { type: 'FeatureCollection', features: _features };
+  const featureCollection: GeoJSON.FeatureCollection = { type: 'FeatureCollection', features: _features };
   await Bun.write('./dist/json/featureCollection.json', stringify(featureCollection, { maxLength: 9999 }) + '\n');
-  const loco = new LocationConflation(featureCollection);
+  const loco = new LocationConflation(featureCollection as unknown as LCFeatureCollection);
 
   // Resources
   _resources = await collectResources(loco);
@@ -74,7 +73,7 @@ async function buildAll() {
 //
 // Gather default strings from `./src/defaults.json`
 //
-async function collectDefaults() {
+async function collectDefaults(): Promise<OciDefaults> {
   process.stdout.write('📦  Defaults: ');
 
   const contents = await Bun.file('./src/defaults.json').json();
@@ -90,9 +89,9 @@ async function collectDefaults() {
 //
 // Gather feature files from `./features/**/*.geojson`
 //
-async function collectFeatures() {
-  const features = [];
-  const seen = new Map();   // Map<id, filepath>
+async function collectFeatures(): Promise<GeoJSON.Feature[]> {
+  const features: GeoJSON.Feature[] = [];
+  const seen = new Map<string, string>();   // Map<id, filepath>
   process.stdout.write('📦  Features: ');
 
   const glob = new Glob('./features/**/*');
@@ -107,8 +106,9 @@ async function collectFeatures() {
     let parsed;
     try {
       parsed = JSON5.parse(contents);
-    } catch (jsonParseError) {
-      console.error(styleText('red', `Error - ${jsonParseError.message} in:`));
+    } catch (jsonParseError: unknown) {
+      const message = jsonParseError instanceof Error ? jsonParseError.message : String(jsonParseError);
+      console.error(styleText('red', `Error - ${message} in:`));
       console.error(styleText('yellow', '  ' + filepath));
       process.exit(1);
     }
@@ -135,13 +135,6 @@ async function collectFeatures() {
 
     // use the filename as the feature.id
     const id = path.basename(filepath).toLowerCase();
-    feature.id = id;
-
-    // sort properties
-    const obj = {};
-    if (feature.type)       { obj.type = feature.type; }
-    if (feature.id)         { obj.id = feature.id; }
-    if (feature.properties) { obj.properties = feature.properties; }
 
     // validate that the feature has a suitable geometry
     if (feature.geometry?.type !== 'Polygon' && feature.geometry?.type !== 'MultiPolygon') {
@@ -154,15 +147,20 @@ async function collectFeatures() {
       console.error('  ' + styleText('yellow', filepath));
       process.exit(1);
     }
-    obj.geometry = {
-      type: feature.geometry.type,
-      coordinates: feature.geometry.coordinates
+
+    // Rebuild the feature with sorted/validated properties
+    const cleanFeature: GeoJSON.Feature = {
+      type: 'Feature',
+      id: id,
+      properties: feature.properties ?? {},
+      geometry: {
+        type: feature.geometry.type,
+        coordinates: feature.geometry.coordinates
+      }
     };
 
-    feature = obj;
-
-    validateFile(filepath, feature, featureSchemaJSON);
-    await prettifyFile(filepath, feature, contents);
+    validateFile(filepath, cleanFeature, featureSchemaJSON);
+    await prettifyFile(filepath, cleanFeature, contents);
 
     if (seen.has(id)) {
       console.error(styleText('red', 'Error - Duplicate filenames: ') + styleText('yellow', id));
@@ -170,14 +168,14 @@ async function collectFeatures() {
       console.error(styleText('yellow', '  ' + filepath));
       process.exit(1);
     }
-    features.push(feature);
+    features.push(cleanFeature);
     seen.set(id, filepath);
 
     process.stdout.write(styleText('green', '✓'));
   }
 
   // sort features by id
-  features.sort((a, b) => withLocale(a.id, b.id));
+  features.sort((a, b) => withLocale(String(a.id), String(b.id)));
 
   process.stdout.write(' ' + features.length + '\n');
   return features;
@@ -187,9 +185,9 @@ async function collectFeatures() {
 //
 // Gather resource files from `./resources/**/*.json`
 //
-async function collectResources(loco) {
-  const resources = {};
-  const seen = new Map();   // Map<id, filepath>
+async function collectResources(loco: LocationConflation): Promise<Record<string, OciResource>> {
+  const resources: Record<string, OciResource> = {};
+  const seen = new Map<string, string>();   // Map<id, filepath>
   process.stdout.write('📦  Resources: ');
 
   const glob = new Glob('./resources/**/*');
@@ -201,11 +199,12 @@ async function collectResources(loco) {
     }
 
     const contents = await Bun.file(filepath).text();
-    let item;
+    let item: OciResource;
     try {
       item = JSON5.parse(contents);
-    } catch (jsonParseError) {
-      console.error(styleText('red', `Error - ${jsonParseError.message} in:`));
+    } catch (jsonParseError: unknown) {
+      const message = jsonParseError instanceof Error ? jsonParseError.message : String(jsonParseError);
+      console.error(styleText('red', `Error - ${message} in:`));
       console.error(styleText('yellow', '  ' + filepath));
       process.exit(1);
     }
@@ -214,11 +213,12 @@ async function collectResources(loco) {
     item.locationSet = item.locationSet || {};
     try {
       const resolved = loco.resolveLocationSet(item.locationSet);
-      if (!resolved.feature.geometry.coordinates.length || !resolved.feature.properties.area) {
-        throw new Error(`locationSet ${resolved.id} resolves to an empty feature.`);
+      if (!resolved || !resolved.feature.geometry?.coordinates.length || !resolved.feature.properties?.area) {
+        throw new Error(`locationSet ${resolved?.id} resolves to an empty feature.`);
       }
-    } catch (err) {
-      console.error(styleText('red', `Error - ${err.message} in:`));
+    } catch (err: unknown) {
+      const message = err instanceof Error ? err.message : String(err);
+      console.error(styleText('red', `Error - ${message} in:`));
       console.error(styleText('yellow', '  ' + filepath));
       process.exit(1);
     }
@@ -233,21 +233,23 @@ async function collectResources(loco) {
       if (!resolvedStrings.description)  { throw new Error('Cannot resolve a value for description'); }
       if (!resolvedStrings.url)          { throw new Error('Cannot resolve a value for url'); }
 
-    } catch (err) {
-      console.error(styleText('red', `Error - ${err.message} in:`));
+    } catch (err: unknown) {
+      const message = err instanceof Error ? err.message : String(err);
+      console.error(styleText('red', `Error - ${message} in:`));
       console.error(styleText('yellow', '  ' + filepath));
       process.exit(1);
     }
 
     // Clean and sort the properties for consistency, save them that way.
-    const obj = {};
+    const obj: Record<string, unknown> = {};
     if (item.id)       { obj.id = item.id; }
     if (item.type)     { obj.type = item.type; }
     if (item.account)  { obj.account = item.account; }
 
-    obj.locationSet = {};
-    if (item.locationSet.include)  { obj.locationSet.include = item.locationSet.include; }
-    if (item.locationSet.exclude)  { obj.locationSet.exclude = item.locationSet.exclude; }
+    const objLocationSet: Record<string, unknown> = {};
+    if (item.locationSet.include)  { objLocationSet.include = item.locationSet.include; }
+    if (item.locationSet.exclude)  { objLocationSet.exclude = item.locationSet.exclude; }
+    obj.locationSet = objLocationSet;
 
     if (item.languageCodes)        { obj.languageCodes = item.languageCodes.sort(withLocale); }
     if (item.order !== undefined)  { obj.order = item.order; }
@@ -256,6 +258,7 @@ async function collectResources(loco) {
 
     // If this item has a "community name" string, generate `communityID` and store it.
     // https://github.com/osmlab/osm-community-index/issues/616
+    const objStrings = obj.strings as Record<string, string>;
     if (item.strings.community) {
       const communityID = simplify(item.strings.community);
       if (!communityID) {
@@ -264,20 +267,20 @@ async function collectResources(loco) {
         process.exit(1);
       }
       _tstrings._communities[communityID] = item.strings.community;
-      obj.strings.community = item.strings.community;
-      obj.strings.communityID = communityID;
+      objStrings.community = item.strings.community;
+      objStrings.communityID = communityID;
     }
 
-    if (item.strings.name)                 { obj.strings.name = item.strings.name; }
-    if (item.strings.description)          { obj.strings.description = item.strings.description; }
-    if (item.strings.extendedDescription)  { obj.strings.extendedDescription = item.strings.extendedDescription; }
-    if (item.strings.signupUrl)            { obj.strings.signupUrl = item.strings.signupUrl; }
-    if (item.strings.url)                  { obj.strings.url = item.strings.url; }
+    if (item.strings.name)                 { objStrings.name = item.strings.name; }
+    if (item.strings.description)          { objStrings.description = item.strings.description; }
+    if (item.strings.extendedDescription)  { objStrings.extendedDescription = item.strings.extendedDescription; }
+    if (item.strings.signupUrl)            { objStrings.signupUrl = item.strings.signupUrl; }
+    if (item.strings.url)                  { objStrings.url = item.strings.url; }
 
     if (item.contacts)  { obj.contacts = item.contacts; }
     if (item.events)    { obj.events = item.events; }
 
-    item = obj;
+    item = obj as unknown as OciResource;
 
     validateFile(filepath, item, resourceSchemaJSON);
     await prettifyFile(filepath, item, contents);
@@ -294,7 +297,7 @@ async function collectResources(loco) {
     seen.set(itemID, filepath);
 
     // Collect translation strings for this resource
-    const translateStrings = {};
+    const translateStrings: Record<string, unknown> = {};
     if (item.strings.name)                 { translateStrings.name = item.strings.name; }
     if (item.strings.description)          { translateStrings.description = item.strings.description; }
     if (item.strings.extendedDescription)  { translateStrings.extendedDescription = item.strings.extendedDescription; }
@@ -302,7 +305,7 @@ async function collectResources(loco) {
 
     // Validate event dates and collect translation strings from upcoming events (where `i18n=true`)
     if (Array.isArray(item.events)) {
-      const estrings = {};
+      const estrings: Record<string, unknown> = {};
 
       for (const event of item.events) {
         // check date
@@ -347,7 +350,7 @@ async function collectResources(loco) {
 
 
 // If we have a url that matches a known format, try to extract the `account` value from it.
-function convertURLs(item) {
+function convertURLs(item: OciResource): void {
   const url = item.strings && item.strings.url;
   if (!url) return;
 
@@ -396,7 +399,7 @@ function convertURLs(item) {
 }
 
 
-function validateFile(file, resource, schema) {
+function validateFile(file: string, resource: unknown, schema: Schema): void {
   const validationErrors = v.validate(resource, schema).errors;
   if (validationErrors.length) {
     console.error(styleText('red', 'Error - Schema validation:'));
@@ -405,7 +408,7 @@ function validateFile(file, resource, schema) {
       if (error.property) {
         console.error(styleText('yellow', '  ' + error.property + ' ' + error.message));
       } else {
-        console.error(styleText('yellow', '  ' + error));
+        console.error(styleText('yellow', '  ' + String(error)));
       }
     });
     process.exit(1);
@@ -413,7 +416,7 @@ function validateFile(file, resource, schema) {
 }
 
 
-async function prettifyFile(file, object, contents) {
+async function prettifyFile(file: string, object: unknown, contents: string): Promise<void> {
   const pretty = stringify(object, { maxLength: 70 }) + '\n';
   if (pretty !== contents) {
     await Bun.write(file, pretty);
@@ -457,30 +460,26 @@ async function prettifyFile(file, object, contents) {
 //   ]
 // }
 //
-function generateCombined(loco) {
-  const keepFeatures = {};
+function generateCombined(loco: LocationConflation): GeoJSON.FeatureCollection {
+  const keepFeatures: Record<string, GeoJSON.Feature> = {};
 
   Object.keys(_resources).forEach(resourceID => {
     const resource = _resources[resourceID];
-    const feature = loco.resolveLocationSet(resource.locationSet).feature;
+    const feature = loco.resolveLocationSet(resource.locationSet)!.feature;
+    const featureID = String(feature.id);
 
-    let keepFeature = keepFeatures[feature.id];
+    let keepFeature = keepFeatures[featureID];
     if (!keepFeature) {
-      keepFeature = deepClone(feature);
-      keepFeature.properties.resources = {};
-      keepFeatures[feature.id] = keepFeature;
+      keepFeature = structuredClone(feature);
+      (keepFeature.properties as GeoJSON.GeoJsonProperties & { resources: Record<string, unknown> }).resources = {};
+      keepFeatures[featureID] = keepFeature;
     }
 
-    const item = deepClone(resource);
-    item.resolved = resolveStrings(item, _defaults);
+    const item = structuredClone(resource);
+    item.resolved = resolveStrings(item, _defaults) as unknown as Record<string, string | undefined>;
 
-    keepFeature.properties.resources[resourceID] = item;
+    (keepFeature.properties as GeoJSON.GeoJsonProperties & { resources: Record<string, unknown> }).resources[resourceID] = item;
   });
 
   return { type: 'FeatureCollection', features: Object.values(keepFeatures) };
-}
-
-
-function deepClone(obj) {
-  return JSON.parse(JSON.stringify(obj));
 }

@@ -29,3 +29,5 @@ await Promise.all([
     naming: 'oci.m[ext]'  // .mjs
   })
 ]);
+
+export {};

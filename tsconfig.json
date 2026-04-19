@@ -1,10 +1,6 @@
 {
-  "include": ["./src/oci.ts"],
-  "exclude": [
-    "node_modules",
-    "dist",
-    "scripts"
-  ],
+  "include": ["./src/**/*", "./lib/**/*", "./scripts/**/*"],
+  "exclude": ["node_modules", "dist"],
   "compilerOptions": {
     // Language and Environment
     "target": "ESNext",
@@ -18,13 +14,7 @@
     "isolatedModules": true,
 
     // Emit
-    "emitDeclarationOnly": true,
-    "declaration": true,
-    "declarationMap": true,
-    "declarationDir": "./dist/ts",
-    "outDir": "./dist/ts",
-    "sourceMap": true,
-    "noEmitOnError": true,
+    "noEmit": true,
 
     // Interop
     "esModuleInterop": true,
@@ -32,15 +22,13 @@
 
     // Type Checking
     "strict": true,
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "skipLibCheck": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedIndexedAccess": false,
     "noImplicitOverride": true,
-
-    // Some stricter flags (disabled by default)
-    "noUnusedLocals": false,
-    "noUnusedParameters": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
     "noPropertyAccessFromIndexSignature": false
   }
 }

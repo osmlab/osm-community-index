@@ -21,6 +21,9 @@ If you want to contribute to osm-community-index, you'll probably need to:
 As you change things, you'll want to `bun run all` to ensure that things are working.
 (This command just runs `clean`, `lint`, `build`, and `test`.)
 
+You can also type-check the project without emitting files:
+- `bun run test:ts` — runs `tsc --noEmit` across all source, lib, and script files.
+
 You can also test the code in a local server:
 - `bun start` - then open `http://127.0.0.1:8080/` in a browser.
 

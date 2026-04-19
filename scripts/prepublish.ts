@@ -32,7 +32,7 @@ async function prepublish() {
  * This function adds a block of metadata to the beginning of a `.json` file.
  * @param  {string}  filepath - the path to the file we want to add metadata to
  */
-async function metadataJSON(filepath) {
+async function metadataJSON(filepath: string): Promise<void> {
   const file = Bun.file(filepath);
   let contents = (await file.text()) || '';
 
@@ -47,7 +47,7 @@ async function metadataJSON(filepath) {
     const path = filepath.replace(/(.*)(\/dist.*)/i, '$2');
 
     // Calculate md5 of contents
-    const version = packageJSON.version;
+    const version = packageJSON.version as string;
     const message = version + contents;
     const hash = new Bun.CryptoHasher('md5').update(message).digest('hex');
     const now = new Date();
@@ -83,7 +83,7 @@ ${strProps}
  *
  * @param  {string}  filepath - the path to the file we want to minify
  */
-async function minifyJSON(filepath) {
+async function minifyJSON(filepath: string): Promise<void> {
   const outpath = filepath.replace('.json', '.min.json');
   const contents = await Bun.file(filepath).json();
 

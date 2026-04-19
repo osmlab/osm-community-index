@@ -4,6 +4,8 @@ import path from 'node:path';
 import { styleText } from 'node:util';
 import Table from 'easy-table';
 
+type ForegroundColor = 'red' | 'yellow' | 'green';
+
 let currSize = 0;
 let currFiles = 0;
 let t = new Table;
@@ -29,21 +31,21 @@ console.info(styleText(['blue','bold'], `Resources:  ${resourceSize} in ${resour
 console.info('');
 
 
-function addRow(file) {
+function addRow(file: string): void {
   const f = Bun.file(file);
   const color = colorBytes(f.size);
   currSize += f.size;
   currFiles++;
 
-  t.cell('Size', f.size, function sizePrinter(val, width) {
-    const displaySize = bytes(f.size, { unitSeparator: ' ' });
+  t.cell('Size', f.size, function sizePrinter(_val: number, width: number) {
+    const displaySize = bytes(f.size, { unitSeparator: ' ' }) ?? '';
     return width ? Table.padLeft(displaySize, width) : styleText(color, displaySize);
   });
   t.cell('File', styleText(color, path.basename(file)));
   t.newRow();
 }
 
-function colorBytes(size) {
+function colorBytes(size: number): ForegroundColor {
   if (size > 1024 * 10) {  // 10 KB
     return 'red';
   } else if (size > 1024 * 2) {  // 2 KB

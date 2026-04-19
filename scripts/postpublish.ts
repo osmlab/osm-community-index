@@ -6,8 +6,8 @@ const packageJSON = await Bun.file('./package.json').json();
 
 // Gather versions that need cache invalidation
 const versions = ['@latest'];
-const match = packageJSON.version.match(/^(\d+)\.(\d+)/);
-if (match[1]) {
+const match = (packageJSON.version as string).match(/^(\d+)\.(\d+)/);
+if (match?.[1]) {
   versions.push(`@${match[1]}`);   // major
   if (match[2]) {
     versions.push(`@${match[1]}.${match[2]}`);  // minor
@@ -41,9 +41,9 @@ async function postpublish() {
     for (const version of versions) {
       const url = `${CDNRoot}${version}${path}`;
       const promise = fetch(url)
-        .then(response => response.json())
+        .then(response => response.json() as Promise<Record<string, unknown>>)
         .then(json => console.log(styleText('greenBright', `'${url}' → ${json.status}`)))
-        .catch(err => console.log(styleText('redBright', `'${url}' → ${err}`)));
+        .catch((err: unknown) => console.log(styleText('redBright', `'${url}' → ${err}`)));
 
       promises.push(promise);
     }
