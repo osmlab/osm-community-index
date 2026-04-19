@@ -50,7 +50,7 @@
     "postpublish": "bun ./scripts/postpublish.ts",
     "start": "bun ./scripts/server.ts",
     "stats": "bun ./scripts/stats.ts",
-    "test": "bun test --dots --coverage ./test/*.js",
+    "test": "bun test --dots --coverage ./test",
     "test:ts": "tsc --noEmit",
     "txpull": "tx pull -a",
     "txpush": "tx push -s"

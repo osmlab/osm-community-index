@@ -71,7 +71,7 @@ const rules = {
     "no-unreachable": "warn",
     "no-unreachable-loop": "warn",
     "no-unused-expressions": "error",
-    "no-unused-vars": ["warn", { "vars": "all", "args": "none", "caughtErrors": "none" }],
+    "no-unused-vars": "off",  // 'typescript-eslint' will check it
     "no-use-before-define": ["off", "nofunc"],
     "no-useless-backreference": "warn",
     "no-useless-call": "warn",
