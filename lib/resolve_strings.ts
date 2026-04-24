@@ -19,7 +19,7 @@ export interface Item {
 
 export type Defaults = Record<string, Partial<ItemStrings>>;
 
-export interface Resolved {
+export interface ResolvedStrings {
   name: string | undefined;
   url: string | undefined;
   signupUrl: string | undefined;
@@ -61,7 +61,7 @@ export type LocalizerFn = (a: string) => string;
 //     extendedDescriptionHTML:  the extendedDescription with urls and signupUrls linkified
 //   }
 //
-export function resolveStrings(item: Item, defaults: Defaults, localizerFn?: LocalizerFn): Resolved {
+export function resolveStrings(item: Item, defaults: Defaults, localizerFn?: LocalizerFn): ResolvedStrings {
   const itemStrings = Object.assign({}, item.strings);             // shallow clone
   const defaultStrings = Object.assign({}, defaults[item.type]);   // shallow clone
   const anyToken = new RegExp(/(\{\w+\})/, 'gi');
@@ -95,7 +95,7 @@ export function resolveStrings(item: Item, defaults: Defaults, localizerFn?: Loc
     signupUrl:           resolve(itemStrings.signupUrl || defaultStrings.signupUrl),
     description:         resolve(itemStrings.description || defaultStrings.description),
     extendedDescription: resolve(itemStrings.extendedDescription || defaultStrings.extendedDescription)
-  } as Resolved;
+  } as ResolvedStrings;
 
   // Generate linkified strings
   resolved.nameHTML = linkify(resolved.url, resolved.name);

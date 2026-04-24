@@ -5,7 +5,7 @@ import geojsonRewind from '@mapbox/geojson-rewind';
 import { Glob, YAML } from 'bun';
 import JSON5 from 'json5';
 import jsonschema, { type Schema } from 'jsonschema';
-import LocationConflation, { type FeatureCollection as LCFeatureCollection } from '@rapideditor/location-conflation';
+import LocationConflation from '@rapideditor/location-conflation';
 import path from 'node:path';
 import stringify from 'json-stringify-pretty-compact';
 import { styleText } from 'node:util';
@@ -13,7 +13,9 @@ import { styleText } from 'node:util';
 import { resolveStrings } from '../lib/resolve_strings.ts';
 import { sortObject } from '../lib/sort_object.ts';
 import { simplify } from '../lib/simplify.ts';
+
 import type { OciDefaults, OciResource, OciTranslationStrings } from '../lib/types.ts';
+import type { LocationSet } from '@rapideditor/location-conflation';
 
 const withLocale = new Intl.Collator('en-US').compare;  // specify 'en-US' for stable sorting
 
@@ -34,7 +36,16 @@ let _resources: Record<string, OciResource> = {};
 
 buildAll();
 
-async function buildAll() {
+
+/**
+ * Orchestrates the full JSON build pipeline.
+ *
+ * Reads defaults, features, and resources from the source tree, writes the
+ * build artifacts to `./dist/json/` (`defaults.json`, `featureCollection.json`,
+ * `resources.json`, `completeFeatureCollection.json`), and emits the English
+ * translation source at `./i18n/en.yaml`.
+ */
+async function buildAll(): Promise<void> {
   const START = '🏗   ' + styleText('yellow', 'Building json…');
   const END = '👍  ' + styleText('green', 'json built');
   console.log('');
@@ -49,7 +60,7 @@ async function buildAll() {
   _features = await collectFeatures();
   const featureCollection: GeoJSON.FeatureCollection = { type: 'FeatureCollection', features: _features };
   await Bun.write('./dist/json/featureCollection.json', stringify(featureCollection, { maxLength: 9999 }) + '\n');
-  const loco = new LocationConflation(featureCollection as unknown as LCFeatureCollection);
+  const loco = new LocationConflation(featureCollection);
 
   // Resources
   _resources = await collectResources(loco);
@@ -70,9 +81,14 @@ async function buildAll() {
 }
 
 
-//
-// Gather default strings from `./src/defaults.json`
-//
+/**
+ * Loads the default resource strings from `./src/defaults.json`.
+ *
+ * Also seeds the `_defaults` bucket of the global translation strings object
+ * so these defaults are included in the generated `en.yaml`.
+ *
+ * @returns The loaded defaults object, keyed by resource type.
+ */
 async function collectDefaults(): Promise<OciDefaults> {
   process.stdout.write('📦  Defaults: ');
 
@@ -86,9 +102,24 @@ async function collectDefaults(): Promise<OciDefaults> {
 }
 
 
-//
-// Gather feature files from `./features/**/*.geojson`
-//
+/**
+ * Gathers and validates feature files from `./features/**\/*.geojson`.
+ *
+ * For each file this:
+ * - parses the GeoJSON (JSON5 is tolerated),
+ * - enforces polygon winding order and coordinate precision,
+ * - unwraps single-feature `FeatureCollection`s (geojson.io produces these),
+ * - warns when the polygon is small enough that a circular include location
+ *   would be a better fit,
+ * - assigns the lowercased filename as the feature `id`,
+ * - validates against `schema/feature.json`,
+ * - rewrites the file on disk in canonical pretty-printed form,
+ * - checks for duplicate ids across the feature tree.
+ *
+ * Exits the process (code 1) on any validation failure.
+ *
+ * @returns The validated features, sorted by id with a stable `en-US` collation.
+ */
 async function collectFeatures(): Promise<GeoJSON.Feature[]> {
   const features: GeoJSON.Feature[] = [];
   const seen = new Map<string, string>();   // Map<id, filepath>
@@ -182,9 +213,29 @@ async function collectFeatures(): Promise<GeoJSON.Feature[]> {
 }
 
 
-//
-// Gather resource files from `./resources/**/*.json`
-//
+/**
+ * Gathers and validates resource files from `./resources/**\/*.json`.
+ *
+ * For each file this:
+ * - parses the JSON (JSON5 is tolerated),
+ * - resolves the `locationSet` via LocationConflation to confirm it produces a
+ *   non-empty feature,
+ * - extracts an `account` from well-known URL formats (see {@link convertURLs}),
+ * - confirms that `name`, `description`, and `url` can be resolved from the
+ *   item + defaults,
+ * - derives a `communityID` slug from the `community` string (if any),
+ * - rewrites the resource with a canonical property order,
+ * - validates against `schema/resource.json`,
+ * - writes the canonical form back to disk,
+ * - checks for duplicate resource ids,
+ * - validates any `events[].when` dates and collects `i18n=true` events into
+ *   the translation strings.
+ *
+ * Exits the process (code 1) on any validation failure.
+ *
+ * @param loco - LocationConflation instance pre-loaded with the feature collection.
+ * @returns A map of resource id to validated resource.
+ */
 async function collectResources(loco: LocationConflation): Promise<Record<string, OciResource>> {
   const resources: Record<string, OciResource> = {};
   const seen = new Map<string, string>();   // Map<id, filepath>
@@ -246,7 +297,7 @@ async function collectResources(loco: LocationConflation): Promise<Record<string
     if (item.type)     { obj.type = item.type; }
     if (item.account)  { obj.account = item.account; }
 
-    const objLocationSet: Record<string, unknown> = {};
+    const objLocationSet: LocationSet = {};
     if (item.locationSet.include)  { objLocationSet.include = item.locationSet.include; }
     if (item.locationSet.exclude)  { objLocationSet.exclude = item.locationSet.exclude; }
     obj.locationSet = objLocationSet;
@@ -349,7 +400,18 @@ async function collectResources(loco: LocationConflation): Promise<Record<string
 }
 
 
-// If we have a url that matches a known format, try to extract the `account` value from it.
+/**
+ * Extracts an `account` from a well-known URL format and mutates `item` in place.
+ *
+ * If `item.strings.url` matches a known pattern for `item.type`
+ * (e.g. `facebook.com/<account>`, `t.me/<account>`), the captured account name
+ * is moved to `item.account` and `item.strings.url` is deleted — the runtime
+ * `resolveStrings()` will regenerate the URL from the account.
+ *
+ * No-op if there is no `url`, or if the url does not match a known pattern.
+ *
+ * @param item - The resource to mutate.
+ */
 function convertURLs(item: OciResource): void {
   const url = item.strings && item.strings.url;
   if (!url) return;
@@ -399,6 +461,16 @@ function convertURLs(item: OciResource): void {
 }
 
 
+/**
+ * Validates `resource` against a JSON schema and exits the process on failure.
+ *
+ * On validation failure, prints each error (prefixed with the source file path)
+ * and calls `process.exit(1)`.
+ *
+ * @param file - Source file path, used in error messages.
+ * @param resource - The parsed object to validate.
+ * @param schema - The JSON schema to validate against.
+ */
 function validateFile(file: string, resource: unknown, schema: Schema): void {
   const validationErrors = v.validate(resource, schema).errors;
   if (validationErrors.length) {
@@ -416,6 +488,17 @@ function validateFile(file: string, resource: unknown, schema: Schema): void {
 }
 
 
+/**
+ * Rewrites `file` in canonical pretty-printed form if its contents differ.
+ *
+ * Serializes `object` via `json-stringify-pretty-compact` (maxLength 70) and
+ * writes the result only when it differs from `contents`, to avoid touching
+ * mtimes for already-canonical files.
+ *
+ * @param file - Destination file path.
+ * @param object - The value to serialize.
+ * @param contents - The file's current contents, for change detection.
+ */
 async function prettifyFile(file: string, object: unknown, contents: string): Promise<void> {
   const pretty = stringify(object, { maxLength: 70 }) + '\n';
   if (pretty !== contents) {
@@ -424,42 +507,39 @@ async function prettifyFile(file: string, object: unknown, contents: string): Pr
 }
 
 
-// generateCombined
-// Generate a combined GeoJSON FeatureCollection
-// containing all the features w/ resources stored in properties
-//
-// {
-//   type: 'FeatureCollection',
-//   features: [
-//     {
-//       type: 'Feature',
-//       id: 'Q117',
-//       geometry: { … },
-//       properties: {
-//         'area': 297118.3,
-//         'resources': {
-//           'osm-gh-facebook': { … },
-//           'osm-gh-twitter': { … },
-//           'talk-gh': { … }
-//         }
-//       }
-//     }, {
-//       type: 'Feature',
-//       id: 'Q1019',
-//       geometry: { … },
-//       properties: {
-//         'area': 964945.85,
-//         'resources': {
-//           'osm-mg-facebook': { … },
-//           'osm-mg-twitter': { … },
-//           'talk-mg': { … }
-//         }
-//       }
-//     },
-//     …
-//   ]
-// }
-//
+/**
+ * Builds a combined GeoJSON `FeatureCollection` with resources embedded in
+ * each feature's `properties.resources`.
+ *
+ * Every resource's `locationSet` is resolved to a feature; resources that
+ * resolve to the same feature id are grouped onto a single output feature.
+ * Each embedded resource also gets a `resolved` property populated by
+ * {@link resolveStrings}, so consumers don't need the defaults table.
+ *
+ * @param loco - LocationConflation instance pre-loaded with the feature collection.
+ * @returns A FeatureCollection shaped like:
+ * ```
+ * {
+ *   type: 'FeatureCollection',
+ *   features: [
+ *     {
+ *       type: 'Feature',
+ *       id: 'Q117',
+ *       geometry: { … },
+ *       properties: {
+ *         area: 297118.3,
+ *         resources: {
+ *           'osm-gh-facebook': { … },
+ *           'osm-gh-twitter':  { … },
+ *           'talk-gh':         { … }
+ *         }
+ *       }
+ *     },
+ *     …
+ *   ]
+ * }
+ * ```
+ */
 function generateCombined(loco: LocationConflation): GeoJSON.FeatureCollection {
   const keepFeatures: Record<string, GeoJSON.Feature> = {};
 
@@ -476,7 +556,7 @@ function generateCombined(loco: LocationConflation): GeoJSON.FeatureCollection {
     }
 
     const item = structuredClone(resource);
-    item.resolved = resolveStrings(item, _defaults) as unknown as Record<string, string | undefined>;
+    item.resolved = resolveStrings(item, _defaults);
 
     (keepFeature.properties as GeoJSON.GeoJsonProperties & { resources: Record<string, unknown> }).resources[resourceID] = item;
   });

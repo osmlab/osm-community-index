@@ -1,4 +1,3 @@
-/* eslint-disable no-duplicate-imports -- each declare module block has its own scope */
 declare module '@mapbox/geojson-area' {
   import type { Geometry } from 'geojson';
   /**

@@ -1,4 +1,5 @@
 import type { LocationSet } from '@rapideditor/location-conflation';
+import type { ResolvedStrings } from './resolve_strings.ts';
 
 
 /** All known OCI resource type identifiers. */
@@ -23,13 +24,11 @@ export interface OciResourceStrings {
   url?: string;
 }
 
-
 /** A contact entry on a resource. */
 export interface OciContact {
   name: string;
   email: string;
 }
-
 
 /** An event entry on a resource. */
 export interface OciEvent {
@@ -41,7 +40,6 @@ export interface OciEvent {
   when: string;
   url?: string;
 }
-
 
 /** A community resource from `resources/**\/*.json`. */
 export interface OciResource {
@@ -55,7 +53,7 @@ export interface OciResource {
   contacts?: OciContact[];
   events?: OciEvent[];
   /** Attached at build time by `generateCombined()` */
-  resolved?: Record<string, string | undefined>;
+  resolved?: ResolvedStrings;
 }
 
 

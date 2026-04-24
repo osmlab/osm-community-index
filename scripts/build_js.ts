@@ -14,7 +14,7 @@ await Promise.all([
     outdir: './dist/js',
     target: 'node',
     format: 'cjs',
-    external: ['diacritics'],
+    packages: 'external',
     sourcemap: 'linked',
     naming: 'oci.c[ext]'  // .cjs
   }),
@@ -24,7 +24,7 @@ await Promise.all([
     outdir: './dist/js',
     target: 'node',
     format: 'esm',
-    external: ['diacritics'],
+    packages: 'external',
     sourcemap: 'linked',
     naming: 'oci.m[ext]'  // .mjs
   })
