@@ -3,6 +3,8 @@ description: Prepare a new release (CHANGELOG, version bump)
 argument-hint: version number, for example: `A.B.C` or `A.B.C-pre.D`
 ---
 
+If the user provided additional context with the prompt, treat it as an extra constraint or scope hint.
+
 You are preparing release **${input:version}** for this repo. Do the following steps in order:
 
 1. **Confirm the version** — the new release version is `${input:version}`. Read `package.json` to verify this is a valid bump from the current version.
@@ -24,7 +26,7 @@ You are preparing release **${input:version}** for this repo. Do the following s
 
 4. **Update `CHANGELOG.md`** — insert a new section immediately above the previous release heading. Follow the existing format exactly:
    - Header: `# ${input:version}`
-   - Date: `##### YYYY-Mon-DD` (use today's date)
+   - Date: `##### YYYY-MMM-DD` (use today's date)
    - Bullet points for each user-visible change (new features, fixes, improvements)
    - For bug/fix commits, write a plain bullet
    - Internal/dev-only commits (CI config, agent setup, etc.) can be omitted or grouped into a single terse bullet
@@ -32,3 +34,9 @@ You are preparing release **${input:version}** for this repo. Do the following s
      - PR links: `[#NNN]: https://github.com/osmlab/osm-community-index/issues/NNN`
 
 5. **Update `package.json`** — set `"version"` to `"${input:version}"`.
+
+<!--
+sync:
+version=1
+source=https://github.com/rapideditor/agent-practices/blob/main/templates/.github/prompts/release.prompt.md
+-->

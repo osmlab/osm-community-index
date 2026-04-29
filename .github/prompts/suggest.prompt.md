@@ -5,6 +5,8 @@ argument-hint: additional optional context
 
 Find concrete improvements and flag things worth tracking for future work. Respect the existing style; don't over-engineer. Report findings only — do not make edits. The user will choose which suggestions to implement.
 
+If the user provided additional context with the prompt, treat it as a focus area (e.g. "focus on TypeScript types", "performance only").
+
 ## Steps
 
 1. Read `AGENTS.md` to understand the project structure.
@@ -41,3 +43,9 @@ Group findings by category. Number each suggestion sequentially across all categ
 - 🔥 Actionable issue (bug, broken) — should be fixed soon
 - 👉 Improvement (best practice, clarity) — worth doing
 - 💡 Suggestion (optional, bigger change) — idea to track for future work
+
+<!--
+sync:
+version=1
+source=https://github.com/rapideditor/agent-practices/blob/main/templates/.github/prompts/suggest.prompt.md
+-->

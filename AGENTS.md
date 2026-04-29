@@ -18,7 +18,7 @@ This project has reusable Copilot prompt files in `.github/prompts/`:
 - `/reflect` — update all project documentation with the current state of the code
 - `/release` — prepare a new release (CHANGELOG entry + version bump); accepts version number as input
 - `/suggest` — review the codebase and suggest concrete improvements
-- `/sync` — sync scaffold files against a source repo; accepts source repo URL as input
+- `/sync` — sync scaffold files against the canonical agent-practices repo
 
 When asked to do one of these tasks, prefer using the prompt file rather than improvising.
 
@@ -44,4 +44,22 @@ When asked to do one of these tasks, prefer using the prompt file rather than im
   - The comment applies to code being removed
   - The meaning of the code has changed
   - Specifically asked to remove them
-- Comments contain valuable domain knowledge - preserve them
+- Comments contain valuable domain knowledge — preserve them.
+- Also **don't add unsolicited comments or docstrings** to code you're modifying. Only add explanatory comments when the user asks, when documenting a non-obvious decision (magic numbers, workarounds), or when the code is genuinely confusing without them.
+
+### Lint warnings
+- **Never circumvent lint warnings** by renaming, reformatting, or otherwise disguising the triggering code to silence a rule.
+- Lint warnings are intentional project health signals — they should remain visible.
+- If your change introduces a new lint warning, mention it; don't silently suppress it.
+
+### File Operations
+- Use VS Code file tools (`create_file`, `replace_string_in_file`, `multi_replace_string_in_file`) instead of terminal commands. This shows changes in VS Code's diff view for easier review.
+- For bulk/repetitive edits across multiple files, use `multi_replace_string_in_file` with explicit before/after context in each replacement. The exact-match requirement prevents silent damage that regex-based tools can cause.
+- **Do not use `sed`, `perl -i`, or inline Python/Node scripts to edit source files.** Greedy regexes (especially around whitespace and line boundaries) can collapse or corrupt code in ways that are hard to spot without a full re-read. If an edit feels too repetitive for `multi_replace_string_in_file`, that's a signal to slow down, not to reach for a script.
+- Avoid `cat` with heredoc or other terminal-based file writing.
+
+<!--
+sync:
+version=1
+source=https://github.com/rapideditor/agent-practices/blob/main/templates/AGENTS.md
+-->

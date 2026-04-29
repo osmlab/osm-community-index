@@ -1,34 +1,43 @@
 {
-  "include": ["./src/**/*", "./lib/**/*", "./scripts/**/*"],
-  "exclude": ["node_modules", "dist"],
   "compilerOptions": {
-    // Language and Environment
+    // Environment setup & latest features
+    "lib": [
+      "ESNext"
+    ],
     "target": "ESNext",
-    "lib": ["ESNext"],
-
-    // Modules
-    "module": "ESNext",
+    "module": "Preserve",
+    "moduleDetection": "force",
+    // Bundler mode
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
     "resolveJsonModule": true,
-    "isolatedModules": true,
-
-    // Emit
     "noEmit": true,
-
-    // Interop
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-
-    // Type Checking
+    // Best practices
     "strict": true,
-    "noImplicitAny": true,
+    "noImplicitReturns": true,
     "skipLibCheck": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedIndexedAccess": false,
+    "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noPropertyAccessFromIndexSignature": false
-  }
+    "noPropertyAccessFromIndexSignature": true,
+    "exactOptionalPropertyTypes": true,
+    "erasableSyntaxOnly": true
+  },
+  "include": [
+    "./src/**/*",
+    "./lib/**/*",
+    "./scripts/**/*",
+    "./test/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
+// sync:
+// version=1
+// source=https://github.com/rapideditor/agent-practices/blob/main/templates/tsconfig.json
+// instructions="skip entirely if this project does not use TypeScript; otherwise apply structural changes and new compiler options from the source; flag any option that differs in value and ask before overwriting, since local values may be intentional"

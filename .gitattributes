@@ -1,13 +1,20 @@
 # Force LF line endings for all text files
 * text=auto eol=lf
+*.bat eol=crlf
 
+*.css linguist-detectable
 *.geojson linguist-detectable
 *.json linguist-detectable
 *.jsonc linguist-detectable
 *.json5 linguist-detectable
 *.md linguist-documentation
+*.svg linguist-detectable
 *.yaml linguist-detectable
 
 docs/** linguist-documentation
 dist/** linguist-generated
 i18n/** linguist-vendored
+
+# sync:
+# version=1
+# source=https://github.com/rapideditor/agent-practices/blob/main/templates/.gitattributes

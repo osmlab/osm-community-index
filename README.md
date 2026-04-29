@@ -50,3 +50,9 @@ See the [LICENSE.md](LICENSE.md) file for more details.
 
 This project also bundles some icons from [FontAwesome](https://fontawesome.com/).
 The icons are licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+<!--
+sync:
+version=1
+source=https://github.com/rapideditor/agent-practices/blob/main/templates/README.md
+-->

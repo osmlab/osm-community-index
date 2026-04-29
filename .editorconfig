@@ -3,7 +3,12 @@ root = true
 [*]
 trim_trailing_whitespace = true
 insert_final_newline = true
+end_of_line = lf
 
-[*.geojson, *.json, *.js]
+[*.{geojson,json,js,ts,css,html,yaml}]
 indent_style = space
 indent_size = 2
+
+# sync:
+# version=1
+# source=https://github.com/rapideditor/agent-practices/blob/main/templates/.editorconfig

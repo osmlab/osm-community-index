@@ -78,7 +78,12 @@ export function resolveStrings(item: Item, defaults: Defaults, localizerFn?: Loc
     }
   }
 
-  const replacements: Record<string, string | undefined | null> = {
+  const replacements: {
+    account: string | undefined | null;
+    community: string | undefined | null;
+    signupUrl: string | undefined | null;
+    url: string | undefined | null;
+  } = {
     account: item.account,
     community: itemStrings.community,
     signupUrl: itemStrings.signupUrl,
@@ -115,7 +120,7 @@ export function resolveStrings(item: Item, defaults: Defaults, localizerFn?: Loc
       const token = `{${key}}`;
       const regex = new RegExp(token, 'g');
       if (regex.test(result)) {
-        let replacement = replacements[key];
+        let replacement = replacements[key as keyof typeof replacements];
         if (!replacement) {
           throw new Error(`Cannot resolve token: ${token}`);
         } else {

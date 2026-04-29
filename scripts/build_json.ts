@@ -14,7 +14,7 @@ import { resolveStrings } from '../lib/resolve_strings.ts';
 import { sortObject } from '../lib/sort_object.ts';
 import { simplify } from '../lib/simplify.ts';
 
-import type { OciDefaults, OciResource, OciTranslationStrings } from '../lib/types.ts';
+import type { OciDefaults, OciResource, OciResourceStrings, OciTranslationStrings } from '../lib/types.ts';
 import type { LocationSet } from '@rapideditor/location-conflation';
 
 const withLocale = new Intl.Collator('en-US').compare;  // specify 'en-US' for stable sorting
@@ -292,7 +292,7 @@ async function collectResources(loco: LocationConflation): Promise<Record<string
     }
 
     // Clean and sort the properties for consistency, save them that way.
-    const obj: Record<string, unknown> = {};
+    const obj: Partial<OciResource> = {};
     if (item.id)       { obj.id = item.id; }
     if (item.type)     { obj.type = item.type; }
     if (item.account)  { obj.account = item.account; }
@@ -305,11 +305,11 @@ async function collectResources(loco: LocationConflation): Promise<Record<string
     if (item.languageCodes)        { obj.languageCodes = item.languageCodes.sort(withLocale); }
     if (item.order !== undefined)  { obj.order = item.order; }
 
-    obj.strings = {};
+    const objStrings: OciResourceStrings & { communityID?: string } = {};
+    obj.strings = objStrings;
 
     // If this item has a "community name" string, generate `communityID` and store it.
     // https://github.com/osmlab/osm-community-index/issues/616
-    const objStrings = obj.strings as Record<string, string>;
     if (item.strings.community) {
       const communityID = simplify(item.strings.community);
       if (!communityID) {
@@ -348,7 +348,12 @@ async function collectResources(loco: LocationConflation): Promise<Record<string
     seen.set(itemID, filepath);
 
     // Collect translation strings for this resource
-    const translateStrings: Record<string, unknown> = {};
+    const translateStrings: {
+      name?: string;
+      description?: string;
+      extendedDescription?: string;
+      events?: Record<string, unknown>;
+    } = {};
     if (item.strings.name)                 { translateStrings.name = item.strings.name; }
     if (item.strings.description)          { translateStrings.description = item.strings.description; }
     if (item.strings.extendedDescription)  { translateStrings.extendedDescription = item.strings.extendedDescription; }
@@ -454,7 +459,7 @@ function convertURLs(item: OciResource): void {
     matchUrl = url.match(/youtube.com\/channel\/([\-A-Za-z0-9_.]+)\/?$/i);
   }
 
-  if (matchUrl) {
+  if (matchUrl && matchUrl[1]) {
     item.account = matchUrl[1];
     delete item.strings.url;
   }
@@ -545,6 +550,7 @@ function generateCombined(loco: LocationConflation): GeoJSON.FeatureCollection {
 
   Object.keys(_resources).forEach(resourceID => {
     const resource = _resources[resourceID];
+    if (!resource) return;
     const feature = loco.resolveLocationSet(resource.locationSet)!.feature;
     const featureID = String(feature.id);
 
