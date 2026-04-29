@@ -20,9 +20,3 @@ If the user provided additional context with the prompt, treat it as a focus are
 - Markdown files (`README`, design docs, contributing guides)
 - Agent instructions (`AGENTS.md`, `copilot-instructions`, etc.)
 - Working memory — e.g. `SCRATCHPAD.md`, `.scratchpad/*`, or whatever convention this project uses (see `AGENTS.md`)
-
-<!--
-sync:
-version=1
-source=https://github.com/rapideditor/agent-practices/blob/main/templates/.github/prompts/reflect.prompt.md
--->

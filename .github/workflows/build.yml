@@ -24,7 +24,3 @@ jobs:
         echo "::remove-matcher owner=eslint-compact::"
         echo "::remove-matcher owner=eslint-stylish::"
     - run: bun run all
-
-# sync:
-# version=1
-# source=https://github.com/rapideditor/agent-practices/blob/main/templates/.github/workflows/build.yml

@@ -19,10 +19,10 @@ If you want to contribute to osm-community-index, you'll probably need to:
 - `bun install` the dependencies
 
 As you change things, you'll want to `bun run all` to ensure that things are working.
-(This command just runs `clean`, `lint`, `build`, and `test`.)
+(This command runs `clean`, `check`, `build`, and `test`.)
 
 You can also type-check the project without emitting files:
-- `bun run check:ts` — runs `tsc --noEmit` across all source, lib, and script files.
+- `bun run check:ts` — runs `tsc --noEmit` across all source, lib, script, and test files.
 
 You can also test the code in a local server:
 - `bun start` - then open `http://127.0.0.1:8080/` in a browser.
@@ -39,9 +39,3 @@ Try to keep things simple!
 We welcome contributions made with the help of AI tools.
 If you use them, you are responsible for understanding and reviewing the output before submitting it.
 Generated code, issues, and PR descriptions should be clear and relevant — not verbose for the sake of it.
-
-<!--
-sync:
-version=1
-source=https://github.com/rapideditor/agent-practices/blob/main/templates/CONTRIBUTING.md
--->
