@@ -1,0 +1,18 @@
+{
+  "id": "sicilia-telegram",
+  "type": "telegram",
+  "account": "WikimedianiSicilia",
+  "locationSet": {"include": ["sicilia.geojson"]},
+  "languageCodes": ["it"],
+  "strings": {
+    "community": "Wikimedia & OSM in Sicily",
+    "communityID": "wikimediaandosminsicily",
+    "description": "Everyone is welcome! You can join using this link: {url}"
+  },
+  "contacts": [
+    {
+      "name": "Giovanni Pennisi",
+      "email": "giovanni.pennisi@asli.info"
+    }
+  ]
+}
