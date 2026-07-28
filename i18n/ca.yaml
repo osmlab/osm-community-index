@@ -23,7 +23,7 @@ ca:
     openstreetmapchile: OpenStreetMap Xile
     openstreetmapchina: OpenStreetMap Xina
     openstreetmapcologne: OpenStreetMap Colònia
-    openstreetmapcotedivoire: OpenStreetMap Costa d'Ivori
+    openstreetmapcotedivoire: "OpenStreetMap Costa d'Ivori"
     openstreetmapcroatia: OpenStreetMap Croàcia
     openstreetmapcz: OpenStreetMap República Txeca
     openstreetmapde: OpenStreetMap Alemanya
@@ -104,81 +104,81 @@ ca:
     openstreetmapzimbabwe: OpenStreetMap Zimbàbue
   _defaults:
     aparat:
-      name: '{community} a Aparat'
+      name: "{community} a Aparat"
       description: Subscriviu-vos al canal d'Aparat
     discord:
-      name: 'Discord d''{community}'
+      name: "Discord d'{community}"
       description: Estigueu en contacte amb altres mapejadors a Discord
     discourse:
-      name: 'Fòrum de la comunitat {community}'
-      description: El fòrum oficial per {community}
-      url: https://community.openstreetmap.org/c/communities/{compte}
+      name: "Fòrum de la comunitat {community}"
+      description: "El fòrum oficial per {community}"
+      url: "https://community.openstreetmap.org/c/communities/{compte}"
     facebook:
-      name: '{community} al Facebook'
+      name: "{community} al Facebook"
       description: Uniu-vos a la comunitat al Facebook
-      url: https://www.facebook.com/{compte}
+      url: "https://www.facebook.com/{compte}"
     forum:
-      name: 'Fòrum d''{community}'
-      description: Fòrum oficial per {community}
+      name: "Fòrum d'{community}"
+      description: "Fòrum oficial per {community}"
     github:
-      name: 'GitHub d''{community}'
+      name: "GitHub d'{community}"
     gitlab:
-      name: 'GitLab d''{community}'
+      name: "GitLab d'{community}"
     irc:
-      name: '{community} a l''IRC'
+      name: "{community} a l'IRC"
     linkedin:
-      name: '{community} a LinkedIn'
+      name: "{community} a LinkedIn"
       description: Uniu-vos a la comunitat al LinkedIn
-      url: https://www.linkedin.com/company/{compte}
+      url: "https://www.linkedin.com/company/{compte}"
     mailinglist:
-      name: 'Llista de correu {account}'
-      description: Llista de correu oficial per {community}
+      name: "Llista de correu {account}"
+      description: "Llista de correu oficial per {community}"
     mastodon:
-      description: El compte oficial de Mastodon per {community}
+      description: "El compte oficial de Mastodon per {community}"
     matrix:
-      name: 'Xat Matrix d''{community}'
+      name: "Xat Matrix d'{community}"
       description: Uniu-vos a la comunitat al xat Matrix
     meetup:
-      name: 'Meetup d''{community}'
-      url: https://www.meetup.com/{compte}
+      name: "Meetup d'{community}"
+      url: "https://www.meetup.com/{compte}"
     newsletter:
-      name: 'Butlletí de notícies {community}'
+      name: "Butlletí de notícies {community}"
     reddit:
-      name: '{community} a Reddit'
+      name: "{community} a Reddit"
     signal:
-      name: 'Signal de {community}'
+      name: "Signal de {community}"
       description: Uniu-vos al nostre xat de la comunitat al Signal
     slack:
-      name: 'Slack d''{community}'
+      name: "Slack d'{community}"
     telegram:
-      name: 'Telegram d''{community}'
+      name: "Telegram d'{community}"
       description: Uniu-vos a la comunitat al xat de Telegram
     threads:
-      name: '{community} a Threads'
+      name: "{community} a Threads"
       description: Segueix-nos a Threads
     wiki:
-      name: 'WikiProject d''{community}'
+      name: "WikiProject d'{community}"
     xmpp:
-      name: 'XMPP d''{community}'
+      name: "XMPP d'{community}"
     youtube:
-      name: '{community} a YouTube'
+      name: "{community} a YouTube"
       description: Subscriviu-vos al canal de YouTube
     zulip:
-      name: 'Zulip {community}'
+      name: "Zulip {community}"
       description: Uniu-vos al nostre xat de la comunitat al Zulip
   af-matrix:
     description: Grup Matrix per a la comunitat a l'Afganistan.
   al-maptime-tirana:
     description: Esdeveniments socials organitzats al voltant del mapeig - els principiants són benvinguts!
-    extendedDescription: Maptime és un entorn d'aprenentatge obert per a tots els nivells i graus de coneixement, oferint suport educatiu intencionat per a l'iniciador. Maptime és simultàniament flexible i estructurat, creant espai per cartografiar tutorials, tallers, projectes en curs amb un objectiu compartit, i temps de treball independent/col·laboratiu.
+    extendedDescription: "Maptime és un entorn d'aprenentatge obert per a tots els nivells i graus de coneixement, oferint suport educatiu intencionat per a l'iniciador. Maptime és simultàniament flexible i estructurat, creant espai per cartografiar tutorials, tallers, projectes en curs amb un objectiu compartit, i temps de treball independent/col·laboratiu."
   am-wiki:
-    description: 'Pàgina wiki {community}'
+    description: "Pàgina wiki {community}"
   at-matrix:
     description: Canal no oficial de Matrix en alemany per a Àustria
   at-wiki:
-    description: 'Pàgina wiki {community}'
+    description: "Pàgina wiki {community}"
   Bahia-telegram:
-    extendedDescription: Uniu-vos a la comunitat per aprendre més sobre OpenStreetMap, fer preguntes o participar en les nostres reunions. Tots són benvinguts!
+    extendedDescription: "Uniu-vos a la comunitat per aprendre més sobre OpenStreetMap, fer preguntes o participar en les nostres reunions. Tots són benvinguts!"
   Bay-Area-OpenStreetMappers:
     description: Millora OpenStreetMap a l'Índia
   be-chapter:
@@ -190,83 +190,82 @@ ca:
   bg-wiki:
     description: Pàgina Viquiprojecte per a Bulgària
   bi-vc-cvl-meetup:
-    description: Grup local de mapejadors a Biellese, Vercellese, Canavese i Valli di Lanzo
+    description: "Grup local de mapejadors a Biellese, Vercellese, Canavese i Valli di Lanzo"
   bo-facebook-group:
-    name: 'Grup de Facebook {community}'
+    name: "Grup de Facebook {community}"
   bo-matrix:
     description: Tots els mapejadors són benvinguts!
   br-telegram:
-    extendedDescription: Uniu-vos a la comunitat per aprendre més sobre OpenStreetMap, fer preguntes o participar en les nostres reunions. Tots són benvinguts!
+    extendedDescription: "Uniu-vos a la comunitat per aprendre més sobre OpenStreetMap, fer preguntes o participar en les nostres reunions. Tots són benvinguts!"
   cape-coast-youthmappers:
     name: Universitat de Cape Coast YouthMappers
-    description: 'Segueix-nos a Twitter: {url}'
-    extendedDescription: Aquest és l'identificacdor oficial dels Joves Cartografistes de la Universitat de Cape Coast, Ghana. Ens encanten els mapes, les dades obertes i ajudar a les persones vulnerables.
+    extendedDescription: "Aquest és l'identificacdor oficial dels Joves Cartografistes de la Universitat de Cape Coast, Ghana. Ens encanten els mapes, les dades obertes i ajudar a les persones vulnerables."
   castilla-y-leon-wiki:
-    description: 'Tot el que has de saber sobre mapejar en Castella i Lleó: {url}'
+    description: "Tot el que has de saber sobre mapejar en Castella i Lleó: {url}"
   cat-github:
     description: Projectes de la comunitat dels Països Catalans d'OpenStreetMap a GitHub
   cat-matrix:
     description: Grup de Matrix per la comunitat d'OpenStreetMap dels Països Catalans
   cat-twitch:
-    name: Canal de Twitch de {community}
+    name: "Canal de Twitch de {community}"
   cat-wiki:
-    description: 'Espai de coordinació per la comunitat d''OpenStreetMap als Països Catalans: {url}'
+    description: "Espai de coordinació per la comunitat d'OpenStreetMap als Països Catalans: {url}"
   cd-chapter:
-    description: D'un carrer a un altre, mapegem el nostre país...
+    description: "D'un carrer a un altre, mapegem el nostre país..."
   cl-facebook:
-    extendedDescription: Uniu-vos a la comunitat per aprendre més sobre OpenStreetMap, fer preguntes o participar en les nostres reunions. Tothom és benvingut!
+    extendedDescription: "Uniu-vos a la comunitat per aprendre més sobre OpenStreetMap, fer preguntes o participar en les nostres reunions. Tothom és benvingut!"
   cl-telegram:
-    extendedDescription: Uniu-vos a la comunitat per aprendre més sobre OpenStreetMap, fer preguntes o participar en les nostres reunions. Tothom és benvingut!
+    extendedDescription: "Uniu-vos a la comunitat per aprendre més sobre OpenStreetMap, fer preguntes o participar en les nostres reunions. Tothom és benvingut!"
   co-discourse:
     name: Tòpic de debats de la comunitat d'OSM sobre Colòmbia
     description: Aquests són els tòpics relacionats amb canvis del mapa a Colòmbia
   co-facebook:
-    name: Grup de {community} a Facebook
+    name: "Grup de {community} a Facebook"
     description: Grup de conversació de problemes amb OSM a Colòmbia
   co-talk:
-    name: 'Llista de correus electrònics de {community}'
+    name: "Llista de correus electrònics de {community}"
     description: Correus electrònics que requereixen comunicar informació amb la comunitat
   co-telegram:
-    name: Grup de conversació de {community} a Telegram
+    name: "Grup de conversació de {community} a Telegram"
     description: Debats oberts sobre tòpics d'interés general de la comunitat sencera. És el canal més actiu
   comunitat-valenciana-wiki:
-    description: 'Tot el que necessites conèixer sobre mapejar a la Comunitat Valenciana: {url}'
+    description: "Tot el que necessites conèixer sobre mapejar a la Comunitat Valenciana: {url}"
   de-aachen-wiki:
-    description: 'Pàgina wiki {community}'
+    description: "Pàgina wiki {community}"
   de-berlin-wiki:
-    description: 'Pàgina wiki {community}'
+    description: "Pàgina wiki {community}"
   de-bochum-wiki:
-    description: 'Pàgina wiki {community}'
+    description: "Pàgina wiki {community}"
   de-bonn-wiki:
-    description: 'Pàgina wiki {community}'
+    description: "Pàgina wiki {community}"
   de-bremen-mailinglist:
     name: Llista de Correu de Bremen
   de-bremen-wiki:
-    description: 'Pàgina wiki {community}'
+    description: "Pàgina wiki {community}"
   de-cologne-wiki:
-    description: 'Pàgina wiki {community}'
+    description: "Pàgina wiki {community}"
   de-dresden-wiki:
-    description: 'Pàgina wiki {community}'
+    description: "Pàgina wiki {community}"
   de-dusseldorf-wiki:
-    description: 'Pàgina wiki {community}'
+    description: "Pàgina wiki {community}"
   de-karlsruhe-mailinglist:
     name: Llsita de Correu Karlsruhe
   de-karlsruhe-meetup:
     description: Mapejadors i usuaris d'OpenStreetMap a l'àrea de Karlsruhe
   de-luneburg-wiki:
-    description: 'Pàgina wiki {community}'
+    description: "Pàgina wiki {community}"
   de-munchen-wiki:
-    description: 'Pàgina wiki {community}'
+    description: "Pàgina wiki {community}"
   DF-telegram:
-    extendedDescription: Uniu-vos a la comunitat per aprendre més sobre OpenStreetMap, fer preguntes o participar en les nostres reunions. Tots són benvinguts!
+    extendedDescription: "Uniu-vos a la comunitat per aprendre més sobre OpenStreetMap, fer preguntes o participar en les nostres reunions. Tots són benvinguts!"
   dk-discourse:
     description: Un fòrum de debat sobre OpenStreetMap a Dinamarca
   ee-wiki:
     description: Informació relacionada amb mapejat específicament a Estònia.
   fr-35-wiki:
-    description: 'Pàgina wiki {community}'
+    description: "Pàgina wiki {community}"
   fr-38-wiki:
-    description: 'Pàgina wiki {community}'
+    description: "Pàgina wiki {community}"
   fr-bzh-website:
     description: El mapa que parla Bretó
   fr-chapter:
@@ -274,20 +273,17 @@ ca:
   fr-discord:
     name: Comunitat de Discord d'OpenStreetMap de França
   fr-montrouge-wiki:
-    description: 'Pàgina wiki {community}'
+    description: "Pàgina wiki {community}"
   fr-telegram:
-    description: 'Grup de Telegram per a la comunitat d''OSM de França: {url}'
+    description: "Grup de Telegram per a la comunitat d'OSM de França: {url}"
   galicia-wiki:
-    description: 'Tot el que has de saber sobre mapejar a Galícia: {url}'
-  Galicia-Xeoinquedos-Twitter:
-    name: Xeoinquedos a Twitter
-    description: 'Segueix-nos a Twitter: {url}'
+    description: "Tot el que has de saber sobre mapejar a Galícia: {url}"
   hr-github:
-    description: 'GitHub d''{community}'
+    description: "GitHub d'{community}"
   hr-wiki:
     description: Pàgina wikiproject per a Croàcia
   hu-facebook-group:
-    name: 'Grup de Facebook {community}'
+    name: "Grup de Facebook {community}"
   hu-mobilizon:
     description: Esdeveniments pròxims per a la comunitat d'OpenStreetMap a Hongria
   hu-tm:
@@ -295,12 +291,12 @@ ca:
   hu-website:
     description: El lloc web de la comunitat hongaresa d'OpenStreetMap
   hu-wiki:
-    description: 'Pàgina wiki {community}'
+    description: "Pàgina wiki {community}"
   id-facebook:
-    extendedDescription: Mapejant a Indonèsia? Tens preguntes, vols connectar amb la comunitat d'ací? Uniu-vos a {url}. Tots són benvinguts!
+    extendedDescription: "Mapejant a Indonèsia? Tens preguntes, vols connectar amb la comunitat d'ací? Uniu-vos a {url}. Tots són benvinguts!"
   id-facebook-group:
-    name: 'Grup de Facebook {community}'
-    extendedDescription: Mapejant a Indonèsia? Tens preguntes, vols connectar amb la comunitat d'ací? Uniu-vos a {url}. Tots són benvinguts!
+    name: "Grup de Facebook {community}"
+    extendedDescription: "Mapejant a Indonèsia? Tens preguntes, vols connectar amb la comunitat d'ací? Uniu-vos a {url}. Tots són benvinguts!"
   ireland-chapter:
     description: Ajudem a OpenStreetMap a créixer i millorar a Irlanda.
   is-chapter:
@@ -308,7 +304,7 @@ ca:
   it-chapter:
     description: Ajudem OpenStreetMap a créixer i millorar a Itàlia.
   ko-github:
-    description: 'GitHub d''{community}'
+    description: "GitHub d'{community}"
   ko-osm:
     description: Ajudem OpenStreetMap a créixer i millorar a Corea.
   madrid-uam-ym:
@@ -316,27 +312,45 @@ ca:
     description: Secció de YouthMappers a la Universitat Autònoma de Madrid
   madrid-upm-ym:
     name: Mapeig Humanitari
+  mn-facebook:
+    extendedDescription: "Mapejant a Mongòlia? Tens preguntes o vols connectar amb la comunitat d'ací? Unix-te'ns a {url}. Tothom és benvingut!"
   nl-matrix:
     description: Tots els mapejadors són benvinguts!
   osm-africa-facebook-group:
-    name: 'Grup de Facebook {community}'
+    name: "Grup de Facebook {community}"
   osm-africa-matrix:
     description: Tots els mapejadors són benvinguts!
+  osm-africa-slack:
+    description: "Tothom és benvingut! Registra't a {signupUrl}"
   osm-deep-south-wiki:
-    description: 'Pàgina wiki {community}'
+    description: "Pàgina wiki {community}"
+  OSM-Discord:
+    description: "Servidor de Discord no oficial i gestionat per la comunitat per a la comunitat global d'OpenStreetMap. S'hi disposa de canals regionals."
+  OSM-Discourse:
+    name: Fòrum de comunitat d'OpenStreetMap
+    description: Un lloc compartit per a converses sobre OpenStreetMap
+  osm-hr:
+    description: La plataforma per a informació a OpenStreetMap a Croàcia
   OSM-India-facebook:
     description: Millora OpenStreetMap a l'Índia
+    extendedDescription: "Mapejant a l'Índia? Tens preguntes, vols connectar amb la comunitat d'ací? Unix-te'ns a {url}. Tothom és benvingut!"
+  OSM-india-twitter:
+    description: "Estem només a un tuit: {url}"
+  osm-india-website:
+    description: Mapejadors i usuaris d'OpenStreetMap a l'Índia
+  osm-india-wiki:
+    description: "Tot el que has de saber en mapejar a l'Índia: {url}"
   OSM-japan-facebook:
     description: Mapadors i usuaris d'OpenStreetMap a Japó
   OSM-japan-website:
     description: Mapadors i usuaris d'OpenStreetMap a Japó
   osm-michigan-wiki:
-    description: 'Pàgina wiki {community}'
+    description: "Pàgina wiki {community}"
   osm-ohio-wiki:
-    description: 'Pàgina wiki {community}'
+    description: "Pàgina wiki {community}"
   OSM-SoCal:
     name: OpenStreetMap Califòrnia del Sud
-    extendedDescription: OpenStreetMap (OSM) Califòrnia del Sud és per a tothom interessat en el mapatge que s'uneixi a treballar amb OpenStreetMap. OpenStreetMap, la Viquipèdia dels mapes, és un mapa de codi obert gratuït del món sent creat per més de 1000000 de voluntaris al voltant del món. Tothom és benvingut. Si no coneixes OpenStreetMap, t'ensenyarem. Si tens una idea d'un projecte de mapatge o fins i tot una excursió de camp que el grup pot fer, genial!
+    extendedDescription: "OpenStreetMap (OSM) Califòrnia del Sud és per a tothom interessat en el mapatge que s'uneixi a treballar amb OpenStreetMap. OpenStreetMap, la Viquipèdia dels mapes, és un mapa de codi obert gratuït del món sent creat per més de 1000000 de voluntaris al voltant del món. Tothom és benvingut. Si no coneixes OpenStreetMap, t'ensenyarem. Si tens una idea d'un projecte de mapatge o fins i tot una excursió de camp que el grup pot fer, genial!"
   osm-tw:
     description: Ajudem OpenStreetMap a créixer i millorar a Taiwan.
   OSM-US:
@@ -345,25 +359,23 @@ ca:
     name: Fundació OpenStreetMap
     description: OSMF és una fundació sense ànim de lucre establerta al Regne Unit que dona suport al projecte OpenStreetMap
   ph-facebook-group:
-    name: 'Grup de Facebook {community}'
-  PHXGeo-twitter:
-    description: Segueix-nos a Twitter a {url}
+    name: "Grup de Facebook {community}"
   RS-telegram:
-    extendedDescription: Uniu-vos a la comunitat per aprendre més sobre OpenStreetMap, fer preguntes o participar en les nostres reunions. Tots són benvinguts!
+    extendedDescription: "Uniu-vos a la comunitat per aprendre més sobre OpenStreetMap, fer preguntes o participar en les nostres reunions. Tots són benvinguts!"
   sg-wiki:
-    description: 'Pàgina wiki {community}'
+    description: "Pàgina wiki {community}"
   si-github:
-    description: 'GitHub d''{community}'
+    description: "GitHub d'{community}"
   si-ljubljana-wiki:
-    description: 'Pàgina wiki {community}'
+    description: "Pàgina wiki {community}"
   si-wiki:
-    description: 'Pàgina wiki {community}'
+    description: "Pàgina wiki {community}"
   tn-facebook-group:
-    name: 'Grup de Facebook {community}'
+    name: "Grup de Facebook {community}"
   uk-london-wiki:
-    description: 'Pàgina wiki {community}'
+    description: "Pàgina wiki {community}"
   vn-wiki:
-    description: 'Pàgina wiki {community}'
+    description: "Pàgina wiki {community}"
   ym-University-of-Victoria:
     description: Secció de YouthMappers a la University of Victoria
   ym-Vassar-College:

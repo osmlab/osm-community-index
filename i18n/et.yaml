@@ -1,5 +1,6 @@
 et:
   _communities:
+    freelibreopensourcesoftwarekosovaflossk: Kosovo Vaba ja Avatud Tarkvara Seltsing (FLOSSK)
     geolibres: GeoLibres
     kiribatiwomeninmapping: Kiribati naised kaardistamas
     mapeadoresivides: Mapeadores IVIDES
@@ -48,7 +49,7 @@ et:
     openstreetmapchina: OpenStreetMap Hiina
     openstreetmapcologne: OpenStreetMap Köln
     openstreetmapcomunitatvalenciana: OpenStreetMap Valencia autonoomne piirkond
-    openstreetmapcotedivoire: OpenStreetMap Elevandiluurannik
+    openstreetmapcotedivoire: "OpenStreetMap Elevandiluurannik"
     openstreetmapcroatia: OpenStreetMap Horvaatia
     openstreetmapcuba: OpenStreetMap Kuuba
     openstreetmapcuneo: OpenStreetMap Cuneo
@@ -128,6 +129,7 @@ et:
     openstreetmappiemonte: OpenStreetMap Piemonte
     openstreetmappoland: OpenStreetMap Poola
     openstreetmapportugal: OpenStreetMap Portugal
+    openstreetmappuglia: OpenStreetMap Puglia
     openstreetmappunjab: OpenStreetMap Punjab
     openstreetmaprdc: OpenStreetMap RDC
     openstreetmaprennes: OpenStreetMap Rennes
@@ -170,6 +172,7 @@ et:
     openstreetmapzambia: OpenStreetMap Sambia
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
     osmcolombia: OSM Colombia
+    osmewikiemiliaromagna: OSM ja viki Emilia-Romagnas
     osmmainz: OSM Mainz
     osmnelson: OSM Nelson
     swissopenstreetmap: Šveitsi OpenStreetMap
@@ -178,112 +181,111 @@ et:
     youthmappersufrj: YouthMappers UFRJ
   _defaults:
     aparat:
-      name: '{community} Aparatis'
+      name: "{community} Aparatis"
       description: Telli meie kanal Aparatis
-      url: https://aparat.com/{account}
+      url: "https://aparat.com/{account}"
     bluesky:
-      name: '{community} Blueskys'
+      name: "{community} Blueskys"
       description: Jälgi meid Blueskys
-      url: https://bsky.app/profile/{account}
+      url: "https://bsky.app/profile/{account}"
     discord:
-      name: '{community} – Discord'
+      name: "{community} – Discord"
       description: Suhtle teiste kaardistajatega Discordi vahendusel
-      url: https://discord.gg/{account}
+      url: "https://discord.gg/{account}"
     discourse:
-      name: '{community} – kogukonna foorum'
-      description: '{community} – kogukonna ametlik foorum'
-      url: https://community.openstreetmap.org/c/communities/{account}
+      name: "{community} – kogukonna foorum"
+      description: "{community} – kogukonna ametlik foorum"
+      url: "https://community.openstreetmap.org/c/communities/{account}"
     facebook:
-      name: '{community} Facebookis'
+      name: "{community} Facebookis"
       description: Liitu meie kogukonnaga Facebookis
-      url: https://www.facebook.com/{account}
+      url: "https://www.facebook.com/{account}"
     fediverse:
-      name: '{community}'
+      name: "{community}"
     forum:
-      name: 'Foorum: {community}'
-      description: 'Kogukonna ametlik foorum: {community}'
+      name: "Foorum: {community}"
+      description: "Kogukonna ametlik foorum: {community}"
     github:
-      name: '{community} GitHubis'
-      url: https://github.com/{account}
+      name: "{community} GitHubis"
+      url: "https://github.com/{account}"
     gitlab:
-      name: '{community} GitLabis'
-      url: https://gitlab.com/{account}
+      name: "{community} GitLabis"
+      url: "https://gitlab.com/{account}"
     group:
-      name: '{community}'
+      name: "{community}"
     instagram:
-      name: '{community} Instagramis'
+      name: "{community} Instagramis"
       description: Jälgi meid Instagramis
-      url: https://instagram.com/{account}
+      url: "https://instagram.com/{account}"
     irc:
-      name: 'Kogukond IRC-s:{community}'
-      description: 'Liitu kanaliga #{account} serveris irc.oftc.net (port 6667 krüptimata või 6697 krüptitud ühenduste jaoks)'
-      url: https://webchat.oftc.net/?channels={account}
+      name: "Kogukond IRC-s:{community}"
+      description: "Liitu kanaliga #{account} serveris irc.oftc.net (port 6667 krüptimata või 6697 krüptitud ühenduste jaoks)"
+      url: "https://webchat.oftc.net/?channels={account}"
     linkedin:
-      name: 'Kogukond LinkedInis: {community}'
+      name: "Kogukond LinkedInis: {community}"
       description: Liitu meie kogukonnaga LinkedInis
-      url: https://www.linkedin.com/company/{account}
+      url: "https://www.linkedin.com/company/{account}"
     mailinglist:
-      name: 'Postiloend: {account}'
-      description: 'Ametlik postiloend: {community}'
-      url: https://lists.openstreetmap.org/listinfo/{account}
+      name: "Postiloend: {account}"
+      description: "Ametlik postiloend: {community}"
+      url: "https://lists.openstreetmap.org/listinfo/{account}"
     mastodon:
-      name: '{community} Mastodonis'
-      description: '{community} – ametlik Mastodoni konto'
+      name: "{community} Mastodonis"
+      description: "{community} – ametlik Mastodoni konto"
     matrix:
-      name: '{community} – vestlus Matrixis'
+      name: "{community} – vestlus Matrixis"
       description: Liitu meie vestlusega Matrixis
-      url: https://matrix.to/#/{account}:matrix.org
+      url: "https://matrix.to/#/{account}:matrix.org"
     meetup:
-      name: '{community} Meetupis'
-      url: https://www.meetup.com/{account}
+      name: "{community} Meetupis"
+      url: "https://www.meetup.com/{account}"
     newsletter:
-      name: '{community} – uudiskiri'
+      name: "{community} – uudiskiri"
     osm:
-      name: '{community}'
+      name: "{community}"
     osm-lc:
-      name: '{community}'
+      name: "{community}"
     reddit:
-      name: '{community} Redditis'
-      url: https://www.reddit.com/r/{account}
+      name: "{community} Redditis"
+      url: "https://www.reddit.com/r/{account}"
     signal:
-      name: '{community} – Signal'
+      name: "{community} – Signal"
       description: Liitu meie kogukonnaga Signalis
     slack:
-      name: '{community} Slackis'
+      name: "{community} Slackis"
     telegram:
-      name: '{community} Telegramis'
+      name: "{community} Telegramis"
       description: Liitu meie kogukonna vestlusega Telegramis
-      url: https://t.me/{account}
+      url: "https://t.me/{account}"
     threads:
-      name: '{community} Threadsis'
+      name: "{community} Threadsis"
       description: Jälgi meid Threadsis
-      url: https://threads.net/@{account}
+      url: "https://threads.net/@{account}"
     tiktok:
-      name: '{community} TikTokis'
+      name: "{community} TikTokis"
       description: Jälgi meid TikTokis
-      url: https://tiktok.com/@{account}
+      url: "https://tiktok.com/@{account}"
     twitter:
-      name: '{community} 𝕏is'
+      name: "{community} \U0001D54Fis"
       description: Jälgi meid 𝕏is
-      url: https://twitter.com/{account}
     url:
-      name: '{community}'
+      name: "{community}"
     wiki:
-      name: 'WikiProject: {community}'
-      url: https://wiki.openstreetmap.org/wiki/{account}
+      name: "WikiProject: {community}"
+      url: "https://wiki.openstreetmap.org/wiki/{account}"
     x:
-      name: '{community} 𝕏is'
+      name: "{community} \U0001D54Fis"
       description: Jälgi meid 𝕏is
-      url: https://twitter.com/{account}
+      url: "https://twitter.com/{account}"
     xmpp:
-      name: '{community} – XMPP'
-      description: 'Liitu meie kogukonna XMPP-vestlusega: {url}'
+      name: "{community} – XMPP"
+      description: "Liitu meie kogukonna XMPP-vestlusega: {url}"
     youtube:
-      name: '{community} YouTube''is'
+      name: "{community} YouTube'is"
       description: Telli meie kanal YouTube'is
-      url: https://www.youtube.com/channel/{account}
+      url: "https://www.youtube.com/channel/{account}"
     zulip:
-      name: '{community} – Zulip'
+      name: "{community} – Zulip"
       description: Liitu meie kogukonnaga Zulipis
   aberdeen-discord:
     name: OSM ABZ Discordis
@@ -292,119 +294,119 @@ et:
   al-maptime-tirana:
     name: Maptime Tirana
   am-wiki:
-    description: '{community} viki veebileht'
+    description: "{community} viki veebileht"
   at-matrix:
     description: Mitteametlik saksakeelne Matrixi jututuba Austrias
   at-wiki:
-    description: 'Vikileht: {community}'
+    description: "Vikileht: {community}"
   Bay-Area-OpenStreetMappers:
     name: SF Lahe piirkonna OSMi kaardistajad
     description: Täienda OpenStreetMapi andmeid San Francisco lahe piirkonnas
   bd-facebook:
-    extendedDescription: 'Kaardistad Bangladeshis? Sul on küsimusi ja tahad suhelda kohaliku kogukonnaga? Liitu meiega siin: {url}. Kõik on teretulnud!'
+    extendedDescription: "Kaardistad Bangladeshis? Sul on küsimusi ja tahad suhelda kohaliku kogukonnaga? Liitu meiega siin: {url}. Kõik on teretulnud!"
   be-chapter:
     description: Aitame OpenStreetMapil kasvada ja edeneda Belgias.
+  be-discourse:
+    description: OpenStreetMapi Belgia-teemaline foorum
   be-matrix:
     description: Kõik kaardistajad on teretulnud!
-    extendedDescription: Belgia OSM-i kogukonna põhiline jututuba. Vastame hea meelega ka kõikide alustavate kaardistajate küsimustele!
+    extendedDescription: "Belgia OSM-i kogukonna põhiline jututuba. Vastame hea meelega ka kõikide alustavate kaardistajate küsimustele!"
   be-newsletter:
     description: Belgia kogukonna kvartaalne uudiskiri
   bo-facebook-group:
-    name: '{community} – rühm Facebookis'
+    name: "{community} – rühm Facebookis"
   bo-matrix:
     description: Kõik kaardistajad on teretulnud!
   br-wiki:
     description: Viki leht teabe ja juhenditega kaardistamiseks Brasiilias
-  cape-coast-youthmappers:
-    description: 'Jälgi meid Twitteris: {url}'
   cat-github:
     description: OpenStreetMapi katalaanikeelse kogukonna projektid GitHubis
   cat-matrix:
     description: Matrixi jututuba OpenStreetMapi katalaanikeelse kogukonna jaoks
   cat-twitch:
-    name: '{community} kogukonna kanal Twitchis'
+    name: "{community} kogukonna kanal Twitchis"
   cat-wiki:
-    description: 'Koordikatsioonikeskus OpenStreetMapi katalaanikeelse kogukonna jaoks: {url}'
+    description: "Koordikatsioonikeskus OpenStreetMapi katalaanikeelse kogukonna jaoks: {url}"
   cd-chapter:
     name: OpenStreetMap RDC
   Central-Pennsylvania-OSM:
     name: Pennsylvania keskosa OSM
-    description: State College, PA – kaardistajate kogukond
+    description: "State College, PA – kaardistajate kogukond"
   ch-mailinglist:
     description: Postiloend Šveitsi jaoks
   co-discourse:
     name: OSMi kogukonna vestlused Colombia teemadel
     description: Need teemad kajastavad kaardimuudatusi Colombias
   co-facebook:
-    name: ' {community} – rühm Facebookis'
+    name: " {community} – rühm Facebookis"
     description: OSMi-teemaline Colombia vestlusgrupp
   co-github:
-    name: '{community} – projektid GitHubis'
+    name: "{community} – projektid GitHubis"
     description: Kogukonna poolt loodus arendused
   co-instagram:
-    name: '{community} – postitused Instagramis'
+    name: "{community} – postitused Instagramis"
     description: Kogukonna tegevuse või teabe kohta avaldatud materjalid
   co-linkedin:
-    name: '{community} – postitused LinkedInis'
+    name: "{community} – postitused LinkedInis"
     description: Kogukonna tegevuse või teabe kohta avaldatud materjalid
   co-mastodon:
-    name: '{community} – kogukond Mastodonis'
+    name: "{community} – kogukond Mastodonis"
     description: Kogukonna tegevuse või teabe kohta avaldatud materjalid
   co-talk:
-    name: '{community} – postiloend'
+    name: "{community} – postiloend"
   co-telegram:
-    name: '{community} – vestlusrühm Telegramis'
+    name: "{community} – vestlusrühm Telegramis"
     description: Avatud arutelud kogu kogukonnale huvipakkuvatel teemadel. See on kõige aktiivsem kanal
   co-thread:
-    name: '{community} – postitused Threadsis'
+    name: "{community} – postitused Threadsis"
     description: Kogukonna tegevuse või teabe kohta avaldatud materjalid
   co-tiktok:
-    name: '{community} – lühivideod TikTokis'
+    name: "{community} – lühivideod TikTokis"
     description: Kogukonna tegevuse kohta avaldatud materjalid
   co-twitter:
-    name: '{community} – kogukond teenuses X/Twitter'
+    name: "{community} – kogukond teenuses X/Twitter"
     description: Kogukonna tegevuse või teabe kohta avaldatud materjalid
   co-whatsapp:
-    name: '{community} – kogukonna uudised WhatsAppis'
+    name: "{community} – kogukonna uudised WhatsAppis"
     description: Kogukonna tegevuse või teabe kohta avaldatud materjalid
   co-wiki:
     name: Colombia kaardistamisprojekti vikileht dokumentatsiooniga
     description: Kugu teave OpenStreetMapi kohta Colombias
   co-youtube:
-    name: '{community} – videod YouTube''is'
+    name: "{community} – videod YouTube'is"
     description: Videod ja juhendid OSMi kogukonna tegemiste kohta
   czech-discord:
-    description: OpenStreetMap CZ jututuba võrgusildadega IRCsse, Jabberisse, Matrixisse ja Telegrami
+    description: "OpenStreetMap CZ jututuba võrgusildadega IRCsse, Jabberisse, Matrixisse ja Telegrami"
   czech-irc:
-    description: OpenStreetMap CZ jututuba võrgusildadega Discordi, Jabberisse, Matrixisse ja Telegrami
+    description: "OpenStreetMap CZ jututuba võrgusildadega Discordi, Jabberisse, Matrixisse ja Telegrami"
   czech-matrix:
-    description: OpenStreetMap CZ jututuba võrgusildadega Discordi, IRCsse, Jabberisse ja Telegrami
+    description: "OpenStreetMap CZ jututuba võrgusildadega Discordi, IRCsse, Jabberisse ja Telegrami"
   czech-telegram:
-    description: OpenStreetMap CZ jututuba võrgusildadega Discordi, IRCsse, Jabberisse ja Matrixisse
+    description: "OpenStreetMap CZ jututuba võrgusildadega Discordi, IRCsse, Jabberisse ja Matrixisse"
   czech-xmpp:
-    description: OpenStreetMap CZ jututuba võrgusildadega Discordi, IRCsse, Matrixisse ja Telegrami
+    description: "OpenStreetMap CZ jututuba võrgusildadega Discordi, IRCsse, Matrixisse ja Telegrami"
   de-aachen-wiki:
-    description: 'Vikileht: {community}'
+    description: "Vikileht: {community}"
   de-berlin-mailinglist:
     name: Berliini postiloend
   de-berlin-wiki:
-    description: 'Vikileht: {community}'
+    description: "Vikileht: {community}"
   de-berlin-xmpp:
     name: OpenStreetMap Berlin-Brandenburg XMPP
   de-bochum-wiki:
-    description: 'Vikileht: {community}'
+    description: "Vikileht: {community}"
   de-bonn-wiki:
-    description: 'Vikileht: {community}'
+    description: "Vikileht: {community}"
   de-bremen-mailinglist:
     name: Bremeni postiloend
   de-bremen-wiki:
-    description: 'Vikileht: {community}'
+    description: "Vikileht: {community}"
   de-cologne-wiki:
-    description: 'Vikileht: {community}'
+    description: "Vikileht: {community}"
   de-dresden-wiki:
-    description: 'Vikileht: {community}'
+    description: "Vikileht: {community}"
   de-dusseldorf-wiki:
-    description: 'Vikileht: {community}'
+    description: "Vikileht: {community}"
   de-hamburg-xmpp:
     name: OpenStreetMap Hamburg XMPP
   de-karlsruhe-mailinglist:
@@ -412,15 +414,15 @@ et:
   de-karlsruhe-meetup:
     description: Kaardistajad ja OpenStreetMapi kasutajad Karlsruhe piirkonnas
   de-luneburg-wiki:
-    description: 'Vikileht: {community}'
+    description: "Vikileht: {community}"
   de-mainz-mailinglist:
     description: OpenStreetMap Mainzis ja ümbruskonnas
   de-mainz-signal:
-    description: OpenStreetMap Mainzis, Wiesbadenis ja ümbruskonnas
+    description: "OpenStreetMap Mainzis, Wiesbadenis ja ümbruskonnas"
   de-mainz-wiki:
     description: OpenStreetMap Mainzis ja ümbruskonnas
   de-munchen-wiki:
-    description: 'Vikileht: {community}'
+    description: "Vikileht: {community}"
   de-stuttgart-meetup:
     name: OpenStreetMap Stuttgart Meetupis
     description: Kaardistajad ja OpenStreetMapi kasutajad Stuttgarti piirkonnas
@@ -434,12 +436,14 @@ et:
     name: OpenStreetMap Viersen Meetupis
   de-xmpp:
     name: OpenStreetMap DE XMPP
+  dk-discourse:
+    description: OpenStreetMapi Taani-teemaline foorum
   ee-wiki:
     description: Teave kaardistamise kohta Eestis.
   fr-35-wiki:
-    description: 'Vikileht: {community}'
+    description: "Vikileht: {community}"
   fr-38-wiki:
-    description: 'Vikileht: {community}'
+    description: "Vikileht: {community}"
   fr-bzh-website:
     description: Bretoonikeelne kaart
   fr-chapter:
@@ -447,169 +451,173 @@ et:
   fr-discord:
     name: OpenStreetMap Prantsusmaa kogukond Discordis
   fr-matrix:
-    description: 'Matrixi jututuba OSM France''i kogukonna jaoks: {url} (võrgusild ka Telegrami)'
+    description: "Matrixi jututuba OSM France'i kogukonna jaoks: {url} (võrgusild ka Telegrami)"
   fr-montrouge-wiki:
-    description: 'Vikileht: {community}'
+    description: "Vikileht: {community}"
   galicia-wiki:
-    description: 'Kõik, mida peaksid teadma kaardistamisest Galicias: {url}'
-  Galicia-Xeoinquedos-Twitter:
-    name: Xeoinquedos Twitteris
-    description: Jälgi meid Twitteris aadressil {url}.
+    description: "Kõik, mida peaksid teadma kaardistamisest Galicias: {url}"
+  ge-matrix:
+    description: "Üldine Gruusiaga seotud OpenStreetMapi vestlus, millel on olemas Telegrami võrgisild"
   GeoPhilly:
     name: GeoPhilly
   hr-github:
-    description: '{community} GitHubis'
+    description: "{community} GitHubis"
   hr-tm:
-    name: '{community} – ülesannete haldus'
+    name: "{community} – ülesannete haldus"
     description: Tutvu kaardistamisülesannete ja eesmärkidega Horvaatias
   hu-facebook-group:
-    name: '{community} – rühm Facebookis'
+    name: "{community} – rühm Facebookis"
   hu-tm:
-    name: '{community} – ülesannete haldus'
+    name: "{community} – ülesannete haldus"
   hu-website:
     description: Ungari OpenStreetMapi kogukonna veebisait
   hu-wiki:
-    description: 'Vikileht: {community}'
+    description: "Vikileht: {community}"
   hu-youtube:
     description: Ungari OpenStreetMapi kogukonna kohtumiste voogedastused ja salvestused
   id-facebook:
-    extendedDescription: 'Kaardistad Indoneesias? Sul on küsimusi ja tahad suhelda kohaliku kogukonnaga? Liitu meiega siin: {url}. Kõik on teretulnud!'
+    extendedDescription: "Kaardistad Indoneesias? Sul on küsimusi ja tahad suhelda kohaliku kogukonnaga? Liitu meiega siin: {url}. Kõik on teretulnud!"
   id-facebook-group:
-    name: '{community} – rühm Facebookis'
-    extendedDescription: 'Kaardistad Indoneesias? Sul on küsimusi ja tahad suhelda kohaliku kogukonnaga? Liitu meiega siin: {url}. Kõik on teretulnud!'
+    name: "{community} – rühm Facebookis"
+    extendedDescription: "Kaardistad Indoneesias? Sul on küsimusi ja tahad suhelda kohaliku kogukonnaga? Liitu meiega siin: {url}. Kõik on teretulnud!"
   ireland-chapter:
     description: Aitame OpenStreetMapil kasvada ja edeneda Iirimaal.
   ireland-matrix:
-    description: 'OSM Irelandi IRC-kanali võrgusild Matrixi kaudu: {url}'
+    description: "OSM Irelandi IRC-kanali võrgusild Matrixi kaudu: {url}"
   is-chapter:
     description: Aitame OpenStreetMapil kasvada ja edeneda Islandil.
   it-chapter:
     description: Aitame OpenStreetMapil kasvada ja edeneda Itaalias.
+  it-discourse:
+    description: OpenStreetMapi Itaalia-teemaline foorum
   ivides_website:
-    description: Keskendume jätkusuutlikule arengule, kaardistamisele ja OpenStreetMapi kogukonna toetamisele.
+    description: "Keskendume jätkusuutlikule arengule, kaardistamisele ja OpenStreetMapi kogukonna toetamisele."
   ko-facebook:
     description: Kaardistajad ja OpenStreetMapi kasutajad Koreas
   ko-github:
-    description: '{community} GitHubis'
+    description: "{community} GitHubis"
   ko-osm:
     description: Aitame OpenStreetMapil kasvada ja edeneda Koreas.
+  kosovo-flossk:
+    name: Kosovo Vaba ja Avatud Tarkvara Seltsing (FLOSSK)
   kp-wiki:
-    description: '{community} – kaardistamisjuhend'
+    description: "{community} – kaardistamisjuhend"
   lk-facebook:
-    extendedDescription: 'Kaardistad Sri Lankas? Sul on küsimusi ja tahad suhelda kohaliku kogukonnaga? Liitu meiega siin: {url}. Kõik on teretulnud!'
+    extendedDescription: "Kaardistad Sri Lankas? Sul on küsimusi ja tahad suhelda kohaliku kogukonnaga? Liitu meiega siin: {url}. Kõik on teretulnud!"
   lu-matrix:
-    description: Matrixi Luksemburgi kogukonna jututuba. Toome kogukonna siia kokku!
+    description: "Matrixi Luksemburgi kogukonna jututuba. Toome kogukonna siia kokku!"
   mailinglist-sk-googlegroups:
     description: Slovakkia kogukonna ametlik postiloend
   MapLYH:
     name: MapLYH
     description: MapLYH rühm
   MapRVA:
-    description: MapRVA on Virginias Richmondis tegutsev rühm kaardistushuvilisi, kelle eesmärk on luua ja jagada oma linna ruumiteavet OpenStreetMapis.
+    description: "MapRVA on Virginias Richmondis tegutsev rühm kaardistushuvilisi, kelle eesmärk on luua ja jagada oma linna ruumiteavet OpenStreetMapis."
   maptime-bogota-facebook:
     name: MaptimeBogotá
     description: Me oleme huviliste seltskond, kes soovib OpenStreetMapis kaardistada Bogotá linna ja selle ümbrust.
-    extendedDescription: Õpi kuidas koguda väliandmeid ja neid digitaalsel moel OpenStreetMapi lisada. Varasem kogemus pole vajalik! Lihtsalt on oluline, et soovid osaleda, õpida ja tunda sellest rõõmu.
+    extendedDescription: "Õpi kuidas koguda väliandmeid ja neid digitaalsel moel OpenStreetMapi lisada. Varasem kogemus pole vajalik! Lihtsalt on oluline, et soovid osaleda, õpida ja tunda sellest rõõmu."
   maptime-bogota-github:
     name: MaptimeBogotá
     description: Me oleme huviliste seltskond, kes soovib OpenStreetMapis kaardistada Bogotá linna ja selle ümbrust.
-    extendedDescription: Õpi kuidas koguda väliandmeid ja neid digitaalsel moel OpenStreetMapi lisada. Varasem kogemus pole vajalik! Lihtsalt on oluline, et soovid osaleda, õpida ja tunda sellest rõõmu.
+    extendedDescription: "Õpi kuidas koguda väliandmeid ja neid digitaalsel moel OpenStreetMapi lisada. Varasem kogemus pole vajalik! Lihtsalt on oluline, et soovid osaleda, õpida ja tunda sellest rõõmu."
   maptime-bogota-linkedin:
     name: MaptimeBogotá
     description: Me oleme huviliste seltskond, kes soovib OpenStreetMapis kaardistada Bogotá linna ja selle ümbrust.
-    extendedDescription: Õpi kuidas koguda väliandmeid ja neid digitaalsel moel OpenStreetMapi lisada. Varasem kogemus pole vajalik! Lihtsalt on oluline, et soovid osaleda, õpida ja tunda sellest rõõmu.
+    extendedDescription: "Õpi kuidas koguda väliandmeid ja neid digitaalsel moel OpenStreetMapi lisada. Varasem kogemus pole vajalik! Lihtsalt on oluline, et soovid osaleda, õpida ja tunda sellest rõõmu."
   maptime-bogota-mastodon:
     name: MaptimeBogotá
     description: Me oleme huviliste seltskond, kes soovib OpenStreetMapis kaardistada Bogotá linna ja selle ümbrust.
-    extendedDescription: Õpi kuidas koguda väliandmeid ja neid digitaalsel moel OpenStreetMapi lisada. Varasem kogemus pole vajalik! Lihtsalt on oluline, et soovid osaleda, õpida ja tunda sellest rõõmu.
+    extendedDescription: "Õpi kuidas koguda väliandmeid ja neid digitaalsel moel OpenStreetMapi lisada. Varasem kogemus pole vajalik! Lihtsalt on oluline, et soovid osaleda, õpida ja tunda sellest rõõmu."
   maptime-bogota-meetup:
     name: MaptimeBogotá
     description: Me oleme huviliste seltskond, kes soovib OpenStreetMapis kaardistada Bogotá linna ja selle ümbrust.
-    extendedDescription: Õpi kuidas koguda väliandmeid ja neid digitaalsel moel OpenStreetMapi lisada. Varasem kogemus pole vajalik! Lihtsalt on oluline, et soovid osaleda, õpida ja tunda sellest rõõmu.
+    extendedDescription: "Õpi kuidas koguda väliandmeid ja neid digitaalsel moel OpenStreetMapi lisada. Varasem kogemus pole vajalik! Lihtsalt on oluline, et soovid osaleda, õpida ja tunda sellest rõõmu."
   maptime-bogota-telegram:
     name: MaptimeBogotá
     description: Me oleme huviliste seltskond, kes soovib OpenStreetMapis kaardistada Bogotá linna ja selle ümbrust.
-    extendedDescription: Õpi kuidas koguda väliandmeid ja neid digitaalsel moel OpenStreetMapi lisada. Varasem kogemus pole vajalik! Lihtsalt on oluline, et soovid osaleda, õpida ja tunda sellest rõõmu.
+    extendedDescription: "Õpi kuidas koguda väliandmeid ja neid digitaalsel moel OpenStreetMapi lisada. Varasem kogemus pole vajalik! Lihtsalt on oluline, et soovid osaleda, õpida ja tunda sellest rõõmu."
   maptime-bogota-twitter:
     name: MaptimeBogotá
     description: Me oleme huviliste seltskond, kes soovib OpenStreetMapis kaardistada Bogotá linna ja selle ümbrust.
-    extendedDescription: Õpi kuidas koguda väliandmeid ja neid digitaalsel moel OpenStreetMapi lisada. Varasem kogemus pole vajalik! Lihtsalt on oluline, et soovid osaleda, õpida ja tunda sellest rõõmu.
+    extendedDescription: "Õpi kuidas koguda väliandmeid ja neid digitaalsel moel OpenStreetMapi lisada. Varasem kogemus pole vajalik! Lihtsalt on oluline, et soovid osaleda, õpida ja tunda sellest rõõmu."
   maptime-bogota-website:
     name: MaptimeBogotá
     description: Me oleme huviliste seltskond, kes soovib OpenStreetMapis kaardistada Bogotá linna ja selle ümbrust.
-    extendedDescription: Õpi kuidas koguda väliandmeid ja neid digitaalsel moel OpenStreetMapi lisada. Varasem kogemus pole vajalik! Lihtsalt on oluline, et soovid osaleda, õpida ja tunda sellest rõõmu.
+    extendedDescription: "Õpi kuidas koguda väliandmeid ja neid digitaalsel moel OpenStreetMapi lisada. Varasem kogemus pole vajalik! Lihtsalt on oluline, et soovid osaleda, õpida ja tunda sellest rõõmu."
   maptime-bogota-youtube:
     name: MaptimeBogotá
     description: Me oleme huviliste seltskond, kes soovib OpenStreetMapis kaardistada Bogotá linna ja selle ümbrust.
-    extendedDescription: Õpi kuidas koguda väliandmeid ja neid digitaalsel moel OpenStreetMapi lisada. Varasem kogemus pole vajalik! Lihtsalt on oluline, et soovid osaleda, õpida ja tunda sellest rõõmu.
+    extendedDescription: "Õpi kuidas koguda väliandmeid ja neid digitaalsel moel OpenStreetMapi lisada. Varasem kogemus pole vajalik! Lihtsalt on oluline, et soovid osaleda, õpida ja tunda sellest rõõmu."
   Maptime-ME-meetup:
     name: MaptimeME
-    description: Kaardistajad ja OpenStreetMapi kasutajad Portlandi piirkonnas Maine'i osariigis
+    description: "Kaardistajad ja OpenStreetMapi kasutajad Portlandi piirkonnas Maine'i osariigis"
   md-googlegroup:
-    name: '{community} – Google''i rühm'
-    description: Liitu kogukonna {community} Google'i rühmaga
+    name: "{community} – Google'i rühm"
+    description: "Liitu kogukonna {community} Google'i rühmaga"
   me-telegram:
-    description: 'Kõik on teretulnud! Liitu siin: {signupUrl}'
+    description: "Kõik on teretulnud! Liitu siin: {signupUrl}"
   minas_gerais-discord:
-    extendedDescription: Tere tulemast OSM-i Minas Geraisi Discordi kanalile! Me oleme kaardistajate kogukond, kes tegelevad kirglikult Brasiilia Minas Geraisi üksikasjalike ja avatud lähtekoodiga kaartide loomisega. Liitu meiega, tee koostööd, jaga näpunäiteid ja aita muuta Minas Geraisi kaardid parimateks OpenStreetMapis. Oled sa siis algaja või kogemustega tegija, kaardistame üheskoos!
+    extendedDescription: "Tere tulemast OSM-i Minas Geraisi Discordi kanalile! Me oleme kaardistajate kogukond, kes tegelevad kirglikult Brasiilia Minas Geraisi üksikasjalike ja avatud lähtekoodiga kaartide loomisega. Liitu meiega, tee koostööd, jaga näpunäiteid ja aita muuta Minas Geraisi kaardid parimateks OpenStreetMapis. Oled sa siis algaja või kogemustega tegija, kaardistame üheskoos!"
   mm-facebook:
-    extendedDescription: 'Kaardistad Myanmaris? Sul on küsimusi ja tahad suhelda kohaliku kogukonnaga? Liitu meiega siin: {url}. Kõik on teretulnud!'
+    extendedDescription: "Kaardistad Myanmaris? Sul on küsimusi ja tahad suhelda kohaliku kogukonnaga? Liitu meiega siin: {url}. Kõik on teretulnud!"
   mn-facebook:
-    extendedDescription: 'Kaardistad Mongoolias? Sul on küsimusi ja tahad suhelda kohaliku kogukonnaga? Liitu meiega siin: {url}. Kõik on teretulnud!'
+    extendedDescription: "Kaardistad Mongoolias? Sul on küsimusi ja tahad suhelda kohaliku kogukonnaga? Liitu meiega siin: {url}. Kõik on teretulnud!"
   nl-discourse:
     description: OpenStreetMapi Hollandi-teemaline foorum
   nl-matrix:
     description: Kõik kaardistajad on teretulnud!
   no-irc:
-    description: OpenStreetMapi kasutajate, arendajate ja huviliste jututuba Norras
+    description: "OpenStreetMapi kasutajate, arendajate ja huviliste jututuba Norras"
   no-matrix:
     description: Vestlussild IRC-jututoaga
   np-facebook:
-    extendedDescription: 'Kaardistad Nepalis? Sul on küsimusi ja tahad suhelda kohaliku kogukonnaga? Liitu meiega siin: {url}. Kõik on teretulnud!'
+    extendedDescription: "Kaardistad Nepalis? Sul on küsimusi ja tahad suhelda kohaliku kogukonnaga? Liitu meiega siin: {url}. Kõik on teretulnud!"
   Open-Source-San-Jose-Discord:
     name: Open Source San José Discord
-    description: 'Suhtle teiste kaardistajatega Discordis! Peale meldimist liitu #🗺openstreetmap kanaliga.'
+    description: "Suhtle teiste kaardistajatega Discordis! Peale meldimist liitu #\U0001F5FAopenstreetmap kanaliga."
   Open-Source-San-Jose-Mastodon:
     description: Vaata Open Source San José kanalit Mastodonis.
   Open-Source-San-Jose-Slack:
-    description: 'Kõik on teretulnud! Meldi siin: {signupUrl} ja seejärel liitu #proj-osm kanaliga.'
+    description: "Kõik on teretulnud! Meldi siin: {signupUrl} ja seejärel liitu #proj-osm kanaliga."
   OpenCleveland-meetup:
     name: Open Cleveland
     description: Täienda OpenStreetMapi andmeid Clevelandi piirkonnas
   osm-africa-facebook-group:
-    name: '{community} – rühm Facebookis'
+    name: "{community} – rühm Facebookis"
   osm-africa-matrix:
     description: Kõik kaardistajad on teretulnud!
   osm-africa-slack:
-    description: Kõik on teretulnud! Liitu siin {signupUrl}
+    description: "Kõik on teretulnud! Liitu siin {signupUrl}"
   OSM-AR-geolibres:
     name: GeoLibres
   osm-bengaluru-matrix:
-    extendedDescription: Vestlusgrupp OpenStreetMapi kaasautoritele, kasutajatele ja uustulnukatele Bengaluru piirkonnas. Olemas on ka Telegrami võrgusild.
+    extendedDescription: "Vestlusgrupp OpenStreetMapi kaasautoritele, kasutajatele ja uustulnukatele Bengaluru piirkonnas. Olemas on ka Telegrami võrgusild."
   osm-bengaluru-telegram:
-    extendedDescription: Vestlusgrupp OpenStreetMapi kaasautoritele, kasutajatele ja uustulnukatele Bengaluru piirkonnas. Olemas on ka Matrixi võrgusild.
+    extendedDescription: "Vestlusgrupp OpenStreetMapi kaasautoritele, kasutajatele ja uustulnukatele Bengaluru piirkonnas. Olemas on ka Matrixi võrgusild."
   osm-bengaluru-wiki:
     description: OpenStreetMap Bengaluru osariigis
   osm-benin-facebook:
     description: Täienda OpenStreetMapi andmeid Beninis
   osm-ch:
-    name: '{community}'
+    name: "{community}"
   OSM-Chattanooga:
     name: OSM Chattanooga
     description: OpenStreetMapi kasutajad Chattanoogas
   OSM-Colorado:
     name: OpenStreetMap Colorado
-    description: Kaardistajad ja OpenStreetMapi kasutajad Colorado osariigis Ameerika Ühendriikides
+    description: "Kaardistajad ja OpenStreetMapi kasutajad Colorado osariigis Ameerika Ühendriikides"
   osm-deep-south-wiki:
-    description: 'Vikileht: {community}'
+    description: "Vikileht: {community}"
   osm-delhi-xmpp:
     name: OpenStreetMap Delhi XMPP-vestluskanal
     extendedDescription: OSM Delhi XMPP-jututuba; võrgusillad suletud võrkudega puuduvad
   OSM-Discord:
     name: OpenStreetMap Maailma kanal Discordis
-    description: Mitteametlik kogukonna hallatav Discordi server ülemaailmse OpenStreetMapi kogukonna jaoks. Olemas on ka piirkondlikud kanalid.
+    description: "Mitteametlik kogukonna hallatav Discordi server ülemaailmse OpenStreetMapi kogukonna jaoks. Olemas on ka piirkondlikud kanalid."
   OSM-Discourse:
     name: OpenStreetMapi kogukonna foorum
+    description: Ühine keskkond vestlusteks OpenStreetMapi teemadel
   OSM-Facebook:
     description: Loe Facebookist meie uudiseid ja OpenStreetMapi uuenduste kohta.
   osm-gh-website:
@@ -624,11 +632,11 @@ et:
     description: Kaardistajad ja OpenStreetMapi kasutajad Indias
   osm-india-xmpp:
     name: OpenStreetMap India XMPP-vestluskanal
-    extendedDescription: 'India OSMi kogukonna XMPP-jututuba; võrgusillad suletud võrkudega puuduvad. Sama jututuba on saadaval ka Matrixi jututoas #osm-in:poddery.com'
+    extendedDescription: "India OSMi kogukonna XMPP-jututuba; võrgusillad suletud võrkudega puuduvad. Sama jututuba on saadaval ka Matrixi jututoas #osm-in:poddery.com"
   osm-iran-discord:
     extendedDescription: Discordis server OpenStreetMapi Iraani kogukonna jaoks. Liitu julgelt!
   OSM-japan-discord:
-    description: 'Discordi grupp OSMi Jaapani kogukonna jaoks: {url}'
+    description: "Discordi grupp OSMi Jaapani kogukonna jaoks: {url}"
   OSM-japan-facebook:
     description: Kaardistajad ja OpenStreetMapi kasutajad Jaapanis
   OSM-japan-website:
@@ -642,24 +650,24 @@ et:
   osm-kerala-matrix:
     description: Kaardistame Keralat üheskoos. Liitu meie jututoaga Matrixis
   osm-kerala-telegram:
-    description: Kaardistame Keralat üheskoos. Liitu meie jututoaga Telegramis. {url}
+    description: "Kaardistame Keralat üheskoos. Liitu meie jututoaga Telegramis. {url}"
   osm-kerala-website:
     description: Aitame OpenStreetMapil kasvada ja edeneda Keralas.
   osm-michigan-wiki:
-    description: 'Vikileht: {community}'
+    description: "Vikileht: {community}"
   osm-nelson:
-    description: OpenStreetMapi rühm Uus-Meremaal Nelsonis.
+    description: "OpenStreetMapi rühm Uus-Meremaal Nelsonis."
   osm-ni:
     description: OSM-i teenused ja teave kohaliku kogukonna jaoks Nicaraguas
   osm-ohio-wiki:
-    description: 'Vikileht: {community}'
+    description: "Vikileht: {community}"
   OSM-Ottawa-meetup:
     description: Kaardistajad ja OpenStreetMapi kasutajad Ottawa piirkonnas
   osm-punjab-matrix:
     description: Kaardistame Pandžabit üheskoos. Liitu meie jututoaga Matrixis
-    extendedDescription: Mitteametlik OSM Punjabi kogukonna jututuba, millel on ka võrgusild OSMPunjab jututoaga Telegramis
+    extendedDescription: "Mitteametlik OSM Punjabi kogukonna jututuba, millel on ka võrgusild OSMPunjab jututoaga Telegramis"
   osm-punjab-telegram:
-    description: Kaardistame Pandžabit üheskoos. Liitu meie jututoaga Telegramis. {url}
+    description: "Kaardistame Pandžabit üheskoos. Liitu meie jututoaga Telegramis. {url}"
   OSM-Rome-meetup:
     description: Täienda OpenStreetMapi andmeid Roomas ja selle ümbruses
   OSM-Seattle:
@@ -673,7 +681,7 @@ et:
   osm-td-facebook:
     description: Täienda OpenStreetMapi andmeid Tšaadis
   OSM-Telegram:
-    description: Liitu Telegramis OpenStreetMapi üleilmse suurrühmaga aadressil {url}.
+    description: "Liitu Telegramis OpenStreetMapi üleilmse suurrühmaga aadressil {url}."
   OSM-TH-CNX-meetup:
     name: OSM Chiang Mai Meetupis
   osm-toronto-meetup:
@@ -683,40 +691,45 @@ et:
   OSM-US:
     description: Aitame OpenStreetMapil kasvada ja edeneda Ameerika Ühendriikides.
   OSM-US-Slack:
-    description: Kõik on teretulnud! Liitu siin {signupUrl}
+    description: "Kõik on teretulnud! Liitu siin {signupUrl}"
   OSM-Utah:
     name: OpenStreetMap Utah
     description: Sinu OSM-i kaardistamise kogukond Salt Lake City piirkonnas
-    extendedDescription: Kohtume Salt Lake Citys kord kuus, tavaliselt kuu teisel kolmapäeval. Kõik on teretulnud!
+    extendedDescription: "Kohtume Salt Lake Citys kord kuus, tavaliselt kuu teisel kolmapäeval. Kõik on teretulnud!"
   OSM-Wyoming:
     name: OpenStreetMap Wyoming
     description: Kaardistajad ja OpenStreetMapi kasutajad Wyomingi osariigis Ameerika Ühendriikides
   OSMF:
     description: OSMF on Suurbritannias registreeritud mittetulundusühendus, mis toetab OpenStreetMapi projekti.
+    extendedDescription: "OSMF toetab OpenStreetMapi projekti, korraldades rahakogumiskampaaniaid, haldades OSM-i töös hoidvaid servereid, korraldades iga-aastast „State of the Map“ konverentsi ning koordineerides vabatahtlike tööd, kes hoiavad OSM-i toimimas. Saad näidata oma toetust ja kaasa rääkida OpenStreetMapi arengusuundades, liitudes siin OSMF-i liikmeks: {signupUrl}"
+  OSMFR-Mastodon:
+    name: "OpenStreetMap France'i Mastodoni konto"
   ph-facebook-group:
-    name: '{community} – rühm Facebookis'
+    name: "{community} – rühm Facebookis"
   PHXGeo-meetup:
     name: PHXGeo Meetupis
-    description: Kaardistajad ja OpenStreetMapi kasutajad Phoenixi piirkonnas Arizonas
+    description: "Kaardistajad ja OpenStreetMapi kasutajad Phoenixi piirkonnas Arizonas"
   PHXGeo-twitter:
-    name: PHXGeo X-is / Twitteris
-    description: Jälgi meid Twitteris aadressil {url}.
+    name: PHXGeo X-is
+    description: "Jälgi meid X-is aadressil {url}"
+  rs-discourse:
+    description: OpenStreetMapi Serbia-teemaline foorum
   scandinavia-discord:
     name: Skandinaavia-teemaline kanal OpenStreetMapi ülemaailmses kogukonnas Discordis
   sg-wiki:
-    description: '{community} – vikileht'
+    description: "{community} – vikileht"
   si-github:
-    description: '{community} GitHubis'
+    description: "{community} GitHubis"
   si-ljubljana-wiki:
-    description: 'Vikileht: {community}'
+    description: "Vikileht: {community}"
   si-wiki:
-    description: 'Vikileht: {community}'
+    description: "Vikileht: {community}"
   talk-au:
     description: Koht Austraalia kaardistajate vestlusteks
   tn-facebook-group:
-    name: '{community} – rühm Facebookis'
+    name: "{community} – rühm Facebookis"
   tw-slack:
-    description: Kõik on teretulnud! Liitu siin {signupUrl}
+    description: "Kõik on teretulnud! Liitu siin {signupUrl}"
   tz-website:
     description: OSM-i teenused ja teave kohaliku kogukonna jaoks Tansaanias
   ua-github:
@@ -725,11 +738,20 @@ et:
     description: OpenStreetMapi veebisait Ukrainas
   uk-london-mastodon:
     name: OpenStreetMap Londoni grupi leht Mastodonis
-    description: 'OpenStreetMap London Mastodonis: {url}'
+    description: "OpenStreetMap London Mastodonis: {url}"
   uk-london-wiki:
-    description: 'Vikileht: {community}'
+    description: "Vikileht: {community}"
+  us-discourse:
+    description: OpenStreetMapi foorum Ameerika Ühendriikides
   vn-wiki:
-    description: 'Vikileht: {community}'
+    description: "Vikileht: {community}"
+  ym-Arizona-State-University-facebook:
+    description: Noorte kaardistajate seltsing Arizona Riiklikus Ülikoolis
+  ym-Arizona-State-University-twitter:
+    description: Noorte kaardistajate seltsing Arizona Riiklikus Ülikoolis
+  ym-Oregon-State-University:
+    name: Noored kaardistajad Oregoni Riiklikus Ülikoolis
+    description: Noorte kaardistajate seltsing Oregoni Riiklikus Ülikoolis
   ym-Universidad-Jorge-Tadeo-Lozano:
     name: TadeoMappers Jorge Tadeo Lozano ülikoolis
-    description: Noorkaardistajad Jorge Tadeo Lozano Ülikoolis
+    description: Noorte kaardistajate seltsing Jorge Tadeo Lozano Ülikoolis

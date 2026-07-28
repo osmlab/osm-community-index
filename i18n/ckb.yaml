@@ -27,7 +27,7 @@ ckb:
     openstreetmapchad: نەخشەی شەقامی کراوەی چاد
     openstreetmapchile: نەخشەی شەقامی کراوەی چیلی
     openstreetmapchina: نەخشەی شەقامی کراوەی چین
-    openstreetmapcotedivoire: نەخشەی شەقامی کراوەی کۆدیڤوار
+    openstreetmapcotedivoire: "نەخشەی شەقامی کراوەی کۆدیڤوار"
     openstreetmapcroatia: نەخشەی شەقامی کراوەی کڕواتیا
     openstreetmapcuba: نەخشەی شەقامی کراوەی کوبا
     openstreetmapdenmark: نەخشەی شەقامی کراوەی دانیمارک
@@ -139,97 +139,93 @@ ckb:
     openstreetmapzimbabwe: نەخشەی شەقامی کراوەی زیمبابۆی
   _defaults:
     discord:
-      name: '{community} دیسکۆرد'
+      name: "{community} دیسکۆرد"
     facebook:
-      name: '{community} لە فەیسبووک'
+      name: "{community} لە فەیسبووک"
       description: لەگەڵمان بن لەسەر فەیسبووک
     github:
-      name: '{community} گیتهەب'
+      name: "{community} گیتهەب"
     gitlab:
-      name: '{community} گیتلاب'
+      name: "{community} گیتلاب"
     linkedin:
-      name: '{community} لە لینکدئین'
+      name: "{community} لە لینکدئین"
       description: لەگەڵمان بن لەسەر لینکدئین
     mastodon:
-      name: '{community} لەسەر ماستادۆن'
-      description: هەژماری فەرمی {community} لە ماستادۆن
+      name: "{community} لەسەر ماستادۆن"
+      description: "هەژماری فەرمی {community} لە ماستادۆن"
     meetup:
-      name: '{community} میتئەپ'
+      name: "{community} میتئەپ"
     reddit:
-      name: '{community} لە ڕێدیت'
+      name: "{community} لە ڕێدیت"
     signal:
-      name: '{community} سیگنال'
+      name: "{community} سیگنال"
       description: لەگەڵمان بن لەسەر سیگنال
     slack:
-      name: '{community} سلاک'
+      name: "{community} سلاک"
     telegram:
-      name: '{community} تێلیگرام'
+      name: "{community} تێلیگرام"
       description: لەگەڵمان بن لە تێلیگرام
     youtube:
-      name: '{community} لە یوتیوب'
+      name: "{community} لە یوتیوب"
   am-wiki:
-    description: 'پەڕەی ویکیی {community}'
+    description: "پەڕەی ویکیی {community}"
   at-wiki:
-    description: 'پەڕەی ویکیی {community}'
+    description: "پەڕەی ویکیی {community}"
   be-matrix:
     description: بۆ هەموو نەخشەسازان کراوەیە.
   bo-matrix:
     description: بۆ هەموو نەخشەسازان کراوەیە.
   de-aachen-wiki:
-    description: 'پەڕەی ویکیی {community}'
+    description: "پەڕەی ویکیی {community}"
   de-berlin-wiki:
-    description: 'پەڕەی ویکیی {community}'
+    description: "پەڕەی ویکیی {community}"
   de-bochum-wiki:
-    description: 'پەڕەی ویکیی {community}'
+    description: "پەڕەی ویکیی {community}"
   de-bonn-wiki:
-    description: 'پەڕەی ویکیی {community}'
+    description: "پەڕەی ویکیی {community}"
   de-bremen-wiki:
-    description: 'پەڕەی ویکیی {community}'
+    description: "پەڕەی ویکیی {community}"
   de-cologne-wiki:
-    description: 'پەڕەی ویکیی {community}'
+    description: "پەڕەی ویکیی {community}"
   de-dresden-wiki:
-    description: 'پەڕەی ویکیی {community}'
+    description: "پەڕەی ویکیی {community}"
   de-dusseldorf-wiki:
-    description: 'پەڕەی ویکیی {community}'
+    description: "پەڕەی ویکیی {community}"
   de-luneburg-wiki:
-    description: 'پەڕەی ویکیی {community}'
+    description: "پەڕەی ویکیی {community}"
   de-munchen-wiki:
-    description: 'پەڕەی ویکیی {community}'
+    description: "پەڕەی ویکیی {community}"
   fr-35-wiki:
-    description: 'پەڕەی ویکیی {community}'
+    description: "پەڕەی ویکیی {community}"
   fr-38-wiki:
-    description: 'پەڕەی ویکیی {community}'
+    description: "پەڕەی ویکیی {community}"
   fr-montrouge-wiki:
-    description: 'پەڕەی ویکیی {community}'
-  Galicia-Xeoinquedos-Twitter:
-    description: لەسەر تویتەر شوێنمان بکەوە {url}
+    description: "پەڕەی ویکیی {community}"
   hr-github:
-    description: '{community} گیتهەب'
+    description: "{community} گیتهەب"
   hu-wiki:
-    description: 'پەڕەی ویکیی {community}'
+    description: "پەڕەی ویکیی {community}"
   ko-github:
-    description: '{community} گیتهەب'
+    description: "{community} گیتهەب"
   nl-matrix:
     description: بۆ هەموو نەخشەسازان کراوەیە.
   osm-africa-matrix:
     description: بۆ هەموو نەخشەسازان کراوەیە.
   osm-deep-south-wiki:
-    description: 'پەڕەی ویکیی {community}'
+    description: "پەڕەی ویکیی {community}"
   osm-michigan-wiki:
-    description: 'پەڕەی ویکیی {community}'
+    description: "پەڕەی ویکیی {community}"
   osm-ohio-wiki:
-    description: 'پەڕەی ویکیی {community}'
-  PHXGeo-twitter:
-    description: لەسەر تویتەر شوێنمان بکەوە {url}
+    description: "پەڕەی ویکیی {community}"
   sg-wiki:
-    description: 'پەڕەی ویکیی {community}'
+    description: "پەڕەی ویکیی {community}"
   si-github:
-    description: '{community} گیتهەب'
+    description: "{community} گیتهەب"
   si-ljubljana-wiki:
-    description: 'پەڕەی ویکیی {community}'
+    description: "پەڕەی ویکیی {community}"
   si-wiki:
-    description: 'پەڕەی ویکیی {community}'
+    description: "پەڕەی ویکیی {community}"
   uk-london-wiki:
-    description: 'پەڕەی ویکیی {community}'
+    description: "پەڕەی ویکیی {community}"
   vn-wiki:
-    description: 'پەڕەی ویکیی {community}'
+    description: "پەڕەی ویکیی {community}"

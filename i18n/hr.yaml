@@ -49,7 +49,7 @@ hr:
     openstreetmapchina: OpenStreetMap Kina
     openstreetmapcologne: OpenStreetMap Köln
     openstreetmapcomunitatvalenciana: OpenStreetMap Valencija
-    openstreetmapcotedivoire: OpenStreetMap Obala Bjelokosti
+    openstreetmapcotedivoire: "OpenStreetMap Obala Bjelokosti"
     openstreetmapcroatia: OpenStreetMap Hrvatska
     openstreetmapcuba: OpenStreetMap Kuba
     openstreetmapcuneo: OpenStreetMap Cuneo
@@ -77,7 +77,7 @@ hr:
     openstreetmapfrenchpolynesia: OpenStreetMap Francuska Polinezija
     openstreetmapgabon: OpenStreetMap Gabon
     openstreetmapgalicia: OpenStreetMap Galicija
-    openstreetmapgeorgia: OpenStreetMap Gruzija
+    openstreetmapgeorgia: OpenStreetMap Georgia
     openstreetmapgermany: OpenStreetMap Njemačka
     openstreetmapghana: OpenStreetMap Gana
     openstreetmapgorakalwaria: OpenStreetMap Góra Kalwaria
@@ -207,13 +207,541 @@ hr:
     youthmappersufrj: YouthMappers UFRJ
   _defaults:
     aparat:
-      name: '{community} na Aparat kanalu'
+      name: "{community} na Aparat kanalu"
       description: 'Pretplatite se na naš kanal Aparat '
-      url: https://aparat.com/{account}
+      url: "https://aparat.com/{account}"
     bluesky:
-      name: '{community} na Bluesky-u'
+      name: "{community} na Bluesky-u"
       description: Pratite nas na Bluesky-u
-      url: https://bsky.app/profile/{account}
+      url: "https://bsky.app/profile/{account}"
     discord:
-      name: '{community} Discord'
-      url: https://discord.gg/{account}
+      name: "{community} Discord"
+      description: Stupite u kontakt s drugim kartografima na Discordu
+      url: "https://discord.gg/{account}"
+    discourse:
+      name: "{community} forum zajednice"
+      description: "Službeni forum za {community}"
+      url: "https://community.openstreetmap.org/c/communities/{account}"
+    facebook:
+      name: "{community} na Facebooku"
+      description: Pridružite se našoj zajednici na Facebooku
+      url: "https://www.facebook.com/{account}"
+    fediverse:
+      name: "{community}"
+    forum:
+      name: "{community} forum"
+      description: "Službeni forum za {community}"
+    github:
+      name: "{community} GitHub"
+      url: "https://github.com/{account}"
+    gitlab:
+      name: "{community} GitLab"
+      url: "https://gitlab.com/{account}"
+    group:
+      name: "{community}"
+    instagram:
+      name: "{community} na Instagramu"
+      description: Pratite nas na Instagramu
+      url: "https://instagram.com/{account}"
+    irc:
+      name: "{community} on IRC"
+      description: "Pridružite se #{account} na irc.oftc.net (port 6667 za non-SSL ili 6697 za SSL)"
+      url: "https://webchat.oftc.net/?channels={account}"
+    linkedin:
+      name: "{community} na LinkedInu"
+      description: Pridružite se našoj zajednici na LinkedInu
+      url: "https://www.linkedin.com/company/{account}"
+    mailinglist:
+      name: "{account} Mailing List"
+      description: "Službena mailing lista za {community}"
+      url: "https://lists.openstreetmap.org/listinfo/{account}"
+    mastodon:
+      name: "{community} na Mastodonu"
+      description: "Službeni Mastodon račun za {community}"
+    matrix:
+      name: "{community} Matrix čavrljanje"
+      description: 'Pridružite se zajednici Matrix čavrljanja '
+      url: "https://matrix.to/#/{account}:matrix.org"
+    meetup:
+      name: "{community} Meetup"
+      url: "https://www.meetup.com/{account}"
+    newsletter:
+      name: "{community} Bilten"
+    osm:
+      name: "{community}"
+    osm-lc:
+      name: "{community}"
+    reddit:
+      name: "{community} na Redditu"
+      url: "https://www.reddit.com/r/{account}"
+    signal:
+      name: "{community} Signal"
+      description: 'Pridružite se čavrljanju naše zajednice na Signalu '
+    slack:
+      name: "{community} Slack"
+    telegram:
+      name: "{community} Telegram"
+      description: 'Pridružite se čavrljanju naše zajednice na Telegramu '
+      url: "https://t.me/{account}"
+    threads:
+      name: "{community} na Threads-u"
+      description: Pratite nas na Threads-u
+      url: "https://threads.net/@{account}"
+    tiktok:
+      name: "{community} na TikToku"
+      description: Pratite nas na TikToku
+      url: "https://tiktok.com/@{account}"
+    twitter:
+      name: "{community} na X-u"
+      description: Pratite nas na X-u
+    url:
+      name: "{community}"
+    wiki:
+      name: "{community} WikiProjekt"
+      url: "https://wiki.openstreetmap.org/wiki/{account}"
+    x:
+      name: "{community} na X-u"
+      description: Pratite nas na X-u
+      url: "https://twitter.com/{account}"
+    xmpp:
+      name: "{community} XMPP"
+      description: "Pridružite se čavrljanju naše XMPP zajednice: {url}"
+    youtube:
+      name: "{community} na YouTubeu"
+      description: Pretplatite se na naš YouTube kanal
+      url: "https://www.youtube.com/channel/{account}"
+    zulip:
+      name: "{community} Zulip"
+      description: Pridružite se čavrljanju naše zajednice na Zulip-u
+  aberdeen-discord:
+    name: OSM ABZ Discord
+  af-matrix:
+    description: 'Matrix grupa zajednice u Afganistanu. '
+  al-maptime-tirana:
+    name: Maptime Tirana
+    description: 'Društveni događaji oko kartiranja - početnici su dobrodošli! '
+    extendedDescription: "Maptime je otvoreno okruženje za učenje za sve razine i stupnjeve znanja, s namjerom pružiti obrazovnu podršku za početnike. Maptime je istovremeno fleksibilan i strukturiran, stvarajući prostor za poduku o kartiranju, radionice, tekuće projekte sa zajedničkim ciljem, te samostalno i zajedničko radno vrijeme. "
+  am-wiki:
+    description: "{community} Wiki page"
+  at-matrix:
+    description: 'Neslužbeni njemački Matrix kanal za Austriju '
+  at-wiki:
+    description: "{community} Wiki stranica"
+  Bahia-telegram:
+    extendedDescription: "Pridružite se zajednici kako biste više naučili o OpenStreetMap-u, postavljali pitanja ili sudjelovali na našim susretima. Svi su dobrodošli! "
+  Bay-Area-OpenStreetMappers:
+    name: Bay Area OpenStreetMappers
+    description: Unaprijedite OpenStreetMap u Bay Area
+    extendedDescription: "Ova grupa se bavi razvojem OpenStreetMap zajednice ovdje u Bay Area. Naši događaji su otvoreni za sve, od entuzijasta otvorenog koda, biciklista, GIS stručnjaka, geochachera i šire. Svatko tko je zainteresiran za karte, izradu karata i besplatne podatke o kartama dobrodošao je pridružiti se našoj grupi, te posjetiti naše događaje. "
+  bd-facebook:
+    extendedDescription: "Kartiranje u Bangladešu? Imate li pitanja, želite li se povezati sa našm zajednicom? Pridružite nam se u {url}. Svi su dobrodošli! "
+  be-chapter:
+    description: 'Pomažemo rastu i napretku OpenStreetMap-a u Belgiji. '
+    extendedDescription: "Ako žellite pomoći unaprijediti i razviti kartogrqfsku zajednicu u Belgiji, kako biste još više ljudi zaludili kartiranjem OpenStreetMap Belgija je pravo mjesto za vas! "
+  be-discourse:
+    description: 'Forum za raspravu OpenStreetMap-a u Belgiji '
+  be-matrix:
+    description: 'Svi kartografi su dobrodošli! '
+    extendedDescription: "Glavna soba za razgovor belgijske OSM zajednice. Ne oklijevajte ovdje postaviti početnička pitanja! "
+  be-meetup:
+    description: Susreti u stvarnom životu svih zainteresiranih za OpenStreetMap
+    extendedDescription: "Fizički susreti su izvrsni za upoznavanje drugih kartografa, postavljanje pitanja i učenje puno toga. Posebno su dobrodošli novi suradnici!"
+  be-newsletter:
+    description: 'Tromjesečni bilten belgijske zajednice '
+  bg-wiki:
+    description: 'Wikiprojekt stranica za Bugarsku '
+  bi-vc-cvl-meetup:
+    description: "Lokalna grupa kartografa u Bielleseu, Vercelleseu, Canaveseu i Valli di Lanzo"
+    extendedDescription: "Susreti od veljače 2018. obično u Biella-i ili Ivrea-i"
+  bo-facebook-group:
+    name: "{community} Facebook grupa"
+  bo-matrix:
+    description: 'Svi kartografi su dobrodošli! '
+  br-telegram:
+    extendedDescription: "Pridružite se zajednici kako biste više naučili o OpenStreetMap-u, postavljali pitanja ili sudjelovali u našim susretima. Svi su dobrodošli! "
+  br-wiki:
+    description: 'WikiProject s informacijama i koordinacijskim smjernicama za kartiranje u Brazilu. '
+  cape-coast-youthmappers:
+    name: Sveučilište Cape Coast YouthMapper-i
+    extendedDescription: "Ovo je službeni vodič za odjel Youth Mappers Sveučilišta Cape Coast, Gana. Volimo karte, otvorene podatke i pomoć ranjivima."
+  castilla-y-leon-wiki:
+    description: "Sve što trebate znati o kartiranju u Castile i Leonu: {url}"
+  cat-github:
+    description: Projekti OpenStreetMap zajednice Katalonije na GitHub-u
+  cat-matrix:
+    description: 'Matrix grupa za OpenStreetMap zajednicu Katalonije '
+  cat-twitch:
+    name: "Twitch kanal {community}"
+    description: "OSM uređivanje uživo, HOTosm, OpenData i GIS"
+  cat-wiki:
+    description: "Koordinacijski prostor za OpenStreetMap zajednicu oko Katalonije: {url}"
+  cd-chapter:
+    name: OpenStreetMap RDC
+    description: "Od ulice do ulice, kartirajmo našu državu..."
+    extendedDescription: "Strastveni smo oko OSM projekta, dijeleći dio svog vremena kako bismo druge upoznali s projektom. Još uvijek nas je premalo, pridružite nam se! "
+  Central-Pennsylvania-OSM:
+    name: OSM Središnja Pennsylvania
+    description: "Zajednica za online kartiranje sa sjedištem izvan State College-a, PA"
+  ch-mailinglist:
+    name: Openstreetmap Švicarska Mailing List
+    description: Mailing list za Švicarsku
+  cl-facebook:
+    extendedDescription: "Pridružite se zajednici kako biste više naučili o OpenStreetMap-u, postavljali pitanja ili sudjelovali na našim susretima. Svi su dobrodošli! "
+  cl-telegram:
+    extendedDescription: "Pridružite se zajednici kako biste više naučili o OpenStreetMap-u, postavljali pitanja ili sudjelovali na našim susretima. Svi su dobrodošli! "
+  co-discourse:
+    name: 'Teme za raspravu OSM Zajednica o Kolumbiji '
+    description: 'Ovo su teme vezane uz promjene na karti u Kolumbiji '
+  co-facebook:
+    name: "Grupa {community} na Facebooku"
+    description: Grupe za razgovor o pitanjima OSM-a u Kolumbiji
+  co-github:
+    name: "{community} projekti na GitHub-u"
+    description: Projekti kodiranja koje je razvila zajednica
+  co-instagram:
+    name: "Objava {community} na Instagramu"
+    description: 'Publikacije o aktivnostima zajednice ili informacije '
+  co-linkedin:
+    name: "Objava {community} na LinkedIn-u"
+    description: Publikacije o aktivnostima zajednice ili informacije
+  co-mastodon:
+    name: "Objava {community} na Mastodonu"
+    description: Publikacije o aktivnostima zajednice ili informacije
+  co-talk:
+    name: "{community} mailing list"
+    description: E-poruke koje zahtijevaju komunikaciju informacija sa zajednicom
+  co-telegram:
+    name: "Grupa za razgovor na {community} na Telegram-u"
+    description: 'Otvoreni razgovor o temama od interesa za cijelu zajednicu. Ovo je najaktivniji kanal. '
+  co-thread:
+    name: "Objava {community} na Threadsu"
+    description: 'Publikacije o aktivnostima zajednice ili informacije '
+  co-tiktok:
+    name: "Kratki video zapisi {community} na Tiktoku"
+    description: Publikacije o aktivnostima zajednice
+  co-twitter:
+    name: "Zajednica {community} na x-Twitteru"
+    description: 'Publikacije o aktivnostima zajednice ili informacije '
+  co-whatsapp:
+    name: "Novosti od {community} zajednice na WhatsApp-u"
+    description: 'Publikacije o aktivnostima zajednice ili informacije '
+  co-wiki:
+    name: 'Wiki stranica s dokumentacijom o projektu kartiranja Kolumbije. '
+    description: Dokumentacija o svemu povezanom s OpenStreetMap u Kolumbiji.
+  co-youtube:
+    name: "Videozapisi {community} na Youtube-u"
+    description: 'Videozapisi aktivnosti zajednice ili objašnjenja aktivnosti OSM-a '
+  comunitat-valenciana-wiki:
+    description: "Sve što trebate znati o kartiranju u zajednici Valencije:  {url}"
+  czech-community:
+    description: "Kartografski portal, web stranica i kontakti OSM članova u Češkoj "
+  czech-discord:
+    description: "Soba OpenStreetMap Češka  povezana s IRC-em, Jabberom, Matrixom i Telegramom"
+  czech-irc:
+    description: "Soba OpenStreetMap Češka povezana s Discordom, Jabberom, Matrixom i Telegramom"
+  czech-matrix:
+    description: "Soba OpenStreetMap Češka povezana s Discordom, IRC-em, Jabberom i Telegramom"
+  czech-telegram:
+    description: "Soba OpenStreetMap Češka povezana s Discordom, IRC-em, Jabberom i Matrixom"
+  czech-xmpp:
+    description: "Soba OpenStreetMap Češka povezana s Discord-om, IRC-em, Matrix-om i Telegramom"
+  de-aachen-wiki:
+    description: "{community} Wiki stranica"
+  de-berlin-mailinglist:
+    name: Berlin Mailing List
+  de-berlin-wiki:
+    description: "{community} Wiki stranica"
+  de-berlin-xmpp:
+    name: OpenStreetMap Berlin-Brandenburg XMPP
+  de-bochum-wiki:
+    description: "{community} Wiki stranica"
+  de-bonn-wiki:
+    description: "{community} Wiki stranica"
+  de-bremen-mailinglist:
+    name: Bremen Mailing List
+  de-bremen-wiki:
+    description: "{community} Wiki stranica"
+  de-cologne-wiki:
+    description: "{community} Wiki stranica"
+  de-dresden-wiki:
+    description: "{community} Wiki stranica"
+  de-dusseldorf-wiki:
+    description: "{community} Wiki stranica"
+  de-hamburg-xmpp:
+    name: OpenStreetMap Hamburg XMPP
+  de-karlsruhe-mailinglist:
+    name: Karlsruhe Mailing List
+  de-karlsruhe-meetup:
+    description: Kartografi i korisnici OpenStreetMap-a u području Karlsruhe-a
+  de-luneburg-wiki:
+    description: "{community} Wiki stranica"
+  de-mainz-mailinglist:
+    description: 'OpenStreetMap u Mainzu i okolici '
+  de-mainz-signal:
+    description: "OpenStreetMap u Mainzu, Wiesbadenu i okolici "
+  de-mainz-wiki:
+    description: 'OpenStreetMap u Mainzu i okolici '
+  de-munchen-wiki:
+    description: "{community} Wiki stranica"
+  de-mv-mailinglist:
+    name: Mecklenburg-Vorpommern Mailing List
+  de-ostwestfalen-lippe-mailinglist:
+    name: OWL Mailing List
+    description: Ovo je mailing list Ostwestfalen-Lippe OSM zajednice
+  de-stuttgart-mailinglist:
+    name: 'Stuttgart and Baden-Wuerttemberg Mailing List '
+    description: Ovo je mailing list OSM zajednice Stuttgart i cijelog Baden-Wuerttemberga
+  de-stuttgart-meetup:
+    name: Susret OpenStreetMap Stuttgart
+    description: Kartografi i korisnici OpenStreetMapa na području Stuttgarta
+  de-telegram:
+    name: OpenStreetMap D-A-CH Telegram
+    description: "Pridružite se OpenStreetMap D-A-CH Telegram supergrupi na {url}"
+  de-ulm_neuulm-meetup:
+    name: Susret OpenStreetMap Ulm Neu-Ulm
+    description: Kartografi i korisnici OpenStreetMapa na području Ulma i Neu-Ulma
+  de-ulmeralb-meetup:
+    name: Susret OpenstreetMap Ulmer Alb
+    description: Kartografi i korisnici OpenStreetMapa na području Ulmer Alb
+  de-viersen-meetup:
+    name: Susret OpenStreetMap Viersen
+    description: Susret OSM zajednice i korisnika Kreis Viersena and Mönchengladbacha
+  de-xmpp:
+    name: OpenStreetMap DE XMPP
+  DF-telegram:
+    extendedDescription: "Pridružite se zajednici kako biste više naučili o OpenStreetMapu, postavljali pitanja ili sudjelovali na našim susretima. Svi su dobrodošli! "
+  dk-discourse:
+    description: 'Forum za raspravu o OpenStreetMapu u Danskoj '
+  ee-wiki:
+    description: 'Informacije koje se odnose na aktivnosti kartiranja  specifične za Estoniju. '
+  fr-35-wiki:
+    description: "{community} Wiki stranica"
+  fr-38-wiki:
+    description: "{community} Wiki stranica"
+  fr-chapter:
+    description: 'Pomažemo rastu i napretku OpenStreetMapa u Francuskoj. '
+  fr-discord:
+    name: Discord Communauté OpenStreetMap de France
+  fr-matrix:
+    description: "Matrix grupa zajednice OSM Francuska: {url} (povezana s Telegramom)"
+  fr-montrouge-website:
+    description: OSM informacije za lokalnu zajednicu u Montrouge-u
+  fr-montrouge-wiki:
+    description: "{community} Wiki stranica"
+  fr-telegram:
+    description: "Telegram grupa zajednice OSM Francuska: {url}"
+  fr-xmpp:
+    description: Pridružite se osm-fr@chat.jabberfr.org
+  galicia-wiki:
+    description: "Sve što trebate znati o kartiranju u Galiciji: {url}"
+  gb-irc:
+    extendedDescription: "Pridružite se #{account} na irc.oftc.net (port 6667), molimo budite strpljivi i pričekajte nekoliko minuta ako ste postavili pitanje "
+  gb-mailinglist:
+    description: 'Talk-gb je popis glavnog komunikacijskog foruma OSM zajednice UK-a (uključujući Sjevernu Irsku) '
+  ge-matrix:
+    description: "Opće čavrljanje o OpenStreetMap-u u Georgiji, povezno na Telegram "
+  geogeeks_perth_meetup:
+    name: Geogeeks Perth
+    description: "Grupa za okupljanje sa sjedištem u Perthu za ljude zainteresirane za kartiranje, geoprostorne podatke i otvoreni kod. Organiziramo redovita druženja kartografa OSM-a, razgovore i društvena okupljanja. Početnici su dobrodošli! "
+  GeoPhilly:
+    name: GeoPhilly
+    description: Susreti za entuzijaste kartiranja na području Philadelphia-e
+    extendedDescription: "GeoPhilly ujedinjuje programere, geografe, štrebere podataka, entuzijaste otvorenog koda, građanske hakere i ovisnike o kartama u našoj zajedničkoj ljubavi prema kartama i pričama koje one pričaju. Ako koristite karte kao dio vašeg rada ili samo želite više naučiti, ovo je susret za vas! Naši događaji nastoje biti otvoreni, prijateljski nastrojeni, edukativni i društveni i variraju od sretnih trenutaka do blic razgovora ili čak radionica. Pridružite nam se u kreiranju raznolike inspirirajuće geoprostorne zajednice u Philadelphiji!"
+  hu-facebook-group:
+    name: "{community} Facebook grupa"
+  hu-mobilizon:
+    name: "{community} na Mobilizonu"
+  hu-wiki:
+    description: "{community} Wiki stranica"
+  id-facebook-group:
+    name: "{community} Facebook grupa"
+  ireland-chapter:
+    description: Pomažemo rastu i napretku OpenStreetMap u Irskoj.
+  is-chapter:
+    description: Pomažemo rastu i napretku OpenStreetMap na Islandu.
+  it-chapter:
+    description: Pomažemo rastu i napretku OpenStreetMap u Italiji.
+  ko-osm:
+    description: 'Pomažemo rastu i napretku OpenStreetMap u Koreji. '
+  kosovo-flossk:
+    name: Free Libre Open Source Software Kosova (FLOSSK)
+  latam-facebook:
+    description: 'Kartografi i OpenStreetMap na Facebooku u Latinskoj Americi '
+  lv-wiki:
+    description: WikiProjekt Latvija
+  madrid-upm-ym:
+    name: Mapeo Humanitario
+  mailinglist-sk-googlegroups:
+    name: Mailing lista Slovačke na Google Groups
+    description: Službena mailing lista zajednice Slovačke
+  map-kibera:
+    name: Map Kibera Trust
+    description: 'Map Kibera je registrirana organizacija djelatna u Keniji '
+  MapColabora-twitter:
+    name: Mapeado Colaborativo / Geoinquietos Zaragoza
+    description: Mapeado Colaborativo / Geoinquietos Zaragoza Twitter račun
+  MapLYH:
+    name: MapLYH
+  mappa-mercia-group:
+    description: Početna stranica entuzijasta OpenStreetMap Midlands
+  maptime-bogota-facebook:
+    name: MaptimeBogotá
+  maptime-bogota-github:
+    name: MaptimeBogotá
+  maptime-bogota-linkedin:
+    name: MaptimeBogotá
+  maptime-bogota-mastodon:
+    name: MaptimeBogotá
+  maptime-bogota-meetup:
+    name: MaptimeBogotá
+  maptime-bogota-telegram:
+    name: MaptimeBogotá
+  maptime-bogota-twitter:
+    name: MaptimeBogotá
+  maptime-bogota-website:
+    name: MaptimeBogotá
+  maptime-bogota-youtube:
+    name: MaptimeBogotá
+  Maptime-ME-meetup:
+    name: MaptimeME
+  me-telegram:
+    description: "Svi su dobrodošli! Registrirajte se na {signupUrl}"
+  nl-matrix:
+    description: 'Svi kartografi su dobrodošli! '
+  no-irc:
+    description: "Soba za razgovor za kartografe, korisnike, programere i entuzijaste  OpenStreetMap-a u Norveškoj "
+  no-matrix:
+    description: 'Spoj na ICR sobu za razgovor '
+  OpenCleveland-meetup:
+    description: Unaprijedite OpenStreetMap na području Clevelanda
+  osm-africa-facebook-group:
+    name: "{community} Facebook grupa"
+  osm-africa-matrix:
+    description: 'Svi kartografi su dobrodošli! '
+  osm-africa-slack:
+    description: "Svi su dobrodošli! Registrirajte se na {signupUrl}"
+  OSM-AR-geolibres:
+    name: GeoLibres
+  OSM-AR-twitter:
+    extendedDescription: Novosti iz lokalne zajednice i općenito OpenStreetMapa.
+  osm-benin-facebook:
+    description: Unaprijedite OpenStreetMap u Beninu
+  osm-ch:
+    description: Platforma za informacije o OpenStreetMap Švicarska
+  OSM-Chattanooga:
+    name: OSM Chattanooga
+    description: Korisnička grupa OpenStreetMap Chattanooga
+  OSM-Colorado:
+    name: OpenStreetMap Colorado
+    description: "Kartografi i korisnici OpenStreetMapa u državi Colorado, SAD "
+  osm-deep-south-wiki:
+    description: "{community} Wiki stranica"
+  OSM-India-facebook:
+    description: Unaprijedite OpenStreetMap u Indiji
+    extendedDescription: "Kartiranje u Indiji? Imate pitanja, želite se povezati s našom zajednicom?  Pridružite nam se na {url}. Svi su dobrodošli! "
+  osm-india-github:
+    description: "Kodirajte s nama: {url}"
+  osm-india-mastodon:
+    description: Početna stranica zajednice OpenStreetMap Indija  na fediverseu
+  osm-india-matrix:
+    extendedDescription: "Neslužbena soba za razgovor za OSM Indija, također povezana s OSM Indija Telegram grupom"
+  osm-india-xmpp:
+    name: OpenStreetMap India XMPP
+  OSM-Kerala-facebook:
+    description: Unaprijedite OpenStreetMap u Kerali
+  osm-kerala-github:
+    description: "Kodirajte s nama: {url}"
+  osm-kerala-matrix:
+    extendedDescription: "Neslužbena soba za razgovor za OSM Kerala, također povezana s OSM Kerala Telegram grupom"
+  osm-kerala-website:
+    description: 'Pomažemo rastu i napretku OpenStreetMapa u Kerali. '
+  osm-mg-facebook:
+    description: Malagasy Facebook grupa za osobe zainteresirane za OpenStreetMap.
+  osm-michigan-wiki:
+    description: "{community} Wiki stranica"
+  osm-nelson:
+    description: "OpenStreetMap grupa u Nelsonu, Novi Zeland "
+  osm-ni:
+    name: MapaNica.net
+  osm-ohio-wiki:
+    description: "{community} Wiki stranica"
+  OSM-Ottawa-meetup:
+    description: 'Kartografi i korisnici OpenStreetMapa na području Otawe '
+  OSM-PL-chapter:
+    description: Početna stranica OpenStreetMap  zajednice Poljska
+  OSM-PL-discord:
+    description: "Glavno mjesto za glasovno čavrljanje OpenStreetMap zajednice Poljske, aktivni tekstualni kanali "
+  OSM-PL-github:
+    description: GitHub organizacija OpenStreetMap zajednice Poljske
+  OSM-Puducherry-Mailing-List:
+    name: Pokret slobodni softver/hardver - Mailing List
+    description: 'FSHM Puducherry mailing list za raspravu o kartiranju u Puducherryju i drugim stvarima. '
+    extendedDescription: "FSHM organizira događaje koji se odnose na besplatni softver/hardver, tehnologiju, aktivizam i OpenStreetMap."
+  osm-punjab-matrix:
+    description: Zajedno kartiramo Pandžab. Pridružite se našoj Matrix grupi.
+    extendedDescription: "Neslužbena soba za razgovor za OSM Pandžab, također povezana s  OSM Punjab Telegram grupom"
+  osm-punjab-telegram:
+    description: "Zajedno kartiramo Pandžab. Pridružite se našoj Telegram grupi {url}"
+  OSM-Rome-meetup:
+    name: Incontro Mappatori Romani
+    description: Unaprijedite OpenStreetMap na području Rima
+    extendedDescription: "Cilj nam je biti izvor za ljude koji će raspravljati i dijeliti znanje o uporabi besplatnih skupova geografskih podataka, posebno OpenStreetMap i Open geoprostorni softver koji upravlja, uređuje i prikazuje geografske podatke i zagovara njegovu upotrebu u Laciju."
+  osm-td-facebook:
+    description: Unaprijedite OpenStreetMap u Čadu
+  OSM-TH-CNX-meetup:
+    name: OSM susret u Chiang Mai-u
+  osm-tw:
+    description: Pomažemo rastu i napretku OpenStreetMap na Taiwanu.
+  OSM-US:
+    description: Pomažemo rastu i napretku OpenStreetMap u Sjedinjenim Američkim Državama
+  OSM-US-Slack:
+    description: "Svi su dobrodošli! Registrirajte se na {signupUrl}"
+  OSM-Utah:
+    name: OpenStreetMap Utah
+  OSM-Wyoming:
+    name: OpenStreetMap Wyoming
+  ph-facebook-group:
+    name: "{community} Facebook grupa"
+  PHXGeo-meetup:
+    name: Susret PHXGeo
+  RS-telegram:
+    extendedDescription: "Pridružite se zajednici kako biste više naučili o OpenStreetMap-u, postavljali pitanja ili sudjelovali na našim susretima. Svi su dobrodošli! "
+  sg-wiki:
+    description: "{community} Wiki stranica"
+  si-ljubljana-wiki:
+    description: "{community} Wiki stranica"
+  si-wiki:
+    description: "{community} Wiki stranica"
+  tn-facebook-group:
+    name: "{community} Facebook grupa"
+  tw-slack:
+    description: "Svi su dobrodošli! Registrirajte se na {signupUrl}"
+  ua-github:
+    description: OpenStreetMap Ukraine GitHub
+  ua-osm:
+    description: 'Web stranica OpenStreetMap website Ukrajina '
+  uk-london-wiki:
+    description: "{community} Wiki stranica"
+  us-massachusetts-mailinglist:
+    name: Talk-us-massachusetts Mailing List
+    description: Email mailing list Massachusetts OSM zajednice
+  vn-wiki:
+    description: "{community} Wiki stranica"
+  YerCizenler-TR:
+    name: Yer Çizenler
+  ym-Ignatius-Ajuru-University-of-Education:
+    name: IgnatiusMappersTeam (IMT)
+  ym-Kansas-State-University:
+    name: "Gamma Theta Upsilon: Beta Psi Chapter"
+  ym-Karatina-University:
+    name: Nature Club Karatina University
+  ym-St.-Mawaggali-Trades-Training-Institute:
+    name: MawaggaliMappers
+  ym-Universidad-de-Antioquia:
+    name: Geomatica UDEA
+  ym-University-of-Nigeria-Enugu-Campus:
+    name: LionMappersTeam (LMT) Enugu
+  ym-Villanova-University:
+    name: Villanova Globeplotters
+  ym-Western-Michigan-University:
+    name: Geography Club

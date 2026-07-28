@@ -1,1 +1,99 @@
-be@tarask: {}
+be@tarask:
+  _communities:
+    geolibres: GeoLibres
+    maptimebogota: MaptimeBogota
+    openstreetmap: OpenStreetMap
+    youthmappersasu: YouthMappersASU
+  _defaults:
+    aparat:
+      url: "https://aparat.com/{account}"
+    discord:
+      url: "https://discord.gg/{account}"
+    discourse:
+      url: "https://community.openstreetmap.org/c/communities/{account}"
+    facebook:
+      url: "https://www.facebook.com/{account}"
+    github:
+      url: "https://github.com/{account}"
+    gitlab:
+      url: "https://gitlab.com/{account}"
+    group:
+      name: "{community}"
+    irc:
+      url: "https://webchat.oftc.net/?channels={account}"
+    linkedin:
+      url: "https://www.linkedin.com/company/{account}"
+    mailinglist:
+      url: "https://lists.openstreetmap.org/listinfo/{account}"
+    matrix:
+      url: "https://matrix.to/#/{account}:matrix.org"
+    meetup:
+      url: "https://www.meetup.com/{account}"
+    osm:
+      name: "{community}"
+    osm-lc:
+      name: "{community}"
+    reddit:
+      url: "https://www.reddit.com/r/{account}"
+    telegram:
+      url: "https://t.me/{account}"
+    twitter:
+      url: "https://x.com/{account}"
+    wiki:
+      url: "https://wiki.openstreetmap.org/wiki/{account}"
+    youtube:
+      url: "https://www.youtube.com/channel/{account}"
+  GeoPhilly:
+    name: ҐеаФілі
+  MapLYH:
+    name: MapLYH
+  MappingWR:
+    name: MappingWR
+  MapRVA:
+    name: MapRVA
+  maptime-bogota-facebook:
+    name: MaptimeBogotá
+  maptime-bogota-github:
+    name: MaptimeBogotá
+  maptime-bogota-linkedin:
+    name: MaptimeBogotá
+  maptime-bogota-mastodon:
+    name: MaptimeBogotá
+  maptime-bogota-meetup:
+    name: MaptimeBogotá
+  maptime-bogota-telegram:
+    name: MaptimeBogotá
+  maptime-bogota-twitter:
+    name: MaptimeBogotá
+  maptime-bogota-website:
+    name: MaptimeBogotá
+  maptime-bogota-youtube:
+    name: MaptimeBogotá
+  Maptime-ME-meetup:
+    name: MaptimeME
+  OpenCleveland-meetup:
+    name: Адкрыты Кліўлэнд
+  OSM-AR-geolibres:
+    name: GeoLibres
+  osm-ni:
+    name: MapaNica.net
+  ym-Abia-State-University:
+    name: AbsuMappersTeam
+  ym-African-Methodist-Episcopal-University:
+    name: YouthMappers-AMEU
+  ym-Dedan-Kimathi-University-of-Technology:
+    name: GDEV
+  ym-Politecnico-di-Milano:
+    name: PoliMappers
+  ym-St.-Mawaggali-Trades-Training-Institute:
+    name: MawaggaliMappers
+  ym-Stella-Maris-Polytechnic:
+    name: YouthMappers-SMP
+  ym-SUNY-at-Fredonia:
+    name: Ґэавантурысты
+  ym-University-Muhammadiyah-Surakarta:
+    name: SpaceTime
+  ym-University-of-Energy-and-Natural-Resources:
+    name: Эка-клюб
+  ym-University-of-Zimbabwe:
+    name: UZMappers

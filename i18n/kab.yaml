@@ -1,1 +1,43 @@
-kab: {}
+kab:
+  _communities:
+    openstreetmap: OpenStreetMap
+    openstreetmapasia: OpenStreetMap Asya
+    openstreetmapegypt: OpenStreetMap Maṣer
+    openstreetmapfrance: OpenStreetMap Fransa
+    openstreetmapghana: OpenStreetMap Ɣana
+    openstreetmapmali: OpenStreetMap Mali
+  _defaults:
+    bluesky:
+      name: "{community} deg Bluesky"
+      url: "https://bsky.app/profile/{account}"
+    facebook:
+      name: "{community} deg Facebook"
+      url: "https://www.facebook.com/{account}"
+    fediverse:
+      name: "{community}"
+    github:
+      name: "{community} GitHub"
+    gitlab:
+      name: "{community} GitLab"
+      url: "https://gitlab.com/{account}"
+    group:
+      name: "{community}"
+    instagram:
+      name: "{community} deg Instagram"
+      url: "https://instagram.com/{account}"
+    irc:
+      name: "{community} deg IRC"
+    mastodon:
+      name: "{community} deg Mastodon"
+    osm:
+      name: "{community}"
+    osm-lc:
+      name: "{community}"
+    x:
+      name: "{community} deg X"
+    xmpp:
+      name: "{community} XMPP"
+    youtube:
+      name: "{community} deg YouTube"
+  osm-ch:
+    name: "{community}"

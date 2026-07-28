@@ -1,6 +1,7 @@
 sk:
   _communities:
     mappingbotswana: Mapovanie Botswany
+    openstreetmap: OpenStreetMap
     openstreetmapafghanistan: OpenStreetMap Afganistan
     openstreetmapafrica: OpenStreetMap Afrika
     openstreetmapalbania: OpenStreetMap Albánsko
@@ -10,12 +11,15 @@ sk:
     openstreetmapbangladesh: OpenStreetMap Bangladéš
     openstreetmapbelarus: OpenStreetMap Bielorusko
     openstreetmapbelgium: OpenStreetMap Belgicko
+    openstreetmapbelize: OpenStreetMap Belize
     openstreetmapberlin: OpenStreetMap Berlín
     openstreetmapbolivia: OpenStreetMap Bolívia
+    openstreetmapbonn: OpenStreetMap Bonn
     openstreetmapbosniaandherzegovina: OpenStreetMap Bosna a Hercegovina
     openstreetmapbrasil: OpenStreetMap Brazília
     openstreetmapbremen: OpenStreetMap Brémy
     openstreetmapbulgaria: OpenStreetMap Bulharsko
+    openstreetmapburundi: OpenStreetMap Burundi
     openstreetmapcambodia: OpenStreetMap Kambodža
     openstreetmapcameroon: OpenStreetMap Kamerun
     openstreetmapcanada: OpenStreetMap Kanada
@@ -23,15 +27,26 @@ sk:
     openstreetmapchad: OpenStreetMap Čad
     openstreetmapchile: OpenStreetMap Čile
     openstreetmapchina: OpenStreetMap Čína
-    openstreetmapcotedivoire: OpenStreetMap Pobrežie Slonoviny
+    openstreetmapcologne: OpenStreetMap Kolín nad Rýnom
+    openstreetmapcomunitatvalenciana: OpenStreetMap Valencia
+    openstreetmapcotedivoire: "OpenStreetMap Pobrežie Slonoviny"
     openstreetmapcroatia: OpenStreetMap Chorvátsko
     openstreetmapcuba: OpenStreetMap Kuba
+    openstreetmapcyprus: OpenStreetMap Cyprus
+    openstreetmapcz: OpenStreetMap Česko
+    openstreetmapde: OpenStreetMap Nemecko
+    openstreetmapdelhi: OpenStreetMap Dillí
     openstreetmapdenmark: OpenStreetMap Dánsko
     openstreetmapdjibouti: OpenStreetMap Džibutsko
     openstreetmapdominicanrepublic: OpenStreetMap Dominikánska republika
+    openstreetmapdresden: OpenStreetMap Drážďany
+    openstreetmapdusseldorf: OpenStreetMap Düsseldorf
     openstreetmapecuador: OpenStreetMap Ekvádor
+    openstreetmapegypt: OpenStreetMap Egypt
     openstreetmapespana: OpenStreetMap Španielsko
+    openstreetmapestonia: OpenStreetMap Estónsko
     openstreetmapethiopia: OpenStreetMap Etiópia
+    openstreetmapfiji: OpenStreetMap Fidži
     openstreetmapfinland: OpenStreetMap Fínsko
     openstreetmapfrance: OpenStreetMap Francúzsko
     openstreetmapfreemapslovakia: OpenStreetMap Freemap Slovensko
@@ -103,48 +118,48 @@ sk:
     openstreetmapwesternsahara: OpenStreetMap Západná Sahara
   _defaults:
     aparat:
-      name: '{community} na Aparat'
+      name: "{community} na Aparat"
       description: Prihláste sa k odberu nášho Aparat kanálu
     discord:
-      name: 'Discord {community} '
+      name: "Discord {community} "
       description: Skontaktujte sa s inými mapermi cez Discord
     discourse:
-      description: Oficiálne fórum {community}
+      description: "Oficiálne fórum {community}"
     facebook:
-      name: '{community} na Facebooku'
+      name: "{community} na Facebooku"
       description: Pridajte se k našej komunite na Facebooku.
     forum:
-      name: 'Fórum {community}'
-      description: Oficiálne fórum {community}
+      name: "Fórum {community}"
+      description: "Oficiálne fórum {community}"
     github:
-      name: '{community} na GitHube'
+      name: "{community} na GitHube"
     gitlab:
-      name: '{community} na GitLabe'
+      name: "{community} na GitLabe"
     irc:
-      name: '{community} na IRC'
+      name: "{community} na IRC"
     linkedin:
-      name: '{community} na LinkedIn'
+      name: "{community} na LinkedIn"
       description: Pridajte sa k našej komunite na LinkedIn
     mailinglist:
-      name: 'Mailovacia skupina {account}'
-      description: Oficuálna mailovacia skupina pre {community}
+      name: "Mailovacia skupina {account}"
+      description: "Oficuálna mailovacia skupina pre {community}"
     matrix:
       description: Pripoj sa k Matrix chatu našej komunity
     meetup:
-      name: 'Meetup {community}'
+      name: "Meetup {community}"
     reddit:
-      name: '{community} na Reddite'
+      name: "{community} na Reddite"
     slack:
-      name: 'Slack {community} '
+      name: "Slack {community} "
     telegram:
-      name: 'Telegram {community}'
+      name: "Telegram {community}"
       description: Pridajte sa ku komunitnému chatu na Telegramu
     wiki:
-      name: 'Wikiprojekt {community}'
+      name: "Wikiprojekt {community}"
     xmpp:
-      name: 'XMPP {community} '
+      name: "XMPP {community} "
     youtube:
-      name: '{community} na YouTube'
+      name: "{community} na YouTube"
       description: Prihláste se k odberu nášho YouTube kanálu
   af-matrix:
     description: 'Matrix skupina komunity v Afganistane '
@@ -156,7 +171,7 @@ sk:
     name: OpenStreetMaperi v Bay Area
     description: Vylepšite OpenStreetMap v Bay Area
   bd-facebook:
-    extendedDescription: 'Mapujete v Bangladéši? Máte otázky, chcete sa spojiť s miestnou komunitou? Pridajte sa k nám na adrese {url}. Všetci sú vítaní! '
+    extendedDescription: "Mapujete v Bangladéši? Máte otázky, chcete sa spojiť s miestnou komunitou? Pridajte sa k nám na adrese {url}. Všetci sú vítaní! "
   be-chapter:
     description: 'Pomáhame OpenStreetMap v Belgicku rásť a zlepšovať sa. '
   be-matrix:
@@ -164,15 +179,31 @@ sk:
   bo-matrix:
     description: Všetci maperi sú vítaní!
   czech-community:
-    description: Mapový portál, webová stránka a kontakty na členov OSM v Česku
+    description: "Mapový portál, webová stránka a kontakty na členov OSM v Česku"
+  fr-montrouge-website:
+    description: OSM informácie pre miestnu komunitu v Montrouge
+  fr-montrouge-wiki:
+    description: "{community}"
+  Galicia-Xeoinquedos-Twitter:
+    description: "Sledujte nás na Twitteri: {url}"
   hr-github:
-    description: '{community} na GitHube'
+    description: "{community} na GitHube"
+  hr-wiki:
+    description: Wikiprojekt stránka pre Chorvátsko
+  hu-facebook-group:
+    name: "Facebook skupina {community}"
+  hu-tm:
+    description: Objav aktívne mapovacie úlohy v Maďarsku
+  id-facebook-group:
+    name: "Facebooková skupina {community}"
   ko-github:
-    description: '{community} na GitHube'
+    description: "{community} na GitHube"
   lk-facebook:
-    extendedDescription: Mapujete na Srí Lanke? Máte otázky, chcete sa spojiť s miestnou komunitou? Pridajte sa k nám na {url}. Všetci sú vítaní!
+    extendedDescription: "Mapujete na Srí Lanke? Máte otázky, chcete sa spojiť s miestnou komunitou? Pridajte sa k nám na {url}. Všetci sú vítaní!"
   lu-matrix:
-    description: Matrix skupina pre Luxemburskú komunitu. Spojme komunitu!
+    description: "Matrix skupina pre Luxemburskú komunitu. Spojme komunitu!"
+  lv-wiki:
+    description: WikiProjekt Lotyšsko
   mailinglist-sk-googlegroups:
     name: Slovenská mailovacia skupina na Google Groups
     description: Oficiálna mailovacia skupina slovenskej komunity
@@ -187,12 +218,10 @@ sk:
   OSM-Facebook:
     description: Ak chcete novinky a updaty o OpenStreetMap, lajkujte nás na Facebooku
   OSM-TH-CNX-meetup:
-    extendedDescription: Členovia OpenStreetMap komunity sa stretávajú každých pár mesiacov v meste Chiang Mai. Spojte sa a zistite {url} kedy je naplánované ďalšie stretnutie
+    extendedDescription: "Členovia OpenStreetMap komunity sa stretávajú každých pár mesiacov v meste Chiang Mai. Spojte sa a zistite {url} kedy je naplánované ďalšie stretnutie"
   si-github:
-    description: '{community} na GitHube'
+    description: "{community} na GitHube"
   sk-freemap:
     description: Pokročilý mapový portál OpenStreetMap pre Slovensko a okolité regióny
-  uk-london-twitter:
-    name: OpenStreetMap Londýn na Twitteri
   ym-Abia-State-University:
-    extendedDescription: AbsuMappersTeam je dobrovoľný tím nadšencov máp, ktorý na riešenie problémov využíva OpenStreetMap, GIS a ďalšie otvorené zdroje geopriestorových technológií. Je určený na reakciu na katastrofy pomocou OpenStreetMap. Je to profesionálna platforma pre mentorovanie a posilnenie postavenia pre tých, ktorí majú zanietenie pre GIS a mapovanie. Je to komunita dobrovoľníkov vytvárajúcich geopriestorové údaje, zber a mapovanie terénnych údajov. Tím bol spoluzaložený Victorom N.Sundayom (tímovým mentorom) a profesorom J.U. Ogbonnou, tímovým koordinátorom a fakultným poradcom. AbsuMapperTeam je pridruženou spoločnosťou UniiqueMappersTeam-Port Harcourt. Tím podporuje trvalý vývoj pomocou geopriestorových technológií.
+    extendedDescription: "AbsuMappersTeam je dobrovoľný tím nadšencov máp, ktorý na riešenie problémov využíva OpenStreetMap, GIS a ďalšie otvorené zdroje geopriestorových technológií. Je určený na reakciu na katastrofy pomocou OpenStreetMap. Je to profesionálna platforma pre mentorovanie a posilnenie postavenia pre tých, ktorí majú zanietenie pre GIS a mapovanie. Je to komunita dobrovoľníkov vytvárajúcich geopriestorové údaje, zber a mapovanie terénnych údajov. Tím bol spoluzaložený Victorom N.Sundayom (tímovým mentorom) a profesorom J.U. Ogbonnou, tímovým koordinátorom a fakultným poradcom. AbsuMapperTeam je pridruženou spoločnosťou UniiqueMappersTeam-Port Harcourt. Tím podporuje trvalý vývoj pomocou geopriestorových technológií."

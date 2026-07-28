@@ -1,7 +1,9 @@
 el:
   _communities:
     mapeadoresivides: Mapeadores IVIDES
-    mappingbotswana: Mapping Μποτσουάνα
+    mappingbotswana: Χαρτογράφηση της Μποτσουάνα
+    opensourcesanjose: Ανοιχτά Δεδομένα Σαν Χοσέ
+    openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap Άαχεν
     openstreetmapafghanistan: OpenStreetMap Αφγανιστάν
     openstreetmapafrica: OpenStreetMap Αφρική
@@ -41,7 +43,7 @@ el:
     openstreetmapchina: OpenStreetMap Κίνα
     openstreetmapcologne: OpenStreetMap Κολωνία
     openstreetmapcomunitatvalenciana: OpenStreetMap Βαλενθιανική Κοινότητα
-    openstreetmapcotedivoire: OpenStreetMap Ακτή Ελεφαντοστού
+    openstreetmapcotedivoire: "OpenStreetMap Ακτή Ελεφαντοστού"
     openstreetmapcroatia: OpenStreetMap Κροατία
     openstreetmapcuba: OpenStreetMap Κούβα
     openstreetmapcuneo: OpenStreetMap Κούνεο
@@ -192,213 +194,264 @@ el:
     osmewikiemiliaromagna: OSM και Wiki Εμίλια-Ρομάνια
     osmmainz: OSM Μάιντς
     osmnelson: OSM Νέλσον
+    swissopenstreetmap: Ελβετικό OpenStreetMap
     tadeomappers: TadeoMappers
     youthmappersufrj: YouthMappers UFRJ
   _defaults:
     aparat:
-      name: '{community} στο Aparat'
+      name: "{community} στο Aparat"
       description: Εγγραφείτε στο κανάλι μας στο Aparat
+      url: "https://aparat.com/{account}"
     bluesky:
-      name: '{community} στο Bluesky'
+      name: "{community} στο Bluesky"
       description: Ακολουθήστε μας στο Bluesky
-      url: https://bsky.app/profile/{account}
+      url: "https://bsky.app/profile/{account}"
     discord:
+      name: "{community} Discord"
       description: Ελάτε σε επαφή με άλλους χαρτογράφους στο Discord
+      url: "https://discord.gg/{account}"
     discourse:
-      name: '{community} Φόρουμ Κοινότητας'
-      description: Το επίσημο φόρουμ για {community}
+      name: "{community} Φόρουμ Κοινότητας"
+      description: "Το επίσημο φόρουμ για {community}"
+      url: "https://community.openstreetmap.org/c/communities/{account}"
     facebook:
-      name: '{community} στο Facebook'
+      name: "{community} στο Facebook"
       description: Γίνετε μέλος της κοινότητάς μας στο Facebook
+      url: "https://www.facebook.com/{account}"
     fediverse:
-      name: '{community}'
+      name: "{community}"
     forum:
-      name: '{community} Φόρουμ'
-      description: Το επίσημο forum του {community}
+      name: "{community} Φόρουμ"
+      description: "Το επίσημο φόρουμ για {community}"
     github:
-      name: '{community} στο GitHub'
+      name: "{community} στο GitHub"
+      url: "https://github.com/{account}"
+    gitlab:
+      name: "{community} GitLab"
+      url: "https://gitlab.com/{account}"
     group:
-      name: '{community}'
+      name: "{community}"
     instagram:
-      name: '{community} στο Instagram'
+      name: "{community} στο Instagram"
       description: Ακολουθήστε μας στο Instagram
-      url: https://instagram.com/{account}
+      url: "https://instagram.com/{account}"
     irc:
-      name: '{community} στο IRC'
-      description: 'Συνδεθείτε με #{account} στο irc.oftc.net (θύρα 6667 για μη-SSL ή 6697 για SSL)'
+      name: "{community} στο IRC"
+      description: "Συνδεθείτε με #{account} στο irc.oftc.net (θύρα 6667 για μη-SSL ή 6697 για SSL)"
+      url: "https://webchat.oftc.net/?channels={account}"
     linkedin:
-      name: '{community} στο LinkedIn'
+      name: "{community} στο LinkedIn"
       description: Γίνετε μέλος της κοινότητάς μας στο LinkedIn
+      url: "https://www.linkedin.com/company/{account}"
     mailinglist:
-      name: '{account} Λίστα Ταχυδρομείου'
-      description: Η επίσημη λίστα αλληλογραφίας για {community}
+      name: "{account} Λίστα Ταχυδρομείου"
+      description: "Η επίσημη λίστα αλληλογραφίας για {community}"
+      url: "https://lists.openstreetmap.org/listinfo/{account}"
     mastodon:
-      name: '{community} στο Mastodon'
-      description: Ο επίσημος λογαριασμός στο Mastodon της κοινότητας {community}
+      name: "{community} στο Mastodon"
+      description: "Ο επίσημος λογαριασμός στο Mastodon της κοινότητας {community}"
     matrix:
-      name: '{community} Συνομιλία Matrix'
+      name: "{community} Συνομιλία Matrix"
       description: Γίνετε μέλος της κοινότητάς μας στη συνομιλία Matrix
+      url: "https://matrix.to/#/{account}:matrix.org"
+    meetup:
+      name: "{community} Meetup"
+      url: "https://www.meetup.com/{account}"
     newsletter:
-      name: '{community} ενημερωτικό δελτίο'
+      name: "{community} ενημερωτικό δελτίο"
     osm:
-      name: '{community}'
+      name: "{community}"
     osm-lc:
-      name: '{community}'
+      name: "{community}"
     reddit:
-      name: '{community} στο Reddit'
+      name: "{community} στο Reddit"
+      url: "https://www.reddit.com/r/{account}"
+    signal:
+      name: "{community} Signal"
+      description: Γίνετε μέλος της κοινότητάς μας στο Signal
+    slack:
+      name: "{community} Slack"
     telegram:
+      name: "{community} Telegram"
       description: Γίνετε μέλος της κοινότητάς μας στη συνομιλία Telegram
+      url: "https://t.me/{account}"
     threads:
-      name: '{community} στο Threads'
+      name: "{community} στο Threads"
       description: Ακολουθήστε μας στο Threads
+      url: "https://threads.net/@{account}"
     tiktok:
-      name: '{community} στο TikTok'
+      name: "{community} στο TikTok"
       description: Ακολουθήστε μας στο TikTok
-      url: https://tiktok.com/@{account}
+      url: "https://tiktok.com/@{account}"
     twitter:
-      name: '{community} στο X'
+      name: "{community} στο X"
       description: Ακολουθήστε μας στο X
     url:
-      name: '{community}'
+      name: "{community}"
     wiki:
-      name: '{community} ΒικιΈργο'
+      name: "{community} ΒικιΈργο"
+      url: "https://wiki.openstreetmap.org/wiki/{account}"
     x:
-      name: '{community} στο X'
+      name: "{community} στο X"
       description: Ακολουθήστε μας στο X
+      url: "https://twitter.com/{account}"
     xmpp:
-      description: 'Γίνετε μέλος της κοινότητάς μας στο XMPP: {url}'
+      name: "{community} XMPP"
+      description: "Γίνετε μέλος της κοινότητάς μας στο XMPP: {url}"
     youtube:
-      name: '{community} στο YouTube'
+      name: "{community} στο YouTube"
       description: Εγγραφείτε στο κανάλι μας στο YouTube
+      url: "https://www.youtube.com/channel/{account}"
     zulip:
+      name: "{community} Zulip"
       description: Γίνετε μέλος της κοινότητάς μας στο Zulip
   af-matrix:
     description: Ομάδα Matrix για την κοινότητα στο Αφγανιστάν.
   al-maptime-tirana:
+    name: Maptime Τίρανα
     description: Στις κοινωνικές εκδηλώσεις οργανωμένες γύρω από τη χαρτογράφηση - οι αρχάριοι είναι περισσότερο ευπρόσδεκτοι!
+    extendedDescription: "Το Maptime είναι ένα ανοιχτό μαθησιακό περιβάλλον για όλα τα επίπεδα και βαθμούς γνώσης, που προσφέρει σκόπιμη εκπαιδευτική υποστήριξη για αρχάριους. Το Maptime είναι ταυτόχρονα ευέλικτο και δομημένο, δημιουργώντας χώρο για μαθήματα χαρτογράφησης, εργαστήρια, συνεχιζόμενα έργα με κοινό στόχο και χρόνο ανεξάρτητης/συνεργατικής εργασίας."
   am-wiki:
-    description: '{community} Wiki σελίδα'
+    description: "{community} Wiki σελίδα"
   at-wiki:
-    description: '{community} Wiki σελίδα'
+    description: "{community} Wiki σελίδα"
+  Bahia-telegram:
+    extendedDescription: "Γίνετε μέλος της κοινότητας για να μάθετε περισσότερα για το OpenStreetMap, να κάνετε ερωτήσεις ή να συμμετάσχετε στις συναντήσεις μας. Όλοι είναι ευπρόσδεκτοι!"
   bd-facebook:
-    extendedDescription: Χαρτογράφηση στο Μπαγκλαντές; Έχετε ερωτήσεις, θέλετε να συνδεθείτε με την κοινότητα εδώ; Ελάτε μαζί μας στο {url}. Είναι όλοι ευπρόσδεκτοι!
+    extendedDescription: "Χαρτογράφηση στο Μπαγκλαντές; Έχετε ερωτήσεις, θέλετε να συνδεθείτε με την κοινότητα εδώ; Ελάτε μαζί μας στο {url}. Είναι όλοι ευπρόσδεκτοι!"
   be-discourse:
     description: Ένα Forum για συζήτηση του OpenStreetMap στο Βέλγιο
   be-matrix:
     description: Όλοι οι χαρτογράφοι είναι ευπρόσδεκτοι!
-    extendedDescription: Κύριο chatroom της βελγικής κοινότητας OSM. Μη διστάσετε να κάνετε ερωτήσεις για αρχάριους εδώ!
+    extendedDescription: "Κύριο chatroom της βελγικής κοινότητας OSM. Μη διστάσετε να κάνετε ερωτήσεις για αρχάριους εδώ!"
   bg-wiki:
     description: Σελίδα Wikiproject για Βουλγαρία
   bo-facebook-group:
-    name: '{community} Ομάδα Facebook'
+    name: "{community} Ομάδα Facebook"
   bo-matrix:
     description: Όλοι οι χαρτογράφοι είναι ευπρόσδεκτοι!
   cape-coast-youthmappers:
     name: Πανεπιστήμιο του Cape Coast YouthMappers
-    description: 'Ακολουθήστε μας στο Twitter: {url}'
+    description: "Ακολουθήστε μας στο X: {url}"
   castilla-y-leon-wiki:
-    description: 'Όλα όσα χρειάζεται να ξέρετε για την χαρτογράφηση στην Καστίλλη και Λεόν: {url}'
+    description: "Όλα όσα χρειάζεται να ξέρετε για την χαρτογράφηση στην Καστίλλη και Λεόν: {url}"
   cat-twitch:
-    name: Κανάλι Twitch για {community}
+    name: "Κανάλι Twitch για {community}"
   cd-chapter:
     name: OpenStreetMap RDC (Κονγκό)
+    description: "Από τον ένα δρόμο στον άλλο, ας χαρτογραφήσουμε τη χώρα μας..."
+  Central-Pennsylvania-OSM:
+    name: Κεντρική Πενσυλβάνια OSM
   ch-mailinglist:
     description: Λίστα αλληλογραφίας για Ελβετία
   co-facebook:
-    name: Ομάδα του {community} στο Facebook
+    name: "Ομάδα του {community} στο Facebook"
   co-github:
-    name: '{community} έργα στο GitHub'
+    name: "{community} έργα στο GitHub"
   co-instagram:
-    name: Δημοσιεύσεις από {community} στο Instagram
+    name: "Δημοσιεύσεις από {community} στο Instagram"
+    description: Δημοσιεύσεις για τις δραστηριότητες της κοινότητας ή πληροφορίες
   co-linkedin:
-    name: Δημοσιεύσεις από {community} στο LinkedIn
+    name: "Δημοσιεύσεις από {community} στο LinkedIn"
+    description: Δημοσιεύσεις για τις δραστηριότητες της κοινότητας ή πληροφορίες
   co-mastodon:
-    name: Δημοσιεύσεις από {community} στο Mastodon
+    name: "Δημοσιεύσεις από {community} στο Mastodon"
+    description: Δημοσιεύσεις για τις δραστηριότητες της κοινότητας ή πληροφορίες
   co-talk:
-    name: 'Λίστα αλληλογραφίας {community}'
+    name: "Λίστα αλληλογραφίας {community}"
   co-thread:
-    name: Δημοσιεύσεις από {community} στο Threads
+    name: "Δημοσιεύσεις από {community} στο Threads"
+    description: Δημοσιεύσεις για τις δραστηριότητες της κοινότητας ή πληροφορίες
   co-tiktok:
-    name: Μικρά βίντεο του {community} στο Tiktok
+    name: "Μικρά βίντεο του {community} στο Tiktok"
+    description: Δημοσιεύσεις για τις δραστηριότητες της κοινότητας
   co-twitter:
-    name: Κοινότητα {community} στο x-Twitter
+    name: "Κοινότητα {community} στο x-Twitter"
+    description: Δημοσιεύσεις για τις δραστηριότητες της κοινότητας ή πληροφορίες
   co-whatsapp:
-    name: Νέα από την κοινότητα {community} στο WhatsApp
+    name: "Νέα από την κοινότητα {community} στο WhatsApp"
+    description: Δημοσιεύσεις για τις δραστηριότητες της κοινότητας ή πληροφορίες
+  co-wiki:
+    description: Τεκμηρίωση για τα πάντα σχετικά με το OpenStreetMap στην Κολομβία
   co-youtube:
-    name: Βίντεο του {community} στο YouTube
+    name: "Βίντεο του {community} στο YouTube"
   comunitat-valenciana-wiki:
-    description: 'Όλα όσα χρειάζεται να ξέρετε για την χαρτογράφηση στην Βαλενθιανική Κοινότητα: {url}'
+    description: "Όλα όσα χρειάζεται να ξέρετε για την χαρτογράφηση στην Βαλενθιανική Κοινότητα: {url}"
+  czech-community:
+    description: "Πύλη χάρτη, ιστότοπος και επαφές με τα OSM μέλη στην Τσεχία"
   de-aachen-wiki:
-    description: '{community} Wiki σελίδα'
+    description: "{community} Wiki σελίδα"
   de-berlin-mailinglist:
     name: Κατάλογος Αλληλογραφίας Βερολίνου
   de-berlin-wiki:
-    description: '{community} Wiki σελίδα'
+    description: "{community} Wiki σελίδα"
   de-bochum-wiki:
-    description: '{community} Wiki σελίδα'
+    description: "{community} Wiki σελίδα"
   de-bonn-wiki:
-    description: '{community} Wiki σελίδα'
+    description: "{community} Wiki σελίδα"
   de-bremen-wiki:
-    description: '{community} Wiki σελίδα'
+    description: "{community} Wiki σελίδα"
   de-cologne-wiki:
-    description: '{community} Wiki σελίδα'
+    description: "{community} Wiki σελίδα"
   de-dresden-wiki:
-    description: '{community} Wiki σελίδα'
+    description: "{community} Wiki σελίδα"
   de-dusseldorf-wiki:
-    description: '{community} Wiki σελίδα'
+    description: "{community} Wiki σελίδα"
   de-hamburg-xmpp:
     name: OpenStreetMap Αμβούργο XMPP
   de-luneburg-wiki:
-    description: '{community} Wiki σελίδα'
+    description: "{community} Wiki σελίδα"
   de-mainz-signal:
-    description: OpenStreetMap σε Μάιντς, Βίζμπαντεν και περίχωρα
+    description: "OpenStreetMap σε Μάιντς, Βίζμπαντεν και περίχωρα"
   de-munchen-wiki:
-    description: '{community} Wiki σελίδα'
+    description: "{community} Wiki σελίδα"
   de-telegram:
-    description: Συνδεθείτε στην παγκόσμια υπερομάδα Telegram του OpenStreetMap D-A-CH στο {url}
+    description: "Συνδεθείτε στην παγκόσμια υπερομάδα Telegram του OpenStreetMap D-A-CH στο {url}"
+  dk-discourse:
+    description: Ένα φόρουμ συζήτησης σχετικά με το OpenStreetMap στη Δανία
   fr-35-wiki:
-    description: '{community} Wiki σελίδα'
+    description: "{community} Wiki σελίδα"
   fr-38-wiki:
-    description: '{community} Wiki σελίδα'
+    description: "{community} Wiki σελίδα"
   fr-bzh-website:
     description: Ο χάρτης όπου μιλά Βρετονικά
   fr-montrouge-wiki:
-    description: '{community} Wiki σελίδα'
+    description: "{community} Wiki σελίδα"
   galicia-wiki:
-    description: 'Όλα όσα χρειάζεται να ξέρετε για την χαρτογράφηση στην Γαλικία: {url}'
+    description: "Όλα όσα χρειάζεται να ξέρετε για την χαρτογράφηση στην Γαλικία: {url}"
   Galicia-Xeoinquedos-Twitter:
-    name: Xeoinquedos στο Twitter
-    description: Ακολουθήστε μας στο Twitter στο {url}
+    name: Xeoinquedos στο X
+    description: "Ακολουθήστε μας στο X στο {url}"
   hr-github:
-    description: '{community} στο GitHub'
+    description: "{community} στο GitHub"
   hr-wiki:
     description: Σελίδα Wikiproject για Κροατία
   hu-facebook-group:
-    name: '{community} Ομάδα Facebook'
+    name: "{community} Ομάδα Facebook"
   hu-mobilizon:
-    name: '{community} στο Mobilizon'
+    name: "{community} στο Mobilizon"
   hu-website:
     description: Ο ιστότοπος της Ουγγρικής κοινότητας του OpenStreetMap
   hu-wiki:
-    description: '{community} Wiki σελίδα'
+    description: "{community} Wiki σελίδα"
   id-facebook-group:
-    name: '{community} Ομάδα Facebook'
+    name: "{community} Ομάδα Facebook"
   is-chapter:
     description: Βοηθάμε την ανάπτυξη και τη βελτίωση του OpenStreetMap στην Ισλανδία
   it-discourse:
     description: Ένα Forum για συζήτηση του OpenStreetMap στην Ιταλία
-  it-emilia-romagna-telegram:
-    description: 'Όλοι είναι ευπρόσδεκτοι! Μπορείτε να μπείτε στη συνομιλία με αυτόν τον σύνδεσμο: {signupUrl}'
   ivides_website:
-    description: Εστιάζουμε στην βιώσιμη ανάπτυξη, χαρτογράφηση, και υποστήριξη της κοινότητας του OpenStreetMap.
+    description: "Εστιάζουμε στην βιώσιμη ανάπτυξη, χαρτογράφηση, και υποστήριξη της κοινότητας του OpenStreetMap."
   ko-github:
-    description: '{community} στο GitHub'
+    description: "{community} στο GitHub"
   kp-wiki:
-    description: '{community} Οδηγός Χαρτογράφησης'
+    description: "{community} Οδηγός Χαρτογράφησης"
+  latam-wiki:
+    description: Όλα όσα χρειάζεται να ξέρετε για τη χαρτογράφηση στη Λατινική Αμερική
   lv-wiki:
     description: WikiProject Λετονία
   madrid-wiki:
-    description: 'Όλα όσα χρειάζεται να ξέρετε για την χαρτογράφηση στην Μαδρίτη: {url}'
+    description: "Όλα όσα χρειάζεται να ξέρετε για την χαρτογράφηση στην Μαδρίτη: {url}"
   MapLYH:
     description: Ομάδα MapLYH
   maptime-bogota-facebook:
@@ -420,102 +473,100 @@ el:
   maptime-bogota-youtube:
     description: Είμαστε μια ομάδα ενδιαφερομένων για να χαρτογραφήσουμε τη Μπογκοτά και τα περίχωρά της στο OpenStreetMap.
   Maptime-Oceania-Slack:
-    description: Εγγραφείτε στο {signupUrl}
+    description: "Εγγραφείτε στο {signupUrl}"
   md-googlegroup:
-    name: '{community} Ομάδα Facebook'
+    name: "{community} Ομάδα Facebook"
   me-telegram:
-    description: Όλοι είναι ευπρόσδεκτοι! Εγγραφείτε στο {signupUrl}
+    description: "Όλοι είναι ευπρόσδεκτοι! Εγγραφείτε στο {signupUrl}"
   nl-matrix:
     description: Όλοι οι χαρτογράφοι είναι ευπρόσδεκτοι!
   no-irc:
-    description: Χώρος συζήτησης για τους ζαρτογράφους και τους χρήστες του OpenStreetMap, τους προγραμματιστές και τους λάτρεις στην Νορβηγία
+    description: "Χώρος συζήτησης για τους χαρτογράφους και τους χρήστες του OpenStreetMap, τους προγραμματιστές και τους λάτρεις στη Νορβηγία"
   Open-Source-San-Jose-Slack:
-    description: 'Όλοι είναι ευπρόσδεκτοι! Εγγραφείτε στο {signupUrl}, μετά μπείτε στο κανάλι #proj-osm'
+    description: "Όλοι είναι ευπρόσδεκτοι! Εγγραφείτε στο {signupUrl}, μετά μπείτε στο κανάλι #proj-osm"
   osm-africa-eventbrite:
-    description: '{community} σελίδα EventBrite'
+    description: "{community} σελίδα EventBrite"
   osm-africa-facebook-group:
-    name: '{community} Ομάδα Facebook'
+    name: "{community} Ομάδα Facebook"
   osm-africa-matrix:
     description: Όλοι οι χαρτογράφοι είναι ευπρόσδεκτοι!
   osm-africa-slack:
-    description: Όλοι είναι ευπρόσδεκτοι! Εγγραφείτε στο {signupUrl}
+    description: "Όλοι είναι ευπρόσδεκτοι! Εγγραφείτε στο {signupUrl}"
+  OSM-AR-wiki:
+    description: Όλα όσα χρειάζεται να ξέρετε για τη χαρτογράφηση στην Αργεντινή
   osm-at:
     description: Η πλατφόρμα για πληροφορίες σχετικά με το OpenStreetMap στην Αυστρία
   osm-bengaluru-matrix:
-    extendedDescription: Ομάδα για τους συνεισφέροντες, χρήστες και αρχάριους του OpenStreetMap στη Μπανγκαλόρ. Γεφυρωμένο με το Telegram.
+    extendedDescription: "Ομάδα για τους συνεισφέροντες, χρήστες και αρχάριους του OpenStreetMap στη Μπανγκαλόρ. Γεφυρωμένο με το Telegram."
   osm-bengaluru-telegram:
-    extendedDescription: Ομάδα για τους συνεισφέροντες, χρήστες και αρχάριους του OpenStreetMap στη Μπανγκαλόρ. Γεφυρωμένο με το Matrix.
+    extendedDescription: "Ομάδα για τους συνεισφέροντες, χρήστες και αρχάριους του OpenStreetMap στη Μπανγκαλόρ. Γεφυρωμένο με το Matrix."
   osm-bengaluru-wiki:
     description: OpenStreetMap στη Μπανγκαλόρ
   osm-benin-facebook:
     description: Βελτίωση του OpenStreetMap στο Μπενίν
   osm-ch:
-    name: '{community}'
+    name: "{community}"
     description: Η πλατφόρμα για πληροφορίες σχετικά με το OpenStreetMap στην Ελβετία
   OSM-Chattanooga:
     name: OSM Τσαττανούγκα
     description: Η ομάδα χρηστών του OpenStreetMap για την Τσαττανούγκα
   OSM-Colorado:
     name: OpenStreetMap Κολοράντο
-    description: Χαρτογράφοι και χρήστες του OpenStreetMap στην πολιτεία του Κολοράντο, ΗΠΑ
+    description: "Χαρτογράφοι και χρήστες του OpenStreetMap στην πολιτεία του Κολοράντο, ΗΠΑ"
   osm-de:
     description: Η πλατφόρμα για πληροφορίες σχετικά με το OpenStreetMap στη Γερμανία
   osm-deep-south-wiki:
-    description: '{community} Wiki σελίδα'
+    description: "{community} Wiki σελίδα"
   OSM-Discord:
-    description: Ανεπίσημος, Discord server διαχειριζόμενος από την κοινότητα για την παγκόσμια κοινότητα του OpenStreetMap. Περιφερειακά κανάλια είναι διαθέσιμα.
+    description: "Ανεπίσημος, Discord server διαχειριζόμενος από την κοινότητα για την παγκόσμια κοινότητα του OpenStreetMap. Περιφερειακά κανάλια είναι διαθέσιμα."
   OSM-Discourse:
     name: Φόρουμ Κοινότητας OpenStreetMap
     description: Ένας κοινόχρηστος χώρος για συζητήσεις σχετικά με το OpenStreetMap
   OSM-Facebook:
     description: Κάντε μας like στο Facebook για νέα και ενημερώσεις σχετικά με το OpenStreetMap.
   osm-gh-facebook:
-    extendedDescription: Χαρτογράφοι στην κοινότητα της Γκάνα, προωθούν εργασίες του OpenStreetMap και της Ανθρωπιστικής Ομάδας OpenStreetMap (HOT) στην Γκάνα. Ελάτε μαζί μας.
+    extendedDescription: "Χαρτογράφοι στην κοινότητα της Γκάνα, προωθούν εργασίες του OpenStreetMap και της Ανθρωπιστικής Ομάδας OpenStreetMap (HOT) στην Γκάνα. Ελάτε μαζί μας."
   osm-hr:
     description: Η πλατφόρμα για πληροφορίες σχετικά με το OpenStreetMap στην Κροατία
   OSM-India-facebook:
     description: Βελτιώστε το OpenStreetMap στην Ινδία
-    extendedDescription: Χαρτογράφηση στην Ινδία; Έχετε ερωτήσεις, θέλετε να συνδεθείτε με την κοινότητα εδώ; Ελάτε μαζί μας στο {url}. Είναι όλοι ευπρόσδεκτοι!
+    extendedDescription: "Χαρτογράφηση στην Ινδία; Έχετε ερωτήσεις, θέλετε να συνδεθείτε με την κοινότητα εδώ; Ελάτε μαζί μας στο {url}. Είναι όλοι ευπρόσδεκτοι!"
   osm-india-github:
-    description: 'Προγραμματίστε μαζί μας: {url}'
+    description: "Προγραμματίστε μαζί μας: {url}"
   osm-india-mastodon:
     description: Αρχική της κοινότητας OpenStreetMap Ινδίας στο fediverse
   OSM-India-Puducherry-Facebook:
     name: Κίνημα Ελεύθερου Λογισμικού & Υλικού - Facebook
-    description: Η FSHM Facebook σελίδα για να ξέρετε για εκδηλώσεις & δραστηριότητες της κοινότητας
-    extendedDescription: Η FSHM διοργανώνει εκδηλώσεις σχετικές με την τεχνολογία ελεύθερου λογισμικού / υλικού, τον ακτιβισμό και το OpenStreetMap. Η σελίδα στο FB είναι ο καλύτερος τρόπος για να διατηρείτε επαφή με τα γεγονότα της.
+    description: "Η FSHM Facebook σελίδα για να ξέρετε για εκδηλώσεις & δραστηριότητες της κοινότητας"
+    extendedDescription: "Η FSHM διοργανώνει εκδηλώσεις σχετικές με την τεχνολογία ελεύθερου λογισμικού / υλικού, τον ακτιβισμό και το OpenStreetMap. Η σελίδα στο FB είναι ο καλύτερος τρόπος για να διατηρείτε επαφή με τα γεγονότα της."
   OSM-India-Puducherry-Matrix:
     name: Κίνημα Ελεύθερου Λογισμικού & Υλικού - Matrix
   OSM-india-twitter:
-    description: 'Είμαστε απλά ένα tweet μακριά: {url}'
+    description: "Είμαστε απλά ένα tweet μακριά: {url}"
   osm-india-wiki:
-    description: 'Όλα όσα χρειάζεται να ξέρετε για την χαρτογράφηση στην Ινδία: {url}'
+    description: "Όλα όσα χρειάζεται να ξέρετε για την χαρτογράφηση στην Ινδία: {url}"
   osm-iran-telegram:
-    extendedDescription: Είστε ευπρόσδεκτοι να εγγραφείτε στο κανάλι μας στο Telegram στη διεύθυνση {url}. Έχουμε επίσης μια υπερομάδα πολλών OSMers που ενδιαφέρονται για το Ιράν. Βρείτε τον σύνδεσμο της στο βιογραφικό του καναλιού.
+    extendedDescription: "Είστε ευπρόσδεκτοι να εγγραφείτε στο κανάλι μας στο Telegram στη διεύθυνση {url}. Έχουμε επίσης μια υπερομάδα πολλών OSMers που ενδιαφέρονται για το Ιράν. Βρείτε τον σύνδεσμο της στο βιογραφικό του καναλιού."
   OSM-japan-discord:
-    description: 'Ένας χώρος εργασίας στο Discord για την κοινότητα του OSM Ιαπωνία: {url}'
+    description: "Ένας χώρος εργασίας στο Discord για την κοινότητα του OSM Ιαπωνία: {url}"
   OSM-japan-facebook:
     description: Χαρτογράφοι και χρήστες του OpenStreetMap στην Ιαπωνία
   OSM-japan-website:
     description: Χαρτογράφοι και χρήστες του OpenStreetMap στην Ιαπωνία
   osm-kerala-github:
-    description: 'Προγραμματίστε μαζί μας: {url}'
+    description: "Προγραμματίστε μαζί μας: {url}"
   osm-mg-facebook:
     description: Ομάδα Facebook Μαδαγασκαριανών για άτομα που ενδιαφέρονται για το OpenStreetMap
   osm-michigan-wiki:
-    description: '{community} Wiki σελίδα'
+    description: "{community} Wiki σελίδα"
   osm-ohio-wiki:
-    description: '{community} Wiki σελίδα'
+    description: "{community} Wiki σελίδα"
   OSM-Rome-meetup:
     name: Incontro Mappatori Romani
   OSM-Telegram:
-    description: Συνδεθείτε στην παγκόσμια υπερομάδα Telegram του OpenStreetMap στο {url}
-  OSM-US:
-    events:
-      mappingusa2022:
-        where: εικονικά
+    description: "Συνδεθείτε στην παγκόσμια υπερομάδα Telegram του OpenStreetMap στο {url}"
   OSM-US-Slack:
-    description: Όλοι είναι ευπρόσδεκτοι! Εγγραφείτε στο {signupUrl}
+    description: "Όλοι είναι ευπρόσδεκτοι! Εγγραφείτε στο {signupUrl}"
   OSM-Utah:
     name: OpenStreetMap Γιούτα
   OSM-Wyoming:
@@ -523,9 +574,10 @@ el:
   OSMF:
     name: Ίδρυμα OpenStreetMap
   ph-facebook-group:
-    name: '{community} Ομάδα Facebook'
+    name: "{community} Ομάδα Facebook"
   PHXGeo-twitter:
-    description: Ακολουθήστε μας στο Twitter στο {url}
+    name: PHXGeo στο X
+    description: "Ακολουθήστε μας στο X στο {url}"
   rs-discourse:
     description: Ένα Forum για συζήτηση του OpenStreetMap στη Σερβία
   rs-osm:
@@ -535,35 +587,34 @@ el:
   scandinavia-discord:
     name: Σκανδιναβικό κανάλι στο OpenStreetMap World Discord
   sg-wiki:
-    description: '{community} Wiki σελίδα'
+    description: "{community} Wiki σελίδα"
   si-github:
-    description: '{community} στο GitHub'
+    description: "{community} στο GitHub"
   si-ljubljana-wiki:
-    description: '{community} Wiki σελίδα'
+    description: "{community} Wiki σελίδα"
   si-wiki:
-    description: '{community} Wiki σελίδα'
+    description: "{community} Wiki σελίδα"
+  sk-freemap:
+    description: Ιστότοπος χάρτη του OpenStreetMap με εργαλεία στη Σλοβακία και γύρω περιοχές
   talk-mg:
-    description: Τοποθεσία για τους συνδρομητές του OpenStreetMap, τις κοινότητες και τους χρήστες στη Μαδαγασκάρη για συμμετοχή και συζήτηση.
+    description: "Τοποθεσία για τους συνδρομητές του OpenStreetMap, τις κοινότητες και τους χρήστες στη Μαδαγασκάρη για συμμετοχή και συζήτηση."
   tn-facebook-group:
-    name: '{community} Ομάδα Facebook'
+    name: "{community} Ομάδα Facebook"
   tw-slack:
-    description: Όλοι είναι ευπρόσδεκτοι! Εγγραφείτε στο {signupUrl}
+    description: "Όλοι είναι ευπρόσδεκτοι! Εγγραφείτε στο {signupUrl}"
   tw-wiki:
-    description: 'Όλα όσα χρειάζεται να ξέρετε για την χαρτογράφηση στην Ταϊβάν: {url}'
+    description: "Όλα όσα χρειάζεται να ξέρετε για την χαρτογράφηση στην Ταϊβάν: {url}"
   ua-github:
     description: OpenStreetMap Ουκρανία GitHub
   ua-osm:
     description: Ιστότοπος του OpenStreetMap στην Ουκρανία
   uk-london-mastodon:
     name: OpenStreetMap London στο Mastodon
-    description: 'OpenStreetMap London στο Mastodon: {url}'
-  uk-london-twitter:
-    name: OpenStreetMap Λονδίνο στο Twitter
-    description: 'OpenStreetMap Λονδίνο στο Twitter: {url}'
+    description: "OpenStreetMap London στο Mastodon: {url}"
   uk-london-wiki:
-    description: '{community} Wiki σελίδα'
+    description: "{community} Wiki σελίδα"
   vn-wiki:
-    description: '{community} Wiki σελίδα'
+    description: "{community} Wiki σελίδα"
   YerCizenler-TR:
     name: Yer Çizenler
   ym-Abia-State-University:
@@ -574,3 +625,5 @@ el:
     name: ABU Geomappers
   ym-Dedan-Kimathi-University-of-Technology:
     name: GDEV
+  ym-Universit-de-NZrkor:
+    extendedDescription: Το YouthMappers εμπλέκει μαθητές στην χαρτογράφηση σε περίπτωση καταστροφών ή επιδημιών. Επιτρέπει επίσης την παραγωγή και χρήση χαρτογραφικών δεδομένων με ελεύθερη πρόσβαση.
