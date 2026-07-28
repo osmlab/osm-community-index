@@ -19,6 +19,59 @@ _Breaking changes, which may affect downstream projects, are marked with a_ ⚠�
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
 
+# 6.1.0
+##### 2026-Jul-28
+* Added:
+  * OSM Puducherry Signal group ([#857])
+  * Aschaffenburg Area Signal group ([#849])
+  * OSM D-A-CH Signal group
+  * Local group in Málaga, Spain ([#847])
+  * OSM Sheffield Matrix ([#846])
+  * Veneto community ([#844])
+  * Rhein-Neckar group ([#834])
+  * OSM Turkey Forum ([#833])
+  * Sicily Telegram ([#841])
+  * Updated invite link for OSM Iran ([#843])
+* Updated:
+  * Re-order France resources — forum first, deprioritize Discord/Facebook ([#816])
+  * Improve sort of UK resources ([#848])
+  * Update Czech Republic resources ([#837])
+  * Update Ireland resources per board decision 2024-05 ([#830])
+  * Fix Emilia-Romagna (it-er) Telegram URL ([#839])
+  * Update Ostwestfalen-Lippe mailing list URL ([#851])
+  * More descriptive description for MapLYH ([#853])
+  * Correct language code `tw` → `zh-tw` for Taiwanese Mandarin ([#838])
+  * Represent Aschaffenburg, Málaga, and Sheffield as point+radius locations instead of geojson
+* Removed:
+  * Rename Twitter → X and remove several dormant X/Twitter accounts ([#842], [#845])
+  * Remove OpenStreetMap UK on X ([#848])
+  * Remove MappingWR Slack ([#856])
+  * Remove Mapping USA 2022 event ([#835])
+* Strict TypeScript across the codebase, lint/CI cleanup, dependency bumps, and docs updates
+
+[#816]: https://github.com/osmlab/osm-community-index/issues/816
+[#830]: https://github.com/osmlab/osm-community-index/issues/830
+[#833]: https://github.com/osmlab/osm-community-index/issues/833
+[#834]: https://github.com/osmlab/osm-community-index/issues/834
+[#835]: https://github.com/osmlab/osm-community-index/issues/835
+[#837]: https://github.com/osmlab/osm-community-index/issues/837
+[#838]: https://github.com/osmlab/osm-community-index/issues/838
+[#839]: https://github.com/osmlab/osm-community-index/issues/839
+[#841]: https://github.com/osmlab/osm-community-index/issues/841
+[#842]: https://github.com/osmlab/osm-community-index/issues/842
+[#843]: https://github.com/osmlab/osm-community-index/issues/843
+[#844]: https://github.com/osmlab/osm-community-index/issues/844
+[#845]: https://github.com/osmlab/osm-community-index/issues/845
+[#846]: https://github.com/osmlab/osm-community-index/issues/846
+[#847]: https://github.com/osmlab/osm-community-index/issues/847
+[#848]: https://github.com/osmlab/osm-community-index/issues/848
+[#849]: https://github.com/osmlab/osm-community-index/issues/849
+[#851]: https://github.com/osmlab/osm-community-index/issues/851
+[#853]: https://github.com/osmlab/osm-community-index/issues/853
+[#856]: https://github.com/osmlab/osm-community-index/issues/856
+[#857]: https://github.com/osmlab/osm-community-index/issues/857
+
+
 # 6.0.0
 ##### 2025-Oct-28
 * Various fixes, see [#829]
