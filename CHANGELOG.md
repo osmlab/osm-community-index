@@ -18,6 +18,13 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
+# 6.1.1
+##### 2026-Jul-29
+* Added:
+  * OSM Honduras resources ([#858])
+
+[#858]: https://github.com/osmlab/osm-community-index/issues/858
+
 
 # 6.1.0
 ##### 2026-Jul-28
