@@ -18,6 +18,19 @@ _Breaking changes, which may affect downstream projects, are marked with a_ тЪая
 
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
+# 6.2.0
+##### 2026-Jul-31
+* Support new resource type: `whatsapp` ([#859])
+* Added:
+  * OSM Honduras WhatsApp group chat ([#858])
+* Removed:
+  * Ukraine Telegram resource ([#860])
+
+[#858]: https://github.com/osmlab/osm-community-index/issues/858
+[#859]: https://github.com/osmlab/osm-community-index/issues/859
+[#860]: https://github.com/osmlab/osm-community-index/issues/860
+
+
 # 6.1.1
 ##### 2026-Jul-29
 * Added:
