@@ -9,7 +9,7 @@ export type OciResourceType =
   | 'instagram' | 'irc' | 'linkedin' | 'mailinglist' | 'mastodon'
   | 'matrix' | 'meetup' | 'newsletter' | 'osm' | 'osm-lc'
   | 'reddit' | 'signal' | 'slack' | 'telegram' | 'threads'
-  | 'tiktok' | 'twitter' | 'url' | 'wiki' | 'x'
+  | 'tiktok' | 'twitter' | 'url' | 'whatsapp' | 'wiki' | 'x'
   | 'xmpp' | 'youthmappers' | 'youtube' | 'zulip';
 
 

@@ -29,6 +29,7 @@ const toCopy = {
   tiktok: 'brands/tiktok',
   url: 'solid/link',
   youtube: 'brands/square-youtube',
+  whatsapp: 'brands/square-whatsapp',
   x: 'brands/square-x-twitter',
   zulip: 'solid/comments'
 };

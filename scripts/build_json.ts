@@ -455,6 +455,8 @@ function convertURLs(item: OciResource): void {
     matchUrl = url.match(/tiktok.com\/@([\-A-Za-z0-9_.]+)\/?$/i);
   } else if (item.type === 'twitter' || item.type === 'x') {
     matchUrl = url.match(/(?:twitter|x).com\/([\-A-Za-z0-9_.]+)\/?$/i);
+  } else if (item.type === 'whatsapp') {
+    matchUrl = url.match(/chat.whatsapp.com\/([\-A-Za-z0-9_]+)\/?$/i);
   } else if (item.type === 'youtube') {
     matchUrl = url.match(/youtube.com\/channel\/([\-A-Za-z0-9_.]+)\/?$/i);
   }
