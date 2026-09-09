@@ -1,0 +1,19 @@
+{
+  "id": "cat-chapter",
+  "type": "osm-lc",
+  "locationSet": {"include": ["catalan_countries.geojson"]},
+  "languageCodes": ["ca"],
+  "order": 1,
+  "strings": {
+    "community": "OpenStreetMap Catalan Countries",
+    "communityID": "openstreetmapcatalancountries",
+    "description": "The official Local Chapter for the Catalan Countries.",
+    "url": "https://www.osmcatala.cat/"
+  },
+  "contacts": [
+    {
+      "name": "Associació Catalana de l'OpenStreetMap",
+      "email": "acosm@proton.me"
+    }
+  ]
+}
