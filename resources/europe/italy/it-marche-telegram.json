@@ -1,0 +1,14 @@
+{
+  "id": "it-marche-telegram",
+  "type": "telegram",
+  "account": "osmmarche",
+  "locationSet": {"include": ["marche.geojson"]},
+  "languageCodes": ["it"],
+  "order": 3,
+  "strings": {
+    "community": "OpenStreetMap Marche",
+    "communityID": "osmmarche",
+    "description": "Group for mappers from Marche region. You can enter the chat with this link: {url}",
+    "url": "https://t.me/osmmarche"
+  }
+}
