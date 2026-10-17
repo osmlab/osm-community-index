@@ -1,0 +1,14 @@
+{
+  "id": "be-github",
+  "type": "github",
+  "account": "osmbe",
+  "locationSet": {"include": ["be"]},
+  "languageCodes": ["de", "en", "fr", "nl"],
+  "order": 5,
+  "strings": {
+    "community": "OpenStreetMap Belgium",
+    "communityID": "openstreetmapbelgium",
+    "description": "{community} GitHub Account"
+  },
+  "contacts": [{"name": "BE community", "email": "community@osm.be"}]
+}
