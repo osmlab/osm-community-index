@@ -18,6 +18,46 @@ _Breaking changes, which may affect downstream projects, are marked with a_ ⚠�
 
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
+# 6.2.1
+##### 2026-Nov-11
+* Added:
+  * OpenStreetMap Bluesky account ([#866])
+  * OSM Syria resources ([#876])
+  * Wales community: Mapwyr Cymru website and Discord ([#877])
+  * OpenStreetMap Catalan Countries Local Chapter ([#868])
+  * OSM Spain Matrix ([#867])
+  * Marche region (Italy) Telegram and mailing list ([#870])
+  * OSM Belgium GitHub ([#871])
+  * Open Source San José Bluesky ([#873])
+  * Wikimedia Bay Area ([#874])
+* Updated:
+  * Various improvements to communities in Germany: re-order Rhein-Neckar groups, use type `group` for local groups not on meetup.com ([#861])
+  * Fix Rhein-Neckar Matrix URL ([#869])
+  * Fix OSM Málaga Zulip ID and URL ([#864])
+  * Update Belgium newsletter ([#871])
+* Removed:
+  * Inactive YouthMappers chapter at Heidelberg University ([#861])
+  * Belgium Meetup ([#871])
+  * Bulgaria Facebook group ([#875])
+  * Bay Area OpenStreetMappers Meetup ([#874])
+  * OSM Southern California Meetup ([#872])
+
+[#861]: https://github.com/osmlab/osm-community-index/issues/861
+[#864]: https://github.com/osmlab/osm-community-index/issues/864
+[#866]: https://github.com/osmlab/osm-community-index/issues/866
+[#867]: https://github.com/osmlab/osm-community-index/issues/867
+[#868]: https://github.com/osmlab/osm-community-index/issues/868
+[#869]: https://github.com/osmlab/osm-community-index/issues/869
+[#870]: https://github.com/osmlab/osm-community-index/issues/870
+[#871]: https://github.com/osmlab/osm-community-index/issues/871
+[#872]: https://github.com/osmlab/osm-community-index/issues/872
+[#873]: https://github.com/osmlab/osm-community-index/issues/873
+[#874]: https://github.com/osmlab/osm-community-index/issues/874
+[#875]: https://github.com/osmlab/osm-community-index/issues/875
+[#876]: https://github.com/osmlab/osm-community-index/issues/876
+[#877]: https://github.com/osmlab/osm-community-index/issues/877
+
+
 # 6.2.0
 ##### 2026-Jul-31
 * Support new resource type: `whatsapp` ([#859])
