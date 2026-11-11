@@ -303,6 +303,10 @@ cs:
       url: "https://x.com/{account}"
     url:
       name: "{community}"
+    whatsapp:
+      name: "{community} WhatsApp"
+      description: Připojte se ke skupinovému chatu naší komunity na WhatsAppu
+      url: "https://chat.whatsapp.com/{account}"
     wiki:
       name: "{community} wikiprojekt"
       url: "https://wiki.openstreetmap.org/wiki/{account}"
@@ -336,10 +340,6 @@ cs:
     description: "{community} Wiki stránka"
   Bahia-telegram:
     extendedDescription: "Připojte se ke komunitě a dozvíte se více o OpenStreetMap, můžete klást otázky nebo se účastnit našich setkání. Každý je vítán!"
-  Bay-Area-OpenStreetMappers:
-    name: Bay Area OpenStreetMappers
-    description: Vylepšete OpenStreetMap v Bay Area
-    extendedDescription: "Tato skupina se věnuje rozvoji komunity OpenStreetMap zde v oblasti Bay Area. Naše akce jsou přístupné všem, od nadšenců s otevřeným zdrojovým kódem, cyklistů, profesionálů GIS, geocachers a dalších. Kdokoli a každý, kdo má zájem o mapy, tvorbu map a otevřená mapová data, je vítán, aby se připojil k naší skupině a účastnil se našich akcí."
   bd-facebook:
     extendedDescription: "Mapujete v Bangladéši? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {url}. Všichni jsou vítáni!"
   be-chapter:
@@ -350,11 +350,6 @@ cs:
   be-matrix:
     description: Všichni mapovači jsou vítáni!
     extendedDescription: "Hlavní chatovací místnost belgické komunity OSM. Neváhejte se zde zeptat na vývojářské otázky!"
-  be-meetup:
-    description: Reálná setkání všech, kteří se zajímají o OpenStreetMap
-    extendedDescription: "Fyzická setkání jsou skvělá na setkání s ostatními mapovači, pokládání dotazů s cílem se hodně toho naučit. Zejména noví přispěvatelé jsou vítáni!"
-  be-newsletter:
-    description: Čtvrtletní zpravodaj belgické komunity
   bg-wiki:
     description: Stránka wikiprojektu pro Bulharsko
   bi-vc-cvl-meetup:
@@ -754,6 +749,9 @@ cs:
     extendedDescription: "Skupina se schází od března 2011, původně v Nottinghamu, nověji v Derby a čas od času jinde ve East Midlands. Jedná se o společenská setkání, ale jsou vynikajícím místem, kam přijít a zeptat se na konkrétní otázky týkající se OSM buď v této oblasti, nebo obecně. V letních měsících obvykle děláme nějaké lehké mapování na hodinu v blízkosti našeho místa setkání. Skupina jako celek má zvláštní zájem na mapování stezek s veřejným přístupem a čas od času pro tento účel pořádá schůzky."
   np-facebook:
     extendedDescription: "Mapujete v Nepálu? Máte otázky, chcete se zde spojit s komunitou? Připojte se k nám na adrese {url}. Všichni jsou vítáni!"
+  Open-Source-San-Jose-Bluesky:
+    description: Sledujte Open Source San José na Bluesky.
+    extendedDescription: Open Source San José je místní nezisková organizace, která propojuje dobrovolné programátory a designéry s potřebami komunity prostřednictvím občanských technologií. OSSJ sponzoruje místní dobrovolnickou mapovací komunitu, která pořádá dvakrát týdně South Bay Map Nights.
   Open-Source-San-Jose-Discord:
     name: Open Source San José Discord
     description: "Zůstaňte ve spojení s ostatními mapovateli na Discordu! Po registraci se připojte ke kanálu #\U0001F5FAopenstreetmap."
@@ -892,10 +890,6 @@ cs:
     description: Pomáháme OpenStreetMap v Kérale růst a zlepšovat se.
   osm-kerala-wiki:
     description: "Chcete se dozvědět více o mapování v Kérale? {url}"
-  osm-malaga-zulip:
-    name: OSM Malaga
-    description: Místní OpenStreetMap skupina v Malaze.
-    extendedDescription: "Pracovní prostor pro místní skupinu OpenStreetMap v Malaze určený ke koordinovanému společnému mapování v obci."
   osm-mg-facebook:
     description: Malgašská facebooková skupina pro lidi zajímající se o OpenStreetMap.
   osm-michigan-wiki:
@@ -942,10 +936,6 @@ cs:
   osm-sheffield-matrix:
     name: OSM Sheffield Matrix
     description: Mapovači s jakýmikoli dovednostmi, kteří mají zájem o mapování Sheffieldu. Místní setkání se budou plánovát také prostřednictvím této skupiny.
-  OSM-SoCal:
-    name: OpenStreetMap Jižní Kalifornie
-    description: "Pojďme se trochu pobavit, přispět něčím do Los Angeles a dozvědět se něco o mapování!"
-    extendedDescription: "OpenStreetMap (OSM) Jižní Kalifornie je pro každého, kdo se zajímá o mapování, aby se spojil a pracoval s OpenStreetMap. OpenStreetMap, Wikipedie map, je bezplatná mapa světa s otevřeným zdrojovým kódem, kterou vytváří více než 1 000 000 dobrovolníků po celém světě. Každý je vítán. Pokud OpenStreetMap neznáte, naučíme vás to. Pokud máte nápad na projekt mapování nebo dokonce exkurzi, kterou může skupina udělat, skvělé!"
   OSM-Tampa-Bay:
     name: OpenStreetMap Tampa Bay
     description: Mapovači a uživatelé OpenStreetMap na území Tampa Bay
@@ -1062,6 +1052,10 @@ cs:
     extendedDescription: "Připojte se k #{account} na irc.freenode.org"
   vn-wiki:
     description: "{community} Wiki page"
+  Wikimedia-Bay-Area:
+    name: Wikimedia Bay Area
+    description: Setkejte se s dalšími příznivci svobodné kultury na WikiSalon nebo Wiki Café
+    extendedDescription: "Místní uživatelská skupina Wikimedia sdružuje příznivce svobodné kultury z Wikipedie, Wikidata, Wikimedia Commons a OpenStreetMap na pravidelných setkáních v San Franciscu a jinde v oblasti Bay Area."
   YerCizenler-TR:
     name: Yer Çizenler
     description: Sdružení Yer Çizenler Mapování pro každého
@@ -1167,10 +1161,6 @@ cs:
     name: CSGU Mappers
     description: Zastoupení YouthMappers na Gulu University
     extendedDescription: "CSGU Mappers jsou počítačová komunita na Gulu University. Toto zastoupení je kreativní, vášnivá, inovativní a připravená zmapovat Ugandu a svět obecně, mimo představivost ostatních lidí."
-  ym-Heidelberg-University:
-    name: Disastermappers Heidelberg
-    description: Zastoupení YouthMappers na Heidelberg University
-    extendedDescription: "Disastermappers Heidelberg byla založena v roce 2014 jako studentská iniciativa s cílem vybudovat platformu pro výměnu mezi studenty, výzkumníky a humanitárními aktéry. Disastermappers jsou členem Missing Maps a organizují mapathony, workshopy a webináře v Heidelbergu i mimo něj a podporují HOT a Missing Maps prostřednictvím výzkumu a aplikací."
   ym-Ignatius-Ajuru-University-of-Education:
     name: IgnatiusMappersTeam (IMT)
     description: Zastoupení YouthMappers na Pedagogické univerzitě Ignáce Ajuru

@@ -207,7 +207,7 @@ el:
       description: Ακολουθήστε μας στο Bluesky
       url: "https://bsky.app/profile/{account}"
     discord:
-      name: "{community} Discord"
+      name: "{community} στο Discord"
       description: Ελάτε σε επαφή με άλλους χαρτογράφους στο Discord
       url: "https://discord.gg/{account}"
     discourse:
@@ -227,7 +227,7 @@ el:
       name: "{community} στο GitHub"
       url: "https://github.com/{account}"
     gitlab:
-      name: "{community} GitLab"
+      name: "{community} στο GitLab"
       url: "https://gitlab.com/{account}"
     group:
       name: "{community}"
@@ -255,7 +255,7 @@ el:
       description: Γίνετε μέλος της κοινότητάς μας στη συνομιλία Matrix
       url: "https://matrix.to/#/{account}:matrix.org"
     meetup:
-      name: "{community} Meetup"
+      name: "{community} στο Meetup"
       url: "https://www.meetup.com/{account}"
     newsletter:
       name: "{community} ενημερωτικό δελτίο"
@@ -267,12 +267,12 @@ el:
       name: "{community} στο Reddit"
       url: "https://www.reddit.com/r/{account}"
     signal:
-      name: "{community} Signal"
+      name: "{community} στο Signal"
       description: Γίνετε μέλος της κοινότητάς μας στο Signal
     slack:
-      name: "{community} Slack"
+      name: "{community}στο Slack"
     telegram:
-      name: "{community} Telegram"
+      name: "{community} στο Telegram"
       description: Γίνετε μέλος της κοινότητάς μας στη συνομιλία Telegram
       url: "https://t.me/{account}"
     threads:
@@ -288,6 +288,9 @@ el:
       description: Ακολουθήστε μας στο X
     url:
       name: "{community}"
+    whatsapp:
+      name: "{community} στο WhatsApp"
+      description: Γίνετε μέλος της κοινότητάς μας στην ομαδική συνομιλία στο WhatsApp
     wiki:
       name: "{community} ΒικιΈργο"
       url: "https://wiki.openstreetmap.org/wiki/{account}"
@@ -296,14 +299,14 @@ el:
       description: Ακολουθήστε μας στο X
       url: "https://twitter.com/{account}"
     xmpp:
-      name: "{community} XMPP"
+      name: "{community} στο XMPP"
       description: "Γίνετε μέλος της κοινότητάς μας στο XMPP: {url}"
     youtube:
       name: "{community} στο YouTube"
       description: Εγγραφείτε στο κανάλι μας στο YouTube
       url: "https://www.youtube.com/channel/{account}"
     zulip:
-      name: "{community} Zulip"
+      name: "{community} στο Zulip"
       description: Γίνετε μέλος της κοινότητάς μας στο Zulip
   af-matrix:
     description: Ομάδα Matrix για την κοινότητα στο Αφγανιστάν.

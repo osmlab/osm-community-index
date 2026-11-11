@@ -87,6 +87,7 @@ th:
     openstreetmapguinea: OpenStreetMap กินี
     openstreetmaphaiti: OpenStreetMap เฮติ
     openstreetmaphamburg: OpenStreetMap ฮัมบวร์ค
+    openstreetmaphonduras: OpenStreetMap ฮอนดูรัส
     openstreetmaphongkong: OpenStreetMap ฮ่องกง
     openstreetmaphungary: OpenStreetMap ฮังการี
     openstreetmapiceland: OpenStreetMap ไอซ์แลนด์
@@ -207,6 +208,7 @@ th:
     osmveneto: OSM เวเนโต
     swissopenstreetmap: OpenStreetMap สวิส
     tadeomappers: TadeoMappers
+    wikimediaandosminsicily: วิกิสนเทศ และ OSM ในซิซิลี
     youthmappersasu: YouthMappersASU
     youthmappersufrj: YouthMappers แห่ง UFRJ
   _defaults:
@@ -301,6 +303,10 @@ th:
       url: "https://x.com/{account}"
     url:
       name: "{community}"
+    whatsapp:
+      name: "กลุ่ม WhatsApp ของ{community} "
+      description: เข้าร่วมกลุ่มสนทนาชุมชน WhatsApp ของเรา
+      url: "https://chat.whatsapp.com/{account}"
     wiki:
       name: "{community} WikiProject"
       url: "https://wiki.openstreetmap.org/wiki/{account}"
@@ -334,10 +340,6 @@ th:
     description: "หน้า wiki สำหรับ {community}"
   Bahia-telegram:
     extendedDescription: "เข้าร่วมชุมชนเพื่อเรียนรู้เกี่ยวกับ OpenStreetMap เพิ่มเติม ถามคำถาม หรือมีส่วนร่วมในการประชุมของเรา เราต้อนรับทุกคน!"
-  Bay-Area-OpenStreetMappers:
-    name: OpenStreetMappers ในเบย์เอเรีย
-    description: พัฒนา OpenStreetMap ในเบย์เอเรีย
-    extendedDescription: "กลุ่มนี้นั้นเกี่ยวกับการเติบโตของชุมชน OpenStreetMap ที่นี่ใน Bay Area กิจกรรมของเราเปิดกว้างสำหรับทุกคน ตั้งแต่ผู้ที่ชื่นชอบโอเพ่นซอร์ส นักปั่นจักรยาน ผู้เชี่ยวชาญด้าน GIS นัก geocacher และอื่นๆ ทุกคนและทุกคนที่สนใจเกี่ยวกับแผนที่ การทำแผนที่ และข้อมูลแผนที่ฟรี สามารถเข้าร่วมกลุ่มของเราและเข้าร่วมกิจกรรมของเราได้"
   bd-facebook:
     extendedDescription: "ทำแผนที่ในบังคลาเทศ? หากมีคำถาม ต้องการที่จะมีปฏิสัมพันธ์กับชุมชนที่นี่? สามารถเข้าร่วมกับเราได้ที่ {url} เรายินดีต้อนรับทุกคน!"
   be-chapter:
@@ -348,11 +350,6 @@ th:
   be-matrix:
     description: เราต้อนรับนักทำแผนที่ทุกคน!
     extendedDescription: "ห้องสนทนาหลักของชุมชน Belgian OSM อย่าลังเลที่จะถามคำถามสำหรับผู้เริ่มต้นที่นี่!"
-  be-meetup:
-    description: การพบปะในชีวิตจริงของผู้คนที่สนใจ OpenStreetMap
-    extendedDescription: "การพบปะในชีวิตจริงเป็นสิ่งที่ดีในการพบปะกับนักทำแผนที่คนอื่นๆ ถามคำถามและเรียนรู้สิ่งต่างๆ มากมาย ยินดีต้อนรับผู้ร่วมให้ข้อมูลใหม่โดยเฉพาะ!"
-  be-newsletter:
-    description: จดหมายข่าวรายไตรมาสของชุมชนเบลเยียม
   bg-wiki:
     description: หน้า Wikiproject สำหรับบัลแกเรีย
   bi-vc-cvl-meetup:
@@ -674,6 +671,7 @@ th:
     description: บัญชีทวิตเตอร์ของ Mapeado Colaborativo / Geoinquietos Zaragoza
   MapLYH:
     name: MapLYH
+    description: "ผู้ที่ชื่นชอบ OpenStreetMap ในลินช์เบิร์ก รัฐเวอร์จิเนีย และพื้นที่รอบเคียง"
   mappa-mercia-group:
     name: 'กลุ่มท้องถิ่น Mappa Mercia '
     description: บ้านสำหรับผู้ที่สนใจ OpenStreetMap ในมิดแลนส์
@@ -751,6 +749,9 @@ th:
     extendedDescription: "กลุ่มหนึ่งได้ประชุมกันมาตั้งแต่เดือนมีนาคม 2011 โดยเริ่มที่นอตทิงแฮม และครั้งล่าสุดที่ดาร์บี้ และเป็นครั้งคราวที่อื่นๆ ในอีสต์มิดแลนด์ส การพบปะสังสรรค์เหล่านี้ถือเป็นสถานที่ที่ดีในการมาถามคำถามเฉพาะเกี่ยวกับ OSM ไม่ว่าจะเป็นในพื้นที่หรือโดยทั่วไป ในช่วงฤดูร้อน เรามักจะทำการสำรวจพื้นที่โดยย่อเป็นเวลาหนึ่งชั่วโมงในบริเวณใกล้เคียงสถานที่ประชุมของเรา กลุ่มโดยรวมมีความสนใจเป็นพิเศษในการทำการสำรวจพื้นที่สาธารณะ และในบางครั้งจะมีการประชุมสำรวจพื้นที่เพื่อจุดประสงค์นี้"
   np-facebook:
     extendedDescription: "กำลังทำแผนที่ในเนปาลหรือเปล่า? มีคำถามหรือต้องการเชื่อมต่อกับชุมชนที่นี่หรือไม่ เข้าร่วมกับเราได้ที่ {url} เราต้อนรับทุกคน!"
+  Open-Source-San-Jose-Bluesky:
+    description: ติดตาม Open Source San José บน Bluesky
+    extendedDescription: Open Source San José เป็นองค์กรไม่แสวงหาผลกำไรในท้องถิ่นที่เชื่อมโยงอาสาสมัครด้านการเขียนโปรแกรมและการออกแบบเข้ากับความต้องการของชุมชนผ่านเทคโนโลยีเพื่อสังคม โดย OSSJ เป็นผู้สนับสนุนกิจกรรม South Bay Map Nights ซึ่งเป็นการพบปะของชุมชนนักทำแผนที่อาสาสมัครในพื้นที่ South Bay ที่จัดขึ้นทุกสองสัปดาห์
   Open-Source-San-Jose-Discord:
     name: ดิสคอร์ด Open Source San José
     description: "ติดต่อกับผู้ทำแผนที่คนอื่นๆ บน Discord! หลังจากสมัครแล้ว ให้เข้าร่วมช่อง #\U0001F5FAopenstreetmap"
@@ -889,10 +890,6 @@ th:
     description: เราช่วยกันพัฒนาและปรับปรุง OpenStreetMap ในเกรละ
   osm-kerala-wiki:
     description: "ต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับการทำแผนที่รัฐเกรละหรือเปล่า {url}"
-  osm-malaga-zulip:
-    name: OSM มาลากา
-    description: กลุ่มท้องถิ่น OpenStreetMap group ในมาลากา
-    extendedDescription: "พื้นที่ทํางานสําหรับกลุ่ม OpenStreetMap ในท้องถิ่นในมาลากา มีไว้สำหรับให้กับการประสานงานการทําแผนที่ร่วมกันในเขตเทศบาล"
   osm-mg-facebook:
     description: กลุ่ม Facebook มาลากาซีสำหรับผู้ที่สนใจ OpenStreetMap
   osm-michigan-wiki:
@@ -920,6 +917,10 @@ th:
     name: การเคลื่อนไหวฮาร์ดแวร์ซอฟต์แวร์เสรี - Mailing List
     description: Mailing List ของการเคลื่อนไหวฮาร์ดแวร์ซอฟต์แวร์เสรีปุฑุเจรีเพื่อหารือเรื่องการทำแผนที่ในปุฑุเจรีและเรื่องอื่นๆ
     extendedDescription: "การเคลื่อนไหวฮาร์ดแวร์ซอฟต์แวร์เสรีจัดกิจกรรมเกี่ยวกับซอฟต์แวร์เสรี/ฮาร์ดแวร์เสรี เทคโนโลยีเสรี กิจกรรมเพื่อสังคม และ OpenStreetMap"
+  OSM-Puducherry-Signal:
+    name: OSM ปุฑุเจรี - Signal
+    description: กลุ่มความสนใจพิเศษที่สร้างขึ้นภายใต้ FSHMPY โดยมุ่งเน้นที่การเพิ่มคุณค่าข้อมูล OpenStreetMap
+    extendedDescription: สมาชิกชุมชน FSHM แบ่งปันการอัปเดต / ประสบการณ์การทําแผนที่ OSM ของพวกเขาผ่านกลุ่ม Signal
   osm-punjab-matrix:
     description: เรามาทำแผนที่ปัญจาบด้วยกัน เข้าร่วมกลุ่มเมทริกซ์ของเรา
     extendedDescription: "ห้องสนทนาไม่เป็นทางการสำหรับ OSM Punjab ซึ่งเชื่อมโยงกับกลุ่ม Telegram ของ OSMPunjab ด้วย"
@@ -935,10 +936,6 @@ th:
   osm-sheffield-matrix:
     name: Matrix ของ OSM เชฟฟิลด์
     description: นักทําแผนที่ที่มีทักษะใด ๆ ที่สนใจการทําแผนที่เชฟฟิลด์ การพบปะในท้องถิ่นจะวางแผนผ่านกลุ่มนี้เช่นกัน
-  OSM-SoCal:
-    name: OpenStreetMap แคลิฟอร์เนียตอนใต้
-    description: "มาสนุกสนานกัน ร่วมมีส่วนร่วมให้กับลอสแองเจลิส และเรียนรู้เกี่ยวกับการทำแผนที่กันเถอะ!"
-    extendedDescription: "OpenStreetMap (OSM) แคลิฟอร์เนียตอนใต้เปิดให้ทุกคนที่สนใจด้านการทำแผนที่มารวมตัวกันเพื่อทำงานร่วมกับ OpenStreetMap ซึ่งเป็นเหมือน Wikipedia สำหรับแผนที่ เป็นแผนที่โอเพนซอร์สฟรีของโลกที่สร้างขึ้นโดยอาสาสมัครกว่า 1,000,000 คนทั่วโลก ทุกคนยินดีต้อนรับ หากคุณไม่รู้จัก OpenStreetMap เราจะช่วยกันสอนคุณ หากคุณมีแนวคิดสำหรับโครงการทำแผนที่หรือแม้แต่กิจกรรมทัศนศึกษาที่กลุ่มสามารถทำได้ ก็เยี่ยมไปเลย!"
   OSM-Tampa-Bay:
     name: OpenStreetMap แทมปาเบย์
     description: นักเขียนทำแผนที่ และผู้ใช้ OpenStreetMap ในพื้นที่แทมปาเบย์
@@ -1007,6 +1004,8 @@ th:
     description: "หน้า wiki สำหรับ {community}"
   si-wiki:
     description: "หน้า wiki สำหรับ {community}"
+  sicilia-telegram:
+    description: "เราต้อนรับทุกคน! คุณสามารถเข้าร่วมแชทได้ที่ลิงก์นี้: {url}"
   sk-freemap:
     description: เว็บไซต์แผนที่ OpenStreetMap พร้อมเครื่องมือในสโลวาเกียและภูมิภาคโดยรอบ
   sosm:
@@ -1053,6 +1052,10 @@ th:
     extendedDescription: "เข้าร่วม #{account} บน irc.freenode.org"
   vn-wiki:
     description: "หน้าวิกิ{community}"
+  Wikimedia-Bay-Area:
+    name: Wikimedia Bay Area
+    description: พบปะผู้ที่ชื่นชอบวัฒนธรรมเสรีคนอื่น ๆ ได้ที่กิจกรรม WikiSalon หรือ Wiki Café
+    extendedDescription: "กลุ่มผู้ใช้วิกิมีเดียในท้องถิ่นเป็นศูนย์รวมผู้ที่ชื่นชอบวัฒนธรรมเสรีจากชุมชน Wikipedia, Wikidata, Wikimedia Commons และ OpenStreetMap ผ่านการพบปะแลกเปลี่ยนเป็นประจำในนครซานฟรานซิสโกและพื้นที่อื่น ๆ ในบริเวณอ่าวซานฟรานซิสโก"
   YerCizenler-TR:
     name: Yer Çizenler
     description: สมาคมการทำแผนที่ Yer Çizenler สำหรับทุกคน
@@ -1158,10 +1161,6 @@ th:
     name: CSGU Mappers
     description: สาขา YouthMappers แห่งมหาวิทยาลัยกูลู
     extendedDescription: "CSGU Mappers คือสมาคมคอมพิวเตอร์แห่งมหาวิทยาลัยกูลู สาขานี้เป็นสาขาที่มีความคิดสร้างสรรค์ มีความกระตือรือร้น มีนวัตกรรม และพร้อมที่จะทำแผนที่ยูกันดาและโลกกว้างเหนือจินตนาการของคนอื่นๆ"
-  ym-Heidelberg-University:
-    name: disastermappers ไฮเดิลแบร์ค
-    description: สาขา YouthMappers แห่งมหาวิทยาลัยไฮเดิลแบร์ค
-    extendedDescription: "Disastermappers ไฮเดิลแบร์ค ก่อตั้งขึ้นในปี 2014 โดยเป็นโครงการริเริ่มของนักศึกษาเพื่อสร้างแพลตฟอร์มสำหรับการแลกเปลี่ยนระหว่างนักศึกษา นักวิจัย และผู้ที่มีส่วนเกี่ยวข้องด้านมนุษยธรรม Disastermappers เป็นสมาชิกของ Missing Maps และกำลังจัดงานมาราธอนแผนที่ เวิร์กช็อป และการสัมมนาผ่านเว็บในเมืองไฮเดลเบิร์กและพื้นที่อื่นๆ รวมถึงสนับสนุน HOT และ Missing Maps ผ่านการวิจัยและการใช้งาน"
   ym-Ignatius-Ajuru-University-of-Education:
     name: IgnatiusMappersTeam (IMT)
     description: สาขา YouthMappers แห่งมหาวิทยาลัยการศึกษาอิกเนเชียส อาจุรุ

@@ -303,6 +303,10 @@ uk:
       url: "https://x.com/{account}"
     url:
       name: "{community}"
+    whatsapp:
+      name: "{community} WhatsApp"
+      description: Приєднуйтесь до нашого чату у WhatsApp
+      url: "https://chat.whatsapp.com/{account}"
     wiki:
       name: "{community} WikiProject"
       url: "https://wiki.openstreetmap.org/wiki/{account}"
@@ -336,10 +340,6 @@ uk:
     description: "{community} - сторінка у Вікі"
   Bahia-telegram:
     extendedDescription: "Приєднуйтесь до спільноти, щоб дізнатися більше про OpenStreetMap, поставити питання або взяти участь у наших зустрічах. Запрошуємо всіх!"
-  Bay-Area-OpenStreetMappers:
-    name: Bay Area OpenStreetMappers
-    description: Покращуйте OpenStreetMap в районі Затоки Сан-Франциско
-    extendedDescription: "Ця група має на меті розбудову спільноти OpenStreetMap в районі затоки Сан-Франциско. Наші заходи відкриті для всіх: ентузіастів відкритого коду, велосипедистів, спеціалістів з ГІС, геокешерів та інших. Будь-хто, хто цікавиться мапами, їх створення та вільними даними запрошуються до вступу в групу так само як і відвідування зустрічей."
   bd-facebook:
     extendedDescription: "Мапите в Бангладеш? Маєте питання чи бажаєте поспілкуватись зі спільнотою тут? Приєднуйтесь до нас - {url}. Ласкаво просимо!"
   be-chapter:
@@ -350,11 +350,6 @@ uk:
   be-matrix:
     description: Ласкаво просимо всіх маперів!
     extendedDescription: "Основний чат спільноти OSM Бельгія. Початківці тут можуть отримати відповіді на свої питання, не соромтесь їх задавати!"
-  be-meetup:
-    description: Реальні зустрічі для всіх, хто цікавиться OpenStreetMap
-    extendedDescription: "Реальні зустрічі з іншими дуже корисні, мапери обговорюють питання і багато чого навчаються. Особливо приємно бачити нових учасників!"
-  be-newsletter:
-    description: Щоквартальний бюлетень бельгійської спільноти
   bg-wiki:
     description: Сторінка Wikiproject Болгарії
   bi-vc-cvl-meetup:
@@ -754,6 +749,8 @@ uk:
     extendedDescription: "Група організовує зустрічі з березня 2011 року, спочатку в Ноттінгемі, і нещодавно в Дербі, і час від часу в інших місцях Східного Мідлендса. Це збори для приємного спільного проведення часу та обговорення питань пов'язаних з OSM. В літні місяці ми зазвичай проводимо невеличке обстеження території та мапінг, впродовж години, досліджуючи місцевість навколо місця зустрічі. Група в цілому зацікавлена ​​в тому, щоб позначати дорожню інфраструктуру для всіх учасників руху, і час від часу проводить збори з цією метою."
   np-facebook:
     extendedDescription: "Мапите в Непалі? Маєте питання, бажаєте зв'язатись зі спільнотою? Приєднуйтесь до нас за адресою {url}. Ласкаво просимо!"
+  Open-Source-San-Jose-Bluesky:
+    description: Підпишіться на Open Source San José в Bluesky.
   Open-Source-San-Jose-Discord:
     name: Open Source San José Discord
     description: "Зв’яжіться з іншими маперами в Discord! Після реєстрації приєднуйтесь до каналу #\U0001F5FAopenstreetmap."
@@ -892,10 +889,6 @@ uk:
     description: Ми допомагаємо розвивати та вдосконалювати OpenStreetMap в Керала.
   osm-kerala-wiki:
     description: "Хочете дізнатись більше про мапінг Керали: {url}"
-  osm-malaga-zulip:
-    name: OSM Малага
-    description: Місцева група OpenStreetMap у Малазі
-    extendedDescription: "Робочий простір для місцевої групи OpenStreetMap у Малазі, що займається координацією спільного картографування в муніципалітеті."
   osm-mg-facebook:
     description: Малагасійська група у Facebook для тих, хто цікавиться OpenStreetMap.
   osm-michigan-wiki:
@@ -942,10 +935,6 @@ uk:
   osm-sheffield-matrix:
     name: OSM Шеффілд в Matrix
     description: Мапери будь-якого рівня підготовки, зацікавлені у картографуванні Шеффілда. Ця група також слугуватиме для організації місцевих зустрічей.
-  OSM-SoCal:
-    name: OpenStreetMap Південна Каліфорнія
-    description: "Проведімо гарно час, покращуючи мапу в Лос-Анджелесі, водночас дізнаючись нового про мапінг!"
-    extendedDescription: "OpenStreetMap (OSM) Південна Каліфорнія для всіх хто цікавиться мапінгом, щоб зібратись разом і гуртом покращити OpenStreetMap. OpenStreetMap – вікіпедія зі світу мап – вільна мапа світу, яку створюють понад 1,000,000 учасників по всьому світу. Запрошуємо всіх охочих. Якщо ви не знаєте про OpenStreetMap, ми розкажемо та навчимо. Якщо у вас є ідея картографічного проєкту чи навіть польових досліджень, яку може група може здійснити, це чудово!"
   OSM-Tampa-Bay:
     name: OpenStreetMap Tampa Bay
     description: Мапери та користувачі OpenStreetMap з Тампа-Бей
@@ -1167,10 +1156,6 @@ uk:
     name: CSGU Mappers
     description: Осередок YouthMappers в Університеті Ґулу
     extendedDescription: "CSGU Mappers є Комп’ютерним товариством в Університеті Гулу (Computing Society at Gulu University). Цей осередок творчий, пристрасний, інноваційний і готовий мапити Уганду та світ в цілому."
-  ym-Heidelberg-University:
-    name: disastermappers heidelberg
-    description: Осередок YouthMappers в Університеті Гайдельбергу
-    extendedDescription: "Осередок Disastermappers Heidelberg був заснований у 2014 році як студентська ініціатива для створення платформи для обміну між студентами, дослідниками та гуманітарними діячами. Disastermappers є членом Missing Maps, він організовує мапатони, семінари та вебінари в Гейдельберзі та за його межами, а також підтримують HOT і Missing Maps проводячи дослідження та створюючи застосунку для їх діяльності."
   ym-Ignatius-Ajuru-University-of-Education:
     name: IgnatiusMappersTeam (IMT)
     description: Осередок YouthMappers у Педагогічному університеті імені Ігнація Аджуру

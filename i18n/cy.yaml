@@ -87,6 +87,7 @@ cy:
     openstreetmapguinea: OpenStreetMap Guinea
     openstreetmaphaiti: OpenStreetMap Haiti
     openstreetmaphamburg: OpenStreetMap Hamburg
+    openstreetmaphonduras: OpenStreetMap Honduras
     openstreetmaphongkong: OpenStreetMap Hong Cong
     openstreetmaphungary: OpenStreetMap Hwngari
     openstreetmapiceland: OpenStreetMap Gwlad yr Iâ
@@ -207,6 +208,7 @@ cy:
     osmveneto: OSM Veneto
     swissopenstreetmap: OpenStreetMap Y Swistir
     tadeomappers: TadeoMappers
+    wikimediaandosminsicily: Wikimedia ac OSM yn Sicily
     youthmappersasu: YouthMappersASU
     youthmappersufrj: YouthMappers UFRJ
   _defaults:
@@ -301,6 +303,9 @@ cy:
       url: "https://x.com/{account}"
     url:
       name: "{community}"
+    whatsapp:
+      name: " WhatsApp {community}"
+      url: "https://chat.whatsapp.com/{account}"
     wiki:
       name: "WiciBrosiect {community}"
       url: "https://wiki.openstreetmap.org/wiki/{account}"
@@ -334,19 +339,12 @@ cy:
     description: "Tudalen Wici {community}"
   Bahia-telegram:
     extendedDescription: "Ymunwch â'r gymuned i ddysgu mwy am OpenStreetMap, gofyn cwestiynau neu gymryd rhan yn ein cyfarfodydd. Croeso i bawb ymuno!"
-  Bay-Area-OpenStreetMappers:
-    name: OpenStreetMapwyr Ardal y Bae
-    description: Gwella OpenStreetMap yn Ardal y Bae
   be-chapter:
     description: Rydym yn tyfu a gwella OpenStreetMap yng Ngwlad Belg.
   be-discourse:
     description: Fforwm i drafod OpenStreetMap yng Ngwlad Belg
   be-matrix:
     description: Croeso i bob mapiwr!
-  be-meetup:
-    description: Cyfarfodydd wyneb-yn-wyneb i bawb sydd â diddordeb mewn OpenStreetMap
-  be-newsletter:
-    description: Cylchlythyr chwarterol y gymuned Felgaidd
   bg-wiki:
     description: Tudalen WiciBrosiect am Fwlgaria
   bo-facebook-group:
@@ -694,14 +692,14 @@ cy:
     description: Cartref y gymuned OpenStreetMap Gwlad Pwyl
   OSM-Puducherry-Mailing-List:
     name: Free Software Hardware Movement - Rhestr Bost
+  OSM-Puducherry-Signal:
+    name: OSM Puducherry - Signal
   OSM-Rome-meetup:
     name: Incontro Mappatori Romani
     description: Gwella OpenStreetMap yn ardal Rhufain
   OSM-Seattle:
     name: OpenStreetMap Seattle
     description: Mapwyr a defnyddwyr OpenStreetMap yn ardal Seattle
-  OSM-SoCal:
-    name: OpenStreetMap De Califfornia
   OSM-Tampa-Bay:
     name: OpenStreetMap Bae Tampa
   osm-td-facebook:
@@ -853,9 +851,6 @@ cy:
   ym-Gulu-University:
     name: CSGU Mappers
     description: Siapter YouthMappers yn Gulu University
-  ym-Heidelberg-University:
-    name: disastermappers heidelberg
-    description: Siapter YouthMappers yn Heidelberg University
   ym-Ignatius-Ajuru-University-of-Education:
     name: IgnatiusMappersTeam (IMT)
     description: Siapter YouthMappers yn Ignatius Ajuru University of Education

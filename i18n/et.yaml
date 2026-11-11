@@ -54,6 +54,9 @@ et:
     openstreetmapcuba: OpenStreetMap Kuuba
     openstreetmapcuneo: OpenStreetMap Cuneo
     openstreetmapcyprus: OpenStreetMap Küpros
+    openstreetmapcz: OpenStreetMap Tšehhia
+    openstreetmapde: OpenStreetMap Saksamaa
+    openstreetmapdeepsouth: OpenStreetMap Deep South
     openstreetmapdelhi: OpenStreetMap Delhi
     openstreetmapdenmark: OpenStreetMap Taani
     openstreetmapdjibouti: OpenStreetMap Djibouti
@@ -67,28 +70,50 @@ et:
     openstreetmapestonia: OpenStreetMap Eesti
     openstreetmapethiopia: OpenStreetMap Etioopia
     openstreetmapfiji: OpenStreetMap Fidži
+    openstreetmapfinland: OpenStreetMap Soome
+    openstreetmapfrance: OpenStreetMap Prantsusmaa
+    openstreetmapfreemapslovakia: OpenStreetMap Freemap Slovakkia
     openstreetmapfrenchguiana: OpenStreetMap Prantsuse Guajaana
+    openstreetmapfrenchpolynesia: OpenStreetMap Prantsuse Polüneesia
     openstreetmapgabon: OpenStreetMap Gabon
+    openstreetmapgalicia: OpenStreetMap Galicia
+    openstreetmapgeorgia: OpenStreetMap Gruusia
+    openstreetmapgermany: OpenStreetMap Saksamaa
     openstreetmapghana: OpenStreetMap Ghana
     openstreetmapgorakalwaria: OpenStreetMap Góra Kalwaria
+    openstreetmapgreece: OpenStreetMap Kreeka
     openstreetmapgrenoble: OpenStreetMap Grenoble
     openstreetmapguatemala: OpenStreetMap Guatemala
     openstreetmapguinea: OpenStreetMap Guinea
     openstreetmaphaiti: OpenStreetMap Haiti
+    openstreetmaphamburg: OpenStreetMap Hamburg
     openstreetmaphonduras: OpenStreetMap Honduras
     openstreetmaphongkong: OpenStreetMap Hongkong
+    openstreetmaphungary: OpenStreetMap Ungari
+    openstreetmapiceland: OpenStreetMap Island
     openstreetmapindia: OpenStreetMap India
     openstreetmapindonesia: OpenStreetMap Indoneesia
     openstreetmapiran: OpenStreetMap Iraan
     openstreetmapiraq: OpenStreetMap Iraak
+    openstreetmapireland: OpenStreetMap Iirimaa
     openstreetmapisrael: OpenStreetMap Iisrael
+    openstreetmapitaly: OpenStreetMap Itaalia
+    openstreetmapitalylazio: OpenStreetMap Itaalia-Lazio
+    openstreetmapitalylombardia: OpenStreetMap Itaalia-Lombardia
+    openstreetmapitalypiemonte: OpenStreetMap Itaalia-Piemonte
+    openstreetmapitalytrentino: OpenStreetMap Itaalia-Trentino
     openstreetmapjapan: OpenStreetMap Jaapan
+    openstreetmapkarlsruhe: OpenStreetMap Karlsruhe
     openstreetmapkazakhstan: OpenStreetMap Kasahstan
     openstreetmapkenya: OpenStreetMap Keenia
     openstreetmapkerala: OpenStreetMap Kerala
     openstreetmapkorea: OpenStreetMap Korea
     openstreetmapkosovo: OpenStreetMap Kosovo
     openstreetmaplatinamerica: OpenStreetMap Ladina-Ameerika
+    openstreetmaplatvia: OpenStreetMap Läti
+    openstreetmaplesotho: OpenStreetMap Lesotho
+    openstreetmapliberia: OpenStreetMap Libeeria
+    openstreetmaplibya: OpenStreetMap Liibüa
     openstreetmaplithuania: OpenStreetMap Leedu
     openstreetmapljubljana: OpenStreetMap Ljubljana
     openstreetmaplombardia: OpenStreetMap Lombardia
@@ -135,6 +160,7 @@ et:
     openstreetmaprdc: OpenStreetMap RDC
     openstreetmaprennes: OpenStreetMap Rennes
     openstreetmapreunion: OpenStreetMap Réunion
+    openstreetmaprheinneckar: OpenStreetMap Rhein Neckar
     openstreetmapriograndedosul: OpenStreetMap Rio Grande do Sul
     openstreetmapromania: OpenStreetMap Rumeenia
     openstreetmaprussia: OpenStreetMap Venemaa
@@ -160,6 +186,7 @@ et:
     openstreetmaptunisia: OpenStreetMap Tuneesia
     openstreetmapturin: OpenStreetMap Torino
     openstreetmapturkey: OpenStreetMap Türgi
+    openstreetmapuganda: OpenStreetMap Uganda
     openstreetmapuk: OpenStreetMap Suurbritannia
     openstreetmapukraine: OpenStreetMap Ukraina
     openstreetmapuruguay: OpenStreetMap Uruguay
@@ -172,12 +199,16 @@ et:
     openstreetmapwesternsahara: OpenStreetMap Lääne-Sahara
     openstreetmapzambia: OpenStreetMap Sambia
     openstreetmapzimbabwe: OpenStreetMap Zimbabwe
+    osmaschaffenburgandumgebung: OSM Aschaffenburg ja Umgebung
     osmcolombia: OSM Colombia
     osmewikiemiliaromagna: OSM ja viki Emilia-Romagnas
     osmmainz: OSM Mainz
     osmnelson: OSM Nelson
+    osmsheffield: OSM Sheffield
+    osmveneto: OSM Veneto
     swissopenstreetmap: Šveitsi OpenStreetMap
     tadeomappers: TadeoMappers
+    wikimediaandosminsicily: Wikimedia ja OSM Sitsiilias
     youthmappersasu: YouthMappersASU
     youthmappersufrj: YouthMappers UFRJ
   _defaults:
@@ -268,15 +299,20 @@ et:
       url: "https://tiktok.com/@{account}"
     twitter:
       name: "{community} \U0001D54Fis"
-      description: Jälgi meid 𝕏is
+      description: Jälgi meid 𝕏-is
+      url: "https://x.com/{account}"
     url:
       name: "{community}"
+    whatsapp:
+      name: "„{community}“ kogukond WhatsAppis"
+      description: Liitu meie kogukonnaga WhatsAppi grupivestluses
+      url: "https://chat.whatsapp.com/{account}"
     wiki:
       name: "WikiProject: {community}"
       url: "https://wiki.openstreetmap.org/wiki/{account}"
     x:
       name: "{community} \U0001D54Fis"
-      description: Jälgi meid 𝕏is
+      description: Jälgi meid 𝕏-is
       url: "https://twitter.com/{account}"
     xmpp:
       name: "{community} – XMPP"
@@ -294,32 +330,43 @@ et:
     description: Afganistani kogukonna Matrixi jututuba
   al-maptime-tirana:
     name: Maptime Tirana
+    description: Kaardistamisega seotud seltskondlikud ettevõtmised - algajad on vägagi teretulnud!
+    extendedDescription: "Maptime on avatud õpikeskkond, mis sobib igale tasemele ja teadmiste tasemele ning pakub algajatele sihipärast haridusalast tuge. Maptime on üheaegselt paindlik ja struktureeritud, luues keskkonna kaardistamise õppetundidele, töötubadele, ühise eesmärgiga käimasolevatele projektidele ning iseseisvale ja koostööl põhinevale tööajale."
   am-wiki:
     description: "{community} viki veebileht"
   at-matrix:
     description: Mitteametlik saksakeelne Matrixi jututuba Austrias
   at-wiki:
     description: "Vikileht: {community}"
-  Bay-Area-OpenStreetMappers:
-    name: SF Lahe piirkonna OSMi kaardistajad
-    description: Täienda OpenStreetMapi andmeid San Francisco lahe piirkonnas
+  Bahia-telegram:
+    extendedDescription: "Liitu kogukonnaga, et saada rohkem teavet OpenStreetMapi kohta, esitada küsimusi või osaleda meie kohtumistel. Kõik on teretulnud!"
   bd-facebook:
     extendedDescription: "Kaardistad Bangladeshis? Sul on küsimusi ja tahad suhelda kohaliku kogukonnaga? Liitu meiega siin: {url}. Kõik on teretulnud!"
   be-chapter:
     description: Aitame OpenStreetMapil kasvada ja edeneda Belgias.
+    extendedDescription: "Kui soovid aidata kaasa Belgia kaardistamiskogukonna arendamisele ja kasvule ning panna veelgi rohkem inimesi kaardistamisest vaimustuma, siis on Belgia OpenStreetMapi kogukond just sinu jaoks õige koht!"
   be-discourse:
     description: OpenStreetMapi Belgia-teemaline foorum
   be-matrix:
     description: Kõik kaardistajad on teretulnud!
     extendedDescription: "Belgia OSM-i kogukonna põhiline jututuba. Vastame hea meelega ka kõikide alustavate kaardistajate küsimustele!"
-  be-newsletter:
-    description: Belgia kogukonna kvartaalne uudiskiri
+  bg-wiki:
+    description: Bulgaaria Vikiprojekti leht
+  bi-vc-cvl-meetup:
+    description: "Kaardistajate kohalik kogukond Biellese, Vercellese, Canavese ja Valli di Lanzo piirkonnas"
+    extendedDescription: "Kohtumised toimuvad 2018. aasta veebruarist tavaliselt kas Biellas või Ivreas."
   bo-facebook-group:
     name: "{community} – rühm Facebookis"
   bo-matrix:
     description: Kõik kaardistajad on teretulnud!
+  br-telegram:
+    extendedDescription: "Liitu kogukonnaga, et saada rohkem teavet OpenStreetMapi kohta, esitada küsimusi või osaleda meie kohtumistel. Kõik on teretulnud!"
   br-wiki:
     description: Viki leht teabe ja juhenditega kaardistamiseks Brasiilias
+  cape-coast-youthmappers:
+    description: "Jälgi meid \U0001D54F-is aadressil {url}"
+  castilla-y-leon-wiki:
+    description: "Kõik, mida peaksid teadma kaardistamisest Kastiilia ja Leónis: {url}"
   cat-github:
     description: OpenStreetMapi katalaanikeelse kogukonna projektid GitHubis
   cat-matrix:
@@ -335,6 +382,10 @@ et:
     description: "State College, PA – kaardistajate kogukond"
   ch-mailinglist:
     description: Postiloend Šveitsi jaoks
+  cl-facebook:
+    extendedDescription: "Liitu kogukonnaga, et saada rohkem teavet OpenStreetMapi kohta, esitada küsimusi või osaleda meie kohtumistel. Kõik on teretulnud!"
+  cl-telegram:
+    extendedDescription: "Liitu kogukonnaga, et saada rohkem teavet OpenStreetMapi kohta, esitada küsimusi või osaleda meie kohtumistel. Kõik on teretulnud!"
   co-discourse:
     name: OSMi kogukonna vestlused Colombia teemadel
     description: Need teemad kajastavad kaardimuudatusi Colombias
@@ -376,6 +427,10 @@ et:
   co-youtube:
     name: "{community} – videod YouTube'is"
     description: Videod ja juhendid OSMi kogukonna tegemiste kohta
+  comunitat-valenciana-wiki:
+    description: "Kõik, mida peaksid teadma kaardistamisest Valencia autonoomses piirkonnas: {url}"
+  czech-community:
+    description: "Kaardiportaal, veebisait ja kontakti OSM-i liikmetele Tšehhis"
   czech-discord:
     description: "OpenStreetMap CZ jututuba võrgusildadega IRCsse, Jabberisse, Matrixisse ja Telegrami"
   czech-irc:
@@ -388,6 +443,8 @@ et:
     description: "OpenStreetMap CZ jututuba võrgusildadega Discordi, IRCsse, Matrixisse ja Telegrami"
   de-aachen-wiki:
     description: "Vikileht: {community}"
+  de-aschaffenburg-signal:
+    description: OpenStreetMap Aschaffenburgis ja selle ümbruses
   de-berlin-mailinglist:
     name: Berliini postiloend
   de-berlin-wiki:
@@ -424,6 +481,18 @@ et:
     description: OpenStreetMap Mainzis ja ümbruskonnas
   de-munchen-wiki:
     description: "Vikileht: {community}"
+  de-mv-mailinglist:
+    name: Mecklenburg-Vorpommerni postiloend
+  de-ostwestfalen-lippe-mailinglist:
+    name: OWL-i postiloend
+    description: See on Ostwestfalen-Lippe OSM-i kogukonna postiloend
+  de-rheinneckar-mailinglist:
+    description: Postiloend OpenStreetMapi kaardistajatele ja kasutajatele Rhein-Neckari piirkonnas
+  de-rheinneckar-matrix:
+    description: Matrixi kanal OpenStreetMapi kaardistajatele ja kasutajatele Rhein-Neckari piirkonnas
+  de-rheinneckar-meetup:
+    name: OpenStreetMap Rhein Neckar
+    description: OpenStreetMapi kaardistajad ja kasutajated Rhein-Neckari piirkonnas
   de-stuttgart-meetup:
     name: OpenStreetMap Stuttgart Meetupis
     description: Kaardistajad ja OpenStreetMapi kasutajad Stuttgarti piirkonnas
@@ -437,6 +506,8 @@ et:
     name: OpenStreetMap Viersen Meetupis
   de-xmpp:
     name: OpenStreetMap DE XMPP
+  DF-telegram:
+    extendedDescription: "Liitu kogukonnaga, et saada rohkem teavet OpenStreetMapi kohta, esitada küsimusi või osaleda meie kohtumistel. Kõik on teretulnud!"
   dk-discourse:
     description: OpenStreetMapi Taani-teemaline foorum
   ee-wiki:
@@ -453,10 +524,19 @@ et:
     name: OpenStreetMap Prantsusmaa kogukond Discordis
   fr-matrix:
     description: "Matrixi jututuba OSM France'i kogukonna jaoks: {url} (võrgusild ka Telegrami)"
+  fr-montrouge-website:
+    description: OSM-i teenused ja teave kohaliku kogukonna jaoks Montrouge'is
   fr-montrouge-wiki:
     description: "Vikileht: {community}"
+  fr-telegram:
+    description: "Telegrami grupp OSMi Prantsismaa kogukonna jaoks: {url}"
+  fr-xmpp:
+    description: Liitu osm-fr@chat.jabberfr.org jututoaga
   galicia-wiki:
     description: "Kõik, mida peaksid teadma kaardistamisest Galicias: {url}"
+  Galicia-Xeoinquedos-Twitter:
+    name: Xeoinquedos 𝕏-is
+    description: "Jälgi meid \U0001D54F-is aadressil {url}"
   ge-matrix:
     description: "Üldine Gruusiaga seotud OpenStreetMapi vestlus, millel on olemas Telegrami võrgisild"
   GeoPhilly:
@@ -491,6 +571,8 @@ et:
     description: Aitame OpenStreetMapil kasvada ja edeneda Itaalias.
   it-discourse:
     description: OpenStreetMapi Itaalia-teemaline foorum
+  it-emilia-romagna-telegram:
+    description: "Kõik on teretulnud! Vestlusega saad liituda siin: {url}"
   ivides_website:
     description: "Keskendume jätkusuutlikule arengule, kaardistamisele ja OpenStreetMapi kogukonna toetamisele."
   ko-facebook:
@@ -503,14 +585,20 @@ et:
     name: Kosovo Vaba ja Avatud Tarkvara Seltsing (FLOSSK)
   kp-wiki:
     description: "{community} – kaardistamisjuhend"
+  latam-wiki:
+    description: Kõik, mida peaksid teadma kaardistamisest Ladina-Ameerikas
   lk-facebook:
     extendedDescription: "Kaardistad Sri Lankas? Sul on küsimusi ja tahad suhelda kohaliku kogukonnaga? Liitu meiega siin: {url}. Kõik on teretulnud!"
   lu-matrix:
     description: "Matrixi Luksemburgi kogukonna jututuba. Toome kogukonna siia kokku!"
+  madrid-wiki:
+    description: "Kõik, mida peaksid teadma kaardistamisest Madridis: {url}"
   mailinglist-sk-googlegroups:
+    name: Slovaki postiloend Google Groupsis
     description: Slovakkia kogukonna ametlik postiloend
   MapLYH:
     name: MapLYH
+    description: "OpenStreetMapi huvilised Lynchburgis ja selle ümbruses (Virginia, USA)"
   MapRVA:
     description: "MapRVA on Virginias Richmondis tegutsev rühm kaardistushuvilisi, kelle eesmärk on luua ja jagada oma linna ruumiteavet OpenStreetMapis."
   maptime-bogota-facebook:
@@ -552,6 +640,9 @@ et:
   Maptime-ME-meetup:
     name: MaptimeME
     description: "Kaardistajad ja OpenStreetMapi kasutajad Portlandi piirkonnas Maine'i osariigis"
+  Maptime-Oceania-Slack:
+    name: Maptime Oceania Slackis
+    description: "Liitu siin: {signupUrl}"
   md-googlegroup:
     name: "{community} – Google'i rühm"
     description: "Liitu kogukonna {community} Google'i rühmaga"
@@ -563,6 +654,8 @@ et:
     extendedDescription: "Kaardistad Myanmaris? Sul on küsimusi ja tahad suhelda kohaliku kogukonnaga? Liitu meiega siin: {url}. Kõik on teretulnud!"
   mn-facebook:
     extendedDescription: "Kaardistad Mongoolias? Sul on küsimusi ja tahad suhelda kohaliku kogukonnaga? Liitu meiega siin: {url}. Kõik on teretulnud!"
+  mt-irc:
+    extendedDescription: "Liitu #{account} kanaliga irc.oftc.net serveris (port 6667), suhtlemisel palun ole kannatlik ja enne küsimuste küsimust oota natuke"
   nl-discourse:
     description: OpenStreetMapi Hollandi-teemaline foorum
   nl-matrix:
@@ -573,11 +666,14 @@ et:
     description: Vestlussild IRC-jututoaga
   np-facebook:
     extendedDescription: "Kaardistad Nepalis? Sul on küsimusi ja tahad suhelda kohaliku kogukonnaga? Liitu meiega siin: {url}. Kõik on teretulnud!"
+  Open-Source-San-Jose-Bluesky:
+    description: Jälgi Open Source San José kanalit Bluesky võrgus.
+    extendedDescription: Open Source San José on kohalik mittetulundusühing, mis ühendab vabatahtlikke programmeerijaid ja disainereid kogukonna vajadustega kodanikutehnoloogia abil. OSSJ toetab kohaliku vabatahtlike kaardistajate kogukonna iga kahe nädala tagant toimuvaid „South Bay Map Nights“ üritusi.
   Open-Source-San-Jose-Discord:
     name: Open Source San José Discord
     description: "Suhtle teiste kaardistajatega Discordis! Peale meldimist liitu #\U0001F5FAopenstreetmap kanaliga."
   Open-Source-San-Jose-Mastodon:
-    description: Vaata Open Source San José kanalit Mastodonis.
+    description: Jälgi Open Source San José kanalit Mastodonis.
   Open-Source-San-Jose-Slack:
     description: "Kõik on teretulnud! Meldi siin: {signupUrl} ja seejärel liitu #proj-osm kanaliga."
   OpenCleveland-meetup:
@@ -591,6 +687,8 @@ et:
     description: "Kõik on teretulnud! Liitu siin {signupUrl}"
   OSM-AR-geolibres:
     name: GeoLibres
+  OSM-AR-wiki:
+    description: Kõik, mida peaksid teadma kaardistamisest Argentinas.
   osm-bengaluru-matrix:
     extendedDescription: "Vestlusgrupp OpenStreetMapi kaasautoritele, kasutajatele ja uustulnukatele Bengaluru piirkonnas. Olemas on ka Telegrami võrgusild."
   osm-bengaluru-telegram:
@@ -626,10 +724,13 @@ et:
     description: OSM-i teenused ja teave kohaliku kogukonna jaoks Indoneesias
   OSM-India-facebook:
     description: Täienda OpenStreetMapi andmeid Indias
+    extendedDescription: "Kaardistad Indias? Sul on küsimusi ja tahad suhelda kohaliku kogukonnaga? Liitu meiega siin: {url}. Kõik on teretulnud!"
   osm-india-mastodon:
     description: OpenStreetMap India kogukonna kodu fediversumis
   osm-india-website:
     description: Kaardistajad ja OpenStreetMapi kasutajad Indias
+  osm-india-wiki:
+    description: "Kõik, mida peaksid teadma kaardistamisest Indias: {url}"
   osm-india-xmpp:
     name: OpenStreetMap India XMPP-vestluskanal
     extendedDescription: "India OSMi kogukonna XMPP-jututuba; võrgusillad suletud võrkudega puuduvad. Sama jututuba on saadaval ka Matrixi jututoas #osm-in:poddery.com"
@@ -647,6 +748,7 @@ et:
     description: OSM Keenia on OSM-i kaasautorite ja kasutajate kogukond Keenias
   OSM-Kerala-facebook:
     description: Täienda OpenStreetMapi andmeid Keralas
+    extendedDescription: "Kaardistad Keralas? Sul on küsimusi ja tahad suhelda kohaliku kogukonnaga? Liitu meiega siin: {url}. Kõik on teretulnud!"
   osm-kerala-matrix:
     description: Kaardistame Keralat üheskoos. Liitu meie jututoaga Matrixis
   osm-kerala-telegram:
@@ -663,6 +765,8 @@ et:
     description: "Vikileht: {community}"
   OSM-Ottawa-meetup:
     description: Kaardistajad ja OpenStreetMapi kasutajad Ottawa piirkonnas
+  OSM-Puducherry-Signal:
+    name: OSM Puducherry Signali grupp
   osm-punjab-matrix:
     description: Kaardistame Pandžabit üheskoos. Liitu meie jututoaga Matrixis
     extendedDescription: "Mitteametlik OSM Punjabi kogukonna jututuba, millel on ka võrgusild OSMPunjab jututoaga Telegramis"
@@ -673,8 +777,6 @@ et:
   OSM-Seattle:
     name: OpenStreetMap Seattle
     description: Kaardistajad ja OpenStreetMapi kasutajad Seattle'i piirkonnas
-  OSM-SoCal:
-    name: OpenStreetMap Lõuna-California
   OSM-Tampa-Bay:
     name: OpenStreetMap Tampa Bay
     description: Kaardistajad ja OpenStreetMapi kasutajad Tampa Bay piirkonnas
@@ -699,6 +801,8 @@ et:
   OSM-Wyoming:
     name: OpenStreetMap Wyoming
     description: Kaardistajad ja OpenStreetMapi kasutajad Wyomingi osariigis Ameerika Ühendriikides
+  osmcz-twitter:
+    description: Jälgi Tšehhi kogukonna tegemisi 𝕏-is, sealhulgas on meil saadaval tõlgitud WeeklyOSM!
   OSMF:
     description: OSMF on Suurbritannias registreeritud mittetulundusühendus, mis toetab OpenStreetMapi projekti.
     extendedDescription: "OSMF toetab OpenStreetMapi projekti, korraldades rahakogumiskampaaniaid, haldades OSM-i töös hoidvaid servereid, korraldades iga-aastast „State of the Map“ konverentsi ning koordineerides vabatahtlike tööd, kes hoiavad OSM-i toimimas. Saad näidata oma toetust ja kaasa rääkida OpenStreetMapi arengusuundades, liitudes siin OSMF-i liikmeks: {signupUrl}"
@@ -710,10 +814,12 @@ et:
     name: PHXGeo Meetupis
     description: "Kaardistajad ja OpenStreetMapi kasutajad Phoenixi piirkonnas Arizonas"
   PHXGeo-twitter:
-    name: PHXGeo X-is
-    description: "Jälgi meid X-is aadressil {url}"
+    name: PHXGeo 𝕏-is
+    description: "Jälgi meid \U0001D54F-is aadressil {url}"
   rs-discourse:
     description: OpenStreetMapi Serbia-teemaline foorum
+  RS-telegram:
+    extendedDescription: "Liitu kogukonnaga, et saada rohkem teavet OpenStreetMapi kohta, esitada küsimusi või osaleda meie kohtumistel. Kõik on teretulnud!"
   scandinavia-discord:
     name: Skandinaavia-teemaline kanal OpenStreetMapi ülemaailmses kogukonnas Discordis
   sg-wiki:
@@ -726,25 +832,38 @@ et:
     description: "Vikileht: {community}"
   talk-au:
     description: Koht Austraalia kaardistajate vestlusteks
+  talk-bo:
+    extendedDescription: "Kaardistad Boliivias? Sul on küsimusi ja tahad suhelda kohaliku kogukonnaga? Liitu meiega siin: {url}. Kõik on teretulnud!"
   tn-facebook-group:
     name: "{community} – rühm Facebookis"
   tw-slack:
     description: "Kõik on teretulnud! Liitu siin {signupUrl}"
+  tw-wiki:
+    description: "Kõik, mida peaksid teadma kaardistamisest Taiwanis: {url}"
   tz-website:
     description: OSM-i teenused ja teave kohaliku kogukonna jaoks Tansaanias
   ua-github:
     description: OpenStreetMap Ukraina GitHubis
   ua-osm:
     description: OpenStreetMapi veebisait Ukrainas
+  ua-slack:
+    description: "Liitu Slackis OpenStreetMapi Ukraina kogukonnaga aadressil {signupUrl}"
   uk-london-mastodon:
     name: OpenStreetMap Londoni grupi leht Mastodonis
     description: "OpenStreetMap London Mastodonis: {url}"
+  uk-london-twitter:
+    name: OpenStreetMap London 𝕏-is
+    description: "OpenStreetMap London \U0001D54F-is: {url}"
   uk-london-wiki:
     description: "Vikileht: {community}"
   us-discourse:
     description: OpenStreetMapi foorum Ameerika Ühendriikides
   vn-wiki:
     description: "Vikileht: {community}"
+  Wikimedia-Bay-Area:
+    name: Wikimedia Bay Area
+    description: Kohtu teiste vaba kultuuri huvilistega WikiSalonis või Wiki Cafés
+    extendedDescription: "Wikimedia kohalik kasutajagrupp toob kokku vaba kultuuri entusiastid Vikipeediast, Wikidatast, Wikimedia Commonsist ja OpenStreetMapist, korraldades regulaarselt kohtumisi San Franciscos ja mujal Bay Area piirkonnas."
   ym-Arizona-State-University-facebook:
     description: Noorte kaardistajate seltsing Arizona Riiklikus Ülikoolis
   ym-Arizona-State-University-twitter:
@@ -755,3 +874,47 @@ et:
   ym-Universidad-Jorge-Tadeo-Lozano:
     name: TadeoMappers Jorge Tadeo Lozano ülikoolis
     description: Noorte kaardistajate seltsing Jorge Tadeo Lozano Ülikoolis
+  ym-University-of-California-Davis:
+    name: Kaardistusklubi
+  ym-University-of-Energy-and-Natural-Resources:
+    name: Ökoklubi
+  ym-University-of-Exeter:
+    description: Noorte kaardistajate seltsing Exeteri Ülikoolis
+  ym-University-of-Ghana:
+    name: Ghana Ülikooli noored kaardistajad
+    description: Noorte kaardistajate seltsing Ghana Ülikoolis
+  ym-University-of-Liberia-YouthMappers:
+    name: Libeeria Ülikooli noored kaardistajad
+    description: Noorte kaardistajate seltsing Libeeria Ülikoolis
+  ym-University-of-Malawi:
+    name: Chanco Malawi noored kaardistajad
+    description: Noorte kaardistajate seltsing Malawi Ülikoolis
+  ym-University-of-Maryland-College-Park:
+    name: Geograafiaklubi
+    description: Noorte kaardistajate seltsing Marylandi Ülikoolis (College Park)
+  ym-University-of-Nairobi:
+    description: Noorte kaardistajate seltsing Nairobi Ülikoolis
+  ym-University-of-Nigeria-Enugu-Campus:
+    description: "Noorte kaardistajate seltsing Nigeeria Ülikooli Enugu kampusel"
+  ym-University-of-Nigeria-Nsukka:
+    description: "Noorte kaardistajate seltsing Nigeeria Ülikooli Nsukka kampusel"
+  ym-University-of-North-Texas:
+    name: Põhja-Teksase Ülikooli geograafiaklubi
+    description: Noorte kaardistajate seltsing Põhja-Teksase Ülikoolis
+  ym-University-of-Northern-Colorado:
+    name: Põhja-Colorado Ülikooli geograafia ja GIS-huviliste klubi
+    description: Noorte kaardistajate seltsing Põhja-Colorado Ülikoolis
+  ym-University-of-Pretoria:
+    name: Geoinformaatikateaduste keskus
+    description: Noorte kaardistajate seltsing Pretoria Ülikoolis
+  ym-University-of-Redlands:
+    name: Redlandsi Ülikoolis ruumilised mõtlejad
+    description: Noorte kaardistajate seltsing Redlandsi Ülikoolis
+  ym-University-of-Rwanda-Huye-Campus:
+    name: Rwanda noored kaardistajad
+    description: Noorte kaardistajate seltsing Rwanda Ülikooli Huye kampusel
+  ym-University-of-South-Carolina:
+    description: Noorte kaardistajate seltsing Lõuna-Carolina Ülikoolis
+  ym-University-of-Southern-California:
+    name: Lõuna-Kalifornia Ülikooli kaardistajad
+    description: Noorte kaardistajate seltsing Lõuna-Kalifornia Ülikoolis

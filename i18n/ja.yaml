@@ -1,6 +1,12 @@
 ja:
   _communities:
+    freelibreopensourcesoftwarekosovaflossk: Free Libre Open Source Software コソボ (FLOSSK)
+    geolibres: GeoLibres
+    kiribatiwomeninmapping: Kiribati Women in Mapping
+    mapeadoresivides: Mapeadores IVIDES
+    mappingbotswana: Mapping ボツワナ
     maptimebogota: Maptimeボゴタ
+    opensourcesanjose: 'オープンソース・サンノゼ '
     openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap アーヘン
     openstreetmapafghanistan: OpenStreetMap アフガニスタン
@@ -81,6 +87,7 @@ ja:
     openstreetmapguinea: OpenStreetMap ガイアナ
     openstreetmaphaiti: OpenStreetMap ハイチ
     openstreetmaphamburg: OpenStreetMap ハンブルク
+    openstreetmaphonduras: OpenStreetMap ホンジュラス
     openstreetmaphongkong: OpenStreetMap 香港
     openstreetmaphungary: OpenStreetMap ハンガリー
     openstreetmapiceland: OpenStreetMap アイスランド
@@ -153,6 +160,7 @@ ja:
     openstreetmaprdc: OpenStreetMap コンゴ民主共和国
     openstreetmaprennes: OpenStreetMap レンヌ
     openstreetmapreunion: OpenStreetMap レユニオン
+    openstreetmaprheinneckar: OpenStreetMap ライン＝ネッカー
     openstreetmapriograndedosul: OpenStreetMap リオグランデ・ド・スル
     openstreetmapromania: OpenStreetMap ルーマニア
     openstreetmaprussia: OpenStreetMap ロシア
@@ -191,18 +199,22 @@ ja:
     openstreetmapwesternsahara: OpenStreetMap 西サハラ
     openstreetmapzambia: OpenStreetMap ザンビア
     openstreetmapzimbabwe: OpenStreetMap ジンバブエ
+    osmaschaffenburgandumgebung: OSM アシャッフェンブルクおよび近隣
     osmcolombia: OSM コロンビア
     osmewikiemiliaromagna: OSM e Wiki エミリア・ロマーニャ
     osmmainz: OSM マインツ
     osmnelson: OSM ネルソン
+    osmsheffield: OSM シェフィールド
     swissopenstreetmap: スイス OpenStreetMap
     youthmappersasu: YouthMappersASU
     youthmappersufrj: YouthMappers UFRJ
   _defaults:
     aparat:
+      name: "Aparatでの{community}"
       description: Aparatチャンネルを登録
       url: "https://aparat.com/{account}"
     bluesky:
+      name: "Blueskyでの{community}"
       description: Bluesky でフォロー
       url: "https://bsky.app/profile/{account}"
     discord:
@@ -214,6 +226,7 @@ ja:
       description: "{community}の公式フォーラム"
       url: "https://community.openstreetmap.org/c/communities/{account}"
     facebook:
+      name: "Facebookでの{community}"
       description: Facebookでコミュニティに参加
       url: "https://www.facebook.com/{account}"
     fediverse:
@@ -225,13 +238,17 @@ ja:
       name: "{community} GitHub"
       url: "https://github.com/{account}"
     gitlab:
+      name: "{community} GitLab"
       url: "https://gitlab.com/{account}"
     group:
       name: "{community}"
     instagram:
+      name: "Instagramでの{community}"
       description: Instagram でフォロー
       url: "https://instagram.com/{account}"
     irc:
+      name: "IRCでの{community}"
+      description: "irc.oftc.net (非SSL: ポート6667/SSL: ポート6697) の #{account} に Join"
       url: "https://webchat.oftc.net/?channels={account}"
     linkedin:
       description: LinkedInでコミュニティに参加
@@ -295,10 +312,6 @@ ja:
     description: "{community} ウィキページ"
   Bahia-telegram:
     extendedDescription: "OpenStreetMapについてもっと知りたい方、質問がある方、ミーティングに参加したい方は、ぜひコミュニティにご参加ください。どなたでも大歓迎です！"
-  Bay-Area-OpenStreetMappers:
-    name: ベイエリア OpenStreetMappers
-    description: ベイエリアのOpenStreetMapを改善する
-    extendedDescription: "このグループは、ベイエリアにおけるOpenStreetMapコミュニティの拡大を目的としています。私たちのイベントは、オープンソース愛好家、サイクリスト、GIS専門家、ジオキャッシャーなど、あらゆる方にご参加いただけます。地図、地図作成、無料地図データに興味のある方ならどなたでも、私たちのグループへの参加やイベントへの参加を歓迎します。"
   bd-facebook:
     extendedDescription: "バングラデシュで地図を作成する？質問がありますか？このコミュニティと交流したいですか？ぜひ{url}にご参加ください。どなたでも大歓迎です！"
   be-chapter:
@@ -309,11 +322,6 @@ ja:
   be-matrix:
     description: すべてのマッパーを歓迎します！
     extendedDescription: "ベルギーのOSMコミュニティのメインチャットルームです。初心者向けの質問も遠慮なくどうぞ！"
-  be-meetup:
-    description: OpenStreetMapに興味のある人なら誰でも参加できる対面での交流会
-    extendedDescription: "対面での交流会は、他のマッパーと出会い、質問したり、多くのことを学んだりする絶好の機会です。特に、新しい貢献者の方々を大歓迎します！"
-  be-newsletter:
-    description: ベルギー人コミュニティの季刊ニュースレター
   bg-wiki:
     description: ブルガリアのWikiprojectページ
   bi-vc-cvl-meetup:
@@ -886,10 +894,6 @@ ja:
     name: CSGU Mappers
     description: グル大学のYouthMappers支部
     extendedDescription: "CSGU Mappersは、グル大学のコンピューティング協会です。この支部は、創造性、情熱、革新性にあふれ、ウガンダ、そして世界全体を、人々の想像を超える形で地図化することを目指しています。"
-  ym-Heidelberg-University:
-    name: disastermappers ハイデルベルク
-    description: ハイデルベルク大学のYouthMappers支部
-    extendedDescription: "Disastermappers ハイデルベルクは、学生、研究者、人道支援関係者間の交流プラットフォームを構築することを目的とした学生主導のイニシアチブとして、2014年に設立されました。ディザスターマッパーズはミッシングマップスのメンバーであり、ハイデルベルク内外でマッパソン、ワークショップ、ウェビナーを開催するとともに、研究やアプリケーションを通じてHOTとミッシングマップスを支援しています。"
   ym-Ignatius-Ajuru-University-of-Education:
     name: IgnatiusMappersTeam (IMT)
     description: イグナティウス・アジュル教育大学のYouthMappers支部

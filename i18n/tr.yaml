@@ -296,6 +296,8 @@ tr:
       description: Bizi X'te takip et
     url:
       name: "{community}"
+    whatsapp:
+      description: Topluluk WhatsApp grup sohbetimize katılın
     wiki:
       name: "WikiProject'teki {community}"
       url: "https://wiki.openstreetmap.org/wiki/{account}"
@@ -329,10 +331,6 @@ tr:
     description: "{community} Wiki sayfası"
   Bahia-telegram:
     extendedDescription: "OpenStreetMap hakkında daha fazlasını öğrenmek, soru sormak ve toplantılarımıza katılmak için topluluğa katılın"
-  Bay-Area-OpenStreetMappers:
-    name: Körfez Bölgesi OpenStreetMappers
-    description: Körfez Bölgesi'nde OpenStreetMapp'i iyileştir
-    extendedDescription: "Bu grup OpenStreetMap topluluğunu burada, Körfez Bölgesinde, büyütmek için kuruldu. Etkinliklerimiz, açık kaynaklı yazılım meraklılarına, bisiklet kullanıcılarına, CBS uzmanlarına, define avcılarına varana kadar herkese açık. Haritalarla, harita yapımıyla ve özgür harita verileriyle ilgilenen herkesin, grubumuza da etkinliklerimize de katılmasından memnuniyet duyarız."
   bd-facebook:
     extendedDescription: "Bangladeş'te haritalama mı yapıyorsunuz? Sorularınız var ve buradaki toplulukla bağlantı kurmak mı istiyorsunuz? {url} adresinden bize katılın. Hepiniz hoş geldiniz!"
   be-chapter:
@@ -343,11 +341,6 @@ tr:
   be-matrix:
     description: Tüm haritacılar davetlidir!
     extendedDescription: "Belçika OSM topluluğunun ana sohbet odası. Başlangıç ​​seviyesindeki sorularınızı burada sormaktan çekinmeyin!"
-  be-meetup:
-    description: OpenStreetMap ile ilgilenen herkesin gerçek hayat buluşmaları
-    extendedDescription: "Fiziksel buluşmalar, diğer haritacılar ile tanışmak, onlara sorular sormak ve çok şey öğrenmek için harikadır. Özellikle yeni katılımcılar hoş geldiniz!"
-  be-newsletter:
-    description: Belçika topluluğunun üç aylık haber bülteni
   bg-wiki:
     description: Bulgaristan Wikiproject sayfası
   bi-vc-cvl-meetup:
@@ -818,10 +811,6 @@ tr:
   OSM-Seattle:
     name: OpenStreetMap Seattle
     description: 'Seattle bölgesindeki haritacılar ve OpenStreetMap kullanıcıları '
-  OSM-SoCal:
-    name: OpenStreetMap Güney Kaliforniya
-    description: "Biraz eğlenelim, Los Angeles'a katkıda bulunalım ve haritalama hakkında bilgi edinelim!"
-    extendedDescription: "OpenStreetMap (OSM) Güney California, OpenStreetMap ile çalışmak için bir araya gelmek üzere haritalama ile ilgilenen herkes içindir. Haritaların Wikipedia'sı olan OpenStreetMap, dünya çapında 1.000.000'dan fazla gönüllü tarafından oluşturulan dünyanın ücretsiz bir açık kaynaklı haritasıdır. Herkese açığız. OpenStreetMap'i bilmiyorsanız size öğreteceğiz. Bir haritalama projesi hatta grubun yapabileceği bir okul gezisi fikriniz varsa, harika!"
   OSM-Tampa-Bay:
     name: OpenStreetMap Tampa Körfezi
     description: 'Tampa Körfezi bölgesindeki haritacılar ve OpenStreetMap kullanıcıları '
@@ -1015,10 +1004,6 @@ tr:
     name: CSGU Haritacıları
     description: Gulu Üniversitesi'nde YouthMappers derneğ
     extendedDescription: "CSGU Haritacıları, Gulu Üniversitesi Bilgisayar Topluluğu'dur. Bu bölüm yaratıcı, tutkulu, yenilikçi ve diğer insanların hayal gücünün ötesinde Uganda'yı ve dünyayı haritalandırmaya hazırdır."
-  ym-Heidelberg-University:
-    name: afet haritacıları heidelberg
-    description: Heidelberg Üniversitesi'nde YouthMappers derneğ
-    extendedDescription: "Afet Haritacıları Heidelberg, 2014 yılında öğrenciler, araştırmacılar ve insani yardım aktörleri arasında bir değişim platformu oluşturmak için bir öğrenci girişimi olarak kuruldu. Afet Haritacıları Kayıp Haritalar'ın bir üyesidir ve Heidelberg ve ötesinde mapathonlar, atölyeler ve web seminerleri düzenlemekte ve araştırma ve uygulamalar yoluyla HOT ve Missing Maps'i desteklemektedir."
   ym-Ignatius-Ajuru-University-of-Education:
     name: IgnatiusMappersTeam (IMT)
     description: Ignatius Ajuru Eğitim Üniversitesi'nde Youthmappers derneğ

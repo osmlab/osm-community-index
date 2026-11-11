@@ -20,7 +20,7 @@ lb:
     openstreetmapchad: OpenStreetMap Tschad
     openstreetmapcologne: OpenStreetMap Köln
     openstreetmapcomunitatvalenciana: OpenStreetMap Valencianescht Land
-    openstreetmapcotedivoire: OpenStreetMap Côte d'Ivoire
+    openstreetmapcotedivoire: "OpenStreetMap Côte d'Ivoire"
     openstreetmapcroatia: OpenStreetMap Kroatien
     openstreetmapcuba: OpenStreetMap Kuba
     openstreetmapdenmark: OpenStreetMap Dänemark
@@ -47,3 +47,20 @@ lb:
     openstreetmaptanzania: OpenStreetMap Tansania
     openstreetmaptunisia: OpenStreetMap Tunesien
     openstreetmapturkey: OpenStreetMap Tierkei
+  _defaults:
+    facebook:
+      name: "„{community}“ op Facebook"
+    irc:
+      name: "„{community}“ op IRC"
+    matrix:
+      name: "Matrix-Chat „{community}“"
+  af-matrix:
+    description: Matrix-Grupp fir d'Communautéit an Afghanistan.
+  at-matrix:
+    description: Inoffiziellen däitsche Matrix-Kanal fir ÉisträIch
+  lu-matrix:
+    description: "Matrix-Grupp fir d'Communautéit zu Lëtzebuerg. Loosst eis d'Communautéit zesumme bréngen!"
+  ph-facebook-group:
+    name: "„{community}“ Facebook-Grupp"
+  tn-facebook-group:
+    name: "„{community}“ Facebook-Grupp"

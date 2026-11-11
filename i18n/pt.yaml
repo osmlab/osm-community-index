@@ -87,6 +87,7 @@ pt:
     openstreetmapguinea: OpenStreetMap Guiné
     openstreetmaphaiti: OpenStreetMap Haiti
     openstreetmaphamburg: OpenStreetMap Hamburgo
+    openstreetmaphonduras: OpenStreetMap Honduras
     openstreetmaphongkong: OpenStreetMap Hong Kong
     openstreetmaphungary: OpenStreetMap Hungria
     openstreetmapiceland: OpenStreetMap Islândia
@@ -207,6 +208,7 @@ pt:
     osmveneto: OSM Véneto
     swissopenstreetmap: OpenStreetMap Suíça
     tadeomappers: TadeoMappers
+    wikimediaandosminsicily: Wikimédia e OSM na Sicília
     youthmappersasu: YouthMappersASU
     youthmappersufrj: YouthMappers UFRJ
   _defaults:
@@ -301,6 +303,10 @@ pt:
       url: "https://x.com/{account}"
     url:
       name: "{community}"
+    whatsapp:
+      name: "WhatsApp {community}"
+      description: Junta-te ao WhatsApp da nossa comunidade
+      url: "https://chat.whatsapp.com/{account}"
     wiki:
       name: "WikiProject {community}"
       url: "https://wiki.openstreetmap.org/wiki/{account}"
@@ -334,10 +340,6 @@ pt:
     description: "Página wiki {community}"
   Bahia-telegram:
     extendedDescription: "Entre na comunidade para aprender mais sobre o OpenStreetMap, fazer perguntas ou participar dos nossos encontros. Todos são bem-vindos!"
-  Bay-Area-OpenStreetMappers:
-    name: OpenStreetMappers da Bay Area
-    description: Melhora o OpenStreetMap na Bay Area
-    extendedDescription: "Este grupo é sobre o crescimento da comunidade OpenStreetMap aqui em Bay Area. Os nossos eventos estão abertos a todos, entusiastas do código aberto, ciclistas, profissionais de GIS, geocachers e muito mais. Qualquer pessoa interessada em mapas, elaboração de mapas e dados dos mapas gratuitos é bem-vinda para se juntar ao nosso grupo e participar nos nossos eventos."
   bd-facebook:
     extendedDescription: "A cartografar no Bangladesh? Tem dúvidas, quer comunicar com a comunidade daqui? Junte-se a nós em {url}. São todos bem-vindos!"
   be-chapter:
@@ -348,11 +350,6 @@ pt:
   be-matrix:
     description: Todos os mapeadores são bem-vindos!
     extendedDescription: "Principal sala de chat da comunidade belga OSM. Não hesite em fazer perguntas de iniciantes aqui!"
-  be-meetup:
-    description: Encontros da vida real de todos que estão interessados no OpenStreetMap
-    extendedDescription: "Encontros físicos são óptimos para conhecer outros mapeadores , fazer perguntas e aprender muito. Especialmente novos colaboradores são muito bem-vindos!"
-  be-newsletter:
-    description: Newsletter trimestral da comunidade belga
   bg-wiki:
     description: Página wikiproject para a Bulgária
   bi-vc-cvl-meetup:
@@ -674,6 +671,7 @@ pt:
     description: Mapeamento Colaborativo / Conta no Twitter Geoinquietos Saragoça
   MapLYH:
     name: MapLYH
+    description: "Entusiastas do OpenStreetMap de Lynchburg, Virgínia, e arredores"
   mappa-mercia-group:
     name: Grupo local Mappa Mercia
     description: Uma casa para os entusiastas do OpenStreetMap nas Midlands
@@ -889,10 +887,6 @@ pt:
     description: Ajudamos a desenvolver e a melhorar o OpenStreetMap em Kerala.
   osm-kerala-wiki:
     description: "Quer saber mais sobre Mapeamento de Kerala? {url}"
-  osm-malaga-zulip:
-    name: OSM Málaga
-    description: Grupo local de OpenStreetMap em Málaga
-    extendedDescription: "Espaço de trabalho do grupo local do OpenStreetMap em Málaga, dedicado à coordenação do mapeamento colaborativo no município."
   osm-mg-facebook:
     description: Grupo malgaxe no Facebook para pessoas interessadas no OpenStreetMap.
   osm-michigan-wiki:
@@ -920,6 +914,10 @@ pt:
     name: Movimento de Hardware e Software Livre - Lista de discussão
     description: Lista de discussão do FSHM Puducherry para discutir o mapeamento em Puducherry e outras coisas.
     extendedDescription: "O FSHM organiza eventos relacionados a software / hardware livre, tecnologia, ativismo e OpenStreetMap."
+  OSM-Puducherry-Signal:
+    name: OSM Puducherry - Signal
+    description: Um grupo criado sob FSHMPY focado em melhorar os dados OpenStreetMap.
+    extendedDescription: Os membros da comunidade FSHM partilham as suas experiências de mapeamento OSM através do grupo Signal.
   osm-punjab-matrix:
     description: Mapeamos o Punjab juntos. Junta-te ao nosso grupo Matrix.
     extendedDescription: "Sala de conversação não oficial para o OSM Punjab, também ligada ao grupo OSM Punjab do Telegram"
@@ -935,10 +933,6 @@ pt:
   osm-sheffield-matrix:
     name: OSM Sheffield Matrix
     description: Mapeadores de todos os graus de experiência interessados em mapear em Sheffield. Os encontros locais também são combinados através deste grupo.
-  OSM-SoCal:
-    name: OpenStreetMap Califórnia Meridional
-    description: "Vamos-nos divertir, contribuir com algo para Los Angeles e aprender sobre mapeamento!"
-    extendedDescription: "OpenStreetMap (OSM) Southern California é para qualquer pessoa interessada em mapear e se juntar ao OpenStreetMap. O OpenStreetMap, é a Wikipédia dos mapas, é um mapa mundial de código aberto criado por mais de 1.000.000 de voluntários em todo o mundo. Todos são bem-vindos. Se não conheces o OpenStreetMap, nós vamos ensinar-te. Se tens uma ideia para um projecto de mapeamento ou até mesmo uma visita de campo com o grupo podes fazer, é perfeito!"
   OSM-Tampa-Bay:
     name: OpenStreetMap Tampa Bay
     description: Mapeadores e utilizadores do OpenStreetMap na área de Tampa Bay
@@ -1007,6 +1001,8 @@ pt:
     description: "Página wiki {community}"
   si-wiki:
     description: "Página wiki {community}"
+  sicilia-telegram:
+    description: "Todos são bem-vindos! Podes participar usando esta ligação: {url}"
   sk-freemap:
     description: Sítio web do mapa OpenStreetMap com ferramentas na Eslováquia e regiões circundantes
   sosm:
@@ -1158,10 +1154,6 @@ pt:
     name: CSGU Mappers
     description: Núcleo YouthMappers na Universidade de Gulu
     extendedDescription: "Os CSGU Mappers são a Sociedade de Computação da Universidade de Gulu. Este núcleo é criativo, apaixonado, inovador e está pronto para mapear o Uganda e o mundo em geral, para além da imaginação de outras pessoas."
-  ym-Heidelberg-University:
-    name: disastermappers heidelberg
-    description: Núcleo YouthMappers da Universidade de Heidelberg
-    extendedDescription: "A Disastermappers Heidelberg foi fundada em 2014 como uma iniciativa estudantil para construir uma plataforma de intercâmbio entre estudantes, investigadores e atores humanitários. A Disastermappers é membro da Missing Maps e está a organizar mapathons, workshops e webinars em Heidelberg e não só, e apoia a HOT e a Missing Maps através de investigação e aplicações."
   ym-Ignatius-Ajuru-University-of-Education:
     name: IgnatiusMappersTeam (IMT)
     description: Núcleo YouthMappers na Universidade de Educação Ignatius Ajuru

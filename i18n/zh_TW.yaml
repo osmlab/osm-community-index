@@ -303,6 +303,10 @@ zh_TW:
       url: "https://x.com/{account}"
     url:
       name: "{community}"
+    whatsapp:
+      name: "{community} WhatsApp"
+      description: 加入我們的 WhatsApp 群組聊天
+      url: "https://chat.whatsapp.com/{account}"
     wiki:
       name: "{community} 的維基專題"
       url: "https://wiki.openstreetmap.org/wiki/{account}"
@@ -336,10 +340,6 @@ zh_TW:
     description: "{community} 的維基頁面"
   Bahia-telegram:
     extendedDescription: "加入社群學習更多關於開放街圖的事情，詢問問題或是參加聚會，歡迎所有人噢！"
-  Bay-Area-OpenStreetMappers:
-    name: 灣區的開放街圖圖客
-    description: 改善在灣區的開放街圖
-    extendedDescription: "這個群組是為了讓灣區的 OpenStreetMap 社群成長茁壯而設立。我們的活動開放給所有人參與，開放原始碼支持者、自行車騎士、地理資訊系統 (GIS) 專家、地理藏寶者都可以。只要對地圖、地圖製作與自由地圖資料有興趣的人都歡迎加入我們的群組，以及參與我們的活動。"
   bd-facebook:
     extendedDescription: "在孟加拉畫地圖嗎？想要問問題，想要與社群連結？請加入 {url}，所有人都歡迎噢！ "
   be-chapter:
@@ -350,11 +350,6 @@ zh_TW:
   be-matrix:
     description: 歡迎所有圖客！
     extendedDescription: "OSM 比利時社群主要的聊天室，不用拘束盡情問新手問題吧？"
-  be-meetup:
-    description: 實體聚會中見到每一位對開放街圖有興趣的人
-    extendedDescription: "實體的聚會是與其他圖客碰面的好機會，能夠論論問題，學到很多事情，特別是歡迎新的貢獻者。"
-  be-newsletter:
-    description: 比利時社群每季發行的電子報
   bg-wiki:
     description: 開放街圖維基專案保加利亞頁面
   bi-vc-cvl-meetup:
@@ -754,6 +749,9 @@ zh_TW:
     extendedDescription: "一開始 2011 年 3 月時有一群人在諾丁罕開始聚會，後來則大多在德比，以及不時在東密德蘭的其他地方。大多是社交性質的聚會，但也是相當好詢問有關地方 OSM 或是一般性質問題。在夏季時我們通常會趁有日光時在聚會場地附近出外畫地圖，這群人有個特別興趣，就是繪製公共空間，不時會為了畫地圖而聚會。"
   np-facebook:
     extendedDescription: "在尼泊爾畫地圖嗎？有問題，想要與社群互動？來 {url} 加入我們，歡迎所有人。"
+  Open-Source-San-Jose-Bluesky:
+    description: 在藍天追蹤開放源碼聖荷西
+    extendedDescription: 開放源碼聖荷西是在地推廣公民科技的程式碼與設計師志工的非營利組織，開放源碼聖荷西每兩週贊助在地圖客志工舉行兩週一次的南灣地圖之夜。
   Open-Source-San-Jose-Discord:
     name: 開源聖荷西的 Discord
     description: "在 Discord 與其他圖客交流！註冊之後，加入 #\U0001F5FAopenstreetmap 頻道。"
@@ -892,10 +890,6 @@ zh_TW:
     description: 我們協助喀拉拉邦的開放街圖成長茁壯並改善它。
   osm-kerala-wiki:
     description: "想要更瞭解在喀拉拉邦畫地圖的事情？{url}"
-  osm-malaga-zulip:
-    name: 開放街圖馬拉加
-    description: 馬拉加的開放街圖使用者群組
-    extendedDescription: "馬拉威的開放街圖在地社群，為了協調市區的共同繪製地圖事務的工作群組。"
   osm-mg-facebook:
     description: 馬達加斯加對開放街圖有興趣的人參與的 Facebook 社團。
   osm-michigan-wiki:
@@ -942,10 +936,6 @@ zh_TW:
   osm-sheffield-matrix:
     name: 開放街圖雪菲爾的 Matrix
     description: 有在繪製雪菲艾地圖的任何技能等級的圖客，而在地的社群聚會也會透過這個群組籌劃。
-  OSM-SoCal:
-    name: 開放街圖南加州
-    description: "讓我們玩樂吧，並且貢獻畫洛杉磯一帶，以及學習有關畫地圖的一切！"
-    extendedDescription: "開放街圖南加州擁抱任何對共同畫開放街圖有興趣的人。開放街圖是維基百科式運作的地圖，是全世界尺度自由開源的地圖，由全球超過 1,000,000 人的志工製作。我們歡迎所有人，如果你不大知道開放街圖，我們會教你，如果你有關於畫地圖計畫，甚至野外實察，也是很棒的事情！"
   OSM-Tampa-Bay:
     name: 開放街圖坦帕灣
     description: 坦帕灣的圖客與開放街圖使用者
@@ -1062,6 +1052,10 @@ zh_TW:
     extendedDescription: "在 irc.freenode.org 上面加入 #{account} "
   vn-wiki:
     description: "{community} Wiki 頁面"
+  Wikimedia-Bay-Area:
+    name: 維基媒體灣區
+    description: 在維基沙龍或維基咖啡館認識其他自由文化參與者。
+    extendedDescription: "維基媒體在地使用者群組聚集維基百科、維基數據、維基共享資源與開放街圖的自由文化參與者，一同在舊金山以及灣區其他地方舉行定期聚會。"
   YerCizenler-TR:
     name: Yer Çizenler
     description: Yer Çizenler 畫任何與人有關的事情
@@ -1167,10 +1161,6 @@ zh_TW:
     name: CSGU 圖客
     description: 古盧大學的年輕圖客分會
     extendedDescription: "CSGU 圖客是古盧大學電腦社，這個分會具有創新、熱情，以及準備好盡可能突破其他人的想像限制，來畫烏干達與世界的地圖。"
-  ym-Heidelberg-University:
-    name: 海德堡災難救災圖客
-    description: 海德堡大學的年輕圖客分會
-    extendedDescription: "海德堡災難救災圖客是由學生倡議，2014 年成立的。聚集學生、學者與人道救援者的交換平台，災難救災圖客是遺失地圖的成員，在海德堡組織圖客松、工作坊與線上論壇，並且透過研究與應用支援 HOT 與遺失地圖。"
   ym-Ignatius-Ajuru-University-of-Education:
     name: 伊格內修斯·阿朱魯教育大學圖客小組 (IMT)
     description: 伊格內修斯·阿朱魯教育大學的年輕圖客分會
