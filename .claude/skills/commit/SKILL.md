@@ -1,5 +1,7 @@
 ---
+name: commit
 description: Stage, commit, and push all changes in this repo
+disable-model-invocation: true
 argument-hint: commit detail to include, for example: `(closes ​#123)`
 ---
 
@@ -10,7 +12,7 @@ You are performing a git commit for this repo. Do the following steps in order:
 3. If there is nothing to stage, say so clearly and stop — do not create an empty commit
 4. Write a commit message that summarizes the recent work to a temp file, then run `git commit -F <tempfile>` and delete the temp file afterward.
    - Do NOT use `git commit -m` — multi-line messages with special characters break shell quoting.
-   - Do NOT use heredoc syntax (`<< 'EOF'`) — it interacts badly with the terminal tool.
+   - Do NOT use heredoc syntax (`<< 'EOF'`) — it interacts badly with some agents' terminal tools.
    - Instead, use `printf` to write the temp file, one `'line'` argument per line:
      ```
      printf '%s\n' 'First line' '' 'Second line' 'Third line' > /tmp/commitmsg.txt
@@ -22,4 +24,3 @@ You are performing a git commit for this repo. Do the following steps in order:
      printf '%s\n' 'First line' '' 'closes #123' > /tmp/commitmsg.txt
      ```
 5. Run `git push` to push commits up to the origin
-

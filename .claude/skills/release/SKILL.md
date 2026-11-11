@@ -1,13 +1,15 @@
 ---
+name: release
 description: Prepare a new release (CHANGELOG, version bump)
+disable-model-invocation: true
 argument-hint: version number, for example: `A.B.C` or `A.B.C-pre.D`
 ---
 
-If the user provided additional context with the prompt, treat it as an extra constraint or scope hint.
+You are preparing a release for this repo. The new release version is the argument the user passed when invoking this skill (e.g. `/release 1.2.3`), written as `VERSION` below. If no version was provided, ask the user for it and stop.
 
-You are preparing release **${input:version}** for this repo. Do the following steps in order:
+Do the following steps in order:
 
-1. **Confirm the version** — the new release version is `${input:version}`. Read `package.json` to verify this is a valid bump from the current version.
+1. **Confirm the version** — the new release version is `VERSION`. Read `package.json` to verify this is a valid bump from the current version.
    - The version must follow semver format, for example: `A.B.C` or `A.B.C-pre.D`
    - It must be strictly greater than the current version in `package.json`
    - If either check fails, stop immediately and explain the problem clearly — do not proceed with any further steps.
@@ -22,10 +24,10 @@ You are preparing release **${input:version}** for this repo. Do the following s
    ```
    https://github.com/{owner}/{repo}/pulls?q=is%3Apr+is%3Aclosed
    ```
-   Match each commit to its PR number.  PR titles listed there are authoritative — prefer them over raw commit messages.
+   Match each commit to its PR number. PR titles listed there are authoritative — prefer them over raw commit messages.
 
 4. **Update `CHANGELOG.md`** — insert a new section immediately above the previous release heading. Follow the existing format exactly:
-   - Header: `# ${input:version}`
+   - Header: `# VERSION`
    - Date: `##### YYYY-MMM-DD` (use today's date)
    - Bullet points for each user-visible change (features, fixes, improvements)
    - For bug/fix commits, write a plain bullet
@@ -33,4 +35,4 @@ You are preparing release **${input:version}** for this repo. Do the following s
    - Add reference links at the bottom of the section:
      - PR links: `[#NNN]: https://github.com/{owner}/{repo}/issues/NNN`
 
-5. **Update `package.json`** — set `"version"` to `"${input:version}"`.
+5. **Update `package.json`** — set `"version"` to `"VERSION"`.

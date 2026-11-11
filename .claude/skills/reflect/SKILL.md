@@ -1,5 +1,6 @@
 ---
-description: Reflect on recent work and bring all project documentation up to date
+name: reflect
+description: Reflect on recent work and bring all project documentation up to date. Use after landing a chunk of work, or when asked to update docs, agent instructions, or working memory.
 argument-hint: additional optional context
 ---
 
@@ -18,5 +19,5 @@ If the user provided additional context with the prompt, treat it as a focus are
 
 - Inline documentation (JSDoc, comments)
 - Markdown files (`README`, design docs, contributing guides)
-- Agent instructions (`AGENTS.md`, `copilot-instructions`, etc.)
+- Agent instructions and skills (`AGENTS.md`, `.claude/skills/`, `copilot-instructions`, etc.)
 - Working memory — e.g. `SCRATCHPAD.md`, `.scratchpad/*`, or whatever convention this project uses (see `AGENTS.md`)

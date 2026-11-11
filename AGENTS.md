@@ -10,9 +10,9 @@ At session start, skim [`README.md`](README.md) and [`CONTRIBUTING.md`](CONTRIBU
 
 If a `SCRATCHPAD.md` file exists at the repo root (gitignored), read it at session start for additional context on recent work, lessons learned, and known quirks. Update it as you work with any learnings that a future session would benefit from knowing. Don't create one proactively — only when there's something worth persisting.
 
-## Prompt Files
+## Skills
 
-This project has reusable Copilot prompt files in `.github/prompts/`. Your editor surfaces them via the `/` menu (or equivalent). When a task matches an existing prompt, prefer invoking it over improvising — the prompts encode project-specific conventions.
+This project has reusable agent skills in `.claude/skills/`: one folder per skill, each with a `SKILL.md` in the open Agent Skills format. Claude Code and VS Code Copilot both find them there and list them in the `/` menu (or equivalent). When a task matches an existing skill, prefer invoking it over improvising — the skills encode project-specific conventions.
 
 ## General Guidelines
 
