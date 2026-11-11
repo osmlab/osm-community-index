@@ -305,7 +305,7 @@ async function collectResources(loco: LocationConflation): Promise<Record<string
     if (item.languageCodes)        { obj.languageCodes = item.languageCodes.sort(withLocale); }
     if (item.order !== undefined)  { obj.order = item.order; }
 
-    const objStrings: OciResourceStrings & { communityID?: string } = {};
+    const objStrings: OciResourceStrings = {};
     obj.strings = objStrings;
 
     // If this item has a "community name" string, generate `communityID` and store it.
@@ -424,41 +424,41 @@ function convertURLs(item: OciResource): void {
   let matchUrl;
 
   if (item.type === 'aparat') {
-    matchUrl = url.match(/aparat.com\/([\-A-Za-z0-9_.]+)\/?$/i);
+    matchUrl = url.match(/(?:^|[\/.])aparat\.com\/([\-A-Za-z0-9_.]+)\/?$/i);
   } else if (item.type === 'bluesky') {
-    matchUrl = url.match(/bsky.app\/profile\/([\-A-Za-z0-9_.]+)\/?$/i);
+    matchUrl = url.match(/(?:^|[\/.])bsky\.app\/profile\/([\-A-Za-z0-9_.]+)\/?$/i);
   } else if (item.type === 'discord') {
-    matchUrl = url.match(/discord.gg\/(\w+)\/?$/i);
+    matchUrl = url.match(/(?:^|[\/.])discord\.gg\/(\w+)\/?$/i);
   } else if (item.type === 'facebook') {
-    matchUrl = url.match(/facebook.com\/([\-A-Za-z0-9_.]+)\/?$/i);
+    matchUrl = url.match(/(?:^|[\/.])facebook\.com\/([\-A-Za-z0-9_.]+)\/?$/i);
   } else if (item.type === 'forum') {
-    matchUrl = url.match(/forum.openstreetmap.org\/viewforum.php\?id=(\d+)\/?$/i);
+    matchUrl = url.match(/(?:^|[\/.])forum\.openstreetmap\.org\/viewforum\.php\?id=(\d+)\/?$/i);
   } else if (item.type === 'github') {
-    matchUrl = url.match(/github.com\/([\-A-Za-z0-9_.]+)\/?$/i);
+    matchUrl = url.match(/(?:^|[\/.])github\.com\/([\-A-Za-z0-9_.]+)\/?$/i);
   } else if (item.type === 'gitlab') {
-    matchUrl = url.match(/gitlab.com\/([\-A-Za-z0-9_.]+)\/?$/i);
+    matchUrl = url.match(/(?:^|[\/.])gitlab\.com\/([\-A-Za-z0-9_.]+)\/?$/i);
   } else if (item.type === 'instagram') {
-    matchUrl = url.match(/instagram.com\/([\-A-Za-z0-9_.]+)\/?$/i);
+    matchUrl = url.match(/(?:^|[\/.])instagram\.com\/([\-A-Za-z0-9_.]+)\/?$/i);
   } else if (item.type === 'irc') {
-    matchUrl = url.match(/webchat.oftc.net\/\?channels=([\-A-Za-z0-9_]+)\/?$/i);
+    matchUrl = url.match(/(?:^|[\/.])webchat\.oftc\.net\/\?channels=([\-A-Za-z0-9_]+)\/?$/i);
   } else if (item.type === 'linkedin') {
-    matchUrl = url.match(/linkedin.com\/company\/([\-A-Za-z0-9_.]+)\/?$/i);
+    matchUrl = url.match(/(?:^|[\/.])linkedin\.com\/company\/([\-A-Za-z0-9_.]+)\/?$/i);
   } else if (item.type === 'mailinglist') {
-    matchUrl = url.match(/lists.openstreetmap.org\/listinfo\/([\-A-Za-z0-9_]+)\/?$/i);
+    matchUrl = url.match(/(?:^|[\/.])lists\.openstreetmap\.org\/listinfo\/([\-A-Za-z0-9_]+)\/?$/i);
   } else if (item.type === 'meetup') {
-    matchUrl = url.match(/meetup.com\/([\-A-Za-z0-9_]+)\/?$/i);
+    matchUrl = url.match(/(?:^|[\/.])meetup\.com\/([\-A-Za-z0-9_]+)\/?$/i);
   } else if (item.type === 'telegram') {
-    matchUrl = url.match(/t.me\/([\-A-Za-z0-9_]+)\/?$/i);
+    matchUrl = url.match(/(?:^|[\/.])t\.me\/([\-A-Za-z0-9_]+)\/?$/i);
   } else if (item.type === 'threads') {
-    matchUrl = url.match(/threads.net\/@([\-A-Za-z0-9_.]+)\/?$/i);
+    matchUrl = url.match(/(?:^|[\/.])threads\.net\/@([\-A-Za-z0-9_.]+)\/?$/i);
   } else if (item.type === 'tiktok') {
-    matchUrl = url.match(/tiktok.com\/@([\-A-Za-z0-9_.]+)\/?$/i);
+    matchUrl = url.match(/(?:^|[\/.])tiktok\.com\/@([\-A-Za-z0-9_.]+)\/?$/i);
   } else if (item.type === 'twitter' || item.type === 'x') {
-    matchUrl = url.match(/(?:twitter|x).com\/([\-A-Za-z0-9_.]+)\/?$/i);
+    matchUrl = url.match(/(?:^|[\/.])(?:twitter|x)\.com\/([\-A-Za-z0-9_.]+)\/?$/i);
   } else if (item.type === 'whatsapp') {
-    matchUrl = url.match(/chat.whatsapp.com\/([\-A-Za-z0-9_]+)\/?$/i);
+    matchUrl = url.match(/(?:^|[\/.])chat\.whatsapp\.com\/([\-A-Za-z0-9_]+)\/?$/i);
   } else if (item.type === 'youtube') {
-    matchUrl = url.match(/youtube.com\/channel\/([\-A-Za-z0-9_.]+)\/?$/i);
+    matchUrl = url.match(/(?:^|[\/.])youtube\.com\/channel\/([\-A-Za-z0-9_.]+)\/?$/i);
   }
 
   if (matchUrl && matchUrl[1]) {

@@ -1,23 +1,16 @@
 import { simplify } from './simplify.ts';
+import type { OciDefaults, OciResourceStrings } from './types.ts';
 
-export interface ItemStrings {
-  community: string;
-  communityID: string;
-  name: string;
-  description: string;
-  extendedDescription: string;
-  signupUrl: string;
-  url: string;
-};
+export type ItemStrings = Required<OciResourceStrings>;
 
 export interface Item {
   id: string;
   type: string;
   account?: string | undefined | null;
-  strings: Partial<ItemStrings>;
+  strings: OciResourceStrings;
 };
 
-export type Defaults = Record<string, Partial<ItemStrings>>;
+export type Defaults = OciDefaults;
 
 export interface ResolvedStrings {
   name: string | undefined;

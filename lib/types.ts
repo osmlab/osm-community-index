@@ -58,7 +58,7 @@ export interface OciResource {
 
 
 /** Shape of `src/defaults.json` — keyed by resource type. */
-export type OciDefaults = Record<string, Partial<OciResourceStrings>>;
+export type OciDefaults = Record<string, OciResourceStrings>;
 
 
 /** Translation strings collected during the JSON build. */

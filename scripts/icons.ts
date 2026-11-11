@@ -44,7 +44,7 @@ console.time(END);
 for (const [key, path] of Object.entries(toCopy)) {
   // copy and remove the comments
   const contents = await Bun.file(`node_modules/@fortawesome/fontawesome-free/svgs/${path}.svg`).text();
-  Bun.write(`dist/img/${key}.svg`, contents.replace(/<!--[\s\S\n]*?-->/g, ''));
+  await Bun.write(`dist/img/${key}.svg`, contents.replace(/<!--[\s\S\n]*?-->/g, ''));
   console.log(styleText('yellow', `${key}.svg`));
 }
 

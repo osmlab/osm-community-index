@@ -15,7 +15,7 @@ export function sortObject<T extends Record<string, unknown>>(obj: T): T | null 
   const keys = Object.keys(obj).sort(withLocale);
   for (const k of keys) {
     const v = obj[k];
-    sorted[k] = Array.isArray(v) ? v.sort(withLocale) : v;
+    sorted[k] = Array.isArray(v) ? v.toSorted(withLocale) : v;
   }
 
   return sorted as T;
