@@ -14,13 +14,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v7
     - name: Setup Bun
       uses: oven-sh/setup-bun@v2
       with:
         bun-version: latest
     - run: bun install
-    - run: |
-        echo "::remove-matcher owner=eslint-compact::"
-        echo "::remove-matcher owner=eslint-stylish::"
     - run: bun run all

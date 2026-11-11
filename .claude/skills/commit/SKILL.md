@@ -1,11 +1,17 @@
 ---
 name: commit
-description: Stage, commit, and push all changes in this repo
+description: Stage and commit all changes in this repo
 disable-model-invocation: true
-argument-hint: commit detail to include, for example: `(closes ​#123)`
+argument-hint: "commit details or instructions, for example: `and push`, `closes #123`"
 ---
 
-You are performing a git commit for this repo. Do the following steps in order:
+You are performing a git commit for this repo.
+
+If the user passed an argument, it can hold commit details, instructions, or both:
+- **Commit details** (e.g. `closes #123`) go in the commit message, as described in step 4.
+- **Instructions** (e.g. `and push`, `only the README changes`) are for you to follow. Don't put them in the commit message.
+
+Do the following steps in order:
 
 1. Run `git status` to see what's modified
 2. Run `git add -A` to stage everything (`.gitignore` already excludes transient runtime files)
@@ -19,8 +25,8 @@ You are performing a git commit for this repo. Do the following steps in order:
      git commit -F /tmp/commitmsg.txt
      rm -f /tmp/commitmsg.txt
      ```
-   - If a commit detail argument was provided (e.g. `closes #123`), include it on its own line after the first line (subject), separated by a blank line:
+   - If commit details were provided (e.g. `closes #123`), include them on their own line after the first line (subject), separated by a blank line:
      ```
      printf '%s\n' 'First line' '' 'closes #123' > /tmp/commitmsg.txt
      ```
-5. Run `git push` to push commits up to the origin
+5. Only push if the user asked to (e.g. `/commit and push`). Otherwise stop after committing, so the user can review or amend the commit first.

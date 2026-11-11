@@ -52,7 +52,8 @@ If the user provided extra context with the prompt (e.g. "only sync skills", "fo
 After all files are processed:
 
 1. If `package.json` exists, verify `license` and `repository` fields are correct.
-2. Flag any files that were synced previously (have a row in `.sync.manifest.md`) but are no longer in the source manifest.
+2. If `LICENSE.md` exists, check its copyright year on every run, even if the file was skipped in Phase 2 — the version check alone would never pick up a new year. Follow the year rule in the source manifest's `LICENSE.md` instructions.
+3. Flag any files that were synced previously (have a row in `.sync.manifest.md`) but are no longer in the source manifest.
 
 ## Reporting
 
