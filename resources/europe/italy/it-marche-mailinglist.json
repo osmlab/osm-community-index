@@ -1,10 +1,18 @@
 {
   "id": "talk-it-marche_mailinglist",
-  "i18n": true,
   "type": "mailinglist",
+  "account": "talk-it-marche",
   "locationSet": {"include": ["marche.geojson"]},
   "languageCodes": ["it"],
-  "signupUrl": "https://lists.openstreetmap.org/listinfo/talk-it-marche",
-  "contacts": [{"name": "Owner", "email": "talk-it-marche-owner@openstreetmap.org"}],
-  "order": 2
+  "order": 2,
+  "strings": {
+    "community": "OpenStreetMap Marche",
+    "communityID": "openstreetmapmarche"
+  },
+  "contacts": [
+    {
+      "name": "Owner",
+      "email": "talk-it-marche-owner@openstreetmap.org"
+    }
+  ]
 }

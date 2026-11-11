@@ -6,6 +6,7 @@ en:
     mapeadoresivides: Mapeadores IVIDES
     mappingbotswana: Mapping Botswana
     maptimebogota: MaptimeBogota
+    mapwyrcymru: Mapwyr Cymru
     opensourcesanjose: Open Source San José
     openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap Aachen
@@ -126,6 +127,7 @@ en:
     openstreetmapmalaysia: OpenStreetMap Malaysia
     openstreetmapmali: OpenStreetMap Mali
     openstreetmapmalta: OpenStreetMap Malta
+    openstreetmapmarche: OpenStreetMap Marche
     openstreetmapmauritania: OpenStreetMap Mauritania
     openstreetmapmecklenburgvorpommern: OpenStreetMap Mecklenburg-Vorpommern
     openstreetmapmexico: OpenStreetMap Mexico
@@ -178,6 +180,7 @@ en:
     openstreetmapsudan: OpenStreetMap Sudan
     openstreetmapsweden: OpenStreetMap Sweden
     openstreetmapswitzerland: OpenStreetMap Switzerland
+    openstreetmapsyria: OpenStreetMap Syria
     openstreetmaptaiwan: OpenStreetMap Taiwan
     openstreetmaptanzania: OpenStreetMap Tanzania
     openstreetmapthailand: OpenStreetMap Thailand
@@ -347,14 +350,13 @@ en:
     extendedDescription: "If you want to help to improve and grow the mapping community in Belgium, to make even more people crazy about mapping, OpenStreetMap Belgium is the right place for you!"
   be-discourse:
     description: A Forum to discuss OpenStreetMap in Belgium
+  be-github:
+    description: "{community} GitHub Account"
   be-matrix:
     description: All mappers are welcome!
     extendedDescription: "Main chatroom of the Belgian OSM community. Don't hesitate to ask beginner questions here!"
-  be-meetup:
-    description: Real life meetups of everyone who is interested in OpenStreetMap
-    extendedDescription: "Physical meetups are great to meet other mappers, ask them questions and to learn a lot. Especially new contributors are very welcome!"
   be-newsletter:
-    description: Quarterly newsletter of the Belgian community
+    description: Newsletter of the Belgian community
   bg-wiki:
     description: Wikiproject page for Bulgaria
   bi-vc-cvl-meetup:
@@ -374,6 +376,8 @@ en:
     extendedDescription: "This is the official handle for the Youth Mappers chapter of the University of Cape Coast, Ghana. we love maps, open data and helping the vulnerable."
   castilla-y-leon-wiki:
     description: "Everything you need to know about mapping in Castile and Leon: {url}"
+  cat-chapter:
+    description: The official Local Chapter for the Catalan Countries.
   cat-github:
     description: Projects from the OpenStreetMap Catalan Countries community on GitHub
   cat-matrix:
@@ -616,6 +620,8 @@ en:
     description: A Forum to discuss OpenStreetMap in Italy
   it-emilia-romagna-telegram:
     description: "Everybody is welcome! You can enter the chat with this link: {url}"
+  it-marche-telegram:
+    description: "Group for mappers from Marche region. You can enter the chat with this link: {url}"
   it-veneto-telegram:
     description: "Group for editors in the Veneto region. You can enter the chat using this link: {url}"
   ivides_website:
@@ -895,10 +901,6 @@ en:
     description: We help grow and improve OpenStreetMap in Kerala.
   osm-kerala-wiki:
     description: "Want to know more about Kerala Mapping? {url}"
-  osm-malaga-zulip:
-    name: OSM Málaga
-    description: Local OpenStreetMap group in Málaga
-    extendedDescription: "Workspace for the local OpenStreetMap group in Málaga, dedicated to coordinating collaborative mapping in the municipality."
   osm-mg-facebook:
     description: Malagasy Facebook group for people interested in OpenStreetMap.
   osm-michigan-wiki:
@@ -949,6 +951,12 @@ en:
     name: OpenStreetMap Southern California
     description: "Let's have some fun, contribute something to Los Angeles, and learn about mapping!"
     extendedDescription: "OpenStreetMap (OSM) Southern California is for anyone interested in mapping to get together to work with OpenStreetMap.  OpenStreetMap, the Wikipedia of maps, is a free open-source map of the world being created by more than 1,000,000 volunteers around the globe.  Everyone is welcome.  If you don't know OpenStreetMap, we'll teach you. If you have an idea for a mapping project or even a field trip that the group can do, great!"
+  osm-syria-github:
+    description: "Code with us! {url}"
+  osm-syria-website:
+    description: "The official website of the OpenStreetMap Syria community. Discover mapping projects, community activities, and ways to contribute."
+  osm-syria-wiki:
+    description: The OpenStreetMap Wiki page for Syria.
   OSM-Tampa-Bay:
     name: OpenStreetMap Tampa Bay
     description: Mappers and OpenStreetMap users in the Tampa Bay area
@@ -986,6 +994,10 @@ en:
     extendedDescription: "OSMF supports the OpenStreetMap project by fundraising, maintaining the servers which power OSM, organizing the annual State of the Map conference, and coordinating the volunteers who keep OSM running. You can show your support and have a voice in the direction of OpenStreetMap by joining as an OSMF member here: {signupUrl}"
   OSMFR-Mastodon:
     name: "Compte Mastodon d'OpenStreetMap France"
+  osmmalaga-zulip:
+    name: OSM Málaga
+    description: Local OpenStreetMap group in Málaga
+    extendedDescription: "Workspace for the local OpenStreetMap group in Málaga, dedicated to coordinating collaborative mapping in the municipality."
   ph-facebook-group:
     name: "{community} Facebook Group"
   PHXGeo-meetup:
@@ -1065,6 +1077,8 @@ en:
     extendedDescription: "Join #{account} on irc.freenode.org"
   vn-wiki:
     description: "{community} Wiki page"
+  wales:
+    description: We help improve OpenStreetMap in Wales.
   Wikimedia-Bay-Area:
     name: Wikimedia Bay Area
     description: Meet other free culture enthusiasts at a WikiSalon or Wiki Café
@@ -1174,10 +1188,6 @@ en:
     name: CSGU Mappers
     description: YouthMappers chapter at Gulu University
     extendedDescription: "The CSGU Mappers are the Computing Society at Gulu University. This chapter is creative, passionate, innovative and ready to map Uganda and the world at large, beyond other people's imagination."
-  ym-Heidelberg-University:
-    name: disastermappers heidelberg
-    description: YouthMappers chapter at Heidelberg University
-    extendedDescription: "Disastermappers Heidelberg was founded in 2014 as a student initiative to build a platform for exchange between students, researchers and humanitarian actors. Disastermappers are a member of Missing Maps and are organizing mapathons, workshops and webinars in Heidelberg and beyond and support HOT and Missing Maps through research and applications."
   ym-Ignatius-Ajuru-University-of-Education:
     name: IgnatiusMappersTeam (IMT)
     description: YouthMappers chapter at Ignatius Ajuru University of Education
