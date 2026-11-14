@@ -1,5 +1,5 @@
 import { describe, it } from 'bun:test';
-import { strict as assert } from 'bun:assert';
+import { strict as assert } from 'node:assert';
 import { resolveStrings } from '../src/oci.ts';
 
 
@@ -48,14 +48,14 @@ describe('resolveStrings', () => {
 
 
   it('localized', () => {
-    const stringids = {
+    const stringids: Record<string, string> = {
       'talk-ru.name': 'переопределить имя',
       '_communities.openstreetmaprussia': 'OpenStreetMap Россия',
       '_defaults.mailinglist.name': '{account} Список рассылки',
       '_defaults.mailinglist.description': 'Официальный список рассылки для {community}',
       '_defaults.mailinglist.extendedDescription': 'Время развлечений для всех на {url}'
     };
-    const localizer = (id) => stringids[id];
+    const localizer = (id: string): string => stringids[id] ?? id;
 
     const resolved = resolveStrings(item, defaults, localizer);
     assert.ok(resolved instanceof Object);

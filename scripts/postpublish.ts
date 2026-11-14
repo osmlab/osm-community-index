@@ -15,7 +15,7 @@ if (match?.[1]) {
 }
 
 
-postpublish();
+await postpublish();
 
 async function postpublish() {
   const START = '🏗   ' + styleText('yellow', 'Running postpublish…');

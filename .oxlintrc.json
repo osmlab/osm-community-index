@@ -99,12 +99,6 @@
       "globals": {
         "Bun": "readonly"
       }
-    },
-    {
-      "files": ["**/*.js"],
-      "rules": {
-        "no-redeclare": ["error", { "builtinGlobals": true }]
-      }
     }
   ]
 }

@@ -5,12 +5,9 @@ const withLocale = new Intl.Collator('en-US').compare;  // specify 'en-US' for s
  * This is useful for producing deterministic JSON output for file diffing.
  *
  * @param   obj - The input object to sort
- * @returns A new object with sorted keys and sorted array values, or `null` if the input is falsy.
+ * @returns A new object with sorted keys and sorted array values.
  */
-export function sortObject<T extends object>(obj: T): T;
-export function sortObject<T extends Record<string, unknown>>(obj: T): T | null {
-  if (!obj) return null;
-
+export function sortObject<T extends Record<string, unknown>>(obj: T): T {
   const sorted: Record<string, unknown> = {};
   const keys = Object.keys(obj).sort(withLocale);
   for (const k of keys) {

@@ -5,7 +5,7 @@ const CDNRoot = 'https://cdn.jsdelivr.net/npm/osm-community-index';
 const packageJSON = await Bun.file('./package.json').json();
 
 
-prepublish();
+await prepublish();
 
 async function prepublish() {
   const START = '🏗   ' + styleText('yellow', 'Running prepublish…');

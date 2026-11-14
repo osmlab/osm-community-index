@@ -87,38 +87,40 @@ export function resolveStrings(item: Item, defaults: Defaults, localizerFn?: Loc
   if (!replacements.signupUrl)  { replacements.signupUrl = resolve(itemStrings.signupUrl || defaultStrings.signupUrl); }
   if (!replacements.url)        { replacements.url = resolve(itemStrings.url || defaultStrings.url); }
 
-  const resolved = {
-    name:                resolve(itemStrings.name || defaultStrings.name),
-    url:                 resolve(itemStrings.url || defaultStrings.url),
-    signupUrl:           resolve(itemStrings.signupUrl || defaultStrings.signupUrl),
-    description:         resolve(itemStrings.description || defaultStrings.description),
-    extendedDescription: resolve(itemStrings.extendedDescription || defaultStrings.extendedDescription)
-  } as ResolvedStrings;
+  const name = resolve(itemStrings.name || defaultStrings.name);
+  const url = resolve(itemStrings.url || defaultStrings.url);
+  const signupUrl = resolve(itemStrings.signupUrl || defaultStrings.signupUrl);
 
-  // Generate linkified strings
-  resolved.nameHTML = linkify(resolved.url, resolved.name);
-  resolved.urlHTML = linkify(resolved.url);
-  resolved.signupUrlHTML = linkify(resolved.signupUrl);
-  resolved.descriptionHTML = resolve((itemStrings.description || defaultStrings.description), true);
-  resolved.extendedDescriptionHTML = resolve((itemStrings.extendedDescription || defaultStrings.extendedDescription), true);
+  return {
+    name:                     name,
+    url:                      url,
+    signupUrl:                signupUrl,
+    description:              resolve(itemStrings.description || defaultStrings.description),
+    extendedDescription:      resolve(itemStrings.extendedDescription || defaultStrings.extendedDescription),
 
-  return resolved;
+    // Generate linkified strings
+    nameHTML:                 linkify(url, name),
+    urlHTML:                  linkify(url),
+    signupUrlHTML:            linkify(signupUrl),
+    descriptionHTML:          resolve((itemStrings.description || defaultStrings.description), true),
+    extendedDescriptionHTML:  resolve((itemStrings.extendedDescription || defaultStrings.extendedDescription), true)
+  };
 
 
   function resolve(s?: string, addLinks?: boolean): string | undefined {
     if (!s) return undefined;
     let result = s;
 
-    for (const key in replacements) {
+    for (const [key, value] of Object.entries(replacements)) {
       const token = `{${key}}`;
       const regex = new RegExp(token, 'g');
       if (regex.test(result)) {
-        let replacement = replacements[key as keyof typeof replacements];
+        let replacement = value;
         if (!replacement) {
           throw new Error(`Cannot resolve token: ${token}`);
         } else {
           if (addLinks && (key === 'signupUrl' || key === 'url')) {
-            replacement = linkify(replacement) ?? replacement;
+            replacement = linkify(replacement);
           }
           result = result.replace(regex, replacement);
         }
@@ -134,13 +136,15 @@ export function resolveStrings(item: Item, defaults: Defaults, localizerFn?: Loc
     // Linkify subreddits like `/r/openstreetmap`
     // https://github.com/osmlab/osm-community-index/issues/82
     // https://github.com/openstreetmap/iD/issues/4997
-    if (addLinks && resolved.url && item.type === 'reddit') {
-      result = result.replace(/(\/r\/\w+\/*)/i, match => linkify(resolved.url, match) as string);
+    if (addLinks && url && item.type === 'reddit') {
+      result = result.replace(/(\/r\/\w+\/*)/i, match => linkify(url, match));
     }
 
     return result;
   }
 
+  function linkify(url: string, text?: string): string;
+  function linkify(url?: string, text?: string): string | undefined;
   function linkify(url?: string, text?: string): string | undefined {
     if (!url) return undefined;
     text = text || url;

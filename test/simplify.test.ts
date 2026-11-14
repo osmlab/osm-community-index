@@ -1,5 +1,5 @@
 import { describe, it } from 'bun:test';
-import { strict as assert } from 'bun:assert';
+import { strict as assert } from 'node:assert';
 import { simplify } from '../src/oci.ts';
 
 
@@ -47,7 +47,9 @@ describe('simplify', () => {
 
   it('returns empty string if no input', () => {
     assert.equal(simplify(), '');
+    // @ts-expect-error -- testing invalid input from untyped callers
     assert.equal(simplify(null), '');
+    // @ts-expect-error -- testing invalid input from untyped callers
     assert.equal(simplify({}), '');
   });
 

@@ -15,7 +15,12 @@ import { sortObject } from '../lib/sort_object.ts';
 import { simplify } from '../lib/simplify.ts';
 
 import type { OciDefaults, OciResource, OciResourceStrings, OciTranslationStrings } from '../lib/types.ts';
-import type { LocationSet } from '@rapideditor/location-conflation';
+import type { LocationSet, LocoFeature, LocoProperties } from '@rapideditor/location-conflation';
+
+/** A resolved feature with the resources that use it, as written to `completeFeatureCollection.json`. */
+interface CombinedFeature extends LocoFeature {
+  properties: LocoProperties & { resources: Record<string, OciResource> };
+}
 
 const withLocale = new Intl.Collator('en-US').compare;  // specify 'en-US' for stable sorting
 
@@ -34,7 +39,7 @@ let _defaults: OciDefaults = {};
 let _features: GeoJSON.Feature[] = [];
 let _resources: Record<string, OciResource> = {};
 
-buildAll();
+await buildAll();
 
 
 /**
@@ -264,8 +269,8 @@ async function collectResources(loco: LocationConflation): Promise<Record<string
     item.locationSet = item.locationSet || {};
     try {
       const resolved = loco.resolveLocationSet(item.locationSet);
-      if (!resolved || !resolved.feature.geometry?.coordinates.length || !resolved.feature.properties?.area) {
-        throw new Error(`locationSet ${resolved?.id} resolves to an empty feature.`);
+      if (!resolved.feature.geometry.coordinates.length || !resolved.feature.properties.area) {
+        throw new Error(`locationSet ${resolved.id} resolves to an empty feature.`);
       }
     } catch (err: unknown) {
       const message = err instanceof Error ? err.message : String(err);
@@ -331,9 +336,8 @@ async function collectResources(loco: LocationConflation): Promise<Record<string
     if (item.contacts)  { obj.contacts = item.contacts; }
     if (item.events)    { obj.events = item.events; }
 
-    item = obj as unknown as OciResource;
-
-    validateFile(filepath, item, resourceSchemaJSON);
+    validateFile<OciResource>(filepath, obj, resourceSchemaJSON);
+    item = obj;
     await prettifyFile(filepath, item, contents);
 
     const itemID = item.id;
@@ -418,7 +422,7 @@ async function collectResources(loco: LocationConflation): Promise<Record<string
  * @param item - The resource to mutate.
  */
 function convertURLs(item: OciResource): void {
-  const url = item.strings && item.strings.url;
+  const url = item.strings.url;
   if (!url) return;
 
   let matchUrl;
@@ -472,13 +476,13 @@ function convertURLs(item: OciResource): void {
  * Validates `resource` against a JSON schema and exits the process on failure.
  *
  * On validation failure, prints each error (prefixed with the source file path)
- * and calls `process.exit(1)`.
+ * and calls `process.exit(1)`. On success, narrows `resource` to `T`.
  *
  * @param file - Source file path, used in error messages.
  * @param resource - The parsed object to validate.
  * @param schema - The JSON schema to validate against.
  */
-function validateFile(file: string, resource: unknown, schema: Schema): void {
+function validateFile<T>(file: string, resource: unknown, schema: Schema): asserts resource is T {
   const validationErrors = v.validate(resource, schema).errors;
   if (validationErrors.length) {
     console.error(styleText('red', 'Error - Schema validation:'));
@@ -548,26 +552,24 @@ async function prettifyFile(file: string, object: unknown, contents: string): Pr
  * ```
  */
 function generateCombined(loco: LocationConflation): GeoJSON.FeatureCollection {
-  const keepFeatures: Record<string, GeoJSON.Feature> = {};
+  const keepFeatures: Record<string, CombinedFeature> = {};
 
-  Object.keys(_resources).forEach(resourceID => {
-    const resource = _resources[resourceID];
-    if (!resource) return;
-    const feature = loco.resolveLocationSet(resource.locationSet)!.feature;
+  for (const [resourceID, resource] of Object.entries(_resources)) {
+    const feature = loco.resolveLocationSet(resource.locationSet).feature;
     const featureID = String(feature.id);
 
     let keepFeature = keepFeatures[featureID];
     if (!keepFeature) {
-      keepFeature = structuredClone(feature);
-      (keepFeature.properties as GeoJSON.GeoJsonProperties & { resources: Record<string, unknown> }).resources = {};
+      const clone = structuredClone(feature);
+      keepFeature = { ...clone, properties: { ...clone.properties, resources: {} } };
       keepFeatures[featureID] = keepFeature;
     }
 
     const item = structuredClone(resource);
     item.resolved = resolveStrings(item, _defaults);
 
-    (keepFeature.properties as GeoJSON.GeoJsonProperties & { resources: Record<string, unknown> }).resources[resourceID] = item;
-  });
+    keepFeature.properties.resources[resourceID] = item;
+  }
 
   return { type: 'FeatureCollection', features: Object.values(keepFeatures) };
 }
