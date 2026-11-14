@@ -18,6 +18,21 @@ _Breaking changes, which may affect downstream projects, are marked with a_ ⚠�
 
 [#xxx]: https://github.com/osmlab/osm-community-index/issues/xxx
 -->
+# 7.0.0
+##### 2026-Nov-14
+* ⚠️ Published as an ES module only ([#885])
+  * The CommonJS bundle `dist/js/oci.cjs` is removed. `require()` now loads `dist/js/oci.mjs`, which works on Node 20.19+ or 22.12+.
+  * TypeScript types now work for consumers on TypeScript 7, which doesn't load `@types/*` packages automatically. Bump to location-conflation v4.0.0.
+* Developer tooling: replace ESLint with oxlint ([#883]), upgrade to TypeScript 7 and type-check the tests ([#884]), and lint the packed package with publint and arethetypeswrong ([#885]). The build no longer mistakes a URL like `dropbox.com` for `x.com` when extracting accounts.
+* Added:
+  * OSM Dundee Signal group ([#882])
+
+[#882]: https://github.com/osmlab/osm-community-index/issues/882
+[#883]: https://github.com/osmlab/osm-community-index/issues/883
+[#884]: https://github.com/osmlab/osm-community-index/issues/884
+[#885]: https://github.com/osmlab/osm-community-index/issues/885
+
+
 # 6.2.1
 ##### 2026-Nov-11
 * Added:
