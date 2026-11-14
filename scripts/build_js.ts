@@ -13,16 +13,6 @@ await Promise.all([
     entrypoints: ['./src/oci.ts'],
     outdir: './dist/js',
     target: 'node',
-    format: 'cjs',
-    packages: 'external',
-    sourcemap: 'linked',
-    naming: 'oci.c[ext]'  // .cjs
-  }),
-
-  Bun.build({
-    entrypoints: ['./src/oci.ts'],
-    outdir: './dist/js',
-    target: 'node',
     format: 'esm',
     packages: 'external',
     sourcemap: 'linked',

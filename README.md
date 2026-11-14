@@ -31,6 +31,12 @@ Anything that mappers, especially beginners, might find interesting or helpful.
 See [the project wiki](https://github.com/osmlab/osm-community-index/wiki) for details.
 
 
+## Using the package
+
+`osm-community-index` is published as an ES module. Load it with `import`, or with `require()` on Node 20.19+ or 22.12+.
+For `<script>` tags, use the browser bundle at `dist/js/oci.iife.js`, which sets a global `oci`.
+
+
 ## Contributing
 
 See the [CONTRIBUTING.md](CONTRIBUTING.md) file for more info.

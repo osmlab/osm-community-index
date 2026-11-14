@@ -21,6 +21,7 @@ import defaultsJSON from '../src/defaults.json' with { type: 'json' };
 
 import type { OciDefaults, OciResource, OciResourceStrings, OciTranslationStrings } from '../lib/types.ts';
 import type { LocationSet, LocoFeature, LocoProperties } from '@rapideditor/location-conflation';
+import type * as GeoJSON from 'geojson';
 
 /** A resolved feature with the resources that use it, as written to `completeFeatureCollection.json`. */
 interface CombinedFeature extends LocoFeature {
