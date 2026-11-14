@@ -14,6 +14,11 @@ import { resolveStrings } from '../lib/resolve_strings.ts';
 import { sortObject } from '../lib/sort_object.ts';
 import { simplify } from '../lib/simplify.ts';
 
+import geojsonSchemaJSON from '../schema/geojson.json' with { type: 'json' };
+import featureSchemaJSON from '../schema/feature.json' with { type: 'json' };
+import resourceSchemaJSON from '../schema/resource.json' with { type: 'json' };
+import defaultsJSON from '../src/defaults.json' with { type: 'json' };
+
 import type { OciDefaults, OciResource, OciResourceStrings, OciTranslationStrings } from '../lib/types.ts';
 import type { LocationSet, LocoFeature, LocoProperties } from '@rapideditor/location-conflation';
 
@@ -23,11 +28,6 @@ interface CombinedFeature extends LocoFeature {
 }
 
 const withLocale = new Intl.Collator('en-US').compare;  // specify 'en-US' for stable sorting
-
-// JSON
-const geojsonSchemaJSON = await Bun.file('schema/geojson.json').json();
-const featureSchemaJSON = await Bun.file('schema/feature.json').json();
-const resourceSchemaJSON = await Bun.file('schema/resource.json').json();
 
 const Validator = jsonschema.Validator;
 const v = new Validator();
@@ -58,7 +58,7 @@ async function buildAll(): Promise<void> {
   console.time(END);
 
   // Defaults
-  _defaults = await collectDefaults();
+  _defaults = collectDefaults();
   await Bun.write('./dist/json/defaults.json', stringify({ defaults: sortObject(_defaults) }) + '\n');
 
   // Features
@@ -94,13 +94,12 @@ async function buildAll(): Promise<void> {
  *
  * @returns The loaded defaults object, keyed by resource type.
  */
-async function collectDefaults(): Promise<OciDefaults> {
+function collectDefaults(): OciDefaults {
   process.stdout.write('📦  Defaults: ');
 
-  const contents = await Bun.file('./src/defaults.json').json();
-  const defaults = contents.defaults;
+  const defaults: OciDefaults = defaultsJSON.defaults;
 
-  Object.keys(defaults).forEach(k => _tstrings._defaults[k] = defaults[k]);
+  Object.assign(_tstrings._defaults, defaults);
 
   process.stdout.write(styleText('green', '✓') + ' 1\n');
   return defaults;
@@ -139,7 +138,7 @@ async function collectFeatures(): Promise<GeoJSON.Feature[]> {
     }
 
     const contents = await Bun.file(filepath).text();
-    let parsed;
+    let parsed: unknown;
     try {
       parsed = JSON5.parse(contents);
     } catch (jsonParseError: unknown) {
@@ -149,19 +148,35 @@ async function collectFeatures(): Promise<GeoJSON.Feature[]> {
       process.exit(1);
     }
 
-    let feature = geojsonPrecision(geojsonRewind(parsed, true), 5);
-    const fc = feature.features;
-
     // A FeatureCollection with a single feature inside (geojson.io likes to make these).
-    if (feature.type === 'FeatureCollection' && Array.isArray(fc) && fc.length === 1) {
-      feature = fc[0];
+    if (isFeatureCollection(parsed) && parsed.features.length === 1) {
+      parsed = parsed.features[0];
+    }
+    if (!isFeature(parsed)) {
+      console.error(styleText('red', 'Error - File must contain a single GeoJSON Feature in:'));
+      console.error('  ' + styleText('yellow', filepath));
+      process.exit(1);
     }
 
+    // validate that the feature has a suitable geometry
+    if (parsed.geometry?.type !== 'Polygon' && parsed.geometry?.type !== 'MultiPolygon') {
+      console.error(styleText('red', 'Error - Feature type must be "Polygon" or "MultiPolygon" in:'));
+      console.error('  ' + styleText('yellow', filepath));
+      process.exit(1);
+    }
+    if (!parsed.geometry.coordinates) {
+      console.error(styleText('red', 'Error - Feature missing coordinates in:'));
+      console.error('  ' + styleText('yellow', filepath));
+      process.exit(1);
+    }
+
+    const geometry = geojsonPrecision(geojsonRewind(parsed.geometry, true), 5);
+
     // Warn if this feature is so small it would better be represented as a circular area.
-    let area = geojsonArea.geometry(feature.geometry) / 1e6;   // m² to km²
+    let area = geojsonArea.geometry(geometry) / 1e6;   // m² to km²
     area = Number(area.toFixed(2));
     if (area < 2000) {
-      const extent = geojsonBounds.extent(feature);
+      const extent = geojsonBounds.extent(geometry);
       const lon = ((extent[0] + extent[2]) / 2).toFixed(4);
       const lat = ((extent[1] + extent[3]) / 2).toFixed(4);
       console.warn('');
@@ -172,27 +187,14 @@ async function collectFeatures(): Promise<GeoJSON.Feature[]> {
     // use the filename as the feature.id
     const id = path.basename(filepath).toLowerCase();
 
-    // validate that the feature has a suitable geometry
-    if (feature.geometry?.type !== 'Polygon' && feature.geometry?.type !== 'MultiPolygon') {
-      console.error(styleText('red', 'Error - Feature type must be "Polygon" or "MultiPolygon" in:'));
-      console.error('  ' + styleText('yellow', filepath));
-      process.exit(1);
-    }
-    if (!feature.geometry?.coordinates) {
-      console.error(styleText('red', 'Error - Feature missing coordinates in:'));
-      console.error('  ' + styleText('yellow', filepath));
-      process.exit(1);
-    }
-
     // Rebuild the feature with sorted/validated properties
     const cleanFeature: GeoJSON.Feature = {
       type: 'Feature',
       id: id,
-      properties: feature.properties ?? {},
-      geometry: {
-        type: feature.geometry.type,
-        coordinates: feature.geometry.coordinates
-      }
+      properties: parsed.properties ?? {},
+      geometry: geometry.type === 'Polygon'
+        ? { type: 'Polygon', coordinates: geometry.coordinates }
+        : { type: 'MultiPolygon', coordinates: geometry.coordinates }
     };
 
     validateFile(filepath, cleanFeature, featureSchemaJSON);
@@ -255,9 +257,9 @@ async function collectResources(loco: LocationConflation): Promise<Record<string
     }
 
     const contents = await Bun.file(filepath).text();
-    let item: OciResource;
+    let parsed: unknown;
     try {
-      item = JSON5.parse(contents);
+      parsed = JSON5.parse(contents);
     } catch (jsonParseError: unknown) {
       const message = jsonParseError instanceof Error ? jsonParseError.message : String(jsonParseError);
       console.error(styleText('red', `Error - ${message} in:`));
@@ -265,8 +267,10 @@ async function collectResources(loco: LocationConflation): Promise<Record<string
       process.exit(1);
     }
 
+    validateFile<OciResource>(filepath, parsed, resourceSchemaJSON);
+    let item: OciResource = parsed;
+
     // Check locationSet
-    item.locationSet = item.locationSet || {};
     try {
       const resolved = loco.resolveLocationSet(item.locationSet);
       if (!resolved.feature.geometry.coordinates.length || !resolved.feature.properties.area) {
@@ -280,7 +284,6 @@ async function collectResources(loco: LocationConflation): Promise<Record<string
     }
 
     // Check strings
-    item.strings = item.strings || {};
     convertURLs(item);   // first: perform trivial url conversions in-place
     let resolvedStrings;
     try {
@@ -297,9 +300,7 @@ async function collectResources(loco: LocationConflation): Promise<Record<string
     }
 
     // Clean and sort the properties for consistency, save them that way.
-    const obj: Partial<OciResource> = {};
-    if (item.id)       { obj.id = item.id; }
-    if (item.type)     { obj.type = item.type; }
+    const obj: Partial<OciResource> = { id: item.id, type: item.type };
     if (item.account)  { obj.account = item.account; }
 
     const objLocationSet: LocationSet = {};
@@ -496,6 +497,24 @@ function validateFile<T>(file: string, resource: unknown, schema: Schema): asser
     });
     process.exit(1);
   }
+}
+
+
+/** Returns `true` if `value` is a plain (non-array) object. */
+function isObject(value: unknown): value is Record<string, unknown> {
+  return typeof value === 'object' && value !== null && !Array.isArray(value);
+}
+
+
+/** Returns `true` if `value` looks like a GeoJSON `Feature` (its geometry is checked separately). */
+function isFeature(value: unknown): value is GeoJSON.Feature<GeoJSON.Geometry | null> {
+  return isObject(value) && value['type'] === 'Feature';
+}
+
+
+/** Returns `true` if `value` looks like a GeoJSON `FeatureCollection`. */
+function isFeatureCollection(value: unknown): value is GeoJSON.FeatureCollection<GeoJSON.Geometry | null> {
+  return isObject(value) && value['type'] === 'FeatureCollection' && Array.isArray(value['features']);
 }
 
 

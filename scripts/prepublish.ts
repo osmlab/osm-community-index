@@ -1,8 +1,8 @@
 import { Glob } from 'bun';
 import { styleText } from 'node:util';
+import packageJSON from '../package.json' with { type: 'json' };
 
 const CDNRoot = 'https://cdn.jsdelivr.net/npm/osm-community-index';
-const packageJSON = await Bun.file('./package.json').json();
 
 
 await prepublish();
@@ -47,7 +47,7 @@ async function metadataJSON(filepath: string): Promise<void> {
     const path = filepath.replace(/(.*)(\/dist.*)/i, '$2');
 
     // Calculate md5 of contents
-    const version = packageJSON.version as string;
+    const version = packageJSON.version;
     const message = version + contents;
     const hash = new Bun.CryptoHasher('md5').update(message).digest('hex');
     const now = new Date();
@@ -85,7 +85,7 @@ ${strProps}
  */
 async function minifyJSON(filepath: string): Promise<void> {
   const outpath = filepath.replace('.json', '.min.json');
-  const contents = await Bun.file(filepath).json();
+  const contents: unknown = await Bun.file(filepath).json();
 
   console.log(styleText('greenBright', outpath));
   await Bun.write(outpath, JSON.stringify(contents));

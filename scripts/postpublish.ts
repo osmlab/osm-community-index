@@ -1,12 +1,12 @@
 import { Glob } from 'bun';
 import { styleText } from 'node:util';
+import packageJSON from '../package.json' with { type: 'json' };
 
 const CDNRoot = 'https://purge.jsdelivr.net/npm/osm-community-index';
-const packageJSON = await Bun.file('./package.json').json();
 
 // Gather versions that need cache invalidation
 const versions = ['@latest'];
-const match = (packageJSON.version as string).match(/^(\d+)\.(\d+)/);
+const match = packageJSON.version.match(/^(\d+)\.(\d+)/);
 if (match?.[1]) {
   versions.push(`@${match[1]}`);   // major
   if (match[2]) {
@@ -52,8 +52,11 @@ async function postpublish() {
       for (const pathToPurge of paths) {
         const url = `${CDNRoot}${version}${pathToPurge}`;
         const promise = fetch(url)
-          .then(response => response.json() as Promise<{ status: string }>)
-          .then(json => console.log(styleText('greenBright', `'${url}' → ${json.status}`)))
+          .then(response => response.json())
+          .then((json: unknown) => {
+            const status = (typeof json === 'object' && json !== null && 'status' in json) ? json.status : json;
+            console.log(styleText('greenBright', `'${url}' → ${String(status)}`));
+          })
           .catch((err: unknown) => console.log(styleText('redBright', `'${url}' → ${err}`)));
 
         promises.push(promise);
