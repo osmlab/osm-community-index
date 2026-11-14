@@ -6,6 +6,7 @@ uk:
     mapeadoresivides: Mapeadores IVIDES
     mappingbotswana: Мапінг Ботсвани
     maptimebogota: MaptimeBogota
+    mapwyrcymru: Мапери Уельсу
     opensourcesanjose: Open Source San José
     openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap Аахен
@@ -126,6 +127,7 @@ uk:
     openstreetmapmalaysia: OpenStreetMap Малайзія
     openstreetmapmali: OpenStreetMap Малі
     openstreetmapmalta: OpenStreetMap Мальта
+    openstreetmapmarche: OpenStreetMap Марке
     openstreetmapmauritania: OpenStreetMap Мавританія
     openstreetmapmecklenburgvorpommern: OpenStreetMap Мекленбург-Передня Померанія
     openstreetmapmexico: OpenStreetMap Мексика
@@ -178,6 +180,7 @@ uk:
     openstreetmapsudan: OpenStreetMap Судан
     openstreetmapsweden: OpenStreetMap Швеція
     openstreetmapswitzerland: OpenStreetMap Швейцарія
+    openstreetmapsyria: OpenStreetMap Сирія
     openstreetmaptaiwan: OpenStreetMap Тайвань
     openstreetmaptanzania: OpenStreetMap Танзанія
     openstreetmapthailand: OpenStreetMap Таїланд
@@ -347,9 +350,13 @@ uk:
     extendedDescription: "Якщо ви хочете допомогти вдосконалити та розширити спільноту маперів в Бельгії, щоб змусити ще більше людей долучитись до мапінгу, OpenStreetMap Бельгія – те що вам треба!"
   be-discourse:
     description: Форум обговорення питань OpenStreetMap в Бельгії
+  be-github:
+    description: "{community} GitHub"
   be-matrix:
     description: Ласкаво просимо всіх маперів!
     extendedDescription: "Основний чат спільноти OSM Бельгія. Початківці тут можуть отримати відповіді на свої питання, не соромтесь їх задавати!"
+  be-newsletter:
+    description: Бюлетень новин бельгійської спільноти
   bg-wiki:
     description: Сторінка Wikiproject Болгарії
   bi-vc-cvl-meetup:
@@ -369,6 +376,8 @@ uk:
     extendedDescription: "Це офіційний провід відділення Youth Mappers Університету Кейп-Кост, Гана. Ми любимо мапи, відкриваємо дані та допомагаємо вразливим."
   castilla-y-leon-wiki:
     description: "Все, що вам потрібно знати про мапінг в Кастилії та Леоні: {url}"
+  cat-chapter:
+    description: Офіційний місцевий осередок каталонських країн.
   cat-github:
     description: Проєкти спільноти каталонських земель OpenStreetMap на GitHub
   cat-matrix:
@@ -611,6 +620,8 @@ uk:
     description: Форум обговорення питань OpenStreetMap в Італії
   it-emilia-romagna-telegram:
     description: "Всі бажаючі можуть приєднатися! Ви можете увійти в чат за цим посиланням: {url}"
+  it-marche-telegram:
+    description: "Група для маперів регіону Марке. Ви можете приєднатися до чату за цим посиланням: {url}"
   it-veneto-telegram:
     description: "Група для редакторів регіону Венето. Ви можете приєднатися до чату за цим посиланням: {url}"
   ivides_website:
@@ -751,6 +762,7 @@ uk:
     extendedDescription: "Мапите в Непалі? Маєте питання, бажаєте зв'язатись зі спільнотою? Приєднуйтесь до нас за адресою {url}. Ласкаво просимо!"
   Open-Source-San-Jose-Bluesky:
     description: Підпишіться на Open Source San José в Bluesky.
+    extendedDescription: Open Source San José —  це місцева неприбуткова організація, волонтери-програмісти та дизайнери, що роблять свій внесок у вирішення справ громади за допомогою технологій громадянського суспільства. OSSJ спонсорує місцеву спільноту картографів-волонтерів, які двічі на тиждень проводять South Bay Map Nights.
   Open-Source-San-Jose-Discord:
     name: Open Source San José Discord
     description: "Зв’яжіться з іншими маперами в Discord! Після реєстрації приєднуйтесь до каналу #\U0001F5FAopenstreetmap."
@@ -935,6 +947,12 @@ uk:
   osm-sheffield-matrix:
     name: OSM Шеффілд в Matrix
     description: Мапери будь-якого рівня підготовки, зацікавлені у картографуванні Шеффілда. Ця група також слугуватиме для організації місцевих зустрічей.
+  osm-syria-github:
+    description: "Пишіть код разом з нами: {url}"
+  osm-syria-website:
+    description: "Офіційний вебсайт спільноти OpenStreetMap Сирія. Дізнайтеся про картографічні проєкти, діяльність спільноти та способи зробити свій внесок."
+  osm-syria-wiki:
+    description: Сторінка вікі OpenStreetMap для Сирії.
   OSM-Tampa-Bay:
     name: OpenStreetMap Tampa Bay
     description: Мапери та користувачі OpenStreetMap з Тампа-Бей
@@ -972,6 +990,10 @@ uk:
     extendedDescription: "OSMF підтримує OpenStreetMap організовуючи збір коштів, опікуючись роботою серверів, на яких розташовано OSM, організовуючи щорічні конференції State of the Map, координуючи зусилля волонтерів, що допомагають роботі OSM. Ви можете також показати свою підтримку та мати вплив на подальший розвиток проєкту, ставши членом OSMF: {signupUrl}"
   OSMFR-Mastodon:
     name: "OpenStreetMap France у Mastodon"
+  osmmalaga-zulip:
+    name: OSM Малага
+    description: Місцева група OpenStreetMap у Малазі
+    extendedDescription: "Робочий простір для місцевої групи OpenStreetMap у Малазі, що займається координацією спільного картографування в муніципалітеті."
   ph-facebook-group:
     name: "{community} - група у Facebook"
   PHXGeo-meetup:
@@ -1051,6 +1073,12 @@ uk:
     extendedDescription: "Приєднуйтесь до # {account} на irc.freenode.org"
   vn-wiki:
     description: "{community} - сторінка у Вікі"
+  wales:
+    description: Ми допомагаємо розвивати та вдосконалювати OpenStreetMap в Уельсі.
+  Wikimedia-Bay-Area:
+    name: Wikimedia Bay Area
+    description: Зустріньте інших ентузіастів вільної культури у ВікіСалоні або Вікі-кафе
+    extendedDescription: "Місцева група користувачів Вікімедіа об'єднує ентузіастів вільної культури з Вікіпедії, Вікіданих, Вікісховища та OpenStreetMap на регулярних зустрічах у Сан-Франциско та інших місцях області затоки Сан-Франциско."
   YerCizenler-TR:
     name: Yer Çizenler
     description: Асоціація Yer Çizenler Mapping for Everyone

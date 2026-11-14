@@ -6,6 +6,7 @@ sv:
     mapeadoresivides: Mapeadores IVIDES
     mappingbotswana: Kartlägg Botswana
     maptimebogota: MaptimeBogota
+    mapwyrcymru: Mapwyr Cymru
     opensourcesanjose: Öppen källa San José
     openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap Aachen
@@ -126,6 +127,7 @@ sv:
     openstreetmapmalaysia: OpenStreetMap Malaysia
     openstreetmapmali: OpenStreetMap Mali
     openstreetmapmalta: OpenStreetMap Malta
+    openstreetmapmarche: OpenStreetMap Marche
     openstreetmapmauritania: OpenStreetMap Mauretanien
     openstreetmapmecklenburgvorpommern: OpenStreetMap Mecklenburg-Vorpommern
     openstreetmapmexico: OpenStreetMap Mexiko
@@ -178,6 +180,7 @@ sv:
     openstreetmapsudan: OpenStreetMap Sudan
     openstreetmapsweden: OpenStreetMap Sverige
     openstreetmapswitzerland: OpenStreetMap Schweiz
+    openstreetmapsyria: OpenStreetMap Syria
     openstreetmaptaiwan: OpenStreetMap Taiwan
     openstreetmaptanzania: OpenStreetMap Tanzania
     openstreetmapthailand: OpenStreetMap Thailand
@@ -347,9 +350,13 @@ sv:
     extendedDescription: "Om du vill hjälpa till att förbättra och utöka kartläggningsgemenskapen i Belgien, genom att göra fler människor galna i kartläggning, är OpenStreatMap Belgien den rätta platsen för dig! "
   be-discourse:
     description: Ett forum för att diskutera OpenStreetMap i Belgien
+  be-github:
+    description: "{community}-konto på GitHub"
   be-matrix:
     description: Alla kartläggare är välkomna!
     extendedDescription: "Primära chattrummet för den belgiska OSM-gemenskapen. Tveka inte att ställa nybörjarfrågor här!"
+  be-newsletter:
+    description: Nyhetsbrev från den belgiska gemenskapen
   bg-wiki:
     description: Wikiproject-sida för Bulgarien
   bi-vc-cvl-meetup:
@@ -369,6 +376,8 @@ sv:
     extendedDescription: "Detta är den officiella hållpunkten för Youth Mappers chapter på University of Cape Coast, Ghana. Vi älskar kartor, öppen data och att hjälpa de fattiga."
   castilla-y-leon-wiki:
     description: "Allt du behöver veta om kartläggning i Kastilien och León: {url}"
+  cat-chapter:
+    description: Den officiella lokalavdelningen för de katalanska länderna.
   cat-github:
     description: Projekt från gemenskapen för OpenStreetMap Katalanska länder på GitHub
   cat-matrix:
@@ -611,6 +620,8 @@ sv:
     description: Ett forum för att diskutera OpenStreetMap i Italien
   it-emilia-romagna-telegram:
     description: "Alla är välkomna! Du kan gå med i chatten via den här länken: {url}"
+  it-marche-telegram:
+    description: "Grupp för kartläggare från Marche-regionen. Du kan gå med i chatten via denna länk: {url}"
   it-veneto-telegram:
     description: "Grupp för kartläggare i Veneto-regionen. Du kan gå med i chatten via den här länken: {url}"
   ivides_website:
@@ -749,6 +760,9 @@ sv:
     extendedDescription: "En grupp har träffats sedan mars 2011, ursprungligen i Nottingham, och senare i Derby och ibland någon annanstans i East Midlands. Det är sociala träffar, men det är en utmärkt plats att komma till för att ställa specifika frågor om OSM, antingen i närområdet eller i allmänhet. Under sommarmånaderna brukar vi göra lite lätt kartläggning i en timme i närheten av vår mötesplats. Gruppen som helhet har ett särskilt intresse för att kartlägga vägrestriktioner  och då och då har vi kartläggningsmöten för detta ändamål."
   np-facebook:
     extendedDescription: "Kartlägger i Nepal? Har du frågor, vill du ansluta till gemenskapen här? Anslut dig på {url}. Alla är välkomna!"
+  Open-Source-San-Jose-Bluesky:
+    description: Följ Open Source San José på Bluesky.
+    extendedDescription: Open Source San José är en lokal ideell organisation som sammanför frivilliga programmerare och formgivare med lokalsamhällets behov genom samhällsnyttig teknik. OSSJ stöder den lokala frivilliga kartläggningsgemenskapens South Bay Map Nights varannan vecka.
   Open-Source-San-Jose-Discord:
     name: Open Source San José Discord
     description: "Kom i kontakt med andra kartläggare på Discord! Efter du registrerat dig, anslut till kanalen #\U0001F5FAopenstreetmap."
@@ -933,6 +947,12 @@ sv:
   osm-sheffield-matrix:
     name: OSM Sheffield Matrix
     description: Kartläggare på alla nivåer som är intresserade av att kartlägga Sheffield. Lokala träffar kommer också att planeras via denna grupp.
+  osm-syria-github:
+    description: "Koda med oss! {url}"
+  osm-syria-website:
+    description: "OpenStreetMap Syriens officiella webbplats. Upptäck kartläggningsprojekt, gemenskapsaktiviteter och sätt att bidra."
+  osm-syria-wiki:
+    description: OpenStreetMap-wikisidan för Syrien.
   OSM-Tampa-Bay:
     name: OpenStreetMap Tampa Bay
     description: Kartläggare och OpenStreetMap-användare runt Tampa Bay
@@ -970,6 +990,10 @@ sv:
     extendedDescription: "OSMF stöder OpenStreetMap-projektet genom insamling, underhåll av servrarna som driver OSM, organiserar den årliga State of the Map-konferensen och samordnar de volontärer som håller OSM igång. Du kan visa ditt stöd och göra din röst hörd för OpenStreetMap genom att bli medlem i OSMF här: {signupUrl}"
   OSMFR-Mastodon:
     name: "Mastodon-konto för OpenStreetMap Frankrike"
+  osmmalaga-zulip:
+    name: OSM Málaga
+    description: Lokal OpenStreetMap-grupp i Málaga
+    extendedDescription: "Arbetsyta för den lokala OpenStreetMap-gruppen i Málaga, avsedd för att samordna gemensam kartläggning i kommunen."
   ph-facebook-group:
     name: "Facebook-grupp för {community}"
   PHXGeo-meetup:
@@ -1049,6 +1073,12 @@ sv:
     extendedDescription: "Anslut #{account} på irc.freenode.org"
   vn-wiki:
     description: "Wiki-sida för {community}"
+  wales:
+    description: Vi hjälper till att förbättra OpenStreetMap i Wales.
+  Wikimedia-Bay-Area:
+    name: Wikimedia Bay Area
+    description: Träffa andra entusiaster för fri kultur på en WikiSalon eller ett Wiki Café
+    extendedDescription: "Wikimedias lokala användargrupp samlar entusiaster för fri kultur från Wikipedia, Wikidata, Wikimedia Commons och OpenStreetMap till regelbundna träffar i San Francisco och på andra håll i Bay Area."
   YerCizenler-TR:
     name: Yer Çizenler
     description: Yer Çizenler-kartläggning för alla  sammanslutningar

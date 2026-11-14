@@ -6,6 +6,7 @@ es:
     mapeadoresivides: Mapeadores IVIDES
     mappingbotswana: Mapeo de Botsuana
     maptimebogota: Maptime Bogotá
+    mapwyrcymru: Mapwyr Cymru
     opensourcesanjose: Código Abierto San José
     openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap Aquisgrán
@@ -126,6 +127,7 @@ es:
     openstreetmapmalaysia: OpenStreetMap Malasia
     openstreetmapmali: OpenStreetMap Mali
     openstreetmapmalta: OpenStreetMap Malta
+    openstreetmapmarche: OpenStreetMap Marche
     openstreetmapmauritania: OpenStreetMap Mauritania
     openstreetmapmecklenburgvorpommern: OpenStreetMap Mecklemburgo-Pomerania Occidental
     openstreetmapmexico: OpenStreetMap México
@@ -178,6 +180,7 @@ es:
     openstreetmapsudan: OpenStreetMap Sudán
     openstreetmapsweden: OpenStreetMap Suecia
     openstreetmapswitzerland: OpenStreetMap Suiza
+    openstreetmapsyria: OpenStreetMap Siria
     openstreetmaptaiwan: OpenStreetMap Taiwán
     openstreetmaptanzania: OpenStreetMap Tanzania
     openstreetmapthailand: OpenStreetMap Tailandia
@@ -347,9 +350,13 @@ es:
     extendedDescription: "Si quieres ayudar a mejorar y crecer la comunidad de mapeo en Bélgica, para que más gente se apasione por el mapeo, ¡OpenStreetMap Bélgica es el lugar para ti!"
   be-discourse:
     description: Un foro para debatir sobre OpenStreetMap en Bélgica
+  be-github:
+    description: "Cuenta de GitHub de {community}"
   be-matrix:
     description: ¡Todos los mapeadores son bienvenidos!
     extendedDescription: "Sala de chat principal de la comunidad OSM belga. ¡No dudes en preguntar dudas de principiante!"
+  be-newsletter:
+    description: Boletín informativo de la comunidad belga
   bg-wiki:
     description: Página del wikiproyecto para Bulgaria
   bi-vc-cvl-meetup:
@@ -369,6 +376,8 @@ es:
     extendedDescription: "Este es el usuario oficial del capítulo de YouthMappers de la Universidad de Cape Coast, Ghana. Nos encantan los mapas, los datos abiertos y ayudar a las personas vulnerables."
   castilla-y-leon-wiki:
     description: "Todo lo que necesitas saber sobre el mapeo en Castilla y León: {url}"
+  cat-chapter:
+    description: El capítulo local oficial de los Países Catalanes.
   cat-github:
     description: Proyectos de la comunidad de Países Catalanes de OpenStreetMap en GitHub
   cat-matrix:
@@ -611,6 +620,8 @@ es:
     description: Un foro para debatir sobre OpenStreetMap en Italia
   it-emilia-romagna-telegram:
     description: "¡Todos son bienvenidos! Puedes unirte al chat con este enlace: {url}"
+  it-marche-telegram:
+    description: "Grupo para mapeadores de la región de Marche. Puedes unirte al chat mediante este enlace: {url}"
   it-veneto-telegram:
     description: "Grupo para editores en la región de Veneto. Puedes unirte al chat usando este enlace: {url}"
   ivides_website:
@@ -936,6 +947,12 @@ es:
   osm-sheffield-matrix:
     name: OSM Sheffield Matrix
     description: Mapeadores de cualquier nivel interesados en mapear Sheffield. También se planificarán encuentros locales a través de este grupo.
+  osm-syria-github:
+    description: "¡Programa con nosotros! {url}"
+  osm-syria-website:
+    description: "Sitio web oficial de la comunidad de OpenStreetMap Siria. Descubre proyectos de mapeo, actividades comunitarias y formas de colaborar."
+  osm-syria-wiki:
+    description: Página de Siria en la wiki de OpenStreetMap.
   OSM-Tampa-Bay:
     name: OpenStreetMap Tampa Bay
     description: Mapeadores y usuarios de OpenStreetMap en el área de Tampa Bay
@@ -973,6 +990,10 @@ es:
     extendedDescription: "OSMF apoya a OpenStreetMap mediante la recaudación de fondos, el mantenimiento de los servidores que impulsan OSM, la organización de la conferencia anual State of the Map y la coordinación de los voluntarios que mantienen OSM en funcionamiento. Puedes mostrar tu apoyo y tener voz en la dirección de OpenStreetMap uniéndote como miembro de OSMF aquí: {signupUrl}"
   OSMFR-Mastodon:
     name: "Cuenta de Mastodon de OpenStreetMap Francia"
+  osmmalaga-zulip:
+    name: OSM Málaga
+    description: Grupo local de OpenStreetMap en Málaga
+    extendedDescription: "Espacio de trabajo del grupo local de OpenStreetMap en Málaga, dedicado a coordinar el mapeo colaborativo en el municipio."
   ph-facebook-group:
     name: "Grupo de Facebook de {community}"
   PHXGeo-meetup:
@@ -1052,6 +1073,8 @@ es:
     extendedDescription: "Únete a #{account} en irc.freenode.org"
   vn-wiki:
     description: "Página wiki de {community}"
+  wales:
+    description: Ayudamos a mejorar OpenStreetMap en Gales.
   Wikimedia-Bay-Area:
     name: Wikimedia Bay Area
     description: Conoce a otros entusiastas de la cultura libre en un WikiSalon o Wiki Café

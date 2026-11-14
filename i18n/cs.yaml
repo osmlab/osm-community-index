@@ -6,6 +6,7 @@ cs:
     mapeadoresivides: Mapovači IVIDES
     mappingbotswana: Mapování Botswany
     maptimebogota: MaptimeBogota
+    mapwyrcymru: Mapovači Walesu
     opensourcesanjose: Open Source San José
     openstreetmap: OpenStreetMap
     openstreetmapaachen: OpenStreetMap Cáchy
@@ -126,6 +127,7 @@ cs:
     openstreetmapmalaysia: OpenStreetMap Malajsie
     openstreetmapmali: OpenStreetMap Mali
     openstreetmapmalta: OpenStreetMap Malta
+    openstreetmapmarche: OpenStreetMap Marche
     openstreetmapmauritania: OpenStreetMap Mauritánie
     openstreetmapmecklenburgvorpommern: OpenStreetMap Meklenburako-Přední Pomořansko
     openstreetmapmexico: OpenStreetMap Mexiko
@@ -178,6 +180,7 @@ cs:
     openstreetmapsudan: OpenStreetMap Súdán
     openstreetmapsweden: OpenStreetMap Švédsko
     openstreetmapswitzerland: OpenStreetMap Švýcarsko
+    openstreetmapsyria: OpenStreetMap Sýrie
     openstreetmaptaiwan: OpenStreetMap Tchaj-wan
     openstreetmaptanzania: OpenStreetMap Tanzanie
     openstreetmapthailand: OpenStreetMap Thajsko
@@ -347,9 +350,13 @@ cs:
     extendedDescription: "Pokud chcete pomoci zlepšovat a rozšířit mapovací komunitu v Belgii aby se ještě více lidí zbláznilo do mapování, OpenStreetMap Belgie je to správné místo pro vás!"
   be-discourse:
     description: Fórum k diskusi ohledně OpenStreetMap v Belgii
+  be-github:
+    description: "{community} účet na GitHubu"
   be-matrix:
     description: Všichni mapovači jsou vítáni!
     extendedDescription: "Hlavní chatovací místnost belgické komunity OSM. Neváhejte se zde zeptat na vývojářské otázky!"
+  be-newsletter:
+    description: Zpravodaj belgické komunity
   bg-wiki:
     description: Stránka wikiprojektu pro Bulharsko
   bi-vc-cvl-meetup:
@@ -369,6 +376,8 @@ cs:
     extendedDescription: "Tohle je oficiální rukojeť pro zastoupení YouthMappers na University of Cape Coast v Ghaně. Milujeme mapy, otevřená data a pomoc zranitelným."
   castilla-y-leon-wiki:
     description: "Vše, co potřebujete vědět o mapování v Castile a Leonu: {url}"
+  cat-chapter:
+    description: Oficiální místní zastoupení pro katalánské země.
   cat-github:
     description: Projekty z komunity OpenStreetMap Katalánské země na GitHubu
   cat-matrix:
@@ -611,6 +620,8 @@ cs:
     description: Fórum k diskusi ohledně OpenStreetMap v Itálii
   it-emilia-romagna-telegram:
     description: "Všichni jsou vítáni! Můžete vstoupit do chatu pomocí tohoto odkazu: {url}"
+  it-marche-telegram:
+    description: "Skupina pro mapovače z oblasti Marche. Můžete vstoupit do chatu pomocí tohoto odkazu: {url}"
   it-veneto-telegram:
     description: "Skupina pro editory v oblasti Benátska. Můžete vstoupit do chatu pomocí tohoto odkazu: {url}"
   ivides_website:
@@ -936,6 +947,12 @@ cs:
   osm-sheffield-matrix:
     name: OSM Sheffield Matrix
     description: Mapovači s jakýmikoli dovednostmi, kteří mají zájem o mapování Sheffieldu. Místní setkání se budou plánovát také prostřednictvím této skupiny.
+  osm-syria-github:
+    description: "Kódujte s námi: {url}"
+  osm-syria-website:
+    description: "Oficiální webová stránka komunity OpenStreetMap v Sýrii. Seznamte se s mapovacími projekty, komunitními aktivitami a možnostmi, jak se zapojit."
+  osm-syria-wiki:
+    description: Wiki stránka OpenStreetMap pro Sýrii.
   OSM-Tampa-Bay:
     name: OpenStreetMap Tampa Bay
     description: Mapovači a uživatelé OpenStreetMap na území Tampa Bay
@@ -973,6 +990,10 @@ cs:
     extendedDescription: "OSMF podporuje projekt OpenStreetMap získáváním finančních prostředků, údržbou serverů, které pohání OSM, pořádáním každoroční konference State of the Map a koordinací dobrovolníků, kteří udržují OSM v chodu. Svou podporu a hlas ve směru OpenStreetMap můžete projevit tím, že se připojíte jako člen OSMF zde: {signupUrl}"
   OSMFR-Mastodon:
     name: "Účet na Mastodonu OpenStreetMap Francie"
+  osmmalaga-zulip:
+    name: OSM Malaga
+    description: Místní skupina OpenStreetMap v Malaze.
+    extendedDescription: "Pracovní prostor pro místní skupinu OpenStreetMap v Malaze určený ke koordinovanému společnému mapování v obci."
   ph-facebook-group:
     name: "{community} skupina na Facebooku"
   PHXGeo-meetup:
@@ -1052,6 +1073,8 @@ cs:
     extendedDescription: "Připojte se k #{account} na irc.freenode.org"
   vn-wiki:
     description: "{community} Wiki page"
+  wales:
+    description: Pomáháme OpenStreetMap ve Walesu zlepšovat se.
   Wikimedia-Bay-Area:
     name: Wikimedia Bay Area
     description: Setkejte se s dalšími příznivci svobodné kultury na WikiSalon nebo Wiki Café

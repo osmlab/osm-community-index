@@ -119,6 +119,7 @@ el:
     openstreetmapmalaysia: OpenStreetMap Μαλαισία
     openstreetmapmali: OpenStreetMap Μάλι
     openstreetmapmalta: OpenStreetMap Μάλτα
+    openstreetmapmarche: OpenStreetMap Μάρκε
     openstreetmapmauritania: OpenStreetMap Μαυριτανία
     openstreetmapmecklenburgvorpommern: OpenStreetMap Μεκλεμβούργο-Δυτική Πομερανία
     openstreetmapmexico: OpenStreetMap Μεξικό
@@ -169,6 +170,7 @@ el:
     openstreetmapsudan: OpenStreetMap Σουδάν
     openstreetmapsweden: OpenStreetMap Σουηδία
     openstreetmapswitzerland: OpenStreetMap Ελβετία
+    openstreetmapsyria: OpenStreetMap Συρία
     openstreetmaptaiwan: OpenStreetMap Ταϊβάν
     openstreetmaptanzania: OpenStreetMap Τανζανία
     openstreetmapthailand: OpenStreetMap Ταϊλάνδη
@@ -324,9 +326,13 @@ el:
     extendedDescription: "Χαρτογράφηση στο Μπαγκλαντές; Έχετε ερωτήσεις, θέλετε να συνδεθείτε με την κοινότητα εδώ; Ελάτε μαζί μας στο {url}. Είναι όλοι ευπρόσδεκτοι!"
   be-discourse:
     description: Ένα Forum για συζήτηση του OpenStreetMap στο Βέλγιο
+  be-github:
+    description: "{community} Λογαγιασμός στο GitHub"
   be-matrix:
     description: Όλοι οι χαρτογράφοι είναι ευπρόσδεκτοι!
     extendedDescription: "Κύριο chatroom της βελγικής κοινότητας OSM. Μη διστάσετε να κάνετε ερωτήσεις για αρχάριους εδώ!"
+  be-newsletter:
+    description: Ενημερωτικό δελτίο της Βελγικής κοινότητας
   bg-wiki:
     description: Σελίδα Wikiproject για Βουλγαρία
   bo-facebook-group:
@@ -338,6 +344,8 @@ el:
     description: "Ακολουθήστε μας στο X: {url}"
   castilla-y-leon-wiki:
     description: "Όλα όσα χρειάζεται να ξέρετε για την χαρτογράφηση στην Καστίλλη και Λεόν: {url}"
+  cat-chapter:
+    description: Το επίσημο Τοπικό Παράρτημα για τις Καταλανικές Χώρες.
   cat-twitch:
     name: "Κανάλι Twitch για {community}"
   cd-chapter:
@@ -443,6 +451,8 @@ el:
     description: Βοηθάμε την ανάπτυξη και τη βελτίωση του OpenStreetMap στην Ισλανδία
   it-discourse:
     description: Ένα Forum για συζήτηση του OpenStreetMap στην Ιταλία
+  it-marche-telegram:
+    description: "Ομάδα των χαρτογράφων από την περιφέρεια Μάρκε! Μπορείτε να μπείτε στη συνομιλία με αυτόν τον σύνδεσμο: {url}"
   ivides_website:
     description: "Εστιάζουμε στην βιώσιμη ανάπτυξη, χαρτογράφηση, και υποστήριξη της κοινότητας του OpenStreetMap."
   ko-github:
@@ -564,6 +574,12 @@ el:
     description: "{community} Wiki σελίδα"
   OSM-Rome-meetup:
     name: Incontro Mappatori Romani
+  osm-syria-github:
+    description: "Προγραμματίστε μαζί μας! {url}"
+  osm-syria-website:
+    description: "Ο επίσημος ιστότοπος της κοινότητας OpenStreetMap Συρίας. Ανακαλύψτε εγχειρήματα χαρτογράφησης, δραστηριότητες κοινότητας και τρόπους για να συνεισφέρετε."
+  osm-syria-wiki:
+    description: Η σελίδα στο Wiki του OpenStreetMap για τη Συρία.
   OSM-Telegram:
     description: "Συνδεθείτε στην παγκόσμια υπερομάδα Telegram του OpenStreetMap στο {url}"
   OSM-US-Slack:
@@ -574,6 +590,9 @@ el:
     name: OpenStreetMap Ουαϊόμινγκ
   OSMF:
     name: Ίδρυμα OpenStreetMap
+  osmmalaga-zulip:
+    description: Τοπική ομάδα OpenStreetMap στη Μάλαγα.
+    extendedDescription: "Χώρος εργασίας για την τοπική ομάδα OpenStreetMap στη Μάλαγα, αφιερωμένος στον συντονισμό της συνεργατικής χαρτογράφησης στον δήμο."
   ph-facebook-group:
     name: "{community} Ομάδα Facebook"
   PHXGeo-twitter:
@@ -616,6 +635,8 @@ el:
     description: "{community} Wiki σελίδα"
   vn-wiki:
     description: "{community} Wiki σελίδα"
+  wales:
+    description: Βοηθάμε στη βελτίωση του OpenStreetMap στην Ουαλία.
   YerCizenler-TR:
     name: Yer Çizenler
   ym-Abia-State-University:
